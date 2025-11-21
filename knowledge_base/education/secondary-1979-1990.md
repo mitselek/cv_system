@@ -1,0 +1,16 @@
+Last updated: 2025-11-21T13:01:37+02:00
+
+---
+id: secondary-education-1979-1990
+type: education
+dates:
+  start: '1979'
+  end: '1990'
+institutions:
+  - Riga Secondary School No. 1
+  - Tallinn Secondary School of Science
+  - Õismäe Humanities Gymnasium
+degree: Secondary Education
+status: verified
+last_verified: '2025-11-21'
+---

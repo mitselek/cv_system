@@ -1,0 +1,18 @@
+Last updated: 2025-11-21T13:01:37+02:00
+
+---
+id: justiitsministeerium-criminal-care-is-2005
+aliases: ["Criminal Care Information System"]
+type: achievement
+parent_experience: justiitsministeerium-2002-2005
+title:
+  et: Kriminaalhoolduse infosüsteem
+  en: Criminal Care Information System
+tags:
+  - government
+  - software-development
+  - oracle
+  - dotnet
+status: verified
+last_verified: '2025-11-21'
+---

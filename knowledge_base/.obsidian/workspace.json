@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "34265af78f071e16",
+    "type": "split",
+    "children": [
+      {
+        "id": "103732f1e7378535",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f93555f669b842aa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6877d56cdc2b69ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e5eb42885be1235",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51058defc24b5803",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fa9d82e1aac0c86a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2c4c170ed937690f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c2643f36a4e214d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0937dd4db7bf32f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61b4612e89cb00c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "achievements/eka-email-migration-2012.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for eka-email-migration-2012"
+            }
+          },
+          {
+            "id": "75c86c643a8c316a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "achievements/eka-email-migration-2012.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from eka-email-migration-2012"
+            }
+          },
+          {
+            "id": "df3f6a21638f93be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d82cc5913d8a6440",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "aa6e3353808158f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "achievements/eka-email-migration-2012.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of eka-email-migration-2012"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f93555f669b842aa",
+  "lastOpenFiles": [
+    "_compiled_context.md",
+    "hobbies/astronomy-physics.md",
+    "cad-onshape.md",
+    "entu-2010-present.md",
+    "hobbies/3d-modeling-printing.md",
+    "languages/russian.md",
+    "languages/english.md",
+    "languages/latvian.md",
+    "languages/estonian.md",
+    "achievements/eka-email-migration-2012.md",
+    "skills/team-leadership.md.__stamp__",
+    "skills/system-architecture.md.__stamp__",
+    "skills/python.md.__stamp__",
+    "skills/project-management.md.__stamp__",
+    "skills/javascript.md.__stamp__",
+    "skills/it-management.md.__stamp__",
+    "skills/database-management.md.__stamp__",
+    "skills/data-curation.md.__stamp__",
+    "experiences/worgu-wolurid_2000-present.md.__stamp__",
+    "experiences/tftak_2013-2015.md.__stamp__",
+    "achievements/eka-entu-implementation-2012.md",
+    "achievements/mem-historian-db-adoption-2024.md",
+    "skills/database-management.md",
+    "experiences/worgu-wolurid_2000-present.md",
+    "experiences/den-za-dnjom_1996-1999.md",
+    "experiences/kbfi_1986-1990.md",
+    "achievements/soov-kirjastus-classifieds-db-1993.md",
+    "achievements/oopus-disaini-liviko-logo-1995.md",
+    "achievements/oopus-repro-den-za-dnjom-acquisition-1996.md",
+    "achievements/tele2-documentation-process-2009.md",
+    "achievements/justiitsministeerium-criminal-procedure-register-2005.md",
+    "achievements/justiitsministeerium-criminal-care-is-2005.md",
+    "achievements/poff-intern-hiring-2024.md",
+    "achievements/eka-lan-construction-2012.md",
+    "experiences/auma-expo_1992-1993.md",
+    "experiences/soov-kirjastus_1993.md"
+  ]
+}

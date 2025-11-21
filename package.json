@@ -1,0 +1,22 @@
+{
+  "name": "cv_system_compiler",
+  "version": "1.0.0",
+  "description": "Compiles modular CV knowledge base into a single LLM-friendly context file.",
+  "main": "dist/scripts/build_context.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scripts/build_context.js",
+    "compile": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "Mihkel Putrinš",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
