@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 16753152
       }
+    },
+    {
+      "query": "file:contact.md",
+      "color": {
+        "a": 1,
+        "rgb": 15002857
+      }
     }
   ],
   "collapse-display": true,

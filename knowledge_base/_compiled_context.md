@@ -1341,7 +1341,7 @@ tags:
   - international
 evidence:
   - entusiastid-ou-2010-present
-  - tartu-ulikool_2014-2015
+  - tartu-ulikool-2014-2015
   - ilusa-koodi-instituut-2021-2024
 ```
 
@@ -1366,7 +1366,7 @@ evidence:
 Strong professional English demonstrated through:
 
 - [[entusiastid-ou-2010-present]] - International client communications
-- [[tartu-ulikool_2014-2015]] - Academic research documentation
+- [[tartu-ulikool-2014-2015]] - Academic research documentation
 - [[ilusa-koodi-instituut-2021-2024]] - Technical leadership and documentation
 
 ---

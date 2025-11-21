@@ -12,10 +12,14 @@ To generate a complete, honest, and professional job application by synthesizing
 
 ## Core Inputs
 
-This prompt requires two primary inputs to function:
+This prompt requires one primary input from the user:
 
 1.  **The Job Advertisement:** The full text of the job posting the user wants to apply for.
+
+The prompt will automatically access:
+
 2.  **The Compiled Context:** The full content of the `_compiled_context.md` file, which is the single source of truth for the candidate's skills, experiences, and achievements.
+3.  **Contact Information:** The content of the `contact.md` file from the knowledge base, containing verified contact details.
 
 ---
 
@@ -26,9 +30,10 @@ This prompt requires two primary inputs to function:
 Before generating any application materials, conduct a comprehensive analysis based *only* on the provided inputs.
 
 #### 1.1. Source Material Analysis (Compiled Context)
--   The **Compiled Context** (`_compiled_context.md`) is the **ONLY** source of truth for the candidate's background.
--   This file contains a structured list of all validated work history, skills, achievements, education, and certifications.
--   **CRITICAL INTEGRITY CONSTRAINT:** Never invent, embellish, or infer information not explicitly present in this compiled context. Adhere strictly to the `constitution.md`'s Principle of Integrity.
+-   Read the **Compiled Context** from `/cv_system/knowledge_base/_compiled_context.md` - this is the **ONLY** source of truth for the candidate's background.
+-   Read the **Contact Information** from `/cv_system/knowledge_base/contact.md` - this is the **ONLY** source for personal contact details (name, email, phone, etc.).
+-   These files contain a structured list of all validated work history, skills, achievements, education, certifications, and contact information.
+-   **CRITICAL INTEGRITY CONSTRAINT:** Never invent, embellish, or infer information not explicitly present in these source files. Adhere strictly to the `constitution.md`'s Principle of Integrity.
 
 #### 1.2. Job Advertisement Analysis
 -   Analyze the provided job posting thoroughly.
@@ -60,13 +65,15 @@ Based on the analysis, generate a complete set of application documents.
 
 **3. Adapted CV (`[CV_file].md`)**
 -   **CRITICAL:** Add the standard HTML comment metadata header.
+-   **CRITICAL:** Use contact information from the `contact.md` file - never invent or guess contact details.
 -   Select the most relevant `experiences`, `skills`, and `achievements` from the Compiled Context that align with the job ad.
 -   Arrange the selected items to highlight the candidate's suitability.
--   **DO NOT** add any information not present in the Compiled Context.
+-   **DO NOT** add any information not present in the Compiled Context or Contact files.
 -   Format the CV professionally, adhering to the `constitution.md` style guide (no emojis, correct spacing, etc.).
 
 **4. Motivation Letter (`[motivation_letter_file].md`)**
 -   **CRITICAL:** Add the standard HTML comment metadata header.
+-   **CRITICAL:** Use contact information from the `contact.md` file for the letterhead and signature.
 -   Draft a professional and authentic letter that connects specific `experiences` and `achievements` from the Compiled Context to the requirements in the job ad.
 -   If there are significant gaps, adopt an honest tone that emphasizes learning ability and transferable skills.
 -   Demonstrate genuine interest based on the details in the job ad.
@@ -78,7 +85,8 @@ Based on the analysis, generate a complete set of application documents.
 
 ## 3. Quality Controls & Constraints
 
--   **Integrity:** All generated content must be verifiable against the provided `_compiled_context.md`.
+-   **Integrity:** All generated content must be verifiable against the provided `_compiled_context.md` and `contact.md` files.
+-   **No Invented Information:** Never create or guess contact details, names, or any personal information not explicitly provided in the source files.
 -   **No Emojis:** Strictly adhere to the "No Emojis" rule from the `constitution.md`.
 -   **Markdown Linting:** All generated Markdown files must be perfectly formatted (blank lines around headings/lists, no trailing spaces, etc.).
 -   **Metadata:** All CVs and Motivation Letters must include the required HTML comment header for PDF generation.
@@ -87,15 +95,14 @@ Based on the analysis, generate a complete set of application documents.
 ## How to Use This Prompt
 
 1.  **Provide the Job Ad:** Paste the full text of the job advertisement.
-2.  **Provide the Context:** Paste the entire content of the `/cv_system/knowledge_base/_compiled_context.md` file.
+2.  **The system will automatically read:**
+    - `/cv_system/knowledge_base/_compiled_context.md` for professional background
+    - `/cv_system/knowledge_base/contact.md` for contact information
 3.  **Execute:** The LLM will perform the analysis and generate all the necessary application files.
 
 **Example User Invocation:**
 
-> "Please generate an application based on the following job ad and my professional background. Follow the instructions in `/cv_system/prompts/generate_application.prompt.md`."
+> "Please generate an application for this job posting. Follow the instructions in `/cv_system/prompts/generate_application.prompt.md`."
 >
 > **Job Ad:**
 > `[...paste job ad here...]`
->
-> **My Background:**
-> `[...paste content of _compiled_context.md here...]`
