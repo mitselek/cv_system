@@ -18,12 +18,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | Date Applied | Company | Position | Fit Score | Application Link | Deadline | Status | Notes |
 |-------------|---------|----------|-----------|------------------|----------|--------|-------|
 | 2025-11-21 | DataShift OÜ | Project Manager | 70% | [README](DataShift/Project_Manager/README.md) | 2025-12-21 | Submitted | Strong PM experience, design background. Gaps: Jira, A/B testing, copywriting. |
+| 2025-11-21 | BCS Itera AS | ERP Project Manager | 75% | [README](BCS_Itera/ERP_Project_Manager/README.md) | Not specified | Submitted | Strong ERP-like implementation experience (Entu 15+ yrs, 30+ orgs). Gap: traditional ERP platforms. Contact: merilin.aug@itera.ee |
 
 ## Statistics
 
-- **Total Applications:** 1
+- **Total Applications:** 2
 - **Active (Draft/Ready):** 0
-- **Submitted:** 1
+- **Submitted:** 2
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0

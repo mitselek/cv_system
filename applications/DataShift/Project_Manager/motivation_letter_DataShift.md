@@ -19,50 +19,50 @@ Tallinn, Estonia
 
 Dear Hiring Team at DataShift,
 
-I am writing to express my strong interest in the Project Manager position at DataShift. With over 30 years of experience managing complex projects, leading cross-functional teams, and bridging creative and technical workflows, I believe I can contribute significantly to your team's success.
+Kirjutan, et väljendada oma sügavat huvi DataShifti projektijuhi ametikoha vastu. Oma üle 30-aastase kogemusega keerukate projektide juhtimisel, valdkonnaülese meeskonna eestvedamisel ning loominguliste ja tehniliste töövoogude ühendamisel usun, et suudan teie meeskonna edusse oluliselt panustada.
 
 ## Why I'm a Strong Fit
 
-**Proven Project Management Experience**
+**Tõestatud projektijuhtimise kogemus**
 
-My work as Project Coordinator and Team Leader at PÖFF (2021-2024) demonstrates my ability to manage complex projects under pressure. During Estonia's largest international film festival, I coordinated a team of 5+ professionals across multiple departments, managing timelines, communications, and deliverables in a high-stakes environment. This experience closely mirrors the coordination challenges of managing web projects across developers, designers, and stakeholders.
+Minu töö PÖFF-i (2021–2024) projektikoordinaatori ja meeskonnajuhina demonstreerib minu võimet juhtida keerukaid projekte surve all. Eesti suurima rahvusvahelise filmifestivali ajal koordineerisin 5+ professionaalist koosnevat meeskonda mitmes osakonnas, hallates ajakavasid, kommunikatsiooni ja tulemusi kõrge panusega keskkonnas. See kogemus peegeldab tihedalt veebiprojektide koordineerimise väljakutseid arendajate, disainerite ja sidusrühmade vahel.
 
-At the Estonian Academy of Arts (2009-2012), I led major technical projects including migrating 1000+ mailboxes to Gmail, implementing a new intranet system, and constructing campus-wide LAN infrastructure. These projects required meticulous planning, stakeholder communication, and managing dependencies across technical and non-technical teams—skills directly applicable to web project management.
+Eesti Kunstiakadeemias (2009–2012) juhtisin suuri tehnilisi projekte, sealhulgas üle 1000 postkasti migreerimist Gmaili, uue intraneti süsteemi juurutamist ja ülikoolilinnakuülese LAN-infrastruktuuri ehitamist. Need projektid nõudsid hoolikat planeerimist, sidusrühmade kommunikatsiooni ja sõltuvuste haldamist tehniliste ja mittetehniliste meeskondade vahel – oskused, mis on otseselt rakendatavad veebiprojektide juhtimisel.
 
-**Deep Understanding of Content Creation Processes**
+**Sügav arusaam sisuloomise protsessidest**
 
-My 10+ years of professional design and layout experience (1993-1999, 2010-present) gives me a unique advantage in understanding content creation workflows. Having worked as both designer and project manager at multiple agencies (Oopus Disaini, Oopus Repro, Den za Dnjom, BalticWindow), I understand the creative process from the inside out. This background allows me to communicate effectively with designers, anticipate potential bottlenecks, and ensure smooth coordination between creative and technical teams.
+Minu üle 10-aastane professionaalne disaini- ja küljenduskogemus (1993–1999, 2010–praeguseni) annab mulle ainulaadse eelise sisuloomise töövoogude mõistmisel. Olles töötanud nii disaineri kui ka projektijuhina mitmes agentuuris (Oopus Disaini, Oopus Repro, Den za Dnjom, BalticWindow), mõistan loomingulist protsessi seestpoolt. See taust võimaldab mul tõhusalt suhelda disaineritega, ennetada võimalikke kitsaskohti ja tagada sujuv koordineerimine loominguliste ja tehniliste meeskondade vahel.
 
-**Strong Communication and Organization**
+**Tugev suhtlemis- ja organiseerimisoskus**
 
-I am highly organized and excel at seeing projects through from start to finish. My C2 English proficiency (verified) ensures clear communication in international contexts, and my experience coordinating cross-border projects at BalticWindow (1998-2010) demonstrates my ability to manage distributed teams. I thrive in environments where multiple projects run simultaneously and prioritization is critical.
+Olen väga organiseeritud ja oskan projekte algusest lõpuni edukalt ellu viia. Minu C2 taseme inglise keele oskus (kontrollitud) tagab selge suhtluse rahvusvahelises kontekstis ning minu kogemus piiriüleste projektide koordineerimisel BalticWindowis (1998–2010) demonstreerib minu võimet hallata hajutatud meeskondi. Edukalt tegutsen keskkondades, kus mitu projekti toimuvad samaaegselt ja prioriseerimine on kriitilise tähtsusega.
 
 ## Areas for Growth
 
 I want to be transparent about areas where I'll need to develop:
 
-**Jira Experience:** While I haven't used Jira specifically, I am comfortable learning new project management tools and have successfully adopted various systems throughout my career. I am confident I can become proficient quickly, as the underlying principles of task management and workflow coordination are familiar to me.
+**Jira kogemus:** Kuigi mul puudub spetsiifiline Jira kasutamise kogemus, olen avatud uute projektijuhtimise tööriistade õppimisele ja olen oma karjääri jooksul edukalt omandanud erinevaid süsteeme. Olen kindel, et suudan kiiresti vilunuks saada, kuna ülesannete haldamise ja töövoo koordineerimise aluspõhimõtted on mulle tuttavad.
 
-**A/B Testing:** I don't have direct experience conducting A/B tests, but I am genuinely excited to learn this skill. My technical background (database management, system architecture) provides a strong foundation for understanding data-driven decision-making, and I am eager to apply these analytical methods to user experience optimization.
+**A/B testimine:** Mul puudub otsene kogemus A/B testide läbiviimisel, kuid olen siiralt huvitatud selle oskuse omandamisest. Minu tehniline taust (andmebaaside haldus, süsteemiarhitektuur) annab tugeva aluse andmepõhise otsustusprotsessi mõistmiseks ja olen innukas neid analüütilisi meetodeid kasutajakogemuse optimeerimisel rakendama.
 
-**Marketing Copywriting:** While I have strong written communication skills, my copywriting experience is more technical/documentation-focused than marketing-oriented. However, my design background gives me a solid understanding of how visual and textual content work together to engage audiences. I see this as an area where I can grow alongside your team.
+**Turundustekstide loomine:** Kuigi mul on tugev kirjalik suhtlemisoskus, on minu tekstide loomise kogemus pigem tehnilise/dokumentatsiooni-keskse iseloomuga kui turundusorientatsiooniga. Samas annab minu disainitaust mulle hea arusaama sellest, kuidas visuaalne ja tekstiline sisu koos publikut kaasavad. Näen seda valdkonnana, kus saan teie meeskonnaga koos areneda.
 
 ## Why DataShift?
 
-DataShift's focus on innovative solutions and commitment to excellence aligns perfectly with my career trajectory. I am particularly drawn to your emphasis on cutting-edge ideas and professional growth. The opportunity to work on web projects that shape the future of technology, while developing new skills in A/B testing and marketing content, is exactly the kind of challenge I'm seeking at this stage of my career.
+DataShifti keskendumine uuenduslikele lahendustele ja pühendumus tipptasemele ühtib suurepäraselt minu karjääritrajektooriga. Mind köidab eriti teie rõhuasetus tipptasemel ideedele ja professionaalsele arengule. Võimalus töötada veebiprojektidega, mis kujundavad tehnoloogia tulevikku, arendades samal ajal uusi oskusi A/B testimises ja turundussisu loomises, on täpselt selline väljakutse, mida ma oma karjääri praeguses etapis otsin.
 
-Your modern office in the city center, international conference opportunities, and comprehensive benefits package demonstrate a commitment to employee well-being that I deeply value. I am especially excited about the prospect of contributing to projects that have measurable impact and working with a team that values both innovation and collaboration.
+Teie kaasaegne kontor kesklinnas, rahvusvahelised konverentsivõimalused ja terviklik hüvede pakett demonstreerivad pühendumust töötajate heaolule, mida ma sügavalt väärtustan. Olen eriti põnevil võimalusest panustada projektidesse, millel on mõõdetav mõju, ja töötada meeskonnaga, mis väärtustab nii innovatsiooni kui ka koostööd.
 
 ## What I Bring to DataShift
 
-- **Proven ability to manage complex projects** from planning to delivery
-- **Experience coordinating cross-functional teams** across creative, technical, and administrative domains
-- **Deep understanding of content creation workflows** through 10+ years of professional design experience
-- **Strong technical foundation** enabling effective communication with development teams
-- **Exceptional organizational skills** and ability to handle multiple concurrent projects
-- **C2 English proficiency** for clear international communication
-- **Commitment to learning** and developing new competencies (Jira, A/B testing, marketing copywriting)
-- **30+ years of professional experience** demonstrating reliability, adaptability, and continuous growth
+- **Tõestatud võimekus juhtida keerukaid projekte** planeerimisest teostuseni.
+- **Kogemus valdkonnaüleste meeskondade koordineerimisel** loomingulistes, tehnilistes ja administratiivsetes valdkondades.
+- **Sügav arusaam sisuloomise töövoogudest** tänu üle 10-aastasele professionaalsele disainikogemusele.
+- **Tugev tehniline alus**, mis võimaldab tõhusat suhtlust arendusmeeskondadega.
+- **Erakordsed organiseerimisoskused** ja võimekus hallata mitut samaaegset projekti.
+- **C2 taseme inglise keele oskus** selgeks rahvusvaheliseks suhtluseks.
+- **Pühendumus õppimisele** ja uute pädevuste arendamisele (Jira, A/B testimine, turundustekstide loomine).
+- **Üle 30 aasta professionaalset kogemust**, mis demonstreerib usaldusväärsust, kohanemisvõimet ja pidevat arengut.
 
 ## Next Steps
 
