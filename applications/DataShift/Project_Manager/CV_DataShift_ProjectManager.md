@@ -10,7 +10,7 @@ author: Mihkel Putrinš
 **Project Manager | Team Leadership | Design & Technical Integration**
 
 Phone: +372 5656 0978  
-Email: mitselek@gmail.com  
+Email: <mitselek@gmail.com>  
 Location: Tallinn, Estonia
 
 ---
@@ -35,6 +35,7 @@ Project manager and team leader with 30+ years of multidisciplinary experience s
 ## Professional Experience
 
 ### Project Coordinator & Team Leader | PÖFF (Estonian Memory Institute)
+
 **2021 - 2024 | Tallinn, Estonia**
 
 Coordinated complex team of professionals during PÖFF (Black Nights Film Festival) operations, managing communications, workflows, and deliverables across multiple departments.
@@ -50,6 +51,7 @@ Coordinated complex team of professionals during PÖFF (Black Nights Film Festiv
 ---
 
 ### IT Manager & Project Lead | Eesti Kunstakadeemia (Estonian Academy of Arts)
+
 **2009 - 2012 | Tallinn, Estonia**
 
 Managed IT infrastructure and led technical projects during critical modernization period. Coordinated between technical teams, faculty, and administration.
@@ -61,6 +63,7 @@ Managed IT infrastructure and led technical projects during critical modernizati
 - **Optimized workflows** between technical implementation and user requirements
 
 **Key Achievements:**
+
 - Migrated 1000+ mailboxes from GroupWise to Gmail with zero data loss
 - Implemented Entu intranet system, improving internal communication workflows
 - Constructed and deployed campus-wide LAN infrastructure
@@ -68,6 +71,7 @@ Managed IT infrastructure and led technical projects during critical modernizati
 ---
 
 ### Owner & Designer | Entusiastid OÜ
+
 **2010 - Present | Tallinn, Estonia**
 
 Independent design and project work, managing client relationships, project timelines, and deliverables from concept to completion.
@@ -80,6 +84,7 @@ Independent design and project work, managing client relationships, project time
 ---
 
 ### Co-founder & Designer | Soov Kirjastus OÜ
+
 **1993 | Tallinn, Estonia**
 
 Founded and operated early Estonian publishing startup, managing all aspects of business operations, design, and technical production.
@@ -94,6 +99,7 @@ Founded and operated early Estonian publishing startup, managing all aspects of 
 ---
 
 ### Designer & Project Manager | BalticWindow Oy
+
 **1998 - 2010 | Helsinki, Finland**
 
 Managed design projects and coordinated production workflows for Finnish-Estonian publishing company.
@@ -106,6 +112,7 @@ Managed design projects and coordinated production workflows for Finnish-Estonia
 ---
 
 ### Designer & Desktop Publisher | Multiple Roles
+
 **1993 - 1999 | Tallinn, Estonia**
 
 **Oopus Disaini (1993-1995):** Design work including corporate identity (Liviko logo), advertising, and layout.
@@ -115,6 +122,7 @@ Managed design projects and coordinated production workflows for Finnish-Estonia
 **Den za Dnjom (1996-1999):** Managed acquired design agency, coordinating client projects and production workflows.
 
 **Key Competencies Developed:**
+
 - Professional design and layout expertise
 - Print production workflow management
 - Client project coordination
@@ -125,6 +133,7 @@ Managed design projects and coordinated production workflows for Finnish-Estonia
 ## Earlier Career
 
 ### System Analyst & Developer | Justiitsministeerium (Ministry of Justice)
+
 **2002 - 2005 | Tallinn, Estonia**
 
 - Developed information systems for criminal procedure tracking and care management
@@ -136,11 +145,13 @@ Managed design projects and coordinated production workflows for Finnish-Estonia
 ## Education
 
 ### University of Tartu | Information Technology
+
 **1990 - 2002 | Tartu, Estonia**
 
 Studied information technology with focus on database management, system analysis, and programming.
 
 ### Tallinn Secondary School No. 13 | Mathematics Specialization
+
 **1979 - 1990 | Tallinn, Estonia**
 
 Graduated with focus on mathematics and logical problem-solving.
