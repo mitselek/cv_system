@@ -15,6 +15,23 @@ All components and workflows must adhere to these four foundational principles:
 
 1. **Principle of Integrity:** Honesty is the highest priority. All information regarding skills, experience, and achievements must be derived from the verified `knowledge_base`. Fabrication or misrepresentation is strictly forbidden. The system's primary function is to present the truth in the most effective way possible.
 
+   **Zero-Tolerance Policy:** A single unverifiable claim invalidates the entire application. If fabrication is discovered, the complete application must be regenerated from scratch.
+
+   **Verification Requirements:**
+   - Before writing ANY detail, verify it exists in the source file
+   - Quote exact source text, do not paraphrase or embellish
+   - Use ONLY: names, dates, titles, locations AS WRITTEN in source
+   - When in doubt → OMIT the detail entirely
+   - Better to have sparse content than fabricated content
+
+   **Forbidden Embellishments (even if "reasonable"):**
+   - Specializations not mentioned in source
+   - Skill focus areas not documented  
+   - "With focus on..." unless explicitly stated
+   - Descriptive phrases about education content
+   - Inferred details based on job titles
+   - "Logical" additions that "make sense"
+
 2. **Principle of Structure:** All data and processes must be systematic and well-defined. The knowledge base is modular, and workflows are broken down into logical, repeatable steps. This ensures clarity, maintainability, and predictable outcomes.
 
 3. **Principle of Quality:** All outputs must meet the highest professional standards. This is enforced through mandatory, non-negotiable quality gates, including linguistic checks, strict formatting rules, and visual consistency.
@@ -85,6 +102,37 @@ All interactions with Large Language Models (LLMs) for the purpose of generating
 
 - The LLM's primary task is **synthesis and tailoring**, not invention. It must select, reframe, and order information from the provided context to best match the job ad.
 - All generated output must strictly adhere to the Formatting & Style Guide defined below.
+
+### 5.3. Mandatory Verification Protocol
+
+Before finalizing ANY application document:
+
+1. **Pre-Generation Check:**
+   - Confirm understanding that fabrication = complete restart
+   - Acknowledge that "helpful embellishments" violate integrity
+   - Commit to conservative interpretation of source data
+
+2. **During Generation:**
+   - For education sections with no body content in source:
+     - Institution name (as written)
+     - Dates (as written)
+     - Degree title (as written)
+     - STOP - add nothing else
+   - For experiences with minimal source content:
+     - Use only explicit statements from source
+     - Do not infer responsibilities from job titles
+     - Do not add "typical" activities for that role
+
+3. **Self-Audit (Required):**
+   - Re-read each section of generated CV
+   - For each claim, mentally cite the source file
+   - Flag any sentence that cannot be directly quoted from source
+   - Remove all flagged content immediately
+
+4. **Conservative Fallback Rule:**
+   - When uncertain if detail exists in source: OMIT IT
+   - When uncertain if phrasing is faithful: USE SIMPLER VERSION
+   - When uncertain if connection is documented: DON'T MAKE IT
 
 ---
 

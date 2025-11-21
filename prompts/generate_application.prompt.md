@@ -30,10 +30,21 @@ The prompt will automatically access:
 Before generating any application materials, conduct a comprehensive analysis based *only* on the provided inputs.
 
 #### 1.1. Source Material Analysis (Compiled Context)
+
 -   Read the **Compiled Context** from `/cv_system/knowledge_base/_compiled_context.md` - this is the **ONLY** source of truth for the candidate's background.
 -   Read the **Contact Information** from `/cv_system/knowledge_base/contact.md` - this is the **ONLY** source for personal contact details (name, email, phone, etc.).
 -   These files contain a structured list of all validated work history, skills, achievements, education, certifications, and contact information.
 -   **CRITICAL INTEGRITY CONSTRAINT:** Never invent, embellish, or infer information not explicitly present in these source files. Adhere strictly to the `/cv_system/docs/constitution.md`'s Principle of Integrity.
+
+**ZERO-TOLERANCE POLICY:** A single fabricated detail invalidates the entire application. If ANY unverifiable claim is discovered, you must RESTART the entire application generation process from scratch.
+
+**BEFORE PROCEEDING, COMMIT TO:**
+
+1. I will NOT add "helpful" embellishments
+2. I will NOT infer details from job titles
+3. I will NOT add "typical" responsibilities
+4. I will ONLY use information explicitly stated in source files
+5. I UNDERSTAND that fabrication = complete restart
 
 #### 1.2. Job Advertisement Analysis
 -   Analyze the provided job posting thoroughly.
@@ -87,12 +98,34 @@ This metadata is extracted by `/cv_system/scripts/convert-to-pdf.sh` for PDF gen
 -   Copy the complete, original job posting text provided by the user.
 
 **3. Adapted CV (`CV_[CompanyName]_[PositionTitle].md`)**
+
 -   **CRITICAL:** Add the standardized HTML comment metadata header (see format above) at the very beginning of the file.
 -   **CRITICAL:** Use contact information from the `contact.md` file - never invent or guess contact details.
 -   Select the most relevant `experiences`, `skills`, and `achievements` from the Compiled Context that align with the job ad.
 -   Arrange the selected items to highlight the candidate's suitability.
 -   **DO NOT** add any information not present in the Compiled Context or Contact files.
 -   Format the CV professionally, adhering to the `constitution.md` style guide (no emojis, correct spacing, etc.).
+
+**EDUCATION SECTION RULES (STRICT):**
+
+For education entries where source file contains ONLY metadata (institution names, dates, degree):
+
+```markdown
+### [Institution Name - EXACTLY as in source]
+**[Dates - EXACTLY as in source] | [Location - if present]**
+
+[Degree name - EXACTLY as in source]
+```
+
+**STOP. Add NOTHING else.** No specializations, no focus areas, no descriptions unless EXPLICITLY in source body content.
+
+**Examples of FORBIDDEN additions:**
+- "Mathematics specialization" (unless source says this)
+- "With focus on database management" (unless source says this)
+- "Graduated with focus on X" (unless source says this)
+- Any descriptive text about what was studied (unless source has body content)
+
+If source has body content beyond metadata, quote it directly. Do not paraphrase or embellish.
 
 **4. Motivation Letter (`motivation_letter_[CompanyName].md`)**
 -   **CRITICAL:** Add the standardized HTML comment metadata header (see format above) at the very beginning of the file.
@@ -111,6 +144,8 @@ This metadata is extracted by `/cv_system/scripts/convert-to-pdf.sh` for PDF gen
 
 -   **Integrity:** All generated content must be verifiable against the provided `_compiled_context.md` and `contact.md` files.
 -   **No Invented Information:** Never create or guess contact details, names, or any personal information not explicitly provided in the source files.
+-   **Fabrication Consequence:** A SINGLE unverifiable claim invalidates the ENTIRE application and requires complete regeneration from scratch.
+-   **Conservative Interpretation:** When uncertain if detail exists in source, OMIT IT. Better sparse than fabricated.
 -   **No Emojis in ANY Generated Files:** Strictly adhere to the "No Emojis" rule from the `constitution.md`. This applies to ALL files including README.md, CV, motivation letter, and any other generated content. Use plain text markers instead (e.g., "STRENGTH:", "GAP:", "NOTE:").
 -   **Markdown Linting:** All generated Markdown files must be perfectly formatted (blank lines around headings/lists, no trailing spaces, etc.).
 -   **PDF Metadata Headers:** All CVs and Motivation Letters must include the HTML comment header with docID, version, date, and author fields for the `/cv_system/scripts/convert-to-pdf.sh` script.

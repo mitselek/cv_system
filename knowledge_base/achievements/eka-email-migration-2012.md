@@ -9,7 +9,7 @@ title:
   et: Ülikooli e-maili migreerimine Google Maili
   en: University email migration to Google Mail
 description:
-  et: Kogu ülikooli (ca 700 kasutajat) e-mailindus kolitud Google Mail'i, mis parandas koostööd ja vähendas IT kulusid e-mailidele 90%.
+  et: Migreerisin üle 700 postkasti kohalikust mailiserverist Gmaili ilma andmekaotuseta (90% kulude kokkuhoid).
   en: Migrated the entire university's (approx. 700 users) email system to Google Mail, which improved collaboration and reduced IT costs on emails by 90%.
 tags:
   - cloud-migration
