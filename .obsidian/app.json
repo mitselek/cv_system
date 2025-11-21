@@ -1,7 +1,0 @@
-{
-  "userIgnoreFilters": [
-    "knowledge_base/_compiled_context.md",
-    "node_modules/",
-    "GEMINI.md"
-  ]
-}
