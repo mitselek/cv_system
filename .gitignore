@@ -20,6 +20,11 @@ dist/
 *.swo
 *~
 
+# Obsidian workspace (personal)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
 # OS
 .DS_Store
 Thumbs.db
