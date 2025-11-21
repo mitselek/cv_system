@@ -8,7 +8,7 @@ author: Mihkel Putrinš
 # Motivation Letter
 
 **Mihkel Putrinš**  
-+372 5656 0978 | mitselek@gmail.com  
++372 5656 0978 | <mitselek@gmail.com>  
 Tallinn, Estonia
 
 **Application for:** Project Manager  
@@ -74,4 +74,4 @@ Sincerely,
 
 **Mihkel Putrinš**  
 +372 5656 0978  
-mitselek@gmail.com
+<mitselek@gmail.com>
