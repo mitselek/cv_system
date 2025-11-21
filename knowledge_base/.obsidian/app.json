@@ -1,1 +1,5 @@
-{}
+{
+  "userIgnoreFilters": [
+    "_compiled_context.md"
+  ]
+}
