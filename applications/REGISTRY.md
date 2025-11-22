@@ -19,13 +19,13 @@ This file tracks all job applications generated from the CV system. Each applica
 |-------------|---------|----------|-----------|------------------|----------|--------|-------|
 | 2025-11-21 | DataShift OÜ | Project Manager | 70% | [README](DataShift/Project_Manager/README.md) | 2025-12-21 | Submitted | Strong PM experience, design background. Gaps: Jira, A/B testing, copywriting. |
 | 2025-11-21 | BCS Itera AS | ERP Project Manager | 75% | [README](BCS_Itera/ERP_Project_Manager/README.md) | Not specified | Submitted | Strong ERP-like implementation experience (Entu 15+ yrs, 30+ orgs). Gap: traditional ERP platforms. Contact: merilin.aug@itera.ee |
-| 2025-11-21 | Elektrilevi OÜ | Äriprojektijuht | 65% | [README](Elektrilevi/Ariprojektijuht/README.md) | 2025-11-23 | Draft | Strong IT project exp (15+ yrs). CRITICAL gaps: external IT vendor management, master's degree, international exp, enterprise scale. |
+| 2025-11-22 | Elektrilevi OÜ | Äriprojektijuht | 65% | [README](Elektrilevi/Ariprojektijuht/README.md) | 2025-11-23 | Submitted | Strong IT project exp (15+ yrs). Gaps: external IT vendor management, master's degree, international exp. Fact-checked & corrected. Contact: Greete Poopuu |
 
 ## Statistics
 
 - **Total Applications:** 3
-- **Active (Draft/Ready):** 1
-- **Submitted:** 2
+- **Active (Draft/Ready):** 0
+- **Submitted:** 3
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
@@ -34,4 +34,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-11-21
+**Last Updated:** 2025-11-22
