@@ -6,9 +6,7 @@
 **Application Date:** 2025-11-21  
 **Website:** <https://www.elektrilevi.ee>  
 **Contact:** Greete Poopuu (värbamine) - <Greete.Poopuu@elektrilevi.ee>  
-**Technical Contact:** Hanno Eerme (digita
-
-liseerimise üksuse juht) - <Hanno.Eerme@elektrilevi.ee> / +372 5025302
+**Technical Contact:** Hanno Eerme (digitaliseerimise üksuse juht) - <Hanno.Eerme@elektrilevi.ee> / +372 5025302
 
 ---
 
