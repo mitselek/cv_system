@@ -1035,6 +1035,14 @@ status: verified
 last_verified: '2025-11-21'
 ```
 
+#### et
+
+Osalesin arendusmeeskonna liikmena kriminaalhooldusametnikele mõeldud infosüsteemi arendusprojektis. Projekt valmis edukalt tähtajaks.
+
+#### en
+
+Participated as a development team member in creating an information system for criminal care officers. The project was successfully completed on time.
+
 ---
 
 ### justiitsministeerium-criminal-procedure-register-2005
@@ -1055,6 +1063,14 @@ tags:
 status: verified
 last_verified: '2025-11-21'
 ```
+
+#### et
+
+Osalesin arendusmeeskonna liikmena riikliku kriminaalmenetluse registri arendusprojektis. Projektieesmärgid saavutati õigeaegselt.
+
+#### en
+
+Participated as a development team member in creating a national criminal procedure register. Project goals were achieved on time.
 
 ---
 
@@ -1418,21 +1434,25 @@ proficiency:
   speaking: C2
   presentation: C2
   writing: C2
+context: Second language, near-native speaker
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-11-22'
 tags:
   - language
   - communication
   - baltic
+  - second-language
 ```
 
 #### et
 
+- Teine keel, lähedane emakeelsetasemele
 - Kõrgtase oskus kõigis aspektides (C2)
 - Kuulamine, lugemine, suhtlus, esitlus, kirjutamine: C2
 
 #### en
 
+- Second language, near-native speaker
 - Advanced proficiency in all aspects (C2)
 - Listening, reading, speaking, presentation, writing: C2
 

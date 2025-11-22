@@ -16,3 +16,11 @@ tags:
 status: verified
 last_verified: '2025-11-21'
 ---
+
+### et
+
+Osalesin arendusmeeskonna liikmena riikliku kriminaalmenetluse registri arendusprojektis. Projektieesmärgid saavutati õigeaegselt.
+
+### en
+
+Participated as a development team member in creating a national criminal procedure register. Project goals were achieved on time.

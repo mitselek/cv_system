@@ -51,6 +51,12 @@ Before generating any application materials, conduct a comprehensive analysis ba
 -   Identify key requirements, responsibilities, and preferred qualifications.
 -   Note the company name, position title, application deadline, and any specific submission instructions.
 
+**Web Scraping Note:** If fetching a job posting URL and the initial fetch returns incomplete content (navigation/footer but no job description), check for iframe embedding:
+1. Use `curl` with `grep` to extract raw HTML and look for `<iframe>` tags
+2. Extract the iframe's `src` URL
+3. Fetch the iframe URL directly to get the complete job posting
+4. Modern job boards (CV.ee, etc.) increasingly embed content from employer career platforms (Teamdash, Greenhouse, etc.) via iframes
+
 #### 1.3. Honest Fit Assessment
 -   Conduct an objective assessment by comparing the Job Advertisement against the Compiled Context.
 -   **Skills Match:** Compare required skills against the `skills` section of the context.
@@ -149,8 +155,25 @@ If source has body content beyond metadata, quote it directly. Do not paraphrase
 -   **No Emojis in ANY Generated Files:** Strictly adhere to the "No Emojis" rule from the `constitution.md`. This applies to ALL files including README.md, CV, motivation letter, and any other generated content. Use plain text markers instead (e.g., "STRENGTH:", "GAP:", "NOTE:").
 -   **Markdown Linting:** All generated Markdown files must be perfectly formatted (blank lines around headings/lists, no trailing spaces, etc.).
 -   **PDF Metadata Headers:** All CVs and Motivation Letters must include the HTML comment header with docID, version, date, and author fields for the `/cv_system/scripts/convert-to-pdf.sh` script.
--   **Estonian Language:** If the application is in Estonian, remind the user that running the `/cv_system/scripts/estonian-spellcheck.sh` script is a **mandatory** next step.
--   **PDF Generation:** After creating all files, inform the user they can generate PDFs by running:
+-   **Estonian Language Grammar Correction (MANDATORY):** If the application is in Estonian, you MUST automatically pass the CV and motivation letter to Gemini for grammar and style correction:
+    1. Read `/cv_system/prompts/estonian_grammar_correction.prompt.md`
+    2. For EACH Estonian document (CV, motivation letter), call Gemini with:
+       - The correction prompt instructions
+       - The complete document content
+    3. Request the fully corrected document (no markup, no change explanations)
+    4. **OVERWRITE** the original file with the corrected version
+    5. This replaces the manual `estonian-spellcheck.sh` script - correction happens automatically during generation
+-   **Fact-Checking (MANDATORY):** After all documents are generated and corrected, you MUST verify all claims against the knowledge base:
+    1. Read `/cv_system/prompts/fact_checking.prompt.md`
+    2. Execute comprehensive fact-check on the CV and motivation letter
+    3. Save the report as `FACT_CHECK_REPORT.md` in the application directory
+    4. If any FABRICATIONS or EMBELLISHMENTS are found:
+       - Load the report and apply ALL corrections automatically
+       - Call Gemini to apply corrections: "Please read FACT_CHECK_REPORT.md and apply ALL corrections to CV and motivation letter files. Fix all FABRICATIONS, EMBELLISHMENTS, and INCONSISTENCIES as specified. Preserve all formatting and metadata."
+       - Overwrite the corrected files
+       - Regenerate the fact-check report to verify all issues resolved
+    5. Only proceed to PDF generation when fact-check shows 0 FABRICATIONS and 0 EMBELLISHMENTS
+-   **PDF Generation:** After Estonian grammar correction and fact-checking verification (if applicable), inform the user they can generate PDFs by running:
     ```bash
     cd /cv_system/applications/[Company]/[Position]
     ../../../scripts/convert-to-pdf.sh CV_*.md motivation_letter_*.md
