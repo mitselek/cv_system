@@ -1,7 +1,7 @@
 <!--
-docID: CV-Elektrilevi-Ariprojektijuht
+docID: CV-Askend-PM
 version: 1.0
-date: 2025-11-21
+date: 2025-11-22
 author: Mihkel Putrinš
 -->
 
@@ -17,73 +17,73 @@ author: Mihkel Putrinš
 
 ## Kokkuvõte
 
-Kogenud IT-projektijuht, kellel on 15+ aastat IT-süsteemide juurutuskogemust, sealhulgas 6+ aastat meeskondade ja projektide otsest juhtimist. Fookuses on andmehaldusplatvormide implementeerimine, suuremahuliste IT-projektide elluviimine ja sidusrühmade kaasamine. Tugev tehniline taust (Python, JavaScript, andmebaasid) toetab tõhusat koostööd arendusmeeskondadega ja tehniliste lahenduste väljatöötamist.
+Kogenud IT-projektijuht ja süsteemiarhitekt enam kui 15-aastase kogemusega keerukate IT-süsteemide juurutamisel ja 6+ aastat meeskondade otsest juhtimist. Fookuses on Scrum/Agile metodoloogia, äriliste eesmärkide elluviimine ja sidusrühmade kaasamine. Tugev tehniline taust (Python, JavaScript, andmebaasid) toetab tõhusat koostööd arendusmeeskondadega ning äriliste vajaduste tõlkimist tehnilisteks lahendusteks.
 
 ---
 
 ## Töökogemus
 
-### Entusiastid OÜ | Omanik ja juhtivarendaja
-
+### Entusiastid OÜ | Arhitekt/analüütik/arendaja
 **2010 – praegu | Tallinn, Eesti**
 
 Vastutan Entu andmehaldusplatvormi arenduse ja juurutamise eest.
 
 **Peamised saavutused:**
 
-- Juurutanud Entu platvormi enam kui 30 organisatsioonis (koolid, muuseumid, ettevõtted).
+- Juurutanud Entu platvormi enam kui 30 organisatsioonis (koolid, muuseumid, ettevõtted, teadusasutused).
 - Platvorm toetab mitmeid äriprotsesse: dokumendihaldus, projektijuhtimine, varahaldus, personalihaldus.
-- Vastutanud juurutuse täieliku elutsükli eest: vajaduste analüüs, konfigureerimine, paigaldamine, koolitus ja tugi.
-- Kohandanud Entu platvormi haridus-, kultuuri- ja teadussektori ärivajadustele.
+- Vastutanud juurutuse täieliku elutsükli eest: ärivajaduste analüüs, lahenduse disain, konfiguratsioon, paigaldamine, koolitus ja tugi.
+- Kohandanud Entu platvormi haridus-, kultuuri-, teadus- ja ärisektori vajadustele.
 - Igapäevatöö hõlmab programmeerimist, andmebaaside disaini, kliendi- ja partnerisuhtlust, ärianalüüsi ning andmete migratsiooni.
 
-**Tehnoloogiad:** Entu andmehaldusplatvorm, Python, JavaScript, andmebaasi disain
+**Tehnoloogiad:** Entu andmehaldusplatvorm, Python, JavaScript, andmebaasi disain, süsteemiarhitektuur
 
 ### Ilusa Koodi Instituut | Arendusjuht
-
 **2021 – 2024 | Tallinn, Eesti**
 
-Juhtisin PÖFF-i (Tallinna Pimedate Ööde Filmifestival) projekti raames 4-liikmelist arendusmeeskonda.
+Juhtisin PÖFF-i (Tallinna Pimedate Ööde Filmifestival) projekti raames 4-liikmelist arendusmeeskonda Scrum/Agile metodoloogia alusel.
 
 **Peamised saavutused:**
 
+- Juhtisin igapäevast Scrum-protsessi: daily stand-upid, sprintide planeerimine, backlog'i prioritiseerimine, progressi jälgimine.
 - Mentordasin neli praktikanti täiskohaga arendajaks (100% püsivusmäär).
 - Vastutasin festivali kodulehe ja logistikasüsteemi tehnilise juhtimise ja arhitektuuri eest.
 - Tagasin rahvusvahelise kultuurisündmuse digitaalse taristu toimivuse.
+- Jälgisin projekti ajakava, ressursse ja kvaliteedistandardeid.
 
-**Tehnoloogiad:** Meeskonnajuhtimine, tehniliste projektide koordineerimine, süsteemiarhitektuur
+**Tehnoloogiad:** Scrum/Agile, meeskonnajuhtimine, tehniliste projektide koordineerimine, süsteemiarhitektuur
 
 ### Eesti Kunstiakadeemia | IT-osakonna juhataja
-
 **2009 – 2012 | Tallinn, Eesti**
 
 Juhtisin IT-osakonda ja koordineerisin mitmeid ülikooliüleseid tehnoloogiaprojekte.
 
 **Peamised saavutused:**
 
-_Kampuse LAN-võrgu rajamine (2012):_
+*Kampuse LAN-võrgu rajamine (2012):*
 
 - Juhtisin 700+ kasutajaga võrgutaristu rajamist mitmes hoones.
 - Koordineerisin tehnilise meeskonna, õppejõudude, administratsiooni ja väliste partnerite tööd.
+- Projekti planeerimine, eelarve haldamine ja riskide juhtimine.
 - Projekt valmis tähtajaliselt ja eelarve piires.
 
-_E-posti migratsioon (2012):_
+*E-posti migratsioon Google Workspace'i (2012):*
 
 - Viisin läbi 700 kasutaja e-posti migratsiooni Google Workspace'i platvormile.
 - Tulemuseks oli 90% kulude kokkuhoid teenuse kvaliteeti kaotamata.
 - Migratsioon viidi läbi ilma teenusekatkestusteta.
+- Projekti täielik planeerimine ja elluviimine.
 
-_Entu platvormi juurutamine (2012):_
+*Entu platvormi juurutamine (2012):*
 
 - Juurutasin Entu platvormi ülikooli tegevuste haldamiseks.
 - Varahaldus (5000+ ühikut).
 - Dokumendihaldus (500+ dokumenti aastas).
-- Kohandasin platvormi vastavalt erinevatele vajadustele, alates füüsilisest varast kuni akadeemiliste dokumentideni.
+- Kohandasin platvormi vastavalt erinevatele vajadustele.
 
-**Tehnoloogiad:** Võrgutaristu, Google Workspace, Entu, projektide koordineerimine
+**Tehnoloogiad:** Võrgutaristu, Google Workspace, Entu, projektide planeerimine ja koordineerimine, eelarve haldamine
 
 ### Eesti Mälu Instituut | Andmekuraator
-
 **2017 – 2024 | Tallinn, Eesti**
 
 Vastutasin ajalooliste andmebaaside andmekvaliteedi ja -integratsiooni eest.
@@ -97,34 +97,19 @@ Vastutasin ajalooliste andmebaaside andmekvaliteedi ja -integratsiooni eest.
 
 **Tehnoloogiad:** MySQL, Google Sheets, andmekvaliteet, andmebaasi haldus
 
-### Tele2 Eesti AS | IT-arendusspetsialist
-
-**2006 – 2009 | Tallinn, Eesti**
-
-**Peamised saavutused:**
-
-- Tutvustasin dokumenteerimise võimalikkust ja väärtust korporatsioonis, toetades dokumentatsiooniprotsesside standardiseerimist.
-- Arendasin dokumentatsiooniprotsesse (vajaduste kaardistamine, süsteemi valik, automatiseerimine).
-- Koolitasin ja toetasin meeskonnaliikmeid.
-- Standardiseerisin dokumentatsiooniprotsessid üle terve ettevõtte.
-- Lõin erilahendusi arvelduse ja kliendihalduse valdkonnas.
-
-**Tehnoloogiad:** Tehnilise dokumentatsiooni haldusvahendid, meeskonnajuhtimine, protsesside optimeerimine
-
 ### Justiitsministeerium | Tarkvaraarendaja
-
 **2002 – 2005 | Tallinn, Eesti**
 
 Osalesin arendusmeeskonna liikmena valitsussektori IT-projektides.
 
 **Peamised saavutused:**
 
-_Kriminaalhoolduse Infosüsteem (2005):_
+*Kriminaalhoolduse Infosüsteem (2005):*
 
 - Osalesin arendusmeeskonna liikmena kriminaalhooldusametnikele mõeldud infosüsteemi arendusprojektis.
 - Projekt valmis edukalt tähtajaks.
 
-_Kriminaalmenetluse Register (2005):_
+*Kriminaalmenetluse Register (2005):*
 
 - Osalesin arendusmeeskonna liikmena riikliku kriminaalmenetluse registri arendusprojektis.
 - Projektieesmärgid saavutati õigeaegselt.
@@ -132,7 +117,6 @@ _Kriminaalmenetluse Register (2005):_
 **Tehnoloogiad:** Oracle JDev, Microsoft .NET
 
 ### Tartu Ülikool | Teadustarkvara arendaja
-
 **2014 – 2015 | Tartu, Eesti**
 
 Keeleressursside Keskus.
@@ -145,7 +129,6 @@ Keeleressursside Keskus.
 **Tehnoloogiad:** Python, JavaScript, andmebaasi haldus
 
 ### Center of Food and Fermentation Technologies | IT-arhitekt
-
 **2013 – 2015 | Tallinn, Eesti**
 
 **Peamised ülesanded:**
@@ -155,7 +138,6 @@ Keeleressursside Keskus.
 **Tehnoloogiad:** Süsteemiarhitektuur, andmebaasi haldus
 
 ### Soov Kirjastus OÜ | Projektijuht (IT)
-
 **1993 | Eesti**
 
 **Saavutused:**
@@ -169,13 +151,13 @@ Keeleressursside Keskus.
 ## Haridus
 
 ### Riga Secondary School No. 1, Tallinn Secondary School of Science, Õismäe Humanities Gymnasium
+**1979 – 1990**
 
-**1979 – 1990**  
 Keskharidus
 
 ### University of Tartu, Tallinn University
+**1990 – 2002**
 
-**1990 – 2002**  
 Matemaatika, Loodusteaduslikud ained, Informaatika  
 Lõpetamata kõrgharidus
 
@@ -183,20 +165,31 @@ Lõpetamata kõrgharidus
 
 ## Oskused
 
-### IT-projektide juhtimine
+### IT-projektide juhtimine ja Scrum/Agile metodoloogia
 
 - 15+ aastat IT-süsteemide juurutusprojektide juhtimist.
-- 30+ edukat juurutust erinevates sektorites.
-- Suuremahuliste projektide koordineerimine (kuni 700 kasutajaga keskkonnad).
+- 30+ edukat juurutust erinevates sektorites (haridus, kultuur, valitsus, teadus, äri).
+- Praktiline Scrum/Agile kogemus: daily stand-upid, sprintide planeerimine, backlog'i prioritiseerimine, progressi jälgimine.
+- Projektide täielik elutsükkel: ärivajaduste analüüs, projekti planeerimine, eelarve ja ajakava haldamine, elluviimine, tugi.
 - Erinevate sidusrühmade haldus (IT-meeskonnad, ärikasutajad, juhtkond, välispartnerid).
-- Projektide täielik elutsükkel: ärivajaduste analüüs, arhitektuur, ajakava ja eelarve koostamine, elluviimine ning tugi.
+- Riskide kaardistamine ja maandamine.
+- Muudatuste juhtimine (scope, eelarve, ajakava).
+- Projekti aruandlus ja kommunikatsioon.
 
-### Meeskonnajuhtimine
+### Meeskonnajuhtimine ja mentorlus
 
-- 4-liikmelise arendusmeeskonna juhtimine.
+- 4-liikmelise arendusmeeskonna juhtimine Scrum/Agile metoodikal.
 - Praktikantide edukas mentorlus täiskohaga arendajateks (100% püsivusmäär).
 - Tehniliste meeskondade koordineerimine ja juhendamine.
 - Tööprotsesside ja kvaliteedistandardite loomine.
+
+### Ärianalüüs ja nõuete haldamine
+
+- Ärieesmärkide sõnastamine ja mõõdetavuse tagamine.
+- Kliendi vajaduste kaardistamine ja lahenduste disain.
+- Backlog'i prioritiseerimine äriliste tulemuste alusel.
+- Entu platvormi kohandamine vastavalt ärivajadustele 30+ organisatsioonis.
+- Otsene kliendisuhtlus erinevates sektorites.
 
 ### Tehnilised oskused
 
@@ -204,19 +197,6 @@ Lõpetamata kõrgharidus
 - **Andmebaasid:** MySQL, PostgreSQL, Oracle, MongoDB (haldus, disain, andmekvaliteet).
 - **Süsteemiarhitektuur:** Tehniliste lahenduste disain, taristu planeerimine.
 - **Ärisüsteemid:** Entu andmehaldusplatvorm; äriprotsesside integreerimine (dokumendihaldus, projektijuhtimine, varahaldus, personalihaldus).
-
-### Ärianalüüs ja kliendinõustamine
-
-- Ärieesmärkide sõnastamine ja mõõdetavuse tagamine.
-- Kliendi vajaduste kaardistamine ja lahenduste disain.
-- Entu platvormi kohandamine vastavalt ärivajadustele.
-- Otsene kliendisuhtlus erinevates sektorites (haridus, kultuur, teadus, riigiasutused).
-
-### IT-arhitektuur
-
-- Süsteemiarhitektuuri loomises ja kaasajastamises osalemine.
-- Tehniliste lahenduste vastavuse tagamine arhitektuurinõuetega.
-- Süsteemide integreerimine olemasoleva taristuga.
 
 ### Keeleoskus
 

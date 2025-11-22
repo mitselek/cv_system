@@ -17,13 +17,13 @@ author: Elektrilevi OÜ
 
 ---
 
-## Tule ja anna oma panus elektrivõrgu arengusse Eestis!
+## Tule ja anna oma panus elektrivõrgu arengusse Eestis
 
 Sa juhid Elektrilevi äriliselt mõjukamaid projekte Eesti elektri jaotusvõrgu põnevaimate ja olulisemate äriliste ja tehniliste väljakutsete lahendamiseks ning avanevate uute IT ja tehnoloogiliste võimaluste kasutuselevõtuks. Sinu kõige esimeseks väljakutseks saab olema käimasolev uue kliendiinfo ja arveldussüsteemi juurutamine. Väljakutsete lahendamise eestvedamisel on sulle toeks Elektrilevi, Enefit kontserni ning Eesti ja rahvusvaheliste koostööpartnerite tippspetsialistid ja juhtkonnad.
 
 ---
 
-## Sinu panus:
+## Sinu panus
 
 - mõista ning aidata formuleerida IT arendusprojektidele võimalikud konkreetsed ärilised mõõdetavad eesmärgid;
 - projektide ettevalmistamisel kindlustada neile ulatus / ärilised nõuded, ajakava ning eelarve, mis võimaldaks äriliste eesmärkide realiseerimist vastavalt kehtestatud IT arhitektuurile;
@@ -34,7 +34,7 @@ Sa juhid Elektrilevi äriliselt mõjukamaid projekte Eesti elektri jaotusvõrgu 
 
 ---
 
-## Võimalused:
+## Võimalused
 
 - omandatud kõrgharidus (soovituslikult magister tehnilisel, IT või ärilisel erialal);
 - varasem vähemalt 5 aastane soovitavalt rahvusvaheline töökogemus komplekssete äriliste ja IT väljakutsete lahendamiste eestvedamisel;
@@ -46,7 +46,7 @@ Sa juhid Elektrilevi äriliselt mõjukamaid projekte Eesti elektri jaotusvõrgu 
 
 ---
 
-## Meiega saad:
+## Meiega saad
 
 - anda oma panuse Eestile strateegiliselt olulises ja elutähtsalt vajalikus elektri jaotusvõrgu valdkonnas;
 - enesearengut toetava töökeskkonna ja ühtehoidva meeskonna ning toetava juhtkonna;

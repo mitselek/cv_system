@@ -23,6 +23,7 @@ skills_demonstrated:
   - project-management
   - team-leadership
   - system-architecture
+  - spreadsheet-tools
 achievements:
   - poff-intern-hiring-2024
 status: verified
@@ -47,6 +48,6 @@ last_verified: '2025-11-21'
 
 ---
 ## Connections
-- **Skills:** [[project-management]], [[team-leadership]], [[system-architecture]]
+- **Skills:** [[project-management]], [[team-leadership]], [[system-architecture]], [[spreadsheet-tools]]
 - **Achievements:** [[poff-intern-hiring-2024]]
 

@@ -21,6 +21,7 @@ tags:
 skills_demonstrated:
   - data-curation
   - database-management
+  - spreadsheet-tools
 achievements:
   - mem-historian-db-adoption-2024
 status: verified
@@ -42,6 +43,6 @@ last_verified: '2025-11-21'
 
 ---
 ## Connections
-- **Skills:** [[data-curation]], [[database-management]]
+- **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]]
 - **Achievements:** [[mem-historian-db-adoption-2024]]
 
