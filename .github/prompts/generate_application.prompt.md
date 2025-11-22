@@ -87,6 +87,8 @@ author: [Full Name from contact.md]
 
 Where:
 - `docID` format: `CV-CompanyName-Position` for CVs, `ML-CompanyName-Position` for Motivation Letters
+  - **Maximum length: 25 characters** - abbreviate company/position names if needed
+  - Examples: `CV-BCS-ERP-PM`, `ML-Elektrilevi-AriPM`
 - `version`: Start with 1.0
 - `date`: Current date in YYYY-MM-DD format
 - `author`: Full name exactly as it appears in `contact.md`
