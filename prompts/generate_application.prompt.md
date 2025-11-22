@@ -174,9 +174,8 @@ If source has body content beyond metadata, quote it directly. Do not paraphrase
     3. Save the report as `FACT_CHECK_REPORT.md` in the application directory
     4. If any FABRICATIONS or EMBELLISHMENTS are found:
        - Load the report and apply ALL corrections automatically
-       - Call Gemini to apply corrections: "Please read FACT_CHECK_REPORT.md and apply ALL corrections to CV and motivation letter files. Fix all FABRICATIONS, EMBELLISHMENTS, and INCONSISTENCIES as specified. Preserve all formatting and metadata."
        - Overwrite the corrected files
-       - Regenerate the fact-check report to verify all issues resolved
+       - Generate next fact-check report to verify all issues resolved
     5. Only proceed to PDF generation when fact-check shows 0 FABRICATIONS and 0 EMBELLISHMENTS
 -   **PDF Generation:** After Estonian grammar correction and fact-checking verification (if applicable), inform the user they can generate PDFs by running:
     ```bash
