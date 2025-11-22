@@ -157,14 +157,18 @@ If source has body content beyond metadata, quote it directly. Do not paraphrase
 -   **No Emojis in ANY Generated Files:** Strictly adhere to the "No Emojis" rule from the `constitution.md`. This applies to ALL files including README.md, CV, motivation letter, and any other generated content. Use plain text markers instead (e.g., "STRENGTH:", "GAP:", "NOTE:").
 -   **Markdown Linting:** All generated Markdown files must be perfectly formatted (blank lines around headings/lists, no trailing spaces, etc.).
 -   **PDF Metadata Headers:** All CVs and Motivation Letters must include the HTML comment header with docID, version, date, and author fields for the `/cv_system/scripts/convert-to-pdf.sh` script.
--   **Estonian Language Grammar Correction (MANDATORY):** If the application is in Estonian, you MUST automatically pass the CV and motivation letter to Gemini for grammar and style correction:
-    1. Read `/cv_system/prompts/estonian_grammar_correction.prompt.md`
-    2. For EACH Estonian document (CV, motivation letter), call Gemini with:
-       - The correction prompt instructions
-       - The complete document content
-    3. Request the fully corrected document (no markup, no change explanations)
-    4. **OVERWRITE** the original file with the corrected version
-    5. This replaces the manual `estonian-spellcheck.sh` script - correction happens automatically during generation
+-   **Estonian Language Grammar Correction (MANDATORY):** If the application is in Estonian, grammar and style correction must be performed via Gemini. Due to Gemini CLI limitations, use this workflow:
+    1. After generating all documents, inform the user about the Gemini correction step
+    2. Provide instructions: "Run this command from the cv_system root directory:"
+       ```bash
+       gemini --yolo 'please apply prompts/gemini_correction_workflow.prompt.md to application documents in folder applications/[Company]/[Position]/'
+       ```
+    3. This command will:
+       - Read the correction workflow prompt
+       - Apply Estonian grammar corrections to CV and motivation letter
+       - Fix case agreement, verb conjugation, and use natural professional phrasing
+       - Overwrite original files with corrected versions
+    4. Alternative manual approach documented in `/cv_system/prompts/gemini_correction_workflow.prompt.md`
 -   **Fact-Checking (MANDATORY):** After all documents are generated and corrected, you MUST verify all claims against the knowledge base:
     1. Read `/cv_system/prompts/fact_checking.prompt.md`
     2. Execute comprehensive fact-check on the CV and motivation letter
