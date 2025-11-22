@@ -15,7 +15,7 @@ Tallinn, Eesti
 ---
 
 **Askend Estonia OÜ**  
-Tarkvaraarenduse projektijuhi ametikoht
+Tarkvaraarenduse projektijuhi ametikohale
 
 **Teema: Kandideerin tarkvaraarenduse projektijuhi ametikohale**
 
@@ -23,14 +23,14 @@ Tarkvaraarenduse projektijuhi ametikoht
 
 Austatud Askend Estonia värbamismeeskond,
 
-Kandideerin tarkvaraarenduse projektijuhi ametikohale sooviga panustada Eesti digiriigi tulevikku ja kasvada koos Askendiga. Askendi "Inimesed ennekõike" kultuur ja võimalus olla osa organisatsioonist, mis väärtustab nii inimeste arengut kui ka ärilisi tulemusi, on minu jaoks väga motiveeriv.
+Kandideerin tarkvaraarenduse projektijuhi ametikohale, soovides panustada Eesti digiriigi tulevikku ja kasvada koos Askendiga. Askendi "Inimesed ennekõike" kultuur ja võimalus olla osa organisatsioonist, mis väärtustab nii inimeste arengut kui ka ärilisi tulemusi, on minu jaoks väga motiveeriv.
 
 ## Miks ma sobin sellele ametikohale
 
-Olen enam kui 15 aasta jooksul juhtinud keerukaid IT-süsteemide juurutusprojekte erinevates organisatsioonides ja sektorites. Viimased 3 aastat olen rakendanud Scrum/Agile metodoloogiat praktiliselt PÖFF-i arendusmeeskonna juhtimisel. See kogemus annab mulle tugeva aluse tarkvaraarenduse projektijuhina tegutsemiseks:
+Olen enam kui 15 aasta jooksul juhtinud keerukaid IT-süsteemide juurutusprojekte erinevates organisatsioonides ja sektorites. Viimased kolm aastat olen PÖFF-i arendusmeeskonda juhtides rakendanud Scrum/Agile metodoloogiat. See kogemus annab mulle tugeva aluse tarkvaraarenduse projektijuhina tegutsemiseks:
 
 **Scrum/Agile metodoloogia praktikas:**  
-PÖFF-i projekti raames juhtisin 4-liikmelist arendusmeeskonda, rakendades igapäevaselt Scrum-metoodikat: daily stand-upid, sprintide planeerimine, backlog'i prioritiseerimine ja progressi jälgimine. Kogu protsess oli keskendunud äriliste eesmärkide saavutamisele - rahvusvahelise filmifestivali digitaalse taristu toimimisele. Vastutasin nii projekti tehnilise arhitektuuri kui ka tiimi igapäevase töö koordineerimise eest.
+PÖFF-i projekti raames juhtisin 4-liikmelist arendusmeeskonda, rakendades igapäevaselt Scrum-metoodikat: igapäevased püstijalakoosolekud, sprintide planeerimine, backlog'i prioritiseerimine ja progressi jälgimine. Kogu protsess oli keskendunud äriliste eesmärkide saavutamisele - rahvusvahelise filmifestivali digitaalse taristu toimimisele. Vastutasin nii projekti tehnilise arhitektuuri kui ka tiimi igapäevase töö koordineerimise eest.
 
 **Projekti äriline väärtus ja nõuete haldamine:**  
 Entu andmehaldusplatvormi enam kui 30 juurutuse käigus olen süvenenud iga kliendi äriprotsessi ja ärivajaduste analüüsi. Iga juurutus algas projekti eesmärkide ja mõõdikute määratlemisest koos kliendiga, backlog'i prioritiseerimisest äriliste tulemuste alusel ja lahenduse disainist, mis vastaks ärivajadustele. See kogemus on otseselt rakendatav projekti ärilise väärtuse defineerimisele ja backlog'i prioritiseerimisele.
@@ -52,13 +52,13 @@ Minu eesti keel on emakeele tasemel ning inglise keele oskus on väga hea (C2 lu
 
 ## Minu kogemuse lüngad
 
-Tunnistan, et mul puudub täielik IT-alane kõrgharidus - minu õpingud Tartu Ülikoolis ja Tallinna Ülikoolis jäid lõpetamata. Samas olen enam kui 15 aasta jooksul omandanud ulatusliku praktilise kogemuse IT-süsteemide juurutamisel ja projektijuhtimisel. Samuti ei ole mul eraldi dokumenteeritud "väga head MS Exceli oskust", kuigi olen kasutanud Excelit projektihalduses ja andmeanalüüsis. Kui see on oluline nõue, olen valmis oma Exceli oskusi süvendama.
+Tunnistan, et mul puudub täielik IT-alane kõrgharidus - minu õpingud Tartu Ülikoolis ja Tallinna Ülikoolis jäid lõpetamata. Samas olen enam kui 15 aasta jooksul omandanud ulatusliku praktilise kogemuse IT-süsteemide juurutamisel ja projektijuhtimisel. Samuti ei ole mul eraldi dokumenteeritud "väga head MS Exceli oskust", kuigi olen kasutanud Excelit projektihalduses ja andmeanalüüsil. Kui see on oluline nõue, olen valmis oma Exceli oskusi süvendama.
 
-Hoolimata neist lünkadest usun, et minu 15+ aasta praktiline kogemus IT-projektide juhtimisel, 3 aastat otsest Scrum/Agile metoodika rakendamist, tugev tehniline alus ja tõestatud võime juhtida edukalt projekte erinevates valdkondades annavad mulle hea aluse selles rollis õnnestumiseks.
+Hoolimata neist lünkadest usun, et minu enam kui 15-aastane praktiline kogemus IT-projektide juhtimisel, kolmeaastane Scrum/Agile metoodika rakendamise kogemus, tugev tehniline baas ja tõestatud võimekus juhtida edukalt projekte erinevates valdkondades annavad mulle hea aluse selles rollis õnnestumiseks.
 
 ## Askendi "Inimesed ennekõike" kultuur
 
-Askendi kultuur on minu jaoks eriti atraktiivne. PÖFF-i projektis õnnestus mul kõik 4 praktikanti mentoreerida täiskohaga arendajateks (100% püsivusmäär), mis näitab minu pühendumust inimeste arendamisele ja toetamisele. Askendi rõhuasetus pidevale arengule, õppimiskultuurile ja mentorlusele on täpselt see keskkond, kus usun, et saan nii ise areneda kui ka pakkuda väärtust teistele.
+Askendi kultuur on minu jaoks eriti atraktiivne. PÖFF-i projektis õnnestus mul juhendada kõik 4 praktikanti täiskohaga arendajateks (100% püsivusmäär), mis näitab minu pühendumust inimeste arendamisele ja toetamisele. Askendi rõhuasetus pidevale arengule, õppimiskultuurile ja mentorlusele on täpselt see keskkond, kus usun, et saan nii ise areneda kui ka pakkuda väärtust teistele.
 
 Võimalus mõjutada mitte ainult oma rolli või tiimi, vaid ka kogu ettevõtte suunda on inspireeriv. Usun, et väiksemas organisatsioonis, kus iga hääl loeb, saan anda maksimaalse panuse nii projektide edukusse kui ka Askendi arengusse.
 

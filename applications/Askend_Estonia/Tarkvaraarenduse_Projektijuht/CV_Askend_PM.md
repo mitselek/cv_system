@@ -8,7 +8,7 @@ author: Mihkel Putrinš
 # Mihkel Putrinš
 
 **Telefon:** +372 5656 0978
-**E-post:** <mitselek @gmail.com>
+**E-post:** <mitselek@gmail.com>
 **GitHub:** <https://github.com/mitselek>
 **LinkedIn:** <https://linkedin.com/in/mitselek>
 **Asukoht:** Tallinn, Eesti
@@ -17,7 +17,7 @@ author: Mihkel Putrinš
 
 ## Kokkuvõte
 
-Kogenud IT-projektijuht ja süsteemiarhitekt enam kui 15-aastase kogemusega keerukate IT-süsteemide juurutamisel ja 6+ aastat meeskondade otsest juhtimist. Fookuses on Scrum/Agile metodoloogia, äriliste eesmärkide elluviimine ja sidusrühmade kaasamine. Tugev tehniline taust (Python, JavaScript, andmebaasid) toetab tõhusat koostööd arendusmeeskondadega ning äriliste vajaduste tõlkimist tehnilisteks lahendusteks.
+Kogenud IT-projektijuht ja süsteemiarhitekt, kellel on üle 15 aasta kogemust keerukate IT-süsteemide juurutamisel ja üle 6 aasta meeskonna juhtimisel. Keskendun Scrum/Agile metodoloogiale, ärieesmärkide saavutamisele ja sidusrühmade tõhusale kaasamisele. Tugev tehniline taust (Python, JavaScript, andmebaasid) võimaldab tõhusat koostööd arendusmeeskondadega ja ärivajaduste tõlkimist tehnilisteks lahendusteks.
 
 ---
 
@@ -27,13 +27,13 @@ Kogenud IT-projektijuht ja süsteemiarhitekt enam kui 15-aastase kogemusega keer
 
 **2010 – praegu | Tallinn, Eesti**
 
-Vastutan Entu andmehaldusplatvormi arenduse ja juurutamise eest.
+Vastutasin Entu andmehaldusplatvormi arenduse ja juurutamise eest.
 
 **Peamised saavutused:**
 
-- Juurutanud Entu platvormi enam kui 30 organisatsioonis (koolid, muuseumid, ettevõtted, teadusasutused).
+- Juurutasin Entu platvormi enam kui 30 organisatsioonis (koolid, muuseumid, ettevõtted, teadusasutused).
 - Platvorm toetab mitmeid äriprotsesse: dokumendihaldus, projektijuhtimine, varahaldus, personalihaldus.
-- Vastutanud juurutuse täieliku elutsükli eest: ärivajaduste analüüs, lahenduse disain, konfiguratsioon, paigaldamine, koolitus ja tugi.
+- Vastutasin juurutuse täieliku elutsükli eest: ärivajaduste analüüs, lahenduse disain, konfiguratsioon, paigaldamine, koolitus ja tugi.
 - Kohandanud Entu platvormi haridus-, kultuuri-, teadus- ja ärisektori vajadustele.
 - Igapäevatöö hõlmab programmeerimist, andmebaaside disaini, kliendi- ja partnerisuhtlust, ärianalüüsi ning andmete migratsiooni.
 
@@ -48,7 +48,7 @@ Juhtisin PÖFF-i (Tallinna Pimedate Ööde Filmifestival) projekti raames 4-liik
 **Peamised saavutused:**
 
 - Juhtisin igapäevast Scrumi protsessi: daily stand-upid, sprintide planeerimine, backlogi prioritiseerimine, progressi jälgimine.
-- Mentordasin neli praktikanti täiskohaga arendajaks (100% püsivusmäär).
+- Mentordasin nelja praktikanti täiskohaga arendajaks (100% püsivusmäär).
 - Vastutasin festivali kodulehe ja logistikasüsteemi tehnilise juhtimise ja arhitektuuri eest.
 - Tagasin rahvusvahelise kultuurisündmuse digitaalse taristu toimivuse.
 - Jälgisin projekti ajakava, ressursse ja kvaliteedistandardeid.
@@ -67,7 +67,7 @@ _Kampuse LAN-võrgu rajamine (2012):_
 
 - Juhtisin 700+ kasutajaga võrgutaristu rajamist mitmes hoones.
 - Koordineerisin tehnilise meeskonna, õppejõudude, administratsiooni ja väliste partnerite tööd.
-- Projekti planeerimine, eelarve haldamine ja riskide juhtimine.
+- Planeerisin projekti, haldasin eelarvet ja juhtisin riske.
 - Projekt valmis tähtajaliselt ja eelarve piires.
 
 _E-posti migratsioon Google Workspace'i (2012):_
@@ -75,7 +75,7 @@ _E-posti migratsioon Google Workspace'i (2012):_
 - Viisin läbi 700 kasutaja e-posti migratsiooni Google Workspace'i platvormile.
 - Tulemuseks oli 90% kulude kokkuhoid teenuse kvaliteeti kaotamata.
 - Migratsioon viidi läbi ilma teenusekatkestusteta.
-- Projekti täielik planeerimine ja elluviimine.
+- Planeerisin ja viisin projekti täielikult ellu.
 
 _Entu platvormi juurutamine (2012):_
 
@@ -94,7 +94,7 @@ Vastutasin ajalooliste andmebaaside andmekvaliteedi ja -integratsiooni eest.
 
 **Peamised saavutused:**
 
-- Skannisin raamatuid ja lõin nende põhjal andmebaasi (eMem).
+- Digitaliseerisin raamatuid ja lõin nende põhjal andmebaasi (eMem).
 - Integreerisin andmeid kümnetest allikatest, tagades nende kvaliteedi.
 - Lõin ajaloolastele Google Sheets'is spetsiaalse töökeskkonna andmete otsimiseks ja võrdlemiseks.
 - Koolitasin ajaloolasi töötama otse MySQL-i andmebaasiga (päringud, sisuloome).
@@ -168,7 +168,7 @@ Keskharidus
 
 **1990 – 2002**
 
-Matemaatika, Loodusteaduslikud ained, Informaatika
+Matemaatika, loodusteadused ja informaatika
 Lõpetamata kõrgharidus
 
 ---
@@ -179,7 +179,7 @@ Lõpetamata kõrgharidus
 
 - 15+ aastat IT-süsteemide juurutusprojektide juhtimist.
 - 30+ edukat juurutust erinevates sektorites (haridus, kultuur, valitsus, teadus, äri).
-- Praktiline Scrum/Agile kogemus: daily stand-upid, sprintide planeerimine, backlogi prioritiseerimine, progressi jälgimine.
+- Praktiline Scrum/Agile kogemus: igapäevased püstijalakoosolekud, sprindi planeerimine, backlog'i prioritiseerimine, edenemise jälgimine.
 - Projektide täielik elutsükkel: ärivajaduste analüüs, projekti planeerimine, eelarve ja ajakava haldamine, elluviimine, tugi.
 - Erinevate sidusrühmade haldus (IT-meeskonnad, ärikasutajad, juhtkond, välispartnerid).
 - Riskide kaardistamine ja maandamine.
@@ -189,7 +189,7 @@ Lõpetamata kõrgharidus
 ### Meeskonnajuhtimine ja mentorlus
 
 - 4-liikmelise arendusmeeskonna juhtimine Scrum/Agile metoodikal.
-- Praktikantide edukas mentorlus täiskohaga arendajateks (100% püsivusmäär).
+- Praktikantide edukas juhendamine täiskohaga arendajateks (100% püsivusmäär).
 - Tehniliste meeskondade koordineerimine ja juhendamine.
 - Tööprotsesside ja kvaliteedistandardite loomine.
 
@@ -211,7 +211,7 @@ Lõpetamata kõrgharidus
 ### Keeleoskus
 
 - **Eesti keel:** Emakeel
-- **Inglise keel:** C2 (lugemine/kirjutamine/kuulamine), C1 (rääkimine/esitlus), sh IT-alane terminoloogia.
+- **Inglise keel:** C2 (kirjalik), C1 (suuline), sh IT-alane terminoloogia.
 - **Vene keel:** B2 (kõik osaoskused).
 - **Läti keel:** C2 (kõik osaoskused).
 
