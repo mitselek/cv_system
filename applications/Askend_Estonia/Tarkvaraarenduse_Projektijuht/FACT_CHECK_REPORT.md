@@ -20,11 +20,12 @@
 ### Contact Information - VERIFIED ✓
 
 **CV Header:**
+
 - Name: Mihkel Putrinš ✓
 - Phone: +372 5656 0978 ✓
-- Email: mitselek@gmail.com ✓
-- GitHub: https://github.com/mitselek ✓
-- LinkedIn: https://linkedin.com/in/mitselek ✓
+- Email: <mitselek@gmail.com> ✓
+- GitHub: <https://github.com/mitselek> ✓
+- LinkedIn: <https://linkedin.com/in/mitselek> ✓
 - Location: Tallinn, Eesti ✓
 
 **Source**: `/knowledge_base/contact.md` - Exact match
@@ -34,6 +35,7 @@
 **Claim in CV**: "Kogenud IT-projektijuht ja süsteemiarhitekt enam kui 15-aastase kogemusega keerukate IT-süsteemide juurutamisel ja 6+ aastat meeskondade otsest juhtimist"
 
 **Source Verification**:
+
 - 15+ years IT experience: Entusiastid 2010-present (14+ years), plus earlier roles ✓
 - 6+ years direct team leadership:
   - EKA IT-osakonna juht 2009-2012 (3 years) ✓
@@ -62,7 +64,8 @@
 
 **Title**: IT-osakonna juhataja ✓
 **Dates**: 2009 – 2012 ✓
-**All three major achievements** verified against achievements/*.md files:
+**All three major achievements** verified against achievements/\*.md files:
+
 - LAN construction (700+ users) ✓ - `eka-lan-construction-2012`
 - Email migration (90% cost reduction) ✓ - `eka-email-migration-2012`
 - Entu implementation (5000+ assets, 500+ documents) ✓ - `eka-entu-implementation-2012`
@@ -79,15 +82,17 @@
 **Title**: Tarkvaraarendaja ✓ (NOT "projektijuht")
 **Language used**: "Osalesin arendusmeeskonna liikmena" ✓ (participated as team member)
 **Achievements**: Both match source files:
+
 - `justiitsministeerium-criminal-care-is-2005` ✓
 - `justiitsministeerium-criminal-procedure-register-2005` ✓
-**Technologies**: Oracle JDev, Microsoft .NET ✓
+  **Technologies**: Oracle JDev, Microsoft .NET ✓
 
 **Result**: CORRECT - No leadership language for developer role
 
 #### Other Roles
 
 All verified against source:
+
 - Tartu Ülikool (2014-2015): Teadustarkvara arendaja ✓
 - TFTAK (2013-2015): IT-arhitekt ✓
 - Soov Kirjastus (1993): Projektijuht (IT) ✓ - `soov-kirjastus-classifieds-db-1993` confirms
@@ -95,10 +100,12 @@ All verified against source:
 ### Education Section - VERIFIED ✓
 
 **Secondary Education (1979-1990)**:
+
 - Institutions: Riga Secondary School No. 1, Tallinn Secondary School of Science, Õismäe Humanities Gymnasium ✓
 - Degree: Keskharidus ✓
 
 **Higher Education (1990-2002)**:
+
 - Universities: University of Tartu, Tallinn University ✓
 - Fields: Matemaatika, Loodusteaduslikud ained, Informaatika ✓
 - Status: Lõpetamata kõrgharidus ✓
@@ -112,26 +119,31 @@ All verified against source:
 ### Skills Section - VERIFIED ✓
 
 **Project Management & Scrum**:
+
 - 15+ years: Verified above ✓
 - 30+ implementations: Documented in Entusiastid source ✓
 - Scrum practices: Documented in PÖFF source body content ✓
 - All specific skills mentioned exist in knowledge base ✓
 
 **Team Leadership**:
+
 - 4-member team: PÖFF source ✓
 - 100% retention: achievement file confirms ✓
 
 **Business Analysis**:
+
 - 30+ organizations: Entusiastid source ✓
 - Requirements gathering: Source body content ✓
 
 **Technical Skills**:
+
 - Python (9/10): `skills/python.md` ✓
 - JavaScript (9/10): `skills/javascript.md` ✓
 - Databases: `skills/database-management.md` ✓
 - System architecture: `skills/system-architecture.md` ✓
 
 **Language Skills**:
+
 - Estonian: Native ✓ - `languages/estonian.md`
 - English: C2/C1 ✓ - `languages/english.md`
 - Russian: B2 ✓ - `languages/russian.md`
@@ -140,6 +152,7 @@ All verified against source:
 ### Certifications - VERIFIED ✓
 
 All 5 certifications match source files exactly:
+
 - MTCIPv6E (2025) ✓
 - MTCNA (2025) ✓
 - ADO .NET (2003) ✓
@@ -149,6 +162,7 @@ All 5 certifications match source files exactly:
 ### Hobbies - VERIFIED ✓
 
 All three hobbies exist in knowledge base:
+
 - 3D-modelleerimine ja -printimine ✓
 - Astronoomia ja füüsika ✓
 - Koorilaul ✓
@@ -195,6 +209,7 @@ All three hobbies exist in knowledge base:
 **APPROVED FOR SUBMISSION**
 
 This application demonstrates:
+
 1. **Perfect integrity** - zero fabrications or embellishments
 2. **Honest gap acknowledgment** - incomplete IT degree disclosed
 3. **Conservative interpretation** - no additions beyond source
