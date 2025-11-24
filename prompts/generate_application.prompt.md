@@ -157,18 +157,8 @@ If source has body content beyond metadata, quote it directly. Do not paraphrase
 -   **No Emojis in ANY Generated Files:** Strictly adhere to the "No Emojis" rule from the `constitution.md`. This applies to ALL files including README.md, CV, motivation letter, and any other generated content. Use plain text markers instead (e.g., "STRENGTH:", "GAP:", "NOTE:").
 -   **Markdown Linting:** All generated Markdown files must be perfectly formatted (blank lines around headings/lists, no trailing spaces, etc.).
 -   **PDF Metadata Headers:** All CVs and Motivation Letters must include the HTML comment header with docID, version, date, and author fields for the `/cv_system/scripts/convert-to-pdf.sh` script.
--   **Estonian Language Grammar Correction (MANDATORY):** If the application is in Estonian, you MUST automatically correct grammar via Gemini CLI:
-    1. Use `run_in_terminal` to execute from workspace root:
-       ```bash
-       cd /home/michelek/Documents/github/cv_system && gemini --yolo 'please apply prompts/gemini_correction_workflow.prompt.md to application documents in folder applications/[Company]/[Position]/'
-       ```
-    2. Replace `[Company]/[Position]/` with actual folder path
-    3. Set `isBackground=false` to wait for completion
-    4. Gemini will automatically read the prompt and correct all Estonian documents (CV, motivation letter)
-    5. Expected: File path errors may appear but corrections are applied successfully
-    6. Verify by checking file timestamps or reading corrected content
-    7. This happens automatically - no user intervention required
--   **Fact-Checking (MANDATORY):** After all documents are generated and corrected, you MUST verify all claims against the knowledge base:
+
+-   **Fact-Checking (MANDATORY - Step 1):** After all documents are generated, you MUST verify all claims against the knowledge base BEFORE grammar correction:
     1. Read `/cv_system/prompts/fact_checking.prompt.md`
     2. Execute comprehensive fact-check on the CV and motivation letter
     3. Save the report as `FACT_CHECK_REPORT.md` in the application directory
@@ -176,12 +166,23 @@ If source has body content beyond metadata, quote it directly. Do not paraphrase
        - Load the report and apply ALL corrections automatically
        - Overwrite the corrected files
        - Generate next fact-check report to verify all issues resolved
-    5. Only proceed to PDF generation when fact-check shows 0 FABRICATIONS and 0 EMBELLISHMENTS
--   **PDF Generation:** After Estonian grammar correction and fact-checking verification (if applicable), inform the user they can generate PDFs by running:
-    ```bash
-    cd /cv_system/applications/[Company]/[Position]
-    ../../../scripts/convert-to-pdf.sh CV_*.md motivation_letter_*.md
-    ```
+    5. Only proceed to grammar correction when fact-check shows 0 FABRICATIONS and 0 EMBELLISHMENTS
+
+-   **Estonian Language Grammar Correction (MANDATORY - Step 2):** If the application is in Estonian, you MUST automatically correct grammar using the consolidated script:
+    1. Use `run_in_terminal` to execute from workspace root:
+       ```bash
+    cd /home/michelek/Documents/github/cv_system && ./scripts/estonian-correct.sh --dir applications/[Company]/[Position]
+       ```
+    2. Replace `[Company]/[Position]/` with actual folder path
+    3. Set `isBackground=false` to wait for completion
+    4. The script will automatically correct all Estonian markdown documents (CV, motivation letter) in the directory
+    5. Verify by checking file timestamps or reading corrected content
+    6. This happens automatically - no user intervention required
+
+-   **PDF Generation (AUTOMATIC - Step 3):** PDFs are generated automatically:
+    - If using the wrapper script `./scripts/gemini_watch_and_convert.sh`, PDFs are created automatically after grammar correction
+    - Otherwise, you can run: `cd applications/[Company]/[Position] && ../../../scripts/convert-to-pdf.sh CV_*.md motivation_letter_*.md`
+    - PDFs will be created in the `delivery/` subdirectory
 
 ## How to Use This Prompt
 
