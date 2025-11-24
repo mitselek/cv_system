@@ -22,12 +22,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-22 | Elektrilevi OÜ | Äriprojektijuht | 65% | [README](Elektrilevi/Ariprojektijuht/README.md) | 2025-11-23 | Submitted | Strong IT project exp (15+ yrs). Gaps: external IT vendor management, master's degree, international exp. Fact-checked & corrected. Contact: Greete Poopuu |
 | 2025-11-22 | Askend Estonia OÜ | Tarkvaraarenduse projektijuht | 75% | [README](Askend_Estonia/Tarkvaraarenduse_Projektijuht/README.md) | 2025-11-22 | Submitted | Strong PM & team leadership (4-member dev team, 100% intern retention). Excel/Sheets mastery (10/10 Google Sheets, 8/10 Excel). Gaps: Scrum certification, formal IT degree. Contact: <melissa.padjus@askend.com> |
 | 2025-11-23 | Kaitseressursside Amet | IKT-projektijuht | 70% | [README](Kaitseressursside_Amet/IKT-projektijuht/README.md) | 2025-11-23 | Submitted | Strong IT PM experience (15+ yrs, managed 700+ user LAN, Justice Ministry projects). Gaps: Cyber security background, security clearance unknown. Contact: <sigre.ratsepp@kra.ee> (+372 5307 3982) |
+| 2025-11-24 | Tallinna Strateegiakeskus | Innovatsioonispetsialist | 55% | [README](Tallinna_Strateegiakeskus/Innovatsioonispetsialist/README.md) | 2025-12-08 | Submitted | Systems thinking + team leadership strong; municipal sector experience zero (learning opportunity). Fact-checked: 0 fabrications. Contact: <mark-emil.talivere@tallinnlv.ee> (56479936) |
 
 ## Statistics
 
-- **Total Applications:** 5
+- **Total Applications:** 6
 - **Active (Draft/Ready):** 0
-- **Submitted:** 5
+- **Submitted:** 6
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
@@ -36,4 +37,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-11-23
+**Last Updated:** 2025-11-24
