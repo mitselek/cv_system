@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/scripts/build_context.js",
-    "compile": "npm run build && npm run start"
+    "compile": "npm run build && npm run start",
+    "run:gemini-watch": "bash ./scripts/gemini_watch_and_convert.sh"
   },
   "keywords": [],
   "author": "Mihkel Putrinš",
