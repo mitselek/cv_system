@@ -4,7 +4,7 @@ description: Comprehensive Estonian grammar, spelling, and style correction prom
 
 # Estonian Grammar & Style Correction Prompt
 
-**Last updated:** 2025-11-21
+**Last updated:** 2025-11-24
 
 ## Objective
 
@@ -144,11 +144,19 @@ The corrected document should:
 
 ## Usage Context
 
-This prompt is used in the `/cv_system` application generation workflow for Estonian-language documents:
+This prompt is used by `scripts/estonian-correct.sh` in the `/cv_system` application generation workflow:
+
+**Automated workflow:**
 1. Generate CV and motivation letter in Estonian
-2. Pass complete documents to Gemini with this prompt
-3. Receive corrected versions back
-4. Overwrite original files with corrected versions
-5. Generate PDFs from corrected Markdown
+2. Run fact-checking to verify all claims against knowledge base
+3. Run `scripts/estonian-correct.sh FILE.md` to apply grammar/style corrections
+4. The script combines this prompt with the document and sends to Gemini
+5. Corrected version overwrites original file
+6. Generate PDFs from corrected Markdown using `scripts/convert-to-pdf.sh`
+
+**Script usage examples:**
+- `./scripts/estonian-correct.sh CV_et.md` - Correct single file
+- `./scripts/estonian-correct.sh --dir applications/Company/Position` - Correct all .md in directory
+- `./scripts/estonian-correct.sh --check FILE.md` - Check without modifying
 
 No human review needed if corrections follow these guidelines.
