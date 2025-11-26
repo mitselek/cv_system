@@ -100,6 +100,62 @@ last_verified: '2025-11-21'
 
 ---
 
+### eesti-keele-instituut-2017-2018
+
+```yaml
+id: eesti-keele-instituut-2017-2018
+type: employment
+company: Eesti Keele Instituut
+dates:
+  start: '2017-04-12'
+  end: '2018-04-30'
+title:
+  et: Vanamsüsteemianalüütik
+  en: Senior System Analyst
+location: Tallinn, Estonia
+tags:
+  - System Analysis
+  - Project Management
+  - Software Development
+  - Language Resources
+  - Java
+  - Spring Boot
+project: EKI-ASTRA (2014-2020.4.01.16-0034)
+repository: https://github.com/keeleinstituut/ekilex
+technologies:
+  - Java JDK 17
+  - Apache Maven 3.5.4
+  - Spring Boot 2.6.12
+  - Spring Framework 5.3.23
+  - Spring Security 5.6.7
+  - Thymeleaf 3.0.15
+  - Jooq 3.14.16
+  - Postgres 15.4
+status: verified
+last_verified: '2025-11-26'
+source: Employment contract nr 408, dated 12.04.2017; GitHub repository
+skills_demonstrated:
+  - java
+  - spring-boot
+```
+
+#### et
+
+Tööülesanded: Projektis EKI-ASTRA sõnastiku- ja terminibaasisüsteemi EKILEX tarkvaraarenduse EKI-poolne juhtimine, tehniline järelvalve ja süsteemianalüüs.
+
+#### en
+
+Responsibilities: Management of EKILEX dictionary and terminology database system software development for the EKI-ASTRA project, technical supervision, and system analysis.
+
+---
+
+#### Connections
+
+- **Skills:** [[java]], [[spring-boot]]
+- **Repository:** https://github.com/keeleinstituut/ekilex
+
+---
+
 ### eesti-kunstakadeemia-2009-2012
 
 ```yaml
@@ -343,11 +399,21 @@ tags:
   - Software Development
   - Government
   - Security
-  - Oracle
+  - Java
+  - Oracle ADF
   - .NET
+technologies:
+  - Oracle JDeveloper
+  - Oracle ADF (Application Development Framework)
+  - Java
+  - XML-based UI development
+  - JSP/JSF
+  - Oracle Database
+  - Microsoft .NET
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-11-26'
 skills_demonstrated:
+  - java
   - database-management
 achievements:
   - justiitsministeerium-criminal-care-is-2005
@@ -356,21 +422,21 @@ achievements:
 
 #### et
 
-- Oracle JDev
-- Microsoft .NET
-- Saavutused: Kriminaalhoolduse infosüsteem, Kriminaalmenetluse register
+- **Kriminaalhoolduse infosüsteem:** Oracle JDeveloper + Oracle ADF (Java-based), XML-põhine kasutajaliidese arendus
+- **Kriminaalmenetluse register:** Microsoft .NET
+- Osalesin arendusmeeskonna liikmena mõlemas projektis. Mõlemad projektid valmisid edukalt ja tähtajaks.
 
 #### en
 
-- Oracle JDev
-- Microsoft .NET
-- Achievements: Criminal Care Information System, Criminal Procedure Register
+- **Criminal Care Information System:** Oracle JDeveloper + Oracle ADF (Java-based), XML-based UI development
+- **Criminal Procedure Register:** Microsoft .NET
+- Participated as development team member in both projects. Both projects were completed successfully and on time.
 
 ---
 
 #### Connections
 
-- **Skills:** [[database-management]]
+- **Skills:** [[java]], [[database-management]]
 - **Achievements:** [[justiitsministeerium-criminal-care-is-2005]], [[justiitsministeerium-criminal-procedure-register-2005]]
 
 ---
@@ -851,6 +917,32 @@ last_verified: '2025-11-21'
 
 ---
 
+### java
+
+```yaml
+id: java
+skill_name:
+  et: Java
+  en: Java
+category: Programming Language
+proficiency_level: 7/10
+tags:
+  - programming
+  - backend
+  - enterprise
+  - spring-boot
+  - oracle-adf
+status: verified
+last_verified: '2025-11-26'
+```
+
+#### Experience
+
+- Justiitsministeerium (2002-2005): Oracle JDeveloper + Oracle ADF
+- Eesti Keele Instituut (2017-2018): Spring Boot project management
+
+---
+
 ### javascript
 
 ```yaml
@@ -985,6 +1077,28 @@ Built specialized work environments and automation solutions in Google Sheets wi
 
 - **Experiences:** [[eesti-malu-instituut-2017-2024]], [[ilusa-koodi-instituut-2021-2024]]
 - **Skills:** [[data-curation]], [[database-management]]
+
+---
+
+### spring-boot
+
+```yaml
+id: spring-boot
+skill_name:
+  et: Spring Boot
+  en: Spring Boot
+category: Framework
+tags:
+  - java
+  - backend
+  - web-framework
+status: verified
+last_verified: '2025-11-26'
+```
+
+#### Experience
+
+- Eesti Keele Instituut (2017-2018): EKILEX project using Spring Boot 2.6.12, Spring Framework 5.3.23, Spring Security 5.6.7
 
 ---
 

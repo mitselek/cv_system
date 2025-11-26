@@ -5,7 +5,7 @@ id: tartu-ulikool-2014-2015
 type: employment
 company: Tartu Ülikool
 context: Centre of Estonian Language Resources
-url: https://keeleressursid.ee/en/
+url: https://www.keeleressursid.ee/
 dates:
   start: '2014-09'
   end: '2015-12'
