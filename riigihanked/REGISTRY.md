@@ -25,10 +25,10 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 14  
+**Total Assessed:** 15  
 **Analyzing:** 1  
 **Consider:** 2  
-**Skip:** 10  
+**Skip:** 11  
 **FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
@@ -38,6 +38,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 | Date       | ID      | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
 |------------|---------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
+| 2025-11-27 | 8960884 | Common IT Platform (gas)           | Elering AS                  | 2025-12-03 | Skip       | Gas transmission TSO system, AS4/ActiveMQ/ELK/Keycloak gaps, 50% interviews, 6d prep insufficient, <5% win prob |
 | 2025-11-27 | 9514425 | E-kataloogi arendustööd            | RIK                         | 2025-12-12 | Consider   | €150k Java/Spring Boot framework, 50-60% feasible, 30-40% win prob, need tester, DevOps gaps, 15d timeline tight |
 | 2025-11-28 | 9530644 | Läbipääsusüsteemi uuendamine       | Eesti Rahvusringhääling     | 2025-11-28 | Skip       | Hardware installation (not dev), Inner Range cert required (advanced+basic), <24h deadline, 0% match |
 | 2025-11-28 | 9522164 | IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus | Eesti Energia AS | 2025-12-02 | Skip | TPRM SaaS platform vendor required (not dev), ISO 27001/SOC2 Type II cert, manufacturer auth needed, product resale not development, <1% win prob |
