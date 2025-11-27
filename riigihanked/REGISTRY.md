@@ -25,9 +25,9 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 6  
+**Total Assessed:** 7  
 **Analyzing:** 1  
-**Skip:** 4  
+**Skip:** 5  
 **FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
@@ -37,6 +37,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 | Date       | ID      | Reference | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
 |------------|---------|-----------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
+| 2025-11-27 | 9479004 | -         | Andmelaohaldus ja analüüs          | Eesti Rahvusraamatukogu     | 2025-11-29 | Skip       | CISA audit cert required (9mo), Snowflake (none) |
 | 2025-11-27 | 9559644 | 302778    | Veebide arendus ja hooldus         | Eesti Energia AS            | 2025-12-12 | Analyzing  | Drupal web dev, 40% conditional recommendation |
 | 2025-11-27 | 9590504 | 303108    | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |
 | 2025-11-27 | 9582704 | -         | Andmelao arendusteenus             | Põhja-Eesti Regionaalhaigla | 2025-12-04 | Skip       | Market research, Snowflake expertise gap       |
