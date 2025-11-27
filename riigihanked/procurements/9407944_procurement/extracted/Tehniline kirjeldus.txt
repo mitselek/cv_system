@@ -1,0 +1,552 @@
+Tehniline kirjeldus
+Sisukord
+1.
+
+Hanke eesmärgid .............................................................................................................. 1
+
+2.
+
+Plaanitavad tööd............................................................................................................... 2
+
+3.
+
+Plaanitavate tööde etapid .................................................................................................. 3
+
+
+Esimene etapp ....................................................................................................... 3
+
+
+
+Tööd, mis jaotada järgnevate etappide vahel: ........................................................ 4
+
+4.
+
+Ülevaade olemasolevast süsteemist .................................................................................... 6
+
+5.
+
+Nõuded arendustööde protsessile ...................................................................................... 7
+
+6.
+
+5.1.
+
+Dokumentatsioon ja kood ......................................................................................... 7
+
+5.2.
+
+Analüüs ja analüüsi dokumentatsioon ......................................................................... 7
+
+5.3.
+
+Arendusprotsess ja testimine ..................................................................................... 8
+
+5.4.
+
+Tehniline info ........................................................................................................... 8
+
+5.5.
+
+Hankelepingu tulemid ja vastuvõtmine ....................................................................... 8
+
+Üldise töökorralduse põhimõtted ....................................................................................... 9
+
+1. Hanke eesmärgid
+Käesolev dokument on koostatud eesmärgiga anda lühiülevaade Siseministeeriumi
+infotehnoloogia- ja arenduskeskuse (edaspidi SMIT, tellija või hankija) ostetava teenuse sisust,
+nõuetest hangitavatele teenustele, meeskonnale, arendustöödele ning oodatavatele
+tulemitele.
+Tagasisaatmismenetlust toetav infosüsteem Illegaal2 on Politsei- ja Piirivalveameti töövahend
+ebaseaduslikult Eestis viibivate menetlemiseks ja viibinud isikute dokumenteerimiseks.
+Infosüsteemis registreeritakse ebaseaduslikult Eestis viibivad isikud, viiakse läbi
+menetlustoimingud, sh menetlusdokumentide vormistamine, edastatakse andmeid EU
+süsteemi, teostatakse isikupõhiseid päringuid Politsei- ja Piirivalveameti haldusala
+infosüsteemidesse ning EU Liidu infosüsteemidesse, andmete arhiveerimine, fikseeritakse
+isiku
+kinnipidamisega
+seotud
+sündmused
+ning
+asjaolud.
+Infosüsteemi kasutajate arv üle Eesti on ca. 350 Politsei- ja Piirivalveameti ametnikku.
+
+1 / 12
+
+2. Plaanitavad tööd
+Vastavalt EUROOPA PARLAMENDI JA NÕUKOGU MÄÄRUS (EL) 2024/1358, 14. mai 2024,
+millega kehtestatakse kolmanda riigi kodanike taustakontroll välispiiridel, on vajalik arendada
+ILLEGAAL2-te taustakontrolli töövoogu toetav funktsionaalsus.
+Tööde üleandmise eelduseks on edukas testimise tulemus DEV ja TEST keskkonnas ja
+tähtaeg on 25.05.2026.
+Hanke ja hankemenetluse tulemusel sõlmitava lepingu esemeks on järgnev:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vajadusel kasutusjuhtude täiendamine.
+Vajadusel arenduste käigus tekkivate muudatuste fikseerimine prototüüpides.
+Detailanalüüs.
+Loodud on uus eraldiseisev Taustakontrolli rakendus (api) (sh arhitektuur,
+andmebaasid, klientrakendus).
+Täiendada seotud olemasolevaid Illegaal2 rakendusi.
+Liidestused kolmandate osapoolte teenustega (x-tee vahendusel).
+Päringute integreerimine.
+Uue rolli loomine – Taustakontrolli menetleja.
+Kasutaja ja süsteemi poolne logimine: Kõik kasutajate poolt algatatud tegevused kõik
+taustaprotsesside tegevused, kõik nii õnnestunud kui ka ebaõnnestunud tegevused
+koos vastavate logitasemetega (info, warn, error) .
+Dokumenteerimine.
+Testimine.
+
+Taustakontrolli protsessijoonis:
+
+2 / 12
+
+Loodud on järgmised funktsionaalsused:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X-tee liidestused teiste registritega
+Taustakontrolli isikute nimekirja vaade, sh otsing nimekirjas ja filtreerimine
+nimekirjas
+Isikuandmete detailvaade, mis on jagatud loogilisteks osadeks (tabidel)
+Biomeetria kuvamine ABISest
+Haldusmoodulisse loodud uued taustakontrollist tulenevad klassifikaatorid ja
+dokumendi põhjad (html-mall)
+Taustakontrollis kogutud andmete pdf-väljatrükk
+Kasutajarolli loomine – taustakontrolli menetleja
+Dokumentide üles laadimise funktsionaalsus
+Dokumentide loomine olemasoleva html-malli põhjal
+X-tee päringud
+Statistika edastamine statistika andmelattu
+Taustakontrolli mooduli andmevahetus Illegaal2 Kinnipidamise mooduliga
+Kinnipidamise moodulis uue kinnipidamise algataja-süsteemi lisamine, dokumentide
+ja kontrollide lisamine
+Taustakontrollis Kinnipidamise info kuvamine
+Taustakontrolli moodulis kogutud andmete, üleslaetud dokumentide Illegaal 2
+moodulisse edastamine ja menetlusse suunamine
+Taustakontrolli moodulis kogutud andmete, üleslaetud dokumentide RAKS2
+infosüsteemi andmete edastamine
+
+3. Plaanitavate tööde etapid
+Eelanalüüs on lisatud dokumendina - Taustakontrolli eelanalüüs.
+Tööde üleandmise tähtaeg on fikseeritud ja ei saa muuta.
+Esitatav pakkumus peab hõlmama kõiki funktsionaalsusi etappideks jaotatuna selliselt, et
+esimese etapi sisu on täitja poolt ette antud ning järgnevad on täitja kujundada tingimusel,
+et kõik tehnilises kirjelduses mainitud funktsionaalsused on mingis etapis kaetud.
+Tööd jaotada vähemalt kolme etappi, millest esimene etapp on fikseeritud sisu ja mahuga.
+Viimase etapi maht peab olema vähemalt 35%.
+Näiteks: Teine etapp: Maht – 20 % / Kolmas etapp: Maht – 25%/ Neljas etapp: Maht 35%.
+
+
+Esimene etapp: Etapi algus esimesel võimalusel. Maht 20%
+Võimalusel taaskasutada Illegaal-i menetluses kasutusel olevaid funktsionaalsusi
+(märgitud „*“).
+
+3 / 12
+
+SMIT-i poolt on alustuseks loodud uus api Illegaal2-te nimega taustakontroll.
+Baasiettevalmistuses tuleb ehitada rakendus, luua andmebaasi tabelid ning muud
+tegevused, mis sisaldavad uue rakenduse loomist. Arendada valmis isikuvaade koos
+funktsionaalsusega.
+o Baasi ettevalmistus (sh andmete hoidmise loogika) – rakenduse ehitamine,
+andmebaasi tabelite loomine.
+o Isikuvaade - Taustakontrollimoodulis peab saama andmeid sisestada, muuta
+ja kustutada. Taustakontrolli raames kogutakse andmestik ning koostatakse
+kokkuvõte.
+ TK-s kogutavate andmete kuvamine tabidega eraldatud vaates –
+Isikuvaates on tab-id (sakid), mille vahel saab kasutaja navigeerida.
+ Luua uus roll: „taustakontrolli teostaja“, kes teistele moodulitele
+juurde ei pääse.
+ Erinevate liikide dokumentide üleslaadimine - Üleslaetavaid faile
+hoitakse failihoidlas (*). Arvestama peab, et isikuandmete dokumendid
+ja menetluse dokumendid tuleb hoida eraldiseisvalt.
+ Taustakontrolli tervisekontroll – Sisestatud tervisekontrolli andmed on
+salvestatud ja need kuvatakse välja.
+ Taustakontrolli haavatavuse kontroll – Sisestatud haavatavuse
+kontrolli andmed on salvestatud ja need kuvatakse välja.
+o Taustakontrolli läbiviija tegevused nimekirjas – Taustakontrolli läbiviijale
+kuvatakse nimekirja vaade juhtumitest.
+
+ Tööd, mis jaotada järgnevate etappide vahel:
+1. Liidestus ja andmevahetus erinevate osapooltega. Andmevahetuseks x-tee
+(REST).
+o Andmevahetus
+
+
+Andmevahetus piirikontrolli andmekoguga (PIKO) ja sisendandmed.
+Taustakontrolli mooduli nimekirjas kuvatakse info piirikontrollist
+kogutud isikuga seotud andmetest.
+
+
+
+Andmevahetus Keskne isikute tuvastamise ja isikusamasuse kontrolli
+teenusega (IT 2.0). X-tee teenus olemas ja vaja kasutusele võtta. - Kui
+isikul on olemas olevaid andmed, siis võetakse need isikutuvastusse
+kaasa. Protsess peab olema korratav ja taustakontrolli töövoost peab
+saama isikutuvastusse igal ajahetkel tagasi põhiandmeid muutma.
+
+ Taustakontrollis viibivale isikule saab sisestada isiku kinnipidamist,
+andmed salvestuvad kinnipidamise apisse. Kinnipidamise andmed
+kuvatakse välja lisaks taustakontrolli isikuvaates.
+4 / 12
+
+ Biomeetria kuvamine ABIS-est (Automaatne biomeetrilistel andmetel
+põhinev identiteedi haldamise süsteem) – Biomeetria hoiustatakse ABIS
+biomeetriahoidlas. Praegusel hetkel on olemas vastavad x-tee teenused
+biomeetria pärimiseks.
+
+2. Menetlusse suunamine ja taustakontrolli kokkuvõtte loomine taustakontrolli
+moodulisse.
+o Menetlused
+
+
+Taustkontrolli lõpetamisel andmete edastamine Illegaali menetlusse Illegaali menetlusse võetakse automaatselt kaasa kogutud andmestik
+ja biomeetria viited. Lisaks tulevad kaasa kõik andmed, kokkuvõtted ja
+failid. Andmevahetus toimub üle api. Illegaali menetluses peab saama
+menetlust alustada taustakontrollist saabunud isikule.
+ Andmete edastamine RAKSi (rahvusvahelise kaitse andmise register)
+menetlusse - Vajadus on luua x-tee teenus RAKS infosüsteemi
+andmete edastamiseks.
+o Kokkuvõte - Kokkuvõte on genereeritud PDF formaadis ja kuvatakse
+kasutajale. PDF salvestatakse dokumendi hoidlasse ja kokkuvõtet saab
+korduvalt genereerida, kuniks pole lõpetatud taustakontroll.
+
+
+
+Kokkuvõtet peab saama välja printida ja üles laadida.
+Kokkuvõtet on võimalik kinnitada (PDF salvestatakse dokumendi
+hoidlasse).
+o Süsteem
+ Logid (taustakontrollis varasemad tehtud tegevused).
+ Tehtud päringute ülevaade ja salvestatud info.
+o Haldusvaade
+ Illegaal2 haldusmooduli täiendamine lisandunud klassifikaatorite ja
+dokumendimallidega.
+ Kokkuvõtte edastamine e-postile – Kasutaja saab saata süsteemist
+taustakontrolli subjektile e-postiga kokkuvõtte.
+
+3. Luua julgeolekute päringute liidestused, kinnipidamise keskuse, statistika
+funktsionaalsused ja integratsioonitestid. Julgeoleku päringute andmevahetus
+toimub üle x-tee, kinnipidamise keskuse funktsionaalsuste rakendamine üle api
+ja statistikas võtame kasutusele mitteisikustatud andmed. Integratsioonitestide
+läbiviimine erinevate osapooltega.
+o Isikuvaade
+
+5 / 12
+
+i. Taustakontrolli nimekirja sorteerimine, filtreerimine ja otsimine Taustakontrolli läbiviijale kuvatakse nimekirja vaade juhtumitest,
+mis on sorteeritavad, filtreeritavad ja otsitavad.
+ii. Aja kalkulaator - Ajakalkulaator kuvatakse nimekirjas iga isiku
+kohta ja isiku vaates järele jäänud aeg. Peab olema seadistatav.
+iii. Dokumendi koostamine ja kinnitamine - Standardiseeritud
+dokumendid, mis on html mallide peal ning neid hoitakse Illegaali
+dokumendihoidlas (*).
+iv. Andmete säilitamine taustakontrollis – Taustakontrolli lõppedes
+andmestik kustub automaatselt taustakontrolli rakenduses, peale
+andmestiku menetlusse saatmist.
+v. Isikuvaate all on võimalik näha isikutuvastuses ja
+julgeolekukontrollis tehtud päringud.
+b. Julgeoleku päringud – 2 (*)
+c. Kinnipidamise rakendamine KPK moodulis
+i. Arvestada olemasolevaid kinnipidamisliike.
+ii. Arvestada olemasolevaid lõpetamise reegleid.
+iii. Isikuid peab saama dokumenteerida kinnipidamise rakenduses ja
+kuvada olulisema info taustakontrolli vaatesse ja andmed liiguvad
+kaasa.
+d. Kinnipidamine taustakontrolli moodulis
+i. Luua uus kinnipidamise "algataja" (*).
+ii. Viibimise asukoha väljakuvamine (*).
+iii. Kinnipidamise andmed kuvatakse välja taustakontrolli isikuvaates
+(*).
+e. Statistika ALIS-e (PPA andmeladu, analüüsi ja juhtimis infosüsteem) – ALISele on loodud end-point, mille kaudu saab pärida välja muutusi
+taustakontrolli api tabelist.
+f. Integratsioonitestid – PIKO, IT, RAKS, Illegaal.
+
+4. Ülevaade olemasolevast süsteemist
+Illegaalis rakendatakse mikroteenuste arhitektuuri põhimõtteid.
+Mikroteenused luuakse nii, et need koondavad äriliselt kokku kuuluvaid vajadusi ehk
+moodustuvad ärifunktsionaalsed grupid. Iga ärilise funktsionaalse grupi jaoks on loodud
+vajalikud kasutajaliidese vaated, mis võimaldavad teenusrakenduste funktsionaalsuste
+tarbimist kasutajale.
+Erinevate äriliste funktsionaalsete gruppide vaated on koondatud kokku ühtsesse
+veebirakendusse, mis lõppkasutaja jaoks moodustab ühtse ja tervikliku Illegaal tarkvara.
+
+6 / 12
+
+Veebirakenduse
+kasutajateks
+on
+tagasisaatmise
+tööprotsessi
+menetlejad,
+kinnipidamiskeskuse ja arestimaja töötajad, sissesõidukeeldude menetleja ning vaatlejad.
+
+5. Nõuded arendustööde protsessile
+5.1.
+
+Dokumentatsioon ja kood
+
+Töö teostamise käik ja/või tulem kantakse SMIT-i lähtekoodi repositooriumisse vastavalt
+Tellija juhistele.
+Dokumenteerimine toimub vastavalt täitja tarkvara arenduse metoodikale ning Tellija
+täiendavatele nõuetele, mille eesmärgiks on tagada jätkusuutlik, läbipaistev ning kvaliteetne
+rakenduse arendus. Dokumentatsioon peab olema sellisel tasemel, et kui Täitja teeb
+lahenduse valmis, siis edasi oleks võimalik järgmisel arendajal antud dokumentatsiooni pealt
+ilma raskusteta teha täiendusi.
+
+5.2.
+
+Analüüs ja analüüsi dokumentatsioon
+
+Teenuste lõplik spetsifikatsioon selgub analüüsi tulemusena, mille teostab Pakkuja. Pakkuja
+poolt teostatav arenduse eelne analüüs peab arvestama Tellija koostatud nõudeid. Analüüs
+peab vastama õigusaktidele ja reaalsetele tööprotsessidele.
+Tellija poolt koostatud eelanalüüs (lisaks prototüüp) on arendusplaani aluseks, mis Pakkuja
+poolse detailanalüüsi käigus täpsustub ja seeläbi muutub arenduskavaks. Kõik muudatused
+peavad olema eelnevalt Tellijaga kooskõlastatud. Analüüsi dokumendi tööversiooni
+täiendatakse paralleelselt arendustöödega, kuid arendustööde konkreetne realiseeritav osa
+peab olema tellijaga eelnevalt kooskõlastatud ja kirjeldatud analüüsi dokumendi
+tööversioonis. Dokumentatsioon peab tööde lõpliku üleandmise hetkel vastama tegelikkusele
+(st. kui arendamise käigus on tehtud midagi analüüsist erinevalt, siis tuleb ka analüüsi
+dokumenti vastavalt sellele muuta). Muudatused analüüsis tuleb kooskõlastada Tellijaga.
+Dokumentatsioon võetakse vastu arendustööde viimases etapis ning dokumentatsioon peab
+hõlmama kogu realiseeritavat osa. Projekti dokumentatsioon peab olema terviklik ja
+terminoloogiliselt üheselt mõistetav.
+Täpsustunud arhitektuur ja loodava Taustakontrolli
+komponentjoonised realiseeritakse Enterprise Architectis.
+
+mooduli
+
+andmemudel
+
+ja
+
+7 / 12
+
+5.3.
+
+Arendusprotsess ja testimine
+
+Projektide ja etappide järjekorra, prioriteetsuse ning tähtajad määrab tööde tellija.
+Tarkvara
+arendusprotsessiks
+peab
+olema
+väle
+(Agile)
+arendusprotsess.
+Väleda arendusprotsessi
+all
+peetakse
+silmas
+kergekaalulist
+arendusprotsessi,
+muutustega kohandumist, inimestele orienteeritust. Tarkvara arendusprotsess peab olema
+jaotatud redaktsioonideks (1 ja 2 kuud) ja iga redaktsioon peab olema jaotatud
+iteratsioonideks (2 nädalat). Vähemalt iga 2 nädala tagant peavad toimuma tarkvara arenduse
+demonstratsioonid, mille käigus Hankija saab esitada omapoolsed ettepanekud (näiteks
+täiendada kasutusmugavuse või funktsionaalseid nõudeid), mis on Pakkujale siduvad.
+Pakkuja koostab ja kirjeldab testlood ning kooskõlastab need tellijaga. Testlood peavad katma
+kogu
+funktsionaalsust ning näitama, et tehtud arendus pole rikkunud ülejäänud
+süsteemi. Testlood peavad sisaldama infot teostatava protseduuri või täpse tegevuse
+kirjelduse kohta ning vastavat oodatavat tulemust. Üheselt peab olema aru saada, mida
+tehakse ning mis on selle tegevuse tagajärg. Testlood peavad olema korratavad Tellijale ilma
+Pakkuja abita. Arendustegevused peavad hõlmama endas ka Pakkuja poolset testimist.
+Rakenduse dokumenteerimiseks tuleb kasutada koodis JavaDoc kommentaare mille põhjal
+sünnib ka koodist genereeritav dokumentatsioon. See dokumentatsioon on alus ka tulevikuintegratsioonideks
+Arendustööde UI ja UX lahendused peavad järgima olemasoleva Illegaal2 süsteemi
+põhimõtteid.
+Uue funktsionaalsuse loomine võib kaasa tuua vana koodi muutmist ning ei tohi luua uut
+tehnoloogilist võlga. Jooksvalt peab olema tagatud kogu infosüsteemi tehnilise võla
+vähendamine (sõltuvuste uuendamine, haavatavuste parandamine, koodikvaliteedi
+hoidmine). Logimine (auditlogi, X-tee logi, tehniline logi jms) toimub vastavalt SMIT-i logimise
+nõuetele.
+
+5.4.
+
+Tehniline info
+
+Teostatavad arendustegevused ei tohi tellijale kaasa tuua täiendavate tasuliste tehnoloogiate
+kasutuselevõttu. Olemasolev arendusraamistik on Spring Boot/ Java 21 või uuem / JOOQ.
+Klient- ja serverteenused kasutavad omavaheliseks andmevahetuseks REST API-d, mõned
+serverteenused kasutavad lisaks RabbitMQ-d. Teiste andmekogudega andmevahetus toimub
+üle X-tee (REST/SOAP). Kasutusel on PostgreSQL andmebaasid. Rakenduse autentimine ja
+autoriseerimine toimub UAA (SMIT) mooduliga. Logimine toimub vastavalt SMIT-i logimise
+nõuetele .
+
+5.5.
+
+Hankelepingu tulemid ja vastuvõtmine
+
+Hankelepingu tulemite vastuvõtmine toimub iga etapi lõpus tulemi saavutamisel.
+8 / 12
+
+6. Üldise töökorralduse põhimõtted
+6.1. Juhul, kui töö teostamine toimub tellija ruumides, peavad tellija ruumides viibivad
+täitja esindajad kinni pidama seal kehtivatest sisekorraeeskirjadest, sh turvanõuetest, mis
+on tellija poolt teatavaks tehtud.
+6.2. Vajadusel täpsustavad pooled lepingu sõlmimisel projektimeeskonna liikmete rollid ja
+nende ülesanded.
+6.3. Lepingu täitmisest tulenev suhtlus toimub eesti keeles, täitja peab tagama võimekuse
+tööde teostajatega eesti keeles infot vahetada (vajadusel korraldab tõlke täitja).
+6.4. Täitja tagab tööde teostamise ajal igakülgse läbipaistvuse (sh otsekontakt ja vajadusel
+igapäevane suhtlus kõikide täitja meeskonna liikmetega).
+6.5. Tööde teostamine toimub vastavalt Scrum agiilse tarkvara arendamise raamistikule.
+Poolte kokkuleppel võib tööde teostamise viisi muuta, lähtudes tõhususe, kvaliteedi,
+säästlikkuse ja otstarbekuse põhimõtetest ning arvestades vastavas tegevusvaldkonnas
+kehtivaid õigusakte, standardeid ja head tava.
+6.6. Regulaarselt toimuvad toote kuhja täpsustamise ja rafineerimise koosolekud (Backlog
+Refinement, Grooming), kus analüüsitakse ja hinnatakse tööde eeldatavad töömahud.
+Tööd tuleb jagada väiksemateks töödeks (tükkideks) viisil, mis võimaldab iga sprindi järel
+saavutatut demonstreerida.
+6.7. Hankelepingu teostamine toimub sprintidena (Sprint), mille pikkus on vaikimisi kaks
+nädalat, kui tellija ja täitja pole kokku leppinud teisiti.
+6.8. Sprindi jooksul toimuvad igapäevaselt püstijalakoosolekud (Standup), kus osaleb kogu
+arendusmeeskond, kui tellija ja täitja pole kokku leppinud teisiti.
+6.9. Igale sprindile eelneb vaikimisi planeerimiskoosolek (Sprint Planning), kus määratletakse
+võimalikult ühtlase detailsusega sprindis teostatavad tööd, nende prioriteedid,
+teostajad ja/või eeldatav töömaht.
+6.10. Kui töö käigus selgub vajadus töö jagamiseks väiksemateks osadeks, tuleb seda teha
+koheselt.
+6.11. Iga sprindi järel toimub saavutatud tulemuste esitlemine (viiakse läbi demo)
+tellijale/huvigruppidele, sh esitleb saavutatut täitja.
+6.12. Igale sprindile järgneb tagasivaatekoosolek (Retrospective, Retro), mille käigus
+analüüsitakse, kuidas kulges viimane sprint, millised olid murekohad ning kuidas neid
+järgmises sprindis vältida (vajadusel pannakse kirja tegevuspunktid (Action point)).
+6.13. Arendusmeeskonnas on igapäevase suhtlusvahendina kasutusel MS Teams. Nimetatud
+vahendeid kasutatakse kiireloomuliseks ja operatiivseks suhtluseks. MS Teams
+kõneteenuse või telefoni kaudu kokku lepitud otsused tuleb kinnituseks fikseerida
+kirjalikku taasesitamist võimaldavas vormis (nt e-kirjas, koosoleku protokollis).
+
+9 / 12
+
+6.14. Lepingu täitmisega seotud muu (igapäevane) teabevahetus toimub e-kirja, telefoni, MS
+Teams teel või koosoleku vormis. Poolte esindajad tagavad teabe edastamise ja saamise.
+6.15. Pooled
+säilitavad
+projekti
+e-kirjad,
+MS
+Teams
+ja/või
+muudes
+sõnumivahetuskeskkondades toimunud vestlused projekti ja garantiiperioodi kehtivuse
+ajal.
+6.16. Koosoleku kokkukutsumisel esitatakse koosoleku päevakord ja eesmärk. Korralised
+koosolekud võib poolte kokkuleppel tühistada.
+6.17. Koosoleku korraldaja koostab koosoleku või muu kohtumise toimumise järel protokolli,
+kus protokollitakse vastu võetud otsused. Protokoll saadetakse e-kirjaga koosolekul
+osalenutele teadmiseks/vajadusel kinnitamiseks.
+6.18. E-kirja kasutatakse ametliku suhtluskanalina, va kui infot tuleb vastavalt kodukorrale
+edastada täitja projektikeskkondade kaudu.
+6.19. Kui e-kirjale oodatakse vastust, tuleb see kirjas üheselt määratleda. Vastust eeldavale ekirjale tuleb vastata hiljemalt järgneva tööpäeva jooksul. Kui e-kirjale ei ole võimalik
+anda selle aja jooksul sisulist vastust, tuleb hiljemalt järgneva tööpäeva jooksul saata
+sisulise vastuse andmise aeg.
+6.20. Telefoni kasutatakse operatiivse ja olulise informatsiooni edastamiseks, samuti
+kriisisituatsioonides. Telefonikõnele mitte vastates tuleb tagasi helistada esimesel
+võimalusel, aga mitte hiljem kui järgmise tööpäeva lõpus. Olulistel juhtudel (näiteks
+arendustööde juurutusfaasis) peavad mõlema poole esindajad olema telefoni teel
+kättesaadavad ka pärast ametlikku tööpäeva lõppu. Valmisolek lepitakse eraldi kokku.
+6.21. Tööülesannete ja projekti haldussüsteemiks on SMITi Jira (Atlassian JIRA Software),
+mida kasutatakse arendustööde ning vigade ja probleemide registreerimiseks
+tööülesannetena ning tööülesannete täitmise jälgimiseks ja töötundide
+registreerimiseks.
+6.22. Vigade menetlemise käigus registreeritakse kõik poolte leitud vead SMITi Jiras.
+6.23. Täitja analüüsib vea kirjeldust ning selgitab välja vea põhjuse.
+6.24. Vigadele määratakse tellija poolt kriitilisuse aste ning neid asutakse parandama
+kriitilisuse järjekorras või muus tellija poolt teatavaks tehtud järjekorras.
+6.25. Garantiiperioodil asub täitja viga parandama vastavalt lepingus sätestatud tingimustele.
+6.26. Projekti dokumendihalduskeskkonnaks on SMITi Wiki (Atlassian Confluence) ning selle
+keskkonna kasutamine on kohustuslik dokumentatsiooni koostamiseks ja muutmiseks.
+Dokumenteerimine toimub vastavalt tellijaga kokkuleppele.
+6.27. Dokumentide hoidmise struktuur, selle täiendused ja muudatused lepitakse kokku
+poolte esindajate vahel.
+
+10 /
+12
+
+6.28. Dokumentide lisamise, muutmise ja kustutamise reeglid lepitakse kokku poolte
+esindajate vahel, kes tagavad kokkulepitud reeglite järgimise oma meeskonnas.
+6.29. Projektimeeskonna liikmed (teostajad) vastutavad, et nende poolt teostatud tööd on
+teostatud ja dokumenteeritud vastavalt kokkulepitud töö eesmärgile ning tellija
+suunistele ja nõuetele ning valdkonnas kehtivatele parimale praktikale.
+6.30. Täitja on kohustatud järgima SMITis kehtivaid arendusnõudeid, sh nõudeid lähtekoodile.
+6.31. Lähtekoodi kvaliteedist ja tehnoloogilisest võlast ülevaate saamiseks kasutatakse
+platvormi SonarQube ja täitjal on kohustus SonarQube-i poolt leitud lähtekoodi vead
+enne tulemi üleandmist parandada. Kui selgub, et tulemi üleandmisel olid lähtekoodis
+vead parandamata, on tellijal õigus tulemit mitte vastu võtta.
+6.32. Täitjal lasub kohustus teha teiste arendajate tulemitele koodiülevaatust (Code Review)
+tagamaks lähtekoodi vastavuse koodistiili reeglitele.
+6.33. Tellija ei tasusta aega, mis kulub täitjal korduvate vigade lahendamiseks (näiteks
+samaliigiliste probleemide kordumine lähtekoodis vaatamata täitja varasemale
+tagasisidele koodiülevaatuste käigus).
+6.34. Lähtekood peab olema piisavalt kommenteeritud, et hiljem oleks võimalik teha
+edasiarendusi või parandusi. Äriliselt võtmetähtis funktsionaalsus peab olema loodavas
+koodis varustatud kommentaaridega (klasside ja meetodite kommentaarid).
+6.35. Arendustööde tulemusel valmiva lähtekoodi hoidmiseks on SMITi Git
+koodirepositoorium (Atlassian Bitbucket). Täitja meeskonnaliikmetele luuakse tellija
+poolt ligipääs koodirepositooriumile lähtekoodide, andmebaasimuudatuste ning muude
+tulemite või nende muudatuste üleandmiseks.
+6.36. Tarkvara järjepidevaks integreerimiseks ja tarnimiseks (Continuous Integration, CI/CD)
+kasutatakse Atlassian Bamboo-d.
+6.37. CI töövoogude loomine arenduskeskkonnas on arendaja ülesanne.
+6.38. Loodavad hanke tulemid antakse üle SMITi koodirepositooriumi kaudu vastavalt tellija
+juhistele. Arendustööde tulemite üleandmine (lähtekoodi tarne) toimub pideva
+integreerimise (CI) teel või kokkulepitud sagedusega (nt iga arendustööde etapi järel).
+6.39. Tarne testkeskkonda toimub täitja ning tellija koostöös.
+6.40. Arendamisel lisatakse lähtekoodi repositooriumisse lisamisel (commiti) juurde Jira pileti
+nr, mille alusel muudatus sisse viiakse ning lühikirjeldus, mida muudatused sisaldavad.
+Commit sõnumi alguses peab olema alati projekti nimi, mille raames commit tehakse ja
+informatsioon, kes antud commiti teeb (isiku nimi).
+6.41. Enne commiti peab kood/teostatud töö/tulem olema:
+6.41.1. iseendaga kooskõlas (pole vastuolusid, katkiseid mooduleid, iseendaga
+vastuolus funktsionaalsust);
+11 /
+12
+
+6.41.2. üldharu/muu haru tulemiga kooskõlas (üldharus olemasolev pole peale
+commiti katki);
+6.41.3. edaspidi mugavalt kasutatav ja mõistetav, ehk sellel on olemas oma enda
+sisseehitatud
+testid,
+mis
+peale
+järgnevaid
+võimalikke
+arendusi/commite/tegevusi näitaks, kas see konkreetne funktsionaalsuse osa
+on endiselt korras, või läks katki ja tuleb korrastada.
+6.42. Tööde teostamine ei tohi tekitada häireid tellija mistahes teiste liidestatud süsteemide
+või teenuste talitluses, va juhul, kui see on tellija ja täitja poolt eelnevalt kokku lepitud.
+6.43. Lepingu alusel teostatud tööde raames loodud tulemid peavad olema testitud etteantud
+funktsionaalsuste täitmise kinnitamiseks ja vastama SMITis kehtivatele
+arendusnõuetele.
+
+12 /
+12
+
+

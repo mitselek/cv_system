@@ -1,0 +1,424 @@
+Taustakontrolli mooduli arendustööde eelanalüüs
+Taustakontrolli eesmärk on tugevdada välispiire ületavate kolmanda riigi kodanike kontrolli,
+et tuvastada kõik kolmanda riigi kodanikud, kes peavad läbima taustakontrolli, ja kontrollida
+asjakohastest andmebaasidest, kas taustakontrolli läbivad isikud võivad kujutada endast ohtu
+sisejulgeolekule.
+Projekt: Taustakontrolli mooduli loomine ja andmete vahendamine infosüsteemide vahel.
+Aluseks on võetud Euroopa Parlamendi ja nõukogu määruses (EL) 2024/1356 määrus.
+Kolmandante riikide isiku tuvastus ja kontroll, mis hõlmab kogu Euroopa Liitu.
+Määrus - https://eur-lex.europa.eu/legal-content/ET/TXT/?uri=OJ:L_202401356
+
+Taustakontrolli (versioon 1) alustamine
+Taust: Kolmanda riigi kodanik küsib
+Piirikontrollist (PIKOS) andmete edastamine varjupaika või ta peatatakse piiripunktis ning
+taustakontrolli
+kui tal ei ole kehtivaid reisidokumente või/ja
+alust sisenemiseks. Piiripunkti töötaja
+Etapp 2
+alustab täiendavat kontrolli.
+Soovitud olukord:
+Kolmanda riigi kodaniku tuvastamiseks tuleb
+piiritöötajal teha isiku kontroll mille järel
+suunatakse isik taustakontrolli.
+Tulem:
+Taustakontrolli mooduli nimekirjas kuvatakse
+info piirikontrollist kogutud andmetest.
+Taustakontrolli läbiviija suunatakse
+isikutuvastus moodulisse (IT2.0).
+Taustakontrolli (versioon 2) alustamine
+taustakontrolli moodulis
+
+Taust:
+Siseriigis tuvastatakse illegaal (andmed
+Schengeni alale sisenemise kohta
+puuduvad), isik antakse üle taustakontrolli
+läbiviimiseks.
+Soovitud olukord:
+Taustakontrolli läbiviijal võimalik alustada
+uue isiku loomist taustakontrolli moodulist.
+Taustakontrolli läbiviijal kuvatakse juba
+taustakontrollis olevad isikud.
+Tulem:
+1 / 10
+
+Taustakontrolli läbiviija tegevused
+nimekirjas
+
+Taustakontrolli läbiviija suunatakse
+isikutuvastus moodulisse (IT2.0).
+Eeldus:
+Kasutaja on sisenenud taustakontrolli
+moodulisse.
+
+Etapp 1
+Soovitud olukord: Taustakontrolli läbiviijal
+on näha tervikpilt nimekirjavaates olevatest
+taustakontrollitavatest.
+Tulem:
+Taustakontrolli läbiviijale kuvatakse
+nimekirja vaade juhtumitest, mis sisaldavad
+järgmisi välju (loetelu võib muutuda).
+- Juhtumi nr.
+- Eesnimi
+- Perenimi
+- Sünniaeg
+- Kodakondsus
+- Sugu
+- TK kalkulaator – läbi viibimise aeg ning
+reaalajas palju aega veel jäänud on lõpuni
+aega ära teha taustakontrolli.
+- Staatus – Taustakontrolli ootel
+
+Taustakontrolli nimekirja sorteerimine,
+filtreerimine ja otsimine
+
+Eeldus:
+Kasutaja on sisenenud taustakontrolli
+moodulisse.
+
+Etapp 4
+Soovitud olukord: Taustakontrolli nimekirja
+vaates on oluline, et oleks sorteerimise,
+filtreerimise ja otsimise funktsionaalsus.
+Tulem:
+Taustakontrolli läbiviijale kuvatakse
+nimekirja vaade juhtumitest, mis on
+sorteeritavad, filtreeritavad ja otsitavad ning
+sisaldavad järgmisi välju (loetelu võib
+muutuda).
+- Menetlejad
+- Staatus
+2 / 10
+
+- Menetluse kuupäev
+- Üksus
+- Otsi
+- Aeg, millal isik saabus
+- Asukoht
+Isikutuvastusse suunamine
+Etapp 2
+
+Eeldus:
+Sisenenud taustakontrolli moodulisse ja
+soovib luua või muuta olemasolevaid isiku
+põhiandmeid.
+Soovitud olukord:
+Taustakontrolli läbiviija suunatakse
+isikutuvastusse.
+Tulem:
+Kasutusele tuleb võtta olemas olev x-tee
+teenus.
+Kui on olemas olevaid andmed, siis võetakse
+need isikutuvastusse kaasa.
+Protsess peab olema korratav ja
+taustakontrolli voost peab saama
+isikutuvastusse igal ajahetkel tagasi
+põhiandmeid muutma.
+
+Taustakontrolli lõpetamine
+Etapp 4
+
+Eeldus:
+Taustakontrollija soovib lõpetada
+taustakontrolli.
+Soovitud olukord:
+Taustakontrollijal peab olema võimalik
+taustakontroll lõpetada igal ajahetkel.
+Lõpetamise liik valitakse klassifikaatorist.
+
+Isikutuvastusest liikumine taustakontrolli
+
+Tulem:
+Taustakontrollijal on võimalik igal ajahetkel
+liikuda taustakontroll lõppu, kus valitakse
+taustakontrolli lõpetamiseks klassifikaator.
+Eeldus:
+Kasutaja on viinud läbi isikutuvastuse
+isikutuvastus moodulis.
+Soovitud olukord:
+
+3 / 10
+
+Liigutakse isikutuvastus moodulist
+taustakontrolli kogutud andmetega.
+Peale isikutuvastuses biomeetria hõivet ja
+päringute teostamist liigutakse koos
+andmetega taustakontrolli moodulisse
+Tulem:
+Isikutuvastuses sisestatud andmed ja
+biomeetria viited kantakse üle
+taustakontrolli moodulisse.
+Julgeolekupäringud taustakontrollis
+Etapp 4
+
+Eeldus:
+Kasutaja on viinud läbi isikutuvastuse
+isikutuvastus moodulis.
+Soovitud olukord:
+Taustakontrollis võimaldatakse
+taustakontrolli läbiviijal teha
+julgeolekupäringuid igal ajahetkel.
+
+Taustakontrolli haavatavuse kontroll
+Etapp 1
+
+Tulem:
+Taustakontrollijal on võimalik valida EL’i
+andmekogude päringuid, teostada otsinguid
+üheaegselt.
+Eeldus:
+Isik on tuvastatud Isikutuvastus moodulis ja
+andmed on salvestatud taustakontrolli
+moodulisse.
+Taust:
+Haavatavuse kontroll tehakse
+taustakontrollitavale välisevaatluse ja
+küsitluse põhjal.
+Soovitud olukord:
+Kasutaja saab sisestada ja muuta
+haavatavuse kontrolliga seotud andmeid
+Tulem:
+Haavatavuse hindamise andmed on
+salvestatud ja need kuvatakse välja.
+
+4 / 10
+
+Taustakontrolli tervisekontroll
+Etapp 1
+
+Eeldus:
+Isik on tuvastatud Isikutuvastus moodulis ja
+andmed on salvestatud taustakontrolli
+moodulisse.
+Taust:
+Tervisekontroll tehakse taustakontrollitavale
+isikule esmane tervisekontroll küsitluse ja
+välisevaatluse põhjal. Tervisekontrolli
+tulemuse märgib taustakontrolli
+taustakontrolli läbiviija.
+
+Soovitud olukord:
+Kasutaja saab sisestada ja muuta
+tervisekontrolliga seotud andmeid
+Tulem:
+Sisestatud tervisekontrolli andmed on
+salvestatud ja kuvatakse välja tervisekontrolli
+läbiviija.
+Taustakontrolli isiku vaade
+Etapp 1
+
+Eeldus
+Isik on tuvastatud Isikutuvastus moodulis ja
+andmed on salvestatud taustakontrolli
+moodulisse.
+Soovitud olukord:
+Taustakontrolli alustatakse peale
+isikutuvastust. Automaatselt taustakontrolli
+tulevad kaasa kogutud andmed
+isikutuvastuses.
+Tulem:
+Kuvatakse ajakalkulaator
+- Eesnimi
+- Perenimi
+- Isikukood
+- Sünniaeg
+- Sugu
+- Sünnikoht
+- Dokumendinumber
+- Kodakondsus
+- Biomeetria viited (käebiomeetria, foto)
+5 / 10
+
+Taustakontrolli kokkuvõte
+Etapp 3
+
+- Päringute vastused
+- Dokumendid
+- Muu informatsioon (täpsustub)
+Eeldus:
+Taustakontrolli kokkuvõtet saab genereerida,
+Isik on tuvastatud Isikutuvastus moodulis ja
+taustakontrolli pole lõpetatud.
+Soovitud olukord: Genereeritakse PDF
+dokument.
+Tulem:
+Pdf dokument on genereeritud ja kuvatakse
+kasutajale.
+- Kokkuvõtet on võimalik kinnitada
+(PDF) ja see salvestatakse dokumendi
+hoidlasse
+- Kokkuvõtet peab võimaldama ka
+saatma e-postile
+- Kokkuvõtet peab võimaldama välja
+printida
+- Eelloetud tegevusi saab korrata
+- PDF dokumenti saab genereerida
+korduvalt
+
+Erinevate liikide dokumentide
+üleslaadimine
+Etapp 1
+
+Eeldus:
+Isik on tuvastatud Isikutuvastus moodulis ja
+andmed on salvestatud taustakontrolli
+moodulisse.
+Soovitud olukord:
+Erinevaid dokumente on võimalik
+üleslaadida.
+
+Tulem:
+Üleslaetavaid faile (JPG, PNG, PDF) hoitakse
+failihoidlas.
+Dokumendi koostamine ja kinnitamine
+Etapp 4
+
+Eeldus:
+Kasutame olemasolevat html mallide
+funktsionaalsust Illegaali menetlusest.
+6 / 10
+
+Soovitud olukord:
+Vajadusel luua uus html mallid või kasutada
+olemasolevaid. Kasutaja saab avada html
+vormi, täita, kinnitada ja muuta seda.
+Tulem:
+Standardiseeritud dokumendid, mis on html
+mallide peal ning neid hoitakse Illegaali
+dokumendi hoidlas.
+
+Taustakontrollis viibimise aja kalkulaator
+
+Eeldus:
+Taustakontroll on alustatud
+
+Etapp 4
+Soovitud olukord:
+Taustakontrolli moodul arvutab, vastavalt
+reeglitele.
+Tulem:
+Ajakalkulaator kuvatakse isikute nimekirjas
+ja isiku vaates taustakontrolli läbiviimiseks
+järelejäänud ajaga lihtsasti seadistatav.
+Andmete säilitamine taustakontrollis
+
+Eeldus:
+Taustakontrolli juhtum on loodud
+
+Etapp 4
+Soovitud olukord: Peale taustakontrolli
+lõppu taustakontrolli andmed kustutatakse.
+Tulem:
+Peale taustakontrolli lõppemist saadetakse
+andmed edasi menetlusse või lõpetatakse
+taustakontroll ilma andmeid edastamata. Kui
+andmed on menetlusse saadetud (Puhver,
+juhul kui tekkis tõrge ja andmeid ei
+edastatud), siis kustutatakse andmed
+taustakontrollis.
+Kinnipidamise rakendamine
+Etapp 4
+
+Eeldus:
+Isik on tuvastatud Isikutuvastus moodulis ja
+isikule on koostatud isikukaart.
+Soovitud olukord:
+7 / 10
+
+Kasutaja saab sisestada isiku kinnipidamise
+ja vajadusel seda muuta
+Taust:
+Kinnipidamise infot hoiustatakse eraldi apis.
+Kinnipidamiste api ja sellega suhtlemise
+teenused on olemas. Saab luua ja muuta
+kinnipidamisi.
+Tulem:
+Taustakontrolli isikuvaates saab sisestada
+isiku kinnipidamist, andmed salvestuvad
+kinnipidamise apisse. Kinnipidamise andmed
+kuvatakse välja taustakontrolli isikuvaates.
+
+Taustakontrolli lõpetamisel andmete
+edastamine Illegaali menetlusse
+Etapp 3
+
+Eeldus:
+Taustakontrolli andmed on salvestatud
+taustakontrolli moodulisse ja kokkuvõte on
+genereeritud.
+Soovitud olukord:
+Kasutaja saab valida menetlusse
+suunamiseks valiku ja märkida
+taustakontrolli lõppenuks. Toimub
+andmestiku tõstmine menetlus moodulisse.
+Toimub biomeetria tõstmine
+biomeetriahoidla menetlussüsteemi riiulisse.
+Taust:
+Praegusel hetkel on olemas vastavad x-tee
+teenused biomeetria pärimiseks,
+salvestamiseks ja muutmiseks. Biomeetriat
+hoitakse ABIS’es (Automaatne
+biomeetrilistel andmetel põhinev identiteedi
+haldamise süsteem).
+
+Tulem:
+Illegaalimenetlusse võetakse automaatselt
+kaasa kogutud andmestik ja biomeetria
+viited. Lisaks tulevad kaasa vajalikud
+andmed.
+
+8 / 10
+
+Andmete edastamine RAKSi
+(rahvusvahelise kaitse andmise register)
+menetlusse
+
+Eeldus:
+Taustakontrolli andmed on salvestatud
+taustakontrolli moodulisse ja kokkuvõte on
+genereeritud.
+
+Etapp 3
+Soovitud olukord:
+Kasutaja saab valida menetlusse
+suunamiseks valiku ja märkida
+taustakontrolli lõppenuks. Toimub
+andmestiku tõstmine pagulaste (RAKS)
+infosüsteemi. Toimub biomeetria tõstmine
+biomeetriahoidla RAKS menetlussüsteemi
+riiulisse.
+Taust:
+Vajadus on luua x-tee teenus RAKS
+infosüsteemi andmeste edastamiseks.
+Praegusel hetkel on olemas vastavad x-tee
+teenused biomeetria pärimiseks,
+salvestamiseks ja muutmiseks. Biomeetriat
+hoitakse ABIS’es (Automaatne
+biomeetrilistel andmetel põhinev identiteedi
+haldamise süsteem).
+
+Tulem:
+RAKS menetlusse võetakse automaatselt
+kaasa kogutud andmestik ja biomeetria
+viited. Lisaks tulevad kaasa vajalikud
+andmed.
+ALIS (PPA andmeladu, analüüsi ja juhtimis
+infosüsteem)
+
+Eeldus:
+Andmed on olemas ja kogutud
+
+Etapp 4
+
+Soovitud olukord:
+TK statistika andmeid käib ALIS ise võtmas
+Tulem:
+ALIS’le on loodud end point, mille kaugu
+saab pärida välja muutusi taustakontrolli api
+tabelitest.
+
+9 / 10
+
+10 / 10
+
+

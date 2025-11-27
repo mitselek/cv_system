@@ -1,0 +1,147 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+301189
+Siseministeeriumi infotehnoloogia- ja arenduskeskus (70008440)
+Illegaali Rändepaketi taustakontroll
+
+Keskkonnahoidlik hange või hanke osa!
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et tema pakkumus on jõus 4 kuud pakkumuse esitamisest arvates.
+(Raadionupp valikutega "Jah/Ei")
+2. Pakkuja kinnitab, et on teadlik, et ta peab esitama iga hankelepingu täitmise alustamise ajaks
+iga oma alltöövõtja nime, registrikoodi, kontaktandmed, teabe nende seaduslike esindajate kohta
+ning alltöövõtulepingu nimetuse, kuupäeva, numbri ja summa. Samad andmed esitab täitja iga
+hankelepingu täitmisel lisanduva alltöövõtja kohta. (Raadionupp valikutega "Jah/Ei")
+3. Andmed lepingusse, mida kasutatakse juhul, kui pakkumus tunnistatakse edukaks. Pakkuja
+esitab andmetena: 1. ettevõtte aadress; 2. lepingu allkirjastaja nimi; 3. alus lepingu
+allkirjastamiseks (juhatuse liige, volikiri vm); 4. lepingu allkirjastaja ametinimetus; 5. pakkuja
+kontaktisik lepingu täitmisel (nimi, ametinimetus, telefoni number ja e-posti aadress) 6. pakkuja
+arvelduskonto number. (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kas pakkujal on isikuid, kellel on volitus ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, ning kelle olemasolu ei kajastu äriregistris? Kui jah, esitab pakkuja eelpool nimetatud
+isikute ees- ja perekonnanime, isikukoodi ning esinduse aluse, et hankija saaks nende puhul viia
+läbi kõrvaldamise aluste kontrolli vastavalt RHS § 95 lg 1 p 1- 3 ja 5. (Raadionupp valikutega
+"Jah/Ei")
+
+PROJEKTIPLAAN
+Pakkumuse osana esitatakse projektiplaan, mis sisaldab ajakava kõikide Lisa 2 "Tehnilise
+kirjelduse" funktsionaalsuste loomise ja selle pakkumuse alustamiseks vajalike tööde
+läbiviimiseks.
+Pakkumuses esitatavalt projektiplaanilt eeldatakse vastavust järgmistele tingimustele:
+• Projektiplaanis kirjeldatud tööde läbiviimise tulemusena peavad olema saavutatud kõik projekti
+tulemid (kirjeldatud Tehnilises kirjelduses)
+• Iga projektiplaani töö kohta peab olema kirjeldatud töö nimetus, töö tegija(te) roll/nimi, ajaline
+kestus.
+• Kõik projektiplaanis kirjeldatud tööd peavad olema omavahel loogiliselt seotud ja jaotatud
+iteratsioonidena.
+• Projektiplaan peab sisaldama lisaks töid, mille teostamist eeldatakse tellijalt või teiste kaasatud
+väliste osapoolte poolt.
+• Lisaks projektiplaanile tuleb kirjeldada pakkumuses, kuidas projektijuhtimise riske maandada
+kavatsetakse.
+
+Küsimused ettevõtjale:
+1. Projektiplaan (Vabas vormis dokument)
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+
+Koostatud 31.10.2025 09:03:15
+https://riigihanked.riik.ee/rhr-web/#/procurement/9407944/general-info
+
+2/3
+
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+KESKONNAHOIDLIKE NÕUETE TÄITMINE
+Pakkuja peab hankelepingu täitmisel eelistama keskkonnahoidlikke lahendusi, näiteks: 1)
+töökoosolekud ja muud kohtumised viia läbi võimaluse korral veebi vahendusel, et vähendada
+eelkõige liigsest transpordikasutusest tulenevat süsiniku jalajälge; 2) vältida tarbetut dokumentide
+välja trükkimist ning võimalusel eelistada digitaalsel kujul olevaid materjale; 3) pakkuja poolt
+digitaalsel kujul edastatavad materjalid peavad olema salvestatud ja edastatud optimaalse
+mahuga, et vältida otstarbetult suuri andmefaile ning seega vähendada digireostust; 4)
+hankelepingu täitmise järgselt kustutada üleliigsed digimaterjalid, näiteks mustandfailid,
+säilitamiseks mittevajalikud töödokumendid jms, kuna IT-serverites failide otstarbetu hoidmine
+on keskkonda kurnava mõjuga ning suurendab digireostust.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja annab kinnituse, et ta eelistab töö teostamisel keskkonnahoidlikke lahendusi ning
+väldib tööga kaasneva negatiivse kõrvalmõju tekkimist keskkonnale? (Raadionupp valikutega
+"Jah/Ei")
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+
+Koostatud 31.10.2025 09:03:15
+https://riigihanked.riik.ee/rhr-web/#/procurement/9407944/general-info
+
+3/3
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD.
+Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on:
+1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest
+isikust ettevõtja, juriidiline isik, asutus või muu üksus;
+2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu
+üksuse omandis;
+3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku
+juhiste alusel.
+Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel
+tühine.
+Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS
+(EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb
+piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene
+Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu
+üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või
+muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või
+tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 31.10.2025 09:03:15
+https://riigihanked.riik.ee/rhr-web/#/procurement/9407944/general-info
+
+

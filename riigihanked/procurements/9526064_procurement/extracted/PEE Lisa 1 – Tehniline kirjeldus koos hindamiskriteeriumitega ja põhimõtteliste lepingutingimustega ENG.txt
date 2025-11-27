@@ -1,0 +1,417 @@
+PEE Annex 1 – Technical Specification with Evaluation Criteria and
+Principal Contract Terms
+1. Aim of the procurement
+1.1. The aim of the procurement is to procure a modern CRM (Customer Relationship
+Management) software for the Tallinn Kultuurikatel, which supports daily sales and
+project work, planning and managing events in a calendar view, managing offers and
+invoices, and reporting.
+1.2. The software must enable the management of the events of all the event centers of
+the Kultuurikatel in one software and manage calendars, sales activities and
+customer data by the departments of the institution, which are the Tallinn
+Kultuurikatel, the Mere Kultuurikeskus and the Salme Kultuurikeskus.
+1.3. The software must support an all-in-one integrated next-to-end solution:
+1.3.1.CRM customer communication that is integrated with projects and finances, i.e.
+a 360-degree view of customers, including contact information, communication
+history, projects and purchase invoices;
+1.3.2.Sales Pipeline;
+1.3.3.Integrated calendar and resource scheduling – built-in to manage the following
+resources: facilities, people, tasks, invoices, quotes, rental orders, projects, time
+tracking. Events in the calendar can be linked to contact offers, tasks, tasks,
+invoices, and projects. Can be synced with external calendars such as Google
+Calendar.
+1.3.4.Creating quotes that can be created and converted into contracts and invoices;
+1.3.5.Invoice management and invoicing directly in the system. It is possible to create
+invoices for logged time or from a quote. Compatible with Finbite.
+1.3.6.Time tracking – takes into account project and activity hours;
+1.3.7.Project management – tasks, calendars, resources, time and attendance. Covers
+the entire project lifecycle, from quoting and planning to execution and
+invoicing. Features also include Gantt charts, resource scheduling, and real-time
+progress tracking.
+1.4. The system must also allow for:
+1.4.1.Separate workflow and data management for each division;
+1.4.2.A unified overview across all event hub events and resources;
+1.4.3.use of the same system by different users according to their rights and
+subdivisions;
+1.4.4.Calendar view to schedule events and resources across all items;
+1.4.5.Tracking sales, project, and billing processes at the level of all units.
+
+1
+
+2. Object and volume of the procurement contract
+2.1. Within the framework of the procurement, CRM and sales software usage licenses
+will be procured for 20-35 users, along with the following services:
+2.1.1.Setting up and adapting the system according to work processes;
+2.1.2.User setup and comprehensive training;
+2.1.3.import of existing data (the entire 10-year history of the current system,
+integrated calendar, contacts, offers, projects, invoices) within no more than 10
+working days after the conclusion of the contract (the Kultuurikatel and Salme
+use Scoro, the Mere does not have CRM software);
+2.1.4.Software updates and support.
+
+3. Formal and substantive requirements for the offer
+3.1. The tender must be submitted to the Public Procurement Register. The content and
+form requirements of the tender can be found on the page of the conditions of
+compliance in the Public Procurement Register.
+3.2. The contracting authority shall declare the tender compliant if it complies with the
+conditions set out in this technical specification and other basic documents of public
+procurement. The contracting authority shall reject the tender if it does not comply
+with the conditions set out in the source documents of the public procurement, if the
+tenderer fails to submit the explanations requested by the contracting authority by
+the deadline or if it is not possible to unambiguously assess the compliance of the
+tender with the conditions set out in the source documents of the public
+procurement on the basis of the tenderer's explanations. The contracting authority
+may declare the tender compliant if there are no substantive deviations from the
+conditions specified in the source documents of the public procurement. A rejected
+tender is not subject to evaluation.
+
+4. Technical and functional requirements
+Functional requirement
+4.1. CRM customer communication is
+integrated with projects and
+finances, i.e. a 360-degree view of
+customers, including contact
+information, communication
+history, projects and purchase
+invoices;
+4.2. The pipeline must be customizable
+and allow you to track deal stages,
+activities, and forecasts.
+4.3. The calendar must be manageable
+and have rooms, employees, tasks,
+quotes, rental orders, and projects
+associated with the calendar, and
+the calendar must be
+
+Explanation / Purpose
+Provides a complete view of client and
+project data and reduces manual work.
+
+Supports sales management and more
+accurate forecasts.
+Provides a unified planning view.
+
+2
+
+synchronizable with Google
+Calendar and Outlook.
+4.4. The system must enable the
+preparation of offers, their
+conversion into contracts and the
+generation of invoices based on
+the offer or logged time.
+4.5. The software must be compatible
+with Finbite and other e-invoicing
+services.
+4.6. The system must support working
+time tracking and connection to
+projects.
+4.7. The project management module
+must include Gantt charts,
+resource planning, and real-time
+tracking of project processes.
+Enables comprehensive project
+management and monitoring
+throughout the lifecycle.
+4.8. The system must enable the
+separation of data and workflows
+by sub-units, including the Tallinn
+Kultuurikatel, the Mere
+Kultuurikeskus and the Salme
+Kultuurikeskus.
+4.9. User access and rights must be
+manageable on a role-by-role and
+sub-unit basis.
+4.10.
+The calendar must be
+viewed and managed across events
+and resources in all divisions.
+4.11.
+The system must enable
+reporting on sales, project and
+billing processes at the level of the
+sub-unit as well as the entire
+institution.
+
+Unified sales, contract, and billing
+workflow in one system.
+
+Enables automatic forwarding and receipt
+of e-invoices.
+Enables accurate cost and profitability
+calculations.
+Enables comprehensive project
+management throughout the lifecycle.
+
+Ensures operational autonomy for units
+and a common data platform.
+
+Ensures security and data protection.
+Provides a consolidated view of the entire
+organization for planning.
+Supports management decisions based on
+KPIs in one consolidated view.
+
+5. Additional Functional Requirements
+5.1. In addition to the general requirements above, the system must support the
+following specific work processes of the event centre:
+5.1.1.Resource-based calendar and time management (to-do);
+5.1.2.Rental warehouse and creation of rental orders;
+5.1.3.Price offers with product codes and price lists;
+5.1.4.Manage sales invoices and prepayment invoices;
+5.1.5.Sales pipeline, sales team, and sales activity reports;
+5.1.6.Summary of work and detailed report (with time and project-based analysis);
+5.1.7.Separate app for use on mobile phones (iOS and Android).
+3
+
+5.2. Other requirements
+5.2.1.User support in Estonian
+5.2.2.User interface in Estonian
+
+6. Evaluation criteria
+6.1. The contracting authority shall evaluate the tenders declared compliant on the
+basis of the following criteria:
+Criterion
+
+Description
+
+1. Cost - 60%
+
+The cost of licenses is 12 months without VAT
+(35 users are taken into account in the
+evaluation)
+
+2. Implementation and
+transition costs – 20%
+
+Set-up, training and data transfer costs
+without VAT
+
+3. User-friendliness and
+suitability of the work process
+– 20%
+
+User interface logic, system intuitiveness, and
+users' existing experience
+
+6.2. Evaluation methodology
+6.2.1. For the criteria "implementation and transition costs" and "cost", the tender
+with the lowest value will receive the maximum number of points. Other tenders
+will receive points by calculating the formula indicated on the relevant Public
+Procurement Register tab.
+6.2.2.The evaluation methodology for the criterion "User Convenience and Suitability
+of the Work Process" is as follows:
+Subcriterion/points
+User-friendliness
+
+10
+
+5
+
+0
+
+The user environment
+presented as a demo is
+convenient for the user.
+The user environment has
+all the functionalities
+required by the technical
+specifications.
+Description of the
+environment
+is detailed and
+unambiguous. The demo
+environment and
+description provide a set
+of the contracting
+authority is satisfied that
+the
+
+The user
+environment
+presented as a
+demo is
+generally
+suitable for the
+user, but there
+are some
+inconveniences.
+The description
+of userfriendliness is
+partly unclear
+and/or
+ambiguous.
+Demo keskkond
+
+The prerequisites
+for receiving 5
+points are not met.
+
+4
+
+the service provided
+meets the expectations
+set by the contracting
+authority.
+In order to ensure userfriendliness, the usual
+principles of the field and
+the activities of the
+contracting authority in
+accordance with the
+statutes have been taken
+into account.
+
+Suitability of the
+work process
+
+In the demo environment,
+the work process
+corresponds to the
+technical specifications
+and the objectives of the
+procurement. The work
+process is also explained
+in detail and
+unambiguous, including
+when and how the
+activities are planned and
+whether it is possible to
+achieve the result on time.
+The specifics of the
+supplier have been taken
+into account when
+creating the demo
+environment and
+describing the work
+processes.
+
+ja Description as
+a whole does
+not convince the
+contracting
+authority that
+the service fully
+meets the
+requirements
+set out in the
+procurement. In
+order to ensure
+user comfort,
+the usual
+principles of the
+field have not
+been applied.
+The tenderer
+has not taken
+into account the
+specifics of the
+contracting
+authority in
+creating userfriendliness.
+In a demo
+environment,
+the work
+process is not
+convenient.
+The work
+process itself
+and/or its
+description is
+partial and/or
+ambiguous. The
+specifics of the
+vendor have not
+been taken into
+account when
+creating the
+demo
+environment
+and work
+processes.
+
+The prerequisites
+for receiving 5
+points are not met.
+
+6.3. The contracting authority will declare the tender that receives the most points as
+successful.
+
+5
+
+7. Terms and conditions of the contract (in principle)
+7.1. The contracting authority shall enter into a contract with the successful tenderer and
+a data processing contract on the basis of the tenderer's standard terms and
+conditions to the extent that it is not in conflict with the provisions of this chapter.
+7.2. Duration of the contract: 48 months from the start of the system, with the possibility
+of annual renewal. The contracting authority undertakes to notify of their wish to
+extend the extension at least 30 days before the end of the billing period.
+7.3. The contracting authority undertakes to order at least 20 user licenses (minimum
+quantity).
+7.4. The contracting authority pays for one user license according to the unit price
+specified by the service provider in the offer.
+7.5. The service provider has the right to increase the license fee once a calendar year
+according to the change in the consumer price index (CPI), based on the percentage
+of change in the Estonian consumer price index for the last 12 months published by
+Statistics Estonia compared to the same period of the previous year.
+7.6. The price correction is based on the last CPI indicator published before the price
+change takes effect.
+7.7. The service provider shall notify the contracting authority of the price increase at
+least 60 (sixty) calendar days before the start of the new billing period when the
+adjusted price is applied.
+7.8. If the CPI change is negative, the royalty will not be automatically reduced unless the
+parties agree to this in writing.
+7.9. The service provider ensures the reliability of the system and technical support
+throughout the validity of the contract.
+7.10.
+The contracting authority may cancel the contract if the system does not meet
+the requirements or the service is not functional in the agreed volume.
+7.11.
+Data ownership and transfer
+7.11.1. The data entered into the software by the customer belongs to the contracting
+authority. Upon termination or expiration of the contract, the service provider
+shall close the respective accounts and, unless otherwise agreed, delete their
+contents within the term set out in the data processing agreement. The service
+provider does not delete content that is required to be retained under applicable
+law.
+7.11.2. The service provider undertakes to make a copy of the content available to
+the contracting authority within 30 days following the expiry or expiry of the
+contract and the contracting authority undertakes to download it. If the
+contracting authority is unable to download a copy of the content in accordance
+with the procedure provided for in this clause, the contracting authority
+undertakes to notify the service provider thereof within 10 days of becoming
+aware of the obstacle. In such a case – provided that the content has not been
+deleted in accordance with the data processing agreement – the service
+provider undertakes to deliver the content to the contracting authority in a
+
+6
+
+generally accepted format by agreement of the parties. No additional fee may be
+charged for the transmission of content.
+7.12.
+The parties and persons acting on their behalf are obliged to adhere to the
+anti-corruption legislation in force in the Republic of Estonia.
+7.12.1. The service provider is prohibited from entering into agreements with
+persons acting on behalf of the contracting authority and with persons related
+to them within the meaning of § 7 of the Anti-Corruption Act in connection with
+the performance of the contract, giving them gifts or benefits in connection with
+the performance of the contract that cannot be unambiguously understood as
+an ordinary expression of courtesy within the meaning of § 4 of the AntiCorruption Act, or from placing them in a situation that may result in an actual
+or apparent conflict of interests.
+7.12.2. If the service provider organizes events within the framework of its business
+activities to which the person(s) acting on behalf of the client in connection with
+the performance of the contract are invited, the purpose of these events must
+not be to influence persons related to the client and hosting such events must
+remain within the framework of a customary courtesy statement.
+7.12.3. The service provider shall implement measures to prevent corruption by
+people acting on its behalf, its subcontractors or other third parties related to
+the service provider in connection with the performance of this contract.
+7.12.4. The service provider and the contracting authority, as well as persons acting
+on their behalf, undertake to cooperate with each other in the implementation
+of anti-corruption measures, including immediately informing each other of any
+suspicions of a corruption case related to the performance of the contract.
+7.12.5. The contracting authority has the right to cancel the contract if the service
+provider violates anti-corruption legislation or has violated the anti-corruption
+measures prescribed in the contract.
+
+7
+
+

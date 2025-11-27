@@ -1,0 +1,417 @@
+PAKKUMUSE ESITAMISE ETTEPANEK
+SISUKORD
+1.
+
+Milline on protsess?
+
+Hankija:
+SA Tallinna Kultuurikatel
+
+2. Mida hangitakse?
+
+Hanke liik:
+
+3. Millised nõuded kehtivad
+
+Avatud hankemenetlus
+
+pakkumusele?
+
+Riigihanke nimetus:
+
+4. Kuidas kvalifitseeruda?
+
+CRM tarkvara
+
+5. Milline pakkuja kõrvaldatakse?
+
+Riigihanke viitenumber:
+
+6. Kuidas hankija pakkumused avab?
+
+302432
+
+7. Millal võib hankija kõik pakkumused
+
+Lepingu liik:
+
+tagasi lükata?
+8. Millal võib hankija hankemenetluse
+kehtetuks tunnistada?
+
+Hankeleping
+Lepingu eeldatav periood:
+48 kuud
+
+9. Milline pakkumus võidab?
+
+Lepingu eeldatav maksumus:
+
+10. Kuidas sõlmitakse leping?
+
+N/A
+
+11. Kuidas toimub infovahetus?
+
+Pakkumuste esitamise ja avamise tähtpäev:
+Vastavalt hanketeatele
+
+LISAD:
+
+Pakkumuste esitamise ja avamise koht:
+
+PEE Lisa 1 – Tehniline kirjeldus koos
+
+Riigihangete register (riigihanked.riik.ee)
+
+hindamiskriteeriumitega ja
+
+Pakkumuse jõusoleku aeg:
+
+põhimõtteliste lepingutingimustega
+
+3 kuud
+Riigihanke eest vastutav isik:
+Kristiina Kütt
+
+TÄHELEPANU!
+Riigihanke alusdokumentide (edaspidi ka „Alusdokumendid”) koostamisel on hankija lähtunud riigihangete
+seadusest (edaspidi „RHS”), hankija hangete läbiviimise korrast ja Alusdokumentides sätestatud tingimustest.
+Alusdokumentides on kõik asjakohased seaduses viidatud dokumendid, sealhulgas:
+● Käesolev pakkumuse esitamise ettepanek koos kõikide lisadega;
+● Hankemenetluses riigihangete registris (edaspidi “Register”) avaldatud teave, sh hanketeade
+(edaspidi “Hanketeade”), kõrvaldamise alused (sh hankepassi vorm), kvalifitseerimistingimused,
+vastavustingimused, hindamiskriteeriumid (sh hindamismetoodika kirjeldus) ja kõik enne
+pakkumuste esitamise tähtpäeva saadetud info ja dokumendid, millega on muudetud, selgitatud või
+täpsustatud Alusdokumentide nõudeid.
+(RHS § 4 punkt 17)
+
+Seadusest tulenevalt võib hankija muuta Hanketeadet ja/või Alusdokumente enne pakkumuste esitamise
+tähtpäeva.
+(RHS § 81 ja 82)
+
+1
+
+1. MILLINE ON PROTSESS?
+
+2
+
+2. MIDA HANGITAKSE?
+2.1.
+
+Lepingu ese. Hankemenetluse eesmärk on hankida Sihtasutusele Tallinna Kultuurikatel (edaspidi
+Kultuurikatel) kaasaegne CRM-tarkvara (Customer Relationship Management), mis toetab igapäevast
+müügi- ja projektitööd, sündmuste planeerimist ja haldamist kalendervaates, pakkumiste ja arvete
+haldust ning aruandlust. Tarkvara peab võimaldama Kultuurikatla kõigi sündmuskeskuste sündmuste
+haldamist ühes tarkvaras ning hallata kalendreid, müügitegevusi ja kliendiandmeid asutuse
+allüksuste lõikes, milleks on Tallinna Kultuurikatel, Mere kultuurikeskus ja Salme kultuurikeskus.
+
+2.2.
+
+Tehniline kirjeldus. Lepingu eseme tehniline kirjeldus on esitatud Lisas 1.
+
+2.3.
+
+Leping. Lepingu täitmise tingimused on esitatud Lisas 1 ja pakkumuse koosseisus.
+
+2.4.
+
+Jaotatus. Hange ei ole osadeks jaotatud, kuna tegemist on olemuslikult ühe jagamatu hanke
+esemega.
+
+3. MILLISED NÕUDED KEHTIVAD PAKKUMUSELE?
+PAKKUMUSE KOOSTAMINE
+3.1.
+
+Pakkumuse tingimused. Pakkumus peab vastama Alusdokumentides sätestatud tingimustele.
+Pakkumuses esitatud andmed peavad olema esitatud viisil, mis võimaldavad hankijal kontrollida
+pakkumuse vastavust Alusdokumendis toodud tingimustele.
+
+3.2.
+
+Pakkuja kinnitus. Pakkumuse esitamisega kinnitab pakkuja kõigi Alusdokumentides esitatud
+tingimuste ülevõtmist.
+
+3.3.
+
+Vasturääkivused Alusdokumentides. Kui pakkuja avastab pakkumuse ettevalmistamise käigus
+Alusdokumentides vigu, vasturääkivusi, ebaselgusi või mitmeti tõlgendatavust, on tal soovitatud
+sellest koheselt hankijat registri kaudu teavitama ja sellekohase küsimuse esitama.
+
+3.4.
+
+Vasturääkivused vormides. Pakkujal võib olla vajadus esitada pakkumuse maksumus nii Registri
+vormil kui ka hankija poolt koostatud vormil. Juhul, kui pakkuja esitatud andmed on neil vormidel
+erinevad, siis lähtub hankija pakkumuse hindamisel hankija koostatud vormil esitatud maksumustest.
+
+3.5.
+
+Eksitava ja tingimusliku pakkumuse välistamine. Pakkumus ei tohi olla mis tahes viisil eksitav.
+Pakkuja ei saa omalt poolt teha muudatusi, reservatsioone ega seada omapoolseid tingimusi
+Alusdokumentides esitatud nõuete kohta. Tingimusliku pakkumuse esitamine ei ole lubatud.
+
+3.6.
+
+Alternatiivsed lahendused. Alternatiivsete lahenduste esitamine ei ole lubatud.
+
+3.7.
+
+Dokumendi formaat. Pakkumuse dokumendid tuleb esitada üldlevinud dokumendi formaadis (.pdf;
+.txt; .rtf; .odt ja MS Office formaadid).
+
+3.8.
+
+Mahupiirang. Ühe üleslaetava faili maht ei tohi Registris ületada 100 MB. Pakkumuse dokumentide
+kogumaht ei tohi ületada 300MB.
+
+3.9.
+
+Kulud ja riskid. Huvitatud isik või pakkuja kannab hankemenetluses osalemisega seotud kogukulud
+ja -riski, kaasa arvatud vääramatu jõu (force majeure) toime võimalused.
+
+PAKKUMUSE ESITAMINE
+3.10.
+
+Pakkumuse esitamise õigus. Hankija piirab pakkujate ringi, lubades käesolevas riigihankes osaleda,
+sealhulgas isikuna, kelle vahenditele pakkuja RHS § 103 lõike 1 alusel tugineb, ainult RHS § 3 punktis 2
+nimetatud riikidest pärit ettevõtjatel.
+
+3.11.
+
+Pakkumuse esitav isik. Pakkumus peab olema esitatud pakkuja seadusjärgse või volitatud esindaja
+poolt. Juhul, kui pakkumuse esitab isik, kes ei ole Eesti äriregistri registrikaardi väljatrükile kantud
+isikuna, kellel on pakkuja seadusjärgne esindamise õigus, siis peab pakkuja hankija nõudel esitama
+seadusjärgse esindaja(te) volikirja pakkuja esindamiseks.
+
+3.12.
+
+Välisriigi pakkuja. Kui pakkuja on registreeritud välisriigis, siis peab pakkumuse esitaja esitama
+hankija nõudel tõendi esindusõiguse olemasolu kohta.
+3
+
+3.13.
+
+Registri tõrked. Hankija ei vastuta võimalike viivituste, tõrgete või katkestuste eest, mille põhjustavad
+Registris hankija kontrolli alt väljas olevad asjaolud nagu force majeure, elektrikatkestused, häired
+pakkuja või hankija telefoni- või internetiühenduses või muude elektrooniliste seadmete ja vahendite,
+sealhulgas tarkvara töös. Hankija ei vastuta Registri kasutamisest või mittekasutamisest tekkinud
+kahjude või saamata jäänud tulu eest.
+
+PAKKUMUSE VASTAVUS
+3.14.
+
+Vastavustingimused. Vastavustingimused asuvad Registris hankemenetluse alusandmete all.
+
+3.15.
+
+Vastavaks tunnistamine. Hankija tunnistab pakkumuse vastavaks, kui see vastab Alusdokumentides
+sätestatud nõuetele.
+
+4. KUIDAS KVALIFITSEERUDA?
+4.1.
+
+Tingimused. Olemasolu korral asuvad kvalifitseerimistingimused Registris
+alusandmete all, alajaotises Kõrvaldamise alused ja kvalifitseerimistingimused.
+
+hankemenetluse
+
+4.2.
+
+Hankepass.
+Pakkuja
+esitab
+koos
+pakkumusega
+hankepassi,
+milles
+kinnitab
+kvalifitseerimistingimustele vastavust ja esitab nõutud andmed. Koos pakkumusega ei pea esitama
+kvalifikatsiooni tõendavaid dokumente.
+
+4.3.
+
+Kvalifitseerimine. Hankija kvalifitseerib eduka pakkuja, kelle kvalifikatsioon vastab Alusdokumentides
+seatud pakkuja kvalifitseerimistingimustele. Edukaks tunnistatud pakkuja peab esitama hankepassis
+esitatud andmeid kinnitavad tõendid 5 tööpäeva jooksul alates vastava nõude saamisest.
+(RHS § 104 lg 9)
+
+4.4.
+
+Teise ettevõtja vahenditele tuginemine. Pakkuja võib tõendada oma vastavust majanduslikule ja
+finantsseisundile esitatud nõuetele teise ettevõtja vahendite alusel. Sellisel juhul peavad pakkuja ja
+teine ettevõtja vastutama lepingu nõuetekohase täitmise eest ühiselt.
+
+5. MILLINE PAKKUJA KÕRVALDATAKSE?
+5.1.
+
+Kõrvaldamise alused. Pakkuja kõrvaldamise alused on avaldatud Registris hankemenetluse
+alusandmete all, alajaotises Kõrvaldamise alused ja kvalifitseerimistingimused.
+
+5.2.
+
+Hankepass. Pakkuja esitab koos pakkumusega hankepassi, milles kinnitab kõrvaldamise aluste
+puudumist ja esitab nõutud andmed. Koos pakkumusega ei pea esitama tõendavaid dokumente.
+
+5.3.
+
+Kõrvaldamise otsus. Pakkuja hankemenetlusest kõrvaldamisel teeb hankija sellekohase põhjendatud
+kirjaliku otsuse. Kõrvaldatud pakkuja ei osale edasises riigihankes.
+
+6. KUIDAS HANKIJA PAKKUMUSED AVAB?
+6.1.
+
+Avamine. Hankija avab pakkumused elektrooniliselt Registris.
+
+6.2.
+
+Mitteavalik. Pakkumuste avamine ei ole avalik. Pakkumuse esitanud pakkujatele avaldatakse peale
+pakkumuste avamist Registris pakkujate nimed ja registrikoodid, registrikoodi puudumisel pakkuja
+tuvastamist võimaldav muu tunnus või isikukood või isikukoodi puudumisel sünniaeg ja esitatud
+pakkumuste maksumused, sealhulgas pakkumuse osamaksumused, kui neid arvestatakse
+pakkumuste hindamisel, ning muud pakkumuste hindamise kriteeriumidele vastavad pakkumust
+iseloomustavad numbrilised näitajad.
+
+7. MILLAL VÕIB HANKIJA KÕIK PAKKUMUSED TAGASI LÜKATA?
+7.1.
+
+Pakkumuste maksumus. Hankija võib kõik pakkumused tagasi lükata, kui kõigi pakkumuste või
+vastavaks tunnistatud pakkumuste maksumused ületavad lepingu maksumust.
+(RHS § 116 lg 1 p 1)
+
+7.2.
+
+Ebapiisav konkurents. Hankija võib kõik pakkumused tagasi lükata, kui ei ole tagatud piisav
+konkurents. See tähendab, et kui hankele laekub ainult kaks või vähem pakkumist või kui vastavaks
+4
+
+tunnistatakse ainult üks pakkumus.
+7.3.
+
+Kõigi pakkumuste tagasilükkamise protsess. Hankija lükkab kõik pakkumused tagasi kirjaliku
+otsusega. Hankija peab oma otsust põhjendama.
+
+8. MILLAL VÕIB HANKIJA HANKEMENETLUSE KEHTETUKS TUNNISTADA?
+8.1.
+
+Põhjendatud vajadus. Hankijal on õigus põhjendatud vajadusel hankemenetluse kehtetuks
+tunnistada. Hankija põhjendatud vajadus on näiteks, kui:
+
+8.1.1.
+
+hankijal tekib vajadus lepingu eset olulisel määral muuta;
+
+8.1.2.
+
+tingimused, mis olid hankemenetluse aluseks, on oluliselt muutunud ning seetõttu on lepingu
+sõlmimine ebavajalik või võimatu;
+
+8.1.3.
+
+on ilmnenud ebakõlad, mida ei ole võimalik kõrvaldada ega menetlust seetõttu õiguspäraselt
+lõpule viia.
+
+8.2.
+
+Hankemenetluse kehtetuks tunnistamise protsess. Hankija tunnistab hankemenetluse kehtetuks
+kirjaliku otsusega. Otsus peab olema põhjendatud.
+
+9. MILLINE PAKKUMUS VÕIDAB?
+9.1.
+
+Hindamiskriteeriumid. Hankija hindab pakkumusi vastavalt hindamiskriteeriumitele, mis on toodud
+Registris ja täpsustatud lisas 1.
+
+9.2.
+
+Edukas pakkumus. Edukaks tunnistatakse pakkumus, mis saab kõikide hindamiskriteeriumide
+arvestuses kokku enim punkte.
+
+9.3.
+
+Võrdsed pakkumused. Juhul, kui enim väärtuspunkte saanud pakkumused on väärtuspunktide
+arvult võrdsed, valitakse edukas pakkumus liisuheitmise teel. Hankija määrab liisu heitmise korra, aja
+ja koha. Pakkuja poolt osalevad liisuheitmisel pakkuja seadusjärgne või volitatud esindaja.
+
+10.
+
+KUIDAS SÕLMITAKSE LEPING?
+
+10.1.
+
+Lepingu sõlmimine. Leping sõlmitakse ühe edukaks tunnistatud pakkujaga. Leping sõlmitakse lisas 1
+toodud põhimõtetel ja eduka pakkuja pakkumuse koosseisus esitaud tüüptingimustel.
+
+10.2.
+
+Lepingu allkirjastamine. Leping allkirjastatakse digitaalselt. Pakkuja peab lepingu allkirjastama ning
+tagastama tema poolt allkirjastatuna hankijale 5 tööpäeva jooksul.
+
+10.3.
+
+Muul kujul lepingu allkirjastamine. Juhul, kui lepingu allkirjastamine digitaalselt ei ole võimalik,
+saadab hankija edukaks tunnistatud pakkumuse esitanud pakkujale kaks hankija poolt allkirjastatud
+lepingu eksemplari. Leping loetakse kättesaaduks 3 kalendripäeva möödumisel selle postitamisest
+arvates. Edukaks tunnistatud pakkumuse esitanud pakkuja peab ühe lepingu eksemplari
+allkirjastatult tagastama hankijale 10 kalendripäeva jooksul lepingu kättesaamisest arvates. Hankija
+võib vajaduse korral lepingu tagastamise tähtaega pikendada.
+
+10.4.
+
+TÄHELEPANU! Kui edukas pakkuja ei pea kinni allkirjastamise tähtajast ja ei tagasta tema poolt
+allkirjastatud lepingut tähtaegselt, siis on hankijal õigus lugeda pakkumus tagasivõetuks ning
+alustada kõigi ülejäänud pakkumuste uuesti hindamist. Lisaks on hankijal õigus allkirjastamise
+nõudest mitte kinni pidanud pakkujalt nõuda kahju hüvitamist. Samasugune õigus on hankijal ka
+juhul, kui edukas pakkuja ei asu nõustumuse andmisega sõlmitud lepingut endast tulenevatel
+põhjustel täitma määratud tähtaja jooksul täitma.
+(RHS § 119)
+
+11. KUIDAS TOIMUB INFOVAHETUS?
+5
+
+KUI PAKKUJA SOOVIB LISAINFOT:
+
+KUI HANKIJA SOOVIB LISAINFOT:
+
+11.1. Hanketeate ja Alusdokumentide sisu kohta
+saab selgitusi pöördudes hankija poole
+kirjalikult
+riigihangete
+registri
+kaudu.
+Pöördumise saab esitada teabevahetuse
+töölehel.
+
+11.4. Hankija võib pakkujalt nõuda täiendavaid
+dokumente. Sellise päringu eesmärk on
+kontrollida kõrvaldamise aluste puudumist
+kvalifikatsiooni või pakkumuse vastavust.
+Hankija
+esitab
+nõude
+Registri
+teabevahetuse lehe kaudu.
+
+11.2. Hankija vastab küsimustele 3 tööpäeva
+jooksul selgituse saamise taotlusest arvates.
+Vastused lisatakse riigihangete registri
+teabevahetuse töölehele.
+
+11.5. Olenevalt küsimuse sisust on vastamise
+tähtaeg 3 või 5 tööpäeva.
+(RHS § 46 lg 4, 104 lg 9, § 115 lg 1)
+
+11.6. Hankija võib vastamiseks antud tähtaega
+pikendada – seda kas omal algatusel või
+pakkuja põhjendatud avalduse alusel.
+
+11.3. TÄHELEPANU! Oluline on selgitustaotlus
+esitada tähtaegselt ehk vähemalt 6 tööpäeva
+enne pakkumuste esitamise tähtaega. Kui
+selgitustaotlus laekub hiljem, siis seadusest
+tulenevalt ei ole hankija kohustatud
+taotlusele vastama.
+(RHS § 46)
+
+6
+
+

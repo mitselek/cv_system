@@ -1,0 +1,154 @@
+Pakkumuse esitamise ettepanek ja hanke alusdokumendid avatud hankemenetluses
+„Illegaali Rändepaketi taustakontroll“ (301189)
+1. Lisad
+1.1. Lisa 1 – Hankelepingu projekt;
+1.2. Lisa 1.1 – SMIT töövõtulepingute üldtingimused;
+1.3. Lisa 2 – Tehniline kirjeldus;
+1.4. Lisa 3 – Vastavustingimused (eRHR vorm);
+1.5. Lisa 3.1 – Ühispakkujate volikiri.
+1.6. Lisa 4 – Hankepass (eRHR vorm) esitatakse iga ühispakkuja või tuginetava isiku
+kohta, kelle majandus-ja/või finantsnäitajatele ja/või tehnilisele ja kutsealasele
+pädevusele tuginetakse või välismaa äriühingu kohta, kelle nimel esitab pakkumuse
+filiaal;
+1.7. Lisa 5 – Hindamiskriteeriumid (eRHR vorm);
+1.8. Lisa 6 – Hanketeade (eRHR vorm).
+2. Riigihanke osadeks jaotamine
+2.1. Hanke osadeks jaotamine ei ole lepingu olemusest tulenevalt võimalik ja hanke
+osadeks jaotamata jätmine on põhjendatud järgmistel kaalutlustel:
+2.1.1. Hankija ostab arendusteenust ühelt täitjalt, et tagada hanke tulemusel tarnitava
+tulemi ühetaolisus. Analüüsitöid, mis osaliselt eelnevad arendustöödele ja osaliselt
+toimuvad samal ajal, ei ole lepinguga taotletava eesmärgi saavutamist ohtu seadmata
+võimalik arendustöödest selliselt eraldada, et neid saaks teostada erinevad täitjad.
+2.1.2. Mitme töövõtja paralleelne kaasamine muudaks lepingu täitmise haldamise
+oluliselt keerukamaks ja suurendaks ka hankija halduskoormust. Eri osade töövõtjate
+tegevuse pidev kooskõlastamine, ühise dokumentatsiooni ja arendusstandardite
+rakendamine ning kvaliteedijärelevalve killustatud tööde puhul on ülemäära kulukas
+ja tekitab lepingu täitmisel olulise riskifaktori.
+2.1.3. Arendusmeeskonna tihe koostöö ning olemasoleva süsteemi põhjalik tundmine
+nõuavad sujuvat info- ja töövoogu, mida osadeks jagamine kahjustaks.
+2.2. Seega tagab hangete osadeks mitte jagamine efektiivse, kvaliteetse ja kulutõhusa
+lahenduse.
+3. Olelusringi kulude arvestamine
+3.1. Hanke iseloom ja maht ei eelda pikaajalist kasutust ega keerukat elutsükli juhtimist.
+Hankega soovitakse tellida piiratud mahus arendusteenust, mille tulemusena valmib
+tarkvarakomponent või lahendus, mille kasutusaeg on piiratud või mille arendus
+toimub pilootprojekti, analüüsi või testimise eesmärgil. Tulenevalt sellest ei kaasne
+arenduse tulemusel pikaajalisi hooldus- või arenduskohustusi ning vajadus täieliku
+elutsükli hindamise järele on piiratud.
+4. Pakkumuse vormistamine ja esitamine
+4.1. Pakkumuses esitatud andmed peavad olema tõesed, esitatud viisil ja piisava
+detailsusega, mis võimaldavad hankijal kontrollida nende vastavust riigihanke
+alusdokumentides toodud tingimustele.
+Siseministeeriumi infotehnoloogia- ja arenduskeskus
+Mäealuse 2/2, Tallinn 12618
+
+Telefon 612 6200
+E-post smit@smit.ee
+
+Reg. kood 70008440
+www.smit.ee
+
+2(3)
+
+4.2. Pakkumuse maksumused tuleb esitada eurodes täpsusega kuni kaks kohta pärast koma.
+4.3. Pakkumuse maksumuses kajastatud summad on hankijale lõplikud, sh sisaldavad
+tasusid või muid makse, v.a käibemaksu, mis kajastatakse eraldi, ning selles toodud
+summadele ei lisandu täiendavaid väljamakseid ega kulutusi. 0 või negatiivse
+väärtusega maksumusi ei ole lubatud kasutada ja sellised pakkumused on hankijal
+õigus tunnistada mittevastavaks ning tagasi lükata.
+4.4. Kui esitatavate dokumentide koosseisus on kolmanda osapoole poolt paberkandjal
+allkirjastatud dokumente, esitada dokument skaneeritud kujul ning originaaldokument
+esitada ainult juhul, kui hankija nõuab originaali esitamist.
+4.5. Alternatiivlahendused ei ole lubatud.
+4.6. Iga viidet, mille hankija teeb hanke alusdokumentides mõnele RHS-i § 88 lõikes 2
+nimetatud
+alusele
+(standardile,
+tehnilisele
+tunnustusele,
+tehnilisele
+kontrollisüsteemile, märgisele vms), tuleb lugeda selliselt, et see on täiendatud
+märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb hanke
+alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile,
+päritolule, märgisele või tootmisviisile, tuleb lugeda selliselt, et see on täiendatud
+märkega „või sellega samaväärne“. Samaväärsus tähendab täpselt samu
+kasutusomadusi ja funktsionaalsusi.
+4.7. Samaväärse lahenduse pakkumisel esitab pakkuja seda tõendavad dokumendid või
+andmed. Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui
+pakkuja tõendab hankijale vastuvõetaval viisil, et pakutav asi või teenus vastab
+konkreetse märgise või hankija esitatud nõuetele, välja arvatud juhul, kui hankija
+nõutud märgis, samaväärne märgis või konkreetse või samaväärse
+vastavushindamisasutuse väljastatud katsearuanne või muu tõend on seaduse alusel
+eelduseks asja või teenuse pakkumiseks turul (RHS § 114 lg 7).
+4.8. Samaväärsuse pakkumisel peab pakutav lahendus ühtima hankija olemasolevate
+süsteemidega ning toote või teenuse hind peab sisaldama kõiki migreerimisega seotud
+lisatasusid. Pakkumuse samaväärsust kontrollivad ja hindavad hankija vastavate
+erialateadmistega töötajad.
+5. Ühispakkumuse esitamine ja/või teise isiku vahenditele tuginemine. Heastamismeetmed
+5.1. Ühispakkumuse esitamisel või teise isiku vahenditele tuginemisel tuleb iga
+ühispakkuja või tuginetava isiku kohta, kelle majandus-ja/või finantsnäitajatele ja/või
+tehnilisele ja kutsealasele pädevusele tuginetakse, esitada hankepass koos kinnitustega
+kõrvaldamise aluste puudumise kohta ja nendele kvalifitseerimise tingimustele
+vastamise kohta, mille osas isiku näitajatele tuginetakse, et hankija saaks teostada RHS
+§ 103 toodud kontrollikohustuse. Samuti tuleb esitada välismaa äriühingu hankepass,
+kelle nimel esitab pakkumuse filiaal.
+5.2. Juhul, kui pakkujal või punktis 5.1. nimetatud isikul esineb vähemalt üks RHS § 95
+lõike 1 punktides 1–3 ja 5 ning lõike 4 punktides 2–11 nimetatud alustest, peab
+pakkuja esitama hankija nõudmisel RHS § 97 kohased ja põhjendatud
+heastamismeetmed iga sellise esinenud asjaolu kohta.
+6. Pakkumuste hindamine, pakkumuse maksumuse esitamine ja edukaks tunnistamine
+6.1. Vastavaks tunnistatud pakkumusi hindab hankija 100-väärtuspunkti süsteemis.
+Edukaks
+tunnistatakse
+majanduslikult
+soodsaim
+pakkumus
+riigihanke
+alusdokumentides toodud hindamiskriteeriumide alusel. Pakkumustele omistatakse
+punkte pakkumuste omavahelise võrdlemise teel.
+
+3(3)
+
+6.2. Juhul, kui ka see kriteerium on saanud võrdselt punkte, korraldab hankija eduka
+pakkumuse väljaselgitamiseks liisuheitmise, võimaldades nendel pakkumuse esitanud
+pakkujatel liisuheitmise juures viibida..
+7. Kõikide pakkumuste tagasilükkamine. Hankemenetluse kehtetuks tunnistamine
+7.1. Hankijal on õigus kõik pakkumused tagasi lükata igal ajal enne lepingu sõlmimist
+vastavalt RHS §-s 116 lg 1 ja punktis 7.2.4 sätestatule. Kõigi pakkumuste
+tagasilükkamisel teeb hankija sellekohase põhjendatud otsuse.
+7.2. Hankija võib põhjendatud vajadusel omal algatusel hankemenetluse kehtetuks
+tunnistada. Põhjendatud vajaduseks võib olla eelkõige, kuid mitte ainult:
+7.2.1. vajadus lepingu eset olulisel määral muuta;
+7.2.2. riigihanke läbiviimise aluseks olevad tingimused on oluliselt muutunud ja
+seetõttu osutub lepingu sõlmimine mittevajalikuks või võimatuks;
+7.2.3. hankemenetluses ilmnenud ebakõlasid ei ole võimalik kõrvaldada ega
+hankemenetlust seetõttu ka õiguspäraselt lõpule viia;
+7.2.4. kui pakkumusi on esitatud vähem kui kaks;
+7.2.5. hankija projektile otsustatakse rahastust mitte tagada.
+8. Muud tingimused
+8.1. Hankija ootus huvitatud isikutele on, et huvitatud isikud teavitaks hankijat aegsasti
+RHR kaudu riigihanke alusdokumentides avastatud vigade, ebatäpsuste ja ebaselguste
+parandamiseks.
+8.2. Pakkuja peab talle allkirjastamiseks edastatud lepingu allkirjastama ja hankijale välja
+saatma hiljemalt 5 tööpäeva jooksul alates päevast, mil hankija selle pakkujale välja
+saatis. Mõjuval põhjusel võib hankija allkirjastamise tähtaega pikendada, andes
+edukale pakkujale sellest kirjalikku taasesitamist võimaldavas vormis teada. Antud
+tähtaja jooksul lepingu allkirjastamisest keeldumist või lepingu täitmisele mitte
+asumist on hankijal õigus käsitleda, kui edukaks tunnistatud pakkumuse esitanud
+pakkuja poolset lepingu sõlmimisest keeldumist ja pakkumuse tagasi võtmist RHS §
+119 lg 1 mõttes ning sel juhul tegutseb hankija edasi vastavalt RHS-s sätestatule.
+8.3. Riigihankes saavad osaleda ainult pakkujad või taotlejad, kelle elu- või asukoht on
+Eestis, mõnes muus Euroopa Liidu liikmesriigis, muus Euroopa Majanduspiirkonna
+lepinguriigis või Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud
+riigis. Nõuet rakendatakse ka ühispakkujate ja alltöövõtjate suhtes.
+8.4. RHR üldandmetesse/hanketeate lahtris "lepingu täitmise tähtaeg" määratud kuupäev
+tähendab lepingu kehtivust, mitte üksnes täitja kohustuste täitmise tähtaega ning
+lähtub seetõttu nii täitja kui tellija/maksja kohustuste nõuetekohase täitmise
+tähtaegadest, sh arve tasumiseks kuluvast ajast. Pakkujal tuleb lepingu sõlmimise
+korral lähtuda enda kohustuste tähtaegsel täitmisel lepingu projektis või tehnilises
+kirjelduses määratud täitmise/lepingu eseme tarnimise tähtajast.
+8.5. Pärast hankelepingu sõlmimist esitab täitja iga oma alltöövõtja, kellega sõlmitud
+alltöövõtulepingu käibemaksuta maksumus ületab 50 000 eurot, nime ja registrikoodi
+ning alltöövõtulepingu nimetuse, kuupäeva, numbri ja summa.
+
+

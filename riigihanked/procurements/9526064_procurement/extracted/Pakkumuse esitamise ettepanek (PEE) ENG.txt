@@ -1,0 +1,437 @@
+PROPOSAL TO SUBMIT A TENDER
+CONTENTS
+1.
+
+Milline on protsess?
+
+Contracting authority:
+SA Tallinna Kultuurikatel
+
+2. Mida hangitakse?
+
+Type of procurement:
+
+3. Millised nõuded kehtivad
+
+Open procedure
+
+pakkumusele?
+
+Name of the public procurement:
+
+4. Kuidas kvalifitseeruda?
+
+CRM Software
+
+5. Milline pakkuja kõrvaldatakse?
+
+Public procurement reference number:
+
+6. Kuidas hankija pakkumused avab?
+
+302432
+
+7. Millal võib hankija kõik pakkumused
+
+Type of contract:
+
+tagasi lükata?
+8. Millal võib hankija hankemenetluse
+kehtetuks tunnistada?
+
+Procurement contract
+Expected contract period:
+48 months
+
+9. Milline pakkumus võidab?
+
+Estimated contract value:
+
+10. Kuidas sõlmitakse leping?
+
+N/A
+
+11. Kuidas toimub infovahetus?
+
+Deadline for submission and opening of tenders:
+According to the Procurement Notice
+
+LISAD:
+
+Place of submission and opening of tenders:
+
+PEE Annex 1 – Technical Specification
+
+Procurement Regsister (riigihanked.riik.ee)
+
+with Evaluation Criteria and Principal
+
+Period of validity of the tender:
+
+Contract Terms
+
+3 months
+Person responsible for public procurement:
+Kristiina Kütt
+
+ATTENTION!
+In preparing the procurement documents of the public procurement (hereinafter also the "Procurement
+Documents"), the contracting authority has proceeded from the Public Procurement Act (hereinafter referred
+to as the PPA), the procedure for conducting procurements of the contracting authority and the conditions
+set out in the Procurement Documents.
+The Procurement Documents contain all relevant documents referred to in the law, including:
+● This call for tenders, together with all annexes;
+● The information published in the Public Procurement Register (hereinafter referred to as the Register)
+in the procurement procedure, including the procurement notice (hereinafter referred to as the
+"Procurement Notice"), the grounds for exclusion (incl. the form of the ’Single Procurement
+Document’), the qualification conditions, the conditions of compliance, the evaluation criteria
+(including the description of the evaluation methodology) and all information and documents sent
+before the deadline for the submission of tenders, which have amended, explained or specified the
+requirements of the Procurement Documents.
+(PPA § 4 point 17)
+
+Pursuant to the law, the contracting authority may amend the Contract Notice and/or the Procurement
+Documents before the deadline for submission of tenders.
+(PPA § 81 and 82)
+
+1
+
+1. WHAT IS THE PROCESS?
+
+2
+
+2. WHAT IS PROCURED?
+2.1.
+
+Subject-matter of the contract. The aim of the procurement is to procure a modern CRM (Customer
+Relationship Management) software for the Tallinna Kultuurikatel, which supports daily sales and
+project work, planning and management of events in a calendar view, management of offers and
+invoices, and reporting. The software must enable the management of the events of all the event
+centres of the Kultuurikatel in one software and manage calendars, sales activities and customer data
+by the departments of the institution, which are the Tallinna Kultuurikatel, the Mere Kultuurikeskus
+and the Salme Kultuurikeskus.
+
+2.2.
+
+Technical description. The technical description of the object of the contract is provided in PEE Annex
+1.
+
+2.3.
+
+Contract. The conditions for performance of the contract are set out in PEE Annex 1 and in the
+composition of the tender.
+
+2.4.
+
+Distribution. The procurement is not divided into lots, as it is essentially one indivisible object of the
+procurement.
+
+3. WHAT REQUIREMENTS APPLY TO THE TENDER?
+PREPARATION OF THE TENDER
+3.1.
+
+Terms and conditions of the tender. The tender must comply with the conditions set out in the
+Procurement Documents. The data provided in the tender must be presented in a way that allows the
+contracting authority to verify the compliance of the tender with the conditions set out in the
+Procurement Document.
+
+3.2.
+
+Tenderer Confirmation. By submitting a tender, the tenderer confirms the transposition of all the
+conditions set out in the Procurement Documents.
+
+3.3.
+
+Inconsistencies in the Procurement Documents. If the tenderer discovers errors, contradictions,
+ambiguities or ambiguity in the Procurement Documents during the preparation of the tender, they
+are advised to immediately notify the contracting authority through the register and ask a question
+about it.
+
+3.4.
+
+Inconsistencies in forms. The tenderer may need to submit the value of the tender both on the form
+in the Register and on the form prepared by the contracting authority. If the data submitted by the
+tenderer are different on these forms, the contracting authority shall evaluate the tender on the basis
+of the costs presented on the form prepared by the contracting authority.
+
+3.5.
+
+Exclusion of misleading and conditional tenders. The tender must not be misleading in any way. The
+Tenderer may not make any changes, reservations or set its own conditions regarding the
+requirements set out in the Procurement Documents. Submission of conditional bids is not allowed.
+
+3.6.
+
+Alternative solutions. Submission of alternative solutions is not allowed.
+
+3.7.
+
+Document format. Tender documents must be submitted in the commonly used document format
+(.pdf; .txt; .rtf; .odt and MS Office formats).
+
+3.8.
+
+Capacity limit. The size of one uploaded file in the Registry may not exceed 100 MB. The total size of
+the tender documents must not exceed 300MB.
+
+3.9.
+
+Costs and risks. The interested party or tenderer bears the full costs and risks associated with
+participating in the procurement procedure, including the possibility of force majeure.
+
+SUBMISSION OF A TENDER
+3.10.
+
+Right to submit tenders. The contracting authority restricts the circle of tenderers by allowing only
+undertakings from the countries specified in § 3(2) of the PPA to participate in this public procurement,
+including as a person on whose resources the tenderer relies on § 103(1) of the PPA.
+
+3
+
+3.11.
+
+Person submitting the tender. The tender must be submitted by the tenderer's statutory or
+authorised representative. If the tender is submitted by a person who is not entered on the printout of
+the registry card of the Estonian Commercial Register as a person who has the legal right of
+representation of the tenderer, the tenderer must, at the request of the contracting authority, submit
+a power of attorney of the legal representative(s) to represent the tenderer.
+
+3.12.
+
+Foreign Provider. If the tenderer is registered in a foreign country, the tenderer must submit a
+certificate of the existence of the right of representation at the request of the contracting authority.
+
+3.13.
+
+Registry errors. The Contracting Authority shall not be liable for any delays, failures or interruptions
+caused by circumstances beyond the control of the Contracting Authority in the Register, such as force
+majeure, power outages, disturbances in the telephone or internet connection of the tenderer or the
+contracting authority, or in the operation of other electronic devices and devices, including software.
+The Contracting Authority shall not be liable for any damages or loss of profit caused by the use or
+non-use of the Register.
+
+COMPLIANCE OF THE TENDER
+3.14.
+
+Compliance conditions. The conditions of compliance can be found in the Register under the basic
+data of the procurement procedure.
+
+3.15.
+
+Declaration of conformity. The Contracting Authority shall declare the tender compliant if it complies
+with the requirements set out in the Procurement Documents.
+
+4. HOW TO QUALIFY?
+4.1.
+
+Conditions. If available, the qualification criteria can be found in the Register under the basic data of
+the procurement procedure, in the subsection Grounds for exclusion and qualification criteria.
+
+4.2.
+
+Single Procurement Document. The tenderer submits a Single Procurement Document with the
+tender, in which it confirms compliance with the qualification criteria and submits the required data.
+Documents certifying qualification do not have to be submitted with the tender.
+
+4.3.
+
+Qualification. The Contracting Authority shall qualify the successful tenderer whose qualification
+meets the tenderer qualification criteria set out in the Procurement Documents. The successful
+tenderer must submit the evidence confirming the data provided in the procurement passport within
+5 working days of receipt of the respective claim.
+(PPA § 104 (9))
+
+4.4.
+
+Reliance on the resources of another undertaking. The tenderer may prove its compliance with the
+requirements for economic and financial standing on the basis of the funds of another undertaking.
+In such a case, the tenderer and the other economic operator must be jointly responsible for the
+proper performance of the contract.
+
+5. WHICH PROVIDER WILL BE EXCLUDED?
+5.1.
+
+Grounds for exclusion. The grounds for exclusion of the tenderer are published in the Register under
+the basic data of the procurement procedure, in the subsection Grounds for exclusion and
+qualification criteria.
+
+5.2.
+
+Single Procurement Document. The tenderer submits a Single Procurement Document with the
+tender, in which it confirms the absence of grounds for exclusion and submits the required data.
+Supporting documents do not need to be submitted with the tender.
+
+5.3.
+
+Decision to exclude. Upon exclusion of a tenderer from the procurement procedure, the contracting
+authority shall make a reasoned written decision to that effect. The eliminated tenderer will not
+participate in further public procurement.
+
+6. HOW A CONTRACTING AUTHORITY OPENS TENDERS?
+6.1.
+
+Open. The contracting authority opens the tenders electronically in the Register.
+
+6.2.
+
+Non-public. The opening of tenders is not public. After the opening of the tenders, the names and
+registry codes of the tenderers, in the absence of a registry code, any other identifier or personal
+4
+
+identification code enabling the identification of the tenderer, or in the absence of a personal
+identification code, the date of birth and the costs of the tenders submitted, including the partial costs
+of the tender, if they are taken into account in the evaluation of tenders, and other numerical indicators
+characterising the tender that meet the criteria for evaluating tenders shall be published in the
+Register.
+
+7. WHEN CAN A CONTRACTING AUTHORITY REJECT ALL TENDERS?
+7.1.
+
+Cost of tenders. The contracting authority may reject all tenders if the value of all tenders or tenders
+found to be compliant exceeds the value of the contract.
+(PPA § 116 (1) point 1)
+
+7.2.
+
+Insufficient competition. The contracting authority may reject all tenders if insufficient competition
+is ensured. This means that if only two or fewer tenders are received for the procurement or if only one
+tender is declared compliant.
+
+7.3.
+
+The process of rejecting all tenders. The contracting authority rejects all tenders by a written
+decision. The contracting authority must justify its decision.
+
+8. WHEN CAN THE CONTRACTING AUTHORITY REVOKE THE PROCUREMENT
+PROCEDURE?
+8.1.
+
+Justified need. The contracting authority has the right to declare the procurement procedure invalid
+if justified. The reasonable need of the contracting authority is, for example, if:
+
+8.1.1.
+
+the contracting authority needs to significantly change the subject matter of the contract;
+
+8.1.2.
+
+the conditions on which the procurement procedure was based have changed significantly
+and therefore the award of the contract is unnecessary or impossible;
+
+8.1.3.
+
+inconsistencies have emerged which cannot be remedied and therefore the proceedings
+cannot be brought to a lawful conclusion.
+
+8.2.
+
+The process of invalidating the procurement procedure. The contracting authority shall declare
+the procurement procedure invalid by a written decision. The decision must be reasoned.
+
+9. WHICH TENDER WINS?
+9.1.
+
+Evaluation criteria. The contracting authority shall evaluate the tenders in accordance with the
+evaluation criteria set out in the Register and specified in PEE Annex 1.
+
+9.2.
+
+Successful tender. The tender that scores the most points in all the evaluation criteria will be declared
+successful.
+
+9.3.
+
+Equal tenders. If the tenders that received the most value points are equal in terms of the number of
+value points, the successful tender will be selected by drawing lots. The contracting authority
+determines the procedure, time and place of the drawing of lots. On behalf of the tenderer, the
+tenderer's statutory or authorised representative shall participate in the drawing of lots.
+
+10.
+
+HOW THE CONTRACT IS CONCLUDED?
+
+10.1.
+
+Contract. The contract will be awarded to one of the successful tenderers. The contract will be
+concluded on the basis of the principles set out in PEE Annex 1 and the standard terms and conditions
+set out in the composition of the successful tenderer's tender.
+
+10.2.
+
+Signing the contract. The contract will be signed digitally. The tenderer must sign the contract and
+return it signed by the tenderer to the contracting authority within 5 working days.
+
+10.3.
+
+Signing a contract in any other form. If it is not possible to sign the contract digitally, the contracting
+authority shall send two copies of the contract signed by the contracting authority to the tenderer
+5
+
+who submitted the successful tender. The contract is deemed to have been received 3 calendar days
+after it was posted. The tenderer who submitted a tender that has been declared successful must
+return one signed copy of the contract to the contracting authority within 10 calendar days from the
+date of receipt of the contract. If necessary, the contracting authority may extend the deadline for the
+return of the contract.
+10.4.
+
+ATTENTION! If the successful tenderer fails to comply with the deadline for signing and fails to return
+the contract signed by the successful tenderer by the deadline, the contracting authority has the right
+to consider the tender withdrawn and to start the re-evaluation of all other tenders. In addition, the
+contracting authority has the right to demand compensation for damage from a tenderer who has
+not complied with the signing requirement. The contracting authority has the same right if the
+successful tenderer fails to perform the contract entered into by giving acceptance within the
+specified deadline for reasons arising from itself.
+(PPA § 119)
+
+11. HOW INFORMATION IS EXCHANGED?
+IF THE TENDERER WANTS ADDITIONAL
+INFORMATION:
+
+IF THE CONTRACTING AUTHORITY WANTS
+ADDITIONAL INFORMATION:
+
+11.1. Explanations about the content of the
+contract notice and the Procurement
+Documents can be obtained by contacting
+the contracting authority in writing via the
+Public Procurement Register. The request
+can be submitted on the communication
+worksheet.
+
+11.4. The contracting authority may require
+additional documents from the tenderer.
+The purpose of such an inquiry is to verify
+the absence of grounds for exclusion, the
+conformity of the qualification or the
+tender. The Contracting Authority submits
+the claim via the Information Exchange
+page of the Register.
+
+11.2. The contracting authority will respond to the
+questions within 3 working days from the
+request for an explanation. The responses will
+be added to the communication worksheet
+of the Public Procurement Register.
+
+11.5. Depending on the content of the question,
+the deadline for answering is 3 or 5 working
+days.
+(PPA § 46 (4), 104 (9), § 115 (1))
+
+11.6. The contracting authority may extend the
+deadline for replying – either on its own
+initiative or on the basis of a reasoned
+application by the tenderer.
+
+11.3. ATTENTION! It is important to submit the
+request for explanation by the deadline, i.e. at
+least 6 working days before the deadline for
+submission of tenders. If the request for
+explanation is received later, the contracting
+authority is not obliged to respond to the
+request pursuant to the law.
+(PPA § 46)
+
+6
+
+

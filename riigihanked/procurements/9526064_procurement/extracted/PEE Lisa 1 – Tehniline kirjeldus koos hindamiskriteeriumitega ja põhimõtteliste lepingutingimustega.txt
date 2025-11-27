@@ -1,0 +1,368 @@
+PEE Lisa 1 – Tehniline kirjeldus koos hindamiskriteeriumitega ja
+põhimõtteliste lepingutingimustega
+1. Eesmärk
+1.1. Hankemenetluse eesmärk on hankida Sihtasutusele Tallinna Kultuurikatel (edaspidi
+Kultuurikatel) kaasaegne CRM-tarkvara (Customer Relationship Management), mis
+toetab igapäevast müügi- ja projektitööd, sündmuste planeerimist ja haldamist
+kalendervaates, pakkumiste ja arvete haldust ning aruandlust.
+1.2. Tarkvara peab võimaldama Kultuurikatla kõigi sündmuskeskuste sündmuste
+haldamist ühes tarkvaras ning hallata kalendreid, müügitegevusi ja kliendiandmeid
+asutuse allüksuste lõikes, milleks on Tallinna Kultuurikatel, Mere kultuurikeskus ja
+Salme kultuurikeskus.
+1.3. Tarkvara peab toetama kõik-ühes integreeritud järgmist terviklahendust:
+1.3.1.CRM kliendisuhtlus, mis on integreeritud projektide ja finantsidega ehk 360kraadine ülevaade klientidest, sealhulgas kontaktandmed, suhtlusajalugu,
+projektid ja ostuarved;
+1.3.2.Müügitoru;
+1.3.3.Integreerutud kalendrit ja ressursside planeerimist- sisse ehitatud järgmiste
+ressursside haldamiseks: ruumid, inimesed, ülesanded, arved, pakkumised,
+renditellimused, projektid, ajaarvestus. Kalendris olevaid sündmusi saab siduda
+kontaktide pakkumiste, ülesannete, ülesannete, arvete ja projektidega. Saab
+sünkroonida väliste kalendritega nagu Google Calendar.
+1.3.4.Pakkumiste koostamist, mille saab luua ja muuta lepinguks ja arveks;
+1.3.5.Arvete haldust ja arveldamine otse süsteemis. Võimalik koostada arveid logitud
+aja eest või pakkumiselt. Ühildub Finbite’iga.
+1.3.6.Ajaarvestust – arvestab projekti ja tegevuse tunde;
+1.3.7.Projektijuhtimine – ülesanded, kalendrid, ressursid, tööajaarvestus. Hõlmab
+kogu projekti elutsüklit alates hinnapakkumiste tegemisest ja planeerimisest
+kuni teostuse ja arveldamiseni. Funktsioonide hulka kuuluvad ka Gantti
+diagrammid, ressursside planeerimine ja reaalajas edenemise jälgimine.
+1.4. Süsteem peab ka võimaldama:
+1.4.1.eraldiseisvat töövoogude ja andmete haldust iga allüksuse jaoks;
+1.4.2.ühtse ülevaate kõikide sündmuskeskuse sündmuste ja ressursside lõikes;
+1.4.3.sama süsteemi kasutamist erinevate kasutajate poolt vastavalt nende õigustele
+ja allüksustele ;
+1.4.4.kalendri vaates sündmuste ja ressursside planeerimist üle kõigi üksuste;
+1.4.5.müügi-, projekti- ja arveldusprotsesside jälgimist kõigi üksuste tasandil.
+
+1
+
+2. Hanke objekt ja maht
+2.1. Hanke raames hangitakse CRM- ja müügitarkvara kasutuslitsentsid 20-35 kasutajale,
+koos järgmiste teenustega:
+2.1.1.süsteemi seadistamine ja kohandamine vastavalt tööprotsessidele;
+2.1.2.kasutajate seadistus ja igakülgne koolitus;
+2.1.3.olemasolevate andmete import (kogu 10 aastane ajalugu praegusest süsteemist
+integreeritud kalender, kontaktid, pakkumised, projektid, arved) mitte rohkem
+kui 10 tööpäeva jooksul peale lepingu sõlmimist (Kultuurikatlal ja Salmel
+kasutusel Scoro, Mere keskuses CRM-tarkvara puudub);
+2.1.4.tarkvarauuendused ja tugi.
+
+3. Pakkumise vormi- ja sisunõuded
+3.1. Pakkumus tuleb esitada riigihangete registris (RHR). Pakkumuse sisu- ja
+vorminõudeid vaata RHRis vastavustingimuste lehel.
+3.2. Hankija tunnistab vastavaks pakkumuse, mis vastab käesolevas tehnilises
+kirjelduses ja muudes riigihanke alusdokumentides toodud tingimustele. Hankija
+lükkab pakkumuse tagasi, kui see ei vasta riigihanke alusdokumentides esitatud
+tingimustele, kui pakkuja ei esita tähtajaks hankija nõutud selgitusi või pakkuja
+selgituste põhjal ei ole võimalik üheselt hinnata pakkumuse vastavust riigihanke
+alusdokumentides esitatud tingimustele. Hankija võib tunnistada pakkumuse
+vastavaks, kui selles ei esine sisulisi kõrvalekaldeid riigihanke alusdokumentides
+nimetatud tingimustest. Tagasilükatud pakkumus hindamisele ei kuulu.
+
+4. Tehnilised ja funktsionaalsed nõuded
+Funktsionaalne nõue
+4.1. CRM kliendisuhtlus, mis on
+integreeritud projektide ja
+finantsidega ehk 360-kraadine
+ülevaade klientidest, sealhulgas
+kontaktandmed, suhtlusajalugu,
+projektid ja ostuarved;
+4.2. Müügitoru peab olema kohandatav
+ja võimaldama jälgida tehingute
+etappe, tegevusi ja prognoose.
+4.3. Kalendris peavad olema hallatavad
+ja kalendriga on seotud ruumid,
+töötajad, ülesanded, pakkumised,
+renditellimused ja projektid ning
+kalender peab olema sünkroonitav
+Google Calendar’i ja Outlookiga.
+4.4. Süsteem peab võimaldama
+pakkumiste koostamist, nende
+muutmist lepinguteks ja arvete
+genereerimist pakkumise või
+logitud aja alusel.
+
+Selgitus / eesmärk
+Tagab täieliku ülevaate kliendi ja
+projektide andmetest ning vähendab
+käsitööd.
+
+Toetab müügijuhtimist ja täpsemaid
+prognoose.
+Tagab ühtse planeerimisvaate.
+
+Sidus müügi, lepingu ja arvelduse töövoog
+ühes süsteemis.
+
+2
+
+4.5. Tarkvara peab olema integreeritav
+Finbite’i ja teiste earveldusteenustega.
+4.6. Süsteem peab toetama
+tööajaarvestust ja seotust
+projektidega.
+4.7. Projektijuhtimise moodul peab
+sisaldama Gantti diagramme,
+ressursside planeerimist ja
+projekti protsesside jälgimist
+reaalajas. Võimaldab projekti
+terviklikku juhtimist ja jälgimist
+kogu elutsükli vältel.
+4.8. Süsteem peab võimaldama
+andmete ja töövoogude eristamist
+allüksuste kaupa, sh SA Tallinna
+Kultuurikatel, Mere
+Kultuurikeskus ja Salme
+kultuurikeskus.
+4.9. Kasutajate ligipääsud ja õigused
+peavad olema hallatavad
+rollipõhiselt ja allüksuste lõikes.
+4.10.
+Kalendrit peab olema
+võimalik kuvada ja hallata kõigi
+allüksuste sündmuste ja
+ressursside lõikes.
+4.11.
+Süsteem peab võimaldama
+aruandlust müügi-, projekti- ja
+arveldusprotsesside kohta nii
+allüksuse kui kogu asutuse
+tasandil.
+
+Võimaldab e-arvete automaatset
+edastamist ja vastuvõttu.
+Võimaldab täpset kulude ja kasumlikkuse
+arvestust.
+Võimaldab projekti terviklikku juhtimist
+kogu elutsükli vältel.
+
+Tagab operatiivse autonoomia üksustele ja
+ühtse andmeplatvormi.
+
+Tagab turvalisuse ja andmekaitse.
+Tagab kogu organisatsiooni koondvaate
+planeerimiseks.
+Toetab juhtimisotsuseid KPI-de põhjal ühes
+koondvaates.
+
+5. Täiendavad funktsionaalsed nõuded
+5.1. Lisaks eelpool toodud üldistele nõuetele peab süsteem toetama järgmisi
+sündmuskeskuse spetsiifilisi tööprotsesse:
+5.1.1.Ressursside põhine kalender ja aja planeerimine (teha / to-do);
+5.1.2.Rendiladu ja renditellimuste koostamine;
+5.1.3.Hinnapakkumised koos tootekoodide ja hinnakirjadega;
+5.1.4.Müügiarvete ja ettemaksuarvete haldus;
+5.1.5.Müügitoru, müügitiimi ja müügitegevuse aruanded;
+5.1.6.Tööde kokkuvõtte ja detailne aruanne (koos aja ja projektipõhise analüüsiga)
+5.1.7.Mobiiltelefonis kasutamiseks eraldi rakendus (iOS ja Android)
+5.2. Muud nõuded
+5.2.1.Eesti keelne kasutajatugi
+5.2.2.Eestikeelne kasutajaliides
+
+3
+
+6. Hindamiskriteeriumid
+6.1. Hankija hindab vastavaks tunnistatud pakkumusi alljärgnevate kriteeriumi alusel:
+Kriteerium
+
+Kirjeldus
+
+1. Maksumus - 60%
+
+Litsentside maksumus km-ta 12 kuuks
+(hindamisel arvestatakse 35 kasutajaga)
+
+2. Rakendamise ja ülemineku
+kulud – 20%
+
+Seadistuse, koolituse ja andmete ülekande
+kulud km-ta
+
+3. Kasutajamugavus ja
+tööprotsessi sobivus – 20%
+
+Kasutajaliidese loogilisus, süsteemi intuitiivsus
+ja kasutajate olemasolev kogemus
+
+6.2. Hindamismetoodika
+6.2.1. Kriteeriumite „rakendamise ja ülemineku kulud“ ja „maksumus“ eest saab
+madalaima väärtusega pakkumus maksimaalse arvu punkte. Teised
+pakkumused saavad punkte arvutades valemiga, mis on märgitud RHR-i
+vastaval vahelehel.
+6.2.2.Kriteeriumi „Kasutajamugavus ja tööprotsessi sobivus“ hindamismetoodika on
+alljärgnev:
+Alakriteerium /
+punktid
+Kasutajamugavus
+
+10
+
+5
+
+0
+
+Demona esitletud
+kasutajakeskkond on
+kasutajale mugav.
+Kasutajakeskkonnas on
+olemas kõik tehnilises
+kirjelduses nõutud
+funktsionaalsused.
+Keskkonna kirjeldus
+on detailne ja
+üheselt mõistetav. Demo
+keskkond ja kirjeldus
+annavad kogumis
+hankijale veendumuse, et
+osutatav teenus vastab
+hankija seatud ootustele.
+Kasutajamugavuse
+tagamiseks on arvestatud
+valdkonnas tavapäraste
+põhimõtetega ning
+hankija põhikirjalise
+tegevusega.
+
+Demona esitletud Ei ole täidetud 5
+kasutajakeskkond hindepunkti
+on kasutajale
+saamise eeldused.
+üldiselt sobilik,
+kuid esineb
+mõningaid
+ebamugavusi.
+Kasutajamugavuse
+kirjeldus on
+osaliselt ebaselge
+ja/või mitmeti
+mõistetav. Demo
+keskkond ja
+kirjeldus kogumis
+ei veena hankijat,
+et teenus vastab
+hankes seatud
+nõuetele täielikult.
+Kasutajamugavuse
+tagamiseks ei ole
+rakendatud
+valdkonnas
+tavapäraseid
+4
+
+Tööprotsessi
+sobivus
+
+Demo keskkonnas on
+tööprotsess vastav
+tehnilisele kirjeldusele ja
+hanke eesmärkidele.
+Tööprotsess on ka
+detailselt selgitatud ja
+üheselt mõistetav, sh
+millal ja kuidas on
+tegevused planeeritud ja
+kas tulemuseni on
+võimalik jõuda
+õigeaegselt. Demo
+keskkonna loomisel ja
+tööprotsesside
+kirjeldamisel on
+arvestatud hankija
+eripäradega.
+
+põhimõtteid.
+Pakkuja ei ole
+arvestanud
+hankija
+eripäradega
+kasutajamugavuse
+loomisel.
+Demo keskkonnas
+ei ole tööprotsess
+mugav.
+Tööprotsess ise
+ja/või selle
+kirjeldus on
+osaline ja/või
+mitmeti
+mõistetav. Demo
+keskkonna ja
+tööprotsesside
+loomisel ei ole
+arvestatud hankija
+eripäradega.
+
+Ei ole täidetud 5
+hindepunkti
+saamise eeldused.
+
+6.3. Hankija tunnistab edukaks pakkumuse, mis saab enim hindepunkte.
+
+7. Lepingu tingimused (põhimõttelised)
+7.1. Hankija sõlmib eduka pakkujaga lepingu ja andmetöötluslepingu pakkuja
+tüüptingimustel osas, mis ei ole vastuolus käesolevas peatükis tooduga.
+7.2. Lepingu kestus: 48 kuud alates süsteemi kasutuselevõtust, iga-aastase pikendamise
+võimalusega. Tellija kohustub pikendamise soovist teada andma vähemalt 30 päeva
+enne arveldusperioodi lõppu.
+7.3. Tellija kohustub tellima vähemalt 20 kasutajalitsentsi (miinimumkogus).
+7.4. Tellija tasub ühe kasutajalitsentsi eest vastavalt Teenusepakkuja poolt pakkumuses
+esitatud ühikhinnale.
+7.5. Teenusepakkujal on õigus tõsta litsentsitasu üks kord kalendriaastas vastavalt
+tarbijahinnaindeksi (THI) muutusele, lähtudes Statistikaameti avaldatud viimase 12
+kuu Eesti tarbijahinnaindeksi muutuse protsendist võrreldes eelmise aasta sama
+perioodiga.
+7.6. Hinnakorrektsiooni aluseks on viimane enne hinnamuudatuse jõustumist avaldatud
+THI näitaja.
+7.7. Teenusepakkuja teavitab Klienti hinnatõusust vähemalt 60 (kuuskümmend)
+kalendripäeva enne uue arveldusperioodi algust, mil korrigeeritud hind rakendub.
+7.8. Kui THI muutus on negatiivne, ei vähendata litsentsitasu automaatselt, välja arvatud
+juhul, kui pooled lepivad selles kirjalikult kokku.
+5
+
+7.9. Teenusepakkuja tagab süsteemi töökindluse ja tehnilise toe kogu lepingu kehtivuse
+jooksul.
+7.10.
+Tellija võib lepingu üles öelda, kui süsteem ei vasta esitatud nõuetele või
+teenus ei ole toimiv kokkulepitud mahus.
+7.11.
+Andmete kuuluvus ja üleandmine
+7.11.1. Tellija poolt tarkvarasse sisestatud andmed kuuluvad tellijale. Lepingu
+lõppemisel või kehtivuse lõppemisel sulgeb teenusepakkuja vastavad kontod ja,
+kui ei ole kokku lepitud teisiti, kustutab nende sisu andmetöötluslepingus
+sätestatud tähtaja jooksul. Teenusepakkuja ei kustuta sisu, mille säilitamine on
+kohaldatava õiguse alusel kohustuslik.
+7.11.2. Teenusepakkuja kohustub tegema tellijale kättesaadavaks lepingu
+lõppemisele või kehtivuse lõppemisele järgneva 30 päeva jooksul sisu koopia
+ning tellija kohustub selle alla laadima. Kui tellija ei saa sisu koopiat käesolevas
+punktis sätestatud korras alla laadida, kohustub ta sellest 10 päeva jooksul
+pärast takistuse teadasaamist teenusepakkujat teavitama. Sellisel juhul –
+eeldusel, et sisu ei ole andmetöötluslepingu kohaselt kustutatud – kohustub
+teenusepakkuja edastama sisu poolte kokkuleppel üldtunnustatud vormingus
+tellijale. Sisu edastamise eest täiendavat tasu nõuda ei või.
+7.12.
+Pooled ja nende nimel tegutsevad isikud on kohustatud kinni pidama Eesti
+Vabariigis kehtivatest korruptsioonivastastest õigusaktidest.
+7.12.1. Teenusepakkujal on keelatud sõlmida lepingu täitmisega seoses tellija nimel
+tegutsevate isikutega ja nendega korruptsioonivastase seaduse § 7 tähenduses
+seotud isikutega kokkuleppeid, teha neile lepingu täitmisega seoses kingitusi
+või soodustusi, mida ei saa üheselt mõista tavapärase viisakusavaldusena
+korruptsioonivastase seaduse § 4 tähenduses, või seada neid olukorda, mis
+võivad kaasa tuua tegeliku või näilise huvide konflikti.
+7.12.2. Kui teenusepakkuja korraldab oma äritegevuse raames üritusi kuhu kutsub
+lepingu täitmisega seoses tellija nimel tegutseva(id) isiku(id), siis ei tohi nende
+ürituste eesmärk olla tellijaga seotud isikute mõjutamine ja nendel üritustel
+võõrustamisel peab jääma tavapärase viisakusavalduse raamesse.
+7.12.3. Teenusepakkuja peab rakendama meetmed, et vältida korruptsiooni tema
+nimel tegutsevate isikute, oma alltöövõtjate või muude teenusepakkujaga
+seotud kolmandate isikute poolt seoses käesoleva lepingu täitmisega.
+7.12.4. Teenusepakkuja ja tellija ning nende nimel tegutsevad isikud kohustuvad
+tegema üksteisega koostööd korruptsioonivastaste meetmete rakendamisel, sh
+informeerima viivitamata üksteist kõigist lepingu täitmisega seotud
+korruptsioonijuhtumi kahtlustest.
+7.12.5. Tellijal on õigus leping üles öelda, kui teenusepakkuja rikub
+korruptsioonivastaseid õigusakte või on rikkunud lepingus ettenähtud
+korruptsioonivastaseid meetmeid.
+
+6
+
+

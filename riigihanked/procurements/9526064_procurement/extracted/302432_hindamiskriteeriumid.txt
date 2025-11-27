@@ -1,0 +1,215 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302432
+Hankija: Sihtasutus Tallinna Kultuurikatel (90009424)
+Hange: CRM tarkvara
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+Tüüp /
+nr
+hindamismeetod
+1 Litsentside maksumus 12 kuuks // Cost Pakkumuste hindamiseks tuleb sisestada
+Maksumus of licences for 12 months
+ühe litsentsi tasu ühe kasutaja kohta 12 vähim on parim
+kuuks km-ta. RHR arvutab vastavalt
+valemile selle 35 kasutajaga.
+
+Osakaal
+60
+
+Kogus
+35
+
+Ühik
+pcs
+
+Pakkuja
+täidetav
+jah
+
+Pakkumuse maksumus peab olema
+lõplik ja sisaldama kõiki kulusid
+vastavalt riigihanke alusdokumentidele
+ning seal nimetamata kulusid, mis on
+vajalikud
+lepingu
+nõuetekohaseks
+täitmiseks. 0 või negatiivse väärtusega
+maksumusi ei ole lubatud kasutada ja
+sellised pakkumused on hankijal õigus
+tunnistada mittevastavaks ning tagasi
+lükata. Maksumus esitatakse täpsusega
+kaks kohta pärast koma. Hankija ei
+hüvita lepingu täitmisel pakkujale
+mingeid täiendavaid kulusid ega tee
+täiendavaid makseid.
+//
+For the evaluation of tenders, the fee for
+one licence per user for 12 months
+excluding VAT must be entered. The
+Public Procurement Register will
+calculate the price for 35 users
+Koostatud 13.11.2025 08:36:43
+
+1/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9526064/general-info
+
+according to the formula.
+
+2
+
+The tender price must be final and
+include all costs in accordance with the
+procurement documents, as well as any
+costs not specified therein that are
+necessary for the proper performance of
+the contract. Costs with a value of 0 or a
+negative value are not permitted, and the
+contracting authority has the right to
+deem such tenders non-compliant and
+reject them. The price must be presented
+with an accuracy of two decimal places.
+The contracting authority will not
+reimburse any additional costs or make
+any additional payments to the tenderer
+during the performance of the contract.
+Rakendamise ja ülemineku kulud // Pakkuja esitab seadistuse, koolituse ja
+Implementation and transition costs
+andmete ülekande kulud km-ta.
+
+Kulu - vähim on
+parim
+
+20
+
+Pakkumuse maksumus peab olema
+lõplik ja sisaldama kõiki kulusid
+vastavalt riigihanke alusdokumentidele
+ning seal nimetamata kulusid, mis on
+vajalikud
+lepingu
+nõuetekohaseks
+täitmiseks. 0 või negatiivse väärtusega
+maksumusi ei ole lubatud kasutada ja
+sellised pakkumused on hankijal õigus
+tunnistada mittevastavaks ning tagasi
+lükata, v.a juhul, kui hankija on mõne
+kulukomponendi osas selgesõnaliselt
+vastupidist
+lubanud.
+Maksumus
+esitatakse täpsusega kaks kohta pärast
+koma. Hankija ei hüvita lepingu
+täitmisel pakkujale mingeid täiendavaid
+kulusid ega tee täiendavaid makseid.
+//
+Koostatud 13.11.2025 08:36:43
+
+2/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9526064/general-info
+
+The tenderer shall provide the costs of
+configuration, training, and data transfer
+excluding VAT.
+
+Tarkvara algseadistuse ja juurutuse
+maksumus km-ta
+Olemasolevate andmete importimise ja
+integreerimise maksumus
+Kasutajakoolituse maksumus
+3
+
+Kasutajamugavus
+ja
+tööprotsessi
+sobivus // User-friendliness and
+suitability for the workflow
+
+Koostatud 13.11.2025 08:36:43
+
+The tender price must be final and
+include all costs in accordance with the
+procurement documents, as well as any
+costs not specified therein that are
+necessary for the proper performance of
+the contract. Costs with a value of 0 or a
+negative value are not permitted, and the
+contracting authority has the right to
+deem such tenders non-compliant and
+reject them, except where the
+contracting authority has expressly
+allowed otherwise for a specific cost
+component. The price must be presented
+with an accuracy of two decimal places.
+The contracting authority will not
+reimburse any additional costs or make
+any additional payments to the tenderer
+during the performance of the contract.
+0,01 EUR väärtusega pakkumus loetakse võrdseks nulliga ja on lubatud
+esitada üksnes juhul, kui pakutav tarkvara on hankijal olemasolev tarkvara.
+0,01 EUR väärtusega pakkumus loetakse võrdseks nulliga ja on lubatud
+esitada üksnes juhul, kui pakutav tarkvara on hankijal olemasolev tarkvara.
+0,01 EUR väärtusega pakkumus loetakse võrdseks nulliga ja on lubatud
+esitada üksnes juhul, kui pakutav tarkvara on hankijal olemasolev tarkvara.
+Hankija hindab vastavalt esitatud Kvaliteet - hankija
+20
+sisulisele pakkumusele kasutajaliidese
+hinnatav
+loogilisust, süsteemi intuitiivsust ja
+kasutajate olemasolevat kogemust. //
+The contracting authority will assess,
+based on the submitted substantive
+tender, the logic of the user interface, the
+intuitiveness of the system, and the
+3/4
+
+EUR
+
+jah
+
+EUR
+
+jah
+
+EUR
+
+jah
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9526064/general-info
+
+users’ existing experience.
+Kokku:
+
+100
+
+Hindamismetoodika kirjeldus
+1. Litsentside maksumus 12 kuuks // Cost of licences for 12 months
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal". // The tender with the lowest value will receive the maximum number of points. Other tenders will receive points calculated using the formula:
+“weight” – (“tender value” – “lowest value”) / “highest value” × “weight”.
+
+2. Rakendamise ja ülemineku kulud // Implementation and transition costs
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal". // The tender with the lowest value will receive the maximum number of points. Other tenders will receive points calculated using the formula:
+“weight” – (“tender value” – “lowest value”) / “highest value” × “weight”.
+
+3. Kasutajamugavus ja tööprotsessi sobivus // User-friendliness and suitability for the workflow
+Hindamismetoodika on kirjeldatud alusdokumendis "PEE Lisa 1 – Tehniline kirjeldus koos hindamiskriteeriumitega ja põhimõtteliste lepingutingimustega". // The evaluation methodology is
+described in the document “PEE Annex 1 – Technical Description with Evaluation Criteria and Principal Contract Terms.”
+
+Koostatud 13.11.2025 08:36:43
+
+4/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9526064/general-info
+
+
