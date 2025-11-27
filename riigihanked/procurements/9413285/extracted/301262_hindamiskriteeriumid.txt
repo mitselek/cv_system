@@ -1,0 +1,68 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 301262
+Hankija: Riigi Infosüsteemi Amet (70006317)
+Hange: Andmete teabevärava ja RIHAKEse arendustööd
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Pakkumuse täiuslikkus
+2
+3
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Kvaliteet - hankija
+hinnatav
+Meeskonnaliikmete kogemus
+Kvaliteet - hankija
+hinnatav
+Pakkumuse maksumus (tööde tunnihind) „0“
+või
+negatiivse
+väärtusega
+Maksumus maksumusi ei ole lubatud kasutada ja vähim on parim
+sellised pakkumused on hankijal õigus
+lugeda mittevastavaks ning tagasi lükata.
+Kokku:
+
+Osakaal
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+
+40
+40
+20
+
+jah
+
+100
+
+Hindamismetoodika kirjeldus
+1. Pakkumuse täiuslikkus
+Kirjeldus on toodud riigihanke alusdokumendis "Hindamismetoodika" ja on leitav "Dokumendid" lehelt.
+
+2. Meeskonnaliikmete kogemus
+Kirjeldus on toodud riigihanke alusdokumendis "Hindamismetoodika" ja on leitav "Dokumendid" lehelt.
+
+3. Pakkumuse maksumus (tööde tunnihind)
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 22.10.2025 13:44:03
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9413285/general-info
+
+

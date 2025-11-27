@@ -1,0 +1,133 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+301262
+Riigi Infosüsteemi Amet (70006317)
+Andmete teabevärava ja RIHAKEse arendustööd
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+2. Andmed lepinguks, mida kasutatakse juhul, kui pakkumus tunnistatakse edukaks. Pakkuja
+esitab andmetena: 1. lepingu allkirjastaja nimi; 2. alus lepingu allkirjastamiseks (juhatuse liige,
+volikiri vm); 3. pakkuja kontaktisik lepingu täitmisel (nimi, telefoni number ja e-posti aadress)
+(Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kui volikiri on alus lepingu allkirjastamiseks, siis kas olete lisanud pakkumuse
+"Lisadokumentide" lehele volikirja? Kui lepingu allkirjastamise alus ei ole volikiri, vastake "Ei".
+(Raadionupp valikutega "Jah/Ei")
+
+PROOVITÖÖ - AJAKAVA JA TEOSTUSE KAVAND
+Proovitöö peab sisaldama ajakava ja teostuse kavandit.
+Ajakava ja teostuse kavand on hindamise aluseks vastavalt riigihanke alusdokumendis
+"Hindamismetoodika" toodule.
+Riigihanke alusdokumendid "Proovitöö" ja "Hindamismetoodika" on toodud "Dokumendid" lehel.
+
+Küsimused ettevõtjale:
+1. Ajakava ja teostuse kavand (Vabas vormis dokument)
+MEESKONNA NÕUDED
+Pakkuja komplekteerib ja esitab meeskonna, kuhu kuuluvad alusdokumendis "Nõuded
+meeskonnale" märgitud kompetentsidega isikud. Kui isikul on nõutud kompetents rohkem kui
+ühes rollis, siis rollide kattuvusel ühe isiku poolt peab olema esitatud nii mitu CV vormi kui isik
+rollide lõikes katab, st iga rolli kohta vastav CV vorm.
+Meeskonna nõuded on toodud riigihanke alusdokumendis „Nõuded meeskonnale“. Meeskond on
+hindamise aluseks vastavalt riigihanke alusdokumendis „Hindamismetoodika“ kirjeldatud
+hindamise kriteeriumitele. Riigihanke alusdokumendid „Nõuded meeskonnale“ ja
+„Hindamismetoodika“ on toodud „Dokumendid“ lehel.
+
+Küsimused ettevõtjale:
+1. CV-d (Dokumendi vorm / CV-vorm.docx)
+ETTEVÕTTE VOLITATUD ISIKUD
+Kõrvaldamise aluste kontrolli (RHS § 95 lg 1 p 1-3) teostamiseks peab pakkuja esitama ettevõtja
+muud isikud, kellel on õigus ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida
+ning kes ei ole hankijale nähtavad Äriregistrist. Eelpool nimetatud isikuteks on näiteks
+tegevdirektor, kes ei ole juhatuse liige, prokurist, järelevalveorgani liige jms.
+
+Koostatud 18.11.2025 10:11:44
+https://riigihanked.riik.ee/rhr-web/#/procurement/9413285/general-info
+
+2/3
+
+Küsimused ettevõtjale:
+1. Pakkuja peab kontrolli teostamiseks esitama volitatud isiku(te) nime(d) ja isikukoodi(d) või
+kinnituse, et selliseid isikuid pakkujal ei ole (Sisestusväli (max pikkus 250 tähemärki))
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD.
+Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on:
+1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest
+isikust ettevõtja, juriidiline isik, asutus või muu üksus;
+2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu
+Koostatud 18.11.2025 10:11:44
+https://riigihanked.riik.ee/rhr-web/#/procurement/9413285/general-info
+
+3/3
+
+üksuse omandis;
+3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku
+juhiste alusel.
+Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel
+tühine.
+Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS
+(EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb
+piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas.
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene
+Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu
+üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või
+muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või
+tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 18.11.2025 10:11:44
+https://riigihanked.riik.ee/rhr-web/#/procurement/9413285/general-info
+
+

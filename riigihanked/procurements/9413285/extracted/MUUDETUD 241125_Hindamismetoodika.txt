@@ -1,0 +1,237 @@
+HINDAMISMETOODIKA
+
+Kõiki vastavaks tunnistatud pakkumusi hinnatakse allpool toodud
+kriteeriumite alusel:
+
+1.  Pakkumuse täiuslikkus – 40 väärtuspunkti
+
+Pakkumuse täiuslikkuse kriteeriumi iga alamkriteeriumit hindavad hankija
+hindamiskomisjoni liikmed konsensuslikult[1]. Pakkumusele iga
+alamkriteeriumites antud hinded liidetakse. Proovitöö eest on võimalik
+kokku saada maksimaalselt kuni 40 punkti ja minimaalselt 1 punkt.
+
+1.  Punktid proovitöö alamkriteeriumite osas antakse järgmiselt:
+
+Proovitöö nõuded on kirjeldatud riigihanke alusdokumendis „Proovitöö“.
+
++--------------+------------+------------------------------------------+
+| Tegevus      | Ma         | Tingimused                               |
+|              | ksimaalsed |                                          |
+|              | punktid    |                                          |
++==============+============+==========================================+
+| Teostuse     | 4          | Hinne „4“ – Teostuse kavandil on         |
+| kavandi      |            | tiitelleht, sisukord ja teemadel         |
+| vormistus    |            | pealkirjad.                              |
+|              |            |                                          |
+|              |            | Hinne „1“ – Teostuse kavandil ei ole     |
+|              |            | tiitellehte ja/või sisukorda ja/või      |
+|              |            | teemadel pealkirju.                      |
++--------------+------------+------------------------------------------+
+| Teostuse     | 9          | Hinne „9“ – Teostuse kavand on parimal   |
+| kavandi      |            | võimalikul moel terviklik ja detailne    |
+| terviklikkus |            | (kajastatud kõik tööd, rollid, projektid |
+|              |            | on eristatud ning tööd ja rollid on      |
+|              |            | projektide vahel loogiliselt jaotatud).  |
+|              |            |                                          |
+|              |            | Hinne „6“ – Teostuse kavand on suures    |
+|              |            | osas detailne või tööd ja rollid on      |
+|              |            | suures osas projektide vahel loogiliselt |
+|              |            | jaotatud. Selle saab kasutusele võtta    |
+|              |            | väiksemate kohanduste ja/või             |
+|              |            | täiendustega ja/või kui esinevad muud    |
+|              |            | vead (kuni 2 puudust), mis ei võimalda   |
+|              |            | omistada pakkumusele 9 punkti.           |
+|              |            |                                          |
+|              |            | Hinne „3“ – Teostuse kavand on esitatud  |
+|              |            | suures osas üldiselt ning selle          |
+|              |            | kasutusele võtmiseks on olulises osas    |
+|              |            | vaja teha muudatusi ja/või täiendusi     |
+|              |            | ja/või kui esinevad muud vead (3 kuni 4  |
+|              |            | puudust), mis ei võimalda omistada       |
+|              |            | pakkumusele 6 punkti.                    |
+|              |            |                                          |
+|              |            | Hinne „0“ – Teostuse kavand on suurte    |
+|              |            | puudustega ja/või ei vasta ajakavale     |
+|              |            | ja/või kui esinevad muud vead (5 või     |
+|              |            | enam puudust), mis ei võimalda omistada  |
+|              |            | pakkumusele 3 punkti.                    |
++--------------+------------+------------------------------------------+
+| Teostuse     | 9          | Hinne „9“ – Teostuse kavandi järgimine   |
+| kavandi      |            | on realistlik (nt vajadusel kaasatakse   |
+| r            |            | lisaressurssi) ning sobib parimal        |
+| ealistlikkus |            | võimalikul moel planeeritud tegevuste    |
+|              |            | elluviimiseks, arvestatud on             |
+|              |            | hankelepingu maksumusega ning meeskonna  |
+|              |            | liikmete arvuga.                         |
+|              |            |                                          |
+|              |            | Hinne „6“ – Teostuse kavand on üldiselt  |
+|              |            | realistlik ning selle saab kasutusele    |
+|              |            | võtta väiksemate kohanduste ja/või       |
+|              |            | täiendustega ja/või kui esinevad muud    |
+|              |            | vead (kuni 2 puudust) mis ei võimalda    |
+|              |            | omistada pakkumusele 9 punkti.           |
+|              |            |                                          |
+|              |            | Hinne „3“ – Teostuse kavand ei ole       |
+|              |            | realistlik ning selle                    |
+|              |            | kasutuselevõtmiseks on olulises osas     |
+|              |            | vaja teha muudatusi ja/või täiendusi     |
+|              |            | ja/või kui esinevad muud vead (3 kuni 4  |
+|              |            | puudust), mis ei võimalda omistada       |
+|              |            | pakkumusele 6 punkti.                    |
+|              |            |                                          |
+|              |            | Hinne „0“ – Teostuse kavand ei lähtu     |
+|              |            | suures osas proovitöös toodud tööde      |
+|              |            | nimekirjast ja/või vajab suures osas     |
+|              |            | ümbertegemist ja/või esinevad muud vead  |
+|              |            | (5 või enam puudust), mis ei võimalda    |
+|              |            | omistada pakkumusele 3 punkti.           |
++--------------+------------+------------------------------------------+
+| Ajakava      | 9          | Hinne „9“ – Ajakava (või Ajakavad) on    |
+| terviklikkus |            | terviklik (kajastatud kõik tööd, rollid, |
+|              |            | eristatud projektid), detailne ning      |
+|              |            | vastavuses teostuse kavandiga.           |
+|              |            |                                          |
+|              |            | Hinne „6“ – Ajakava on suures osas       |
+|              |            | detailne ning selle saab kasutusele      |
+|              |            | võtta väiksemate kohanduste ja/või       |
+|              |            | täiendustega ja/või kui esinevad muud    |
+|              |            | vead (kuni 2 puudust), mis ei võimalda   |
+|              |            | omistada pakkumusele 9 punkti.           |
+|              |            |                                          |
+|              |            | Hinne „3“ – Ajakava on esitatud suures   |
+|              |            | osas üldiselt ning selle                 |
+|              |            | kasutuselevõtmiseks on olulises osas     |
+|              |            | vaja teha muudatusi ja/või ja/või kui    |
+|              |            | esinevad muud vead täiendusi (3 kuni 4   |
+|              |            | puudust), mis ei võimalda omistada       |
+|              |            | pakkumusele 6 punkti.                    |
+|              |            |                                          |
+|              |            | Hinne „0“ – Ajakava ei ole suures osas   |
+|              |            | vastavuses teostuse kavandiga ja/või     |
+|              |            | esinevad muud vead (5 või enam puudust), |
+|              |            | mis ei võimalda omistada pakkumusele 3   |
+|              |            | punkti.                                  |
++--------------+------------+------------------------------------------+
+| Ajakava      | 9          | Hinne „9“ – Ajakava järgimine on         |
+| r            |            | realistlik (selge rollide ja tööde       |
+| ealistlikkus |            | jaotus projektide vahel, seotud tööde    |
+|              |            | loogiline järjestus, eraldi välja toodud |
+|              |            | analüüsid, puhvrid, puhkused) ning sobib |
+|              |            | hästi planeeritud tegevuste              |
+|              |            | elluviimiseks.                           |
+|              |            |                                          |
+|              |            | Hinne „6“ – Ajakava on üldiselt          |
+|              |            | realistlik ning selle saab kasutusele    |
+|              |            | võtta väiksemate kohanduste ja/või       |
+|              |            | täiendustega ja/või kui esinevad muud    |
+|              |            | vead (kuni 2 puudust), mis ei võimalda   |
+|              |            | omistada pakkumusele 9 punkti.           |
+|              |            |                                          |
+|              |            | Hinne „3“ – Ajakava ei ole realistlik    |
+|              |            | ning selle kasutuselevõtmiseks on        |
+|              |            | olulises osas vaja teha muudatusi ja/või |
+|              |            | täiendusi ja/või kui esinevad muud vead  |
+|              |            | (3 kuni 4 puudust), mis ei võimalda      |
+|              |            | omistada pakkumusele 6 punkti.           |
+|              |            |                                          |
+|              |            | Hinne „0“ – Ajakava kavand ei lähtu      |
+|              |            | suures osas proovitöös toodud tööde      |
+|              |            | nimekirjast ja/või vajab suures osas     |
+|              |            | ümbertegemist ja/või kui esinevad muud   |
+|              |            | vead (5 või enam puudust), mis ei        |
+|              |            | võimalda omistada pakkumusele 3 punkti.  |
++--------------+------------+------------------------------------------+
+| Kokku:       | 40         |                                          |
++--------------+------------+------------------------------------------+
+
+2.  Meeskonnaliikmete kogemus – 40 väärtuspunkti
+
+    1.  Meeskonna kogemust hinnatakse pakkuja esitatud vormi „CV vorm“ p
+        3 ja 4 põhjal (CV vormil punktis 3 toodud kogemus peab olema
+        kajastatud ja välja loetav ka CV vormil punktis 4. Pakkumuste
+        hindamisel lähtub hankija CV vormil punktis 4 märgitud
+        kogemusest ja lisakogemusest).
+
+    2.  Igale meeskonnaliikmele (v.a projektijuht) omistatud punktid
+        liidetakse. Meeskonnaliikmete kogemuse eest on võimalik kokku
+        saada maksimaalselt kuni 40 punkti ja minimaalselt 0 punkti.
+
+    3.  Hinnatavad meeskonnaliikmed (v.a projektijuht) saavad lisaks
+        riigihanke alusdokumendis „Nõuded meeskonnale“ p-des 3.2.1.,
+        3.3.1., 3.4.1., 3.5.1. ja 3.6.1. sätestatud nõuetele iga
+        järgneva 12-kuulise lisakogemuse eest 2 punkti. Näiteks, kui
+        nõutud on, et meeskonnaliige peab omama vähemalt 36-kuulist
+        töökogemust süsteemianalüütikuna, siis lisakogemuseks loetakse
+        48 kuud või 60 kuud jne. Kui pakkumusega on esitatud samale
+        rollile rohkem kui üks spetsialisti, siis hindamisel võetakse
+        arvesse neist kõige kogenuim. Iga meeskonnaliikme rolli kohta
+        antakse punkte kokku mitte rohkem kui 8 hindepunkti.
+
+    4.  Lisakogemuse eest saavad punkte:
+
+  1 analüütik (0-8p);
+
+  1 arhitekt (0-8p)*;
+
+  1 arendaja (0-8p)**;
+
+  1 testija (0-8p);
+
+  1 kasutatavuse ekspert (0-8p).
+
+  *Arhitekt saab lisapunkte ainult arhitekti rolli eest, st
+  meeskonnaliikme vastavusnõude „Nõuded meeskonnale“ p 3.4.1.(a)
+  täitmise puhul lisakogemuseks loetakse 60+12-kuulist jne kogemust (60
+  kuud kogemust = 0 p, 60+12 kuud kogemust= 2 p jne) VÕI vastavusnõude
+  „Nõuded meeskonnale“ p 3.4.1.(b) täitmise puhul lisakogemuseks
+  loetakse 36+12-kuulist jne kogemust (36 kuud kogemust = 0 p, 36+12
+  kuud kogemust= 2 p jne).
+
+  ** Arendaja saab lisapunkte ainult kõige väiksema lisakogemusega
+  arendaja kogemuse eest (näiteks kui ühe arendaja lisakogemus on 36+24
+  kuud kogemust ning teisel ja kolmandal arendajal on mõlemal 36+12 kuud
+  kogemust, siis arvestatakse väikseima kogemusega arendaja kogemust 12
+  kuud kogemust = 2p).
+
+3.  Pakkumuse maksumus – 20 väärtuspunkti
+
+Pakkumuse maksumuse ehk tööde tunnihinna eest omistatakse pakkumusele
+väärtuspunktid RHR-is „HHHHindamiskriteeriumid ja hinnatavad näitajad“
+lehel toodud valemi alusel.
+
+„0“ või negatiivse väärtusega maksumusi ei ole lubatud kasutada ja
+sellised pakkumused on hankijal õigus lugeda mittevastavaks ning tagasi
+lükata.
+
+4.  Eduka pakkumuse väljaselgitamine
+
+    1.  Hindamiskriteeriumide alusel saadud väärtuspunktid liidetakse
+        kokku ja saadakse pakkumust iseloomustav väärtuspunktide summa.
+        Maksimaalne väärtuspunktide kogusumma on 100. Väärtuspunkte
+        omistatakse täpsusega kaks kohta pärast koma.
+
+    2.  Edukaks tunnistatakse pakkumus, mille väärtuspunktide summa on
+        suurim.
+
+    3.  Kui pakkumused koguvad võrdse arvu väärtuspunkte, siis osutub
+        edukaks kriteeriumi „Pakkumuse täiuslikkus“ eest enam punkte
+        saanud pakkumus.
+
+    4.  Juhul, kui ka pakkumuse täiuslikkuse punktid on võrdsed, siis
+        osutub edukaks kriteeriumi „Meeskonnaliikmete kogemus“ eest enam
+        punkte saanud pakkumus.
+
+    5.  Juhul, kui ka pärast kriteeriumi „Meeskonnaliikmete kogemus“
+        võrdlemist on endiselt mitu pakkumust võrdsed, siis korraldab
+        hankija eduka pakkumuse väljaselgitamiseks liisuheitmise,
+        võimaldades võrdselt väärtuspunkte saanud pakkumuse esitanud
+        pakkujatel liisuheitmise juures viibida, kas kohapeal või
+        videokonverentsi (nt MS Teams vms) vahendusel.
+
+    6.  Juhul, kui edukas pakkumus on saanud pakkumuse täiuslikkuse eest
+        vähem kui 15 punkti, siis on hankijal õigus pakkumust edukaks
+        mitte tunnistada ja hange kehtetuks tunnistada.
+
+[1] Hankija jätab endale õiguse kaasata hindamiskomisjoni töösse
+komisjoniväliseid eksperte. Eksperdid ei osale hindamisel, neil on
+nõuandev roll.

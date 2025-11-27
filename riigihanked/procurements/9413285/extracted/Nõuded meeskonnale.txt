@@ -1,0 +1,309 @@
+Nõuded pakkuja meeskonnale
+
+1.  Üldised nõuded meeskonnale
+
+    1.  Pakkuja peab raamlepingu täitmiseks komplekteerima meeskonna,
+        mis koosneb järgmistest rollidest (edaspidi ka kui spetsialistid
+        ja/või võtmeisikud):
+
+        1.  1 projektijuht;
+
+        2.  1 arhitekt;
+
+        3.  1 analüütik;
+
+        4.  3 arendajat;
+
+        5.  1 testija;
+
+        6.  1 kasutatavuse ekspert.
+
+    2.  Meeskonna esitamisega kinnitab pakkuja, et esitatud isikud
+        vastavates rollides hakkavad raamlepingu alusel töid teostama.
+        Hankijal ei ole kohustust tagada täiskoosseisus ja/või
+        täiskoormuses kõigi meeskonnaliikmete hõivatust, kuid pakkujal
+        peab olema valmidus pakkuda eelpool kirjeldatud koosseisus
+        meeskonda kogu raamlepingu kehtivusperioodil hankelepingu(te)
+        täitmiseks.
+
+    3.  Hankija ei ole kohustatud raamlepingu alusel tehtavate
+        tellimuste käigus kaasama kõiki küsitud rolle, see tähendab, et
+        pakkuja peab arvestama, et hankijal võib olla raamlepingu alusel
+        tellimuste käigus vajadus ka rollide arvu vähendada ja/või
+        suurendada.
+
+    4.  Ühte võtmeisiku rolli võib esitada mitu isikut järgmistel
+        juhtudel:
+
+        1.  Projektijuhi ja analüütiku või projektijuhi ja testija rolli
+            võib täita sama isik. Sellisel juhul peab esitatud isiku
+            kompetents vastama mõlema rolli nõuetele.
+
+        2.  Teisi rolle ei ole lubatud katta paralleelselt, mh ka juhul,
+            kui meeskonda on esitatud suurem kui p-des 1.1.1.-1.1.6.
+            nõutud spetsialistide koosseis.
+
+        3.  Hankija tunnistab pakkumuse mittevastavaks ja lükkab selle
+            tagasi juhul, kui meeskonnaliikmel paralleelselt on kaetud
+            teisi rolle ja/või juhul, kui projektijuht ja/või testija
+            ja/või analüütik katavad enam kui kahte rolli paralleelselt.
+
+    5.  Pakkuja peab tagama, et pakutud meeskond (punktides
+        1.1.1.-1.1.6. väljatoodud rollid) on võimeline kohe pärast
+        raamlepingu sõlmimist töödega alustama.
+
+    6.  Lisaks käesolevale dokumendile meeskonnaliikmeid puudutavad
+        sätted on loetletud raamlepingu p 13 „Meeskond“ all.
+
+2.  Meeskonnaliikmete CV vormile esitatavad nõuded
+
+    1.  Spetsialistide CV-d tuleb esitada vormil, mis on toodud eraldi
+        failina „CV vorm“.
+
+    2.  CV-d peavad olema esitatud eesti keeles.
+
+    3.  CV-dest peab selgelt nähtuma kõikide hankija seatud nõuete
+        täitmine, hankijal on õigus kontrollida nõuete täitmist esitatud
+        andmete alusel. Meeskond tunnistatakse vastavaks, kui kõik
+        esitatud nõuded, kompetentsid, platvormid ja/või töövahendid on
+        iga nõutud võtmeisiku osas CV-s kaetud.
+
+    4.  Kui esitatud CV-st ei selgu hankija seatud nõuete täimine, siis
+        on hankijal õigus lükata pakkumus tagasi. Hankijal on õigus CV-s
+        esitatud informatsiooni kontrollida ja täpsustada, kuid juhul,
+        kui mõnda nõutud kogemust ei ole CV-s esitatud, lähtub hankija
+        seisukohast, et pakkuja on vastava võtmeisiku kogemuse kohta
+        esitanud ammendavad andmed, see tähendab, et vastav kogemus
+        võtmeisikul puudub.
+
+    5.  Töökogemus eeldab, et tegemist peab olema tööandja heaks
+        töötamisega töösuhtes või tellija heaks töötamisega projektis.
+        Kui tingimuses ei ole nõutud töökogemust projektis, võib viidata
+        ka töökogemuse omandamisele töösuhtes. Täiendkoolituse või
+        koolitöö raames saadud kogemus ei ole arvesse võetav. Samuti ei
+        arvestata töökogemusena vabakutselisena tegutsemist, v.a kui
+        selle perioodi osas on viidatud konkreetsetele projektidele,
+        mille tellijaks on kolmas isik.
+
+    6.  Kui tingimuses on nõutud konkreetse kestusega töökogemust, siis
+        (ka osaliselt) kattuvaid perioode või samaaegsete projektide
+        kattuvaid aegu mitmekordselt ei arvestata, st sama ajaperioodi
+        eest ei ole võimalik omandada mitmekordset kogemust.
+
+    7.  Töökogemuse andmed tuleb esitada vähemalt kalendrikuude kestuse
+        alusel, näitamaks ära nõutud kogemusele vastav periood (nt
+        osalemine projektis X kestusega 01.2024-01.2025).
+
+    8.  Hankijal on õigus pöörduda tööandja/projekti/töö tellija poole
+        esitatud andmete kontrollimiseks.
+
+    9.  „Projekt“ või „Projektis töötamise kogemus“ peab olema teostatud
+        kolmanda isiku ehk pakkujatest eraldiseisva välise tellija jaoks
+        ning hankija ei käsitle selle dokumendi tähenduses „projektina“
+        tööandja enda tarbeks või majasisese tellimuse alusel teostatud
+        töid. Ka avalikus sektoris tehtud töid on võimalik projektis
+        töötamise kogemusena näidata, kui projektil on selgelt
+        tuvastatavad piirid ning pakkujast sõltumatu kontaktisik.
+        Selliseid töid aktsepteerib hankija töökogemusena, kui
+        tingimuses ei ole nõutud projektile viitamist.
+
+    10. Projektide andmete esitamisel tuleb iga projekti kohta esitada
+        vähemalt: projekti nimi ja lühikirjeldus, projekti töötundide
+        arv või töötundide arv, projekti algus- ja lõppaeg kalendrikuu
+        täpsusega, projekti tellija ning kontaktisik ja riigihanke
+        korral märkida riigihanke viitenumber.
+
+    11. Hankija ei aktsepteeri tingimuste täitmiseks
+        „konfidentsiaalseid“ projekte, mille osas pakkujal ei ole
+        võimalik esitada projekti andmeid tingimuses nõutu kohta ja
+        mille osas ei ole võimalik kolmandal isikul tellijana anda
+        kinnitust projekti nõuetekohase täitmise kohta. Juhul, kui on
+        tegemist konfidentsiaalsete projektidega, siis hankija märgib,
+        et pakkuja ei pea neid salastama hankija jaoks, sest hankija ei
+        avalda pakkumuses esitatud andmeid.
+
+    12. Spetsialistide puhul loetakse täidetuks lepingud, mis on
+        täielikult täidetud ja lepingu täitmise tähtaeg on saabunud ning
+        mille alt teostatud tööd on tellijale üle antud ja tellija poolt
+        vastu võetud. Kui lepingu või teenuse eripära võimaldab töid üle
+        anda ja vastu võtta etapiviisiliselt, loetakse täidetuks ka
+        sellised pakkumuste tähtpäeval kehtivad lepingud, mille alt on
+        teostatud, tellijale üle antud ja tellija poolt vastu võetud
+        töid mahus vastavalt rolli juures märgitud töötundide ulatuses
+        projekti kohta. Hankija arvestab ka raamlepinguid, kui nende
+        raamlepingute alt on töid teostatud ning tellijale üle antud ja
+        tellija poolt vastu võetud.
+
+    13. Hankija selgitab, et kui mõne rolli kogemusele on seatud nõue,
+        et see oleks teostatud konkreetse perioodi jooksul enne
+        riigihanke algust, siis vastav periood kehtib raamlepingu
+        kehtivusperioodil spetsialisti meeskonda liitmisele ajahetkele
+        eelnevalt.
+
+    14. Kui see on objektiivselt võimalik, tuleb lugeda tingimusi
+        täiendatuks märkega "või samaväärne". Samaväärsuse tõendamise
+        kohustus lasub pakkujal, kes sellele tugineda soovib. Tõendid
+        samaväärsuse kohta peavad olema esitatud pakkumuse koosseisus.
+
+3.  Meeskonna nõuded
+
+    1.  Projektijuht:
+
+        1.  Peab omama vähemalt 24-kuulist töökogemust tarkvara arenduse
+            projektijuhina.
+
+        2.  Peab olema riigihankele algamisele eelneva 60 kuu jooksul
+            osalenud projektijuhina vähemalt ühes infosüsteemi loomise
+            ja/või modifitseerimise projektis, mille töömaht on vähemalt
+            2000 töötundi projekti kohta ning projektijuhi rollis samas
+            projektis on teostanud töid vähemalt 100 töötunni ulatuses.
+
+    2.  Analüütik:
+
+        1.  Peab omama vähemalt 36-kuulist töökogemust
+            süsteemianalüütikuna.
+
+        2.  Peab olema riigihanke algamisele eelneva 60 kuu jooksul
+            osalenud analüütikuna vähemalt kahes infosüsteemi loomise
+            ja/või modifitseerimise projektis, kus:
+
+(a) kahe esitatud projekti raames peab olema realiseeritud
+    funktsionaalsus, mõlemad esitatud projektid peavad vastama punktides
+    3.2.2.1-3.2.2.3. toodud tingimustele ning
+
+(b) millest ühe projekti töömaht on vähemalt 3500 töötundi projekti
+    kohta ja samas projektis on teostanud töid vähemalt 300 töötunni
+    ulatuses.
+
+  Funktsionaalsuse tingimused:
+
+1.  erinevatel kasutajarollidel põhinev kasutajaliides ja päringute
+      süsteem;
+
+2.  elektroonilise sõnumi moodustamine ja saatmine;
+
+3.  elektroonilise sõnumi vastuvõtmine, valideerimine ja salvestamine.
+
+1.  Arendaja:
+
+    1.  Peab omama vähemalt 36-kuulist programmeerimise töökogemust.
+
+    2.  Peab olema riigihanke algamisele eelneva 60 kuu jooksul osalenud
+        arendajana vähemalt kahes infosüsteemi loomise ja/või
+        modifitseerimise projektis, kus neist vähemalt ühes projektis:
+
+(a) töömaht peab olema vähemalt 3500 töötundi projekti kohta ning
+    arendaja rollis samas projektis on teostanud töid vähemalt 500
+    töötunni ulatuses, ning
+
+(b) mis on arendatud hankija poolt toetatud platvormil (Java ja/või
+    NestJS), kasutab relatsioonilist andmebaasi ja mis töötab
+    kõrgkäideldavas režiimis (klasterdatuna).
+
+    1.  Peab olema kogemusi vähemalt järgmiste
+        tehnoloogiate/platvormidega:
+
+        1.  Java,
+
+        2.  Angular,
+
+        3.  JavaScript,
+
+        4.  PostgreSQL,
+
+        5.  NPM,
+
+        6.  Jenkins (vms CI rakendus).
+
+    2.  Peab olema X-tee liidestuse ja/või teenuste arendamise
+        töökogemus.
+
+    3.  Peab olema kogemus publitseerida tarkvara avalikesse
+        koodihoidlatesse.
+
+    4.  Peab olema töökogemus turvanõrkuste haldamisel ehk nõrkuste
+        otsingul, tuvastamisel, parandamisel, testimisel ja
+        vähendamisel.
+
+    1.  Arhitekt
+
+        1.  Arhitektil peab olema:
+
+(a) vähemalt 60-kuuline töökogemus infosüsteemi arhitektina VÕI
+
+(b) vähemalt 24-kuuline töökogemus vanemarendajana JA vähemalt
+    36-kuuline töökogemus infosüsteemi arhitektina.
+
+    1.  Peab olema riigihanke algamisele eelneva 60 kuu jooksul osalenud
+        arhitektina vähemalt kahe infosüsteemi loomise ja/või
+        modifitseerimise projektis, kus:
+
+(a) kahe esitatud projekti raames peab olema realiseeritud
+    funktsionaalsus, mõlemad esitatud projektid peavad vastama punktides
+    3.4.2.1-3.4.2.3. toodud tingimustele ning
+
+(c) kus neist vähemalt ühes projektis töömaht on vähemalt 4500 töötundi
+    projekti kohta, mis on arendatud hankija poolt toetatud platvormil
+    (Java ja/või NestJS), kasutab relatsioonilist andmebaasi ja mis
+    töötab kõrgkäideldavas režiimis (klastris) ning arhitekti rollis
+    samas projektis on teostanud töid vähemalt 500 töötunni ulatuses.
+
+  Funktsionaalsuse tingimused:
+
+1.  X-tee teenuste kasutamine ja loomine;
+
+2.  mikroteenustel baseeruva arhitektuuri kasutamine, masinliideste
+      loomine.
+
+3.  Tara ja/või GovSSOga liidestamine.
+
+1.  Peab olema kogemusi vähemalt järgmiste tehnoloogiate/platvormidega:
+
+    1.  Docker,
+
+    2.  Kubernetes,
+
+    3.  Hazelcast või Ignite.
+
+2.  Peab olema töökogemus turvanõrkuste haldamisel ehk nõrkuste
+    otsingul, tuvastamisel, parandamisel, testimisel ja vähendamisel.
+
+1.  Testija:
+
+    1.  Peab omama vähemalt 24-kuulist töökogemust infosüsteemi
+        testijana.
+
+    2.  Peab olema riigihanke algamisele eelneva 60 kuu jooksul osalenud
+        testijana vähemalt kahe infosüsteemi loomise ja/või
+        modifitseerimise projektis, kus neist vähemalt ühe projekti
+        töömaht on 2000 töötundi projekti kohta ning testija rollis
+        samas projektis on teostanud töid vähemalt 200 töötunni
+        ulatuses.
+
+    3.  Peab olema töökogemus baastasemel turvanõrkuste tuvastamisel ja
+        testimisel ehk turvatestimise järgsete leidude paranduste
+        testimisel.
+
+2.  Kasutatavuse ekspert:
+
+    1.  Peab omama vähemalt 24-kuulist töökogemust infosüsteemi
+        kasutatavuse eksperdina.
+
+    2.  Peab olema riigihanke algamisele eelneva 60 kuu jooksul osalenud
+        kasutatavuse eksperdina vähemalt ühe infosüsteemi loomise ja/või
+        modifitseerimise projektis, mille töömaht on vähemalt 2000
+        töötundi projekti kohta ning kasutatavuse eksperdi rollis samas
+        projektis on teostanud töid vähemalt 100 töötunni ulatuses.
+
+3.  Arendajatel ja arhitektil peab kokku olema ühine kogemus järgmiste
+    tehnoloogiatega (CV–s märkida, kes meeskonna liikmetest omab
+    nimetatud kompetentsi. Kõik tehnoloogiad/platvormid peavad olema
+    kaetud):
+
+    1.  React;
+
+    2.  Python;
+
+    3.  Maven;
+
+    4.  Gradle.

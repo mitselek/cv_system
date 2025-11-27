@@ -1,0 +1,202 @@
+PROOVITÖÖ
+
+1. Proovitöö lühikirjeldus ja proovitöö algandmed
+
+Esitatud proovitöö algandmed – hankelepingu maksumus, ajakava, teostuse
+kavand jms – on näidis (ehk reaalsusega lähedane simuleeritud olukord).
+Pakkumusega esitatav proovitöö peab seejuures kajastama lahendust nii,
+nagu see oleks teostatav reaalses olukorras, ning hankija hindab
+proovitöö teostatavust lähtudes tõepärasest elluviimise raamistikust.
+
+Pakkuja peab esitama proovitöö hankelepingu täitmiseks ajakava ja
+teostuse kavandi Andmete teabevärava (ATV) ja RIHAKEse jätkuarendusteks.
+Proovitöö hankelepingu maksumuseks on 600 000 eurot ilma käibemaksuta.
+
+Andmete teabevärav on avalik keskkond, mis annab ülevaate riigis
+hallatavatest andmetest.
+
+RIHAKE on asutusesisene andmehalduse tööriist, kus asutus kirjeldab oma
+andmestikud ja seotud objektid ning edastab kirjeldused API kaudu
+Andmete teabeväravasse. Igal asutusel on üks RIHAKE ja kõik RIHAKEsed
+saadavad avalikustamiseks mõeldud kirjeldused Andmete teabeväravasse.
+
+Ehk iga asutus saab oma asutusesiseses RIHAKEses ülevaate oma asutuse
+andmetest ning kui asutused edastavad RIHAKEsest kirjeldused keskele
+kokku avalikku keskkonda ATV, siis saab ATVst ülevaate üle asutuste, st
+kogu riigis.
+
+[]
+
+Lisainfot leiab https://abi.ria.ee/.
+
+Proovitöö peab andma selge ülevaate, muu hulgas projektimeeskonnast,
+tööde jaotusest rollide ja projektide vahel, tööde ajahinnangust ja
+maksumusest, riskide maandamise meetmetest, kasutatavatest vahenditest
+ja tegevustest, mis tagavad kvaliteedi, turvalisuse ja töökindluse ja
+muudest tegevustest, mida pakkuja kavatseb rakendada kvaliteetsete
+jätkuarenduste saavutamiseks.
+
+Jätkuarenduste eesmärgiks on luua uusi komponente (sh eelanalüüs),
+täiendada/muuta olemasolevaid funktsionaalsusi, mille vajadus tuleneb
+seadusandlusest, klientide ootustest ning mis parandavad kasutatavust.
+
+2. Proovitöö ülesanne
+
+Koostada ATV ja andmehalduse rakenduse RIHAKE jätkuarenduste kohta
+ajakava (võib projektide kohta eraldi olla) ja lühike teostuse kavand,
+mis arvestavad alltoodud arendusvajadustega (osaline tööde nimekiri,
+mida raamlepingu raames teostatakse, kuid raamlepingu täitmiseks ei
+kasutata esitatud ajakava ja teostuse kavandit).
+
+Arendusvajadused on toodud prioriteetsuse järjekorras ning iga vajaduse
+all on selgitavad punktid nende paremaks mõistmiseks:
+
+1.  ATV: Teenuste loomine ATVst kirjelduste pärimiseks;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   organisatsiooni üksiku vara pärimise võimaldamine (6 otspunkti,
+        loetletud järgnevas punktis 2.2);
+
+    -   abiks olemasolev API dokumentatsioon:
+        https://andmed.eesti.ee/api/dataset-docs#/
+
+2.  RIHAKE: ATVst kirjelduste pärimine;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   käsitsi organisatsiooni üksiku vara (ID abil) pärimine ja
+        olemasolevate vormide eeltäitmine saadud andmetega;
+
+        -   andmestiku kirjelduse päring,
+
+        -   levituse kirjelduse päring,
+
+        -   andmeteenuse kirjelduse päring,
+
+        -   sarja kirjelduse päring,
+
+        -   andmesõnastiku kirjelduse päring,
+
+        -   ärisõnastiku kirjelduse päring.
+
+3.  ATV: Otsingu täiendused;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   kasutaja saab valida, kui laialt andmestike otsingu sõne
+        rakendub, st lisaks pealkirjale kuvatakse otsingutulemusi läbi:
+
+        -   andmestiku teiste kirjeldusväärtuste;
+
+        -   andmestikuga seotud objektide kirjelduste;
+
+    -   abiks andmestike nimekiri: https://andmed.eesti.ee/datasets;
+
+4.  ATV: Põhiandmete ja isikuandmete märgete salvestamine ja kuvamine;
+
+    -   täiendada APIt (Mirroring Jobs) siltide vastuvõtmiseks ja
+        salvestamiseks;
+
+    -   täiendada termini ja andmeelemendi detailvaateid siltidega,
+        võimaldada andmestike nimekirjas otsida andmestikke läbi seotud
+        andmeelemendi/termini siltide;
+
+    -   abiks olemasolev API dokumentatsioon:
+        https://andmed.eesti.ee/api/dataset-docs#/ ;
+
+5.  RIHAKE: Põhiandmete ja isikuandmete märgendamine;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   lisada andmesõnastiku terminile siltide (nt silt „Põhiandmed“)
+        lisamise võimalus sarnaselt nagu on teostatud andmeelemendile
+        siltide lisamine;
+
+    -   kui termin ja andmeelement on omavahel seotud, peavad olema
+        nende sildid süngis (ehk kui muuta andmeelemendi silte, siis
+        muudatus kajastub ka seotud terminil ja vastupidi);
+
+    -   täiendada ATVsse saadetavat sõnumit (json) siltide edastamiseks;
+
+        -   sõnumisse lisatakse vaid põhiandmed ja/või isikuandmed
+            silte, teised sildid jäävad saadetavast sõnumist välja;
+
+6.  ATV: Andmestike sarja haldamine UI kaudu;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   lisada sarja haldamise võimalus ainult organisatsiooni esindaja
+        rollile;
+
+    -   lisada uus sarja kirjeldusvorm (11 kirjelduselementi);
+
+    -   lisada andmestike lisamise võimalus sarja;
+
+    -   lisada võimalus andmestike järjekorda sarjas muuta;
+
+    -   abiks Andmekirjelduse standard v 3.0 ptk „2.4 Andmestike sarja
+        kirjeldus“;
+
+    -   märkus: API kaudu haldamine teostatud;
+
+7.  RIHAKE: Dashboardi loomine;
+
+    -   arendus (analüüs ja prototüüp on teostatud);
+
+    -   eemaldada avalehelt olemasolev ja asendada dashboardiga:
+
+        -   kuvada andmestike, levituste, teenuste, sarjade ja sõnastike
+            arvu;
+
+            -   ikoon , nimetus, arv;
+
+        -   kuvada statistikat vastavalt määratud staatustele
+            graafiliselt;
+
+            -   andmestike kirjeldus (kirjeldatud ainult kohustuslikud
+                väljad vs kogu kirjeldus, pie chart);
+
+            -   andmestike andmekvaliteet (staatusega hea vs keskmine vs
+                halb, pie chart);
+
+8.  RIHAKE: Kasutaja töölaua loomine;
+
+    -   arendus (analüüs ja prototüüp on teostatud);
+
+    -   luua uus leht: vahelehtedega töölaud:
+
+        -   kuvada sisselogitud kasutaja poolt viimati teostatud
+            tegevusi;
+
+        -   kuvada kõikide kasutajate toimingute (lisamine, muutmine,
+            kustutamine) logi kuni kolm kuud;
+
+            -   lisaks otsing;
+
+        -   kuvada kõikide kasutajate ATVsse saatmise logi kuni kolm
+            kuud;
+
+            -   lisaks otsing.
+
+9.  Jooksvad täiendustööd;
+
+    -   analüüs, arendus, dokumentatsioon;
+
+    -   seadusandlusest, standarditest tulenevad lisatööd;
+
+    -   kasutajate jooksva tagasiside põhjal tehtavad uued arendused,
+        parendused ja veaparandused;
+
+    -   UI/UX täiendustööd kasutusmugavuse tõstmiseks.
+
+Proovitöös peab pakkuja kirjeldama:
+
+-   Teostuse kavandi;
+
+-   ajakava.
+
+PROOVITÖÖ HINDAMISE METOODIKA
+
+Proovitöö hindamiskriteeriumid on toodud riigihanke alusdokumendis
+„Hindamismetoodika“.

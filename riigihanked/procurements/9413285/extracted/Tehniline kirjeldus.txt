@@ -1,0 +1,191 @@
+Tehniline kirjeldus
+
+1.  Taustainfo
+
+Hanke objektiks on Andmete teabevärav (edaspidi ATV) (täna toodangus)
+oma komponentidega ja andmehalduse rakendus RIHAKE (täna toodangus) oma
+komponentidega (edaspidi teenused).
+
+Hanke eesmärk on ATV ja RIHAKEse uute loodavate komponentide ja
+täiendustööde eelanalüüs, konsultatsioon, arendustööde teostamine
+rakenduse uute funktsionaalsuste loomiseks ja liidestuste tegemiseks,
+olemasolevate funktsionaalsuste täiendamiseks vastavalt kasutajate
+vajadustele, olemasolevate funktsionaalsuste parendamiseks ning
+rakenduse jätkusuutlikkuse tagamiseks. Hanke tulemusena teostatud tööd
+sisaldavad tarkvara koodi, dokumentatsiooni ja juhendmaterjali
+kaasajastamist, testimist ja nõustamist.
+
+Andmete teabevärav
+
+Andmete teabevärava eesmärk on anda igaühele terviklik ülevaade riigi
+käes olevatest andmetest ja võimalustest nende taaskasutamiseks.
+
+Andmete teabeväravas avalikustatakse asutuste infosüsteemides,
+andmehalduse platvormidel ja RIHAKEstes loodud kirjeldused ning andmete
+taaskasutajad jõuavad teabevärava kaudu kiiresti ja efektiivselt
+reaalsete, asutuses hallatavate, andmeteni.
+
+Avaandmete teabevärav on leitav aadressilt: https://avaandmed.eesti.ee/.
+
+Teabevärava avalik kood on leitav Koodivaramust:
+https://koodivaramu.eesti.ee/andmete-teabevarav, mille kaks alagruppi on
+avalikkusele turvalisuse huvides suletud.
+
+RIHAKE
+
+RIHAKE on asutusse paigaldatav andmehalduse rakendus, mille eesmärk on
+võimaldada andmekirjelduse standardi kohaselt kirjeldada asutuse
+andmestikke, kirjeldada andmestikes kasutatavaid klassifikaatoreid ja
+loendeid, koostada andme- ja ärisõnastikke ning edastada andmekirjeldusi
+teistesse süsteemidesse. RIHAKE toetab andmete haldamist asutuses ja
+võimaldab seeläbi parandada andmete taaskasutust ja leitavust.
+
+RIHAKEst kasutav asutus loob RIHAKEses andmestiku standardikohase üldise
+kirjelduse, skaneerib relatsioonilise andmebaasina hallatava andmestiku
+füüsilist mudelit, seeläbi tuvastatakse tabelite ja veergude
+(andmeväljade) olemasolevad metaandmed ning rikastakse neid sisulise
+tähendusega ehk seotakse asutuses kasutatavate mõistetega. Andmehalduse
+süsteemides ja RIHAKEstes loodud kirjeldused avalikustatakse Andmete
+teabeväravas ning andmete taaskasutajad jõuavad teabevärava kaudu
+kiiresti ja efektiivselt reaalsete ja asutuses hallatavate andmeteni.
+
+RIHAKE koosneb:
+
+  1. rihake-fe on Angular raamistikus kasutajaliides. Kasutajaliidese
+  failide serveerimiseks kasutatakse Ngnix serverit.
+
+  2. rihake-be on RIHAKE Java Spring rakendus.
+
+  3. rihake-sso on Keycloak põhine sso autentimisserver. Keycloak
+  serveri vahendusel teostatakse kasutajate autentimist TARA kaudu.
+
+  4. rihake-pgha on Postgre Patroni klaster kus paiknevad erinevad
+  andmebaasid. Andmebaasid on isoleeritud, baasi tasemel omavahelist
+  suhtlemist ei toimu.
+
+2.  Tööde eesmärk
+
+    1.  Tööde sisuks on Andmete teabevärava ja RIHAKEse jätkuarenduste
+        analüüs ning analüüsi tulemusel (sh nii pakkuja, hankija kui ka
+        muu osapoole teostatud analüüsi tulemusel) selgunud
+        arendusvajaduste teostamine. Tööde hulka kuuluvad ka
+        suuremahulised arendused, mis eeldavad eelnevat analüüsi.
+
+    2.  Arendustööd sisaldavad eelanalüüsi, tarkvara koodi muudatusi,
+        dokumentatsiooni ja juhendmaterjali kaasajastamist, testimist ja
+        nõustamist.
+
+    3.  Arendustööde mõiste hõlmab tellija otseste juhiste alusel raam-
+        ja hankelepingu täitmist (nn töötundide ostmine).
+
+    4.  Arendustööde sisu võib tuleneda näiteks:
+
+        1.  keskkonna muudatustest (veebilehitsejate,
+            operatsioonisüsteemide jne uuendustest);
+
+        2.  tellija soovist muuta eelnevalt realiseeritud
+            funktsionaalsust;
+
+        3.  tellija soovist võtta kasutusele uut funktsionaalsust;
+
+        4.  vajadusest parandada ilmnenud vigu.
+
+    5.  Töid osutatakse ulatuses, mis on vajalik teenuste normaalseks
+        funktsioneerimiseks.
+
+    6.  Arendustööde tegemise käigus kohustub täitja:
+
+        1.  parandama teenuses tuvastatud vead ning taastama tarkvara
+            töövõime vastavalt kokkulepitud tähtaegadele.
+
+        2.  uuendama või asendama teenuse dokumentatsiooni;
+
+        3.  turvavea leidmisel või turvaveast teada saamisel
+            informeerima tellijat koheselt veast;
+
+        4.  välja töötama ja väljastama süsteemis leitud turvavigu
+            kõrvaldavaid turvaparandusi.
+
+    7.  Olenevalt tööde iseloomust võivad üleantavad tulemid olla
+        näiteks:
+
+        1.  eelnevalt realiseeritud tarkvara funktsionaalsuse muudatused
+            või parandused vastavalt tellija soovile;
+
+        2.  uute funktsionaalsuste või komponentide lisamine ja
+            konsultatsioon vastavalt tellija soovile;
+
+        3.  olemasolevate rakenduste vigade, mis on tekkinud uute
+            funktsionaalsuste lisamisega, parandused.
+
+    8.  Iga tulemiga antakse üle ka uuendatud dokumentatsioon (RIA
+        Confluence´is, kui ei ole eelnevalt kokku lepitud teisiti).
+
+3.  Nõuded töökorraldusele
+
+    1.  Tellijal on õigus koostöös täitjaga täpsustada ja/või
+        korrigeerida hankega tellitavate tööde skoopi juhul kui tööde
+        käigus selgub selleks põhjendatud vajadus. Tööde täpsem skoop ja
+        prioriseerimine lepitakse kokku tellija esindajaga regulaarselt
+        toimuvatel kohtumistel ja toimub veahaldussüsteemis Jira.
+
+    2.  Tööde tellimused, nende eeldatav maht ning teostamise aeg
+        lepitakse kokku asjakohase veahaldussüsteemi kande juures. Kui
+        hinnanguline töömaht suureneb, tuleb see tellijaga
+        kooskõlastada.
+
+    3.  Tellija varustab täitjat kasutuslugude kirjelduste sisendiga
+        ning tööde teostamiseks vajaliku igakülgse informatsiooniga.
+
+    4.  Tööde teostamise perioodil (nt sprint) toimub igal nädalal
+        eelmise nädala kokkuvõtte ja uue nädala planeerimise
+        kiirkoosolek (võib kasutada kaugtöövahendeid, nt MS Teams).
+
+    5.  Arenduste käigus tuleb arvestada RIA teenuste arendamise
+        põhimõtetega, mis tehakse täitjale avalikuks lepingu täitmise
+        käigus.
+
+    6.  Täitja peab töö planeerimisel ja teostamisel arvestama ning
+        tegema konstruktiivset koostööd tellija teiste koostöö- ja
+        arenduspartneritega.
+
+    7.  Täitja annab tellijale kohe teada tööde teostamisel vajaliku
+        info puudumisest, tööülesannete lõppemisest, tekkinud tõrgetest
+        jms. Viivituse ajal, mil tellija täpsustab infot, lahendab
+        tõrget vms, teostab täitja neid tööülesandeid, milles on vajalik
+        info olemas ja pole tõrkeid.
+
+    8.  Täitja osaleb projekti tulemite (nt RIA koostööpartnerite
+        infopäev, arhitektuuripaneel vms projektiga seotud tulemid)
+        esitlustel.
+
+    9.  Kõik tööde (vahe)tulemused hoitakse git lahenduse baasil ning
+        tulemused on avalikustatud.
+
+    10. Kokkuleppel täitjaga võib tellija (või tema poolt volitatud
+        isikud) teha lähtekoodi muudatusi.
+
+    11. Tööde täitja kasutab arendamiseks ja testimiseks täitja enda
+        keskonda enne koodi tellija sidusarenduse keskkonda
+        paigaldamist.
+
+    12. Tööde täitja kasutab tellija sidusarenduse keskkonda rakenduse
+        paigaldamiseks ja täiendavaks testimiseks ning vajadusel tekitab
+        automaatteste. Tellija sidusarenduse keskkonnaks on Jenkins.
+
+    13. Tööde täitja tagab koodi ülevaatuse (code review) tiimisiseselt.
+
+    14. Tarkvara tarnimine, ülespanek, seadistamine ja testimine toimub
+        tellija sidusarenduse keskkonnas, võttes aluseks ja näidiseks
+        olemasolevad projekti seadistused.
+
+    15. Töötundide osas toimub igapäevane raporteerimine tellija JIRAs
+        tööülesannete ja meeskonnaliikme täpsusega.
+
+    16. Projekti dokumentatsioon on RIA Confluence’is. Osaliselt, nt
+        lõppkasutaja dokumentatsiooni puhul, võidakse selle
+        alternatiivsesse asukohta dubleerimise osas kokku leppida tööde
+        käigus.
+
+    17. Töid teostatakse tihedas koostöös tellijaga ja tööde vahetulemid
+        kooskõlastatakse tellijaga.

@@ -1,0 +1,203 @@
+Avatud hankemenetlus – lisateave pakkujatele
+
+1.  Riigihanke ese ja üldine informatsioon
+
+    1.  Riigi Infosüsteemi Amet (edaspidi hankija) teeb huvitatud
+          ettevõtjatele ettepaneku esitada pakkumus avatud
+          hankemenetlusega läbiviidavale riigihankele vastavalt
+          riigihanke alusdokumentides sisalduvatele tingimustele.
+
+    2.  Riigihange korraldatakse kooskõlas riigihangete seaduse
+          (edaspidi ka RHS) ning riigihanke alusdokumentides sätestatud
+          tingimustega.
+
+    3.  Hankija avab pakkumused RHAD-s ettenähtud ajal.
+
+    4.  Hankija teavitab tehtud otsustest vastavalt RHS §-le 47.
+
+2.  Riigihanke osadeks jagamine
+
+    1.  Hankija ei jaga riigihanget osadeks ja sõlmib teenuse
+          osutamiseks raamlepingu ühe pakkujaga. Teenuse osutamine ühe
+          pakkuja poolt tagab hankija rahaliste vahendite otstarbeka ja
+          säästliku kasutamise, muu hulgas läbi töödesse sisse elamiseks
+          või sellega tutvumiseks kuluva tööaja vähendamise. Hankija
+          soovib sõlmida raamlepingu tervikteenust pakkuva ettevõttega,
+          kes teostab ATVsse ja RIHAKEsse uute loodavate komponentide ja
+          täiendustööde eelanalüüsi, konsultatsiooni ja arendustöid
+          rakenduse uute funktsionaalsuste loomiseks ja liidestuste
+          tegemiseks, olemasolevate funktsionaalsuste täiendamiseks
+          vastavalt kasutajate vajadustele, olemasolevate
+          funktsionaalsuste parendamiseks ning rakenduse
+          jätkusuutlikkuse tagamiseks. Tööde skoop võib vahel muutuda
+          vastavalt tööülesannete käigus täpsustunud vajadustele
+          kasutatud tehnoloogiatest tulenevatest muutustest,
+          muudatustele liidestatud süsteemides, muudatustele
+          seadusandluses ning kokkuleppel hankijaga. Seetõttu ka
+          käesoleva lepingu eesmärgi saavutamiseks vajalik töökorraldus
+          (vt riigihanke alusdokumendi „Tehnilise kirjelduse“ p 3) ei
+          võimalda jagada riigihanget osadeks ja/või sõlmida
+          raamlepingut mitme pakkujaga.
+
+3.  Olelusringikulude arvutamine
+
+    1.  Hankija ei arvesta majanduslikult soodsaima pakkumuse
+          väljaselgitamisel olelusringi kulusid, sest riigihanke eesmärk
+          on ATV ja RIHAKEse uute loodavate komponentide ja
+          täiendustööde eelanalüüs, konsultatsioon ja arendustööde
+          teostamise rakenduste uute funktsionaalsuste loomiseks ja
+          liidestuste tegemiseks, olemasolevate funktsionaalsuste
+          täiendamiseks vastavalt kasutajate vajadustele, olemasolevate
+          funktsionaalsuste parendamiseks ning rakenduse
+          jätkusuutlikkuse tagamiseks raamlepingu alusel hankija
+          olemasolevatele lahendustele, lähtuvalt hankija vajadustest
+          ning võimalustest. Seetõttu ei ole võimalik tehtavaid ega
+          kasutamisjärgseid kulusid määratleda ega hinnata.
+
+4.  Ühispakkumuste esitamine ja teise ettevõtja vahenditele tuginemine
+
+    1.  Hankepassi esitamine on kohustuslik kõigile pakkujatele, kaasa
+        arvatud ühispakkujad ja/või alltöövõtjad, kelle majandus-ja/või
+        finantsnäitajatele ja/või tehnilisele ja kutsealasele pädevusele
+        tuginetakse. Samuti tuleb hankepass esitada välismaa äriühingu
+        kohta, kelle nimel esitab pakkumuse filiaal.
+
+    2.  Kui pakkuja soovib tõendada oma vastavust majanduslikule ja
+        finantsseisundile ja/või tehnilisele ja kutsealasele pädevusele
+        esitatud nõuetele teise ettevõtja vahendite alusel, esitab
+        pakkuja ja teine ettevõtja pakkumuses kinnituse, et nad
+        vastutavad solidaarselt lepingu selle osa täitmise eest, mille
+        suhtes teise ettevõtja vahenditele tugineti.
+
+    3.  Ühispakkujad nimetavad riigihankega ning lepingu sõlmimise ja
+        täitmisega seotud toimingute tegemiseks endi seast volitatud
+        esindaja, lisades pakkumusele volikirja.
+
+5.  Pakkumus
+
+    1.  Pakkumus peab vastama RHAD-s sätestatud tingimustele, sisaldama
+        nõutud dokumente ning olema vormistatud nõuetekohaselt, sh
+        lähtutakse riigihanke alusdokumentide koosseisus esitatud
+        vormidest. Pakkumuses esitatud andmed peavad olema esitatud
+        mahus ja viisil, mis võimaldavad hankijal kontrollida nende
+        vastavust riigihanke alusdokumentides toodud tingimustele.
+
+    2.  Kui pakkumuse esitab välismaa äriühingu nimel filiaal, siis on
+        hankepassi esitamine kohustuslik ka selle välismaa äriühingu
+        jaoks. Kui hankepass on esitamata, nii filiaalil kui ka
+        pakkujaks oleval välismaa äriühingul, siis kõrvaldab hankija
+        selle pakkuja hankemenetlusest.
+
+    3.  Kui pakkuja esitab pakkumuste esitamise tähtaja jooksul uue
+        pakkumuse, ei muutu tema eelnevalt esitatud pakkumus seetõttu
+        kehtetuks. Pakkuja võib pakkumuse enne pakkumuste esitamise
+        tähtpäeva tagasi võtta.
+
+6.  Kõrvaldamise aluste ja kvalifikatsiooni kontrollimine
+
+    1.  Hankijal on õigus nõuda pakkujalt dokumentide esitamist, mis
+        võimaldavad kontrollida RHS § 95 lg 1 p 5 sätestatud
+        kõrvaldamise aluste puudumist. Kuna puudub andmebaas, kust oleks
+        Eesti hankijal võimalik kontrollida Vene Föderatsiooni kodanikke
+        või seal asutatud ettevõtjaid nimeliselt on hankijal õigus nõuda
+        kõrvaldamise aluste kontrolli ajal pakkujalt järgmiste tõendite
+        esitamist:
+
+        1.  kui tegemist on füüsilise isikuga, isikut tõendava dokumendi
+              koopia, millelt nähtub isiku kodakondsus;
+
+        2.  kui tegemist on juriidilise isikuga, väljavõte või tõend
+              tema asukohamaa äriregistrist või muult pädevalt
+              asutuselt.
+
+7.  Kõikide pakkumuste tagasilükkamine ja hankemenetluse kehtetuks
+    tunnistamine
+
+    1.  Hankijal on õigus tagasi lükata kõik pakkumused igal ajal enne
+        lepingu sõlmimist, juhul kui:
+
+        1.  aset on leidnud sündmus, mida saab pidada vääramatuks jõuks.
+              Vääramatu jõud on asjaolu, mida hankija ei saa mõjutada ja
+              mille puhul ei saa mõistlikkuse põhimõttest lähtuvalt
+              hankijalt eeldada, et ta riigihanke ajal selle asjaoluga
+              arvestaks või seda väldiks või takistava asjaolu või selle
+              tagajärje ületaks;
+
+        2.  nende pakkumuste maksumused ületavad hankija eelarvet.
+
+    2.  Hankija võib põhjendatud vajaduse korral omal algatusel
+        hankemenetluse kehtetuks tunnistada. Põhjendatud vajaduseks võib
+        olla eelkõige, kuid mitte ainult:
+
+        1.  ei ole tagatud piisav konkurents (laekub kaks või vähem
+              pakkumust või vastavaks tunnistatakse ainult üks
+              pakkumus);
+
+        2.  kui tekib vajadus lepingu eset olulisel määral muuta;
+
+        3.  kui hankemenetluse läbiviimise aluseks olevad tingimused on
+              oluliselt muutunud ja seetõttu osutub lepingu sõlmimine
+              mittevajalikuks või võimatuks;
+
+        4.  kui hankemenetluses ilmnenud ebakõlasid ei ole võimalik
+              kõrvaldada ega hankemenetlust seetõttu ka õiguspäraselt
+              lõpule viia.
+
+    3.  Kui hankija on jaganud riigihanke ühe menetluse raames osadeks,
+        võib teha otsuse kõigi pakkumuste tagasilükkamise või kehtetuks
+        tunnistamise kohta iga osa suhtes eraldi.
+
+    4.  Kõigi pakkumuste tagasilükkamisel või hanke kehtetuks
+        tunnistamisel teeb hankija sellekohase põhjendatud otsuse.
+
+8.  Pakkumuste hindamine ja pakkumuse edukaks tunnistamine
+
+    1.  Hankija hindab vastavaks tunnistatud pakkumusi vastavalt RHAD-s
+        nimetatud pakkumuste hindamise kriteeriumitele.
+
+    2.  Edukaks tunnistatakse pakkumus vastavalt hindamismetoodikas
+        välja toodule.
+
+9.  Lepingu sõlmimine
+
+    1.  Hankija sõlmib raamlepingu ühe edukaks tunnistatud pakkujaga.
+        Lepingu projekt on toodud RHAD-s.
+
+    2.  Pakkuja kohustub talle edastatud lepingu allkirjastama ning
+        tagastama allkirjastatud lepingu hiljemalt 3 tööpäeva jooksul
+        lepingu edastamisest arvates.
+
+10. Muud sätted
+
+    1.  Riigihankes saavad osaleda ainult pakkujad, kelle elu- või
+        asukoht on RHS § 3 p-s 2 nimetatud riigis (Eesti, mõni muu
+        Euroopa Liidu liikmesriik, muu Euroopa Majanduspiirkonna
+        lepinguriik või Maailma Kaubandusorganisatsiooni
+        riigihankelepinguga ühinenud riik).
+
+    2.  Hankija ootus huvitatud isikutele on, et juhul, kui märgatakse,
+        siis teavitataks hankijat aegsasti riigihangete registri kaudu
+        RHAD-s avastatud vigadest, ebatäpsustest ja/või ebaselgustest
+        ja/või tehtaks ettepanekud juhul, kui huvitatud isikute
+        hinnangul on riigihanke eseme hankimiseks seatud
+        ebaproportsionaalsed või põhjendamatud piirangud. Seejärel on
+        hankijal võimalik vajadusel hinnata muudatuste vajadust ning
+        viia vajalikud muudatuse RHAD-sse enne pakkumuste esitamise
+        tähtaega.
+
+    3.  Info või kahtluse korral, et tööalase tegevusega on teatavaks
+        saanud tegevus või tegevusetus, mis on ebaseaduslik või
+        vastuolus õigusnormi eesmärgiga, seda eelkõige riigihanke
+        menetluse ja/või lepingu täitmisega seotud tegevustega, siis
+        sellest võivad teavitada kõik "Tööalasest Euroopa Liidu õiguse
+        rikkumisest teavitaja kaitse seaduse" § 3 lõikes 1 loetletud
+        isikud. Rikkumisest teavitamise eesmärgiks on rikkumise
+        kõrvaldamine võimalikult kiiresti ning vähese avalikkuse
+        tähelepanuga, seega tuleks esmajoones teavitada seda asutust või
+        ettevõtet, kus rikkumine aset leiab või on toimunud, või
+        rikkumise kõrvaldamiseks pädevat riigiasutust. Teavitajal on
+        võimalik valida, kas ta teavitab esmalt asutusesiseselt ning
+        seejärel vajadusel asutuseväliselt või kohe asutuseväliselt.
+        Üldsusele avalikustamisel kaitse saamise eelduseks on üldiselt
+        eelnev asutuseväline teavitamine. Rohkem infot:
+        https://www.ria.ee/amet-uudised-ja-kontakt/amet-ja-juhtkond/tooalasest-rikkumisest-teavitamine.

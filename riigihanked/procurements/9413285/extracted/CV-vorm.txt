@@ -1,0 +1,231 @@
+Hanke nimetus ja viitenumber: „Andmete teabevärava ja RIHAKEse
+arendustööd“ viitenumber 301262
+
+1.  Ees- ja perekonnanimi:
+
+2.  Spetsialisti roll (märkida „linnuke“ vastava rolli ette):
+
+☐ projektijuht
+
+☐ analüütik
+
+☐ arendaja
+
+☐ arhitekt
+
+☐ testija
+
+☐ kasutatavuse ekspert
+
+3.  Erialase töökogemuse pikkus kuudes:
+
+  Töökogemus …. kuud (märkida vastava spetsialisti töökogemuse pikkus
+  kuudes)
+
+lisakogemus …. kuud (märkida vastava spetsialisti lisakogemuse pikkus
+kuudes)
+
+Vastaval erialal nõutud minimaalne töökogemus:
+
+projektijuhil 24 kuud
+
+analüütikul 36 kuud
+
+arendajal 36 kuud
+
+arhitektil 60 kuud VÕI 24 kuud vanemarendajana ja 36 kuud arhitektina,
+lisakogemus arhitektina (lisakogemust loetakse alates 36-kuulisest
+kogemusest arhitekti rollis)
+
+testijal 24 kuud
+
+kasutatavuse eksperdil 24 kuud
+
+4. Töökogemus, mis kinnitab erialase tööstaaži piisavust:
+
+  --------------------------- -------------------------------------------
+  1. Ettevõtte nimi:          
+
+  Ajaperiood (alates-kuni,    kk.aaaa – kk.aaaa, kokku …kuud
+  kokku XXX kuud):            
+
+  Ametikoha nimi:             
+
+  Töö sisu lühikirjeldus:     
+
+                              
+
+  2. Ettevõtte nimi:          
+
+  Ajaperiood (alates-kuni,    kk.aaaa – kk.aaaa, kokku …kuud
+  kokku XXX kuud):            
+
+  Ametikoha nimi:             
+
+  Töö sisu lühikirjeldus:     
+  --------------------------- -------------------------------------------
+
+(lisada ridu vastavalt vajadusele)
+
+5.  Kogemus nõutud rollis
+
+Hankija palub alltoodud tabelit täites välja tuua vastavalt rollile
+seatud nõuded nii, et hankijal oleks võimalik kontrollida projekti
+nõudeid ja rolli töökogemust vastavalt riigihanke alusdokumendis „Nõuded
+meeskonnale“ sätestatule. NB! Keelatud on riigihanke alusdokumendi
+„Nõuded meeskonnale“ tingimuste üks ühele ümber kopeerimine. Kõik seatud
+tingimused peavad CV-s esitatud projektide info põhjal välja tulema.
+
++--------------------------------+-------------------------------------+
+| Projekt I                      |                                     |
++================================+=====================================+
+| 1. Projekti nimetus:           |                                     |
++--------------------------------+-------------------------------------+
+| RH viitenumber (olemasolul)    |                                     |
++--------------------------------+-------------------------------------+
+| Tellija info (sh kontaktisiku  |                                     |
+| ees- ja perenimi, e-post):     |                                     |
++--------------------------------+-------------------------------------+
+| Projekti toimumise aeg         | kk.aaaa – kk.aaaa                   |
+| (alates-kuni):                 |                                     |
++--------------------------------+-------------------------------------+
+| Täitjapoolne kogumaht          |                                     |
+| (töötundides):                 |                                     |
++--------------------------------+-------------------------------------+
+| Spetsialisti roll projektis:   | Nt projektijuht                     |
++--------------------------------+-------------------------------------+
+| Spetsialisti poolt tööde       | kk.aaaa – kk.aaaa                   |
+| teostamise aeg (alates-kuni):  |                                     |
+|                                | nt osalemine projektis X kestusega  |
+|                                | 01.2019-01.2021                     |
+|                                |                                     |
+|                                | (kui projekt on etapiviisiliselt    |
+|                                | üle antud, siis tuua see infona     |
+|                                | välja).                             |
+|                                |                                     |
+|                                | Märkida tuleb periood, millal       |
+|                                | rollitäitja projektis tööd          |
+|                                |                                     |
+|                                | Kui isik on olnud samas projektis   |
+|                                | nt projektijuht ja analüütik, siis  |
+|                                | palume tuua välja konkreetsele      |
+|                                | rollile seatud nõuded.              |
++--------------------------------+-------------------------------------+
+| Spetsialisti poolt teostatud   | 000 h. Kui isik oli projektis       |
+| tööde maht (töötundides):      | mitmes rollis, tuleb tuua tööde     |
+|                                | maht välja iga rolli kohta eraldi,  |
+|                                | näiteks Arendaja-arhitekt rolli     |
+|                                | puhul tuua välja „x h arhitektina,  |
+|                                | y h arendajana“                     |
++--------------------------------+-------------------------------------+
+| Projektis spetsialisti poolt   | Realiseeritud funktsionaalsused,    |
+| kasutatud                      | nõuded, tööd ja/või erinevad        |
+| tehnoloogiad/platvormid:       | tehnoloogiad/platvormid, mida       |
+|                                | rollitäitja projekti raames         |
+|                                | teostas/kasutas ning on seeläbi     |
+|                                | vastava kogemuse omandanud          |
++--------------------------------+-------------------------------------+
+| Projekti lühikirjeldus:        | Tuua välja vastavalt rollile seatud |
+|                                | nõuetele projekti / infosüsteemi    |
+|                                | enda kohta (näiteks „IS töötab      |
+|                                | klastris; elektroonilise sõnumi     |
+|                                | moodustamine ja saatmine“), millega |
+|                                | spetsialist projekti raames kokku   |
+|                                | puutus                              |
++--------------------------------+-------------------------------------+
+| Projekt II                     |                                     |
++--------------------------------+-------------------------------------+
+| 2. Projekti nimetus:           |                                     |
++--------------------------------+-------------------------------------+
+| RH viitenumber (olemasolul)    |                                     |
++--------------------------------+-------------------------------------+
+| Tellija info (sh kontaktisiku  |                                     |
+| ees- ja perenimi, e-post):     |                                     |
++--------------------------------+-------------------------------------+
+| Projekti toimumise aeg         | kk.aaaa – kk.aaaa                   |
+| (alates-kuni):                 |                                     |
++--------------------------------+-------------------------------------+
+| Täitjapoolne kogumaht          |                                     |
+| (töötundides):                 |                                     |
++--------------------------------+-------------------------------------+
+| Spetsialisti roll projektis:   | Nt projektijuht                     |
++--------------------------------+-------------------------------------+
+| Spetsialisti poolt tööde       | kk.aaaa – kk.aaaa                   |
+| teostamise aeg (alates-kuni):  |                                     |
+|                                | nt osalemine projektis X kestusega  |
+|                                | 01.2019-01.2021                     |
+|                                |                                     |
+|                                | (kui projekt on etapiviisiliselt    |
+|                                | üle antud, siis tuua see infona     |
+|                                | välja).                             |
+|                                |                                     |
+|                                | Märkida tuleb periood, millal       |
+|                                | rollitäitja projektis tööd          |
+|                                |                                     |
+|                                | Kui isik on olnud samas projektis   |
+|                                | nt projektijuht ja analüütik, siis  |
+|                                | palume tuua välja konkreetsele      |
+|                                | rollile seatud nõuded.              |
++--------------------------------+-------------------------------------+
+| Spetsialisti poolt teostatud   | 000 h. Kui isik oli projektis       |
+| tööde maht (töötundides):      | mitmes rollis, tuleb tuua tööde     |
+|                                | maht välja iga rolli kohta eraldi,  |
+|                                | näiteks Arendaja-arhitekt rolli     |
+|                                | puhul tuua välja „x h arhitektina,  |
+|                                | y h arendajana“                     |
++--------------------------------+-------------------------------------+
+| Projektis spetsialisti poolt   | Realiseeritud funktsionaalsused,    |
+| kasutatud                      | nõuded, tööd ja/või erinevad        |
+| tehnoloogiad/platvormid:       | tehnoloogiad/platvormid, mida       |
+|                                | rollitäitja projekti raames         |
+|                                | teostas/kasutas ning on seeläbi     |
+|                                | vastava kogemuse omandanud          |
++--------------------------------+-------------------------------------+
+| Projekti lühikirjeldus:        | Tuua välja vastavalt rollile seatud |
+|                                | nõuetele projekti / infosüsteemi    |
+|                                | enda kohta (näiteks „IS töötab      |
+|                                | klastris; elektroonilise sõnumi     |
+|                                | moodustamine ja saatmine“), millega |
+|                                | spetsialist projekti raames kokku   |
+|                                | puutus                              |
++--------------------------------+-------------------------------------+
+
+Võimalusel soovitame välja tuua rohkem kui RHADis „Nõuded meeskonnale“
+on küsitud juhuks, kui selgub, et mõni projekt ei vasta esitatud
+tingimustele, peale pakkumuste esitamist ei ole lubatud juurde esitada.
+
+(lisada ridu vastavalt vajadusele)
+
+Arhitekti ja arendajate ühine kogemus järgmiste tehnoloogiatega[1]
+(täita ainult arendajate ja arhitekti CV esitamisel:)
+
+☐ React
+
+☐ Python
+
+☐ Maven
+
+☐ Gradle
+
+(märkida „linnuke“ vastava tehnoloogia ette)
+
+Omandatud sertifikaadid: (täita vajadusel)
+
+Muu oluline informatsioon: (täita vajadusel)
+
+Käesolevaga kinnitab pakkuja, et spetsialist:
+
+1.  on andnud nõusoleku lepingu täitmisel osalemiseks;
+
+2.  käesolevas CV-s esitatud andmed on õiged ning vastavad tõele;
+
+3.  hankija võib kõiki tema kohta esitatud andmeid igal ajal
+    kontrollida;
+
+4.  valdab kõiki CV-s kirjeldatud tehnoloogiaid ja metoodikaid ning on
+    nõus neid järgima.
+
+Pakkuja kinnitus: Kinnitame, et käesolevas CV-s esitatud andmed on
+õiged: ☐ Jah ☐ Ei
+
+[1] Teiste spetsialistide CV esitamisel on lubatud see osa maha võtta.
