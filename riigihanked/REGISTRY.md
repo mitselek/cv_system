@@ -25,9 +25,10 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 4  
+**Total Assessed:** 5  
 **Analyzing:** 1  
 **Skip:** 3  
+**FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
 **Lost:** 0
@@ -40,6 +41,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 | 2025-11-27 | 9590504 | 303108    | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |
 | 2025-11-27 | 9582704 | -         | Andmelao arendusteenus             | Põhja-Eesti Regionaalhaigla | 2025-12-04 | Skip       | Market research, Snowflake expertise gap       |
 | 2025-11-27 | 9449264 | 301632    | Kliendiportaali ja puidumüügi keskkond | Riigimetsa Majandamise Keskus | 2025-12-30 | Skip    | ISO 27001 blocker, GIS tech gap, team assembly |
+| 2025-11-27 | 9534824 | 302531    | Pythoni baasil tarkvaraarendused   | KeMIT (Climate Ministry IT) | 2025-12-22 | FEASIBLE   | Python 9/10 MATCH, 70-80% win prob, DevOps gaps addressable |
 
 ## Notes
 

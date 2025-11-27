@@ -1,0 +1,167 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+302531
+Keskkonnaministeeriumi Infotehnoloogiakeskus (70009445)
+Pythoni baasil tarkvaraarendused
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+2. Pakkumus peab sisaldama kinnitust pakkumuse jõusoleku kohta vähemalt 90 päeva.
+(Raadionupp valikutega "Jah/Ei")
+3. Koos pakkumusega tuleb esitada dokumendis „Teostatud tööde ülevaade“ toodud tabel ning
+esitada mainitud dokumendis nõutud kinnitused. (Vabas vormis dokument)
+4. Pakkumus peab sisaldama pakkuja kinnitust hankelepingu ning tellimuse täitmiseks vajalike
+intellektuaalse omandi õiguste olemasolu kohta. (Raadionupp valikutega "Jah/Ei")
+5. Pakkumus peab sisaldama pakkuja kinnitust, et ta on tutvunud KeMIT tehnoloogilise
+profiiliga, mis on leitav lehelt https://kemit.ee/et/tehnoloogia ja on valmis teostama
+tarkvaraarendustöid seal loetletud tooteid ja tehnoloogiaid kasutades. (Raadionupp valikutega
+"Jah/Ei")
+6. Kui pakkumuse allkirjastab isik, kes ei ole pakkuja seadusjärgne esindaja, esitab pakkuja
+volikirja, mis sisaldab pakkuja seadusjärgse esindaja antud volitust pakkumuse allkirjastajal
+pakkumust allkirjastada. Kas pakkumuse allkirjastab pakkuja seadusjärgne esindaja?
+(Raadionupp valikutega "Jah/Ei")
+
+PAKKUMUSE MAKSUMUS
+Pakkumuse maksumus tuleb esitada töölehel "Hindamiskriteeriumid ja hinnatavad näitajad"
+toodud struktuuri kohaselt.
+Küsimused ettevõtjale:
+1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe "Hindamiskriteeriumid ja hinnatavad
+näitajad" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega "Jah/Ei")
+2. Pakkumus peab sisaldama ühe arendus-/hooldustöö töötunni maksumust. (Raadionupp
+valikutega "Jah/Ei")
+
+MEESKOND
+Pakkuja peab teenuse osutamiseks tagama järgneva meeskonna kogu raamlepingu tähtaja jooksul:
+9. Iga punktis 8 kirjeldatud rolli peab täitma erinev isik.
+10. Hankija kontrollib punktides 8.1 - 8.5 kirjeldatud meeskonna liikmete kvalifikatsiooni
+pakkumuses sisalduvatest CV-dest, mille pakkuja vormistab hanke alusdokumentide hulgas
+oleval CV vormil. CV peab olema allkirjastatud isiku poolt, kelle kohta CV esitatakse.
+11. Hankijal on õigus kontrollida punktis 8 esitatud tingimuste täitmist kogu hankelepingu
+kehtivuse vältel.
+Eesti keele nõude võib asendada tõlgiga Pakkuja kulul. Juhul kui mõne meeskonnaliikme puhul
+asendatakse eesti keele nõue tõlgiga, siis kasutatav tõlk peab valdama vähemalt B2 tasemel nii
+eesti keelt kui tõlgitavat keelt. Tõlgi kasutamisel tuleb esitada koos hanke pakkumusega keele
+taset tõendav dokument (tasemeeksami tunnistus, ülikooli lõpudiplom või muu sellega
+Koostatud 18.11.2025 14:51:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9534824/general-info
+
+2/3
+
+samaväärne, kui tõlgitav keel ja / või eesti keel ei ole tõlgi emakeeleks). Tõlgi kasutamisega
+seotud kulu hankija ei kompenseeri.
+
+Küsimused ettevõtjale:
+1. Projektijuht, kes peab: 8.1.1. omama vähemalt kolmeaastast töökogemust projektijuhina
+tarkvaraarenduse valdkonnas; 8.1.2. olema osalenud vähemalt kahes tarkvaraarenduse lepingus
+viimase 48 kuu jooksul, millest igas lepingus ta on ise teostanud töid projektijuhina; 8.1.3. olema
+juhtinud tarkvaraarenduse projekte agiilse metoodika järgi; 8.1.4. valdama eesti keelt nii kõnes
+kui ka kirjas väga heal tasemel. Projektijuhi puhul ei ole lubatud tõlgi kasutamine. (Vabas vormis
+dokument)
+2. Analüütik, kes peab: 8.2.1. omama vähemalt kolmeaastast töökogemust analüütikuna
+tarkvaraarenduse valdkonnas; 8.2.2. olema osalenud vähemalt kahes tarkvaraarenduse lepingus
+viimase 48 kuu jooksul, millest igas lepingus ta on ise teostanud tarkvara analüüsi töid; 8.2.3.
+valdama eesti keelt nii kõnes kui ka kirjas väga heal tasemel. Analüütiku puhul ei ole lubatud
+tõlgi kasutamine. (Vabas vormis dokument)
+3. Full-stack arendaja, kes peab: 8.3.1. omama vähemalt viieaastast töökogemust full-stack
+arendajana tarkvaraarenduse valdkonnas; 8.3.2. olema osalenud arendajana vähemalt kahes
+Python programmeerimiskeelt kasutavas tarkvaraarenduse lepingus viimase 48 kuu jooksul;
+8.3.3. valdama eesti keelt nii kõnes kui ka kirjas heal tasemel. (Vabas vormis dokument)
+4. Arendaja, kes peab: 8.4.1. omama vähemalt kaheaastast töökogemust arendajana
+tarkvaraarenduse valdkonnas; 8.4.2. olema osalenud arendajana vähemalt ühes Python
+programmeerimiskeelt kasutavas tarkvaraarenduse lepingus viimase 48 kuu jooksul; 8.4.3.
+valdama eesti keelt nii kõnes kui ka kirjas heal tasemel. (Vabas vormis dokument)
+5. Arendaja/arhitekt, kes peab: 8.5.1. omama vähemalt kolmeaastast töökogemust full-stack
+arendajana tarkvaraarenduse valdkonnas; 8.5.2. olema osalenud arhitekti ja/või arendajana
+vähemalt ühes Python programmeerimiskeelt kasutavas tarkvaraarenduse lepingus viimase 48
+kuu jooksul; 8.5.3. valdama eesti keelt nii kõnes kui ka kirjas heal tasemel. (Vabas vormis
+dokument)
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Hankija viidet mõnele RHS-i § 88 lõikes 2 nimetatud alusele (standardile, tehnilisele
+tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda selliselt, et see on täiendatud
+märkega "või sellega samaväärne". Iga hankija viidet ostuallikale, protsessile, kaubamärgile,
+patendile, tüübile, päritolule, tootmisviisile, märgisele või vastavushindamisasutuse väljastatud
+katsearuandele või tõendile, tuleb lugeda selliselt, et see on täiendatud märkega "või sellega
+samaväärne" (RHS § 88 lg-d 5-6, § 89 lg 2, 114 lg-d 5-7). Hankija aktsepteerib objektiivsetel
+põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab hankijale vastuvõetaval viisil, et
+pakutav asi, teenus või töö vastab konkreetse märgise või hankija esitatud nõuetele, välja arvatud
+Koostatud 18.11.2025 14:51:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9534824/general-info
+
+3/3
+
+juhul, kui hankija nõutud tõend on seaduse alusel eelduseks asja, teenuse või töö pakkumiseks
+turul (RHS § 114 lg 7). Kui pakkuja soovib kvalifitseerimise tingimustele või tehnilisele
+kirjelduse vastavuse tõendamiseks või hankelepingu täitmisel kasutada samaväärset, siis ta näitab
+selle pakkumuses vabas vormis ära. Samaväärsuse kontrollimiseks esitab pakkuja vabas vormis
+selgitused ja tõendid.
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Juhul, kui pakkumuse esitavad ühispakkujad, nimetavad ühispakkujad hankemenetlusega ning
+hankelepingu sõlmimise ja täitmisega seotud toimingute tegemiseks volitatud esindaja.
+Ühispakkujad esitavad pakkumuse koosseisus nende esindajale antud volikirja digiallkirjastatud
+hanke alusdokumentide hulgas sisalduval vormil „Volikiri ühispakkuja esindamiseks“. Kui
+tegemist ei ole ühispakkumusega, vastake "EI" (Raadionupp valikutega "Jah/Ei")
+
+EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD.
+Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on:
+1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest
+isikust ettevõtja, juriidiline isik, asutus või muu üksus;
+2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu
+üksuse omandis;
+3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku
+juhiste alusel.
+Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel
+tühine.
+Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS
+(EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb
+piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene
+Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu
+üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või
+muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või
+tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega "Jah/Ei")
+2. Riigihankes saavad osaleda ainult pakkujad, kelle elu- või asukoht on Eestis, mõnes muus
+Euroopa Liidu liikmesriigis, muus Euroopa Majanduspiirkonna lepinguriigis või Maailma
+Kaubandusorganisatsiooni riigihankelepinguga ühinenud riigis. (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 18.11.2025 14:51:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9534824/general-info
+
+

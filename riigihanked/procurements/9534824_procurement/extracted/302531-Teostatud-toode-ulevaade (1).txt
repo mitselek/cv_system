@@ -1,0 +1,117 @@
+Riigihange Pythoni baasil tarkvaraarendused
+
+Viitenumber 302531
+
+Teostatud tööde ülevaade
+
+Pakkuja meeskonnas arendaja või arendaja/arhitekt rollis pakutavate
+meeskonnaliikmete poolt teostatud arendustööde ülevaade kuni kolme
+arendatud IT-teenuse näitel. IT-teenuse all mõtleb hankija pakkuja
+mainitud rolli täitva meeskonna liikme osalusel kindlat eesmärki täitvat
+ja lõppkasutaja jaoks läbi veebiliidese kättesaadavat iseseisvalt
+toimivat IT-lahendust. Eraldi IT-teenustena ei tohi pakkuda sama
+IT-teenuse arendamiseks sõlmitud erinevaid hankelepinguid, ega sama
+IT-teenuse erinevaid mooduleid. Pakkuja võib oma teostatud tööde
+referentsidena kasutada neid toodangus olevaid IT-teenuseid, mille
+pakkujapoolne teostatud (akteeritud) arendustööde maht on vähemalt 2000
+tundi ja mille arenduses osales mainitud rolli täitev isik.
+
+Tabeli täitmine
+
+Allolevasse tabelisse tuua välja kuni 3 pakkuja poolt arendatud
+IT-teenust ning märkida ära kõigi kriteeriumite osas kas vastav tingimus
+on täidetud (on täidetud = 1, ei ole täidetud = 0).
+
+Tabeli päises olevad „IT-teenus 1“, „IT-teenus 2“ jne asendada
+IT-teenuse nime või URLiga, kui see on avalikult kättesaadav.
+
+Esitatud referentsprojektidel peab olema tellija/hankija kinnitus, et
+käesolevasse hankesse esitatud andmed on õiged ning Pakkuja sõlmitud
+lepingute maht nimetatud IT-teenuste arenduseks oli vähemalt 2000 tundi.
+Sealjuures on aktsepteeritud nii mitme tellija/hankija poolt
+allkirjastatud tabel mitme IT-teenuse andmetega, kui ka eraldi
+allkirjastatud dokument iga esitatava IT-teenuse kohta. Tabeli viimases
+reas tuleb esitada tellija/hankija esindaja nimi ja kontaktandmed.
+
+Iga IT-teenuse vastavuse korral hinnatavale kriteeriumile on võimalik
+saada vastavale kriteeriumile omistatav punktide arv. Maksimaalselt on
+võimalik saada iga IT teenuse eest kõikide kriteeriumitele vastavuse
+korral 20 väärtuspunkti ja kui kõik 3 IT-teenust vastavad kõikidele
+kriteeriumitele, siis on võimalik hankida 60 väärtuspunktipunkti. Kui
+mõne IT-teenuse puhul mõni kriteerium ei ole vastav, siis pakkuja
+sellele kriteeriumile antavaid punkte selle IT-teenuse eest ei saa.
+
++-----------------+--------+-------------+-------------+-------------+
+| Hinnatav        | Pu     | IT-teenuse  | IT-teenus 2 | IT-teenus 3 |
+| kriteerium      | nktide | 1 nimi või  | nimi või    | nimi või    |
+|                 | arv    | URL, (isik  | URL, (isik  | URL, (isik  |
+|                 |        | kes osales) | kes osales) | kes osales) |
++=================+========+=============+=============+=============+
+| Avalikult       | 4      |             |             |             |
+| kasutatav       |        |             |             |             |
+| rakendus¹       |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakenduse       | 2      |             |             |             |
+| kasutajate      |        |             |             |             |
+| autentimine     |        |             |             |             |
+| toimub eID      |        |             |             |             |
+| vahenditega     |        |             |             |             |
+| riiklikus²      |        |             |             |             |
+|                 |        |             |             |             |
+| aut             |        |             |             |             |
+| entimisteenuses |        |             |             |             |
+| TARA või GovSSO |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakenduse       | 2      |             |             |             |
+| andm            |        |             |             |             |
+| ebaasimootorina |        |             |             |             |
+| kasutatakse     |        |             |             |             |
+| PostgreSQL-i    |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakendus töötab | 4      |             |             |             |
+| Docker          |        |             |             |             |
+| konte           |        |             |             |             |
+| inerlahendusena |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakendus töötab | 2      |             |             |             |
+| horisontaalselt |        |             |             |             |
+| skaleeritavana³ |        |             |             |             |
+|                 |        |             |             |             |
+| Kubernetese     |        |             |             |             |
+| platvormil      |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakenduse       | 2      |             |             |             |
+| ehitus ja       |        |             |             |             |
+| paigaldus       |        |             |             |             |
+| teostatakse     |        |             |             |             |
+| GitLabi CI/CD   |        |             |             |             |
+| vahenditega     |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakendus tarbib | 2      |             |             |             |
+| x-tee teenuseid |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| Rakendus pakub  | 2      |             |             |             |
+| x-tee teenuseid |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+| tellija/hankija |        |             |             |             |
+| esindaja nimi   |        |             |             |             |
+| ja              |        |             |             |             |
+| kontaktandmed   |        |             |             |             |
++-----------------+--------+-------------+-------------+-------------+
+
+Täpsustused
+
+¹Avalikult kasutatav rakendus tähendab, et iga avalik kasutaja saab
+välisvõrgust rakendusele ligi, vajadusel sinna sisse logida/kasutaja
+luua, selle pakutavaid teenuseid kasutada.
+
+²Rakendus on kasutajate autentimiseks kas otse liidestatud RIA poolt
+osutatava TARA/GovSSO teenusega või liidestatud läbi
+vaheautentimisserveri (näiteks Keycloak) ning rakenduse ja
+autentimisserveri vahel kasutatakse OpenID Connect protokolli.
+
+³Rakendus on loodud tõrgeteta töötama Kubernetese platvormil
+horisontaalselt skaleeritavana, st koormuse kasvades võib rakendust
+replitseerida kahe või enama instantsina (POD replicas >= 2) manuaalselt
+või kasutades Kubernetese automatiseeritud skaleerimist (Horizontal Pod
+Autoscaling)

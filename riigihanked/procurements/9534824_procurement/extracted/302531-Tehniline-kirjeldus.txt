@@ -1,0 +1,92 @@
+Riigihange Pythoni baasil tarkvaraarendused
+Viitenumber 302531
+Hanke tehniline kirjeldus
+
+1. Hanke eesmärk
+1.1. Hanke eesmärgiks on leida tarkvara arenduspartnerid KeMITi hallatavates Pythoni
+tarkvara baasil arendatud infosüsteemides arendustööde teostamiseks. Tööd sisaldavad
+muuhulgas kasutusmugavuse suurendamiseks, arhitektuuri ajakohastamiseks ning
+andmekvaliteedi parandamiseks vajalikke arendustöid ning seadusemuudatustest
+tulenevate lisavajaduste realiseerimist.
+1.2. Raamleping sõlmitakse hindamiskriteeriumi väärtuspunktide alusel kuni kolme eduka
+pakkumuse esitanud pakkujaga.
+1.3. Raamlepingu raames sõlmitakse eraldi arendustööde hankelepingud järgides raamlepingu
+peatükis 3 (Hankelepingute sõlmimise kord) kirjeldatud nõudeid.
+1.4. Raamlepingu alusel läbiviidavate minikonkursside kord on lisaks raamlepingus
+kirjeldatule sätestatud dokumendis „Minikonkursside läbiviimise kord“.
+1.5. Hanke algatamisel teadaolevad infosüsteemid, mille arendustöid hanke raames tellida
+plaanitakse:
+•
+Keskkonnaotsuste infosüsteem (KOTKAS),
+•
+Eesti Looduse Infosüsteem (EELIS),
+•
+Jäätmeinfosüsteem (PISTRIK).
+1.6. Raamlepingu perioodil võib loetellu IT-teenuseid lisanduda.
+2. Teenuse osutamise üldised nõuded
+2.1. Tööde metoodika ja toimingud määrab ja lepib kokku Tellija koostöös Täitjaga lähtudes
+hanke dokumentidest ja nende lisadest.
+2.2. Vastavalt Tellija ja Täitja vahel kokkulepitavale töökorraldusele antakse Täitjale
+ligipääsud, mis on vajalikud tööülesannete täitmiseks.
+2.3. Kõik Täitja töökohal tööks kasutatavad litsentsid ja autoriõigustega kaetud vahendid on
+Täitja vastutus.
+2.4. Täitjal on kohustus Tööde teostamisel kasutada tööülesannete haldamiseks Tellija poolel
+kasutatavaid tarkvaraarenduse haldusplatvorme (JIRA, Confluence jm). Nende
+kasutamiseks tuleb luua turvaline andmeside ühendus (VPN).
+2.5. Testimise eest vastutab Täitja. Üle antud tööde tulemi valideerib Tellija. Täitja poolt
+üleantavad tööd peavad olema piisavalt testitud ehk Täitja on tõestatavalt veendunud, et
+tööde tulem teeb seda, mis on Tellija poolt tellitud.
+2.6. Tööde teostamisel tuleb lähtuda KeMITi mittefunktsionaalsetest nõuetest (MFN) ja
+Kliimaministeeriumi haldusala tehnoloogilisest profiilist, mis on leitav aadressilt
+https://kemit.ee/tehnoloogia. Arvestada tuleb hankelepingu sõlmimise või tööde tellimise
+ajahetkel kehtivate versioonidega. Kui arenduse käigus toimub MFN-i uuendus, siis
+kehtib viimane versioon käesolevale arendusele. MFN-i erandid tuleb kooskõlastada
+Tellija tehnoloogia valdkonnaga.
+
+2.7. Arendustööd ei sisalda infosüsteemidega tutvumisele ja toimimise selgitamisele kuluvat
+aega. Nimetatud tegevus arendustööde alla ei kuulu ja Tellija nimetatud ajakulu ei tasusta.
+3. Tarkvara arendusteenus
+3.1. Tarkvara arendusteenusena käsitletakse uue funktsionaalsuse loomist, andmete
+migreerimist vanadest infosüsteemidest ja tarkvara täiendamist vastavalt seaduste
+muudatustele või vastavalt Tellija esitatud parendusettepanekutele.
+3.2. Arendustööde tellimise ja üleandmise tingimused on kirjeldatud raamlepingu peatükkides
+3 (Hankelepingu sõlmimise kord), 7 (Tööde teostamine) ja 8 (Tööde üleandmine, vigade
+kõrvaldamine).
+3.3. Täitja peab olema võimeline pakkuma järgmisi teenuseid:
+3.3.1. Analüüsi teostamine: süsteemi- ehk detailanalüüsi läbiviimine;
+3.3.2. Disaini teostamine: tarkvaralahenduse disain (nii visuaalne kui süsteemne);
+3.3.3. Tarkvara arendustööde teostamine;
+3.3.4. Tarkvara testimine: koostamine ja haldamine;
+3.3.5. Tarkvara kasutuselevõtu tugi;
+3.3.6. Teostatud arenduste dokumentatsiooni ajakohasena hoidmine;
+3.3.7. Projektijuhtimine;
+3.3.8. Muud tarkvara arendusega ja kasutuselevõtuga seotud tööd.
+4. Väikesemahuliste arendus- või hooldustööde teostamine
+4.1. Väikesemahulise arendus- või hooldustööna hanke mõistes käsitletakse tööd, mille
+maksumus on alla 5000 euro ilma käibemaksuta.
+4.2. Tellitud tööd täpsustatakse ja lepitakse iga kord eraldi Tellijaga kokku JIRA vahendusel:
+sh töö sisu, töö maht, töö valmimise tähtaeg, maksumus.
+4.3. Tööülesannete teostamine toimub Tellija poolt antud nõuete ja juhiste alusel. Tellija
+nõudmisel kohustub Täitja jooksvalt andma ülevaate ja esitlema juba teostatud või
+teostamisel olevaid töid.
+4.4. Täitja peab määrama JIRA-sse tööülesandele ajahinnagu ja valmimistähtaja viie tööpäeva
+jooksul peale tööülesande saamist.
+4.5. Kui Tellija kinnitab JIRA-s tööülesande pakkumuse sobivust, võib Täitja talle suunatud
+tööülesande töösse võtta.
+5. Dokumenteerimine
+5.1. Projekti vältel annab Täitja Tellijale üle dokumentatsiooni vastavalt arendusetapi
+kokkulepitud tulemitele. Dokumentatsioon luuakse ja antakse üle digitaalsel kujul Tellija
+Confluence keskkonnas.
+5.2. Üleandmise hetkel fikseeritakse üle antav versioon. Dokumentatsioon peab sisaldama
+versiooni ajalugu, et oleks üheselt tuvastatav dokumendi versiooni sisse viidud
+muudatused võrreldes viimati üleantuga.
+5.3. Loodav ja Tellijale üleantav dokumentatsioon ja failid peavad olema redigeeritavad.
+Dokumenteerimisel valmivad joonised ja prototüübid antakse Tellijale üle redigeeritavate
+
+failidena (eelistatult .eap formaadis; pakkuja poolt pakutavad alternatiivid tuleb läbi
+rääkida enne lepingu sõlmimist).
+5.4. Sõltuvalt arendatava tarkvara ja tema kasutajaskonna iseloomust võib Tellija nõusolekul
+konkreetse tarkvaralahenduse spetsiifikast tuleneva lõppkasutaja juhendi asendada
+koolitusvideoga, mis järgib eelpool loetletud põhimõtteid.
+
+

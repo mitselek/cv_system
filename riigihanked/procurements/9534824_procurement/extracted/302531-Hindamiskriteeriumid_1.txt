@@ -1,0 +1,59 @@
+Riigihange Pythoni baasil tarkvaraarendused
+Viitenumber 302531
+Hindamiskriteeriumid raamlepingule
+
+1. Pakkumuse hindamise meetod Parima hinna ja kvaliteedi suhe
+Nr
+1.1.
+
+Kriteerium
+Ühe töötunni maksumus (käibemaksuta eurodes)
+
+1.2.
+
+Teostatud tööde ülevaade
+
+Osakaal
+40
+60
+KOKKU
+
+100
+
+2. Hindamismetoodika kirjeldus
+2.1. Töötunni maksumus (punkt 1.1.)
+2.1.1. Hindamiskriteeriumi arvestamise aluseks on pakkumuses esitatud ühe töötunni
+maksumus.
+2.1.2. Maksimaalsed väärtuspunktid (40) omistatakse madalaima töötunni
+maksumusega pakkumusele. Teised pakkumused saavad 40-st võimalikust
+punktist proportsionaalselt vähem punkte. Väärtuspunktide arvutamisel
+kasutatakse riigihangete registris kasutusel olevat arvutusmetoodikat.
+2.2. Teostatud tööde ülevaade (punkt 1.2.)
+2.3. Dokumendis „Teostatud tööde ülevaade“ toodud tabeli täitmisel saadud punktide
+summa. Maksimaalselt on võimalik saada kuni 60 väärtuspunkti.
+
+3. Eduka pakkumuse väljaselgitamine
+3.1. Kõigi kriteeriumide alusel saadud väärtuspunktid liidetakse kokku ja saadakse
+pakkumust iseloomustav väärtuspunktide summa. Maksimaalne väärtuspunktide
+kogusumma on 100.
+3.2. Edukaks pakkumuseks tunnistatakse pakkumus, mille väärtuspunktide summa on
+suurim.
+3.3. Juhul kui pakkumuste väärtuspunktide summad on võrdsed, siis loetakse edukaks
+väiksema tunnihinna maksumusega pakkumus. Kui ka see on võrdne, siis korraldab
+hankija eduka pakkumuse väljaselgitamiseks liisuheitmise väiksema tunnihinna
+maksumusega pakkumuste esitajate vahel. Hankija teavitab pakkujatele liisuheitmise
+aja ning koha. Liisuheitmise juures viibib riigihanke eest vastutava isiku poolt
+määratud hankija esindaja ja iga pakkuja kohta üks pakkuja esindaja. Liisuheitmise
+tulemuse kohta koostatakse liisuheitmise protokoll.
+
+4. Olelusringi kulude arvestamine
+Kõnealuse arendustöödega seotud kulutuste määr on praktikas üldjoontes välja
+kujunenud (lähtuvalt sihtotstarbest, kasutusintensiivsusest jpm) ning tulenevalt hankija
+asutuse struktuurist ja eelarvestamise süsteemist on infosüsteemi ülalpidamiskulude
+katmine lahendatud erinevate kombineeritavate tark- ja riistvaraliste lahendustega,
+mida hangitakse teiste hangete kaudu.
+Kuna loodava tarkvara eeldatav eluiga on oluliselt pikem kui sõlmitava raamlepingu
+periood, siis ei ole hankijal mõistlik pakkumuses nõuda nende kulude välja toomist,
+mis jäävad väljapoole lepinguga kaetud perioodi.
+
+

@@ -1,0 +1,82 @@
+Riigihange Pythoni baasil tarkvaraarendused
+
+Viitenumber 302531
+
+CV vorm
+
+Ees- ja perekonnanimi:
+
+Spetsialisti roll:
+
+Erialase töökogemuse pikkus aastates:
+
+Keeleoskus (märkida emakeel/väga hea/hea/rahuldav/puudulik)
+
+  -----------------------------------------------------------------------
+  Keele nimetus           Kõneoskus               Kirjaoskus
+  ----------------------- ----------------------- -----------------------
+  Eesti keel                                      
+
+  -----------------------------------------------------------------------
+
+Töökogemus (asutus/ettevõte)
+
+  -------------------------------- --------------------------------------
+  Ettevõtte nimi:                  
+
+  Periood alates (kuu/aasta)       
+  kuni (kuu/aasta):                
+
+  Ametikoha nimi:                  
+
+  Töö sisu lühikirjeldus:          
+  -------------------------------- --------------------------------------
+
+(vajadusel lisada tabeli ridasid)
+
+Töökogemus (lepingud)
+
+  -----------------------------------------------------------------------
+  Lepingu nimetus (pealkiri,       
+  hankeleping/töövõtuleping/vmt)   
+  -------------------------------- --------------------------------------
+  Riigihanke viitenumber (juhul    
+  kui leping on sõlmitud           
+  riigihanke tulemusel)            
+
+  Tellija info (asutus/ettevõte,   
+  kontaktisiku nimi ja             
+  kontaktandmed - telefoninumber,  
+  meiliaadress):                   
+
+  Lepingu täitmise aeg alates      
+  (kuu/aasta) kuni (kuu/aasta):    
+
+  Roll lepingu täitmisel:          
+
+  Rollitäitja tööde teostamise aeg 
+  alates (kuu/aasta) kuni          
+  (kuu/aasta)::                    
+
+  Teostatud tööde lühikirjeldus:   
+  -----------------------------------------------------------------------
+
+(vajadusel lisada tabeli ridasid)
+
+CV allkirjastamisega CV omanik kinnitab, et:
+
+-   on andnud nõusoleku hanke tulemusel sõlmitava raamlepingu ning selle
+    alusel sõlmitavate hankelepingute täitmisel osalemiseks;
+
+-   kõik CV-s esitatud andmed on õiged;
+
+-   valdab kõiki asjakohaseid riigihanke alusdokumentides kirjeldatud
+    tehnoloogiaid ja metoodikaid ning on nõus neid hankelepingu
+    täitmisel järgima;
+
+-   hankija võib kõiki siin esitatud andmeid igal ajal, sh raam- ja
+    hankelepingute täitmise ajal, kontrollida.
+
+  CV-l märgitud isiku allkiri
+
+  allkirjastatud digitaalselt

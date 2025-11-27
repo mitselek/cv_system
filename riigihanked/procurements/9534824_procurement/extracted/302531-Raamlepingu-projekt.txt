@@ -1,0 +1,1780 @@
+Riigihange Pythoni baasil tarkvaraarendused
+Viitenumber 302531
+Raamlepingu ja hankelepingu projektid
+TARKVARAARENDUSE RAAMLEPING NR
+Tellija
+
+Täitja
+
+Nimi
+
+Keskkonnaministeeriumi
+Infotehnoloogiakeskus
+
+Registrikood
+
+70009445
+
+Esindaja
+
+direktor Marko Arula
+
+juhatuse liige
+
+Esindusõiguse
+alus
+
+põhimäärus
+
+seadus
+
+Kontaktisiku
+andmed
+
+Viktoria Lemberg,
+viktoria.lemberg@kemit.ee,
+telefon: +37253438550
+
+sõlmisid käesoleva Raamlepingu (edaspidi ka: Leping) järgmises:
+1.
+
+RAAMLEPINGU EESMÄRK JA PÕHITINGIMUSED
+
+1.1.
+
+Raamlepingu eesmärgiks on kehtestada tingimused, kuidas toimub Raamlepingu
+esemeks olevate Tööde tellimiseks Hankelepingute sõlmimine Tellija ning Täitjate
+vahel (st tegemist on MITME Täitjaga sõlmitud Raamlepinguga).
+
+1.2.
+
+Leping ei kohusta Tellijat Töid tellima.
+
+1.3.
+
+Lepingu põhitingimused on:
+
+Lepingu sõlmimise
+lahutamatu osa
+
+alus
+
+ja Riigihanke „Pythoni baasil tarkvaraarendused“
+viitenumbriga xxx (edaspidi: Riigihange)
+alusdokumendid ning Täitja esitatud Raampakkumus.
+
+Lepingu ese
+edaspidi ka: Töö või Tööd
+
+Pythoni baasil tarkvaraarendused.
+
+Raamlepingu kehtivus
+
+48 kuud
+
+Maksimaalne maksumus
+
+2 000 000 eurot, millele lisandub käibemaks.
+
+Intellektuaalse omandi õiguste Lihtlitsentsi mudel
+mudel
+Arve tasumise tähtaeg
+
+21 päeva
+
+Hinna indekseerimine
+
+Ei
+
+1
+
+2.
+
+MÕISTED
+
+2.1.
+
+Suure algustähega mõisteid tuleb Lepingus tõlgendada nii, nagu need allpool on
+määratletud. Kui ei ole teisiti sätestatud, siis viitab mõiste ainsuse vorm ka selle
+mitmusele. Kahtluse korral tuleb väljendeid, millel võib olla rohkem kui üks tähendus,
+mõista viisil, mis sobib kõige rohkem Lepingu olemuse ja eesmärkidega.
+•
+
+Akt - dokument, mille allkirjastamisega Täitja annab Tööde etapi raames tehtud
+Tööd üle ja Tellija võtab need vastu. Viimase Tööde etapi lõpus allkirjastatakse
+Koondakt, millega peab olema hõlmatud kogu Tarkvara. Koondakti
+allkirjastamisega kinnitavad Pooled, et Lepingu täitmiseks vajalikud tööd (v.a
+garantiikohustus) on teostatud. Akti vorm on toodud Raamlepingu Lisas 1.
+
+•
+
+Hankeleping – raamlepingu alusel sõlmitud leping, mis on aluseks Tööde
+teostamisele ning vormistatakse Raamlepingus sätestatud tingimuste korral
+Raamlepingu Lisas 2 toodud dokumendivormil.
+
+•
+
+Raamleping – Raamleping koos lisadega. Raamlepingu eesmärgiks on fikseerida
+Tööde edukaks tegemiseks vajalike kokkulepete raamistik raamlepingu raames
+sõlmitavate hankelepingute vormis.
+
+•
+
+Leping – Raamleping ja/või Hankeleping;
+
+•
+
+Pool – sõltuvalt Lepingu kontekstist kas Tellija või Täitja või mõlemad koos.
+
+•
+
+Projekt – Hankelepingu esemeks olevad Tööd.
+
+•
+
+Projektiplaan –Töö sisu, teostamise aeg ja koht ning Tööde üleandmise ajakava.
+
+•
+
+Raampakkumus – Täitja poolt Riigihankes esitatud ja edukaks tunnistatud
+pakkumus, mis on Raamlepingu sõlmimise aluseks ja selle lahutamatu osa.
+
+•
+
+Spetsifikatsioon – Projekti detailanalüüsi käigus dokumenteeritud lahenduse
+kirjeldus, mille alusel tarkvaralahendus programmeeritakse ning tarkvara
+funktsionaalsuse toimimist kontrollitakse. Spetsifikatsioonid sisaldavad muuhulgas
+tarkvarakomponentide ja teenuste kirjeldusi, sh andmeväljade kirjeldusi,
+funktsionaalseid nõudeid jmt;
+
+•
+
+Tarkvara – kõik Lepingu täitmiseks rakendatavate tarkvara komponendid
+kogumis. Tarkvara võib koosneda järgmistest komponentidest:
+o Arendatav tarkvara – tarkvara, mis on loodud spetsiaalselt Tellija jaoks Tellija
+konkreetseid huve ja soove silmas pidades hankelepingu alusel;
+o Kommertstarkvara – tarkvara, mida kasutatakse Arendatava tarkvara
+funktsionaalsuse tagamiseks ning mis kuulub kas Täitjale või kolmandale isikule
+ning mille kasutusõigus antakse Täitja või kolmanda isiku poolt Tellijale
+litsentsi alusel;
+o Tellija tarkvara – mistahes tarkvara, mis on Tellija poolt omandatud, loodud
+või temale litsentseeritud, v.a Arendatav tarkvara ja Kommertstarkvara;
+o Täitja tarkvara – tarkvara, mis on Täitja poolt omandatud, loodud või temale
+litsentseeritud enne Lepingu sõlmimist;
+o Vabavaraline tarkvara – tarkvara, mida kasutatakse Arendatava tarkvara
+funktsionaalsuse tagamiseks, kuid mida ei ole arendanud Täitja, vaid mis kuulub
+kolmandale isikule ning mille kasutusõigus antakse kolmanda isiku poolt
+Tellijale tarkvara vaba kasutuse litsentsi alusel;
+2
+
+•
+
+Täiendusvajadus – vajadus lahendada ilmnenud probleemid või täiendada
+funktsionaalsust, mis ei kvalifitseeru Veaks ning mille teostamise ja tasustamise
+osas on vaja täiendavalt kokku leppida;
+
+•
+
+Tulem - Lepingu esemeks olevate Tööde terviklik lõpp- või konkreetne osa- või
+vahetulemus.
+
+•
+
+Tööd - Täitja poolt täidetavad tarkvara arenduse, seadistamise, konsultatsiooni,
+koolitamise, hoolduse, dokumenteerimise või muud Poolte vahel kokku lepitud
+ülesanded, mis on täpsustatud Lepingu põhitingimustes ja teistes Lepingu
+dokumentides;
+
+•
+
+Töö etapp – Projekti eesmärkide täitmist viiakse ellu etapiviisiliselt vastavalt
+Poolte vahel kokku lepitud ajakavale. Projekti ajakavas lepitakse kokku Töö etapi
+tulemid ja tähtaeg;
+
+•
+
+Viga – Töös, sh selle Tulemis esinev mittevastavus Lepingu tingimustele.
+
+3.
+
+HANKELEPINGUTE SÕLMIMISE KORD
+
+3.1.
+
+Tööde tellimine toimub Hankelepingute alusel, mille sõlmimiseks korraldab Tellija
+Raamlepingu poolteks olevate Täitjate vahel minikonkursi vastavalt järgmistele
+tingimustele:
+3.1.1.
+
+Tellija esitab Raamlepingu poolteks olevatele Täitjatele kirjalikku
+taasesitamist võimaldavas vormis ettepaneku pakkumuse esitamiseks ja
+annab mõistliku aja pakkumuse esitamiseks.
+
+3.1.2.
+
+Pakkumuse esitamise ettepanekus määratleb Tellija vastavalt Tellitavate
+Tööde iseloomule ja vajadusele tellitavate Tööde sisu ja üle antavad tulemid,
+Tööde tehnilise kirjelduse, Tööde etapid, tähtajad, kas Tellija kohaldab
+indekseerimist ka Hankelepingule ja kõik muud olulised tingimused
+minikonkursil pakkumuse esitamiseks ja Hankelepingu sõlmimiseks, sh
+vajadusel täpsustatud minikonkursi hindamiskriteeriumid majanduslikult
+soodsaima pakkumuse väljavalimiseks.
+
+3.1.3.
+
+Kui Tellija on kehtestanud Raamlepingu sõlmimiseks koostatud Riigihanke
+alusdokumentides tingimused pakkuja täiendavaks kvalifitseerimiseks
+minikonkursil, kontrollib Tellija ka Täitjate vastavust minikonkursi
+kvalifitseerimise tingimustele.
+
+3.1.4.
+
+Tellija hindab minikonkursil esitatud pakkumusi Lepingu põhitingimustes
+sätestatud ning pakkumuse esitamise ettepanekus täpsustatud minikonkursi
+hindamiskriteeriumide kohaselt. Minikonkursi hindamiskriteeriumid on
+esitatud Riigihanke alusdokumentide koosseisus olevas Minikonkurssid e
+läbiviimise korras. Tellija hindab üksnes pakkumusi, milles ei esine sisulisi
+kõrvalekaldumisi Raamlepingu ning pakkumuse esitamise ettepanekus
+sätestatud tingimustest. Kui pakkumuses esineb sisuline kõrvalekalle
+eelnimetatud tingimustest, jätab Tellija pakkumuse hindamata.
+
+3
+
+3.1.5.
+
+Kui Raamlepingu maksumus on vähemalt võrdne rahvusvahelise piirmääraga
+ning kui minikonkursi tulemusena sõlmitava Hankelepingu maksumus on
+vähemalt võrdne lihthanke piirmääraga, kontrollib Tellija enne minikonkursi
+tulemuste põhjal Hankelepingu sõlmimist, kas Täitjal, kellega ta kavatseb
+hankelepingu sõlmida, puuduvad RHS § 95 lõigetes 1 ja 4 nimetatud
+kõrvaldamise alused sama paragrahvi lõigetes 2, 3, 5 ja 6 sätestatud
+tingimustel, ega sõlmi Hankelepingut Täitjaga, kellel mõni kõrvaldamise alus
+esineb.
+
+3.1.6.
+
+Tellija sõlmib Hankelepingu minikonkursi hindamiskriteeriumid e kohaselt
+majanduslikult soodsaima pakkumuse esitanud Täitjaga.
+
+3.1.7.
+
+Kui Hankelepingu ilma käibemaksuta maksumus on alla 10 000 euro,
+loetakse Hankeleping sõlmituks Tellija poolt eduka pakkumuse otsuse
+teatavaks tegemisega eduka pakkumuse esitanud Täitjale. Kui Hankelepingu
+ilma käibemaksuta maksumus on vähemalt 10 000 eurot, vormistavad Pooled
+Hankelepingu eraldi kirjalikus vormis sõlmitava lepingudokumendina. Täitja
+kohustub sellisel juhul Hankelepingu allkirjastama 3 tööpäeva jooksul
+Tellijalt Hankelepingu dokumendi saamisest.
+
+3.1.8.
+
+Tellijal on õigus igal ajal enne Hankelepingu sõlmimist tunnistada
+minikonkurss omal algatusel põhjendatud vajadusel kehtetuks, teavitades
+sellest Raamlepingu partneriteks olevaid Täitjaid.
+
+3.1.9.
+
+Kui minikonkursile ei laeku ühtki pakkumust, siis on tellijal õigus teha
+pakkumine minikonkursi tingimustel otselepingu sõlmimiseks järgmises
+järjekorras:
+
+3.1.9.1.
+
+esmalt teha pakkumine Hankelepingu sõlmimiseks Raamlepingu sõlmimisel
+enim hindepunkte teeninud Täitjaga;
+
+3.1.9.2.
+
+seejärel võib pakkumised teha hankelepingu sõlmimiseks vastavalt hindamise
+järjestusele järgmistele täitjatele.
+
+3.1.10.
+
+Juhul, kui minikonkursi hindamiskriteeriumide alusel on mitu Täitjat saanud
+võrdsed
+väärtuspunktid,
+korraldab
+hankija
+eduka pakkumuse
+väljaselgitamiseks liisuheitmise, võimaldades võrdselt väärtuspunkte saanud
+pakkumuse esitanud pakkujatel liisuheitmise juures viibida. Hankija teavitab
+võrdse punktide arvu saanud pakkujale liisuheitmise aja ning koha.
+Liisuheitmisel võib osaleda iga pakkuja kohta üks isik.
+
+3.1.11.
+
+Tellija teavitab minikonkursi tulemustest kõiki minikonkursil osalenud
+Täitjaid. Kui Tellija on otsustanud rakendada Hankelepingu sõlmimise
+otsusele ka seaduses sätestatud ooteaega, teavitab Tellija ooteaja
+kohaldamisest vastavas teates.
+
+4.
+
+RAAMLEPINGU HIND, INDEKSEERIMINE
+
+4.1.
+
+Raamlepingu kehtivusajal kehtiv Täitja maksimaalne ühikhind/ühikhinnad
+käibemaksuta (edaspidi: Hind) on sätestatud Täitja Raampakkumuses.
+
+4.2.
+
+Minikonkurssidel osalemisel ei või Täitja poolt Töö teostamiseks pakutav maksumus
+ületada Raampakkumuses sätestatud Hinda (kui Hinda ei indekseerita) või
+minikonkursil või läbirääkimistel pakkumuse esitamise ajal kehtivat Hinda (kui Hinda
+indekseeritakse).
+4
+
+4.3.
+
+Kui Lepingu põhitingimuste kohaselt on ette nähtud Hinna indekseerimine, siis toimub
+Raamlepingu kehtivuse ajal Raampakkumuses sätestatud Hinna indekseerimine
+vastavalt käesoleva punkti tingimustele. Hinda indekseeritakse iga Raamlepingu
+sõlmimisele järgneva täiskalendriaasta (st 1. jaanuar – 31. detsember) möödumisele
+järgneval päeval (st 1. jaanuaril). Näidiseks: kui Raamleping on sõlmitud 1. mail 2023,
+siis esimest korda indekseeritakse Hinda 1. jaanuaril 2025 ning järgmine kord 1.
+jaanuaril 2026 jne. Hinna indekseerimine toimub tarbijahinnaindeksi alusel, st Hind
+tõuseb või langeb indekseerimise hetkele eelneva kalendriaasta tarbijahinnaindeksi
+muudatuse võrra. Maksimaalselt võib Raamlepingu koguperioodil indekseerimise
+tulemusel Hind tõusta kuni 20% Raampakkumuses märgitud Hinnast. Negatiivse
+tarbijahinnaindeksi korral vähendatakse Hinda vastavalt tarbijahinnaindeksi muutusele,
+aga mitte väiksemaks kui Raampakkumuses märgitud Hind.
+
+4.4.
+
+Raamlepingu maksimaalne maksumus tähistab kõigi Täitjatega Raamlepingu alusel
+sõlmitavate Hankelepingute maksimaalset summeeritud väärtust, mis on sätestatud
+Lepingu põhitingimustes. Raamlepingu maksimaalse maksumuse täitumise korral
+loetakse Raamleping automaatselt lõppenuks.
+
+5.
+
+ARVELDUSED
+
+5.1.
+
+Tellija tasub Täitja teostatud Tööde eest Täitjale tasu, mille suurus ja arveldamise
+tingimused on fikseeritud Hankelepingus.
+
+5.2.
+
+Kui Hankelepingus ei ole sätestatud teisiti, on Hankelepingus fikseeritud tasu ainus tasu
+seoses Hankelepinguga ning see ei ole seatud sõltuvusse inflatsioonist, tööjõu või
+muude vahendite kallinemisest või mistahes muudest teguritest ning tasu võib muuta
+üksnes Poolte kirjaliku kokkuleppega õigusaktides lubatud juhtudel ja korras.
+
+5.3.
+
+Täitja esitab Tellijale masinloetava e-arve üle antud ja vastu võetud Tööde eest pärast
+vastava Akti allkirjastamist Poolte poolt. Välisriigis registreeritud Täitja puhul lepitakse
+arve esitamise vorm ja viis eraldi kokku esimesel võimalusel pärast Raamlepingu
+sõlmimist. Arve loetakse tasutuks arvel näidatud summa laekumisest Täitja
+arvelduskontole.
+
+5.4.
+
+Kui Tellija ei tasu Täitja esitatud arveid õigeaegselt, on Täitjal õigus nõuda viivist 0,2%
+vastaval arvel märgitud tasumata summalt iga viivitatud kalendripäeva eest kuni arve
+täieliku tasumiseni, kuid mitte rohkem kui 25% vastava arve summast.
+
+5.5.
+
+Kui Pooled ei lepi eraldi vähemalt kirjalikku taasesitamist võimaldavas vormis kokku
+teisiti, siis Lepingu alusel Poole tasutud mistahes maksega loetakse esmajärjekorras
+vastavas osas tasutuks Lepingu täitmisega (sh täitmisele pööramisega) seotud kulud (sh
+õigusabikulud), seejärel viivis ja leppetrahvid alates varaseimast võlgnevusest ning
+seejärel tasumata põhisumma alates varaseimast võlgnevusest.
+
+5.6.
+
+Raamlepingu täitmist rahastatakse riigieelarvest, kuid võidakse rahastada ka
+välisvahenditest. Konkreetne rahastusallikas ja sellest tulenevad nõuded täpsustatakse
+Riigihanke alusdokumendis ja/või minikonkursi pakkumuse kutses.
+
+5.7.
+
+Juhul, kui Raamlepingu või Hankelepingu alguses on määratletud poolena ka
+„Rahastaja“, siis toimub Täitjale tasumine Tellija asemel Rahastaja poolt. Sel juhul
+esitab Täitja punktis 5.3 kirjeldatud korras Rahastajale.
+
+6.
+
+TELLIJA RESERV HANKELEPINGUS
+5
+
+6.1.
+
+Tellijal on õigus tellida ja Täitjal on kohustus teostada Hankelepingu esemega seotud
+täiendavaid Töid (hankelepingu esemega seotud Tööde täiendamine või mahu
+suurendamine) kuni 10% ulatuses Täitjaga sõlmitud Hankelepingu mahust. Tellijal on
+õigus lisatöid tellida juhul, kui see on Hankelepingu eesmärgi täitmiseks vajalik, näiteks
+kui Tööde teostamise käigus ilmneb ebatäpsus Hankelepingu sõlmimise aluseks olevas
+lähteülesandes, vajadus täpsustub detailanalüüsi käigus, muutuvad vastavat valdkonda
+reguleerivad õigusaktid vmt.). Täiendavate Tööde tellimine on võimalik, kui see ei
+muuda olemuslikult Hankelepingu eset. Tellija (vajadusel Rahastaja) tasub nimetatud
+Tööde eest vastavalt Hankelepingus märgitud ühikhinnale.
+
+6.2.
+
+Tellija esitab Lepingu esemega seotud Tööde täiendamiseks Täitjale kirjaliku täienduste
+loetelu, mille Täitja vaatab üle 5 tööpäeva jooksul ja esitab omapoolse analüüsi ja
+ajahinnangu.
+
+6.3.
+
+Kui Täitja kohustuste muutmine toob kaasa põhjendatud ajakulu, pikendatakse Tellija
+nõusolekul vastavalt Täitja kohustuste täitmise tähtaega.
+
+6.4.
+
+Käesolevas peatükis sätestatud täiendavate Tööde tellimisega seotud tingimused
+lepitakse kokku Tellija ja Täitja vahel vähemalt kirjalikku taasesitamist võimaldavas
+vormis.
+
+7.
+
+TÖÖDE TEOSTAMINE
+
+7.1.
+
+Üldised nõuded
+7.1.1.
+
+Täitja tehtavad Tööd on määratletud Hankelepingus. Hankelepingu täitmisele
+kohalduvad lisaks Hankelepingu enda tingimustele kõik Raamlepingus
+sätestatud tingimused osas, mida Hankeleping ei reguleeri teisiti.
+
+7.1.2.
+
+Tellija eeldab, et Täitja on Hankelepingu esemeks olevate Tööde
+tarkvaraarenduse valdkonna professionaal, kes saab aru ning võtab teadlikult
+enda kanda Hankelepingu funktsionaalsete ja mittefunktsionaalsete nõuete
+täidetavuse ja tulemuse saavutatavuse riski. Seepärast laieneb Täitjale ka
+nende Tööde tegemise kohustus, mida ei ole Hankelepingus otsesõnu kokku
+lepitud, kuid mis oma olemusest lähtuvalt kuuluvad Hankelepinguga seotud
+Tööde hulka ja pidid olema ettenähtavad Täitjale kui professionaalile
+pakkumuse esitamise etapis ning mis on vajalikud Hankelepingu täitmiseks.
+Viimati nimetatud Tööde tegemine ei kuulu teistsuguse kirjaliku kokkuleppe
+puudumisel eraldi tasustamisele ning Täitja teostab need Tööd hankelepingu
+täitmise raames.
+
+7.1.3.
+
+Töövõtja peab teostama Tööd vastavalt Lepingus, sh Riigihanke
+alusdokumentides sätestatud tingimustele ning infotehnoloogia- ja
+telekommunikatsioonisektori parimas praktikas rakendatavatele tehnilistele
+kvaliteedinõuetele, normidele ja standarditele. Töövõtja kohustub tagama
+Tööde, sh analüüsi ja disaini kvaliteedi ning terviklikkuse, samuti selle alusel
+tehtava Töö Tulemi realiseeritavuse ja rakendatavuse (niivõrd, kuivõrd see on
+Tulemist tulenev) koostoimelise ja riigi infotehnoloogia põhimõtetele vastava
+infosüsteemina.
+
+7.1.4.
+
+Täitja tagab Tarkvara ühilduvuse Tellija toodangukeskkonnaga, sh Tellija
+tarkvaraga. Täitja on kohustatud järgima vaid selliseid Tellija
+toodangukeskkonna nõudeid, millest Tellija on Täitjat teavitanud.
+6
+
+7.2.
+
+7.3.
+
+7.1.5.
+
+Tööde käigus loodud lähtekood peab olema kirjutatud ja dokumenteeritud
+selliselt, et vajadusel oleks Tellija või kolmas isik võimeline aru saama
+tarkvara loogilisest ülesehitusest ning jätkama lähtekoodi arendusega,
+juhindudes Tellija veebilehel avaldatud Kliimaministeeriumi haldusala
+tehnoloogilisest profiilist ja KEMIT mittefunktsionaalsetest nõuetest.
+
+7.1.6.
+
+Täitjapoolne Tööde teostamise kohustuste täitmine ei tohi tekitada häireid
+Tellija mistahes teiste liidestatud süsteemide või teenuste talitluses, v.a juhul
+kui Täitja lähtus Töö teostamisel Tellijapoolsetest juhistest ja kokkulepetest,
+kuid sellele vaatamata tekkisid häired. Juhul kui Töö teostamine toimub
+Tellija ruumides, peavad Tellija ruumides viibivad Täitja Teostajad kinni
+pidama Tellija sellistest sisekorraeeskirjadest, sh turvanõuetest, mida on
+Täitja Teostajatele tutvustatud.
+
+7.1.7.
+
+Lepingu suhtluskeel on eesti keel.
+
+Meeskond ja alltöövõtjad
+7.2.1.
+
+Töid teostavad üksnes Täitja pakkumuses nimetatud isikud. v.a juhul, kui
+põhjendatud vajaduse korral on Täitja meeskonnaliige asendatud Tellija
+kirjalikku taasesitamist võimaldavas vormis antud nõusolekul uue, algse
+hanke tingimustele vastava meeskonnaliikmega.
+
+7.2.2.
+
+Täitja asendab enda kulul Tööd teostava isiku viivitamatult pakkumuses
+nimetatud isiku töökogemusele vastava isikuga, saades selleks Tellija eelneva
+kirjalikku taasesitamist võimaldavas vormis väljendatud nõusoleku, kui:
+
+7.2.2.1.
+
+Tööd teostav isik ei ole võimeline teostama tööd haiguse, õnnetusjuhtumi või
+muu temast tuleneva asjaolu tõttu;
+
+7.2.2.2.
+
+pakkumuses nimetatud isik osutub tellija põhjendatud arvamuse kohaselt
+ebakompetentseks või ebasobivaks või kui temapoolne ülesannete täitmine
+korduvalt kahjustab Hankelepingu nõuetekohast või õigeaegset täitmist.
+
+7.2.3.
+
+Töid võivad Hankelepingu alusel teha üksnes Täitja pakkumuses konkreetselt
+nimetatud või Tellijaga muul viisil eelnevalt kirjalikult kooskõlastatud
+alltöövõtjad. Täitja esitab hankelepingu täitmisel alltöövõtja, kellega
+sõlmitud alltöövõtulepingu käibemaksuta maksumus ületab 50 000 eurot,
+nime ja registrikoodi.
+
+Projekti halduskeskkonnad
+7.3.1.
+
+Tööülesannete halduskeskkond:
+
+7.3.1.1.
+
+Tööülesannete halduskeskkond on konfiguratsiooni- ja tööülesannete
+haldustarkvara, mida kasutatakse Projekti töödes leitud Vigade ja
+probleemide registreerimiseks tööülesannetena ning tööülesannete täitmise
+jälgimiseks. Tellija registreerib Projekti tulemis leitud Vead tööülesannetena
+Tööülesannete halduskeskkonnas.
+
+7.3.1.2.
+
+Halduskeskkonna tarkvarale luuakse ligipääs veebiaadressi kaudu.
+
+7.3.1.3.
+
+Tellija võib lisaks Tööülesannete halduskeskkonnas registreerimisele viidata
+leitud Vigadele ka e-kirjavahetuses ja muudes kirjades, kuid
+Vea/tööülesandega tegelema hakkamise eelduseks on selle registreerimine
+Tööülesannete halduskeskkonnas.
+
+7
+
+7.3.1.4.
+
+Vajadusel lepivad Pooled kokku täpsema Tööülesannete halduskeskkonna
+kasutamise korra, milles täpsustatakse ülesannete lisamise nõuded
+(pealkirjad, teemad, ülesannete prioriteetide kategooriad jmt).
+
+7.3.1.5.
+
+Tööülesannete halduskeskkond lepitakse kokku Hankelepingus.
+
+7.3.2.
+
+Projekti dokumendihalduskeskkond:
+
+7.3.2.1.
+
+Projekti dokumendihalduskeskkonda kasutatakse Tellija ja Täitja vaheliseks
+infovahetuseks ning selle keskkonna kasutamine on kohustuslik dokumentide
+vahetamisel.
+Tellija
+edastab
+Tööde
+lähteinfo
+Projekti
+dokumendihalduskeskkonna kaudu, lisades dokumendi kokkulepitud
+dokumendi kataloogi ning edastades e-kirja või Tööülesannete
+halduskeskkonna kaudu lingi nimetatud dokumendile.
+
+7.3.2.2.
+
+Täitja edastab koostatud dokumendid Tellijale ülevaatamiseks ja
+kooskõlastamiseks Projekti dokumendihalduskeskkonna kaudu, lisades need
+dokumenditeegi kokkulepitud kausta.
+
+7.3.2.3.
+
+Dokumendi kustutamine Projekti dokumendihalduskeskkonnast on lubamatu
+(v.a juhul, kui Tellija ja Täitja projektijuhid on kustutamiseks selge nõusoleku
+andnud).
+
+7.3.2.4.
+
+Dokumendihalduskeskkonna tarkvarale luuakse ligipääs veebiaadressi
+kaudu.
+
+7.3.2.5.
+
+Vajadusel
+lepivad
+Pooled
+kokku
+täpsema
+Projekti
+dokumendihalduskeskkonna kasutamise korra, milles täpsustatakse
+dokumentide lisamise tingimused (pealkirjad, koodid, teemad, kategooriad
+jmt).
+
+7.3.2.6.
+
+Projekti
+dokumendihalduskeskkond
+alusdokumentides.
+
+7.3.3.
+
+Arendus-, Test- ja Toodangukeskkonnad:
+
+7.3.3.1.
+
+Arenduskeskkond koosneb arendus andmebaasist, rakendusserverist ja
+ligipääsust väliste süsteemide liideste testkeskkondadele.
+
+7.3.3.2.
+
+Testkeskkond koosneb test andmebaasist, rakendusserverist ja ligipääsust
+väliste süsteemide liideste testkeskkondadele.
+
+7.3.3.3.
+
+Toodangukeskkond koosneb live andmebaasist, rakendusserverist
+ligipääsust väliste süsteemide liideste live keskkondadele.
+
+7.3.3.4.
+
+Pooled teevad mõistlikud pingutused tagamaks, et Testkeskkond sarnaneks
+Toodangukeskkonnale järgmises osas:
+
+on
+
+määratletud
+
+Riigihanke
+
+ja
+
+(a) arvutivõrgu konfiguratsioon;
+(b) liidesed kolmandate süsteemidega;
+(c) andmete kvaliteet ja maht.
+Kui maksimaalne sarnasus ei ole majanduslikult põhjendatud või tulenevalt
+andmekaitse piirangutest mõistlik, kohustub Pool informeerima teist Poolt
+Test- ja Toodangukeskkondade disainitud erinevustest. Vajadusel lepivad
+Pooled kokku alternatiivse võimaluse keskkondade erinevuse puudujäägi
+kompenseerimiseks.
+8
+
+7.3.3.5.
+7.4.
+
+Arendus-, Test- ja Toodangukeskkondade installeerimise, keskkondade ning
+ligipääsude haldamise osas lepitakse kokku Hankelepingus.
+
+Projekti põhitegevused
+7.4.1.
+
+Süsteemianalüüs (detailanalüüs):
+
+7.4.1.1.
+
+Täitja teeb süsteemianalüüsi, võttes aluseks Minikonkursi tehnilise kirjelduse
+ning Tellija edastatud täpsustava lähtematerjali, mis on Tellija äriprotsessi
+asjassepuutuvate osapooltega (lõppkasutajad jmt) eelnevalt kooskõlastatud.
+
+7.4.1.2.
+
+Süsteemianalüüsi tulemuseks on süsteemi komponente ja nende toimimist
+detailselt kirjeldavad dokumendid – Spetsifikatsioonid -, mis on mõlema
+Poole jaoks üheselt mõistetavad. Spetsifikatsioonid on sisendiks nii
+programmeerijatele kui ka testijatele.
+
+7.4.1.3.
+
+Tellija edastab komponendi lähteinfo, mis sisaldab ekraanivaadete mustandit,
+tööprotsessi kirjeldust, loogiliste kontrollide loetelu ja kirjeldusi, seoseid
+teiste infosüsteemidega jm olulist infot, Projekti dokumendihalduskeskkonna
+kaudu Projektiplaanis kokkulepitud tähtajaks. Kui vaja, siis Pooled
+täpsustavad eelnevalt, kas ja kui jah, siis millist lähteinfot on Tellijalt vaja
+analüüsi alustamiseks.
+
+7.4.1.4.
+
+Täitja analüütik tutvub Tellija koostatud eelinfoga.
+
+7.4.1.5.
+
+Kui tegemist on visuaalset väljundit omava komponendi Spetsifikatsiooniga,
+siis
+Täitja analüütik koostab komponendi esialgse prototüübi ning
+spetsifitseerib komponendi kontrollid, seotud protsessid, seosed andmebaasi
+ja teiste infosüsteemidega.
+
+7.4.1.6.
+
+Täitja analüütik täpsustab komponendi nõuded, seosed jmt analüüsi
+koosolekul. Kui Tellija ei oska kõigile analüüsi küsimustele koosolekul
+vastata, vastab Tellija projektijuht küsimustele kirjalikult pärast koosolekut
+esimesel mõistlikul võimalusel.
+
+7.4.1.7.
+
+Kui analüüs vajab teise arendaja kommentaari (nt realiseeritakse liidestumist
+teise arendaja koodiga), siis osalevad nõupidamisel kõikide osapoolte
+analüütikud (efektiivsuse eesmärgil on soositud arendajate omavaheline
+suhtlus ka Skype’i või sarnase teenuse jututoa kaudu) ning kokkulepitud
+lahendus kooskõlastatakse Tööülesannete halduskeskkonnas kõikide
+osapoolte projektijuhtidega.
+
+7.4.1.8.
+
+Täitja analüütik täiendab ja parandab Spetsifikatsiooni. Vajadusel korratakse
+eelnevat sammu, kuni kogu komponendi Spetsifikatsiooni esialgne versioon
+on valmis.
+
+7.4.2.
+
+Spetsifikatsioonide kinnitamine:
+
+7.4.2.1.
+
+Analüüsi valmimisel saadetakse Spetsifikatsioon Tellijale ülevaatamiseks ja
+kommenteerimiseks, kasutades selleks Tööülesannete halduskeskkonda.
+
+7.4.2.2.
+
+Tellija määrab isiku, kelle kaudu toimub analüüsi tööülesannete vahendamine
+Tellija ja Täitja vahel. See isik edastab vajadusel tööülesande vastava
+teemaga seotud isikutele läbivaatamiseks ning vastutab ülesannete õigeaegse
+tagasiside andmise ja kinnitamise eest.
+
+7.4.2.3.
+
+Tellija on kohustatud tagasiside Spetsifikatsiooni osas esitama esimesel
+mõistlikul võimalusel.
+9
+
+7.4.2.4.
+
+Sama Spetsifikatsioon saadetakse ülevaatamiseks ja kommenteerimiseks
+kuni Tellija kooskõlastab selle.
+
+7.4.2.5.
+
+Tellija tutvub Spetsifikatsiooniga, mis on tööülesandena Tellija nimel, ning
+kui analüüsi tulemid vastavad ootustele (st vastavad Minikonkursi tehnilisele
+kirjeldusele ning analüüsi käigus kokkulepitule), kinnitab Tellija
+tööülesandes Spetsifikatsiooni, kirjutades vastava kommentaari. Kui
+Spetsifikatsioonis esinevad puudused ning kinnitust veel ei saa anda, lisab
+Tellija tööülesandesse vastavad kommentaarid. Pärast tööülesandega
+tegelemist suunab Tellija tööülesande tagasi Täitja analüütikule.
+
+7.4.2.6.
+
+Kinnitatud Spetsifikatsioon on lähteülesandeks arendustöödele.
+
+7.4.2.7.
+
+Nii Tellija kui ka Täitja on kohustatud tegema kõik endast oleneva, et
+Spetsifikatsioonid saaksid lõplikult kinnitatud Projektiplaanis kokku lepitud
+arendustööde alustamise tähtajaks.
+
+7.4.3.
+
+Tarkvaraarendus ja testimine:
+
+7.4.3.1.
+
+Süsteemiarenduse etapis on Täitja ülesanne realiseerida Spetsifikatsioonides
+kirjeldatu Tarkvara komponentideks – kujundus, veebikihi komponendid,
+baasikihi osa jne. Loomise järel komponendid integreeritakse
+Arenduskeskkonda, testitakse ja parandatakse Vead.
+
+7.4.3.2.
+
+Täitja arendaja realiseerib komponendid vastavalt Spetsifikatsioonile.
+
+7.4.3.3.
+
+Täitja testija testib realiseeritud komponentide vastavust Spetsifikatsioonile
+ning edastab Täitjale tööülesanded leitud Vigadest. Täitja arendaja parandab
+testija leitud Vead.
+
+7.4.3.4.
+
+Arendusetapi lõpus esitab Täitja realiseeritud ja testitud komponendid
+Tellijale Testkeskkonda testimiseks. Arendusetapi Tööde tulemi
+Tellijapoolseks testimise hõlbustamiseks esitab Täitja ka Tööde etapi
+aruande, milles täpsustatakse tehtud Tööde loetelu.
+
+7.4.3.5.
+
+Tellija testib komponendid ning edastab Vead Tööülesannete
+halduskeskkonna kaudu mõistliku aja jooksul alates arendustarne
+kättesaamisest või Töö tulemite Tellijale vastuvõtmiseks esitamisest.
+Eeldatakse, et mõistlik aeg testimiseks on Tööde etappide puhul 5 tööpäeva
+alates arendustarne kätte saamisest ning kõikide Tööde lõpliku üleandmise
+puhul 20 tööpäeva alates Täitja poolt Töö tulemite Tellijale vastuvõtmiseks
+esitamisest. Põhjendatud vajaduse korral teavitab Tellija Täitjat vajadusest
+võtta testimiseks eeldatust pikem ajaperiood.
+
+7.4.3.6.
+
+Täitja eesmärgiks on kõrvaldada Tellija õigeaegselt raporteeritud Vead
+järgmiseks arenduse tarneks.
+
+7.4.3.7.
+
+Pärast Vigade parandust ning paranduste Täitjapoolset ületestimist tarnib
+Täitja Tööd uuesti Testkeskkonda ning Tellija kordab testimist.
+
+7.4.3.8.
+
+Tellijal on alates teisest kordustestimisest õigus nõuda Täitjalt
+kordustestidega seotud kulutuste (Tellija kulutatud tööaeg ja/või Tellija
+testimispartnerite poolt esitatud arvete alusel) hüvitamist.
+
+10
+
+7.4.3.9.
+
+7.5.
+
+Kui täitja annab vigade parandamise järgselt üle tööd, milles Tellija
+vastuvõtutestimise käigus esineb jätkuvalt Vigu (teistkordne vigadega tööde
+üleandmine), võib Tellija otsustada, kas anda Täitjale uus tähtaeg Vigade
+parandamiseks või kõrvaldada Vead ise või Kolmanda isiku kaasabil,
+vähendades Täitjale makstavat tasu Vigade parandamiseks tehtud kulutustega
+või nõudes vastavad kulud eraldi Täitjalt sisse.
+
+Täiendusvajaduste realiseerimine
+7.5.1.
+
+Tellija esitab Täitjale Tööülesannete halduskeskkonnas soovi parandada või
+täiendada olemasolevat komponenti/funktsionaalsust või luua täiendav
+komponent või funktsionaalsus.
+
+7.5.2.
+
+Täitja analüüsib Tellija soovi ning selgitab välja, kas tegemist on
+Täiendusvajadusega, ning teavitab sellest Tellija projektijuhti, vajadusel
+esitades Tellijale täpsustavad küsimused.
+
+7.5.3.
+
+Tellija vastab Täitja täpsustavatele küsimustele ning vajadusel täiendab või
+muudab oma soovi.
+
+7.5.4.
+
+Täitja esitab Tellijale oma hinnangu Täiendusvajaduse realiseerimise mahu,
+tähtaegade ja maksumuse osas. Kui tegemist on Täiendusvajadusega Projekti
+keskel, annab Täitja hinnangu, milliseid ressursse ja millises mahus on vajalik
+muudatuste sissearvestamiseks ümber hinnata ning millised on muudatused
+Tööde teostamise tähtaegades.
+
+7.5.5.
+
+Tellija teeb otsuse Täiendusvajaduse realiseerimise osas vastavalt Täitja
+esitatud tingimustele.
+
+7.5.6.
+
+Kui Tellija loobub mõnest Tööst, mis oli esialgses Tööde mahus
+kokkulepitud, siis kas vähendatakse Lepingu maksumust nende Tööde
+maksumuse võrra või, alternatiivselt, teostatakse nende Tööde jaoks
+planeeritud töötundide raames skoobiväliseid täiendavaid töid. Vastava
+muudatuse kokkuleppimisel tuleb lähtuda riigihangete seaduses sätestatud
+tingimustest.
+
+8.
+
+TÖÖDE ÜLEANDMINE, VIGADE KÕRVALDAMINE
+
+8.1.
+
+Täitja annab Tööd üle Hankelepingus sätestatud tähtaegadel ja tingimustel. Koos
+Töödega antakse üle nõuetekohane dokumentatsioon, kommenteeritud lähtekood,
+intellektuaalomandi õigused ja muu Hankelepingus kokkulepitu.
+
+8.2.
+
+Analüüsitööde vastavuse hindamisel kontrollib Tellija, kas dokumenteeritud lahendus
+vastab Hankelepingule ja analüüsiprotsessi käigus Tellija poolt antud sisenditele.
+Vajadusel täpsustab Tellija Spetsifikatsioonis kirjeldatut, andes Täitjale tagasisidet.
+
+8.3.
+
+Arendustööde vastavust nõuetele hinnatakse Tööde testimisel kokkulepitud
+Testkeskkonnas vastavalt eelmises Lepingu peatükis sätestatud tingimustele.
+Arendustööde vastavuse hindamisel lähtutakse Hankelepingus ning Spetsifikatsioonis
+kokku lepitud ülesandepüstitusest. Spetsifikatsioonis ja Hankelepingus esineva vastuolu
+korral lähtutakse hilisemast kokkuleppest ehk Spetsifikatsioonist.
+
+8.4.
+
+Tellija võib Töö ülevaatamisele kaasata ja selleks kasutada kolmandaid isikuid,
+kusjuures nii Tellijal kui ka tema poolt kaasatud kolmandatel isikutel on õigus täiendava
+tasu maksmiseta Töö või selle vahetulemuse ülevaatamiseks kasutada kõiki selleks
+vajalikke Tööga või selle vahetulemusega seotud Intellektuaalse omandi õigusi.
+11
+
+8.5.
+
+Tööde vastuvõtmine fikseeritakse Aktiga. Viimase Tööde etapi lõpus esitab Täitja
+allkirjastamiseks Koondakti, millega peab olema hõlmatud kogu Hankelepingu ese (sh
+iga Tööde etapi lõpus üle antud Tööd).
+
+8.6.
+
+Täitja annab Tööd üle omalt poolt allkirjastatud Aktiga. Hooldustööde teostamisel tuleb
+koos Aktiga esitada ajaaruanne. Sõltuvalt Hankelepingu esemest, peavad tehtud
+analüüsi -, hooldus- ja arendustööd olema Aktis teineteisest eristatud.
+
+8.7.
+
+Tellija võtab Tööd vastu Akti allkirjastamisega pärast Tööde nõuetekohasuse
+kontrollimist või edukat vastuvõtutestimist. Tööde etappide üleandmine ja
+vastuvõtmine vormistatakse Aktiga ning Projekti lõplik üleandmine ja vastuvõtmine
+vormistatakse Koondaktiga. Tööd loetakse nõuetekohaselt teostatuks, kui Tööd
+vastavad Hankelepingule, (asjakohasel juhul) vastuvõtutestid on Vigadeta läbitud ja
+Tööd on Aktiga Tellija poolt vastu võetud.
+
+8.8.
+
+Tellijal on õigus võtta Töid vastu ka osaliselt ning koos vaegtöödega.
+
+8.9.
+
+Tellija teavitab Täitjat Töös või selle Tulemis esinevatest Vigadest, iseloomust ja
+ulatusest viivitamatult nende ilmnemisel, kirjeldades leitud vead enda muudatuste- ja
+vigade halduskeskkonnas ning määrates Vea kriitilisuse astme.
+Vastavalt Tellija poolt määratletud Vea kriitilisuse astmele peab Täitja kuni Tööde
+lõpliku üleandmiseni ning Garantii perioodi jooksul kõrvaldama enda kulul Vead
+järgmiste tähtaegade jooksul:
+
+8.10.
+
+8.10.1.
+8.10.2.
+8.10.3.
+
+Kriitilise taseme viga - lahendus tervikuna mitte-ligipääsetav või kasutatav
+tulenevalt tarkvaralisest tõrkest, kõigi kasutajate töö süsteemis on võimatu:
+lahendamine 1 tööpäeva jooksul alates Tellija poolt tõrke teate esitamisest;
+Keskmise taseme viga - mõni tarkvara süsteemi funktsionaalsus ei toimi
+ettenähtud moel, ühe osakonna/kasutajate grupi töö on häiritud: lahendamine
+2 tööpäeva jooksul alates Tellija poolt tõrke teate esitamisest;
+Madala taseme viga - tarkvara süsteem kasutatav, kasutajate töö mugavus
+langenud, kuid mitte häiritud või võimatu: lahendamine 10 tööpäeva jooksul
+alates Tellija poolt tõrke teate esitamisest või vastavalt kokkuleppele
+Tellijaga.
+
+9.
+
+GARANTII
+
+9.1.
+
+Täitja annab hankelepingu alusel teostatud töödele garantii 12 kuud. Garantii hakkab
+kehtima hetkest, millal tellija võtab töö toodangukeskkonnas kasutusele. Kui Tellija ei
+võta tööd toodangukeskkonnas kasutusele 3 kuu möödumisel alates tööde
+vastuvõtmisest, algab garantii nimetatud aja möödumisel. Kui arendustöö teostatakse ja
+võetakse vastu etappidena, algab lisaks eeltoodule tööle kui tervikule 12-kuuline
+garantii tervikliku töö toodangus kasutuselevõtmisest või toodangukeskkonnas
+kasutusele võtmata jätmisel 3 kuu möödumisel alates tervikliku töö vastuvõtmisest.
+
+9.2.
+
+Garantiiga ei ole hõlmatud:
+9.2.1.
+
+ekspluatatsioonihäirete kõrvaldamine, mis on põhjustatud Tellija või tema
+poolt kasutatava kolmanda isiku poolt juhuslikust või tahtlikust Tarkvara
+kahjustamisest või ebaõigest kasutamisest;
+
+9.2.2.
+
+Vead, mis on tingitud Tarkvara kasutamisest vastuolus Täitja koostatud ja
+Tellija poolt vastu võetud dokumentatsiooniga;
+12
+
+9.2.3.
+
+probleemid, mis tulenevad Tellija kasutajate andmesisestusvigadest või
+liidestatud süsteemide sisenditest, vaatamata sellele, et Täitja on
+nõuetekohaselt rakendanud sisendikontrolli;
+
+9.2.4.
+
+seotud süsteemide liideste kooskõlastamata muudatusest tulenevad
+funktsionaalsed häired ja andmekvaliteedi probleemid;
+
+9.3.
+
+Garantiiperioodil ilmnenud Garantiiga hõlmatud Vead kõrvaldab Täitja tasuta vastavalt
+Lepingu punktis 8.10 sätestatud tähtaegadele.
+
+9.4.
+
+Kui Täitja ei suuda Vigu kokkulepitud tähtajaks kõrvaldada, võib Tellija korraldada
+Vigade kõrvaldamise kolmanda isiku abil, teavitades sellest eelnevalt Täitjat. Tellijal on
+õigus nõuda, et Täitja katab mõistlikud kulud, mis tekkisid seoses kolmanda isiku
+kaasamisega Vea kõrvaldamisse juhul, kui Tellija tõendab, et tegemist oli garantiiga
+hõlmatud Veaga. Kolmanda isiku poolt tehtud koodimuudatuste garantiikohustus lasub
+nimetatud kolmandal isikul, v.a juhul kui Pooled on kokku leppinud teisiti.
+
+9.5.
+
+Kui Viga ei kuulu garantii korras kõrvaldamisele, esitab Täitja Tellijale põhjendused
+kirjalikus vormis viivitamatult, kuid mitte hiljem kui järgmisel tööpäeval pärast sellest
+asjaolust teada saamist.
+
+9.6.
+
+Kui Poolte vahel tekib vaidlus Vea üle, lepivad Pooled kokku sõltumatu ekspertiisi
+tellimises. Pooled on kohustatud tagama eksperdi nõudmisel ligipääsu vajalikele
+andmetele või informatsioonile. Ekspertiisikulud kannab Pool, kes ekspertiisiakti
+kohaselt Vea garantiilisuse hindamisel eksis.
+
+9.7.
+
+Garantii kaotab kehtivuse, kui Täitjaga kooskõlastamata on muudetud või muudetakse
+lähtekoodi (v.a Lepingus sätestatud viisil kolmanda isiku kaasamisel Vea
+kõrvaldamisse. Samuti ei kaota garantii kehtivust, kui Tellija suudab eristada
+lähtekoodis tehtavaid muudatusi.).
+
+10.
+
+INTELLEKTUAALSE OMANDI ÕIGUSED
+
+10.1. Vabavaralitsentsi mudel:
+Kui Lepingu põhitingimuste järgi on kasutusel VABAVARALITSENTSI MUDEL, siis
+kohaldatakse Lepingus intellektuaalse omandi õigustele järgmisi sätteid:
+Kasutusala: Varemsoetatud tarkvara puhul on EUPL juba kasutusel ning
+jätkuarenduste osas soovitakse sama mudeliga jätkata (alternatiiviks on ka jätkamine
+ühilduvate mudelite alusel) VÕI Kui alustatakse tarkvara loomist, kuid soov on
+kasutada EUPLi litsentsimudelit.
+10.1.1.
+
+Lepingu allkirjastamisega kinnitavad Pooled, et neile kuuluvad Lepingu
+täitmiseks vajalikud varalised autoriõigused, litsentsid ja muud
+intellektuaalse omandi õigused, mis on tarvilikud Lepingujärgse Töö
+täielikuks teostamiseks ja loovutamiseks käesolevas peatükis toodud ulatuses
+ning, et nende suhtes ei ole kolmandatel isikutel nõudeid. Pooled kinnitavad,
+et on võtnud tarvitusele kõik meetmed autori isiklike õiguste realiseerimiseks
+viisil, mis ei takista ega raskenda teose kasutamist ja autori varaliste õiguste
+teostamist.
+
+13
+
+10.1.2.
+
+Pool kohustub lahendama kõikvõimalikud litsentseeritud või vahendatud
+Tarkvaraga seotud Intellektuaalse omandi õigustest tekkivad vaidlused
+kolmandate isikute või oma töötajate või koostööpartneritega. Juhul kui
+Täitjapoolsetest litsentseerimisvigadest tulenevalt tekib Tellijale rahaline või
+muu kohustus või kui Tellija on kohustatud lõpetama Tarkvara kasutamise,
+on Tellijal õigus nõuda Täitjalt selle rahalise või muu kohustuse täitmist ja
+või kaotatud Tarkvaraga samaväärse tulemi loomist tasuta ja võimalikult
+lühikese aja jooksul, hoidudes mistahes viivitustest tulemi arendamises ja
+kasutuselevõtmises Tellija poolt.
+Jätkuarenduse korral lisada:
+Lepingu allkirjastamisel annab Tellija Täitjale Tarkvara edasiarendamiseks,
+vastavalt Tellijaga kokkulepitule, Euroopa Liidu tarkvara vaba kasutuse
+litsentsi v.1.1 (EUPL).
+
+10.1.3.
+
+Täitja annab Tööle Euroopa Liidu tarkvara vaba kasutuse litsentsi v.1.1
+(EUPL).
+
+10.1.4.
+
+Tellijal on muuhulgas õigus Töö autoriõiguste kehtivusaja jooksul:
+
+10.1.4.1.
+
+Tööd kasutada mis tahes eesmärgil ja mis tahes viisil;
+
+10.1.4.2.
+
+Tööd reprodutseerida;
+
+10.1.4.3.
+
+originaalteost muuta ja luua teosel põhinevaid tuletatud teoseid;
+
+10.1.4.4.
+
+Tööd või selle koopiaid üldsusele edastada, sealhulgas neid kättesaadavaks
+teha või eksponeerida, samuti avalikult esitada;
+
+10.1.4.5.
+
+Tööd või selle koopiaid levitada;
+
+10.1.4.6.
+
+Tööd või selle koopiaid laenutada ja rentida;
+
+10.1.4.7.
+
+anda all-litsentse Töö või selle koopiate suhtes kehtivate õiguste kohta.
+
+10.1.5.
+
+Tellija võib Töö autoriõigusi teostada mistahes olemasolevas või hiljem
+loodud keskkonnas, toel või formaadis.
+
+10.1.6.
+
+Täitja annab Tellijale vastavalt valdkonnas kehtivatele parimatele
+praktikatele dokumenteeritud lähtekoodi.
+
+10.1.7.
+
+Tellija viitab Täitjale kui Töö autorile. Tellija ei tohi eemaldada autoriõiguse
+märkeid, kui neid esineb lähtekoodis, mida kasutatakse tuletatud Teose
+kirjutamisel.
+
+10.1.8.
+
+Nimetatud õigused kehtivad kogu autoriõiguste kehtivuse aja ja nende
+kehtivuse territooriumiks on kogu maailm.
+
+10.1.9.
+
+Litsents loetakse antuks Töö või selle Etapi vastuvõtmise hetkest.
+
+10.1.10. Täitja tagab Tellijale kõik vajalikud autoriõigused Lepingu täitmise käigus
+loodava tarkvara kontrollimiseks, testimiseks ning süsteemi paigutamiseks
+ajaks, kuni Tellija ei ole üleandmise-vastuvõtmise aktiga Lepingu eset vastu
+võtnud. Käesolevas peatükis sätestatud autoriõigused lähevad Tellijale üle
+Töö või selle Etapi vastuvõtmise hetkest.
+10.1.11. Kommertstarkvara kasutamine:
+
+14
+
+10.1.11.1.
+
+Lepingu täitmisel Kommertstarkvara kasutamise osas juhinduvad Pooled
+nende kasutamise litsentsitingimustest. Täitja kinnitab, et eelistab tarkvara
+loomisel sellist Kommertstarkvara, mille litsentsimudelid ühilduvad
+EUPLiga või on kasutatavad koostoimes EUPLi alusel litsentseeritud
+tarkvaraga vastavalt EUPLi rakendusjuhistele;
+
+10.1.11.2.
+
+Täitja võib kasutada tarkvara loomisel Kommertstarkvara vaid Tellija
+eelneval kirjalikul nõusolekul ning tagades nende Kommertstarkvara
+komponentide kasutuselevõtmise vastavalt EUPLi rakendamise nõuetele.
+Kirjaliku nõusoleku taotlemisel on Täitja kohustatud esitama Tellijale
+litsentsi hinna, litsentsitingimused ja andmed lähtekoodi kättesaamise
+võimaluse kohta.
+
+10.1.11.3.
+
+Tasu Intellektuaalse omandi õiguste Tellijale ülemineku ja litsentside eest
+sisaldub Lepingu maksumuses ning Täitjal ei ole õigust nõuda täiendavat
+tasu nende õiguste üleandmise ega litsentsimise eest (sh Lepingu
+sõlmimise ajal tundmatute kasutusviiside lubamise eest tulevikus).
+
+10.2. Omandamismudel:
+Kui Lepingu põhitingimuste järgi on kasutusel OMANDAMISMUDEL, siis
+kohaldatakse Lepingus intellektuaalse omandi õigustele järgmisi sätteid:
+Kasutusala:
+Tarkvaralahenduse
+puhul
+on tegemist
+riigi
+infosüsteemi
+baaskomponendiga või tarkvara on oluline riigikaitselistel, sisejulgeoleku või
+küberturbe põhjustel, mistõttu on riigil huvi omada tarkvara koopiate levitamise üle
+maksimaalset kontrolli kasutades seetõttu tarkvara soetamisel IO õiguste omandamise
+mudelit (isiklike õiguste ainulitsents ja varaliste õiguste omandamine). Samuti juhul,
+kui loodava tarkvara alusplatvorm on omanduslik ehk kommertstarkvara või tarkvara
+sisaldab kommertstarkvara komponente, mille osas tuleb juhinduda tarkvara
+intellektuaalse
+omandi õiguste omaniku poolt kasutatavatest
+tarkvara
+litsentsitingimustest. Tarkvara loomisel tehtud kohandustele (spetsiaaltarkvara
+komponentidele) aga rakendatakse ainulitsentsi, mis tagab riigile maksimaalse
+kontrolli spetsiaaltarkvara komponentide ning ka loodud terviklahenduse koopiate
+levitamise üle.
+10.2.1.
+
+Lepingu allkirjastamisega kinnitavad Pooled, et neile kuuluvad Lepingu
+täitmiseks vajalikud varalised autoriõigused, litsentsid ja muud
+intellektuaalse omandi õigused, mis on tarvilikud Lepingujärgse Töö
+täielikuks teostamiseks ja loovutamiseks käesolevas peatükis toodud ulatuses
+ning, et nende suhtes ei ole kolmandatel isikutel nõudeid. Pooled kinnitavad,
+et on võtnud tarvitusele kõik meetmed autori isiklike õiguste realiseerimiseks
+viisil, mis ei takista ega raskenda teose kasutamist ja autori varaliste õiguste
+teostamist.
+
+10.2.2.
+
+Pool kohustub lahendama kõikvõimalikud litsentseeritud või vahendatud
+Tarkvaraga seotud Intellektuaalse omandi õigustest tekkivad vaidlused
+kolmandate isikute või oma töötajate või koostööpartneritega. Juhul kui
+Täitjapoolsetest litsentseerimisvigadest tulenevalt tekib Tellijale rahaline või
+muu kohustus või kui Tellija on kohustatud lõpetama Tarkvara kasutamise,
+on Tellijal õigus nõuda Täitjalt selle rahalise või muu kohustuse täitmist ja
+või kaotatud Tarkvaraga samaväärse tulemi loomist tasuta ja võimalikult
+lühikese aja jooksul, hoidudes mistahes viivitustest tulemi arendamises ja
+kasutuselevõtmises Tellija poolt.
+15
+
+Jätkuarenduse korral lisada:
+Lepingu allkirjastamisel annab Tellija Täitjale Tarkvara edasiarendamiseks
+lihtlitsentsi Tarkvara varaliste õiguste kasutamiseks Tellijaga kokkulepitud
+tööde teostamiseks ning Tellijale käesolevas jaos sätestatud tingimustel
+tehtud Tööde tagasi litsentsimiseks.
+10.2.3.
+
+Tööde autori varalised õigused lähevad üle Tellijale Töö või selle Etapi
+vastuvõtmise hetkest.
+
+10.2.4.
+
+Täitja annab Tellijale autori isikliku litsentsi ulatuses, mis võimaldab täiel
+määral kasutada üle antud varalisi õigusi.
+
+10.2.5.
+
+Täitja annab Tellijale tehtud Tööde osas ainulitsentsi autori isiklikele
+õigustele koos all-litsentsi andmise õigusega Tööde või selle Etapi
+vastuvõtmise hetkest. Nimetatud õigused kehtivad kogu autoriõiguste
+kehtivuse aja ja nende kehtivuse territooriumiks on kogu maailm.
+
+10.2.6.
+
+Täitja tagab Tellijale kõik vajalikud autoriõigused Lepingu täitmise käigus
+loodava Tarkvara kontrollimiseks, testimiseks ning süsteemi paigutamiseks
+ajaks, kuni Tellija ei ole üleandmise-vastuvõtmise aktiga lepingu eset vastu
+võtnud.
+
+10.2.7.
+
+Garantiiperioodi kehtivuse ajaks annab Tellija Täitjale üleilmse lihtlitsentsi
+Tarkvara varaliste õiguste kasutamiseks Tellijaga kokkulepitud Tööde
+teostamiseks ning Tellijale käesolevas jaos sätestatud tingimustel tuletatud
+Teoste tagasi litsentsimiseks.
+
+10.2.8.
+
+Täitja annab Tellijale vastavalt valdkonnas kehtivatele parimatele
+praktikatele dokumenteeritud lähtekoodi.
+
+10.2.9.
+
+Tellija võib Töö autoriõigusi teostada mistahes olemasolevas või hiljem
+loodud keskkonnas, toel või formaadis.
+
+10.2.10. Kommertstarkvara kasutamine:
+10.2.10.1.
+
+Lepingu täitmisel Kommertstarkvara kasutamise osas juhinduvad Pooled
+nende kasutamise litsentsitingimustest. Täitja kinnitab, et eelistab tarkvara
+loomisel sellist Kommertstarkvara, mille kasutamine ei too Tellijale kaasa
+täiendavaid litsentsitasusid või piiranguid tarkvara kasutamisel (v.a juhul,
+kui nimetatud Kommertstarkvara kasutamine oli ette nähtud Täitja
+hankepakkumuses);
+
+10.2.10.2.
+
+Täitja võib kasutada tarkvara loomisel pakkumuses mittenimetatud
+Kommertstarkvara vaid Tellija eelneval kirjalikul nõusolekul. Kirjaliku
+nõusoleku taotlemisel on Täitja kohustatud esitama Tellijale litsentsi
+hinna, litsentsitingimused ja andmed lähtekoodi kättesaamise võimaluse
+kohta;
+
+10.2.10.3.
+
+Tasu Intellektuaalse omandi õiguste Tellijale ülemineku ja litsentside eest
+sisaldub Lepingu maksumuses ning Täitjal ei ole õigust nõuda täiendavat
+tasu nende õiguste üleandmise ega litsentsimise eest (sh Lepingu
+sõlmimise ajal tundmatute kasutusviiside lubamise eest tulevikus).
+
+10.3. Lihtlitsentsi mudel:
+Kui Lepingu põhitingimuste järgi on kasutusel LIHTLITSENTSI MUDEL, siis
+kohaldatakse Lepingus intellektuaalse omandi õigustele järgmisi sätteid:
+16
+
+Kasutusala: Tarkvaralahenduse puhul ei ole piiranguid litsentseerimise osas (näiteks ei
+ole varasemat tarkvara versiooni litsentseeritud kasutades copyleft nõudega
+litsentsimudelit, mis dikteerib seda, milliseid litsentsimudeleid edaspidi tuletatud teoste
+osas kasutada saab) ja tegemist ei ole riigi baaskomponendiga ega tarkvaraga mille
+levitamise osas peaks riigil olema maksimaalne kontroll riigikaitselistel, sisejulgeoleku
+või küberturbe põhjustel. Sellisel tarkvara soetamisel peab riik eelistama
+litsentsimudelit, mis tagab riigile kõik vajalikud õigused tarkvara kasutamiseks ja
+levitamiseks (s.h. tuletatud teoste loomiseks, all-litsentside andmiseks või müümiseks),
+kuid jätab ka tarkvara loojale vajalikud õigused alles, et tarkvara või selle
+alamkomponentidega seotud edasisi ärivõimalusi realiseerida.
+Järgnev litsentsimudel sobib kasutamiseks ka juhul, kui loodava tarkvara alusplatvorm
+on omanduslik ehk kommertstarkvara või Tarkvara sisaldab kommertstarkvara
+komponente, mille osas tuleb juhinduda tarkvara intellektuaalse omandi õiguste
+omaniku poolt kasutatavatest tarkvara litsentsitingimustest. Tarkvara loomisel tehtud
+kohandustele (spetsiaaltarkvara komponentidele) aga rakendatakse lihtlitsentsi, mis
+tagab riigile kõik vajalikud õigused kohandatud tarkvara osade kasutamiseks ja
+levitamiseks.
+10.3.1.
+
+Lepingu allkirjastamisega kinnitavad Pooled, et neile kuuluvad Lepingu
+täitmiseks vajalikud varalised autoriõigused, litsentsid ja muud
+intellektuaalse omandi õigused, mis on tarvilikud Lepingujärgse Töö
+täielikuks teostamiseks ja loovutamiseks käesolevas peatükis toodud ulatuses
+ning, et nende suhtes ei ole kolmandatel isikutel nõudeid. Pooled kinnitavad,
+et on võtnud tarvitusele kõik meetmed autori isiklike õiguste realiseerimiseks
+viisil, mis ei takista ega raskenda teose kasutamist ja autori varaliste õiguste
+teostamist.
+
+10.3.2.
+
+Pool kohustub lahendama kõikvõimalikud litsentseeritud või vahendatud
+Tarkvaraga seotud Intellektuaalse omandi õigustest tekkivad vaidlused
+kolmandate isikute või oma töötajate või koostööpartneritega. Juhul kui
+Täitjapoolsetest litsentseerimisvigadest tulenevalt tekib Tellijale rahaline või
+muu kohustus või kui Tellija on kohustatud lõpetama Tarkvara kasutamise,
+on Tellijal õigus nõuda Täitjalt selle rahalise või muu kohustuse täitmist ja
+või kaotatud Tarkvaraga samaväärse tulemi loomist tasuta ja võimalikult
+lühikese aja jooksul, hoidudes mistahes viivitustest tulemi arendamises ja
+kasutuselevõtmises Tellija poolt.
+Jätkuarenduse korral lisada:
+Lepingu allkirjastamisel annab Tellija Täitjale Tarkvara edasiarendamiseks
+lihtlitsentsi Tarkvara varaliste õiguste kasutamiseks Tellijaga kokkulepitud
+tööde teostamiseks ning Tellijale käesolevas jaos sätestatud tingimustel
+tehtud Tööde tagasi litsentsimiseks.
+
+10.3.3.
+
+Täitja annab Tellijale tehtud Tööde osas autoriõiguse seaduse tähenduses
+ülemaailmse tagasivõtmatu lihtlitsentsi kõikide varaliste ja isiklike õiguste
+suhtes Tööle nende autoriõiguste kehtivuse tähtajaks alljärgnevatel
+tingimustel:
+
+10.3.3.1.
+
+Tööd kasutada mis tahes eesmärgil ja mis tahes viisil;
+
+10.3.3.2.
+
+Tööd reprodutseerida (s.h. tasuta jagada, avalikult kättesaadavaks teha või
+müüa);
+17
+
+11.
+
+10.3.3.3.
+
+Ise või kolmandaid isikuid kaasates Teost muuta ja luua Teosel põhinevaid
+tuletatud teoseid;
+
+10.3.3.4.
+
+Tööd üldsusele edastada, sealhulgas neid (üldsusele) kättesaadavaks teha
+(sh internetis) või eksponeerida, samuti avalikult esitada;
+
+10.3.3.5.
+
+Tööd laenutada ja rentida;
+
+10.3.3.6.
+
+Anda all-litsentse tehtud Töö või selle koopiate suhtes kehtivate õiguste
+kohta.
+
+10.3.4.
+
+Täitja annab Tellijale vastavalt valdkonnas kehtivatele parimatele
+praktikatele dokumenteeritud lähtekoodi.
+
+10.3.5.
+
+Tellija viitab Täitjale kui Töö autorile, kuid Tellija ei taga, et kolmandad
+isikud (sh riigiasutused, kes kasutavad Tööd) viitavad Täitjale kui Töö
+autorile. Tellija ei vastuta eeltoodud isikute Täitjale viitamata jätmise eest.
+
+10.3.6.
+
+Tellija võib Teose autoriõigusi teostada mistahes olemasolevas või hiljem
+loodud keskkonnas, toel või formaadis.
+
+10.3.7.
+
+Litsents loetakse antuks Töö või selle Etapi vastuvõtmise hetkest.
+
+10.3.8.
+
+Täitja tagab Tellijale kõik vajalikud autoriõigused Lepingu täitmise käigus
+loodava Tarkvara kontrollimiseks, testimiseks ning süsteemi paigutamiseks
+ajaks, kuni Tellija ei ole üleandmise-vastuvõtmise aktiga lepingu eset vastu
+võtnud.
+
+10.3.9.
+
+Kommertstarkvara kasutamine:
+
+10.3.9.1.
+
+Lepingu täitmisel Kommertstarkvara kasutamise osas juhinduvad Pooled
+nende kasutamise litsentsitingimustest. Täitja kinnitab, et eelistab tarkvara
+loomisel sellist Kommertstarkvara, mille kasutamine ei too Tellijale kaasa
+täiendavaid litsentsitasusid või piiranguid tarkvara kasutamisel (v.a juhul,
+kui nimetatud Kommertstarkvara kasutamine oli ette nähtud Täitja
+hankepakkumuses);
+
+10.3.9.2.
+
+Täitja võib kasutada tarkvara loomisel pakkumuses mittenimetatud
+Kommertstarkvara vaid Tellija eelneval kirjalikul nõusolekul. Kirjaliku
+nõusoleku taotlemisel on Täitja kohustatud esitama Tellijale litsentsi
+hinna, litsentsitingimused ja andmed lähtekoodi kättesaamise võimaluse
+kohta;
+
+10.3.9.3.
+
+Tasu Intellektuaalse omandi õiguste ja litsentside eest sisaldub Lepingu
+maksumuses ning Täitjal ei ole õigust nõuda täiendavat tasu nende õiguste
+üleandmise ega litsentsimise eest (sh Lepingu sõlmimise ajal tundmatute
+kasutusviiside lubamise eest tulevikus).
+
+OMANDIÕIGUSE ÜLEMINEK
+
+11.1. Kui Töö sisaldab Täitja poolt Tellijale üleantavaid asju, siis läheb asja omandiõigus
+Täitjalt Tellijale üle vastavat asja sisaldava Töö vastuvõtmise või vastavalt
+Hankelepingule vastuvõetuks lugemise hetkest.
+12.
+
+KONFIDENTSIAALSUS
+18
+
+12.1. Konfidentsiaalne on muu hulgas järgmine informatsioon (olenemata sellest, kas see on
+esitatud konkreetses või nähtavas vormis, andmekandjal või suuliselt):
+12.1.1.
+
+Poolega mistahes viisil seotud avalik-õiguslike ja eraõiguslike füüsiliste ja
+juriidiliste isikute, sh Poole töötajate ja nende tegevusega seotud info,
+tehnilised andmed, muud andmed, lepingud, finantsandmed ja
+raamatupidamise näitajad, teenuste ja kaupade hinnakujundus, Poole
+kasutatav infotehnoloogia ja materjalid, spetsifikatsioonid, joonised,
+informatsioon, mis puudutab Poole poolt teostatud arendustööd ja
+oskusteavet, Poole asutusesiseseks kasutamiseks tunnistatud teave,
+riigisaladuseks tunnistatud teave, info teise poole omaniku ja juhtorganite
+tegevuse, lepingute sõlmimise, lõppemise ja läbirääkimiste kohta ning muu
+teave (sh ärisaladused), mis ei ole kolmandatele isikutele õiguspäraselt
+konfidentsiaalsuskohustuseta kättesaadavad ning on Poolele teatavaks saanud
+Lepingu või Poolte vahel sõlmitud muu kokkuleppe ettevalmistamise,
+täitmise või rikkumise tõttu;
+
+12.1.2.
+
+informatsioon, millel on märge „konfidentsiaalne” või mille
+konfidentsiaalsust nõuab seadus või mille kohta on Pool teatanud, et tegemist
+on konfidentsiaalse informatsiooniga või mille kohta Pool peaks põhjendatult
+arvama, et teine pool peab seda konfidentsiaalseks.
+
+12.2. Pool ei avalda konfidentsiaalset informatsiooni kolmandatele isikutele ning teeb kõik
+endast oleneva, et talle avaldatud konfidentsiaalne informatsioon ei satuks kolmandate
+isikute valdusesse. Konfidentsiaalse informatsiooni avaldamine kolmandatele isikutele
+võib toimuda ainult seaduses otseselt ettenähtud juhtudel või Poole eelneval kirjalikul
+nõusolekul või kui see on vajalik Lepingust tulenevate õiguste või kohustuste
+teostamiseks. Pool peab tagama, et Lepingus kokkulepitud konfidentsiaalsuskohustus
+laieneb kõigile Lepingu täitmisesse kaasatud isikutele. Konfidentsiaalsusnõue ei laiene
+Poolte pankadele, advokaatidele, audiitoritele ja teistele isikutele, kelle kohaldub
+õigusaktidest tulenev konfidentsiaalsuskohustus.
+12.3. Pool kohustub kasutama konfidentsiaalset informatsiooni ainult Lepingu eesmärkide
+täitmiseks. Konfidentsiaalsuskohustuse rikkumine ei ole õigusaktides ettenähtud
+juhtudel Lepingut puudutava informatsiooni avaldamine selleks õigustatud riigi- ja
+valitsusasutustele. Poolel on õigus avaldada konfidentsiaalset informatsiooni seadusliku
+aluse või Poole eelneva kirjaliku nõusoleku puhul üksnes ulatuses, mida on vaja Poolte
+vahel sõlmitud Lepingust tulenevate õiguste kohustuste täitmiseks.
+12.4. Konfidentsiaalset informatsiooni, mis saab Poolele teatavaks elektrooniliselt või muul
+viisil kirjalikku taasesitamist võimaldavas vormis, võib salvestada, paljundada või
+(elektrooniliselt) kopeerida ainult Lepingus fikseeritud eesmärkide täitmiseks.
+12.5. Konfidentsiaalsuskohustuse kehtib tähtajatult ka pärast Lepingu lõppemist.
+13.
+
+VASTUTUS
+
+13.1. Pool vastutab enda Lepingust tulenevate kohustuste rikkumise ja selle tagajärgede eest
+vastavalt seadusele, välja arvatud juhul, kui rikkumine on vastavalt seadusele
+vabandatav (st vääramatu jõu tõttu). Pool kohustub vääramatu jõu asjaolust teist Poolt
+viivitamatult teavitama.
+
+19
+
+13.2. Juhul, kui Töövõtja viivitab mõne Töö etapi või kogu Töö üleandmisega üle
+kokkulepitud tähtaja, on Tellijal õigus nõuda Töövõtjalt leppetrahvi, mille suuruseks on
+0,2% vastava Töö etapi või Töö kogumaksumusest iga viivitatud päeva eest kuni selle
+nõuetekohase üleandmiseni, kuid mitte rohkem kui Töö vastava etapi või kogu Töö
+maksumus.
+13.3. Kui tegemist on Töövõtjapoolse olulise rikkumisega, on Tellijal õigus nõuda ühekordse
+leppetrahvi tasumist summas kuni 10 000 eurot iga sellise rikkumise eest. Tellija
+käsitleb Lepingu olulise rikkumisena lisaks seaduses sätestatule järgmisi Täitja
+rikkumisi:
+13.3.1.
+
+Täitja ei täida mistahes Lepingust tulenevat kohustust ega kõrvalda rikkumist
+Tellija poolt antud täiendava mõistliku tähtaja jooksul;
+
+13.3.2.
+
+kui Täitjal puuduvad Lepingu täitmiseks vajalikud õigused (sealhulgas load,
+litsentsid, Intellektuaalse omandi õigused jne);
+
+13.3.3.
+
+Täitja rikub konfidentsiaalsuskohustust;
+
+13.3.4.
+
+Täitja on kaasanud Lepingu täitmisesse isikuid, kes pole pakkumuses
+nimetatud või Tellija poolt eelnevalt kooskõlastatud;
+
+13.3.5.
+
+kui Täitja annab oma ettevõtte või selle osa koos Lepinguga üle Tellija
+eelneva nõusolekuta.
+
+13.3.6.
+
+Lepingujärgsete kohustuste korduv (vähemalt kahel korral) täitmata jätmine;
+
+13.3.7.
+
+Lepingus sätestatud tähtaegade rikkumine või sedavõrd aeglane Töö
+teostamine, et on ilmne, et Töö tähtaegne valmimine ei ole enam realistlik
+ja/või Täitja poolse tegevuse või tegevusetuse tõttu ei ole võimalik enam
+kasutada Hankelepingu rahastamiseks ettenähtud vahendeid.
+
+13.4. Kui leppetrahvi nõudes ei ole määratud teisiti, tasub Täitja Tellija poolt nõutava
+leppetrahvi 14 päeva jooksul Tellija poolt vastava nõude esitamisest.
+13.5. Leppetrahvi nõudmine ei võta Tellijalt õigust rakendada Täitja rikkumise vastu ka kõiki
+teisi seadusest tulenevaid õiguskaitsevahendeid. Tellija võib nõuda leppetrahvi
+sõltumata rikkumisega tekitatud kahju olemasolust või selle suurusest ning leppetrahvi
+nõudmise korral on Tellijal õigus nõuda lisaks ka kogu rikkumisega tekitatud kahju
+hüvitamist.
+13.6. Tellija kaotab õiguse leppetrahvi nõudmiseks, kui ta ei teavita Täitjat kavatsusest nõuda
+rikkumise suhtes leppetrahvi mõistliku aja jooksul pärast rikkumisest teadasaamist.
+Pooled on kokku leppinud, et mõistlik aeg teavitamiseks on kuni 6 kuud rikkumisest
+teadasaamisest.
+13.7. Tellijal on õigus tasaarvestada kõik enda rahalised nõuded Täitja vastu Täitja Lepingust
+tulenevate tasunõuetega.
+14.
+
+LEPINGU KEHTIVUS
+
+14.1. Leping jõustub sõlmimisel või Lepingus sätestatud muul kuupäeval.
+14.2. Leping lõpeb Lepinguliste kohustuste täitmisega, Lepingu lõpetamise kokkuleppe
+sõlmimisega, Lepingus või seaduses sätestatud muul alusel.
+14.3. Tellijal on õigus Leping üles öelda järgmistel juhtudel:
+20
+
+14.3.1.
+
+90 päevase etteteatamistähtajaga igal ajal sõltumata põhjusest;
+
+14.3.2.
+
+etteteatamistähtaega järgimata, kui Täitja paneb toime Lepingu olulise
+rikkumise Lepingu eelmises peatükis sätestatud tähenduses;
+
+14.3.3.
+
+etteteatamistähtaega järgimata, kui Täitja suhtes
+pankrotimenetlus või Täitja pankrot on välja kuulutatud;
+
+14.3.4.
+
+etteteatamistähtaega järgimata, kui Täitja varad arestitakse; või
+
+14.3.5.
+
+Täitja finantsseisund halveneb Tellija põhjendatud hinnangul oluliselt ja see
+halvenemine muudab vähetõenäoliseks Lepingu nõuetekohase täitmise.
+
+on
+
+algatatud
+
+14.4. Lisaks eelmises punktis sätestatud alustele on Tellijal õigus Raamleping üles öelda, kui
+Täitja on Raamlepingu kehtivuse ajal loobunud osalemast, st pole esitanud pakkumust,
+vähemalt 3 minikonkursil.
+14.5. Täitjal on õigus Leping üles öelda üksnes juhul, kui Tellija on Lepingut oluliselt
+rikkunud ega ole rikkumist kõrvaldanud Täitja poolt antud täiendava mõistliku tähtaja
+jooksul.
+14.6. Üksnes Raamlepingu kehtivuse lõppemine ei mõjuta selle alusel sõlmitud
+Hankelepingute kehtivust. Kõik Tellija ja Täitja vahel sõlmitud Lepingud lõppevad või
+tuleb lõpetada eraldi.
+14.7. Hankelepingu lõppemisel mistahes alusel ja põhjusel on Täitja kohustatud Tellijale üle
+andma kogu selleks hetkeks tehtud Töö, sh Tööga seotud informatsiooni ja
+dokumentatsiooni, mis peab olema süstematiseeritud. Täitja on Tellija nõudmisel
+kohustatud andma kirjalikke selgitusi eelkirjeldatud Töö sisu ning sellega seotud
+informatsiooni haldamise ja kasutamise kohta.
+15.
+
+AVALIKUD SUHTED
+
+15.1. Pooled kooskõlastavad omavahel Lepingut puudutavad PR-tegevused (näiteks
+pressiteated, pressikonverentsid, kriisikommunikatsioon, kliendireferentsid jms) enne
+nende ellu rakendamist ja avalikkuseni jõudmist. Pooled ei kahjusta Lepingu pinnalt
+tekkinud erimeelsuste või vaidluste lahendamisel üksteise mainet meedia kaudu.
+15.2. Pool tagab vastavate kohustuste täitmise ka kõikide Lepingu täitmisesse kaasatud
+isikute poolt.
+16.
+
+TEATED
+
+16.1. Teade edastatakse teisele Poolele eelkõige e-posti vahendusel Lepingus märgitud
+kontaktisiku e-posti aadressil. Kui teade edastatakse kirja teel tähitult, edastatakse see
+teisele Poolele Lepingus märgitud aadressil. Kontaktisiku andmete ning Poole aadressi
+muutusest on Pool kohustatud koheselt informeerima teist Poolt.
+
+21
+
+16.2. Kirja teel edastatud teade loetakse kättesaaduks, kui see on üle antud allkirja vastu või
+kui teade on saadetud postiasutuse poolt tähitud kirjaga Poole poolt Lepingus näidatud
+aadressil ja postitamisest on möödunud viis kalendripäeva. E-posti teel teate saatmise
+korral loetakse teade kättesaaduks, kui saaja on kinnitanud teate kättesaamist või
+vastavale e-kirjale vastanud. Kui teate saaja ei kinnita e-kirja kättesaamist või ei vasta
+e-kirjale mõistliku aja jooksul e-kirja saatmisest, võib sama teate saata korduva e-posti
+saatmisega, millisel juhul loetakse teade kättesaaduks järgmisel tööpäeval vastava ekirja saatmisest.
+16.3. Kontaktisikute pädevuses on seoses Lepinguga teostada Poole nimel kõiki Lepingust
+tulenevaid õigusi ja kohustusi, välja arvatud Lepingute muutmine ning lõpetamisele
+suunatud tahteavalduste esitamine.
+17.
+
+LÕPPSÄTTED
+
+17.1. Lepingule kohaldatakse Eesti Vabariigi õigust.
+17.2. Kui Pooltel tekib vaidlus seoses Lepinguga, lahendatakse see läbirääkimiste teel. Kui
+läbirääkimiste teel ei õnnestu vaidlust lahendada, kuulub vaid lus lahendamisele Tellija
+asukohajärgses kohtus.
+17.3. Lepingu või selles kokku lepitud õiguste ja kohustuste kolmandale isikule üleandmine
+saab toimuda ettevõtte üleandmise tulemusena, kuid see eeldab Tellija eelnevat
+kirjalikku nõusolekut. Tellija annab selles punktis nimetatud kirjaliku nõusoleku juhul,
+kui see on riigihangete seaduse kohaselt lubatav ning kui Lepingu või ettevõtte
+omandajal on piisav ettevalmistus ja kogemus, mis tagab Lepingu eesmärgi saavutamise
+ja Lepingu tingimuste vähemalt samaväärse täitmise.
+17.4. Raamlepingul on selle sõlmimisel järgmised lisad:
+17.4.1.
+
+Akti vorm;
+
+17.4.2.
+
+Hankelepingu vorm.
+
+/Allkirjastatud digitaalselt Poolte või nende esindajate poolt/
+
+22
+
+Lisa 1 - Akti vorm
+
+AKT NR [SISESTA AKTI NR]
+
+Akt on koostatud selle kohta, et Täitja on teostanud ajavahemikul [SISESTA PERIOOD]
+Raamlepingu nr [SISESTA NUMBER] (sõlmitud...) Hankelepingu nr [SISESTA LEPINGU
+NR] (sõlmitud ...) raames järgmised Tööd:
+Jrk nr
+
+Töö kirjeldus
+
+Töö maht
+
+Töö hind
+
+Hind käibemaksuta:
+Käibemaks:
+Hind kokku:
+Tarne sisuks on:
+• Lähtekood: ... /viide, link/
+• Dokumentatsioon: ... /viide, link/
+Akti allkirjastamisega kinnitab Täitja, et ta on eelnimetatud Tööd koos juurdekuuluva
+dokumentatsiooniga Tellijale üle andnud.
+Akti allkirjastamisega kinnitab Tellija, et ta on eelnimetatud Tööd koos juurdekuuluva
+dokumentatsiooniga Täitjalt vastu võtnud.
+/Akt on allkirjastatud digitaalselt/
+
+23
+
+Lisa 2 – Hankelepingu vorm
+
+Registreerimise
+number
+
+kuupäev
+
+Hankelepingu üldandmed
+ja lepingu {regNumber}
+
+Tellija
+
+Täitja
+
+Nimi
+
+Keskkonnaministeeriumi
+Infotehnoloogiakeskus
+
+Registrikood
+
+70009445
+
+Esindaja
+
+direktor Marko Arula
+
+juhatuse liige ......
+
+Esindusõiguse alus
+
+põhimäärus
+
+seadus
+
+Rahastaja
+
+Kontaktisiku
+andmed
+(kui
+erinevad
+Raamlepingust)
+1. Hankelepingu sõlmimise …. a sõlmitud raamleping nr ... (riigihanke viitenumber ___),
+alus
+täitja … pakkumus.
+2. Hankelepingu ese
+………..
+3. Rahastamisallikas
+Riigieelarve ja/või välisvahendid sh struktuuritoetusest või
+garandilepingust tulenevad nõuded.
+4. Tööde teostamise eritingimused, mis ei ole määratletud Hankelepingu lisades
+4.1. Hankelepingus kokku leppimata küsimustes lähtutakse Raamlepingus sätestatust.
+4.2. …...
+5. Hankelepingu maksumus ja arveldamise kord
+…..
+K keskmine tunnihind või muu hind
+
+6. Juhusliku hävimise riisiko
+6.1. Täitja kannab Tööde või nende mistahes osa juhusliku hävimise või kahjustumise
+riisikot kuni viimase Töö üleandmiseni Tellijale / Töö etapi vakstuvõtmiseni või
+Toodangukeskkonnas kasutuselevõtuni.
+7. Hankelepingu kehtivus
+7.1. Hankeleping jõustub alates hetkest, kui pooled on hankelepingu allkirjastanud.
+7.2. Hankeleping kehtib lepinguliste kohustuste täitmiseni.
+8. Hankelepingu lisad
+24
+
+8.1. Lisa 1 – Minikonkursi aluseks olnud pakkumuse esitamise ettepanek, sh Tööde tehniline
+kirjeldus;
+8.2. Lisa 2 – Täitja pakkumus;
+8.3 Muud Tellija poolt vajalikuks peetud lisad.
+
+9. Leping on allkirjastatud digitaalselt.
+
+25
+
+

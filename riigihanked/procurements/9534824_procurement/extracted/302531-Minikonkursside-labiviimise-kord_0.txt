@@ -1,0 +1,72 @@
+Riigihange Pythoni baasil tarkvaraarendused
+Viitenumber 302531
+Minikonkursside läbiviimise kord
+
+1. Minikonkurssidel kasutavad hindamiskriteeriumid
+1.1. Koskmudeli meetodil arendustööde tellimine. Seda varianti kasutatakse minikonkursi
+hindamiskriteeriumina alati, kui tellitavate tööde tegemiseks on koostatud detailne
+lähteülesanne, mis võimaldab Täitjal hinnata töö mahtu.
+1.2. Agiilsel meetodil rollipõhise arendustöö tunnid. Varianti kasutatakse iga kord
+maksimaalselt 1000 rollipõhise arendustöötunni hankimiseks kindlal ajaperioodil.
+1.3. Väikesemahulised arendus- või hooldustööd, mille maksumus on kuni 5000 eurot ilma
+käibemaksuta.
+1.4. Konkreetse minikonkursi puhul kasutatavad hindamiskriteeriumid esitab hankija selle
+minikonkursi alusdokumentides.
+2. Hindamismetoodika kirjeldus
+2.1. Koskmudeli meetodil tööde tellimine:
+2.1.1. Töö teostamise tähtaja osakaal 50%, Töö maksumuse (töötundide arvu ja
+töötunni hinna korrutis) osakaal 50%.
+2.1.2. Tähtaja eest antakse lühima pakutud tähtajaga pakkumusele 50 väärtuspunkti,
+teistele pakkumustele antakse punkte proportsionaalselt vähem.
+2.1.3. Töö maksumuse eest antakse madalaima maksumusega pakkumusele 50
+väärtuspunkti, teistele pakkumustele antakse punkte proportsionaalselt vähem.
+2.1.4. Punktides 2.1.1 ja 2.1.2 esitatud kriteeriumite alusel saadud väärtuspunktid
+liidetakse kokku ja saadakse pakkumust iseloomustav väärtuspunktide summa.
+Maksimaalne väärtuspunktide kogusumma on 100.
+2.2. Agiilsel meetodil rollipõhise arendustöö tunnid (punkt 1.2):
+2.2.1. Töötunni maksumuse osakaal 80%, Töö teostaja seos arendatavas IT-teenuses
+varasemalt teostatud Töödega 20%.
+2.2.2. Töötunni maksumuse eest antakse madalaima maksumusega pakkumusele 80
+väärtuspunkti, teistele pakkumustele antakse punkte proportsionaalselt vähem.
+2.2.3. Täitja projektimeeskonna liikmete seotuse eest arendatavas IT-teenuses
+varasemalt teostatud Töödega antakse punkte protsentuaalselt, lähtudes sellest, kui
+suur osa meeskonnaliikmetest (0-100%) varasemalt teostatud arendustöödega
+seotud on, kasutades valemit: (meeskonnaliikmete arv, kes on varem sama ITteenuse arenduses osalenud) / (pakutavate meeskonnaliikmete arv) * 20.
+
+2.2.4. Punktides 2.2.1 ja 2.2.2 esitatud kriteeriumite alusel saadud väärtuspunktid
+liidetakse kokku ja saadakse pakkumust iseloomustav väärtuspunktide summa.
+Maksimaalne väärtuspunktide kogusumma on 100.
+2.3. Väikesemahulised arendus- või hooldustööd (punkt 1.3):
+2.3.1. Hindamiskriteeriumiks on ühe töötunni maksumus.
+2.3.2. Töötunni maksumuse eest antakse madalaima maksumusega pakkumusele 100
+väärtuspunkti, teistele pakkumustele antakse punkte proportsionaalselt vähem.
+3. Arendus- ja hooldustöötunni maksumuse esitamine
+3.1. Raamlepingus fikseeritud arendus- ja hooldustöötunni maksumus on kõrgeim võimalik
+maksumus mida on lubatud selle raamlepingu alusel korraldatavatel minikonkurssidel
+osaledes pakkuda. Minikonkurssidel võivad pakkujad pakkuda raamlepingus
+fikseeritud tunnihinnast madalamat hinda.
+4. Eduka pakkumuse väljaselgitamine minikonkursil
+4.1. Vastavalt punktis 1 loetletud hangitava töö iseloomule valitud minikonkursi
+hindamiseks kirjeldatud hindamiskriteeriumide kohaselt esitatud pakkumusele antud
+väärtuspunktid, kui kasutusel on rohkem kui üks kriteerium, liidetakse kokku ja
+saadakse pakkumust iseloomustav väärtuspunktide summa. Maksimaalne
+väärtuspunktide kogusumma on 100. Ühe hindamiskriteeriumi alusel hinnatava
+minikonkursi tulemusel on suurim võimalik väärtuspunktide kogusumma 100, mis
+omistatakse selle kriteeriumi kohaselt parimale pakkumusele.
+4.2. Edukaks pakkumuseks tunnistatakse pakkumus, mille väärtuspunktide summa on
+suurim.
+4.3. Juhul kui pakkumuste väärtuspunktide summad on võrdsed, siis loetakse edukaks
+väiksema tunnihinna maksumusega pakkumus. Kui ka see on võrdne, siis korraldab
+hankija eduka pakkumuse väljaselgitamiseks liisuheitmise väiksema tunnihinna
+maksumusega pakkumuste esitajate vahel. Hankija teavitab pakkujatele liisuheitmise
+aja ning koha. Liisuheitmise juures viibib riigihanke eest vastutava isiku poolt
+määratud hankija esindaja ja iga pakkuja kohta üks pakkuja esindaja. Liisuheitmise
+tulemuse kohta koostatakse liisuheitmise protokoll.
+5. Teadusarendustegevusese kogemusega spetsialisti kaasamine
+Kui Täitja meeskonda on vaja kaasata teadusarendustegevusese kogemusega
+spetsialisti, edastab Tellija vastava nõude minikonkursi alusdokumentides. Sel juhul
+esitab Täitja koos pakkumusega viite Eesti Teadusinfosüsteemis kirjeldatud
+projektile, kus teadusarendustegevusese kogemusega spetsialist on osalenud teadus- ja
+arendustegevuses ning põhjenduse projekti liigitamiseks teadus- ja arendustegevuseks.
+
+

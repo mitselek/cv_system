@@ -1,0 +1,56 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302531
+Hankija: Keskkonnaministeeriumi Infotehnoloogiakeskus (70009445)
+Hange: Pythoni baasil tarkvaraarendused
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Ühe töötunni maksumus (käibemaksuta
+eurodes)
+2 Teostatud tööde ülevaade
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Maksumus vähim on parim
+Kvaliteet - hankija
+hinnatav
+Kokku:
+
+Osakaal
+40
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+jah
+
+60
+100
+
+Hindamismetoodika kirjeldus
+1. Ühe töötunni maksumus (käibemaksuta eurodes)
+Hindamismetoodika kirjeldus
+2.1. Töötunni maksumus (punkt 1.1.)
+2.1.1. Hindamiskriteeriumi arvestamise aluseks on pakkumuses esitatud ühe töötunni maksumus.
+2.1.2. Maksimaalsed väärtuspunktid (40) omistatakse madalaima töötunni maksumusega pakkumusele. Teised pakkumused saavad 40-st võimalikust punktist proportsionaalselt vähem punkte.
+Väärtuspunktide arvutamisel kasutatakse riigihangete registris kasutusel olevat arvutusmetoodikat.
+
+2. Teostatud tööde ülevaade
+Dokumendis „Teostatud tööde ülevaade“ toodud tabeli täitmisel saadud punktide summa. Maksimaalselt on võimalik saada kuni 60 väärtuspunkti.
+
+Koostatud 18.11.2025 15:21:39
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9534824/general-info
+
+
