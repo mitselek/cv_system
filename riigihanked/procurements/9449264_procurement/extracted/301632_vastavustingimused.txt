@@ -1,0 +1,237 @@
+1/5
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+301632
+Riigimetsa Majandamise Keskus (70004459)
+Kliendiportaali ja puidumüügi keskkond
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Koostatud 25.11.2025 09:08:03
+https://riigihanked.riik.ee/rhr-web/#/procurement/9449264/general-info
+
+2/5
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD.
+Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on:
+1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest
+isikust ettevõtja, juriidiline isik, asutus või muu üksus;
+2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu
+üksuse omandis;
+3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku
+juhiste alusel.
+Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel
+tühine.
+Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS
+(EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb
+piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene
+Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu
+üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või
+muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või
+tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega "Jah/Ei")
+RAHVUSVAHELISE SANKTSIOONI OBJEKT
+Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks või pärit
+sanktsiooni all olevatest piirkondadest. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav
+hankeleping oleks RSanS § 7 lg 1 alusel tühine.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks ega pärit
+sanktsiooni all olevatest piirkondadest. (Raadionupp valikutega "Jah/Ei")
+TERVIKLAHENDUSE JA INNOVATSIOONI KIRJELDUS
+Pakkuja esitab terviklahenduse ja innovatsiooni kirjelduse, mille koostamisel tuleb lähtuda
+tehnilisest kirjeldusest.
+Esitatud terviklahenduse ja innovatsiooni kirjeldus on aluseks pakkumuse hindamisel vastavalt
+hindamismetoodika kirjeldusele.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab vabas vormis terviklahenduse ja innovatsiooni kirjelduse. (Vabas vormis
+dokument)
+RISKIDE KIRJELDUS JA RISKIDE HALDAMISE MEETMED
+Pakkuja esitab riskide haldamise meetmed.
+Pakkuja kirjeldab riskide haldamise meetmeid ning põhjendab nende mõju eesmärkide
+saavutamisele. Riskide maandamise võimalused ja halduse ettepanekud peavad olema esitatud
+selgelt, detailselt, läbimõeldult, struktureeritult ja põhjendatult.
+Koostatud 25.11.2025 09:08:03
+https://riigihanked.riik.ee/rhr-web/#/procurement/9449264/general-info
+
+3/5
+
+Esitatud riskide haldamise meetmed
+hindamismetoodika kirjeldusele.
+
+on
+
+aluseks
+
+pakkumuse
+
+hindamisel
+
+vastavalt
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab vabas vormis riskide kirjelduse ja riskide haldamise meetmed (Vabas vormis
+dokument)
+NÕUDED LEPINGUT TÄITMA ASUVALE MEESKONNALE
+Pakkuja peab tagama raamlepingu täitmiseks vähemalt järgneva koosseisuga meeskonna: üks (1)
+projektijuht; üks (1) analüütik, üks (1) disainer, üks (1) vanemarendaja/arhitekt, kaks (2)
+arendajat, üks (1) testija.
+Meeskonnaliikmete rollid ja põhiülesanded on muuhulgas järgmised:
+1) projektijuhi tööülesandeks on pakkuja meeskonna töö juhtimine, kõikide tööde planeerimine ja
+ülevaadete tegemine tellijale;
+2) analüütiku tööülesandeks on analüüsitööde teostamine arendusprojekti erinevates etappides;
+3) disaineri tööülesandeks on uue tarkvara disain tuginedes kasutuslugudele, disaini etteandmine
+arendajatale ning tehtud töö testimine ja valideerimine enne tellijale üleandmist;
+Pakkuja võib lepingu täitmisse kaasata samas rollis mitu isikut, kuid sellisel juhul peavad nad
+vastama vastavale rollile esitatud tingimustele. Üks isik võib täita kuni kahte erinevat rolli
+(näiteks vanemarendaja/arhitekt-analüütik), kuid sellisel juhul peab antud isik täitma samaaegselt
+mõlemale rollile esitatud nõudeid ning peab olema tagatud, et lepingujärgsed tööd saaksid
+teostatud vastavalt kokkulepitud ajakavale ja kvaliteedinõuetele.
+Meeskonda võib vajadusel kaasata ka muude rollide täitjaid, nt noorem-analüütik, nooremprogrammeerija, dokumenteerija jne, kuid nende kvalifikatsioon ei kuulu hindamisele ega
+täiendavalt tasustamisele. Sellise isiku kaasamine on lubatud ainult tellija kirjalikul nõusolekul
+ning tingimusel, et ta ei asenda hankes nõutud meeskonnaliiget, vaid on kaasatud abitööjõuna või
+spetsiifilise eksperdina. Spetsiifilise eksperdi kaasamise vajadus peab olema tingitud tellija poolt
+tellitud töö olemusest.
+Juhime tähelepanu, et töökogemuse hulka ei arvestata õpingute või praktika raames saadud
+kogemust.
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et on arvestanud meeskonna koostamisel sätestatud nõuetega (Raadionupp
+valikutega "Jah/Ei")
+2. Pakkuja esitab projektimeeskonna nimekirja. (Dokumendi vorm / Projektimeeskonna
+vorm.docx)
+
+NÕUDED PROJEKTIJUHILE
+Projektijuht peab omama vähemalt 5-aastast töökogemust tarkvara arenduse tootejuhina/
+projektijuhina ja omab Scrum-metoodika kasutamise kogemust, soovitavalt omab Certified
+Scrum Master või Product Owner sertifikaati.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud projektijuhi vabas vormis CV (Vabas vormis dokument)
+NÕUDED ANALÜÜTIKULE
+Analüütik peab omama vähemalt viie (5) aastast töökogemust IT analüütikuna kompleksete IT
+süsteemide äri- ja detailanalüüsi teostamisel.
+
+Koostatud 25.11.2025 09:08:03
+https://riigihanked.riik.ee/rhr-web/#/procurement/9449264/general-info
+
+4/5
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud analüütiku vabas vormis CV (Vabas vormis dokument)
+NÕUDED DISAINERILE
+Disainer peab omama vähemalt 5-aastast töökogemust IT lahenduste disainerina ja/või
+kasutuskogemuse spetsialistina (UI/UX kompetents).
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud disaineri vabas vormis CV (Vabas vormis dokument)
+VANEMARENDAJA/ARHITEKT
+Vanemarendaja/arhitekt peab omama vähemalt 7-aastast töökogemust tarkvara arendajana/
+arhitektina ja valdab vähemalt Java, JavaScript, CSS, HTML ja soovituslikult PHP või Python
+programmeerimiskeelt ning selle ökosüsteemi. Samuti SOAP, Rest/JSON tehnoloogiaid ning
+WMS, WFS standardite kasutamist, PostgreSQL/PostGIS andmebaasi arendust ja tunneb ning
+kasutab Liquibase ja/või Flyway raamistikku. Samuti tunneb järgnevaid raamistikke: OpenLayers
+(http://openlayers.org) või Leaflet (http://leafletjs.com), NodeJS (https://nodejs.org), Angular JS,
+Bootstrap (http://getbootstrap.com) ning valdab unit-testide kirjutamist ja vastavat raamistikku
+ning testide automatiseerimist.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud vanemarendaja/arhitekti vabas vormis CV (Vabas vormis
+dokument)
+NÕUDED ARENDAJATELE
+Arendaja peab omama vähemalt 3-aastast töökogemust tarkvara arendajana ning valdab vähemalt
+Java, JavaScript, CSS, HTML ja soovituslikult Python programmeerimiskeelt ning selle
+ökosüsteemi, SOAP, Rest/JSON tehnoloogiaid, WMS, WFS standardite kasutamist, PostgreSQL/
+PostGIS andmebaasi arendust ja tunneb ning oskab kasutada Liquibase ja/või Flyway
+raamistikku, tunneb järgnevaid raamistikke: OpenLayers (http://openlayers.org) või Leaflet
+(http://leafletjs.com), NodeJS (https://nodejs.org), Angular JS, Bootstrap (http://getbootstrap.com)
+ning valdab unit-testide kirjutamist ja vastavat raamistikku ning testide automatiseerimist.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud arendaja (1) vabas vormis CV (Vabas vormis dokument)
+2. Pakkuja esitab hankes nõutud arendaja (2) vabas vormis CV (Vabas vormis dokument)
+
+NÕUDED TESTIJALE
+Testija peab omama vähemalt 3-aastast töökogemust tarkvara testijana.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab hankes nõutud testija vabas vormis CV (Vabas vormis dokument)
+KESKKONNANÕUDED
+Pakkuja peab järgima teenuse osutamisel keskkonnaalaseid nõudeid ning vältima teenuse
+osutamisega kaasneva negatiivse kõrvalmõju tekkimist keskkonnale, sh:
+1) teenuse osutamise tulemusena valminud materjalid esitatakse tellijale eelkõige digitaalsel kujul
+(keskkonnahoidlikel põhjustel vältida materjali printimist), v.a juhul, kui see on vajalik töö
+eesmärgipäraseks läbiviimiseks);
+2) töövõtja poolt digitaalsel kujul edastatavad materjalid peavad olema ökoloogilise jalajälje ja
+Koostatud 25.11.2025 09:08:03
+https://riigihanked.riik.ee/rhr-web/#/procurement/9449264/general-info
+
+5/5
+
+digiprügi vähendamise eesmärgil salvestatud ja edastatud optimaalsel mahul (vältida otstarbetult
+suuri andmefaile). Mustandfailid, säilitamiseks mittevajalikud töödokumendid jms, kustutada
+esimesel võimalusel, kuna ITserverites failide otstarbetu hoidmine on keskkonda kurnava mõjuga;
+3) kui lepingu täitmise käigus on vajadus printida infomaterjale, siis eelistatakse printimisel
+töövõtja poolt tooteid, millel on olemas I tüüpi ökomärgis.
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et täidab teenuse osutamisel keskkonnanõudeid (Raadionupp valikutega "Jah/
+Ei")
+
+Koostatud 25.11.2025 09:08:03
+https://riigihanked.riik.ee/rhr-web/#/procurement/9449264/general-info
+
+

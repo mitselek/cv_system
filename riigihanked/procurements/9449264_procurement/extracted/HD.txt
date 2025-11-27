@@ -1,0 +1,321 @@
+HANKEDOKUMENT
+
+Riigimetsa Majandamise Keskus (edaspidi Hankija) teeb ettepaneku esitada pakkumus avatud hankemenetluses „Kliendiportaali ja puidumüügi keskkond“ (viitenumber 301632, DHS 1-47.3531) hanke alusdokumentides (RHAD) esitatud tingimustel.
+
+ÜLDINFO 
+
+1.  Kõik RHAD täiendavad üksteist. Mistahes dokumendis sätestatud
+    kohustus, tingimus või nõue on pakkujale kohustuslik. RHAD koosnevad
+    kõigist eRHRis käesoleva hanke raames avaldatud ja viidatud
+    dokumentidest. Erinevuste korral hanketeates ja teistes RHADs
+    esitatud teabe vahel lähtutakse hanketeates esitatust. Samuti, kui
+    huvitatud isik ei ole esitanud hankemenetluse käigus küsimusi RHADs
+    avastatud vastuolude, ebaselguste või puuduste kohta, siis hanke
+    alusdokumentide tingimusi tõlgendatakse muutunud või ebaselgete
+    asjaolude korral ja kooskõlas RHS-ga lähtudes sellest, mida pooled
+    oleksid mõistlikult võinud eeldada lepingu sõlmimise ajal,
+    arvestades lepingu sisu, tellitud teenuse olemust ning hankija
+    ootust saada teenust, mis vastab selle iseloomule ja otstarbele.
+
+2.  Iga viidet, mille hankija teeb RHADs mõnele RHS § 88 lõikes 2
+    nimetatud alusele (standardile, tehnilisele tunnustusele,
+    tehnilisele kontrollisüsteemile vms), tuleb lugeda selliselt, et see
+    on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille
+    hankija teeb RHADs ostuallikale, protsessile, kaubamärgile,
+    patendile, tüübile, päritolule või tootmisviisile (RHS § 88 lg 6)
+    või märgisele (RHS § 89), tuleb lugeda selliselt, et see on
+    täiendatud märkega „või sellega samaväärne“. Kui pakkuja soovib
+    kvalifitseerimise tingimustele või tehnilisele kirjelduse vastavuse
+    tõendamiseks või hankelepingu täitmisel kasutada samaväärset, siis
+    ta näitab selle pakkumuses vabas vormis ära. Samaväärsuse
+    kontrollimiseks esitab pakkuja vabas vormis selgitused ja tõendid.
+
+RAAMLEPINGU ESE
+
+3.  Käesoleva hanke tulemusel tellitakse RMK kliendiportaali ja
+    puidumüügi enampakkumiste keskkonna arendusteenust, mis hõlmab
+    muuhulgas järgnevaid teenuseid: 
+
+    1.  Disain ja teenusedisain – nii visuaalne kui ka süsteemne disain,
+        mille eesmärgiks on prototüüpide väljatöötamine enne
+        arendustegevuse algust; 
+
+    2.  Süsteemianalüüs ja -arhitektuur - terviklahenduse arhitektuuri
+        väljatöötamine ja süsteemianalüüsi teostamine, sh liideste
+        arhitektuur; 
+
+    3.  Uue rakenduse programmeerimistööd ja olemasolevate rakenduste
+        arenduste tegemine, mis aitaksid tagada olemasolevate süsteemide
+        valmiduse integreeruda uue loodava kliendiportaaliga; 
+
+    4.  Rakenduste vaheliste integratsioonide loomine veebiteenuste
+        baasil; 
+
+    5.  Testimine - arendatud lahenduse testimine (k.a. automaattestide
+        loomine, koormustestid ja testide skriptid); 
+
+    6.  Konsulteerimine - hankija spetsialistide nõustamine
+        tarkvaraarenduse valdkonnas; 
+
+    7.  Dokumentatsiooni koostamine ja täiendamine - arendustele vastava
+        dokumentatsiooni koostamine/täiendamine. Miinimumdokumentatsioon
+        sätestatakse iga toote juures eraldi. 
+
+    8.  Hooldustööd - vajadusel operatiivabi, mittesüsteemsete vigade
+        parandamine, tarkvara uuendused, muudatuste kajastamine
+        dokumentatsioonis; 
+
+    9.  Arendatav lähtekood ja dokumentatsioon ning kõik intellektuaalse
+        omandi õigused nendele kuuluvad täielikult hankijale. 
+
+4.  Riigihanke maksimaalne kogumaksumus on 1 500 000 (üks miljon
+    viissada tuhat) eurot, millele lisandub käibemaks.
+
+    1.  Hankija ei ole raamlepingu täitmisel seotud lepingu maksimaalse
+        mahuga ega maksumusega, teenust tellitakse vastavalt reaalsele
+        vajadusele ja olemasolevatele võimalustele, mistõttu raamlepingu
+        alusel tellitavate teenuste tegelik maht võib olla oluliselt
+        väiksem. Raamlepingu lõplik maksumus kujuneb vastavalt
+        raamlepingu kehtivuse ajal tellitud teenuste tegelikule mahule,
+        kuid see ei tohi ületada maksimaalset maksumust.
+
+PAKKUMUS
+
+5.  Pakkuja esitab RHR süsteemis täidetava pakkumuse maksumuse vormi.
+
+6.  Pakkumuse maksumus peab olema lõplik ja sisaldama kõiki kulusid
+    vastavalt RHAD-le ning seal nimetamata kulusid, mis on vajalikud
+    raamlepingu nõuetekohaseks täitmiseks. Null või negatiivse
+    väärtusega maksumusi ei ole lubatud kasutada ja sellised pakkumused
+    on hankijal õigus lugeda mittevastavaks ning tagasi lükata.
+
+7.  Hankija ei hüvita raamlepingu täitmisel pakkujale mingeid
+    täiendavaid kulusid ega tee täiendavaid makseid.
+
+8.  Huvitatud isik või pakkuja kannab hankemenetluses osalemisega seotud
+    kogukulud ja -riski, kaasa arvatud vääramatu jõu (force majeure)
+    toime võimalused.
+
+9.  Juhul, kui pakkumuse esitab isik, kes ei ole eesti äriregistri
+    registrikaardi väljatrükile kantud isikuna, kellel on pakkuja
+    seadusjärgne esindamise õigus, siis peab pakkuja hankija nõudmisel
+    esitama seadusjärgse esindaja(te) volikirja pakkuja esindamiseks.
+    kui pakkuja on registreeritud välisriigis, siis peab pakkumuse
+    esitaja esitama hankija nõudel tõendi esindusõiguse olemasolu kohta.
+
+PAKKUMUSTE HINDAMINE
+
+10. Hankija tunnistab edukaks pakkumuste hindamise kriteeriumide
+    kohaselt enim punkte saanud, st suurima koondhindega pakkumuse.
+    Pakkumuse koondhinne saadakse hindamiskriteeriumite punktide
+    summeerimisel.
+
+11. Kui kahe või enama enim punkte kogunud pakkumuse koondhinded on
+    võrdsed, tunnistab hankija edukaks pakkumuse, mis on kogunud enam
+    punkte kriteeriumi „Terviklahenduse ja innovatsiooni kirjeldus“
+    eest. Kui ka kriteeriumi „Terviklahenduse ja innovatsiooni
+    kirjeldus“ eest kogutud punktid on võrdsed, siis osutub edukaks
+    pakkumus, mille pakutud arendustöö töötunni maksumus on madalam. Kui
+    ka arendustöö töötunni maksumus on võrdne, siis heidetakse pakkujate
+    vahel liisku. Liisuheitmise koht ja ajakava teatatakse eelnevalt
+    pakkujatele ning nende volitatud esindajatel on õigus viibida
+    liisuheitmise juures. Hankijal on õigus jätta edukaks tunnistamata
+    pakkumus, mis sai terviklahenduse ja innovatsiooni kirjelduse
+    hindamise tulemusel 0 või 1 punkti ja mitte sõlmida sellise
+    pakkujaga hankelepingut.
+
+12. Hindamiskriteeriumi „Arendustöö tunnihind“ hindamismetoodika
+    kirjeldus on välja toodud riigihangete registris
+    hindamiskriteeriumite ja hinnatavate näitajate lehel.
+
+13. Hindamiskriteeriumi “Hooldustöö tunnihind” hindamismetoodika
+    kirjeldus on välja toodud riigihangete registris
+    hindamiskriteeriumite ja hinnatavate näitajate lehel.
+
+14. Hindamiskriteeriumite „Terviklahenduse ja innovatsiooni kirjeldus“
+    ja „Riskide haldus“ hindamismetoodika kirjeldus:
+
+    1.  hindab hankekomisjon, kes langetab iga kriteeriumi kohta otsuse
+        konsensuslikult, andes punktid vastavalt defineeritud skaalale.
+
+    2.  kriteeriumitele antavad punktid:
+
++-----------------+-----------------+-----------------+-----------------+
+| Kriteerium /    | 65 punkti       | 30 punkti       | 0-5 punkti      |
+| punktid         |                 |                 |                 |
++=================+=================+=================+=================+
+| 1.              | 1.Lahendus on   | 1.Lahendus on   | 1.Lahenduse     |
+| Terviklahenduse | põhjalikult ja  | kirjeldatud     | kirjeldus on    |
+| ja              | selgelt         | tervikuna, kuid | väga üldine või |
+| innovatsiooni   | kirjeldatud –   | detailides      | pealiskaudne    |
+| kirjeldus       | hõlmab          | esineb          | ja/või 2.Puudub |
+|                 | t               | puudujääke või  | terviklik       |
+|                 | ervikprotsessi, | ebaselgust.     | arusaam         |
+|                 | tehnoloogia,    | 2.Innovatsiooni | süsteemist ja   |
+|                 | k               | osa on olemas,  | selle           |
+|                 | asutajamugavuse | kuid piirdub    | toimimisest     |
+|                 | ja ärilise      | väiksemate      | ja/või          |
+|                 | väärtuse        | täiustuste või  | 3.Innovatsiooni |
+|                 | vaatenurka.     | parendustega.   | käsitlus on     |
+|                 | 2.Innovatsiooni | 3.Lahendus on   | minimaalne või  |
+|                 | tase on kõrge:  | funktsionaalne  | puudub üldse    |
+|                 | lahendus        | ja vastab       | ja/või          |
+|                 | sisaldab uusi   | p               |                 |
+|                 | või loovaid     | õhivajadustele, | 4. Lahendus     |
+|                 | lähenemisi, mis | kuid ei näita   | pigem kopeerib  |
+|                 | loovad          | olulist         | olemasolevaid   |
+|                 | märkimisväärset | eristumist või  | lahendusi ega   |
+|                 | lisandväärtust, | tu              | too             |
+|                 | suurendavad     | levikukindlust. | lisandväärtust. |
+|                 | tõhusust või    |                 |                 |
+|                 | loovad uusi     |                 | Sealjuures kui  |
+|                 | võimalusi.      |                 | pakutud         |
+|                 | 3.Lahendus on   |                 | lahendus vastab |
+|                 | selgelt         |                 | kõikidele       |
+|                 | tulevikku       |                 | eeltoodud       |
+|                 | suunatud,       |                 | kirjeldustele,  |
+|                 | skaleeritav ja  |                 | saab pakkumus 0 |
+|                 | toetab          |                 | punkti.         |
+|                 | digiteerimise   |                 |                 |
+|                 | arengut.        |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Kriteerium /    | 10 punkti       | 5 punkti        | 0-1 punkti      |
+| punktid         |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| 2.Riskide       | 1. riskide      | 1. riskide      | 1. riskide      |
+| haldus          | halduse         | halduse         | halduse         |
+|                 | ettepanekud on  | ettepanekud ei  | ettepanekud ei  |
+|                 | esitatud        | ole esitatud    | asjakohased (ei |
+|                 | selgelt,        | selgelt,        | ole projektiga  |
+|                 | detailselt,     | detailselt,     | arusaadavalt    |
+|                 | läbimõeldult,   | läbimõeldult,   | seotud) ja/või  |
+|                 | s               | s               |                 |
+|                 | truktureeritult | truktureeritult | 2. riskianalüüs |
+|                 | ja              | ja põhjendatult | ei ole esitatud |
+|                 | põhjendatult;   | ja/või          | ja/või 3. ei    |
+|                 |                 |                 | ole pakutud     |
+|                 | 2. riskianalüüs | 2. riskianalüüs | riskide         |
+|                 | on põhjalik,    | ei ole          | ma              |
+|                 | läbimõeldud ja  | põhjalik,       | andamismeetmeid |
+|                 | ammendav,       | läbimõeldud ja  |                 |
+|                 | hõlmab nii      | ammendav ja/või | Sealjuures kui  |
+|                 | sisust          | ei hõlma nii    | pakutud         |
+|                 | (analüüsi       | sisust          | lahendus vastab |
+|                 | teemast) kui    | (analüüsi       | kõikidele       |
+|                 | teostamis       | teemast) kui    | eeltoodud       |
+|                 | protseduuridest | teostamis       | kirjeldustele,  |
+|                 | lähtuvaid       | protseduuridest | saab pakkumus 0 |
+|                 | riske, hinnatud | lähtuvaid riske | punkti.         |
+|                 | on erinevate    | ja/või ei ole   |                 |
+|                 | riskide         | hinnatud        |                 |
+|                 | olulisust ja    | erinevate       |                 |
+|                 | esinemise       | riskide         |                 |
+|                 | tõenäosust ning | olulisust ja    |                 |
+|                 | lisatud on      | esinemise       |                 |
+|                 | vastutavad      | tõenäosust      |                 |
+|                 | rollid.         | ja/või ei ole   |                 |
+|                 |                 | lisatud         |                 |
+|                 | 3. väljapakutud | vastutavad      |                 |
+|                 | m               | isikud ja/või   |                 |
+|                 | aandamismeetmed |                 |                 |
+|                 | on              | 3. väljapakutud |                 |
+|                 | realistlikud,   | m               |                 |
+|                 | selgelt ja      | aandamismeetmed |                 |
+|                 | arusaadavalt    | ei ole          |                 |
+|                 | põhjendatud     | realistlikud,   |                 |
+|                 | ning tagavad    | selgelt ja      |                 |
+|                 | töö teostamise  | arusaadavalt    |                 |
+|                 | käigus          | põhjendatud     |                 |
+|                 | tekkivate       | ja/või ei taga  |                 |
+|                 | võimalike       | töö teostamise  |                 |
+|                 | probleemide     | käigus          |                 |
+|                 | lahendamise     | tekkivate       |                 |
+|                 | kvaliteetseks   | võimalike       |                 |
+|                 | teostamiseks.   | probleemide     |                 |
+|                 |                 | lahendamist     |                 |
+|                 |                 | kvaliteetseks   |                 |
+|                 |                 | teostamiseks    |                 |
++-----------------+-----------------+-----------------+-----------------+
+
+1.  KÕIKIDE PAKKUMUSTE TAGASILÜKKAMISE ALUSED JA HANKEMENETLUSE
+    KEHTETUKS TUNNISTAMINE
+
+    1.  Hankija võib lisaks RHS §-s 116 sätestatud juhtudele teha
+        põhjendatud kirjaliku otsuse kõigi pakkumuste tagasilükkamise
+        kohta kui ei ole tagatud piisav konkurents (laekub kaks või
+        vähem pakkumust või vastavaks tunnistatakse ainult üks
+        pakkumus).
+
+    2.  Hankijal on õigus hankemenetlus põhjendatud kirjaliku otsusega
+        kehtetuks tunnistada. Põhjendatud vajaduseks võib olla eelkõige,
+        kuid mitte ainult:
+
+        1.  kui tekib vajadus raamlepingu eset olulisel määral muuta;
+
+        2.  kui avatud hankemenetluse toimumise ajal on hankijale saanud
+            teatavaks andmed, mis välistavad või muudavad hankija jaoks
+            ebaotstarbekaks hankemenetluse lõpuleviimise
+            hankedokumentides esitatud tingimustel või hankelepingu
+            sõlmimine etteantud ja hankemenetluse käigus väljaselgitatud
+            tingimustel ei vastaks muutunud asjaolude tõttu hankija
+            varasematele vajadustele või ootustele;
+
+        3.  kui langeb ära vajadus teenuse tellimise järele põhjusel,
+            mis ei sõltu hankijast või põhjusel, mis sõltub või tuleneb
+            seadusandluse muutumisest, kõrgemalseisvate asutuste
+            haldusaktidest ja toimingutest või RMK nõukogu poolt
+            arengukava muutmisest;
+
+        4.  kui hankemenetluses on ilmnenud ebakõlad, mida ei ole
+            võimalik kõrvaldada ega menetlust seetõttu õiguspäraselt
+            lõpule viia.
+
+RAAMLEPINGU SÕLMIMINE
+
+3.  Raamleping sõlmitakse ühe edukaks tunnistatud pakkujaga raamlepingu
+    projektis kindlaksmääratud tingimustel tähtajaga kuni 48 kuud
+    lepingu sõlmimisest või kuni maksimaalse kogumaksumuse täitumiseni.
+
+4.  Hankija soovib lepingu sõlmida mõistlikul esimesel võimalusel peale
+    hankemenetluses lepingu sõlmimise võimaluse tekkimist ning edukas
+    pakkuja kohustub lepingu allkirjastama koheselt peale hankijalt
+    vastavasisulise ettepaneku saamist ja tagastama allkirjastatud
+    hankelepingu hankijale viivitamatult peale selle allkirjastamist.
+
+5.  Kui edukaks tunnistatud pakkuja ei allkirjasta või ei esita
+    hankijale allkirjastatud hankelepingut 3 tööpäeva jooksul selle
+    hankija poolt allkirjastamiseks esitamisest, võib hankija lugeda
+    pakkumuse tagasivõetuks hankijast mitteolenevatel põhjustel ja
+    kohaldada RHS § 119.
+
+6.  Leping allkirjastatakse digitaalselt. Juhul, kui lepingu
+    allkirjastamine digitaalselt ei ole võimalik (nt piiriülene
+    pakkuja), saadab hankija edukaks tunnistatud pakkumuse esitanud
+    pakkujale kaks hankija poolt allkirjastatud lepingu eksemplari.
+    Leping loetakse kättesaaduks selle elektroonilise edastamisele
+    järgneval kalendripäeval. Edukaks tunnistatud pakkumuse esitanud
+    pakkuja peab ühe lepingu eksemplari allkirjastatult tagastama
+    hankijale 5 tööpäeva jooksul lepingu kättesaamisest arvates. Hankija
+    võib eduka pakkuja taotluse ja vajaduse korral lepingu tagastamise
+    tähtaega pikendada. Kui pakkuja ei tagasta tema poolt allkirjastatud
+    lepingut nimetatud tähtaja jooksul, võib hankija lugeda pakkumuse
+    tagasivõetuks hankijast mitteolenevatel põhjustel ja kohaldada RHS §
+    119.
+
+LISATEABE SAAMINE
+
+7.  RHAD kohta saab selgitusi või täiendavat teavet ainult RHR kaudu,
+    mis eeldab seda, et huvitatud isik registreerib end RHR-s vastava
+    hankemenetluse juurde. Telefoni ega e-kirja teel küsimusi vastu ei
+    võeta.
+
+8.  Kui pakkuja avastab pakkumuse ettevalmistamise käigus RHAD-s vigu,
+    vasturääkivusi, ebaselgusi või mitmeti tõlgendatavust, on ta
+    kohustatud sellest koheselt hankijat RHR kaudu teavitama ja
+    sellekohase küsimuse esitama. Kui pakkuja ei ole esitanud vastavaid
+    küsimusi RHAD kohta, siis tõlgendatakse hanke alusdokumentide
+    tingimusi muutunud või ebaselgete asjaolude korral ja kooskõlas
+    RHS-ga lähtudes sellest, mida pooled oleksid mõistlikult võinud
+    eeldada lepingu sõlmimise ajal, arvestades lepingu sisu, tellitud
+    teenuse olemust ning hankija ootust saada teenust, mis vastab selle
+    iseloomule ja otstarbele.

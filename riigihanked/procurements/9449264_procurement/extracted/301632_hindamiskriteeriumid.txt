@@ -1,0 +1,80 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 301632
+Hankija: Riigimetsa Majandamise Keskus (70004459)
+Hange: Kliendiportaali ja puidumüügi keskkond
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Arendustöö ühe (1) töötunni maksumus
+ilma käibemaksuta
+2 Hooldustöö ühe (1) töötunni maksumus
+ilma käibemaksuta
+3 Terviklahenduse
+ja
+innovatsiooni
+kirjeldus
+4 Riskide haldus
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Maksumus vähim on parim
+Kulu - vähim on
+parim
+Kvaliteet - hankija
+hinnatav
+Kvaliteet - hankija
+hinnatav
+Kokku:
+
+Osakaal
+
+Kogus
+
+Ühik
+
+20
+
+EUR/h
+
+Pakkuja
+täidetav
+jah
+
+5
+
+EUR/h
+
+jah
+
+65
+10
+100
+
+Hindamismetoodika kirjeldus
+1. Arendustöö ühe (1) töötunni maksumus ilma käibemaksuta
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. Hooldustöö ühe (1) töötunni maksumus ilma käibemaksuta
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+3. Terviklahenduse ja innovatsiooni kirjeldus
+Terviklahenduse ja innovatsiooni kirjelduse hindamismetoodika kirjeldus on välja toodud hankedokumendi punktis 4.
+
+4. Riskide haldus
+Riskide halduse hindamismetoodika kirjeldus on välja toodud hankedokumendi punktis 4.
+
+Koostatud 25.11.2025 09:10:24
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9449264/general-info
+
+
