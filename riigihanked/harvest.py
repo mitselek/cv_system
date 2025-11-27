@@ -46,6 +46,13 @@ class RiigihankedAPI:
         response.raise_for_status()
         return response.json()['value']
     
+    def get_general_info(self, proc_vers_id: int) -> dict[str, Any]:
+        """Get general information about a procurement version"""
+        url = f"{self.API_BASE}/proc-vers/{proc_vers_id}/general-info"
+        response = self.session.get(url)
+        response.raise_for_status()
+        return response.json()
+    
     def get_documents_list(self, proc_vers_id: int) -> list[dict[str, Any]]:
         """Get list of all documents for a procurement version"""
         url = f"{self.API_BASE}/proc-vers/{proc_vers_id}/documents/general-info"
@@ -161,6 +168,10 @@ class RiigihankedAPI:
         version_id = self.get_latest_version(procurement_id)
         print(f"📌 Latest version: {version_id}")
         
+        # Get general info
+        print(f"📋 Fetching general information...")
+        general_info = self.get_general_info(version_id)
+        
         # Get documents list
         documents = self.get_documents_list(version_id)
         print(f"📄 Found {len(documents)} documents")
@@ -170,7 +181,13 @@ class RiigihankedAPI:
             output_dir = Path(f"procurements/{procurement_id}")
         output_dir.mkdir(parents=True, exist_ok=True)
         
-        # Save metadata
+        # Save general info as separate file
+        general_info_path = output_dir / 'general_info.json'
+        with open(general_info_path, 'w', encoding='utf-8') as f:
+            json.dump(general_info, f, indent=2, ensure_ascii=False)
+        print(f"💾 Saved general info to {general_info_path}")
+        
+        # Save metadata (documents list)
         metadata: dict[str, Any] = {
             'procurement_id': procurement_id,
             'version_id': version_id,
