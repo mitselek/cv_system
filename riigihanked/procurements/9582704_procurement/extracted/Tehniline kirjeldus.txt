@@ -1,0 +1,804 @@
+„Andmeplatvormi juurutus- ja arendusteenused“ tehniline kirjeldus
+
+Sisukord
+
+1. Eessõna 1
+
+2. Üldine teave Põhja-Eesti Regionaalhaigla kohta 1
+
+3. Hanke selgitus – Osa 1 2
+
+3.1. Hanke eesmärgid 2
+
+3.2. Praegune olukord 3
+
+3.3. Spetsifikatsioon ja nõuded 3
+
+3.4. Hankelepingu oletuslik ajakava ja tulemid 4
+
+4. Teenuse üldtingimused – Osa 1 7
+
+4.1. Teenuse osutamisel Töövõtja: 7
+
+5. PoC (Proof of Concept) - Osa 1 7
+
+5.1. PoC skoop 7
+
+5.2. Eeldused ja piirangud 9
+
+5.3. PoC edukriteeriumid 10
+
+5.4. Järgmised sammud 11
+
+Eessõna
+
+Käesolev dokument on SA Põhja-Eesti Regionaalhaigla riigihanke „ … “
+teenuse kirjeldus.
+
+Tellija all mõistetakse käesolevas dokumendis hankijat (Regionaalhaigla
+Grupp, mida esindab Sihtasutus Põhja-Eesti Regionaalhaigla), edaspidi ka
+Regionaalhaigla.
+
+Töövõtja all mõistetakse käesolevas dokumendis pakkujaid, kellega
+sõlmitakse hankemenetluse tulemusel raamleping(ud).
+
+Käesolev riigihange koosneb kahest osast:
+
+-   Andmeplatvormi juurutamine ja arendamine - riigihanke osa 1
+
+-   Arendus- ja hooldustööde teostamine (edaspidi “arendustöö”) -
+    riigihanke osa 2
+
+Antud hanke raames sõlmitud lepingute täitmiseks vajaliku tarkvara ning
+pilveteenuse soetamine ei sisaldu käesoleva hanke skoobis.
+
+SA Põhja-Eesti Regionaalhaigla sõlmib eraldi lepingud üksikute
+tarkvarakomponentide müüjate ja/või pilveteenuse pakkujatega, kes
+tarnivad andmeplatvormi jaoks vajalikke spetsiifilisi tehnoloogiaid,
+tööriistu või teenuseid.
+
+Need lepingud määratlevad iga komponendi või teenusega seotud
+litsentsimise, toe, vastavuse, turvalisuse ja teenusetaseme ootused.
+
+Iga leping viiakse kooskõlla üldise raamlepinguga, et tagada
+andmeplatvormi kõigi komponentide koostalitlusvõime ja järjepidevuse.
+
+Selline struktureeritud lähenemine tagab, et Regionaalhaigla säilitab
+tervikliku juhtimismudeli, võimaldades samal ajal paindlikkust erinevate
+tehnoloogiapakkujate haldamisel andmeplatvormide ökosüsteemis.
+
+Üldine teave Põhja-Eesti Regionaalhaigla kohta
+
+Regionaalhaigla on Eesti tipphaigla, mille põhiväärtused on pühendumine
+ja professionaalsus, hoolivus ja vastutustundlikkus, avatus ja
+koostöövalmidus. Regionaalhaigla on Eesti juhtiv tervishoiuasutus ja
+tervishoiusektori innovatsiooni eestvedaja, kes vastutab Põhja-Eesti ja
+saarte elanike meditsiinilise turvalisuse eest. Regionaalhaigla grupis
+töötab patsientide heaks ligi 5000 inimest – meeskonda kuuluvad arstid,
+õed, hooldajad ja muude erialade spetsialistid. Arste on
+Regionaalhaiglal üle 500, lisaks praktiseerib Regionaalhaiglas pidevalt
+enam kui sada arsti-residenti.
+
+Peamiseks teeninduspiirkonnaks on Tallinn (ca 50% haigla patsientidest),
+Harjumaa (ca 20% haigla patsientidest) ja Kesk-, Lääne- ja Ida-Eesti
+maakonnad, kuid teenindatakse ka Lõuna-Eesti elanikke. Regionaalhaigla
+osutab kiirabiteenust Harjumaal, Raplamaal, Hiiumaal, Läänemaal ja Eesti
+väikesaartel ning reanimobiilteenust Põhja-Eestis.
+
+Regionaalhaigla osutab kõige suuremas mahus kõrgeima keerukusastmega
+raviteenust kogu Eestis. Ravijuhtude keskmine keerukus ehk CMI (Case Mix
+Index) on 1,47 (2021: 1,54). Eesti haiglate keskmine on 1,11 (2021:
+1,15).
+
+Regionaalhaigla peab oma andmehaldust ja analüütika lahendusi arendades
+vajalikuks koondada olulised ärilised ja meditsiinilised andmed ühtsesse
+turvalisse andmeplatvormi. Uue platvormi abil parandatakse andmete
+kättesaadavust, kvaliteeti ja aruandluse võimekust, et toetada
+tõenduspõhist juhtimist ja tõhusat teenuse osutamist.
+
+Hanke selgitus – Osa 1
+
+Hanke eesmärgid 
+
+Hanke eesmärk on arendada ja juurutada kaasaegne andmeplatvorm, mis
+võimaldab Regionaalhaiglal tõhusalt hallata, töödelda ja kasutada
+andmeid otsuste tegemiseks, mille tarbeks sõlmitakse töövõtjatega üks
+raamleping ja üks hankeleping:
+
+-   Hankeleping andmelao ühe töövõtjaga, kes hakkab selle raames
+    arendama ja juurutama kaasaegset andmeplatvorm - riigihanke osa 1.
+
+-   Raamleping kuni kolme töövõtjaga, kes hakkavad selle raames toetama
+    uute aruannete loomisel, erinevate arendustega ja uute liideste
+    ühendustega - riigihanke osa 2.
+
+Tellijal on õigus vastavalt vajadusele tellida raamlepingu alusel
+pilvepõhise andmeplatvormi juurutus- ja arendusteenuseid töövõtjatelt.
+
+Raamlepingus kirjeldatakse platvormi juurutamise, haldamise ja
+edasiarendamise üldtingimusi, kohustusi ja pikaajalisi
+koostööpõhimõtteid.
+
+Eesmärk on:
+
+1.  Läheneda uue platvormi ülesehitusse KPI-põhiselt.
+
+2.  Senise andmelao sisu ja funktsionaalsuse migreerimine koos
+    täiendustega.
+
+    a.  Kuna praegusele andmelaole pole pika aja jooksul eriti täiendusi
+        tehtud, kuid samas on arenenud nii ärivajadused kui
+        alliksüsteemide sisu, siis ei ole mõttekas senist sisu muutmata
+        kujul üle kolida.
+
+3.  Iga olemasoleva kasutusloo ülevaade, kus vaadeldakse:
+
+    a.  kui hästi see täidab praeguseid ärivajadusi,
+
+    b.  millised omadused või andmed puuduvad,
+
+    c.  milliseid seotud ärivajadusi see veel katta võiks, kui lisada
+        samadest protsessidest või allikatest täiendavaid andmeid,
+
+    d.  kui suur on arendustöö maht kasutusloo täiendamiseks või
+        kohandamiseks
+
+    e.  ning milline on kasutusloo prioriteet teiste kasutuslugude seas.
+
+4.  Master Data Management lahenduse kolimine.
+
+5.  Võimaldada reaalajas või peaaegu reaalajas andmetöötlust operatiivse
+    töö jälgimiseks ja analüüsimiseks.
+
+6.  Toetada masinõpet ja tehisintellektipõhist analüüsi, võimaldades
+    ennustavat ülevaadet ja automatiseerimist.
+
+7.  Vähendada ärikriitiliste süsteemide koormust ja riske.
+
+8.  Parandada andmehaldust, turvalisust ja vastavust.
+
+    a.  Turvalisuse ja ligipääsupiirangute rakendamine vastavalt E-ITS
+        nõuetele.
+
+9.  Parandada andmete juurdepääsetavust ja iseteeninduse võimalusi:
+
+    a.  Võimaldada ärikasutajatel ja analüütikutel struktureeritud ja
+        juhitud andmekeskkonna kaudu andmetele hõlpsalt juurde pääseda
+        ja neid analüüsida;
+
+    b.  Toetada iseteeninduslikku analüüsi täpselt määratletud
+        andmemudelite ja standardiseeritud andmemääratlustega;
+
+    c.  Pakkuda API-sid ja liideseid andmeteenuste integreerimiseks
+        teiste rakenduste ja äriprotsessidega.
+
+10. Maskeerimise/pseudonümiseerimise lahenduse välja töötamine andmelao
+    jaoks.
+
+11. Viia täiendavate andmete võimekus andmelattu.
+
+12. Metaandmete haldus ja äriloogika dokumenteerimine.
+
+13. Toetada erinevaid andmelao ja Tableauga seotud arendustöid.
+
+Tuleviku laienduste nõue.
+
+Töövõtja peab tagama, et pakutud lahendus:
+
+-   Võimaldab tulevaste komponentide sujuvat integreerimist ilma
+    suuremate arhitektuuriliste muudatusteta;
+
+-   Toetab koostalitlusvõimet kavandatud funktsioonidega, tagades
+    mastaapsuse ja paindlikkuse tulevaseks laienemiseks;
+
+-   Järgib valdkonna parimaid tavasid, et vältida müüjaga seotust ja
+    vältida tehnilisi piiranguid, mis võivad edasist arengut takistada.
+
+Lõplik lahendus peab olema modulaarne, skaleeritav ja laiendatav,
+tagades, et Regionaalhaigla saab järk-järgult lisada uusi komponente
+ilma platvormi põhifunktsionaalsust häirimata.
+
+Praegune olukord
+
+Olemasolev andmeladu on tehniliselt vananenud ning
+arendus/haldusprotsessidest tulenevate kitsaskohtadega. Andmete muutmine
+läbi andmelao kättesaadavaks on aeganõudev. Praeguse andmelao maht on
+umbes 530GB.
+
+Tulenevalt eelnevast ei suuda praegune andmeladu organisatsiooni
+aruandlusvajadust andmetega katta (ERP andmete katvus väike jmt).
+Kasutusel on Tableau Prep töövood laoandmete liidestamiseks erinevate
+laoväliste allikatega. Aruandlust teostatakse osaliselt ka
+tabeltöötlustarkvaradega, palju kasutatakse allikate aruandlusmooduleid,
+andmete eksportimist allikatest jmt.
+
+Spetsifikatsioon ja nõuded
+
+Käesoleva hanke raames toimub Regionaalhaigla olemasoleva andmelao
+andmete migreerimine, uue andmeplatvormi juurutamine ja konsultatsioon.
+Andmeplatvorm toimib keskse infrastruktuurina andmete haldamiseks,
+töötlemiseks, analüüsiks ja integreerimiseks kogu organisatsioonis. See
+toetab ärianalüüsi ja aruandlust, tagades samal ajal mastaapsuse,
+turvalisuse ja tõhususe.
+
+Andmeplatvormi juurutamine hõlmab muuhulgas järgmist:
+
+-   Skaleeritava ja turvalise andmeplatvormi juurutamine;
+
+-   Integreerimine sisemiste ja väliste andmeallikatega, et hõlbustada
+    sujuvat andmevahetust;
+
+-   Andmetöötluse, salvestamise ja teisendamis võimaluste leidmine
+    tõhusa analüüsi ja aruandluse võimaldamiseks;
+
+-   Turvalisus-, juhtimis- ja vastavusmehhanismide loomine, et tagada
+    andmete terviklikkus, varundus, juurdepääsukontrollid ja
+    regulatiivne vastavus;
+
+-   Platvormi juurutamine ja operatiivne tugi töökindluse ja jõudluse
+    tagamiseks.
+
+Soovitud lahendus:
+
+Põhjaliku eelanalüüsi tulemusel on tellija valinud soovitud platvormiks
+Snowflake koos best-of-breed vabavaraliste analüütikat toetavate
+tööriistade paketiga. Toome all järgnevas tabelis välja võrdluse, mida
+tellija soovib ja mis on hetkel kasutusel:
+
+  ---------------------------------------------------------------------------
+  Funktsionaalsus           Parima kvaliteedi äriversioon + Vastav tänane
+                            avatud lähtekood                Regionaalhaigla
+                                                            lahendus
+  ------------------------- ------------------------------- -----------------
+  Orkestreerija             Airflow                         MS SSIS
+
+  Jälgimine ja monitooring  Airflow                         MS SSIS
+
+  Andmete laadimine         Airbyte                         MS SSIS
+  failidest ja                                              
+  andmebaasidest                                            
+
+  Andmete laadimine API-st  Airbyte (Python)                MS SSIS
+
+  Äriloogika                DBT (SQL)                       MS SQL DB
+
+  Automatiseeritud          DBT (SQL)                       puudub
+  testimine                                                 
+
+  Transformatsioonimootor   Snowflake                       Tableau raportid
+
+  Päringumootor             Snowflake otsinguteks / Tableau MS SQL DB
+                            väljavõteteks                   
+
+  Koodirepo, CI/CD          Bitbucket                       Bitbucket
+
+  Kasutajaliides            Tableau                         Tableau
+  (Front-end)                                               
+
+  Objektsalvestus           Azure ADLS Gen 2                puudub
+
+  Väline tabeliformaat      Iceberg                         puudub
+
+  Käsitsi andmete sisestus  Directus                        Optime MDM
+  (Master Data Management)                                  
+
+  Logimine                  Airflow, Airbyte, DBT logid     MS SSIS
+                            Snowflake’i või ADLS Gen2-sse   
+  ---------------------------------------------------------------------------
+
+Hankelepingu oletuslik ajakava ja tulemid
+
+Hankeleping võiks olla jaotatud 3 faasi:
+
+-   Faas 1 = PoC (esimesed KPId).
+
+    -   Eesmärk: luua esimesed KPI-põhised ärilised tulemused uuel
+        platvormil ja luua korduvkasutatavad mustrid. Esimene toimiv
+        Tableau aruanne.
+
+-   Faas 2 = PoC’i järgne faas.
+
+    -   Eesmärk: 4 toimivat Tableau aruannet. Tulemuste konsolideerimine
+        ja ettevalmistus Faasiks 3.
+
+-   Faas 3 = Standardiseerimine (CI/CD, audit, KPI portfell laiemalt).
+
+    -   Eesmärk: muuta PoC’ist saadud kogemus organisatsiooniüleseks
+        praktikaks. 10 Tableau aruannet.
+
+Regionaalhaigla poolne sisend, mida kasutada projektiplaanis. Täitja
+võib seda vastavalt vajadusele täiendada, kui näeb selleks vajadust:
+
+1.  Faas 1 – PoC (umbes kuud 3)
+
++-----------------------+-----------------------+----------------------+
+| Eesmärk               | Peamised tegevused    | Peamised väljundid   |
++=======================+=======================+======================+
+| Luua töövalmis PoC    | PoCi läbiviimine      | Töökorras PoC        |
+| keskkond.             | (täpsemalt            | keskkond;            |
+|                       | kirjeldatud peatükis  |                      |
+|                       | 3.)                   | Esmane Tableau       |
+|                       |                       | aruanne.             |
++-----------------------+-----------------------+----------------------+
+| Koguda ja             | PoC tehnilise ja      | PoC tulemuste        |
+| struktureerida PoC    | arhitektuurse         | dokumentatsioon ja   |
+| tulemused,            | dokumentatsiooni      | soovitused;          |
+| valmistades ette      | koostamine;           |                      |
+| järgmise faasi        |                       | Koolitatud           |
+|                       | PoC tulemuste         | võtmekasutajad;      |
+|                       | hindamine:            |                      |
+|                       | andmekvaliteet,       | Hinnatud PoC         |
+|                       | jõudlus,              | tehniline ja äriline |
+|                       | skaleeritavus ja      | sobivus.             |
+|                       | kõrge käideldavuse    |                      |
+|                       | demonstreerimine;.    |                      |
+|                       |                       |                      |
+|                       | Kasutajakoolitus      |                      |
+|                       | võtmekasutajatele     |                      |
+|                       | (ainult PoC tulemuste |                      |
+|                       | hindamiseks);         |                      |
+|                       |                       |                      |
+|                       | Lõpphinnangu ja       |                      |
+|                       | soovituste koostamine |                      |
+|                       | Faas 2                |                      |
+|                       | ettevalmistamiseks.   |                      |
++-----------------------+-----------------------+----------------------+
+
+2.  Faas 2 – PoC’i järgne faas ( umbes 4 kuud)
+
++-----------------------+-----------------------+----------------------+
+| Eesmärk               | Peamised tegevused    | Peamised väljundid   |
++=======================+=======================+======================+
+| Demonstreerida PoC-i  | Esimeste KPI-de       | 4 Tableau aruannet;  |
+| tulemusi ja           | aruannete ja          |                      |
+| valmistada ette laiem | dashboardide          | Toimivad KPI         |
+| kasutuselevõtt        | avaldamine            | aruanded ja          |
+|                       | kasutajatele;         | dashboardid;         |
+|                       |                       |                      |
+|                       | Kasutajakoolitused    | Koolitatud           |
+|                       | (Tableau, KPI loogika | võtmekasutajad.      |
+|                       | – kuni 10 inimest, 2h |                      |
+|                       | inimese kohta);       |                      |
+|                       |                       |                      |
+|                       | Kasutajate tagasiside |                      |
+|                       | kogumine ja analüüs;  |                      |
++-----------------------+-----------------------+----------------------+
+| Tagada turvalisus ja  | Andmetöötlusriskide   | Riskihindamise       |
+| luua arenduse         | hindamine koostöös    | raport ja            |
+| miinimumstandardid    | infoturbe ja E-ITS    | soovitused;          |
+|                       | spetsialistidega (sh  |                      |
+|                       | pseudonüümimise       | Arendusmustrite      |
+|                       | vajadus);             | esmane versioon.     |
+|                       |                       |                      |
+|                       | Esmased               |                      |
+|                       | arendusmustrite ja    |                      |
+|                       | nimekonventsioonide   |                      |
+|                       | kokkulepped           |                      |
+|                       | (ligipääsud,          |                      |
+|                       | dokumenteerimise      |                      |
+|                       | reeglid).             |                      |
++-----------------------+-----------------------+----------------------+
+| Luua raamistik BI ja  | Analüütikakogukonna   | BI kogukond ja       |
+| andmeanalüüsi         | (BI foorum, Teams     | suhtluskanalid       |
+| koostööks ning        | kanal) loomine;       | loodud;              |
+| tulevaste KPI-de      |                       |                      |
+| halduseks             | Esimene               | KPI register ja      |
+|                       | dokumenteeritud KPI   | visuaalne standard;  |
+|                       | register (esimesed    |                      |
+|                       | KPI-d PoC-ist);       |                      |
+|                       |                       |                      |
+|                       | BI stylebooki         |                      |
+|                       | algversioon;          |                      |
+|                       |                       |                      |
+|                       | Tulemuste hindamine:  |                      |
+|                       |                       |                      |
+|                       | andmekvaliteet,       |                      |
+|                       | jõudlus,              |                      |
+|                       | skaleeritavus.        |                      |
+|                       |                       |                      |
+|                       | Otsus järgmiste       |                      |
+|                       | KPI-de arendamiseks   |                      |
+|                       | Faasis 3.             |                      |
++-----------------------+-----------------------+----------------------+
+
+3.  Faas 3 - Standardiseerimine (umbes 10 kuud)
+
++-----------------------+-----------------------+----------------------+
+| Eesmärk               | Peamised tegevused    | Peamised väljundid   |
++=======================+=======================+======================+
+| Laiendada PoC-is      | Täiendavate KPI-de    | 10 Tableau aruannet; |
+| valideeritud          | (nt 10–15             |                      |
+| arhitektuuri kogu     | ärikriitilist)        | Laiendatud KPI       |
+| organisatsiooni       | integreerimine;       | register;            |
+| KPI-dele ja tagada    |                       |                      |
+| ühtne standard        | Andmeallikate ja      | Töötavad             |
+|                       | integratsioonide      | integratsioonid;     |
+|                       | lisamine;             |                      |
+|                       |                       | Ühtlustatud KPI      |
+|                       | Andmeobjektide ja     | standardid ja        |
+|                       | mudelite              | nomenklatuur.        |
+|                       | standardiseerimine;   |                      |
+|                       |                       |                      |
+|                       | KPI registri          |                      |
+|                       | laiendamine ja        |                      |
+|                       | versioonihaldus.      |                      |
++-----------------------+-----------------------+----------------------+
+| Standardiseerida      | Andmehalduse          | Dokumenteeritud      |
+| KPI-de loomise ja     | protsesside           | an                   |
+| halduse protsessid    | dokumenteerimine      | dmehaldusprotsessid; |
+|                       | (mudelid, äriloogika, |                      |
+|                       | aruandeloogika);      |                      |
++-----------------------+-----------------------+----------------------+
+| Luua professionaalne  | CI/CD protsessi       | CI/CD pipeline       |
+| arendus- ja           | käivitamine           | toimib;              |
+| haldusprotsess        | (versioonihaldus,     |                      |
+|                       | automaattestid,       | Auditlogide süsteem  |
+|                       | deployment);          | töötab;              |
+|                       |                       |                      |
+|                       | Auditlogide süsteemi  | Standardiseeritud    |
+|                       | rakendamine           | arendusmustrid.      |
+|                       | Snowflake’is (E-ITS   |                      |
+|                       | vastavus);            |                      |
+|                       |                       |                      |
+|                       | dbt                   |                      |
+|                       | projektistruktuuri ja |                      |
+|                       | arendusmustrite       |                      |
+|                       | standardiseerimine.   |                      |
++-----------------------+-----------------------+----------------------+
+| Laiendada analüütikat | Uute KPI gruppide     | 3 uut dashboardi ja  |
+| uutesse domeenidesse  | arendus (nt EMO,      | sellega seotud       |
+| ja tugevdada          | personali             | KPI-d;               |
+| kasutajate kaasamist  | efektiivsus,          |                      |
+|                       | kuluarvestus);        | Luua self-service BI |
+|                       |                       | võimekus;            |
+|                       | Dashboardide loomine  |                      |
+|                       | Tableaus (BI          | Koolitatud vähemalt  |
+|                       | stylebooki järgi);    | 20 valdkonna         |
+|                       |                       | kasutajad.           |
+|                       | Koolitusprogrammi     |                      |
+|                       | laiendamine           |                      |
+|                       | (valdkondlikud        |                      |
+|                       | koolitused,           |                      |
+|                       | self-service).        |                      |
++-----------------------+-----------------------+----------------------+
+| Seostada KPI register | KPI registri sidumine | Sidustatud KPI       |
+| ja aruanded, toetada  | aruannetega           | register ja          |
+| organisatsiooni       | (tooltipid, lingid,   | aruanded;            |
+| võimestamist          | metaandmed);          |                      |
+|                       |                       | Loodud               |
+|                       | Self-service BI       | videokoolituse       |
+|                       | koolitused kogu       | materialid;          |
+|                       | organisatsioonis;     |                      |
+|                       |                       | Onboarding           |
+|                       | Onboarding            | käsiraamatud.        |
+|                       | materjalide loomine   |                      |
+|                       | uutele analüütikutele |                      |
+|                       | ja BI kasutajatele.   |                      |
++-----------------------+-----------------------+----------------------+
+| Hinnata               | KPI-de katvuse ja     | Järgmise faasi       |
+| standardiseerimise    | kvaliteedi hindamine; | tegevusplaan;        |
+| edukust ja määrata    |                       |                      |
+| järgmised             | Prioriteetsete KPI    | Uuendatud            |
+| arengusuunad          | projektide ja         | andmestrateegia.     |
+|                       | automatiseerimise     |                      |
+|                       | vajaduste             |                      |
+|                       | määratlemine.         |                      |
++-----------------------+-----------------------+----------------------+
+
+Teenuse üldtingimused – Osa 1
+
+Teenuse osutamisel Töövõtja:
+
+-   Seadistab ja juurutab andmeplatvormi, mis põhineb hallatud
+    pilveteenustel ning sisaldab pilvepõhist andmeladu;
+
+-   Migreerib koos täiendustega senise andmelao sisu ja
+    funktsionaalsuse;
+
+-   Juurutab andmekataloogi;
+
+-   Platvormi arendamisel kasutab DataOps- või DevOps-põhimõtteid,
+    sealhulgas automaatseid CI/CD protsesse, infrastruktuuri koodipõhist
+    haldust ning konfiguratsiooni- ja koodihalduse tööriistu;
+
+-   Platvormis kasutab andmete voogedastuse tehnoloogiaid;
+
+-   Turvamehhanismid võimaldavad autentimist, autoriseerimist ja
+    juurdepääsuõiguste haldust vastavalt organisatsiooni sisemistele
+    poliitikatele ja standarditele (arvestada tuleb Eesti
+    infoturbestandardis (E-ITS) käsitletuga).
+
+-   Koolitab tellija võtmeisikuid platvormi haldamiseks, kasutamiseks ja
+    konfigureerimiseks.
+
+PoC (Proof of Concept) - Osa 1
+
+Käesolev peatükk kirjeldab Regionaalhaigla pilvepõhise andmeplatvormi
+kontseptsiooni tõestuse (PoC) ulatust. PoC viiakse läbi eesmärgiga
+kinnitada kavandatud arhitektuuri ja valitud tehniliste komponentide
+koostoimivust ning sobivust organisatsiooni vajadustega. PoC tulemusena
+saadakse oluline sisend otsustamaks, kas ja kuidas jätkata platvormi
+täismahus juurutamist ja täitjaga koostöösuhete loomist.
+
+PoC eesmärgiks on valideerida Regionaalhaigla pilvepõhise andmeplatvormi
+arhitektuuri ning valitud tehniliste komponentide sobivust, ühilduvust
+ja vastavust tehnilistele ning ärilistele nõuetele. Selleks hinnatakse
+lahenduse töökindlust, jõudlust ja skaleeritavust, samuti vähendatakse
+võimalikke tehnilisi ja ärilisi riske. PoC tulemusena saadakse
+kindlustunne kavandatava lahenduse toimivuses enne lõplike otsuste
+tegemist.
+
+PoC skoop
+
+1.  PoC keskkonna ülesseadistamine
+
+  Esimese sammuna luuakse ja häälestatakse PoC läbiviimiseks vajalik
+  testkeskkond pilveteenuse pakkuja juures. Selle käigus:
+
+-   Luuakse ja seadistatakse demokeskkond ning vajalikud kasutajakontod;
+
+-   Luuakse arhitektuur;
+
+-   Käivitatakse vajalikud andmeplatvormi teenused;
+
+-   Seadistatakse autentimine, autoriseerimine ja õiguste haldus.
+
+    1.  Andmehõive valitud andmeallikast
+
+  Teise sammuna viiakse läbi andmehõive ühest tellija poolt valitud
+  andmeallikast, keskendudes Change Data Capture (CDC) tööriista
+  (Airbyte) valideerimisele. Selle etapi käigus tuleb:
+
+-   Paigaldada ja seadistada CDC platvorm Regionaalhaigla andmekeskuses;
+
+-   Luua turvaline võrguühendus kohapealse infrastruktuuri ja
+    pilvekeskkonna vahel;
+
+-   Hinnata CDC platvormi võimekust ajalooliste andmete esmaseks
+    laadimiseks ja muudatuste reaalajalähedaseks laadimiseks andmelattu;
+
+-   Laadida andmed valitud alliksüsteemist toorkujul otse andmejärve,
+    hinnates laadimise jõudlust, skaleeritavust ja latentsust. Hindamise
+    aluseks on:
+
+    -   Ajalooliste andmete laadimisele kuluv aeg;
+
+    -   Reaalaja andmete latentsus.
+
+-   Hinnata lahenduse mõju alliksüsteemi jõudlusele ja stabiilsusele;
+
+-   Leida optimaalne andmeformaat andmejärves nii allikatest laadimise
+    kui andmete edasise kasutuse aspektist;
+
+-   Leida jõudluse ja kuluefektiivsuse vaates sobivaim laadimismeetod
+    (pidev laadimine vs. mikro-laadimistsüklid);
+
+-   Leida CDC klastri optimaalne suurus;
+
+-   Näidata, kuidas on tagatud tõrkekindlus ja kõrgkäideldavus.
+
+    1.  Andmejärv
+
+  Toorandmed salvestatakse Azure Data Lake Storage teenusesse. PoC
+  käigus määratakse:
+
+-   Sobivaim andmejärve loogiline ja füüsiline struktuur;
+
+-   Sobivaim andmeformaat, arvestades jõudlust ja analüüsivajadusi;
+
+-   Sobivaim andmete partitsioneerimise strateegia (nt ajaline,
+    organisatsiooniline, domeenipõhine), mis toetab tõhusat
+    päringujõudlust ja haldust;
+
+-   Toorandmete säilituspoliitika (nt ajapõhine kustutamine või
+    arhiivimine) ning selle rakendamise mehhanismid (nt lifecycle
+    management ADLS-is);
+
+-   Kuluefektiivsuse tagamise meetodid, sealhulgas “kihiline” salvestus
+    (hot/cool/archive), failide suuruse optimeerimine;
+
+-   Kasutajate autentimise ja autoriseerimise meetodid, sh Azure Active
+    Directory (AAD) integreerimine, rollipõhine ligipääsukontroll (RBAC)
+    ja vajadusel Access Control Listid (ACLs) objektitasandil;
+
+-   Andmekaitse meetodid, sealhulgas data in transit ja data at rest
+    krüpteerimine, tundlike andmete maskimine või pseudonümiseerimine,
+    vastavalt regulatiivsetele nõuetele (E-ITS).
+
+    1.  Andmeladu
+
+  Regionaalhaigla andmeplatvormi keskseks komponendiks on tellija
+  andmeladu, mis ühendab mitmeid andmeallikaid struktureeritud kujul.
+
+  Andmelao arenduses kasutatakse metoodikat, mis tagab:
+
+-   Täieliku andmete jälgitavuse ja ajaloo säilitamise;
+
+-   Skaleeritavuse ja paindlikkuse;
+
+-   Uute allikate integreerimise ilma olemasolevaid struktuure
+    mõjutamata;
+
+-   Skeemimuudatuste haldamise lihtsustamise.
+
+  Laadimiste sagedus:
+
+  Andmed laetakse andmelattu vähemalt üks kord tunnis. PoC raames
+  hinnatakse andmelao laadimiste toimivust, ressursikasutust ja
+  latentsust.
+
+  Autentimine ja autoriseerimine:
+
+-   RBAC (Role-Based Access Control);
+
+-   RLS (Row-Level Security);
+
+-   CLS (Column-Level Security);
+
+-   Azure AD integratisoon;
+
+-   MFA (Multi_Factor Authentication).
+
+    1.  ELT platvorm
+
+  Andmete laadimiseks andmejärvest andmelattu kasutatakse mallipõhist
+  ELT-tööriista Airbyte, mis toob andmeid erinevatest allikatest ja
+  laadib need andmelattu. SQL-kood peab olema jõudluselt optimeeritud
+  valitud andmelao platvormi jaoks. Dbt teostab andmete
+  transformatsiooni SQL-i ja mudelite kaudu otse andmelaos. Airflow
+  haldab töövoogusid ja ajastusi, käivitab Airbyte’i ekstraktsioonid ja
+  dbt transformatsioonid õiges järjekorras.
+
+2.  Aruandlus
+
+  PoC raames luuakse analüütiline aruanne, mis põhineb andmelao
+  esitluskihil Tableau. Täpsed nõuded aruandele esitatakse PoCi käigus.
+
+3.  Andmekataloog ja andmekvaliteedi haldus
+
+  Andmete haldus hõlmab ainult PoC skoobis olevaid andmeid, andmelaos
+  teostatavaid transformatsioone ja 1 Tableau aruannet. Vajalik on
+  automatiseeritud regulaarne metaandmete kogumine järgmistest
+  allikatest:
+
+-   Ühe alliksüsteemi andmebaasist:
+
+    -   andmebaasiobjektid (skeemid, tabelid, vaated, veerud,
+        andmetüübid jne.);
+
+-   Andmejärve struktuuridest;
+
+-   Andmelao andmebaasist:
+
+    -   andmebaasiobjektid (skeemid, tabelid, vaated, veerud,
+        andmetüübid jne.);
+
+-   ELT transformatsioonidest andmeatribuudi/veeru tasemel;
+
+-   Tableau aruannetest ja objektidest atribuudi tasemel.
+
+  Andmekataloog peab kogutud metaandmete põhjal olema võimeline esitama
+  graafiliselt andmete päritolu vaate (Horizontal Data Lineage).
+  Ideaalne lahendus võimaldab lõppkasutajal kuvada andmete päritolu
+  vaadet erinevate abstraktsioonitasemetega - süsteemi tasemel, tabeli
+  tasemel või veeru tasemel.
+
+  Andmekvaliteedi halduse süsteem peab võimaldama:
+
+-   andmekvaliteedi reeglite loomist;
+
+-   andmekvaliteedi testide kirjeldamist SQL lausete kujul;
+
+-   testide automaatset regulaarset täitmist;
+
+-   graafilist ülevaadet andmekvaliteedi hetkeseisust ja trendidest;
+
+-   automaatset hoiatussõnumite saatmist andmekvaliteedi vigade
+    ilmnemisel.
+
+Eeldused ja piirangud 
+
+-   Tagatud lugemisõigus andmeallikatele;
+
+-   Piisavad salvestus- ja arvutusressursid;
+
+-   Andmekäitlus vastab turva- ja vastavusnõuetele;
+
+-   Projekti kestvus: 3 kuud.
+
+PoC edukriteeriumid
+
+Regionaalhaigla andmeplatvormi PoC edukust hinnatakse mõõdetavate ja
+kontrollitavate kriteeriumide alusel, mis on loetletud alljärgnevalt
+peatükkide lõikes.
+
+1.  PoC keskkonna edukas ülesseadmine
+
+-   Kõik platvormi komponendid on edukalt seadistatud ja kasutusvalmis
+    (CDC platvorm, andmejärv, andmeladu, ELT platvorm ja andmekataloog).
+
+-   Autentimine ja autoriseerimine on edukalt rakendatud vastavalt
+    Regionaalhaigla turvanõuetele järgnevalt:
+
+    -   RBAC - rollipõhine ligipääsu kontroll;
+
+    -   RLS - reapõhine turve;
+
+    -   CLS - veerupõhine turve;
+
+    -   Azure AD põhine autentimine;
+
+    -   MFA – mitmetasemeline autentimine.
+
+        1.  Andmehõive (CDC) edukas valideerimine
+
+-   Allikasüsteemi jõudlusele ja stabiilsusele on mõõdetav mõju
+    minimaalne (nt CPU või IO tõus mitte üle 5%);
+
+-   Optimaalne andmeformaat ja laadimismuster on selgelt
+    identifitseeritud (nt Apache Parquet ja mikrotsüklid);
+
+-   CDC klastri optimaalne suurus on dokumenteeritud ja põhjendatud;
+
+-   Tõrkekindlus ja kõrge käideldavus on demonstreeritud vähemalt ühe
+    simulatsiooniga.
+
+    1.  Andmejärve edukas rakendamine
+
+-   Valitud ja rakendatud on optimaalne andmeformaat, struktuur ja
+    partitsioneerimisstrateegia;
+
+-   Andmete säilituspoliitika on dokumenteeritud ja rakendatud;
+
+-   Kuluefektiivsuse meetmed on välja töötatud ja hinnatud;
+
+-   Andmete turvalisus, autentimine ja autoriseerimine on nõuetele
+    vastav.
+
+    1.  Andmelao edukas juurutamine
+
+-   Andmete tunnipõhine laadimine andmelattu toimub maksimaalselt 15
+    minutiga;
+
+-   Dimensionaalne esitluskiht (Snowflake) on toimiv ja toetab
+    efektiivselt päringuid.
+
+    1.  ELT lahenduse edukas rakendamine
+
+-   ELT tööriista mallidega loodud SQL-kood on jõudluselt optimeeritud
+    ja dokumenteeritud;
+
+-   ELT-protsesside latentsus ja ressursikasutus on dokumenteeritud ning
+    tellija poolt aktsepteeritud.
+
+    1.  Aruandluse edukas rakendamine
+
+-   Aruanne laetakse välja ning on kasutajale loetav kuni 10 sekundiga;
+
+-   Aruandes kuvatavad andmed on korrektsed;
+
+-   Aruanne sisaldab kõiki PoCi alguses kokkulepitud seoseid, andmeid,
+    veerge ja filtreid.
+
+    1.  Andmekataloogi ja metaandmete halduse edukas rakendamine
+
+-   Automatiseeritud metaandmete kogumine toimib kõikidest kirjeldatud
+    allikatest;
+
+-   Andmete vertikaalne (ärimõisted vs. füüsilised objektid) ja
+    horisontaalne (data lineage) jälgitavus on edukalt demonstreeritud;
+
+-   Andmekataloog on kasutajale intuitiivne ja mugav kasutada.
+
+Järgmised sammud
+
+-   Töövõtja poolt toimiva lahenduse demonstreerimine Tellijale;
+
+-   Tellija poolt PoC tulemuste põhjalik analüüs ja hindamine;
+
+-   Tellija otsustab PoC tulemuste sobivuse või mittesobivuse üle;
+
+-   Tellija poolt juurutusotsuste tegemine ning järgmiste tegevuste
+    plaanimine;
+
+-   Koostöö alustamine Töövõtjaga platvormi täismahus juurutamiseks.

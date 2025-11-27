@@ -1,0 +1,41 @@
+{
+  "procurement_id": "9582704",
+  "version_id": 9608704,
+  "downloaded_at": "2025-11-27T03:37:25.103385",
+  "documents": [
+    {
+      "isEditable": true,
+      "isDeletable": true,
+      "procurementDocumentOldId": 18743754,
+      "procurementDocumentId": 18743645,
+      "name": "Tehniline kirjeldus",
+      "fileName": "Tehniline kirjeldus.docx",
+      "fileSize": 55461,
+      "failservId": 15422261,
+      "description": "",
+      "documentTypeCode": "S",
+      "statusCode": "PUBLISHED",
+      "lastVersion": 1,
+      "visibilityCode": "PUBLIC",
+      "stampUpd": "2025-11-24T15:09:18.018+0200",
+      "dateCreated": "2025-11-24T15:09:18.018+0200"
+    },
+    {
+      "isEditable": true,
+      "isDeletable": true,
+      "procurementDocumentOldId": 18743755,
+      "procurementDocumentId": 18743647,
+      "name": "Turu uuringu küsimused",
+      "fileName": "Turu_uuringu küsimused.docx",
+      "fileSize": 14805,
+      "failservId": 15422262,
+      "description": "",
+      "documentTypeCode": "S",
+      "statusCode": "PUBLISHED",
+      "lastVersion": 1,
+      "visibilityCode": "PUBLIC",
+      "stampUpd": "2025-11-24T15:09:27.027+0200",
+      "dateCreated": "2025-11-24T15:09:27.027+0200"
+    }
+  ]
+}
