@@ -274,6 +274,14 @@ Create assessment document as `ASSESSMENT.md` in procurement folder:
 - Distinguish between "nice to have" and "must have" requirements
 - Consider candidate's strategic positioning (core strengths vs stretching)
 
+### Communication Style
+
+**Do NOT use emojis** in procurement assessments. These are formal business documents that will be reviewed by procurement teams and may be shared with partners or stakeholders. Maintain professional tone throughout:
+
+- Avoid: ✅ ❌ 🚀 💡 ⚠️ and similar decorative symbols
+- Instead use: Clear headings, bold text, bullet points, and structured formatting
+- Exception: Standard markdown elements (checkboxes, tables, lists) are acceptable
+
 ## Safety and Ethics
 
 - Never fabricate experience or qualifications
