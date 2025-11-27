@@ -1,0 +1,148 @@
+#0HD LISA 6 - Pakkuja poolt esitatud hindamiskriteeriumite näitajad#0
+
+  -----------------------------------------------------------------------
+  Hankija nimi:        Kohtutäiturite ja Pankrotihaldurite Koda
+  -------------------- --------------------------------------------------
+  Hanke nimetus:       KPK infosüsteemide arendus- ja hooldustööde
+                       teostamine
+
+  RHR viitenumber:     301565
+
+  Pakkuja nimi:        …………
+  -----------------------------------------------------------------------
+
+HINNATAVAD NÄITAJAD
+
+Pakkuja täidab hinnatava lahtri näitaja millele ta vastab. Kui pakkujal
+on kogemus alla 100 tunni jätab pakkuja lahtri täitmata.
+
+E-TÄITUR
+
+1.  IT arendaja andmemigratsiooniga seotud projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+2.  IT arendaja kogemus kasutajaliideste loomisel ASP.NET või Windows
+    Forms platvormil
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+3.  IT arendaja kogemus .NET arendusplatvormil teostatud projektides
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+4.  IT arendaja kogemus automaattestide kirjutamise projektides
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+TAPAIS2
+
+5.  IT arendaja andmemigratsiooniga seotud projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+6.  IT arendaja kogemus Vue raamistikuga teostatud arendusprojektides
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+7.  IT arendaja kogemus PHP Symfony raamistikuga teostatud projektides
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+OKSJONIKESKUS
+
+8.  IT arendaja REST tehnoloogial baseeruvate teenuste loomisega seotud
+    projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+9.  IT arendaja MySQL 5.7 (või uuem) andmebaaside arendamisega seotud
+    projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………………                                             |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+10. IT arendaja Zend Framework 1.12 platvormil arendamise
+    projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+11. IT arendaja .PHP 7.0 kirjutamise projektikogemus
+
++-----------------------------------------------------------------------+
+| Pakkujal on ˂ 300 tundi või 301 - 1500 tundi või 1501-2000 tundi      |
+| või > 2000 tundi. Pakkuja nimetab isiku ja projekti nime ja selgituse |
+| tunnise mahu hindamiseks.                                             |
+|                                                                       |
+| Täidab pakkuja ……..………                                                |
++=======================================================================+
++-----------------------------------------------------------------------+

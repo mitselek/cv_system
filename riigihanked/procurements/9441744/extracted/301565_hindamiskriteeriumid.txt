@@ -1,0 +1,426 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 301565
+Hankija: Kohtutäiturite ja Pankrotihaldurite Koda (74002523)
+Hange: KPK infosüsteemide arendus- ja hooldustööde teostamine
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+nr
+1 E-TÄITUR, projektijuhi ühe tunni
+maksumus
+2 E-TÄITUR, IT arendustööde ühe tunni
+maksumus
+3 E-TÄITUR, IT analüütiku ühe tunni
+maksumus
+4 E-TÄITURi
+IT
+arendaja 300 tundi: 0 punkti
+andmemigratsiooniga
+seotud 301 - 1500 tundi: 1 punkt
+projektikogemus
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+5 E-TÄITURi IT arendaja kogemus 300 tundi: 0 punkti
+kasutajaliideste loomisel ASP.NET või 301 - 1500 tundi: 1 punkt
+Windows Forms platvormil
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+6 E-TÄITURi IT arendaja kogemus .NET 300 tundi: 0 punkti
+arendusplatvormil teostatud projektides 301 - 1500 tundi: 1 punkt
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+7 E-TÄITURi IT arendaja kogemus "300 tundi: 0 punkti
+automaattestide kirjutamise projektides
+301 - 1500 tundi: 1 punkt
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti"
+8 TAPAIS-2, IT arendustööde ühe tunni
+Koostatud 14.11.2025 09:29:41
+
+Tüüp /
+hindamismeetod
+Kulu - vähim on
+parim
+Maksumus vähim on parim
+Kulu - vähim on
+parim
+Kvaliteet - hankija
+hinnatav
+
+Osakaal
+
+Kvaliteet - hankija
+hinnatav
+
+3
+
+Kvaliteet - hankija
+hinnatav
+
+4
+
+Kvaliteet - hankija
+hinnatav
+
+4
+
+Ühik
+
+4
+6
+3
+
+1
+
+EUR
+
+Pakkuja
+täidetav
+jah
+
+EUR
+
+jah
+
+EUR
+
+jah
+
+EUR
+
+jah
+
+3
+
+6
+1/6
+
+Kogus
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+maksumus
+
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kvaliteet - hankija
+hinnatav
+
+9
+
+TAPAIS-2, IT analüütiku ühe tunni
+maksumus
+10 TAPAIS-2, testija arendustööde ühe
+tunni maksumus
+11 TAPAIS-2,
+SQL
+andmebaasi
+administraator ühe tunni maksumus
+12 TAPAIS2
+IT
+arendaja "300 tundi: 0 punkti
+andmemigratsiooniga
+seotud 301 - 1500 tundi: 1 punkt
+projektikogemus
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti"
+13 TAPAIS2 IT arendaja kogemus Vue 300 tundi: 0 punkti
+raamistikuga
+teostatud 301 - 1500 tundi: 1 punkt
+arendusprojektides
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+14 TAPAIS2 IT arendaja kogemus PHP 300 tundi: 0 punkti
+Symfony
+raamistikuga
+teostatud 301 - 1500 tundi: 1 punkt
+projektides
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+15 OKSJONIKESKUS, IT arendustööde
+ühe tunni maksumus
+16 OKSJONIKESKUS,
+Linux
+operatsioonisüsteemi administraator ühe
+tunni maksumus
+17 OKSJONIKESKUS,
+testija
+arendustööde ühe tunni maksumus
+18 OKSJONIKESKUS, SQL andmebaasi
+administraator ühe tunni maksumus
+19 OKSJONIKESKUSE IT arendaja REST 300 tundi: 0 punkti
+tehnoloogial
+baseeruvate
+teenuste 301 - 1500 tundi: 1 punkt
+loomisega seotud projektikogemus
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+20 OKSJONIKESKUSE
+IT
+arendaja 300 tundi: 0 punkti
+Koostatud 14.11.2025 09:29:41
+
+4
+
+EUR
+
+jah
+
+4
+
+EUR
+
+jah
+
+4
+
+EUR
+
+jah
+
+EUR
+
+jah
+
+3
+
+Kvaliteet - hankija
+hinnatav
+
+4
+
+Kvaliteet - hankija
+hinnatav
+
+5
+
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+
+6
+
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kvaliteet - hankija
+hinnatav
+
+3
+
+EUR
+
+jah
+
+4
+
+EUR
+
+jah
+
+4
+
+jah
+
+3
+
+3
+2/6
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+MySQL 5.7 (või uuem) andmebaaside 301 - 1500 tundi: 1 punkt
+arendamisega seotud projektikogemus
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+
+Kvaliteet - hankija
+hinnatav
+
+21 OKSJONIKESKUSE IT arendaja Zend 300 tundi: 0 punkti
+Framework 1.12 platvormil arendamise 301 - 1500 tundi: 1 punkt
+projektikogemus
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+22 OKSJONIKESKUSE IT arendaja .PHP 300 tundi: 0 punkti
+7.0 kirjutamise projektikogemus
+301 - 1500 tundi: 1 punkt
+1501 - 2000 tundi: 3 punkti
+> 2000 tundi: 5 punkti
+23 E-TÄITUR, hooldustööde ühe tunni
+maksumus
+24 TAPAIS-2, hooldustööde ühe tunni
+maksumus
+25 OKSJONIKESKUS, hooldustööde ühe
+tunni maksumus
+
+Kvaliteet - hankija
+hinnatav
+
+4
+
+Kvaliteet - hankija
+hinnatav
+
+4
+
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kulu - vähim on
+parim
+Kokku:
+
+4
+
+EUR
+
+jah
+
+4
+
+EUR
+
+jah
+
+4
+
+EUR
+
+jah
+
+Koostatud 14.11.2025 09:29:41
+
+3/6
+
+100
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+Hindamismetoodika kirjeldus
+1. E-TÄITUR, projektijuhi ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. E-TÄITUR, IT arendustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+3. E-TÄITUR, IT analüütiku ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+4. E-TÄITURi IT arendaja andmemigratsiooniga seotud projektikogemus
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (3).
+
+5. E-TÄITURi IT arendaja kogemus kasutajaliideste loomisel ASP.NET või Windows Forms platvormil
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (3)
+
+6. E-TÄITURi IT arendaja kogemus .NET arendusplatvormil teostatud projektides
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (4)
+
+7. E-TÄITURi IT arendaja kogemus automaattestide kirjutamise projektides
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (4)
+
+8. TAPAIS-2, IT arendustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+9. TAPAIS-2, IT analüütiku ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+10. TAPAIS-2, testija arendustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+11. TAPAIS-2, SQL andmebaasi administraator ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+12. TAPAIS2 IT arendaja andmemigratsiooniga seotud projektikogemus
+Koostatud 14.11.2025 09:29:41
+
+4/6
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (3)
+
+13. TAPAIS2 IT arendaja kogemus Vue raamistikuga teostatud arendusprojektides
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (4)
+
+14. TAPAIS2 IT arendaja kogemus PHP Symfony raamistikuga teostatud projektides
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (5)
+
+15. OKSJONIKESKUS, IT arendustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+16. OKSJONIKESKUS, Linux operatsioonisüsteemi administraator ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+17. OKSJONIKESKUS, testija arendustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+18. OKSJONIKESKUS, SQL andmebaasi administraator ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+19. OKSJONIKESKUSE IT arendaja REST tehnoloogial baseeruvate teenuste loomisega seotud projektikogemus
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (3)
+
+20. OKSJONIKESKUSE IT arendaja MySQL 5.7 (või uuem) andmebaaside arendamisega seotud projektikogemus
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (3)
+
+21. OKSJONIKESKUSE IT arendaja Zend Framework 1.12 platvormil arendamise projektikogemus
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (4)
+
+22. OKSJONIKESKUSE IT arendaja .PHP 7.0 kirjutamise projektikogemus
+Saadud hindepunkt (0;1;3;5) jagatakse maksimum hindepunktiga (5) ja korrutatakse osakaaluga (4)
+
+23. E-TÄITUR, hooldustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+24. TAPAIS-2, hooldustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 14.11.2025 09:29:41
+
+5/6
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+25. OKSJONIKESKUS, hooldustööde ühe tunni maksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 14.11.2025 09:29:41
+
+6/6
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9441744/general-info
+
+

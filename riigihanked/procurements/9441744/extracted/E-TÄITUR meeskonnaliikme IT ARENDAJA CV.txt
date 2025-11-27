@@ -1,0 +1,107 @@
+  -----------------------------------------------------------------------
+  TAPAIS2 meeskonnaliikme IT ARENDAJA CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme IT  | ………….                                          |
+| arendaja nimi       |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab infosüsteemide IT arendaja      |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| 1. Peab omama       | ……                                             |
+| vähemalt 3 aastast  |                                                |
+| programmeerimise    |                                                |
+| töökogemust.        |                                                |
+| Osalenud            |                                                |
+| programmeerijana    |                                                |
+| vähemalt 1 (ühes)   |                                                |
+| infosüsteemide      |                                                |
+| loomise või         |                                                |
+| modifitseerimise ja |                                                |
+| juurutamise         |                                                |
+| projektis ning mis  |                                                |
+| on arendatud C#,    |                                                |
+| PHP, Java ja MSSQL  |                                                |
+| andmebaasi          |                                                |
+| platvormil ja mis   |                                                |
+| töötab              |                                                |
+| rakendusserveri     |                                                |
+| klastris.           |                                                |
+| Osalemiseks         |                                                |
+| loetakse, kui       |                                                |
+| vastavas rollis on  |                                                |
+| teostatud töid      |                                                |
+| vähemalt 500        |                                                |
+| (viiesaja)          |                                                |
+| inimtöötunni        |                                                |
+| ulatuses;           |                                                |
+|                     |                                                |
+| 2. Peab omama       |                                                |
+| vähemalt 2 aastast  |                                                |
+| SQL                 |                                                |
+| programmeerimise    |                                                |
+| töökogemust;        |                                                |
+|                     |                                                |
+| 3. Programmeerijal  |                                                |
+| peab olema X-tee    |                                                |
+| teenuste arendamise |                                                |
+| töökogemus;         |                                                |
+|                     |                                                |
+| 4. SOAP, XML, XSD,  |                                                |
+| WSDL, REST ja       |                                                |
+| OpenAPI             |                                                |
+| tehnoloogiate       |                                                |
+| kasutamise kogemus  |                                                |
+| 2 aastat;           |                                                |
+|                     |                                                |
+| 5. Orbeon Forms     |                                                |
+| vormide loomise ja  |                                                |
+| haldamise kahe      |                                                |
+| aasta kogemus;      |                                                |
+|                     |                                                |
+| 6Tomcat, Apache     |                                                |
+| AXIS veebiserveri   |                                                |
+| kasutamise arenduse |                                                |
+| ülesannetes         |                                                |
+| vähemalt 2 aastat.; |                                                |
+|                     |                                                |
+| 7. DigiDoc4j        |                                                |
+| allkirjastamise     |                                                |
+| tehnoloogial        |                                                |
+| põhineva rakenduste |                                                |
+| arenduse ja halduse |                                                |
+| kogemus vähemalt 2  |                                                |
+| aastat, mis         |                                                |
+| sisaldab            |                                                |
+| digitaalseid        |                                                |
+| sertifikaate, mida  |                                                |
+| kasutatakse         |                                                |
+| küberturvalisuses   |                                                |
+| (näiteks SSL/TLS,   |                                                |
+| X.509               |                                                |
+| sertifikaadid) ja   |                                                |
+| avaliku võtme       |                                                |
+| infrastruktuuri     |                                                |
+| (PKI)               |                                                |
+| tehnoloogiad..      |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

@@ -1,0 +1,280 @@
+#0HD LISA 1
+
+Raamlepingu eseme tehniline kirjeldus, TAPAIS2 tarkvara arendus- ja
+hooldusteenus
+
+  -----------------------------------------------------------------------
+  Hankija nimi:       Kohtutäiturite ja Pankrotihaldurite Koda
+  ------------------- ---------------------------------------------------
+  RHR viitenumber:    301565
+
+  Riigihanke nimetus: KPK infosüsteemide arendus- ja hooldustööde
+                      teostamine
+
+  Valdkond:           TAPAIS2 tarkvara arendus- ja hooldusteenus
+  -----------------------------------------------------------------------
+
+Sõlmitava raamlepingu tööde sisuks on Kohtutäiturite ja
+Pankrotihaldurite Koja (Tellija) infosüsteemi TAPAIS2 tarkvara arendus-
+ja hooldustööd.
+
+TAPAIS2 infosüsteemi andmekogu pidamise nõuded ja sinna kantavad
+isikuandmed on avaldatud dokumendis „Täite-ja pankrotimenetluse
+infosüsteemi pidamise kord“
+(https://kpkoda.ee/wp-content/uploads/2020/04/TAPAIS-pidamise-kord-veebr-2020.pdf).
+
+Infosüsteem TAPAIS2 on igapäevases kasutuses alates maist 2021. TAPAIS2
+menetlussüsteemis toimub kohtutäiturite toimikute menetlemine, sh
+võlgnike pangakontodele arestide seadmine, infovahetus kohtutäiturite
+teiste lokaalsete ja kesksete infosüsteemidega.
+
+TAPAIS2 infosüsteemi töökindlus ja turvalisus on väga olulised, et
+hankija saaks talle pandud kohustusi täpselt ja tähtaegselt teostada,
+mis seab pakkuja tarkvaraarenduse võimekusele kõrged nõudmised
+(koostöövõime teiste tarkvaraettevõtetega, meeskonna piisav suurus,
+erialane kompetents ja stabiilsus, kogemus samaväärsete projektidega ja
+sarnaste tehnoloogiatega.
+
+Arhitektuurne ülesehitus
+
+TAPAIS2 on veebirakendus, mis on mõeldud kohtutäituritele ja nende
+büroode töötajatele täitemenetluste läbiviimiseks ning Kohtutäiturite ja
+Pankrotihaldurite Koja töötajatele kasutamiseks. Rakendus töötab
+kõrg-käideldaval virtuaalplatvormil, kus neljal virtuaalserveril on
+eraldi arendus- ja testkeskkonnad. Äriloogika on realiseeritud eraldi
+kihina. Läbi äriloogika kihi teostatakse Docker konteinerites toimivate
+erinevate teenuste protsessikohane kasutus, milleks võivad olla
+masstegevused või erinevate infosüsteemidega andmevahetuse korraldamine.
+
+TAPAIS2 rakendus on üles ehitatud Symfony 4 raamistikule ja paljudele
+eri raamistikust tulenevatele moodulitele. Kasutajaliides on
+realiseeritud Vue 2 JavaScript raamistikuga.
+
+[]
+
+Joonis
+
+1.  Kliendirakendus:
+
+  Vue 2 raamistikul põhinev rakendus, mis teeb REST päringuid
+  teenuskihti.
+
+2.  Teenuskiht:
+
+  Teenuskiht koondab endas ärispetsiifilist funktsionaalsust, mis
+  eksponeeritakse teenustena. Teenuskihi realiseerimisel jälgitakse SOA
+  (Service Oriented Architecture) printsiipe, mis tähendab, et
+  keskendutakse hästi defineeritud liideste ning maksimaalselt
+  sõltumatute teenuste loomisele. Teenuskihis realiseeritakse
+  äriloogiliste aspektide rakendumine:
+
+1.  Autoriseerimine: kõik süsteemi kasutajad peavad olema rakenduse
+    kasutamiseks autenditud. Autentimiseks kasutatakse TARA
+    autentimisteenust ja edukal autentimisel loetakse TAPAIS2 süsteemi
+    sisenemisel külge kehtivad rollipõhised õigused;
+
+2.  Auditlogimine: logitakse TAPAIS2 süsteemi sisesed ja teistesse
+    registritesse tehtavad päringud;
+
+3.  Ressursikiht:
+
+  Rakenduse peamisteks välisteks ressurssideks on:
+
+1.  MariaDB andmebaas;
+
+2.  MinIO dokumendihoidla menetlustoimikute hoiustamiseks
+
+3.  X-tee PHP andmevahetusmoodul - TAPAIS2 pakub üle x-tee versioon 6
+    andmevahetusteenust
+
+Baastarkvara
+
+4.  OS: Ubuntu 18 LTS
+
+5.  Rakendusserver: Nqinx, Traefik, Symfony 4
+
+6.  Andmebaas: MariaDB
+
+7.  Objektsalvestusteenus: Minio
+
+8.  Message queue: RabbitMQ
+
+9.  Monitooring ja logide agregeerimine: Grafana, Prometheus Loki,
+    Sachet
+
+10. Teenuste spetsifikatsiooni genereerimine: Swagger
+    (http://swagger.io/)
+
+11. Kliendikiht: Vue 2, Material UI
+
+12. Konteinerid: Docker
+
+Versioonihaldus
+
+Tööülesannete haldus ja planeerimine toimub Jira ja GitLab vahenditega.
+
+Nõuded turvalisusele ja käideldavusele
+
+13. TAPAIS2 kaitsetarve on C2-I2-A2 ehk suur. TAPAIS2 peab vastama
+    Tellija läbivalt ja kõikide süsteemide üleselt kehtestatud
+    E-ITS-kohase suure kaitsetarbe nõuetele. Kõikide nende E-ITS kohaste
+    tüüpmoodulite juures, mida TAPAIS2 juures kasutatakse, peavad olema
+    täidetud suurele kaitsetarbele vastavad E-ITS meetmed. Täitja peab
+    olema valmis, et õigusaktidega võidakse kehtestada rangemaid
+    kaitsetarbe nõudeid, mida täitja kohustub täitma. Tellija võib
+    teostada järelkontrolli, puudused peab täitja likvideerima oma
+    kuludega. TAPAIS2 käideldakse isikuandmete eriliike. TAPAIS2s tuleb
+    tagada turvalisuse vastavus OWASP ASVS 4.0 tasemel või uuemal
+    testimise metoodikal. Tellija testib regulaarselt käsitsi
+    turvatestidega rakenduste turvalisust ning kõik keskmise või kõrge
+    ohutasemega leiud tuleb arendajal parandada omal kulul.
+    Pilvelahenduste puhul peab vastama E-ITS kehtivas versioonis ja
+    tüüpmoodulis pilveteenuse kasutamine kirjelduses sätestatule suure
+    kaitsetarbe tasemele ja järgima peab kõiki kehtestatud nõudeid.
+
+14. Kõik tegevused TAPAIS2s, mille käigus kasutatakse isikustatud
+    andmeid, peavad olema logitud. Kogu andmetöötluse protsessi
+    logimine, selle edukast /mitte edukast toimumisest peab olema
+    registreeritud. Koda peab saama logidest välja lugeda, kus ja miks
+    on probleem tekkinud või kes on antud momendil süsteemis
+    päringut/andmeid vaadanud. Tagatud peavad olema Euroopa Parlamendi
+    ja Nõukogu määruse (EL) 2016/679 füüsiliste isikute kaitse kohta
+    isikuandmete töötlemisel ja selliste andmete vaba liikumise ning
+    direktiivi 95/46/EÜ kehtetuks tunnistamise kohta (isikuandmete
+    kaitse üldmäärus) sätestatud nõuete täitmine. Logides olevate
+    andmete muutmine ei tohi olla lubatud kellegi poolt.
+
+15. TAPAIS2s tehtavate transaktsioonide/tegevuste ajaline piirang
+    lepitakse kokku tellijaga eraldi, kuid üldiselt on andmeteta vormide
+    avamine ja liikumine erinevate vormielementide vahel kiirem kui 2
+    sekundit. Kõiki aegasid mõõdetakse serveris, st nende sisse ei loeta
+    arvutivõrgu või kasutajaseadmest põhjustatud viidet.
+
+16. Süsteemi strateegilise taseme mõõtmed (seostuvad arhitektuuri
+    võimega aja jooksul muutuda, mitte niivõrd arhitektuuri töövõimega
+    suvalisel ajahetkel) on:
+
+    1.  skaleeritavus - süsteem peab olema riistvaraliselt skaleeruv,
+        s.o peab olema lihtne käideldavust tõsta;
+
+    2.  paindlikkus - arendustööde raames loodavaid süsteemi teenuseid
+        peab saama lisada või muuta konfigureerides, vastavalt
+        arendustööde spetsifikatsioonis kokkulepitule;
+
+17. Süsteemi taseme kvaliteedinõuded on:
+
+    1.  hallatavus - süsteem peab olema kontrollitav, st süsteemi
+        seisundit ja toimimist (teenuse kvaliteeti) iseloomustavad
+        olulised parameetrid (HDD täituvus, CPU kasutatavus, RAM
+        kasutus, vajalike teenuste käimine) peavad olema
+        monitooringuvahendiga jälgitavad;
+
+    2.  Arendustööde raames loodava funktsionaalsuse dokumentatsioon
+        peab olema piisav süsteemi edasiarenduseks ja halduseks ning
+        vastama tunnustatud standarditele;
+
+    3.  stabiilsus - Süsteem peab vigade ilmnemisel suutma edasi
+        töötada, v.a. järgmiste vigade korral:
+
+        1.  riistvaraga (serverid, võrk) seotud vead;
+
+        2.  serverite operatsioonisüsteemidega seotud vead;
+
+        3.  platvormiga (SQL Server) seotud vead.
+
+18. TAPAIS2 tööaeg:
+
+    1.  Süsteem on kasutajatele avatud ööpäev läbi, 7 päeva nädalas;
+
+    2.  Süsteemi ametlik tööaeg, mil pakutakse kasutajatuge ja on
+        garanteeritud süsteemi toimivus, on tööpäeviti 9:00 – 17:00;
+
+19. Kasutusel on kolm identsel riistvaral ja tehnilisel platvormil
+    baseeruvat keskkonda – töökeskkond, testkeskkond ja arenduskeskkond.
+
+Kasutajaliidese töökeel
+
+20. TAPAIS2 kasutajaliidese ja administreerimismooduli töökeeleks on
+    eesti keel. Rakenduse tekstid (trükised, ekraani tekstid, tõlked,
+    veateated, hoiatused, tooltipid jne) peavad olema tellija
+    administraatori poolt hallatavad eesti keeles. Menüüjuhised,
+    hoiatused, vead ja teated ilmuvad igal lehel samasse kohta, samuti
+    peab kujundus säilima igal lehel sarnane. Kogu kasutaja poolt
+    sisestatav tekst peab olema rakenduse kuval nähtav ja salvestatav.
+    Komakohtadega arvude korral kasutatakse eraldajana koma, mitte
+    punkti. Komakohtadega arvude ümardamisloogika lepitakse kokku eraldi
+    detailanalüüsi käigus.
+
+Operatsioonisüsteemid
+
+21. TAPAIS2 peab töötama tööjaamadesse installeeritud
+    operatsioonisüsteemis. Kasutusel olev operatsioonisüsteem on Windows
+    10/11. TAPAIS2 peab töötama kahe viimase stabiilse Google Chrome'i,
+    Mozilla Firefox'i JA Microsoft Edge’i versiooniga. Rakendusega ei
+    tohi lisanduda tööjaama installeeritavat lisatarkvara.
+
+Liidestused
+
+TAPAIS2 on liidestatud järgmiste infosüsteemidega:
+
+22. Taavi (failivahetus)
+
+23. E-Täitur (X-tee)
+
+24. Täitmisregister (X-tee)
+
+25. Pensionikeskus (X-tee)
+
+26. TAPAIS oksjonikeskuse moodul
+
+27. Rahvastikuregister (X-tee)
+
+28. Äriregister (X-tee)
+
+29. TARA
+
+[]
+
+Joonis TAPAIS2 infosüsteemide seosed.
+
+TAPAIS2 liidesed teiste rakendustega peavad olema tõrkekindlad. Rakendus
+peab olema võimeline käivituma ilma ühendusteta liidestuvatele
+süsteemidele ning ühenduste taastumisel/tekkimisel, olema võimeline
+liideseid kasutusele võtma ilma alglaadimiseta.
+
+Keskkonnad
+
+TAPAIS2-el on lisaks töökeskkonnale (live) olemas kliendi testkeskkond.
+Pakkuja peab arenduskeskkonna looma ja ülal pidama ise, arvestades selle
+kulu pakkumuse maksumuse sisse.
+
+Äriprotsessid
+
+TAPAIS2 toetab järgmiseid teenuste äriprotsesse järgmiste
+funktsionaalsustega:
+
+30. PANGAKONTODE, MAKSUAMETI, PENSIONIKESKUSE ja TERVISEKASSA arestide
+    teostamine.
+
+31. Toimikute sünkroniseerimine keskse täitemenetluse registriga
+    (e-Täitur).
+
+    1.  TARNi jagatud riiginõuete import.
+
+32. Taaviga toimikute info sünkroniseerimine.
+
+TAPAIS2 arendusvajadus
+
+Arendusvajadused tulenevad TAPAIS2 infosüsteemi arenduskava eesmärkidest
+ning prioriteetidest, teenuseid reguleerivate õigusaktide muudatustest,
+teenuseprotsesside muudatustest. Arendaja peab olema valmis lühikese
+tähtajaga seadusemuudatustele (mis omakorda tekitavad vajaduse teenuse
+protsesse muuta) reageerima ja pakkuma kiireid lahendusi. Arendajal peab
+olema valmisolek ja võimekus kasutusele võtta ja teostada
+konteinertehnoloogial põhinevat arendust ja infosüsteemi ülesseadmist.
+
+TAPAIS2e arendamise eesmärk on toetada Kohtutäiturite efektiivsuse
+kasvu, tagada suurem kasutajamugavus ja seeläbi veel rahulolevam klient!
+On väga oluline, et TAPAIS2 töötaks kiirelt ja töökindlalt.
+
+allkirjastatud digitaalselt

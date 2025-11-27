@@ -1,0 +1,93 @@
+  -----------------------------------------------------------------------
+  OKSJONIKESKUSE meeskonnaliikme LINUX OPERATSIOONISÜSTEEMIDE
+  ADMINISTRAATOR CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme     | ………….                                          |
+| Linux               |                                                |
+| o                   |                                                |
+| peratsioonisüsteemi |                                                |
+| administraator nimi |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab Linux operatsioonisüsteemi      |
+|                     | administraatori töökogemuse selgituse. Kui     |
+|                     | selleks on vaja esitada dokumente, siis        |
+|                     | pakkuja märgib siia dokumendi nimetuse ja      |
+|                     | esitab dokumendi hankedokumentide hulka.       |
++---------------------+------------------------------------------------+
+| 1. Vähemalt 3       | ……                                             |
+| aastat töökogemust  |                                                |
+| VMware Cloud        |                                                |
+| Director 10.6       |                                                |
+| halduse ja          |                                                |
+| monitooringuga (sh  |                                                |
+| Telia hallatava     |                                                |
+| pilvekeskkonna      |                                                |
+| eripärad);          |                                                |
+|                     |                                                |
+| 2. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| Linux serverite     |                                                |
+| Ubuntu 16.04 ja     |                                                |
+| Ubuntu 22.04 LTS    |                                                |
+| haldamisega;        |                                                |
+|                     |                                                |
+| 3. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| veebiserveri Apache |                                                |
+| 2.4 haldamisega     |                                                |
+| (virtuaalhostid,    |                                                |
+| SSL/TLS, moodulid,  |                                                |
+| logihaldus);        |                                                |
+|                     |                                                |
+| 4. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| PHP 7.0             |                                                |
+| paigaldamise,       |                                                |
+| seadistamise ja     |                                                |
+| laienduste          |                                                |
+| haldusega;          |                                                |
+|                     |                                                |
+| 5. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| meiliteenuse        |                                                |
+| Postfix 3.1 ja      |                                                |
+| Roundcube 1.3       |                                                |
+| paigaldamise ja     |                                                |
+| konfigureerimisega; |                                                |
+|                     |                                                |
+| 6. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| andmebaasiserveri   |                                                |
+| MySQL 5.7 (või      |                                                |
+| uuem) haldamise ja  |                                                |
+| optimeerimisega;    |                                                |
+|                     |                                                |
+| 7 Vähemalt 3 aastat |                                                |
+| töökogemust X-Road  |                                                |
+| turvaserveri        |                                                |
+| viimase ametliku    |                                                |
+| versiooni           |                                                |
+| paigaldamise ja     |                                                |
+| hooldusega          |                                                |
+| (testkeskkond       |                                                |
+| „ee-dev“ või        |                                                |
+| „ee-test“).         |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

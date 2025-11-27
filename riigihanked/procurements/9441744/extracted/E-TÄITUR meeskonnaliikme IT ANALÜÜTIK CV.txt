@@ -1,0 +1,86 @@
+  -----------------------------------------------------------------------
+  TAPAIS2 meeskonnaliikme IT ANALÜÜTIK CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme IT  | ………….                                          |
+| arendaja nimi       |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab infosüsteemide analüütiku       |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| Peab omama vähemalt | …..                                            |
+| 36 kuu töökogemust  |                                                |
+| infosüsteemide      |                                                |
+| analüütikuna.       |                                                |
++---------------------+------------------------------------------------+
+| Viimase 36 kuu      | ……                                             |
+| jooksul vähemalt 12 |                                                |
+| kuuline tõendatud   |                                                |
+| osalus IT           |                                                |
+| analüütikuna        |                                                |
+| vähemalt ühes       |                                                |
+| veebipõhise         |                                                |
+| infosüsteemi        |                                                |
+| arendusprojektis IT |                                                |
+| analüütiku rollis   |                                                |
+| ja selle raames on  |                                                |
+| realiseeritud       |                                                |
+| funktsionaalsus,    |                                                |
+| mis vastab          |                                                |
+| järgnevale:         |                                                |
+|                     |                                                |
+| 1. tarkvara         |                                                |
+| liidestamine        |                                                |
+| andmete vahetuseks  |                                                |
+| välise IT           |                                                |
+| süsteemiga ning     |                                                |
+| süsteemide vaheline |                                                |
+| andmete esitamise   |                                                |
+| toetamine, esitatud |                                                |
+| andmete loogilised  |                                                |
+| ja aritmeetilised   |                                                |
+| kontrollid ning     |                                                |
+| vea- ja             |                                                |
+| hoiatusteadete      |                                                |
+| väljastamine;       |                                                |
+|                     |                                                |
+| 2.erinevatel        |                                                |
+| kasutajarollidel    |                                                |
+| põhinev             |                                                |
+| kasutajaliides ja   |                                                |
+| päringute süsteem;  |                                                |
+|                     |                                                |
+| 3. elektroonilise   |                                                |
+| sõnumi moodustamine |                                                |
+| ja saatmine;        |                                                |
+|                     |                                                |
+| 4. saadetavate ja   |                                                |
+| vastu võetavate     |                                                |
+| elektrooniliste     |                                                |
+| sõnumite            |                                                |
+| valideerimine;      |                                                |
+|                     |                                                |
+| 5. infosüsteemi     |                                                |
+| liidetamist         |                                                |
+| X-teega.            |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

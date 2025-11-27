@@ -1,0 +1,852 @@
+#0HD LISA 1
+
+Raamlepingu eseme tehniline kirjeldus, E-TÄITUR tarkvara arendus- ja
+hooldusteenus
+
+  -----------------------------------------------------------------------
+  Hankija nimi:       Kohtutäiturite ja Pankrotihaldurite Koda
+  ------------------- ---------------------------------------------------
+  RHR viitenumber:    301565
+
+  Riigihanke nimetus: KPK infosüsteemide arendus- ja hooldustööde
+                      teostamine
+
+  Valdkond:           E-TÄITUR tarkvara arendus- ja hooldusteenus
+  -----------------------------------------------------------------------
+
+Sõlmitava raamlepingu tööde sisuks on Kohtutäiturite ja
+Pankrotihaldurite Koja (Tellija) infosüsteemi E-TÄITUR tarkvara arendus-
+ja hooldusteenus.
+
+E-TÄITUR infosüsteemi andmekogu pidamise nõuded ja sinna kantavad
+isikuandmed on avaldatud dokumendis „Täitemenetluse infosüsteemi
+pidamise kord“
+(https://kpkoda.ee/wp-content/uploads/isikuandmete-kaitse/T%C3%A4itemenetluse%20infos%C3%BCsteemi%20pidamise%20kord%20mai%202018.pdf).
+
+Infosüsteem E-TÄITUR on igapäevakasutuses alates maist 2016. E-TÄITUR
+menetlussüsteemis toimub kohtutäiturite toimikute menetlemine, sh
+võlgnike pangakontodele arestide seadmine, andmevahetus kohtutäiturite
+teiste lokaalsete ja kesksete infosüsteemidega, samuti avalik-õiguslike
+nõuete jaotamine ja andmevahetus riigi- ja kohaliku omavalitsuse
+asutuste infosüsteemidega.
+
+E-TÄITUR infosüsteemi töökindlus ja turvalisus on väga olulised, et
+hankija saaks talle pandud kohustusi täpselt ja tähtaegselt teostada,
+mis seab pakkuja tarkvaraarenduse võimekusele kõrged nõudmised
+(koostöövõime teiste tarkvaraettevõtetega, meeskonna piisav suurus,
+erialane kompetents ja stabiilsus, kogemus samaväärsete projektidega ja
+sarnaste tehnoloogiatega).
+
+Infosüsteemi kirjeldus
+
+E-TÄITUR on veebirakendus, mis on mõeldud kohtutäituritele ja nende
+büroode töötajatele täitemenetluste läbiviimiseks, avalik-õiguslikele
+sissenõudjatele täitmisavalduste esitamiseks ning Kohtutäiturite ja
+Pankrotihaldurite Koja töötajatele kasutamiseks. Rakendus töötab
+virtuaalplatvormil, kus kuuel virtuaalserveril on eraldi tootmis- ja
+testkeskkonnad. Kummagi keskkonna jaoks on kaks rakendusserverit ja üks
+andmebaasi server.
+
+[]
+
+Baastarkvara
+
+1.  Rakendusserver:
+
+    1.  Operatsioonisüsteem Windows Server 2016 Server
+
+    2.  Operatsioonisüsteem Linux
+
+    3.  .NET Framework 4.5
+
+    4.  IIS 7.5 või uuem;
+
+    5.  Microsoft IIS ASP.net MVC arhitektuur
+
+    6.  DTC seadistatud
+
+    7.  HSM mooduliga suhtlemise API
+
+    8.  DigiDoc4j Java komponent
+
+    9.  ADS teenus
+
+    10. PHP põhine x-tee teenus
+
+    11. JQuery
+
+    12. OpenOffice baasil dokumendi konverter
+
+2.  Andmebaas:
+
+    1.  Microsoft SQL Server 2016 või uuem (lubatud peab olema SQL
+        Server authentication)
+
+    2.  DTC seadistatud
+
+[C:\Project\ETIS\Docs\arhitektuur.png] Süsteemi ülesehitus
+
+Joonis 1 - süsteemi ülesehitus
+
+-   Rakendusserver (cluster-data). Sisaldab:
+
+    -   Veebirakendus – põhiline kasutaja töövahendi väljundit ja
+        äriloogikat sisaldav komponent süsteemis
+
+    -   X-tee adapter – E-TÄITUR-i X-tee teenuseid pakkuv ja päringuid
+        vastu võttev rakendus
+
+-   Andmebaasi server. Sisaldab:
+
+    -   Kogu E-TÄITUR-is sisalduva andmestiku andmebaas k.a. logid
+
+    -   Süsteemsete taustatööde käivitamine. Näiteks:
+
+        -   Klassifikaatorite uuendamine
+
+        -   Perioodiliste nõuete täitmiste ja võlgnevuste arvutamine
+
+        -   Jne
+
+-   Taustapäringute server. Loogiliselt eraldi välja toodud kuigi
+    funktsionaalsus võib paikneda ka rakendusserveris. Sisaldab:
+
+    -   Kasutaja poolt seadistatavate taustapäringute jälgimise ja
+        käivitamise teenust.
+
+-   Faili share. Võrgu ketta ressurss kõikide E-TÄITUR-i poolt
+    tekitatavate failide salvestamiseks
+
+-   X-tee turvaserver.
+
+Veebirakenduse sisemised ja välised komponendid
+
+Veebirakendus on üles ehitatud ASP.net MVC platvormile. Lisaks veebikihi
+MVC mustrile on kasutusel veel järgmised mustrid:
+
+-   Repository pattern andmebaasiga suhtlusel
+
+-   Aggregate services (anemic domain model) – peamine äriloogika
+    paikneb süsteemsetes teenustes
+
+-   POCO-d ORM lahenduses
+
+-   IoC (DI) – controller-ite ja vajaminevate komponentide loomine ja
+    elutsükli haldus on antud kolmanda komponendi teha
+
+-   Command pattern X-tee päringute teostamisel
+
+-   AOP (aspect oriented programmig) – kasutusel globaalsete kui
+    lokaalsete filtrite (atribuutide) näol ligipääsu kontrolliks,
+    logimise keelamiseks jne controller-ites
+
+[C:\Project\ETIS\Docs\arhitektuur komponendid.png]„Joonis 2 - rakenduse
+peamised komponendid ning liidestused“ kirjeldab ära peamised rakenduse
+komponendid, välised liidestused (nii üle X-tee kui muude lahenduste),
+nende peamised ülesanded ning omavahelised sõltuvused.
+
+Versioonihaldus
+
+Tööülesannete haldus ja planeerimine toimub Jira ja Git vahenditega.
+
+Nõuded turvalisusele ja käideldavusele
+
+1.  E-TÄITUR kaitsetarve on C2-I2-A2 ehk suur. E-TÄITUR peab vastama
+    Tellija läbivalt ja kõikide süsteemide üleselt kehtestatud
+    E-ITS-kohase suure kaitsetarbe nõuetele. Kõikide nende E-ITS kohaste
+    tüüpmoodulite juures, mida E-TÄITUR juures kasutatakse, peavad olema
+    täidetud suurele kaitsetarbele vastavad E-ITS meetmed. Täitja peab
+    olema valmis, et õigusaktidega võidakse kehtestada rangemaid
+    kaitsetarbe nõudeid, mida täitja kohustub täitma. Tellija võib
+    teostada järelkontrolli, puudused peab täitja likvideerima oma
+    kuludega. E-TÄITUR’st käideldakse isikuandmete eriliike. E-TÄITUR-is
+    tuleb tagada turvalisuse vastavus OWASP ASVS 4.0 tasemel või uuemal
+    testimise metoodikal. Tellija testib regulaarselt käsitsi
+    turvatestidega rakenduste turvalisust ning kõik keskmise või kõrge
+    ohutasemega leiud tuleb arendajal parandada omal kulul.
+    Pilvelahenduste puhul peab vastama E-ITS kehtivas versioonis ja
+    tüüpmoodulis pilvteenuse kasutamine kirjelduses sätestatule suure
+    kaitsetarbe tasemele ja järgima peab kõiki kehtestatud nõudeid.
+
+2.  Kõik tegevused E-TÄITUR-is, mille käigus kasutatakse isikustatud
+      andmeid, peavad olema logitud. Kogu andmetöötluse protsessi
+      logimine, selle edukast /mitteedukast toimumisest peab olema
+      registreeritud. Koda peab saama logidest välja lugeda, kus ja miks
+      on probleem tekkinud või kes on antud momendil süsteemis
+      päringut/andmeid vaadanud. Tagatud peavad olema Euroopa Parlamendi
+      ja Nõukogu määruse (EL) 2016/679 füüsiliste isikute kaitse kohta
+      isikuandmete töötlemisel ja selliste andmete vaba liikumise ning
+      direktiivi 95/46/EÜ kehtetuks tunnistamise kohta (isikuandmete
+      kaitse üldmäärus) sätestatud nõuete täitmine. Logides olevate
+      andmete muutmine ei tohi olla lubatud kellegi poolt.
+
+3.  Arendustööde raames loodava funktsionaalsuse dokumentatsioon peab
+      olema piisav süsteemi edasiarenduseks ja halduseks ning vastama
+      tunnustatud standarditele;
+
+4.  stabiilsus - Süsteem peab vigade ilmnemisel suutma edasi töötada,
+      v.a. järgmiste vigade korral:
+
+    1.  riistvaraga (serverid, võrk) seotud vead;
+
+    2.  serverite operatsioonisüsteemidega seotud vead;
+
+    3.  platvormiga (SQL Server) seotud vead.
+
+5.  E-TÄITUR-i tööaeg:
+
+    1.  Süsteem on kasutajatele avatud ööpäev läbi, 7 päeva nädalas;
+
+    2.  Süsteemi ametlik tööaeg, mil pakutakse kasutajatuge ja on
+        garanteeritud süsteemi toimivus, on tööpäeviti 9:00 – 17:00;
+
+6.  Kasutusel on kolm identsel riistvaral ja tehnilisel platvormil
+    baseeruvat keskkonda – töökeskkond, testkeskkond ja arenduskeskkond.
+
+Kasutajaliidese töökeel
+
+7.  E-TÄITUR kasutajaliidese ja administreerimismooduli töökeeleks on
+    eesti keel. Rakenduse tekstid (trükised, ekraani tekstid, tõlked,
+    veateated, hoiatused, tooltipid jne) peavad olema tellija
+    administraatori poolt hallatavad eesti keeles. Menüüjuhised,
+    hoiatused, vead ja teated ilmuvad igal lehel samasse kohta, samuti
+    peab kujundus säilima igal lehel sarnane. Kogu kasutaja poolt
+    sisestatav tekst peab olema rakenduse kuval nähtav ja salvestatav.
+    Komakohtadega arvude korral kasutatakse eraldajana koma, mitte
+    punkti. Komakohtadega arvude ümardamisloogika lepitakse kokku eraldi
+    detailanalüüsi käigus.
+
+Operatsioonisüsteemid
+
+8.  E-TÄITUR peab töötama tööjaamadesse installeeritud
+    operatsioonisüsteemis. Kasutusel olev operatsioonisüsteem on Windows
+    10/11. E-TÄITUR peab töötama kahe viimase stabiilse Google Chrome'i,
+    Mozilla Firefox'i JA Microsoft Edge’i versiooniga. Rakendusega ei
+    tohi lisanduda tööjaama installeeritavat lisatarkvara.
+
+Liidestused
+
+E-TÄITUR on liidestatud järgmiste infosüsteemidega:
+
+9.  Täitmisregister (X-tee)
+
+10. Pensionikeskus (X-tee)
+
+11. ePristav (X-tee)
+
+12. TAPAIS2 (X-tee)
+
+13. E-toimik (X-tee)
+
+14. SKAIS2 (X-tee)
+
+15. NAP (X-tee)
+
+16. Eesti Liikluskindlustuse Fond (X-tee)
+
+17. Töötukassa TKIS ja KIPIS (X-tee)
+
+18. Tallinna Transpordiamet (X-tee)
+
+19. Rahvastikuregister (X-tee)
+
+20. Äriregister (X-tee)
+
+21. Maksekohustuslaste register (X-tee)
+
+22. Kinnistusraamat (X-tee)
+
+23. Ametlikud Teadaanded (X-tee)
+
+24. Kinnipeeturegister (X-tee)
+
+25. Eesti Posti Kirjakeskus (X-tee)
+
+26. Relvaregister (X-tee)
+
+27. Liiklusregister (X-tee)
+
+28. Töötamise register (X-tee)
+
+29. Ettevõtluse ja Innovatsiooni Sihtasutus (X-tee)
+
+30. Riigiportaal eesti.ee (X-tee)
+
+31. Maa- ja Ruumiameti ADS (X-tee)
+
+32. krediidiasutused (failivahetus)
+
+33. TARA
+
+Keskkonnad
+
+E-TÄITUR-il on lisaks töökeskkonnale (live) olemas kliendi testkeskkond.
+Pakkuja peab arenduskeskkonna looma ja ülal pidama ise, arvestades selle
+kulu pakkumuse maksumuse sisse.
+
+Haldus ja kasutajatugi
+
+Mõisted
+
+1.  Kõrge – süsteemi kriitiliste komponentide tõrge või rike, mis halvab
+    suurema kasutajagrupi või kogu organisatsiooni töö.
+
+2.  Keskmine – süsteemi tõrge või rike, mis halvendab kasutajatele mingi
+    süsteemi ühise ressursi ja/või jagatud teenuse kättesaadavust, kuid
+    põhifunktsionaalsus on kasutatav.
+
+3.  Madal – süsteemi tõrge või rike, mis tekitab kasutajatele kerge
+    efektiivsuse languse ja/või kasutamise ebamugavuse ja mis ei takista
+    põhifunktsionaalsust.
+
+4.  Tööpäev - E-R ajavahemikul 8:00 – 17:00, va. riigipühad.
+
+5.  Tööväline aeg – E-R kella 6.00-st kuni 08.00-ni ja 17.00-st kuni
+    22.00-ni, välja arvatud riiklikel pühadel;
+
+6.  Öine aeg – E-R kella 22.00-st kuni 06.00-ni, puhkepäevadel ja
+    riiklikel pühadel ööpäevaringselt;
+
+7.  Teenuse rike - olukord, kus ei ole võimalik hallatavat süsteemi
+    kasutada. Teenuse rikke vormideks on Teenuse seisak ja Teenuse
+    häire:
+
+    1.  Teenuse seisak - olukord, kus teenuse seisaku tõttu ei saa
+        jätkuda teenuse funktsiooni või seadme töö;
+
+    2.  Teenuse häire - olukord, kus teenuse häire tõttu on piiratud
+        teenuse funktsiooni või seadme töö;
+
+8.  Teenuse rikke mõju ulatus
+
+    1.  Madal - teenus on häiritud ühel kasutajal;
+
+    2.  Keskmine - teenus on seiskunud ühel või on häiritud paljudel
+        kasutajatel;
+
+    3.  Kõrge - teenus on seiskunud mitmel kasutajal;
+
+9.  Reageerimisaeg - ajavahemik Teenuse rikke kohta teate saamisest kuni
+    tegevuse alustamiseni;
+
+10. Kordategemisaeg - ajavahemik Teenuse rikke kohta teate saamisest
+    kuni teenuse, seadme või funktsiooni töövõime taastamiseni.
+
+Täitja kohustused
+
+11. Kasutajatoe teenust. Kasutajatugi sisaldab infosüsteemi (käidu ja
+    testkeskkond) peakasutajatoe teenust ning tarkvara igapäeva töö
+    tagamist. Pöördujaks on Koja töötaja või peakasutaja. Lõppkasutajale
+    ehk kohtutäituritele teenus ei laiene.
+
+12. Täitja tagab vajadusel infosüsteemi kasutajatele kasutajatoe teenuse
+    tööpäeviti.
+
+13. Kasutajatugi sisaldab tarkvaraliste probleemide lahendamise
+    korraldamist, tagasiside andmist pöördumistele jt küsimuste
+    lahendamist (konsultatsioonide andmist süsteemi toimimise kohta k.a)
+    pöördumistes.
+
+14. Täitja lisab probleemi lahendamise käigu esialgse pileti külge.
+
+15. Täitjal peab olema eestikeelne kasutajatugi (helpdesk) süsteemide
+    tarkvaralises töös esinevate rikketeadete vastuvõtmiseks. Tellija
+    peab saama kasutajatoega ühendust võtta vähemalt telefoni ja e-kirja
+    teel.
+
+16. Kui Täitjale teadaolevalt on infosüsteemi terviktoimimine häiritud
+    tulenevalt riistvarast või riistvara majutusteenusest, tagab Täitja
+    vea edastamise riistvara majutajale ning fikseerib edastuse.
+
+17. Täitja tagab infosüsteemi tarkvaralise igapäevase toimimise.
+    Infosüsteemi tarkvaralise toimimise tagamine sisaldab;
+
+    1.  Rakendus- ja andmebaasi administraatori standardtoiminguid
+        tarkvara töö tagamisel;
+
+    2.  Vearaportite analüüsi ja konfiguratsiooni parandamist;
+
+    3.  Infosüsteemi ja selle komponentide paigaldamist ja paigaldusega
+        seotud toiminguid;
+
+    4.  Teenuse katkemisel või häirimisel selle taastamist ja katkemise
+        ennetamise toiminguid;
+
+    5.  Teisi administraatori tegevusi infosüsteemi toimimise tagamiseks
+        ja parendamiseks.
+
+    6.  Infotehnoloogilise keskkonna muutustest lähtuvalt tarkvara
+        kohandamine.
+
+    7.  Test-, töö- ja arenduskeskkondade platvormtarkvara ning nende
+        paranduspakettide paigaldamine.
+
+18. Valima Lepingus loetletud ülesannete täitmiseks omal äranägemisel
+    vajalikud töövormid ja meetodid ning täitma vastavaid ülesandeid
+    isiklikult ja oma vahenditega. Täitjat võib ülesannete täitmisel
+    kasutada kolmandate isikute abi kooskõlastatult Tellijaga.
+
+19. Täitma lepingulisi kohustusi vastavalt oma erialastele teadmistele
+    ja võimetele Tellija jaoks parima kasuga, arvestades Tellija soove,
+    huve ja vajadusi.
+
+20. Veaparandus ja vajadusel süsteemiarendus käideldavuse parandamiseks.
+
+1.  Süsteemi seadistamine lähtuvalt infrastruktuuri muudatustest sh.
+    rakenduse ligipääsu (tulemüüri) reeglite haldus kasutajate rakenduse
+    töö tõrgeteta töö tagamine;
+
+1.  Täitja välistab omapoolsete turvameetmetega Tellija poolt
+    mittevolitatud isikute ligipääsu Tellija infosüsteemidele ja
+    andmetele.
+
+1.  Hankija nõustamine:
+
+    1.  väliste süsteemidega liidestamise küsimustes, millega
+        liidestamise vajadus võib hankelepingu kehtivuse perioodil
+        tekkida;
+
+    1.  andmeturbe, riistvara jms valdkondades.
+
+21. Kasutusvigadest pärinevate vigaste andmete parandamist andmebaasis;
+
+1.  Täitja tagab intsidendile reageerimise vastavalt prioriteetidele
+    vastavalt punktile
+
+2.  Kasutajatoeks tuleb tagada üks kontaktpunkt
+    (https://oksjonikeskus.atlassian.net/jira/servicedesk/projects/ETIS),
+    kuhu on võimalik edastada Koja E-TÄITUR kasutamise ja haldamisega
+    seotud probleemid. Kontaktkanaliks peab olema nii telefon kui ka
+    e-mail. Kontaktkanalit peab olema võimalik kasutada tööpäevadel.
+    Kontaktkanali kasutajateks on E-TÄITUR infosüsteemi kasutajad.
+
+3.  On kohustatud tegutsema lepinguliste kohustuste täitmisel Tellijale
+    lojaalselt, ülesannete laadist tuleneva vajaliku hoolsusega ning
+    üldiselt tunnustatud kutseoskuste tasemel.
+
+4.  Järgima lepinguliste kohustuste täitmisel infoturbenõudeid, sh
+    infosüsteemi administraatori protseduure ja nendega seonduvaid
+    protseduure ning Tellija muid juhiseid. Kui Tellija poolt antud
+    juhistest kinnipidamisega kaasneks Tellijale ilmselt ebasoodus
+    tagajärg, võib Täitja järgida juhiseid alles siis, kui ta on
+    juhtinud Tellija tähelepanu ebasoodsale tagajärjele ja Tellija ei
+    muuda juhiseid.
+
+5.  Teatama viivitamatult Tellijale kõigist lepinguliste kohustuste
+    täitmisega seotud olulistest asjaoludest, eelkõige nendest, mis
+    mõjutavad või võivad mõjutada oluliselt kokkulepitud ülesannete
+    täitmist või ajendada Tellijat muutma ülesannete täitmiseks antud
+    juhiseid.
+
+6.  Kord nädalas osalema planeerimiskoosolekutel (supervisioon), kus
+    vaadatakse üle lahendamist vajavad pöördumised ja analüüsitakse
+    eelneva perioodi jooksul tehtud töid.
+
+7.  Tarkvara toimimise tagamiseks teostama väikearendusi kuni 30
+    töötunni ulatuses arenduse kohta.
+
+Hooldustöö(de) ja hooldusteenuse SLA (service level agreement) teenindustasemed
+
+8.  Pakkuja kohustub likvideerima tarkvaras esinevad vead vastavalt
+    Tellija väljakutse prioriteetidele:
+
++-----------+-----------------------+----------------------------------+
+| Tõrke     | Reageerimisaeg        | Kordategemisaeg                  |
+| klass     |                       |                                  |
+|           | (Tööpäev)             | (Tööpäev)                        |
+|           |                       |                                  |
++===========+=======================+==================================+
+| Kõrge     |   4 tundi             |  Reageerimisajast kuni           |
+|           |                       | paranduseni – 3 päeva            |
++-----------+-----------------------+----------------------------------+
+| Keskmine  | 12 tundi              | Reageerimisajast kuni            |
+|           |                       | paranduseni – 5 päeva            |
++-----------+-----------------------+----------------------------------+
+| Madal     | 24 tundi              | Järgmine versioon                |
++-----------+-----------------------+----------------------------------+
+
+Teenuse taastamine
+
+1.  Arendusmuudatuse ebaõnnestumisel vastutab pakkuja teenuse taastamise
+    eest (rollback) ja tagab teenuse taastamise.
+
+2.  Täitja töötab pärast teenuse alustamist ühe kuu jooksul välja
+    süsteemi taasteplaani ja esitab selle koheselt Tellijale
+    ülevaatamiseks ja kinnitamiseks. Taasteplaan peab sisaldama süsteemi
+    üldist arhitektuurikirjeldust visuaalsel kujul. Olulised
+    infrastruktuuri komponendid (serverid, võrguseadmed jne) peavad
+    olema kirjalikult selgitatud.
+
+3.  Täitja testib taasteplaani ajakohasust, kui toimub muudatus
+    teenusega seotud infrastruktuuris, kuid mitte harvemini kui üks kord
+    aastas. Täitja kooskõlastab hankijaga testi läbiviimise aja ning
+    esitab Tellijale pärast testi läbiviimist raporti, kus märgib ära
+    taasteplaani vastavuse tegelikule olukorrale ja plaanist leitud
+    puudused.
+
+Hooldus
+
+22. Live ja test infosüsteemi E-TÄITUR käitluskeskkondade töö tagamine
+    ja kontroll. Operatsioonisüsteemi (OS) ja rakenduse vajalike
+    komponentide administreerimine ja kontroll ning uuendamine. OS
+    paikamine, uuendamine ning turvamine.
+
+    1.  OS’i ja infosüsteemi rakenduse komponentide turvauuenduste
+        installeerimine vastavalt vajadusele, kuid mitte üle 3 kuu
+        möödumise turvauuenduste ilmumise kuupäevast;
+
+    2.  OS’i ja infosüsteemi rakenduse komponentide tarkvarauuenduste
+        installeerimine vastavalt vajadusele, kuid mitte üle ’major’
+        versiooni vahetuse;
+
+    3.  Süsteemsete logifailide kontrollimine;
+
+23. Vastavalt vajadusele tegevused:
+
+    1.  Ettepanekute tegemine riistvara/tarkvara/funktsionaalsuse
+        lisamiseks või uuendamiseks;
+
+    2.  OSi konfiguratsiooni muutmine ja haldus;
+
+    3.  OSi tarkvarast tingitud eriprobleemidele lahenduse otsimine;
+
+    4.  Kliendirakenduse kohta käiva informatsiooni väljastamine;
+
+    5.  Vea otsimine, lahenduse leidmine, probleemi kõrvaldamine;
+
+    6.  Serveri, Teenuse või protsessi taaskäivitamine, vea kordumisel
+        vastutava osapoole teavitamine veast;
+
+Monitooring ja logimine
+
+1.  Süsteemi monitoorimine teenuste ja operatsioonisüsteemi tasemel.
+    Tekkivatest kõrvalekalletest koheselt hankija teavitamine ja vea
+    parandamine vastavalt vea prioriteedile.
+
+2.  Infosüsteemi töö jälgimine ja selle maksimaalse tööaja tagamine.
+
+3.  Kõik infosüsteemi tarkvaralised keskkonnad peavad olema Täitja poolt
+    jälgitud (monitooring) kogu lepinguperioodi vältel.
+
+4.  Kõik infosüsteemi riistvaralised keskkonnad peavad olema Täitja
+    poolt jälgitud (monitooring) vähemalt järgnevate komponentide osas:
+
+    1.  CPU koormus;
+
+    2.  Protsesside järjekord CPU’le (server load);
+
+    3.  Mälu hõivatus;
+
+    4.  Ketta täituvus;
+
+    5.  Võrgu adapterid;
+
+5.  Täitja võimaldab Tellijale juurdepääsu monitooringuinfole või
+    edastab monitooringuteated Tellija poolt etteantud e-posti
+    aadressile vastavalt Tellija kirjalikule nõudmisele.
+
+6.  Täitja monitoorib teenust vähemalt järgmiste komponentide osas:
+
+    1.  Põhirakenduse (E-TÄITUR) toimimise häired.
+
+    2.  Põhirakenduse andmebaasi häired.
+
+    3.  Põhirakenduse päringute hulk. Õnnestunud ja mitteõnnestunud
+        päringud.
+
+    4.  Põhirakenduse väliste kasutajate hulk.
+
+    5.  Põhirakendusega seotud muu tarkvara vead.
+
+Käideldavus
+
+1.  Kui hooldustöö tulemuse kasutuselevõtt eeldab süsteemi katkestust
+    süsteemi ametlikul tööajal, siis katkestuse aeg lepitakse iga kord
+    eraldi kokku.
+
+2.  Süsteem peab olema käideldav tööpäeviti ilma hoolduspausideta.
+    Hooldustoimingud tuleb teostada väljaspool tööaega hankijaga
+    kokkuleppel.
+
+Varundus
+
+1.  Täitja teeb infosüsteemist regulaarselt varukoopiaid.
+
+2.  Täitja tagab andmete varundamise vähemalt üks kord päevas
+    24-tunniste intervallide Järel.
+
+3.  Täitja tagab nädalas korra andmetest täieliku (FULL) varukoopia,
+    mida säilitatakse vähemalt ühe kuu jooksul.
+
+4.  Varukoopiaid tehakse väljaspool infosüsteemide aktiivset
+    teenindusaega.
+
+5.  Teenuse lõppemisel või Tellija nõudmisel peab Täitja 3 tööpäeva
+    jooksul tehtud varukoopiate meedia koos andmetega edastama
+    Tellijale. Tellijaga kokkuleppel võib Täitja varukoopiate meedia
+    edastada otse uuele teenuseosutajale. Täitja valdusesse jäänud
+    varukoopiad, mille säilitustähtaeg on läbi, annab täitja
+    viivitamatult üle Tellijale või hävitab.
+
+Arendused
+
+1.  Pakkumus loetakse tellija poolt vastuvõetuks, kui tellija esitab
+    täitjale kirjaliku kinnituse sh. arenduspileti kinnitamine.
+
+2.  Täitja on kohustatud:
+
+    1.  tagama, et täitja meeskond kasutab tellijaga kokkulepitud
+        ajahaldusvahendit (https://oksjonikeskus.atlassian.net).
+
+    2.  Kasutama tellijaga kokkulepitud projektijuhtimiskeskkonda
+        (https://oksjonikeskus.atlassian.net) ning Tellijal on ligipääs
+        sellele. Eelkõige tuleb registreerida ja menetleda tööd ning
+        infosüsteemi tarnetsüklid keskkondades.
+
+1.  Arendustööd teostatakse iteratsioonidena, mis täpsustatakse
+    (lähteülesanne, tööde maht, tööde valmimise tähtaeg, maksumus) iga
+    kord eraldi. Tööde tellimiseks esitab tellija täitjale hinnapäringu
+    kirjalikus vormis.
+
+2.  Täitja esitab kirjalikus vormis hiljemalt 5 tööpäeva jooksul alates
+    hinnapäringu kättesaamisest pakkumuse hinnapäringus esitatud tööde
+    teostamiseks või hinnangu, millal on võimalik vastav pakkumus
+    esitada. Pakkumus peab sisaldama tööde teostamise mahu detailset
+    kalkulatsiooni, maksumust, vajadusel projektiplaani koos
+    tähtaegadega vastavalt hinnapäringus esitatud tööde
+    spetsifikatsioonile. Poolte kokkuleppel võib periood olla pikem.
+
+1.  Arendustööd ja iteratsioonid tähistatakse töö lühinimetusega, mis
+    iseloomustab töö sisu ja iteratsiooni etappi (edaspidi töö nimetus).
+    Töö nimetus peab võimaldama grupeerida ühe töövõtu dokumentatsiooni
+    ja teateid ning eristada erinevaid töid ja nende iteratsioone. Töö
+    nimetus peab olema välja toodud hinnapäringus, pakkumuses, pakkumuse
+    vastuvõtmise kinnituses, tööde üleandmise ja vastuvõtmise aktis ja
+    tellijale esitatud arvetel. Hankelepingu täitmise tulemusena
+    koostatav dokumentatsioon antakse tellijale üle eestikeelsena.
+    Tarkvara lähtekoodid paigutatakse tellija või tellijaga kokkulepitud
+    lähekoodi halduse keskkonda.
+
+1.  Kasutada tuleb automaatteste, mis peavad katma minimaalselt 70%
+    rakenduse koodist. Automaattestid peavad tagama, et:
+
+    1.  rakenduse (ärikriitiline) funktsionaalsus toimib;
+
+    2.  rakenduse (välised) liidesed toimivad.
+
+1.  Tööde vastavuse hindamisel kontrollib tellija, kas dokumenteeritud
+    lahendus vastab tellija poolt antud sisenditele, esitatud
+    ülesandepüstitusele ning tellija poolt eelnevalt kirjalikku
+    taasesitamist võimaldavas vormis teavitatud vajadustele. Tellija
+    teostab enne tööde vastu võtmist vastuvõtutestimise.
+
+2.  Tellija vastuvõtutestimise käigus avastatud ja täitjale
+    raporteeritud vead parandab täitja omal kulul. Kriitilised, ehk
+    protsessi läbimist takistavad vead parandab täitja enne
+    toodangukeskkonda paigutamist. Tellija vastuvõtutestimise käigus
+    ilmnenud uute arendusvajaduste tähtajad lepitakse eraldi kokku.
+
+3.  Üle antavate tööde kohta koostab täitja üleandmise-vastuvõtmise akti
+    ning edastab selle tellijale.
+
+4.  Tellija vaatab töö üle 10 tööpäeva jooksul alates töö üleandmisest
+    ja allkirjastab üleandmise-vastuvõtmise akti. Tellija esindaja töö
+    vastuvõtmisel ja akti allkirjastamisel on tellija Infosüsteemide
+    projektijuht.
+
+5.  Kui töö ei vasta lepingutingimustele, jätab tellija
+    üleandmise-vastuvõtmise akti allkirjastamata ning esitab täitjale
+    e-posti teel 5 tööpäeva jooksul töö üleandmisest pretensiooni, kus
+    kirjeldab piisava detailsusega töös avastatud puuduseid.
+
+6.  Täitja vaatab pretensiooni läbi 5 tööpäeva jooksul selle saamisest
+    ja lepib tellijaga viivitamatult kokku tähtaja puuduste
+    kõrvaldamiseks.
+
+1.  Täitja kõrvaldab puudused enda vahenditega ning pärast puuduste
+    kõrvaldamist teatab sellest tellijale e-posti teel.
+
+2.  Tellija vaatab töö pretensioonis märgitud puuduste osas uuesti üle
+    hiljemalt 5 tööpäeva jooksul puuduste kõrvaldamise teate saamisest
+    ning puuduste mitteilmnemisel allkirjastab üleandmise-vastuvõtmise
+    akti.
+
+3.  Töö loetakse vastuvõetuks pärast poolte poolt
+    üleandmise-vastuvõtmise akti allkirjastamist. Poolte poolt
+    allkirjastatud akt on lepingu alusel tasu maksmise eelduseks.
+
+4.  Kui puudused töös ilmnevad pärast seda, kui vastav töö on vastu
+    võetud, kohustub tellija teatama täitjale puuduste avastamisest 1
+    kuu jooksul alates puudusest teadasaamisest, kirjeldades mõistliku
+    täpsusega puudust. Puuduste kõrvaldamise tingimused ja tähtajad
+    määrab tellija. Pärast tööde üleandmist tellija poolt leitud
+    puudused tuleb täitjal parandada oma kuludega, kui avastatud
+    lahendus ei vasta dokumentatsioonile ja tellija tellimusele.
+
+5.  Tellija võib töö ülevaatamisele kaasata ja selleks kasutada
+    kolmandaid isikuid, kusjuures nii tellijal kui ka tema poolt
+    kaasatud kolmandatel isikutel on õigus täiendava tasu maksmiseta töö
+    või selle vahetulemuse ülevaatamiseks sh testkeskkonnas kasutada
+    kõiki selleks vajalikke tööga või selle vahetulemusega seotud
+    intellektuaalse omandi õigusi.
+
+Tarkvara paigaldus ja uuendus
+
+1.  Täitja teostab infosüsteemi uute versioonide paigalduse test- ja
+    töökeskkonda.
+
+2.  Täitja tagab hoolduse ja tootepaigaldused töökeskkonna tööd
+    häirimata, vajadusel teostab vastavad tööd väljaspool tööaega.
+
+3.  Täitja tagab paigaldusel eelmise tarkavaraversiooni tagasivõtmise
+    paigalduse ebaõnnestumisel.
+
+4.  Täitja tagab tarkvara muudatuste halduse vastavalt infotehnoloogia
+    parimale praktikale.
+
+5.  Vajadusel lepitakse paigalduse täiendavad tingimused kokku
+    kirjalikult, enne igat paigaldust.
+
+6.  Tarkvara paigalduse hind sisaldub Pakkumuses.
+
+7.  Täitja paigutab üleandmiseks planeeritud tööd (valmis ja testitud
+    funktsionaalsuses) tellijale vastuvõtutestimiseks test-keskkonda
+    hiljemalt 10 tööpäeva enne tööde üleandmise tähtaega.
+
+Koodi haldus
+
+1.  Tagama, et täitja meeskond kasutab tellijaga kokkulepitud lähtekoodi
+    keskkonda (https://gitlab.com) ning Tellijal on ligipääs sellele.
+
+2.  Lähtekood: rakenduste lähtekood peab vastama lähtekoodi stiili
+    nõuetele. Loodav lähtekood peab olema eesti keeles kommenteeritud
+    eesmärgiga kirjeldada kommentaarile järgneva koodi eesmärki või
+    märgistada muid tähelepanekuid koodis. Lähtekoodi võib jätta
+    kommentaari lisamata, kui nime või parameetri järgi on eesmärk
+    tuvastatav. Lähtekoodi loomisel/muutmisel/ kommenteerimisel ei pea
+    lisama autorit. Lähtekoodi ligipääsule ja haldusele kehtivad
+    süsteemile määratud turvaklassist tulenevad nõuded.
+
+3.  Täitja peab tellijale üle andma lähtekoodi enne vastavate tööde akti
+    esitamist koos ehitusskripti ja paigaldusjuhistega.
+
+4.  Rakenduse lähtekoodi, vajadusel koos kompileerimisjuhendiga, peab
+    hoidma tellijaga kokkulepitud versioonihaldussüsteemis.
+
+5.  Lähtekoodis peab olema eristatav:
+
+    1.  protseduuride/funktsioonide sisend/väljund parameetrid;
+
+    2.  protseduuride/funktsioonide päises sisukirjeldus vastavuses
+        lepingus toodud põhimõttega;
+
+    3.  protseduuride/funktsioonide sõltuvus ja seosed (sh
+        moodulite/vormide suhtes);
+
+    4.  lähtekoodi kommenteerimise juures kehtib põhimõte, et kood peab
+        olema läbivalt varustatud kommentaaridega kohtades, kus ei ole
+        ilmne üldlevinud lähenemisviisi või realisatsiooniliste
+        iseärasuste valik.
+
+6.  Kõik olulised parandused/muudatused lähtekoodis salvestatakse
+    koodihoidlas.
+
+7.  Test versiooni üleandmise ajaks on lähtekood koodihoidlas
+    terviklikul kujul üles laetud.
+
+8.  Tulenevalt kokku lepitud arenduspiletite ning koodihoidla
+    vahenditest, peab võimaluse korral olema arenduspilet ja kood
+    seostatud.
+
+Aruandlus ja dokumentatsioon
+
+9.  Täitja tagab Tellija kirjalikul nõudmisel infosüsteemi puudutava
+    aruandluse esitamise vähemalt järgnevas osas:
+
+    1.  andma tellijale jooksvalt ülevaadet täitja meeskonna
+        töötundidest iga päeva ja isiku lõikes.
+
+    2.  Teenuse käideldavus vaadeldaval perioodil.
+
+    3.  Perioodi vältel toimunud intsidendid koos algus- ja lõpuajaga,
+        juurpõhjusega (kui on selgunud) ning kirjeldusega, kuidas neid
+        edaspidi vältida.
+
+    4.  Perioodi vältel tehtud plaanilised tööd.
+
+    5.  Muudatuste logi.
+
+    6.  Tellija poolt perioodi jooksul esitatud pöördumiste staatus, mis
+        sisaldab ka lahendamata pöördumisi eelmistest perioodidest.
+
+    7.  Koostama tööde koosolekute kohta protokolli ja edastama selle
+        tellijale;
+
+10. Aruandlus peab olema Tellija kontaktisikutele kättesaadavaks tehtud
+    veebi või e-kirja teel kui ei ole Tellijaga kirjalikult kokkulepitud
+    teisiti.
+
+11. Täitja ja Tellija vaheline töökeel on eesti keel.
+
+12. Arendustööde dokumentatsioon ja kasutusjuhendid peavad tagama
+    tellijale võime parandada, muuta ja arendada töö tulemit, samuti
+    koolitada ja juhendada oma töötajaid töö kasutamisel. Tööde
+    dokumentatsioon peab olema sisestatud tellijaga kokkulepitud
+    infosüsteemi dokumentatsiooni keskkonda. Tööde käigus loodud
+    lähtekood peab olema kirjutatud ja dokumenteeritud selliselt, et
+    vajadusel oleks tellija või kolmas isik võimeline aru saama tarkvara
+    loogilisest ülesehitusest ning jätkama lähtekoodi arendusega.
+    Tehniline dokumentatsioon peab kirjeldama rakenduse ülesehitust,
+    arhitektuuri kirjeldust diagrammina, loogilist andmemudelit,
+    alustarkvarade loetuelu, kihtide vahelise suhtluse kirjeldust,
+    logimise lahendust, autentimise ja autoriseerimise lahendust,
+    ajateenuste lahendust, liidestuste lahendust, rakenduse kokku
+    ehitamist, kasutajalugusid ja muud, mis on oluline tarkvara
+    ülesehituse mõistmiseks. Tarne paigaldusjuhend koos tarnega peab
+    paiknema versioonihaldustarkvaras.
+
+13. Töö tulem peab olema dokumenteeritud vähemalt järgnevas osas:
+
+    1.  Tehniline platvorm:
+
+    2.  kasutatavad versioonid;
+
+    3.  kasutatavad teegid (libraries).
+
+    4.  Loogiline andmemudel, millest tehakse vastavalt tellija soovile
+        hetkeseisu väljavõte:
+
+        1.  andmesõnastik – projektis kasutatavate mõistete üheselt
+            mõistetavad ja täpsed definitsioonid;
+
+        2.  olemid ja relatsioonid;
+
+        3.  äriloogilised kitsendused ja kontrollid nende olemasolul;
+
+        4.  vaikeväärtused.
+
+14. Analüüsidokumentatsioon peab sisaldama vähemalt järgnevaid osasid:
+
+    1.  süsteemi äriloogiliste põhimõistete selgitav sõnastik ja
+        taustainfo;
+
+    2.  süsteemi põhiliste protsesside lühikirjeldus;
+
+    3.  süsteemi protsesside detailne kirjeldus kasutaja vaatepunkti
+        arvestades;
+
+    4.  kui funktsionaalsus sisaldab andmevahetust teiste süsteemidega,
+        siis andmevahetuse lühikirjeldust ning viiteid andmevahetuse
+        detailsele dokumentatsioonile;
+
+    5.  kasutajate poolseid ligipääsupiiranguid nende olemasolul;
+
+    6.  kasutajaliidese prototüüpe;
+
+    7.  ärianalüüsi raames kokkulepitud arvutuskäikude kohta
+        arendusprotsessis realiseeritud lahenduste kirjeldus;
+
+    8.  äriprotsessis kasutatud liidestused nii tellija teiste
+        infosüsteemide kui ka väliste andmekogudega;
+
+allkirjastatud digitaalselt

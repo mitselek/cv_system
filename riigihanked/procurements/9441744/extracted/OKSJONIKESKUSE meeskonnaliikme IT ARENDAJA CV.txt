@@ -1,0 +1,66 @@
+  -----------------------------------------------------------------------
+  OKSJONIKESKUSE meeskonnaliikme IT ARENDAJA CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme IT  | ………….                                          |
+| arendaja nimi       |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab infosüsteemide IT arendaja      |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| 1. Peab omama       | ……                                             |
+| vähemalt 3 aastast  |                                                |
+| programmeerimise    |                                                |
+| töökogemust;        |                                                |
+|                     |                                                |
+| 2. Peab omama       |                                                |
+| vähemalt 3 aastast  |                                                |
+| SQL                 |                                                |
+| programmeerimise    |                                                |
+| töökogemust;        |                                                |
+|                     |                                                |
+| 3. Programmeerijal  |                                                |
+| peab olema X-tee    |                                                |
+| teenuste arendamise |                                                |
+| töökogemus;         |                                                |
+|                     |                                                |
+| 4. Vähemalt 3       |                                                |
+| aastat töökogemust  |                                                |
+| järgnevate          |                                                |
+| tehnoloogiate ja    |                                                |
+| tööriistadega: Zend |                                                |
+| Framework 1.12,     |                                                |
+| MySQL 5.7 (või      |                                                |
+| uuem), X-Road       |                                                |
+| teenused            |                                                |
+| protokolliga SOAP   |                                                |
+| ja REST, jQuery;    |                                                |
+|                     |                                                |
+| 5. Viimase kahe     |                                                |
+| aasta jooksul       |                                                |
+| töökogemust         |                                                |
+| arendusprojektides  |                                                |
+| milles kasutati     |                                                |
+| Bitbucket ja JIRA   |                                                |
+| tarkvara.           |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

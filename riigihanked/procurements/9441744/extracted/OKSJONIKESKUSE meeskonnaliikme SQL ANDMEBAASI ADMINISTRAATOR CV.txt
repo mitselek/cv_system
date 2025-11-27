@@ -1,0 +1,41 @@
+  -----------------------------------------------------------------------
+  OKSJONIKESKUSE meeskonnaliikme SQL ANDMEBAASI ADMINISTRAATOR CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme SQL | ………….                                          |
+| andmebaasi          |                                                |
+| administraatori     |                                                |
+| nimi                |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab SQL andmebaasi administraatori  |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| Kes on MySQL        | ……                                             |
+| andmebaasi          |                                                |
+| administraatorina   |                                                |
+| viimase 36 kuu      |                                                |
+| jooksul vähemalt 12 |                                                |
+| kuuline töökogemus  |                                                |
+| SQL andmebaasi      |                                                |
+| administraatorina.  |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

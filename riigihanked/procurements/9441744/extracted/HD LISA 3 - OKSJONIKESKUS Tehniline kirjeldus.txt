@@ -1,0 +1,359 @@
+#0HD LISA 1
+
+Raamlepingu eseme tehniline kirjeldus, OKSJONIKESKUS, tarkvara arendus-
+ja hooldusteenus
+
+  -----------------------------------------------------------------------
+  Hankija nimi:       Kohtutäiturite ja Pankrotihaldurite Koda
+  ------------------- ---------------------------------------------------
+  RHR viitenumber:    301565
+
+  Riigihanke nimetus: KPK infosüsteemide arendus- ja hooldustööde
+                      teostamine raamlepingu alusel
+
+  Pakkuja nimi:       OKSJONIKESKUS, tarkvara arendus- ja hooldusteenus
+  -----------------------------------------------------------------------
+
+Sõlmitava raamlepingu tööde sisuks on Kohtutäiturite ja
+Pankrotihaldurite Koja (Tellija) elektrooniliste enampakkumiste
+oksjonikeskkonna (www.oksjonikeskus.ee) tarkvara arendus- ja
+hooldustööd.
+
+Infosüsteemi andmekogu pidamise nõuded ja sinna kantavad isikuandmed on
+avaldatud dokumendis „Täite-ja pankrotimenetluse infosüsteemi pidamise
+kord“
+(https://kpkoda.ee/wp-content/uploads/public/tapais-pidamise-kord-jaan-2024.pdf).
+
+www.oksjonikeskus.ee infosüsteem on igapäeva kasutuses alates jaanuar
+2013. Infosüsteemi ülesandeks on
+
+-   täite- või pankrotimenetluses vajalike andmete hankimine riiklikest
+    andmekogudest;
+
+-   elektrooniliste enampakkumiste korraldamise võimaldamine;
+
+-   informatsiooni ja dokumentide elektroonilise edastamise
+    võimaldamine.
+
+Infosüsteemi töökindlus ja turvalisus on väga olulised, et hankija saaks
+talle pandud kohustusi täpselt ja tähtaegselt teostada, mis seab pakkuja
+tarkvaraarenduse võimekusele kõrged nõudmised (koostöövõime teiste
+tarkvaraettevõtetega, meeskonna piisav suurus, erialane kompetents ja
+stabiilsus, kogemus samaväärsete projektidega ja sarnaste
+tehnoloogiatega).
+
+Arhitektuurne ülesehitus
+
+www.oksjonikeskus.ee on avalik veebirakendus, mida kasutavad
+kohtutäiturid ja pankrotihaldurid elektrooniliste enampakkumiste
+korraldamiseks kooskõlas kohtutäituri seaduse, pankrotiseaduse ja teiste
+normatiivaktide sätetega. Enampakkumisel võivad pakkujana osaleda kõik
+selleks vajalikku õigus- ja teovõimet omavad isikud, kui seaduses ei ole
+sätestatud teisiti.
+
+Rakendus töötab kõrg-käideldaval virtuaalplatvormil kolmel
+virtuaalserveril. Lisaks on olemas eraldi virtuaalserver
+testkeskkondadele ning XTee turvaserverid „ee-dev“ ja „ee-test“.
+
+Veebirakendus on üles ehitatud PHP Zend Framework 1.12 raamistikule ja
+paljudele eri raamistikust tulenevatele moodulitele. Kasutajaliidese
+funktsionaalsuse realiseerimiseks on rakendatud jQuery (v1.8.3) ja
+jQuery UI (v1.9.2) teeke.
+
+[]
+
+Joonis
+
+Kliendirakendus töötab veebibrauseris ning ühildub kõigi peamiste
+brauseritega (Google Chrome, Mozilla Firefox ja Microsoft Edge viimaste
+versioonidega).
+
+Autentimiseks kasutatakse TARA autentimisteenust. Eduka autentimise
+järel määratakse süsteemi sisenenud kasutajale kehtivad rollipõhised
+õigused. Lisaks kontrollitakse esindusõigusi X-Tee teenuste kaudu.
+
+X-Tee päringud teostatakse, kasutades protokolle X-Road: Message
+Protocol v4.0 (SOAP) ja X-Road: Message Protocol for REST v1
+(dokumentatsioon, dokumentatsioon).
+
+Läbi X-tee turvaserveri pakutakse teistele kasutajatele kahte teenust.
+
+Staatiliste failide (nt pildid, dokumendid) veebis kuvamiseks
+kasutatakse Nginx-failiserverit.
+
+Kõik infosüsteemi kasutajate tegevused (nii autenditud kui autentimata
+kasutajate omad) logitakse. Logimine aitab tagada infosüsteemi
+turvalisuse, tuvastada võimalikke rikkumisi ning lahendada tehnilisi
+probleeme. Logitavad tegevused hõlmavad muuhulgas näiteks infosüsteemi
+sisenemisi, enampakkumiste vaatamisi, pakkumuste esitamist, X-Tee
+päringuid ning infosüsteemi poolt saadetud e-kirju – tegemist on
+näidetega, mitte ammendava nimekirjaga.
+
+Baastarkvara
+
+webdyn2
+
+1.  Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+2.  OS: Ubuntu 16.04 LTS
+
+3.  Veebiserver Apache/2.4
+
+4.  PHP 7.0
+
+5.  Zend Framework 1.12
+
+6.  postfix 3.1
+
+7.  Roundcube 1.3
+
+websta2
+
+8.   Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+9.  OS: Ubuntu 16.04 LTS
+
+10. Veebiserver nginx 1.10
+
+db2
+
+11. Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+12. OS: Ubuntu 16.04 LTS
+
+13. Andmebaas MySQL 5.7
+
+webdyntest (testkeskkond)
+
+14. Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+15. OS: Ubuntu 16.04 LTS
+
+16. Veebiserver Apache/2.4
+
+17. PHP 7.0
+
+18. Zend Framework 1.12
+
+19. postfix 3.1
+
+20. Andmebaas MySQL 5.7
+
+xteedev-ults22 (X-Road turvaserver testkeskkond)
+
+21. Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+22. OS: Ubuntu 22.04 LTS
+
+23. X-Road 7.7 (keskkond „ee-dev“)
+
+xteetest-ults22 (X-Road turvaserver testkeskkond)
+
+24. Virtuaalplatvormi tarkvara VMware Cloud Director 10.6 (Telia)
+
+25. OS: Ubuntu 22.04 LTS
+
+26. X-Road 7.7 (keskkond „ee-test“)
+
+Versioonihaldus
+
+Tööülesannete haldus ja planeerimine: JIRA
+
+Koodihaldus: kasutusel on Git 2.7. Kõik infosüsteemi parandused ja
+muudatused on jälgitavad läbi koodi versioonihalduse
+(https://bitbucket.org).
+
+Nõuded turvalisusele ja käideldavusele
+
+1.  Infosüsteemis tehtavate transaktsioonide/tegevuste ajaline piirang
+    lepitakse kokku tellijaga eraldi, kuid üldiselt on andmeteta vormide
+    avamine ja liikumine erinevate vormielementide vahel kiirem kui 2
+    sekundit. Kõiki aegasid mõõdetakse serveris, st nende sisse ei loeta
+    arvutivõrgu või kasutajaseadmest põhjustatud viidet.
+
+2.  Süsteemi taseme kvaliteedinõuded on:
+
+    1.  hallatavus - süsteem peab olema kontrollitav, st süsteemi
+        seisundit ja toimimist (teenuse kvaliteeti) iseloomustavad
+        olulised parameetrid (HDD täituvus, CPU kasutatavus, RAM
+        kasutus, vajalike teenuste käimine) peavad olema
+        monitooringuvahendiga jälgitavad;
+
+    2.  Arendustööde raames loodava funktsionaalsuse dokumentatsioon
+        peab olema piisav süsteemi edasiarenduseks ja halduseks ning
+        vastama tunnustatud standarditele;
+
+3.  Infosüsteemi tööaeg:
+
+    1.  Süsteem on kasutajatele avatud ööpäev läbi, 7 päeva nädalas;
+
+    2.  Süsteemi ametlik tööaeg, mil pakutakse kasutajatuge ja on
+        garanteeritud süsteemi toimivus, on tööpäeviti 9:00 – 17:00;
+
+Kasutajaliidese töökeel
+
+4.  Infosüsteemi kasutajaliidese ja administreerimismooduli töökeeleks
+    on eesti keel.
+
+Liidestused
+
+Oksjonikeskus on liidestatud järgmiste infosüsteemidega:
+
+5.  TARA (riigi poolt pakutav autentimisteenus)
+
+6.  XTeeProxy (KODA X-Tee teenuste vahendusserver)
+
+7.  X-Tee SOAP teenused läbi Telia turvaserveri
+
+    1.  EE/COM/14282597/kpr/isiku_andmed_1/v1
+
+    2.  EE/COM/14282597/kpr/isiku_avaldused/v1
+
+    3.  EE/COM/14282597/kpr/isiku_info/v1
+
+    4.  EE/COM/14282597/kpr/kohtutaituri_haldamine/v1
+
+    5.  EE/COM/14282597/kpr/kohtutaituri_korralduse_registreerimine/v1
+
+    6.  EE/COM/14282597/kpr/kohtutaituri_statistika/v1
+
+    7.  EE/COM/14282597/kpr/kpk_statistitika/v1
+
+    8.  EE/COM/14282597/kpr/pensionikonto_muu_saldoteatis_1/v1
+
+    9.  EE/COM/14306553/evkr/isiku_andmed_kt/v1
+
+    10. EE/GOV/70000310/arireg/detailandmed_v1/v1
+
+    11. EE/GOV/70000310/arireg/detailandmed_v3/v1
+
+    12. EE/GOV/70000310/arireg/esindus_v1/v1
+
+    13. EE/GOV/70000310/arireg/lihtandmed_v1/v1
+
+    14. EE/GOV/70000310/arireg/toimikuDokumendid_v1/v1
+
+    15. EE/GOV/70000310/arireg/toimikuDokument_v1/v1
+
+    16. EE/GOV/70000310/at/esitaTeadaanne_v2/v1
+
+    17. EE/GOV/70000310/at/lopetaTeadaanne/v1
+
+    18. EE/GOV/70000310/at/parandaTeadaanne/v1
+
+    19. EE/GOV/70000310/at/teadaandeLiigid_v2/v1
+
+    20. EE/GOV/70000310/at/teadaanne/v1
+
+    21. EE/GOV/70000310/at/tyhistaTeadaanne/v1
+
+    22. EE/GOV/70000310/avr/Otsi_Registrikaardid
+
+    23. EE/GOV/70000310/kir/AnnaArvelolekuAndmed/v1
+
+    24. EE/GOV/70000310/kir/karistuse_koht/v1
+
+    25. EE/GOV/70000310/kir/paring10/v1
+
+    26. EE/GOV/70000310/kir/paring11/v1
+
+    27. EE/GOV/70000310/kir/paring12/v1
+
+    28. EE/GOV/70000310/kir/paring2/v1
+
+    29. EE/GOV/70000310/kir/paring9/v1
+
+    30. EE/GOV/70000310/kr/Dokumendid_Nimekiri_v2/v2
+
+    31. EE/GOV/70000310/kr/Dokument_ID_v2/v2
+
+    32. EE/GOV/70000310/kr/Kinnistu_Detailandmed
+
+    33. EE/GOV/70000310/kr/Kinnistu_Lihtandmed
+
+    34. EE/GOV/70000310/parimisregister/PrAvalikudAndmed/v2
+
+    35. EE/GOV/70000349/mkrliides/downloadMime/v1
+
+    36. EE/GOV/70000349/mkrliides/uploadMime/v1
+
+    37. EE/GOV/70000349/tor/TORIK/v1
+
+    38. EE/GOV/70000349/tsd/xteeFieEttevotlustulu/v1
+
+    39. EE/GOV/70000349/tsd/xteeFieTooandjadJaSotsm/v1
+
+    40. EE/GOV/70000740/ehis/tootukassaleKehtivad/v1
+
+    41. EE/GOV/70001490/liiklusregister/jlparing2/v2
+
+    42. EE/GOV/70001490/liiklusregister/paring2/v2
+
+    43. EE/GOV/70001490/liiklusregister/vlaev/v1
+
+    44. EE/GOV/70001975/pkr/taituri_vmaksed/v1
+
+    45. EE/GOV/70001975/skais2/taituri_vmaksed/v1
+
+    46. EE/GOV/70003098/kpois/kyKitsendused/v2
+
+    47. EE/GOV/70008440/rr/RR404_isik/v1
+
+    48. EE/GOV/70008440/rr/RR404_isik/v3
+
+    49. EE/GOV/70008440/rr/RR458isikuTDkontroll/v1
+
+    50. EE/GOV/70008440/rr/RR461pereDokument/v1
+
+    51. EE/GOV/70008440/rr/RR464isikuSuhted/v1
+
+    52. EE/GOV/70008440/rr/RR465isikuHooldusoigused/v1
+
+    53. EE/GOV/70008440/rr/RR466isikuTeovoime/v1
+
+    54. EE/GOV/70008440/rr/RR468isikuElukohtSideAadress/v1
+
+    55. EE/GOV/70008440/rr/RR96IsikDokElukSuhe/v2
+
+    56. EE/GOV/70008747/itdak/taotlejaliht/v1
+
+    57. EE/GOV/70008747/trelvaregister/isik_relvad_kpk2/v1
+
+    58. EE/GOV/70008747/trelvaregister/isik_relvaload_kpk/v1
+
+8.  X-Tee REST teenused läbi Telia turvaserveri
+
+    1.  EE/GOV/70001975/skais2/getBailiffMassResponse
+
+    2.  EE/GOV/70001975/skais2/getBailiffSingleResponse
+
+    3.  EE/GOV/70001975/skais2/registerBailiffMassRequest
+
+Pakutavad X-Tee teenused
+
+Infosüsteem pakub läbi X-Tee turvaserveri teistele organisatsioonidele
+järgmisi SOAP protokolli teenuseid:
+
+9.  EE/GOV/74002523/tapais/kohtutaituridNimekiri/v1
+
+10. EE/GOV/74002523/tapais/pankrotihalduridNimekiri/v1
+
+Keskkonnad
+
+Oksjonikeskus.ee on lisaks töökeskkonnale (live) olemas kliendi
+testkeskkond. Pakkuja peab arenduskeskkonna looma ja ülal pidama ise,
+arvestades selle kulu pakkumuse maksumuse sisse.
+
+Infosüsteemi arendusvajadus
+
+Arendusvajadused tulenevad infosüsteemi arenduskava eesmärkidest ning
+prioriteetidest, teenuseid reguleerivate õigusaktide muudatustest,
+teenuseprotsesside muudatustest. Arendaja peab olema valmis lühikese
+tähtajaga seadusemuudatustele (mis omakorda tekitavad vajaduse teenuse
+protsesse muuta) reageerima ja pakkuma kiireid lahendusi. Arendajal peab
+olema valmisolek ja võimekus teostada arendust ja infosüsteemi
+ülesseadmist.
+
+Infosüsteemi arendamise eesmärk on toetada Kohtutäiturite efektiivsuse
+kasvu, tagada suurem kasutajamugavus ja seeläbi veel rahulolevam klient!
+On väga oluline, et www.oksjonikeskus.ee töötaks kiirelt ja töökindlalt.

@@ -1,0 +1,38 @@
+  -----------------------------------------------------------------------
+  TAPAIS2 meeskonnaliikme TESTIJA CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme     | ………….                                          |
+| testija nimi        |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab infosüsteemide testija          |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| Kes on viimase 36   | ……                                             |
+| kuu jooksul         |                                                |
+| vähemalt 12 kuuline |                                                |
+| tõendatud           |                                                |
+| töökogemus          |                                                |
+| testijana IT        |                                                |
+| arendusprojektides. |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.

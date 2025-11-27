@@ -1,0 +1,94 @@
+  -----------------------------------------------------------------------
+  TAPAIS2 meeskonnaliikme IT ARENDAJA CV
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
++---------------------+------------------------------------------------+
+| Meeskonnaliikme IT  | ………….                                          |
+| arendaja nimi       |                                                |
++=====================+================================================+
+| Hariduskäik         | 1. ……                                          |
+|                     |                                                |
+|                     | 2. ……                                          |
+|                     |                                                |
+|                     | 3. ……                                          |
++---------------------+------------------------------------------------+
+| Nõuded              | Pakkuja esitab infosüsteemide arendaja         |
+|                     | töökogemuse selgituse. Kui selleks on vaja     |
+|                     | esitada dokumente, siis pakkuja märgib siia    |
+|                     | dokumendi nimetuse ja esitab dokumendi         |
+|                     | hankedokumentide hulka.                        |
++---------------------+------------------------------------------------+
+| Peab omama vähemalt | ……                                             |
+| 3 aastast           |                                                |
+| töökogemust         |                                                |
+| järgnevate          |                                                |
+| tehnoloogiate ja    |                                                |
+| tööriistadega:      |                                                |
+|                     |                                                |
+| 1. Symfony 4 ja 5,  |                                                |
+| Vue 2, TypeScript,  |                                                |
+| Semantic UI,        |                                                |
+| RabbitMQ, Minio,    |                                                |
+| Docker Swarm,       |                                                |
+| m                   |                                                |
+| onitooringutarkvara |                                                |
+| (Grafana,           |                                                |
+| Prometheus Loki,    |                                                |
+| Sachet), Traefik,   |                                                |
+| Nginx, REST ja SOAP |                                                |
+| liidesed.           |                                                |
+|                     |                                                |
+| 2. Peab omama       |                                                |
+| vähemalt 3 aastast  |                                                |
+| programmeerimise    |                                                |
+| töökogemust;        |                                                |
+|                     |                                                |
+| 3. Peab omama       |                                                |
+| vähemalt 2 aastast  |                                                |
+| SQL                 |                                                |
+| programmeerimise    |                                                |
+| töökogemust;        |                                                |
+|                     |                                                |
+| 4. Programmeerijal  |                                                |
+| peab olema X-tee    |                                                |
+| teenuste arendamise |                                                |
+| töökogemus;         |                                                |
+|                     |                                                |
+| 5. Viimase kahe     |                                                |
+| aasta jooksul       |                                                |
+| töökogemust         |                                                |
+| arendusprojektides  |                                                |
+| vähemalt 360        |                                                |
+| kalendripäeva,      |                                                |
+| milles kasutati     |                                                |
+| GitLab tarkvara.    |                                                |
+|                     |                                                |
+| 6. Viimase 36 kuu   |                                                |
+| jooksul vähemalt 24 |                                                |
+| kuuline tõendatud   |                                                |
+| kogemus Symfony     |                                                |
+| raamistikul         |                                                |
+| arendamises.        |                                                |
+|                     |                                                |
+| 7. Viimase 36 kuu   |                                                |
+| jooksul vähemalt    |                                                |
+| üks tõendatud       |                                                |
+| osalus IT arendaja  |                                                |
+| rollis              |                                                |
+| infosüsteemide SOAP |                                                |
+| ja REST             |                                                |
+| tehnoloogial        |                                                |
+| liidestamise IT     |                                                |
+| arendusprojekti     |                                                |
+| lepingus.           |                                                |
++---------------------+------------------------------------------------+
+| Keeletunnistus C1   | Kui pakkuja emakeel ei ole eesti keel, siis    |
+|                     | märgib pakkuja siia emakeele tunnistuse        |
+|                     | numbri, väljaandja. Hankija nõudmisel esitab   |
+|                     | emakeele tunnistuse koopia.                    |
++---------------------+------------------------------------------------+
+
+Hankija võib vajadusel nõuda pakkujalt täiendavaid dokumente nõude
+täitmise tõendamiseks.
