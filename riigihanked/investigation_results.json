@@ -1,0 +1,29 @@
+{
+  "procurement_id": "9559644",
+  "timestamp": "2025-11-27T01:12:00.567835",
+  "endpoints_tested": [
+    {
+      "url": "https://riigihanked.riik.ee/rhr-web/api/procurements/9559644",
+      "status_code": 404,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://riigihanked.riik.ee/rhr-web/api/procurement/9559644",
+      "status_code": 404,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://riigihanked.riik.ee/api/procurements/9559644",
+      "status_code": 404,
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://riigihanked.riik.ee/api/v1/procurements/9559644",
+      "status_code": 404,
+      "content_type": "text/html;charset=utf-8"
+    }
+  ],
+  "working_endpoint": null,
+  "data": null,
+  "error": null
+}
