@@ -14,6 +14,7 @@
 This is a **highly specialized gas transmission and balancing services information system** for Estonia-Latvia Common Balancing Zone operated by Elering and Conexus (TSOs). Requires deep domain knowledge in gas market operations plus specific enterprise integration technologies (AS4 messaging, ActiveMQ Artemis, Elasticsearch/ELK Stack, Keycloak IAM, TOTP 2FA) not documented in your experience.
 
 **Critical Blockers:**
+
 1. **Gas Market Domain:** Zero experience with gas transmission, TSO operations, balancing zones
 2. **AS4 Protocol:** No experience with Application Statement 4 messaging (specialized B2B integration standard)
 3. **ActiveMQ Artemis:** No JMS message broker experience documented
@@ -34,31 +35,33 @@ This is a **highly specialized gas transmission and balancing services informati
 
 ### Basic Information
 
-| Field | Value |
-|-------|-------|
-| **Procurement ID** | 8960884 (version 9559024) |
-| **Reference** | 296660 |
-| **Title** | Framework agreement for Common IT Platform developments |
-| **Procurer** | Elering AS (reg 11022625) |
-| **Type** | Estonia-Latvia gas transmission TSO collaboration |
-| **Procedure** | Open |
-| **CPV Code** | 72200000-7 (Software programming and consulting) |
-| **Contract Value** | €300,000 (framework ceiling) |
-| **Duration** | 24 months from 2026-01-01 |
-| **Deadline** | 2025-12-03 11:00 (**6 DAYS**) |
-| **Evaluation** | 50% hourly price + 50% interviews (First Programmer 30pts, Business Analyst 20pts) |
-| **Bid Guarantee** | €3,000 (valid 90+30 days) |
+| Field              | Value                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| **Procurement ID** | 8960884 (version 9559024)                                                          |
+| **Reference**      | 296660                                                                             |
+| **Title**          | Framework agreement for Common IT Platform developments                            |
+| **Procurer**       | Elering AS (reg 11022625)                                                          |
+| **Type**           | Estonia-Latvia gas transmission TSO collaboration                                  |
+| **Procedure**      | Open                                                                               |
+| **CPV Code**       | 72200000-7 (Software programming and consulting)                                   |
+| **Contract Value** | €300,000 (framework ceiling)                                                       |
+| **Duration**       | 24 months from 2026-01-01                                                          |
+| **Deadline**       | 2025-12-03 11:00 (**6 DAYS**)                                                      |
+| **Evaluation**     | 50% hourly price + 50% interviews (First Programmer 30pts, Business Analyst 20pts) |
+| **Bid Guarantee**  | €3,000 (valid 90+30 days)                                                          |
 
 ### Project Context
 
 **Common Balancing Zone (CBZ):**
 Estonia and Latvia have established a joint natural gas balancing zone with transmission operated by:
+
 - **Elering AS** (Estonia) - electricity and gas TSO
 - **Conexus Baltic Grid** (Latvia) - gas TSO
 - Expected expansion: Lithuania and Finland TSOs
 
 **Common Zone Platform (CZP):**
 Web services + database + SPAs enabling:
+
 - Gas capacity bookings and nominations by Network Users (NUs)
 - Communication between TSOs (Elering ↔ Conexus)
 - External system integration (other market participants)
@@ -75,6 +78,7 @@ Web services + database + SPAs enabling:
 **Two Main Systems:**
 
 1. **BCGP-MS (Main System):**
+
    - Communication between Elering and Conexus systems
    - Integration with external systems (other TSOs, market participants)
    - AS4 Gateway for B2B messaging
@@ -91,45 +95,50 @@ Web services + database + SPAs enabling:
 
 ### Technology Stack
 
-| Component | Technology |
-|-----------|------------|
-| **Backend Services** | Spring Boot, JDK, Liquibase, JPA |
-| **IAM** | Keycloak (SAML 2.0, OpenID Connect, OAuth 2.0) |
-| **Frontend (Main)** | Angular, HTML, CSS, Angular Material, Bootstrap |
-| **Frontend (Portal)** | AngularJS, HTML, CSS, Bootstrap |
-| **Message Broker** | ActiveMQ Artemis (JMS API) |
-| **AS4 Gateway** | IP Systems solution for AS4 messaging |
-| **Database** | MySQL Enterprise Edition |
-| **2FA** | Google Authenticator (TOTP algorithm) |
-| **Logging** | **Elasticsearch, Logstash, Kibana, Beats** (ELK Stack) |
+| Component             | Technology                                             |
+| --------------------- | ------------------------------------------------------ |
+| **Backend Services**  | Spring Boot, JDK, Liquibase, JPA                       |
+| **IAM**               | Keycloak (SAML 2.0, OpenID Connect, OAuth 2.0)         |
+| **Frontend (Main)**   | Angular, HTML, CSS, Angular Material, Bootstrap        |
+| **Frontend (Portal)** | AngularJS, HTML, CSS, Bootstrap                        |
+| **Message Broker**    | ActiveMQ Artemis (JMS API)                             |
+| **AS4 Gateway**       | IP Systems solution for AS4 messaging                  |
+| **Database**          | MySQL Enterprise Edition                               |
+| **2FA**               | Google Authenticator (TOTP algorithm)                  |
+| **Logging**           | **Elasticsearch, Logstash, Kibana, Beats** (ELK Stack) |
 
 ### Critical Integration Technologies
 
 **AS4 (Application Statement 4):**
+
 - Specialized B2B data exchange protocol
 - Interoperability standard for business-to-business integration
 - Used for gas market participant communication
 - IP Systems solution (proprietary AS4 Gateway)
 
 **ActiveMQ Artemis:**
+
 - JMS (Java Message Service) message broker
 - Relays AS4 messages to backend services
 - Asynchronous message processing
 - Mission-critical for TSO communication
 
 **Keycloak:**
+
 - Open-source Identity and Access Management
 - Protocols: SAML v2.0, OpenID Connect v1.0, OAuth v2.0
 - Identity Brokering with external authentication providers
 - Central authentication point for H2M (Human-to-Machine) communication
 
 **TOTP (Time-based One-Time Password):**
+
 - Google Authenticator integration
 - RFC 6238 standard
 - 2-factor authentication requirement
 - Generate/validate TOTP tokens
 
 **Elasticsearch Stack (ELK):**
+
 - **Elasticsearch:** NoSQL database, RESTful search engine, analytics
 - **Logstash:** Data collection pipeline, feeds into Elasticsearch
 - **Kibana:** Data visualization, querying, export (PDF/CSV)
@@ -148,6 +157,7 @@ Web services + database + SPAs enabling:
 - Testing (unit, integration, E2E)
 
 **Working Model:**
+
 - Hourly-rate framework agreement (€/hour bid)
 - Work ordered via specific assignments
 - Task management: Client systems (not specified, likely Jira)
@@ -162,54 +172,56 @@ Web services + database + SPAs enabling:
 **Minimum Team: 2 members**
 
 **Role 1: First Programmer**
+
 - Requirement: Java, Spring Boot, Angular, MySQL experience
 - Evaluation: Interview worth 30 points (60% of interview total)
 - YOUR FIT: ⚠️ PARTIAL
-  * Java 7/10: Verified (Oracle ADF 2002-2005, Spring Boot PM 2017-2018)
-  * Spring Boot: Verified (EKI 2017-2018, version 2.6.12)
-  * Angular: NOT explicitly documented (JavaScript 9/10 → can learn)
-  * MySQL: NOT documented (PostgreSQL, Oracle, MongoDB documented)
+  - Java 7/10: Verified (Oracle ADF 2002-2005, Spring Boot PM 2017-2018)
+  - Spring Boot: Verified (EKI 2017-2018, version 2.6.12)
+  - Angular: NOT explicitly documented (JavaScript 9/10 → can learn)
+  - MySQL: NOT documented (PostgreSQL, Oracle, MongoDB documented)
 - **CRITICAL GAP:** Interview questions will cover:
-  * AS4 messaging integration
-  * ActiveMQ Artemis message broker
-  * Elasticsearch optimization
-  * Keycloak IAM configuration
-  * TOTP authentication implementation
-  * Gas market domain understanding
+  - AS4 messaging integration
+  - ActiveMQ Artemis message broker
+  - Elasticsearch optimization
+  - Keycloak IAM configuration
+  - TOTP authentication implementation
+  - Gas market domain understanding
 - **Cannot demonstrate expertise in 6 days**
 
 **Role 2: Business Analyst**
+
 - Requirement: System analysis, requirements gathering, domain knowledge
 - Evaluation: Interview worth 20 points (40% of interview total)
 - YOUR FIT: ⚠️ WEAK
-  * System analysis: Some experience (EKI 2017-2018)
-  * Requirements gathering: General software development
+  - System analysis: Some experience (EKI 2017-2018)
+  - Requirements gathering: General software development
 - **CRITICAL GAP:** Business analyst must understand:
-  * Gas transmission operations (TSO functions)
-  * Balancing zone mechanics
-  * Network User (NU) booking/nomination processes
-  * Regulatory requirements for gas market
-  * Cross-border gas market integration
+  - Gas transmission operations (TSO functions)
+  - Balancing zone mechanics
+  - Network User (NU) booking/nomination processes
+  - Regulatory requirements for gas market
+  - Cross-border gas market integration
 - **Zero gas market domain knowledge**
 
 ### Technical Skills Assessment
 
-| Technology | Required | Your Status | Match | Notes |
-|------------|----------|-------------|-------|-------|
-| **Java** | YES | 7/10 verified | ✅ 70% | Need refresh to current (last hands-on 2017-2018) |
-| **Spring Boot** | YES | Verified 2.6.12 | ✅ 60% | Need update to latest (3.x) |
-| **Liquibase** | YES | NOT documented | ❌ 0% | DB migration tool (vs Flyway experience) |
-| **JPA/Hibernate** | YES | Mentioned in sources | ⚠️ 30% | Not explicitly verified |
-| **Angular** | YES | NOT documented | ❌ 0% | JavaScript 9/10 → can learn, but no track record |
-| **MySQL** | YES | NOT documented | ❌ 0% | Have PostgreSQL, Oracle, MongoDB |
-| **AS4 Protocol** | **CRITICAL** | NOT documented | ❌ 0% | **BLOCKER** - Specialized B2B standard |
-| **ActiveMQ Artemis** | **CRITICAL** | NOT documented | ❌ 0% | **BLOCKER** - Message broker |
-| **Elasticsearch** | **CRITICAL** | NOT documented | ❌ 0% | **BLOCKER** - Logging/monitoring |
-| **Logstash** | YES | NOT documented | ❌ 0% | Part of ELK Stack |
-| **Kibana** | YES | NOT documented | ❌ 0% | Part of ELK Stack |
-| **Keycloak** | **CRITICAL** | NOT documented | ❌ 0% | **BLOCKER** - IAM platform |
-| **TOTP (2FA)** | YES | NOT documented | ⚠️ 10% | Can implement, but no track record |
-| **Gas Market Domain** | **CRITICAL** | Zero experience | ❌ 0% | **BLOCKER** - Cannot fake in interview |
+| Technology            | Required     | Your Status          | Match  | Notes                                             |
+| --------------------- | ------------ | -------------------- | ------ | ------------------------------------------------- |
+| **Java**              | YES          | 7/10 verified        | ✅ 70% | Need refresh to current (last hands-on 2017-2018) |
+| **Spring Boot**       | YES          | Verified 2.6.12      | ✅ 60% | Need update to latest (3.x)                       |
+| **Liquibase**         | YES          | NOT documented       | ❌ 0%  | DB migration tool (vs Flyway experience)          |
+| **JPA/Hibernate**     | YES          | Mentioned in sources | ⚠️ 30% | Not explicitly verified                           |
+| **Angular**           | YES          | NOT documented       | ❌ 0%  | JavaScript 9/10 → can learn, but no track record  |
+| **MySQL**             | YES          | NOT documented       | ❌ 0%  | Have PostgreSQL, Oracle, MongoDB                  |
+| **AS4 Protocol**      | **CRITICAL** | NOT documented       | ❌ 0%  | **BLOCKER** - Specialized B2B standard            |
+| **ActiveMQ Artemis**  | **CRITICAL** | NOT documented       | ❌ 0%  | **BLOCKER** - Message broker                      |
+| **Elasticsearch**     | **CRITICAL** | NOT documented       | ❌ 0%  | **BLOCKER** - Logging/monitoring                  |
+| **Logstash**          | YES          | NOT documented       | ❌ 0%  | Part of ELK Stack                                 |
+| **Kibana**            | YES          | NOT documented       | ❌ 0%  | Part of ELK Stack                                 |
+| **Keycloak**          | **CRITICAL** | NOT documented       | ❌ 0%  | **BLOCKER** - IAM platform                        |
+| **TOTP (2FA)**        | YES          | NOT documented       | ⚠️ 10% | Can implement, but no track record                |
+| **Gas Market Domain** | **CRITICAL** | Zero experience      | ❌ 0%  | **BLOCKER** - Cannot fake in interview            |
 
 **Summary:** 3/13 technologies matched (23%). **10/13 missing or weak.**
 
@@ -231,6 +243,7 @@ Web services + database + SPAs enabling:
 #### Technology Gaps (BLOCKERS)
 
 **AS4 Messaging (CRITICAL BLOCKER):**
+
 - AS4 (Application Statement 4) is specialized B2B integration standard
 - Used in gas market for TSO-to-TSO communication
 - Requires understanding of business document exchange standards
@@ -240,6 +253,7 @@ Web services + database + SPAs enabling:
 - **Mitigation:** None in 6 days (requires training + hands-on experience)
 
 **ActiveMQ Artemis (CRITICAL BLOCKER):**
+
 - Enterprise message broker (JMS API)
 - Asynchronous message processing
 - Mission-critical for gas market communication
@@ -248,6 +262,7 @@ Web services + database + SPAs enabling:
 - **Mitigation:** None in 6 days (requires hands-on setup + troubleshooting experience)
 
 **Elasticsearch/ELK Stack (CRITICAL BLOCKER):**
+
 - Elasticsearch: NoSQL search engine, analytics
 - Logstash: Data ingestion pipeline
 - Kibana: Visualization and dashboards
@@ -257,6 +272,7 @@ Web services + database + SPAs enabling:
 - **Mitigation:** None in 6 days (requires installation + real-world use cases)
 
 **Keycloak IAM (CRITICAL BLOCKER):**
+
 - Identity and Access Management platform
 - SAML, OpenID Connect, OAuth 2.0
 - Identity federation and brokering
@@ -265,12 +281,14 @@ Web services + database + SPAs enabling:
 - **Mitigation:** None in 6 days (requires deployment + configuration experience)
 
 **Angular (MODERATE GAP):**
+
 - Modern TypeScript-based frontend framework
 - **Gap:** Not documented (JavaScript 9/10 → can learn React faster than Angular)
 - **Impact:** Cannot show Angular-specific portfolio projects
 - **Mitigation:** Partial (JavaScript strong, but no Angular track record)
 
 **MySQL (MINOR GAP):**
+
 - Have PostgreSQL, Oracle, MongoDB
 - **Gap:** MySQL not explicitly documented
 - **Impact:** Low (SQL databases similar, can adapt)
@@ -279,6 +297,7 @@ Web services + database + SPAs enabling:
 #### Domain Knowledge Gaps (BLOCKERS)
 
 **Gas Market Operations (CRITICAL BLOCKER):**
+
 - TSO functions (transmission system operators)
 - Balancing zones and cross-border gas flow
 - Network User (NU) capacity booking processes
@@ -289,6 +308,7 @@ Web services + database + SPAs enabling:
 - **Mitigation:** None in 6 days (requires months of industry exposure)
 
 **Gas Transmission Terminology (BLOCKER):**
+
 - Balancing zone, capacity booking, nomination, shipper, imbalance, linepack
 - **Gap:** Unfamiliar with specialized gas market vocabulary
 - **Impact:** Cannot discuss requirements intelligently in interview
@@ -303,15 +323,18 @@ Web services + database + SPAs enabling:
 **Who Will Bid:**
 
 1. **Enterprise Integration Specialists:**
+
    - Companies with AS4/B2B integration experience
    - Gas/energy sector IT consultancies
    - Examples: CGI, Tieto, Elisa, Proekspert (if gas market experience)
 
 2. **Elering's Existing Partners:**
+
    - Firms already working on CZP or other Elering systems
    - Advantage: Domain knowledge, existing relationships
 
 3. **Baltic Energy Sector IT Firms:**
+
    - Companies with TSO/DSO client experience
    - Gas market IT specialists
 
@@ -328,6 +351,7 @@ Web services + database + SPAs enabling:
 - ⏱️ **6 Days Prep:** Insufficient for learning 5+ specialized technologies + gas market basics
 
 **Expected Winner Profile:**
+
 - 3-5 years gas/energy sector IT experience
 - Demonstrated AS4 integration projects
 - ActiveMQ/JMS message broker expertise
@@ -336,6 +360,7 @@ Web services + database + SPAs enabling:
 - €60-€90/hour rate
 
 **Your Win Probability:** <5%
+
 - Cannot pass programmer interview without AS4/ActiveMQ/ELK experience
 - Cannot pass business analyst interview without gas market knowledge
 - Interview weight: 50% → automatic elimination
@@ -347,6 +372,7 @@ Web services + database + SPAs enabling:
 Unlike paper-based procurements where you can assemble a team to fill gaps, this procurement requires **you personally** (or your key team members) to demonstrate expertise in face-to-face interviews:
 
 1. **First Programmer Interview (30 points):**
+
    - Expect questions on AS4 message processing architecture
    - ActiveMQ Artemis configuration and troubleshooting
    - Elasticsearch query optimization for log analysis
@@ -355,6 +381,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
    - **Cannot fake hands-on experience**
 
 2. **Business Analyst Interview (20 points):**
+
    - Expect questions on gas balancing zone operations
    - TSO coordination requirements
    - Network User booking/nomination workflows
@@ -373,16 +400,17 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 
 ### Cost-Benefit Analysis
 
-| Factor | Value | Notes |
-|--------|-------|-------|
-| **Bid Prep Time** | 60-80 hours | Document review, tech research, team assembly, bid writing |
-| **Bid Guarantee** | €3,000 | Upfront cost (returned if not selected) |
-| **Win Probability** | <5% | Cannot pass interview evaluation |
-| **Contract Value** | €300k / 24mo | But hourly rate framework (variable income) |
-| **Expected Value** | Negative | (€3k + 70hr) × 5% = -€2,850 opportunity cost |
-| **Risk Level** | VERY HIGH | Wasting 70 hours + €3k on <5% win chance |
+| Factor              | Value        | Notes                                                      |
+| ------------------- | ------------ | ---------------------------------------------------------- |
+| **Bid Prep Time**   | 60-80 hours  | Document review, tech research, team assembly, bid writing |
+| **Bid Guarantee**   | €3,000       | Upfront cost (returned if not selected)                    |
+| **Win Probability** | <5%          | Cannot pass interview evaluation                           |
+| **Contract Value**  | €300k / 24mo | But hourly rate framework (variable income)                |
+| **Expected Value**  | Negative     | (€3k + 70hr) × 5% = -€2,850 opportunity cost               |
+| **Risk Level**      | VERY HIGH    | Wasting 70 hours + €3k on <5% win chance                   |
 
 **ROI Calculation:**
+
 - **Investment:** 70 hours @ €50/hr = €3,500 + €3,000 guarantee = €6,500
 - **Win Chance:** 5%
 - **Expected Return:** €6,500 × 0.05 = €325
@@ -417,12 +445,14 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 **Better Fit Procurement Types:**
 
 1. **Web Application Development:**
+
    - Python/Django, JavaScript/React, Node.js
    - PostgreSQL databases
    - REST APIs and integrations
    - Government systems (Justice Ministry experience relevant)
 
 2. **Java/Spring Boot IF:**
+
    - General business applications (not specialized industry)
    - No specialized integration tech (AS4, message brokers, ELK)
    - Paper-based evaluation (not interviews)
@@ -441,6 +471,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 - **9407944 (SMIT Illegaal2 Java/Spring Boot):** CONSIDER - 50-60% feasible with team
 
 **Upcoming Job Applications:**
+
 - Brandem Baltic: Full Stack Developer (React/Java/Spring Boot)
 - Elektrilevi: Business Project Manager
 - Tallinna Strateegiakeskus: Innovation Specialist
@@ -457,6 +488,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 - ❌ **Interview-based evaluation when lacking specialized tech:** Cannot fake hands-on experience
 
 **Better to skip and focus on:**
+
 - ✅ General web/API development (your strength)
 - ✅ Python/JavaScript projects (documented 9/10)
 - ✅ Database architecture (documented strength)
@@ -472,14 +504,17 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 **Quick SKIP Criteria (Apply Before Detailed Analysis):**
 
 1. **Specialized Industry Domain:**
+
    - Gas, electricity, telecom, finance, healthcare (regulated industries)
    - IF zero domain experience → SKIP (unless generic IT)
 
 2. **Interview-Based Evaluation:**
+
    - IF 40%+ weight on interviews AND specialized tech required → SKIP
    - Cannot fake hands-on expertise in real-time Q&A
 
 3. **Specialized Enterprise Technologies:**
+
    - Message brokers (ActiveMQ, RabbitMQ, Kafka)
    - ELK Stack (Elasticsearch, Logstash, Kibana)
    - IAM platforms (Keycloak, Okta, Auth0)
@@ -487,6 +522,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
    - IF 3+ specialized techs AND zero documented experience → SKIP
 
 4. **Timeline vs Learning Curve:**
+
    - Count missing technologies
    - Estimate learning time (2-3 days each for hands-on)
    - IF total learning time > deadline → SKIP
@@ -496,6 +532,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
    - Negative expected value
 
 **This Procurement Hits 4/5 SKIP Criteria:**
+
 - ✅ Specialized industry (gas transmission)
 - ✅ Interview-based (50% weight)
 - ✅ Specialized technologies (5+ missing)
@@ -507,12 +544,14 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 ### Efficient Procurement Screening Process
 
 **Phase 1: Quick Screen (5 minutes):**
+
 1. Read short description in RHR
 2. Check evaluation criteria (price vs interviews)
 3. Scan technology stack in technical spec
 4. IF 2+ SKIP criteria → Stop, mark SKIP
 
 **Phase 2: Detailed Analysis (2-4 hours) - ONLY IF passed Phase 1:**
+
 1. Download all documents
 2. Extract text
 3. Read requirements
@@ -520,6 +559,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 5. Create assessment
 
 **This procurement should have been SKIP in Phase 1:**
+
 - Short description: "Common IT Platform for gas transmission" → Specialized industry
 - Evaluation: "50% interviews" → Cannot fake expertise
 - Technology stack: "AS4, ActiveMQ, Elasticsearch, Keycloak" → 4 specialized techs not documented
@@ -534,6 +574,7 @@ Unlike paper-based procurements where you can assemble a team to fill gaps, this
 **Procurement 8960884 is a gas transmission system integration project requiring deep domain expertise in TSO operations plus specialized enterprise technologies (AS4 messaging, ActiveMQ, Elasticsearch, Keycloak) not documented in your experience.**
 
 **Critical blockers:**
+
 - ❌ Gas market domain: Zero experience with TSO operations, balancing zones
 - ❌ AS4 Protocol: Specialized B2B messaging standard (not documented)
 - ❌ ActiveMQ Artemis: Message broker (not documented)
