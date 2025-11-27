@@ -660,8 +660,8 @@
 
 ### Primary Languages
 
-1. **JavaScript/Node.js** - 20+ projects
-2. **Python** - 12+ projects
+1. **[[skills/javascript]] / [[skills/nodejs]]** - 20+ projects
+2. **[[skills/python]]** - 12+ projects
 3. **HTML/CSS** - 15+ projects
 4. **TypeScript** - 3 projects
 5. **PHP** - 3 projects
@@ -680,10 +680,10 @@
 
 ### Notable Patterns
 
-- **Entu Ecosystem:** Multiple projects related to Entu platform (entu-maintenance, 360-pyEntu, entu-cms, public-entu, plugins, import)
-- **PÖFF Projects:** poff-scripts, poff-ssg (Black Nights Film Festival)
+- **Entu Ecosystem:** Multiple projects related to [[experiences/entusiastid-ou-2010-present|Entu platform]] (entu-maintenance, 360-pyEntu, entu-cms, public-entu, plugins, import)
+- **PÖFF Projects:** poff-scripts, poff-ssg ([[experiences/ilusa-koodi-instituut-2021-2024|Black Nights Film Festival]])
 - **Games/Puzzles:** hexawords, wordsearch, chexs, pytd
-- **Music Composition & Publishing:** runoviisid, Scores, Mozart-Requiem (using CartoCSS for score visualization)
+- **Music Composition & Publishing:** [[projects/runoviisid]], Scores, Mozart-Requiem (using CartoCSS for score visualization)
 - **Mapping/GIS:** ecms_kml (KML geographic data)
 - **Visualization:** CodeFlower, force-directed-grouped, bi-graph, qtlcharts
 - **Integration/API:** 360-php, 360-pyEntu, sign-it, post-to-slack, import
@@ -706,12 +706,12 @@
 
 ### By Purpose
 
-- **Professional/Work:** Entu, PÖFF, esmuseum-map-app
+- **Professional/Work:** [[experiences/entusiastid-ou-2010-present|Entu]], [[experiences/ilusa-koodi-instituut-2021-2024|PÖFF]], esmuseum-map-app
 - **Games/Entertainment:** hexawords, wordsearch, chexs, pytd
 - **Tools/Utilities:** cv_system, entu-maintenance, poff-scripts
 - **Learning/Experiments:** maze, particles, tutorial
 - **Web Projects:** Multiple HTML/CSS/JS projects
-- **Music/Creative:** runoviisid, Scores, Mozart-Requiem (score publishing)
+- **Music/Creative:** [[projects/runoviisid]], Scores, Mozart-Requiem (score publishing)
 
 ---
 

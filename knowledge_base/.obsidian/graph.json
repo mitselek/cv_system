@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:certifications OR path:education  ",
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 15002857
+      }
+    },
+    {
+      "query": "path:projects  ",
+      "color": {
+        "a": 1,
+        "rgb": 13807103
       }
     }
   ],
