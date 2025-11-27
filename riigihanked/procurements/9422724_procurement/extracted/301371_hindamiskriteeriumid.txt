@@ -1,0 +1,97 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 301371
+Hankija: Haridus- ja Teadusministeerium (70000740)
+Hange: Eksamite Infosüsteemi (EIS) tehnilise lahenduse ja arendustegevuste seisukorra audit
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Aja- ja tegevuskava
+
+2
+
+Auditi läbiviimise kogumaksumus
+
+Koostatud 03.11.2025 17:51:37
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Pakkumusega koos tuleb esitada aja- ja Kvaliteet - hankija
+tegevuskava hankelepingu täitmiseks,
+hinnatav
+millele
+on
+võimalik
+määrata
+maksimaalselt 15 väärtuspunkti.
+Esitada
+auditi
+läbiviimise
+Maksumus kogumaksumus eurodes täpsusega kaks vähim on parim
+kohta pärast koma. Maksumus peab
+sisaldama kõiki kulusid, mis on
+vajalikud hankelepingu nõuetekohaseks
+täitmiseks. Hankija ei hüvita pakkujale
+mingeid täiendavaid kulusid. Lisanduva
+käibemaksu korral märkida käibemaksu
+suurus protsentides. Hindamisele kuulub
+käibemaksuta maksumus.
+Kokku:
+
+1/2
+
+Osakaal
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+
+EUR
+
+jah
+
+70
+
+30
+
+100
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9422724/general-info
+
+Hindamismetoodika kirjeldus
+1. Aja- ja tegevuskava
+Hankija hindab esitatud aja- ja tegevuskava alljärgneva metoodikat rakendades.
+15 punkti saab pakkumus, millest nähtub, et aja- ja tegevuskava on hankelepingu kvaliteetseks täitmiseks mõistlik ja objektiivselt põhjendatud. Selgelt ja arusaadavalt on kirjeldatud, kuidas
+plaanitakse töö eesmärk ja oodatavad tulemid saavutada. Tegevused ja tulemid on jagatud tähtajalisteks perioodideks, sh on töö jagatud vaheetappidesse seal, kus see loob väärtust. Selgitatud
+on, millised on hankelepingu täitmisse kaasatud isikute rollid ning millises mahus ja milliste tegevustega nad tegelevad. Välja on pakutud lisandväärtust loovaid täiendavaid tegevusi või
+olemasolevaid tegevusi liigendatud detailsemaks, eesmärgiga neid paremini avada.
+10 punkti saab pakkumus, millest nähtub, et aja- ja tegevuskava on hankelepingu nõuetekohaseks täitmiseks piisav. Kirjeldatud on, kuidas plaanitakse töö eesmärk ja oodatavad tulemid
+saavutada, kuid esinevad üksikud
+puudujäägid või ebaselgused. Tegevused ja tulemid on jagatud tähtajalisteks perioodideks. Selgitatud on, millised on hankelepingu täitmisse kaasatud isikute rollid ning millises mahus ja
+milliste tegevustega nad tegelevad. Pakkuja ei ole hankija hinnangul pakkunud lisandväärtust.
+5 punkti saab pakkumus, millest nähtub, et aja- ja tegevuskava on esitatud koos tähtaegadega, kuid ajakavast on puudu mõni oluline etapp ja/või iga tegevuse juures ei ole märgitud läbiviija(d).
+Puuduvad põhjendused, kuidas pakutud ajakava ja isikutega on võimalik tagada hankelepingu kvaliteetne täitmine. Hankijal tekkisid mitmed põhimõttelised küsimused aja- ja tegevuskava
+sobivuse osas.
+1 punkti saab pakkumus, millest nähtub, et aja- ja tegevuskavast on puudu olulised tähtajad, etapid ja/või tegevuste juures ei ole märgitud läbiviija(d) (meeskonna liikmed). Aja- ja tegevuskavas
+märgitud tegevused ja selle ülesehitus on suuresti ebaselged või vastuolulised. Puuduvad põhjendused, kuidas pakutud ajakava ja meeskonnaga on võimalik tagada hankelepingu täitmine.
+
+2. Auditi läbiviimise kogumaksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 03.11.2025 17:51:37
+
+2/2
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9422724/general-info
+
+

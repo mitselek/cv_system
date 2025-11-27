@@ -1,0 +1,176 @@
+Lisateave
+
+Üldosa
+
+1.  Hanke nimetus ja viitenumber: Eksamite Infosüsteemi (EIS) tehnilise
+    lahenduse ja arendustegevuste seisukorra audit, viitenumber 301371
+
+2.  Hankija andmed: Haridus- ja Teadusministeerium, registrikood
+    70000740, aadress Munga 18, Tartu 50088.
+
+3.  Hanke eseme CPV kood: 79212000-3 Auditeerimisteenused
+
+4.  Hankija piirab RHS § 7 lg 3 alusel pakkujate ringi ning kehtestab,
+    et riigihankes saavad osaleda ainult pakkujad või taotlejad, kelle
+    elu- või asukoht on RHS § 3 p-s 2 nimetatud riigis (Eesti, mõni muu
+    Euroopa Liidu liikmesriik, muu Euroopa Majanduspiirkonna lepinguriik
+    või Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud
+    riik).
+
+5.  Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele
+    RHS-i § 88 lõikes 2 nimetatud alusele (standardile, tehnilisele
+    tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+    selliselt, et see on täiendatud märkega „või sellega samaväärne“.
+    Iga viidet, mille hankija teeb riigihanke alusdokumentides
+    ostuallikale, protsessile, kaubamärgile, patendile, tüübile,
+    päritolule, tootmisviisile, märgisele või vastavushindamisasutuse
+    väljastatud katsearuandele või tõendile, tuleb lugeda selliselt, et
+    see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d
+    5-6, § 89 lg 2, 114 lg-d 5-7).
+
+Nõuded pakkumusele 
+
+6.  Pakkumused tuleb esitada riigihangete elektroonilises keskkonnas
+    hanketeates nimetatud kuupäevaks ja kellaajaks.
+
+7.  Pakkumus peab vastama riigihanke alusdokumentides sätestatud
+    tingimustele.
+
+8.  Hankija avab pakkumused riigihanke alusdokumentides näidatud ajal.
+
+9.  Pakkumuste avamise protokolli ei koostata.
+
+1.  Läbirääkimised pakkujatega 
+
+    1.  Kui hankija peab seda vajalikuks, võib ta pidada enne pakkumuste
+        vastavaks tunnistamist pakkujatega võrdsetel alustel
+        läbirääkimisi. Läbirääkimisi juhib hankija. Läbirääkimiste
+        eesmärk on kohandada laekunud pakkumusi esitatud nõuetele
+        vastavaks.
+
+    2.  Hankija jätab endale õiguse pidada läbirääkimisi ka pakkumuse
+        maksumuse, maksetingimuste, täitmistähtaegade ning hanke
+        objektiks olevate asjade-tööde-teenuste mahu üle. Läbirääkimiste
+        pidamine ei ole hankija jaoks kohustuslik ning juhul kui
+        hankijal pakkumuse osas küsimusi ei teki, võib ta teha otsused
+        pakkumuste kohta, sh otsuse pakkumuse edukaks tunnistamise kohta
+        ilma läbirääkimisi pidamata.
+
+    3.  Pärast läbirääkimisi võib hankija paluda pakkujatel esitada
+        täiendatud pakkumused. Lõplik pakkumus ei tohi olla vastuolus
+        läbirääkimiste käigus protokollituga. Suuliselt peetavad
+        läbirääkimised protokollitakse. Hankija võib pidada
+        läbirääkimisi ka kirjalikul teel läbi elektroonilise
+        riigihangete registri. Hankija ei avalda läbirääkimistel saadud
+        informatsiooni teistele pakkujatele.
+
+Lihthankemenetluse kehtetuks tunnistamine
+
+4.  Hankija jätab endale õiguse tunnistada lihthankemenetluse kehtetuks,
+    kui:
+
+5.  lihthankemenetluse toimumise ajal on hankijale saanud teatavaks uued
+    asjaolud, mis välistavad või muudavad ebaotstarbekaks
+    lihthankemenetluse lõpuleviimise riigihanke alusdokumentides
+    sätestatud tingimustel;
+
+6.  lihthankemenetluses ilmnenud ebakõlasid ei ole võimalik kõrvaldada
+    ega lihthankemenetlust seetõttu ka õiguspäraselt lõpule viia;
+
+7.  hankija projektile otsustatakse rahastust mitte tagada;
+
+8.  tekib vajadus lepingu eset oluliselt muuta;
+
+9.  on toimunud sündmus, mida saab lugeda vääramatuks jõuks (force
+    majeure). Vääramatu jõud on asjaolu, mida hankija ei saa mõjutada ja
+    mõistlikkuse põhimõttest lähtuvalt ei saa temalt oodata, et ta
+    lihthankemenetluse ajal selle asjaoluga arvestaks või seda väldiks
+    või takistava asjaolu või selle tagajärje ületaks.
+
+Kõigi pakkumuste tagasilükkamine
+
+10. Hankijal on õigus kõik esitatud või vastavaks tunnistatud pakkumused
+    tagasi lükata igal ajal enne lepingu sõlmimist vastavalt RHS §-s 116
+    lg 1 sätestatule kui:
+
+11. hankijale on teatavaks saanud temast sõltumatud asjaolud, mis
+    muudavad raamlepingu sõlmimise ebaotstarbekaks ja need asjaolud ei
+    olnud hankijale lihthankemenetluse alustamisel teada;
+
+12. lihthankemenetluse käigus muutuvad hanke väljakuulutamise eeldused
+    (hankija eelarveliste vahendite kärpimine vms), mis muudavad
+    lihthankemenetluse otstarbeka realiseerimise võimatuks;
+
+13. ei ole tagatud piisav konkurents (laekub vaid üks pakkumus või
+    vastavaks tunnistatakse ainult üks pakkumus);
+
+14. kõik pakkumused või vastavaks tunnistatud pakkumused on
+    põhjendamatult madala maksumusega.
+
+Pakkuja kõrvaldamine ja kvalifitseerimine
+
+15. Pakkuja kõrvaldamise alused ja kvalifitseerimistingimused on
+    sätestatud riigihanke alusdokumentides.
+
+16. Hankijal on õigus kontrollida pakkujal kõrvaldamise aluste puudumist
+    kogu riigihanke vältel.
+
+17. Hankija võib pakkujalt nõuda kõrvaldamise aluste ja
+    kvalifitseerimistingimustele vastavuse kontrollimiseks vajalikke
+    dokumente või esitatud dokumentide sisu kohta selgitust või
+    selgitamist võimaldavaid andmete või dokumentide esitamist hiljemalt
+    viie tööpäeva jooksul, kui need andmed ei ole hankijale andmekogus
+    olevate avalike andmete põhjal oluliste kulutusteta kättesaadavad.
+
+18. Kui pakkuja ei esita hankija antud tähtajaks vajalikke dokumente või
+    selgitusi esitatud dokumentide sisu kohta või selgitamist
+    võimaldavaid andmeid või dokumente ja need andmed või dokumendid ei
+    ole hankijale andmekogus olevate avalike andmete põhjal oluliste
+    kulutusteta kättesaadavad, kõrvaldab või/ja jätab hankija pakkuja
+    kvalifitseerimata.
+
+19. Kui pakkujal esinevad kõrvaldamise alused, kõrvaldab hankija pakkuja
+    riigihankest ja teeb sellekohase põhjendatud kirjaliku otsuse.
+
+20. Ühispakkujate kõrvaldamise aluste kontrollimisel kohaldatakse
+    lihthankemenetluse korra punktides 6.1-6.5 sätestatut iga
+    ühispakkuja suhtes.
+
+Pakkumuste hindamine ja pakkumuse edukaks tunnistamine
+
+21. Hankija hindab pakkumusi vastavalt RHS-le ja riigihanke
+    alusdokumentides toodud hindamise osakaaludele ning
+    hindamismetoodikale.
+
+22. Edukas on pakkumus, mis esitatud hindamiskriteeriumide järgi saab
+    kokku suurima punktisumma. Võrdsete punktisummade korral valitakse
+    edukas pakkumus liisuheitmise teel hankija poolt määratud korras,
+    ajal ja kohas ning kus osalevad võrdsete maksumustega pakkumused
+    esitanud pakkujate seadusjärgsed või volitatud esindajad.
+
+Muud sätted
+
+23. Kui edukaks tunnistatud pakkuja ei allkirjasta lepingut 10 päeva
+    jooksul alates hankija poolt lepingu saatmisest edukale pakkujale,
+    hindab hankija kõiki ülejäänud pakkumusi uuesti ja tunnistab edukaks
+    hindamise tulemusel järgmise pakkuja.
+
+2.  Riigihanke alusdokumendid
+
+Lisaks käesolevale dokumendile on riigihanke alusdokumentideks:
+
+1.  HD I Töövõtulepingu projekt
+
+2.  HD II Tehniline kirjeldus
+
+3.  HD III Vorm „Teise isiku nõusolek“
+
+4.  HD III Vorm „Ühispakkujate volikiri“
+
+5.  HD III Vorm „Nõuded audiitorile“
+
+6.  HD IV Hankepass ja kvalifitseerimistingimused (RHR vormil)
+
+7.  HD V Vastavustingimused (RHR vormil)
+
+8.  HD VI Hindamiskriteeriumid (RHR vormil)

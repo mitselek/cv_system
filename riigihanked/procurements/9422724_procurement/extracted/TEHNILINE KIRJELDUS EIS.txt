@@ -1,0 +1,100 @@
+TEHNILINE KIRJELDUS
+EIS TARKVARA TEHNILINE AUDIT
+1. Üldsätted
+1.1. Riigihanke eesmärk on saada sõltumatu, terviklik ja tõenduspõhine hinnang Eksamite
+Infosüsteemi (EIS) praegusele tehnilisele lahendusele ja arendustegevuste seisukorrale.
+1.2. Auditi eesmärk on hinnata EIS 2.0 tarkvaralahenduse võimekust, jätkusuutlikkust ja tehnilist
+kvaliteeti, võttes arvesse varasema auditi ning teostatud koormustestimise tulemusi.
+1.3. Hinnata, kuidas on viimase hanke raames ja 2025. aastal tegeletud tehnilise võla vähendamise
+ning eelmise auditi soovituste rakendamisega, ning kas EIS arhitektuur toetab tänapäevaseid
+arenduspraktikaid.
+1.4. Analüüsida 09.06.2025. a koormustesti raportis tuvastatud jõudlusprobleemide ja tõrgete tegelikke
+tehnilisi põhjuseid, mis ilmnesid isegi madala ressursikasutuse juures, ning hinnata süsteemi
+vastupidavust kavandatud koormustele (10 000–100 000 eksamisooritajat korraga).
+1.5. Kontrollida arendusprotsessi vastavust riigihangete parimatele praktikatele ning kaardistada
+hetkeseis arenduse tarneahela (CI/CD), testimisprotsesside (sh üksustestide rakendamise) ja
+koodibaasi versioonihalduse osas.
+1.6. Audit viiakse läbi dokumentide analüüsi, lähtekoodi ülevaatuse, intervjuude ja tehniliste testide
+(sh koormus- ja turvatestide) põhjal.
+1.7. Auditi käigus tuleb tagada kõigi käsitletavate andmete, sh isikuandmete, konfidentsiaalsus ja
+vastavus Euroopa Parlamendi ja Nõukogu määrusele 2016/679 (isikuandmete kaitse üldmäärus)
+ning Eesti andmekaitsenõuetele.
+2. Auditi ulatus ja sisendid
+2.1. Auditi objektiks on EISi, sh EIS 2.0 koodibaas, arhitektuur, andmemudelid ja seonduvad
+dokumendid.
+2.2. Hankija esitab auditi läbiviimiseks järgmised sisendmaterjalid:
+2.2.1. EIS 2 tehnilise võla vähendamise plaan;
+2.2.2. EIS koormustestide raport 09.06.2025;
+2.2.3. EIS 2.0 olemasolev tehniline dokumentatsioon, arhitektuurikirjeldus ja andmemudelid.
+2.3. Vajadusel esitab hankija täiendavaid dokumente (nt arenduslepingud, töövood, versioonilogid või
+muud seotud materjalid), mis on auditi läbiviimiseks vajalikud.
+3. Tarne- ja arendusprotsessi analüüs
+3.1. Kontrollida arendusprotsessi vastavust riigihangete parimatele praktikatele ning kaardistada
+hetkeseis arenduse tarneahela (CI/CD), testimisprotsesside ja koodibaasi versioonihalduse osas.
+3.2. Kontrollida koodi loetavust, kommenteeritust, modulaarsust ja taaskasutatavust vastavalt
+standarditele ning võrrelda tulemusi eelmise auditiga.
+3.3. Hinnata kasutatavaid arendusmetoodikaid ja tööriistu võrreldes tänapäevaste standarditega.
+3.4. Hinnata automatiseeritud testimise (üksustestid) rakendamise keerukust ja hetkeseisu ning
+selgitada, kas sellega on tegeletud.
+3.5. Hinnata CI/CD tarneahela automatiseerituse taset.
+3.6. Kontrollida, kas arendus-, testimis- ja tootmiskeskkonnad on üksteisest selgelt eraldatud ja
+hallatud vastavalt turvapraktikatele.
+3.7. Tuvastada, kas viimase auditi järel tuvastatud komponentide uuenduste vajadused on realiseeritud
+ning kas aegunud tehnoloogiad on kaasajastatud.
+3.8. Tuvastada kriitilised komponentmuutused ja anda hinnang nende mõjule, võrreldes tulemusi
+tehnilise võla vähendamise plaaniga.
+3.9. Tuvastada kas tegemist on andmekoguga või mitte. Kui tegemist on andmekoguga siis võrrelda
+tarkvara andmekogu põhimäärusega ja vajadusel teha ettepanekuid.
+4. Turvalisuse analüüs
+4.1. Auditeerida rakendatud turvameetmeid, veakäsitlust (vigade ja erandite käsitlemine parimate
+praktikate järgi) ning juurdepääsuhalduse (rollide haldus) seoseid.
+
+4.2. Suhelda Haridus- ja Teadusministeeriumi infoturbeüksusega, et saada sisendit EIS-i praeguse
+turvalisuse kohta.
+4.3. Kontrollida logihalduse lahendusi (nt sündmuste logimine, logide säilitamine ja
+juurdepääsupiirangud) ning hinnata nende vastavust RIA turbenõuetele.
+4.4. Hinnata, kas on rakendatud automaatseid haavatavuste tuvastamise ja parandusprotsesse (nt
+OWASP suuniste järgi).
+4.5. Hinnata vastavust 2025. aasta turvanõuetele, sealhulgas:
+4.5.1. kas 2025. aastal on tehtud piisavalt turvamuudatusi (nt autentimise lahendused, jne );
+4.5.2. kas tarkvara vastab kehtivatele RIA IKT arendusnõuetele (nagu viidatud eelmises hankes).
+5. Koormustaluvuse analüüs
+5.1. Analüüsida 09.06.2025. a koormustesti raportit ja tuvastada, kas ning kuidas tuvastatud
+probleemidega on tegeletud.
+5.2. Hinnata EIS 2.0 arhitektuuri ja konfiguratsiooni võimet skaleeruda, eesmärgiga teenindada
+korraga 10 000–100 000 eksaminandi.
+5.3. Auditeerida, kas andmebaasimudelites on kasutatud parimaid praktikaid (nt loogilised relatsioonid,
+indekseerimine).
+5.4. Vajadusel teostada kordustest või simulatsioon, et valideerida süsteemi käitumist kavandatud
+koormusel ja võrrelda tulemusi varasemate testidega.
+6. Refaktoorimise ja arhitektuurimuutuste analüüs (mikroteenused)
+6.1. Hinnata, kas kavandatud mikroteenustel põhineva arhitektuuri visiooni elluviimist (nt ülesannete
+koostamise, testimise, hindamise ja rollihalduse moodulid eraldi teenustena) on 2025. aastal alustatud.
+6.2. Hinnata arhitektuuriliste muudatuste mõju süsteemi hooldatavusele, turvalisusele ja
+arenduskiirusele.
+6.3. Esitada kokkuvõttev hinnang ja soovitus koos põhjendustega, kas on mõistlik jätkata olemasoleva
+EIS 2.0 refaktoorimisega või arendada edasi uut EIS 3.0 versiooni, arvestades ajamahukust,
+arhitektuuri, turvalisust ning arendamise lihtsust ja selgust.
+7. Oodatavad tulemused
+7.1. Hanke partner esitab mahuka raporti, mis sisaldab ülevaadet EIS-ist vastavalt tehnilisele
+kirjeldusele.
+7.2. Raportis antakse hinnang, kuivõrd olukord on paranenud või halvenenud võrreldes eelmise
+tehnilise võla auditiga.
+7.3. Esitatakse hinnang süsteemi jätkusuutlikkusele ja arendatavusele.
+7.4. Töö tulemused tuleb üle anda hiljemalt 2 kuud peale lepingu sõlmimist.
+7.5. Ülevaateraport sisaldab:
+7.5.1. EIS-i arhitektuuri, arendusprotsesside ja tehnilise kvaliteedi hindamist;
+7.5.2. auditi ulatuses hinnatud riskide ja soovituste loetelu;
+7.5.3. koondhinnangut süsteemi jätkusuutlikkuse ja arendatavuse kohta.
+7.6. Tehniline lisa sisaldab:
+7.6.1. analüüsitabelit auditeeritud valdkondade kohta (nt CI/CD, testimine, turvalisus);
+7.6.2. leitud probleemide ja soovituste prioriteete (kõrge, keskmine, madal);
+7.6.3. soovitusi rakendamiseks koos hinnangulise töömahuga.
+7.7. Valideerimiskoosoleku kokkuvõte, kus auditi tulemused kinnitatakse koos HARNO ja HTM-i
+esindajatega.
+7.8. Iga hinnatav valdkond tuleb esitada hinnanguga skaalal 1 (väga halb) kuni 5 (väga hea), koos
+põhjendustega.
+7.9. Kõik tulemused esitatakse elektrooniliselt (Word ja PDF) ning analüütilised tabelid Exceli
+formaadis ja eesti keeles (v.a testimise käigus kasutatud vahendite originaalraportid).
+
+

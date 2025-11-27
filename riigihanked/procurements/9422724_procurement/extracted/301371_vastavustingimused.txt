@@ -1,0 +1,139 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+301371
+Haridus- ja Teadusministeerium (70000740)
+Eksamite Infosüsteemi (EIS) tehnilise lahenduse ja arendustegevuste
+seisukorra audit
+
+Keskkonnahoidlik hange või hanke osa!
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Pakkumusega koos tuleb esitada teave iga etapi maksumuse kohta (hankija ei anna dokumendi
+vormi ette, kuivõrd etappide määramine on pakkuja ülesanne). Selle võib esitada eraldi tabelina
+või pakkumusega koos esitatava aja- ja tegevuskava dokumendis, kuid teave peab olema esitatud
+selliselt, et see on üheselt ja selgelt mõistetav.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides sätestatud tingimustele?
+(Raadionupp valikutega "Jah/Ei")
+2. Kas pakkuja kinnitab, et on esitanud pakkumuse koosseisus teabe iga etapi maksumuse kohta?
+(Raadionupp valikutega "Jah/Ei")
+
+PAKKUMUSE MAKSUMUS
+Pakkumuse maksumus tuleb esitada töölehel "Hindamiskriteeriumid ja hinnatavad näitajad"
+toodud struktuuri kohaselt.
+Küsimused ettevõtjale:
+1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe "Hindamiskriteeriumid ja hinnatavad
+näitajad" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega "Jah/Ei")
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Koostatud 07.11.2025 09:52:02
+https://riigihanked.riik.ee/rhr-web/#/procurement/9422724/general-info
+
+2/3
+
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+NÕUDED AUDIITORILE
+Audiitorteenuse osutamises peab osalema vähemalt kaks audiitorit, kes peavad vastama alltoodud
+nõuetele. Nõuete täitmiseks võib audiitorteenuse osutamises osaleda rohkem audiitoreid (iga isik
+esitab allkirjastatud kinnituse), kui seeläbi tagatakse nimetatud nõuetele vastavus.
+Nõuded:
+1. Audiitorteenuse läbiviimises osalev audiitor peab omama audiitorteenuse läbiviimise ajal
+kehtivat rahvusvahelist Infosüsteemide Auditi ja Juhtimise Assotsiatsiooni (Information Systems
+Audit and Control Association, ISACA) poolt välja antud infosüsteemide sertifitseeritud audiitori
+(Certified Information Systems Auditor, CISA) sertifikaati.
+2. Audiitorteenuse läbiviimises osalev audiitor peab omama vähemalt viie aastast töökogemust
+tarkvaraarenduse, süsteemiarhitektuuri või tehniliste auditite läbiviimisel.
+3. Vähemalt üks audiitorteenuse läbiviimises osalev audiitor peab olema täitnud vähemalt kaks
+hankelepingu esemega sarnast lepingut, sarnaseks loetakse lepingut mille rahaline maht on
+vähemalt 50 000 eurot (ilma käibemaksuta) ja tegemist on olnud infosüsteemi auditeerimisega.
+4. Vähemalt ühel audiitorteenuse läbiviimises osaleval audiitoril on infotehnoloogia alane
+kõrgharidus.
+
+Küsimused ettevõtjale:
+1. Kinnitused ja nõuded audiitorile (Vabas vormis dokument)
+AJA- JA TEGEVUSKAVA
+Pakkuja esitab koos pakkumusega aja- ja tegevuskava, millelt nähtub minimaalselt:
+1. tööetappide kirjeldus ja väljundid (deliverables), sh iga etapi eesmärk, eeldatavad tulemused ja
+töömahu osakaal kogutööst;
+2. kasutatavad metoodikad ja töövahendid (lühikirjeldus auditil kasutatavatest
+analüüsimeetoditest, standarditest ja tööriistadest);
+3. töö teostamise riskihinnang ja eeldused (pakkuja nägemus võimalikest riskidest, sõltuvustest ja
+nende maandamisest); 4. töömahu jaotus rollide kaupa (hinnanguline töömaht (päevades või
+tundides) ning peamiste rollide panus);
+5. vahe-eesmärgid ja valideerimispunktid (iga suurema etapi järel toimub tulemustest ülevaatus).
+Koostatud 07.11.2025 09:52:02
+https://riigihanked.riik.ee/rhr-web/#/procurement/9422724/general-info
+
+3/3
+
+Küsimused ettevõtjale:
+1. Aja- ja tegevuskava (Vabas vormis dokument)
+PAKKUJA VOLITATUD ISIKUD
+Kõrvaldamise aluste kontrolli (RHS § 95 lg 1 p 1-3) teostamiseks peab pakkuja esitama ettevõtja
+muud isikud, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida ning kes ei ole hankijale nähtavad äriregistri B-kaardilt või oma asukohamaa sarnaselt
+väljavõttelt. Pakkuja peab kontrolli teostamiseks esitama volitatud isiku nime ja isikukoodi või
+kinnituse, et selliseid isikuid pakkujal ei ole.
+
+Küsimused ettevõtjale:
+1. Volitatud isiku(te) nimi(ed) ja isikukood(id) või kinnitus nimetatud isikute puudumise kohta.
+(Suur sisestusala (max pikkus 4000 tähemärki))
+KINNITUS KESKKONNANÕUETE JÄRGIMISE KOHTA
+Pakkuja peab teenuse osutamisel täitma keskkonnanõudeid ning vältima oma tegevusest tuleneva
+võimaliku kaasneva negatiivse kõrvalmõju tekkimist keskkonnale.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et ta täidab teenuse osutamisel keskkonnanõudeid ning väldib võimaliku
+kaasneva negatiivse kõrvalmõju tekkimist keskkonnale? (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 07.11.2025 09:52:02
+https://riigihanked.riik.ee/rhr-web/#/procurement/9422724/general-info
+
+
