@@ -1,0 +1,201 @@
+Lisa 2 - Mittefunktsionaalsed nõuded
+Riigihanke nimetus: Tehnopoli kodulehe arendus- ja hooldustööd
+Riigihanke viitenumber: 302422
+Mittefunktsionaalsed nõuded
+Dokument määrab kvaliteedi- ja mittefunktsionaalsed nõuded Tehnopoli uuele veebilehele ning selle
+dokumentatsioonile.
+Kui nõuet ei ole võimalik täita, siis tuleb seda põhjendada ning kooskõlastada hankijaga.
+1.Vastavus üldisele standardile
+1.1. Veebileht peab vastama avaliku teabe seaduse §-s 32 ja ministri määruses nr 20 „Veebilehe ja
+mobiilirakenduse ligipääsetavuse nõuded ning
+ligipääsetavust kirjeldava teabe avaldamise kord“ kehtestatud ligipääsetavusnõuetele
+(sealhulgas vastavus standardile EN 301 549).
+1.2. Veebirakenduse kasutajaliides peab olema täielikult kooskõlas kehtivate veebistandarditega,
+sealhulgas HTML5 ja CSS3 (või nende uuemate, ametlikult toetatud versioonidega), millele on tagatud
+jätkusuutlik tugi.
+1.3. Veebileht peab olema otsingumootorite jaoks optimeeritud vastavalt Google poolt
+antud juhistele. Sisu, mis ei tohi olla otsingumootorite jaoks leitav, täpsustatakse
+hankija poolt tööde teostamise käigus. Sisu, mis peaks olema AI keelemudelite jaoks leitav, täpsustatakse
+hankija poolt.
+1.4. Kõikide arendamisel kasutatavate komponentide (mitte konkreetse versiooni) eluea lõpp (inglise k End-ofLife, EOL) ei tohi teadaolevalt olla vähem kui 5 aastat.
+1.5. Pakkuja peab tagama kodulehe paigutamise hankija poolt valitud majutuskeskkonda ja tagama selle
+uuendused ja toimimise hanke perioodi jooksul.
+2. Nõuded rakenduse arhitektuurile
+2.1. Veebileht ja selle komponendid peavad võimaldama kasutada keskkondade lahusust.
+2.2. Arendaja arendab (enda) arenduskeskkonnas, kus tellija (vajadusel
+koos arendajaga) testib funktsionaalsuse ning pärast testide läbimist ja
+tellijapoolset kinnitust paigaldatakse tarne live keskkonda ja annab tarne üle tellijale
+paigalduspakkidena.
+2.3. Arenduskeskkonnas ja testkeskkonnas on keelatud kasutada reaalseid
+isikuandmeid, v.a sisseloginud kasutajate andmed.
+2.4. Veebilahenduses tuleb selgelt eristada avaliku teenuse liides muudest mitteavalikest, sisemistest ja
+konfigureerimise liidestest.
+2.5. Veebilehe arhitektuur peab olema modulaarne, võimaldades lihtsat uuendamist ja hooldamist ilma kogu
+süsteemi katkestamata.
+2.6. Kõik liidesed veebilehe eri osade vahel peavad olema vajadusel kaitstavad
+kahepoolset tuvastamist ja krüpteerimist võimaldava protokolliga.
+2.7. Kõik veebilehe välised sõltuvused (sh sisuhaldusplatvormi lisad ja pistikprogrammid) ja välised süsteemid,
+mida kasutatakse, tuleb kirjeldada selgelt koos rollidega.
+2.8. Pilveteenuste puhul tuleb kirjeldada ka kõik välised platvormid ning
+teenused, mida kasutatakse, koos pakkuja nime ja asukohaga.
+2.9. Veebilahendus peab olema väliste süsteemide tõrgete suhtes vastupanuvõimeline — välise süsteemi tõrge
+võib mõjutada ainult sellest otseselt sõltuvate veebilahenduse või teenuse osade toimimist.
+2.10. Veebilahenduse tehnilised komponendid peavad olema iseennast kaitsvad ning valideerima nende poole
+pöörduva kasutaja või tehnilise teenuse õigused.
+2.11. Kõik andmed, andmebaasid, SQL-skriptid ja veebirakenduse komponendid peavad kasutama UTF-8
+kodeeringut.
+Vajaduse korral võib kaaluda UTF-16 või UTF-32 kasutamist, kui süsteemis tuleb talletada erimärke (nt emoji’d
+või muud sümbolid).
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+2.12. Aja esitamisel andmevahetusprotokollides kasutada Internet Date/Time vorminguid. Aja esitamisel
+kasutajaliideses lähtuda vastava keele reeglitest.
+2.13. Andmebaas ei tohi sisaldada äriloogikat. Kui see pole võimalik, siis tuleb kõik
+sellised äriloogikad dokumenteerida ja kirjeldada.
+3. Nõuded käideldavusele, kättesaadavusele ja jõudlusele
+3.1. Veebileht peab olema kättesaadav 24/7.
+3.2. Veebilehe käideldavus peab olema vähemalt 99,2% (mis tähendab maksimaalset lubatud teenuse
+katkestusaega kuni 4 tundi kuus).
+3.3. Veebileht peab täielikult alla laadima alla 1,5 sekundi 10Mb/s internetikiiruse juures.
+3.4. Veebileht peab toetama minimaalselt 500 samaaegset kasutajat ja nende poolt
+tehtavaid päringuid ilma jõudluse olulise halvenemiseta.
+3.5. Halduskeskkond peab toetama minimaalselt 10 samaaegset haldurit ilma jõudluse
+olulise halvenemiseta.
+3.6. Iga kasutaja toimingu (nupu vajutamine, lehe kerimine jms) reaktsiooniaeg ei tohi
+ületada 1 sekundit.
+4. Nõuded turvalisuse tagamiseks
+4.1. Arendatav veebilahendus peab vastama OWASP ASVS (Application Security Verification Standard)
+taseme 2 nõuetele.
+4.2. Kliendi ja serveri vaheline sessioon peab olema krüpteeritud HTTPSprotokolli kasutades.
+4.3. Veebileht peab probleemideta läbima turvatestimise.
+4.4. Turvatestimise teostab kolmas sõltumatu osapool hankija tellimusel ja
+finantseerimisel.
+4.5. Ilmnenud vigade korral ja pärast nende parandamist järeltestimise peab
+rahaliselt kompenseerima pakkuja, kui hankija vastava nõudmise esitab.
+Pakkuja on kohustatud ilmnenud vead oma kulul parandama.
+4.6. Veebikeskkond peab sisenemisel näitama pärast õnnestunud sisselogimist eelmise
+õnnestunud sisselogimise aega.
+4.7. Kui on toimunud ebaõnnestunud sisselogimise katsed, siis peab kuvama ka,
+millal need toimusid, mitu neid oli ja mis IP-aadressilt pöörduti.
+4.8. Rakenduse lahtised logid tuleb säilitada 1 kuu, arhiveeritud logid 6 kuud.
+5. Nõuded lähtekoodile
+5.1. Arenduse lähtekood ja kommentaarid on kirjutatud selgusega, mis võimaldab erialast ettevalmistust
+omaval tarkvaraarendajal süsteemi edasi arendada.
+5.2. Veebilahenduse konfiguratsioon (sh paroolid ja muud tundlikud seaded) ei tohi olla osa
+tarkvarakoodist, vaid lisatakse rakenduse tarnel keskkonda läbi keskkonnamuutujate. Paroole ja muid
+autentimisandmeid ei tohi talletada loetava tekstina konfiguratsioonifailides ega andmebaasides.
+5.3. Kui kokku pole lepitud teisiti, peab hankijale üleantav kood olema kirjutatud kasutatud vastava keele
+parimat praktikat arvestades.
+5.4. Kasutuses mitteolev kood tuleb lähtekoodist kõrvaldada.
+5.5. Lähtekood, mida tarnitakse, antakse üle hankija koodihoidlasse.
+6. Nõuded andmekvaliteedile ja andmekaitsele
+6.1. Arendatav veebilahendus peab võimalikult palju informatsiooni automaatselt (eel)täitma (nt kirje
+sisestamise kuupäev, kasutajanimi jne).
+6.2. Andmebaasi informatsiooniskeemis tuleb kirjeldada andmed tabeli ja veergude
+tasemel. Tabeli ja veergude kohta tuleb kirjeldada title ja description.
+6.3. Tagada tuleb isikuandmete kaitse nõuded vastavalt isikuandmete kaitse üldmäärusele ja isikuandmete
+kaitse seadusele, sh isiku õigus olla unustatud ning nõusoleku võtmise kohustus kõikide küpsiste (cookie)
+kohta, mis ei ole hädavajalikud süsteemi tööks.
+6.4. Veebileht ei tohi kasutada muul eesmärgil kui tellija poolt seatud eesmärkidel tellija
+taristu väliseid kasutaja tegevust analüüsivaid teenuseid (nt Google Analytics).
+6.5. Andmete kustutamine ei tohi kustutada tegelikke kirjeid andmebaasist, v.a kui kirjed on
+mittefunktsionaalsed ehk ei oma ärilist seost. Erandjuhul on kustutamine lubatud,
+kui tegelike kirjete kustutamise nõue tuleneb õigusaktidest.
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+7. Nõuded kasutajaliidesele
+7.1. Infosüsteemi värviskeem ja logo kasutamine peab vastama hankija ametlikule
+visuaalsele identiteedile (CVI).
+7.2. Kasutajaliidese kõik disainiotsused peavad olema kooskõlastatud tellijaga enne nende realiseerimist.
+7.3. Veebilehe kasutajaliides peab olema kasutatav enamlevinud veebibrauseritega
+(minimaalselt Microsoft Edge, Mozilla Firefox, Google Chrome, Safari arenduse
+testimise hetkel tootja poolt toetatud versioonid), sh mobiiltelefonides ja
+tahvelarvutites (Android, iOS).
+7.4. Haldusvaate kasutajaliidese kõik osad ja teated peavad olema vähemalt haldurile
+vajalike funktsionaalsuste osas eestikeelsed ning administraatoril peab olema
+võimalus neid tõlkida.
+7.5. Veebilehe kasutajaliides (sh menüüd, nupud, teated ja vormitekstid) peab olema nii eesti- kui ingliskeelne.
+Sisuhaldussüsteem peab võimaldama kõigi keeleversioonide haldamist ning süsteem peab olema ette
+valmistatud masintõlke või täiendavate keelte lisamise võimaldamiseks.
+7.6. Veebileht peab olema graafiliselt skaleeruv ja mugavalt kasutatav kõigi enamlevinud arvutimonitoride ja
+nutiseadmete resolutsioonidega.
+7.7. Kasutajaliides peab alati küsima kinnituse andmete kustutamise ja massmuutmiste
+kohta, kui pole kokku lepitud teisiti.
+7.8. Kasutamisel tekkinud veale peab kasutajaliides vastama kasutajale kasutajasõbraliku ja arusaadava
+veateatega eesti keeles ning veebilehe ingliskeelses versioonis inglise keeles. Kõik veasituatsioonid tuleb
+varustada unikaalsete veakoodidega, mis on hallatavad ja võimaldavad lihtsasti tuvastada vea olemuse ja
+asukoha.
+7.9. Kasutajaliides peab teavitama kasutajat ette sessiooni aegumisest. Etteteavitamise aeg peab olema
+konfigureeritav.
+7.10. Süsteemist väljalogimise nupp/link peab olema ühe kliki kaugusel ja arusaadavas, intuitiivses kohas.
+7.11. Süsteemist väljumine peab toimuma sõnaselgelt, kasutajale arusaadaval ja
+turvalisel viisil. Süsteemist saab väljuda kahel viisil:
+7.11.1. Kasutaja sessioon on pikem kui sessiooni pikkuse seadistatav piirväärtus
+(eraldi määratletavad piirangud kogu sessioonile ning tegevuseta perioodile
+sessioonis),
+7.11.2. Kasutaja lõpetab sessiooni enda algatusel.
+7.12. Sisestusvormidel andmete sisestamisel peab saama väljade vahel vastavalt
+äriloogikale liikuda klaviatuuri abil tabulaatoriga.
+7.13. Interaktiivsete vormide puhul (nt faili üleslaadimine) ei tohi lehe värskendamisega
+tegevust korrata (faili taas üles laadida, andmeid saata jne).
+7.14. Kui päring võtab aega kauem kui 3 sekundit, peab kasutaja saama visuaalse teate, et süsteem tegeleb
+päringu läbiviimisega.
+7.15. Andmeväljade mõisted peavad olema üheselt identifitseeritavad, korrektses sõnastuses ja vajadusel
+sisaldama selgitavat teksti. Soovituslikult on haldusvaates abiinfo kättesaadav süsteemi toimimise erinevatel
+etappidel.
+7.16. Andmeväljade kohustuslikkus peab olema infosüsteemi väljadel selgelt märgitud
+(nt tärniga *).
+7.17. Kasutajaliides peab kontrollima võimalikult palju väljade täitmise korrektsust, nt
+isikukoodi korrektsuse kontroll, telefoninumbri kuju, e-posti aadress kontroll jne.
+7.18. Kui mõni kohustuslik väli jääb täitmata, peab süsteem andma sellekohase veateate. Eelnevalt täidetud
+väljad peavad jääma täidetuks ja täitmata väljad tuleb eristada.
+7.19. Igal lehel peab olema unikaalne veebiaadress. Kasutada selge, ühtse mustriga,
+inimloetavaid veebiaadresse.
+7.20. Veebiaadress ei tohi sisaldada isikuandmeid ega sessioonivõtit.
+7.21. Infosüsteem peab asendama vaikimisi veateate lehekülje (404 vms kokkulepitud lahendus), kuid
+säilitama algse HTTP vastuskoodi.
+8. Nõuded dokumentatsioonile
+8.1. Pakkuja poolt koostatav dokumentatsioon (v.a lähtekood) peab sisaldama
+vähemalt:
+8.1.1. üleantavate teenuste/kasutajalugude detailset dokumentatsiooni;
+8.1.2. arhitektuuridokumenti, mis kirjeldab süsteemi üldist ehitust ja struktuuri;
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+8.1.3. kasutusjuhendeid, mis kirjeldavad kasutajate funktsionaalsusi;
+8.1.4. paigalduse ja administreerimise juhendit, mis on aluseks süsteemi
+administreerimisele. Paigaldamise protseduurid peavad olema kirjeldatud
+selliselt (samm-sammult), et süsteemiadministraator suudab rakenduse
+paigaldada ilma kõrvalise abita;
+8.2. Dokumentatsioon peab olema kirjutatud eesti keeles, v.a kui ei lepita hankijaga
+kokku teisiti.
+8.3. Dokumentatsioon peab olema versioneeritud, muutmiskuupäevadega.
+8.4. Dokumentatsiooni detailsus peab olema piisav, et sõltumatu kolmas tehniliste IT
+baasteadmistega isik suudaks dokumendist vajalikke järeldusi teha.
+8.5. Iga uue versiooniga peab alati välja tooma versiooni muudatuse kirjeldused
+(release notes), mis peab kajastama kõiki muudatusi eelmise ja uue versiooni vahel.
+9. Nõuded versioonihaldusele
+9.1. Kõik veebilehe komponendid on versioneeritud ning hallatud versiooni-kontrollisüsteemis Git.
+9.2. Lähtekood antakse üle hankijale ning iga versioon lisatakse hankija koodihoidlasse.
+9.3. Iga versioon on dokumenteeritud (sh muutused) ning selles peab olema kirjeldatud viis, kuidas konkreetset
+versiooni kasutada ja paigaldada.
+9.4. Veebilahendus peab olema tehniliselt jaotatud loogilisteks mooduliteks, mis on eraldi versioneeritavad ja
+paigaldatavad.
+10. Nõuded paigalduspaketi koostele ja tarnele
+10.1. Veebilahendus peab olema loodud sõltumatuna rakendusserveri tarkvarast.
+Veebilahendust peab olema võimalik konfiguratsioonimuudatuste abil paigaldada teisele
+samatüübilisele rakendusserverile.
+10.2. Käidukeskkonda paigaldatava tarkvarauuenduse kõik sõltuvused peavad olema fikseeritud konkreetsete
+versioonidega. Iga kasutatud sõltuvuse täpne versioon tuleb dokumenteerida.
+10.3. Kõik veebilahenduse versiooniuuendused (sh muudatused andmebaasi struktuuris ja koodis) peavad
+kuni järgmise versiooniuuenduseni olema täielikult tagasi pööratavad.
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+

@@ -1,0 +1,69 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302422
+Hankija: Sihtasutus Tallinna Teaduspark TEHNOPOL (90008258)
+Hange: Tehnopoli kodulehe arendus- ja hooldustööd
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Pakkumuse maksumus
+
+2
+
+Kirjeldus
+
+Tüüp /
+Osakaal
+hindamismeetod
+Maksumus 50
+vähim on parim
+Uue
+kodulehe
+arendustööde Antud maksumus peab sisalda kõiki vajaminevaid töid uue kodulehe
+kogumaksumus
+arendustööde teostamiseks, kasutajakoolituse läbiviimise ja garantiitööde
+teostamise kulusid.
+Garantiiperioodi järgsete hooldustööde Kogus on sätestatud eeldatavana ja kasutatakse ainult pakkumuste
+ning täiendavate arendustööde tunnihind. hindamisel. Hankijal on õigus teenust tellida endale vajaminevas mahus.
+Teenuse kontseptsioon
+Kvaliteet - hankija
+50
+hinnatav
+Kokku:
+100
+
+Kogus
+
+Ühik
+
+1
+
+360
+
+Pakkuja
+täidetav
+
+jah
+
+tund (h)
+
+jah
+
+Hindamismetoodika kirjeldus
+1. Pakkumuse maksumus
+Vastavalt hankedokumendi punktis 10 sätestatud metoodikale. Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga:
+"osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim väärtus" * "osakaal".
+
+2. Teenuse kontseptsioon
+Vastavalt hankedokumendi punktis 10 sätestatud metoodikale.
+
+Koostatud 08.11.2025 15:13:31
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9525405/general-info
+
+

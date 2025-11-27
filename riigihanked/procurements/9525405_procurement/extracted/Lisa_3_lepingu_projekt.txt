@@ -1,0 +1,703 @@
+Lisa 3 – lepingu projekt
+RAAMLEPING nr _____
+________________ (edaspidi tellija), registrikood ___________, aadress __________, keda esindab
+___________ _____________ ja
+________________, (edaspidi täitja), registrikood______, aadress______, keda esindab ___________
+_____________,
+edaspidi koos või eraldi nimetatud ka pool või pooled, sõlmisid raamlepingu (edaspidi leping)
+alljärgnevas:
+1.
+
+Lepingu eesmärk ja ese
+1.1.
+Tellija korraldatud riigihanke „_____________“ (riigihanke viitenumber _______) alusel
+sõlmitud lepingu eesmärk on uue veebilehe loomine tellijale ja hooldusteenuse ning
+lisaarenduste teostamine (edaspidi tööd).
+1.2.
+Tööde loetelu ja tööde teostamise tingimused on sätestatud riigihanke alusdokumentides.
+1.3.
+Riigihanke alusdokumentides kirjeldatud uue veebilehe arendustööde teostamine antud
+lepingu raames on täitja kohustus ja vastavad tööd antakse tellijale üle hiljemalt 5 kuu
+jooksul alates lepingu allkirjastamisest.
+1.4.
+Leping kehtib hooldusteenuse ja lisaarenduste puhul 36 kuud alates lepingu sõlmimisest.
+Hooldusteenuse tasu on täitjal õigus rakendada alles peale valmis arendatud veebilehe
+garantiiperioodi lõppemist ning garantiiperioodil vajaminevad hooldustööd teostatakse ja
+vead likvideeritakse punktis 6.1. sätestatud maksumuse raames.
+1.5.
+Tellijal on õigus vastavalt tekkivale vajadusele tellida punktis 1.4. sätestatud
+hooldusteenust ja lisaarendusi, aga vastav kohustus puudub.
+
+2.
+
+Üldtingimused
+2.1.
+Lepingu juurde kuuluvateks lahutamatuteks osadeks loetakse kõik lisad ja riigihanke
+alusdokumendid ning täitja riigihankes esitatud pakkumus ja pooltevahelised kirjalikud
+teated, mida lepingu lisadena eraldi ei allkirjastata.
+2.2.
+Tööde teostamisel lähtutakse lepingu ja selle juurde kuuluvate lahutamatute osade
+tingimustest.
+2.3.
+Pooled teevad lepingu täitmiseks ja lepingu eesmärkide saavutamiseks koostööd. Pooled
+kohustuvad tegema kõik vajalikud pingutused, et täita leping õigeaegselt ja vastavalt
+kokkulepetele.
+2.4.
+Täitja kohustub teostama tööd kvaliteetselt ning vastavalt valdkonna headele tavadele ja
+praktikale. Tellija eeldab, et täitja on valdkonna professionaal, kes saab aru ning võtab
+teadlikult enda kanda lepingu nõuete täidetavuse ja tulemuse saavutatavuse riski. Sellest
+tulenevalt laieneb täitjale ka selliste tööde tegemise kohustus, mida ei ole lepingus kokku
+lepitud, kuid mis oma olemusest lähtuvalt kuuluvad lepinguga seotud tööde hulka, et
+saavutada tellija seatud eesmärk. Nimetatud tööde tegemine ei kuulu eraldi tasustamisele
+ning täitja teostab kirjeldatud tööd lepingu täitmise raames.
+2.5.
+Täitjal ei ole õigust lepingut või sellest tulenevaid kohustusi üle anda kolmandatele
+isikutele, välja arvatud riigihangete seaduses ette nähtud alustel. Kolmas isik on mistahes
+füüsiline või juriidiline isik, kes ei ole selle lepingu pooleks.
+2.6.
+Kui tööde teostamisel tekivad täitja ja tellija vahel erimeelsused, lähtutakse lepingu
+eesmärkidest tellija seisukohast.
+2.7.
+Poolel on õigus teha teisele poolele ettepanekuid lepingu täitmise kvaliteedi tõstmiseks.
+Kui pool on esitanud teisele poolele lepingu täitmisega seotud küsimuses päringu, on pool
+
+2.8.
+
+2.9.
+2.10.
+
+3.
+
+kohustatud sellele sisuliselt reageerima (asjakohast tagasisidet andma) võimalikult kiiresti,
+kuid hiljemalt 3 tööpäeva jooksul, v.a juhul kui pöördumine nõuab täiendavat analüüsi või
+info süstematiseerimist (mille vajadusest annab pool teisele poolele teada kirjalikku
+taasesitamist võimaldavas vormis esimesel võimalusel peale päringu saamist).
+Pooltel on kohustus osa võtta töökoosolekutest tööde käigus tekkinud probleemide
+lahendamiseks ja infovahetuseks. Töökoosolekutel osalemist tellija eraldiseisvalt ei
+tasusta.
+Tööde teostamise, lepingu sõlmimise, töökoosolekute jm suhtluse ning tööde
+dokumenteerimise keel on eesti keel.
+Pooled võivad kokkuleppel kaasata tööde kvaliteedi või tööde vastuvõtmise hindamiseks
+mõlema poole poolt aktsepteeritud sõltumatu eksperdi või audiitori. Kui tellija hinnang
+tööde kvaliteedile või tööde vastuvõtmisele osutub ekspertiisi tulemusel põhjendamatuks,
+hüvitab tellija ekspertiisikulud. Kui ekspertiis kinnitab tellija hinnangut kvaliteedile või tööde
+vastuvõtmisele, jäävad ekspertiisikulud täitja kanda.
+
+Poolte õigused ja kohustused
+3.1.
+Täitja kohustub:
+3.1.1.
+teostama tööd lepingus kokkulepitud tingimustel ja ulatuses, sh tagama tööde
+õigeaegse alustamise, teostamise, valmimise ja tellijale üleandmise;
+3.1.2.
+tagama lepingu täitmiseks vajalike ressursside olemasolu, sh tagama tööde
+teostajate kõrge professionaalse taseme ning vajaliku tehnoloogia ja metoodikate
+väga hea tundmise ning tehtud tööde dokumenteerimise vastavalt tellija
+suunistele, samuti omama tööde teostamiseks sobivaid keskkondi, koos kõige
+sinna juurde kuuluvaga, sh kasutatava tarkvara litsentsid, või kasutama tellija
+olemasolevaid jagatud keskkondi;
+3.1.3.
+tegema koostööd kolmandate osapooltega pidades silmas tellija vajadusi (nt
+äritellijaga, teiste tellija arenduspartneritega jne);
+3.1.4.
+teavitama viivitamatult tellijat tööde teostamist takistavatest asjaoludest, mis
+segavad tellimuses toodud tööde teostamist ja tähtaegadest kinnipidamist või
+püstitatud eesmärgi saavutamist;
+3.1.5.
+andma selgitusi ja konsultatsioone teostatud tööde kohta;
+3.1.6.
+juhinduma tellija suunistest lepingu eesmärkide saavutamisel, pöördudes selleks
+vajadusel tellija poole;
+3.1.7.
+töö käigus tuvastatud vastuolu korral teavitab täitja vastuolu esinemisest tellijat
+viivitamatult;
+3.1.8.
+tagama omapoolse abi kuni veaolukorra kõrvaldamiseni vastavalt riigihanke
+alusdokumentides ja lepingus toodud tingimustele;
+3.1.9.
+osutama tellijale teostatud töö osas tuge, sh pakkuma veebilehe hooldusteenust
+lepingu lõppkuupäevani;
+3.1.10.
+täitma kõiki tellija juures kehtivaid ja õigusaktidest tulenevaid andmekaitsealaseid
+ja andmete turvalisust puudutavaid eeskirju, kui need on täitjale teatavaks tehtud;
+3.1.11.
+teostama tööd kuni kokku lepitud tulemi üleandmise ja vastuvõtmiseni;
+3.1.12.
+veebilehe arendustööd üle andma tööde üleandmise-vastuvõtmise aktiga
+(edaspidi akt);
+3.1.13.
+teavitama kirjalikku taasesitamist võimaldavas vormis oma mistahes huvist, mis
+võib põhjustada lepingu täitmisel huvide konflikti tekkimist.
+3.2.
+Täitjal on õigus:
+3.2.1.
+saada tööde nõuetekohase teostamise eest kokkulepitud ulatuses ja korras tasu;
+3.2.2.
+kasutada tööde teostamisel alltöövõtjaid, kooskõlastades alltöövõtjate kasutamise
+eelnevalt tellijaga. Alltöövõtjate tegevuse ja tegevusetuse eest vastutab tellija ees
+täitja.
+3.3.
+Tellija kohustub:
+
+3.3.1.
+
+3.4.
+
+tasuma täitjale vastu võetud tööde teostamise eest kokkulepitud ulatuses ja
+korras;
+3.3.2.
+tagama täitjale ligipääsu (sh kaugjuurdepääsu) tööde teostamiseks olulistele tellija
+hallatavatele keskkondadele, tagama nende olemasolu ja toimimise;
+3.3.3.
+võtma aktiga vastu täitja poolt üle antud puudusteta tööd mõistliku aja jooksul või
+vastavalt lepingus kokku lepitud tähtajale;
+3.3.4.
+teavitama täitjat üle antud töödes esinevatest puudustest ja andma puuduste
+kõrvaldamiseks mõistliku täiendava tähtaja, kui tähtaeg ei tulene muudest
+kokkulepetest.
+Tellijal on õigus:
+3.4.1.
+kontrollida jooksvalt tööde teostamise täitmist ja anda täitjale selleks suuniseid või
+nõuda täitjalt sellekohast informatsiooni;
+3.4.2.
+keelduda osaliselt või täielikult tasu maksmisest, kui täitja ei teostanud
+nõuetekohaseid töid kokku lepitud tähtajaks ja täitja poolne rikkumine ei ole
+objektiivselt põhjendatud (nt on tegemist objektiivse põhjendusega, kui tööde
+teostamine on viibinud tellija või kolmanda osapoole tegevuse tõttu);
+3.4.3.
+kaasata tööde teostamiseks tellija poolel kolmandaid osapooli. Kolmanda
+osapoole kaasamine tellija poolt ei ole käsitletav lepingu muutmisena riigihangete
+seaduse mõttes.
+
+4.
+
+Tööde teostamise, üleandmise ja vastuvõtmise kord
+4.1.
+Tööde teostamine toimub vastavalt riigihanke alusdokumentidele, lepingule ning muudele
+tingimustele, milles pooled lepingu täitmise käigus kokku lepivad.
+4.2.
+Lisaarenduste ja hooldustööde tellimine toimub vastavalt vajadustele ning tööde
+teostamise vajaduse kinnitab tellija kirjalikku taasesitamist võimaldavas vormis.
+4.3.
+Tööde teostamise käik dokumenteeritakse.
+4.4.
+Täitja annab tööd üle koos allkirjastatud aktiga lepingu käigus kokkulepitud tähtaegadel ja
+tingimustel.
+Koos
+töödega
+antakse
+üle
+nõuetekohane
+dokumentatsioon,
+intellektuaalomandi õigused ja muu lepingus kokkulepitu.
+4.5.
+Üleantavad tööd tuleb täitja poolt enne tellijale üle andmist testida, koostada testiraportid
+ja testilood ning need tellijale üle anda. Veebilehe arendustöö üleandmise eelduseks on
+ka täitja poolt tellija töötajatele kasutajakoolituse läbiviimine.
+4.6.
+Tellija hindab üle antud arendustööde kvaliteeti kuni 4 nädala jooksul. Kui tellijal ei esine
+teostatud tööde osas pretensioone, võtab tellija tööd akti omapoolse allkirjastamisega
+vastu.
+4.7.
+Juhul, kui tellija esitab vastuväited töödele, peab täitja tööde kvaliteeti parandama tellija
+poolt määratud mõistliku tähtaja jooksul. Kui täitja ei ole tellija antud tähtaja jooksul
+kõrvaldanud avastatud vigu, võib tellija tööd ise parandada või lasta seda teha kolmandatel
+isikutel ja nõuda täitjalt selleks tehtud kulutuste hüvitamist.
+4.8.
+Alates kolmandast korduvast tööde ülevaatamisest võib tellija kordusülevaatamisega
+seotud kulutused (tellija kulutatud tööaeg ja/ või tellija testimispartnerite poolt esitatud
+arvete alusel) täitjalt välja nõuda või tasaarvestada.
+
+5.
+
+Lepingu hind
+5.1.
+Tellija tasub täitjale riigihanke alusdokumentides sätestatud uue veebilehe arendustöö
+vastuvõtmise järgselt kokku________ eurot, millele lisandub käibemaks õigusaktides
+sätestatud korras järgmiselt:
+5.1.1.
+Tööde I etapp – 30% punktis 5.1 sätestatud maksumusest akti alusel peale
+visuaali, arhitektuuri ja põhifunktsionaalsuste prototüübi loomist;
+5.1.2.
+Tööde II etapp – 65% punktis 5.1 sätestatud maksumusest akti alusel peale
+veebilehe valmimist, kasutajakoolituste läbiviimist ja tellija poolt vastu võtmist;
+
+5.1.3.
+5.2.
+5.3.
+
+5.4.
+5.5.
+
+5.6.
+5.7.
+5.8.
+5.9.
+6.
+
+Tööde III etapp - 5% punktis 5.1 sätestatud maksumusest peale veebilehe
+garantiiperioodi lõppemist ja peale kõikide garantiikohustuste korrektset täitmist.
+Tellija tasub tööde eest pärast nõuetekohaselt tehtud töö vastuvõtmist täitja esitatud arve
+alusel.
+Tellija tasub täitjale hooldusteenuse ning lisaarenduste teostamise eest ______ eurot
+tunnis, millele lisandub käibemaks õigusaktides sätestatud korras. Lisaarenduste eest
+tasutakse üks kord kuus eelmisel kuul tellija poolt tellitud ning täitja poolt teostatud ja tellija
+poolt vastu võetud arendustööde eest.
+Hooldusteenuse eest tasutakse üks kord kuus eelmisel kuul tellija poolt tellitud ning täitja
+poolt teostatud ja tellija poolt vastu võetud hooldustööde eest.
+Punktis 5.3.-5.4. tööde arve esitamise eelduseks on täitja poolt eelmisel kuul teostatud
+tööde väljavõtte saatmine tellija kontaktisikule ja tellija poolt vastavate tööde
+aktsepteerimine. Tööde väljavõtte detailsus lepitakse poolte vahel kokku lepingu täitmise
+käigus.
+Tellija ei tasu täitjale ettemaksu.
+Täitja esitab tellijale arve e-arvena. E-arvel tuleb märkida riigihanke nimetus, lepingu
+number, hanke number ning kontaktisiku andmed.
+Arve tasumiseks annab täitja minimaalselt 21 kalendripäeva alates arve saatmisest.
+Raamlepingu maksimaalne maksumus on 120000 eurot ilma käibemaksuta.
+
+Intellektuaalomand
+6.1.
+Täitja kinnitab lepingu allkirjastamisega, et talle kuuluvad tööde teostamiseks vajalikud
+autoriõigused, litsentsid ja muud intellektuaalse omandi õigused, mis on vajalikud lepingu
+järgsete tööde teostamiseks ja õiguste loovutamiseks tellijale ning nende suhtes ei ole
+õigusi ega nõudeid kolmandatel isikutel.
+6.2.
+Tasu intellektuaalse omandi õiguste loovutamise ja litsentsi andmise eest sisaldub lepingu
+täitmise hinnas.
+6.3.
+Täitja loovutab tellijale tööde teostamise käigus loodud kõik mistahes vormis tööde osad,
+mis puutuvad tööde teostamisse, kõik autori varalised õigused ning annab lihtlitsentsi
+autori isiklikele õigustele koos all-litsentsi andmise õigusega kogu autoriõiguste kehtivuse
+ajaks ilma geograafiliste piiranguteta tööde üleandmise hetkest, loobudes sellega lepingu
+alusel üle antud originaalteoste osas õiguste kasutamisest.
+6.4.
+Täitja tagab, et isiklikud õigused on ilma täitja nõusolekuta teostatavad muuhulgas
+järgnevas ulatuses:
+6.4.1.
+tellijal on õigus tööd kasutada mis tahes eesmärgil ja viisil;
+6.4.2.
+tellijal või tellija tellimusel kolmandatel isikutel on õigus teha üle antud töödes
+muudatusi ning neid täiendada;
+6.4.3.
+tellijal või tellija tellimusel kolmandatel isikutel on õigus teostatud töid muuta või
+töödele lisada tellija või kolmandate isikute poolt loodud töid;
+6.4.4.
+tööde üleandmisega tellijale kinnitab täitja, et tööd on üldsusele avaldamiseks
+valmis.
+6.5.
+Täitja tagab tellijale kõik vajalikud õigused lepingu täitmise käigus loodavate tööde
+kontrollimiseks, testimiseks ning süsteemi paigutamiseks ka ajal, mil tööd on
+vastuvõtutestimiseks üle antud, kuid ei ole veel tellija poolt aktiga vastu võetud.
+6.6.
+Täitja on kohustatud tagama intellektuaalse omandi õiguste (eeskätt autoriõiguste)
+olemasolu ja kehtivuse, samuti nende ülemineku tellijale viisil, mis võimaldab tellijal
+lepingu lõppedes üle võtta täitja funktsioonid.
+6.7.
+Täitja kohustub lahendama kõikvõimalikud lepingujärgsete töödega seotud intellektuaalse
+omandi õigustest tekkivad vaidlused kolmandate isikute või oma töötajate või
+koostööpartneritega, v.a. juhul, kui tarkvara või tarkvara osa litsentside soetamise
+kohustus oli tellijal või kolmandal osapoolel. Juhul, kui eeltoodust tekib tellijale rahaline või
+muu kohustus või juhul, kui tellija on kohustatud lõpetama lepingu alusel teostatud ja
+
+6.8.
+
+6.9.
+
+7.
+
+vastuvõetud tööde kasutamise, on tellijal õigus nõuda täitjalt sellega kaasneva rahalise või
+muu kohustuse täitmist ja/või samaväärse töö loomist ilma täiendavat tasu nõudmata
+võimalikult lühikese aja jooksul, hoidudes mistahes viivitustest tarkvara arendamises,
+kasutuselevõtmises ja kasutamises tellija poolt.
+Kõik tellijale kaasnevad otsesed ja kaudsed kahjud, mis tulenevad sellest, et kolmandal
+isikul on või väidetavalt on varalisi või mittevaralisi intellektuaalsest omandist tulenevaid
+õigusi lepingu alusel üle antavate intellektuaalse omandi objektide suhtes, kannab täitja.
+Selles alapeatükis kirjeldatud õigused ja litsentsid loetakse tellijale lõplikult üle läinuks
+pärast tööde vastuvõtmist.
+
+Garantii
+7.1.
+Täitja annab lepingu alusel teostatud töödele garantii 12 kuud. Garantii hakkab kehtima
+töö vastuvõtmise kuupäevast (kahepoolsest allkirjastatud aktis märgitud kuupäevast või
+muul moel poolte poolt kokku lepitud tööde vastuvõtmise hetkest).
+7.2.
+Garantiiga on hõlmatud kõik garantii tähtaja jooksul ilmnevad vead ja mittevastavused
+kokkulepitule, mis ei ole tekkinud tellija või kolmandate osapoolte tegevuse tagajärjel.
+Garantiiga on hõlmatud ka kõigi tööde muudatused ja modifikatsioonid, mis on tehtud täitja
+poolt ja mis ei ole oluliselt muutnud varasemalt tehtud tööd.
+7.3.
+Täitja kõrvaldab garantii kehtivuse ajal töödes avaldunud vead ja mittevastavused tasuta,
+sealhulgas uuendab või asendab kõik seonduvad dokumendid alljärgnevate tähtaegade
+jooksul:
+Kriitilisus
+
+Kirjeldus
+
+Reageerimisaeg
+(maksimaalne)
+
+Lahendusaeg
+(maksimaalne)
+
+Tööajal 1h
+
+Tööajal 1h
+
+Kriitiline
+
+Kriitilise vea all mõeldakse
+situatsiooni, kus veebileht on
+tervikuna
+maas
+(keegi
+külastajatest ei saa seda
+kasutada) või kui veebileht on
+üle võetud (kuvatakse tellija
+sisu asemel võõrast sisu).
+
+Töövälisel ajal 4h
+
+Töövälisel ajal 2h
+
+Tööajal 8h
+
+Tööajal 8h
+
+Töövälisel ajal 24h
+
+Töövälisel ajal
+järgmise tööpäeva
+jooksul
+
+Oluline
+
+Tõsise vea all mõeldakse
+situatsiooni, kus veebileht on
+osaliselt maas, ei toimi mõni
+oluline rakendus, ei tööta
+seminariruumide
+broneerimise/maksmise
+funktsionaalsus
+või
+kui
+haldusliidese
+töös
+esineb
+haldurite
+tööd
+oluliselt
+tõkestavaid
+tõrkeid
+(sh
+haldusliidese
+maasolek).
+Tõsise vea alla kuulub ka
+kriitilisest
+veast
+väiksema
+mõjuga aktiivselt esinev või
+kestev küberturbeintsident.
+
+Väheolulise vea all mõeldakse
+situatsiooni, kus veebilehel
+esinevad
+igapäevast
+kasutamist mitte tõkestavad
+
+7 kalendripäeva
+
+14 kalendripäeva
+
+Väheoluline
+
+vead, samuti dokumentatsiooni
+vigu
+ning
+haldusliidese
+tajutavat, haldurite tööd häirivat
+aeglust.
+
+7.4.
+
+7.5.
+
+7.6.
+7.7.
+7.8.
+7.9.
+
+7.10.
+
+8.
+
+Täitja reageerib vastavalt vea kriitilisuse tüübile reageerimisaja jooksul, teatades
+juhtumiga tegelemise alustamisest ning võimalusel parima hinnangu juhtumi lahendamise
+eeldatava tähtaja. Võimalusel rakendatakse enne juurpõhjuse parandamist osalist
+kiirparandust, kui juurpõhjuse parandamine võtab sellest oluliselt kauem aega.
+Reageerimisaeg on aeg, mis on kulunud alates monitooringusüsteemist saabunud
+tõrketeatest või tellija poolt täitja teavitamisest seoses esinenud veaga kuni ajani, mil täitja
+alustas vea kõrvaldamist ning edastas vastavasisulise kirjalikku taasesitamist võimaldava
+teate tellijale.
+Lahendusaeg on maksimaalne aeg, alates täitja poolt reageerimisest kuni ajani mille
+jooksul juhtum lõplikult lahendatakse.
+Tööajaks loetakse E-R ajavahemik 9:00-17:00. Tööväliseks ajaks loetakse ajavahemik ER 17:00-09:00, sh puhkepäevad ja riigipühad.
+Tellija tagab täitjale kaasabi garantiikohustuse alla käivate vigade kõrvaldamisel tellija
+võimekuse ja võimaluste piires.
+Kui täitja ei suuda vigasid kokkulepitud tähtajaks kõrvaldada, võib tellija nimetatud vead
+ise kõrvaldada või korraldada nende kõrvaldamise kolmanda isiku kaasabil, teavitades
+sellest täitjat. Tellijal on õigus täitjalt nõuda kõigi kulutuste hüvitamist, mis tekkisid seoses
+eelkirjeldatud viisil vea kõrvaldamisega, kui tegemist oli garantiiga hõlmatud veaga.
+Garantii kaotab kehtivuse, kui tellija muudab lähtekoodi, välja arvatud tööde osale, mida
+ei ole muudetud ning tellija suudab eristada lähtekoodis tehtud muudatusi.
+
+Vastutus
+8.1.
+Pool vastutab oma lepingulise kohustuse rikkumise eest, välja arvatud juhul, kui rikkumine
+on vabandatav vääramatu jõu või muu objektiivse asjaolu tõttu. Nimetatud asjaolu
+esinemist peab tõendama pool, kes sellele tugineda soovib.
+8.2.
+Pool vastutab oma lepingulise kohustuse rikkumise eest, mis tuleneb tema poolt lepingu
+täitmisse kaasatud isikute tegevusest.
+8.3.
+Pool ei vastuta lepinguliste kohustuste rikkumise eest, mis tulenes teise poole kohustuste
+rikkumisest või kolmandate isikute tegevusest või tegemata jätmistest. Kui tellija viivitab
+omapoolsete kohustuste täitmisega ja nende kohustuste mittetähtaegne täitmine ei
+võimalda täitjal omapoolseid kohustusi tähtaegselt täita, pikendatakse tööde üleandmise
+tähtaega vastava aja võrra. Nimetatud asjaolu esinemist peab tõendama pool, kes sellele
+tugineda soovib.
+8.4.
+Kohustuse rikkumisel on teisel poolel õigus kasutada kõiki seadusest või lepingust
+tulenevaid õiguskaitsevahendeid vastavalt võlaõigusseadusele.
+8.5.
+Poolte rahaline koguvastutus on piiratud lepingu kogumaksumusega, kuid nimetatud
+piirang ei kehti süülise rikkumise, intellektuaalomandiõiguse või andmekaitsealaste
+kohustuste rikkumisel.
+8.6.
+Tasu maksmisega viivitamisel on täitjal õigus nõuda viivist 0,1% (null koma üks protsenti)
+tähtajaks tasumata summalt iga viivitatud kalendripäeva eest. Viivise maksimaalne määr
+on 25% konkreetsete tööde eest tasumisele kuuluvast kogusummast.
+8.7.
+Täitja poolse lepinguliste kohustuste rikkumisena käsitletakse eeskätt olukorda, kus üle
+antud tööd ei vasta osaliselt või täielikult lepingu tingimustele, sh kokkulepitud hooldus- või
+veaparandustööde tingimustele või esineb muid täitja poolseid lepingu rikkumisi.
+8.8.
+Kui täitja ei teosta punktis 1.3. sätestatud uue veebilehe töid kokku lepitud tähtajaks, on
+tellijal õigus nõuda leppetrahvi tasumist, mille suuruseks on 200 eurot iga rikkumises oldud
+kalendripäeva eest, kuid mitte rohkem kui 25% punktis 5.1. sätestatud maksumusest.
+
+8.9.
+
+Tellijal on õigus nõuda täitjalt leppetrahvi garantiiperioodil vea ilmnemisel kokkulepitud ajal
+reageerimata jätmisel ja/või lahendusaja ületamisel järgmiselt:
+8.9.1.
+Kriitilisele veale reageerimata jätmise ja/või lahendusaja ületamise korral - 100
+eurot tunnis iga hilinetud tunni algamisel.
+8.9.2.
+Oluline viga – iga reageerimis- ja/või lahendusaja ületanud tööpäeva algamisel
+200 eurot.
+8.9.3.
+Väheoluline viga – iga reageerimis ja/või lahendusaja ületanud kalendripäeva
+algamisel 50 eurot.
+8.10.
+Kui täitja rikub muid lepingulisi kohustusi, on tellijal õigus nõuda leppetrahvi tasumist, mille
+suuruseks on kuni 500 eurot iga rikkumise eest.
+8.11.
+Juhul kui täitja poolsetest viivitustest tingitult ei ole tööde kasutuselevõtt enam realistlik või
+vajalik, on tellijal õigus lepingust taganeda vastavalt võlaõigusseaduse § 116 lõikele 1 ning
+täitja on kohustatud tegema juba makstud osa eest tellijale tagasimakse.
+8.12.
+Lepingu olulise rikkumise korral on tellijal õigus esitada täitjale leppetrahvi nõue kuni 5000
+eurot iga rikkumise eest. Täitja poolse olulise lepingu rikkumise korral ei pea tellija
+määrama täitjale lepingu täitmiseks võlaõigusseaduse §-s 114 nimetatud täiendavat
+tähtaega ning tellijal on muu hulgas õigus leping üles öelda või lepingust taganeda.
+8.13.
+Oluliseks rikkumiseks loevad pooled lisaks võlaõigusseaduses sätestatule muuhulgas:
+8.13.1.
+mõjuva põhjuseta täitmisele mitte asumine;
+8.13.2.
+valeinfo esitamine;
+8.13.3.
+lepingu täitmiseks vajalike õiguste (sealhulgas load, litsentsid, intellektuaalse
+omandi õigused) puudumine;
+8.13.4.
+intellektuaalse omandi õiguste ja nende kasutamise tingimuste rikkumine;
+8.13.5.
+lepingujärgsete kohustuste korduvat (vähemalt kahel korral) täitmata jätmist;
+8.13.6.
+tähtaegselt tööde teostamata jätmist selliselt, et lepingus ja riigihanke
+alusdokumentides sätestatud eesmärgi täitmine ei ole enam tähtaegselt realistlik
+ja/või täitja poolse tegevuse või tegevusetuse tõttu ei ole võimalik enam kasutada
+lepingu rahastamiseks ettenähtud vahendeid;
+8.13.7.
+lepingujärgsete kohustuste üleandmine kolmandale isikule ilma tellija allkirjastatud
+nõusolekuta.
+8.14.
+Tööde vastuvõtmine tellija poolt ei vabasta ega vähenda täitja vastutust lepingu rikkumise
+eest.
+8.15.
+Leppetrahvi nõude kohustub tellija esitama mõistliku aja jooksul, kuid mitte hiljem kui 6 kuu
+jooksul alates päevast, mil tellija sai teadlikuks leppetrahvi nõude aluseks olevast
+asjaolust. Leppetrahvi nõude vaidlustamine ei vabasta täitjat selle maksmise kohustusest
+enne vastava kohtuotsuse jõustumist.
+8.16.
+Täitja on kohustatud leppetrahvi tasuma 21 päeva jooksul alates tellija poolt vastava nõude
+esitamisest, kui leppetrahvi nõudes ei ole määratud teisiti. Tellija on õigus leppetrahv kinni
+pidada täitjale tasumisele kuuluvatest summadest.
+8.17.
+Tellijal on õigus tasaarvestada leppetrahvi summa täitjale töö teostamise eest tasumisele
+kuuluvate maksetega. Tasaarvestamise korral ei rakendata leppetrahvi tasumise
+kohustust.
+9.
+
+Konfidentsiaalsuskohustus
+9.1.
+Pooled kohustuvad vastastikku hoidma salajas ja mitte avaldama kolmandatele isikutele
+ükskõik missugust konfidentsiaalseks peetavat informatsiooni, mis on saadud teiselt
+poolelt lepingu alusel tellitud tööde teostamise käigus või muul viisil või juhuslikult.
+9.2.
+Täitja peab võtma kasutusele isikuandmete ja tellija infosüsteemide kaitseks
+organisatsioonilisi, füüsilisi ja infotehnilisi turvameetmeid, lähtudes muuhulgas kehtivatest
+õigusaktidest. Täitja ei tohi töödelda arenduskeskkondades reaalseid ja isikustatud
+andmeid.
+
+9.3.
+
+9.4.
+
+9.5.
+9.6.
+
+9.7.
+
+9.8.
+9.9.
+
+9.10.
+
+10.
+
+Juhul, kui tellimuse täitmise raames osutub vajalikuks isikuandmete töötlemine, lepivad
+pooled isikuandmete töötlemise tingimused kokku tellimuse esitamisel, juhindudes
+isikuandmete kaitse üldmääruses kirjeldatust.
+Konfidentsiaalse informatsiooni all mõistavad pooled igasugust informatsiooni (sh
+ärisaladusi, isikuandmeid, lepingute andmeid, infosüsteeme, turvasüsteemide kirjeldusi,
+riistvara ja tarkvara kirjeldusi, pakkumuse kirjeldusi, kasutatavaid tehnoloogiaid,
+spetsifikatsioone jms), mis on saadud seoses tööde teostamisega ja mille sattumine
+kolmandate isikute kätte võib pooltele põhjustada turvariske või majanduslikku kahju või
+kolmandate isikute (eelkõige tellija klientide) eraelu puutumatuse rikkumist. Kahtluse korral
+eeldatakse informatsiooni konfidentsiaalsust.
+Konfidentsiaalne informatsioon ei hõlma endas informatsiooni, mille avalikustamise
+kohustus tuleneb õigusaktidest või mille avalikustamiseks pooled on andnud nõusoleku.
+Pooled võivad edastada konfidentsiaalset informatsiooni ainult nendele isikutele, kes on
+tellitud tööde täitmisega otseselt seotud. Täitja kohustub tagama, et isikud, keda ta oma
+kohustuste täitmisel kasutab, oleksid konfidentsiaalsuse kohustusest teadlikud ning
+nõudma nimetatud isikutelt selle kohustuse tingimusteta ja tähtajatut täitmist. Vastutus
+konfidentsiaalsuskohustuste täitmise eest lasub täitjal.
+Pooled ei kasuta lepingu täitmisel neile teatavaks saanud konfidentsiaalset informatsiooni
+oma huvides ega muul eesmärgil, kui tellitud tööde teostamiseks. Täitja kustutab vastava
+informatsiooni, kui leping on lõppenud.
+Konfidentsiaalsuskohustus jääb kehtima tähtajatult, ka lepingu lõpetamise või lõppemise
+järgselt.
+Täitja on teadlik, et leping ja kokkulepped on avalikud, v.a osades, mis on avaliku teabe
+seadusest tulenevatel alustel määratud asutusesiseseks kasutamiseks või märgitud täitja
+poolt ärisaladuseks.
+Konfidentsiaalsuskohustuse rikkumise korral kohustub täitja hüvitama kõik kahjud, mis
+sellise rikkumise tagajärjel tellijale või kolmandale isikule tekkisid, sõltumata sellest, kas
+rikkumine pandi toime tellimuse kehtivuse ajal või lepinguliste kohustuste lõppemise
+järgselt.
+
+Lepingu kehtivus
+10.1.
+Leping jõustub allkirjastamisest poolte poolt ja kehtib punktis 1.4. sätestatud tähtaja
+saabumiseni või kuni punktis 5.9 sätestatud maksimaalse maksumuse saavutamiseni,
+sõltuvalt kumb saabub enne. Lepingu lõppemine ei mõjuta selliste kohustuste täitmist, mis
+oma olemuse tõttu kehtivad ka pärast lepingu lõppemist.
+10.2.
+Lepingut muudetakse pooltevahelise kirjaliku kokkuleppega lepinguga samas vormis,
+arvestades riigihangete seaduses toodut.
+10.3.
+Kui mõni lepingu tingimus peaks osutuma osaliselt või täielikult kehtetuks või täitmisele
+mittepööratavaks, ei mõjuta see teiste lepingu tingimuste kehtivust ning lepingu ülejäänud
+tingimused jäävad kehtima ja täitmisele pööratavaks. Sel juhul võimalusel asendatakse
+kehtetu või täitmisele mittepööratav tingimus õiguslikult kehtiva tingimusega, mis on sisult
+võimalikult lähedane poolte kavatsustele ja kehtetu tingimuse majanduslikule mõjule.
+10.4.
+Tellija võib lepingu igal ajal sõltumata põhjusest lõpetada, teatades sellest kirjalikku
+taasesitamist võimaldavas vormis ette 30 päeva.
+10.5.
+Tellijal on õigus leping ühepoolselt etteteatamistähtaega järgimata üles öelda või sellest
+taganeda, kui täitja on oluliselt lepingut rikkunud või juhul, kui täitja:
+10.5.1.
+suhtes on algatatud pankrotimenetlus;
+10.5.2.
+pankrot on välja kuulutatud;
+10.5.3.
+täitja varad arestitakse;
+10.5.4.
+täitja finantsseisund halveneb tellija põhjendatud hinnangul oluliselt ja see
+muudab tellimuse nõuetekohase täitmise vähetõenäoliseks.
+
+10.6.
+
+Lepingu lõppemisel mistahes alusel ja põhjusel on täitja kohustatud tellijale üle andma
+kogu tööga seotud informatsiooni ja dokumentatsioon (nii digitaalselt kui paberkandjal,
+samuti informatsiooni, mida ei ole salvestatud eelnimetatud infokandjatele). Üleantav info
+ja dokumentatsioon peab olema süstematiseeritud. Täitja on kohustatud andma
+ammendavad selgitused eelkirjeldatud informatsiooni haldamise ja kasutamise kohta,
+tehes seda tellija nõudmisel kirjalikult.
+
+11.
+
+Teadete edastamine ja kontaktisikud
+11.1.
+Teadete edastamine toimub üldjuhul e-posti teel. E-posti teel sh digitaalselt allkirjastatud
+dokumentide saatmise korral loetakse teade kättesaaduks kohale jõudmise teates
+märgitud kellaajal või e-kirjas näidatud saatmise kellaajal.
+11.2.
+Juhul, kui teate edastamisel on olulised õiguslikud tagajärjed, peab teade olema edastatud
+digiallkirjastatult poole allkirjaõigusliku isiku poolt. Informatiivset teadet võib edastada ka
+telefoni teel. Informatiivseks loetakse teade, millega ei kaasne õiguslikke tagajärgi.
+11.3.
+Kirjalik teade loetakse poole poolt kättesaaduks, kui see on üle antud allkirja vastu või kui
+teade on saadetud postiasutuse poolt tähitud kirjaga poole poolt teatatud aadressil ja
+postitamisest on möödunud 5 kalendripäeva.
+11.4.
+Tellija volitatud esindajaks täitjale vajaliku informatsiooni andmisel oma pädevuse piires,
+töö kvaliteedi kontrollimisel, töö vastuvõtmisel ja töö üleandmise vastuvõtmise aktide
+allkirjastamisel on ………………………… (tel …………..; e-post: …………………) või tema
+asendaja.
+11.5.
+Täitja volitatud esindajaks projekti täitjapoolsel läbiviimisel ja töö üleandmise vastuvõtmise
+aktide allkirjastamisel on ............... (tel. ....................; e-post: ......................).
+11.6.
+Kontaktisiku muutumisest teavitab pool kirjalikult teist poolt viivitamatult.
+
+12.
+
+Lõppsätted
+12.1.
+Lepinguga seotud vaidlused, mida pooled ei ole suutnud läbirääkimiste teel lahendada,
+antakse lahendamiseks Harju Maakohtule.
+12.2.
+Lepingule kohaldub Eesti õigus.
+12.3.
+Lepinguga reguleerimata küsimustes või olukorras, kus mõni lepingu säte on vastuolus
+seadusega, lähtutakse Eesti Vabariigis kehtivast seadusandlusest.
+
+13.
+
+Lisad
+13.1.
+Lisa 1 – …………
+
+14.
+
+Poolte allkirjad
+
+Tellija
+/allkirjastatud digitaalselt/
+
+Täitja
+/allkirjastatud digitaalselt/
+
+

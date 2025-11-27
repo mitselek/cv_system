@@ -1,0 +1,314 @@
+RIIGIHANKE VIITENUMBER 302422
+
+Tehnopoli kodulehe arendus- ja hooldustööd
+Avatud hankemenetlus
+
+Hankedokument
+
+SA Tallinna Teaduspark Tehnopol
+2025
+1
+
+1.
+
+Riigihanke iseloomustus
+Kutsume Teid esitama pakkumust riigihankes, mille eesmärgiks on SA Tallinna Teaduspark
+Tehnopol kodulehe arendamise ja hooldamise tööd.
+Tööde detailne tehniline kirjeldus on esitatud hankedokumendi lisades. Riigihankemenetlus viiakse
+läbi e-menetlusena kooskõlas riigihangete seaduse ja teiste Eesti Vabariigis kehtivate
+õigusaktidega. Pakkumuse palume esitada vastavalt käesolevates riigihanke dokumentides
+esitatud tingimustele.
+Hange ei ole ühe hankemenetluse raames osadeks jaotatud, tagamaks ühtselt planeeritud,
+koordineeritud ning ühtlase kõrge kvaliteediga teenuse osutamine hankijale.
+
+2.
+
+Hankija:
+SA Tallinna Teaduspark Tehnopol
+Registrikood 90008258
+Mäealuse 2/4, 12618
+Tallinn, Harjumaa.
+
+3.
+
+Informatsioon riigihanke alusdokumentide kohta
+3.1. Riigihanke alusdokumentideks on kogu hankija poolt avalikustatud käesoleva riigihankega
+seonduv dokumentatsioon, sealhulgas hanketeade, käesolev hankedokument (edaspidi nimetatud
+ka lühendatult „HD“) koos oma lisadega, riigihangete registris käesoleva riigihanke kohta
+avalikustatud dokumendid jms.
+3.2. Hanke alusdokumentide sisu kohta saab selgitusi kirjalikul pöördumisel hankija poole läbi
+riigihangete registri.
+3.3. Selgitustaotlused palume esitada aegsasti, kuna tulenevalt RHS § 46 lg 2 ei ole hankija
+kohustatud selgitustaotlusele vastama, kui selgitustaotluse hankijale laekumise ja pakkumuste
+esitamise tähtpäeva vahele ei jää vähemalt kuut päeva.
+3.4. Kui pakkuja ei ole esitanud hankemenetluse käigus küsimusi selgituste saamiseks hanke
+alusdokumentides avastatud vastuolude, ebaselguste või puuduste kohta, on hankijal õigus
+hankemenetluse ja lepingu täitmise käigus üleskerkinud vaidluste korral valida hankijale sobivam
+hanke alusdokumentide tõlgendus.
+3.5. Hankija edastab selgitused riigihangete registris riigihanke juurde osalejana registreeritud
+isikutele riigihangete registri kaudu. Hankemenetluse käigus selgituste saamiseks tuleb huvitatud
+isikul end riigihangete registris riigihanke juurde riigihankes osalejana/huvitatud isikuna
+registreerida.
+3.6. Hankija ei vastuta e-posti side ja riigihangete registri toimimise eest.
+3.7. Hankedokumendi lisadeks on:
+Lisa 1 – Lähteülesanne
+Lisa 2 – Mittefunktsionaalsed nõuded
+Lisa 3 – Lepingu projekt
+
+4.
+
+Pakkumuse esitamine
+4.1. Hankemenetlus viiakse läbi e-riigihangete keskkonnas (edaspidi nimetatuna ka e-RHR) ehankena.
+4.2. Pakkumuse koostamisel tuleb lähtuda hankija esitatud nõuetest ja riigihangete seadusest ning
+teistest Eesti Vabariigis kehtivatest õigusaktidest.
+4.3. Pakkumuse esitamisega kinnitab pakkuja täielikku nõustumist riigihanke kõigi tingimustega,
+sealhulgas lepingu tingimustega, ning pakkuja ei tohi lisada pakkumusele omapoolseid
+tingimusi.
+4.4. Pakkumuse võib esitada vaid nende asjaolude kohta, mille kohta hankija on võistlevaid
+pakkumusi soovinud.
+4.5. Pakkuja kannab kõik pakkumuse ettevalmistamise ning esitamisega seotud kulud.
+4.6. Pakkumus tuleb esitada arvestusega, et pakutav objekt peab vastama täies ulatuses hanke
+alusdokumentides ja Eesti Vabariigi õigusaktides kehtestatud nõuetele.
+4.7. Pakkumuse esitamist e-RHRis tuleb alustada piisava ajavaruga (soovitavalt mitte hiljem kui 2
+tundi enne pakkumuste esitamise tähtpäeva) ning probleemide tekkimise korral pöörduda
+
+2
+
+riigihangete registri kasutajatoe poole. Kui süsteemis tehnilisi tõrkeid ei ole tuvastatud, üritab
+kasutajatugi pakkujat e-RHRi kasutamisel abistada.
+4.8. Pakkumus tuleb esitada elektrooniliselt e-RHRi kaudu aadressil https://riigihanked.riik.ee.
+Pakkumuse allkirjastamine ei ole nõutav.
+4.9. Hankija aktsepteerib esitatavate pakkumuse dokumentide osas kõiki üldlevinud dokumendi
+formaate (.pdf Portable Document Format; .txt Text; .rtf RichTextFormat; .odt Open Office; MS
+Office formaate).
+4.10.
+Pakkumuse dokumentide mahupiirangud e-RHR-is on soovitavalt 20MB ühe
+dokumendi kohta ja 100MB pakkumuse kogumahu kohta.
+4.11.
+Pakkuja ei krüpteeri pakkumuse dokumente, kuna e-RHR-is on tagatud pakkumuste
+konfidentsiaalsus ning see, et pakkumused saab avada ning tutvuda nende sisuga alles pärast
+pakkumuste esitamise tähtpäeva möödumist.
+4.12.
+Hankija ei vastuta võimalike viivituste, tõrgete või katkestuste eest, mida põhjustavad
+e-RHR-is hankija kontrolli alt väljas olevad asjaolud nagu force majeure, elektrikatkestused,
+häired pakkuja või hankija telefoni- või internetiühenduses või muude elektrooniliste seadmete
+ja vahendite, sealhulgas tarkvara tööd. Hankija ei vastuta e-RHR-i kasutamisest või
+mittekasutamisest tekkinud kahjude või saamata jäänud tulu eest.
+4.13.
+Kui hankija esitatud nõuded või tähtajad on hanketeates ja hanke alusdokumentides
+erinevad, tuleb lähtuda hanketeatest.
+4.14.
+Pakkumuse esitamise tähtaeg
+4.14.1. Pakkumused esitada hanketeates toodud pakkumuse esitamise tähtajaks. Peale
+vastava tähtaja saabumist ei võimalda e-RHR-i süsteem pakkumust esitada.
+4.14.2. Pakkuja võtab enda kanda pakkumuse e-RHR-i sisestamise kogu riski, kaasa arvatud
+vääramatu jõu toime võimaluse.
+4.15.
+Pakkumuse vormistamine
+4.15.1. Pakkumus peab vastama hanke alusdokumentides esitatud tingimustele ning
+riigihangete seadusele.
+4.15.2. Pakkuja peab pakkumuse koosseisus esitama kõik e-RHR-i keskkonnas nimetatud
+informatsiooni ja dokumendid.
+4.16.
+Ühispakkumuse esitamine
+4.16.1. Ühispakkujad võivad oma majandusliku ja finantsseisundi ning tehnilise ja kutsealase
+pädevuse tõendamiseks tugineda teiste ühispakkujate vahenditele vastavalt RHS paragrahvi
+103 lõigetes 1–3 ja 7 sätestatud tingimustele.
+4.16.2. Kõrvaldamise aluseid ei tohi esineda ühelgi ühispakkujal.
+4.16.3. Kõikide ühispakkujate kohta eraldi tuleb esitada hankepass koos kõrvaldamise aluste
+puudumise kinnitustega ning vastavatele kvalifitseerimistingimustele vastamise kinnituste ja
+andmetega.
+4.16.4. Kui pakkumuse esitavad mitu pakkujat ühiselt, peavad nad hankemenetluse ning
+hankelepingu sõlmimise ja täitmisega seotud toimingute tegemiseks volitama enda hulgast
+esindaja ning esitama vastava volikirja koos pakkumusega.
+4.17.
+Pakkumuse maksumus
+4.17.1. Pakkumuse hinnad esitada eurodes ilma käibemaksuta.
+4.17.2. Hinnapakkumus tuleb esitada vastavalt Hankija poolt e-RHR-s koostatud vormil. Kui
+hankija on ette näinud e-RHR maksumuse vormile täiendava maksumuse vormi, siis
+tuleb pakkujal esitada ka täiendav maksumuse vorm. Hinnapakkumuse täitmisel peab
+pakkuja arvestama, et esitatud hindadega oleks võimalik täita sõlmitav leping
+nõuetekohaselt ja pakutavad hinnad sisaldaksid kõiki tulemuse saavutamiseks vajalikke
+lisateenuseid.
+4.17.3. Pakkuja peab hinnapakkumuse tegemisel arvestama hankedokumentide tehnilises
+kirjelduses määratletud hankija eesmärgiga.
+4.18.
+Keel
+Pakkumus ja pakkumusele lisatavad dokumendid tuleb esitada eesti keeles kui hanke
+alusdokumendid ei sätesta vastavas osas teisiti. Välisriigi ametiasutuse poolt väljastatud mitte
+eesti keelse dokumendiga koos tuleb esitada tõlge eesti keelde. Eesti keeles esitatakse ka
+selgitustaotlused ja selgitused.
+3
+
+4.19.
+Pakkumuste jõusoleku aeg
+Pakkumused peavad olema jõus 4 kuud pakkumuse esitamise päevast arvates.
+4.20.
+Alternatiivsete lahenduste esitamine
+Alternatiivsete lahenduste esitamine ei ole lubatud.
+4.21.
+Lepingu täitmise kohaga tutvumine
+4.21.1. Pakkujal ei ole kohustust lepingu täitmise kohaga tutvuda.
+5.
+
+Vastavustingimused
+5.1. Esitada kinnitus, kas on esitatud ühispakkumus. Kui esitatakse ühispakkumus, siis esitada
+pakkumuse koosseisus kirjalik volikiri ühele pakkujale teis(t)e pakkuja(te) esindamise kohta;
+5.2. Esitada kinnitus, kas pakkumus sisaldab või ei sisalda ärisaladust ja vastavalt
+hankedokumendi punktile 7 pakkumuses ärisaladuse määratlemisel lisada põhjendus, et miks
+on vastava informatsiooni puhul tegemist ärisaladusega;
+5.3. Esitada kinnitus, et pakkuja osutab teenust riigihanke alusdokumentides esitatud tingimustel;
+5.4. Esitada kinnitus, et pakkumus on jõus 4 kuud alates pakkumuse esitamise tähtajast;
+5.5. Esitada teenuse kontseptsioon vastavalt hankedokumendi lisa 1 punktis 5 esitatud nõuetele;
+5.6. Esitada kinnitus, et pakkuja annab uue veebilehe arendustööde üle 5 kuu jooksul alates lepingu
+sõlmimisest;
+5.7. Esitada kinnitus, et pakkuja on esitanud hinnapakkumuse Riigihangete registris punktis
+„Hindamiskriteeriumid ja hinnatavad näitajad“ struktuuri kohaselt.
+
+6.
+
+Pakkumuse tagatis
+6.1. Pakkumuse tagatise nõuet ei rakendata.
+
+7.
+
+Pakkumuses sisalduv ärisaladus
+7.1. Pakkuja kohustub pakkumuses arusaadavalt märgistama, milline tema poolt esitatud teave on
+pakkuja ärisaladus.
+7.2. Kui pakkuja on pakkumuses ärisaladuse vastavalt märgistanud, peab pakkuja põhjendama,
+miks on vastava teabe puhul tegemist ärisaladusega.
+7.3. Teabe ärisaladuseks määramisel lähtub pakkuja ebaausa konkurentsi takistamise ja
+ärisaladuse kaitse seaduse § 5 lõikes 2 sätestatust.
+7.4. Pakkujal ei ole õigust ärisaladusena märgistada RHS 46¹ lg 1 nimetatud teavet.
+7.5. Pakkuja peab arvestama, et pakkumus on konfidentsiaalne kuni RHS § 117 lõikes 1 nimetatud
+pakkumuse edukaks tunnistamise otsuse tegemiseni ja peale nimetatud otsuse tegemist on
+hankija kohustatud vastava taotluse saamisel pakkumuse avalikustama ulatuses, mis pole
+märgistatud ärisaladusena.
+
+8.
+
+Pakkujate hankemenetlusest kõrvaldamine ja kvalifitseerimine
+8.1. Hankijal on õigus teostada kõrvaldamise aluste kontrolli ja kvalifitseerimist RHS § 52 lg 3 ja §
+104 sätestatud korras, mis tähendab, et kõrvaldamise aluste kontroll ja kvalifitseerimise
+tingimustele vastavuse kontroll viiakse sellisel juhul läbi peale eduka pakkuja välja valimist.
+8.2. Hankija kontrollib riigihangete seaduses ja riigihanke alusdokumentides kehtestatud
+kõrvaldamise alustest ja kvalifitseerimise tingimustest lähtuvalt, et edukal pakkujal (sh
+ühispakkujal ja isikul kellele pakkuja on tuginenud) ei esineks riigihankest kõrvaldamise aluseid
+ning et pakkuja vastaks kvalifitseerimiseks esitatud nõuetele.
+8.3. Hankija kõrvaldab hankemenetlusest pakkuja (sh ühispakkuja ja isiku, kellele pakkuja on
+tuginenud) kellel esineb riigihangete seaduse § 95 lg 1 nimetatud kõrvaldamise alus. Hankijal
+on õigus kõrvaldada menetlusest pakkuja, kellel esineb § 95 lg 4 nimetatud kõrvaldamise alus.
+8.4. Pakkujal on kohustus esitada enda kohta hankepass ning sealhulgas ka ühispakkuja kohta ja
+isiku kohta, kellele pakkuja on tuginenud. Kui pakkuja kasutab kvalifitseerimise tingimuse
+täitmiseks füüsilist isikut, kes ei ole pakkuja töölepinguline töötaja, siis on tegemist
+tuginemisega RHS § 103 mõistes ja pakkuja peab esitama hankepassi ka vastava füüsilise
+isiku kohta.
+8.5. Hankija rakendab käesolevas hankemenetluses RHS § 97 sätesatud heastamise võimalust.
+
+9.
+
+Pakkumuste vastavaks tunnistamine ja pakkumuste tagasilükkamine
+4
+
+9.1. Hankija kontrollib vastavalt riigihangete seadusele pakkumuste vastavust riigihanke
+alusdokumentides sätestatud tingimustele.
+9.2. Hankija lükkab pakkumuse tagasi, kui see ei vasta riigihanke alusdokumentides esitatud
+tingimustele, kui pakkuja ei esita tähtajaks hankija nõutud selgitusi või pakkuja selgituste põhjal
+ei ole võimalik üheselt hinnata pakkumuse vastavust riigihanke alusdokumentides esitatud
+tingimustele.
+9.3. Hankija lükkab pakkumuse tagasi, kui hankelepingu sõlmimine selle pakkumuse alusel rikuks
+rahvusvahelist või Vabariigi Valitsuse sanktsiooni rahvusvahelise sanktsiooni seaduse
+tähenduses.
+9.4. Hankijal on õigus tunnistada pakkumus mittevastavaks kui hinnapakkumus või maksumuse
+lahtikirjutus ei ole esitatud hankija poolt nõutud vormi ja struktuuri kohaselt või on esitamata
+muud hindamise aluseks olevad andmed või dokumendid.
+9.5. Hankija võib tunnistada pakkumuse vastavaks, kui selles ei esine sisulisi kõrvalekaldeid
+riigihanke alusdokumentides nimetatud tingimustest.
+9.6. Hankijal on õigus tagasi lükata kõik pakkumused kui:
+9.6.1.pakkumuste hinnad ületavad lepingu eeldatavaid maksumusi;
+9.6.2.tekib vajadus riigihanke objekti olulisel määral muuta;
+9.6.3.hankijal kaob vajadus hankeobjekti järele;
+9.6.4.hankemenetluse käigus muutuvad hanke väljakuulutamise eeldused (hankija eelarveliste
+vahendite kärpimine, vms), mis muudavad hankemenetluse otstarbeka realiseerimise
+võimatuks.
+10.
+
+Pakkumuste võrdlemine ja hindamine
+10.1.
+Hankija
+hindab
+vastavaks
+tunnistatud
+pakkumusi
+vastavalt
+riigihanke
+alusdokumentides nimetatud pakkumuste hindamise kriteeriumitele.
+10.2.
+Hankija arvestab majanduslikult soodsaima pakkumuse väljaselgitamisel järgmiseid
+kriteeriume osakaaludega:
+1
+Teenuse maksumus
+50 punkti
+2
+Teenuse kontseptsioon
+50 punkti
+10.3. Maksumuse hindamine. Maksumuse hindamisel arvestatakse veebilehe arendamise
+maksumust, millele liidetakse veebilehe eeldatav hooldamise ja täiendavate arendustööde
+maksumus ilma käibemaksuta. Madalaima maksumusega pakkumus saab maksimaalse arvu
+punkte ja teised pakkumused saavad proportsionaalselt vähem punkte valemi alusel: "osakaal"
+- ("pakkumuse väärtus" - madalaim väärtus") / "suurim väärtus" * "osakaal".
+10.4. Teenuse kontseptsiooni hindamine. Hankekomisjon kujundab ühise põhjendatud
+hinnangu järgmise metoodika alusel:
+50 punkti – Hinnatava aspekti kohta on esitatud väga arusaadavalt sõnastatud ja põhjendatud
+kirjeldus. Esitatust nähtub väga selgelt, kuidas hanke alusdokumentides kirjeldatud hankija
+ootused tulemustele ja riigihanke eesmärk plaanitakse realiseerida. Kõik lisa 1 punktis 5.1.-5.2.
+nimetatud aspektid on kaetud, põhjendatud ja asjakohased. Puuduvad sisulised puudujäägid ja
+vastuolud kirjelduse eri osade vahel. Kirjeldatu veenab hankijat teenuse osutamise kvaliteedis,
+jätkusuutlikkuses ja optimaalses ressursikasutuses;
+33 punkti – Hinnatava aspekti kohta on esitatud arusaadavalt sõnastatud ja põhjendatud
+kirjeldus. Esitatust nähtub arusaadavalt, kuidas hanke alusdokumentides kirjeldatud hankija
+ootused tulemustele ja riigihanke eesmärk plaanitakse realiseerida, aga esineb väheolulisi
+puudujääke. Enamus lisa 1 punktis 5.1.-5.2. nimetatud aspektid on kaetud, põhjendatud ja/või
+asjakohased. Eksisteerivad väheolulised sisulised puudujäägid ja/või vastuolud kirjelduse eri
+osade vahel. Hankijal on vähesed kahtlused osutatava teenuse kvaliteediga seonduvalt;
+16 punkti - Hinnatava aspekti kohta on esitatud rahuldavalt sõnastatud ja põhjendatud kirjeldus.
+Esitatust nähtub osaliselt, kuidas hanke alusdokumentides kirjeldatud hankija ootused
+tulemustele ja riigihanke eesmärk plaanitakse realiseerida, aga esineb olulisi puudujääke. Lisa
+1 punktis 5.1.-5.2. nimetatud aspektid on osaliselt kaetud, põhjendatud ja/või asjakohased.
+Eksisteerivad olulised sisulised puudujäägid ja/või olulised vastuolud kirjelduse eri osade vahel.
+Hankijal on arvestatavad kahtlused osutatava teenuse kvaliteedis;
+0 punkti - Hinnatava aspekti kohta on esitatud puudulikult sõnastatud ja põhjendatud kirjeldus.
+Esitatust ei nähtu, kuidas hanke alusdokumentides kirjeldatud hankija ootused tulemustele ja
+riigihanke eesmärk plaanitakse realiseerida, esineb vastuvõetamatuid puudujääke. Enamus lisa
+1 punktis 5.1.-5.2. nimetatud aspektid ei ole kaetud ja/või pakutavad lahendused on läbivalt
+puudulikult põhjendatud ja/või pole asjakohased. Sisulised puudujäägid on kõikehõlmavad ja/või
+5
+
+kirjelduse eri osad on täielikult vastuolus. Kirjeldus ei veena üldse hankijat on teenuse osutamise
+kvaliteedis.
+10.5. Kui punktis 10.4 hindamismetoodika puhul on pakkumusel mitme punktisumma (nt 33 punkti
+ja 16 punkti) andmise tunnused, antakse pakkumusele madalamad punktid. Hankedokumendi
+punktides 10.3.-10.4 toodud hindamismetoodika alusel pakkumusele antud punktid liidetakse,
+millest moodustatakse pingerida. Edukaks tunnistatakse pakkumus, mis saavutas suurima
+punktisumma. Võrdsete hindamistulemuste korral tunnistatakse edukaks pakkumus, mis
+saavutas suurema punktisumma kontseptsiooni eest. Kui ka selles ollakse võrdsed, toimub
+liisu heitmine. Hindamistäpsus on kaks kohta peale koma.
+10.6. Liisu heitmisele võimaldatakse kõikide pakkujate volitatud esindajate juurdepääs. Liisu
+heitmiseks valmistatakse ette nii mitu sedelit, kui on võrdseid pakkumusi. Ühele sedelile
+märgitakse peale „edukas pakkumus“, ülejäänud jäetakse tühjaks. Sedelid suletakse
+läbipaistmatusse konteinerisse. Loosikastist konteineri võtmine toimub pakkumuste esitamise
+ajalisest järjekorrast lähtuvalt (esimesena pakkumuse esitanu valib esimesena). Pakkuja
+esindaja, kes saab loosikastist sedeli, millele on peale märgitud „edukas pakkumus“,
+tunnistatakse käesolevas riigihankes edukaks. Liisuheitmise koht ja ajakava teatatakse
+eelnevalt pakkujatele.
+11.
+
+Lepingu sõlmimise tingimused
+11.1. Eduka pakkujaga sõlmitakse pärast pakkumuse edukaks tunnistamist leping lisa nr 3 alusel.
+11.2. Pakkuja peab allkirjastama ja tagastama talle allkirjastamiseks edastatud lepingu hiljemalt 5
+tööpäeva jooksul alates hankija poolsest lepingu edastamisest. Antud tähtaja jooksul lepingu
+mitte allkirjastamisel ja mitte tagastamisel on hankijal õigus rakendada RHS § 119 lg.
+
+6
+
+

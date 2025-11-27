@@ -1,0 +1,219 @@
+Lisa 1 – lähteülesanne
+Riigihanke nimetus: Tehnopoli kodulehe arendus- ja hooldustööd
+Riigihanke viitenumber: 302422
+1. Taustainfo
+1.1. Sihtasutus Tallinna Teaduspark Tehnopoli (edaspidi nimetatud “hankija” või „Tehnopol“) eesmärk
+on toetada maailmamuutvat tehnoloogiaettevõtlust ja innovatsiooni. Tehnoloogiaettevõtluse
+tõmbekeskusena pakume nii kaasaegseid äripindasid kui tipptasemel nõustamist ettevõtete
+tekkeks, äri edendamiseks (kasv, tootearendus, ärimudeli uuendamine, innovatsiooniaudit,
+kontaktvõrgustik jpm) ja eksportturgudele sisenemiseks.
+1.2. Tehnopol loob väärtust ühendades iduettevõtted korporatsioonidega, era- ja avaliku sektori
+teadlastega. Tehnopoli fookusvaldkondadeks on digitehnoloogia, tervisetehnoloogia, tehisintellekt,
+süvatehnoloogia ja kaksikkasutus-kaitsetehnoloogiad.
+1.3. Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+2. Sihtrühm
+2.1. Tehnopoli sihtrühm:
+2.1.1. Tehnopoli kliendiks on erinevas kasvufaasis tehnoloogiaettevõte, kes vajab tuge tekkel,
+kasvul, arengul, äriarendusel ja/ekspordil.
+2.1.2. Samuti on meie kliendiks suurasutus ja -ettevõte, kes on huvitatud koostööst idu- või
+kasvufaasis tehnoloogiaettevõttega, käivitamaks uut äriliini, täiustamaks olemasolevat
+toodet ja/või toetamaks innovatsiooni rakendamist.
+2.1.3. Oluliseks kliendiks on ka kinnisvara rendiklient (75% juhtudest tehnoloogiaettevõtja või siis
+neile tugiteenust pakkuv ettevõte), kes on enamasti väike ja keskmise suurusega ning
+vajab paindlikke lepingutingimusi.
+2.1.4. Klientide hulka kuuluvad ka erinevad ettevõtted, kes rendivad kodulehe kaudu
+seminariruume.
+2.2. Kodulehe peamised külastajad
+2.2.1. Iduettevõtete asutajad, kes kas soovivad liituda Tehnopoli mõne aktiivse
+kasvuprogrammiga, otsivad kontakte ja mentoreid.
+2.2.2. Ettevõtjad, kes on juba liitunud Tehnopoli kogukonnaga, osalevad mõnes programmis, on
+programmi lõpetanud ja otsivad lisavõimalusi.
+2.2.3. Tehnopoli fooksuvaldkonnas tegutsev kasvufaasis tehnoloogia ettevõtja, kas juba kuulub
+kliendiportfelli või alles kaalub Tehnopoliga liitumist. Esimesel juhul otsib ennekõike
+valdkondlikke uudiseid ja ürituse infot ning teisel juhul soovib aru saada, mis kasu oleks
+kasvuettevõtetele suunatud ärinõustamisteenusest.
+2.2.4. Programmile sisu andvad mentorid ja väärtust loovad investorid.
+2.2.5. Eri koostööpartnerid, institutsioonid, suurkorporatsioonide juurde loodud kiirendid ja
+arenduskeskused jms tugiorganisatsioonid, nii nende töötajad kui ka liikmed.
+2.2.6. Tehnoloogiaettevõtjad, kes otsivad ruume kus asuda oma kontoriga, seada sisse
+eriotstarbeline ruum (labor, lahenduse füüsilise ehitamise ruum jms).
+2.2.7. Ettevõtted, kes soovivad rentida koolituste, seminaride ja töötubade korraldamiseks
+seminariruume.
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+3. Hanke eesmärk ja tähtaeg
+3.1. Eesmärk on leida partner, kes sõlmitud raamlepingu alusel:
+3.1.1. loob tähtaegselt Tehnopoli uue, kaasaegse, funktsionaalse ja kasutajate jaoks mugava
+veebilehe;
+3.1.2. kiirelt, professionaalselt ja optimaalse ressursikuluga hooldab, uuendab ja vajadusel
+arendab täiendavalt Tehnopoli veebilehte 36 kuu jooksul alates lepingu sõlmimisest.
+3.2. Riigihankes pakub pakkuja uue veebilehe arendamise kogumaksumuse, millega pakkuja peab
+tagama nõutud tingimustele vastava veebilehe arenduse ja tähtaegse üleandmise hankijale.
+Pakkuja kohustub Tehnopoli uue veebilehe valmis arendama ja üle andma hiljemalt 5 kuu
+jooksul alates raamlepingu sõlmimisest.
+3.3. Hooldustööde ja täiendavate arendustööde eest tasutakse pakkuja poolt pakutud tunnihinna
+alusel, mis fikseeritakse 36 kuuliseks perioodiks. Hoolduse tasu on pakkujal õigus hakata
+rakendama alates garantiiperioodi lõppemisest ja garantiiperioodi aegne hooldusteenus kuulub
+punktis 3.2. sätestatud veebilehe arendustööde maksumuse sisse. Hooldustööde teostamiseks
+esitab hankija vastavasisulise tellimuse.
+3.4. Loodav uus koduleht on kaasaegne kommunikatsioonikanal, mis tutvustab Tehnopoli ja selle
+teenuseid, fookusvaldkondi, võimaldab tutvuda konkursside ja programmidega ning neisse
+kandideerida, liituda kogukonnaga, rentida kontoripinda, broneerida ruume sündmuste
+korraldamiseks, olla kursis Tehnopoli tegevusvaldkonda puudutavate uudistega ning panna end
+kirja üritustele.
+4. Veebilehe arendustöödega seonduvad ülesanded:
+4.1. Liita üheks veebileheks tehnopol.ee, startupincubator.ee, innovatsiooniliidrid.tehnopol.ee,
+innovatsioonifond.tehnopol.ee, ai.tehnopol.ee; scale-able.tehnopol.ee, digilung.tehnopol.ee
+(viimased kaks tuleb integreerida uue loodava lehe külge);
+4.2. Lähtuda lisas 2 sätestatud mittefunktsionaalsetest nõuetest arendustööde teostamisel;
+4.3. Pakkuja peab koostama olemasoleva veebilehe analüüsi, et saada ülevaade veebilehe
+hetkeseisust ja kvaliteedist ning selgitada välja hästi toimivad osad, mida on otstarbekas uuele
+veebilehele üle tuua.
+4.4. Tehnopoli uus veebileht on eesti ja inglise keeles;
+4.5. Uus veebileht luuakse soovituslikult Wordpress platvormile, kuid seda ei seata kohustuseks.
+Veebileht võib olla loodud ka mõnele muule kaasaegsele platvormile, mida on mugav kasutada,
+mis on turvaline, ja mida on järgmise 10 aasta jooksul kõige lihtsam ja soodsam üleval hoida,
+uuendada ja värskendada. Oluline on jälgida, et loodav veebileht toetaks kõiki Tehnopoli
+kasutajagruppe ja nende peamisi vajadusi.
+4.6. Arendada veebileht, mis on kasutajakeskne ning mida on loogiline ja lihtne kasutada.
+4.7. Hankija poolt määratud vanadelt veebilehtedelt oleva sisu osaline üle toomine.
+4.8. Uue veebilehe osana peab olema võimalik luua lihtsalt projektide alamlehti (sisu mõttes scaleable.tehnopol.ee ja digilung.tehnopol.ee), kuhu on võimalik lisada projekti visuaalid ja ehitada
+projekti vajadustest lähtuv struktuuripuu ja kandideerimisvõimalus projektis osalemiseks.
+Veebilehtedelt peab olema võimalik taandada Tehnopoli identiteet ning rakendada projekti
+põhivisuaal ja lisada Tehnopoli logo kõrvale ka partnerite logod. Lehel peavad töötama kõik teistel
+Tehnopoli veebilehtedel töötavad funktsionaalsused.
+4.9. Lähtuda Tehnopoli CVI põhimõtetest (v.a. punktis 4.8 projektilehe puhul);
+4.10. Fookusvaldkondade alamlehtedel peab olema programmidega liitumise vorm ja eeltäitmist
+võimaldav kogukonnaga liitumise sooviavaldus (peab olema laialdaselt kasutatavate vormide
+tarkavaraga (Google forms, Typeform, F6S, Survey Monkey) liidestatud, Tehnopoli töötaja poolt
+muudetav ja automaatselt saatma liitumissoovi edastanud inimesele vastuse ning edastama liituja
+info Tehnopoli kontaktisikule ja andmed peavad olema kasutatavad üle API liidese. Lisaks peab
+olema võimalik nupu taha lisada mistahes programmide liitumisvormid (nt EL rahastusel projektide
+puhul tuleb kasutada porgrammi värbamiseks nt F6S vms platvorme). Fookusvaldkondade lehti
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+peab olema võimalik luua ja muuta, kuna need võivad ajas muutuda ning peavad vastama
+Tehnopoli kehtivale strateegiale.
+4.11. Kodulehel peab olema võimalik kogukonna liikmetel ja erinevate programmidega liitunud
+ettevõtetel sisse logida ja parooliga kaitstud osas suhelda ja infot vahetada, tutvuda mentorite
+andmebaasiga.
+4.12. Kodulehel peab olema võimalik broneerida Tehnopoli ruume ja täita sooviavaldus kontoripinna
+rentimiseks.
+4.13. Sündmuste korraldamiseks ruumide broneerimisel tuleb tagada erinevates kalendrites
+andmete sünkroniseerimine samal ajal, et vältida ülebroneerimisi ja ruumi broneerijal peab olema
+võimalus kohe sooritada maksetehing (praegu kasutusel olev lahendus töötab vaid veebist tehtud
+broneeringute suunal, võib muuta mugavamaks, aga funktsionaalsusi vähemaks võtta ei tohi).
+4.14. Luua võimalus üksikpiltide ja videote ning graafikaga muuta lehte nii dünaamilisemaks kui ka
+atraktiivsemaks; võimalus esitada numbrilist infot animeeritud kujul;
+4.15. Veebilehele tuleb luua võimalus lisada ürituste kohta fotogaleriisid. Üleslaaditud fotogalerii
+peab kuvama automaatselt mõlema keele versioonis valitud alamlehtedel. Fotogaleriide
+haldamiseks võib kasutada Flickrit või muud kaasaegset ja laialt levinud pilvepõhist pildihalduse
+keskkonda, mis võimaldab galeriide kuvamist üle liidese (mitte manustamise teel).
+4.16. Tehnopoli koduleht tuleb liidestada Fienta platvormiga, mis peab olema vajadusel ajas
+muudetav, et kuvada seal avaldatud sündmusi. Peab olema võimalik määrata, milliseid üritusi
+kuvatakse Tehnopoli lehel ja milliseid mitte. Ürituste info kuvamine peab olema võimalik ka
+fookusvaldkondade alamlehtedel.
+4.17. Teha parooliga kaitstud alajaotus, kus on Tehnopoli klientidele, erinevate programmidega
+liitunutele, partneritele ja mentoritele võimalik edastada vaid neile mõeldud personaliseeritud sisu
+(dokumendid, videod, pildid, infovahetustahvel, info liidestatud andmebaasidest (Airtable, Scoro)).
+Lahendus võimaldab ka täita personaliseeritud eeltäidetud vorme (nt kontaktandmete muutus,
+mentorkohtumise soov jms), mis loeb ja kirjutab infot liidestatud andmebaasidesse (Airtable,
+Scoro);
+4.18. Teha kodulehe lahendus, mis on optimeeritud kõigile seadmetele (nii arvuti, mobiil kui ka
+tahvelarvuti);
+4.19. Luua võimalus edastada Tehnopoli jaoks olulisi (reklaam)sõnumeid (sh uudised), nii avalehel
+kui sisulehtedel (eri teemade omavaheline sidumine e-poe loogika sarnaselt „Vaata ka“). Lahendus
+peab võimaldama sisestada nii staatilist kui liikuvat (nt video) pilti (nt karussellina).
+4.20. Luua turundusliku väljundiga koht, kus Tehnopolis reklaami kuvada soovivad ettevõtted saavad
+oma pakkumisi kuvada;
+4.21. Hankija vajadustest lähtuvalt uute rakenduste ja lisafunktsionaalsuste kasutamine, et tagada
+veebilehe mugavus, ligipääsetavus ja kättesaadavus.
+4.22. Esitada ettepanekud uue kodulehe muudatusteks, mis toetuvad tänaste kodulehtede (loetelu
+4.1.) analüüsile;
+4.23. Veebilehe seadistamine vastavalt hankija vajadustele või hankija juhendamine seadistuste
+tegemisel ja veebilehe kasutamisel.
+4.24. Kasutusmugavuse ja ligipääsetavuse järjepidev analüüs, olemasolevatele disainilahendustele
+parendamisettepanekute esitamine ja kokkuleppel hankijaga nende elluviimine.
+4.25. Vastavalt hankija vajadusele veebilehe alamlehekülgede disaini kohandamine.
+4.26. Isikuandmete töötlemise tagamine vastavalt isikuandmete kaitse üldmäärusele ja
+isikuandmete kaitse seadusele.
+4.27. Kõikide veebilehe ja sellega seonduvate arenduste, seadistuste ja muude muudatuste
+testimine ja nende testimiste dokumenteerimine, v.a turvatestimine, mille tellib hankija ise omal
+kulul kolmandalt osapoolelt.
+4.28. Vajadusel hankija nõustamine ja abistamine serveri administreerimisel.
+4.29. Kõikide veebilehe osade kohta sisuhalduse kasutusjuhendi koostamine ja hankijale
+kättesaadavaks tegemine (täpsem vajadus lepitakse kokku töövõtjaga).
+4.30. Pakkuda loodud veebilehele garantiiaega (12 kuud), mille jooksul likvideeritakse veebilehel
+ilmnenud vead tasuta. Vigade likvideerimise tähtajad on sätestatud lepingu projektis (lisa 3).
+Garantiiperioodiks peab hankija uue veebilehe arendamise maksumusest garantiitööde tagatisena
+kinni 5% ja see makstakse välja peale garantiiperioodi lõppemist pakkuja poolt garantiitööde
+nõuetekohase teostamise järgselt.
+4.31. Arendustööde muudatuste planeerimine, sh vigade ja probleemide haldus.
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+4.32. Sisu ehitada üles SEO põhimõtteid ja otsinguid teostavaid AI keelemudeleid silmas pidades
+(ootame töövõtjalt sellekohaseid soovitusi);
+4.33. Uus loodav koduleht peab olema integreeritud Google Analyticsiga (GA4). Kõik vajalikud
+seadistused (sh konto loomine või olemasolevaga liidestamine, mõõtmistunnuste seadistamine,
+külastajate statistika kogumise ja aruandluse toimimise tagamine) teeb töövõtja. Töövõtja tagab,
+et Google Analyticsi seadistused vastavad parimale tavale ja on hankija jaoks hiljem
+administreeritavad.
+4.34. Teenusepakkuja seadistab kõik veebianalüütika ja reklaamijälgimise jaoks vajalikud pikslid (sh
+Meta Pixel, Google Tag, LinkedIn Insight jt) ning tagab nende korrektse toimimise ja kooskõla
+andmekaitsenõuetega.
+4.35. Hankija juhendamine Google Tag Manageri, Google Analyticsi esialgsel seadistamisel
+(kasutajateekonna jälgimiseks, nt nuppude ja linkide jälgimiseks).
+4.36. Pakkujapoolse projektijuhi ning vajadusel ka teiste meeskonna liikmete osalemine hankija
+veebiarendust käsitlevatel töökoosolekutel vastavalt vajadusele.
+4.37. Lepingu perioodil veebi sisuhaldusplatvormi ja kasutatud lisaprogrammide kaasaegsena,
+ajakohasena ja turvalisena hoidmine.
+4.38. Enne veebilehe üleandmist hankijale, kohustub pakkuja korraldama koolituse hankija
+veebilehte haldavatele töötajatele. Koolitusel peab käsitlema kõiki veebilehe administreerimiseks
+vajaminevaid teemasid.
+4.39. Hankijal on õigus täpsustada veebilehe arendusvajadusi lepingu kehtivuse perioodil, sh
+asendada ülesandeid teiste lepingu esemega seotud ülesannetega, kui ei muutu tööde
+kogumaksumus.
+4.40. Täpsed tegevuskavad lepitakse hankija ja pakkuja poolt kokku lepingu täitmisel.
+5. Teenuse kontseptsioon
+5.1. Teenuse kontseptsioon tuleb pakkujal esitada pakkumuse koosseisus ja kuulub hindamisele
+Teenuse kontseptsioon peab olema kooskõlas riigihankes esitatud nõuetega ja:
+5.1.1. kirjeldama, kuidas arendatav koduleht vastab hanke alusdokumentides kirjeldatud
+eesmärkidele;
+5.1.2. sisaldama üldist veebilehe arhitektuuri kirjeldust ja skeemi, sh komponente, kasutatavat
+tehnoloogiat ja liidestusi;
+5.1.3. visualiseerima loodavat veebilehte moodboardi või veebilehtede näidetega koos vastavate
+selgitustega;
+5.1.4. sisaldama veebilehe põhi- ja tugifunktsionaalsuste kirjeldusi;
+5.1.5. sisaldama mittefunktsionaalsete nõuete täitmise kirjeldust;
+5.1.6. sisaldama realistlikku ja riske arvestavat projektiplaani koos ajakavaga, sh on arvestatud
+punktis 5.2. projektiplaani sisule esitatud nõuetega;
+5.1.7. kirjeldama veebilehe haldamise jätkusuutlikkust ja kuidas tagatakse, et hankijale ei
+põhjustata põhjendamatuid kulutusi veebilehe kasutamisel ja edasi arendamisel.
+5.2. Nõuded projektiplaanile:
+5.2.1. projektiplaanis on eesmärkide ja oodatavate tulemuste saavutamiseks vajalikud
+tegevused ja ülesanded jaotatud tegevusetappideks, toodud nende ajaline kestus,
+määratud tegevusetapi tegijad, tegevusetapi alustamise eeldused ja tulemid, sh toodud
+välja etappide omavaheline sõltuvus;
+5.2.2. projektiplaanis on välja toodud olulised verstapostid,
+5.2.3. projektiplaani koostamisel on arvestatud riskide ilmnemisega ja on sisse viidud
+riskijuhtimise tegevused.
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+Sihtasutus Tallinna Teaduspark Tehnopol | Mäealuse 2/4, 12618 Tallinn, Estonia | +372 5680 0200 | info@tehnopol.ee | www.tehnopol.ee
+Reg no 90008258 | VAT no EE100855346 | Coop Bank IBAN EE204204278633163508 | SWIFT/BIC EEUHEE2X
+
+
