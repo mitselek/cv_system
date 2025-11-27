@@ -1,0 +1,250 @@
+1/5
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+299277
+Riigi Tugiteenuste Keskus (70007340)
+Riigitöötaja iseteenindusportaali (RTIP) arendus- ja hooldustööd
+
+Keskkonnahoidlik hange või hanke osa!
+
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Ühispakkujad võivad volikirja esitamiseks kasutada hankija vormi.
+Ühispakkumuse esitamisel tuleb esitada hankepass iga ühispakkuja osas.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei". (Raadionupp
+valikutega "Jah/Ei")
+
+HANKIJA ESITATUD TINGIMUSTE ÜLEVÕTMINE
+Pakkumus peab olema esitatud kõiki riigihanke alusdokumentides esitatud tingimusi üle võttes.
+Pakkujal on kohustus kontrollida töö mahtu ning pakkumuse maksumuses arvestada riigihanke
+tehnilises kirjelduses määratletud hankija eesmärgi saavutamiseks vajalike tingimuste täitmise ja
+sellest tulenevate töömahtudega.
+Pakkuja peab kinnitama, et:
+1. pakkumus on esitatud kõiki riigihanke alusdokumentides esitatud tingimusi üle võttes.
+2. pakkumuse koostamisel on arvesse võtnud kõik käesoleva riigihanke teostamiseks ja
+raamlepingu eesmärgi saavutamiseks vajalikud täitja tööd, teenused, tegevused ja toimingud,
+kaasa arvatud need, mis ei ole otseselt kirjeldatud riigihanke alusdokumentides ja selle lisades,
+kuid mis on tavapäraselt vajalikud nõuetekohase tulemuse saavutamiseks.
+3. käesolev pakkumus on jõus kuni hanketeates määratud pakkumuse jõusoleku minimaalse
+tähtaja lõppemiseni.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja saab kinnitada hankija esitatud tingimuste ülevõtmist? (Raadionupp valikutega
+"Jah/Ei")
+RIIGITÖÖTAJA ISETEENINDUSPORTAALI LÄHTEKOODI TAOTLEMINE
+Konfidentsiaalsete andmetega Riigitöötaja iseteenindusportaali lähtekoodi saamiseks esitab
+pakkuja läbi riigihangete registri teabevahetuse sellekohase taotluse.
+Taotlusega
+koos
+edastab
+pakkuja
+allkirjaõigusliku
+isiku
+poolt
+allkirjastatud
+"299277_Konfidentsiaalsuskohustuse_vormi", mis on lisatud riigihanke alusdokumentide
+koosseisus rubriiki "Dokumendid".
+Lähtekoodi saab pakkuja taotleda hiljemalt 6 päeva enne pakkumuste esitamist, hilisematele
+taotlejatele hankija lähtekoodi enam ei väljasta ja jätab taotluse läbi vaatamata ning pakkuja ei saa
+enam hankel osaleda.
+Konfidentsiaalsusnõude järgimise kinnituse vormi allkirjastamisel tuleb DigiDoc ümbriku nimes
+kajastada pakkuja nime.
+Koostatud 06.11.2025 12:02:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9224484/general-info
+
+2/5
+
+Küsimused ettevõtjale:
+1. Kas kinnitate, et olete Riigihangete registri teabevahetuse kaudu esitanud allkirjastatud
+konfidentsiaalsusnõude järgimise kinnituse vormi "299277_Konfidentsiaalsuskohustuse_vorm"?
+(Raadionupp valikutega "Jah/Ei")
+NÕUDED PROOVITÖÖLE
+Pakkuja peab pakkumuse koosseisus esitama alusdokumentides „Tehniline kirjeldus“ ja „Nõuded
+proovitööle“ esitatud tingimustele vastava proovitöö lähtekoodi koos paigaldusjuhendi, tehnilise
+dokumentatsiooni ning seletuskirjaga lahenduse realiseerimisviisi põhjendamiseks.
+1) Pakkumuse koosseisu kuuluva proovitöö lähtekoodi esitab pakkuja Rahandusministeeriumi
+Infotehnoloogiakeskuse (RmIT) pilveteenuse kaudu.
+Pilveteenusele juurdepääsu saamiseks esitab pakkuja taotluse juurdepääsu saamiseks läbi
+Riigihangete Registri teabevahetuse hiljemalt 3 päeva enne pakkumuste esitamise tähtaega.
+Taotluses tuleb märkida:
+– pakkuja nimi ja registrikood,
+– kontaktisiku nimi, isikukood ja e-posti aadress.
+Juurdepääsuks RmIT pilveteenusesse määrab hankija taotluses nimetatud kontaktisikule unikaalse
+parooli ning edastab krüpteeritult lingi ja parooli pakkuja kontaktisiku e-posti aadressile.
+Juurdepääs kehtib kuni pakkumuse esitamise tähtaja lõpuni.
+Pärast failide üleslaadimist pilveteenusesse peab pakkuja kontrollima, et failid on edukalt
+salvestatud. Hankija ei vastuta tehniliste probleemide eest, mis on tingitud pakkuja arvuti- või
+võrguühenduse häiretest. Hiljemalt pakkumuse esitamise tähtajaks peavad failid olema RmIT
+pilveteenuses nähtavad ja alla laetavad. Pärast pakkumuse esitamise tähtaega või
+alusdokumentides määratlemata keskkonda esitatud faile ei arvestata ning selline pakkumus
+tunnistatakse mittevastavaks ja lükatakse tagasi.
+2) Paigaldusjuhendi, tehnilise dokumentatsiooni ning seletuskirja esitab pakkuja pakkumuse
+koosseisus Riigihangete registris.
+Proovitöö lähtekoodi, paigaldusjuhendi, seletuskirja või tehnilise
+mitteesitamisel tunnistatakse pakkumus mitte vastavaks ja lükatakse tagasi.
+
+dokumentatsiooni
+
+Proovitöö on aluseks pakkumuse hindamisel hindamiskriteeriumis „Proovitöö lahendus“.
+Hindamismetoodika on esitatud riigihanke alusdokumendis „Hindamismetoodika kirjeldus“.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et on esitanud proovitöö lähtekoodi vastavalt nõuetele
+Rahandusministeeriumi Infotehnoloogiakeskuse pilveteenuse kaudu? (Raadionupp valikutega
+"Jah/Ei")
+2. Pakkuja esitab lähtekoodi paigaldusjuhendi. (Vabas vormis dokument)
+3. Pakkuja esitab tehnilise dokumentatsiooni vastavalt RmIT „Tarkvarasüsteemi arhitektuuri
+dokumenteerimise nõuetele". (Vabas vormis dokument)
+4. Seletuskiri lahenduse realiseerimisviisi põhjendamiseks. (Vabas vormis dokument)
+
+NÕUDED MEESKONNALE
+Pakkuja peab lepingu täitmiseks selle kehtivuse ajal tagama alljärgneva minimaalse (7 rollist
+koosneva) koosseisuga projektimeeskonna:
+• 1 (üks) projektijuht,
+Koostatud 06.11.2025 12:02:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9224484/general-info
+
+3/5
+
+• 1 (üks) tarkvaraarhitekt,
+• 1 (üks) analüütik,
+• 1 (üks) programmeerija,
+• 1 (üks) testija,
+• 1 (üks) kasutajaliidese disainer,
+• 1 (üks) SAP ABAP arendaja.
+Hankelepingu(te) täitmisele kaasatav meeskond, peab vastama raamlepingu Lisas 1 sätestatud
+tingimustele.
+Üks isik võib täita kuni kahte erinevat rolli, nt tarkvaraarhitekt-analüütik, kuid sellisel juhul peab
+antud isik täitma igale antud rollile esitatud nõudeid. Täitja võib hankelepingu täitmisse kaasata
+rohkem projektimeeskonna liikmeid, kuid sel juhul peavad kõik kaasatavad isikud vastama
+vastavale rollile esitatud nõuetele.
+Pakkuja esitab pakkumuse koosseisus andmed meeskonnaliikmete kohta vastavalt etteantud
+vormile "Meeskonnaliikmete CV" ja meeskonnaliikme(te) osas nõutud sertifikaatide koopiad.
+Nõuete täitmiseks esitatavate võõrkeelsete dokumentide (nt sertifikaadid) korral võib hankija
+nõuda pakkujalt dokumentide eesti keelde tõlkimist.
+Pakkumuses esitatavad andmed peavad olema piisava täpsuse ja põhjalikkusega, et hankijal oleks
+nende alusel võimalik hinnata meeskonnaliikmete eelneva kogemuse vastavust riigihanke
+alusdokumentides sätestatud nõuetele.
+Hankija kontrollib meeskonnaliikmete nõuetele vastavust pakkumuses esitatud andmete alusel.
+Hankija võib kontrollida esitatud andmeid hankijale avalikes andmekogudes kättesaadava info
+kaudu. Hankijal on õigus lisateabe saamiseks pöörduda kolmandate isikute poole. Hankijal on
+õigus pakkujalt küsida täiendavat lisainfot ja dokumente, mis kinnitavad kinnituse vormis
+väljatoodud andmete õigsust. Pakkuja esitab hankija nõutud andmed/dokumendid 3 (kolme)
+tööpäeva jooksul.
+
+Küsimused ettevõtjale:
+1. Meeskonnaliikmete CV (Dokumendi vorm / Meeskonnaliikmete CV.docx)
+2. Meeskonnaliikmete osas nõutud sertifikaadi/sertifikaatide koopia(d) (Vabas vormis dokument)
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+KESKKONNAHOIDLIKUD TINGIMUSED
+Pakkuja peab järgima teenuse osutamisel keskkonnaalaseid nõudeid ning vältima teenuse
+osutamisega kaasneva negatiivse kõrvalmõju tekkimist keskkonnale, sh:
+1) teenuse osutamise tulemusena valminud materjalid esitatakse tellijale eelkõige digitaalsel kujul
+(keskkonnahoidlikel põhjustel vältida materjali printimist), v.a juhul, kui see on vajalik töö
+Koostatud 06.11.2025 12:02:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9224484/general-info
+
+4/5
+
+eesmärgipäraseks läbiviimiseks);
+2) täitja poolt digitaalsel kujul edastatavad materjalid peavad olema ökoloogilise jalajälje ja
+digiprügi vähendamise eesmärgil salvestatud ja edastatud optimaalsel mahul (vältida otstarbetult
+suuri andmefaile). Mustandfailid, säilitamiseks mittevajalikud töödokumendid jms, kustutada
+esimesel võimalusel, kuna ITserverites failide otstarbetu hoidmine on keskkonda kurnava mõjuga;
+3) kui lepingu täitmise käigus on vajadus printida infomaterjale, siis eelistatakse printimisel täitja
+poolt tooteid, millel on olemas I tüüpi ökomärgis.
+Pakkuja esitab pakkumuse koosseisus vastavasisulise kinnituse.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et järgib teenuse osutamisel keskkonnaalaseid nõudeid ning väldib
+teenuse osutamisega kaasneva negatiivse kõrvalmõju tekkimist keskkonnale? (Raadionupp
+valikutega "Jah/Ei")
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+EL NÕUKOGU SANKTSIOON. ALLTÖÖVÕTJAD JA TARNIJAD.
+Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on:
+1. Vene Föderatsiooni kodanik, resident või Vene Föderatsioonis asutatud ettevõtja, sh füüsilisest
+isikust ettevõtja, juriidiline isik, asutus või muu üksus;
+2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või muu
+üksuse omandis;
+3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või tegutseb sellise isiku
+juhiste alusel.
+Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav hankeleping oleks RSanS § 7 lg 1 alusel
+tühine.
+Määrust kohaldatakse riigihangetele alates rahvusvahelisest piirmäärast. NÕUKOGU MÄÄRUS
+(EL) 2022/576, 8. aprill 2022, millega muudetakse määrust (EL) nr 833/2014, mis käsitleb
+piiravaid meetmeid seoses Venemaa tegevusega, mis destabiliseerib olukorda Ukrainas.
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et ta ei kaasa üle 10% hankelepingu maksumusest hankelepingu täitmisele
+alltöövõtjaid ega tarnijaid, kes on: 1. Vene Föderatsiooni kodanik, resident või Vene
+Föderatsioonis asutatud ettevõtja, sh füüsilisest isikust ettevõtja, juriidiline isik, asutus või muu
+üksus; 2. rohkem kui 50% ulatuses otseselt või kaudselt punktis 1 nimetatud isiku, asutuse või
+muu üksuse omandis; 3. punktis 1 või 2 nimetatud isiku, asutuse või muu üksuse esindaja või
+tegutseb sellise isiku juhiste alusel. (Raadionupp valikutega "Jah/Ei")
+Koostatud 06.11.2025 12:02:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9224484/general-info
+
+5/5
+
+RAHVUSVAHELISE SANKTSIOONI OBJEKT
+Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks või pärit
+sanktsiooni all olevatest piirkondadest. Hankija lükkab tagasi pakkumuse, mille alusel sõlmitav
+hankeleping oleks RSanS § 7 lg 1 alusel tühine.
+
+Küsimused ettevõtjale:
+1. Kas Pakkuja kinnitab, et pakutav kaup ei ole rahvusvahelise sanktsiooni objektiks ega pärit
+sanktsiooni all olevatest piirkondadest? (Raadionupp valikutega "Jah/Ei")
+ETTEVÕTTE VOLITATUD ISIKUD
+Kõrvaldamise aluste kontrolli (RHS § 95 lg 1 p 1-3) teostamiseks peab pakkuja esitama ettevõtja
+muud isikud, kellel on volitus teda kontrollida ning kes ei ole hankijale nähtavad Äriregistrist.
+Eelpool nimetatud isikuteks on näiteks tegevdirektor, kes ei ole juhatuse liige, prokurist,
+järelevalveorgani liige jms. Pakkuja peab kontrolli teostamiseks esitama volitatud isiku(te)
+nime(d) ja isikukoodi(d) või kinnituse, et selliseid isikuid pakkujal ei ole.
+
+Küsimused ettevõtjale:
+1. Pakkuja peab kontrolli teostamiseks esitama volitatud isiku(te) nime(d) ja isikukoodi(d) või
+kinnituse, et selliseid isikuid pakkujal ei ole. (Sisestusväli (max pikkus 250 tähemärki))
+
+Koostatud 06.11.2025 12:02:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9224484/general-info
+
+

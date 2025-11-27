@@ -1,0 +1,109 @@
+1.  Hankija hindab kõiki vastavaks tunnistatud pakkumusi
+    alusdokumentides sätestatud hindamiskriteeriumide alusel.
+
+Pakkumuste hindamiskriteeriumid 100 väärtuspunkti skaalal on järgnevad:
+
+  -----------------------------------------------------------------------------
+  Nr       Kriteerium                     Hindamismeetod          Osakaal
+  -------- ------------------------------ ----------------------- -------------
+  1        Arendus- ja hooldustööde ühe   Maksumus – vähim on     30 punkti
+           töötunni maksumus (            parim                   
+           käibemaksuta)                                          
+
+  2        Proovitöö lahendus             Proovitöö selgitus ja   70 punkti
+                                          teostus – hankija       
+                                          hinnatav                
+
+  100                                                             
+  punkti                                                          
+  -----------------------------------------------------------------------------
+
+2. Eduka pakkumuse valiku aluseks on majanduslik soodsus (parim hinna ja
+kvaliteedi suhe), mis selgitatakse välja väärtuspunktide omistamise
+meetodil hindamiskriteeriumide alusel. Kahe hindamiskriteeriumi lõikes
+omistatud väärtuspunktid summeeritakse. Väärtuspunkte omistatakse
+täpsusega kaks kohta pärast koma.
+
+3. Pakkumusi hinnatakse hankija poolt valitud vähemalt kolme sõltumatu
+hindaja poolt konsensuslikult. Hindajad lähtuvad hindamisel antud
+riigihanke alusdokumendis esitatud hindamismetoodikas kirjeldatud
+põhimõtetest ning esitavad hindamise põhjendatud tulemused kollektiivses
+protokollis, mis on kõigi hindajate poolt allkirjastatud.
+
+4. Hankija tunnistab edukaks kõikide hindamiskriteeriumite summana enim
+väärtuspunkte saanud pakkumuse. Võrdsete väärtuspunktidega pakkumuste
+korral tunnistatakse edukaks pakkumus, millele on omistatud „Arendus- ja
+hooldustööde ühe töötunni maksumus“ kriteeriumi eest suurim arv
+väärtuspunkte. Juhul, kui väärtuspunktid on võrdsed ka peale seda,
+korraldab hankija eduka pakkumuse väljaselgitamiseks liisuheitmise,
+võimaldades võrdselt väärtuspunkte saanud pakkumuse esitanud pakkujatel
+liisuheitmise juures viibida.
+
+5. Kui hankemenetluses on vastavaks tunnistatud ainult üks pakkumus,
+siis hankija võib omistada pakkumusele automaatselt maksimaalsed
+väärtuspunktid ning pakkumuse sisulist hindamist ei toimu.
+
+6. Arendus- ja hooldustööde ühe töötunni maksumus (käibemaksuta)
+(maksimaalselt 30 punkti)
+
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte (30 punkti).
+
+Teised pakkumused saavad punkte proportsionaalselt vähem ja arvutatakse
+valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") /
+"suurim väärtus" * "osakaal". Tulemus ümardatakse täpsusega kaks kohta
+peale koma.
+
+7. Proovitöö lahendus (maksimaalselt 70 punkti)
+
+Hindamise punkte antakse proovitöö lahenduste kõrvutamisel. Proovitöö
+lahendust hinnatakse punktidega 70, 35, 15, 1. järgnevalt:
+
+7.1. 70 punkti saab pakkumus, mis vastab üheaegselt kõigile
+alljärgnevatele tingimustele:
+
+a)  Pakutud lahendus:
+
+    a.  saadab töötajale kalendrikutse töötaja puhkuste/puudumiste kohta
+          ja töötajale jõuab see kalendrisse kohale;
+
+    b.  mitmepäevane puhkus saadetakse kalendrisse ühe tervikliku
+          perioodina;
+
+    c.  üks kutse sisaldab mitme puhkuse perioodi vastavalt
+          puhkusetaotluse andmetele;
+
+    d.  puhkuse kuupäevade muutmisel saadetakse kalendrikutse muudatuste
+          kohta;
+
+    e.  puhkuse tühistamise korral saadetakse tühistuskutse;
+
+    f.  puhkusetaotluste massikinnitamisel saadetakse kalendrikutsed
+          kõikidele taotluse vormistanud töötajatele;
+
+    g.  kalendrikutsed saadetakse puhkuse, selle muutmise või
+          tühistamise kinnitamise hetkel;
+
+    h.  puhkuste kinnitamise ebaõnnestumise korral jäävad kalendrikutsed
+          saatmata;
+
+    i.  kalendrikutse saadetakse töötajale tema e-posti aadressil, mis
+          on süsteemis olemas;
+
+    j.  kalendrikutse pealkiri on “Puhkus” või “Puudumine” ja
+          kuvamisviis “Kontorist väljas”;
+
+    k.  kalendrikutse hõivab kalendrist täis päeva;
+
+    l.  ajareserveering arvestab, mis ajavööndis töötaja töötab ning
+          saadab kutse õigetele kuupäevadele;
+
+    m.  kalendrikutsete saatmine on logitud.
+
+35 punkti saab pakkumus, milles on punktis 7.1. toodud
+hindamiskriteeriumite alusel üks kuni kaks puudust.
+
+15 punkti saab pakkumus, milles on punktis 7.1. toodud
+hindamiskriteeriumite alusel kolm kuni neli puudust.
+
+1 punkti saab pakkumus, milles on punktis 7.1. toodud
+hindamiskriteeriumite alusel rohkem kui neli puudust.

@@ -1,0 +1,118 @@
+Riigitöötaja iseteenindusportaali (RTIP) arendus- ja hooldustööd
+Viitenumber: 299277
+
+LISATEAVE
+1. Riigihanke osadeks jaotamine
+1.1. Hankija jätab hanke osadeks jaotamata ja sõlmib teenuse osutamiseks raamlepingu ühe
+pakkujaga, kuna tegemist on olemuslikult ühe infosüsteemi arendus- ja hooldustöödega,
+mistõttu ei ole selle osadeks jaotamine sisuliselt otstarbekas, sest vajadus kooskõlastada
+erinevate töölõikude töövõtjate tegevust võib tõsiselt ohustada lepingu nõuetekohast
+täitmist. Samuti raskendaks eri lepingupartnerite vahel arendus- ja hooldustööde
+jagamine tellija jaoks garantiiga seonduvaid küsimusi, kuna ei pruugi olla võimalik
+tuvastada vastutuse jaotust samas töölõigus eri lepingupartnerite vahel.
+2. Ühispakkumuse esitamine, välismaa äriühingu filiaali osalemine hankemenetluses ja
+teise ettevõtja vahenditele tuginemine
+2.1. Ühispakkumuse esitamisel nimetavad ühispakkujad riigihankega ning lepingu
+sõlmimise ja täitmisega seotud toimingute tegemiseks endi seast volitatud esindaja.
+2.2. Kui pakkumuse esitab välismaa äriühingu filiaal, siis tuleb hankepass esitada ka
+välismaa äriühingu kohta ja hankija kontrollib kõrvaldamise aluseid ka välismaa
+äriühingu suhtes.
+2.3. Tuginemisel teise isiku vahenditele peab esitama hankepassi ka isiku osas, kelle
+vahenditele tuginetakse.
+3. Pakkumus
+3.1 Pakkumus on konfidentsiaalne kuni pakkumuse edukaks tunnistamise otsuse
+tegemiseni. Pakkumuses sisalduvat teavet võib avalikustada üksnes riigihangete
+seaduses sätestatud juhtudel ja ulatuses. Pakkuja märgib pakkumuses, milline teave on
+pakkuja ärisaladus, ja põhjendab teabe ärisaladuseks määramist. Teabe ärisaladuseks
+määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse seaduse §
+5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida RHS § 461 lõikes 1
+sätestatud teavet. Hankija ei avalikusta pakkumuste sisu ärisaladusega kaetud osas.
+3.2 Pakkumus peab vastama riigihanke alusdokumentides sätestatud tingimustele,
+sisaldama nõutud dokumente ning olema vormistatud nõuetekohaselt. Pakkumuses
+esitatud andmed peavad olema esitatud viisil, mis võimaldavad hankijal kontrollida
+nende vastavust riigihanke alusdokumentides toodud tingimustele.
+3.3 Pakkumus tuleb esitada eesti keeles (v.a sertifikaadid, mis võivad olla esitatud inglise
+keeles). Dokumendi kohta, mis ei ole eesti või inglise keelne, tuleb koos
+originaaldokumendiga esitada tõlge eesti või inglise keelde. Tõlke korrektsuse eest
+vastutab pakkuja.
+4. Kõikide pakkumuste tagasilükkamise alused ja hankemenetluse kehtetuks
+tunnistamine
+4.1 Hankijal on õigus kõik esitatud või vastavaks tunnistatud pakkumused tagasi lükata igal
+ajal enne lepingu sõlmimist vastavalt RHS § 116 lõikes 1 sätestatule või kui eduka
+pakkumuse maksumus või kulu ületab riigihanke eeldatavat maksumust või
+alusdokumentides kindlaks määratud lepingu hinda või kulu. Kõigi pakkumuste
+tagasilükkamisel teeb hankija sellekohase põhjendatud otsuse.
+4.2 Hankija võib põhjendatud vajaduse korral omal algatusel hankemenetluse kehtetuks
+tunnistada. Põhjendatud vajaduseks võib olla eelkõige, kuid mitte ainult:
+4.2.1 kui tekib vajadus lepingu eset olulisel määral muuta;
+
+4.2.2
+4.2.3
+4.2.4
+4.2.5
+
+kui riigihanke läbiviimise aluseks olevad tingimused on oluliselt muutunud
+ja seetõttu osutub lepingu sõlmimine mittevajalikuks või võimatuks;
+kui hankemenetluses ilmnenud ebakõlasid ei ole võimalik kõrvaldada ega
+hankemenetlust seetõttu ka õiguspäraselt lõpule viia;
+kui vastavaks tunnistatakse ainult üks pakkumus, on hankijal õigus
+tunnistada hankemenetlus kehtetuks konkurentsi puudumise tõttu.
+hankemenetluse tulemusel sõlmitav leping kujutaks julgeolekuriski.
+
+5. Pakkumuse hindamine ja edukaks tunnistamine
+5.1 Vastavaks tunnistatud pakkumusi hindab hankija 100-väärtuspunkti süsteemis. Edukaks
+tunnistatakse majanduslikult soodsaim pakkumus riigihanke alusdokumentides toodud
+hindamiskriteeriumide alusel vastavalt hindamismetoodikas kirjeldatule.
+5.2 Võrdsete väärtuspunktidega pakkumuste korral tunnistatakse edukaks pakkumus,
+millele on omistatud „Arendus- ja hooldustööde ühe töötunni maksumus“ kriteeriumi
+eest suurim arv väärtuspunkte. Juhul, kui ka seejärel on väärtuspunktid võrdsed,
+tunnistatakse edukaks pakkumus, millele on omistatud „Proovitöö lahendus“
+kriteeriumi eest suurim arv väärtuspunkte. Juhul, kui väärtuspunktid on võrdsed ka
+peale seda, korraldab hankija eduka pakkumuse väljaselgitamiseks liisuheitmise,
+võimaldades võrdselt väärtuspunkte saanud pakkumuse esitanud pakkujatel
+liisuheitmise juures viibida. Kui riigihankes on vastavaks tunnistatud ainult üks
+pakkumus, siis omistatakse pakkumusele automaatselt maksimaalsed väärtuspunktid
+ning pakkumuse sisulist hindamist ei toimu
+5.3 Hankija ei arvesta majanduslikult soodsaima pakkumuse väljaselgitamisel olelusringi
+kulusid, kuna hankija tellib juba olemas ja kasutuses olevale infosüsteemile täiendavaid
+arendus- ja hooldustöid. Lepingu täitmise tulemusel ei teki uut iseseisvat infosüsteemi
+terviklahendust, mille käitamine eeldaks (märkimisväärsete) täiendavate kulutuste
+tekkimist nt riistvarale või erinevatele kaudsetele kuludele vmt ning mida saaks arvesse
+võtta ja lahendada käesoleva hankemenetluse raames.
+6. Muud sätted
+6.1 Riigihankes saavad pakkujate, taotlejate või isikutena, kelle näitajatele pakkuja või
+taotleja tugineb, osaleda ainult ettevõtjad, kelle elu- või asukoht on Eestis, mõnes muus
+Euroopa Liidu liikmesriigis, muus Euroopa Majanduspiirkonna lepinguriigis või
+Maailma Kaubandusorganisatsiooni riigihankelepinguga ühinenud riigis.
+6.2 Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2
+nimetatud alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile
+vms), tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga
+viidet, mille hankija teeb riigihanke alusdokumentides ostuallikale, protsessile,
+kaubamärgile, patendile, tüübile, päritolule või tootmisviisile, tuleb lugeda selliselt, et
+see on täiendatud märkega „või sellega samaväärne“.
+6.2.1. Kui pakkuja pakub tehnilises kirjelduses nimetatule samaväärset lepingu eset,
+tuleb teha sellekohane märge pakkumuses ning esitada koos pakkumusega
+samaväärsust tõendavad andmed, dokumendid jms.
+6.3 Riigihanke alusdokumendid on koostatud eesti keeles.
+6.4 Ühishankijad
+Riigi
+Tugiteenuste
+Keskus,
+Rahandusministeeriumi
+Infotehnoloogiakeskus ja Tallinna Strateegiakeskus, keda esitab volikirja alusel Riigi
+Tugiteenuste Keskus, sõlmivad eduka pakkujaga raamlepingu. Lepingu projekt on
+toodud riigihanke alusdokumentides.
+6.5 Pakkuja, kellel esineb vähemalt üks RHS § 95 lõike 1 punktides 1–3 ja RHS § 95 lõike 4
+punktides 2–11 nimetatud kõrvaldamise alustest, võib riigihankes esitada tõendid selle
+
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Sellisteks
+meetmeteks võivad olla näiteks süüteoga põhjustatud kahju hüvitamine või vastava
+kohustuse võtmine, uurimisasutustega aktiivse koostöö tegemine ja teo asjaolude
+põhjalik selgitamine või tehnilised ning organisatsiooni ja töötajatega seotud meetmed,
+mis võimaldavad edasisi süütegusid ära hoida. Hankija hindab esitatud tõendeid ja kui
+ta leiab, et nimetatud tõendid on piisavad pakkuja usaldusväärsuse tõendamiseks, ei
+kõrvalda hankija pakkujat sellekohase põhjendatud kirjaliku otsusega hankemenetlusest
+ja võib sõlmida lepingu pakkujaga, vaatamata kõrvaldamise aluse olemasolule. Hankija
+kohaldab heastamise korral RHS §-is 97 sätestatut.
+
+

@@ -1,0 +1,164 @@
+MEESKONNALIIKMETE CV
+
+  -----------------------------------------------------------------------
+  Roll                                Rolli täitev meeskonnaliige (nimi)
+  ----------------------------------- -----------------------------------
+  Projektijuht                        
+
+  Tarkvaraarhitekt                    
+
+  Analüütik                           
+
+  Programmeerija                      
+
+  Testija                             
+
+  Kasutajaliidese disainer            
+
+  SAP[1] ABAP[2] arendaja             
+  -----------------------------------------------------------------------
+
+*vajadusel lisada ridu
+
+Andmed meeskonnaliikmete kohta (andmed peab esitama kõikide
+meeskonnaliikmete osas vastavalt raamlepingu Lisas 1 sätestatud
+nõuetele)
+
+Ees- ja perekonnanimi: ____
+
+Spetsialisti roll: _____
+
+Töökogemus
+
+  --------------------------- -------------------------------------------
+  1. Ettevõtte nimi:          
+
+  Ajaperiood kuu täpsusega    
+  (alates-kuni):              
+
+  Ametikoha nimi:             
+
+  Töö sisu lühikirjeldus:     
+
+                              
+
+  2. Ettevõtte nimi:          
+
+  Ajaperiood kuu täpsusega    
+  (alates-kuni):              
+
+  Ametikoha nimi:             
+
+  Töö sisu lühikirjeldus:     
+  --------------------------- -------------------------------------------
+
+*vajadusel lisada ridu.
+
+Kogemus nõutud rollis
+
+  -----------------------------------------------------------------------
+  1. Projekti nimetus:             
+  -------------------------------- --------------------------------------
+  Tellija info (sh kontaktisiku    
+  nimi ja e-post):                 
+
+  Projekti kogumaht                
+  (inimtöötundides):               
+
+  Projekti meeskonna suurus        
+  (nõutav projektijuhi puhul)      
+
+  Projekti toimumise aeg kuu       
+  täpsusega (alates-kuni):         
+
+  Roll projektis:                  
+
+  Rollitäitja tööde teostamise     
+  aeg:                             
+
+  Rollitäitja poolt teostatud      
+  tööde maht (inimtöötundides):    
+
+  Teostatud tööde lühikirjeldus:   
+
+                                   
+
+  2. Projekti nimetus:             
+
+  Tellija info (sh kontaktisiku    
+  nimi ja e-post):                 
+
+  Projekti kogumaht (töötundides): 
+
+  Projekti meeskonna suurus        
+  (nõutav projektijuhi puhul)      
+
+  Projekti toimumise aeg           
+  (alates-kuni):                   
+
+  Roll projektis:                  
+
+  Rollitäitja tööde teostamise     
+  aeg:                             
+
+  Rollitäitja poolt teostatud      
+  tööde maht (inimtöötundides):    
+
+  Teostatud tööde lühikirjeldus    
+  -----------------------------------------------------------------------
+
+Üldised oskused ja täiendav töökogemus tööriistade, platvormide ja
+tehnoloogiate kasutamisel (andmed lisada vastavalt raamlepingu lisas 1
+rollile esitatud nõuetele):
+
+  ------------------------------------------------------------------------
+  Omandatud kogemuse  Kogemuse omandamise    Kinnitaja/tellija nimi ja
+  kirjeldus           periood (kuu           kontaktandmed
+                      täpsusega) ja projekti 
+                      andmed, lühikirjeldus  
+                      arvestades             
+                      meeskonnaliikmetele    
+                      esitatud nõuetes       
+                      sätestatut             
+  ------------------- ---------------------- -----------------------------
+                                             
+
+                                             
+
+                                             
+  ------------------------------------------------------------------------
+
+Käesolevaga kinnitab pakkuja, et:
+
+-   spetsialist on andnud nõusoleku ülalmainitud riigihanke lepingu
+    täitmisel osalemiseks;
+
+-   käesolevas CV-s esitatud andmed on õiged ning vastavad tõele;
+
+-   hankija võib kõiki spetsialisti kohta esitatud andmeid igal ajal
+    kontrollida;
+
+-   spetsialist valdab kõiki asjakohaseid riigihanke alusdokumentides
+    kirjeldatud nõutud tehnoloogiaid ja metoodikaid ning on nõus neid
+    järgima.
+
+Kinnitame, et spetsialistid vastab kõikidele alusdokumentides esitatud
+nõuetele.
+
+NB! Hankija tagab isikuandmete töötlemise õiguspärasuse ning vastavuse
+isikuandmete kaitse üldmääruses (EL 2016/679) ja teistes andmekaitse
+õigusaktides sätestatud nõuetele.
+
+Meeskonnaliimete andmete esitamine on vajalik sõlmitava raamlepingu
+korrektseks täitmiseks ning raamlepingu sõlmimisele eelneva riigihanke
+menetluse õiguspäraseks läbiviimiseks. Hankija nõuab riigihankes
+meeskonnaliikmete kohta andmete esitamist veendumaks meeskonnaliikmete
+vastavuses riigihanke alusdokumentides sätestatud tingimustele ja
+ettevõtja võimekuses täita korrektselt raamleping ning raamlepingu
+alusel sõlmitavaid hankelepinguid, mille vahetul täitmisel osalevad
+meeskonnaliikmed isiklikult. Hankija kasutab meeskonnaliikmete kohta
+käivaid andmeid üksnes riigihanke menetluses ning sõlmitavas lepingus.
+
+[1] SAP - Systems Applications & Products in Data Processing
+
+[2] ABAP - Advanced Business Application Programming

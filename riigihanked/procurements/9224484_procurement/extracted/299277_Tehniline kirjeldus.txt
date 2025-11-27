@@ -1,0 +1,342 @@
+Tehniline kirjeldus
+
+Riigihanke üldinfo
+
+Hankijaks/tellijaks on Riigi Tugiteenuste Keskus, registrikood 70007340
+(edaspidi RTK) ja Rahandusministeeriumi Infotehnoloogiakeskus,
+registrikood 70009244 (edaspidi RmIT).
+
+Lisaks osaleb hankes tulemite vastuvõtjana ja rahastajana Tallinna
+Strateegiakeskus, registrikood 75023817.
+
+Raamlepingu kestus on alates lepingu allkirjastamisest 48 kuud või kuni
+sätestatud maksimaalse maksumuse täitumiseni, sõltuvalt kumb tingimus
+täitub varem.
+
+Raamlepingu maksimaalne maksumus on 5 000 000 (viis miljonit) eurot,
+millele lisandub käibemaks.
+
+Hankelepingu sõlmimisel tööde teostamiseks pakutud tunnihind ei tohi
+olla kõrgem raamlepingu alusel kokkulepitud arendus- ja hooldustööde
+tunnihinnast.
+
+Raamleping sõlmitakse ühe pakkujaga ning tööd tellitakse raamlepingu
+partnerilt tellimuse alusel minikonkursse korraldamata.
+
+Riigihanke eesmärk
+
+Riigihanke eesmärk on tellida riigitöötaja iseteenindusportaali (RTIP)
+arendus- ja hooldustöid vastavalt hankija vajadustele, mis sisaldab nii
+otseste juhiste alusel hankelepingu täitmist (raamlepingu Lisas 1
+kajastatud meeskonnaliikme(te) arendusressursi töötundide tellimine) kui
+ka konkreetse tulemi tellimist hankelepingu alusel.
+
+Tööde põhieesmärgid, tulemid, ulatus, ajakava ja konkreetne maksumus
+fikseeritakse vastavalt tellijapoolsetele vajadustele ja prioriteetidele
+eraldi sõlmitavates hankelepingutes.
+
+Arendustöö all mõistetakse tarkvara loomeprotsessi, mis sisaldab
+muuhulgas projektijuhtimist, ärianalüüsi, süsteemianalüüsi, sh kolmanda
+osapoolte pakutavate lahenduste sobivuse hindamist, lahenduse disaini
+ning prototüübi loomist, programmeerimistöid/tarkvaraarendust, tarkvara
+testimist, andmete migreerimiseks vajalikke tegevusi, juurutamise
+tegevusi ja tuge ning teisi vastavaid tegevusi, mis on vajalikud
+püstitatud eesmärkide saavutamiseks, sõltumata sellest, kas tellija
+tellib neid tegevusi koos konkreetse terviktulemina või eraldi
+arendusressurssi töötundidena.
+
+Hooldustöö all mõistetakse teenust, mida osutatakse tarkvara
+garanteeritud omaduste säilitamiseks, parandamiseks või parendamiseks.
+Hooldusteenuse eesmärgiks on tagada infosüsteemi, millele hooldusteenust
+osutatakse, toimimine.
+
+Arendustöö ega hooldustöö ei sisalda infosüsteemi paigaldusele,
+tutvumisele ja toimimise selgitamisele kuluvat aega. Nimetatud tegevused
+ei kuulu arendustegevuse alla ning tellija nimetatud ajakulu ei tasusta.
+
+Arendus- ja/või hooldustööd osutab pakkuja poolt komplekteeritud
+projektimeeskond, mis peab vastama käesoleva riigihanke alusdokumentides
+(raamlepingu Lisa 1) sätestatud nõuetele.
+
+Töid teostava lepingupartneri meeskonnalt eeldatakse pühendumist ja
+valmidust töötada iseseisvalt agiilse arenduse tööpõhimõtete järgi.
+
+Täitja peab tagama, et täitja arendustegevustega paralleelselt säilib
+tellijal võimalus teostada riigitöötaja iseteenindusportaalis
+funktsionaalsuse ja tehnilise uuenduse raames arendustöid.
+
+Arendustööde teostamisel töötavad tellija ja täitja arendustiimid ühtse
+meeskonnana, mille eesmärk on tagada paralleelsete arendustööde
+ühilduvus ning tõrgeteta toimimine. Täitja vastutab vaid enda poolt
+teostatud tööde eest.
+
+Täitja programmeerija peab olema võimeline töötama tellijaga eesti
+keeles. Juhul, kui programmeerija puhul ei ole täidetud eesti keele
+oskuse nõue, tagab täitja omal kulul alalise tõlgi olemasolu suuliseks
+ja kirjalikuks suhtlemiseks vastava meeskonnaliikme ja tellija vahel.
+Tõlk peab olema kompetentne IT-tehnilise teksti tõlkimisel.
+
+Täitja tagab, et olemasoleva funktsionaalsuse muutmine ja uue
+funktsionaalsuse lisamine ei kahjusta riigitöötaja iseteenindusportaali
+teiste komponentide ja/või seotud funktsionaalsuste tööd.
+
+Arenduste tarnimine toimub pidevalt, täpsem tarneprotsess lepitakse
+kokku hankelepingu täitjaga.
+
+Tellija teostab täitja iga tarne puhul koodikvaliteedi kontrolli (nt
+Sonarqube, Trivy vms).
+
+Täitja tagab, et tarnitav(ad) arendustöö(d) on testitud ja veavabad ning
+loodud/muudetud funktsionaalsus vastab tellitule. Täitja kohustub
+teostama töid kvaliteetselt ja vajaliku hoolsuskohustusega ning üldiselt
+tunnustatud kutseoskuste tasemel. Tellija poolt töötundide vastuvõtmine
+ei vabasta täitjat vastutusest aktis kajastatud töös avastamata jäänud
+vigade või nende mittenõuetekohasuse eest, kui täitja ei ole järginud
+töötundide teostamisel vajalikku hoolsuskohustust või ei ole toiminud
+üldiselt tunnustatud kutseoskuste tasemel. Sellisel juhul kohustub
+täitja üleantud töös esinenud vastavad vead või puudused kõrvaldama omal
+kulul tellija poolt määratud mõistliku aja jooksul.
+
+Täitja peab arendustööde teostamisel arvestama mittefunktsionaalsete
+nõuete (ehk RFN nõuete) täitmisega. Kõik üleantavad arendustööd peavad
+vastama RmIT mittefunktsionaalsetele nõuetele (riigihanke alusdokument
+„RFN-2.9.0“).
+
+Funktsionaalsuse muutmise käigus peab pakkuja kasutajaliidese
+kujundamisel kasutama praegust rakenduse disaini.
+
+Täitja koostab dokumentatsiooni vastavalt RmIT dokumenteerimise nõuetele
+(vt riigihanke alusdokumenti „Üldised nõuded dokumenteerimisele“).
+
+Tarkvara põhjalikuks tutvumiseks vajaliku lähtekoodi väljastab hankija
+kokkupakitult .zip failina pärast hankest huvitatud isiku
+konfidentsiaalsuskohustuse vormi allkirjastamist. Taotlus lähtekoodi
+väljastamiseks koos digiallkirjastatud konfidentsiaalsuskohustuse
+vormiga tuleb esitada läbi riigihangete registri teabevahetuse lehe.
+Konfidentsiaalsuskohustuse vorm on lisatud hanke alusdokumentide juurde.
+Lähtekoodi saab pakkuja taotleda hiljemalt 6 päeva enne pakkumuste
+esitamist, hilisematele taotlejatele hankija lähtekoodi enam ei väljasta
+ja jätab taotluse läbi vaatamata ning pakkuja ei saa enam hankel
+osaleda.
+
+Riigitöötaja iseteenindusportaali taustainfo
+
+Riigiasutustes kasutatav riigitöötaja iseteenindusportaal
+(www.riigitootaja.ee) hõlmab endas asutuste töötajate isikuandmete,
+puhkuste, lähetuste, majanduskulude, varade ja koolituste haldamist.
+
+Portaal on tihedalt seotud majandustarkvaraga SAP: järgib SAPi
+modulaarset ülesehitust ja loogikat, kasutab SAPi klassifikaatoreid,
+impordib asutuste struktuurid, töötajad ja nende andmed SAPist,
+kinnitatud tulemid saadab automaatselt SAPi. Osa mooduleid kasutab ka
+otse SAPi andmebaasi andmete salvestamiseks.
+
+2025. aasta seisuga kasutab Riigitöötaja iseteenindusportaali umbes 200
+erineva asutuse 45 000 töötajat.
+
+Rakendusega liitunud asutuse töötajad saavad portaali kaudu:
+
+-   esitada oma puhkuse- või puudumistaotlust,
+
+-   esitada lähetustaotlust ja lähetuse kuluaruannet,
+
+-   esitada majanduskulude aruandeid enda poolt tehtud kulude
+    hüvitamiseks,
+
+-   esitada koolitustaotlus ja registreerida end asutuse poolt
+    pakutavatele koolitustele, anda koolituse kohta tagasisidet,
+
+-   hallata enda isiklikke andmeid, allkirjastada töölepingut ja
+    töölepingu lisa,
+
+-   saada ülevaadet enda kasutusel olevatest varadest.
+
+Portaalis esitatud taotlus läbib sealsamas ka kogu kooskõlastusringi ja
+kinnitatud andmed jõuavad automaatselt majandustarkvarasse SAP vältimaks
+andmete topelt sisestamist riigitöötaja iseteenindusportaalis ja SAPis.
+
+Lisaks on erinevate moodulite halduritel võimalik teha erinevaid mooduli
+spetsiifilisi toiminguid ning teha erinevaid päringuid sisestatud
+andmete ja genereeritud dokumentide kohta.
+
+Igal asutusel on rakenduse administreerimise keskkonnas võimalik
+seadistada asutuse sisekorrast tulenevaid ärireegleid ning töövooge ja
+lisada genereeritavate dokumentide malle.
+
+Portaali sisse logimiseks kasutatakse TARA autentimise lahendust ja
+erinevate moodulite poolt genereeritud dokumente saab digiallkirjastada
+SiGa lahenduse abil.
+
+Riigitöötaja iseteenindusportaali praeguse tehnilise lahenduse kirjeldus
+
+Op.süsteem: Enterprise RedHat
+
+Rakendusserver: Tomcat 9.0.104.0
+
+Andmebaas: PostgreSQL 16 Java 1.8
+
+Java arendusraamistik: Spring Framework.
+
+Skriptid: Javascript, Typescript, JSP.
+
+Liidestus: TARA, SiGa, Filetransfer, SMTP, SAP JCO 3.0.9, x-tee
+(Maa-ameti aadressiandmete register, Äriregister, Rahvastikuregister,
+EHIS).
+
+Projekti haldustööriist: Maven.
+
++-----------------------------+----------------------------------------+
+| Mikroteenus                 | Praegused versioonid                   |
++=============================+========================================+
+| RTIP Monolith (admin ja     | Backend: Spring Framework 4.3.30, Java |
+| public)                     | 1.8                                    |
+|                             |                                        |
+| RTIP Client                 | Frontend: JSP (Java Server Pages)      |
+|                             | 4.0.1                                  |
++-----------------------------+----------------------------------------+
+| RTIP Absences               | Backend: Spring Boot 2.5.8, Java 1.8.  |
+|                             |                                        |
+| RTIP Assets                 |                                        |
+|                             |                                        |
+| RTIP Assignements           |                                        |
+|                             |                                        |
+| RTIP Backdoor               |                                        |
+|                             |                                        |
+| RTIP Business-Rules         |                                        |
+|                             |                                        |
+| RTIP Emails                 |                                        |
+|                             |                                        |
+| RTIP Event Logs             |                                        |
+|                             |                                        |
+| RTIP Expenditures           |                                        |
+|                             |                                        |
+| RTIP external services      |                                        |
+|                             |                                        |
+| RTIP HR                     |                                        |
+|                             |                                        |
+| RTIP notifications          |                                        |
+|                             |                                        |
+| RTIP SAP adapter            |                                        |
+|                             |                                        |
+| RTIP SAP agent              |                                        |
+|                             |                                        |
+| RTIP secotrains             |                                        |
+|                             |                                        |
+| RTIP security               |                                        |
+|                             |                                        |
+| RTIP Vacations              |                                        |
++-----------------------------+----------------------------------------+
+| RTIP SAP GUI                | Backend: Spring Boot 2.5.8, Java 1.8   |
+|                             |                                        |
+|                             | Frontend: Angular 6.1.8                |
++-----------------------------+----------------------------------------+
+
+Tellija jätab endale õiguse uuendada ja/või täiendada olemasolevat
+tehnilist lahendust. Arendustöid puudutav tehnilise lahenduse uuendus
+ja/või täiendus kommunikeeritakse täitjaga eraldi vastavalt olukorrale.
+
+Riigitöötaja iseteenindusportaali arhitektuuri ülevaade
+
+RTIP on mikroteenuste põhine rakendus, mis koosneb kaheksast
+äriloogilisest põhimoodulist, kümnest abimoodulist ja kahest iseseisvast
+ajatatud tööde (taustatööd) moodulist.
+
+Portaal põhineb printsiibil Töölaud ning lisaks üks põhimoodul, s.t
+portaali toimimiseks on vaja Töölaua moodulit ja/või ühte põhimoodulit,
+mis pakuks ärifunktsionaalsust.
+
+Funktsionaalsus on eraldatud selliselt, et põhimoodulid omavahel ei
+sõltuks ning kui moodulid vajavad lisainfot, mis ei kuulu antud mooduli
+ärifunktsionaalsuse hulka, siis küsitakse/salvestatakse/uuendatakse seda
+läbi abimoodulite.
+
+Juurdepääsu moodulid:
+
+-   Töölaud (rtip-client)
+
+-   Avalik liides (rtip-public)
+
+-   Administreerimisliides (rtip-admin)
+
+Põhimoodulid
+
+-   Isikuandmed (rtip-hr)
+
+-   Puhkused (rtip-vacations)
+
+-   Lähetused ja koolitused (rtip-secotrains)
+
+-   Majanduskulud (rtip-expenditures)
+
+-   Varad (rtip-assets)
+
+Abimoodulid
+
+-   (Töölaua-) teated (rtip-notifications)
+
+-   Tööülesanded (rtip-assignments)
+
+-   Ärireeglid (rtip-business-rules)
+
+-   Puudumised (rtip-absences)
+
+-   Turva (rtip-security)
+
+-   Autoriseerimise server (ehk "Mock TARA" - testimise lihtsustamiseks;
+    rtip-backdoor)
+
+-   E-kirjad (rtip-emails)
+
+-   Sündmuste logi (rtip-event-log)
+
+-   Välised teenused (rtip-external-services)
+
+-   SAP adapter (sap-adapter)
+
+Ajatatud tööde (taustatööde) haldus ja manuaalne käivitamine
+
+-   SAP GUI (eesüsteem)
+
+-   SAP Agent (tagasüsteem)
+
+Riigitöötaja iseteenindusportaali arhitektuurijoonis on esitatud eraldi
+pildina alusdokumentide koosseisus (Tehnilise kirjelduse Lisa 1).
+
+Apache HTTP server + ETCD klient
+
+Moodulid paigaldatakse klastrisse ning liiklus käib läbi Apache HTTP
+serveri koormusjaoturi. (Tulevikus on plaanis kasutama hakata Apache
+HTTP serveri asemel Haproxy lahendust, kasutuselevõtu aeg on
+täpsustumisel.) Koormusjaoturi seadistuse loomiseks kasutatakse ETCD +
+ConfD. ETCD on võtme-väärtuse andmebaas ning ConfD mallipõhine mootor,
+millega saab genereerida erinevaid seadistusi nagu näiteks Apache HTTP
+koormusjaoturi seadistusfail. Lisaks on ConfD üsna hästi integreeritud
+ETCD-ga. Moodulid kasutavad ETCD-sse registreerimiseks RMIT loodud ETCD
+klienti, mille jaoks tuleb kirjeldada API lõpp-punkt või lõpp-punktid,
+mida soovitakse avaldada konkreetses koormusjaoturis (näiteks:
+masin-masin või klient-masin) ning sõltuvused teistest moodulitest.
+
+Avalike API-dega suheldakse läbi klient-masin koormusjaoturi ja omavahel
+suhtlevad moodulid läbi masin-masin koormusjaoturi.
+
+Lisaks automaatsele seadistusele:
+
+-   võimaldab ETCD klient seadistada sõltuvused staatiliste URL-dega,
+
+-   võimaldavad moodulid välja lülitada ETCD kliendi kasutamise ja
+    defineerida sõltuvuste URLid läbi mooduli seadistusfaili.
+
+Tehnilised nõuded
+
+-   Täitja peab arvestama RMITi mittefunktsionaalsetega nõuetega
+    (RFN-2.9.0) ja IT profiiliga (IT-profiil-2.9.0), mis on lisatud
+    käesoleva riigihanke alusdokumentide koosseisu.
+
+-   Nõuded arendustööde teostamisele on lisatud käesoleva riigihanke
+    alusdokumentide koosseisu.
+
+Tehnilise kirjelduse lisad:
+
+-   Lisa 1 - RTIP arhitektuurijoonis
+
+-   Lisa 2 – Nõuded arenduse teostamiseks.zip

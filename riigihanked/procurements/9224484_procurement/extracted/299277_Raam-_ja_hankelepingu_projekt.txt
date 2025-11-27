@@ -1,0 +1,2098 @@
+  RAAMLEPING NR ____________________
+
+Ühispakkujad Riigi Tugiteenuste Keskus (tellija 1), registrikood
+70007340, aadress Lõkke 4, Tallinn 10122, keda esindab
+________________________ ja Rahandusministeeriumi Infotehnoloogiakeskus
+(tellija 2), registrikood 70009244, Lõõtsa 8a, Tallinn 11415, keda
+esindab _______________________ (edaspidi ühiselt nimetatud tellija)
+ning Tallinna Strateegiakeskus, registrikood 75023817, asukoht Vabaduse
+väljak 7, Tallinn 15199, keda esindab volikirja alusel Riigi
+Tugiteenuste Keskus (edaspidi rahastaja) ja
+
+________, registrikood ________, aadress ________, keda esindab
+põhikirja alusel juhatuse liige ________ (edaspidi täitja või pakkuja
+või pool),
+
+ning keda ühiselt nimetatakse poolteks, on sõlminud käesoleva
+raamlepingu (edaspidi ka leping ja raamleping) alljärgnevas:
+
+1.  Lepingu dokumendid
+
+    1.  Lepingu dokumendid koosnevad lepingust, lepingu lisadest,
+        riigihanke „Riigitöötaja iseteenindusportaali (RTIP) arendus- ja
+        hooldustööd“, (viitenumber: 299277) alusdokumentidest, täitja
+        pakkumusest ja sõlmitavatest hankelepingutest (edaspidi
+        hankeleping).
+
+    2.  Lepingu allkirjastamisel on lepingul järgmised lisad:
+
+        1.  Lisa 1 - Nõuded lepingut täitma asuva projektimeeskonna
+            koosseisule
+
+        2.  Lisa 2 - Vormid hankelepingu sõlmimiseks
+
+        3.  Lisa 3 - Tööde üleandmise-vastuvõtmise akti vorm
+
+        4.  Lisa 4 - Tehniline kirjeldus sh
+
+            1.  Tehnilise kirjelduse Lisa 1 - RTIP arhitektuurijoonis;
+
+            2.  Tehnilise kirjelduse Lisa 2 – Nõuded arenduse
+                teostamiseks.zip
+
+2.  Lepingu objekt, eesmärk ja maksumus
+
+    1.  Lepingu objektiks on riigitöötaja iseteenindusportaali (RTIP)
+        arendus- ja hooldustööd (edaspidi ka töö või tööd, kui ei ole
+        nimetatud eraldi arendus- või hooldustöö), mida täitja kohustub
+        teostama lähtudes raamlepingu alusel sõlmitud hankelepingus
+        kokku lepitud tingimustest.
+
+    2.  Lepingu maksimaalne maksumus on 5 000 000 eurot (käibemaksuta).
+
+  2.3. Lepingu kehtivuse ajal kehtib täitja arendus- ja hooldustöö
+  tunnihind _________ eurot (käibemaksuta) maksimaalse piirhinnana.
+
+3.  Lepingu eesmärgiks on määrata kindlaks tingimused, kuidas toimub
+    lepingu kehtivuse ajal tellija ja täitja vahel hankelepingute
+    sõlmimine ning täitmine.
+
+4.  Täitja on lepingu esemeks olevate tööde tarkvaraarenduse valdkonna
+    professionaal, kes saab aru ning võtab teadlikult enda kanda lepingu
+    funktsionaalsete ja mittefunktsionaalsete nõuete täidetavuse ja
+    tulemuse saavutatavuse riski. Seega laieneb täitjale ka nende tööde
+    tegemise kohustus, mida ei ole hankelepingus otsesõnu kokku lepitud,
+    kuid mis oma olemusest lähtuvalt kuuluvad hankelepinguga seotud
+    tööde hulka, on vajalikud hankelepingu täitmiseks ja pidid olema
+    ettenähtavad täitjale kui professionaalile juba pakkumuse esitamise
+    ajal. Selliste tööde tegemine ei kuulu eraldi tasustamisele.
+
+5.  Pooled lähtuvad tööde tegemisel kiiruse, kvaliteedi, säästlikkuse ja
+    otstarbekuse põhimõtetest.
+
+3.  Hankelepingute sõlmimine raamlepingu alusel
+
+    1.  Raamlepingu alusel sõlmitavate hankelepingute sõlmimine toimub
+        vastavalt tellija vajadusele raamlepingu kehtivuse perioodil.
+        Tellimuse esitamisel määratakse, kas tellimuse esitab ja
+        hankelepingu sõlmib tellija 1 või tellija 2. Raamleping ilma
+        hankelepinguta ei kohusta tellijat täitjalt töid tellima.
+
+    2.  Tellijal on õigus hankelepinguga tellida ühe või mitme
+        meeskonnaliikme töötunde ja/või arendustöö tulemit ja/või
+        hooldustööd.
+
+    3.  Hankelepingu sõlmimiseks esitab tellija täitja kontaktisikule
+        kirjalikku taasesitamist võimaldavas vormis ettepaneku tööde
+        teostamiseks, milles vastavalt vajadusele ja hankelepingu
+        eesmärgile määratakse projektimeeskonna rollide arvestuslikud
+        töömahud, ajalised ja eelarvelised piirangud, üle antavad
+        tulemid, tööde loetelu, sisu jm olulised tingimused. Töötundide
+        tellimisel määrab tellija tehnilises kirjelduses või
+        töödejuhtimise tarkvaras maksimaalse rahalise või maksimaalse
+        töötundide mahu meeskonnaliime(te) lõikes või kogu meeskonnale.
+
+    4.  Täitja esitab punktis 3.3 nimetatud ettepaneku alusel kirjalikus
+        taasesitamis võimaldavas vormis pakkumuse 10 tööpäeva jooksul
+        ettepaneku saamisest va juhul, kui ettepanekus ei ole sätestatud
+        teistsugust tähtaega.
+
+    5.  Tellija võib vajadusel paluda täitjal oma pakkumust täiendada.
+
+    6.  Tellija ei ole kohustatud esitatud pakkumuse alusel
+        hankelepingut sõlmima. Kui tellija ei ole 14 tööpäeva jooksul
+        pakkumuse saamisest teavitanud selle sobivusest, loetakse
+        pakkumus tagasilükatuks.
+
+    7.  Tellija nõustumisel täitja esitatud pakkumusega sõlmivad pooled
+        hankelepingu (Lisa 2). Pooled ei alusta lepinguliste kohustuste
+        täitmist ega tee muid sõlmitavast hankelepingust tulenevaid
+        toiminguid enne hankelepingu sõlmimist. Tellimuse esitamisel
+        täpsustunud tellija sõlmib hankelepingu oma nimel ja vastutab
+        selle täitmise eest täitja suhtes iseseisvalt.
+
+    8.  Tellijal on õigus tellida töid lepinguväliselt, kui täitja ei
+        esita pakkumust või täitja kinnitab, et ta ei oleks võimeline
+        hankelepingut täitma ettepanekus toodud tingimustel.
+
+    9.  Allhanked:
+
+        1.  Juhul, kui täitja kavatseb sõlmida hankelepingu täitmiseks
+              allhankelepinguid, siis peab täitja pakkumuses välja tooma
+              hankelepingu osa suuruse ja töö kirjelduse, mille suhtes
+              täitja kavatseb sõlmida allhankelepinguid ja kavandatavad
+              alltöövõtjate andmed (nimed, kontaktandmed ja teabe nende
+              seaduslike esindajate kohta).
+
+        2.  Tellijal on õigus nõuda alltöövõtja asendamist juhul, kui
+              alltöövõtjal esinevad riigihangete seaduses sätestatud
+              kõrvaldamise alusedvõi kui plaanitakse kasutada
+              alltöövõtjat, kelle elu- või asukoht ei ole RHS § 3 p-s 2
+              nimetatud riigis (Eesti, mõni muu Euroopa Liidu
+              liikmesriik, muu Euroopa Majanduspiirkonna lepinguriik või
+              Maailma Kaubandusorganisatsiooni riigihankelepinguga
+              ühinenud riik).
+
+        3.  Täitja võib hankelepingu kehtivuse ajal pakkumuses nimetatud
+              alltöövõtjaid muuta või lisada vaid tellija kirjalikul
+              nõusolekul.
+
+        4.  Alltöövõtjate kasutamise korral jääb hankelepingu
+              nõuetekohase täitmise eest tellija ees vastutavaks täitja.
+
+4.  Tööde järelevalve
+
+    1.  Tööde järelevalveks toimuvad töökoosolekud.
+
+    2.  Töökoosolekud toimuvad vastavalt vajadusele, üldjuhul üks kord
+        nädalas, kui poolte vahel ei ole kokku lepitud teisiti.
+        Koosoleku kutsub kokku täitja. Vajadusel võib koosoleku kokku
+        kutsuda ka tellija. Töökoosolekuid protokollib täitja.
+
+    3.  Töökoosolekutel annab täitja ülevaate vähemalt alljärgnevatel
+        teemadel:
+
+        1.  tööde teostamise hetkeseis;
+
+        2.  eelnenud perioodi jooksul täitja poolt teostatud ning
+              järgnevasse perioodi planeeritud tööd;
+
+        3.  tellija tagasisidet ootavad tööd;
+
+        4.  planeeritud tarned;
+
+        5.  ilmnenud probleemid ja takistused;
+
+        6.  muu tellija poolt nõutud informatsioon.
+
+5.  Arendustööde tulemi tellimine, üleandmine ja vastuvõtmine
+
+    1.  Täitja lähtub arendustööde teostamisel tellija kehtestatud
+          nõuetest arendustööde teostamiseks.
+
+    2.  Arendustööde teostamiseks sõlmitakse hankeleping. Arendustöid
+          kirjeldatakse tellija töödejuhtimise tarkvaras loodud
+          tööpiletiga.
+
+    3.  Tellijal on õigus sõlmitava hankelepingu tehnilises kirjelduses
+        nõuda arendustööde vahetarneid, mille eesmärgiks on testida
+        tarnitavaid arendustöid enne nende üleandmist-vastuvõtmist.
+        Nimetatud vahetarnet ei loeta arendustööde üleandmiseks.
+        Vahetarne mittetähtaegsel teostamisel vastutab täitja
+        raamlepingu punktide 14.6 ja 14.7 alusel.
+
+    4.  Enne testimist võimaldava arendustöö üleandmist viib täitja läbi
+        arendustööde nõuetele vastavuse testid. Täitja esitab tellijale
+        kõik tema poolt läbiviidud testide tulemusena valminud
+        dokumendid.
+
+    5.  Arendustöö valmimise järgselt annab täitja selle tellijale üle
+        vastuvõtmiseks koos kõigi arendustöö suhtes läbiviidud testide
+        tulemustega ning arendustöö juurde kuuluva tehnilise ja muu
+        selle kasutamiseks ning haldamiseks vajaliku dokumentatsiooniga
+        e-posti teel või paigaldab selle tellija näidatud keskkonda.
+
+    6.  Täitja vastutab arendustöö juhusliku hävimise või kahjustumise
+        eest kuni arendustöö üleandmiseni tellijale.
+
+    7.  Enne arendustöö vastuvõtmist on tellijal õigus viia läbi
+        arendustöö nõuetele vastavuse testid. Tellija võib arendustöö
+        ülevaatamisele kaasata ja selleks kasutada kolmandaid isikuid,
+        kusjuures nii tellijal kui ka tema poolt kaasatud kolmandatel
+        isikutel on õigus täiendava tasu maksmiseta arendustöö või selle
+        vahetulemuse ülevaatamiseks kasutada kõiki selleks vajalikke
+        arendustöö või selle vahetulemusega seotud intellektuaalse
+        omandi õigusi.
+
+    8.  Kui arendustöö või selle osa ei läbi teste, viiakse otsekohe
+        pärast seda, kui täitja on teinud vajalikud korrektuurid testide
+        edukaks läbiviimiseks, läbi kordustestid samadel tingimustel.
+        Kui arendustöö ei läbi kordusteste, kohustub täitja tellija
+        nõudmisel hüvitama talle kordustestide läbiviimisega kaasnenud
+        kulud. Tellijal on õigus kordustestimise kulud tasaarvestada
+        täitjale väljamaksmisele kuuluva tasuga.
+
+    9.  Vastuvõtmiseks valmis arendustöö peab vastama raamlepingus ja
+        hankelepingus sätestatud tingimustele. Arendustöö etapi
+        vastuvõtmine tellija poolt ei tingi iseenesest ega kohusta
+        arendustöö kui terviku vastuvõtmist tellija poolt juhul, kui
+        arendustöö ei vasta tingimustele.
+
+    10. Arendustöö üleandmise kohta koostab täitja tööde
+        üleandmise-vastuvõtmise akti (edaspidi akt, Lisa 3).
+
+    11. Arendustöö üleandmine tellijale ei ole käsitatav selle
+        vastuvõtmisena tellija poolt. Vastuvõtmine tähendab tellija
+        poolt akti allkirjastamist, millega ta kinnitab, et arendustöö
+        vastab hankelepingu tingimustele.
+
+    12. Tellija võtab täitja poolt aktiga esitatud arendustöö vastu
+        allkirjastades akti või keeldub arendustöö vastuvõtmisest,
+        esitades täitjale puuduste kirjelduse ja määrates nende
+        kõrvaldamiseks mõistliku tähtaja.
+
+    13. Arendustöö vastuvõtmisest keeldumisest teatamise aeg on 14
+        tööpäeva alates akti esitamisest täitja poolt, kui hankelepingus
+        ei ole sätestatud teisiti. Tellija võib nimetatud tähtaega
+        pikendada, kui pikendamine on põhjendatud ning täitjal ei ole
+        põhjendamatult õigust pikendamisest keelduda. Kui tellija ei ole
+        tähtaja jooksul esitanud täitjale vastuväiteid puuduste
+        kirjeldusega või pikendanud tööde vastuvõtmise tähtaega,
+        loetakse arendustöö tellija poolt vastuvõetuks.
+
+    14. Puuduste kõrvaldamise kulud kannab täitja.
+
+    15. Parandatud töö üleandmine toimub nagu esmakordsel üleandmisel.
+
+    16. Juhul, kui täitja poolt üle antud puudustega arendustööd on
+        tellijal võimalik kasutada, on tellijal õigus töö vastu võtta
+        osaliselt. Sellisel juhul fikseeritakse poolte poolt aktis
+        tellija poolt vastuvõetud arendustööd ning tellija esitab
+        täitjale tuvastatud puuduste kirjeldused koos nende
+        kõrvaldamiseks määratud mõistliku tähtajaga.
+
+    17. Täitja poolt üle antud arendustööd, mida tellijal ei ole selles
+        olevate puuduste tõttu võimalik kasutada, ei loeta tähtaegselt
+        üle antuks ning tellijal on õigus nõuda sellise hankelepingu
+        rikkumise korral täitjalt leppetrahvi lepingus sätestatud korras
+        ja määrades.
+
+    18. Juhul, kui hankelepingus on kokku lepitud arendustööde etapiline
+        üleandmine- vastuvõtmine, siis ei mõjuta etapi vastuvõtmine
+        täitja kohustust täita kõiki hankelepingus ettenähtud kohustusi.
+
+    19. Juhul, kui täitja kasutas hankelepingu vahetul täitmisel
+        alltöövõtjaid, kajastab täitja alltöövõtjad ja nende poolt
+        teostatud arendustööde täpsed kirjeldused ning maksumused aktis.
+
+6.  Töötundide tellimine, üleandmine ja vastuvõtmine
+
+    1.  Töötundide tööajaarvestust peetakse tellija töödejuhtimise
+          tarkvaras. Tööajaarvestuse tingimused sätestatakse
+          hankelepingus.
+
+    2.  Hankelepingu täitmisel lähtuvad pooled agiilsest
+          arendusmetoodikast.
+
+    3.  Täitja lähtub arendustööde teostamisel tellija kehtestatud
+          nõuetest.
+
+    4.  Töid tellitakse ja teostatud töid kirjeldatakse tellija
+          töödejuhtimise tarkvaras loodud tööpiletis.
+
+    5.  Tellija kontaktisik suunab tööpiletis nimetatud töö täitmiseks
+          täitja kontaktisikule ning täitja täiendab pärast töö
+          teostamist tellija tööpiletit teostatud töö kirjeldusega.
+
+    6.  Üldjuhul töötatakse kahenädalaste tsüklitega. Pooled võivad
+        töökoosolekul muuta tsükli pikkust erinevalt eelnevalt toodust
+        (vajadusel ka 1-4 nädalat). Iga kokkulepitud tsükli lõpus
+        teostatakse vahetarne, mille eesmärgiks on testida tarnitud
+        arendustöid enne nende üleandmist-vastuvõtmist.
+
+    7.  Vahetarnet ei loeta tööde üleandmiseks. Vahetarne
+          mittetähtaegsel teostamisel vastutab täitja raamlepingu
+          punktide 14.6 ja 14.7 alusel.
+
+    8.  Enne testimist võimaldava töötundidega teostatud töö üleandmist
+        viib täitja läbi tööde nõuetele vastavuse testid. Täitja esitab
+        tellijale kõik tema poolt läbiviidud testide tulemusena valminud
+        dokumendid.
+
+    9.  Töötundide üleandmisega annab täitja tellijale üle teostatud töö
+        vastuvõtmiseks koos kõigi töö suhtes läbiviidud testide
+        tulemustega ning töö juurde kuuluva tehnilise ja muu selle
+        kasutamiseks ning haldamiseks vajaliku dokumentatsiooniga
+        e-posti teel või paigaldab selle tellija näidatud keskkonda.
+
+    10. Täitja vastutab üle antava töö juhusliku hävimise või
+        kahjustumise eest kuni selle üleandmiseni tellijale.
+
+    11. Enne töötundide vastuvõtmist on tellijal õigus viia läbi
+        üleantava töö nõuetele vastavuse testid. Tellija võib
+        ülevaatamisele kaasata ja selleks kasutada kolmandaid isikuid,
+        kusjuures nii tellijal kui ka tema poolt kaasatud kolmandatel
+        isikutel on õigus täiendava tasu maksmiseta üle antud töö või
+        selle vahetulemuse ülevaatamiseks kasutada kõiki selleks
+        vajalikke üleantud töö või selle vahetulemusega seotud
+        intellektuaalse omandi õigusi.
+
+    12. Kui üle antud töö või selle osa ei läbi teste, viiakse otsekohe
+        pärast seda, kui täitja on teinud vajalikud korrektuurid testide
+        edukaks läbiviimiseks, läbi kordustestid samadel tingimustel.
+        Kui üle antud töö ei läbi kordusteste, kohustub täitja tellija
+        nõudmisel hüvitama talle kordustestide läbiviimisega kaasnenud
+        kulud. Tellijal on õigus kordustestimise kulud tasaarvestada
+        täitjale väljamaksmisele kuuluva tasuga.
+
+    13. Täitja annab tellijale aktiga (Lisa 3) üle kokkulepitud
+        perioodil teostatud töötunnid. Akti esitamise regulaarsus
+        lepitakse kokku hankelepingus.
+
+    14. Aktiga üleandmine ei ole käsitatav töötundide vastuvõtmisena
+        tellija poolt. Vastuvõtmine eeldab tellija poolt akti
+        allkirjastamist, millega ta kinnitab, et töötunnid teostati
+        vastavalt hankelepingu tingimustele.
+
+    15. Tellija võtab täitja poolt aktiga esitatud töötunnid vastu ja
+        allkirjastab akti või keeldub vastuvõtmisest 14 tööpäeva jooksul
+        alates akti esitamisest täitja poolt, kui hankelepingus ei ole
+        sätestatud teisiti.
+
+    16. Töötundide vastuvõtmisest keeldumisel kohustub tellija esitama
+        täitjale aktis esinevate puuduste kohta vastuväite.
+
+    17. Tellija poolt töötundide vastuvõtmine ei vabasta täitjat
+        vastutusest aktis kajastatud töös avastamata jäänud vigade või
+        nende mittenõuetekohasuse eest, kui täitja ei ole järginud
+        töötundide teostamisel vajalikku hoolsuskohustust või ei ole
+        toiminud üldiselt tunnustatud kutseoskuste tasemel. Sellisel
+        juhul kohustub täitja üleantud töös esinenud vastavad vead või
+        puudused kõrvaldama omal kulul tellija poolt määratud mõistliku
+        aja jooksul.
+
+    18. Kui täitja ei nõustu tellija poolt tuvastatud vigade või
+        puuduste olemasoluga, on poolel õigus nõuda ekspertiisi
+        teostamist. Sel juhul tellib täitja puuduste või vigade
+        tuvastamiseks tellijaga kokkulepitud isikult ekspertiisi. Kui
+        ekspertiisi tulemusel ilmneb, et vastuvõtmisest keeldumine on
+        olnud põhjendamatu, hüvitab tellija täitjale ekspertiisikulud,
+        vastasel korral kannab ekspertiisikulud täitja. Kui ekspertiisi
+        tulemusel ilmneb, et tellija osundatud puudused või vead olid
+        osaliselt põhjendatud, hüvitab tellija täitjale ekspertiisikulud
+        proportsionaalselt põhjendatud puuduste või vigade osas
+        ekspertiisi kogukuludest, mille puudumist ekspertiis on
+        tuvastanud.
+
+7.  Hooldustöö tellimine, üleandmine ja vastuvõtmine
+
+    1.  Hooldustöid tellitakse ja teostatud töid kirjeldatakse tellija
+          töödejuhtimise tarkvaras loodud tööpiletis.
+
+    2.  Tellija kontaktisik suunab tööpiletis nimetatud töö täitmiseks
+          täitja kontaktisikule ning täitja täiendab pärast hooldustöö
+          teostamist tellija tööpiletit teostatud hooldustöö
+          kirjeldusega.
+
+    3.  Tööajaarvestust peetakse tellija töödejuhtimise tarkvaras.
+
+    4.  Tööajaarvestuse tingimused sätestatakse hankelepingus.
+
+    5.  Täitja annab tellija töödejuhtimise tarkvaras nimetatud
+        hooldustööde teostamiseks kulunud töötunnid üle aktiga (Lisa 3).
+        Akti esitamise regulaarsus lepitakse kokku hankelepingus.
+
+    6.  Tellija võtab täitja poolt aktiga teostatud töötunnid vastu ja
+        allkirjastab akti või keeldub vastuvõtmisest, esitades täitjale
+        puuduste kohta vastuväite 14 tööpäeva jooksul alates akti
+        esitamisest täitja poolt, juhul kui hankelepingus ei ole
+        sätestatud teisiti.
+
+    7.  Kui punktis 7.6 nimetatud tähtaja jooksul ei ole tellija
+        esitanud vastuväidet hooldustöödes esinevate puuduste
+        kirjeldusega, loetakse hooldustööd tellija poolt vastuvõetuks.
+        Juhul, kui tellija esitab täitjale osutatud hooldustööde kohta
+        vastuväite, annab ta täitjale mõistliku tähtaja puuduste
+        kõrvaldamiseks.
+
+    8.  Tellija poolt hooldustöö teostamiseks kulunud töötundide
+        vastuvõtmine ei vabasta täitjat vastutusest aktis kajastatud
+        töös avastamata jäänud vigade või nende mittenõuetekohasuse eest
+        ning täitja kohustub töös esinenud vastavad vead või puudused
+        kõrvaldama omal kulul mõistliku aja jooksul.
+
+    9.  Kui täitja ei nõustu tellija poolt tuvastatud vigade või
+        puuduste olemasoluga, on poolel õigus nõuda ekspertiisi
+        teostamist. Sel juhul tellib täitja puuduste või vigade
+        tuvastamiseks tellijaga kokkulepitud isikult ekspertiisi. Kui
+        ekspertiisi tulemusel ilmneb, et vastuvõtmisest keeldumine on
+        olnud põhjendamatu, hüvitab tellija täitjale ekspertiisikulud,
+        vastasel korral kannab ekspertiisikulud täitja. Kui ekspertiisi
+        tulemusel ilmneb, et tellija osundatud puudused või vead olid
+        osaliselt põhjendatud, hüvitab tellija täitjale ekspertiisikulud
+        proportsionaalselt põhjendatud puuduste või vigade osas
+        ekspertiisi kogukuludest, mille puudumist ekspertiis on
+        tuvastanud.
+
+8.  Täitja õigused ja kohustused
+
+    1.  Täitja kohustub tegema tööd kvaliteetselt ning vastavalt
+        pakkumuses kirjeldatud metoodikale ja/või tellija juhistele ning
+        kokkulepitud tingimustele.
+
+    2.  Täitja kohustub järgima hankelepingus kokku lepitud tööde
+        ajagraafikut ning andma tööd üle tähtaegselt.
+
+    3.  Täitja tagab tarkvara ühilduvuse tellija toodangukeskkonnaga, sh
+        tellija tarkvaraga juhul, kui ei ole kokku lepitud teisiti.
+        Täitja on kohustatud järgima vaid selliseid tellija
+        toodangukeskkonna nõudeid, mis on tellija poolt ette antud.
+
+    4.  Täitja lepingujärgsete kohustuste täitmine ei tohi tekitada
+        häireid tellija mistahes teiste liidestatud süsteemide
+        talitluses.
+
+    5.  Täitja ei muuda ilma tellija eelneva kirjaliku nõusolekuta
+        mistahes standardeid, liideseid, sideprotokolle jms.
+
+    6.  Täitja on kohustatud informeerima tellijat tööde teostamise
+        seisust ja võimaldama tellijal tutvuda tehtud töödega hiljemalt
+        järgmisel tööpäeval tellijalt vastava nõude saamisest.
+
+    7.  Täitja on kohustatud viivitamatult, kuid mitte hiljem kui kahe
+        tööpäeva jooksul alates vastavate asjaolude ilmnemisest, teatama
+        tellijale kirjalikku taasesitamist võimaldavas vormis selliste
+        asjaolude ilmnemisest, millised takistavad täitjat kohustuste
+        kohast täitmist, muuhulgas mõjutavad kvaliteedi saavutamist,
+        maksumust või omavad hankelepingu täitmisele muud ebasoodsat
+        mõju. Seejuures ei anna eelnimetatud juhtumeil
+        informeerimiskohustuse täitmine täitjale ilma poolte kirjaliku
+        kokkuleppeta automaatselt õigust ületada õigust ületada tööde
+        kogumaksumust, teostamise tähtaegu, mitte kinni pidada
+        hankelepinguga tööde suhtes kehtestatud kvaliteedinõuetest vms.
+
+    8.  Pärast tööde teostamist kohustub täitja tellija nõudmisel
+        tagastama või hävitama kõik tellijalt saadud elektroonilisel
+        kujul ja/või paberkandjal olevad tellija materjalid.
+
+    9.  Täitjal on õigus saada tellijalt tööde teostamiseks vajalikku
+        informatsiooni. Tellija vastutab informatsiooni ajakohasuse,
+        õigsuse ja täielikkuse eest.
+
+    10. Täitjal on õigus teha ettepanekuid, mis võimaldavad töid
+        paremini teha.
+
+    11. Täitja kohustub tagama, et tööde autor ei kasuta oma isiklikke
+        õigusi mitte mingil kujul hankelepinguga tellijale üle antud
+        autori varaliste õiguste piiramiseks, nende teostamise
+        takistamiseks, ega tööde tulemite õiguspärase kasutamise
+        takistamiseks.
+
+    12. Täitja kohustub tasuma omal kulul kõik hankelepingu täitmisega
+        seotud autori- ja mistahes iseloomuga muud tasud kolmandatele
+        isikutele.
+
+    13. Täitja peab tagama hankelepingu täitmisel kaasatavate
+        projektimeeskonna liikmete vastavuse raamlepingus toodud
+        nõuetele lähtudes järgnevast:
+
+        1.  Lepingu täitmiseks esitatud projektimeeskonna liikmete osas
+            võib täitja teha muudatusi ainult tellija eelneval
+            kirjalikul nõusolekul.
+
+        2.  Projektimeeskonna liikme asendamisel ja lisamisel peab olema
+            tagatud, et töid teostavad vähemalt riigihanke
+            alusdokumentides (raamlepingu Lisa 1) nõutud
+            kvalifikatsiooni ja kogemusega isikud.
+
+        3.  Projektimeeskonna liikme asendamise ja/või lisamise
+            põhjendatud taotlus peab olema täitja poolt esitatud
+            kirjalikku taasesitatavas vormis.
+
+        4.  Punktis 8.13.1 nimetatud tellija kirjalikku nõusolekut
+            täitja taotlusele käsitletakse poolte poolt lepingu
+            muudatusena projektimeeskonna liikmete koosseisu osas
+            kooskõlas riigihangete seaduse § 123 lõike 1 punktiga 2.
+
+        5.  Projektimeeskonna liikme muutmisega seotud kulud katab
+            täitja.
+
+        6.  Projektimeeskonda kaasatav isik ei pea vastama nõuetele, kui
+            lisanduva projektimeeskonna liikme kogemusele ei ole seatud
+            nõudeid (nt noorem-analüütik) või kui lisanduv isik on
+            kaasatud abitööjõuna või spetsiifilise eksperdina.
+            Käesolevas punktis nimetatud viisil projektimeeskonda
+            lisanduva isiku tööd tellija ei tasusta.
+
+        7.  Tellijal on õigus nõuda selle projektimeeskonna liikme
+            vahetamist, kelle töö ei vasta tellija õigustatud ootustele.
+            Nimetatud vahetuse nõue on tellijapoolne otsustus ning
+            täitja kohustub tagama projektimeeskonna liikme vahetuse
+            tellija teavituses märgitud tähtaja jooksul.
+
+9.  Tellija õigused ja kohustused
+
+    1.  Tellija kindlustab tema valduses oleva tööde teostamiseks
+        vajalikku informatsiooni sisaldava dokumentatsiooni
+        kättesaadavuse täitjale.
+
+    2.  Tellija tagab töö tegemiseks vajalike tellijapoolsete isikute
+        kättesaadavuse (intervjuud, töö läbivaatamine ja
+        aktsepteerimine, vastuvõtu testid jne).
+
+    3.  Tellijal on õigus tutvuda töö täitmisega ning nõuda täitjalt
+        selle kohta kirjalikke ja suulisi selgitusi.
+
+    4.  Tellijal on õigus teha ettepanekuid, mis võimaldavad töid
+        paremini teha.
+
+    5.  Tellija kohustub tähtaegselt menetlema täitja poolt esitatud
+        tööde üleandmise-vastuvõtmise akte.
+
+    6.  Tellijal on igal ajal õigus kontrollida projektimeeskonna
+        liikmetele esitatud nõuete täitmist.
+
+    7.  RmIT üldised ristfunktsionaalsed, mittefunktsionaalsed ja
+        tehnilised nõuded ning IT-profiil, millest tööde teostamisel
+        tuleb lähtuda, määratakse hankelepingus. Nimetatud dokumentide
+        uuenemise korral on tellijal õigus nõuda uuenenud nõuete
+        järgimist ka hankelepingu täitmisel keskel.
+
+10. Konfidentsiaalsus ja isikuandmed
+
+    1.  Pooled tagavad raam- ja hankelepingu täitmise käigus
+        teineteiselt ükskõik mis vormis saadud teabe (sh andmed,
+        isikuandmed, know-how) konfidentsiaalsuse ja ei anna seda edasi
+        ega võimalda sellele teabele juurdepääsu kolmandatele isikutele
+        ilma teise poole sellekohase selgesõnalise kirjaliku
+        nõusolekuta.
+
+        1.  Täitja kinnitab, et tema ega tema alltöövõtjad ei tohi
+              võimaldada juurdepääsu raam- ja hankelepingu täitmise
+              käigus neile teatavaks saanud teabele (sealhulgas, kuid
+              mitte ainult, andmetele, lähtekoodile, dokumentatsioonile
+              jms) ühelegi füüsilisele ega juriidilisele isikule
+              järgmiste riikide territooriumil(e):
+
+            1.  Armeenia Vabariik;
+
+            2.  Aserbaidžaani Vabariik;
+
+            3.  Hiina Rahvavabariik (sh Hongkong ja Macau
+                erihalduspiirkonnad);
+
+            4.  Iraani Islamivabariik;
+
+            5.  Kasahstani Vabariik;
+
+            6.  Kirgiisi Vabariik;
+
+            7.  Korea Rahvademokraatlik Vabariik;
+
+            8.  Tadžikistani Vabariik;
+
+            9.  Türkmenistan;
+
+            10. Usbekistani Vabariik;
+
+            11. Valgevene Vabariik;
+
+            12. Venemaa Föderatsioon.
+
+        2.  Kui täitja või alltöövõtja poolt raam- või hankelepingut
+              täitev isik, kellel on juurdepääs raam- või hankelepingu
+              täitmise raames töödeldavatele andmetele, kavandab
+              viibimist mõnes punktis 10.1.1. nimetatud riigis, on
+              täitja kohustatud tellijat sellest eelnevalt kirjalikult
+              teavitama ning tagama, et nimetatud riigis viibimise ajal
+              ei ole vastaval isikul teabele juurdepääsu.
+
+    2.  Täitja kohustub mitte edastama ega viima raam- ja hankelepingu
+        täitmise käigus ükskõik mis vormis saadud teavet (sh andmed,
+        isikuandmed, know-how) väljapoole Euroopa Liidu liikmesriikide
+        ja Euroopa Majandusühendusse kuuluvate riikide territooriumit
+        ilma tellija sellekohase selgesõnalise kirjaliku nõusolekuta.
+
+    3.  Täitja kohustub kasutama ja töötlema raam- ja hankelepingu
+        täitmise käigus tellijalt ükskõik mis vormis saadud teavet
+        (andmed, isikuandmed, know-how) üksnes vastava hankelepingu
+        täitmiseks ja tellija juhiste alusel, välja arvatud juhul, kui
+        täitja on kohustatud teavet töötlema täitja suhtes kohalduva
+        õiguse alusel. Viimati nimetatud juhul teavitab täitja tellijat
+        vastava kohustuse olemasolust enne teabe töötlemist, kui selline
+        teavitamine ei ole olulise avaliku huvi tõttu täitja suhtes
+        kohalduva õigusega keelatud.
+
+    4.  Pooled võimaldavad juurdepääsu konfidentsiaalsele teabele ainult
+        nendele isikutele, kellel on selleks oma tööga seotud ülesannete
+        täitmiseks vajadus ning tagavad, et need isikud on teadlikud ja
+        järgivad isikuandmete töötlemisalaseid nõudeid ja õigusakte, nad
+        on saanud asjakohase koolituse eelnimetatud nõuete kohta, on
+        võtnud endale konfidentsiaalsuskohustuse või neile kehtib
+        asjakohane seadusest tulenev konfidentsiaalsuskohustus.
+
+    5.  Pooled täidavad kõiki kehtivaid isikuandmete töötlemisalaseid
+        nõudeid, andmete turvalisust puudutavaid ning isikuandmete
+        kaitse alaseid Euroopa Liidu ja Eesti Vabariigi õigusakte ja
+        muid eeskirju.
+
+    6.  Täitja kohustub rakendama järgmisi organisatsioonilisi,
+        füüsilisi ja infotehnilisi turvameetmeid teabe kaitseks
+        juhusliku või tahtliku volitamata muutmise, juhusliku hävimise
+        ja tahtliku hävitamise eest ning õigustatud isikule andmete
+        kättesaadavuse takistamise eest, volitamata töötlemise, sh
+        avalikustamise eest:
+
+        1.  vältima kõrvaliste isikute ligipääsu isikuandmete
+              töötlemiseks kasutatavatele seadmetele;
+
+        2.  ära hoidma andmete omavolilist lugemist, kopeerimist ja
+              muutmist andmetöötlussüsteemis, samuti andmekandjate
+              omavolilist teisaldamist;
+
+        3.  ära hoidma isikuandmete omavolilist salvestamist, muutmist
+              ja kustutamist ning tagama, et tagantjärele oleks võimalik
+              kindlaks teha, millal, kelle poolt ja milliseid
+              isikuandmeid salvestati, muudeti või kustutati või millal,
+              kelle poolt ja millistele isikuandmetele
+              andmetöötlussüsteemis juurdepääs saadi;
+
+        4.  tagama, et igal andmetöötlussüsteemi kasutajal oleks
+              juurdepääs ainult temale töötlemiseks lubatud
+              isikuandmetele ja temale lubatud andmetöötluseks;
+
+        5.  tagama andmete olemasolu isikuandmete edastamise kohta:
+              millal, kellele ja milliseid isikuandmeid edastati ning
+              samuti selliste andmete muutusteta säilimise;
+
+        6.  tagama, et isikuandmete edastamisel andmesidevahenditega ja
+              andmekandjate transportimisel ei toimuks isikuandmete
+              omavolilist lugemist, kopeerimist, muutmist ja/või
+              kustutamist.
+
+    7.  Tellijal on õigus nõuda täitjalt infoturbealast infot ja
+        dokumentatsiooni ning saada juurdepääs infoturbega seotud
+        audittulemustele.
+
+    8.  Täitja kohustub teavitama tellijat toimunud või põhjendatult
+        kahtlustatavast punktis 10.1 ja/või 10.2 sätestatud
+        konfidentsiaalsuskohustuse rikkumisest ning punktis 10.6
+        sätestatud turvameetmete rikkumisest, mis põhjustab, on
+        põhjustanud või võib põhjustada edastatavate, salvestatud või
+        muul viisil töödeldavate isikuandmete juhusliku või
+        ebaseadusliku hävitamise, kaotsimineku, muutmise või loata
+        avalikustamise või neile juurdepääsu, kirjalikult viivitamata,
+        kuid mitte hiljem kui 24 tundi pärast sellest teada saamist.
+        Tellijal õigus saada CERT-EElt täielikku infot käesolevas
+        punktis viidatud turvaintsidentide kohta.
+
+    9.  Punktis 10.8 nimetatud teates tuleb:
+
+        1.  kirjeldada rikkumise laadi;
+
+        2.  teatada kontaktpunkt, kust saab lisateavet;
+
+        3.  soovitada meetmeid rikkumise võimalike negatiivsete mõjude
+              leevendamiseks;
+
+        4.  kirjeldada täitja või kolmandast isikust alltöötleja poolt
+              välja pakutud või võetud meetmeid rikkumisega
+              tegelemiseks.
+
+    10. Juhul kui punktis 10.8 nimetatud rikkumine puudutab
+        isikuandmeid, siis tuleb lisaks:
+
+        1.  kirjeldada puudutatud andmesubjektide liike ja arvu ning
+              puudutatud kirjete liike ja arvu;
+
+        2.  teatada andmekaitse töötaja nimi ja tema kontaktandmed;
+
+        3.  kirjeldada (isikuandmetega seotud) rikkumise tõttu
+              andmesubjektidele tekkivaid tagajärgi ja potentsiaalseid
+              ohte;
+
+        4.  esitada muud teavet, mis on mõistlikult nõutav, et tellija
+              saaks täita kohaldatavaid andmekaitse õigusakte,
+              sealhulgas riigiasutustega seotud teavitamise ja
+              avaldamise kohustusi, näiteks teavet, mis on nõutav
+              andmesubjekti tuvastamiseks.
+
+    11. Täitja kohustub tellija nõudmisel lõpetama punktis 10.8
+        nimetatud rikkumise ja kohaldama meetmeid (isikuandmetega
+        seotud) rikkumise lahendamiseks, sh vajaduse korral rikkumise
+        võimaliku kahjuliku mõju kõrvaldamiseks või leevendamiseks.
+
+    12. Täitja kohustub raam- ja hankelepingust tulenevate kohustuste
+        lõppemisel kustutama kõik talle vastava lepingu täitmisel
+        teatavaks saanud isikuandmed ja nimetatute koopiad ning tellija
+        poolt elektrooniliselt ja paberkandja kujul edastatud andmed ja
+        materjalid (sh nende koopiad, väljavõtted jms), mis olid
+        vajalikud töö teostamiseks 5 kalendripäeva jooksul, v.a juhul,
+        kui poolte kokkuleppest või õigusaktidest tuleneb teisiti.
+
+    13. Täitja kohustub tegema tellijale kättesaadavaks kogu teabe, mida
+        tellija peab vajalikuks lepingus sätestatud
+        konfidentsiaalsuskohustuste täitmise tõendamiseks.
+
+    14. Täitja kohustub abistama võimaluse piires asjakohaste tehniliste
+        ja korralduslike meetmete abil tellijat täita tellija kohustust
+        vastata taotlustele andmesubjekti õiguste teostamiseks ning
+        teostada nende õiguste teostamisest tulenevaid toiminguid
+        (andmete parandamine, sulgemine, kustutamine).
+
+    15. Konfidentsiaalsuse nõue ei laiene teabe avaldamisele poolte
+        audiitoritele ja advokaatidele. Enne teabe avaldamist on pool
+        kohustatud teist poolt avaldamise kavatsusest teavitama.
+
+    16. Lepingus sätestatud konfidentsiaalsuskohustuse nõue on tähtajatu
+        ning kehtib nii raam- ja/või hankelepingu täitmise ajal kui ka
+        pärast nende lõppemist.
+
+    17. Tulenevalt konfidentsiaalse informatsiooni laadist on tellijal
+        õigus seada täiendavaid nõudeid ja/või juhiseid isikuandmete
+        töötlemiseks.
+
+    18. Kõik eelnimetatud kohustused kehtestab täitja kõikidele
+        kolmandatele isikutele, keda ta kasutab oma lepingujärgsete
+        kohustuste täitmisel. Kolmas isik on füüsiline või juriidiline
+        isik või riigi- või kohaliku omavalitsuse asutus, kes ei ole ei
+        tellija ega täitja.
+
+    19. Tellijal on õigus põhjendatud vajadusel viia töid teostava(te)
+        projektimeeskonna liikmete osas läbi taustakontroll, mis võib
+        sisaldada muuhulgas täiendava informatsiooni kogumist avalikest
+        ja mitteavalikest andmebaasidest (sh karistusregistrist,
+        äriregistrist) ning järelepärimisi pädevatele asutustele.
+
+    20. Täitja on kohustatud informeerima oma projektimeeskonna liikmeid
+        võimaliku taustakontrolli teostamise vajadusest.
+
+    21. Taustakontrolli läbiviimiseks on täitjal kohustus esitada
+        tellijale vastava projektimeeskonna liikme kirjalik nõusolek.
+        Tellija nõudmisel edastab täitja antud nõusoleku hiljemalt 2
+        tööpäeva jooksul. Juhul, kui täitja ei edasta nimetatud aja
+        jooksul nõusolekut, on tellijal õigus keelata vastava
+        projektimeeskonna liikme osalemine töö teostamisel.
+
+    22. Kui taustakontrolli tulemusena teatavaks saanud informatsiooni
+        kohaselt ei ole projektimeeskonna liige sobilik tellija tööd
+        teostama, on tellijal õigus keelata vastava projektimeeskonna
+        liikme osalemine töö teostamisel. Lähtuvalt saadud
+        informatsiooni tundlikkusest, ei ole täitjal õigus nõuda
+        nimetatud keeldumise osas selgitusi, sh taustakontrolli andmete
+        avaldamist.
+
+    23. Juhul, kui projektimeeskonna liige ei nõustu taustakontrolliga
+        või ei osutu selle tulemusena tellijale sobivaks, kohustub
+        täitja tagama antud projektimeeskonna liikme kohese vahetamise.
+        Nimetatud põhjusel projektimeeskonna liikme vahetamine ei ole
+        aluseks töö teostamise tähtaja muutmiseks.
+
+11. Intellektuaalse omandi õigused ja nende kasutamine
+
+    1.  Hankelepingu allkirjastamisega kinnitavad pooled, et neile
+        kuuluvad hankelepingu täitmiseks vajalikud varalised
+        autoriõigused, litsentsid ja muud intellektuaalse omandi
+        õigused, mis on tarvilikud lepingujärgse töö täielikuks
+        teostamiseks ja loovutamiseks käesolevas lepingus toodud
+        ulatuses ning, et nende suhtes ei ole kolmandatel isikutel
+        nõudeid. Pooled kinnitavad, et on võtnud tarvitusele kõik
+        meetmed autori isiklike õiguste realiseerimiseks viisil, mis ei
+        takista ega raskenda teose kasutamist ja autori varaliste
+        õiguste teostamist.
+
+    2.  Pool kohustub lahendama kõikvõimalikud tööga seotud
+        intellektuaalse omandi õigustest tekkivad vaidlused kolmandate
+        isikute või oma töötajate või koostööpartneritega. Juhul, kui
+        eeltoodust tekib tellijale rahaline või muu kohustus või juhul,
+        kui tellija on kohustatud lõpetama hankelepingu alusel teostatud
+        ja vastuvõetud töö kasutamise, on täitja kohustatud tellija
+        nõudmisel täitma selle rahalise või muu kohustuse ja/või looma
+        samaväärse tulemi tasuta ning võimalikult lühikese aja jooksul,
+        hoidudes mistahes viivitustest tulemi arendamises,
+        kasutuselevõtmises ja kasutamises tellija poolt.
+
+    3.  Tellija annab täitjale tööde teostamise ajaks üleilmse
+        lihtlitsentsi tellijale kuuluva tarkvara varaliste õiguste
+        kasutamiseks ning täitja poolt teostatud tööde tellijale tagasi
+        litsentsimiseks käesolevas lepingus sätestatud tingimustel.
+
+    4.  Täitja loovutab tellijale tehtud tööde varalised õigused. Töö
+        või selle etapi autori varalised õigused lähevad tellijale üle
+        töö või selle etapi vastuvõtmise hetkest.
+
+    5.  Täitja annab tellijale tehtud tööde osas tagasivõetamatu
+        ainulitsentsi autori isiklikele õigustele koos all-litsentsi
+        andmise õigusega tööde või selle etapi vastuvõtmise hetkest.
+        Nimetatud õigused kehtivad kogu autoriõiguste kehtivuse aja ja
+        kasutamise territooriumiks on kogu maailm.
+
+    6.  Täitja kohustub õiguseid, mida ei saa üle anda ja litsentsida,
+        teostama viisil, mis ei takistaks tellijal tema varaliste
+        õiguste teostamist.
+
+    7.  Tellija annab täitjale garantiiperioodi kehtivuse ajaks üleilmse
+        lihtlitsentsi tarkvara varaliste õiguste kasutamiseks tellijaga
+        kokkulepitud garantiitööde teostamiseks ning tellijale lepingus
+        sätestatud tingimustel tuletatud teoste tagasi litsentsimiseks.
+
+    8.  Pooled annavad üle ja võtavad vastu raam- ja/või hankelepingus
+        nimetatud intellektuaalse omandi õigused ilma, et selleks oleks
+        vaja teha täiendavaid tahteavaldusi või sõlmida täiendavaid
+        lepinguid, isegi juhul, kui vastavad õigused tekivad või lähevad
+        üle tulevikus. Täitja on kohustatud väljastama kirjaliku
+        kinnituse tellijale eelnimetatud õiguse üleandmise või
+        litsentsimise kohta seitsme kalendripäeva jooksul alates
+        tellijalt vastava nõude saamisest.
+
+    9.  Tellija võib vastuvõetud töö autoriõigusi teostada mistahes
+        olemasolevas või hiljem loodud keskkonnas, toel või formaadis.
+
+    10. Hankelepingu täitmisel kolmandatele isikutele kuuluvate
+        komponentide (tarkvara) kasutamise osas juhinduvad pooled nende
+        kasutamise litsentsitingimustest. Täitja kinnitab, et eelistab
+        töö teostamisel selliseid kolmandatele isikutele kuuluvaid
+        komponente, mille kasutamine ei too tellijale kaasa täiendavaid
+        litsentsitasusid või piiranguid tarkvara kasutamisel (v.a juhul,
+        kui nimetatud komponentide kasutamine on ette nähtud täitja
+        pakkumuses).
+
+    11. Täitja võib kasutada töö teostamiseks kolmandatele isikutele
+        kuuluvaid komponente vaid tellija eelneval kirjalikul
+        nõusolekul. Kirjaliku nõusoleku taotlemisel on täitja kohustatud
+        esitama tellijale litsentsi hinna, litsentsitingimused ja andmed
+        lähtekoodi kättesaamise võimaluse kohta.
+
+    12. Tasu intellektuaalse omandi õiguste tellijale ülemineku ja
+        litsentside eest sisaldub hankelepingu maksumuses ning täitjal
+        ei ole õigust nõuda täiendavat tasu nende õiguste üleandmise ega
+        litsentsimise eest (sh hankelepingu sõlmimise ajal tundmatute
+        kasutusviiside lubamise eest tulevikus).
+
+    13. Pooled võivad kokku leppida intellektuaalse omandi õiguste
+        tingimustes, mis erinevad käesolevas lepingus toodud
+        tingimustest. Sellisel juhul sätestatakse intellektuaalse omandi
+        õiguste ja tingimused hankelepingus.
+
+    14. Lepinguga reguleerimata autoriõiguse küsimustes lähtutakse Eesti
+        Vabariigis kehtivatest autoriõigusealastest õigusaktidest.
+
+    15. Töötundide tellimisel loetakse käesolevas punktis nimetatud töö
+        mõistet kui hankelepingu raames teostatud tegevuse tulemit.
+
+    16. Omandiõigus teostatud tööle või töötundide alusel teostatule
+        täitjalt tellijale läheb üle töö või töötundide vastuvõtmise
+        hetkest, kui hankelepingus ei ole kokku lepitud teisiti. Juhul,
+        kui hankelepingu alusel tellitavate tööde tasujaks on
+        raamlepingus nimetatud rahastaja, siis lähevad tööde/töötundide
+        vastuvõtmisel intellektuaalse omandi õigused üle rahastajale.
+
+12. Raamlepingu jõustumine, muutmine ja lõppemine
+
+    1.  Raamleping jõustub poolte poolt allkirjastamisest ja kehtib 48
+        kuud või kuni punktis 2.2 sätestatud maksimaalse maksumuse
+        täitumiseni, sõltuvalt kumb tingimus täitub varem.
+
+    2.  Pooltel on õigus raamlepingu muutmises kokku leppida üksnes
+        riigihangete seaduses ettenähtud juhtudel.
+
+    3.  Raamlepingu alusel sõlmitavad hankelepingud on tähtajalised,
+        kuid nende kehtivuse aeg ei ole piiratud raamlepingu
+        kehtivusega.
+
+    4.  Pooltel on õigus raam- ja/või hankeleping erakorraliselt üles
+        öelda või taganeda etteteatamata järgmistel juhtudel:
+
+        1.  teine pool on toime pannud olulise lepingurikkumise ega ole
+              rikkumist kõrvaldanud või heastanud 30 kalendripäeva
+              jooksul kannatanud poolelt vastava nõude saamisest
+              arvates;
+
+        2.  teine pool on näidanud üles kavatsust raam- ja/või
+              hankelepingut oluliselt rikkuda ega ole vastava lepingu
+              täitmist taganud kannatanud poolelt nõudes märgitud
+              tähtaja jooksul;
+
+        3.  vääramatu jõu asjaolude tõttu on poole hankelepingust
+              tulenevate kohustuste täitmine takistatud enam kui 60
+              kalendripäeva jooksul;
+
+        4.  pool on kahjustanud raam- ja/või hankelepingu pinnalt
+              tekkinud erimeelsuste või vaidluste lahendamisel teise
+              poole mainet meedia kaudu.
+
+        5.  konfidentsiaalsuskohustuse rikkumisel.
+
+13. Tasu
+
+    1.  Hankelepingu alusel teostatud tööde eest tasumine toimub:
+
+        1.  tulemi tellimisel pärast tööde nõuetekohast lõpetamist ja
+              vastuvõtmist;
+
+        2.  töötundide tellimisel pärast töötundide teostamist ja
+              vastuvõtmist hankelepingus kokkulepitud regulaarsusega;
+
+        3.  hooldustööde tellimisel pärast hooldustöö osutamist ja
+              vastuvõtmist hankelepingus kokkulepitud regulaarsusega.
+
+    2.  Arve esitamise aluseks on akti (Lisa 3) allkirjastamine tellija
+        poolt.
+
+    3.  Tellija tasub täitja esitatud arve 21 kalendripäeva jooksul arve
+        saamisest, kui hankelepingus ei ole kokku lepitud teisiti.
+
+    4.  Täitja esitab tellijale arve e-arvena. Arvele tuleb märkida
+        riigihanke viitenumber 299277, 15-kohaline lepinguosa
+        viitenumber (leitav riigihangete registrist lepingu juurest) ja
+        tellija ja täitja kontaktisikute andmed.
+
+    5.  Täitja, kes ei ole registreeritud Eestis, saab arve esitada
+        e-arvena üle-Euroopalise elektrooniliste dokumentide ja
+        e-arvelduse võrgustiku PEPPOL kaudu või PDF-vormingus tellija
+        kontaktisiku e-posti aadressile. Arvel tuuakse välja:
+
+        1.  summa eurodes;
+
+        2.  rahvusvahelise makse teostamiseks vajalikud
+              korrespondentpanga andmed;
+
+        3.  hankelepingu number;
+
+        4.  hanke 15-kohaline lepinguosa viitenumber.
+
+    6.  Hankelepingu alusel teostatud tööde eest võib tasuda ka
+        raamlepingus nimetatud rahastaja, kes ei ole hankelepingus
+        tellija. Sellisel juhul sõlmitakse hankeleping kolmepoolselt
+        tellimuse esitamisel täpsustunud tellija (tellija 1 või tellija
+        2), täitja ja rahastaja vahel ning selles sätestatakse
+        tasustamise täpsemad tingimused. Rahastaja lisamisel
+        hankelepingusse loetakse rahastaja õigusteks ja kohustusteks
+        raamlepingust tulenevad töö eest tasumisega seotud tellija
+        õigused ja kohustused.
+
+14. Vastutus
+
+    1.  Pooled vastutavad oma raam- ja hankelepingust tulenevate
+        kohustuste rikkumise eest, kui rikkumine on põhjustatud
+        süüliselt. Pool on kohustatud hüvitama raam- ja/või
+        hankelepinguga võetud kohustuste täitmata jätmise või
+        mittekohase täitmisega teisele poolele tekitatud kahju.
+
+    2.  Täitja vastutab töö teostamise, selle kvaliteedi,
+        terviklahenduse rakendatavuse, otstarbekuse, töötulemuste õige
+        kajastamise ja hanke alusdokumentides kavandatud eesmärkide
+        saavutamise eest. Täitja pakutud tehnilised lahendused peavad
+        olema otstarbekad ning arvestama Eestis kehtivaid õigusakte,
+        samuti rahvusvahelisi norme. Täitja ei vastuta vigade eest, mis
+        tulenevad tellija esitatud valedest või mittetäielikest
+        lähtematerjalidest.
+
+    3.  Kui tellija kaldus kõrvale raamlepingu ja/või hankelepingu
+        tingimustest, mille tagajärjel halvenes töö, on täitjal õigus
+        nõuda vajalike kulutuste hüvitamist, mis täitja kandis töös
+        esinevate puuduste parandamiseks.
+
+    4.  Kui täitja ei anna töid üle hankelepingus kokkulepitud
+        tähtaegadeks, on täitja kohustatud tellija nõudmisel tasuma
+        leppetrahvi 0,1% hankelepingu maksumusest iga töö üleandmisega
+        viivitatud kalendripäeva eest, kuid mitte üle 30% hankelepingu
+        kogumaksumusest. Juhul, kui hilinemine on tingitud tellija
+        poolsest viivitusest, ebaselgetest juhistest või nende poolt
+        põhjustatud spetsifikatsioonile mittevastavatest või
+        mittetoimivatest tehnilistest liidestest teiste süsteemidega,
+        mis ei ole tehtud täitja poolt, peab täitja enne tööde
+        üleandmise tähtpäeva viivitamatult sellistest asjaoludest
+        kirjalikku taasesitamist võimaldavas vormis tellijat teavitama
+        ning sellisel juhul leppetrahvi ei nõuta.
+
+    5.  Kui tellija ei tasu arveid tähtaegselt, on tellija kohustatud
+        täitja kirjalikult esitatud nõude alusel tasuma viivist 0,1%
+        kalendripäevas tasumisega viivitatud summast, kuid mitte üle 30%
+        hankelepingu kogumaksumusest. Arve loetakse tasutuks alates
+        makse laekumisest täitja arveldusarvele.
+
+    6.  Lepinguliste kohustuste mittetäitmisel või mittekohase täitmise
+        korral kannavad pooled varalist vastutust otsese varalise kahju
+        eest.
+
+    7.  Raam- ja/või hankelepingu rikkumise korral on poolel õigus nõuda
+        teiselt poolelt leppetrahvi, milleks on 500 eurot iga
+        lepingujärgse kohustuse täitmata jätmise eest.
+
+    8.  Oluliseks lepingurikkumiseks loetakse muu hulgas järgmisi
+        rikkumisi:
+
+        1.  pool ei täida mis tahes raam- ja/või hankelepingust
+              tulenevat kohustust teise poole poolt vastava kohustuse
+              täitmiseks antud täiendava mõistliku tähtaja jooksul;
+
+        2.  täitja ei täida garantiiperioodil raam- ja/või
+              hankelepingust tulenevaid kohustusi;
+
+        3.  täitjal puuduvad raam- ja/või hankelepingu täitmiseks
+              vajalikud õigused (seal hulgas load, litsentsid,
+              intellektuaalomandi õigused jms);
+
+        4.  pool on rikkunud konfidentsiaalsuskohustust;
+
+        5.  tellija on viivituses raam- ja/või hankelepingus
+              kokkulepitud maksetähtajaga rohkem kui 30 kalendripäeva;
+
+        6.  täitja täidab hankelepingut isikuga, kelle kohta tellija ei
+              ole andnud nõusolekut projektimeeskonda lisamiseks või
+              liikme asendamiseks;
+
+        7.  täitja on kaasanud projektimeeskonna koosseisu isiku, kes ei
+              vasta raamlepingus toodud nõuetele;
+
+        8.  täitja ei asenda tellija nõudmisel projektimeeskonna liiget,
+              kes ei vasta tellija õigustatud ootusele;
+
+        9.  täitja ei asenda tellija nõudmisel alltöövõtjat.
+
+    9.  Konfidentsiaalsuskohustuse rikkumisel on poolel, kellele
+        tekitati kahju, õigus nõuda süüdiolevalt poolelt leppetrahvi iga
+        rikkumise kohta kuni 10 000 eurot, leppetrahvi ületava otsese
+        varalise kahju hüvitamist ning samuti lisaks õigus leping üles
+        öelda vastavalt lepingu punktile 12.4. Kahju hüvitamine toimub
+        sarnaselt lepingu punktis 14.11 tooduga.
+
+    10. Hankelepingu rikkumise korral on rahaline vastutus piiratud
+        hankelepingu maksumusega, v.a tahtliku või raske hooletuse
+        korral.
+
+    11. Pool peab teavitama teist poolt leppetrahvi nõudest kolme kuu
+        jooksul arvates ajast, mil ta sai teada leppetrahvi nõudmise
+        õiguse tekkimisest. Pool on kohustatud tasuma leppetrahvi 14
+        kalendripäeva jooksul arvates teiselt poolelt sellekohase nõude
+        saamisest. Kui poole hinnangul on leppetrahvi nõue alusetu, on
+        ta kohustatud 14 kalendripäeva jooksul oma seisukohta
+        kirjalikult selgitama. Leppetrahvi nõudmine ei mõjuta poole
+        õigust nõuda teiselt poolelt nõuetekohase töö või selle osa
+        teostamist ning leppetrahvi suurust ületava kahju hüvitamist või
+        kasutada muid seadusest tulenevaid õiguskaitsevahendeid.
+
+    12. Tellijal on õigus leppetrahv tasaarvestada täitjale
+        väljamaksmisele kuuluva tasuga.
+
+    13. Kui üks pooltest soovib hankelepingu kehtivuse ajal või
+        hankelepingu lõppemisest varem kui 180 kalendripäeva möödumisel
+        tööle võtta teise poole alluvuses põhikohaga töötavat töötajat
+        sihtvärbamise teel, kes täidab või täitis hankelepinguga seotud
+        ülesandeid, on ta kohustatud tasuma leppetrahvi 10 000 eurot.
+
+15. Tööde garantii
+
+    1.  Täitja garanteerib teostatud tööde kvaliteedi.
+
+    2.  Juhul, kui hankelepingus ei ole kokku lepitud teisiti, annab
+        täitja teostatud töödele garantii 12 kuuks alates nõuetekohaselt
+        teostatud tööde vastuvõtmisest tellija poolt. Juhul kui tööd
+        antakse üle etapiti, siis algab garantii alates vastava etapi
+        töö vastuvõtmisest ja lõpeb 12 kuu möödumisel viimase etapi töö
+        vastuvõtmisest.
+
+    3.  Garantii ajal ilmnenud vigadest teavitab tellija täitjat tellija
+        töödejuhtimise tarkvaras.
+
+    4.  Täitja kohustub garantiiajal omal kulul likvideerima vead, mis
+        muudavad töö objektis olevate infosüsteemi moodulite
+        põhifunktsioonide täitmise võimatuks viie kalendripäeva jooksul
+        ning muud vead 30 kalendripäeva jooksul alates teavituse
+        saamisest.
+
+    5.  Garantii ei hõlma sellise vea parandamist, mis on tingitud töö
+        kasutamiseks koostatud juhiste järgimata jätmisest.
+
+    6.  Juhul, kui täitja ei suuda viga ettenähtud tähtajaks kõrvaldada,
+        võib tellija korraldada vea kõrvaldamise kolmanda isiku abil.
+        Tellijal on õigus nõuda, et täitja katab mõistlikud kulud, mis
+        tekkisid seoses kolmanda poole kaasamisega vea kõrvaldamisse
+        juhul, kui tellija tõendab kirjalikku taasesitamist võimaldavas
+        vormis, et tegemist oli garantii alla kuuluva veaga.
+
+    7.  Kui viga ei kuulu garantii korras kõrvaldamisele, esitab täitja
+        tellijale viivitamatult, kuid mitte hiljem kui viie tööpäeva
+        jooksul, punktis 15.3 nimetatud teavituse saamisest kirjalikku
+        taasesitamist võimaldavas vormis vastavasisulised põhjendused.
+        Põhjuste mitteesitamisel ettenähtud tähtaja jooksul tuleb
+        täitjal viga garantii korras kõrvaldada.
+
+    8.  Kui poolte vahel tekib vaidlus vea üle, on kummalgi poolel õigus
+          tellida sõltumatu ekspertiis, teatades sellest eelnevalt
+          teisele poolele. Pooled on kohustatud tagama eksperdi
+          nõudmisel ligipääsu vajalikele andmetele ja informatsioonile.
+          Ekspertiisikulud kannab pool, kes ekspertiisiakti kohaselt
+          eksis vea määratlemisel.
+
+    9.  Täitjapoolne garantii kaotab kehtivuse juhul, kui teostatud
+          tööde osas on tehtud või tehakse garantiiperioodi ajal
+          täitjaga kooskõlastamata funktsionaalsuse edasiarendusi või
+          muudatusi tellija või kolmanda isiku poolt (v.a punktis 15.6
+          kirjeldatud kolmanda poole kaasamine vea kõrvaldamisse).
+          Kolmanda isiku poolt punkti 15.6 alusel tekitatud vigade eest
+          täitja ei vastuta ning nimetatud vigade diagnostikale ja
+          parandamisele kulunud täitja poolne aeg tasutakse tellija
+          poolt.
+
+    10. Käesolev punkt ei rakendu hankelepinguga töötundide ega
+          hooldustööde tellimisel.
+
+16. Vääramatu jõud
+
+    1.  Poole kohustuste mittetäitmist või mittenõuetekohast täitmist ei
+          loeta rikkumiseks, kui selle põhjuseks oli vääramatu jõud.
+          Vääramatu jõuna käsitavad pooled võlaõigusseaduse § 103 lõikes
+          2 nimetatud asjaolusid.
+
+    2.  Pool, kelle tegevus lepingujärgsete kohustuste täitmisel on
+          takistatud vääramatu jõu asjaolude tõttu, on kohustatud
+          sellest koheselt kirjalikult teatama teisele poolele.
+          Vääramatu jõu asjaolude ilmnemisel pikeneb hankelepingu
+          täitmise lõpptähtaeg nimetatud asjaolude esinemise perioodi
+          võrra. Pool peab vääramatu jõu asjaolude äralangemisel asuma
+          viivitamatult hankelepingut täitma.
+
+17. Vaidluste lahendamine
+
+    1.  Raam- ja/või hankelepingust tulenevad vaidlused lahendatakse
+        eelkõige poolte vahelise läbirääkimiste teel. Kokkuleppe
+        mittesaavutamisel pöördutakse lahenduse saamiseks Harju
+        Maakohtusse.
+
+18. Avalikud suhted
+
+    1.  Pooled kooskõlastavad omavahel raam- ja/või hankelepingut
+        puudutavad PR-tegevused (näiteks pressiteated,
+        pressikonverentsid, kriisikommunikatsioon, kliendireferentsid
+        jms) enne nende ellu rakendamist ja avalikkuseni jõudmist.
+        Pooled ei kahjusta raamlepingu ja/või hankelepingu pinnalt
+        tekkinud erimeelsuste või vaidluste lahendamisel üksteise mainet
+        meedia kaudu.
+
+19. Muud sätted
+
+    1.  Lepingu täitmise keel on eesti keel. Erinevate rollide
+        täitmiseks esitatud isikud peavad töötama tellija
+        projektimeeskonnaga eesti keeles ning Eesti õigusaktidega.
+        Juhul, kui täitja projektimeeskonna liige ei valda eesti keelt
+        lepingu täitmiseks vajalikul tasemel, peab täitja tagama oma
+        kulul tõlkija olemasolu suuliseks ja kirjalikuks suhtlemiseks
+        vastava projektimeeskonna liikme ja tellija vahel. Tõlk peab
+        olema kompetentne IT-alase tehnilise teksti tõlkimisel.
+
+    2.  Raam- ja hankelepingutes nimetatud summadele lisandub käibemaks
+        õigusaktides sätestatud juhul ja määras.
+
+    3.  Raam- ja hankelepingule kohaldatakse Eesti Vabariigis kehtivat
+          materiaal- ja menetlusõigust.
+
+    4.  Kui mõni raam- ja/või hankelepingu tingimus peaks osutuma
+          osaliselt või täielikult kehtetuks või täitmisele
+          mittepööratavaks, siis ei mõjuta see teiste lepingutingimuste
+          kehtivust ning ülejäänud lepingutingimused jäävad kehtima ja
+          täitmisele pööratavaks. Sel juhul asendavad pooled kokkuleppel
+          kehtetu või täitmisele mittepööratava tingimuse õiguslikult
+          kehtiva tingimusega, mis on sisult võimalikult lähedane poolte
+          kavatsustele ja kehtetu tingimuse majanduslikule mõjule.
+
+    5.  Juhul, kui tellitavad tööd on seotud Euroopa Liidu vahenditest
+          rahastatava projekti ja/või programmiga või kui neid
+          rahastatakse struktuuritoetustest, siis peab täitja järgima
+          tööde teostamisel EL struktuuritoetusele viitamise juhendit.
+          Tähistamisega seonduva sümboolika paigutuse ja formaadi peab
+          täitja eelnevalt kooskõlastama tellijaga.
+
+    6.  Poolte kontaktisikud:
+
+        1.  Tellija 1:__ , e-post:__ , tel __.
+
+        2.  Tellija 2:__ , e-post:__ , tel __.
+
+        3.  Täitja: __ , e-post:__ , tel __.
+
+    7.  Volitatud isikud üleandmise-vastuvõtmise aktide
+        allkirjastamiseks ning projektimeeskonna muutmise kinnitamiseks
+        on määratud hankelepingus.
+
+  ------------------------ ---------------------- ------------------------
+  Täitja                   Tellija 1              Tellija 2
+
+  (allkirjastatud          (allkirjastatud        (allkirjastatud
+  digitaalselt)            digitaalselt)          digitaalselt)
+  ------------------------ ---------------------- ------------------------
+
+Raamlepingu nr ______
+
+  Lisa 1
+
+NÕUDED LEPINGUT TÄITMA ASUVA PROJEKTIMEESKONNA KOOSSEISULE
+
+Täitja peab tagama raamlepingu kehtivuse ajal alljärgneva minimaalse (7
+rollist koosneva) koosseisuga projektimeeskonna: 
+
+-   1 (üks) projektijuht,
+
+-   1 (üks) tarkvaraarhitekt,
+
+-   1 (üks) analüütik,
+
+-   1 (üks) programmeerija,
+
+-   1 (üks) testija,
+
+-   1 (üks) kasutajaliidese disainer,
+
+-   1 (üks) SAP[1] ABAP[2] arendaja.
+
+Projektimeeskonna liikmete põhiülesanded on järgmised:
+
+-   PROJEKTIJUHT - projektijuhi töö muuhulgas on:
+
+    -   meeskonna töö koordineerimine.
+
+    -   projekti koosolekutel osalemine ja läbiviimine.
+
+    -   tööde üleandmise ja arveldamise korraldamine.
+
+    -   tellijale tööde üleandmise planeerimine, veendudes enne
+        üleandmist nende vastavuses tellija soovidele.
+
+    -   tellijale töö aruandluse koostamine ja esitamine.
+
+    -   infovahetuse korraldamine.
+
+    -   projekti edenemise jälgimine ja juhtimine.
+
+-   TARKVARAARHITEKT - arhitekti töö muuhulgas on:
+
+    -   infosüsteemide ja lahenduste disainimine.
+
+    -   tehnoloogiate valik ja valikute põhjendamine.
+
+    -   ekspertarvamuse andmine infosüsteemide ja lahenduste uute
+        arendustööde või rakenduste infosüsteemiga seotud arendustööde
+        kohta.
+
+-   ANALÜÜTIK - analüütiku töö muuhulgas on:
+
+    -   nõuete kogumine.
+
+    -   vajaduste ärianalüüsi ja vastavalt ärianalüüsile detailanalüüsi
+        läbiviimine ning dokumenteerimine vastavalt tellija juhistele.
+
+-   PROGRAMMEERIJA (front-end ja back-end) - programmeerija töö
+    muuhulgas on:
+
+    -   vastavalt analüüsile lahenduse arendamine ja oma arenduse
+        proovitestimine (smoke testimine).
+
+    -   vigade parandamine (veapõhjuse väljaselgitamisest kuni lahenduse
+        realiseerimiseni), tarkvara uuenduste realiseerimine.
+
+    -   tehtud muudatuste dokumenteerimine.
+
+    -   päringute optimeerimine, ülekoormusel aeglaselt käivituvate
+        päringute ümberkirjutamine ja indekseerimine.
+
+    -   operatiivabi osutamine infosüsteemi töös ilmnenud intsidentide
+        või probleemide lahendamisel.
+
+    -   infosüsteemi tarkvara ja vajadusel toetava süsteemi (tarkvara
+        käitava süsteemi, andmebaasi ning operatsioonisüsteemi) töö
+        ülevaatamine, sh konfiguratsiooni, logide jne analüüs,
+        ülevaatuse/analüüsi tulemusel ettepanekute tegemine tarkvara
+        ja/või toetava süsteemi muudatuseks ning tellija soovil
+        muudatuste (sh vajadusel tarkvara erakorralise muutmise)
+        teostamine.
+
+    -   tarkvara tarned, seadistustegevuste ja andmete migratsiooni
+        planeerimine ja korraldamine, sh CMDB tarbeks teenuse
+        komponentide kirjeldamine.
+
+    -   tellija nõustamine infosüsteemi piires.
+
+    -   muud tegevused vajadusel, et kasutajal oleks võimalik rakendusi
+        efektiivselt ja sihipäraselt kasutada;
+
+-   TESTIJA - testija töö muuhulgas on:
+
+    -   testimise toimingute loomine (sh välja mõtlemine).
+
+    -   testplaani kirjeldamine.
+
+    -   sobivate testide valimine, kirjutamine ja arendamine.
+
+    -   tarkvara ja infosüsteemi testimine vastavalt nõuetele.
+
+    -   testitulemuste analüüs ja dokumenteerimine.
+
+    -   koostöös meeskonnaga tekkinud vigadele lahenduse leidmine.
+
+    -   testitulemuste tutvustamine teistele osapooltele.
+
+-   KASUTAJALIIDESE DISAINER (UI) - kasutajaliidese disaineri töö
+    muuhulgas on:
+
+    -   kasutajaliidese disain.
+
+    -   kasutajaliidese nõuete defineerimine.
+
+    -   prototüüpimine.
+
+    -   oma töö dokumenteerimine.
+
+-   SAP ABAP arendaja - SAP ABAP arendaja töö muuhulgas on:
+
+    -   SAP liidestuse arendamine.
+
+    -   SAP seadistamine koostöös tellijaga.
+
+Töökogemuse hulka ei arvestata õpingute või praktika raames saadud
+kogemust.
+
+Täitja võib hankelepingu täitmisse kaasata rohkem projektimeeskonna
+liikmeid, kuid sel juhul peavad kõik kaasatavad isikud vastama vastavale
+rollile esitatud nõuetele.
+
+Üks isik võib täita kuni kahte erinevat rolli, nt
+tarkvaraarhitekt-analüütik, kuid sellisel juhul peab antud isik täitma
+igale antud rollile esitatud nõudeid.
+
+Hankelepingu täitmisel peab olema tagatud küsitava projektimeeskonna
+nõutav minimaalne suurus, et tööd saaksid teostatud vastavalt
+kokkulepitud ajakavale ja kvaliteedinõuetele.
+
+Projektimeeskonda võib vajadusel kaasata ka muude rollide täitjaid, nt
+noorem-analüütik, noorem-programmeerija, dokumenteerija jne, kuid nende
+kvalifikatsioon ei kuulu hindamisele ega täiendavalt tasustamisele.
+Sellise isiku kaasamine on lubatud ainult tellija kirjalikul nõusolekul
+ning tingimusel, et ta ei asenda hankes nõutud projektimeeskonna liiget,
+vaid on kaasatud abitööjõuna või spetsiifilise eksperdina. Spetsiifilise
+eksperdi kaasamise vajadus peab olema tingitud tellija poolt tellitud
+töö olemusest.
+
+Meeskonnaliikmete rollidele esitatud nõuete loetelu
+
+Projektimeeskonna liikmed peavad vastama järgmistele nõuetele:
+
+1.  Projektijuht
+
+    1.  Peab omama vähemalt 3-aastast töökogemust tarkvara
+        arendusprojektides projektijuhina.
+
+    2.  Peab olema osalenud projektijuhina vähemalt kahes
+        tarkvaraarenduse projektis, mille kogumaht on vähemalt 4 500
+        inimtöötundi projekti kohta ja projekti meeskonna suurus
+        vähemalt 5 liiget.
+
+2.  Tarkvaraarhitekt
+
+    1.  Peab omama vähemalt 3-aastast töökogemust tarkvaraarhitektina
+        või infosüsteemide arhitektina.
+
+    2.  Peab olema osalenud arhitektina vähemalt 2 tarkvara loomise või
+        modifitseerimise ja juurutamise projektis, mille kogumaht on
+        vähemalt 4 500 inimtöötundi projekti kohta. Igas esitatud
+        projektis peab olema rollitäitja poolt teostatud tööde maht
+        vähemalt 400 inimtöötundi.
+
+    3.  Isik peab olema projektides arhitektina disaininud ja/või
+        realiseerinud lahenduse, mis peab olema arendatud Java
+        platvormil, kasutama relatsioonilist andmebaasi (Oracle või
+        Postgre), töötama rakendusserveri klastris ning kus peab olema
+        realiseeritud järgnev funktsionaalsus:
+
+        1.  andmete sisestamine, muutmine, kinnitamine ja
+            tühistamine/kustutamine;
+
+        2.  infosüsteemis on realiseeritud elektroonsete dokumentide
+            menetlusloogika ja kasutaja tööprotsesside tugi;
+
+        3.  lahendus, mis on võimeline teenindama korraga vähemalt 300
+            kasutajasessiooni;
+
+        4.  XML failide moodustamine andmetes toimuvate toimingute
+            tagajärjel;
+
+        5.  andmete vahetamine teise infosüsteemiga üle x-tee.
+
+3.  Analüütik
+
+    1.  Peab omama vähemalt 3-aastast töökogemust analüütikuna.
+
+    2.  Peab olema osalenud analüütikuna vähemalt 2 tarkvara loomise või
+        modifitseerimise ja juurutamise projektis, mille kogumaht on
+        vähemalt 4 500 inimtöötundi projekti kohta. Igas esitatud
+        projektis peab olema rollitäitja poolt teostatud tööde maht
+        vähemalt 400 inimtöötundi. Isik peab esitatud projektides olema
+        teostanud:
+
+        1.  äriprotsesside kaardistamist ja/või teostanud andmeanalüüsi
+            ning neid dokumenteerinud;
+
+        2.  analüüsinud kasutajarollidel põhinevat kasutajaliidest ja
+            päringute süsteemi.
+
+    3.  Lisaks peab isik olema analüütikuna projektides (mis ei pea
+        kattuma p 3.2 nimetatud projektidega) realiseerinud
+        alljärgnevaid funktsionaalsusi:
+
+        1.  kasutuslugude kirjeldamine;
+
+        2.  kasutusjuhendite koostamine;
+
+        3.  andmete loogiliste ja aritmeetiliste kontrollide loomine,
+            vea- ja hoiatusteadete teavituste väljastamine;
+
+        4.  tarkvara liidestamine andmete vahetuseks välise IT
+            süsteemiga ja x-tee-ga;
+
+        5.  elektroonilise sõnumi moodustamine ja saatmine.
+
+4.  Programmeerija
+
+    1.  Peab omama vähemalt 4aastast Java programmeerimise töökogemust.
+
+    2.  Peab omama vähemalt 3aastast SQL päringute koostamise kogemust,
+        sh on koostanud funktsionaalseid protseduure (s.h
+        transaktsioonide juhtimine, vigade haldus ja /või äriloogika
+        komponentide realiseerimine jms).
+
+    3.  Peab olema osalenud programmeerijana/arendajana vähemalt 2
+        tarkvara loomise või modifitseerimise ja juurutamise projektis,
+        mille kogumaht on vähemalt 4 500 inimtöötundi projekti kohta.
+        Igas esitatud projektis peab olema rollitäitja poolt teostatud
+        tööde maht vähemalt 500 inimtöötundi. Esitatud projektides
+        realiseeritud lahendused peavad olema arendatud Java platvormil,
+        kasutama relatsioonilist andmebaasi ja töötama rakendusserveri
+        klastris.
+
+    4.  Isikul peab olema töökogemus (mis ei pea kattuma p 4.3 nimetatud
+        projektidega):
+
+        1.  GIT kasutamisel;
+
+        2.  X-tee teenuste arendamisel;
+
+        3.  XDTL keeles või muus samaväärses keeles andmetöötlemise
+            pakettide arendamisel;
+
+        4.  unit-testide kirjutamisel;
+
+        5.  Angular ja /või JSP (Java Server Pages) raamistike
+            kasutamisel;
+
+        6.  REST ja SOAP liideste arendamisel;
+
+        7.  konteinerite (nt Docker) kasutamisel.
+
+5.  Testija
+
+    1.  Peab omama vähemalt 2aastast töökogemust infosüsteemide
+        testijana.
+
+    2.  Peab olema osalenud testijana vähemalt 2 infosüsteemide loomise
+        või modifitseerimise ja juurutamise projektis, mille kogumaht on
+        vähemalt 4 500 inimtöötundi projekti kohta. Igas esitatud
+        projektis peab olema rollitäitja poolt teostatud tööde maht
+        vähemalt 100 inimtöötundi. Esitatud projektide raames
+        realiseeritud lahendused on arendatud Java platvormil ja
+        kasutavad relatsioonilist andmebaasi.
+
+    3.  Isik peab omama töökogemust (mis ei pea kattuma p 5.2 nimetatud
+        projektidega):
+
+        1.  testlugude kirjutamisel;
+
+        2.  jõudlustestide koostamisel ja läbi viimisel;
+
+        3.  infosüsteemi komponentide ja omavahel seotud infosüsteemide
+            liidestuste testimisel.
+
+6.  Kasutajaliidese disainer (UI)
+
+    1.  Peab omama vähemalt 2-aastast töökogemust kasutatavuse
+        eksperdina.
+
+    2.  Peab olema osalenud kasutajaliidese disainerina vähemalt 2
+        infosüsteemide loomise või modifitseerimise ja juurutamise
+        projektis, mille kogumaht on vähemalt 4 500 inimtöötundi
+        projekti kohta. Igas esitatud projektis peab olema rollitäitja
+        poolt teostatud tööde maht vähemalt 250 inimtöötundi.
+
+    3.  Isik peab omama töökogemust (mis ei pea kattuma p 6.2 nimetatud
+        projektidega):
+
+        1.  kasutajaliidese disainil;
+
+        2.  prototüübi loomisel;
+
+        3.  nõuete defineerimisel.
+
+7.  SAP ABAP arendaja
+
+    1.  Pakkuja esitab SAP-i või SAP-i poolt volitatud isiku poolt
+        väljastatud "SAP Certified Development Associate" sertifikaadi
+        või samaväärse sertifikaadi koopia.
+
+    2.  Peab omama vähemalt 3 aastast töökogemust SAP ABAP arendajana.
+
+    3.  Peab olema osalenud vähemalt 2 SAP-i juurutamise või arendamise
+        projektis.
+
+    4.  Peab olema osalenud tarkvaraarenduse projektis, milles on
+        kasutatud SAP-i ja välise Java rakenduse liidestamiseks vahevara
+        komponenti SAP Java Connector (SAP JCo).
+
+Pakkuja esitab iga projektimeeskonna liikme kohta CV vastavalt etteantud
+vormile („Meeskonnaliikmete CV“) esitades vormil andmed, mille alusel on
+selgelt ja üheselt võimalik hinnata ning tuvastada meeskonnaliikmete
+vastavus etteantud tingimustele ning esitab pakkumuse koosseisus nõutud
+sertifikaadi/sertifikaatide koopiad.
+
+Nõuete täitmiseks esitatavate võõrkeelsete dokumentide (nt
+sertifikaadid) korral võib hankija nõuda pakkujalt dokumentide eesti
+keelde tõlkimist.
+
+Raamlepingu nr _________
+
+Lisa 2.1
+
+VORM HANKELEPINGU SÕLMIMISEKS TULEMI TELLIMISEL
+
+Hankeleping nr __
+
+__________ , registrikood _______, aadress _______, keda esindab _______
+alusel ___________ /esindusõigusliku isiku nimi/ (edaspidi tellija või
+pool) ja
+
+________, registrikood ________, aadress ________, keda esindab
+põhikirja alusel juhatuse liige ________ /esindusõigusliku isiku nimi/
+(edaspidi täitja või pool)
+
+________, registrikood ________, aadress ________, keda esindab
+põhikirja alusel juhatuse liige ________ /esindusõigusliku isiku nimi/
+(edaspidi rahastaja või pool) /lisatakse vajadusel/
+
+ning keda ühiselt nimetatakse poolteks, on sõlminud riigihanke
+„Riigitöötaja iseteenindusportaali (RTIP) arendus- ja hooldustööd“
+(riigihanke viitenumber 299277) tulemusel __.__202_ sõlmitud raamlepingu
+nr ___ (edaspidi raamleping) alusel hankelepingu (edaspidi leping)
+alljärgnevas:
+
+1.  Lepingu objekt ja dokumendid
+
+    1.  Lepingu objektiks on ______________ (edaspidi töö) teostamine
+          kooskõlas tellija töödejuhtimise tarkvara piletis _________
+          toodud tingimuste ja täitja poolt esitatud pakkumusega.
+
+    2.  Lepingu dokumendid koosnevad lepingu tekstist ja lepingu
+          lisadest.
+
+    3.  Lepingul on sõlmimisel järgmised lisad:
+
+        1.  Lisa 1 - Tööde üleandmise-vastuvõtmise akti vorm;
+
+        2.  Lisa 2 - RmITi üldised ristfunktsionaalsed,
+              mittefunktsionaalsed ja tehnilised nõuded ning
+              IT-profiil - 2.9.0 (kättesaadav: _______);
+
+    4.  Projekti ____ (SF projektikood _________) toetuse saaja on
+          __________ /täidetakse toetusega rahastamisel/. Täitja peab
+          järgima EL struktuuritoetusele viitamise juhendit.
+          Tähistamisega seonduva sümboolika paigutuse ja formaadi
+          kooskõlastab täitja eelnevalt tellijaga.
+
+2.  Töö tähtaeg ja maksumus
+
+    1.  Töö teostamise algus on ___.___20___/peale lepingu
+          allkirjastamist.
+
+    2.  Töö teostamise tähtpäev on ___.___20___/tähtaeg on ____
+        (nädalat/kuud) alates lepingu sõlmimisest.
+
+    3.  Töö maksumused ja üleandmise tähtajad /etappide puhul/:
+
++------------+-------+-----------+---------------+----------+---------+
+| Etapp ja   | Töö   | Töö       | Vahetarne     | Töö      | Tö      |
+| töö nimi   | tu    | tunnihind | tähtaeg       | ül       | ö/etapi |
+|            | ndide | eurodes   | vastavalt     | eandmise | m       |
+|            | arv   |           | raamlepingu   | tähtpäev | aksumus |
+|            |       |           | punktile 5.3  |          | kokku   |
+|            |       |           |               |          |         |
+|            |       |           | /täidetakse   |          |         |
+|            |       |           | vahetarnete   |          |         |
+|            |       |           | olemasolul/   |          |         |
++============+=======+===========+===============+==========+=========+
+|            |       |           |               |          |         |
++------------+-------+-----------+---------------+----------+---------+
+|            |       |           |               |          |         |
++------------+-------+-----------+---------------+----------+---------+
+|            |       |           |               |          |         |
++------------+-------+-----------+---------------+----------+---------+
+
+4.  Töö maksimaalne maht on ___ tundi.
+
+5.  Töö tunnihind on ___ eurot.
+
+6.  Töö kogumaksumus on ___ eurot.
+
+7.  Punktides 2.4 ja 2.6 nimetatud töö maht ja kogumaksumus on
+    maksimaalsed ning kui töö teostamiseks kulub vähem töötunde, siis
+    tasu arvestatakse reaalselt kulunud töötundide eest.
+
+8.  Tellija/rahastaja/ tasub täitja esitatud arve ___ /21 kalendripäeva
+      või suurem tähtaeg/ kalendripäeva jooksul arve saamisest.
+
+3.  Lepingu jõustumine, muutmine ja lõppemine
+
+    1.  Leping jõustub poolte poolt allkirjastamisest.
+
+    2.  Pooltel on õigus lepingu muutmises kokku leppida üksnes
+          riigihangete seaduses ettenähtud juhtudel.
+
+    3.  Leping lõpeb lepingus sätestatud lepinguliste kohustuste
+          täitmisega, raamlepingus ettenähtud või seadusest tuleneval
+          alusel.
+
+4.  Poolte esindajad /täita ja muuta vastavalt vajadusele/
+
+    1.  Tellija kontaktisikud:
+
+        1.  lepinguga seotud info edastamiseks ___, e-post: ____, tel
+              ___;
+
+        2.  registreeritud tööülesannete edastamiseks ___, e-post: ____,
+              tel ___.
+
+    2.  Täitja kontaktisikud:
+
+        1.  lepinguga seotud info edastamiseks ___, e-post: ____, tel
+              ___;
+
+        2.  üleandmise-vastuvõtmise aktide allkirjastamiseks ja
+              projektimeeskonna liikmete asendamise ja lisamise
+              esitamiseks: ___, e-post: ____, tel ___.
+
+    3.  (Vajadusel) Rahastaja kontaktisik lepinguga seotud info
+        edastamiseks: ___, e-post: ____, tel ___.
+
+5.  Erikokkulepped ja märkused /täita vastavalt vajadusele/
+
+    1.  Garantii periood on ____ kuud /kuude arv/ alates tööde
+          vastuvõtmisest. /täidetakse juhul, kui garantiitingimused
+          erinevad raamlepingus sätestatust/
+
+    2.  Juhul kui tööd antakse üle etapiti, siis kehtib garantii alates
+        vastava etapi töö vastuvõtmisest kuni ___ kuud viimase etapi töö
+        vastuvõtmisest./lisada sama periood, mis toodud punktis 5.1/
+
+    3.  Töö vastuvõtmisest keeldumisest teatamise aeg on ____ tööpäeva
+          alates akti esitamisest täitja poolt. /täidetakse juhul, kui
+          erineb raamlepingus sätestatust/
+
++-------------------+-------------------+-----------------+----------+
+| Tellija           | Täitja            | Rahastaja       |          |
++-------------------+-------------------+-----------------+----------+
+| (allkirjastatud   | (allkirjastatud   | (allkirjastatud |          |
+| digitaalselt)     | digitaalselt)     | digitaalselt)   |          |
+|                   |                   |                 |          |
+|                   |                   | (vajadusel)     |          |
++-------------------+-------------------+-----------------+----------+
+
+Raamlepingu nr ____________
+
+Lisa 2.2
+
+VORM HANKELEPINGU SÕLMIMISEKS ARENDUSE TÖÖTUNDIDE TELLIMISEL
+
+Hankeleping nr __
+
+__________ , registrikood _______, aadress _______, keda esindab
+_____alusel ___________ /esindusõigusliku isiku nimi/ (edaspidi tellija
+või pool) ja
+
+________, registrikood ________, aadress ________, keda esindab
+põhikirja alusel juhatuse liige ________ /esindusõigusliku isiku nimi/
+(edaspidi täitja või pool),
+
+________, registrikood ________, aadress ________, keda esindab
+põhimääruse alusel ________ /esindusõigusliku isiku nimi/ (edaspidi
+rahastaja või pool) /lisatakse vajadusel/
+
+ning keda ühiselt nimetatakse poolteks, on sõlminud riigihanke
+„Riigitöötaja iseteenindusportaali (RTIP) arendus- ja hooldustööd“
+(viitenumber 299277) tulemusel __.__202_ sõlmitud raamlepingu nr ___
+(edaspidi raamleping) alusel hankelepingu (edaspidi leping)
+alljärgnevas:
+
+1.  Lepingu objekt ja dokumendid
+
+    1.  Lepingu objektiks on arendustööde töötundide (edaspidi töö)
+          tellimine ja teostamine kooskõlas tellija töödejuhtimise
+          tarkvara tööpiletis _________ toodud tingimuste ja täitja
+          poolt esitatud pakkumusega.
+
+    2.  Lepingu dokumendid koosnevad lepingu tekstist ja lepingu
+          lisadest.
+
+    3.  Lepingul on sõlmimisel järgmised lisad:
+
+        1.  Lisa 1 - Tööde üleandmise-vastuvõtmise akti vorm;
+
+        2.  Lisa 2 - RmIT üldised ristfunktsionaalsed,
+              mittefunktsionaalsed ja tehnilised nõuded ning IT-profiil
+              (kättesaadav: _______);
+
+    4.  Projekti ____ (SF projektikood _________) toetuse saaja on
+          __________ /täidetakse välisrahastuse korral/. Täitja peab
+          järgima EL struktuuritoetusele viitamise juhendit.
+          Tähistamisega seonduva sümboolika paigutuse ja formaadi
+          kooskõlastab täitja eelnevalt tellijaga.
+
+2.  Tööde tellimine ja teostamine
+
+    1.  Täitja projektimeeskond peab olema töö teostamiseks kättesaadav
+          tellijale tööpäeval kell 8.00 kuni 17.00 /võib kokku leppida
+          teisiti/.
+
+    2.  Töid tehakse täitja vahenditega ja täitja poolt korraldatavas
+        töökeskkonnas /võib kokku leppida teisiti/. Vajadusel osutab
+        täitja teenust tellija asukohas. Kokkuleppel kasutatakse tellija
+        ruume töökoosolekute või intervjuude läbiviimiseks.
+
+    3.  Tööülesanded registreeritakse ja edastatakse täitjale tellija
+          töödejuhtimise tarkvaras. Lepingu täitmiseks vajalikud
+          ligipääsuõigused saadab tellija vastavale projektimeeskonna
+          liikmele pärast lepingu sõlmimist.
+
+    4.  Registreeritud tööülesannete edastamine täitjale toimub punktis
+          5.1 tellija kontaktisiku poolt.
+
+3.  Lepingu tähtaeg ja maksumus
+
+    1.  Töö teostamise algus on ___.___20___/peale lepingu
+        allkirjastamist.
+
+    2.  Töid teostatakse kuni ___.___20___/___ kuud alates lepingu
+        allkirjastamisest või punktis 3.4 nimetatud lepingu maksimaalse
+        maksumuse täitumiseni, olenevalt kumb asjaolu enne saabub.
+
+    3.  Töö tunnihind on ____ eurot.
+
+    4.  Lepingu maksimaalne maksumus on _________ eurot.
+
+    5.  Punktis 3.4 nimetatud lepingu maksumus on maksimaalne ning
+        juhul, kui tööde teostamiseks kulub vähem töötunde, siis tasu
+        arvestatakse reaalselt kulunud töötundide eest.
+
+    6.  Tellija/rahastaja/ tasub täitja esitatud arve ___/21
+        kalendripäeva või suurem tähtaeg/ kalendripäeva jooksul arve
+        saamisest.
+
+3.  Lepingu jõustumine, muutmine ja lõppemine
+
+    1.  Leping jõustub poolte poolt allkirjastamisest.
+
+    2.  Pooltel on õigus lepingu muutmises kokku leppida üksnes
+          riigihangete seaduses ettenähtud juhtudel.
+
+    3.  Leping lõpeb lepingus sätestatud lepinguliste kohustuste
+          täitmisega, raamlepingus ettenähtud või seadusest tuleneval
+          alusel.
+
+4.  Poolte esindajad /täita ja muuta vastavalt vajadusele/
+
+    1.  Tellija kontaktisik: ___, e-post: ____, tel ___;
+
+    2.  Täitja kontaktisik: ___, e-post: ____, tel ___.
+
+    3.  (Vajadusel) Rahastaja kontaktisik lepinguga seotud info
+          edastamiseks: ___, e-post: ____, tel ___.
+
+5.  Tööajaarvestus ja töötundide üleandmine-vastuvõtmine
+
+    1.  Iga nädala esmaspäeval (v.a juhul, kui tegemist on riigi- või
+        rahvuspühaga, siis sellele järgneval esimesel tööpäeval), esitab
+        täitja tellija töödejuhtimise tarkvaras eelmise nädalal
+        teostatud töötundide raporti.
+
+    2.  Tööajaarvestust peetakse 30 minuti täpsusega.
+
+    3.  Tööaja sisestab täitja teostamise päeval tellija töödejuhtimise
+        tarkvaras vastava tööülesande juurde time log kommentaarina, mis
+        sisaldab ka teostatud tööde kirjeldust.
+
+    4.  Tööde tegemiseks kulunud töötundide raport peab sisaldama
+        minimaalselt järgnevat infot:
+
+        1.  töö teostanud isiku nime ja rolli;
+
+        2.  töö tegemise kuupäeva(sid);
+
+        3.  teostatud töötundide arv;
+
+        4.  töö lühikirjeldust ja töö tulemust.
+
+    5.  Vajadusel lepitakse töökoosolekul kokku töötundide raporti
+        täiendav detailsus.
+
+    6.  Tellijal on õigus põhjendatud juhul nõuda töötundide raportis
+        kajastatud töötundide ja/või sellega seotud sisu selgitamist
+        ja/või korrigeerimist/kustutamist.
+
+    7.  Töötundide üleandmine toimub _____ (nt igakuiselt/kvartaalselt)
+        tööde üleandmise-vastuvõtmise aktiga. Akt tuleb esitada ___ (nt
+        iga kuu/üks kord kvartalis) hiljemalt __. tööpäeval eelmise
+        perioodi raporteeritud töötundide kohta.
+
+    8.  Tööde üleandmise-vastuvõtmise akt peab vastama eelmise perioodi
+        töötundide raportile.
+
+6.  Erikokkulepped ja märkused /täita vastavalt vajadusele/
+
+    1.  Töötundide vastuvõtmisest keeldumisest teatamise aeg on ____
+          tööpäeva alates akti esitamisest täitja poolt. /juhul, kui
+          erineb raamlepingus sätestatust/.
+
+    2.  _________
+
+  -------------------- -------------------- ------------------ -----------
+  Tellija              Täitja               Rahastaja          
+
+  (allkirjastatud      (allkirjastatud      (allkirjastatud    
+  digitaalselt)        digitaalselt)        digitaalselt)      
+                                            (vajadusel)        
+  -------------------- -------------------- ------------------ -----------
+
+Raamlepingu nr ___________
+
+Lisa 2.3
+
+VORM HANKELEPINGU SÕLMIMISEKS HOOLDUSTÖÖDE TELLIMISEL
+
+Hankeleping nr __
+
+__________ , registrikood _______, aadress _______, keda esindab
+_________alusel ___________ /esindusõigusliku isiku nimi/ (edaspidi
+tellija või pool) ja
+
+________, registrikood ________, aadress ________, keda esindab
+põhikirja alusel juhatuse liige ________ /esindusõigusliku isiku nimi/
+(edaspidi täitja või pool),
+
+________, registrikood ________, aadress ________, keda esindab
+põhimääruse alusel ________ /esindusõigusliku isiku nimi/ (edaspidi
+rahastaja või pool) /lisatakse vajadusel/
+
+ning keda ühiselt nimetatakse poolteks, on sõlminud riigihanke
+„____________” (viitenumber _____________) tulemusel __.__202_ sõlmitud
+raamlepingu nr ___ (edaspidi raamleping) alusel hankelepingu (edaspidi
+leping) alljärgnevas:
+
+1.  Lepingu objekt ja dokumendid
+
+    1.  Lepingu objektiks on _____ hooldustööde (edaspidi töö) tellimine
+          ja teostamine kooskõlas tellija töödejuhtimise tarkvara
+          tööpiletis _________ toodud tingimuste ja täitja poolt
+          esitatud pakkumusega.
+
+    2.  Lepingu dokumendid koosnevad lepingu tekstist ja lepingu
+          lisadest.
+
+    3.  Lepingul on sõlmimisel järgmised lisad:
+
+        1.  Lisa 1 - Tööde üleandmise-vastuvõtmise akti vorm
+
+        2.  Lisa 2 - RmIT üldised ristfunktsionaalsed,
+              mittefunktsionaalsed ja tehnilised nõuded ning IT-profiil
+              (kättesaadav: _______)
+
+    4.  Projekti ____ (SF projektikood _________) toetuse saaja on
+          __________ /täidetakse välisrahastuse korral/. Täitja peab
+          järgima EL struktuuritoetusele viitamise juhendit.
+          Tähistamisega seonduva sümboolika paigutuse ja formaadi
+          kooskõlastab täitja eelnevalt tellijaga.
+
+2.  Tööde tellimine ja teostamine
+
+    1.  Täitja osutab tellijale hooldustöid lepingu alusel tööpäeviti
+          kell 8.00 kuni 17.00 /võib kokku leppida teisiti/ välja
+          arvatud punktis 2.5.1 nimetatud juhul.
+
+    2.  Töid tehakse täitja vahenditega ja täitja poolt korraldatavas
+        töökeskkonnas /võib kokku leppida teisiti/. Vajadusel osutab
+        täitja teenust tellija asukohas. Kokkuleppel kasutatakse tellija
+        ruume töökoosolekute läbiviimiseks.
+
+    3.  Tööülesanded registreeritakse, edastatakse täitjale ja täitja
+        reageerib neile tellija töödejuhtimise tarkvaras. Hooldusjuhtumi
+        prioriteetsuse ja kategooria määrab tellija tööülesande
+        registreerimisel lähtudes teostamist vajava hooldustöö
+        kriitilisusest või mõju ulatusest infosüsteemile,
+        tööprotsessidele vms. Vajadusel võib tellija ühepoolselt muuta
+        hooldusjuhtumitele määratud prioriteete ja/või kategooriaid.
+        Tellija töödejuhtimise tarkvara ligipääsuõigused saadab tellija
+        punktis 5.2 nimetatud täitja kontaktisikule pärast lepingu
+        sõlmimist. Hooldusjuhtumitest on tellijal õigus täitjat
+        täiendavalt teavitada telefoni või e-posti teel.
+
+    4.  Registreeritud tööülesannete edastamine täitjale toimub punktis
+          5.1 tellija kontaktisiku poolt.
+
+    5.  Hooldusjuhtumite reageerimisaeg:
+
+        1.  A kategooria hooldusjuhtumi puhul on täitja reageerimise aeg
+              60 minutit, mille jooksul täitja esitab tellijale esialgse
+              hinnangu probleemi olemusest ning teatab tellijale
+              orienteeruva ajamahu, mille jooksul probleem lahendatakse.
+              A kategooria hooldustöödega alustatakse viivitamatult
+              pärast täitja reageerimist. A kategooria hooldusjuhtumeid
+              teostatakse vajadusel ka töövälisel2.12.1￼ toodud
+              ajavahemikul. Pärast A kategooria hooldusjuhtumi
+              lahendamist teavitab täitja tellija töödejuhtimise
+              tarkvara kaudu tellija kontaktisikut lahendamisele kulunud
+              tegelikust ajast.
+
+        2.  B kategooria hooldusjuhtumitele on täitja reageerimise aeg
+              kaks tööpäeva. Täitja esitab tellija kontaktisikule
+              kooskõlastamiseks B kategooria hooldustööde teostamiseks
+              vajaliku ajakava, ajalise ja rahalise mahu 5 tööpäeva
+              jooksul alates tellija pöördumisest täitja poole. B
+              kategooria hooldustöödega alustab täitja tellija poolt
+              kooskõlastatud ajakavas toodud ajal või juhul kui tellija
+              ei kooskõlasta täitja esitatud ajakava, siis muul pooltele
+              sobival ajal, mis fikseeritakse tellija töödejuhtimise
+              tarkvaras.
+
+    6.  Reageerimise aja all mõistetakse ajavahemikku tellija pöördumise
+        laekumisest kuni täitja poolt tellijaga ühenduse võtmiseni.
+        Tellija töövälisel ajal edastatud pöördumine loetakse laekunuks
+        sellele järgneva tööpäeva esimese tunni algusest.
+
+3.  Lepingu tähtaeg ja maksumus
+
+    1.  Töö teostamise algus on ___.___20___/peale lepingu
+          allkirjastamist.
+
+    2.  Tööd teostatakse kuni ___.___20___/___ (nädalat/kuud) alates
+          lepingu allkirjastamisest või punktis 3.4 nimetatud lepingu
+          maksimaalse maksumuse täitumiseni, olenevalt kumb asjaolu enne
+          saabub.
+
+    3.  Töö tunnihind on ____ eurot.
+
+    4.  Lepingu maksimaalne maksumus on _________ eurot.
+
+    5.  Punktis 3.4 nimetatud lepingu maksumus on maksimaalne ning kui
+          tööde teostamiseks kulub vähem töötunde, siis tasu
+          arvestatakse reaalselt kulunud töötundide eest.
+
+    6.  Tellija/rahastaja/ tasub täitja esitatud arve ___/21
+          kalendripäeva või suurem tähtaeg/ kalendripäeva jooksul arve
+          saamisest.
+
+4.  Lepingu jõustumine, muutmine ja lõppemine
+
+    1.  Leping jõustub poolte poolt allkirjastamisest.
+
+    2.  Pooltel on õigus lepingu muutmises kokku leppida üksnes
+          riigihangete seaduses ettenähtud juhtudel.
+
+    3.  Leping lõpeb lepingus sätestatud lepinguliste kohustuste
+          täitmisega, raamlepingus ettenähtud või seadusest tuleneval
+          alusel.
+
+5.  Poolte esindajad /täita ja muuta vastavalt vajadusele/
+
+    1.  Tellija kontaktisik: ___, e-post: ____, tel ___.
+
+    2.  Täitja kontaktisik: ___, e-post: ____, tel ___.
+
+    3.  (Vajadusel) Rahastaja kontaktisik lepinguga seotud info
+        edastamiseks: ___, e-post: ____, tel ___.
+
+6.  Tööajaarvestus ja töötundide üleandmine-vastuvõtmine
+
+    1.  Tööajaarvestust peetakse 30 minuti täpsusega.
+
+    2.  Tööaja sisestab täitja teostamise päeval tellija töödejuhtimise
+        tarkvaras vastava tööülesande juurde time log kommentaarina, mis
+        sisaldab ka teostatud tööde kirjeldust.
+
+    3.  Tööde tegemiseks kulunud töötundide raport peab sisaldama
+        minimaalselt järgnevat infot:
+
+        1.  töö teostanud isiku nime ja rolli;
+
+        2.  töö tegemise kuupäeva(sid);
+
+        3.  teostatud töötundide arv;
+
+        4.  töö lühikirjeldust ja töö tulemust.
+
+    4.  Vajadusel lepitakse töökoosolekul kokku töötundide raporti
+        täiendav detailsus.
+
+    5.  Tellijal on õigus põhjendatud juhul nõuda töötundide raportis
+        kajastatud töötundide ja/või sellega seotud sisu selgitamist
+        ja/või korrigeerimist/kustutamist.
+
+    6.  Töötundide üleandmine toimub _____ (nt igakuiselt/kvartaalselt)
+        tööde üleandmise-vastuvõtmise aktiga. Akt tuleb esitada ___ (nt
+        iga kuu/üks kord kvartalis) hiljemalt __. tööpäeval eelmise
+        perioodi raporteeritud töötundide kohta.
+
+    7.  Tööde üleandmise-vastuvõtmise akt peab vastama eelmise perioodi
+        töötundide raportile.
+
+7.  Erikokkulepped ja märkused /täita vastavalt vajadusele/
+
+    1.  Töötundide vastuvõtmisest keeldumisest teatamise aeg on ____
+          tööpäeva alates akti esitamisest täitja poolt. /juhul, kui
+          erineb raamlepingus sätestatust/
+
+  -------------------- -------------------- -------------------------- -----------
+  Tellija              Täitja               Rahastaja                  
+
+  (allkirjastatud      (allkirjastatud      (allkirjastatud            
+  digitaalselt)        digitaalselt)        digitaalselt)(vajadusel)   
+  -------------------- -------------------- -------------------------- -----------
+
+Raamlepingu nr _________
+
+Lisa 3
+
+Lisa 1
+
+Hankeleping nr ____
+
+Tööde üleandmise-vastuvõtmise akti vorm
+
+TÖÖDE ÜLEANDMISE-VASTUVÕTMISE AKT
+
+Akt on koostatud poolte vahel raamlepingu nr ____ /number/ alusel
+_______ /kuupäev/ sõlmitud hankelepingus _____ /number/ sätestatud
+tööde/töötundide üleandmise-vastuvõtmise kohta.
+
+1.  Töö/Töötundide üleandmisel-vastuvõtmisel anti ________ /kuupäev/
+    üle:
+
+______ /lühike sisukirjeldus ja viide töödejuhtimise tarkvara
+tööpiletile ning vajadusel ka töötundide maht/
+
+  --------------------------------------------------------------------------
+  Nr   Töö nimetus                 Tundide   Tunni    Maksumus   Maksumus
+                                   arv       hind     KM-ta      KM-ga
+  ---- --------------------------- --------- -------- ---------- -----------
+                                                                 
+
+                                                                 
+
+       Kokku:                                                    
+  --------------------------------------------------------------------------
+
+2.  Märkused: ____
+
+3.  Punktis 1 nimetatud tööde/töötundide eest kuulub maksmisele _______
+    eurot (maksumus käibemaksuta).
+
+4.  Käesoleva akti lahutamatud lisad on: ____
+
+    1.  Töötundide raport(id)
+
+    2.  ____
+
++-----------------------------------+-----------------------------------+
+| Täitja                            | Tellija                           |
+|                                   |                                   |
+| /täitja nimi/                     | /tellija nimi/                    |
++-----------------------------------+-----------------------------------+
+| (allkirjastatud digitaalselt)     | (allkirjastatud digitaalselt)     |
++-----------------------------------+-----------------------------------+
+
+[1] SAP - Systems Applications & Products in Data Processing
+
+[2] ABAP - Advanced Business Application Programming

@@ -1,0 +1,325 @@
+Sisukord
+Sisukord ................................................................................................................................................................................................... 1
+Sissejuhatus ............................................................................................................................................................................................. 2
+1.
+
+2.
+
+Disaini kontseptsioon .................................................................................................................................................................... 2
+1.1.
+
+Kasutajaliidese mõõdud ja ruudustik ................................................................................................................................ 2
+
+1.2.
+
+Värvipalett .......................................................................................................................................................................... 3
+
+1.3.
+
+Tüpograafia ......................................................................................................................................................................... 3
+
+Kasutajaliidese komponendid ....................................................................................................................................................... 5
+2.1.
+
+Isikuandmete blokk ............................................................................................................................................................ 5
+
+2.2.
+
+Menüü ................................................................................................................................................................................. 5
+
+2.3.
+
+Sakid ehk alajaotused ......................................................................................................................................................... 6
+
+2.4.
+
+Tabelid................................................................................................................................................................................. 6
+
+2.5.
+
+Vormid ................................................................................................................................................................................ 7
+
+2.6.
+
+Teated ............................................................................................................................................................................... 10
+
+2.7.
+
+Nupud ............................................................................................................................................................................... 11
+
+2.8.
+
+Mahukate andmetega loetelud ........................................................................................................................................ 11
+
+Sissejuhatus
+Käesolev dokument kirjeldab AS Helmese poolt Rahandusministeeriumile arendatud Riigitöötaja Iseteenindusportaali visuaalset
+disaini, kasutajaliidese komponente ja elemente ning nende puhul kasutatavaid värve ja stiile.
+Antud dokument on juhiseks arendajale kasutajaliidese programmeerimiseks ja kasutajaliideses kasutatavate komponentide valikus.
+
+1.
+
+Disaini kontseptsioon
+
+Iseteenindusportaali andmete kuvamise ja funktsionaalsustes kasutatavate komponentide stiili aluseks on vabavaraline kasutajaliidese
+raamistik "Bootstrap".
+Kasutajaliidese stiilide näidised ja kood: https://confluence.rmit/download/attachments/18711532/rmin_rtip_demo.zip?api=v2
+
+Joonis 1 – Portaali dokumendivormi näidis.
+
+1.1.
+
+Kasutajaliidese mõõdud ja ruudustik
+
+Kasutajaliidese nähtava osa laius on 984 pikslit. Selline mõõt tagab maksimaalse ruumikasutuse ekraanisuurusega 1024x760 pikslit ja
+jätab ruumi ka vertikaalsele kerimisribale.
+Kasutajaliides jaguneb neljaks põhialaks:
+A) päis, kus asub portaali logo ning autenditud kasutaja nimi ja ametikoht;
+B) navigeerimisriba, kus paikneb peamenüü koos avaneva alammenüüga;
+C) sisuala, mis sisaldab hallatavaid andmeid ja funktsionaalsust;
+D) jalus, kus paikneb üldine kontaktinfo.
+Sisuala (C) jagunemine erinevateks sisuplokkideks põhineb mõttelisel ruudustikul, kus ala laius on jaotatud võrdseks 12 osaks. Selline
+12-ruut-süsteem (12-grid layout system) aitab hoida korrapärast vertikaalset joondumist kasutajaliidese elementide horisontaalsel
+paigutamisel.
+2
+
+Joonis 2 – Iseteenindusportaali kasutajaliidese põhiplokid ja sisuala ruudustik-süsteem.
+
+1.2.
+
+Värvipalett
+
+Iseteenindusportaali kasutajaliides on peamiselt funktsionaalne andmete töötlemise keskkond, seetõttu peavad ka värvid ennekõike
+toetama andmete omadusi ja seisundeid.
+
+Lingi värvina kasutatakse erksat sinist (hex: #0687D4). See eristub teksti kõrval paremini ja ei ole pealkirjaga sama värvi.
+Punane värv (hex: #B92A21) on seotud veaolukorraga või esindab andmete kõrget prioriteeti.
+Roheline värv (hex: #468847) on seotud positiivse toiminguga või toimingu tulemusega ja esindab andmete korrasoleku seisundit.
+Tumekollane värv (hex: #F89406) on seotud poolelioleva toiminguga või andmetega, mis vajavad tähelepanu. Heledam kollane toon
+(#FFCC00) on kasutusel portaali päises tunnusvärvina logo tekstis tumehallil taustal.
+Erinevad hallid toonid on kasutusel tasutavärvina, et kasutajaliideses eristada erinevaid andmegruppe.
+
+1.3.
+
+Tüpograafia
+
+Kasutajaliidese baas-kirjatüüp on Tahoma, alternatiivina Helvetica, sans-serif. Pealkirjades on kasutatud "Museo" kirjatüüpi.
+Pealkirja stiilid:
+3
+
+H1 - font: "Museo 300", suurus: 28 px, rea kõrgus 140%, värv: #006699 H2 - font: "Museo 300",
+suurus: 21 px, rea kõrgus 140%, värv: #006699
+H3 - font: "Museo 500", suurus: 18 px, rea kõrgus 140%, värv: #006699
+H4 - font: "Museo 700", suurus: 15px, rea kõrgus 140%, värv: #333333
+Põhiteksti stiilid:
+P - Tahoma, Helvetica, suurus: 13 px, rea kõrgus 140%, värv: #222222
+Link - põhiteksti P stiilis, värv: #0687d4
+Small - põhiteksti P stiil, suurus 85% põhiteksti suurusest
+
+Täiendavad teksti stiilid:
+Täiendtekst - värv: #777777
+Veateade - värv: #B92A21
+Eduka toimingu tekst - värv: #468847
+Informatiivne tekst - värv: #3A87AD
+Abitekst - teksti ees piktogramm "i", värv: #696969
+
+Joonis 4 - täiendavate tekstistiilide näide.
+
+4
+
+2.
+2.1.
+
+Kasutajaliidese komponendid
+Isikuandmete blokk
+
+Päise plokis vasakul on kollase tekstiga portaali logo. Päise plokis paremal on kasutaja isiku nimi koos väljumise "x" nupuga. Inimese
+püsti kujutusega piktogramm viitab sellele, et tegemist on isiku objektiga.
+
+Joonis 5 - Portaali päis isiku andmetega, kui isikul on 1 töösuhe.
+
+Logo kõrval on sisse loginud kasutaja töösuhet või töösuhteid kirjeldav andmeplokk.
+Juhul kui autenditud isikul leidub 1 töösuhe, kuvatakse andmeplokis kollasega asutuse nimetus ja helehalliga ametinimetus selles
+asutuses.
+Juhul kui sisse loginud isikul on mitu töösuhet, muutub töösuhte andmeplokk valikmenüüks. Aktiivse ehk valitud töösuhte puhul
+kuvatakse asutuse nimetus kollasega, mitteaktiivse ehk valitava asutuse nimetus on valge tekstiga.
+
+Joonis 6 - Portaali päis isiku andmetega, kui isikul on mitu töösuhet.
+
+2.2.
+
+Menüü
+
+Menüü koosneb peamenüü elementidest ja lahti klikitavast alammenüüst. Peamenüü ploki all servas on sinine joon, millel asub
+kolmnurkne nooleke, mis viitab valitud elemendile.
+Peamenüü element sisaldab illustreerivat piktogrammi, teksti stiil vastab H3 pealkirja stiilile. Peamenüü aktiivne element on sinine
+(#00698C), mitteaktiivne on hall (#666666). Peamenüü elemendi laius sõltub lingi teksti pikkusest.
+
+Joonis 7 - Menüü näide koos avatud alammenüüga.
+
+5
+
+Alammenüü plokk avaneb valitud peamenüü elemendi alla ja on joondatud vasaku servaga piktogrammi keskele, et lingi tekstid
+joonduksid vertikaalselt peamenüü tekstiga. Ploki laius on minimaalselt 160 px, kuid laius venib vastavalt kõige pikema lingi teksti
+pikkusele. Alammenüü lingi tekst on valge, elemendid on eraldatud punktiirjoonega.
+
+2.3.
+
+Sakid ehk alajaotused
+
+Sakkide (tab’ide) plokk kasutab helehalli (#F4F4F4) tausta, et aktiivne alajaotuse sakk tuleks paremini esile. Alajaotuste nimetuste ette
+võib paigutada ka piktogrammi.
+Sakkide tekstid on põhiteksti stiiliga, mitteaktiivsed sakid kasutavad pealkirja-sinist värvi (#00698C).
+
+Joonis 8 - Menüü näide koos avatud alammenüüga.
+
+2.4.
+
+Tabelid
+
+Andmete kuvamisel tabelis saab järgmisi stiile:
+a) horisontaalsete eraldusjoontega tabel (vaikimisi stiil)
+b) horisontaalsete ja vertikaalsete eraldusjoontega tabel (raamidega stiil)
+c) kompaktne ruumi säästev tabel
+
+Joonis 9 - Vaikimisi stiiliga tabel.
+
+Joonis 10 - Tabel kus on kasutatud nii raamidega kui kompaktset stiili.
+
+Tabelis andmete esiletoomiseks ja/või nende seisundite märkimiseks saab kasutada järgmisi ridade stiile:
+1.
+2.
+3.
+4.
+
+Vaikimisi tavaseisund - stiili klass puudub
+Vigased või probleemsed andmed - stiil klass: "error"
+Toimetamist vajavad andmed - stiili klass: "warning"
+Esile toodud andmed - stiili klass: "info"
+6
+
+5.
+6.
+
+Korrektsed andmed - stiili klass: "success"
+Arhiveeritud andmed - stiili klass: "history"
+
+Samu stiili klasse on võimalik määrata ka üksikule lahtrile.
+
+Joonis 11 - Andmete seisundeid toetavad stiilid.
+
+2.4.1. Andmetabeli komponent
+Suurte andmemahtude jaoks on kasutusel spetsiaalne tabeli komponent, mille funktsionaalsus põhineb "dataTable"
+(http://www.datatables.net/) JavaScript teegil. Andmete kuvamisel kasutatakse raamidega kompaktse tabeli stiili.
+Antud komponent lisab tabelile automaatselt täiendava lehekülgedeks jaotuse koos navigeerimise nuppudega (Eelm., Järgm.) ning
+valikuliselt on võimalik lisada ka sisu filtreerimise/otsingu välja.
+
+Joonis 12 - Andmetabeli komponendi näidis.
+
+2.5.
+
+Vormid
+
+Vormide ehk andmete sisestamiseks ja töötlemiseks vajalike komponentide stiilid põhinevad "Bootstrap" ja "Select2"
+(https://select2.org/) teekidel.
+
+2.5.1. Vormide standard sisestusväljade stiilid.
+Sisestusvälja komponent koosneb sildist (label) ja lahtrist (input), mida täiendab valikuliselt abitekst. Kohustusliku välja puhul lisatakse
+komponendile stiili klass "mandatory".
+
+7
+
+Joonis 13 - Sisestusvälja komponendid.
+
+Kirjutuskindla välja puhul on lahtri taust kergelt heledamat tooni ja väärtuse tekst on halli värvi. Sisestusvälja lahtrile lisatakse atribuut
+"readonly" või kasutatakse input elemendi asemel span elementi koos stiili klassiga "uneditable-input".
+
+Joonis 14 - Kirjutuskindlad sisestusvälja komponendid.
+
+Alternatiivne stiil andmebaasist kirjutuskindlate väärtuste kuvamiseks on kasutada sisestusvälja komponenti kuid lahtrite input asemel
+kasutada span elementi koos stiili klassiga "input-like".
+
+Joonis 15 - Kirjutuskindlad sisestusvälja komponendid.
+
+2.5.2. Kuupäeva sisestusvälja stiil kalendri komponendiga (jQuery calendar).
+8
+
+Juhul kui kasutaja peab sisestama kuupäeva tüüpi väärtust, tuleb kasutada kuupäeva sisestusvälja koos stiili klassiga "hadDatepicker".
+
+Joonis 16 - Kalendri väljad koos kalendri komponendiga.
+
+2.5.3. Märkeruudud ja raadionupud.
+
+Joonis 17 - Kalendri väljad koos kalendri komponendiga.
+
+2.5.4. Valikmenüü ehk valiklahter.
+See on standard HTML <select> element, mis renderdamisel asendatakse stiliseeritud html <div> elementidega. See võimaldab
+sõltuvalt andmete iseloomust luua mahukaid aga lihtsalt kasutatavaid valiklahtreid. Valikmenüü komponendi funktsionaalsus põhineb
+vabavaralisel "Select2" teegil (lisainfo: https://select2.org/).
+
+Joonis 18 - Tavaline valikmenüü.
+9
+
+Juhul kui valikus on rohkem kui 20 elementi (number on seadistatav), lisandub automaatselt täiendav otsinguväli, mis toimib kui filter.
+
+Joonis 19 - Valikmenüü filtri väljaga.
+
+Iseteenindusportaalis on tihti vaja määrata dokumentides ja vormides töötaja isikut. Selleks on eraldi isiku valiklahter, mis kuvab isiku
+nime ja tema ametinimetust erineva stiiliga, et nimi oleks paremini eristatav valikut tehes. Samuti on andmeelemendid paigutatud
+kahele reale.
+Sarnast stiili võib kasutada ka mõnda muud tüüpi valikus, kus elementideks on mitmest andmeühikust koosnevad kirjed.
+
+Joonis 20 - Isiku valikmenüü näide.
+
+2.6.
+
+Teated
+
+Vigaste andmetega sisestusvälja stiilid.
+
+Joonis 21 - Sisestusväli, mis sisaldab veaolukorda.
+10
+
+Erinevad teated, mis kuvatakse vormi või dokumendi kohale:
+a) veateade
+b) hoiatusteade
+c) õnnestumise teade
+d) infoteade
+
+Joonis 22 - Erinevad teadete plokkide stiilid.
+
+2.7.
+
+Nupud
+
+Hall: standard nupu stiil - kasutatakse vaikimisi kõikide nuppude puhul.
+Sinine: toimingu kinnitamise ehk salvestamise nupu stiil
+Helesinine: täiendava lisatoimingu aktiveerimise nupu stiil
+Roheline: olulise ja pöördumatu toimingu kinnitamise nupu stiil
+Tumekollane: ohtliku või mitte-soovitatava toimingu aktiveerimise nupu stiil
+
+2.8.
+
+Mahukate andmetega loetelud
+
+Iseteenindusportaal kuvab kasutajale temaga seotud mahukaid infoobjekte, näiteks avaldusi, korraldusi, vms. dokumente. Üldjuhul
+on need loetelud kirjetega, mis koosnevad paljudest meta-andmetest ja tabelis kuvades ei jätku piisavalt horisontaalset ruumi et info
+oleks talutavalt loetav. Teisel juhul koosnevad loetelud küll vähestest andmetest, kuid nende väärtused on tihti pikkade tekstidena.
+Sellistel juhtudel on soovitav kasutada andmeploki stiile.
+Lihtne infokirjete loetelu (tööülesannete loetelu):
+
+11
+
+Joonis 23 - Tööülesannete loetelu näide.
+
+Grupeeritud kirjetega andmeplokid:
+
+Joonis 24 - Lähetuskorralduste loetelu näide.
+Grupeeritud kirjetega andmeplokk koos toimingu nuppudega:
+
+Mahukate infoobjektide loetelu:
+
+Joonis 25 - Väikevarade loetelu näide.
+
+12
+
+

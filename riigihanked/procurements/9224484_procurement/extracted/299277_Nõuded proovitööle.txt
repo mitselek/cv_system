@@ -1,0 +1,163 @@
+Proovitöö teostamiseks konfidentsiaalsete andmetega Riigitöötaja
+iseteenindusportaali lähtekoodi saamiseks esitab pakkuja läbi
+riigihangete registri teabevahetuse sellekohase taotluse. Taotlusega
+koos edastab pakkuja allkirjaõigusliku isiku poolt allkirjastatud
+konfidentsiaalsuskohustuse vormi koos andmetega kontaktisiku nime,
+isikukoodi ja e-posti aadressiga.
+
+Proovitöö peab vastama proovitöö oodatud tulemile ja töötama vastavalt
+kirjeldatud struktuurile.
+
+Proovitöö osas tuleb pakkumuse koosseisus esitada:
+
+-   proovitöö lähtekood - pakkumuse koosseisu kuuluva proovitöö
+    lähtekoodi esitab pakkuja Rahandusministeeriumi
+    Infotehnoloogiakeskuse (RmIT) pilveteenuse kaudu. Pilveteenusele
+    juurdepääsu saamiseks esitab pakkuja taotluse juurdepääsu saamiseks
+    läbi Riigihangete Registri teabevahetuse hiljemalt 3 päeva enne
+    pakkumuste esitamise tähtaega.
+
+Taotluses tuleb märkida:
+
+– pakkuja nimi ja registrikood,
+
+– kontaktisiku nimi, isikukood ja e-posti aadress.
+
+Juurdepääsuks RmIT pilveteenusesse määrab hankija taotluses nimetatud
+kontaktisikule unikaalse parooli ning edastab krüpteeritult lingi ja
+parooli pakkuja kontaktisiku e-posti aadressile. Juurdepääs kehtib kuni
+pakkumuse esitamise tähtaja lõpuni;
+
+-   lähtekoodi paigaldusjuhend - Paigaldusjuhendi alusel peab hankija
+    olema võimeline lähtekoodi iseseisvalt paigaldama praeguse RTIP
+    rakenduse keskkonda, mille ülevaade on toodud Tehnilises
+    kirjelduses. Juhendi kasutajalt ei tohi eeldada kasutatud
+    tehnoloogiate tundmist;
+
+-   tehniline dokumentatsioon - mis peab olema koostatud vastavalt RmIT
+    „Tarkvaraarhitektuuri_dokumenteerimise nõuded“ (esitatud
+    alusdokumentide koosseisus). Diagrammidest peab olema kirjeldatud
+    vähemalt komponent diagramm, olemidiagramm (andmemudel - peab olema
+    olemi-suhte diagrammina koos semantikaga);
+
+-   seletuskiri, miks just selliselt on lahendus realiseeritud.
+
+Pakkuja proovitöö peab vastama RmIT mittefunktsionaalsetele nõuetele
+(riigihanke alusdokument „RFN-2.9.0“) ja IT-profiilile (riigihanke
+alusdokument „ IT-profiil-2.9.0“).
+
+Puhkuste ja puudumiste saatmine kalendrisse
+
+Olemasolev funktsionaalsus
+
+Riigitöötaja iseteenindusportaalis (RTIP) saavad riigiasutuste töötajad
+vormistada enda puhkuseid ja puudumisi moodulis “Puhkused ja
+puudumised”.
+Puhkused = töölepingu seadusest tulenevad erinevad puhkuseliigid.
+Puudumised = asutuse motivatsioonipaketist tulenevad vabad päevad
+(tervisepäev vms).
+
+Puhkuste ja puudumiste moodulis vormistab töötaja puhkusetaotluse
+(vacation request) valides klassifikaatorist puhkuseliigi ja kalendrist
+puhkuse alguse ning lõpu kuupäevad. Vt pilt 1.
+
+[]Pilt 1. Puhkusetaotluse vormistamine.
+
+Puudumine vormistatakse samamoodi puhkuste moodulist, aga taotluse
+liigiks on “Puudumistaotlus” (absence request). Vt pilt 2.
+
+[]Pilt 2. Puudumistaotluse vormistamine.
+
+Töötaja saab samale puhkusetaotlusele lisada mitu puhkuseperioodi.
+Perioodide arv ühel taotlusel ei ole piiratud. Vt. pilt 3.
+
+[]
+Pilt 3. Puhkusetaotlus mitme perioodiga.
+
+Töötaja saadab puhkusetaotluse või puudumistaotluse kooskõlastusringile.
+Taotluse kooskõlastamisele saatmine järgneb alati taotluse täitmisele ja
+on heakskiidu saamiseks kohustuslik. Vt pilt 4.
+
+[]Pilt 4. Puhkusetaotluse kooskõlastamisele saatmine.
+
+Puhkusetaotlus kooskõlastatakse ja kinnitatakse. Kinnitada saab taotlust
+nii ükshaaval kui mitme töötaja taotlused korraga. Vt pilt 5 ja 6.
+
+[]
+Pilt 5: Ühe puhkusetaotluse kinnitamine (taotluse detailvaatelt).
+
+[]Pilt 6. Mitme puhkusetaotluste kinnitamine (tabelvaatest).
+
+Kinnitamise tulemusena:
+
+-   genereerib süsteem puhkusest või puudumisest PDF dokumendi,
+
+-   saadab puhkuse või puudumise majandustarkvarasse SAP ning
+
+-   saadab töötajale teavituse (e-kirja) tema puhkuse või puudumise
+    kinnitamise kohta. Vt. pilt 7.
+
+Igal asutusel on võimalik seadistada, kas puhkuse kinnitamisel peab
+kinnitaja need digiallkirjastama. Sel juhul lisatakse genereeritav PDF
+fail digidoc konteinerisse.
+
+[]Pilt 7. Kinnitusejärgne teavitus RTIP-is.
+
+Arendusvajadus ja proovitöö
+
+Probleem: Puhkust ja puudumist rakenduse poolt töötajale kalendrisse ei
+saadeta. Kasutaja peab ajareserveeringud oma kalendrisse lisama käsitsi.
+
+Arendusvajadus: proovitööna tuleb lisada RTIP lähtekoodi täiendav
+automaatne funktsionaalsus, et puhkuse või puudumise kinnitamisel saata
+vastav periood töötajale ajareserveeringuna (kalendrikutsena)
+kalendrisse.
+
+-   Nii puhkus kui puudumine tuleb kalendrisse saata tervikliku
+    perioodina (täis päev). Kui töötaja puhkab näiteks 18.08.2026 -
+    22.08.2026, siis peab see kalendrisse salvestuma ühe tervikliku
+    perioodina.
+
+-   Ühel puhkusetaotlusel võib olla mitu puhkuseperioodi (näiteks
+    18.-22.08.2026, 6.-10.10.2026 ja 22.-26.12.2026), iga periood tuleb
+    saata eraldi ajareserveeringuna, aga ühes kalendrikutses.
+
+-   Puhkuse või puudumise kalendrikutse tuleb töötajale saata puhkuse
+    või puudumise kinnitamisel (mitte varem).
+
+-   Kalendrikutse tuleb saata eraldiseisva e-kirjaga, kuna taotluse
+    kinnitamise kohta saadetava teavituse e-kirja saamise saab töötaja
+    välja lülitada.
+
+-   Kalendrikutse pealkirjaks tuleb panna vastavalt: “Puhkus”,
+    “Puudumine”.
+
+-   Kalendrikutse kuvamisviis peab olema “Kontorist väljas”.
+
+-   Osad asutused on puhkuse kinnitamisel seadistanud
+    digiallkirjastamise nõude. Tuleb arvestada, et digiallkirjastamine
+    ehk puhkuse kinnitamine võib aeg-ajalt ebaõnnestuda. Sel juhul tuleb
+    kalendrikutse jätta saatmata.
+
+-   Kui kinnitajal järgmisel katsel puhkuse kinnitamine koos
+    digiallkirjastamisega õnnestub, tuleb välja saata ka kalendrikutse.
+
+-   Tuleb arvestada suurte andmemahtudega - korraga on võimalik
+    kinnitada tuhandete töötajate puhkusetaotlused, mis sisaldavad
+    mitmeid puhkuseperioode.
+
+-   Töötaja võib portaalis oma puhkust või puudumist muuta: tõsta
+    teisele ajale, pikendada, lühendada, katkestada või tühistada
+    tervikuna. Kõik muudatused läbivad samuti
+    kooskõlastamise-kinnitamise protsessi. Ajareserveeringud kalendrisse
+    tuleb saata ka kõikide muudatuste, sh tühistamise kohta muudatuste
+    kinnitamise hetkel.
+
+-   RTIPi kasutajad tegutsevad erinevates ajavööndites. Puhkuse ja
+    puudumise kalendrisse saatmine peab suutma arvestada, mis ajavööndis
+    töötaja asub ja saatma perioodi kalendris õigetele kuupäevadele.
+
+-   Kalendrikutsete saatmine tuleb rakenduse admin-keskkonnas logida
+    järgmiste andmetega: logi id, toimingu aeg, toimingu tüüp, tegija
+    SAP ID, tegija andmed, objekti ID, dokumendi tüüp, objekti andmed.
+    Vt. pilt 8.[]Pilt 8. Logi näide.
