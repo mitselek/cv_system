@@ -11,18 +11,15 @@ title:
   et: Reprokoja juht
   en: Head of Repro Department
 location: Estonia
-tags:
-  - Management
-  - Media
-  - Print
+tags: [Management, Media, Print]
 status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - Reprokoja käigushoidmine
 
-### en
+## en
 
 - Repro room maintenance

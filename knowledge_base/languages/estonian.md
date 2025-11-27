@@ -12,9 +12,7 @@ proficiency:
   writing: native
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - native-language
-  - communication
+tags: [native-language, communication]
 ---
 
 ## et

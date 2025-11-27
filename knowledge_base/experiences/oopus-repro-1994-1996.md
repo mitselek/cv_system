@@ -11,22 +11,19 @@ title:
   et: Tegevjuht
   en: Manager
 location: Estonia
-tags:
-  - Management
-  - Sales
-  - Media
+tags: [Management, Sales, Media]
 achievements:
   - oopus-repro-den-za-dnjom-acquisition-1996
 status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - Reprokoja klientidega varustamine, tehnika korrashoid
 - Saavutused: Nädalakirja Den za Dnjom kaubamärgi ost
 
-### en
+## en
 
 - Supplying clients for the repro room
 - Maintaining equipment

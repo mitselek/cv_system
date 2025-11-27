@@ -12,10 +12,7 @@ proficiency:
   writing: C2
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - language
-  - communication
-  - international
+tags: [language, communication, international]
 evidence:
   - entusiastid-ou-2010-present
   - tartu-ulikool-2014-2015

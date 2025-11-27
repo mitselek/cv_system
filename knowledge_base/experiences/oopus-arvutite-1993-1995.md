@@ -11,18 +11,15 @@ title:
   et: Arendusjuht
   en: Development Manager
 location: Estonia
-tags:
-  - IT
-  - Management
-  - Entrepreneurship
+tags: [IT, Management, Entrepreneurship]
 status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - Väikefirmas täidab omanik kõiki ülesandeid
 
-### en
+## en
 
 - In a small company, the owner performs all tasks

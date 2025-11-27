@@ -11,10 +11,7 @@ title:
 description:
   et: Kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle.
   en: All 4 interns were hired full-time after completing their internships.
-tags:
-  - mentoring
-  - team-building
-  - leadership
+tags: [mentoring, team-building, leadership]
 status: verified
 last_verified: '2025-11-21'
 ---

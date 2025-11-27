@@ -13,11 +13,7 @@ proficiency:
 context: Second language, near-native speaker
 status: verified
 last_verified: '2025-11-22'
-tags:
-  - language
-  - communication
-  - baltic
-  - second-language
+tags: [language, communication, baltic, second-language]
 ---
 
 ## et

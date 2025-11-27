@@ -4,8 +4,5 @@ type: hobby
 title:
   en: Singing in Mixed Choirs
   et: Laulmine Segakoorides
-tags:
-  - creative
-  - music
-  - teamwork
+tags: [creative, music, teamwork]
 ---

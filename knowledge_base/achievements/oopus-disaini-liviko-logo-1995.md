@@ -8,10 +8,7 @@ parent_experience: oopus-disaini-1993-1995
 title:
   et: Liviko logo loomine
   en: Creation of the Liviko logo
-tags:
-  - graphic-design
-  - branding
-  - logo-design
+tags: [graphic-design, branding, logo-design]
 status: verified
 last_verified: '2025-11-21'
 ---

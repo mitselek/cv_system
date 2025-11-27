@@ -48,7 +48,7 @@ last_verified: '2025-11-27'
 
 ---
 
-### et
+## et
 
 - Peamiseks ülesandeks unistada ja fantaseerida.
 - Vastavalt hetkevajadustele/-võimalustele ka:
@@ -66,7 +66,7 @@ last_verified: '2025-11-27'
   - 3 muuseumi
   - paar äriühingut
 
-### en
+## en
 
 - Adapting the Entu data management platform to the specific needs of various clients (schools, museums, businesses).
 - Node.js/JavaScript-based architecture: API backend, Vue.js frontend, MongoDB database.

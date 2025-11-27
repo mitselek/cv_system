@@ -11,11 +11,7 @@ title:
 description:
   et: Õnnestus panna ajaloolased toimetama andmetega otse MySql andmebaasis, kus nad teevad päringuid ja loovad sisu, mis on märkimisväärne kasutuselevõtt.
   en: Succeeded in getting historians to work directly with the MySQL database, where they run queries and even create content, marking a significant user adoption success.
-tags:
-  - user-adoption
-  - training
-  - data-democratization
-  - process-improvement
+tags: [user-adoption, training, data-democratization, process-improvement]
 status: verified
 last_verified: '2025-11-21'
 ---

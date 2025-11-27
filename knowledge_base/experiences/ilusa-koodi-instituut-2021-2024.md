@@ -63,7 +63,7 @@ last_verified: '2025-11-27'
 
 ---
 
-### et
+## et
 
 - Juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) platvormi arendamisel.
 - Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ja arhitektuur.
@@ -73,7 +73,7 @@ last_verified: '2025-11-27'
 - Tulemus: Kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle.
 - Vastutus rahvusvahelise kultuurisündmuse digitaalse infrastruktuuri eest.
 
-### en
+## en
 
 - Led a 4-member development team for PÖFF (Black Nights Film Festival) platform development.
 - Technical leadership and architecture for the entire festival website and logistics system.

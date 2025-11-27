@@ -7,12 +7,7 @@ category: Technical
 proficiency:
   excel: 8/10
   google_sheets: 10/10
-tags:
-  - data-analysis
-  - automation
-  - formulas
-  - database-operations
-  - reporting
+tags: [data-analysis, automation, formulas, database-operations, reporting]
 evidence:
   - eesti-malu-instituut-2017-2024
   - ilusa-koodi-instituut-2021-2024

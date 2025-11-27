@@ -11,10 +11,7 @@ title:
 description:
   et: Tutvustasin dokumenteerimise võimalikkust ja väärtust korporatsioonis, parandades teadmiste jagamist ja jätkusuutlikkust.
   en: Introducing the possibility and value of documentation within the corporation, improving knowledge sharing and sustainability.
-tags:
-  - process-improvement
-  - documentation
-  - corporate-culture
+tags: [process-improvement, documentation, corporate-culture]
 status: verified
 last_verified: '2025-11-21'
 ---

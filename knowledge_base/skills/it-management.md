@@ -6,10 +6,7 @@ skill_name:
   et: IT-juhtimine
   en: IT Management
 category: Management
-tags:
-  - management
-  - infrastructure
-  - user-support
+tags: [management, infrastructure, user-support]
 status: verified
 last_verified: '2025-11-21'
 ---

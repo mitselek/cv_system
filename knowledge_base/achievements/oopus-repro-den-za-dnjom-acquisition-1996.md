@@ -8,10 +8,7 @@ parent_experience: oopus-repro-1994-1996
 title:
   et: Nädalakirja Den za Dnjom kaubamärgi ost
   en: Acquisition of the Den za Dnjom weekly magazine brand
-tags:
-  - business-development
-  - acquisition
-  - media
+tags: [business-development, acquisition, media]
 status: verified
 last_verified: '2025-11-21'
 ---

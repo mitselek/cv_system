@@ -11,18 +11,15 @@ title:
   et: Arvutigraafik-kujundaja
   en: Computer Graphic Designer
 location: Estonia
-tags:
-  - Graphic Design
-  - Advertising
-  - Media
+tags: [Graphic Design, Advertising, Media]
 status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - Joonistasin klientidele ajalehekuulutusi
 
-### en
+## en
 
 - Designed newspaper advertisements for clients

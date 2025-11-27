@@ -11,24 +11,19 @@ title:
   et: projektijuht (IT)
   en: Project Manager
 location: Estonia
-tags:
-  - Project Management
-  - Database Development
-  - Media
+tags: [Project Management, Database Development, Media]
 status: verified
 last_verified: '2025-11-21'
-skills_demonstrated:
-  - project-management
-  - database-management
+skills_demonstrated: [project-management, database-management]
 achievements:
   - soov-kirjastus-classifieds-db-1993
 ---
 
-### et
+## et
 
 - Soovilehe telefonineiudele liidesega andmebaas kuulutuste sisestamiseks ja kuulutuste automaatne töötlemine küljenduskõlblikuks
 
-### en
+## en
 
 - Developed a database with an interface for Soov newspaper's telephone operators to input and process classified ads for layout
 

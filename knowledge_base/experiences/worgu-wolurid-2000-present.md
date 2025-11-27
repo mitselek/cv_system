@@ -11,9 +11,7 @@ title:
   et: Visionäär
   en: Visionary
 location: Estonia
-tags:
-  - IT
-  - Entrepreneurship
+tags: [IT, Entrepreneurship]
 status: verified
 last_verified: '2025-11-21'
 ---

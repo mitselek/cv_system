@@ -11,11 +11,7 @@ title:
 description:
   et: Arendasin Soovilehe telefonineiudele liidesega andmebaasi kuulutuste sisestamiseks ja automaatseks töötlemiseks küljenduskõlblikuks.
   en: Developed a database with an interface for Soov newspaper's telephone operators to input and process classified ads for layout.
-tags:
-  - database-development
-  - software-development
-  - media
-  - automation
+tags: [database-development, software-development, media, automation]
 status: verified
 last_verified: '2025-11-21'
 ---

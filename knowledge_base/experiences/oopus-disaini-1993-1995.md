@@ -11,22 +11,19 @@ title:
   et: 3D graafika disainer
   en: 3D Graphic Designer
 location: Estonia
-tags:
-  - 3D Design
-  - Graphic Design
-  - Marketing
+tags: [3D Design, Graphic Design, Marketing]
 achievements:
   - oopus-disaini-liviko-logo-1995
 status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - Väikefirmas täidab omanik kõiki ülesandeid
 - Saavutused: Liviko logo
 
-### en
+## en
 
 - In a small company, the owner performs all tasks
 - Logo of Liviko

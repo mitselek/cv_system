@@ -12,10 +12,12 @@ description:
   et: Migreerisin üle 700 postkasti kohalikust mailiserverist Gmaili ilma andmekaotuseta (90% kulude kokkuhoid).
   en: Migrated the entire university's (approx. 700 users) email system to Google Mail, which improved collaboration and reduced IT costs on emails by 90%.
 tags:
+
   - cloud-migration
   - cost-reduction
   - it-management
   - project-management
+
 status: verified
 last_verified: '2025-11-21'
 ---

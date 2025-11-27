@@ -11,15 +11,8 @@ title:
   et: IT-osakonna juht
   en: Head of IT Department
 location: Tallinn, Estonia
-tags:
-  - IT Management
-  - Infrastructure
-  - Network Administration
-  - System Implementation
-  - Education
-skills_demonstrated:
-  - it-management
-  - system-architecture
+tags: [IT Management, Infrastructure, Network Administration, System Implementation, Education]
+skills_demonstrated: [it-management, system-architecture]
 achievements:
   - eka-lan-construction-2012
   - eka-email-migration-2012
@@ -28,7 +21,7 @@ status: verified
 last_verified: '2025-11-21'
 ---
 
-### et
+## et
 
 - IT infrastruktuurid;
 - Intranet, emailid;
@@ -37,7 +30,7 @@ last_verified: '2025-11-21'
 - **Kampusvõrgu ehitamine:** Kogu ülikooli LAN-võrgu planeerimine ja ehitamine, hõlmates kõiki hooneid ja ühendades 700+ kasutajat.
 - Saavutused: Kogu ülikooli e-mailindus kolitud Google Mail'i, juurutatud Google Docs, arendatud ja juurutatud dokumendihalduse lahendus.
 
-### en
+## en
 
 - Managed the university's IT infrastructure, including intranet, email, and internal information systems.
 - **Campus-wide LAN construction:** Planned and built the entire university's local area network infrastructure spanning multiple buildings and connecting 700+ users.

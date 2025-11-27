@@ -12,9 +12,7 @@ proficiency:
   writing: B2
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - language
-  - communication
+tags: [language, communication]
 ---
 
 ## et

@@ -11,11 +11,7 @@ tools:
   - 3D printers
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - hobby
-  - 3d-modeling
-  - prototyping
-  - CAD
+tags: [hobby, 3d-modeling, prototyping, CAD]
 ---
 
 ## et
