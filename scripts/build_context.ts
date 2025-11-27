@@ -103,11 +103,15 @@ async function compileKnowledgeBase() {
           compiledContent += `### ${data.id}\n\n`;
           compiledContent += "```yaml\n" + frontmatter + "\n```\n\n";
           if (markdownBody) {
-            // Increase heading levels: ### becomes ####, ## becomes ####
-            // This makes both at h4 level under the h3 experience/entity heading
-            markdownBody = markdownBody.replace(/^#### /gm, '##### ');
-            markdownBody = markdownBody.replace(/^### /gm, '#### ');
+            // Increase heading levels by 2 to nest under h3 entity heading
+            // Source convention: h2 for main sections, h3 for subsections
+            // Compiled output: h4 for main sections, h5 for subsections (under h3 entity)
+            // Process in reverse order (deepest first) to avoid double-replacement
+            markdownBody = markdownBody.replace(/^##### /gm, '####### ');
+            markdownBody = markdownBody.replace(/^#### /gm, '###### ');
+            markdownBody = markdownBody.replace(/^### /gm, '##### ');
             markdownBody = markdownBody.replace(/^## /gm, '#### ');
+            markdownBody = markdownBody.replace(/^# /gm, '### ');
             // Ensure blank line before headings (MD022)
             markdownBody = markdownBody.replace(/([^\n])\n(#{1,6} )/g, '$1\n\n$2');
             // Ensure blank line after headings (MD022)
