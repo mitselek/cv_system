@@ -1,0 +1,116 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302049
+Hankija: Ettevõtluse ja Innovatsiooni Sihtasutus (90006012)
+Hange: E-residentsuse veebi- ja infosüsteemide disain, arendus- ja hooldustööd
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+nr
+1 Ühe töötunni (60 min) maksumus
+käibemaksuta
+2 Lahendus terviklikult
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.1.1
+3 Lahendus terviklikult
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.1.2
+4 UX/UI prototüüp ja kaaskiri
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.2.1
+5 UX/UI prototüüp ja kaaskiri
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.2.2
+6 Tehniline ja arhitektuuriline kirjeldus
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.3.1
+7 Tehniline ja arhitektuuriline kirjeldus
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.3.2
+8 Tehniline ja arhitektuuriline kirjeldus
+Hindamiskriteerium vastavalt
+Lisa 1 punktile 5.2.3.3
+
+Koostatud 13.11.2025 15:11:27
+
+Tüüp /
+hindamismeetod
+Maksumus vähim on parim
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+RHAD Kvaliteet - hankija
+hinnatav
+Kokku:
+
+1/2
+
+Osakaal
+30
+
+Kogus
+
+Ühik
+tund (h)
+
+Pakkuja
+täidetav
+jah
+
+21
+14
+7
+7
+7
+7
+7
+100
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9488324/general-info
+
+Hindamismetoodika kirjeldus
+1. Ühe töötunni (60 min) maksumus käibemaksuta
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. Lahendus terviklikult
+Hindamine vastavalt RHAD punktile 5.
+
+3. Lahendus terviklikult
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+4. UX/UI prototüüp ja kaaskiri
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+5. UX/UI prototüüp ja kaaskiri
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+6. Tehniline ja arhitektuuriline kirjeldus
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+7. Tehniline ja arhitektuuriline kirjeldus
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+8. Tehniline ja arhitektuuriline kirjeldus
+Hindamine vastavalt RHAD Lisa 1 punktile 5.
+
+Koostatud 13.11.2025 15:11:27
+
+2/2
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9488324/general-info
+
+

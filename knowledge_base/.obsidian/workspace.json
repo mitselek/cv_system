@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "experiences/eesti-keele-instituut-2017-2018.md",
+                "file": "GITHUB_REPOSITORY_REGISTRY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eesti-keele-instituut-2017-2018"
+              "title": "GITHUB_REPOSITORY_REGISTRY"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "f93555f669b842aa",
   "lastOpenFiles": [
+    "experiences/eesti-keele-instituut-2017-2018.md",
     "skills/spring-boot.md",
     "skills/java.md",
     "experiences/justiitsministeerium-2002-2005.md",
@@ -210,7 +211,6 @@
     "experiences/auma-expo-1992-1993.md",
     "experiences/ilusa-koodi-instituut-2021-2024.md",
     "experiences/entusiastid-ou-2010-present.md",
-    "_compiled_context.md",
     "skills/team-leadership.md.__stamp__",
     "skills/system-architecture.md.__stamp__",
     "skills/python.md.__stamp__",

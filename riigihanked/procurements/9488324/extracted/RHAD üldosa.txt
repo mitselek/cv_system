@@ -1,0 +1,169 @@
+[A pink and blue paper with lines Description automatically generated]
+
+  -----------------------------------------------------------------------
+  Riigihanke nimetus:            E-residentsuse veebi- ja infosüsteemide
+                                 disain, arendus- ja hooldustööd
+  ------------------------------ ----------------------------------------
+  Riigihanke viitenumber:        302049
+
+  Hankija sisene hankenumber     HNR250093
+
+  Hanke liik:                    Avatud hankemenetlus (riigihangete
+                                 seadus (RHS) 1. jagu 2. jaotis))/
+                                 e-menetlus.
+
+  Lepingu liik:                  Raamleping
+
+  Lepingu periood:               48 kalendrikuud
+
+  Lepingu eeldatav maksumus:     3 000 000,00
+  -----------------------------------------------------------------------
+
+.
+
+Üldosa
+
+1.  RHAD – riigihanke alusdokumendid, mis koosnevad käesolevas failis
+      olevast põhitekstist koos selle lisadega ja e-riigihangete
+      keskkonnas asuvatest hanketeatest (HT), veebivormidest ning
+      allalaetavatest failidest või muudest dokumentidest, mida on
+      loetletud RHS § 4 lg-s 1 p-is 17.
+
+2.  Riigihange ei ole ühe menetluse raames osadeks jaotatud, sest
+      raamlepingu esemeks on funktsionaalselt koos toimivad ja sama
+      eesmärgi saavutamiseks vajalikud teenused.
+
+3.  Iga viidet, mida hankija on teinud kindlale ostuallikale,
+      protsessile, kaubamärgile, patendile, tüübile, päritolule,
+      tootmisviisile ja RHS § 88 lg-s 2 nimetatud alustele, palume
+      lugeda täiendatuks märkega „või sellega samaväärne“. Samaväärsus
+      tähendab samu kasutusomadusi ja funktsionaalsusi. Samaväärsuse
+      korral tuleb pakkujal pakkumuses esitada seda tõendavad
+      dokumendid.
+
+4.  RHS § 85 lg 6 kohane põhjendus olelusringi kulude arvestamata
+      jätmise kohta: lepingu esemeks ei ole uue infosüsteemi arendus,
+      vaid tegemist on hankijal juba olemas ja kasutuses oleva
+      infosüsteemiga ning sellele vajaminevate (täiendavate) arendus- ja
+      hooldustöödega. Vajalikud arendus-ja hoolduskulud on hankija
+      arvestanud raamlepingu eseme töötunni hinna sisse. 
+
+5.  Pakkumuse esitamine ei eelda raamlepingu täitmise kohaga tutvumist
+      või RHADi selgitavate dokumentide kohapeal kontrollimist.
+
+6.  Hankija võib kontrollida pakkumuste vastavust RHADis esitatud
+      tingimustele ning hinnata vastavaks tunnistatud pakkumusi RHSis
+      sätestatud korras enne pakkujate suhtes kõrvaldamise aluste
+      puudumise ja kvalifikatsiooni kontrollimist. Sellisel juhul tagab
+      hankija, et raamlepingut ei sõlmita sellise pakkujaga, kes oleks
+      tulnud RHS § 95 lg 1 alusel hankemenetlusest kõrvaldada või kes ei
+      vasta hankija kehtestatud kvalifitseerimise tingimustele vastavalt
+      RHS § 52 lg-le 3.
+
+7.  Eestikeelse ja võõrkeelse dokumendi/teabe vastuolu korral lähtutakse
+      eestikeelsest dokumendist/teabest.
+
+8.  Alternatiivsete lahenduste esitamine ei ole lubatud.
+
+9.  Kogu riigihankega seotud teabevahetus hankija ja ettevõtja vahel
+      toimub elektrooniliselt RHRi vahendusel RHSis sätestatud alustel.
+
+10. Riigihankes saavad osaleda ainult pakkujad või taotlejad, kelle elu-
+      või asukoht on RHS § 3 p-s 2 nimetatud riigis (Eesti, mõni muu
+      Euroopa Liidu liikmesriik, muu Euroopa Majanduspiirkonna
+      lepinguriik või Maailma Kaubandusorganisatsiooni
+      riigihankelepinguga ühinenud riik).
+
+11. Pakkuja, kelle suhtes esineb vähemalt üks RHSi § 95 lg 1 punktides
+      1–3 ja 5 ning lg 4 punktides 2–11 nimetatud alustest, võib esitada
+      koos pakkumusega tõendid selle kohta, et ta on võtnud meetmeid oma
+      usaldusväärsuse taastamiseks.
+
+12. Juhul, kui riigihanke alusdokumentides kasutatavad mõisted on
+      avamata, tuleb lähtuda Eesti Keele Instituudi Sõnaveebist
+      (https://sonaveeb.ee/).
+
+13. Kui huvitatud isik ei ole esitanud hankemenetluse käigus küsimusi
+      riigihanke alusdokumentides avastatud vastuolude, ebaselguste või
+      puuduste kohta, on hankijal õigus lepingu sõlmimise ja täitmise
+      käigus üleskerkinud vaidluste korral valida hankijale sobivam
+      riigihanke alusdokumentide tõlgendus.
+
+Pakkumuse vormistamine
+
+14. Kõik RHADis nõutud dokumendid tuleb esitada elektrooniliselt RHRi
+      kaudu aadressil https://riigihanked.riik.ee.
+
+15. Pakkumus vormistatakse eesti keeles. Muus keeles esitatud
+      dokumentidele peab olema lisatud eestikeelne tõlge.
+
+16. Pakkuja võtab enda kanda pakkumuse õigeaegse esitamise kogu riski.
+      Kõik pakkumuse ettevalmistamise ja esitamisega seotud kulud katab
+      pakkuja.
+
+17. Ühispakkujad peavad nimetama riigihankega ning raamlepingu sõlmimise
+      ja täitmisega seotud toimingute tegemiseks endi seast volitatud
+      esindaja. Ühispakkujate volitatud esindajale antud volitus peab
+      kehtima kuni hankelepingu täitmiseni.
+
+18. Pakkumus on konfidentsiaalne kuni nimetatud pakkumuse edukaks
+      tunnistamise otsuse tegemiseni.
+
+Pakkumuse maksumus
+
+19. Pakkuja esitab pakkumuse maksumuse RHRis „hindamiskriteeriumid ja
+      hinnatavad näitajad“ lehel.
+
+20. Pakkumuse maksumuses kajastatud summad on hankijale lõplikud, sh
+      sisaldavad tasusid või muid makse, v.a käibemaksu, mis
+      kajastatakse eraldi ning selles toodud summadele ei lisandu
+      täiendavaid väljamakseid ega kulutusi.
+
+Pakkumuste vastavus, tagasilükkamine ja hankemenetluse kehtetuks tunnistamine
+
+21. Hankijal on õigus lükata pakkumus tagasi, kui see ei vasta RHADis
+    esitatud tingimustele, kui pakkuja ei esita tähtajaks hankija nõutud
+    selgitusi või pakkuja selgituste põhjal ei ole võimalik üheselt
+    hinnata pakkumuse vastavust RHADis esitatud tingimustele.
+
+22. Lisaks RHSi §116 lg 1 p 1 toodud juhtudel on hankijal õigus tagasi
+    lükata kõik pakkumused, kui:
+
+    1.  hankija tegevuseesmärkides ja prioriteetides toimub muudatus,
+          mis välistavad või muudavad ebaotstarbekaks hanke
+          lõpuleviimise hanke alusdokumentides sätestatud korras.
+
+23. Hankija jätab endale õiguse tunnistada hankemenetlus kehtetuks, kui:
+
+    1.  hankija juhtimisorgan teeb otsuse, millest tulenevalt riigihanke
+          korraldamine osutub võimatuks;
+
+    2.  toimub muudatus hankija tegevuseesmärkides ja prioriteetides;
+
+    3.  hanke toimumise ajal on hankijale saanud teatavaks asjaolud, mis
+          välistavad või muudavad ebaotstarbekaks hankemenetluse
+          lõpuleviimise RHADis sätestatud korras;
+
+    4.  hindamiskriteeriumi „Proovitöö” alusel enim punkte saanud
+          pakkumusele on antud vähem kui 35 punkti;
+
+    5.  vastavaks tunnistatakse üks pakkumus.
+
+Pakkumuste hindamine
+
+24. Hankija hindab vastavaks tunnistatud pakkumusi vastavalt RHAD lisas
+      2 nimetatud pakkumuste hindamise kriteeriumitele.
+
+25. Hankija sõlmib raamlepingu majanduslikult soodsaima pakkumuse
+      alusel, võttes arvesse parimat võimalikku hinna ja kvaliteedi
+      suhet.
+
+26. Kui riigihankes on vastavaks tunnistatud ainult üks pakkumus, siis
+      on hankijal õigus pakkumusele omistada automaatselt maksimaalsed
+      väärtuspunktid ning pakkumuse sisulist hindamist ei toimu.  
+
+27. Pakkumuste hindamiskriteeriumid, nende suhteline osakaal ja
+      hindamismetoodika on sätestatud RHAD lisas 2 ja riigihangete
+      registris.
+
+[A blue and pink circle Description automatically generated]
