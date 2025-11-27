@@ -168,7 +168,7 @@ For each mandatory requirement category:
 - Final review checklist
 - Submission deadline reminder
 
-### Phase 6: Output Format
+### Phase 6: Output Format and Git Workflow
 
 Create assessment document as `ASSESSMENT.md` in procurement folder:
 
@@ -301,3 +301,73 @@ Before finalizing assessment:
 - Remove any emoji usage
 - Confirm deadlines and dates are accurate
 - Review for clarity and readability
+
+## Git Workflow Requirements
+
+**Commit Strategy:**
+
+- Create separate, logical commits for each distinct change
+- Each commit should address one specific task or fix
+- Never combine unrelated changes in a single commit
+
+**Typical commit sequence for procurement assessment:**
+
+1. **First commit:** Assessment creation and registry update
+   - `ASSESSMENT.md` file creation
+   - `REGISTRY.md` status update
+   - All downloaded/extracted files
+   - Message: `docs(riigihanked): assess procurement [ID] - [outcome]`
+
+2. **Subsequent commits (if needed):** Corrections or refinements
+   - Registry table fixes (separate from content changes)
+   - Assessment corrections
+   - Each fix as its own commit
+
+**Final state verification:**
+
+After completing all work:
+
+```bash
+git status
+```
+
+Ensure:
+
+- Working tree is clean (no uncommitted changes)
+- All assessment files are committed
+- Registry is updated and committed
+- No untracked files remain (except intentionally ignored files like PDFs in originals/)
+
+**Example good commit sequence:**
+
+```
+✓ docs(riigihanked): assess procurement 9534824 - FEASIBLE Python opportunity
+✓ fix(riigihanked): add missing procurement 9479004 to registry table
+✓ refactor(riigihanked): remove reference column from tracking table
+```
+
+**Example bad commit (DO NOT DO):**
+
+```
+✗ update registry and fix table and assess procurement
+```
+
+**Commit message format:**
+
+- Use conventional commit prefixes: `docs:`, `fix:`, `refactor:`
+- Scope in parentheses: `(riigihanked)`
+- Brief summary line (72 chars max)
+- Detailed body for complex assessments
+- Reference procurement ID in summary
+
+**Before completing workflow:**
+
+Always run final check:
+
+```bash
+cd /path/to/cv_system
+git status
+git log --oneline -3
+```
+
+Verify no uncommitted changes remain and recent commits are logical units.
