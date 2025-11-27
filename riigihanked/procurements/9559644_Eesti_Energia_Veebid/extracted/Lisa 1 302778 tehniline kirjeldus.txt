@@ -1,0 +1,240 @@
+Üldine 
+
+  Käesoleva hanke eesmärk on leida Lennuliiklusteeninduse AS-ile
+  (edaspidi Hankija) koostööpartner (edaspidi Pakkuja), kelle ülesandeks
+  on osutada Hankijale kuuluvate veebilehtede ja infosüsteemi hooldus-
+  ja arendusteenust, mis hõlmab endas regulaarset veebilehtede ja
+  infosüsteemi tehnilist hooldust kui ka funktsionaalsuste arendamist ja
+  täiustamist. Teenust tuleb osutada järgmistele Hankija hallatavatele
+  veebilehtedele: www.eans.ee, aim.eans.ee, siseveeb.eans.ee (edaspidi
+  veebilehed) ning lennujuhtimise infosüsteemile (edaspidi LJO IS).
+  Raamleping ühe eduka Pakkujaga sõlmitakse 36 kuuks.
+
+Hankija hallatavad veebilehed ja LJO IS. 
+
+Veebilehed
+
+www.eans.ee on ettevõtte avalik veebileht, mille eesmärk on tutvustada ettevõtte tegevust, jagada ettevõttega seonduvat avalikku teavet ja dokumente.
+
+Tehnilised parameetrid:
+
+-   Sisuhaldussüsteem: Drupal 10
+
+-   Andmebaas: MySQL/MariaDB
+
+-   Veebiserver: Apache
+
+-   Serveri operatsioonisüsteem: Linux
+
+-   Versioonihaldus: GitLab
+
+-   Liidesed: REST API (liidestamiseks teiste infosüsteemidega)
+
+aim.eans.ee on avalik lennundusteabe veebileht, mille kaudu jagatakse aeronavigatsioonilist teavet.
+
+Tehnilised parameetrid:
+
+-   Sisuhaldussüsteem: Drupal 11
+
+-   Andmebaas: MySQL/MariaDB
+
+-   Veebiserver: Apache
+
+-   Serveri operatsioonisüsteem: Linux
+
+-   Versioonihaldus: GitLab
+
+-   Liidesed: REST API (liidestamiseks teiste infosüsteemidega)
+
+siseveeb.eans.ee on ettevõttesisene suhtlus- ja infokeskkond. Siseveeb on piiratud ligipääsuga ning sisaldab sisekommunikatsiooniks vajalikke mooduleid: teadaandeid, sündmuste kalendrit, töötaja kontaktandmeid, jms.
+
+Tehnilised parameetrid:
+
+-   Sisuhaldussüsteem: Drupal 7
+
+-   Andmebaas: MariaDB
+
+-   Veebiserver: Apache
+
+-   Serveri operatsioonisüsteem: Linux
+
+-   Versioonihaldus: GitLab
+
+-   Paigaldus ja orkestreerimine: lahendus peab olema konteineriseeritav
+      (nt Docker)
+
+-   Liidesed: REST API (liidestamiseks teiste infosüsteemidega)
+
+Infosüsteem LJO IS
+
+LJO IS on veebipõhine infosüsteem, mis toetab lennujuhte igapäevatöös. Süsteem võimaldab pidada lennujuhtide töötundide arvestust, kuvada kasutaja töölaual erineva sisuga infot (nt erinev meteoroloogiline info, kasulikud lingid, erinevate osapoolte kontaktandmed, vajalikud dokumendid jne). 
+
+Tehnilised parameetrid:
+
+-   Andmebaas: PostgreSQL (Postgres:13-alpine)
+
+-   Veebiserver: Caddy
+
+-   Serveri operatsioonisüsteem: Linux
+
+-   Versioonihaldus: GitLab
+
+-   Paigaldus ja orkestreerimine: lahendus on hetkel ja peab tulevikus
+      olema konteineriseeritav (nt Docker)
+
+-   Liidesed: REST API (liidestamiseks teiste infosüsteemidega)
+
+Nõuded pakutavale teenusele
+
+Arendusteenuse läbiviimise põhimõtted
+
+Kõigi arendustööde eelduseks on vastava tööosa analüüs (äri- ja süsteemianalüüs). See tähendab, et enne arendustööde planeerimist ja alustamist tuleb Pakkujal läbi viia analüüs ning saada Hankijalt sellele tagasiside, sh võimalikud Hankija ettepanekud. Arendust ei tohi alustada enne, kui analüüs on lõpule viidud ja tulemused on Hankijaga kooskõlastatud.
+
+Analüüsi kooskõlastamine Hankijaga ei piira Hankija õigust:
+
+-   nõuda Pakkujalt arendustööde käigus avastatud puuduste kõrvaldamist;
+
+-   teha vajadusel muudatusi ka juba varasemalt kooskõlastatud
+      analüüsis.
+
+Pakkuja kohustused arendusteenuse osutamisel:
+
+kavandada ja arendada uusi funktsionaalsusi lähtuvalt Hankija vajadustest,
+
+täiendada veebilehtedel ja LJO IS-is olemasolevaid mooduleid ja töövooge,
+
+parandada hankija kasutajaliidest ning tagada selle vastavus tasemele WCAG 2.1 AA t nõuetele,
+
+dokumenteerida kõik arendused (sh paigaldus- ja kasutusjuhendid, koodikommentaarid, muudatuste logi),
+
+testida kõik arendused vastavalt kasutuslugudele ja/või süsteemianalüüsile esmalt Pakkuja arenduskeskkonnas enne nende üleandmist Hankijale,
+
+1.  veebileht ja selle haldusliides peavad olema kasutatavad koos Web
+      Access Firewall (edaspidi WAF) teenusega,
+
+kogu arendatav kood peab olema majutatud Hankija juures,
+
+2.  arenduskeskkond asub Pakkuja juures ning test- ja toodangu keskkond
+      asuvad Hankija juures,
+
+kõik uued arendused peavad olemas vastavuses Hankija poolt iga arenduse jaoks eraldi ettekirjutatud mittefunktsionaalsete nõuetega (edaspidi MFN),
+
+Pakkuja on kohustatud järgima Hankija poolseid MFN-e. MFN-de mittevastavuse korral on Pakkuja kohustatud viima arenduse ja/või paranduse sisse ka pärast töö vastuvõtmist, et oleks tagatud vastavus,
+
+kõik Pakkuja poolt Hankijale üleantavad arendused peavad vastama OWASP ASVS 3.0 tase 2[1] top 10[2] turvanõuetele. Hankijal on õigus üleantud arendustööde vastavust OWASP nõuetele testida. Mittevastavuse ilmnemisel on Pakkujal kohustus oma kulul mittevastavus eemaldada.
+
+Pakkuja kohustused hooldusteenuse osutamisel
+
+Pakkuja kohustus on osutada Hankija veebilehtedele ja LJO IS-le regulaarset ning vajaduspõhist hooldusteenust, tagades nende veatu ja korrektse toimimise. Hooldusteenuse käigus tuleb teostada järgmisi tegevusi:
+
+üks kord 6 kuu jooksul peab kontrollima ning edastama Hankijale kirjalikku taasesitamist võimaldavas vormis ettepaneku turvauuenduste ja tarkvaraversioonide, sh. regulaarsete Drupal Core’i ja Drupal moodulite, täienduste paigaldamiseks koos paigaldusjuhisega.
+
+eemaldada rikked vastavalt punktis 3.4 toodud klassifikatsioonidele ja tähtaegadele.
+
+Rikete klassifikatsioon ja tähtajad
+
+  ---------------------------------------------------------------------------
+  Kategooria   Kirjeldus            Reageerimisaeg       Lahendusaeg
+  ------------ -------------------- -------------------- --------------------
+  S1           Ärikriitilised       4 tundi alates       Rike tuleb lahendada
+               rikked, nt süsteemi  Hankija poolse       ühe (1) tööpäeva
+               täielik              kirjalikku           jooksul alates
+               mittetoimimine       taasesitamist        pöördumise
+                                    võimaldavas vormis   tegemisest.
+                                    esitatud teavituse   
+                                    edastamisest.        
+
+  S2           Häirivad rikked,     8 tundi alates       Rike tuleb lahendada
+               oluliste             Hankija poolse       kuni kolme (3)
+               funktsioonide häired kirjalikku           tööpäeva jooksul
+                                    taasesitamist        alates pöördumise
+                                    võimaldavas vormis   tegemisest.
+                                    esitatud teavituse   
+                                    edastamisest.        
+
+  S3           Väikese mõjuga       2 tööpäeva alates    Rike tuleb lahendada
+               rikked               Hankija poolse       kuni kümne (10)
+                                    kirjalikku           tööpäeva jooksul
+                                    taasesitamist        alates pöördumise
+                                    võimaldavas vormis   tegemisest.
+                                    esitatud teavituse   
+                                    edastamisest.        
+  ---------------------------------------------------------------------------
+
+Arendusteenuse töökorraldus
+
+Arendusteenus korraldatakse Pakkuja poolt agile/scrum põhimõtete järgi. 
+
+Kõik arendusteenuse raames edastatavad tellimused, töökirjeldused, hinnangud ja kinnitused peavad toimuma Pakkuja piletihaldussüsteemi (nt Atlassian) kaudu. Lepingu kehtivuse perioodil peab Pakkuja valmis olema üle minema Hankija piletihaldussüsteemi kasutamisele. 
+
+Hankija koostab arendusteenuse tellimiseks lähteülesande, mis registreeritakse piletihaldussüsteemis ning millele Pakkuja lisab mahuhinnangu, ajakulu ja maksumuse.
+
+Pakkuja ei alusta arendusteenuse käigus tellitud tööga (edaspidi töö) enne, kui Hankija on kinnitanud Pakkuja poolt töö teostamiseks antud mahu- ja ajahinnangu. Mahu- ja ajahinnang ja sellega seotud Hankija kinnitus peab kajastuma piletihaldussüsteemis.
+
+Pakkuja jaotab tellitud töö iteratsioonideks/tarneteks, kus iga etapi tulemused testitakse ning kinnitatakse Hankija poolt.
+
+Pakkuja paigaldab töö esmalt Pakkuja arenduskeskkonda.
+
+Hankija paigaldab Pakkuja poolt koodihoidlasse laetud töö Hankija test- ja toodangukeskkonda.
+
+Hankija testib test- ja toodangukeskkonda paigaldatud tööd ning teavitab Pakkujat võimalikest vigadest või nende mitteilmnemisest.
+
+Vigade ilmnemisel peab Pakkuja vead eemaldama ning tegema uue tarne.
+
+Töö antakse üle/võetakse vastu töö üleandmis-vastuvõtmise aktiga.
+
+Tööd tasustatakse vastavalt hinnapakkumuses esitatud tunnihinnale.
+
+Hooldusteenuse töökorraldus
+
+Hooldusteenus korraldatakse Pakkuja poolt agile/scrum põhimõtete järgi.
+
+Hooldusteenuse eest tasutakse fikseeritud kuutasu alusel. 
+
+Arendus- ja hooldusteenuse dokumentatsiooni nõuded
+
+Enne arendustööde üleandmist kirjeldab Pakkuja piletihaldussüsteemis järgmise dokumentatsiooni:
+
+teostatud töö muudatuse kirjeldus (funktsionaalne ja tehniline);
+
+arendustööde analüüsid;
+
+versioonilogid ja paigaldusjuhend;
+
+testilugude kirjeldus ja tulemused testraportina;
+
+vajadusel kasutusjuhend lõppkasutajale.
+
+Hooldustööde paigaldusjuhend tuleb Hankijale edastada piletihaldussüsteemis koos turvauuenduste ja tarkvaraversioonide, sh. regulaarsete Drupal Core’i ja Drupal moodulite, täienduste paigaldamise ettepanekuga.
+
+Suhtluskanalid ja kontaktisikud
+
+Pooltevaheline suhtlus toimub seni Pakkuja piletihaldussüsteemis kuni Hankija ei ole Pakkujale teavitanud Hankija piletihaldussüsteemile üleminekust.
+
+Poolte kokkuleppel kasutatakse täiendavaks suhtluseks alternatiivseid kanaleid (nt e-post, Teams jne).
+
+Hankija ja Pakkuja kontaktisikud on välja toodud lepingus, mõlema osapoole kontaktisikud vastutavad tööprotsessi sujuva toimimise eest.
+
+Pakkuja ja Hankija vaheline suhtluskeel on eesti keel.
+
+Pakkuja tagab, et tööpäevadel kell 9.00–17.00 (välja arvatud riiklikud pühad) on Hankija jaoks kättesaadav kas Pakkuja kontaktisik või mõni meeskonnaliige, kes suudab reageerida Hankija poolt saadetud päringutele ja koordineerida arendus- ja hooldustööde teostamist.
+
+Ligipääsud ja keskkonnad
+
+Pakkujale antakse teenuse osutamiseks vajalik ligipääs: 
+
+Hankija koodihoidlale;
+
+Hankija piletihaldussüsteemile (ülemineku korral Pakkuja süsteemilt Hankija süsteemile).
+
+Kaugligipääs toimub turvalise krüpteeritud ühenduse kaudu. 
+
+Kõik Pakkuja ligipääsu sessioonid logitakse ja salvestatakse. Hankijal on õigus auditeerida eelnimetatud salvestatud sessioone. 
+
+Pakkuja ligipääsude taotlemine, haldamine ja tühistamine punktis 6.1 loetletud süsteemidele toimub kokkuleppel Hankijaga.
+
+Hankijale antakse teenuse saamiseks vajalik ligipääs Pakkuja piletihaldussüsteemile.
+
+[1] https://owasp-aasvs.readthedocs.io/en/latest/level2.html
+
+[2] https://owasp.org/www-project-top-ten/

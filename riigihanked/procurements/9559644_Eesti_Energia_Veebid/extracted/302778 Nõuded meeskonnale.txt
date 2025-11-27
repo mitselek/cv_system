@@ -1,0 +1,96 @@
+Nõuded meeskonnale
+
+1.  Nõuded meeskonna kooseisule
+
+    1.  Pakkuja peab komplekteerima hankelepingu täitmiseks meeskonna,
+        kus on kaetud järgmised rollid:
+
+projektijuht,
+
+analüütik, 
+
+Drupal arendaja,
+
+back-end arendaja, 
+
+testija;
+
+2.  Üks inimene võib täita kuni kahte rolli, kuid sel juhul peab tema
+    kompetents vastama mõlema rolli nõuetele. Drupal arendaja ja
+    back-end arendaja rollides olevad isikud võivad täita vaid ühte
+    rolli ehk kumbki neist ei tohi täita muid rolle meeskonnas.
+    Nimetatud rollid peavad olema täidetud eraldiseisvate isikute poolt.
+
+3.  Töö keel hankijaga on eesti keel. Meeskonna liikmetel peab olema
+    eesti keel heal tasemel, mis võimaldab hankijal vabalt ilma
+    takistusteta suhelda pakkuja meeskonnaga
+
+4.  Vähemalt ühel meeskonnaliikmel peab olema kasutajaliidese prototüübi
+    loomise/täiendamise oskus Figmas ja kasutaja teekonna loomise
+    kogemus.
+
+5.  Vähemalt ühel meeskonnaliikmel peab olema WCAG rakendamise kogemus
+    ühes tarkvaraarendusprojektis.
+
+6.  Pakkuja esitab meeskonnaliikmete nõuetele vastavuse tõendamiseks
+    vajaliku teabe (piisavaks tõendiks loetakse meeskonnaliikme töö-
+    ja/või projektikogemus, mis vastab käesolevas dokumendis vastavale
+    meeskonnaliikmele ettenähtule) Hankijale.
+
+2.  Nõuded meeskonna rollidele
+
+    1.  Projektijuht
+
+        1.  Peab olema vähemalt 2 aastane projektijuhtimise töökogemus
+            tarkvara arenduses.
+
+        2.  Peab olema osalenud IT projektijuhina viimase 24 kuu jooksul
+            arvates hanke algamisest vähemalt kahes (2) tarkvaraarenduse
+            projektis, mis on hõlmanud järgnevaid tegevusi: analüüs,
+            disain, programmeerimine, testimine, juurutamine.
+
+    2.  Analüütik
+
+        1.  Peab olema vähemalt 2 aastane töökogemus tarkvara analüüsi
+            läbiviimisel.
+
+        2.  Peab olema user story'de ja/või use case'de kirjutamise
+            kogemus vähemalt kahes (2) tarkvaraarendusprojektis.
+
+    3.  Drupal arendaja
+
+        1.  Peab olema vähemalt 2-aastane praktiline arenduskogemus
+            Drupal CMS-i moodulite ja SQL andmebaaside arendamise,
+            konfigureerimise ja kohandamisega ning Drupal’i uuenduste ja
+            turvapaikade rakendamisega.
+
+    4.  Back-end arendaja
+
+        1.  Peab olema vähemalt 2 aastane töökogemus PHP
+            programmeerimiskeele ja MVC raamistiku kasutamisel .
+
+    5.  Testija
+
+        1.  Peab olema testlugude ja testplaani koostamise kogemus
+            vähemalt kahes (2) tarkvaraarendusprojektis, mõlemad
+            projektid peavad olema kestnud kauem kui 6 kuud.
+
+        2.  Peab olema varasem praktiline kogemus testide
+            automatiseerimise teostamisel vähemalt ühes
+            tarkvaraarendusprojektis.
+
+4.  CV-vormidel esitatud projektid peavad pakkumuse esitamise hetkeks
+    olema nõuetekohaselt täidetud.
+
+5.  Projektide korral loetakse täidetuks lepinguid, mis on täielikult
+    täidetud ja lepingu täitmise tähtaeg on saabunud ning mille alt
+    teostatud tööd on tellijale üle antud ja tellija poolt vastu võetud.
+    Kui lepingu või teenuse eripära võimaldab töid üle anda ja vastu
+    võtta etapiviisiliselt, loetakse täidetuks ka sellised riigihanke
+    algamise kuupäeval kehtivad lepingud, mille alt on teostatud,
+    tellijale üle antud ja tellija poolt vastu võetud töid.
+
+6.  Pakkuja peab tõendama suutlikust kaasata hankelepingu täitmisesse
+    piisava arvu tehnilisi töötajaid (meeskonnaliikmeid), et tagada
+    vajadusel meeskonna liikme asendus. Pakkumuse esitamisega pakkuja
+    kinnitab, et on selle nõudega arvestanud.

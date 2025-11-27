@@ -1,0 +1,865 @@
+VEEBIDE ARENDUS- JA HOOLDUSTÖÖDE RAAMLEPING
+
+Nr. ________
+
+Käesolev veebide arendus- ja hooldustööde raamleping (edaspidi „Leping“)
+on sõlmitud järgmiste osapoolte vahel:
+
+Lennuliiklusteeninduse AS, registrikood 10341618, aadress Kanali põik 3,
+Rae küla, Rae vald, Harju maakond 10112, Eesti Vabariik (edaspidi
+„Tellija”), mida esindab juhatuse esimees Ivar Värk,
+
+ja
+
+______________, registrikood ________, aadress __________ (edaspidi
+„Täitja “), mida esindab ___________,
+
+Tellija ja Täitja eraldi edaspidi nimetatud kui „Pool“ ning koos
+„Pooled“.
+
+Pooled on kokku leppinud alljärgnevas:
+
+1.  LEPINGU SÕLMIMISE ALUS JA OBJEKT
+
+    1.  Lepingu aluseks on Tellija poolt korraldatud riigihange „
+        Veebide arendus - ja hooldustööd“ (viitenumber 302778), hanke
+        alusdokumendid ja Täitja poolt esitatud pakkumus.
+
+    2.  Tellija sõlmib Lepingu Täitjaga, tuginedes Täitja pakkumusele,
+        Lepingus fikseeritud Täitja avaldustele ja kinnitustele ning
+        eeldades heas usus Täitja professionaalsust ja võimekust
+        Lepingut nõuetekohaselt täita.
+
+    3.  Lepingu objektiks on Tellija hallatavatele veebilehtedele
+        www.eans.ee, aim.eans.ee, siseveeb.eans.ee (edaspidi
+        „Veebilehed“) ning lennujuhtimise infosüsteemile arendustööde
+        (edaspidi „Arendustöö“) ja hooldustööde (edaspidi „Hooldustöö“)
+        teostamine Lepingus sätestatud tingimustel ja korras. Edaspidi
+        Arendustöö ja Hooldustöö ühiselt nimetatuna „Töö“.
+
+    4.  Veebilehtede ja lennujuhtimise infosüsteemi Hooldustöid
+        teostatakse regulaarselt ning Arendustöid teostatakse vastavalt
+        Tellija vajadustele. Töö täpsem kirjeldus ja Tööle esitatavad
+        nõuded on toodud hanke alusdokumentides.
+
+    5.  Töö hulka kuuluvad kõik Lepingu täitmiseks vajalikud materjalid,
+        toimingud ja tööde tegemine või teenuste osutamine, mida ei ole
+        eraldi nimetatud, kuid mis oma olemuselt kuuluvad Töö hulka ning
+        on vajalikud Lepinguliste kohustuste nõuetekohaseks täitmiseks.
+
+    6.  Täitja kinnitab, et on enne Lepingu sõlmimist esitanud ning
+        esitab ka Lepingu täitmise käigus Tellijale korrektset ja tõele
+        vastavat informatsiooni.
+
+2.  LEPINGU DOKUMENDID
+
+    1.  Lepingu lahutamatuteks osadeks on hanke alusdokumendid, Täitja
+        pakkumus, riigihankemenetluse raames antud vastused küsimustele,
+        Pooltevahelised kirjalikud teated ning Lepingu muudatused ja
+        lisad.
+
+    2.  Lepingul on selle sõlmimise hetkel järgmised lisad:
+
+        1.  Lisa 1 – Tehniline kirjeldus;
+
+        2.  Lisa 2 – Täitja pakkumus koos pakkumuse maksumusvormiga.
+
+  Alternatiiv: Lisa 1 ja Lisa 2 on kättesaadavad elektroonilises
+  riigihangete registris (eRHR) viitenumbriga 302778 ning eraldiseisvalt
+  ei allkirjastata.
+
+3.  Kui dokumentide vahel esineb vastuolusid või need võimaldavad
+    erinevaid tõlgendusi, kehtivad Tellija poolt hanke või Lepingu
+    sõlmimise käigus antud selgitused. Kui hanke käigus või Lepingu
+    sõlmimise käigus ei ole vastuolude, vasturääkivuste või puuduste
+    kohta selgitusi küsitud, lähtutakse Lepingu eesmärgile antud Tellija
+    tõlgendusest ning sellisel juhul ei ole Täitjal õigust tugineda
+    ettenägematutele asjaoludele, mitteinformeeritusele, tõlgenduste
+    erinevustele või muudele takistustele Lepingu või Lepingu täitmisega
+    seotud asjaolude suhtes.
+
+4.  Kõik Lepingu muudatused sõlmitakse Lepingu lisadena, mis jõustuvad
+    nende allkirjastamise hetkel või Poolte määratud tähtajal.
+
+3.  TÖÖ TEOSTAMISE ÜLDTINGIMUSED
+
+    1.  Täitja teostab Tellijale Lepingus kokkulepitud tingimustel ja
+        korras Töid.
+
+    2.  Tööde teostamiseks edastab üldjuhul Tellija Täitjale
+        vastavasisulise pöördumise.
+
+    3.  Täitja registreerib kõik Tellija pöördumised
+        piletihaldussüsteemis. Tellijal peab igal ajahetkel olema nähtav
+        kogu pöördumisega seotud kirjavahetus, sh pöördumiste loend koos
+        sisu ja lahenduse kokkuvõttega.
+
+    4.  Pöördumiste osas, mis on seotud vea kõrvaldamisega, kohustub
+        Täitja lähtuma hanke alusdokumentide tehnilises kirjelduses
+        välja toodud rikete klassifikatsioonist ja tähtaegadest. Muudele
+        pöördumistele kohustub Täitja reageerima esimesel võimalusel kui
+        hanke alusdokumentide tehnilises kirjelduses ei ole märgitud
+        teisiti.
+
+    5.  Töö teostamise kohta Pooled üldjuhul eraldi kirjalikku
+        hankelepingut ei sõlmi, pooled käsitlevad hankelepinguna Tellija
+        pöördumist, mille alusel Täitja asub Tööd teostama. Pooled
+        lähtuvad Töö teostamisel Lepingus kokkulepitust ja tingimustest,
+        milles Pooled eraldi vähemalt kirjalikku taasesitamist
+        võimaldavas vormis kokku lepivad. Kirjalik hankeleping
+        sõlmitakse juhul, kui Tellija näeb selleks vajadust või kui
+        selline nõue tuleneb Tellija hankekorrast.
+
+    6.  Hankelepingule kohaldatakse lisaks hankelepingus kokkulepitule
+        käesoleva Lepingu tingimusi.
+
+    7.  Töö peab vastama Lepingus ja hankelepingus kokkulepitud
+        tingimustele. Töö tulemus peab vastama nõuetele, mis on
+        vajalikud Veebilehtede ja lennujuhtimise infosüsteemi
+        funktsionaalsuse säilitamiseks ja nõuetekohaseks toimimiseks.
+
+    8.  Kui Töö teostamiseks on võimalik kasutada erinevaid lahendusi,
+        peab Täitja valima Tellija jaoks kõige säästlikuma lahenduse.
+        Täitja on kohustatud konsulteerima selles küsimuses Tellijaga.
+
+    9.  Pooltel on kohustus osa võtta töökoosolekutest Töö teostamise
+        käigus tekkinud probleemide lahendamiseks ja/või infovahetuseks
+        Tellija juures kohapeal või virtuaalselt. Töökoosolekutel
+        osalemist Tellija ei tasusta.
+
+    10. Täitja kohustub tagama, et Töö teostatakse Täitja
+        meeskonnaliikmete poolt, kelle Täitja tõi välja oma pakkumuses
+        ning kelle vahetamine on lubatud tingimusel, et Täitja poolt
+        pakutud asendusisik on samaväärne hanke alusdokumentides toodud
+        isikuga. Täitja kohustub pakkumuses nimetatud isiku vahetuse
+        Tellijaga vähemalt kirjalikku taasesitamist võimaldavas vormis
+        kooskõlastama.
+
+    11. Kui Lepingu täitmisel tekib Tellijal põhjendatud kahtlus, et
+        Täitja meeskonnaliige ei vasta hanke alusdokumentide tehnilises
+        kirjelduses toodud nõuetele või on ebapädev, on Täitja
+        kohustatud Tellija nõudel nimetatud meeskonnaliikme asendama.
+        Uus meeskonnaliige peab vastama hanke alusdokumentide tehnilises
+        kirjelduses toodud nõuetele ning Täitja kohustub uue
+        meeskonnaliikme Tellijaga vähemalt kirjalikku taasesitamist
+        võimaldavas vormis kooskõlastama.
+
+    12. Juhul kui Tellija pretensioonid Täitjale teostatud Töö kohta on
+        asjakohased ja põhjendatud, kohustub Täitja Tööd ümber tegema
+        täiendavat tasu võtmata.
+
+    13. Tellija kontrollib Täitja poolt teostatud Tööde mahtu,
+        kvaliteeti ning Lepingu tingimustest kinnipidamist ning Tellijal
+        on õigus saada selleks Täitjalt igakülgset informatsiooni
+        Tellija nõudmisel ja viisil.
+
+    14. Täitja kohustub täitma Lepingust tulenevaid kohustusi vastavalt
+        Täitja tegevusvaldkonnas rakendatavale parimale praktikale ja
+        kehtivatele tehnilistele normidele ja standarditele.
+
+    15. Tellija kohustub andma Täitjale tema nõudmisel Lepingu
+        täitmiseks vajaliku informatsiooni ja dokumendid, kui sellise
+        informatsiooni ja dokumentide andmist saab Tellijalt mõistlikult
+        oodata.
+
+    16. Lepingu täitmise keel on eesti keel, muuhulgas on see ka
+        hankelepingute sõlmimise, töökoosolekute jm suhtluse ning Tööde
+        dokumenteerimise keel kui Pooled ei lepi kokku teisiti.
+
+    17. Täitja kohustub teavitama Tellijat viivitamatult kõigist Tööde
+        teostamisel tekkinud või tekkida võivatest probleemidest,
+        vigadest või puudustest, mis põhjustavad või võivad põhjustada
+        Lepingu rikkumise Täitja poolt, mh tähtaegade ületamise.
+
+    18. Poolel on õigus teha teisele Poolele ettepanekuid Tööde
+        teostamise kvaliteedi tõstmiseks. Kui Pool on esitanud teisele
+        Poolele pöördumise, on Pool kohustatud sellele sisuliselt
+        reageerima (asjakohast tagasisidet andma) võimalikult kiiresti,
+        kuid hiljemalt 3 tööpäeva jooksul, v.a juhul kui pöördumine
+        nõuab täiendavat analüüsi või info süstematiseerimist.
+
+    19. Lepingu lõppemisel on Täitjal kohustus eemaldada Tellijaga
+        seotud andmed/kood/analüüsid enda majutusest.
+
+    20. Alltöövõtjate kasutamise korral jääb Lepingu nõuetekohase
+        täitmise eest Tellija ees vastutavaks Täitja.
+
+4.  ARENDUSTÖÖDE TELLIMINE, TEOSTAMINE JA VASTUVÕTMINE
+
+    1.  Lepingu sõlmimine ei taga Täitjale Tellija poolt Arendustööde
+        minimaalset tellimuse mahtu. Tellija tellib Arendustöid oma
+        tegelikust vajadusest lähtuvalt.
+
+    2.  Arendustöö tellimiseks esitab Tellija piletihaldussüsteemis
+        pöördumise ning Pooled lepivad kokku spetsifikatsioonis, sh
+        Arendustöö teostamise ajas. Tellija poolt Arendustöö pakkumusele
+        kinnituse andmisega loetakse Arendustöö hankeleping sõlmituks.
+
+    3.  Arendustöö teostamise protsess dokumenteeritakse Täitja poolt
+        piletihaldussüsteemis ning see peab olema ajakohane.
+
+    4.  Tellijal on õigus igal ajal kontrollida Arendustöö teostamise
+        käiku ning anda Täitjale vajadusel juhiseid. Täitja kohustub
+        Tellija juhiseid enne nende rakendamist põhjalikult ja
+        igakülgselt kontrollima ning veenduma nende asjakohasuses ja
+        sobivuses. Vajadusel peab Täitja Tellija juhistele viivitamatult
+        vastu vaidlema. Täitja ei saa Lepingule ja/või hankelepingule
+        mittevastavusel tugineda asjaolule, et mittevastavus on tingitud
+        Tellija juhisest, välja arvatud kui vaatamata Täitja
+        selgitustele jäi Tellija oma nõudmiste juurde.
+
+    5.  Üleantav Arendustöö peab olema eelnevalt Täitja poolt testitud
+        kokkulepitud tingimustel ja keskkonnas.
+
+    6.  Täitja annab Arendustöö ja selle juurde kuuluva dokumentatsiooni
+        Tellijale üle elektrooniliselt, tarkvara arendamise valdkonna
+        spetsialistidele tavapäraselt arusaadaval kujul.
+
+    7.  Arendustöö üleandmine-vastuvõtmine toimub
+        üleandmise-vastuvõtmise akti alusel. Täitja vormistab
+        üleandmise-vastuvõtmise akti vähemalt kirjalikku taasesitamist
+        võimaldavas vormis ja see peab sisaldama teostatud ja üleantava
+        Arendustöö spetsifikatsiooni, vajadusel kasutamisjuhendit,
+        Arendustööde teostamise ajavahemikku ning muud Tellija poolt
+        täpsustatud infot.
+
+    8.  Akti kättesaamisel kontrollib Tellija enne Arendustöö vastu
+        võtmist 14 kalendripäeva jooksul Arendustöö ja
+        üleandmise-vastuvõtmise akti Lepingule ja hankelepingule
+        vastavust. Arendustöö loetakse vastu võetuks kui Tellija
+        kinnitab Täitjale vähemalt kirjalikku taasesitamist võimaldavas
+        vormis Arendustöö nõuetele vastavust või kui möödub 14
+        kalendripäeva Tellija poolt Arendustöö ja
+        üleandmise-vastuvõtmise akti kättesaamisest ning Tellija ei
+        esita nimetatud aja jooksul vastuväiteid Arendustöö
+        vastuvõtmisele.
+
+    9.  Üle antud Arendustöös puuduste esinemisel koostab Tellija
+        vähemalt kirjalikku taasesitamist võimaldavas vormis puuduste
+        nimekirja. Juhul kui Tellija esitab Täitjale 14 kalendripäeva
+        jooksul alates Arendustöö ja üleandmise-vastuvõtmise akti
+        kättesaamisest puuduste nimekirja, ei loeta Arendustööd Tellija
+        poolt vastu võetuks enne nimekirjas märgitud puuduste
+        kõrvaldamist Täitja poolt. Puuduste nimekirja esitamata
+        jätmisega ei kao ega ole mitte mingil moel piiratud Tellija
+        õigus puuduste avastamisel tugineda Arendustöö Lepingule või
+        hankelepingule mittevastavusele ning kasutada kõiki Lepingus ja
+        õigusaktides ette nähtud õiguskaitsevahendeid.
+
+    10. Juhul kui Arendustöös esineb puudusi, mis ei takista kogu
+        Arendustöö vastu võtmist, tuleb puudused üleandmise-vastuvõtmise
+        aktis fikseerida koos tähtajaga puuduste kõrvaldamiseks.
+
+    11. Täitjal on kohustus kõrvaldada puuduste nimekirjas nimetatud
+        puudused 14 kalendripäeva jooksul alates nimekirja
+        kättesaamisest kui Pooled ei lepi kokku teisiti.
+
+    12. Arendustöö tulemile teostab Täitja Hooldustöid vastavalt
+        Lepingule ilma täiendavat tasu võtmata.
+
+5.  LEPINGU MAKSUMUS JA TASUMISE KORD
+
+    1.  Tellija tasub Täitjale nõuetekohaselt teostatud Töö eest
+        Lepingus kokkulepitud tingimustel ja korras.
+
+    2.  Lepingu maksimaalne rahaline maht Töö teostamiseks on nelisada
+        kakskümmend tuhat (420 000) eurot, millele lisandub
+        õigusaktidega sätestatud käibemaks. Käesolevas Lepingu punktis
+        toodud kogumaksumus on eeldatav ning Tellija ei ole kohustatud
+        Täitjalt tellima Töid Lepingu maksimaalse rahalise maksumuse
+        ulatuses.
+
+    3.  Lepingu maksimaalse rahalise mahu täitumise momendiks loetakse
+        hetke, mil Tellija poolt Täitjale tasutud ja tasumisele kuuluvad
+        summad on võrdväärsed Lepingu maksimaalse rahalise mahuga.
+
+    4.  Veebilehtede ja lennujuhtimise infosüsteemi igakuised
+        Hooldustööde tasud on järgnevad:
+
+        1.  veebilehe www.eans.ee Hooldustöö tasu on ______ eurot kuus,
+            millele lisandub õigusaktidega sätestatud käibemaks;
+
+        2.  veebilehe aim.eans.ee Hooldustöö tasu on ______ eurot kuus,
+            millele lisandub õigusaktidega sätestatud käibemaks;
+
+        3.  veebilehe siseveeb.eans.ee Hooldustöö tasu on ______ eurot
+            kuus, millele lisandub õigusaktidega sätestatud käibemaks;
+
+        4.  infosüsteemi LJO IS Hooldustöö tasu on ______ eurot kuus,
+            millele lisandub õigusaktidega sätestatud käibemaks.
+
+  Igakuised Hooldustööde tasud võivad Lepingu perioodi jooksul muutuda
+  Tellijale mistahes ajahetkel soodsamaks, kuid mitte kallimaks.
+
+5.  Arendustööde tunnitasu on ______ eurot, millele lisandub
+    õigusaktidega sätestatud käibemaks.
+
+6.  Hooldustööde kohta Pooled üleandmise-vastuvõtmise akti ei koosta.
+
+7.  Tellija tasub Hooldustööde eest Täitja poolt esitatud arve alusel
+    üks kord kuus Hooldustööde teostamise järgselt eelneval kalendrikuul
+    teostatud Hooldustööde eest. Täitja esitab Tellijale Lepingu
+    tingimustele vastava arve hiljemalt Hooldustööde teostamise kuule
+    järgneva kuu 10. kuupäevaks. Arvel tuleb Veebilehtede ja
+    lennujuhtimise infosüsteemi Hooldustööd eraldi ridadel näidata koos
+    vastava Hooldustöö summaga ning Hooldustööde summa kokku.
+
+8.  Tellija tasub Arendustööde eest pärast Poolte poolt
+    üleandmise-vastuvõtmise akti allkirjastamist. Täitja esitab pärast
+    Poolte poolt allkirjastatud üleandmise-vastuvõtmise akti
+    allkirjastamist Tellijale Lepingu tingimustele vastava arve.
+
+9.  Täitja esitab Tellijale arve vastavalt raamatupidamise seadusele
+    e-arvena läbi e-arve keskkonna. Arvega seotud küsimused ja
+    täiendavad dokumendid esitatakse e-posti aadressile arve@eans.ee.
+    Arvele tuleb märkida vähemalt:
+
+  - Täitja ja Tellija kontaktisikud;
+
+  - Lepingu number;
+
+  - riigihanke viitenumber 302778
+
+10. Tasumine toimub kahekümne ühe (21) kalendripäeva jooksul alates arve
+    saamisest.
+
+6.  RIKETEST TEAVITAMINE JA RIKETE LAHENDAMINE
+
+    1.  Tellija teavitab avastatud riketest Täitjat esimesel võimalusel
+        läbi piletihaldussüsteemi või muul Poolte vahel kokkulepitud
+        viisil. Tellija registreerib rikke, märkides võimalusel rikke
+        põhjuse ja rikke kategooria ning märgib lisaks, kui tegemist on
+        garantiilise tööga.
+
+    2.  Täitja teavitab tema poolt avastatud riketest Tellijat läbi
+        piletihaldussüsteemi. Täitja registreerib rikke, märkides
+        võimalusel rikke põhjuse, eeldatava lahendamise tähtaja ning
+        rikke kategooria ning märgib lisaks, kui tegemist on
+        garantiilise tööga. Rikke edasine lahenduskäik kooskõlastatakse
+        Tellijaga.
+
+    3.  Täitja garanteerib Tellijale tööpäevadel (s.o esmaspäevast
+        reedeni kell 9:00 – 17:00, v.a riiklikud pühad) rikke kahtluste
+        korral rikke olemasolu tuvastamiseks vajaliku tasuta
+        konsultatsiooni.
+
+    4.  Täitja on kohustatud rikke lahendama vähima võimaliku aja
+        jooksul, lähtudes seejuures hanke alusdokumentide tehnilises
+        kirjelduses välja toodud rikete klassifikatsioonist ja
+        tähtaegadest.
+
+    5.  Kui riket ei ole objektiivsetest asjaoludest tulenevalt võimalik
+        lahendada hanke alusdokumentide tehnilises kirjelduses näidatud
+        maksimaalse lahendusaja jooksul, kohustub Täitja sellest
+        Tellijat informeerima kirjalikku taasesitamist võimaldavas
+        vormis, näidates ära põhjused, miks rikke lahendamine ei ole
+        nimetatud aja jooksul võimalik ning esitades rikke lahendamise
+        tähtaja, mille jooksul Täitja on reaalselt võimeline rikke
+        lahendama.
+
+7.  GARANTII
+
+    1.  Täitja teostatud Hooldus- ja Arendustöödele kehtib 6-kuuline
+        garantiiperiood, mis hakkab kehtima Hooldustöö puhul Tellija
+        poolt Hooldustöö eest tasumise päevast ja Arendustöö puhul
+        Arendustöö üleandmise-vastuvõtmise akti Poolte poolt
+        allkirjastamisest.
+
+    2.  Garantiiga on hõlmatud kõik garantii tähtaja jooksul tarkvaras
+        ilmnevad rikked ja mittevastavused, mis ei ole tekkinud Tellija
+        või kolmandate osapoolte tegevuse tagajärjel. Garantiiga on
+        hõlmatud ka kõigi Tööde muudatused ja modifikatsioonid, mis on
+        tehtud Täitja poolt ja mis ei ole oluliselt muutnud varasemalt
+        tehtud Tööd.
+
+    3.  Täitja kõrvaldab garantiiajal tekkinud rikked oma kulul,
+        sealhulgas uuendab või asendab kõik seonduvad dokumendid.
+
+    4.  Tellija määrab võimalusel, milline on rikke kategooria või kas
+        tegemist on muu garantiikohustusega hõlmatud puudusega ning
+        määrab rikke kõrvaldamiseks tähtaja, lähtudes hanke
+        alusdokumentide tehnilises kirjelduses välja toodud rikete
+        klassifikatsioonist ja tähtaegadest. Reageerimis- ja lahendusaeg
+        hakkab kulgema Tellija poolt teate välja saatmise hetkest.
+
+    5.  Kui Täitja tõendab, et kõrvaldatud rike ei olnud garantiiga
+        hõlmatud, hüvitab Tellija Täitja kantud otsesed kulud seoses
+        nimetatud rikke lahendamisega. Kulude hüvitamisel võetakse
+        aluseks Arendustööde tunnitasu.
+
+    6.  Tellija tagab Täitjale kaasabi garantiikohustuse alla käivate
+        rikete lahendamisel Tellija võimekuse ja võimaluste piires.
+
+    7.  Kui Täitja ei suuda riket Lepingus ettenähtud tähtajaks
+        lahendada, võib Tellija nimetatud rikke ise lahendada või
+        korraldada selle lahendamise kolmanda isiku kaasabil, teavitades
+        sellest Täitjat. Tellijal on õigus Täitjalt nõuda kõigi
+        kulutuste hüvitamist, mis tekkisid seoses eelkirjeldatud viisil
+        rikke lahendamisega, kui tegemist oli garantiiga hõlmatud
+        rikkega.
+
+    8.  Garantii kaotab kehtivuse, kui Tellija muudab lähtekoodi, välja
+        arvatud Tööde osale, mida ei ole muudetud ning Tellija suudab
+        eristada lähtekoodis tehtud muudatusi.
+
+8.  INTELLEKTUAALSE OMANDI ÕIGUSED
+
+    1.  Lepingu allkirjastamisega kinnitavad Pooled, et neile kuuluvad
+        Lepingu täitmiseks vajalikud varalised autoriõigused, litsentsid
+        ja muud intellektuaalse omandi õigused, mis on tarvilikud
+        Lepingujärgse Töö täielikuks teostamiseks ja loovutamiseks
+        käesolevas peatükis toodud ulatuses ning, et nende suhtes ei ole
+        kolmandatel isikutel nõudeid. Pooled kinnitavad, et on võtnud
+        tarvitusele kõik meetmed autori isiklike õiguste
+        realiseerimiseks viisil, mis ei takista ega raskenda teose
+        kasutamist ja autori varaliste õiguste teostamist.
+
+    2.  Pool kohustub lahendama temale kõikvõimalikud litsentseeritud
+        või vahendatud tarkvaraga seotud intellektuaalse omandi
+        õigustest tekkivad vaidlused kolmandate isikute või oma
+        töötajate või koostööpartneritega.
+
+    3.  Täitja annab Tellijale tehtud Tööde osas tagasivõtmatu
+        ülemaailmse ilma territoriaalsete piiranguteta lihtlitsentsi
+        all-litsentsi andmise õigusega kõikide varaliste ja isiklike
+        õiguste suhtes Tööle nende autoriõiguste kehtivuse tähtajaks, sh
+        alljärgnevatel tingimustel:
+
+        1.  Tööd kasutada mis tahes eesmärgil ja mis tahes viisil;
+
+        2.  ise või kolmandaid isikuid kaasates Tööd muuta ja luua Tööl
+            põhinevaid tuletatud teoseid;
+
+        3.  Tööd laenutada ja rentida.
+
+    4.  Täitja kinnitab, et tal on kõik õigused eelnimetatud
+        litsentseerimiseks, mh need, mis on saadud Töö tegemisel
+        osalenud autoritelt. Täitja tagab, et autorid kohustuvad mitte
+        teostama oma selliseid autoriõigusi, mille loovutamine ega
+        litsentsimine pole kohaldatava õiguse kohaselt võimalik,
+        mistahes viisil, mis piirab või takistab Täitjal talle
+        loovutatud või litsentsitud õiguste teostamist.
+
+    5.  Täitja kinnitab ja vastutab, et Töö tulemi eesmärgipärasel
+        kasutamisel Tellija poolt ei rikuta kolmandate isikute
+        autoriõigusi ega muid intellektuaalomandi õigusi. Täitja
+        vastutab ilma mistahes piiranguteta kolmandate isikute õiguste
+        kahjustamise eest ning juhul, kui selline nõue esitatakse
+        Tellija vastu, kohustub Täitja hüvitama kõik seonduvad Tellija
+        kulud enda kaitsmisel ja hüvitisnõuete täitmisel.
+
+    6.  Täitja annab Tellijale üle vastavalt valdkonnas kehtivatele
+        parimatele praktikatele dokumenteeritud lähtekoodi.
+
+    7.  Tasu intellektuaalse omandi õiguste Tellijale ülemineku ja
+        litsentside eest sisaldub Lepingu maksumuses ning Täitjal ei ole
+        õigust nõuda täiendavat tasu nende õiguste üleandmise ega
+        litsentsimise eest.
+
+9.  OMANDIÕIGUS
+
+Omandiõigus Töö tulemi materiaalsetele andmekandjatele, mille vahendusel
+Tellijale edastatakse Töö tulem või selle komponendid, lähtekood ja
+dokumentatsioon, samuti Töö lähte- või vahetulemused, lähevad üle
+Tellijale Hooldustööde puhul Hooldustööde teostamise järgselt ning
+Arendustööde puhul pärast üleandmise-vastuvõtmise akti Poolte poolt
+allkirjastamist.
+
+10. INFOTURBENÕUDED JA TAUSTAKONTROLL
+
+    1.  Andmete ja infosüsteemide konfidentsiaalsuse, tervikluse ja
+        käideldavuse tagamiseks rakendavad Pooled organisatsioonilisi,
+        füüsilisi ja infotehnoloogilisi turvameetmeid, samuti valdkonna
+        tunnustatud praktikaid ja tehnoloogilisi lahendusi Lepingut
+        täites avaldatud andmete kaitsmiseks, töötlemiseks ja
+        säilitamiseks. Pooled võtavad kõik mõistlikud meetmed teise
+        Poole andmete hävimise, kaotsimineku, lekkimise, avalikustamise,
+        rikkumise, volitamata ja/või juhusliku töötlemise, sealhulgas
+        andmekandjate volitamata edastamise, vältimiseks.
+
+    2.  Pooled kohustuvad teineteist viivitamata, kuid mitte hiljem kui
+        72 tunni pärast infoturbega seotud intsidendi toimumisest või
+        infoturbeintsidendi tekkimise kahtlusest, kui selline infoturbe
+        intsident mõjutab või võib mõjutada Poole infosüsteemi või
+        andmeid (esmane teavitus). Infoturbeintsident on intsident, mis
+        on põhjustanud, põhjustab või võib põhjustada edastatud,
+        salvestatud või muul viisil töödeldud andmete juhusliku või
+        ebaseadusliku hävimise, kaotsimineku, muutmise või volitamata
+        avalikustamise.
+
+    3.  Esmane teavitus peab sisaldama vähemalt fakti, et
+        infoturbeintsident on toimunud või võib olla toimunud, kui
+        infoturbeintsidendi üksikasju ei ole veel kindlaks tehtud. Teine
+        teavitus tuleb esitada nii kiiresti kui võimalik pärast
+        infoturbeintsidendi asjaolude selgumist ning see teavitus peab
+        sisaldama infoturbeintsidendi asjaolude kirjeldust, mõjutatud
+        infosüsteeme ja andmeid.
+
+    4.  Pooled nõustuvad osalema ja jagama kõiki asjakohaseid andmeid
+        mis tahes infoturbeintsidendi lahendamisel, mis on seotud Täitja
+        poolt tarnitud ja/või hooldatud infosüsteemiga. Täitja peab
+        koostama ja esitama intsidendi lahendamise protsessi, mis hõlmab
+        ka infoturbeintsidente. Kõrge riskiga infoturbeintsidendi korral
+        kohustub Täitja vajaduse korral abistama Tellijat tema asukohas.
+
+    5.  Pooled kohustuvad takistama andmetele ning andmete töötlemiseks
+        kasutatavatele seadmetele volitamata juurdepääsu. Pooled annavad
+        juurdepääsu teise Poole andmetele ainult oma töötajatele või
+        teistele volitatud isikutele, kellele selline juurdepääs on
+        Lepingu täitmiseks vajalik.
+
+    6.  Pooled kohustuvad looma igale kasutajale isikustatud
+        kasutajakonto ning tagama, et igal kasutajal on juurdepääs
+        ainult nendele andmetele, mille töötlemiseks ta on volitatud.
+
+    7.  Pooled kohustuvad logima andmetele juurdepääsu ning säilitama
+        logisid vähemalt üks aasta.
+
+    8.  Pooled on kohustatud omavahel kooskõlastama andmete töötlemise
+        asukoha(d) enne andmete töötlemise alustamist, samuti
+        igakordselt enne andmete töötlemise asukoha muutust.
+
+    9.  Lennundusseaduse § 46⁹ ja hädaolukorra seaduse § 41¹ alusel on
+        Tellijal õigus teostada taustakontroll Täitja nimel Tellija
+        territooriumil Lepingulisi kohustusi täitva isiku suhtes. Täitja
+        edastab Tellijale Tellija territooriumil Lepingulisi kohustusi
+        täitva isiku nime ja sünnikuupäeva/isikukoodi vähemalt 5
+        tööpäeva enne Tellija territooriumile sisenemist ning peab
+        osutama Tellijale kogu vajaliku abi taustakontrolli
+        läbiviimisel. Taustakontrolli tulemus peab olema ilma leidudeta.
+        Lepingu mõistes on leid vastavalt lennundusseaduse § 46⁹. Pooled
+        lepivad Tellija asukohale juurdepääsu korra eraldi kokku.
+
+    10. Kui Täitja rikub käesolevas punktis sätestatud nõudeid, on ta
+        Tellija nõudel kohustatud viivitamatult lõpetama kohustust
+        rikkuva tegevuse ja iga rikkumise eest tasuma leppetrahvi summas
+        5000,00 eurot.
+
+11. KONFIDENTSIAALSUSKOHUSTUS
+
+    1.  Pooled on kohustatud Lepingu kehtivuse ajal ning pärast Lepingu
+        lõppemist mitte avaldama üksteist puudutavat konfidentsiaalset
+        infot. Konfidentsiaalse info all mõistavad Pooled teineteisele
+        antud igasugust infot, sh Poolte partnerite ja töötajate,
+        hindade, tegevuse meetodite ja taktika kohta, elektri- ja
+        turvasüsteemide ja seadmete asukohta, toimimist, omadusi,
+        pakkumise kirjeldusi, spetsifikatsioone, manuaale, äriplaane,
+        turvasüsteeme nende toimimise põhimõtteid, turvanõudeid,
+        tehnilist, ärialast või muud teavet), mis ei ole kolmandatele
+        isikutele üldises korras kättesaadav, samuti infot, mida nad on
+        saanud kolmandatelt isikutelt, kui Pool teab või peaks teadma,
+        et info on konfidentsiaalne.
+
+    2.  Pooled võivad eelnevas punktis näidatud infot kasutada üksnes
+        Lepingus ettenähtud õiguste ja kohustuste realiseerimiseks.
+
+    3.  Konfidentsiaalse informatsiooni avaldamine kolmandatele
+        isikutele võib toimuda ainult seaduses otseselt ettenähtud
+        juhtudel või Poole eelneval kirjalikul nõusolekul.
+
+    4.  Muuhulgas kohustub Täitja tagama, et tema esindajad, töötajad,
+        lepingupartnerid ning muud isikud, keda ta oma kohustuste
+        täitmisel kasutab, oleksid Lepingus sätestatud
+        konfidentsiaalsuse kohustusest teadlikud ning nõudma nimetatud
+        isikutelt selle kohustuse tingimusteta ja tähtajatut täitmist.
+
+    5.  Tellijal on õigus edastada Lepinguga seotud konfidentsiaalset
+        teavet riigiasutusele Täitja nõusolekuta.
+
+    6.  Kui Pool rikub käesolevas punktis sätestatud konfidentsiaalsuse
+        kohustust, on ta teise Poole nõudel kohustatud viivitamatult
+        lõpetama kohustust rikkuva tegevuse ja iga rikkumise eest tasuma
+        selle nõudmisel leppetrahvi summas 5000,00 eurot.
+
+12. ISIKUANDMETE KAITSE
+
+    1.  Isikute õiguste kaitseks rakendavad Pooled mõistlikke meetmeid
+        Euroopa Liidu isikuandmete kaitse üldmääruse (EL 2016/679;
+        edaspidi “GDPR”) mõistes isikuandmete kaitseks.
+
+    2.  Tellija infosüsteem sisaldab äritegevuse käigus kogutud
+        isikuandmeid, mida Tellija on kogunud vastavalt isikuandmete
+        töötlemise eesmärgile ja millele Tellija on määratlenud kaitse
+        meetmed (vastutav töötleja). Täitja võib Töö teostamisel osutuda
+        isikuandmete töötlejaks Tellija nimel (volitatud töötleja).
+
+    3.  Täitja tagab, et Tellija nimel töödeldavatele isikuandmetele
+        saavad ligipääsu üksnes need Täitja esindajad, konkreetsed
+        töötajad või muud Täitja kasuks tegutsevad isikud, kes vajavad
+        ligipääsu isikuandmetele seoses Lepingulise kohustuse täitmisega
+        ning kes kohustuvad tagama isikuandmete konfidentsiaalsuse.
+
+    4.  Tellija kinnitab, et tal on isikuandmete töötlemiseks vajalikud
+        õigused ja juhul kui isikuandmete töötlemiseks on vajalik
+        nõusolek, on ta omandanud asjassepuutuvad nõusolekud. Tellija
+        koostab andmete töötlemise kirjed ning teavitab andmesubjekte
+        andmete töötlemisest vastavalt ette nähtud korrale.
+
+    5.  Täitja kinnitab, et töötleb kõiki Tellija andmeid vaid lähtuvalt
+        Lepingust, selle lisadest ja Tellija poolt antud juhistest ning
+        ainult ulatuses, mis on vajalik Töö teostamiseks.
+
+    6.  Täitja peab Tellijale koheselt edastama kõik andmesubjektidelt
+        saadud andmete kontrollimise, parandamise ja kustutamise,
+        andmetöötluse keelamise ja muud taotlused. Tellija kohus on
+        tagada vastused sellistele taotlustele.
+
+    7.  Tellijal on õigus auditeerida Täitja tegevust seoses
+        isikuandmete töötlemisega sõltumatu audiitorkontrolle läbiviiva
+        ettevõtte kaudu vandeaudiitori poolt. Auditi tegemise soovist
+        peab Tellija teavitama Täitjat vähemalt 30 päeva ette. Tellija
+        kohustub korraldama auditi tegemise tavapärastel tööaegadel ning
+        selliselt, et auditi tegemine ei häiriks Täitja igapäevast
+        majandustegevust. Auditi tegemisega kaasnevad kõik kulud kannab
+        Tellija.
+
+    8.  Tellija nõudel ja/või pärast Lepingu lõpetamist kohustub Täitja
+        kustutama või hävitama kõik Tellija edastatud või Tellija nimel
+        töödeldavad isikuandmed, välja arvatud kui isikuandmete
+        kustutamine või hävitamine on võimatu või kui Täitjal on kehtiva
+        õiguse alusel õigus või kohustus isikuandmeid edasi töödelda.
+
+    9.  Täitja töötleb isikuandmeid Euroopa Majanduspiirkonnas.
+
+    10. Täitja teavitab Tellijat kõigist isikuandmetega seotud
+        rikkumistest ilma põhjendamatu viivituseta alates hetkest, kui
+        Täitja sai teada isikuandmetega seotud rikkumisest. Tellija
+        nõudmisel peab Täitja ilma põhjendamatu viivituseta edastama
+        Tellijale kogu isikuandmetega seotud rikkumist puudutava
+        asjakohase informatsiooni.
+
+    11. Kui GDPR-i nõuete rikkumine põhjustab andmesubjektile
+        materiaalset või mittemateriaalset kahju, vastutab Täitja
+        tekitatud kahju eest ulatuses, mille osas Täitja ei ole täitnud
+        GDPR-i selgesõnaliselt sätestatud kohustusi.
+
+13. POOLTE VASTUTUS
+
+    1.  Pool vastutab Lepingulise kohustuse rikkumise eest vastavalt
+        Lepingule ja õigusaktides sätestatule. Pool vastutab teise Poole
+        ees ka Lepingu ja/või hankelepingu rikkumise eest, mis tuleneb
+        Poole poolt Lepingu ja/või hankelepingu täitmisele kaasatud
+        kolmanda isiku tegevusest või tegevusetusest.
+
+    2.  Pool vastutab oma esindaja (juhatuse või seda asendava organi
+        liikme või muu teda esindava isiku) ja isikute, keda ta oma
+        kohustuse täitmiseks kasutab, sealhulgas spetsialistide,
+        töötajate, teenistujate, alltöövõtjate, esindajate või
+        käsundisaajate, tegevusega või tegevusetusega põhjustatud kahju
+        eest samamoodi nagu oma tegevusega või tegevusetusega
+        põhjustatud kahju eest.
+
+    3.  Lepingut ja/või hankelepingut rikkunud Pool on kohustatud
+        tekkinud otsese varalise kahju teisele Poolele hüvitama. Pooled
+        välistavad saamata jäänud tulu ja mittevaralise kahju
+        hüvitamise, kuid see piirang ei kehti tahtliku rikkumise või
+        raske hooletuse korral.
+
+    4.  Juhul kui Täitja ei anna Arendustööd Tellijale üle kokkulepitud
+        tähtajaks või viivitab puuduste kõrvaldamisega, kohustub Täitja
+        maksma Tellijale leppetrahvi 0,15% Arendustöö maksumusest iga
+        üleandmise või puuduste kõrvaldamisega viivitatud päeva eest.
+
+    5.  Kui Täitja viivitab S1 kategooria rikke lahendamisega rohkem kui
+        2 tööpäeva ja/või S2 kategooria rikke lahendamisega rohkem kui 5
+        tööpäeva ja/või S3 kategooria rikke lahendamisega rohkem kui 15
+        tööpäeva, võib Tellija rikke lahendamise tellida kolmandalt
+        isikult Täitja kulul ning nõuda Täitjalt lisaks leppetrahvi
+        tasumist kuni 10% kolmanda isikuga sõlmitud lepingu maksumusest.
+
+    6.  Poolte rahaline koguvastutus on piiratud Lepingu maksimaalse
+        rahalise maksumusega, kuid see piirang ei kehti tahtliku
+        rikkumise ja raske hooletuse korral, konfidentsiaalsuskohustuse
+        rikkumise korral, intellektuaalomandi õiguste rikkumise korral,
+        isikuandmete alase rikkumise korral.
+
+    7.  Kui Arendustöö ei vasta Lepingust ja/või hankelepingust
+        tulenevatele nõuetele, võib Tellija nõuda Täitjalt puuduste
+        kõrvaldamist Täitja kulul. Juhul, kui Täitja ei ole puudusi
+        tähtaegselt kõrvaldanud, võib Tellija oma valikul:
+
+        1.  tellida hankelepingust tulenevatele nõuetele vastava
+            Arendustöö või selle osa tegemise kolmandalt isikult Täitja
+            kulul;
+
+        2.  teha Lepingust tulenevatele nõuetele vastava Arendustöö ise
+            Täitja kulul;
+
+        3.  alandada Arendustöö eest kokkulepitud tasu summa võrra,
+            mille võrra puudus Arendustöös selle väärtust Tellija jaoks
+            vähendas. Käesoleva punkti tähenduses loetakse Poolte
+            kokkuleppel Arendustöö väärtuse vähenemiseks eelkõige neid
+            eeldatavaid kulutusi, mis tuleb teha Arendustöö vastavusse
+            viimiseks hankelepingust tulenevatele nõuetele ja/või
+            summat, mille võrra Arendustöö väärtus jääb Tellija jaoks
+            väiksemaks võrreldes väärtusega, mis oleks olnud algselt
+            vastavuses Lepinguga tehtud Arendustööl;
+
+        4.  lõpetada ennetähtaegselt hankelepingu.
+
+    8.  Tellija poolt Täitjale tasu maksmise viivitamise korral kohustub
+        Tellija maksma Täitjale viivist 0,15% tähtaegselt tasumata
+        summalt iga viivitatud päeva eest.
+
+    9.  Ühegi Lepingus või seaduses ettenähtud õiguskaitsevahendi
+        kasutamine ei võta kahju kannatanud Poolelt õigust nõuda teiselt
+        Poolelt täiendavalt temale tekitatud kahju hüvitamist vastavalt
+        Lepingus kokkulepitule ega õigusest kasutada muid seadusest
+        tulenevaid õiguskaitsevahendeid.
+
+14. VÄÄRAMATU JÕUD
+
+    1.  Pooled ei vastuta kohustuse rikkumise eest, kui kohustuse
+        rikkumise põhjustas vääramatu jõud. Vääramatu jõu ja rikkumise
+        vabandatavuse osas kohaldavad Pooled võlaõigusseaduses §-s 103
+        sätestatut.
+
+    2.  Pool, kes soovib vabaneda kohustuse täitmisest vääramatu jõu
+        tõttu, peab esitama teisele Poolele sellekohase kirjaliku
+        taotluse, selgitades Lepingu ja/või hankelepingu täitmise
+        raskusi ning näidates ära nende põhjused. Pooled kohustuvad heas
+        usus pidama läbirääkimisi Lepinguliste kohustuste täitmise
+        jätkamiseks.
+
+    3.  Vääramatu jõuna ei käsitleta pakkumuste esitamise tähtpäeva
+        seisuga õigusaktidega kehtestatud piiranguid. Vääramatu jõu
+        kohaldumise üheks eelduseks on asjaolu ettenägematus. Pakkumuste
+        esitamise tähtpäeva seisuga kehtivad piirangud olid Lepingu
+        Pooltele teada ning kõik tegevused planeeriti arvestades
+        pakkumuste esitamise tähtpäeva seisuga kehtivat olukorda. Kui
+        kehtestatakse täiendavad piirangud, mis olid pakkumuse esitamise
+        tähtpäeva seisuga ettenägematud ja Poolelt ei saa mõistlikkuse
+        põhimõttest tulenevalt eeldata, et ta oleks sellise
+        ettenägematusega arvestanud ja mis takistavad Lepingu täitmist,
+        on Poolel õigus tugineda vääramatule jõule.
+
+    4.  Kui Lepingu täitmine on takistatud vääramatu jõu mõju tõttu,
+        lükkuvad Lepingus sätestatud tähtajad edasi aja võrra, mil
+        vääramatu jõud kohustuse täitmist takistas. Kui vääramatu jõu
+        asjaolud kestavad üle 60 kalendripäeva, loetakse, et Leping
+        ja/või hankeleping on lõppenud täitmise võimatusega, v.a. juhul,
+        kui Pooled ei ole selleks ajaks kokku leppinud teisiti. Lepingu
+        lõppemisel vääramatu jõu asjaolude tõttu ei ole kummalgi Poolel
+        õigus nõuda teiselt Poolelt Lepingu mittetäitmise või
+        mittenõuetekohase täitmisega tekitatud kahju hüvitamist.
+
+15. POOLTEVAHELISED TEATED JA KONTAKTISIKUD
+
+    1.  Pooled kohustuvad teist Poolt teavitama viivitamata kõikidest
+        asjaoludest, mis võivad mõjutada või takistada Lepingus
+        sätestatud kohustuste täitmist või õiguste realiseerimist.
+
+    2.  Kõik Lepingu alusel edastatavad teated peavad olema edastatud
+        vähemalt kirjalikku taasesitamist võimaldavas vormis Poolte
+        Lepingus kokkulepitud kontaktisikute kontaktandmetele. Kui teate
+        edastamisel on olulised õiguslikud tagajärjed, muuhulgas näiteks
+        Poole nõue teisele Poolele, mis esitatakse tulenevalt Lepingu
+        rikkumisest, peavad teisele Poolele edastatavad teated olema
+        edastatud kirjalikus vormis.
+
+    3.  Tellija kontaktisikuteks Lepingu täitmise küsimustes on:
+
+        1.  ____________
+
+        2.  _________
+
+    4.  Tellija kontaktisikud on volitatud esitama pöördumist,
+        allkirjastama üleandmise-vastuvõtmise akti.
+
+    5.  Täitja kontaktisikuteks Lepingu täitmise küsimustes on:
+
+        1.  ____________
+
+        2.  _________
+
+    6.  Täitja kontaktisikud on volitatud ______________.
+
+    7.  Kontaktandmete muutusest on Pool kohustatud viivitamatult
+        informeerima teist Poolt ja sellist muudatust ei käsitleta
+        Lepingu muudatusena. Kuni kontaktandmete muutusest teavitamiseni
+        loetakse teade nõuetekohaselt edastatuks, kui see on saadetud
+        Poolele Lepingus sätestatud kontaktandmetel.
+
+    8.  Kirjalik teade loetakse Poole poolt kätte saaduks, kui see on
+        üle antud allkirja vastu või kui teade on saadetud postiasutuse
+        poolt tähitud kirjaga Poole poolt teatatud aadressil ja
+        postitamisest on möödunud 5 kalendripäeva. E-posti teel, sh
+        digitaalselt allkirjastatud dokumentide saatmise korral loetakse
+        teade kätte saaduks e-kirja saatmisele järgneval tööpäeval.
+
+16. KEHTIVUS, MUUTMINE, LÕPPEMINE JA LÕPPSÄTTED
+
+    1.  Leping jõustub selle allkirjastamisel mõlema Poolte poolt
+        viimase allkirja andmise kuupäeval. Töid teostatakse Lepingus
+        kokkulepitud tingimustel ja korras 36 kuu jooksul alates Lepingu
+        jõustumisest või kuni Lepingu maksimaalse rahalise mahu
+        täitumiseni sõltuvalt sellest, kumb tingimus täitub varem.
+
+    2.  Lepingu lõppemine ei mõjuta selliste kohustuste täitmist, mis
+        oma olemuse tõttu kehtivad ka pärast Lepingu lõppemist (nt
+        garantii).
+
+    3.  Lepingut võib muuta üksnes Poolte kokkuleppega ja riigihangete
+        seaduse § 123 sätestatud tingimustel. Lepingut muuta sooviv Pool
+        teavitab Lepingu muutmise vajadusest ja selle aluste esinemisest
+        kirjalikult teist Poolt, andes teisele Poolele vastamiseks
+        mõistliku tähtaja. Kõik Lepingu muudatused ja täiendused
+        vormistatakse kirjalikult Lepingu lisana ning need jõustuvad
+        allkirjastamisest või Poolte määratud tähtajal. Kirjaliku vormi
+        mittejärgimisel on muudatused tühised.
+
+    4.  Lepingu võib lõpetada ennetähtaegselt Poolte kirjalikul
+        kokkuleppel või Lepingus ettenähtud juhtudel.
+
+    5.  Tellijal on õigus Leping Täitjaga korraliselt üles öelda ilma
+        põhjuseta, teavitades Täitjat ette vähemalt 60 kalendripäeva.
+
+    6.  Tellijal on õigus Leping Täitjaga erakorraliselt ilma ette
+        teatamata üles öelda järgmistel juhtudel:
+
+        1.  kui Täitja rikub Lepingut olulisel määral ja korduvalt, s.t
+            on vähemalt kaks korda rikkunud Lepingust tulenevaid
+            kohustusi või on need jätnud olulisel määral täitmata ning
+            ei ole oma Lepingust tulenevaid kohustusi täitnud 20
+            kalendripäeva jooksul alates Tellijalt vastavasisulise
+            rikkumise kõrvaldamise teate saamisest;
+
+        2.  kui Täitjat rikub korruptsioonivastaseid õigusakte;
+
+        3.  kui Täitja on teavitanud, et ta ei täida Lepingut;
+
+        4.  kui Täitja suhtes on algatatud pankrotimenetlus,
+            kuulutatakse välja pankrot, tema varad arestitakse või
+            finantsseisund halveneb põhjendatud hinnangul oluliselt ja
+            see halvenemine muudab vähetõenäoliseks Lepingu nõuetekohase
+            täitmise.
+
+    7.  Täitjal ei teki Tellija vastu Lepingu korralisest ülesütlemisest
+        tekkinud kahju hüvitamise nõude esitamise õigust.
+
+    8.  Kumbki Pool ei tohi Lepingust tulenevaid õigusi ega kohustusi
+        üle anda ega muul viisil loovutada kolmandale isikule ilma teise
+        Poole eelneva kirjaliku nõusolekuta.
+
+    9.  Kui Lepingu mõni säte või selle osa osutub kehtetuks või
+        tühiseks, ei too see kaasa kogu Lepingu kehtetust või tühisust.
+        Olukorras, kus ilmneb selline kehtetus või tühisus, lepivad
+        Pooled kokku, et kohaldavad sellist sätet, mis on tühisele või
+        kehtetule sättele majanduslikult sisult kõige lähedasem.
+
+    10. Lepingule kohaldatakse Eesti Vabariigi õigust.
+
+    11. Kõik Lepingust tulenevad erimeelsused ja vaidlused püütakse
+        lahendada Pooltevaheliste läbirääkimiste teel. Vaidlused
+        lahendatakse läbirääkimiste ebaõnnestumise korral Harju
+        Maakohtus.
+
++-----------------------------------+-----------------------------------+
+| Tellija                           | Täitja                            |
+|                                   |                                   |
+| Lennuliiklusteeninduse AS         | ______                            |
+|                                   |                                   |
+| Esindaja: Ivar Värk               | Esindaja: ______                  |
++===================================+===================================+
+|                                   |                                   |
++-----------------------------------+-----------------------------------+

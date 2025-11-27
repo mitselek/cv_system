@@ -1,0 +1,132 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+302778
+Eesti Energia AS (10421629)
+Veebide arendus - ja hooldustööd
+
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Koostatud 24.11.2025 14:53:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9559644/general-info
+
+2/3
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+PAKKUMUSE MAKSUMUS
+Pakkumus peab sisaldama pakkumuse maksumust, mis tuleb esitada vastavalt alusdokumentides
+sisalduvale vormile. Pakkumuse maksumuse vormil tuleb täita kõik nõutud väljad.
+
+Küsimused ettevõtjale:
+1. Maksumusvorm (Dokumendi vorm / 302778 Maksumusvorm.xlsx)
+NÕUDED MEESKONNALE
+Pakkuja kinnitab, et täidab alusdokumentides toodud tingimused meeskonna kohta.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et meeskonnas on kaetud järgmised rollid: • projektijuht, • analüütik, •
+Drupal arendaja, • back-end arendaja, • testija; (Raadionupp valikutega "Jah/Ei")
+2. Pakkuja kinnitab, et Drupal arendaja ja back-end arendaja rollides olevad isikud on täidetud
+eraldiseisvate isikute poolt (Drupal arendaja ja back-end arendaja rollides olevad isikud võivad
+täita vaid ühte rolli ehk kumbki neist ei tohi täita muid rolle meeskonnas.) (Raadionupp
+valikutega "Jah/Ei")
+3. Pakkuja kinnitab, et meeskonnaliikmel on eesti keel heal tasemel ning ta suudab eesti keeles
+vabalt ilma takistusteta suhelda (Raadionupp valikutega "Jah/Ei")
+4. Pakkuja kinnitab kõigi meeskonnaliikmetele esitatud nõuete ülevõtmist (Raadionupp
+valikutega "Jah/Ei")
+5. Pakkuja kinnitab, et suudab kaasata hankelepingu täitmisesse piisava arvu tehnilisi töötajaid
+(meeskonnaliikmeid), et tagada vajadusel meeskonna liikme asendus. Pakkumuse esitamisega
+pakkuja kinnitab, et on selle nõudega arvestanud. (Raadionupp valikutega "Jah/Ei")
+
+NÕUDED MEESKONNALE- ROLLIDE TÄPSUSTUS
+Pakkuja esitab meeskonnaliikmete nõuetele vastavuse tõendamiseks vajaliku teabe (piisavaks
+tõendiks loetakse meeskonnaliikme töö- ja/või projektikogemus, mis vastab hanke
+alusdokumendis "Nõuded meeskonnaliikmetele" vastavale meeskonnaliikmele sätestatud
+tingimusele)
+
+Küsimused ettevõtjale:
+1. Projektijuht 1. Peab olema vähemalt 2 aastane projektijuhtimise töökogemus tarkvara
+arenduses. 2. Peab olema osalenud IT projektijuhina viimase 24 kuu jooksul arvates hanke
+algamisest vähemalt kahes (2) tarkvaraarenduse projektis, mis on hõlmanud järgnevaid tegevusi:
+analüüs, disain, programmeerimine, testimine, juurutamine. Palume lisada projekti info CV
+vormile. Esitatud projektid peavad pakkumuse esitamise hetkeks olema nõuetekohaselt täidetud
+(Vabas vormis dokument)
+2. Analüütik 1. Peab olema vähemalt 2 aastane töökogemus tarkvara analüüsi läbiviimisel. 2.
+Peab olema user story'de ja/või use case'de kirjutamise kogemus vähemalt kahes (2)
+tarkvaraarendusprojektis. Palume lisada projekti info CV vormile. Esitatud projektid peavad
+pakkumuse esitamise hetkeks olema nõuetekohaselt täidetud (Vabas vormis dokument)
+3. Drupal arendaja Peab olema vähemalt 2-aastane praktiline arenduskogemus Drupal CMS-i
+moodulite ja SQL andmebaaside arendamise, konfigureerimise ja kohandamisega ning Drupal’i
+uuenduste ja turvapaikade rakendamisega (Vabas vormis dokument)
+
+Koostatud 24.11.2025 14:53:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9559644/general-info
+
+3/3
+
+4. Back-end arendaja Peab olema vähemalt 2 aastane töökogemus PHP programmeerimiskeele ja
+MVC raamistiku kasutamisel . (Vabas vormis dokument)
+5. Testija 1. Peab olema testlugude ja testplaani koostamise kogemus vähemalt kahes (2)
+tarkvaraarendusprojektis, mõlemad projektid peavad olema kestnud kauem kui 6 kuud. 2. Peab
+olema varasem praktiline kogemus testide automatiseerimise teostamisel vähemalt ühes
+tarkvaraarendusprojektis. Palume lisada projekti info CV vormile. Esitatud projektid peavad
+pakkumuse esitamise hetkeks olema nõuetekohaselt täidetud (Vabas vormis dokument)
+6. Vähemalt ühel meeskonnaliikmel on olemas kasutajaliidese prototüübi loomise/täiendamise
+oskus Figmas ja kasutaja teekonna loomise kogemus. Pakkuja esitab kogemuse tõestamiseks
+vajaliku dokumendi. (Vabas vormis dokument)
+7. Vähemalt ühel meeskonnaliikmel on olemas WCAG rakendamise kogemus ühes
+tarkvaraarendusprojektis. Pakkuja esitab kogemuse tõestamiseks vajaliku dokumendi. (Vabas
+vormis dokument)
+
+Koostatud 24.11.2025 14:53:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9559644/general-info
+
+
