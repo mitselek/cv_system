@@ -54,8 +54,8 @@
 - Public portal providing overview of government-managed data
 - Aggregates descriptions from institutional RIHAKE instances
 - Enables data reuse discovery
-- URL: https://avaandmed.eesti.ee/
-- Public code: https://koodivaramu.eesti.ee/andmete-teabevarav
+- URL: <https://avaandmed.eesti.ee/>
+- Public code: <https://koodivaramu.eesti.ee/andmete-teabevarav>
 
 **RIHAKE - Data Management Application:**
 
@@ -459,11 +459,13 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 **Likely Competitors:**
 
 1. **Current ATV/RIHAKE maintainers:**
+
    - Companies already working on these systems
    - **Advantage:** Deep system knowledge, test work (40% weight) heavily favors them
    - **Advantage:** Existing team, proven track record, RIA relationship
 
 2. **Established Government IT Contractors:**
+
    - Trinidad Wiseman, Nortal, CGI, Webmedia, Helmes
    - **Advantage:** X-Road experience portfolio, TARA integrations, Docker/K8s standard
    - **Advantage:** Large teams with specialist depth
@@ -553,22 +555,26 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 **Rationale:**
 
 1. **CRITICAL BLOCKERS:**
+
    - X-Road integration NOT documented (mandatory for architect + developer)
    - TARA/GovSSO NOT documented (mandatory for architect)
    - Docker/Kubernetes NOT documented (mandatory for architect)
    - Microservices production experience NOT documented (mandatory for architect)
 
 2. **STRUCTURAL DISADVANTAGE:**
+
    - Test work quality = 40% of score (favors incumbents with ATV/RIHAKE exposure)
    - Team experience = 40% of score (need high-hour specialists)
    - Price = only 20% of score (cannot win on price)
 
 3. **TEAM ASSEMBLY CHALLENGE:**
+
    - Need 5-6 specialists in 48 days
    - Architect with X-Road+TARA+K8s+Hazelcast is rare profile
    - Quality matters more than quantity (experience hour scoring)
 
 4. **COMPETITIVE REALITY:**
+
    - Incumbents have test work advantage
    - Established contractors have X-Road portfolios
    - Your gaps = bottom-half positioning
@@ -670,7 +676,7 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 
 **CHALLENGING - CONSIDER (but leaning toward SKIP)**
 
-### Proceed IF ALL Conditions Met:
+### Proceed IF ALL Conditions Met
 
 1. **X-Road specialist partnership secured** (architect with X-Road, TARA, Docker, K8s, Hazelcast, microservices experience, 60+ months portfolio)
 2. **2-3 Java/Angular developers recruited** (36+ months, X-Road experience, available immediately)
@@ -680,7 +686,7 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 6. **Financial model viable** (confident framework will provide 40%+ utilization)
 7. **Timeline realistic** (confident 48 days sufficient for team assembly + quality test work)
 
-### Skip IF ANY Condition Fails:
+### Skip IF ANY Condition Fails
 
 1. **Cannot find X-Road+TARA+K8s architect** in 30 days (CRITICAL: architect is keystone role)
 2. **Cannot recruit 2+ Java/Angular developers** with X-Road in 30 days
@@ -751,9 +757,9 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 
 **Days 22-28: ATV/RIHAKE Architecture Analysis**
 
-- [ ] Clone public repos: https://koodivaramu.eesti.ee/andmete-teabevarav
+- [ ] Clone public repos: <https://koodivaramu.eesti.ee/andmete-teabevarav>
 - [ ] Review rihake-fe (Angular), rihake-be (Java Spring), rihake-sso (Keycloak)
-- [ ] Analyze API documentation: https://andmed.eesti.ee/api/dataset-docs
+- [ ] Analyze API documentation: <https://andmed.eesti.ee/api/dataset-docs>
 - [ ] Review Andmekirjelduse Standard v3.0 (data description standard)
 - [ ] Map 10 test work tasks to ATV/RIHAKE architecture
 
@@ -803,7 +809,7 @@ Framework agreement for continuing development of ATV and RIHAKE components:
 
 This is a **CHALLENGING procurement** with **20-35% win probability** due to critical X-Road/TARA/Kubernetes gaps and structural test work disadvantage (40% weight favors incumbents).
 
-### Why Consider:
+### Why Consider
 
 - Strong PM credentials (15+ years, native Estonian, government sector)
 - PostgreSQL + JavaScript expertise match core requirements
@@ -812,7 +818,7 @@ This is a **CHALLENGING procurement** with **20-35% win probability** due to cri
 - 48 days allows team assembly (barely)
 - €1.6M contract = significant revenue opportunity
 
-### Why Skip (Recommended):
+### Why Skip (Recommended)
 
 - **X-Road integration NOT documented** = cannot cover architect or developer role without training
 - **TARA/GovSSO NOT documented** = architect role blocker
@@ -822,7 +828,7 @@ This is a **CHALLENGING procurement** with **20-35% win probability** due to cri
 - **Competitive disadvantage** = likely bottom-half finish (5th-10th place)
 - **Opportunity cost** = 185-265 prep hours + 30-month commitment + better procurements available
 
-### Better-Fit Alternative:
+### Better-Fit Alternative
 
 - **Procurement 9488324** (next in queue): Assess technology stack
 - **Python-focused government systems:** Leverage 9/10 proficiency
@@ -830,7 +836,7 @@ This is a **CHALLENGING procurement** with **20-35% win probability** due to cri
 - **Single-system procurements:** Less complexity, focused team needs
 - **X-Road portfolio building:** 6-12 month investment → unlock government IT market
 
-### Strategic Development:
+### Strategic Development
 
 1. **Build X-Road integration portfolio** (demo project + small contract, 200-500 hours)
 2. **Complete Docker/Kubernetes training** (hands-on course, 40-60 hours)
