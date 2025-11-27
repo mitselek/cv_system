@@ -31,7 +31,6 @@ Thumbs.db
 
 # Application-specific
 applications/*/delivery/
-*.pdf
 
 # Logs
 logs/
