@@ -1,0 +1,662 @@
+Framework Agreement No......
+Estonian Centre for International Development (hereinafter referred to as the
+customer or contracting authority), registry code 90015347, Tatari street 1, 10116
+Tallinn, who is represented by a member of the management board Klen Jäärats
+and
+________, registry code ________, address ________, who is represented by a member
+of the management board ________ (hereinafter contractor 1 or party),
+________, registry code ________, address ________, who is represented by a member
+of the management board ________ (hereinafter contractor 2 or party),
+________, registry code ________, address ________, who is represented by a member
+of the management board ________ (hereinafter contractor 3 or party) and
+All contractors are entered
+hereinafter separately or jointly by the parties, have entered into this framework agreement
+(hereinafter the agreement) in the following:
+1. Purpose and subject-matter of the agreement
+1.1. The purpose of the framework agreement concluded on the basis of lot/part 3 of the
+public procurement "Information and cyber security matters and services" (public
+procurement reference number 301036) organised by the contracting authority is to
+agree on how the procurement contracts for the procurement of the supplies that are
+the subject of the framework agreement will be concluded between the contracting
+authority and the partners of the framework agreement during the validity of the
+framework agreement.
+1.2. The object of the contract is the components, installation and configuration of the ICT
+and cyber security infrastructure (hereinafter referred to as the supply), which the
+contractor undertakes to sell to the contracting authority in accordance with the terms
+and conditions set out in the framework agreement and the annexes to the framework
+agreement. A more detailed description of the object of the framework agreement and
+the requirements for the object are set out in the technical specifications and in the
+tender submitted by the contractor.
+1.3. The framework agreement does not oblige the contracting authority to order supplies,
+i.e. to enter into a procurement contract.
+1.4. The framework agreement is valid for 48 months or until the performance of the
+obligations or the termination of the framework agreement or upon the fulfilment of
+the volume of the framework agreement.
+1.5. In addition to the state budget, the framework agreement may also be financed from
+foreign funds (i.e. financial instruments outside the budget of the contracting
+authority).
+
+1
+
+2. General Terms and Conditions
+2.1. All annexes and procurement documents of the public procurement, as well as the
+tenders submitted by the contractor in the public procurement and written notices
+between the parties, which are not separately signed as annexes to the framework
+agreement, are considered to be inseparable parts of the framework agreement.
+2.2. The ordering of the supplies and their content will be agreed upon in the course of a
+mini-competition organised on the basis of a framework agreement and in the
+procurement contract.
+2.3. If the term of the procurement contract differs from the term of the framework
+agreement, the term of the procurement contract shall prevail. If the terms and
+conditions in the annexes to the agreement differ from the terms of the agreement, the
+term of the agreement shall prevail.
+2.4. In the course of the performance of the framework agreement, additional conditions
+may be agreed upon if they are necessary for the fulfilment of the requirements arising
+from the implementation of the financing conditions.
+2.5. If there are additional conditions related to the financing of the supplies ordered under
+the procurement contract, the contractor is obliged to comply with the requirements
+arising from the use of financial resources announced in the procurement contract,
+including the use of the symbols required in the terms and conditions of the
+programme.
+2.6. The parties shall cooperate in the performance of the procurement contract and in the
+achievement of these objectives. The parties undertake to make all necessary efforts to
+perform the procurement contract on time and in accordance with the agreements.
+2.7. The quantities of supplies to be purchased in the technical specifications are indicative
+and are not binding on the customer.
+2.8. With the contract, the contractor undertakes to deliver the supplies to the customer in
+accordance with the procurement contract. The contractor confirms that it is a reseller
+of the products that are the subject of the procurement contract and that the
+performance of the procurement contract does not harm the rights and interests of
+third parties and that there are no circumstances that would preclude its rights to enter
+into the contract.
+2.9. By signing the procurement contract, the contractor confirms the ability to deliver the
+quantities of the supplies to be ordered on time upon receipt of the respective orders.
+2.10.
+The languages of performance of the procurement contract are Estonian and
+English, among other supplies, they are also the languages of concluding procurement
+contracts, working meetings and other communication, and documenting the works.
+The parties may agree on the need to perform the procurement contract in other
+languages, but a project manager who speaks English and the ability to communicate
+and document in Estonian must be ensured (an interpreter is also suitable).
+2.11.From the moment of delivery of the supply, the contracting authority shall have the
+right to use the supply under the conditions set out in the contract.
+3. Rights and obligations of the parties
+3.1. The contractor undertakes:
+3.1.1. sell supplies on the terms agreed in the procurement contract;
+3.1.2. cooperate with third parties with regard to the needs of the customer (e.g. with
+a business customer, etc.);
+2
+
+3.1.3. immediately notify the contracting authority of any circumstances hindering the
+acquisition of the property that interfere with the proper performance of the
+procurement contract;
+3.1.4. deliver the supplies to the indicated country of destination in accordance with
+the provisions of the procurement contract;
+3.1.5. install supplies in accordance with the provisions of the procurement contract;
+3.1.6. immediately notify the contracting authority of a cyber incident directed against
+the contractor and, at the request of the contractor, submit a cyber incident report
+to the contracting authority;
+3.1.7. notify in a format that can be reproduced in writing of any interest that may
+cause a conflict of interest in the performance of the contract.
+3.2. The contractor has the right to:
+3.2.1. receive remuneration for the sale of supplies to the extent and in accordance
+with the procedure agreed in the procurement contract;
+3.2.2. use subcontractors for the performance of the contract, having previously
+agreed in writing with the customer. The contractor is responsible for the actions
+and omissions of subcontractors before the contracting authority;
+3.2.3. to transfer the right to issue invoices to a third party without concluding an
+amendment to the contract, if they have submitted a notice to the customer to that
+effect.
+3.3. The customer undertakes:
+3.3.1. to pay for the supplies received in the agreed amount and in accordance with
+the agreed procedure;
+3.4. The customer has the right to::
+3.4.1. always monitor the performance of the procurement contract and provide the
+contractor with mandatory instructions in this regard;
+3.4.2. refuse to pay the fee, in whole or in part, if the contractor failed to properly
+perform the procurement contract on the agreed terms and the contractor's
+breach is not objectively justified;
+3.4.3. involve other state authorities in providing information for the performance of
+the contract, in the role of payer and/or quality controller. The involvement of a
+third party by the contracting authority cannot be regarded as an amendment of
+the framework agreement within the meaning of the Public Procurement Act.
+4. Award of procurement contracts
+Applicable if the framework agreement is concluded with several partners:
+4.1. The basis for the purchase of supplies is the concluded procurement contract.
+4.2. The customer organises mini-competitions according to actual needs, and the partners
+of the framework agreement must be prepared for possible time breaks between
+ordering supplies.
+4.3. In order to conclude the contract, the contracting authority shall submit a proposal to
+the partners of the framework agreement in a format that can be reproduced in writing
+(organise a mini-competition) and shall give a reasonable time for the submission of
+the tender, taking into account the technical complexity of the matter and the time
+required for the submission of the tender.
+4.4. In the technical specifications of the procurement contract to be concluded, the
+contracting authority specifies the object and technical specification of the
+3
+
+procurement, the time and location of delivery, and other important conditions. At the
+same time, the contracting authority may make it mandatory to involve a local partner
+in the destination country in the performance of the contract. The contracting
+authority also has the right to ask for documents certifying the right of resale.
+4.5. When conducting a mini-competition, the contracting authority selects only the most
+economically advantageous tender for the purchase of supplies on the basis of the
+lowest total cost.
+4.6. In a mini-competition for the purchase of services or supplies together with the service,
+the contracting authority selects the most economically advantageous tender as
+follows:
+4.6.1. "total cost of providing the service", "monthly cost of the service" or "cost of one
+working hour" (depending on the methodology of the service to be ordered): 30 –
+40%;
+4.6.2. 'quality criterion' means a task related to the planned/on-demand service,
+such as a blueprint for the provision of the service, additional experience of the
+team, local involvement, maintenance and warranty conditions, delivery time,
+etc.: 60 - 70%.
+4.7. The terms and conditions of the mini-competition stipulate how many contractors will
+be awarded the procurement contract.
+4.8. If necessary, the customer has the right to ask for additional confirmations and data
+on the existence of the prerequisites necessary for the purchase of the supply.
+4.9. When submitting a tender, all the requirements and conditions of the minicompetition must be complied with.
+4.10.
+The contracting authority will open the tenders after the deadline specified in
+the invitation to the mini-competition.
+4.10.1. The contracting authority shall check the compliance of the tenders and
+evaluate all tenders that meet the requirements and do not contain any
+substantive deviations from the terms and conditions of the mini-competition.
+The contracting authority will not evaluate tenders that do not comply with the
+conditions of the mini-competition. Thereafter, the contracting authority verifies
+the successful tenderer's compliance with the qualification criteria and checks the
+grounds for exclusion.
+4.10.2. The contracting authority may evaluate the tenders before verifying the
+conformity of the tenders or the absence of grounds for exclusion against the
+tenderers and their compliance with the qualification criteria. In such a case, the
+contracting authority will check the compliance of the tender, the compliance of
+the tenderer with the qualification criteria and the absence of grounds for
+exclusion only in the case of the successful tenderer. If the successful tenderer's
+tender turns out to be non-compliant as a result of the inspection, the tenderer
+does not meet the qualification criteria or the tenderer is excluded from the
+procedure, the contracting authority has the right to declare the tenderer next in
+the ranking as successful as a result of the evaluation and to carry out the
+described inspections in respect of him or her.
+4.11.
+If the tender does not meet the conditions of the mini-competition, it will be
+rejected.
+4.12.
+Before concluding the procurement contract, the contracting authority has the
+right to declare the mini-competition invalid on its own initiative, if justified, by
+notifying the partners of the framework agreement thereof.
+4.13.
+The contracting authority has the right to reject the tender and decide not to
+4
+
+conclude the procurement contract or to declare the mini-competition invalid in
+accordance with the framework agreement if:
+4.13.1. the tender(s) do not meet the conditions;
+4.13.2. the tender(s) exceed the estimated cost;
+4.13.3. The contracting authority does not receive approval for the final application for
+the award of a procurement contract involving foreign funds.
+4.14.
+If no tender is received for the mini-competition or none of the tenders are
+successful (incl. a situation arises where the tenderer does not pass a background
+check), the contracting authority has the right to submit a tender for the direct
+conclusion of a procurement contract with the same object of procurement. The
+contracting authority is allowed to make changes in the duration of the procurement
+contract, including the deadlines, and the volume of the procurement contract
+according to the reasons for the failure of the mini-competition. It is not allowed to
+change the object of the procurement contract, i.e. the scope. A direct tender can be
+made in the following order:
+4.14.1. First, make a tender for the award of the procurement contract with the
+contractor who earned the most points in concluding the framework agreement;
+4.14.2. Tenders may then be submitted for the award of the procurement contract in
+accordance with the order of evaluation to the following contractors.
+4.15.
+The contracting authority shall enter into a procurement contract for the
+purchase of the supply in accordance with the terms and conditions of the minicompetition and shall notify the partners of the framework agreement of the result of
+the mini-competition. The contractor undertakes to sign the procurement contract
+within 3 working days of sending the procurement contract for signature at the latest.
+Applicable if the framework agreement is awarded to a single tenderer:
+4.16.
+If the framework agreement has been concluded with one tenderer as a result of
+a procurement procedure, no mini-competitions will be conducted.
+4.17.
+The basis for the purchase of the supply is the concluded procurement contract.
+An order that has not been entered into on the procurement contract form is also
+considered a procurement contract. In this subsection, a tender is considered to be
+supplementing a tender within the meaning of § 30(3) of the PPA.
+4.18.
+In order to submit orders and enter into a procurement contract, the contracting
+authority has the right to contact the contractor directly, presenting the terms and
+conditions of the procurement contract. At the same time, the contracting authority
+may make it mandatory to involve a local partner in the destination country in the
+performance of the contract.
+4.19.
+The contracting authority enters into procurement contracts according to actual
+needs and the contractor must be prepared for possible time breaks in the period
+between the conclusion of the procurement contract.
+4.20.
+The purchase of the supply takes place on the basis of the technical specification
+fixed in the order, which specifies the object of the procurement contract and the
+technical specification and other important conditions.
+4.21.
+In order to order the supply, the customer submits an order to the contractor in
+a format that can be reproduced in writing. An order is a written request to the
+contractor to purchase supplies, either as an order letter, after which, if necessary, the
+procurement contract is concluded on a specific form.
+4.22.
+The contracting authority shall give a reasonable time for the submission of the
+tender, taking into account the technical complexity of the matter and the time
+5
+
+required for the submission of the tender. When submitting an offer, all the
+requirements set out in the order must be followed.
+4.23.
+If the offer does not meet the terms of the order, it will be rejected.
+4.24.
+The contracting authority has the right to reject the tender of the procurement
+contract and decide not to award the procurement contract or to declare the order
+submitted in accordance with the framework agreement invalid if:
+4.24.1. the tender does not meet the conditions;
+4.24.2. exceeds the estimated cost, or;
+4.24.3. The contracting authority does not receive approval for a full application for the
+award of a procurement contract related to foreign funds.
+4.25.
+If necessary, a procurement contract will be concluded for the purchase of the
+supply in accordance with the terms of the order. A procurement contract with a
+volume of 20,000 euros or more, excluding VAT, is always concluded on the
+procurement contract form and signed by the parties. The contractor undertakes to
+sign the procurement contract within 3 working days of sending the procurement
+contract for signature at the latest.
+5. Performance of the procurement contract
+5.1. The contractor shall hand over to the contracting authority the quality, quantity and
+characteristics of which comply with the provisions of the procurement procurement
+documents, technical specifications, order and tender.
+5.2. The supply must comply with the technical requirements set out in the procurement
+documents of the procurement and the contractor must have intellectual property
+rights for the performance of the contract.
+5.3. The contractor delivers the supply to the contracting authority by the deadline
+specified in the procurement contract and to the location agreed upon in the
+procurement contract.
+5.4. The matter is handed over with a deed of delivery and acceptance signed by the
+contractor (hereinafter the deed), in order to accept the supply, the contracting
+authority signs the deed on its part, if the contracting authority has no complaints
+regarding the transferred supply. The act must be signed within a reasonable time.
+5.5. Together with the supply handed over by the deed, the contractor transfers all the
+ownership rights of the product to the customer in accordance with the provisions of
+the contract.
+5.6. If the delivered supply does not comply with the conditions agreed upon in the
+procurement contract, the contracting authority has the right to refuse to accept the
+supply and give the contractor an additional deadline for the proper performance of
+the procurement contract.
+5.7. The right of ownership of the supplies and the risk of accidental destruction and
+damage is transferred from the contractor to the customer upon both parties signing
+the act of delivery and receipt.
+6. Value of the framework agreement
+6.1. The customer pays the contractor for the supply according to the tender submitted in
+the mini-competition.
+6.2. The volume of the framework agreement is a maximum of xx.xx (sum in words)
+euros excluding VAT, which will be summed up on the basis of the procurement
+contracts concluded with all contractors.
+6
+
+6.3. The customer pays the contractor for the work according to the invoices submitted,
+which are in accordance with the prepared and mutually signed deed.
+6.4. The contractor submits to the customer e-invoices that comply with the Estonian einvoice standard. The e-invoice must be submitted to the purchase invoice
+management environment of the customer's e-invoice operator (AS Fitek). In addition
+to the data specified in the standard, the e-invoice must also include the first and last
+name of the customer's contact person, the procurement contract number, the
+reference number of the contract part and the reference number of the public
+procurement.
+6.5. The invoices submitted by the contractor must clearly and unambiguously refer to the
+procurement and framework contract, comply with the provisions of the act of delivery
+and receipt and the requirements of the Value Added Tax Act. An invoice that does not
+meet the conditions set out in this clause is not payable.
+6.6. The customer pays the submitted invoices within 14 calendar days of receiving the
+required invoice. The place of receipt of the amount indicated on the invoice is the
+bank account number indicated by the contractor on the invoice.
+6.7. The date of payment of the invoice is considered to be the date of submission of the
+respective payment order to the State Treasury.
+7. Intellectual Property
+7.1. The intellectual property rights to the results of the service provided under the
+procurement contract (e.g. training materials or other products created for the
+customer) belong to the customer on the terms and conditions set out in this contract.
+The fee for the transfer and licensing of copyrights is included in the procurement
+contract fee.
+7.2. The customer shall have all the author's proprietary rights and exclusive licence to the
+results of the service, including the right to reproduce, process, distribute and make
+available to the public the documents prepared by the contractor in the performance
+of the procurement contract in any form and on any medium, without geographical
+restrictions and for an indefinite period. The proprietary rights and exclusive licence
+shall be deemed to have been transferred to the contracting authority upon the signing
+of the act of delivery and receipt by the parties.
+7.3. The customer has the right to freely use what has been developed under the contract,
+including the right to give the work created on the basis of the procurement contract
+to third parties for use.
+7.4. The provisions of this chapter may be amended or specified within the framework of
+the procurement contract by informing the contractors thereof within the framework
+of a mini-competition.
+8. Warranties
+8.1. The contractor shall provide a guarantee for the supplies acquired on the basis of the
+procurement contract for at least the period specified in the technical specifications.
+The guarantee takes effect from the moment the supply is handed over to the
+contractor and adopted by deed.
+8.2. The warranty covers all defects and non-conformities that occur on the supply during
+the warranty period, which have not arisen as a result of the actions of the customer
+or third parties.
+
+7
+
+8.3. The Contractor shall eliminate any defects or non-conformities that have occurred on
+the supply during the validity of the on-site warranty free of charge, including updating
+or replacing all related documents.
+8.4. The contractor is obliged, in particular, to carry out the following by way of warranty:
+8.4.1. Troubleshooting, localizing, finding a solution to the error situation and
+correcting the error when an error occurs.;
+8.4.2. analysing the causes of the error and proposing preventive measures in a format
+that can be reproduced in writing;
+8.4.3. Installation and configuration support and related consultations in connection
+with error correction.
+8.5. If possible, the contracting authority shall determine the degree of criticality of the
+error or whether it is another defect covered by the warranty obligation, and may set a
+deadline for the elimination of the defect based on the criticality of the defects specified
+in the procurement contract.
+8.6. If the contractor proves that the defect eliminated was not covered by the warranty,
+the contracting authority shall reimburse the direct costs incurred by the contractor in
+connection with the rectification of the defect. The compensation of costs is based on
+the procurement contract within the framework of which the defect has become
+apparent, a reasonable fee is paid.
+8.7. The customer shall provide assistance to the contractor in eliminating defects subject
+to the warranty obligation within the limits of the customer's capabilities and
+possibilities.
+8.8. If the contractor is unable to eliminate the defects by the agreed deadline, the
+contracting authority may eliminate them themselves or arrange for their elimination
+with the help of a third party, notifying the contractor thereof. The customer has the
+right to demand compensation from the contractor for all costs incurred in connection
+with the elimination of the defect in the manner described above, if it was a defect
+covered by the warranty.
+9. Confidentiality obligation
+9.1. The parties undertake not to disclose confidential information received under the
+agreement to third parties, except in cases provided for by law.
+9.2. The parties shall comply with all applicable data protection and information security
+legislation.
+9.3. The parties shall forward confidential information only to those persons who are
+directly involved in the performance of the procurement contract and shall ensure that
+such persons are aware of and comply with the requirement of confidentiality.
+9.4. By confidential information, the parties mean personal data that have become known
+in the course of the performance of the procurement contract and information to
+which access restrictions have been imposed, as well as other information the
+disclosure of which could harm the interests of the parties.
+9.5. The responsibility for the performance of the confidentiality obligation lies with the
+party for all persons involved by it in the performance of the contract.
+9.6. The confidentiality requirement is valid for an indefinite period. Due to the nature of
+the confidential information, the customer has the right to set additional requirements
+and/or instructions for the processing of personal data.
+9.7. The parties shall not disclose (including in the media) information created or become
+known in the course of the performance of the procurement contract without the
+8
+
+written consent of the other party before the signing of the final act of delivery and
+acceptance of the procurement contract.
+9.8. The obligation of confidentiality is valid for an indefinite period.
+10. Responsibility
+10.1.
+A party shall be liable for a breach of its contractual obligation, unless the breach
+is excusable due to force majeure or other objective circumstances. The existence of
+this fact must be proved by the party wishing to rely on it.
+10.2.
+A party is liable for a breach of its contractual obligation arising from the
+activities of the persons involved in the performance of the procurement contract.
+10.3.
+A party shall not be liable for any breach of contractual obligations arising from
+the breach of obligations of the other party or the acts or omissions of third parties. If
+the contracting authority delays the performance of its obligations and the non-timely
+performance of these obligations does not enable the contractor to perform its
+obligations by the deadline, the extension of the term for delivery of the supply shall
+be fixed by the corresponding time. The existence of this fact must be proved by the
+party wishing to rely on it.
+10.4.
+In the event of a breach of an obligation, the other party has the right to use all
+legal remedies arising from the law or contract in accordance with the Law of
+Obligations Act.
+10.5.
+The total financial liability of the parties is limited to the total value of the
+framework agreement, but this limitation does not apply to wrongful infringement,
+including wrongful infringement in relation to intellectual property rights or data
+protection obligations.
+10.6.
+In the event of delay in the payment of the fee, the contractor has the right to
+demand interest on arrears at the rate provided for in the Law of Obligations Act from
+the fee payable for the specific supply for each calendar day of delayed payment. The
+maximum rate of interest on arrears is 25% of the total amount payable for a specific
+supply. The claim for interest on arrears must be submitted signed.
+10.7.
+A breach of contractual obligations by the contractor is primarily considered to
+be a situation where the transferred supply does not partially or fully comply with the
+terms and conditions of the procurement contract or there are other breaches of the
+procurement contract by the contractor.
+10.8.
+If the contractor violates a contractual obligation, the contracting authority has
+the right to demand payment of a contractual penalty of up to 200 euros for each
+calendar day in the violation, but not more than 25% of the total value of the
+procurement contract. If the purchase of the supply has been agreed upon in stages,
+then no more than 25% of the total cost of the stage.
+10.9.
+If, due to delays on the part of the contractor, the commissioning of the supply
+is no longer realistic or necessary, the contracting authority has the right to withdraw
+from the procurement contract pursuant to subsection 116 (1) of the Law of Obligations
+Act and the contractor is obliged to reimburse the contracting authority for the part
+already paid.
+10.10.
+In the event of a material breach of the contract, the contracting authority has
+the right to submit a contractual penalty claim of up to 10,000 euros for each violation
+to the contractor. In the event of a significant breach of a procurement contract by the
+contractor, the contracting authority does not have to set an additional term specified
+in § 114 of the Law of Obligations Act for the performance of the contractor's contract,
+9
+
+and the contracting authority has the right, inter alia, to cancel the procurement
+contract or withdraw from the procurement contract.
+10.11.
+In addition to the provisions of the Law of Obligations Act, a material violation
+includes, among other supplies, the following:
+10.11.1.failure to award the procurement contract without a good reason or failure to
+commence its performance;
+10.11.2.
+Misrepresentation;
+10.11.3.
+lack of rights (including permits, licences, intellectual property rights)
+necessary for the performance of the procurement contract;
+10.11.4.
+violation of intellectual property rights and the terms and conditions of
+their use;
+10.11.5.
+repeated (at least twice) replacement of a crew member by a person who
+does not meet the agreed requirements, or replacement of a crew member without
+the prior consent of the participant, at least in a format that can be reproduced in
+writing;
+10.11.6.
+breach of confidentiality;
+10.11.7.
+repeated (at least twice) non-performance of contractual obligations;
+10.11.8.
+failure to deliver the matter on time in such a way that the fulfilment of
+the purpose of the procurement contract is no longer realistic within the deadline
+and/or due to the actions or omissions of the contractor, it is no longer possible
+to use the funds intended for financing the procurement contract;
+10.11.9.
+transfer of contractual obligations to a third party without concluding a
+corresponding amendment to the contract.
+10.12.
+Acceptance of the supply by the contracting authority does not release or reduce
+the liability of the contractor for breach of contract.
+10.13.
+If the contractor fails to perform the procurement contract properly and the
+implementing body makes a decision to reduce the grant or reclaim the grant on the
+basis thereof, the contracting authority has the right to reclaim the ineligible costs
+from the contractor to the extent of the repayment claim.
+10.14.
+The contracting authority undertakes to submit a claim for a contractual penalty
+within a reasonable period of time, but not later than within 3 months from the date
+on which the contracting authority became aware of the circumstance on which the
+contractual penalty claim is based. Contesting a claim for a contractual penalty does
+not release the contractor from the obligation to pay it before the relevant court
+judgment enters into force.
+10.15.
+The Contractor is obliged to pay the contractual penalty within 14 calendar days
+from the submission of the respective claim by the contracting authority, unless
+otherwise specified in the contractual penalty claim.
+10.16.
+The contracting authority has the right to offset the amount of the contractual
+penalty with the payments payable to the contractor for the supply. In the event of setoff, the obligation to pay the contractual penalty is not applied.
+11. Validity of contracts
+11.1. The framework agreement and the procurement agreement enter into force once the
+parties have signed the agreement.
+11.2.The framework agreement and the procurement contract shall be terminated upon the
+performance of contractual obligations, the cancellation of the respective contract or
+on any other basis arising from the law.
+10
+
+11.3.The contracting authority may terminate the framework and procurement contract at
+any time in writing without prior notice. In this case, the customer undertakes to
+accept the work done by the time of cancellation and pay a fee for it according to the
+volume of work performed. The customer is not obliged to pay for the work or a part
+thereof that does not comply with the conditions set out in the procurement contract
+and its annexes.
+11.4.The framework agreement and the procurement contract may be amended under the
+conditions set out in the procurement contract by a written agreement between the
+parties, which is formalised as an annex to the contract.
+12. Forwarding notices and contact persons
+12.1.Notices are generally forwarded by e-mail, subject to the terms and conditions of the
+Rules of Procedure, if any. In the case of sending by e-mail, including digitally signed
+documents, the notice is deemed to have been received at the time indicated in the
+notice of arrival or at the time indicated in the e-mail.
+12.2.
+If the forwarding of the notice has significant legal consequences, the notice
+must be sent digitally signed by a party with the right to sign. An informative message
+can also be sent by phone. A notice that does not have legal consequences is considered
+informative.
+12.3.
+A written notice is deemed to have been received by a party if it is handed over
+against a signature or if the notice has been sent by registered mail by a post office to
+the address notified by the party and 5 calendar days have passed from the posting.
+12.4.
+The customer's contact person(s) are: .... ..., telephone ...., e-mail: .... or his
+substitute;
+12.5.
+The contact person(s) of the contractor are: ..., ...., phone ... E-mail: .... or his
+substitute;
+12.6.
+It is the competence of the contact persons to provide the other party with the
+necessary information and instructions within the limits of their competence, to give
+consent to the change of team member, to check the quality of the procurement
+contract performed, to transfer the object of the contract and to accept and sign the
+act.
+12.7.
+If the contact person changes, a party shall immediately notify the other party
+in writing.
+13. Final provisions
+13.1.Disputes related to the framework agreement that the parties have not been able to
+resolve through negotiations will be submitted to Harju County Court for resolution.
+13.2.
+Estonian law applies to the framework agreement. As this is a mixed type of
+contract, in addition to general contractual legal remedies, legal remedies arising from
+the law must also be taken into account, which are used on the basis of Chapter 35 or
+36 of the Law of Obligations Act, depending on the nature of the violation..
+13.3.
+In matters not regulated by the framework agreement or in a situation where a
+provision of the agreement is in conflict with the law, the legislation in force in the
+Republic of Estonia shall be taken into account.
+14. Annexes that are not signed with the framework agreement
+14.1.Annex 1 – Technical specifications;
+11
+
+14.2.
+14.3.
+
+Annex 2 – Draft procurement contract;
+Annex 3 – Tenders.
+
+15. Signatures of the parties
+Contracting authority:
+...
+
+Contractors:
+...
+
+/digitally signed /
+
+/digitally signed /
+
+12
+
+Draft procurement contract
+Estonian Centre for International Development (hereinafter referred to as the
+customer or contracting authority), registry code 90015347, Tatari street 1, 10116
+Tallinn, who is represented by a member of the management board Klen Jäärats
+and
+_______, (hereinafter referred to as the contractor), registrikood_____, aadress____,
+represented by _______
+hereinafter separately or jointly the parties, entered into this procurement contract
+(hereinafter referred to as the contract) on the basis of framework agreement no ____ in the
+following:
+1. Subject-matter of the contract
+1.1. The object of the contract is the supplies/licenses/product support/___ specified in
+the technical specifications of the procurement documents of the public procurement
+"___" (reference number of the mini-competition ___) (hereinafter referred to as
+the "supply").
+1.2. The contract is funded by project No ___ . The marking of the supply is based on
+___.
+2. Conditions for performance of the contract
+2.1. The contractor hands over the supply every day, month, year, if necessary, with
+installation and configuration.
+2.1.1. The validity period of the licenses is ___ ;
+2.1.2. The support period is ___ ;
+2.1.3. ___ .
+2.2. Supplies are handed over and accepted under the conditions agreed in the technical
+specifications and the framework agreement.
+2.3. All the differences compared to the provisions of the framework agreement are
+entered here.
+3. Contract value
+3.1. The customer pays a total of ___ (cost in words) euros excluding VAT for the supplies
+ordered under the contract.
+3.2. Supplies are handed over as follows:
+3.2.1. ___;
+3.2.2. ___.
+3.3. The contractor has the right to submit an e-invoice after the supplies have been
+adopted by deed. The invoice must indicate the name of the public procurement, the
+reference number of the contract part, the procurement contract and framework
+agreement number and the details of the contact person.
+3.4. The payment term of the invoice must be at least 14 calendar days from the receipt of
+the required invoice.
+13
+
+4. Notices and contacts between the parties1
+4.1. The forwarding and delivery of notices is based on the regulation of the framework
+agreement.
+4.2. The customer's contact person for the performance of the contract is the ________,
+phone ________, e-mail ______ or their substitute.
+4.3. The contact person of the contractor in the performance of the contract is the
+________, phone ________, e-mail ______ or their substitute.
+5. Final provisions
+5.1. The contract enters into force from the moment it is signed by the parties and is valid
+until the parties perform their contractual obligations.
+5.2. The contract documents consist of the procurement documents of the public
+procurement, including the annexes to the contract, amendments to the contract and
+the tender.
+5.3. The following documents are integral parts of the contract at the time of conclusion of
+the contract, which are not signed together with the procurement contract:
+5.3.1. Annex 1 - Technical specifications;
+5.3.2. Annex 2 – Tender;
+5.3.3. ______ .
+6. Signatures of the parties
+
+Contracting authority:
+
+Contractor:
+
+1 To remove in a situation where the contact persons have not changed compared to the framework
+
+agreement.
+
+14
+
+

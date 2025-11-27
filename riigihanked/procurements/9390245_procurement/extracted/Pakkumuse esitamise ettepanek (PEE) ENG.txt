@@ -1,0 +1,1058 @@
+INVITATION TO TENDER (PEE)
+CONTENTS
+
+Contracting authority:
+
+1.
+
+Estonian Centre for International Development (90015347)
+
+What is the process of the
+
+procedure?
+
+Type of procurement:
+
+2.
+
+What is procured?
+
+International open procedure
+
+3.
+
+What are the requirements for a
+
+Name of the public procurement:
+
+tender?
+
+Information and cyber security matters and services
+
+4.
+
+How to qualify?
+
+Public procurement reference number:
+
+5.
+
+Which tenderer will be eliminated?
+
+301036
+
+6.
+
+How does the contracting authority
+
+Type of contract:
+
+open tenders?
+7.
+
+When can the contracting authority
+
+reject all tenders?
+8.
+
+When can a contracting authority
+
+annul a procurement procedure?
+
+Framework agreement with up to 7 tenderers in lot 1-2 and
+framework agreement with an unspecified number of
+partners in lot 3
+Expected contract period:
+48 months
+Estimated contract value:
+
+9.
+
+Which tender wins?
+
+10.
+
+How is the contract concluded?
+
+5 MEUR part 1, 9 MEUR part 2, 13 MEUR part 3. All in all 27
+MEUR
+
+11.
+
+How is the exchange of information
+
+Deadline for submission and opening of tenders:
+
+organised?
+
+According to the contract notice,
+
+ANNEXES:
+
+Place of submission and opening of tenders:
+
+Framework Agreement (Parts 1 and 2)
+
+Procurement Register (riigihanked.riik.ee)
+
+Framework Agreement (Part 3)
+
+Period of validity of the tender:
+
+FA Annex 1 – Technical Specifications
+
+3 months
+
+FA Annex 2 – Draft procurement contract
+
+Person responsible for public procurement:
+
+(included in the FA file)
+FA Annex 3 – Data Processing Agreement
+(Parts 1 and 2) (included in FA file)
+
+Siim Alatalu
+Information day:
+17.11.2025 time 14:00-15:00, The link to participate is here.
+
+PEE Annex 1 – Requirements for the
+tenderer's team and CV form
+PEE Annex 2 – Market Survey Summary
+ATTENTION!
+In preparing the procurement documents (hereinafter also referred to as "procurement documents"), the
+contracting authority has proceeded from the Public Procurement Act (hereinafter referred to as the PPA), the
+procedure for conducting procurements of the contracting authority and the conditions set out in the
+procurement documents.
+The procurement documents contain all relevant documents referred to in the law, including:
+● This call for tenders, together with all annexes;
+● Information published in the Public Procurement Register (hereinafter referred to as the "Register") in
+the procurement procedure, including the procurement notice (hereinafter referred to as the
+"Procurement Notice"), grounds for exclusion (including the form of the Single Procurement
+Document), qualification conditions, compliance conditions, evaluation criteria (including a description
+of the evaluation methodology) and all information and documents sent before the deadline for
+submission of tenders that have amended, clarified or specified the requirements of the procurement
+Documents.
+(PPA § 4 point 17)
+
+Pursuant to the law, the contracting authority may amend the contract notice and/or procurement documents
+before the deadline for submission of tenders. (PPA § 81 and 82, § 125 (5))
+
+1
+
+1. WHAT IS THE PROCESS OF THE PROCEDURE?
+
+2
+
+2. WHAT IS PROCURED?
+2.1.
+
+2.1. The subject of the contract. ESTDEV plans to enter into framework agreements in three parts,
+whereby in parts 1-2 to 7 successful tenderers and in part 3 the maximum number of partners has not
+been determined. The framework agreements will be concluded for the acquisition of consulting
+services in Part 1, for the acquisition of analysis, development and applications in Part 2 and for the
+acquisition, installation and configuration of infrastructure components in Part 3.
+
+2.2.
+
+Technical description. The technical specification of the subject-matter of the contract is set out in
+joint Annex 1 to the Framework Agreements.
+
+2.3.
+
+Agreement. The conditions for the performance of the contract are set out in the procurement
+document "Framework Agreement Part 1 and 2", "Framework Agreement Part 3" and "FA Annex 2 –
+Procurement Contract".
+
+2.4.
+
+Distribution. The procurement has been divided into parts.
+
+2.5.
+
+Comprehensive and binding. The parts of the procurement documents complement each other and
+form a comprehensive basis for preparing the tender. The requirement specified in any document is
+binding on the tenderer.
+
+2.6.
+
+Market consultation. The contracting authority conducted a market consultation. Market
+consultation materials and feedback are available in the PEE Annex 2 - Market Survey Summary.
+
+3. WHAT ARE THE REQUIREMENTS FOR A TENDER?
+PREPARATION OF THE TENDER
+3.1.
+
+Terms of the tender. The Tender must meet all the conditions set out in the Procurement Documents.
+The information provided in the tender must be presented in such a way as to enable the contracting
+authority to verify the compliance of the tender with the conditions set out in the Procurement
+Document.
+
+3.2.
+
+Confirmation from the tenderer. By submitting a tender, the tenderer confirms the transposition of
+all the conditions set out in the Procurement Documents.
+
+3.3.
+
+Language of the tender. The language of the tender is Estonian and/or English. Documents
+submitted in other foreign languages must be accompanied by a translation into Estonian or English
+(except for copies of advertising brochures and other advertising documents, which may be in a
+foreign language).
+
+3.4.
+
+Contradictions in the procurement documents. If the tenderer discovers errors, contradictions,
+ambiguities or ambiguities in the procurement documents during the preparation of the tender, they
+are welcome to immediately notify the contracting authority through the register and ask a question
+about them.
+
+3.5.
+
+Terms of cost. The value of the tender is presented in euros and according to the structure set out in
+the register. The value of the tender must be final. The cost must include all costs in accordance with
+the procurement document as well as costs not mentioned therein, which are necessary for the proper
+performance of the contract. The contracting authority shall not compensate the tenderer for any
+additional costs or make any additional payments in the performance of the contract.
+
+3.6.
+
+Inconsistencies in forms. The tenderer may need to submit the value of the tender both on the
+register form and on the form prepared by the contracting authority. If the data submitted by the
+tenderer are different on these forms, the contracting authority shall evaluate the tender on the basis
+of the costs presented on the form prepared by the contracting authority.
+
+3.7.
+
+Exclusion of misleading and conditional tenders. The tender must not be misleading in any way. The
+tenderer cannot make changes, reservations or set its own conditions regarding the requirements set
+out in the procurement documents. Submission of conditional bids is not allowed.
+
+3.8.
+
+Alternative solutions. Submission of alternative solutions is not allowed.
+
+3
+
+3.9.
+
+Subcontractors. In the tender, the tenderer shall indicate the size and nature of the part of the
+contract for which the tenderer intends to subcontract together with the names of the intended
+subcontractors.
+
+3.10.
+
+Joint tenderers. Joint tenderers must submit a power of attorney for the joint tender. In the power of
+attorney, the tenderer must indicate the size and nature of each part of the contract to be performed
+by the joint tenderer.
+
+3.11.
+
+Document format. Tender documents must be submitted in the commonly used document format
+(.pdf; .txt; .rtf; .odt and MS Office formats).
+
+3.12.
+
+Capacity limit. The size of one uploaded file in the Registry may not exceed 100 MB. The total size of
+the tender documents must not exceed 300MB.
+
+3.13.
+
+Costs and risks. The interested party or tenderer bears the full costs and risks associated with
+participating in the procurement procedure, including the possibility of force majeure.
+
+SUBMISSION OF A TENDER
+3.14.
+
+Right to submit a tender. The contracting authority restricts the circle of tenderers by allowing only
+undertakings from the countries specified in § 3(2) of the PPA to participate in this public procurement,
+including as a person on whose resources the tenderer relies on § 103(1) of the PPA..
+
+3.15.
+
+Content of the tender. The composition of the tender must be submitted in addition to the
+Procurement Register fields:
+Team CV form filled in and preferably on the contracting authority’s form;
+A collaborative vision that would include the elements to be evaluated;
+Power of attorney of joint tenders, if necessary.
+
+3.15.1.
+3.15.2.
+3.15.3.
+3.16.
+
+Person submitting the tender. The tender must be submitted by the tenderer's statutory or
+authorised representative. If the tender is submitted by a person who is not entered on the printout of
+the registry card of the Estonian Commercial Register as a person who has the legal right of
+representation of the tenderer, the tenderer must, at the request of the contracting authority, submit
+a power of attorney of the legal representative(s) to represent the tenderer.
+
+3.17.
+
+Foreign tenderer. If the tenderer is registered in a foreign country, the tenderer must submit a
+certificate of the existence of the right of representation at the request of the contracting authority.
+
+3.18.
+
+Registry errors. The Contracting authority shall not be liable for possible delays, failures or
+interruptions caused by circumstances beyond the control of the Contracting authority in the Register,
+such as force majeure, power outages, disturbances in the telephone or internet connection of the
+tenderer or the contracting authority, or in the operation of other electronic devices and tools,
+including software. The Contracting authority shall not be liable for any damage or loss of profit arising
+from the use or non-use of the Register.
+
+SUITABILTY OF THE TENDER
+3.19.
+
+Conditions of suitability. The conditions of suitability are located in the Register under the Tender
+suitability criteria and in this invitation to submit a tender.
+
+3.20.
+
+Adjustments. The contracting authority has the right to ask the tenderer for more detailed
+information and additional explanations about the submitted tender.
+
+3.21.
+
+Declaration of suitability. The contracting authority shall declare the tender suitable if it complies
+with the requirements set out in the procurement documents. The contracting authority may declare
+the tender to be suitable if there are no substantive deviations from the conditions specified in the
+procurement documents.
+
+3.22.
+
+Decision. The contracting authority shall make a reasoned written decision on declaring the tender
+compliant or rejecting the tender.
+
+4. HOW TO QUALIFY?
+4.1.
+
+Conditions to qualify. If available , the qualification criteria can be found in the register under the
+basic data of the procurement procedure, in the subsection Grounds for exclusion and qualification
+criteria.
+4
+
+4.2.
+
+Single Procurement Document. The tenderer submits a Single Procurement Document with the
+tender, in which it confirms compliance with the qualification criteria and submits the required data.
+Documents certifying qualification do not have to be submitted with the tender.
+
+4.3.
+
+Reliance on the resources of another undertaking. A tenderer may prove its compliance with the
+requirements of economic and financial standing on the basis of the resources of another economic
+operator. In such a case, the tenderer and the other economic operator must be jointly responsible for
+the proper performance of the contract. The letter of confirmation of joint liability must be included in
+the tender documentation.
+
+4.4.
+
+Qualification. The contracting authority shall qualify the successful tenderer whose qualification
+meets the tenderer's selection criteria set out in the Procurement Documents. The successful tenderer
+must provide evidence supporting the information provided in the Single Procurement Document
+within 5 working days of receipt of the request (PPA § 104 lg 9).
+
+5. WHICH TENDERER WILL BE ELIMINATED?
+5.1.
+
+Grounds for elimination. The grounds for exclusion of a tenderer are published in the Register under
+the basic data of the procurement procedure, in the subsection Grounds for exclusion and
+qualification conditions.
+
+5.2.
+
+Single Procurement Document. The tenderer submits a Single Procurement Document with the
+tender, in which it confirms the absence of grounds for exclusion and submits the required data.
+Supporting documents do not need to be submitted with the tender.
+
+5.3.
+
+Decision of elimination. When contracting authority excludes a tenderer from the procurement
+procedure, the contracting authority makes a corresponding reasoned decision in writing. The
+excluded tenderer cannot participate in the procurement procedure any further.
+
+6. HOW DOES THE CONTRACTING AUTHORITY OPEN TENDERS?
+6.1.
+
+Open. The contracting authority opens tenders electronically in the Register.
+
+6.2.
+
+Non-public. The opening of tenders shall not be public. After the opening of the tenders, the names
+and registry codes of the tenderers, in the absence of a registry code, any other identifier or personal
+identification code enabling the identification of the tenderer or, in the absence of a personal
+identification code, the date of birth and the costs of the tenders submitted, including the partial costs
+of the tender, if they are taken into account in the evaluation of tenders, and other numerical indicators
+characterising the tender that meet the criteria for evaluating the tenders shall be published in the
+register.
+
+7. WHEN CAN THE CONTRACTING AUTHORITY REJECT ALL TENDERS?
+7.1.
+
+Cost of tenders. The contracting authority may reject all tenders if the value of all tenders or tenders
+found to be compliant exceeds the value of the contract.
+(PPA § 116 (1) point 1)
+
+7.2.
+
+Insufficient competition. The contracting authority may reject all tenders where sufficient
+competition is not ensured. This means that if the procurement receives only two or fewer tenders or
+if only one tender is accepted.
+
+7.3.
+
+The process of rejecting all tenders. The contracting authority shall reject all tenders by means of a
+written decision. The contracting authority shall give reasons for its decision.
+
+8. WHEN CAN A CONTRACTING AUTHORITY ANNUL A PROCUREMENT
+PROCEDURE?
+8.1.
+
+Justified need. The contracting authority shall have the right, where justified, to annul the
+procurement procedure. An example of a justified need on the part of the contracting authority is if:
+
+5
+
+8.1.1.
+8.1.2.
+8.1.3.
+8.2.
+
+Whereas the contracting authority needs to make substantial changes to the subject-matter
+of the contract;
+Whereas the conditions on which the procurement procedure was based have changed
+significantly and it is therefore unnecessary or impossible to award the contract;
+inconsistencies have emerged which cannot be eliminated and therefore the proceedings
+cannot be legally concluded.
+The process of invalidating the procurement procedure. The contracting authority shall annul the
+procurement procedure by means of a written decision. The decision must state the reasons on which
+it is based.
+
+9. WHICH TENDER WINS?
+9.1.
+
+Evaluation. The contracting authority evaluates tenders in the 100-value point system.
+
+9.2.
+
+Successful tender. The most economically advantageous tender will be declared successful on the
+basis of the evaluation criteria set out in the procurement documents. The contracting authority does
+not have to declare a tender successful if it has not achieved at least 50% of the points in the quality
+criteria.
+
+9.3.
+
+Evaluation committee. The contracting authority shall form a procurement committee for the
+evaluation of tenders, which shall include experts in the field and who shall collectively evaluate the
+tenders declared compliant. The members of the evaluation committee shall proceed from the
+principles described in the evaluation methodology and present the reasoned results of the evaluation
+in a collective protocol signed by all members of the evaluation committee.
+
+9.4.
+
+Evaluation criteria. The evaluation will be carried out on the basis of the following evaluation criteria:
+
+Award criteria for parts 1 and 2
+No
+
+Criterion
+
+Criterion evaluation methodology
+
+Share
+
+In the evaluation of parts 1 and 2, 30 points are awarded to
+the lowest hourly rate. Subsequent tenders will receive
+proportionally fewer points and will be calculated
+according to the formula indicated in the Register. The
+tenderer is prohibited from providing misleading or zeropriced values.
+
+1.
+
+Price per working hour
+excluding VAT
+
+2.
+
+Team competence
+
+The methodology for assessing the competence of the
+45
+tenderer's team is described in clause 9.5 of this document.
+
+3.
+
+Vision of cooperation
+
+The methodology for evaluating the tenderer's vision of
+cooperation is described in section 9.5 of this document.
+
+The contracting authority stipulates that if the price of one
+working hour is less than 50 EUR/h + VAT, then 30 points
+will be awarded to the tenderer. This means that
+submitting a price of less than 50 EUR/h for one working
+hour will not be given an advantage in the evaluation of
+the tenderer.
+
+30
+
+25
+
+Total: 100
+Part 3 Evaluation Criteria
+No
+
+Criterion
+
+Criterion evaluation methodology
+
+Share
+
+1.
+
+Team
+competence
+
+The methodology for assessing the professional competence of
+the tenderer is described in section 9.5 of this document.
+
+60
+
+2.
+
+Vision of
+cooperation
+
+The methodology for evaluating the tenderer's vision of
+cooperation is described in section 9.5 of this document.
+
+40
+Total: 100
+
+6
+
+9.5.
+
+Criterion evaluation methodology. In quality evaluation, grade points are awarded by the evaluation
+committee by consensus according to the evaluation shares and methodologies of the criteria listed
+below. The results of the points given to the sub-criteria are summed up and the points assigned to
+the quality criteria are obtained. The tenderer will be awarded higher points only if all the prerequisites
+for higher points are met:
+
+Part 1 of the evaluation methodology in the criterion "Team competence"
+Sub-criterion/points
+Sub-criterion of the
+certificate set for the project
+manager
+
+5
+The project manager holds at least one international project
+management certification, such as Prince2, PMP, or
+equivalent
+
+Sub-criterion of the
+certificate set for the
+consultant
+
+The consultant holds at least one international certificate
+demonstrating competence in the field, such as CISM, ISO
+27001 Lead Implementer, CISSP, TOGAF/GDSA, ITU/NATO
+Cyber Policy Cert or other equivalent
+The consultant has previous experience in six projects
+carried out internationally, the content of which was the
+creation and implementation of a cybersecurity solution.
+Projects must have been completed within the last five
+years. The consultant's time contribution in each project
+must be a minimum of 150 hours.
+15
+10
+The Consultant has carried
+The consultant has carried
+out at least 15 international
+out 10-14 international
+projects, the essence of
+projects, the essence of
+which is the provision of a
+which is the provision of a
+service similar to the object
+service similar to the object
+of the contract indicated in
+of the contract indicated in
+Part 1.
+Part 1.
+The consultant has more
+The consultant has more
+than 10 years (120 months) of
+than 7 years (84 months) of
+experience in creating and
+experience in creating and
+implementing cybersecurity
+implementing
+solutions.
+cybersecurity solutions.
+
+The consultant's previous
+experience in creating and
+implementing a
+cybersecurity solution in
+projects
+Sub-criterion/points
+Consultant's international
+projects
+
+Consultant's work
+experience
+
+0
+Does not meet
+the conditions
+for receiving 5
+points.
+Does not meet
+the conditions
+for receiving 5
+points.
+Does not meet
+the conditions
+for receiving 5
+points.
+
+0
+Does not meet
+the conditions
+for receiving 10
+points.
+
+Does not meet
+the conditions
+for receiving 10
+points.
+
+Part 2 of the assessment methodology in the criterion "Team competence"
+Sub-criterion/points
+Sub-criterion of the
+certificate set for the project
+manager
+
+5
+The project manager holds at least one international
+project management certification, such as Prince2, PMP, or
+equivalent
+
+Sub-criterion of the
+certificate set for the
+consultant
+
+The consultant holds at least one international certificate
+demonstrating competence in the field, such as CISM, ISO
+27001 Lead Implementer, CISSP, TOGAF/GDSA, ITU/NATO
+Cyber Policy Cert or other equivalent
+A cybersecurity expert holds at least one international
+certificate demonstrating competence in the field, such as
+CISM, ISO 27001 Lead Implementer, CISSP, TOGAF/GDSA,
+ITU/NATO Cyber Policy Cert, or other equivalent
+The consultant has previous experience in three projects
+carried out internationally, the content of which was the
+creation and implementation of a cybersecurity solution.
+Projects must have been completed within the last five
+years. The consultant's time contribution in each project
+must be a minimum of 150 hours.
+15
+10
+The Consultant has carried
+The consultant has carried
+out at least 15 international
+out 10-14 international
+projects, the essence of
+projects, the essence of
+which is the provision of a
+which is the provision of a
+service similar to the object
+service similar to the object
+
+Sub-criterion of the
+certificate set for cyber
+security experts
+The consultant's previous
+experience in creating and
+implementing a
+cybersecurity solution in
+projects
+Sub-criterion/points
+Consultant's international
+projects
+
+7
+
+0
+Does not meet
+the conditions
+for receiving 5
+points.
+Does not meet
+the conditions
+for receiving 5
+points.
+Does not meet
+the conditions
+for receiving 5
+points.
+Does not meet
+the conditions
+for receiving 5
+points.
+0
+Does not meet
+the conditions
+for receiving 10
+points.
+
+Sub-criterion/points
+Consultant's work
+experience
+
+of the contract indicated in
+Part 2.
+10
+The consultant has more
+than 10 years (120 months) of
+experience in creating and
+implementing cybersecurity
+solutions.
+
+of the contract indicated in
+Part 2.
+5
+The consultant has more
+than 7 years (84 months) of
+experience in creating and
+implementing
+cybersecurity solutions.
+
+0
+Does not meet
+the conditions
+for receiving 5
+points.
+
+Part 3 of the assessment methodology in the criterion "Team competence"
+Sub-criterion/points
+Sub-criterion of the certificate
+set for the project manager
+Sub-criterion of the certificate
+set for the architect
+
+Sub-criterion of the certificate
+set for the system
+administrator
+
+Architect's previous experience
+in ICT infrastructure
+implementation projects
+
+Sub-criterion/points
+Architect's work experience
+
+System administrator
+experience
+
+10
+The project manager holds at least one
+international project management certification,
+such as Prince2, PMP, or equivalent
+The architect has at least one international
+certificate demonstrating competence in the field,
+for example, at least one international project
+management certificate, e.g. TOGAF, CCNP
+Enterprise; COBIT/ITIL v4 or equivalent
+The system administrator holds at least one
+international certificate demonstrating
+competence in the field, such as Security+, CySA+,
+MCSA/RHCSA; CCNP Security / CCNA CyberOps or
+equivalent
+The architect has previous experience in six projects
+that involved the implementation of ICT
+infrastructure. Projects must have been completed
+within the last five years. The architect's time input
+in each project must be at least 150 hours.
+10
+5
+The architect has more
+The architect has more
+than 10 years (120
+than 7 years (84
+months) of work
+months) of work
+experience in the
+experience in the
+implementation of ICT
+implementation of ICT
+infrastructure.
+infrastructure.
+The System Administrator The System
+has more than 10 years
+Administrator has
+(120 months) of
+more than 7 years (84
+experience as an ICT
+months) of experience
+Solutions System
+as an ICT Solutions
+Administrator.
+System Administrator.
+
+0
+Does not meet the
+conditions for
+receiving 10 points.
+Does not meet the
+conditions for
+receiving 10 points.
+Does not meet the
+conditions for
+receiving 10 points.
+
+Does not meet the
+conditions for
+receiving 10 points.
+
+0
+Does not meet the
+conditions for
+receiving 5 points.
+
+Does not meet the
+conditions for
+receiving 5 points.
+
+Parts 1 and 2 of the evaluation methodology in the criterion "Vision of cooperation"
+Subcriterion/points
+Vision of
+cooperation
+
+25
+
+15
+
+0
+
+The tenderer has a clear idea of the
+prospective cooperation with the
+contracting authority, project partners and
+other related parties, and its possible forms.
+The tenderer's vision of cooperation
+corresponds to the needs of the
+contracting authority and the nature of the
+work. The wishes of the contracting
+authority and the project partners
+regarding what is guaranteed in the course
+of the work are justified and realistic. The
+tenderer has provided for its own form of
+cooperation, which adds value to the
+expectations of the contracting authority.
+For example, the tenderer's project
+management methodologies, compliance
+with international standards, procedures
+
+The tenderer has an
+idea of cooperation
+with the contracting
+authority, project
+partners and other
+related parties. There
+are minor
+deficiencies,
+inaccuracies and
+questions in the
+description.
+
+There are a number
+of (more than 3)
+significant
+deficiencies and/or
+inaccuracies in the
+tender, and doubts
+arise as to whether
+the tenderer is able
+to cooperate with
+the contracting
+authority, project
+partners and other
+related parties in the
+course of the work.
+
+8
+
+applied in the company that ensure the upto-date implementation of the ordered
+works, the solutions used by the tenderer to
+ensure security of supply, the tenderer's
+ability to operate in different countries, the
+organisation of data protection in the
+company, the involvement of partners in
+the implementation of projects on site, etc.,
+are described.
+Part 3 of the evaluation methodology in the criterion "Vision of cooperation"
+Subcriterion/points
+Quality
+
+9.6.
+
+40
+
+20
+
+0
+
+The tenderer has a clear idea of the
+prospective cooperation with the
+contracting authority, project partners and
+other related parties, and its possible forms.
+The tenderer's vision of cooperation
+corresponds to the needs of the contracting
+authority and the nature of the work. The
+wishes of the contracting authority and the
+project partners regarding what is
+guaranteed in the course of the work are
+justified and realistic. The tenderer has
+provided for its own form of cooperation,
+which adds value to the expectations of the
+contracting authority. For example, the
+tenderer's project management
+methodologies, compliance with
+international standards, procedures applied
+in the company that ensure the up-to-date
+implementation of the ordered works, the
+solutions used by the tenderer to ensure
+security of supply, the tenderer's ability to
+operate in different countries, the
+organisation of data protection in the
+company, the involvement of partners in the
+implementation of projects on site, etc., are
+described.
+
+The tenderer has an
+idea of cooperation
+with the contracting
+authority, project
+partners and other
+related parties. There
+are minor
+shortcomings,
+inaccuracies and
+questions in the
+description.
+
+There are a number
+of (more than 3)
+significant
+deficiencies and/or
+inaccuracies in the
+tender, and doubts
+arise as to whether
+the tenderer is able
+to cooperate with
+the contracting
+authority, project
+partners and other
+related parties in the
+course of the work.
+
+Equal tenders. If the tenders that have received the most value points are equal in terms of the
+number of value points, the successful tender will be selected first on the basis of the points received
+for the team's competence and then on the basis of the points received for the cooperation vision. If
+they also overlap in lots 1-2, the successful tender will be determined by drawing lots. In the case of
+part 3, we immediately move on to casting lots. The contracting authority determines the procedure,
+time and place of the drawing of lots. On behalf of the tenderer, the tenderer's statutory or authorised
+representative shall participate in the drawing of lots.
+
+10.
+10.1.
+
+HOW IS THE CONTRACT CONCLUDED?
+
+Signing of the contract. The contract shall be entered into with the successful tenderer in the quantity
+specified in the relevant part. The contract is concluded on the terms and conditions specified in the
+draft contract.
+(Draft is in the procurement documents)
+
+10.2.
+
+Signing the contract. The contract will be signed digitally. The tenderer must sign the contract and
+return it signed by the tenderer to the contracting authority within 5 working days. In the case of an
+external tenderer, e-signing is preferable if digital signing is not possible.
+
+10.3.
+
+Signing a contract in any other form. If it is not possible to sign the contract digitally, the contracting
+authority shall send two copies of the contract signed by the contracting authority to the tenderer
+who submitted the successful tender. The contract is deemed to have been received upon receipt of
+the registered letter. The tenderer who submitted a tender that has been declared successful must
+return one signed copy of the contract to the contracting authority within 10 calendar days from the
+9
+
+date of receipt of the contract. If necessary, the contracting authority may extend the deadline for the
+return of the contract.
+10.4.
+
+ATTENTION! If the successful tenderer fails to meet the deadline for signature and does not return the
+contract signed by it within the time limit, the contracting authority has the right to consider the
+tender withdrawn and to start evaluating all the remaining tenders. In addition, the contracting
+authority has the right to claim damages from a tenderer who has not complied with the signing
+requirement. The contracting authority shall have the same right where the successful tenderer fails
+to perform the contract concluded by giving consent within the time limit set for reasons attributable
+to it.
+(PPA § 119)
+
+11. HOW IS THE EXCHANGE OF INFORMATION ORGANISED?
+IF AN ECONOMIC OPERATOR WANTS
+ADDITIONAL INFORMATION:
+
+IF THE CONTRACTING AUTHORITY WANTS
+MORE INFORMATION:
+
+11.1. Explanations on the content of the contract
+notice and the procurement documents can
+be obtained by contacting the contracting
+authority in writing through the public
+procurement register. The request can be
+made in the communication worksheet.
+
+11.4. The contracting authority may request
+additional documents from the tenderer.
+The purpose of such a request is to verify
+the absence of grounds for exclusion as to
+the suitability of the qualification or the
+tender. The vendor submits the request via
+the Register communication page.
+
+11.2. The contracting authority shall reply to the
+questions within 3 working days of the
+request for clarification. The answers will be
+added to the public procurement register's
+communication worksheet.
+
+11.1. Depending on the content of the question,
+the deadline for replying is 3 or 5 working
+days.
+(PPA § 46 (4), § 104 (9), § 115 (1))
+
+11.2. The contracting authority may extend the
+time limit set for reply, either on its own
+initiative or on the basis of a reasoned
+application by the tenderer.
+
+11.3. ATTENTION! It is important to submit the
+request for clarification on time, i.e. at least 6
+working days before the deadline for
+submitting tenders. If the request for
+clarification is received later, the contracting
+authority is not obliged by law to respond to
+the request.
+
+(PPA § 104 (10))
+
+(PPA § 46 (2))
+
+10
+
+

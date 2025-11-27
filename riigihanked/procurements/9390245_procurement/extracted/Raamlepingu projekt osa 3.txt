@@ -1,0 +1,559 @@
+Raamleping nr.....
+SA Eesti Rahvusvahelise Arengukoostöö Keskus (edaspidi tellija), registrikood
+90015347, Tatari tn 1, 10116 Tallinn, keda esindab põhikirja alusel juhatuse liige Klen Jäärats
+ja
+_______, (edaspidi täitja 1), registrikood_____, aadress____, keda esindab _______
+_______, (edaspidi täitja 2), registrikood_____, aadress____, keda esindab _______
+_______, (edaspidi täitja 3), registrikood_____, aadress____, keda esindab _______
+Sisestatakse kõik täitjad
+edaspidi nimetatud ka eraldi pool või koos pooled, sõlmisid raamlepingu (edaspidi
+nimetatud raamleping ning koos hankelepinguga ka leping) alljärgnevas:
+1. Raamlepingu eesmärk ja ese
+1.1. Tellija poolt korraldatud riigihanke „Info- ja küberturvalisuse alased asjad ja
+teenused“ (riigihanke viitenumber 301036) osa 3 alusel sõlmitud raamlepingu
+eesmärk on kokku leppida, kuidas toimub raamlepingu kehtivuse ajal raamlepingu
+esemeks olevate asjade tellimiseks hankelepingute sõlmimine tellija ning raamlepingu
+partnerite vahel.
+1.2. Lepingu esemeks on IT ja küberturvalisuse infrastruktuuri komponendid,
+paigaldamine ja seadistamine (edaspidi asi), mida täitja kohustub tellijale müüma
+vastavalt raamlepingus ja raamlepingu lisades toodud tingimustele. Raamlepingu
+eseme täpsem kirjeldus ja esemele esitatavad nõuded on toodud tehnilises kirjelduses
+ja täitja pakkumuses.
+1.3. Raamleping ei kohusta tellijat asju tellima, st hankelepingut sõlmima.
+1.4. Raamleping kehtib 48 kuud või kuni kohustuste täitmiseni või raamlepingu
+lõpetamiseni või raamlepingu mahu täitumisel.
+1.5. Raamlepingut võidakse rahastada lisaks riigieelarvele ka välisvahenditest (s.o hankija
+eelarve välised finanstvahendid).
+2. Üldtingimused
+2.1. Raamlepingu juurde kuuluvateks lahutamatuteks osadeks loetakse kõik lisad ja
+riigihanke alusdokumendid ning täitja riigihankes esitatud pakkumus ja
+pooltevahelised kirjalikud teated, mida raamlepingu lisadena eraldi ei allkirjastata.
+2.2. Asjade tellimine ja nende sisu lepitakse kokku raamlepingu alusel korraldatud
+minikonkursi käigus ja hankelepingus.
+2.3. Kui hankelepingu tingimus erineb raamlepingu tingimusest, loetakse ülimuslikuks
+hankelepingu tingimus. Kui lepingu lisades esinevad tingimused erinevad lepingu
+tingimustest, loetakse ülimuslikuks lepingu tingimus.
+2.4. Raamlepingu täitmise käigus võib kokku leppida täiendavaid tingimusi, kui need on
+vajalikud rahastamise tingimustest rakendamisest tulenevate nõuete täitmiseks.
+2.5. Kui hankelepingu alusel tellitavate asjade rahastamisega seonduvad täiendavad
+tingimused, on täitjal kohustus järgida hankelepingus teatavaks tehtud
+
+1
+
+finantsvahendite kasutamisest tulenevaid nõudeid, sh kasutada programmi
+tingimustes nõutud sümboolikat.
+2.6. Pooled teevad lepingu täitmiseks ja nende eesmärkide saavutamiseks koostööd.
+Pooled kohustuvad tegema kõik vajalikud pingutused, et täita hankeleping õigeaegselt
+ja vastavalt kokkulepetele.
+2.7. Tehnilises kirjelduses toodud ostetavate asjade kogused on indikatiivsed ja ei ole
+tellijale siduvad.
+2.8. Lepinguga kohustub täitja tarnima tellijale asjad vastavalt hankelepingule. Täitja
+kinnitab, et ta on lepingu esemeks olevate toodete edasimüüja ja hankelepingu
+täitmisega ei kahjustata kolmandate isikute õigusi ja huve ning puuduvad mistahes
+asjaolud, mis välistaksid tema õigusi leping sõlmida.
+2.9. Hankelepingu allkirjastamisega kinnitab täitja võimekust tarnida tähtaegselt
+tellitavate asjade kogused vastavate tellimuste saamisel.
+2.10.
+Lepingu täitmise keel on eesti ja inglise keel, muuhulgas on need ka
+hankelepingute sõlmimise, töökoosolekute jm suhtluse ning tööde dokumenteerimise
+keel. Pooled võivad kokku leppida vajaduses täita lepingut muudes keeltes, kuid
+tagatud peab olema inglise keelt valdav projektijuht ning eesti keeles suhtlemise ja
+dokumenteerimise võimekus (sobib ka tõlgi abil).
+2.11.Asja üleandmise hetkest tekib tellijal asja kasutusõigus lepingus sätestatud
+tingimustel.
+3. Poolte õigused ja kohustused
+3.1. Täitja kohustub:
+3.1.1. müüma asjad hankelepingus kokkulepitud tingimustel;
+3.1.2. tegema koostööd kolmandate osapooltega pidades silmas tellija vajadusi (nt
+äritellijaga jne);
+3.1.3. teavitama viivitamatult tellijat asja soetamist takistavatest asjaoludest, mis
+segavad hankelepingu nõuetekohast täitmist;
+3.1.4. tarnima märgitud sihtriiki asjad vastavalt hankelepingus sätestatule;
+3.1.5. paigaldama asjad vastavalt hankelepingus sätestatule;
+3.1.6. viivitamata teavitama tellijat täitja vastu suunatud küberintsidendist ning
+esitama täitja nõudmisel tellijale küberintsidendi raporti;
+3.1.7. teavitama kirjalikku taasesitamist võimaldavas vormis oma mistahes huvist,
+mis võib põhjustada lepingu täitmisel huvide konflikti tekkimist.
+3.2. Täitjal on õigus:
+3.2.1. saada asjade müümise eest hankelepingus kokkulepitud ulatuses ja korras tasu;
+3.2.2. kasutada lepingu täitmisel alltöövõtjaid, kooskõlastades selle eelnevalt
+kirjalikult tellijaga. Alltöövõtjate tegevuse ja tegevusetuse eest vastutab tellija ees
+täitja;
+3.2.3. anda arve esitamise õiguse üle kolmandale isikule lepingu muudatust
+sõlmimata, kui ta on tellijale esitanud sellekohase teate.
+3.3. Tellija kohustub:
+3.3.1. tasuma vastu võetud asjade eest kokkulepitud ulatuses ja korras;
+3.4. Tellijal on õigus:
+3.4.1. kontrollida igal ajal lepingu täitmist ja anda täitjale selleks kohustuslikke
+suuniseid;
+
+2
+
+3.4.2. keelduda osaliselt või täielikult tasu maksmisest, kui täitja ei täitnud
+nõuetekohaselt lepingut kokku lepitud tingimustel ja täitja poolne rikkumine ei
+ole objektiivselt põhjendatud;
+3.4.3. kaasata lepingu täitmiseks teisi riigiasutusi informatsiooni andmisel, maksja ja/
+või asja kvaliteedi kontrollija rollis. Kolmanda osapoole kaasamine tellija poolt ei
+ole käsitletav raamlepingu muutmisena riigihangete seaduse mõttes.
+4. Hankelepingute sõlmimine
+Kohaldatakse juhul, kui raamleping sõlmitakse mitme partneriga:
+4.1. Asjade ostmise aluseks on sõlmitud hankeleping.
+4.2. Tellija korraldab minikonkursse vastavalt tegelikule vajadusele ning raamlepingu
+partnerid peavad olema valmis võimalike ajaliste pauside tekkimiseks asjade tellimise
+vahel.
+4.3. Lepingu sõlmimiseks esitab tellija raamlepingu partneritele kirjalikku taasesitamist
+võimaldavas vormis ettepaneku pakkumuse esitamiseks (korraldab minikonkursi) ja
+annab mõistliku aja pakkumuse esitamiseks, arvestades asja tehnilist keerukust ja
+pakkumuse esitamiseks vajalikku aega.
+4.4. Sõlmitava hankelepingu tehnilises kirjelduses määrab tellija hanke eseme ja tehnilise
+spetsifikatsiooni, tarne aja ja asukoha, jm olulised tingimused. Sealjuures võib tellija
+määrata kohustuslikuna sihtriigi kohaliku partneri kaasamist lepingu täitmisel.
+Hankijal on õigus küsida ka edasimüügi õigust tõendavaid dokumente.
+4.5. Minikonkursi läbiviimisel valib tellija üksnes asjade ostmisel majanduslikult
+soodsaima pakkumuse madalaima kogumaksumuse alusel.
+4.6. Teenuste või koos teenusega asjade ostmiseks läbi viidaval minikonkursil valib tellija
+majanduslikult soodsaima pakkumuse järgmiselt:
+4.6.1. „teenuse osutamise kogumaksumus“, „teenuse kuumaksumus“ või „ühe
+töötunni maksumus“ (sõltuvalt tellitava teenuse metoodikast) osakaal
+vahemikus: 30 – 40%;
+4.6.2. „kvaliteedikriteerium“: planeeritava/ tellitava teenusega seotud ülesanne,
+näiteks teenuse osutamise kavand, meeskonna täiendav kogemus, kohalike
+kaasamine, hooldus- ja garantiitingimused, tarneaeg jms vahemikus: 60 - 70%.
+4.7. Minikonkursi tingimustes sätestatakse, kui mitme täitjaga sõlmitakse hankeleping.
+4.8. Tellijal on õigus küsida vajadusel täiendavaid kinnitusi ja andmeid asja ostmiseks
+vajalike eelduste olemasolu kohta.
+4.9. Pakkumuse esitamisel tuleb järgida kõiki minikonkursi nõudeid ja tingimusi.
+4.10.
+Tellija avab pakkumused pärast minikonkursi kutses määratud tähtaega.
+4.10.1. Tellija kontrollib pakkumuste vastavust ja hindab kõiki nõuetele vastavaid
+pakkumusi, milles ei esine sisulisi kõrvalekaldumisi minikonkursi tingimustest.
+Tellija ei hinda pakkumusi, mis ei vasta minikonkursi tingimustele. Seejärel
+kontrollib tellija eduka pakkuja kvalifitseerimistingimustele vastamist ning
+teostab kõrvaldamise aluste kontrolli.
+4.10.2. Tellija võib pakkumusi hinnata enne pakkumuste vastavuse või pakkujate
+suhtes kõrvaldamise aluste puudumise ja kvalifitseerimistingimustele vastamise
+kontrollimist. Sellisel juhul kontrollib tellija pakkumuse vastavust, pakkuja
+kvalifitseerimistingimustele vastamist ja kõrvaldamise aluste puudumist vaid
+edukal pakkujal. Kui eduka pakkuja pakkumus osutub kontrollimise tulemusena
+mittevastavaks, pakkuja ei täida kvalifitseerimistingimusi või pakkuja
+3
+
+kõrvaldatakse menetlusest, on tellijal õigus tunnistada edukaks hindamise
+tulemusena paremusjärjestuses järgmine pakkuja ning teostada kirjeldatud
+kontrollid tema osas.
+4.11.
+Kui pakkumus ei vasta minikonkursi tingimustele, lükatakse see tagasi.
+4.12.
+Tellijal on õigus enne hankelepingu sõlmimist tunnistada minikonkurss omal
+algatusel põhjendatud vajadusel kehtetuks, teavitades sellest raamlepingu partnereid.
+4.13.
+Tellijal on õigus pakkumus tagasi lükata ja otsustada hankelepingut mitte
+sõlmida või vastavalt raamlepingule minikonkurss kehtetuks tunnistada, kui:
+4.13.1. pakkumus(ed) ei vasta tingimustele;
+4.13.2. pakkumus(ed) ületavad eeldatavat maksumust;
+4.13.3. tellija ei saa välisvahenditega seotud hankelepingu sõlmimiseks heakskiitu
+lõplikule taotlusele.
+4.14.
+Kui minikonkursile ei laeku ühtki pakkumust või ükski pakkumus ei osutu
+edukaks (sh tekib olukord, kus pakkuja ei läbi taustakontrolli), siis on tellijal õigus teha
+pakkumine sama hanke esemega otselepingu sõlmimiseks. Hankijal on lubatud
+vastavalt minikonkursi nurjumise põhjustele teha muudatusi hankelepingu kestvuses,
+sh tähtaegades, ja mahus. Hankelepingu eset ehk skoopi muuta lubatav ei ole.
+Otsepakkumise võib teha järgmises järjekorras:
+4.14.1. Esmalt teha pakkumine hankelepingu sõlmimiseks raamlepingu sõlmimisel
+enim hindepunkte teeninud täitjaga;
+4.14.2. Seejärel võib pakkumised teha hankelepingu sõlmimiseks vastavalt hindamise
+järjestusele järgmistele täitjatele.
+4.15.
+Tellija sõlmib hankelepingu asja ostmiseks vastavalt minikonkursi tingimustele
+ning teavitab minikonkursi tulemusest raamlepingu partnereid. Täitja kohustub
+hankelepingu allkirjastama hiljemalt 3 tööpäeva jooksul hankelepingu
+allkirjastamiseks saatmisest.
+Kohaldatakse juhul, kui raamleping sõlmitakse ühe pakkujaga:
+4.16.
+Kui raamleping on sõlmitud hankemenetluse tulemusel ühe pakkujaga,
+minikonkursse läbi ei viida.
+4.17.
+Asja ostmise aluseks on sõlmitud hankeleping. Hankelepinguks loetakse ka
+tellimust, mis ei ole hankelepingu vormil sõlmitud. Pakkumusena käsitletakse selles
+alapunktis pakkumuse täiendamist RHS § 30 lg 3 tähenduses.
+4.18.
+Tellimuste esitamiseks ja hankelepingu sõlmimiseks on tellijal õigus pöörduda
+otse täitja poole, esitades hankelepingu sõlmimise tingimused. Sealjuures võib tellija
+määrata kohustuslikuna sihtriigi kohaliku partneri kaasamist lepingu täitmisel.
+4.19.
+Tellija sõlmib hankelepinguid vastavalt tegelikule vajadusele ning täitja peab
+olema valmis võimalike ajaliste pauside tekkimiseks hankelepingu sõlmimiste
+vahepealsel ajal.
+4.20.
+Asja ostmine toimub tellimuses fikseeritud tehnilise kirjelduse alusel, milles on
+määratud hankelepingu ese ja tehniline spetsifikatsioon jm olulised tingimused.
+4.21.
+Asja tellimiseks esitab tellija täitjale kirjalikku taasesitamist võimaldavas
+vormis tellimuse. Tellimus on täitjale esitatav kirjalik pöördumine asjade ostmiseks,
+kas tellimuskirjana, mille järel sõlmitakse vajadusel hankeleping kindlal vormil.
+4.22.
+Tellija annab mõistliku aja pakkumuse esitamiseks, arvestades asja tehnilist
+keerukust ja pakkumuse esitamiseks vajalikku aega. Pakkumuse esitamisel tuleb
+järgida kõiki tellimuses esitatud nõudeid.
+4.23.
+Kui pakkumus ei vasta tellimuse tingimustele, lükatakse see tagasi.
+
+4
+
+4.24.
+Tellijal on õigus hankelepingu pakkumus tagasi lükata ja otsustada
+hankelepingut mitte sõlmida või vastavalt raamlepingule esitatud tellimus kehtetuks
+tunnistada, kui:
+4.24.1. pakkumus ei vasta tingimustele;
+4.24.2. ületab eeldatavat maksumust või;
+4.24.3. tellija ei saa välisvahenditega seotud hankelepingu sõlmimiseks heakskiitu
+täistaotlusele.
+4.25.
+Asja ostmiseks sõlmitakse vajadusel hankeleping vastavalt tellimuse
+tingimustele. Hankeleping mahuga alates 20 000 eurot käibemaksuta sõlmitakse alati
+hankelepingu vormil ja allkirjastatakse poolte poolt. Täitja kohustub hankelepingu
+allkirjastama hiljemalt 3 tööpäeva jooksul hankelepingu allkirjastamiseks saatmisest.
+5. Hankelepingu täitmine
+5.1. Täitja annab tellijale üle asja, mille kvaliteet, kogus ja omadused vastavad hanke
+alusdokumentides, tehnilises kirjelduses, tellimuses ja pakkumuses sätestatule.
+5.2. Asi peab vastama hanke alusdokumentides esitatud tehnilistele nõuetele ja täitjal
+peavad olema intellektuaalse omandi õigused lepingu täitmiseks.
+5.3. Täitja tarnib asja tellijale hankelepingus määratud tähtajaks ja asukohta, mis lepitakse
+kokku hankelepingus.
+5.4. Asi antakse üle täitja poolt allkirjastatud üleandmise ja vastuvõtmise aktiga (edaspidi
+akt), asja vastuvõtmiseks allkirjastab tellija akti omalt poolt, kui tellijal puuduvad
+pretensioonid üle antud asja osas. Akt tuleb allkirjastada mõistliku aja jooksul.
+5.5. Aktiga üle antava asjaga koos annab täitja tellijale üle kõik toote omandiõigused
+vastavalt lepingus sätestatule.
+5.6. Kui üle antud asi ei vasta hankelepingus kokku lepitud tingimustele, on tellijal õigus
+asja vastuvõtmisest keelduda ja anda täitjale täiendav tähtaeg hankelepingu
+nõuetekohaseks täitmiseks.
+5.7. Asjade omandiõigus ja juhusliku hävimise ning kahjustumise riisiko läheb täitjalt
+tellijale üle üleandmise-vastuvõtmise akti mõlemapoolsel allkirjastamisel.
+6. Raamlepingu hind
+6.1. Tellija tasub täitjale asja eest vastavalt minikonkursil esitatud pakkumusele.
+6.2. Raamlepingu maht on maksimaalselt xx.xx (summa sõnadega) eurot
+käibemaksuta, mis summeeritakse kõikide täitjatega sõlmitud hankelepingute alusel.
+6.3. Tellija tasub töö eest töövõtjale vastavalt esitatud arvetele, mis on kooskõlas koostatud
+ja mõlemapoolselt allkirjastatud aktiga.
+6.4. Töövõtja esitab tellijale Eesti e-arve standardile vastavad e-arved. E-arve tuleb esitada
+tellija e-arve operaatori (AS Fitek) ostuarvete halduskeskkonda. E-arves peab lisaks
+standardis nimetatud andmetele olema toodud ka tellija kontaktisiku ees- ja
+perekonnanimi, lepingu number, lepinguosa viitenumber ja riigihanke viitenumber.
+6.5. Töövõtja poolt esitatavad arved peavad selgelt ja üheselt viitama hanke- ja
+raamlepingule,
+vastama
+üleandmise-vastuvõtmise
+aktis
+sätestatule
+ja
+käibemaksuseaduse nõuetele. Käesolevas punktis esitatud tingimustele mittevastav
+arve ei kuulu tasumisele.
+6.6. Tellija tasub esitatud arved 14 kalendripäeva jooksul nõuetekohase arve saamisest
+arvates. Arvel märgitud summa laekumise kohaks on töövõtja poolt arvel märgitud
+arveldusarve number.
+
+5
+
+6.7. Arve tasumise kuupäevaks loetakse vastava maksekorralduse riigikassale esitamise
+kuupäev.
+7. Intellektuaalne omand
+7.1. Intellektuaalse omandi õigused lepingu alusel osutatud teenuse (näiteks
+koolitusmaterjalid vm tellijale loodu) tulemitele kuuluvad tellijale käesolevas lepingus
+sätestatud tingimustel. Tasu autoriõiguste üleandmise ja litsentsimise eest sisaldub
+lepingu tasus.
+7.2. Tellijale kuuluvad teenuse tulemite osas kõik autori varalised õigused ja ainulitsents,
+kaasa arvatud õigus lepingu täitmisel täitja poolt koostatud dokumente
+reprodutseerida, töödelda, levitada ja üldsusele kättesaadavaks teha mistahes vormis
+ja kandjal, ilma geograafiliste piiranguteta ning tähtajatult. Varalised õigused ja
+ainulitsents
+loetakse
+tellijale
+üleläinuks
+üleandmise-vastuvõtmise
+akti
+allkirjastamisega poolte poolt.
+7.3. Tellijal on õigus lepingu alusel väljatöötatut vabalt kasutada, sh õigus anda lepingu
+alusel loodut kolmandatele isikutele kasutamiseks.
+7.4. Käesoleva peatüki sätteid on õigus hankelepingu raames muuta või täpsustada,
+teavitades sellest täitjaid minikonkursi raames.
+8. Garantii
+8.1. Täitja annab hankelepingu alusel soetatud asjadele garantii vähemalt tehnilises
+kirjelduses märgitud ajaks. Garantii hakkab kehtima hetkest, millal asi antakse üle
+täitjale ja võetakse vastu aktiga.
+8.2. Garantiiga on hõlmatud kõik garantii tähtaja jooksul asjal ilmnevad vead ja
+mittevastavused, mis ei ole tekkinud tellija või kolmandate osapoolte tegevuse
+tagajärjel.
+8.3. Täitja kõrvaldab on-site garantii kehtivuse ajal asjal avaldunud vead ja
+mittevastavused tasuta, sealhulgas uuendab või asendab kõik seonduvad dokumendid.
+8.4. Täitja on kohustatud garantii korras teostama eelkõige järgmist:
+8.4.1. vea ilmnemisel vea otsimine, lokaliseerimine, veaolukorrale lahenduse leidmine
+ja vea parandamine;
+8.4.2. vea põhjuste analüüs ja ettepanekute tegemine ennetavate meetmete kasutusele
+võtuks kirjalikku taasesitamist võimaldavas vormis;
+8.4.3. vea parandamisega seoses paigaldamise ja seadistamise tugi ning sellega seotud
+konsultatsioonid.
+8.5. Tellija määrab võimalusel, milline on vea kriitilisuse aste või kas tegemist on muu
+garantiikohustusega hõlmatud puudusega ning võib määrata vea kõrvaldamiseks
+tähtaja, lähtudes hankelepingus fikseeritud vigade kriitilisuse astmetest.
+8.6. Kui täitja tõendab, et kõrvaldatud viga ei olnud garantiiga hõlmatud, hüvitab tellija
+täitja kantud otsesed kulud seoses nimetatud vea kõrvaldamisega. Kulude hüvitamisel
+võetakse aluseks hankelepingus, mille raames asjal on viga ilmnenud, tasutakse
+mõistlik tasu.
+8.7. Tellija tagab täitjale kaasabi garantiikohustuse alla käivate vigade kõrvaldamisel tellija
+võimekuse ja võimaluste piires.
+8.8. Kui täitja ei suuda vigasid kokkulepitud tähtajaks kõrvaldada, võib tellija nimetatud
+ise kõrvaldada või korraldada nende kõrvaldamise kolmanda isiku kaasabil, teavitades
+sellest täitjat. Tellijal on õigus täitjalt nõuda kõigi kulutuste hüvitamist, mis tekkisid
+
+6
+
+seoses eelkirjeldatud viisil vea kõrvaldamisega, kui tegemist oli garantiiga hõlmatud
+veaga.
+9. Konfidentsiaalsuskohustus
+9.1. Pooled kohustuvad mitte avalikustama kolmandatele isikutele lepingu alusel saadud
+konfidentsiaalset informatsiooni, v.a seaduses sätestatud juhtudel.
+9.2. Pooled täidavad kõiki kehtivaid andmekaitsealaseid ja infoturvet puudutavaid
+õigusakte.
+9.3. Pooled edastavad konfidentsiaalset informatsiooni ainult nendele isikutele, kes on
+lepingu täitmisega otseselt seotud ja tagavad, et need isikud on teadlikud ja täidavad
+konfidentsiaalsuse nõuet.
+9.4. Konfidentsiaalse informatsiooni all mõistavad pooled lepingu täitmisel teatavaks
+saanud isikuandmeid ja informatsiooni, millele on kehtestatud juurdepääsupiirang,
+ning muud teavet, mille avalikuks tulek võiks kahjustada poolte huve.
+9.5. Vastutus konfidentsiaalsuskohustuse täitmise eest lasub poolel kõigi isikute eest, kes
+on tema poolt lepingu täitmisele kaasatud.
+9.6. Konfidentsiaalsusnõue kehtib tähtajatult. Tulenevalt konfidentsiaalse informatsiooni
+laadist on tellijal õigus seada täiendavaid nõuded ja/või juhised isikuandmete
+töötlemiseks.
+9.7. Pooled ei avalikusta (sh meedias) enne hankelepingu lõplikku üleandmisevastuvõtmise akti allkirjastamist ilma teise poole kirjaliku nõusolekuta lepingu
+täitmisel loodud või teatavaks saanud informatsiooni.
+9.8. Konfidentsiaalsuskohustus kehtib tähtajatult.
+10. Vastutus
+10.1.
+Pool vastutab oma lepingulise kohustuse rikkumise eest, välja arvatud juhul, kui
+rikkumine on vabandatav vääramatu jõu või muu objektiivse asjaolu tõttu. Nimetatud
+asjaolu esinemist peab tõendama pool, kes sellele tugineda soovib.
+10.2.
+Pool vastutab oma lepingulise kohustuse rikkumise eest, mis tuleneb tema poolt
+hankelepingu täitmisse kaasatud isikute tegevusest.
+10.3.
+Pool ei vastuta lepinguliste kohustuste rikkumise eest, mis tulenes teise poole
+kohustuste rikkumisest või kolmandate isikute tegevusest või tegemata jätmistest. Kui
+tellija viivitab omapoolsete kohustuste täitmisega ja nende kohustuste mittetähtaegne
+täitmine ei võimalda täitjal omapoolseid kohustusi tähtaegselt täita, fikseeritakse asja
+üleandmise tähtaja pikenemine vastava aja võrra. Nimetatud asjaolu esinemist peab
+tõendama pool, kes sellele tugineda soovib.
+10.4.
+Kohustuse rikkumisel on teisel poolel õigus kasutada kõiki seadusest või
+lepingust tulenevaid õiguskaitsevahendeid vastavalt võlaõigusseadusele.
+10.5.
+Poolte rahaline koguvastutus on piiratud raamlepingu kogumaksumusega, kuid
+see piirang ei kehti süülisel rikkumisel, sh süülisel rikkumisel seoses
+intellektuaalomandiõiguse või andmekaitsealaste kohustustega.
+10.6.
+Tasu maksmisega viivitamisel on täitjal õigus nõuda viivist võlaõigusseaduses
+sätestatud määras konkreetse asja eest maksmisele kuuluvast tasust iga tasumisega
+viivitatud kalendripäeva eest. Viivise maksimaalne määr on 25% konkreetse asja eest
+tasumisele kuuluvast kogusummast. Viivise nõue tuleb esitada allkirjastatult.
+10.7.
+Täitja poolse lepinguliste kohustuste rikkumisena käsitletakse eeskätt olukorda,
+kus üle antud asi ei vasta osaliselt või täielikult lepingu tingimustele või esineb muid
+täitja poolseid lepingu rikkumisi.
+7
+
+10.8.
+Kui täitjal rikub lepingulist kohustust, on tellijal õigus nõuda leppetrahvi
+tasumist, mille suuruseks on kuni 200 eurot iga rikkumises oldud kalendripäeva eest,
+kuid mitte rohkem kui 25% hankelepingu kogumaksumusest. Kui asja ostmine on
+kokku lepitud etappide kaupa, siis mitte rohkem kui 25% etapi kogumaksumusest.
+10.9.
+Juhul kui täitja poolsetest viivitustest tingitult ei ole asja kasutuselevõtt enam
+realistlik või vajalik, on tellijal õigus hankelepingust taganeda vastavalt
+võlaõigusseaduse § 116 lõikele 1 ning täitja on kohustatud tegema juba makstud osa
+eest tellijal tagasimakse.
+10.10.
+Lepingu olulise rikkumise korral on tellijal õigus esitada täitjale leppetrahvi
+nõue kuni 10 000 eurot iga rikkumise eest. Täitja poolse olulise hankelepingu
+rikkumise korral ei pea tellija määrama täitja lepingu täitmiseks võlaõigusseaduse §-s
+114 nimetatud täiendavat tähtaega ning tellijal on muu hulgas õigus hankeleping üles
+öelda või hankelepingust taganeda.
+10.11.
+Oluline rikkumine on lisaks võlaõigusseaduses sätestatule mh järgnev:
+10.11.1.mõjuva põhjuseta hankelepingu sõlmimata jätmine või täitmisele mitte
+asumine;
+10.11.2.
+valeinfo esitamine;
+10.11.3.
+hankelepingu täitmiseks vajalike õiguste (sealhulgas load, litsentsid,
+intellektuaalse omandi õigused) puudumine;
+10.11.4.
+intellektuaalse omandi õiguste ja nende kasutamise tingimuste
+rikkumine;
+10.11.5.
+korduv (vähemalt kahel korral) meeskonnaliikme asendamine isikuga,
+kes ei vasta kokku lepitud nõuetele või meeskonnaliikme asendamine ilma osja
+eelneva vähemalt kirjalikku taasesitamist võimaldavas vormis antud nõusolekuta;
+10.11.6.
+konfidentsiaalsuskohustuse rikkumine;
+10.11.7.
+lepingujärgsete kohustuste korduv (vähemalt kahel korral) täitmata
+jätmine;
+10.11.8.
+tähtaegselt asja üle andmata jätmine selliselt, et lepingu eesmärgi
+täitmine ei ole enam tähtaegselt realistik ja/või täitja poolse tegevuse või
+tegevusetuse tõttu ei ole võimalik enam kasutada hankelepingu rahastamiseks
+ettenähtud vahendeid;
+10.11.9.
+lepingujärgsete kohustuste üleandmine kolmandale isikule vastavat
+lepingumuudatust sõlmimata.
+10.12.
+Asja vastuvõtmine tellija poolt ei vabasta ega vähenda täitja vastutust lepingu
+rikkumise eest.
+10.13.
+Kui täitja ei täida lepingut nõuetekohaselt ja selle alusel teeb rakendusasutus
+toetuse vähendamise või tagasinõude otsuse, on tellijal õigus täitjalt tagasi nõuda
+mitteabikõlbulikud kulud tagasimakse nõude ulatuses.
+10.14.
+Leppetrahvi nõude kohustub tellija esitama mõistliku aja jooksul, kuid mitte
+hiljem kui 3 kuu jooksul alates päevast, mil tellija sai teadlikuks leppetrahvi nõude
+aluseks olevast asjaolust. Leppetrahvi nõude vaidlustamine ei vabasta täitjat selle
+maksmise kohustusest enne vastava kohtuotsuse jõustumist.
+10.15.
+Täitja on kohustatud leppetrahvi tasuma 14 kalendripäeva jooksul alates tellija
+poolt vastava nõude esitamisest, kui leppetrahvi nõudes ei ole määratud teisiti.
+10.16.
+Tellijal on õigus tasaarvestada leppetrahvi summa täitjale asja eest tasumisele
+kuuluvate maksetega. Tasaarvestamise korral ei rakendata leppetrahvi tasumise
+kohustust.
+
+8
+
+11. Lepingute kehtivus
+11.1. Raam- ja hankeleping jõustub, kui pooled on lepingu allkirjastanud.
+11.2.Raam- ja hankeleping lõpeb lepinguliste kohustuste täitmisel, vastava lepingu
+ülesütlemisel või muul seadusest tuleneval alusel.
+11.3.Tellija võib raam- ja hankelepingu igal ajal etteteatamistähtajata kirjalikult üles öelda.
+Sel juhul kohustub tellija vastu võtma ülesütlemise hetkeks tehtud töö ning maksma
+selle eest tasu vastavalt tehtud töö mahule. Tellija ei ole kohustatud tasuma töö või
+selle osa eest, mis ei vasta lepingus ja selle lisades sätestatud tingimustele.
+11.4.Raam- ja hankelepingut võib muuta lepingus sätestatud tingimustel pooltevahelise
+kirjaliku kokkuleppega, mis vormistatakse lepingu lisana.
+12. Teadete edastamine ja kontaktisikud
+12.1.Teadete edastamine toimub üldjuhul e-posti teel, lähtudes kodukorra tingimustest
+selle olemasolul. E-posti teel, sh digitaalselt allkirjastatud dokumentide, saatmise
+korral loetakse teade kättesaaduks kohale jõudmise teates märgitud kellaajal või ekirjas näidatud saatmise kellaajal.
+12.2.
+Juhul, kui teate edastamisel on olulised õiguslikud tagajärjed, peab teade olema
+edastatud digiallkirjastatult poole allkirjaõigusliku isiku poolt. Informatiivset teadet
+võib edastada ka telefoni teel. Informatiivseks loetakse teade, millega ei kaasne
+õiguslikke tagajärgi.
+12.3.
+Kirjalik teade loetakse poole poolt kättesaaduks, kui see on üle antud allkirja
+vastu või kui teade on saadetud postiasutuse poolt tähitud kirjaga poole poolt teatatud
+aadressil ja postitamisest on möödunud 5 kalendripäeva.
+12.4.
+Tellija kontaktisik(ud) on: …. …, telefon …., e-post: …. või tema asendaja;
+12.5.
+Täitja kontaktisik(ud) on: …, …., telefon … e-post: …. või tema asendaja;
+12.6.
+Kontaktisikute pädevuses on anda teisele poolele vajaliku informatsiooni ja
+juhiseid oma pädevuse piires, anda nõusolek meeskonnaliikme vahetamiseks,
+kontrollida teostatud lepingu kvaliteeti, anda lepingu ese üle ja võtta vastu ning
+allkirjastada akt.
+12.7.
+Kontaktisiku muutumisest teavitab pool kirjalikult teist poolt viivitamatult.
+13. Lõppsätted
+13.1.Raamlepinguga seotud vaidlused, mida pooled ei ole suutnud läbirääkimiste teel
+lahendada, antakse lahendamiseks Harju Maakohtule.
+13.2.
+Raamlepingule kohaldub Eesti õigus. Kuivõrd tegemist on segatüüpi lepinguga,
+siis lisaks üldistele lepingulistele õiguskaitsevahenditele tuleb arvestada ka seadusest
+tulenevaid õiguskaitsevahendeid, mida kasutatakse vastavalt rikkumise olemusele kas
+VÕS peatükk 35 või 36 alusel.
+13.3.
+Raamlepinguga reguleerimata küsimustes või olukorras, kus mõni lepingu säte
+on vastuolus seadusega, lähtutakse Eesti Vabariigis kehtivast seadusandlusest.
+14. Lisad, mida koos raamlepinguga ei allkirjastata
+14.1.Lisa 1 – Tehniline kirjeldus;
+14.2.
+Lisa 2 – Hankelepingu projekt;
+14.3.
+Lisa 3 – Pakkumus.
+
+9
+
+15. Poolte allkirjad
+Tellija:
+...
+
+Täitja:
+...
+
+/allkirjastatud digitaalselt /
+
+/allkirjastatud digitaalselt /
+
+10
+
+Hankelepingu projekt
+SA Eesti Rahvusvahelise Arengukoostöö Keskus (edaspidi tellija), registrikood
+90015347, Tatari tn 1, 10116 Tallinn, keda esindab põhikirja alusel juhatuse liige Klen Jäärats
+ja
+_______, (edaspidi täitja), registrikood_____, aadress____, keda esindab _______
+edaspidi eraldi pool või koos pooled, sõlmisid raamlepingu nr ____ alusel käesoleva
+hankelepingu (edaspidi leping) alljärgnevas:
+1. Lepingu ese
+1.1. Lepingu esemeks on riigihanke „___“ alusdokumentides (minikonkursi viitenumber
+___) tehnilises kirjelduses nimetatud asjad/litsentsid/tootetugi/___ (edaspidi asi).
+1.2. Lepingut rahastatakse projektist nr ___ . Asja märgistamisel lähtutakse ___ .
+2. Lepingu täitmise tingimused
+2.1. Täitja annab asja üle päev.kuu.aasta, vajadusel koos paigaldamise ja
+seadistamisega.
+2.1.1. Litsentside kehtivuse periood on ___ ;
+2.1.2. Tootetoe kehtivuse periood on ___ ;
+2.1.3. ___ .
+2.2. Asjad antakse üle ja võetakse vastu tehnilises kirjelduses ja raamlepingus
+kokkulepitud tingimustel.
+2.3. Siia sisestatakse kõik erisused võrreldes raamlepingus sätestatuga.
+3. Lepingu hind
+3.1. Tellija tasub lepingu alusel tellitud asjade eest kokku ___ (maksumus
+sõnadega) eurot käibemaksuta.
+3.2. Asjad antakse üle järgnevalt:
+3.2.1. ___;
+3.2.2. ___.
+3.3. Täitjal on õigus esitada e-arve pärast asjade aktiga vastu võtmist. Arvel tuleb märkida
+riigihanke nimetus, lepingu osa viitenumber, lepingu number ja kontaktisiku andmed.
+3.4. Arve maksetähtaeg peab olema vähemalt 14 kalendripäeva alates nõuetekohase arve
+laekumisest.
+4. Poolte vahelised teated ja kontaktisikud1
+4.1. Teadete edastamisel ja kätte toimetamisel lähtutakse raamlepingu regulatsioonist.
+4.2. Tellija kontaktisikuks lepingu täitmisel on ________, tel ________, e-post
+______ või tema asendaja.
+4.3. Täitja kontaktisikuks lepingu täitmisel on ________, tel ________, e-post
+______ või tema asendaja.
+
+1 Eemaldada olukorras, kus kontaktisikud ei ole võrreldes raamlepinguga muutunud.
+
+11
+
+5. Lõppsätted
+5.1. Leping jõustub sellele poolte poolt allakirjutamise hetkest ja kehtib kuni poolte poolt
+oma lepinguliste kohustuste täitmiseni.
+5.2. Lepingu dokumendid koosnevad riigihanke alusdokumentidest, sh lepingu lisadest,
+lepingu muudatustest ja pakkumusest.
+5.3. Lepingu lahutamatuteks osadeks lepingu sõlmimise hetkel on järgmised dokumendid,
+mida ei allkirjastata koos hankelepinguga:
+5.3.1. Lisa 1 - Tehniline kirjeldus;
+5.3.2. Lisa 2 – Pakkumus;
+5.3.3. ______ .
+6. Poolte allkirjad
+
+Tellija:
+
+Täitja:
+
+12
+
+

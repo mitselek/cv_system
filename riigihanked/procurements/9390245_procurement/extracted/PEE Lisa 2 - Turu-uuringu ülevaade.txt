@@ -1,0 +1,589 @@
+PEE Lisa 2 – Turu-uuringu kokkuvõte
+Hankija viis läbi turu-uuringu, kuhu kaasas ITL-i (Eesti Infotehnoloogia ja Telekommunikatsiooni Liit), TMPO (Tallinn Mechanism Project Office)
+ja SIDA-ESTDEVi projekti CURE™ (Cybersecurity for Ukraine: Resilience and Enhancement) partnerid Ukrainas.
+Turu-uuringu tulemusel esitati mitmeid küsimusi ja tehti ettepanekuid, mille ülevaade on esitletud alljärgnevalt:
+Küsimus/ettepanek
+
+Hankija vastus/selgitus
+
+We have noticed that Kosovo is included among the eligible
+countries. As you may know, Ukraine does not officially
+recognise Kosovo. Therefore, it would not be appropriate for
+Ukrainian public institutions or projects implemented in Ukraine
+to include entities from Kosovo as eligible participants. We kindly
+ask you to take this into account when finalising the
+documentation.
+Please clarify whether this list of eligible countries applies equally
+to: 1 All consortium members (i.e. whether all consortium
+participants must be registered in these listed countries); 2
+Subcontractors or partner organizations involved in
+implementation (e.g. local partners in beneficiary countries); 3
+References – whether projects performed for clients or
+beneficiaries located outside the listed countries are acceptable as
+past performance evidence; 4 Offices or resources – whether the
+bidder may demonstrate experience and team capacity located in
+countries not included in the eligibility list (for example, technical
+staff or delivery centers in third countries). Clarification is needed
+to understand if the country list applies only to the legal
+registration of bidders and consortium members, or also limits
+the geographical origin of experience, projects, and personnel.
+
+Kuivõrd EL-il on Kosovoga kaubanduslepe, siis ei
+ole võimalik ettepanekut arvesse võtta.
+
+1. Kõik ühispakkujad peavad olema lubatud
+riikidest.
+2. Alltöövõtjad hankelepingu täitmise etapis ei pea
+olema nendest riikidest, üksnes siis kui tuginetakse
+nende
+pädevusele
+kvalifitseerimistingimuse
+täitmiseks.
+3. Jah, kuna seadus seda ei piira ehk tegemist on
+hankija valikukohaga
+4. Ei piira personali ja kogemuse asukohta.
+
+Kas selle tulemusel
+muudeti RHAD?
+Ei
+
+Ei
+
+For an international company or consortium with operations in
+several countries, please confirm: 1 Whether the turnover
+requirement may be aggregated across the bidder’s group
+entities, branches, or subsidiaries operating in different
+countries; and 2 Whether the project experience (e.g. minimum
+three similar contracts of at least EUR 100,000 each) may include
+references implemented in various countries, provided they are
+relevant to the subject matter of the procurement.
+
+1. Ei, konsolideerimisgrupi liikmete käibele ei saa
+tugineda kui kogu konsolideerimisgrupp ei tule
+ühispakkujatena või tuginetava alltöövõtjana.
+2. Jah.
+
+Ei
+
+Osa 1 ja 2: viimase 3 aasta netokäive vähemalt 1 000 000 eurot
+aastas. Küsimus: Kas netokäive konsortsiumi korral kokku või
+unikaalse ettevõtte kohta?
+
+Käivet on võimalik summeerida konsortsiumi
+liikmetena, kes on märgitud pakkumused
+ühispakkujatena või alltöövõtjatena.
+
+Ei
+
+Osa 1 ja 2: viimase 36 kuu jooksul vähemalt 3 sarnast lepingut,
+igaüks väärtusega vähemalt 100 000 eurot (KM-ta). Küsimus:
+Kas konsortsiumi korral kokku või unikaalse ettevõtte kohta?
+
+Referentslepinguid on võimalik kombineerida
+kokku konsortsiumi liikmete kogemustega, kes on
+märgitud pakkumused ühispakkujatena või
+alltöövõtjatena.
+
+Ei
+
+Osa 3: viimase 36 kuu jooksul vähemalt 3 lepingut IT või
+küberturvalisuse infrastruktuuri valdkonnas, igaüks väärtusega
+vähemalt 100 000 eurot (KM-ta). Tagasiside: Tingimus ei ole
+proportsionaalne võrreldes Osa1 ja 2 3 sarnase lepingu nõudega,
+sest infrastruktuuri projektid on tavapäraselt oluliselt kallimad,
+kui konsultatsiooni omad.
+Käibe miinimum osades 1–2. Praegune sõnastus. “Osa 1
+ja 2: viimase 3 aasta netokäive vähemalt 1 000 000 eurot aastas.”
+Soovitus. Ühtlustada osa 3 tasemega: 4 000 000 eurot aastas.
+
+Hankija analüüsis tagasisidet ja muutis RHAD-s
+mõnevõrra
+varasemate
+referentslepingute
+maksumusi ning korrigeeris käibenõudeid.
+
+Jah
+
+Hankija ei võta seda arvesse, kuna see välistaks
+VKE osalemise hankel, mis aga on osadeks
+jaotamise eesmärk.
+
+Ei
+
+The documents currently refer to English and Estonian as the
+working languages, while Ukrainian is not mentioned.
+Considering that most of the framework’s activities will be
+implemented in Ukraine and that direct interaction with
+Ukrainian institutions and experts will be required, we would
+recommend including Ukrainian language proficiency as a
+relevant requirement for project teams operating in Ukraine. This
+would ensure smoother coordination and communication with
+local recipients and stakeholders.
+
+Tingimus kehtestatakse vajadusel minikonkursil ja
+vastava võimaluse reguleerib raamleping.
+
+Ei
+
+Meeskonna
+projektijuht
+peab
+valdama
+eesti
+keelt.
+Küsimus: Milline on ESTDEV-i nägemus projektimeeskonnast
+ja selle toimimisest? Nõuetes on kirjas, et Meeskonna
+projektijuht peab valdama eesti keelt ja samas on hange avatud
+lisaks EU-le ka EU välistele riikidele. Kas päriselt neid EU väliste
+riikide ettevõtteid oodatakse hankele osalema ja eeldatakse, et
+need
+ettevõtted
+palkavad
+eestlased
+meeskonna
+projektijuhtideks?
+Punktist 3.2.2 “Lepingu täitmist puudutav dokumentatsioon eesti
+keeles.” + dokumendi Nõuded pakkuja meeskonnale ja CV vorm:
+punktist 1.2 “...koostada ja kontrollida hankelepingu
+dokumentatsiooni eesti keeles.” tuleneva eesti keele nõude osas
+arvame, et kuna tööde teostamiseks on märgitud inglise
+(kokkuleppel muu kohalik keel), siis võiks olla lubatud ka
+ingliskeelse pakkumuse / tööde kirjelduse, projekti
+dokumentatsiooni jne. esitamine. See tagaks selgemalt ühise
+arusaama tööde sisust ja et tegelik projekt vastab pakkumusele
+(ei teki probleeme terminoloogiaga ega tekita välisiriigis tehtava
+töö korral vajadust pakkumust veel ka inglise keelde tõlkida).
+As most Ukrainian recipient institutions are objects of critical
+infrastructure, we strongly recommend that all installation,
+configuration and training activities be carried out by personnel
+fluent in the Ukrainian language. This will guarantee precision,
+operational safety and effective communication during all stages
+of implementation.
+Punktis 1.1 jääb arusaamatuks miks ei või projektijuht täita
+projektis vajadusel ka mõnda muud rolli. Samuti võib tekkida ka
+olukord, kui projektis on vaja konsultatsiooni (konsultanti) ja
+läbistustestijat ja need on kirjas kui võtmerollid, siis tuleks
+kindlasti kaasata kaks erinevat inimest, samas kui küberturbe
+spetsialist suudab üldjuhul nii edukalt konsulteerida kui ka
+pentesti teha.
+Punkti 1.4 nõuded 2 ja 3 on väga piiravad ja tunduvad
+ebamõistlikud. Hüpoteetilise näitena: Kui projekt on suunatud
+näiteks Poola, siis meile tundub ebamõistlik nõue, et on
+kohustuslik omada tiimiliiget, kes asub Poolas ja viib seal ka
+
+Hankija analüüsis ettepanekut ja leidis, et
+arvestades prognoositud projektide sisu, on
+asjakohane nõuda projektijuhilt inglise keele
+oskust, mis tagab sujuva koostöö osapoolte vahel.
+Küll aga peab pakkuja arvestama, et hanked viiakse
+keeleseadusega kooskõlaliselt läbi vähemalt eesti
+keeles, võimalusel ka inglise keeles. Samuti peab
+lepingu partner olema võimeline vajadusel ka eesti
+keelset suhtlust tagama ning dokumente koostama,
+kuid selleks võib kasutada ka tõlki.
+Hankija lubab inglise keelsete pakkumuste
+esitamist (RHR-is märgitud vastav õigus
+alajaotuses „Hanke lisaandmed“.
+
+Jah
+
+Tingimus kehtestatakse vajadusel minikonkursil ja
+vastava võimaluse reguleerib raamleping.
+
+Ei
+
+Hankija soov on, et raamlepingu sõlmimiseks
+läbiviidavad hankes esitatud võtmerollid oleks
+teineteist toetavad. Hankija soovib veenduda, et
+partneril on kompetentne tiim. Arvestades, et
+küsitud on 2-3 rollis võtmeliikmeid, ei pea hankija
+nõuet ebamõistlikult piiravaks. Minikonkursside
+raames konkreetsete tiimide komplekteerimisel on
+võimalik paindlikumalt läheneda.
+Tegu on definitsiooniga mõistele „rahvusvaheline
+projekt“ ega ole eraldiseisev nõue.
+
+Ei
+
+Jah
+
+Ei
+
+osaliselt projekti läbi, kui projekti teostamiseks on alati võimalus
+ka vastavalt vajadusele Poola reisida.
+Whether it is mandatory to identify and present potential local
+partners already at the framework procurement stage, or whether
+such partnerships will be established later during minicompetitions for specific projects; If demonstration of local
+partners is expected now, what form of evidence or
+documentation (e.g. letters of intent, cooperation agreements, or
+general descriptions of potential partnerships) is required;
+Whether the evaluation will give additional points or preference
+for already having identified local partners.
+
+Raamhankes osalemiseks ei ole kohustust esitada
+kohapealseid kaastavaid eksperte või spetsialiste.
+Vastav vajadus esitatakse alles minikonkursil. Küll
+aga on vajalik koostöönägemuse koostamisel
+selgitada, kuidas kohalikke vajadusel kaasatakse, et
+saada täiendavaid hindepunkte hindamisel.
+
+Ei
+
+Punktis 3 toodud nõuded pakkuja meeskonnale OSA 1
+(inimestele/rollidele) on väga ranged. Nõutud on vähemalt 5
+aastat töökogemust (projektijuhi, konsultandi) rollis ja selle aja
+jooksul osalemist vähemalt 10 projektis, mis on väga suur
+number. See tähendab, et sisuliselt peaks projekti teostatama
+ainult senior rollidega. Meie ettepanek on küsida hankes
+pakkumust, kus saavad osaleda erineva tasemega rollid - ekspert,
+senior, junior. Rollidel on erinevad töö-ja projektikogemused
+ning ka tunnihinnad. Ühtlasi soosib eelmainitud nõue üksnes
+väga lühiajaliste projektide läbiviijaid. Info- ja küberturbealased
+projektid on pikaajalised, paljud nt 3-aastased projektid, seega on
+nõue praeguses sõnastuses ebaproportsionaalne. Ettepanek:
+Viieaastase perioodi kohta oleks mõistlik näiteks kolmes
+rahvusvahelises projektis osalemine.
+
+Hankija soov ongi raamlepingu partnerite leidmise
+kontekstis leida pakkujad, kellel on äärmiselt
+kompetentne
+võtmespetsialistide
+tiim.
+Minikonkurssidel ning seejärel hankelepingute
+täitmisel on loomulikult võimalus kaasata ka muid,
+sh vähesema kogemusega tiimiliikmeid, kuid nende
+töö kvaliteedi eest vastutavad võtmeliikmed.
+
+Ei
+
+Punktis 4 toodud nõuded pakkuja meeskonnale - OSA 2 nõude
+osas projektijuhile: “On osalenud projektijuhina vähemalt
+kümnes rahvusvahelises info- ja küberturbe valdkonnaga seotud
+konsultatsiooniprojektis viimase viie aasta jooksul.” on väga
+raske
+teha
+vahet
+projektidel,
+mis
+on
+puhtalt
+konsultatsiooniprojektid ja mis seda pole. Ettepanek: lisada
+tingimuseks hoopis projektid, kus Projektijuht on osalenud
+konsultatsiooni sisaldavas osas.
+Projektijuhi ja ka kõikide teiste projektimeeskonna liikmete
+nõuete osas on viimase 60 kuu jooksul 10 rahvusvahelise projekti
+nõue ülemäära piirav. Küsimus: Mis sellise nõude eesmärk on?
+
+Hankija täpsustas nõudeid projektide sisule ja
+mahule.
+
+Jah
+
+Hankija soov on leida rahvusvahelise kogemuse
+võtmespetsialistid, kellel on kogemusi erinevate
+kultuuride ja keskkondadega. Hankija täpsustas
+rahvusvaheliste projektidega seotud nõudeid ning
+hindab rohkemate rahvusvaheliste projektide
+olemasolu hindamiskriteeriumite raames.
+
+Jah
+
+Praegune sõnastus. Rahvusvaheline kogemus on praegu nõutud
+mitmes rollis eraldi (nt projektijuht, konsultant, arhitekt,
+administraator), mis võib välistada pädevaid kohalikke
+spetsialiste.
+Soovitus. Rahvusvahelist kogemust tuleks nõuda ettevõtte
+tasemel – näidates, et ettevõte on ellu viinud rahvusvahelisi
+projekte erinevates riikides. Kui see on vajalik üksikisikute lõikes,
+peaks nõue kehtima vaid projektijuhile või juhtivale eksperdile,
+kes vastutavad projekti üldjuhtimise ja kvaliteedi eest
+
+Hankija peab vajalikuks meeskonnaliikmete
+isiklikku kogemust rahvusvaheliste projektide
+elluviimisel, kuivõrd teenust osutatakse isiklikult.
+Hankija
+on
+seadnud
+ka
+ettevõttele
+kvalifitseerimistingimused.
+
+Ei
+
+Kogemuse lävend: juhtiv ekspert Praegune sõnastus.
+“Juhtival eksperdil on üle 85-kuuline (7+ a) töökogemus
+küberturvalisuslahenduste loomisel ja implementeerimisel.”
+Soovitus. Tõsta lävend 10 aastani, et rõhutada põhjalikku
+strateegilist kogemust (kuid see ei peaks väljenduma 2s erinevas
+projektis aasta kohta). Tõestada läbi relevantse rolli.
+
+Hankija on seadnud töökogemuse pikkuse
+miinimumnõude vastavustingimusena ning sellest
+enama kogemuse hindamiskriteeriumina. Hankija
+täpsustas mõnevõrra hindamisel lävendit.
+
+Jah
+
+Konfidentsiaalsed projektid ja kontaktide esitamine.
+Praegune sõnastus. “Hankija ei aktsepteeri konfidentsiaalseid
+projekte…” Soovitus. Lubada salastatud projektide esitamine
+anonümiseeritud
+kujul,
+lisades
+kontaktid
+hilisemaks
+kontrollimiseks enne lepingu sõlmimist.
+
+Hankijale rakendub ärisaladuse hoidmise ja
+pakkumuse
+saladuses
+hoidmise
+kohustus
+riigihangete seadusest tulenevalt. Lisaks on
+hankijal vajalik teostada kontroll pakkumuse
+vastavuse osas esitatud andmete põhjal, mida ei ole
+võimalik teha, kui pakkuja ei ole esitanud nõutud
+andmeid projekti kohta. Seetõttu on keelatud ka
+konfidentsiaalsete projektide esitamine, kuna
+hankijal puudub võimalus sellisel juhul kogemuse
+valideerimiseks.
+Hankija täpsustas tingimusi selles osas.
+
+Ei
+
+Hankija täpsustas tingimusi selles osas.
+
+Jah
+
+Projektide arv vs kestus Praegune sõnastus. Nõutud
+vähemalt 10 rahvusvahelist projekti viimase 5 aasta jooksul.
+Soovitus. Eelistada kogemuse kestust ja mõju; paluda 3
+olulisemat projekti viimase 5 aasta jooksul (või jagada
+programmide kaupa faasidesse). Projektide arv ei ole
+kvaliteedi/kompetentsi märk. Alternatiivne ettepanek nõue
+ümber sõnastada mahuna (tundides), mida viimase viie aasta
+jooksul rahvusvahelistes info- ja küberturbealases projektis
+projektijuhina teostatud on. NB! ettepanek kehtib kõigis rollides
+ja projekti osades
+Projektijuhi kogemuse laienemine Praegune sõnastus.
+60 kuu kogemus info- ja küberturbe valdkonnas. Soovitus.
+Arvestada ka tarkvaraarenduse ja digi-konsultatsiooni
+projektijuhtimise kogemust, kui töö sisu on asjakohane.
+
+Jah
+
+5. Osa 3 – projektijuht Praegune sõnastus. “60 kuu
+kogemus analüüsimisel ja prototüüpimisel.” Soovitus.
+Lisada “või juurutamisel”, et katta kogu elutsükkel.
+
+Hankija täpsustas tingimusi selles osas.
+
+Jah
+
+6. Arhitekt (osa 3) Praegune sõnastus. “Osalenud
+vähemalt kümnes rahvusvahelises IKT infrastruktuuri
+juurutamise projektis viimase 5 aasta jooksul.”
+Soovitus. Lisada “analüüs ja/või disain” kui samaväärne
+kogemus.
+It is essential that all equipment delivered to Ukrainian
+institutions under the Framework Procurement comes with an
+official manufacturer’s warranty that is valid and enforceable
+on the territory of Ukraine. The supplier should ensure the
+availability of an authorised service centre in
+Ukraine capable of performing warranty repairs or
+replacements within one business day, in accordance with the
+warranty terms. The warranty documentation should explicitly
+indicate that Ukrainian recipients are recognised as warranty
+beneficiaries and confirm that service and spare parts are
+available locally. Please note that, in the absence of such
+provisions, Ukrainian recipients may not be able to formally
+accept or register the delivered equipment.
+
+Hankija täpsustas tingimusi selles osas.
+
+Jah
+
+Tingimus kehtestatakse vajadusel minikonkursil ja
+vastava võimaluse reguleerib raamleping.
+
+Ei
+
+Punktis 5.2.4 on toodud, et “töövõtja on kohustatud
+tagama tarnitavatele asjadele vähemalt 24-kuulise
+garantii...”
+Ettepanek: Seda sõnastust võiks hankes
+täpsustada: näiteks "tarnitavatele asjadele" asemel "tarnitavatele
+toodetele" või siis välistama konsultatsioonid, läbistustestimised
+jmt. Pakkuja ei saa anda garantiid teenustele (pentest, code
+review, jmt.).
+3.3.2. Erinevate standardite ja raamistike rakendamise
+koolitused (NIST, ISO, CIS, GDPR, NIS2 jne); Ettepanek: Siia
+sooviks näidetena lisada seadmete küberturvet puudutavad
+raamistikud: EU CRA, RED, ISO/IEC 62443, millest RED on EU
+Radio Equipment Directive.
+
+Asi ja toode on sünonüümid, mis ei sisalda
+riigihangete seaduse kontekstis endas teenust.
+Seega lähtub hankija sellest, et sõnaga „asi“ on
+kirjeldatud asju, tooteid ja litsentse ning sõnaga
+„teenus“ garantiid, konsultatsioone jms.
+
+Ei
+
+Hankijale teadaolevalt ei ole selliseid teenuseid
+plaanis tellida.
+
+Ei
+
+4.1.1. Eelanalüüs ja nõuete kaardistus – ärivajadused, infoturbeja vastavusnõuded (nt GDPR/NIS2/ISO 27001); Ettepanek: Siia
+sooviks näidetena lisada seadmete küberturvet puudutavad
+raamistikud: EU CRA, RED, ISO/IEC 62443, millest RED on EU
+Radio Equipment Directive.
+
+Hankijale teadaolevalt ei ole selliseid teenuseid
+plaanis tellida.
+
+Ei
+
+Hanke 1. osas kehtestatud ISO 27001 nõue on meie hinnangul
+ebaproportsionaalne ning see ei ole OSA 1 eesmärgi
+saavutamiseks otseselt vajalik. Küll aga pärsiks sellise nõude
+sätestamine võimaliku konkurentsi efektiivset ärakasutamist:
+o Info- ja küberturbealaste konsultatsiooniteenuste pakkumine
+rahvusvahelise arengukoostöö projektides ei eelda nimetatud
+standardi olemasolu, sest selliste teenuste pakkujad üldjuhul ei
+ole (ega peagi olema) ettevõtted, kellel on vaja kaitsta suurel
+hulgal tundlikku teavet. ISO 27001 standard ja sellega
+samaväärsed süsteemid on kasutusel eelkõige kriitilise info ja
+infrastruktuuriga ettevõtetes, kus on vaja suures koguses väga
+erinevat tundlikku teavet rangelt käidelda ja kaitsta (mh ITettevõtted,
+finantsasutused,
+tervishoiuasutused
+jne).
+Riigihangete üldpõhimõtetest lähtuvalt (RHS § 3 p 1 ja 3) peavad
+hanketingimused olema proportsionaalsed, st seotud hanke
+esemega ja ei tohiks piirata turul oleva konkurentsi efektiivset
+ärakasutamist. Kui hanketingimus ei ole vajalik hanke eesmärgi
+saavutamiseks ja tekitab põhjendamatuid osalemispiiranguid, on
+selline nõue riigihangete seadusega vastuolus ja tuleks
+hanketingimustest välja jätta.
+o
+“1. Projektijuhil on min 1 rahvusvaheline
+sertifikaat nt Prince2, PMP vm 2. Konsultandil on min
+1 rahvusvaheline sertifikaat nt CISM, ISO 27001 Lead
+Implementer, CISSP vm.” Projektijuhi ja konsultandi
+sertifikaatide nõue on meie hinnangul põhjendamatu,
+projektijuhi ja konsultandi rolli täitmiseks ei ole nõutud
+sertifikaatide olemasolu vältimatu eeldus ja selline tingimus
+piiraks potentsiaalselt hankes osalevate pakkujate ringi. Kuna
+sertifikaadi olemasolu ei ole hanke eesmärgi saavutamiseks
+vajalik, saab nõuet pidada ebaproportsionaalseks riigihangete
+seaduse tähenduses.
+
+Hankija
+otsustas
+loobuda
+sellest
+kvalifitseerimistingimusest
+konkurentsi
+suurendamise eesmärgiga ning kaasab ISO 27001
+sertifikaadi
+põhimõtete
+rakendamise
+koostöönägemuse hindamise koosseisu.
+
+Jah
+
+Tegemist on hindamisele kuuluvate nõuetega, mille
+täitmine ei ole hankes osalemiseks kohustuslik.
+
+Ei
+
+Koostöönägemuse kaal on kõigis hindamiskriteeriumite osades
+oluliselt väiksem (20%) võrreldes meeskonna ja hinna
+osadega. Vaid hindamiseks koostatud visiooni järgi on võimalik
+hinnata pakkuja tegelikku võimekust ja kogemust ning välistada
+juhuslike
+inimestega
+täidetud
+ebastabiilseid
+projekte.
+Ettepanek: tõsta koostöönägemuse kaalu ehk näiteks 30% hind
++ 30% kompetentsus + 40% koostöönägemus. Samuti
+kriteeriumi “koostöönägemus” hindamine on liiga üldsõnaline
+(näiteks: Pakkuja nägemus koostööst vastab hankija
+vajadustele.). Võiks olla lisatud konkreetseid kriteeriume.
+
+Hankija on täpsustanud hindamiskriteeriumite
+osakaalu hankes.
+
+Jah
+
+Ühtlasi peame 10 ja 15 rahvusvahelise projekti nõuet punktide
+saamiseks liiga karmiks. Nende tingimustega sobivad taas vaid
+senior konsultandid ja eksperdid.
+
+Hankija eesmärk on saada partneriteks üksnes
+head ja väga head, kompetentsed ettevõtted, kellega
+ellu viia olulisi rahvusvahelisi projekte järgneva 4
+aasta jooksul. Kvalifitseerimistingimuste eesmärk
+ei saagi olla kõikide võimalike pakkujate kaasamine
+lepingusse.
+Hankija on täpsustanud hindamiskriteeriumite
+osakaalu hankes.
+
+Ei
+
+1. Hindamine “väärtus ja tulemused” põhimõttel, mitte madalaim
+töötunni hind Praegune sõnastus. Osa 1–2 puhul annab “ühe
+töötunni hind” 40 p; sama loogika osa 3 “ostukorvi hinnale” (40
+p). Soovitus. Seada maksumuse osakaal ≤30%.
+
+Jah
+
+Legal status:
+Is it required that the consortium be formally established as a
+legal entity (e.g. registered joint venture) prior to bid submission,
+or is it sufficient for the lead bidder to apply and identify
+consortium members through a consortium agreement or
+statement of intent (or teaming agreement)?
+Financial qualification:
+If the second option applies (a consortium led by one entity), will
+the financial requirements (e.g. minimum annual turnover) be
+assessed only for the lead bidder, or can they be aggregated across
+consortium members?
+Technical and project experience:
+Can past experience and project references be cumulative across
+consortium members, provided that each member’s role in those
+projects is clearly defined?
+Strategic value:
+Please confirm whether the consortium model provides any
+comparative advantage over a single implementing partner,
+considering that future mini-competitions will allow the
+engagement of local partners as needed for specific projects.
+
+Legal status: The consortium does not have to be
+established as a legal entity (e.g. registered joint
+venture) prior to submission. Consortium members
+just have to be identified. In practice, this means
+that all joint tenderers have to be registered on the
+Estonian procurement portal and linked to the
+offer.
+Financial qualification: Financial requirements can
+be aggregated across consortium members.
+Technical and project experience: yes, past
+experience and project references can be
+cumulative across consortium members, provided
+that each member's role in those projects is clearly
+defines.
+Strategic value: N/A
+Additional remark: Meeskonnaliikmete esitamisel
+vastavustingimuste raames on oluline isiklikul
+tasandil just rollid ja nendes rollides tegutsemine,
+mitte projekti enda läbiviija konsortsiumi seast
+(projektid ei peagi üldse olema seotud
+konsortsiumiga, vaid üksnes isiku endaga).
+
+Ei
+
+

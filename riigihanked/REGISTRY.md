@@ -25,9 +25,9 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 7  
+**Total Assessed:** 8  
 **Analyzing:** 1  
-**Skip:** 5  
+**Skip:** 6  
 **FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
@@ -44,6 +44,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 | 2025-11-27 | 9449264 | Kliendiportaali ja puidumüügi keskkond | Riigimetsa Majandamise Keskus | 2025-12-30 | Skip    | ISO 27001 blocker, GIS tech gap, team assembly |
 | 2025-11-27 | 9534824 | Pythoni baasil tarkvaraarendused   | KeMIT (Climate Ministry IT) | 2025-12-22 | FEASIBLE   | Python 9/10 MATCH, 70-80% win prob, DevOps gaps addressable |
 | 2025-11-27 | 9525405 | Tehnopoli kodulehe arendus         | SA Tehnopol                 | 2025-12-01 | Skip       | WordPress/PHP gap, web design req, 4-day deadline, better alt exists (9534824) |
+| 2025-11-27 | 9390245 | Info- ja küberturvalisuse teenused | ESTDEV                      | 2025-12-16 | Skip       | €27M framework, 8+ specialists, 40+ intl projects, cybersec certs, dev cooperation - structural mismatch |
 
 ## Notes
 

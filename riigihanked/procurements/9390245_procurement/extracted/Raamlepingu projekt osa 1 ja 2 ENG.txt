@@ -1,0 +1,1060 @@
+FRAMEWORK AGREEMENT PART …1
+Estonian Centre for International Development (hereinafter referred to as the
+customer or contracting authority), registry code 90015347, Tatari street 1, 10116
+Tallinn, who is represented by a member of the management board Klen Jäärats
+and
+________, registry code ________, address ________, who is represented by a member of the
+management board ________ (hereinafter contractor 1 or party),
+________, registry code ________, address ________, who is represented by a member of the
+management board ________ (hereinafter contractor 2 or party),
+________, registry code ________, address ________, who is represented by a member of the
+management board ________ (hereinafter contractor 3 or party) and
+All contractors are entered
+hereinafter separately or jointly by the parties, have entered into this framework agreement
+(hereinafter the agreement) in the following:
+1. Purpose and subject-matter of the agreement
+1.1. The purpose of the framework agreement concluded on the basis of the public
+procurement "Information and Cyber Security Matters and Services" (with reference
+number 301036, part ...) organised by the contracting authority is to agree on the
+manner in which procurement contracts are concluded between the
+contracting authority and the partners of the framework agreement for the
+ordering of works that are the subject of the framework agreement during the validity
+of the framework agreement.
+1.2. The framework agreement does not oblige the customer to order the works or services.
+1.3. The validity of the framework agreement is 48 months or until the performance of the
+obligations or the termination of the framework agreement or the fulfilment of the
+monetary amount of the framework agreement.
+1.4. In addition to the state budget, the framework agreement may also be financed from
+foreign funds (i.e. financial resources outside the budget of the contracting authority).
+2. General Terms and Conditions
+2.1. All annexes and procurement documents, as well as the tenders submitted by the
+contractors in the public procurement and written notices between the parties, which
+are not signed separately as annexes to the framework agreement, are considered to
+be inseparable parts of the framework agreement.
+2.2. If the term of the procurement contract differs from the term of the framework
+agreement, the term of the procurement contract shall prevail. If the terms and
+conditions in the annexes to the agreement differ from the terms of the agreement, the
+term of the agreement shall prevail.
+2.3. In the course of the performance of the framework agreement, additional conditions
+may be agreed upon if they are necessary to meet the requirements arising from the
+terms and conditions of financing.
+1 This framework agreement project is for parts/lots 1 and 2
+
+1
+
+2.4. If there are additional conditions related to the financing of the works to be performed
+on the basis of the public contract, the contractor is obliged to comply with the
+requirements arising from the use of financial resources announced in the
+procurement contract, including the use of the symbols required in the terms and
+conditions of the programme.
+2.5. The parties shall cooperate in order to perform the framework agreement and the
+procurement contracts concluded on the basis thereof and to achieve these objectives.
+The parties undertake to make all necessary efforts to perform the procurement
+contract on time and in accordance with the agreements.
+2.6. The parties may, by agreement, involve an independent expert or auditor accepted by
+both parties to assess the quality of the works or the acceptance of the works. If the
+contracting authority's assessment of the quality of the work or the acceptance of the
+work proves to be unjustified as a result of the expert assessment, the contracting
+authority shall compensate for the costs of the expert assessment. If the expert
+assessment confirms the customer's assessment of quality or acceptance of the work,
+the costs of the expert assessment will be borne by the contractor.
+2.7. A party has the right to make proposals to the other party to improve the quality of the
+performance of procurement contracts. If a party has submitted an inquiry to the other
+party in a matter related to the performance of the procurement contract, the party is
+obliged to respond to it (provide relevant feedback) as soon as possible, but no later
+than within 5 working days, unless the request requires additional analysis or
+systematisation of information.
+2.8. The parties are obliged to participate in working meetings in order to solve problems
+that have arisen in the course of work and to exchange information at the customer's
+premises or virtually. Participation in working meetings is not remunerated by the
+contracting authority, unless otherwise agreed in the procurement contract.
+2.9. The languages of performance of the agreement are Estonian and English, among
+other things, they are also the languages of concluding procurement contracts,
+working meetings and other communication, and documenting the works. The parties
+may agree on the need to perform the agreement in other languages, but a project
+manager who speaks English and the ability to communicate and document in
+Estonian must be ensured (an interpreter is also suitable).
+3. Rights and obligations of the parties
+3.1. The contractor undertakes:
+3.1.1. perform the agreement on the terms and to the extent agreed upon in the
+procurement contract, including ensuring the timely start, performance,
+completion and delivery of the works to the contracting authority;
+3.1.2. ensure the availability of the resources necessary for the performance of the
+procurement contract, the high professional level of the contractors and the very
+good knowledge of the necessary technology and methodologies, have suitable
+environments for the performance of the contract, including everything related to
+it, including the licenses of the software used, or use the customer's existing
+shared environments;
+3.1.3. cooperate with third parties keeping in mind the customer's needs (e.g. with a
+business customer, other development partners, etc.);
+3.1.4. immediately inform the contracting authority of any circumstances hindering
+the performance of the procurement contract that interfere with the proper
+performance of the public contract;
+2
+
+3.1.5. be guided by the guidelines and rules of the contracting authority in achieving
+the objectives of the contract, contacting the contracting authority for this
+purpose, if necessary;
+3.1.6. take into account that in order to perform the procurement contract, it may be
+necessary to modify and supplement the existing code and ensure the integrity of
+processes and functionality after the code has been changed or supplemented;
+3.1.7. in the case of work ordered on an hourly basis, submit time reports for the
+performance of the procurement contract to the customer (each team member
+personally);
+3.1.8. provide support to the customer regarding the work performed, including
+offering consultation and training until the end of the warranty period;
+3.1.9. perform the procurement contract with high quality and in accordance with
+good practices and practices in the field. The contracting authority assumes that
+the contractor is a professional in the field of cyber security who understands and
+consciously assumes the risk of the fulfilment of the functional and non-functional
+requirements of the procurement contract and the achievability of the result. As a
+result, the contractor is also subject to the obligation to perform works that have
+not been agreed upon in the public contract, but which, by their nature, belong to
+the works related to the public contract. The performance of these works is not
+subject to separate remuneration, and the contractor performs the described work
+within the framework of the performance of the procurement contract;
+3.1.10. immediately notify the contracting authority of a cyber incident against the
+contractor and, at the contractor's request, submit a cyber incident report to the
+contracting authority;
+3.1.11. notify in a format that can be reproduced in writing of any interest that may
+cause a conflict of interest in the performance of the contract;
+3.1.12. not to transfer personal data obtained in the course of the performance of the
+procurement contract outside the territory of the Member States of the European
+Union, the countries of the European Economic Community and the country
+where the project is located without the express written consent of the contracting
+authority;
+3.1.13. use and process the personal data received in the course of the performance of
+the procurement contract only for the performance of the contract and on the
+basis of documented instructions from the customer, unless the contractor is
+obliged to process the information under the law applicable to the contractor. In
+the latter case, the contractor shall inform the contracting authority of the
+existence of such an obligation before processing the information, unless such
+notification is prohibited by the law applicable to the contractor on grounds of
+overriding public interest.
+3.2. The contractor has the right to:
+3.2.1. receive remuneration for the performance of the procurement contract to the
+extent and in accordance with the procedure agreed in the procurement contract;
+3.2.2. use subcontractors for the performance of the contract, having previously
+agreed in writing with the customer. The contractor is responsible for the actions
+and omissions of subcontractors before the contracting authority;
+3.2.3. to transfer the right to issue invoices to a third party without concluding an
+amendment to the contract, if they have submitted a notice to the customer to that
+effect;
+3.3. The customer undertakes:
+
+3
+
+3.3.1. pay the contractor for the work in accordance with the terms and procedures set
+out in the contract;
+3.3.2. provide the contractor with clear and timely instructions and information
+necessary for the performance of the work, which may contribute to the
+achievement of the best result of the work;
+3.3.3. immediately, but no later than within two working days from the occurrence of
+the relevant circumstances, inform the contractor in writing of the occurrence of
+such circumstances that may hinder the performance of the work.
+3.4. The customer has the right to:
+3.4.1. always monitor the performance of the procurement contract and provide the
+contractor with mandatory instructions in this regard;
+3.4.2. refuse to pay the remuneration in part or in full if the contractor failed to carry
+out the proper work by the agreed deadline and the breach by the contractor is not
+objectively justified;
+3.4.3. to involve other state authorities of the contracting authority in providing
+information for the performance of the contract, in the role of payer and/or quality
+control of work. The involvement of a third party by the contracting authority
+cannot be regarded as an amendment of the framework agreement within the
+meaning of the Public Procurement Act.
+4. Handover and acceptance of work
+4.1. The contractor performs the work in accordance with the procurement contract and
+its annexes, which are announced within the framework of the mini-competition.
+4.2. The contractor submits the completed work to the customer's contact person for
+review and submission of proposals. The contracting authority shall review the work
+of the submitted stage within 10 working days from the delivery of the work and submit
+its comments to the contractor. If necessary, a meeting between the contractor and the
+customer will be arranged.
+4.3. The contractor shall make the necessary corrections at its own expense within the final
+version of the Work or any other reasonable period specified by the Contracting
+authority. The parties then sign a deed of delivery and acceptance of the work,
+confirming that the work has been delivered, reviewed and accepted.
+4.4. The documents prepared based on the procurement contract shall be handed over to
+the contracting authority in a correctly formatted manner and in the language
+specified in the procurement documents of the mini-competition (English or
+Estonian). The documents are submitted in digital format, and the format of the
+documents is agreed upon by the parties during the performance of the contract.
+4.5. On behalf of the customer, the acts of delivery and acceptance of the work are signed
+by the contact person specified in the contract.
+4.6. By agreement of the parties, the deadlines specified in the procurement contract may
+be changed if this is necessitated by unforeseen circumstances at the time of
+conclusion of the procurement contract and the change of letters is necessary for the
+performance of the work of higher quality. Among other things, the contractor has the
+right to make a proposal to the contracting authority to amend the deadlines if this is
+caused by a breach of the contracting authority's contractual obligations, and the
+contracting authority has the right to reject the contractor's proposal to extend the
+deadlines if this is caused by a breach of the contractor's contractual obligations.
+
+4
+
+5. Fee and terms of payment
+5.1. During the validity of the framework agreement, the maximum hourly rate shall be the
+following rates, excluding VAT, according to the tenders:
+5.1.1. contractor 1 one hourly fee __ euros excl. VAT;
+5.1.2. contractor 2 one hourly fee __ euros excl. VAT;
+5.1.3. The fees of all contractors will be entered
+5.2. The cost of one working hour presented in the composition of the tender will be
+indexed for the first time from 01.02.2027. As of 1st of February of each calendar year,
+the cost of one working hour is indexed to mini-competitions conducted during the
+following 12 months, i.e. the price per hour of work does not change within the
+framework of valid procurement contracts and the indexed price can be offered in a
+mini-competition after indexation. Indexation takes place based on the consumer
+price index, i.e. the maximum cost of one working hour increases or decreases by the
+change in the consumer price index of the full calendar year preceding the moment of
+indexation. At most, the unit price may increase by 20% of the initially presented unit
+price because of indexation over the entire period of the contract. In the case of a
+negative consumer price index, the cost of one working hour is reduced according to
+the change in the consumer price index, but not less than the cost of one working hour
+agreed upon at the conclusion of the contract.
+5.3. The volume of the framework agreement is a maximum of xxx2 euros excluding VAT,
+which will be summed up based on all procurement contracts concluded with
+contractors.
+5.4. The customer pays the contractor for the work according to the invoices submitted,
+which are in accordance with the prepared and mutually signed deed.
+5.5. The contractor submits to the customer e-invoices that comply with the Estonian einvoice standard. The e-invoice must be submitted to the purchase invoice
+management environment of the customer's e-invoice operator (AS Fitek). In addition
+to the data specified in the standard, the e-invoice must also include the first and last
+name of the customer's contact person, the procurement contract number, the
+reference number of the contract part and the reference number of the public
+procurement.
+5.6. The invoices submitted by the contractor must clearly and unambiguously refer to the
+procurement and framework contract, comply with the provisions of the act of delivery
+and receipt and the requirements of the Value Added Tax Act. An invoice that does not
+meet the conditions set out in this clause is not payable.
+5.7. The customer pays the submitted invoices within 14 calendar days of receiving the
+required invoice. The place of receipt of the amount indicated on the invoice is the
+bank account number indicated by the contractor on the invoice.
+5.8. The date of payment of the invoice is considered to be the date of submission of the
+respective payment order to the State Treasury.
+6. Contractor Team
+6.1. The team members submitted in the framework procurement tender participate in the
+performance of the contract, unless it is not possible to do so due to circumstances
+beyond the control of the contractor and the team member has been replaced by a new
+team member who meets the terms and conditions of the procurement with the
+customer's consent that can be reproduced in writing.
+
+2 Added upon conclusion and consists of an estimated cost plus 20% to cover indexation.
+
+5
+
+6.2. The contractor may involve additional team members with the customer's consent,
+which can be reproduced in writing. Additional team members must meet the
+requirements set out in the public procurement.
+6.3. If the experience of a team member was assessed in the course of a procurement
+procedure and the evaluated team member is replaced or supplemented, the person to
+be replaced or added must score the same points in the evaluation. Replacement or
+supplementation is allowed with the customer's consent that can be reproduced in
+writing..
+6.4. At the request of the contracting authority and for the specified term, the contractor
+shall replace a team member if, in the reasoned opinion of the contracting authority,
+the person proves to be incompetent or unsuitable for the performance of the
+contractual tasks or if the performance of his/her contractual tasks continuously
+harms the performance of the contract. The contractor bears all costs related to the
+replacement. Additional team members must meet the procurement criteria set for the
+role.
+6.5. The contractor shall guarantee the existence of team members not personally named
+in the public procurement and their compliance with the qualifications/previous work
+experience required in the public procurement and shall nominate the contractors by
+name upon the conclusion of the procurement contract.
+6.6. Upon conclusion of the contract, the contracting authority may order new roles in
+addition to the roles of the team members required in the public procurement, if this
+is due to the nature of the work to be ordered and it is expedient to involve team
+members with different competencies in order to perform the work efficiently. In this
+case, the competency requirements for the role of the new team member are
+determined in the mini-competition/order.
+6.7. All confidentiality requirements apply to the persons additionally involved.
+7. Award of public contracts
+Applicable if the framework agreement is concluded with several partners (and the clauses
+of ordering work with one partner below are removed):
+7.1. The basis for the performance of the works is the concluded procurement contract.
+7.2. The customer organises mini-competitions according to actual needs and the partners
+of the framework agreement must be prepared for possible time breaks between the
+commissioning of works.
+7.3. In order to conclude the contract, the contracting authority shall submit a proposal to
+the partners of the framework agreement in a format that can be reproduced in writing
+(organise a mini-competition) and shall give a reasonable time for the submission of
+the tender, taking into account the complexity of the works and the time required for
+the submission of the tender.
+7.4. In the technical specifications of the procurement contract to be concluded, the
+contracting authority determines the content of the works and the results to be
+delivered (list of works), the volume of the works, time and budget restrictions, stages
+and other important conditions.
+7.5. The mini-competition has the right to set additional conditions for the team according
+to the object of the procurement contract. Also, a mini-competition always has the
+right to apply the grounds for exclusion and ask for a procurement passport. The minicompetition also has the right to make it mandatory to involve companies, citizens or
+6
+
+institutions of the target country in the performance of the works, i.e. to require the
+use of local partners.
+7.6. When conducting a mini-competition, the contracting authority selects the most
+economically advantageous tender as follows:
+7.6.1. "total cost of performing works", "monthly cost of works", "cost of one working
+hour", "licence fee", etc. (depending on the methodology of the works to be
+ordered): 30 – 40%;
+7.6.2. “quality criterion” means a task related to the work to be
+planned/commissioned, such as a blueprint for the execution of the work,
+additional experience of the team, involvement of locals, maintenance and
+warranty conditions, etc.: 60 - 70%.
+7.7. The contracting authority has the right to set a fixed budget instead of the provisions
+of clause 7.6 and to select the most economically advantageous tender as follows:
+7.7.1. „volume of work to be performed“ (e.g. in hours/time, etc.)/scope, etc.: 30 – 40%;
+7.7.2. „quality criterion“ means a task related to the work to be
+planned/commissioned, such as a blueprint for the execution of the work,
+additional experience of the team, involvement of locals, etc. in the range: 60 70%.
+7.8. The terms and conditions of the mini-competition stipulate the number of contractors
+with which a procurement contract will be concluded, i.e. the contracting authority
+may enter into contracts with several partners if it is necessary in view of the
+circumstances.
+7.9. If necessary, the contracting authority has the right to ask for additional confirmations
+and data on the existence of the prerequisites necessary for the performance of the
+works.
+7.10.
+When submitting a tender, all the requirements and conditions of the minicompetition must be complied with.
+7.11. The contracting authority will open the tenders after the deadline specified in the
+invitation to the mini-competition.
+7.11.1. The contracting authority shall check the compliance of the tenders and
+evaluate all tenders that meet the requirements on the basis of the specified
+evaluation criteria, in which there are no substantive deviations from the terms
+and conditions of the mini-competition. The contracting authority will not
+evaluate tenders that do not comply with the conditions of the mini-competition.
+Thereafter, the contracting authority verifies the successful tenderer's compliance
+with the qualification criteria and checks the grounds for exclusion.
+7.11.2. The contracting authority may evaluate the tenders before verifying the
+conformity of the tenders or the absence of grounds for exclusion against the
+tenderers and their compliance with the qualification criteria. In such a case, the
+contracting authority will check the compliance of the tender, the compliance of
+the tenderer with the qualification criteria and the absence of grounds for
+exclusion only in the case of the successful tenderer. If the successful tenderer's
+tender turns out to be non-compliant as a result of the inspection, the tenderer
+does not meet the qualification criteria or the tenderer is excluded from the
+procedure, the contracting authority has the right to declare the tenderer next in
+the ranking as successful as a result of the evaluation and to carry out the
+described inspections in respect of him or her.
+
+7
+
+7.12.
+If one tender that has been found to be compliant is received in the minicompetition, the contracting authority has the right not to carry out a substantive
+evaluation and the tender is awarded the maximum points.
+7.13.
+If the tender does not meet the conditions of the mini-competition, it will be
+rejected.
+7.14.
+Before concluding the procurement contract, the contracting authority has the
+right to declare the mini-competition invalid on its own initiative, if justified, by
+notifying the partners of the framework agreement thereof.
+7.15.
+The contracting authority has the right to reject the tender and decide not to
+conclude the procurement contract or to declare the mini-competition invalid in
+accordance with the framework agreement if:
+7.15.1. the tender(s) do not meet the conditions;
+7.15.2. the tender(s) exceed the estimated cost;
+7.15.3. The contracting authority does not receive approval for the final application for
+the award of a procurement contract involving foreign funds.
+7.16.
+If no tender is received for the mini-competition or none of the tenders are
+successful (including a situation arises where the tenderer does not pass a background
+check), the contracting authority has the right to submit a tender for the direct
+conclusion of a procurement contract with the same object of procurement in such a
+way that the conditions for the performance of the procurement contract are not
+significantly changed. The contracting authority is allowed to make changes in the
+duration of the public contract, including the deadlines, and the volume of the
+procurement contract according to the reasons for the failure of the mini-competition.
+It is not allowed to change the object of the procurement contract, i.e. the scope. A
+direct bid can be made in the following order:
+7.16.1. First, make a bid for the award of the procurement contract to the contractor
+who earned the most points in the framework agreement;
+7.16.2. Tenders may then be submitted to the following contractors for the award of the
+procurement contract in accordance with the order of evaluation.
+7.17.
+The contracting authority shall enter into a procurement contract for the
+performance of the works in accordance with the terms and conditions of the minicompetition and shall notify the partners of the framework agreement of the result of
+the mini-competition. The contractor undertakes to sign the procurement contract
+within 3 working days of sending the procurement contract for signature at the latest.
+Applicable if the framework agreement is concluded with a single tenderer (and the abovementioned points for ordering works with several tenderers are removed). If the framework
+agreement has been concluded with one tenderer as a result of a procurement procedure, no
+mini-competitions will be conducted:
+7.18.
+The performance of the works is based on the concluded procurement contract.
+The procurement contract is deemed to have been concluded upon submission of the
+order and acceptance of the tender by the contracting authority, as well as upon the
+conclusion of the procurement contract on a specific form. In this subsection, the
+specification of the tender within the meaning of § 30(3) of the PPA is considered to
+be a tender.
+7.19.
+In order to submit orders and conclude the procurement contract, the
+contracting authority shall contact the contractor directly, presenting the terms and
+conditions of the procurement contract.
+
+8
+
+7.20.
+The performance of the works is carried out on the basis of the technical
+specification fixed in the order, which specifies the content of the works and the results
+to be delivered (list of works), if possible, the volume of the works, time and budget
+restrictions and other important conditions. The conditions can be fixed in stages.
+Within the framework of the terms and conditions, the contracting authority may
+impose an obligation on the involvement of local partners in the destination country
+in the performance of the contract.
+7.21.
+In order to order work, the customer shall submit an order to the contractor in
+a format that can be reproduced in writing, except in the case of ongoing consultation.
+An order is a written request to the contractor to perform the work, either as an order
+letter, after which the procurement contract is concluded on a specific form or through
+the work management environment.
+7.22.
+The contracting authority shall give a reasonable time for the submission of the
+tender, taking into account the complexity of the works to be ordered and the time
+required for the submission of the tender. When submitting an offer, all the
+requirements set out in the order must be followed.
+7.23.
+If possible, the contractor shall assess the volume of work on the basis of the
+order and submit a price offer for the performance of the work and/or other data
+required in the order (offer) by the deadline specified in the order.
+7.24.
+If the offer does not meet the conditions of the order or is not acceptable for any
+other reason, it will be rejected.
+7.25.
+The contracting authority has the right to reject the submitted tender and decide
+not to award the procurement contract or to declare the order submitted in accordance
+with the framework agreement invalid if:
+7.25.1. the tender does not meet the conditions;
+7.25.2. the customer's need to fulfil the order disappears or changes;
+7.25.3. exceeds the estimated cost, or;
+7.25.4. The contracting authority does not receive approval for a full application for the
+award of a procurement contract related to foreign funds.
+7.26.
+The contracting authority shall enter into a procurement contract for the
+performance of the works in accordance with the terms and conditions of the minicompetition and shall notify the partners of the framework agreement of the result of
+the mini-competition. The contractor undertakes to sign the procurement contract
+within 3 working days of sending the procurement contract for signature at the latest.
+8. Error reporting, bug fixes and warranty
+8.1. Error corrections are corrections to work that are discovered and eliminated during
+the period of validity of the procurement contract. The guarantee will enter into force
+at the end of the procurement contract.
+8.2. A party shall notify the other party of any detected defects as soon as possible in the
+agreed manner. The party that discovered the error registers the error, indicating the
+cause of the error, the expected deadline for correcting the error and its criticality, if
+possible.
+8.3. The contractor is obliged to carry out the error correction within the least possible
+time.
+8.4. If, after correcting the errors, the contractor delivers work in which errors continue to
+occur during the acceptance testing of the contracting authority (second handover of
+the work with errors), the contracting authority may decide whether to give the
+contractor a new deadline for correcting the errors or to eliminate the errors itself or
+9
+
+with the help of a third party, reducing the remuneration paid to the contractor in
+proportion to the costs incurred for correcting the errors.
+8.5. The contractor shall provide a guarantee for the works performed on the basis of the
+procurement contract for at least 12 months (specified in the procurement documents
+of the mini-competition), if it is objectively possible. The relevant agreement is noted
+in the procurement contract each time.
+8.6. The warranty covers all defects and non-conformities that occur in the work during
+the warranty period, which have not arisen as a result of the actions of the customer
+or third parties. The warranty also covers changes and modifications to all work that
+have been done by the contractor and that have not significantly changed the work
+previously performed.
+8.7. The contractor shall eliminate defects and non-conformities in the works during the
+warranty period free of charge, including updating or replacing all related documents.
+8.8. If the contractor proves that the defect eliminated was not covered by the warranty,
+the contracting authority will reimburse the direct costs incurred by the contractor in
+connection with the rectification of the defect. The compensation of costs is based on
+the price of one working hour for the performance of the works fixed in the
+procurement contract within the framework of which the error has been discovered.
+8.9. If the contractor is unable to eliminate the errors by the agreed deadline, the
+contracting authority may eliminate them themselves or arrange for them to be
+eliminated with the help of a third party, notifying the contractor thereof. The
+customer has the right to demand compensation from the contractor for all costs
+incurred in connection with the elimination of the defect in the manner described
+above, if it was a defect covered by the warranty.
+9. Intellectual Property
+9.1. The intellectual property rights to the results of the work performed under the
+procurement contract belong to the contracting authority on the terms and conditions
+set out in this contract, if it is objectively possible (to be specified in the minicompetition according to the object of the contract). The fee for the transfer and
+licensing of copyrights is included in the procurement contract fee.
+9.2. If possible, the Customer shall have all the author's economic rights and exclusive
+licence to the results of the work, including the right to reproduce, process, distribute
+and make available to the public the documents prepared by the Contractor in the
+performance of the procurement contract in any form and on any medium, without
+geographical restrictions and for an indefinite period. The proprietary rights and
+exclusive licence shall be deemed to have been transferred to the contracting authority
+upon the signing of the act of delivery and receipt by the parties.
+9.3. The contracting authority has the right to carry out developments and changes to the
+results of the work itself or to order it from a third party without applying for additional
+permission from the contractor and without notifying the contractor, provided that in
+the case of such developments and changes it is clearly understood that the author of
+such developments and changes is not the contractor. If this is not clear, the
+contracting authority must notify the contractor in advance and give the contractor the
+opportunity to demand that their name be removed from the results of the work.
+9.4. The customer has the right to freely use what has been developed under the contract,
+including the right to give the work created on the basis of the procurement contract
+to third parties for use.
+9.5. The provisions of this chapter may be amended or specified in the procurement
+documents of the mini-competition.
+
+10
+
+10. Confidentiality obligation
+10.1.
+The parties undertake not to disclose confidential information received under
+the Agreement to third parties, except in cases provided for by law.
+10.2.
+The parties shall comply with all applicable data protection and information
+security legislation.
+10.3.
+The parties shall forward confidential information only to those persons who
+are directly involved in the performance of the procurement contract and shall ensure
+that such persons are aware of and comply with the requirement of confidentiality.
+10.4.
+By confidential information, the parties mean personal data that have become
+known in the course of the performance of the procurement contract and information
+to which access restrictions have been imposed, as well as other information the
+disclosure of which could harm the interests of the parties.
+10.5.
+The responsibility for the performance of the confidentiality obligation lies with
+the party for all persons involved by it in the performance of the contract.
+10.6.
+The confidentiality requirement is valid for an indefinite period. Due to the
+nature of the confidential information, the customer has the right to set additional
+requirements and/or instructions for the processing of personal data.
+10.7.
+The parties shall not disclose (including in the media) information created or
+become known in the course of the performance of the procurement contract without
+the written consent of the other party before the signing of the final act of delivery and
+acceptance of the procurement contract.
+10.8.
+The obligation of confidentiality is valid for an indefinite period.
+11. Responsibility
+11.1. The parties are liable for any breach of their contractual obligations pursuant to the
+law and the procedure laid down in the contract. A party's liability for damage caused
+by a breach of procurement contract is limited to the price of a one-time procurement
+contract excluding VAT. The limitation of liability does not apply in the event of an
+intentional breach of contract.
+11.2.The contractor is liable for the actions and violations of its subcontractors and their
+representatives or employees, such as its own actions. In the case of subcontracting,
+the Contracting authority's approval of the subcontracting performance of any part of
+the procurement contract shall not relieve the contractor of any of its contractual
+obligations. The contractor may not transfer its contractual obligations to a third party
+or involve a third party for the performance of its contractual obligations without the
+express written consent of the contracting authority.
+11.3.If the Contracting authority delays the payment of the Fee on the basis of a duly
+submitted invoice to the Contractor beyond the term agreed upon in the Contract, the
+Contractor shall have the right to demand a fine for delay of up to 0.5% of the delayed
+amount from the Contracting authority who has delayed payment for each calendar
+day of delayed payment.
+11.4.If the contractor delays the delivery of the work or part of the work beyond the term
+agreed upon in the contract, the contracting authority has the right to demand a
+contractual penalty of up to 0.5% of the remuneration payable under the procurement
+contract for each calendar day delayed in delivery. The contracting authority may also
+demand payment of a contractual penalty for the time when the contractor makes
+corrections to the work in connection with the non-compliance of the work with the
+contract. The contractor shall not be liable for delays in delivery if the delay was caused
+solely by circumstances dependent on the contracting authority. If a violation of other
+provisions of the procurement contract is detected, the contracting authority has the
+
+11
+
+right to demand and the contractor is obliged to pay a contractual penalty of up to
+1000 euros for each violation.
+11.5.If a breach of confidentiality obligations is established, the injured party has the right
+to demand and the party that violated the confidentiality obligation is obliged to pay a
+contractual penalty of up to 5000 euros for each respective violation. The right to
+determine the amount of the contractual penalty lies with the party filing the
+contractual penalty claim.
+11.6.
+In the event of a material breach of the contract, the contracting authority has
+the right to submit a contractual penalty claim of up to 10,000 euros to the contractor
+for each violation. In the event of a significant breach of a procurement contract by a
+contractor, the contracting authority does not have to set an additional term specified
+in § 114 of the Law of Obligations Act for the performance of the contractor's contract,
+and the contracting authority has the right, among other things, to cancel the
+procurement contract or withdraw from the procurement contract.
+11.7. In addition to the provisions of the Law of Obligations Act, a material violation
+includes, among other things, the following:
+11.7.1. failure to award the procurement contract without a good reason or failure to
+commence its performance;
+11.7.2. lack of rights (including permits, licences, intellectual property rights) necessary
+for the performance of the contract;
+11.7.3. violation of intellectual property rights and the terms and conditions of their
+use;
+11.7.4. repeated (at least twice) replacement of a crew member by a person who does
+not meet the agreed requirements, or replacement of a crew member without the
+prior consent of the participant, at least in a format that can be reproduced in
+writing;
+11.7.5. repeated (at least twice) non-performance of contractual obligations;
+11.7.6. failure to deliver the matter on time in such a way that the fulfilment of the
+purpose of the procurement contract is no longer realistic within the deadline
+and/or due to the actions or omissions of the contractor, it is no longer possible
+to use the funds intended for financing the public contract;
+11.8.
+transfer of contractual obligations to a third party without concluding a
+corresponding amendment to the contract.
+11.9.
+Contractual penalties and interest on arrears shall be paid within 21 calendar
+days from the receipt of the respective claim.
+11.10.
+The payment of contractual penalties and interest on arrears arising from the
+contract, as well as compensation for the damage caused, shall not release the party
+that violated the procurement contract from the performance of any obligations under
+the contract.
+11.11.
+In the event of non-performance of the obligations assumed under the
+procurement contract or damage caused to the contracting authority or third parties
+by improper performance, the contractor undertakes to restore the situation prior to
+causing the damage or to compensate the costs incurred by the contracting authority
+for the restoration of the situation.
+11.12.
+The parties may reduce the claim for contractual penalty, interest on arrears or
+compensation for damage by agreement and agree on other additional obligations
+instead of the claim. A party has the right to set off its claim against the other party's
+claim.
+
+12
+
+11.13.
+Without prejudice to the other provisions of the Agreement, the parties shall
+take reasonable steps to reduce the damage that is or may be the basis for any claim
+for damages under the Agreement.
+12. Entry into force, amendment and termination of the agreement
+12.1.The framework agreement and the procurement agreement enter into force once the
+parties have signed the agreement.
+12.2.
+The framework agreement and the procurement contract shall be terminated
+upon the performance of contractual obligations, the cancellation of the respective
+procurement contract or on any other basis arising from the law.
+12.3.
+The contracting authority may terminate the framework and procurement
+contract at any time in writing without prior notice. In this case, the customer
+undertakes to accept the work done by the time of cancellation and pay a fee for it
+according to the volume of work performed. The customer is not obliged to pay for the
+work or a part thereof that does not comply with the conditions set out in the
+procurement contract and its annexes.
+12.4.
+The framework agreement and the procurement contract may be amended
+under the conditions set out in the procurement contract by a written agreement
+between the parties, which is formalised as an annex to the contract.
+13. Forwarding notices and contact persons
+13.1.Notices are generally forwarded by e-mail, subject to the terms and conditions of the
+Rules of Procedure, if any. In the case of sending by e-mail, including digitally signed
+documents, the notice is deemed to have been received at the time indicated in the
+notice of arrival or at the time indicated in the e-mail.
+13.2.
+If the forwarding of the notice has significant legal consequences, the notice
+must be sent digitally signed by a party with the right to sign. An informative message
+can also be sent by phone. A notice that does not have legal consequences is considered
+informative.
+13.3.
+A written notice is deemed to have been received by a party if it is handed over
+against a signature or if the notice has been sent by registered mail by a post office to
+the address notified by the party and 5 calendar days have passed from the posting.
+13.4.
+The customer's contact person(s) are: .... ..., telephone ...., e-mail: .... or his
+substitute;
+13.5.
+The contact person(s) of the contractor are: ..., ...., phone ... E-mail: .... or his
+substitute;
+13.6.
+It is the competence of the contact persons to provide the other party with the
+necessary information and instructions within the limits of their competence, to give
+consent to the change of team member, to check the quality of the procurement
+contract performed, to transfer the object of the procurement contract and to accept
+and sign the act.
+13.7.
+If the contact person changes, a party shall immediately notify the other party
+in writing.
+14. Final provisions
+14.1.Disputes related to the framework agreement that the parties have not been able to
+resolve through negotiations will be submitted to Harju County Court for resolution.
+
+13
+
+14.2.
+Estonian law applies to the framework agreement. As this is a mixed type of
+contract, in addition to general contractual legal remedies, legal remedies arising from
+the law must also be taken into account, which are used on the basis of Chapter 35 or
+36 of the Law of Obligations Act, depending on the nature of the violation.
+14.3.
+In matters not regulated by the framework agreement or in a situation where a
+provision of the agreement is in conflict with the law, the legislation in force in the
+Republic of Estonia shall be taken into account.
+15. Annexes that are not signed with the framework agreement
+15.1.Annex 1 - Technical specifications;
+15.2.
+Annex 2 – Draft procurement contract;
+15.3.
+Annex 3 – Data Processing Agreement;
+15.4.
+Annex 4 – Every contractor's tender.
+
+16. Signatures of the parties
+
+Contracting authority:
+...
+
+Contractors:
+...
+
+/digitally signed /
+
+/digitally signed /
+
+14
+
+Annex 2
+DRAFT PROCUREMENT CONTRACT
+Estonian Centre for International Development (hereinafter referred to as the
+customer or contracting authority), registry code 90015347, Tatari street 1, 10116
+Tallinn, who is represented by a member of the management board Klen Jäärats
+and
+___ (hereinafter the contractor), represented by __
+hereinafter separately or jointly by the parties, have entered into this procurement contract
+(hereinafter the contract) in the following:
+1. Subject-matter of the contract
+1.1. The object of the contract is the works specified in the technical specifications of the
+mini-competition "___" with the reference number __ (hereinafter the works).
+1.2. The volume of contracted work in hours/months/cost/maximum volume, etc.
+1.3. The contract is funded by __.
+2. Terms and conditions of performance of works
+2.1. The contractor will hand over the work day.month.year/months from the conclusion
+of the contract.
+2.2. In the case of an hourly contract, the contractor submits a time report for the
+previous month's working hours, which includes the hours worked and the work
+performed during them. The time report shall be submitted signed no later than on
+the 5th working day of the following calendar month. The last time report shall be
+submitted together with the act.
+2.3. The ordered works will be handed over according to the terms agreed upon in the
+technical specifications of the contract.
+2.4. The customer inspects the work in accordance with the terms and conditions of the
+framework agreement.
+2.5. Together with the work to be handed over, the contractor transfers all intellectual
+property rights to the work to the customer as described in the framework agreement.
+2.6. Warranty terms and conditions.
+2.7. Contact persons, if different from those specified in the framework agreement.
+2.8. All the differences compared to the provisions of the framework agreement are
+entered here.
+3. Contract value
+In the case of an hourly contract:
+3.1. The contract is performed on an hourly basis, the customer pays only for the working
+hours ordered and performed on the basis of the contract.
+3.2. The cost of one working hour in the performance of the contract is ____ (cost in
+words) euros excluding VAT.
+3.3. The reserve of the procurement contract is 10% of the maximum volume of the
+procurement contract.
+3.4. The contractor submits an e-invoice to the customer in accordance with the regulation
+of the framework agreement.
+15
+
+If it's a fixed total cost:
+3.5. The customer pays a total of ___ (cost in words) euros excluding VAT for the works
+ordered under the contract.
+3.6. The works will be handed over in the following stages:
+3.6.1. ____;
+3.6.2. ____.
+3.7. The reserve of the procurement contract is 10% of the maximum volume of the
+procurement contract.
+3.8. The contractor submits an e-invoice to the customer in accordance with the regulation
+of the framework agreement.
+4. Final provisions
+4.1. The Agreement enters into force from the moment it is signed by the Parties and is
+valid until the Parties perform their contractual obligations.
+4.2. The contract documents consist of the procurement documents of the public
+procurement, including the annexes to the contract, amendments to the contract and
+the tender.
+4.3. The following documents are integral parts of the contract at the time of conclusion of
+the contract:
+4.3.1. Annex 1 – Technical specifications;
+4.3.2. Annex 2 – Tender;
+4.3.3. ___.
+5. Signatures of the parties
+Contracting authority:
+Estonian Centre for International
+Development
+Resgirty code: 70000941
+E-mail: info@estdev.ee
+(digitally signed)
+__
+Member of the Management Board
+
+16
+
+Contractor:
+___
+Regsitry code: __
+E-mail: __
+(digitally signed)
+__
+__
+
+Annex 3
+DATA PROCESSING AGREEMENT
+This addendum to the contract concerning the processing of personal data (hereinafter: the
+addendum) is an integral part of the procurement contract concluded "___" (reference
+number __) concluded between the Estonian Centre for International Development
+(hereinafter: Data Controller3) and ___ (hereinafter: Data Processor4) for the
+performance of the activities specified in the contract among the target group (hereinafter:
+customer).
+1. Purpose of the agreement
+1.1. The purpose of this Addendum is to agree on the rights and obligations of the Data
+Processor in the processing of personal data, which guide the Parties in the
+performance of the contract (hereinafter referred to as the Services). The Annex shall
+enter into force after its signature by both parties. The Addendum shall be applied if
+the Data Processor processes the Customer's Personal Data on behalf of the Data
+Controller in accordance with the Agreement. This Annex constitutes a data processing
+agreement for the processing of personal data in accordance with the General Data
+Protection Regulation (2016/679) of the European Union (hereinafter: GDPR).
+1.2. The categories of data subjects and the types of personal data that are processed in the
+provision of the service (hereinafter: customer data), the duration, nature and
+purposes of the processing of personal data, and the instructions given by the
+controller are set out in the procurement documents of the procurement, the contract
+and its annexes.
+1.3. The Parties undertake to comply with all applicable data protection laws in relation to
+any personal data that has been shared under the Agreement.
+1.4. In the event of any conflict between the Agreement and the provisions of this Annex,
+the provisions of this Annex shall prevail.
+2. Definitions
+2.1. For the purposes of this Annex, the definitions of the General Regulation are used in
+this Annex, including: the following definitions:
+2.1.1. „Appropriate technical and organisational measures“ means processes and
+procedures which, taking into account technological progress and the cost of
+implementation and personal data, ensure a level of security appropriate to the
+extent of the damage resulting from any unauthorised or unlawful processing of
+personal data, or from accidental loss, destruction or damage.
+2.1.2. "Data Protection Laws" means the General Data Protection Regulation and
+other legislation governing the processing of personal data in force in the Republic
+of Estonia and their implementing or supplemental acts together with their
+amendments, amendments or replacements, any enforceable guidelines and
+codes of practice issued by any local or EU regulatory authority responsible for
+the protection of personal data.
+2.1.3. "processing of personal data" means any operation or set of operations which is
+performed on personal data or on sets of personal data, whether or not by
+automated means, such as collection, recording, organisation, structuring,
+storage, adaptation or alteration, retrieval, consultation, use, disclosure by
+transmission, dissemination or otherwise making available, alignment or
+combination, restriction, erasure or destruction.
+3 Contracting authority/ customer
+4 tenderer/ contractor/ service provider/ agent
+
+17
+
+2.1.4. "personal data" means any information relating to an identified or identifiable
+natural person (hereinafter referred to as a data subject). An identifiable natural
+person is one who can be identified, directly or indirectly, in particular by
+reference to an identifier such as a name, an identification number, location
+information, an online identifier or to one or more factors specific to the physical,
+physiological, genetic, mental, economic, cultural or social identity of that natural
+person;
+2.1.5. "personal data breach" means a breach of security that causes accidental or
+unlawful destruction, loss, alteration or unauthorised disclosure of personal data
+transmitted, stored or otherwise processed.
+3. Data protection and processing of personal data
+3.1. Obligations of the processor:
+3.1.1. The Data Processor undertakes to process Customer Data in accordance with data
+protection laws and the Agreement and only to the extent necessary for the
+provision of the Service. If it is necessary for the performance of a contract, the
+processor may also process customer data for the following purposes: i)
+maintenance and use of relevant IT systems; (ii) activities related to quality, risk
+and customer management.
+3.1.2. The processor shall process personal data only on the basis of documented
+instructions from the controller, including in connection with the transfer of
+personal data to a third country or an international organisation, unless it is
+obliged to do so by the law applicable to the processor. In such a case, the
+processor shall notify the controller of this legal claim before processing the
+personal data, unless such notification is prohibited by the right in question due
+to overriding public interest.
+3.1.3. The processor informs data subjects of the terms and conditions of processing
+their personal data.
+3.1.4. The processor is responsible for the accuracy of the personal data provided to
+the controller.
+3.1.5. The processor undertakes to contact the controller within a reasonable period
+of time for clarification or further instructions if the processor is unsure of the
+controller's instructions. The Data Processor shall inform the Data Controller of
+any discrepancies found between the Code and the data protection laws or
+regulations of the European Union or a competent jurisdiction, in which case the
+Data Processor may immediately refuse to comply with the Data Controller's
+Instructions.
+3.1.6. The Data Processor may use other Data Processors (hereinafter referred to as
+the Other Data Processor) for the processing of Customer Data only with
+the written consent of the Data Controller. Without the written consent of the
+controller, the processor may use other processors for the processing of customer
+data only if it is necessary for the IT service providers of the processor for the
+operation of information and communication systems and for the organisation
+and performance of maintenance. The processor is responsible for the activities
+of all other processors in the same way as for its own activities and enters into
+written contracts with another processor for the processing of personal data in
+accordance with Article 28(4) of the GDPR, which are equivalent to (and no less
+strict) to those provided for in the contract. If the processor wishes to involve other
+processors in the processing of personal data during the term of the contract, the
+processor shall notify the controller thereof in writing. The parties agree that if the
+involvement of another processor is important for the functioning of the
+18
+
+processor's activities and the controller has no objections to the reliability of the
+other processor, the controller agrees to the involvement of the other processor in
+the processing of personal data. The Data Controller shall confirm its agreement
+to engage the other Data Processor in writing. If the Data Controller has
+authorised the Data Processor to use other Data Processors for the performance
+of its obligations under this Agreement, the Data Processor will only be the contact
+person for responding to questions arising from this Agreement for the Data
+Controller, and the Data Processor shall ensure that the other Data Processor
+complies with the requirements of this Agreement and is bound by it in the same
+way as the Data Processor itself. The controller may revoke the authorisation
+granted to the processor to use other processors at any time.
+3.1.7. The Data Processor undertakes to keep the Customer Data that has become
+known in the course of the performance of the Contract to be strictly confidential
+and not to use or disclose the Customer Data for any purpose other than as
+specified in the Agreement. Also, to ensure that the persons authorised to process
+personal data (including other processors, employees of the processor, etc. who
+have access to the personal data processed in the course of the performance of the
+contract) comply with the confidentiality requirement or are subject to the
+obligation of confidentiality under the articles of association.
+3.1.8. The processor shall take all the measures required by Article 32 of the GDPR for
+the processing of personal data and implement appropriate technical and
+organisational measures in such a way that the processing complies with the
+requirements set out in the GDPR.
+3.1.9. The Data Processor undertakes to implement appropriate technical and
+organisational security measures to protect the Customer's Data against
+accidental or unlawful destruction, loss, alteration and unauthorised disclosure or
+access to the Customer's Data, incl.:
+• prevent unauthorised persons from accessing the equipment used to
+process the data;
+• prevent unauthorised reading, copying and modification of data, as well as
+unauthorised transfer of data carriers;
+• prevent unauthorised storage, alteration and deletion of data and ensure
+that it is possible to determine retrospectively when, by whom and what
+personal data were stored, altered or deleted, or when, by whom and to
+which data access was obtained;
+• ensure that each user of the customer's data has access only to the data
+authorised for processing and to the data authorised by the customer;
+• ensure the availability of data on the data transfer: when, to whom and
+what personal data was transferred, as well as the preservation of such
+data unchanged;
+• ensure that there is no unauthorised reading, copying, alteration or
+deletion of data during the transmission of data by means of data
+communication and the transport of data carriers.
+3.1.10. The processor shall, to the extent possible, assist the controller, by means of
+appropriate technical and organisational measures taken by the controller, to
+comply with the controller's obligations under the GDPR to respond to all requests
+of the data subject in the exercise of its rights, inter alia, by forwarding to the
+controller all requests for verification, rectification and erasure of the data
+received from the data subjects, objection to data processing and other requests
+to the controller immediately upon receipt thereof.
+
+19
+
+3.1.11. The processor assists the controller in fulfilling the obligations set out in Articles
+32-36 of the GDPR, taking into account the nature of the processing of personal
+data and the information available to the processor.
+3.1.12. The controller may carry out audits by requesting relevant information from the
+processor in writing for the purpose of verifying compliance with the obligations
+of the processor under the Annex. Controller audits may be carried out either by
+(i) the Data Controller or (ii) by a third party previously agreed with the Data
+Processor and authorised by the Data Controller. If the controller and the
+processor cannot agree on a third party who should conduct the audit, only the
+controller may conduct the audit. The request for information to the processor
+must specify what information, data and documents are requested from the
+processor as part of the audit. The Parties have agreed that: (1) the processor has
+an obligation to provide the controller with information, data and documents
+reasonably necessary to demonstrate compliance with the processor's contractual
+obligations, which may include existing security audit reports performed by third
+parties; 2) the processor does not disclose any information, data or other
+documents the disclosure of which would violate the confidentiality obligation
+arising from the relevant legislation or professional rules; (3) the processor shall
+not disclose any information, data or other documents relating to the resolution
+of an ongoing, potential or threatened lawsuit or other dispute between the
+controller and the processor. The controller shall treat all information obtained
+by the processor in the course of the audit as confidential. An audit may not be
+carried out more than once per calendar year and the relevant right shall in any
+case expire within 2 months after the processor ceases to process personal data on
+behalf of the controller.
+3.1.13. The processor directs all requests from supervisory authorities directly to the
+controller, as the processor does not have the right to represent or act on behalf of
+the controller in its interactions with supervisory authorities.
+4. Processing outside the European Union / European Economic Area
+4.1. The controller authorises the processor and other processors to transfer personal data
+to countries outside the European Economic Area, but only if they have a lawful basis
+to do so, including (i) to a recipient located in a country that ensures an adequate level
+of protection of personal data, or (ii) on the basis of a contract that meets the European
+Union's requirement for the transfer of personal data to processors outside the
+European Union.
+4.2. The Parties agree in advance in writing on any transfer or processing of Customer Data
+outside the European Union / European Economic Area.
+5. Notification of a personal data breach
+5.1. The processor shall notify the controller of any personal data breach or where there is
+reason to suspect that such a breach has occurred, without undue delay from the
+moment the data processor or another processor used by the processor becomes aware
+of the personal data breach or there is reason to suspect that such breach has occurred.
+5.2. The Data Processor shall, without undue delay and no later than forty-eight (48) hours
+after becoming aware thereof, provide the Data Controller with all relevant
+information regarding the personal data breach. To the extent that the relevant
+information is available to the processor, the notice shall describe at least the
+following:
+5.2.1. the nature, expected date and time of the personal data breach that occurred;
+
+20
+
+5.2.2. the name and contact details of the Data Protection Officer or other relevant
+contact person for further information;
+5.2.3. categories and approximate number of data subjects concerned, as well as the
+type and approximate number of relevant records of personal data;
+5.2.4. the likely consequences of a personal data breach, and
+5.2.5. the measures taken or will be taken by the processor to address the breach in
+order to prevent future breaches of personal data and, where appropriate,
+measures to mitigate the potential negative effects of the breach.
+5.3. The processor must immediately document the results of the investigation and the
+measures taken for the controller.
+5.4. The processor shall cooperate fully with the controller in order to develop and
+implement an action plan to remedy any personal data breaches.
+5.5. The controller is responsible for notifying the supervisory authority.
+6. Other provisions
+6.1. Upon termination of the Agreement, the Data Processor undertakes to return all
+Customer Data to the Data Controller or to delete the Data and copies thereof in
+accordance with the instructions given by the Data Controller, unless the applicable
+legislation requires the retention of Personal Data or if the Data Processor does not
+have a legal basis for processing Personal Data as an independent Data Controller.
+6.2. The processor shall issue to the controller a certificate signed by a person authorised
+to represent the processor, confirming that the operations specified in clause 6.1 of the
+Annex have been performed by the processor and all other processors used by the
+processor.
+6.3. The Data Processor shall be liable for any damage caused by the Data Processor as a
+result of the processing of personal data transferred to the Data Controller, data
+subjects or other third parties on the basis of the Agreement, which has been carried
+out in breach of the Agreement or legal provisions, and in particular as a result of the
+disclosure of personal data to unauthorised persons. If the applicable legislation or the
+Agreement is breached for reasons attributable to the Data Processor and as a result
+the Data Controller is obliged to pay compensation or a fine, the Data Processor is
+obliged to reimburse the Data Controller for the costs incurred in this regard. If the
+Data Processor fails to comply with the Agreement or performs it improperly, the Data
+Processor shall be obliged to pay a contractual penalty of EUR 1000 for each breach
+on the basis of a promissory note to be paid within 14 days after the respective claim
+has been issued by the Data Controller. Improper performance of the Agreement
+means, first and foremost, a situation where the supervisory authority supervising
+compliance with the principles of processing personal data finds that the Data
+Processor has not processed the data transferred to it in accordance with these
+principles. The Controller reserves the right to demand compensation for damage
+caused by the breach of the Contract in addition to the contractual penalty.
+6.4. The Data Processor shall notify the Data Controller in writing of any changes that may
+affect the Data Processor's ability or prospects to comply with this Annex and the
+written instructions of the Data Controller. The Parties shall agree on all additions and
+amendments to this Annex in writing.
+6.5. This Annex shall enter into force upon its signature by both Parties. The Addendum
+shall remain in force until (i) the agreement between the parties is in force or (ii) the
+parties have mutual obligations related to the processing of personal data.
+6.6. Obligations which, by their nature, must remain in force despite the expiry of this
+Annex shall remain in force after the expiry of this Annex.
+
+21
+
+Controller
+
+Processor
+
+22
+
+

@@ -1,0 +1,988 @@
+PAKKUMUSE ESITAMISE ETTEPANEK
+SISUKORD
+
+Hankija:
+
+1.
+
+Milline on protsess?
+
+2.
+
+Mida hangitakse?
+
+Sihtasutus Eesti Rahvusvahelise Arengukoostöö Keskus
+(90015347)
+
+3.
+
+Millised nõuded kehtivad
+
+pakkumusele?
+4.
+
+Kuidas kvalifitseeruda?
+
+5.
+
+Milline pakkuja kõrvaldatakse?
+
+6.
+
+Kuidas hankija pakkumused avab?
+
+7.
+
+Millal võib hankija kõik pakkumused
+
+tagasi lükata?
+8.
+
+Millal võib hankija menetluse
+
+kehtetuks tunnistada?
+9.
+
+Milline pakkumus võidab?
+
+10.
+
+Kuidas sõlmitakse leping?
+
+11.
+
+Kuidas toimub infovahetus?
+
+Hanke liik:
+Avatud hankemenetlus
+Riigihanke nimetus:
+Info- ja küberturvalisuse alased asjad ja teenused
+Riigihanke viitenumber:
+301036
+Lepingu liik:
+Kuni 7 pakkujaga raamleping osades 1-2 ja määramata arvu
+partneritega raamleping osas 3
+Lepingu eeldatav periood:
+48 kuud
+Lepingu eeldatav maksumus:
+5 MEUR osas 1, 9 MEUR osas 2, 13 MEUR osas 3. Kokku 27
+MEUR
+Taotluste esitamise ja avamise tähtpäev:
+
+LISAD:
+Raamleping (osa 1 ja 2)
+Raamleping (osa 3)
+RL lisa 1 – Tehniline kirjeldus
+RL lisa 2 – Hankelepingu projekt
+(sisalduvad RL failis)
+RL lisa 3 – Andmetöötlusleping (osa 1 ja 2)
+(sisaldub RL failis)
+PEE Lisa 1 – Nõuded pakkuja meeskonnale
+ja CV vorm
+
+Vastavalt hanketeatele
+Pakkumuste esitamise ja avamise tähtpäev:
+Vastavalt hanketeatele
+Pakkumuste esitamise ja avamise koht:
+Riigihangete register (riigihanked.riik.ee)
+Pakkumuse jõusoleku aeg:
+3 kuud
+Riigihanke eest vastutav isik:
+Siim Alatalu
+Infopäev:
+17.11.2025 kell 14:00-15:00, osalemislink on siin.
+
+PEE Lisa 2 – Turu-uuringu kokkuvõte
+
+TÄHELEPANU!
+Riigihanke alusdokumentide (edaspidi ka „alusdokumendid”) koostamisel on hankija lähtunud riigihangete
+seadusest (edaspidi „RHS”), hankija hangete läbiviimise korrast ja alusdokumentides sätestatud tingimustest.
+Alusdokumentides on kõik asjakohased seaduses viidatud dokumendid, sealhulgas:
+● Käesolev pakkumuse esitamise ettepanek koos kõikide lisadega;
+● Hankemenetluses riigihangete registris (edaspidi “register”) avaldatud teave, sh hanketeade (edaspidi
+“hanketeade”),
+kõrvaldamise
+alused
+(sh
+hankepassi
+vorm),
+kvalifitseerimistingimused,
+vastavustingimused, hindamiskriteeriumid (sh hindamismetoodika kirjeldus) ja kõik enne pakkumuste
+esitamise tähtpäeva saadetud info ja dokumendid, millega on muudetud, selgitatud või täpsustatud
+Alusdokumentide nõudeid.
+(RHS § 4 punkt 17)
+
+Seadusest tulenevalt võib hankija muuta hanketeadet ja/või alusdokumente enne pakkumuste esitamise
+tähtpäeva.
+(RHS § 81 ja 82, § 125 lg 5)
+
+1
+
+1. MILLINE ON PROTSESS?
+
+2
+
+2. MIDA HANGITAKSE?
+2.1.
+
+Lepingu ese. ESTDEV kavatseb sõlmida raamlepingud kolmes osas, kusjuures osades 1-2 kuni 7 eduka
+pakkujaga ja osas 3 ei ole maksimaalne partnerite arv määratud. Raamlepingud sõlmitakse osas 1
+konsultatsiooniteenuste soetamiseks, osas 2 analüüsi, arenduse ja rakenduste soetamiseks ning osas
+3 infrastruktuuri komponentide soetamise, paigaldamise ja seadistamise soetamiseks.
+
+2.2.
+
+Tehniline kirjeldus. Lepingu eseme tehniline kirjeldus on esitatud raamlepingute ühises lisas 1.
+
+2.3.
+
+Leping. Lepingu täitmise tingimused on esitatud alusdokumendis „Raamleping osa 1 ja 2“,
+„Raamleping osa 3“ ja „RL Lisa 2 – Hankeleping“.
+
+2.4.
+
+Jaotatus. Hange on osadeks jaotatud.
+
+2.5.
+
+Terviklik ja siduv. Alusdokumentide osad täiendavad üksteist ja moodustavad tervikliku aluse
+pakkumuse koostamiseks. Ükskõik millises dokumendis märgitud nõue on pakkujale siduv.
+
+2.6.
+
+Turu-uuring. Hankija viis läbi turu-uuringu. Turu-uuringu tulemused on leitavad lisas PEE lisa 2 – Turuuuringu kokkuvõte.
+
+3. MILLISED NÕUDED KEHTIVAD PAKKUMUSELE?
+PAKKUMUSE KOOSTAMINE
+3.1.
+
+Pakkumuse tingimused. Pakkumus peab vastama alusdokumentides sätestatud tingimustele.
+Pakkumuses esitatud andmed peavad olema esitatud viisil, mis võimaldavad hankijal kontrollida
+pakkumuse vastavust alusdokumendis toodud tingimustele.
+
+3.2.
+
+Pakkuja kinnitus. Pakkumuse esitamisega kinnitab pakkuja kõigi alusdokumentides esitatud
+tingimuste ülevõtmist.
+
+3.3.
+
+Pakkumuse keel. Pakkumuse keel on eesti ja/või inglise keel. Muudes võõrkeeltes esitatud
+dokumentidele peab lisama eesti- või inglisekeelse tõlke (v.a. reklaamprospektide ja muude
+reklaamdokumentide koopiad, mis võivad olla võõrkeelsed).
+
+3.4.
+
+Vasturääkivused alusdokumentides. Kui pakkuja avastab pakkumuse ettevalmistamise käigus
+alusdokumentides vigu, vasturääkivusi, ebaselgusi või mitmeti tõlgendatavust, on ta oodatud sellest
+koheselt hankijat registri kaudu teavitama ja sellekohase küsimuse esitama.
+
+3.5.
+
+Maksumuse tingimused. Pakkumuse maksumus esitatakse eurodes ja vastavalt registris toodud
+struktuurile. Pakkumuse maksumus peab olema lõplik. Maksumus peab sisaldama nii kõiki kulusid
+vastavalt Alusdokumendile kui ka seal nimetamata kulusid, mis on vajalikud lepingu nõuetekohaseks
+täitmiseks. Hankija ei hüvita lepingu täitmisel pakkujale mingeid täiendavaid kulusid ega tee
+täiendavaid makseid.
+
+3.6.
+
+Vasturääkivused vormides. Pakkujal võib olla vajadus esitada pakkumuse maksumus nii registri
+vormil kui ka hankija poolt koostatud vormil. Juhul, kui pakkuja esitatud andmed on neil vormidel
+erinevad, siis lähtub hankija pakkumuse hindamisel hankija koostatud vormil esitatud maksumustest.
+
+3.7.
+
+Eksitava ja tingimusliku pakkumuse välistamine. Pakkumus ei tohi olla mis tahes viisil eksitav.
+Pakkuja ei saa omalt poolt teha muudatusi, reservatsioone ega seada omapoolseid tingimusi
+alusdokumentides esitatud nõuete kohta. Tingimusliku pakkumuse esitamine ei ole lubatud.
+
+3.8.
+
+Alternatiivsed lahendused. Alternatiivsete lahenduste esitamine ei ole lubatud.
+
+3.9.
+
+Alltöövõtjad. Pakkuja toob pakkumuses välja lepingu selle osa suuruse ja iseloomu, mille suhtes
+pakkuja kavatseb sõlmida allhankelepinguid koos kavandatavate alltöövõtjate nimedega.
+
+3.10.
+
+Ühispakkujad. Ühispakkujad peavad esitama ühispakkumuse volikirja. Volikirjas peab pakkuja
+märkima iga ühispakkuja poolt täidetava lepingu osa suuruse ja iseloomu.
+
+3.11.
+
+Dokumendi formaat. Pakkumuse dokumendid tuleb esitada üldlevinud dokumendi formaadis (.pdf;
+.txt; .rtf; .odt ja MS Office formaadid).
+
+3
+
+3.12.
+
+Mahupiirang. Ühe üleslaetava faili maht ei tohi Registris ületada 100 MB. Pakkumuse dokumentide
+kogumaht ei tohi ületada 300MB.
+
+3.13.
+
+Kulud ja riskid. Huvitatud isik või pakkuja kannab hankemenetluses osalemisega seotud kogukulud
+ja -riski, kaasa arvatud vääramatu jõu (force majeure) toime võimalused.
+
+PAKKUMUSE ESITAMINE
+3.14.
+
+Pakkumuse esitamise õigus. Hankija piirab pakkujate ringi, lubades käesolevas riigihankes osaleda,
+sealhulgas isikuna, kelle vahenditele pakkuja RHS § 103 lõike 1 alusel tugineb, ainult RHS § 3 punktis 2
+nimetatud riikidest pärit ettevõtjatel.
+
+3.15.
+3.15.1.
+3.15.2.
+3.15.3.
+
+Pakkumuse sisu. Pakkumuse koosseisu peab olema esitatud lisaks RHR-i väljadele:
+Meeskonna CV vorm täidetuna ja eelistatult hankija vormil;
+Koostöönägemus, mis sisaldaks hindamisele kuuluvaid osi;
+Ühispakkujate volikiri, kui see vajalik on.
+
+3.16.
+
+Pakkumuse esitav isik. Pakkumus peab olema esitatud pakkuja seadusjärgse või volitatud esindaja
+poolt. Juhul, kui pakkumuse esitab isik, kes ei ole Eesti äriregistri registrikaardi väljatrükile kantud
+isikuna, kellel on pakkuja seadusjärgne esindamise õigus, siis peab pakkuja hankija nõudel esitama
+seadusjärgse esindaja(te) volikirja pakkuja esindamiseks.
+
+3.17.
+
+Välisriigi pakkuja. Kui pakkuja on registreeritud välisriigis, siis peab pakkumuse esitaja esitama
+hankija nõudel tõendi esindusõiguse olemasolu kohta.
+
+3.18.
+
+Registri tõrked. Hankija ei vastuta võimalike viivituste, tõrgete või katkestuste eest, mille põhjustavad
+Registris hankija kontrolli alt väljas olevad asjaolud nagu force majeure, elektrikatkestused, häired
+pakkuja või hankija telefoni- või internetiühenduses või muude elektrooniliste seadmete ja vahendite,
+sealhulgas tarkvara töös. Hankija ei vastuta Registri kasutamisest või mittekasutamisest tekkinud
+kahjude või saamata jäänud tulu eest.
+
+PAKKUMUSE VASTAVUS
+3.19.
+
+Vastavustingimused. Vastavustingimused asuvad registris hankemenetluse alusandmete all.
+
+3.20.
+
+Täpsustused. Hankijal on õigus küsida pakkujalt esitatud pakkumuse kohta täpsustavaid andmeid ja
+täiendavaid selgitusi.
+
+3.21.
+
+Vastavaks tunnistamine. Hankija tunnistab pakkumuse vastavaks, kui see vastab alusdokumentides
+sätestatud nõuetele. Hankija võib tunnistada pakkumuse vastavaks, kui selles ei esine sisulisi
+kõrvalekaldeid Alusdokumentides nimetatud tingimustest.
+
+3.22.
+
+Otsus. Hankija teeb pakkumuse vastavaks tunnistamise või pakkumuse tagasilükkamise kohta
+sellekohase põhjendatud kirjaliku otsuse.
+
+4. KUIDAS KVALIFITSEERUDA?
+4.1.
+
+Tingimused. Olemasolu korral asuvad kvalifitseerimistingimused registris
+alusandmete all, alajaotises Kõrvaldamise alused ja kvalifitseerimistingimused.
+
+4.2.
+
+Hankepass.
+Pakkuja
+esitab
+koos
+pakkumusega
+hankepassi,
+milles
+kinnitab
+kvalifitseerimistingimustele vastavust ja esitab nõutud andmed. Koos pakkumusega ei pea esitama
+kvalifikatsiooni tõendavaid dokumente.
+
+4.3.
+
+Teise ettevõtja vahenditele tuginemine. Pakkuja võib tõendada oma vastavust majanduslikule ja
+finantsseisundile esitatud nõuetele teise ettevõtja vahendite alusel. Sellisel juhul peavad pakkuja ja
+teine ettevõtja vastutama lepingu nõuetekohase täitmise eest ühiselt.
+
+4.4.
+
+Kvalifitseerimine. Hankija kvalifitseerib eduka pakkuja, kelle kvalifikatsioon vastab Alusdokumentides
+seatud pakkuja kvalifitseerimistingimustele. Edukaks tunnistatud pakkuja peab esitama hankepassis
+esitatud andmeid kinnitavad tõendid 5 tööpäeva jooksul alates vastava nõude saamisest (RHS § 104 lg
+9).
+
+5. MILLINE PAKKUJA KÕRVALDATAKSE?
+4
+
+hankemenetluse
+
+5.1.
+
+Kõrvaldamise alused. Pakkuja kõrvaldamise alused on avaldatud registris hankemenetluse
+alusandmete all, alajaotises Kõrvaldamise alused ja kvalifitseerimistingimused.
+
+5.2.
+
+Hankepass. Pakkuja esitab koos pakkumusega hankepassi, milles kinnitab kõrvaldamise aluste
+puudumist ja esitab nõutud andmed. Koos pakkumusega ei pea esitama tõendavaid dokumente.
+
+5.3.
+
+Kõrvaldamise otsus. Pakkuja hankemenetlusest kõrvaldamisel teeb hankija sellekohase põhjendatud
+kirjaliku otsuse. Kõrvaldatud pakkuja ei osale edasises riigihankes.
+
+6. KUIDAS HANKIJA PAKKUMUSED AVAB?
+6.1.
+
+Avamine. Hankija avab pakkumused elektrooniliselt registris.
+
+6.2.
+
+Mitteavalik. Pakkumuste avamine ei ole avalik. Pakkumuse esitanud pakkujatele avaldatakse peale
+pakkumuste avamist registris pakkujate nimed ja registrikoodid, registrikoodi puudumisel pakkuja
+tuvastamist võimaldav muu tunnus või isikukood või isikukoodi puudumisel sünniaeg ja esitatud
+pakkumuste maksumused, sealhulgas pakkumuse osamaksumused, kui neid arvestatakse
+pakkumuste hindamisel, ning muud pakkumuste hindamise kriteeriumidele vastavad pakkumust
+iseloomustavad numbrilised näitajad.
+
+7. MILLAL VÕIB HANKIJA KÕIK PAKKUMUSED TAGASI LÜKATA?
+7.1.
+
+Pakkumuste maksumus. Hankija võib kõik pakkumused tagasi lükata, kui kõigi pakkumuste või
+vastavaks tunnistatud pakkumuste maksumused ületavad lepingu maksumust.
+(RHS § 116 lg 1 p 1)
+
+7.2.
+
+Ebapiisav konkurents. Hankija võib kõik pakkumused tagasi lükata, kui ei ole tagatud piisav
+konkurents. See tähendab, et kui hankele laekub ainult kaks või vähem pakkumist või kui vastavaks
+tunnistatakse ainult üks pakkumus.
+
+7.3.
+
+Kõigi pakkumuste tagasilükkamise protsess. Hankija lükkab kõik pakkumused tagasi kirjaliku
+otsusega. Hankija peab oma otsust põhjendama.
+
+8. MILLAL VÕIB HANKIJA MENETLUSE KEHTETUKS TUNNISTADA?
+8.1.
+8.1.1.
+8.1.2.
+8.1.3.
+8.2.
+
+Põhjendatud vajadus. Hankijal on õigus põhjendatud vajadusel hankemenetluse kehtetuks
+tunnistada. Hankija põhjendatud vajadus on näiteks, kui:
+hankijal tekib vajadus lepingu eset olulisel määral muuta;
+tingimused, mis olid hankemenetluse aluseks, on oluliselt muutunud ning seetõttu on lepingu
+sõlmimine ebavajalik või võimatu;
+on ilmnenud ebakõlad, mida ei ole võimalik kõrvaldada ega menetlust seetõttu õiguspäraselt
+lõpule viia.
+Hankemenetluse kehtetuks tunnistamise protsess. Hankija tunnistab hankemenetluse kehtetuks
+kirjaliku otsusega. Otsus peab olema põhjendatud.
+
+9. MILLINE PAKKUMUS VÕIDAB?
+9.1.
+
+Hindamiskriteeriumid. Hankija hindab pakkumusi 100-väärtuspunkti süsteemis.
+
+9.2.
+
+Edukas pakkumus. Edukaks tunnistatakse majanduslikult soodsaim pakkumus alusdokumentides
+toodud hindamiskriteeriumide alusel. Hankija ei pea tunnistama edukaks pakkumust, mis ei ole
+saavutanud kvaliteedikriteeriumite puhul vähemalt 50% hindepunktidest.
+
+9.3.
+
+Hindamiskomisjon. Hankija moodustab pakkumuste hindamiseks hankekomisjoni, kuhu kuuluvad
+valdkonna eksperdid ja kes hindavad vastavaks tunnistatud pakkumusi kollektiivselt.
+Hindamiskomisjoni liikmed lähtuvad hindamisel hindamismetoodikas kirjeldatud põhimõtetest ning
+esitavad hindamise põhjendatud tulemused kollektiivses protokollis, mis on kõigi hindamiskomisjoni
+liikmete poolt allkirjastatud.
+
+9.4.
+
+Hindamiskriteeriumid. Hindamine toimub järgmiste hindamiskriteeriumite alusel:
+5
+
+Osa 1 ja 2 hindamiskriteeriumid
+Nr
+
+Kriteerium
+
+Kriteeriumi hindamismetoodika
+Osade 1 ja 2 hindamisel madalaima töötunni hinna
+pakkujale antakse 30 punkti. Järgnevad pakkumused
+saavad punkte proportsionaalselt vähem ja arvutatakse
+valemiga, mis on märgitud RHR-is. Pakkujal on keelatud
+esitada eksitavaid või null-hinnaga väärtusi.
+
+Ühe töötunni hind
+käibemaksuta
+
+1.
+
+Osakaal
+
+30
+
+Hankija sätestab, et juhul, ühe töötunni hind jääb alla 50
+EUR/h + km, siis omistatakse pakkujale 30 hindepunkti. See
+tähendab, et alla 50 EUR/h ühe töötunni hinna esitamist ei
+saa pakkuja hindamisel eelist.
+
+2.
+
+Meeskonna
+kompetentsus
+
+Pakkuja meeskonna kompetentsi hindamismetoodika on
+kirjeldatud käesoleva dokumendi punktis 9.5.
+
+45
+
+3.
+
+Koostöönägemus
+
+Pakkuja koostöönägemuse hindamismetoodika on
+kirjeldatud käesoleva dokumendi punktis 9.5.
+
+25
+Kokku: 100
+
+Osa 3 hindamiskriteeriumid
+Nr
+
+Kriteerium
+
+Kriteeriumi hindamismetoodika
+
+Osakaal
+
+1.
+
+Meeskonna
+kompetentsus
+
+Pakkuja kutsealase pädevuse hindamismetoodika on kirjeldatud
+käesoleva dokumendi punktis 9.5.
+
+60
+
+2.
+
+Koostöönägemus
+
+Pakkuja koostöönägemuse hindamismetoodika on kirjeldatud
+käesoleva dokumendi punktis 9.5.
+
+40
+
+Kokku: 100
+9.5.
+
+Hindamismetoodika. Kvaliteedi hindamisel toimub hindepunktide andmine hindamiskomisjoni
+poolt konsensuslikult alltoodud kriteeriumite hindamisskaalade ja -metoodikate kohaselt.
+Alakriteeriumitele antud punktide tulemused summeeritakse ja saadakse kvaliteedikriteeriumitele
+omistatud punktid. Pakkujale omistatakse kõrgemad punktid üksnes juhul, kui kõik kõrgemate
+punktide eeldused on täidetud:
+
+Osa 1 hindamismetoodika kriteeriumis „Meeskonna kompetents“
+Alakriteerium/punktid
+Projektijuhile seatud
+sertifikaadi alakriteerium
+
+5
+Projektijuht omab vähemalt ühte rahvusvahelist
+projektijuhtimise sertifikaati, näiteks Prince2, PMP või muu
+samaväärne
+
+Konsultandile seatud
+sertifikaadi alakriteerium
+
+Konsultant omab vähemalt ühte rahvusvahelist valdkonna
+kompetentsi näitavat sertifikaati, näiteks CISM, ISO 27001
+Lead Implementer, CISSP, TOGAF / GDSA, ITU/NATO Cyber
+Policy Cert või muu samaväärne
+Konsultandil on varasem kogemus rahvusvaheliselt läbi
+viidud kuues projektis, mille sisuks oli
+küberturvalisuslahenduse loomine ja implementeerimine.
+Projektid peavad olema lõppenud viimase viie aasta
+jooksul. Konsultandi ajaline panus igas projektis peab
+olema minimaalselt 150 tundi.
+15
+10
+Konsultant on teostanud
+Konsultant on teostanud
+vähemalt 15 rahvusvahelist
+10-14 rahvusvahelist
+projekti, mille sisuks on osas
+projekti, mille sisuks on
+1 märgitud lepingu esemega osas 1 märgitud lepingu
+sarnase teenuse osutamine.
+
+Konsultandi varasem
+kogemus
+küberturvalisuslahenduse
+loomise ja
+implementeerimisega
+projektides
+Alakriteerium/punktid
+Konsultandi rahvusvahelised
+projektid
+
+6
+
+0
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+
+0
+Ei täida 10
+hindepunkti
+saamise
+tingimusi.
+
+Konsultandi töökogemus
+
+Konsultandil on enam kui 10
+aasta (120 kuud) pikkune
+töökogemus
+küberturvalisuslahenduste
+loomisel ja
+implementeerimisel.
+
+esemega sarnase teenuse
+osutamine.
+Konsultandil on enam kui 7
+aasta (84 kuud) pikkune
+töökogemus
+küberturvalisuslahenduste
+loomisel ja
+implementeerimisel.
+
+Ei täida 10
+hindepunkti
+saamise
+tingimusi.
+
+Osa 2 hindamismetoodika kriteeriumis „Meeskonna kompetents“
+Alakriteerium/punktid
+Projektijuhile seatud
+sertifikaadi alakriteerium
+
+5
+Projektijuht omab vähemalt ühte rahvusvahelist
+projektijuhtimise sertifikaati, näiteks Prince2, PMP või muu
+samaväärne
+
+Konsultandile seatud
+sertifikaadi alakriteerium
+
+Konsultant omab vähemalt ühte rahvusvahelist valdkonna
+kompetentsi näitavat sertifikaati, näiteks CISM, ISO 27001
+Lead Implementer, CISSP, TOGAF / GDSA, ITU/NATO Cyber
+Policy Cert või muu samaväärne
+Küberturvalisuse ekspert omab vähemalt ühte
+rahvusvahelist valdkonna kompetentsi näitavat sertifikaati,
+näiteks CISM, ISO 27001 Lead Implementer, CISSP, TOGAF /
+GDSA, ITU/NATO Cyber Policy Cert või muu samaväärne
+Konsultandil on varasem kogemus rahvusvaheliselt läbi
+viidud kolmes projektis, mille sisuks oli
+küberturvalisuslahenduse loomine ja implementeerimine.
+Projektid peavad olema lõppenud viimase viie aasta
+jooksul. Konsultandi ajaline panus igas projektis peab
+olema minimaalselt 150 tundi.
+15
+10
+Konsultant on teostanud
+Konsultant on teostanud
+vähemalt 15 rahvusvahelist
+10-14 rahvusvahelist
+projekti, mille sisuks on osas
+projekti, mille sisuks on
+2 märgitud lepingu
+osas 2 märgitud lepingu
+esemega sarnase teenuse
+esemega sarnase teenuse
+osutamine.
+osutamine.
+10
+5
+Konsultandil on enam kui 10
+Konsultandil on enam kui 7
+aasta (120 kuud) pikkune
+aasta (84 kuud) pikkune
+töökogemus
+töökogemus
+küberturvalisuslahenduste
+küberturvalisuslahenduste
+loomisel ja
+loomisel ja
+implementeerimisel.
+implementeerimisel.
+
+Kübertuvalisuse eksperdile
+seatud sertifikaadi
+alakriteerium
+Konsultandi varasem
+kogemus
+küberturvalisuslahenduse
+loomise ja
+implementeerimisega
+projektides
+Alakriteerium/punktid
+Konsultandi rahvusvahelised
+projektid
+
+Alakriteerium/punktid
+Konsultandi töökogemus
+
+0
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+
+0
+Ei täida 10
+hindepunkti
+saamise
+tingimusi.
+0
+Ei täida 5
+hindepunkti
+saamise
+tingimusi.
+
+Osa 3 hindamismetoodika kriteeriumis „Meeskonna kompetents“
+Alakriteerium/punktid
+Projektijuhile seatud
+sertifikaadi alakriteerium
+Arhitektile seatud sertifikaadi
+alakriteerium
+
+Süsteemi administraatorile
+seatud sertifikaadi
+alakriteerium
+Arhitekti varasem kogemus IKT
+infrastruktuuri juurutamise
+projektides
+
+10
+Projektijuht omab vähemalt ühte rahvusvahelist
+projektijuhtimise sertifikaati, näiteks Prince2, PMP
+või muu samaväärne
+Arhitekt omab vähemalt ühte rahvusvahelist
+valdkonna kompetentsi näitavat sertifikaati, näiteks
+vähemalt ühte rahvusvahelist projektijuhtimise
+sertifikaati, näiteks TOGAF, CCNP Enterprise; COBIT
+/ ITIL v4 või muu samaväärne
+Süsteemi administraator omab vähemalt ühte
+rahvusvahelist valdkonna kompetentsi näitavat
+sertifikaati, näiteks Security+, CySA+, MCSA / RHCSA;
+CCNP Security / CCNA CyberOps või muu
+samaväärne
+Arhitektil on varasem kogemus läbi viidud kuues
+projektis, mille sisuks oli IKT infrastruktuuri
+juurutamine. Projektid peavad olema lõppenud
+viimase viie aasta jooksul. Arhitekti ajaline panus
+igas projektis peab olema minimaalselt 150 tundi.
+7
+
+0
+Ei täida 10
+hindepunkti saamise
+tingimusi.
+Ei täida 10
+hindepunkti saamise
+tingimusi.
+Ei täida 10
+hindepunkti saamise
+tingimusi.
+Ei täida 10
+hindepunkti saamise
+tingimusi.
+
+Alakriteerium/punktid
+Arhitekti töökogemus
+
+Süsteemi administraatori
+töökogemus
+
+10
+Arhitektil on enam kui 10
+aasta (120 kuud) pikkune
+töökogemus IKT
+infrastruktuuri
+juurutamisel.
+Süsteemi administraatoril
+on enam kui 10 aasta (120
+kuud) pikkune
+töökogemus IKT
+lahenduste süsteemi
+administaatorina.
+
+5
+Arhitektilon enam kui 7
+aasta (84 kuud)
+pikkune töökogemus
+IKT infrastruktuuri
+juurutamisel.
+Süsteemi
+administraatoril on
+enam kui 7 aasta (84
+kuud) pikkune
+töökogemus IKT
+lahenduste süsteemi
+administaatorina.
+
+0
+Ei täida 5 hindepunkti
+saamise tingimusi.
+
+Ei täida 5 hindepunkti
+saamise tingimusi.
+
+Osa 1 ja 2 hindamismetoodika kriteeriumis „Koostöönägemus“
+Punktid
+
+25
+
+15
+
+0
+
+Koostöönägemus
+
+Pakkujal on selge ettekujutus
+perspektiivsest koostööst hankija, projekti
+partnerite ja teiste seotud osapooltega,
+ning selle võimalikest vormidest. Pakkuja
+nägemus koostööst vastab hankija
+vajadustele ja töö iseloomule. Soovid
+hankija ja projekti partnerite poolt töö
+käigus garanteeritava osas on põhjendatud
+ja realistlikud. Pakkuja on ette näinud
+omapoolse koostöövormi, mis lisab hankija
+ootustele lisandväärtust. Kirjeldatud on
+näiteks pakkuja projektijuhtimise
+metoodikaid, vastavust rahvusvahelistele
+standarditele, ettevõttes rakendatavaid
+protseduure mis tagavad tellitavate tööde
+ajakohase elluviimise, pakkuja kasutatavaid
+lahendusi tarnekindluse tagamiseks,
+pakkuja suutlikkust tegutseda erinevates
+riikides, andmekaitse korraldus ettevõttes,
+partnerite kaasamine kohapeal projektide
+elluviimisel jne.
+
+Pakkujal on
+ettekujutus
+koostööst hankija,
+projekti partnerite
+ning teiste seotud
+osapooltega.
+Kirjelduses esineb
+väiksemaid
+puudujääke,
+ebatäpsusi ja
+küsitavusi.
+
+Pakkumuses esineb
+hulgaliselt (rohkem
+kui 3) olulisi
+puudujääke ja/või
+ebatäpsusi, tekib
+kahtlus, kas pakkuja
+suudab töö käigus
+teha koostööd
+hankija, projekti
+partnerite ning
+teiste seotud
+osapooltega.
+
+Osa 3 hindamismetoodika kriteeriumis „Koostöönägemus“
+Punktid
+
+40
+
+20
+
+0
+
+Kvaliteet
+
+Pakkujal on selge ettekujutus
+perspektiivsest koostööst hankija, projekti
+partnerite ja teiste seotud osapooltega, ning
+selle võimalikest vormidest. Pakkuja
+nägemus koostööst vastab hankija
+vajadustele ja töö iseloomule. Soovid hankija
+ja projekti partnerite poolt töö käigus
+garanteeritava osas on põhjendatud ja
+realistlikud. Pakkuja on ette näinud
+omapoolse koostöövormi, mis lisab hankija
+ootustele lisandväärtust. Kirjeldatud on
+näiteks pakkuja projektijuhtimise
+metoodikaid, vastavust rahvusvahelistele
+standarditele, ettevõttes rakendatavaid
+protseduure mis tagavad tellitavate tööde
+ajakohase elluviimise, pakkuja kasutatavaid
+lahendusi tarnekindluse tagamiseks,
+pakkuja suutlikkust tegutseda erinevates
+riikides, andmekaitse korraldus ettevõttes,
+partnerite kaasamine kohapeal projektide
+elluviimisel jne.
+
+Pakkujal on
+ettekujutus koostööst
+hankija, projekti
+partnerite ning teiste
+seotud osapooltega.
+Kirjelduses esineb
+väiksemaid
+puudujääke,
+ebatäpsusi ja
+küsitavusi.
+
+Pakkumuses esineb
+hulgaliselt (rohkem
+kui 3) olulisi
+puudujääke ja/või
+ebatäpsusi, tekib
+kahtlus, kas pakkuja
+suudab töö käigus
+teha koostööd
+hankija, projekti
+partnerite ning teiste
+seotud osapooltega.
+
+8
+
+9.6.
+
+Võrdsed pakkumused. Juhul, kui enim väärtuspunkte saanud pakkumused on väärtuspunktide
+arvult võrdsed, valitakse edukas pakkumus esmalt meeskonna kompetentsi eest saadud punktide
+alusel ja seejärel koostöönägemuse eest saadud punktide alusel. Kui ka need kattuvad osades 1-2, siis
+tuvastatakse edukas pakkumus liisuheitmise teel. Osa 3 puhul liigutakse kohe liisu heitmise juurde.
+Hankija määrab liisu heitmise korra, aja ja koha. Pakkuja poolt osalevad liisuheitmisel pakkuja
+seadusjärgne või volitatud esindaja.
+
+10.
+10.1.
+
+KUIDAS SÕLMITAKSE LEPING?
+
+Lepingu sõlmimine. Leping sõlmitakse vastavas osas märgitud koguses edukaks tunnistatud
+pakkujaga. Leping sõlmitakse lepingu projektis kindlaksmääratud tingimustel.
+(Lepingu projekt asub RHAD hulgas)
+
+10.2.
+
+Lepingu allkirjastamine. Leping allkirjastatakse digitaalselt. Pakkuja peab lepingu allkirjastama ning
+tagastama tema poolt allkirjastatuna hankijale 5 tööpäeva jooksul. Välispakkuja puhul on eelistatud eallkirjastamine, kui digiallkirjastamine ei ole võimalik.
+
+10.3.
+
+Muul kujul lepingu allkirjastamine. Juhul, kui lepingu allkirjastamine digitaalselt ei ole võimalik,
+saadab hankija edukaks tunnistatud pakkumuse esitanud pakkujale kaks hankija poolt allkirjastatud
+lepingu eksemplari. Leping loetakse kättesaaduks tähitud kirja vastuvõtmise järel. Edukaks
+tunnistatud pakkumuse esitanud pakkuja peab ühe lepingu eksemplari allkirjastatult tagastama
+hankijale 10 kalendripäeva jooksul lepingu kättesaamisest arvates. Hankija võib vajaduse korral
+lepingu tagastamise tähtaega pikendada.
+
+10.4.
+
+TÄHELEPANU! Kui edukas pakkuja ei pea kinni allkirjastamise tähtajast ja ei tagasta tema poolt
+allkirjastatud lepingut tähtaegselt, siis on hankijal õigus lugeda pakkumus tagasivõetuks ning
+alustada kõigi ülejäänud pakkumuste uuesti hindamist. Lisaks on hankijal õigus allkirjastamise
+nõudest mitte kinni pidanud pakkujalt nõuda kahju hüvitamist. Samasugune õigus on hankijal ka
+juhul, kui edukas pakkuja ei asu nõustumuse andmisega sõlmitud lepingut endast tulenevatel
+põhjustel täitma määratud tähtaja jooksul täitma.
+(RHS § 119)
+
+11. KUIDAS TOIMUB INFOVAHETUS?
+KUI PAKKUJA SOOVIB LISAINFOT:
+
+KUI HANKIJA SOOVIB LISAINFOT:
+
+11.1. Hanketeate ja alusdokumentide sisu kohta
+saab selgitusi pöördudes hankija poole
+kirjalikult
+registri
+kaudu.
+Pöördumise
+esitamiseks tuleb registreerida ennast
+registris vastava hankemenetluse juurde.
+Pöördumise saab esitada teabevahetuse
+töölehel. Telefoni ega e-kirja teel küsimusi
+vastu ei võeta.
+
+11.4. Hankija võib pakkujalt nõuda täiendavaid
+dokumente. Sellise päringu eesmärk on
+kontrollida kõrvaldamise aluste puudumist
+ja kvalifikatsiooni või pakkumuse vastavust.
+Hankija
+esitab
+nõude
+registri
+teabevahetuse lehe kaudu.
+11.1. Olenevalt küsimuse sisust on vastamise
+tähtaeg 3 või 5 tööpäeva.
+(RHS § 46 lg 4, § 104 lg 9, § 115 lg 1)
+
+11.2. Hankija vastab küsimustele 3 tööpäeva
+jooksul selgituse saamise taotlusest arvates.
+Vastused lisatakse riigihangete registri
+teabevahetuse töölehele.
+
+11.2. Hankija võib vastamiseks antud tähtaega
+pikendada – seda kas omal algatusel või
+pakkuja põhjendatud avalduse alusel.
+(RHS § 104 lg 10)
+
+11.3. TÄHELEPANU! Oluline on selgitustaotlus
+esitada
+vähemalt
+2
+tööpäeva
+enne
+pakkumuste esitamise tähtpäeva. Kui
+selgitustaotlus laekub hiljem, siis seadusest
+tulenevalt ei ole hankija kohustatud
+taotlusele vastama.
+(RHS § 46 lg 2)
+
+9
+
+

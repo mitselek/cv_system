@@ -1,0 +1,2650 @@
+Requirements for the tenderer's team and CV form
+
+General requirements for the team
+
+1.  The tenderer must personally nominate key members of the team in the
+    required roles for the public procurement to be carried out for the
+    conclusion of the framework agreement. One person must be nominated
+    to meet the requirements for each key role. A person nominated as a
+    project manager may only be nominated for one role.
+
+2.  The project manager of the team must be proficient in English at the
+    C1 level, as their task is to check the performance of the contract,
+    be a contact for the contracting authority, and prepare and check
+    the procurement contract documentation mainly in English. The
+    project manager must also be able to communicate with all parties
+    involved in the project. If necessary, the contractual obligation is
+    also to ensure the preparation of documents and communication in
+    Estonian, but an interpreter may also be involved to ensure this
+    condition and the condition is not related to any specific role in
+    the contract.
+
+3.  The tenderer must take into account that the contracting authority
+    may need to increase the team in order to achieve the goals set in
+    the public procurement. In this case, the requirements for the
+    additional roles will be presented in a mini-competition. In
+    mini-competitions, the contracting authority may also supplement the
+    requirements for already existing roles according to the object of
+    the procurement contract.
+
+4.  „International“ is a project that has been carried out abroad,
+    together with foreigners, or has an impact internationally. In the
+    case of an international project that is partly related to Estonia,
+    three criteria must be met in total, i.e. at the same time: 1) the
+    project result is at least partly aimed at foreigners, 2) the
+    project team is at least partly from abroad/abroad, and 3) the place
+    where the project is carried out is at least partly abroad.
+
+5.  The requirements set for team members are described in the CV form.
+
+CV form
+
+6.  The CV must show compliance with all the requirements set by the
+    contracting authority, and the contracting authority checks
+    compliance with the requirements on the basis of the data provided.
+    The team will be deemed compliant if all the requirements and
+    competencies set out in the CV form are covered by the team members.
+
+7.  Work experience requires that it must be working for the employer in
+    an employment relationship or working for the client in a project.
+    If the condition does not require work experience in the project,
+    reference can also be made to the acquisition of work experience in
+    an employment relationship. Experience gained in the course of
+    in-service training or schoolwork is not taken into account. Acting
+    as a freelancer is also not counted as work experience, unless
+    specific projects commissioned by a third party are referred to in
+    this period.
+
+8.  Work experience data must be submitted at least on the basis of the
+    duration of calendar months to indicate the period corresponding to
+    the required experience (e.g. participation in project X with a
+    duration of 12.2023 – 01.2025).
+
+9.  The "project" must be carried out for a third party, i.e. an
+    external contracting entity separate from the tenderer, and the
+    contracting authority does not consider works performed for the
+    employer's own use or on the basis of an internal order as a
+    "project" within the meaning of this document. Work done in the
+    public sector can also be shown as project experience if the project
+    has clearly identifiable boundaries and a contact person independent
+    of the tenderer. Such work is accepted by the contracting authority
+    as work experience if the condition does not require a reference to
+    the project.
+
+    1.  When submitting project data, at least the following must be
+        submitted for each project: the name and brief description of
+        the project, the start and end dates of the project with the
+        accuracy of a calendar month, the contact details of the
+        institution that commissioned the project and the contracting
+        entity, and in the case of a public procurement, the public
+        procurement number must be indicated.
+
+    2.  The work experience acquired on the basis of projects that have
+        been running at the same time is not summed up. The tenderer
+        does not have to submit one uninterrupted project, i.e. the time
+        worked can be combined between different projects.
+
+    3.  By the time the procurement begins, the referred projects must
+        have been completed in the required volume and in terms of
+        competence and accepted by the contracting authority.
+
+    4.  The contracting authority has the right to contact the
+        contracting authority of the project to verify the submitted
+        data.
+
+    5.  The contracting authority shall not accept "confidential"
+        projects for the fulfilment of the conditions, in respect of
+        which the tenderer is unable to submit data about the project in
+        accordance with the conditions and in respect of which a third
+        party as the contracting entity cannot provide confirmation of
+        the proper performance of the project.
+
+    6.  Each project in the list separately does not have to contain
+        copied data, it is sufficient to refer to the project
+        information previously presented in the same document.
+
+    7.  Where objectively possible, the conditions shall be deemed to
+        have been supplemented by the words 'or equivalent'. The burden
+        of proving equivalence lies with the tenderer who wishes to rely
+        on it. Evidence of equivalence must be included in the tender.
+
+10. The contracting authority asks for the team member's date of birth
+    with the aim of identifying the person and avoiding confusion
+    between the namesakes.
+
+11. The team's CV should be submitted in the form below, filling in the
+    fields provided to meet the requirement. If the tender is not
+    submitted in a specific lot, the fields of that part must be removed
+    or left blank.
+
+1.  Requirements for the tenderer's team – Lot/Part 1 - Information and
+    cybersecurity consulting services
+
+1)  Project manager: Name, date of birth.
+
++------------------+---------------------------------------------------+
+| Requirement      | Specification of where/when/how the requirement   |
+|                  | has been fulfilled                                |
++==================+===================================================+
+| Conditions of    |                                                   |
+| compliance that  |                                                   |
+| are mandatory    |                                                   |
+| for              |                                                   |
+| participation in |                                                   |
+| the procurement: |                                                   |
++------------------+---------------------------------------------------+
+| Has 60 months of | Add the name and contact details of the employer, |
+| work experience  | the period of employment. If you wish to refer to |
+| as a project     | projects, please indicate the name and brief      |
+| manager in the   | description of the project, the start and end     |
+| field of         | dates of the project with the accuracy of a       |
+| information and  | calendar month, the institution that commissioned |
+| cyber security.  | the project and the contact person of the         |
+|                  | contracting entity with their contact details,    |
+|                  | and in the case of a public procurement, indicate |
+|                  | the number of the public procurement.             |
++------------------+---------------------------------------------------+
+| Member has       | Project 1:                                        |
+| participated as  |                                                   |
+| a project        | Project 2:                                        |
+| manager in at    |                                                   |
+| least ten        | Project 3:                                        |
+| information and  |                                                   |
+| cyber security   | Project 4:                                        |
+| projects, which  |                                                   |
+| also include     | Project 5:                                        |
+| consultation. At |                                                   |
+| least five of    | Project 6:                                        |
+| these projects   |                                                   |
+| must be          | Project 7:                                        |
+| international.   |                                                   |
+| Projects must    | Project 8:                                        |
+| have been        |                                                   |
+| completed within | Project 9:                                        |
+| the last five    |                                                   |
+| years. At least  | Project 10:                                       |
+| five projects    |                                                   |
+| must have a      | When referring to projects, indicate the name and |
+| minimum          | brief description of the project, the start and   |
+| financial volume | end dates of the project with the accuracy of a   |
+| of 50000 euros   | calendar month, the financial volume of the       |
+| (excluding VAT). | project, the institution that commissioned the    |
+|                  | project and the contact person of the contracting |
+|                  | entity with their contact details, and in the     |
+|                  | case of a public procurement, indicate the number |
+|                  | of the public procurement.                        |
++------------------+---------------------------------------------------+
+| Proficient in    | Attach a certificate of acquired experience or an |
+| English at least | explanation of equivalent experience.             |
+| at the C1 level. |                                                   |
++------------------+---------------------------------------------------+
+| Competencies     |                                                   |
+| subject to       |                                                   |
+| evaluation that  |                                                   |
+| are not required |                                                   |
+| to participate   |                                                   |
+| in the           |                                                   |
+| procurement:     |                                                   |
++------------------+---------------------------------------------------+
+| Has at least one | Add an explanation of what certificate the team   |
+| international    | member has. If the equivalence is presented,      |
+| project          | provide evidence and justification of             |
+| management       | equivalence.                                      |
+| certification,   |                                                   |
+| such as Prince2, |                                                   |
+| PMP, or          |                                                   |
+| equivalent       |                                                   |
++------------------+---------------------------------------------------+
+
+2)  Consultant: Name, date of birth.
+
++-------------------+--------------------------------------------------+
+| Requirement       | Specification of where/when/how the requirement  |
+|                   | has been fulfilled                               |
++===================+==================================================+
+| Conditions of     |                                                  |
+| compliance that   |                                                  |
+| are mandatory for |                                                  |
+| participation in  |                                                  |
+| the procurement:  |                                                  |
++-------------------+--------------------------------------------------+
+| Has 60 months of  | Add the name and contact details of the          |
+| work experience   | employer, the period of employment. If you wish  |
+| in an information | to refer to projects, please indicate the name   |
+| and cyber         | and brief description of the project, the start  |
+| security team as  | and end dates of the project with the accuracy   |
+| a consultant or   | of a calendar month, the institution that        |
+| expert. The tasks | commissioned the project and the contact person  |
+| must also include | of the contracting entity with their contact     |
+| the creation and  | details, and in the case of a public             |
+| implementation of | procurement, indicate the number of the public   |
+| cyber security    | procurement.                                     |
+| solutions. (The   |                                                  |
+| requirement is    |                                                  |
+| also subject to   |                                                  |
+| evaluation, i.e.  |                                                  |
+| please add all    |                                                  |
+| work experience)  |                                                  |
++-------------------+--------------------------------------------------+
+| Has participated  | Project 1:                                       |
+| as a consultant   |                                                  |
+| or expert in at   | Project 2:                                       |
+| least ten         |                                                  |
+| information and   | Project 3:                                       |
+| cyber security    |                                                  |
+| projects. At      | Project 4:                                       |
+| least five of     |                                                  |
+| these projects    | Project 5:                                       |
+| must be           |                                                  |
+| international.    | Project 6:                                       |
+| Projects must     |                                                  |
+| have been         | Project 7:                                       |
+| completed within  |                                                  |
+| the last five     | Project 8:                                       |
+| years. In at      |                                                  |
+| least five        | Project 9:                                       |
+| projects, the     |                                                  |
+| consultant's time | Project 10:                                      |
+| contribution must |                                                  |
+| be at least 100   | When referring to projects, indicate the name    |
+| hours.            | and brief description of the project, the start  |
+|                   | and end dates of the project with the accuracy   |
+|                   | of a calendar month, the financial volume of the |
+|                   | project, the institution that commissioned the   |
+|                   | project and the contact person of the            |
+|                   | contracting entity with their contact details,   |
+|                   | and in the case of a public procurement,         |
+|                   | indicate the number of the public procurement.   |
++-------------------+--------------------------------------------------+
+| Competencies      |                                                  |
+| subject to        |                                                  |
+| evaluation that   |                                                  |
+| are not required  |                                                  |
+| to participate in |                                                  |
+| the procurement:  |                                                  |
++-------------------+--------------------------------------------------+
+| Has at least one  | Add an explanation of what certificate the team  |
+| international     | member has. If the equivalence is presented,     |
+| certificate       | provide evidence and justification of            |
+| demonstrating     | equivalence.                                     |
+| competence in the |                                                  |
+| field, such as    |                                                  |
+| CISM, ISO 27001   |                                                  |
+| Lead Implementer, |                                                  |
+| CISSP,            |                                                  |
+| TOGAF/GDSA,       |                                                  |
+| ITU/NATO Cyber    |                                                  |
+| Policy Cert or    |                                                  |
+| another           |                                                  |
+| equivalent        |                                                  |
++-------------------+--------------------------------------------------+
+| The consultant    | You can first refer to the above-mentioned       |
+| has previous      | international projects and add to their list     |
+| experience in six | here. When referring to projects, indicate the   |
+| projects carried  | name and brief description of the project, the   |
+| out               | start and end times of the project with the      |
+| internationally,  | accuracy of a calendar month, the institution    |
+| the content of    | that commissioned the project and the contact    |
+| which was the     | person of the contracting entity with their      |
+| creation and      | contact details, and in the case of a public     |
+| implementation of | procurement, indicate the number of the public   |
+| a cybersecurity   | procurement. Add the consultant's workload.      |
+| solution.         |                                                  |
+| Projects must     |                                                  |
+| have been         |                                                  |
+| completed within  |                                                  |
+| the last five     |                                                  |
+| years. The        |                                                  |
+| consultant's time |                                                  |
+| contribution in   |                                                  |
+| each project must |                                                  |
+| be a minimum of   |                                                  |
+| 150 hours.        |                                                  |
++-------------------+--------------------------------------------------+
+| International     | You can first refer to the above-mentioned       |
+| projects (similar | international projects and add to their list     |
+| to the subject    | here. When referring to projects, indicate the   |
+| matter of the     | name and brief description of the project, the   |
+| agreement),       | start and end times of the project with the      |
+| whereby 10-14     | accuracy of a calendar month, the institution    |
+| projects in total | that commissioned the project and the contact    |
+| give 10 points    | person of the contracting entity with their      |
+| and at least 15   | contact details, and in the case of a public     |
+| projects give 15  | procurement, indicate the number of the public   |
+| points.           | procurement.                                     |
++-------------------+--------------------------------------------------+
+
+2.  Requirements for the tenderer’s team – Lot/Part 2 - Information and
+    cybersecurity software analysis, development and applications
+
+1)  Project manager: Name, date of birth.
+
++-------------------------------+---+--------------------------------------+
+| Requirement                   | S |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | i |                                      |
+|                               | f |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | w |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | / |                                      |
+|                               | w |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | / |                                      |
+|                               | h |                                      |
+|                               | o |                                      |
+|                               | w |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | q |                                      |
+|                               | u |                                      |
+|                               | i |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | a |                                      |
+|                               | s |                                      |
+|                               | b |                                      |
+|                               | e |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | f |                                      |
+|                               | u |                                      |
+|                               | l |                                      |
+|                               | f |                                      |
+|                               | i |                                      |
+|                               | l |                                      |
+|                               | l |                                      |
+|                               | e |                                      |
+|                               | d |                                      |
++===============================+===+======================================+
+| Conditions of compliance that |   |                                      |
+| are mandatory for             |   |                                      |
+| participation in the          |   |                                      |
+| procurement:                  |   |                                      |
++-------------------------------+---+--------------------------------------+
+| Has 60 months of work         | A |                                      |
+| experience as a project       | d |                                      |
+| manager in consulting         | d |                                      |
+| projects related to the field | t |                                      |
+| of information and cyber      | h |                                      |
+| security.                     | e |                                      |
+|                               | n |                                      |
+|                               | a |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | i |                                      |
+|                               | l |                                      |
+|                               | s |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | p |                                      |
+|                               | l |                                      |
+|                               | o |                                      |
+|                               | y |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | d |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | p |                                      |
+|                               | l |                                      |
+|                               | o |                                      |
+|                               | y |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | . |                                      |
+|                               | I |                                      |
+|                               | f |                                      |
+|                               | y |                                      |
+|                               | o |                                      |
+|                               | u |                                      |
+|                               | w |                                      |
+|                               | i |                                      |
+|                               | s |                                      |
+|                               | h |                                      |
+|                               | t |                                      |
+|                               | o |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | f |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | t |                                      |
+|                               | o |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | s |                                      |
+|                               | , |                                      |
+|                               | p |                                      |
+|                               | l |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | s |                                      |
+|                               | e |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | a |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | b |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | e |                                      |
+|                               | f |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | c |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | p |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | r |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | d |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | w |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | y |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | l |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | a |                                      |
+|                               | r |                                      |
+|                               | m |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | s |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | u |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | m |                                      |
+|                               | m |                                      |
+|                               | i |                                      |
+|                               | s |                                      |
+|                               | s |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | e |                                      |
+|                               | d |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | s |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | r |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | g |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | y |                                      |
+|                               | w |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | i |                                      |
+|                               | r |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | i |                                      |
+|                               | l |                                      |
+|                               | s |                                      |
+|                               | , |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | s |                                      |
+|                               | e |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | a |                                      |
+|                               | p |                                      |
+|                               | u |                                      |
+|                               | b |                                      |
+|                               | l |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | , |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | u |                                      |
+|                               | m |                                      |
+|                               | b |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | u |                                      |
+|                               | b |                                      |
+|                               | l |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | . |                                      |
++-------------------------------+---+--------------------------------------+
+| Has participated as a project | P |                                      |
+| manager in at least ten       | r |                                      |
+| projects related to the field | o |                                      |
+| of information and            | j |                                      |
+| cybersecurity. At least five  | e |                                      |
+| of these projects must be     | c |                                      |
+| international. Projects must  | t |                                      |
+| have been completed within    | 1 |                                      |
+| the last five years. At least | : |                                      |
+| five projects must have a     |   |                                      |
+| minimum financial volume of   | P |                                      |
+| 50000 euros (excluding VAT).  | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 2 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 3 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 4 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 5 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 6 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 7 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 8 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 9 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | P |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | 1 |                                      |
+|                               | 0 |                                      |
+|                               | : |                                      |
+|                               |   |                                      |
+|                               | W |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | f |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | g |                                      |
+|                               | t |                                      |
+|                               | o |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | s |                                      |
+|                               | , |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | a |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | b |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | e |                                      |
+|                               | f |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | c |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | p |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | r |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | d |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | s |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | w |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | y |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | l |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | a |                                      |
+|                               | r |                                      |
+|                               | m |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | f |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | c |                                      |
+|                               | i |                                      |
+|                               | a |                                      |
+|                               | l |                                      |
+|                               | v |                                      |
+|                               | o |                                      |
+|                               | l |                                      |
+|                               | u |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | , |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | s |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | u |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | m |                                      |
+|                               | m |                                      |
+|                               | i |                                      |
+|                               | s |                                      |
+|                               | s |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | e |                                      |
+|                               | d |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | j |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | s |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | r |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | g |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | y |                                      |
+|                               | w |                                      |
+|                               | i |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | i |                                      |
+|                               | r |                                      |
+|                               | c |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | t |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | i |                                      |
+|                               | l |                                      |
+|                               | s |                                      |
+|                               | , |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | s |                                      |
+|                               | e |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | a |                                      |
+|                               | p |                                      |
+|                               | u |                                      |
+|                               | b |                                      |
+|                               | l |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | , |                                      |
+|                               | i |                                      |
+|                               | n |                                      |
+|                               | d |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | u |                                      |
+|                               | m |                                      |
+|                               | b |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | t |                                      |
+|                               | h |                                      |
+|                               | e |                                      |
+|                               | p |                                      |
+|                               | u |                                      |
+|                               | b |                                      |
+|                               | l |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | p |                                      |
+|                               | r |                                      |
+|                               | o |                                      |
+|                               | c |                                      |
+|                               | u |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | m |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | . |                                      |
++-------------------------------+---+--------------------------------------+
+| Proficient in English at      | A |                                      |
+| least at the C1 level.        | t |                                      |
+|                               | t |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | h |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | f |                                      |
+|                               | i |                                      |
+|                               | c |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | a |                                      |
+|                               | c |                                      |
+|                               | q |                                      |
+|                               | u |                                      |
+|                               | i |                                      |
+|                               | r |                                      |
+|                               | e |                                      |
+|                               | d |                                      |
+|                               | e |                                      |
+|                               | x |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | c |                                      |
+|                               | e |                                      |
+|                               | o |                                      |
+|                               | r |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | e |                                      |
+|                               | x |                                      |
+|                               | p |                                      |
+|                               | l |                                      |
+|                               | a |                                      |
+|                               | n |                                      |
+|                               | a |                                      |
+|                               | t |                                      |
+|                               | i |                                      |
+|                               | o |                                      |
+|                               | n |                                      |
+|                               | o |                                      |
+|                               | f |                                      |
+|                               | e |                                      |
+|                               | q |                                      |
+|                               | u |                                      |
+|                               | i |                                      |
+|                               | v |                                      |
+|                               | a |                                      |
+|                               | l |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | t |                                      |
+|                               | e |                                      |
+|                               | x |                                      |
+|                               | p |                                      |
+|                               | e |                                      |
+|                               | r |                                      |
+|                               | i |                                      |
+|                               | e |                                      |
+|                               | n |                                      |
+|                               | c |                                      |
+|                               | e |                                      |
+|                               | . |                                      |
++-------------------------------+---+--------------------------------------+
+| Competencies subject to       |   |                                      |
+| evaluation that are not       |   |                                      |
+| required to participate in    |   |                                      |
+| the procurement:              |   |                                      |
++-------------------------------+---+--------------------------------------+
+| Has at least one              |   | Add an explanation of what           |
+| international project         |   | certificate the team member has. If  |
+| management certification,     |   | the equivalence is presented,        |
+| such as Prince2, PMP, or      |   | provide evidence and justification   |
+| equivalent                    |   | of equivalence.                      |
++-------------------------------+---+--------------------------------------+
+
+2)  Consultant: Name, date of birth.
+
++-----------------------+----------------------------------------------+
+| Requirement           | Specification of where/when/how the          |
+|                       | requirement has been fulfilled               |
++=======================+==============================================+
+| Conditions of         |                                              |
+| compliance that are   |                                              |
+| mandatory for         |                                              |
+| participation in the  |                                              |
+| procurement:          |                                              |
++-----------------------+----------------------------------------------+
+| Has 60 months of work | Add the name and contact details of the      |
+| experience as a       | employer, the period of employment. If you   |
+| consultant in the     | wish to refer to projects, please indicate   |
+| development of        | the name and brief description of the        |
+| strategies or         | project, the start and end dates of the      |
+| policies related to   | project with the accuracy of a calendar      |
+| the field of          | month, the institution that commissioned the |
+| information and cyber | project and the contact person of the        |
+| security or in topics | contracting entity with their contact        |
+| related to the        | details, and in the case of a public         |
+| implementation of     | procurement, indicate the number of the      |
+| information and cyber | public procurement.                          |
+| security solutions.   |                                              |
+| (The requirement is   |                                              |
+| also subject to       |                                              |
+| evaluation, i.e.      |                                              |
+| please add all work   |                                              |
+| experience)           |                                              |
++-----------------------+----------------------------------------------+
+| Has participated as a | Project 1:                                   |
+| consultant or expert  |                                              |
+| in at least ten       | Project 2:                                   |
+| information and cyber |                                              |
+| security projects. At | Project 3:                                   |
+| least five of these   |                                              |
+| projects must be      | Project 4:                                   |
+| international.        |                                              |
+| Projects must have    | Project 5:                                   |
+| been completed within |                                              |
+| the last five years.  | Project 6:                                   |
+| In at least five      |                                              |
+| projects, the         | Project 7:                                   |
+| consultant's time     |                                              |
+| contribution must be  | Project 8:                                   |
+| at least 100 hours.   |                                              |
+|                       | Project 9:                                   |
+|                       |                                              |
+|                       | Project 10:                                  |
+|                       |                                              |
+|                       | When referring to projects, indicate the     |
+|                       | name and brief description of the project,   |
+|                       | the start and end dates of the project with  |
+|                       | the accuracy of a calendar month, the        |
+|                       | financial volume of the project, the         |
+|                       | institution that commissioned the project    |
+|                       | and the contact person of the contracting    |
+|                       | entity with their contact details, and in    |
+|                       | the case of a public procurement, indicate   |
+|                       | the number of the public procurement.        |
++-----------------------+----------------------------------------------+
+| Competencies subject  |                                              |
+| to evaluation that    |                                              |
+| are not required to   |                                              |
+| participate in the    |                                              |
+| procurement:          |                                              |
++-----------------------+----------------------------------------------+
+| Has at least one      | Add an explanation of what certificate the   |
+| international         | team member has. If the equivalence is       |
+| certificate           | presented, provide evidence and              |
+| demonstrating         | justification of equivalence.                |
+| competence in the     |                                              |
+| field, such as CISM,  |                                              |
+| ISO 27001 Lead        |                                              |
+| Implementer, CISSP,   |                                              |
+| TOGAF/GDSA, ITU/NATO  |                                              |
+| Cyber Policy Cert or  |                                              |
+| another equivalent    |                                              |
++-----------------------+----------------------------------------------+
+| The consultant has    | You can first refer to the above-mentioned   |
+| previous experience   | international projects and add to their list |
+| in three projects     | here. When referring to projects, indicate   |
+| carried out           | the name and brief description of the        |
+| internationally, the  | project, the start and end times of the      |
+| content of which was  | project with the accuracy of a calendar      |
+| the creation and      | month, the institution that commissioned the |
+| implementation of a   | project and the contact person of the        |
+| cybersecurity         | contracting entity with their contact        |
+| solution. Projects    | details, and in the case of a public         |
+| must have been        | procurement, indicate the number of the      |
+| completed within the  | public procurement. Add the consultant's     |
+| last five years. The  | workload.                                    |
+| consultant's time     |                                              |
+| contribution in each  |                                              |
+| project must be a     |                                              |
+| minimum of 150 hours. |                                              |
++-----------------------+----------------------------------------------+
+| International         | You can first refer to the above-mentioned   |
+| projects (similar to  | international projects and add to their list |
+| the subject matter of | here. When referring to projects, indicate   |
+| the contract),        | the name and brief description of the        |
+| whereby 10-14         | project, the start and end times of the      |
+| projects together     | project with the accuracy of a calendar      |
+| give 10 points and at | month, the institution that commissioned the |
+| least 15 projects     | project and the contact person of the        |
+| give 15 points.       | contracting entity with their contact        |
+|                       | details, and in the case of a public         |
+|                       | procurement, indicate the number of the      |
+|                       | public procurement.                          |
++-----------------------+----------------------------------------------+
+
+3)  Cybersecurity Expert: Name, Date of Birth.
+
++------------------------+---------------------------------------------+
+| Requirement            | Specification of where/when/how the         |
+|                        | requirement has been fulfilled              |
++========================+=============================================+
+| Conditions of          |                                             |
+| compliance that are    |                                             |
+| mandatory for          |                                             |
+| participation in the   |                                             |
+| procurement:           |                                             |
++------------------------+---------------------------------------------+
+| Has 60 months of       | Add the name and contact details of the     |
+| experience as an       | employer, the period of employment. If you  |
+| expert in designing    | wish to refer to projects, please indicate  |
+| and implementing       | the name and brief description of the       |
+| cybersecurity          | project, the start and end dates of the     |
+| solutions.             | project with the accuracy of a calendar     |
+|                        | month, the institution that commissioned    |
+|                        | the project and the contact person of the   |
+|                        | contracting entity with their contact       |
+|                        | details, and in the case of a public        |
+|                        | procurement, indicate the number of the     |
+|                        | public procurement.                         |
++------------------------+---------------------------------------------+
+| Has participated as an | Project 1:                                  |
+| expert in at least ten |                                             |
+| projects related to    | Project 2:                                  |
+| the field of           |                                             |
+| cybersecurity. At      | Project 3:                                  |
+| least five of these    |                                             |
+| projects must be       | Project 4:                                  |
+| international.         |                                             |
+| Projects must have     | Project 5:                                  |
+| been completed within  |                                             |
+| the last five years.   | Project 6:                                  |
+| In at least five       |                                             |
+| projects, the          | Project 7:                                  |
+| consultant's time      |                                             |
+| contribution must be   | Project 8:                                  |
+| at least 100 hours.    |                                             |
+|                        | Project 9:                                  |
+|                        |                                             |
+|                        | Project 10:                                 |
+|                        |                                             |
+|                        | When referring to projects, indicate the    |
+|                        | name and brief description of the project,  |
+|                        | the start and end dates of the project with |
+|                        | the accuracy of a calendar month, the       |
+|                        | financial volume of the project, the        |
+|                        | institution that commissioned the project   |
+|                        | and the contact person of the contracting   |
+|                        | entity with their contact details, and in   |
+|                        | the case of a public procurement, indicate  |
+|                        | the number of the public procurement.       |
++------------------------+---------------------------------------------+
+| Competencies subject   |                                             |
+| to evaluation that are |                                             |
+| not required to        |                                             |
+| participate in the     |                                             |
+| procurement:           |                                             |
++------------------------+---------------------------------------------+
+| Has at least one       | Add an explanation of what certificate the  |
+| international          | team member has. If the equivalence is      |
+| certificate            | presented, provide evidence and             |
+| demonstrating          | justification of equivalence.               |
+| competence in the      |                                             |
+| field, such as CISM,   |                                             |
+| ISO 27001 Lead         |                                             |
+| Implementer, CISSP,    |                                             |
+| TOGAF/GDSA, ITU/NATO   |                                             |
+| Cyber Policy Cert or   |                                             |
+| another equivalent     |                                             |
++------------------------+---------------------------------------------+
+
+3.  Requirements for the tenderer’s team – Lot/Part 3 – Various IT and
+    cybersecurity infrastructure components, installation and
+    configuration
+
+1)  Project manager: Name, date of birth.
+
++----------------------+---+----------------------------------------------+
+| Requirement          | S |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | i |                                              |
+|                      | f |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | w |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | / |                                              |
+|                      | w |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | / |                                              |
+|                      | h |                                              |
+|                      | o |                                              |
+|                      | w |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | q |                                              |
+|                      | u |                                              |
+|                      | i |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | a |                                              |
+|                      | s |                                              |
+|                      | b |                                              |
+|                      | e |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | f |                                              |
+|                      | u |                                              |
+|                      | l |                                              |
+|                      | f |                                              |
+|                      | i |                                              |
+|                      | l |                                              |
+|                      | l |                                              |
+|                      | e |                                              |
+|                      | d |                                              |
++======================+===+==============================================+
+| Conditions of        |   |                                              |
+| compliance that are  |   |                                              |
+| mandatory for        |   |                                              |
+| participation in the |   |                                              |
+| procurement:         |   |                                              |
++----------------------+---+----------------------------------------------+
+| Has 60 months of     | A |                                              |
+| work experience as a | d |                                              |
+| project manager in   | d |                                              |
+| the analysis and     | t |                                              |
+| prototyping of ICT   | h |                                              |
+| infrastructure       | e |                                              |
+| solutions.           | n |                                              |
+|                      | a |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | i |                                              |
+|                      | l |                                              |
+|                      | s |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | p |                                              |
+|                      | l |                                              |
+|                      | o |                                              |
+|                      | y |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | d |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | p |                                              |
+|                      | l |                                              |
+|                      | o |                                              |
+|                      | y |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | . |                                              |
+|                      | I |                                              |
+|                      | f |                                              |
+|                      | y |                                              |
+|                      | o |                                              |
+|                      | u |                                              |
+|                      | w |                                              |
+|                      | i |                                              |
+|                      | s |                                              |
+|                      | h |                                              |
+|                      | t |                                              |
+|                      | o |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | f |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | t |                                              |
+|                      | o |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | s |                                              |
+|                      | , |                                              |
+|                      | p |                                              |
+|                      | l |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | s |                                              |
+|                      | e |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | a |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | b |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | e |                                              |
+|                      | f |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | c |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | p |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | r |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | d |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | w |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | y |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | l |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | a |                                              |
+|                      | r |                                              |
+|                      | m |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | s |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | u |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | m |                                              |
+|                      | m |                                              |
+|                      | i |                                              |
+|                      | s |                                              |
+|                      | s |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | e |                                              |
+|                      | d |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | s |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | r |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | g |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | y |                                              |
+|                      | w |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | i |                                              |
+|                      | r |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | i |                                              |
+|                      | l |                                              |
+|                      | s |                                              |
+|                      | , |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | s |                                              |
+|                      | e |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | a |                                              |
+|                      | p |                                              |
+|                      | u |                                              |
+|                      | b |                                              |
+|                      | l |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | , |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | u |                                              |
+|                      | m |                                              |
+|                      | b |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | u |                                              |
+|                      | b |                                              |
+|                      | l |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | . |                                              |
++----------------------+---+----------------------------------------------+
+| Has participated as  | P |                                              |
+| a project manager in | r |                                              |
+| at least ten         | o |                                              |
+| projects for         | j |                                              |
+| analysing or         | e |                                              |
+| prototyping ICT      | c |                                              |
+| infrastructure       | t |                                              |
+| solutions. At least  | 1 |                                              |
+| five of these        | : |                                              |
+| projects must be     |   |                                              |
+| international.       | P |                                              |
+| Projects must have   | r |                                              |
+| been completed       | o |                                              |
+| within the last five | j |                                              |
+| years. At least five | e |                                              |
+| projects must have a | c |                                              |
+| minimum financial    | t |                                              |
+| volume of 50000      | 2 |                                              |
+| euros (excluding     | : |                                              |
+| VAT).                |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 3 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 4 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 5 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 6 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 7 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 8 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 9 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | P |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | 1 |                                              |
+|                      | 0 |                                              |
+|                      | : |                                              |
+|                      |   |                                              |
+|                      | W |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | f |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | g |                                              |
+|                      | t |                                              |
+|                      | o |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | s |                                              |
+|                      | , |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | a |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | b |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | e |                                              |
+|                      | f |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | c |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | p |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | r |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | d |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | s |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | w |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | y |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | l |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | a |                                              |
+|                      | r |                                              |
+|                      | m |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | f |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | c |                                              |
+|                      | i |                                              |
+|                      | a |                                              |
+|                      | l |                                              |
+|                      | v |                                              |
+|                      | o |                                              |
+|                      | l |                                              |
+|                      | u |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | , |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | s |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | u |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | m |                                              |
+|                      | m |                                              |
+|                      | i |                                              |
+|                      | s |                                              |
+|                      | s |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | e |                                              |
+|                      | d |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | j |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | s |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | r |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | g |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | y |                                              |
+|                      | w |                                              |
+|                      | i |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | i |                                              |
+|                      | r |                                              |
+|                      | c |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | t |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | a |                                              |
+|                      | i |                                              |
+|                      | l |                                              |
+|                      | s |                                              |
+|                      | , |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | s |                                              |
+|                      | e |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | a |                                              |
+|                      | p |                                              |
+|                      | u |                                              |
+|                      | b |                                              |
+|                      | l |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | , |                                              |
+|                      | i |                                              |
+|                      | n |                                              |
+|                      | d |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | u |                                              |
+|                      | m |                                              |
+|                      | b |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | t |                                              |
+|                      | h |                                              |
+|                      | e |                                              |
+|                      | p |                                              |
+|                      | u |                                              |
+|                      | b |                                              |
+|                      | l |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | p |                                              |
+|                      | r |                                              |
+|                      | o |                                              |
+|                      | c |                                              |
+|                      | u |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | m |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | . |                                              |
++----------------------+---+----------------------------------------------+
+| Proficient in        | A |                                              |
+| English at least at  | t |                                              |
+| the C1 level.        | t |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | h |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | f |                                              |
+|                      | i |                                              |
+|                      | c |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | a |                                              |
+|                      | c |                                              |
+|                      | q |                                              |
+|                      | u |                                              |
+|                      | i |                                              |
+|                      | r |                                              |
+|                      | e |                                              |
+|                      | d |                                              |
+|                      | e |                                              |
+|                      | x |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | c |                                              |
+|                      | e |                                              |
+|                      | o |                                              |
+|                      | r |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | e |                                              |
+|                      | x |                                              |
+|                      | p |                                              |
+|                      | l |                                              |
+|                      | a |                                              |
+|                      | n |                                              |
+|                      | a |                                              |
+|                      | t |                                              |
+|                      | i |                                              |
+|                      | o |                                              |
+|                      | n |                                              |
+|                      | o |                                              |
+|                      | f |                                              |
+|                      | e |                                              |
+|                      | q |                                              |
+|                      | u |                                              |
+|                      | i |                                              |
+|                      | v |                                              |
+|                      | a |                                              |
+|                      | l |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | t |                                              |
+|                      | e |                                              |
+|                      | x |                                              |
+|                      | p |                                              |
+|                      | e |                                              |
+|                      | r |                                              |
+|                      | i |                                              |
+|                      | e |                                              |
+|                      | n |                                              |
+|                      | c |                                              |
+|                      | e |                                              |
+|                      | . |                                              |
++----------------------+---+----------------------------------------------+
+| Competencies subject |   |                                              |
+| to evaluation that   |   |                                              |
+| are not required to  |   |                                              |
+| participate in the   |   |                                              |
+| procurement:         |   |                                              |
++----------------------+---+----------------------------------------------+
+| Has at least one     |   | Add an explanation of what certificate the   |
+| international        |   | team member has. If the equivalence is       |
+| project management   |   | presented, provide evidence and              |
+| certification, such  |   | justification of equivalence.                |
+| as Prince2, PMP, or  |   |                                              |
+| equivalent           |   |                                              |
++----------------------+---+----------------------------------------------+
+
+2)  Architect: Name, date of birth.
+
++--------------------+-------------------------------------------------+
+| Requirement        | Specification of where/when/how the requirement |
+|                    | has been fulfilled                              |
++====================+=================================================+
+| Conditions of      |                                                 |
+| compliance that    |                                                 |
+| are mandatory for  |                                                 |
+| participation in   |                                                 |
+| the procurement:   |                                                 |
++--------------------+-------------------------------------------------+
+| He has 60 months   | Add the name and contact details of the         |
+| of work experience | employer, the period of employment. If you wish |
+| as an architect of | to refer to projects, please indicate the name  |
+| ICT solutions. The | and brief description of the project, the start |
+| tasks must         | and end dates of the project with the accuracy  |
+| include, among     | of a calendar month, the institution that       |
+| other things, the  | commissioned the project and the contact person |
+| implementation of  | of the contracting entity with their contact    |
+| ICT                | details, and in the case of a public            |
+| infrastructure.    | procurement, indicate the number of the public  |
+| (The requirement   | procurement.                                    |
+| is also subject to |                                                 |
+| evaluation, i.e.   |                                                 |
+| please add all     |                                                 |
+| work experience)   |                                                 |
++--------------------+-------------------------------------------------+
+| Has participated   | Project 1:                                      |
+| in at least ten    |                                                 |
+| ICT infrastructure | Project 2:                                      |
+| implementation     |                                                 |
+| projects. At least | Project 3:                                      |
+| five of these      |                                                 |
+| projects must be   | Project 4:                                      |
+| international.     |                                                 |
+| Projects must have | Project 5:                                      |
+| been completed     |                                                 |
+| within the last    | Project 6:                                      |
+| five years. In at  |                                                 |
+| least five         | Project 7:                                      |
+| projects, the      |                                                 |
+| architect's time   | Project 8:                                      |
+| contribution must  |                                                 |
+| be at least 100    | Project 9:                                      |
+| hours.             |                                                 |
+|                    | Project 10:                                     |
+|                    |                                                 |
+|                    | When referring to projects, indicate the name   |
+|                    | and brief description of the project, the start |
+|                    | and end dates of the project with the accuracy  |
+|                    | of a calendar month, the financial volume of    |
+|                    | the project, the institution that commissioned  |
+|                    | the project and the contact person of the       |
+|                    | contracting entity with their contact details,  |
+|                    | and in the case of a public procurement,        |
+|                    | indicate the number of the public procurement.  |
++--------------------+-------------------------------------------------+
+| Competencies       |                                                 |
+| subject to         |                                                 |
+| evaluation that    |                                                 |
+| are not required   |                                                 |
+| to participate in  |                                                 |
+| the procurement:   |                                                 |
++--------------------+-------------------------------------------------+
+| Holds at least one | Add an explanation of what certificate the team |
+| international      | member has. If the equivalence is presented,    |
+| project management | provide evidence and justification of           |
+| certification,     | equivalence.                                    |
+| such as TOGAF,     |                                                 |
+| CCNP Enterprise;   |                                                 |
+| COBIT/ITIL v4 or   |                                                 |
+| equivalent         |                                                 |
++--------------------+-------------------------------------------------+
+| The architect has  | You can first refer to the above-mentioned      |
+| previous           | international projects and add to their list    |
+| experience in six  | here. When referring to projects, indicate the  |
+| projects that      | name and brief description of the project, the  |
+| involved the       | start and end times of the project with the     |
+| implementation of  | accuracy of a calendar month, the institution   |
+| ICT                | that commissioned the project and the contact   |
+| infrastructure.    | person of the contracting entity with their     |
+| Projects must have | contact details, and in the case of a public    |
+| been completed     | procurement, indicate the number of the public  |
+| within the last    | procurement. Add architect’s workload.          |
+| five years. The    |                                                 |
+| architect's time   |                                                 |
+| input in each      |                                                 |
+| project must be at |                                                 |
+| least 150 hours.   |                                                 |
++--------------------+-------------------------------------------------+
+
+3)  System administrator: Name, date of birth.
+
++--------------------+-------------------------------------------------+
+| Requirement        | Specification of where/when/how the requirement |
+|                    | has been fulfilled                              |
++====================+=================================================+
+| Conditions of      |                                                 |
+| compliance that    |                                                 |
+| are mandatory for  |                                                 |
+| participation in   |                                                 |
+| the procurement:   |                                                 |
++--------------------+-------------------------------------------------+
+| Has 60 months of   | Add the name and contact details of the         |
+| work experience as | employer, the period of employment. If you wish |
+| an ICT solutions   | to refer to projects, please indicate the name  |
+| system             | and brief description of the project, the start |
+| administrator.     | and end dates of the project with the accuracy  |
+| (The requirement   | of a calendar month, the institution that       |
+| is also subject to | commissioned the project and the contact person |
+| evaluation, i.e.   | of the contracting entity with their contact    |
+| please add all     | details, and in the case of a public            |
+| work experience)   | procurement, indicate the number of the public  |
+|                    | procurement.                                    |
++--------------------+-------------------------------------------------+
+| Has participated   | Project 1:                                      |
+| as a system        |                                                 |
+| administrator in   | Project 2:                                      |
+| at least ten ICT   |                                                 |
+| infrastructure     | Project 3:                                      |
+| implementation     |                                                 |
+| projects. At least | Project 4:                                      |
+| five of these      |                                                 |
+| projects must be   | Project 5:                                      |
+| international.     |                                                 |
+| Projects must have | Project 6:                                      |
+| been completed     |                                                 |
+| within the last    | Project 7:                                      |
+| five years. In at  |                                                 |
+| least five         | Project 8:                                      |
+| projects, the      |                                                 |
+| system             | Project 9:                                      |
+| administrator's    |                                                 |
+| time contribution  | Project 10:                                     |
+| must be at least   |                                                 |
+| 100 hours.         | When referring to projects, indicate the name   |
+|                    | and brief description of the project, the start |
+|                    | and end dates of the project with the accuracy  |
+|                    | of a calendar month, the financial volume of    |
+|                    | the project, the institution that commissioned  |
+|                    | the project and the contact person of the       |
+|                    | contracting entity with their contact details,  |
+|                    | and in the case of a public procurement,        |
+|                    | indicate the number of the public procurement.  |
++--------------------+-------------------------------------------------+
+| Competencies       |                                                 |
+| subject to         |                                                 |
+| evaluation that    |                                                 |
+| are not required   |                                                 |
+| to participate in  |                                                 |
+| the procurement:   |                                                 |
++--------------------+-------------------------------------------------+
+| Have at least one  | Add an explanation of what certificate the team |
+| international      | member has. If the equivalence is presented,    |
+| project management | provide evidence and justification of           |
+| certification,     | equivalence.                                    |
+| such as Security+, |                                                 |
+| CySA+, MCSA/RHCSA; |                                                 |
+| CCNP Security /    |                                                 |
+| CCNA CyberOps or   |                                                 |
+| equivalent         |                                                 |
++--------------------+-------------------------------------------------+

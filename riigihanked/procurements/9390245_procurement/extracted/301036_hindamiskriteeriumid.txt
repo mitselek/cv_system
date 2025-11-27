@@ -1,0 +1,395 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 301036
+Hankija: Sihtasutus Eesti Rahvusvahelise Arengukoostöö Keskus (90015347)
+Hange: Info- ja küberturvalisuse alased asjad ja teenused
+
+OSA 1 – INFO- JA KÜBERTURVALISUSE ALASED KONSULTATSIOONITEENUSED
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+Tüüp /
+nr
+hindamismeetod
+1 Ühe töötunni hind ilma käibemaksuta // Pakkumuse maksumus peab olema
+Maksumus Price per hour excluding VAT
+lõplik ja sisaldama kõiki kulusid vähim on parim
+vastavalt riigihanke alusdokumentidele
+ning seal nimetamata kulusid, mis on
+vajalikud
+lepingu
+nõuetekohaseks
+täitmiseks. 0 või negatiivse väärtusega
+maksumusi ei ole lubatud kasutada ja
+sellised pakkumused on hankijal õigus
+tunnistada mittevastavaks ning tagasi
+lükata. Maksumus esitatakse täpsusega
+kaks kohta pärast koma. Hankija ei
+hüvita lepingu täitmisel pakkujale
+mingeid täiendavaid kulusid ega tee
+täiendavaid makseid.
+Hankija sätestab, et juhul, ühe töötunni
+hind jääb alla 50 EUR/h + km, siis
+omistatakse pakkujale 30 hindepunkti.
+See tähendab, et alla 50 EUR/h ühe
+töötunni hinna esitamist ei saa pakkuja
+hindamisel eelist.
+// The cost of the tender must be final
+and include all costs in accordance with
+the basic public procurement documents
+Koostatud 10.11.2025 14:26:56
+
+1/7
+
+Osakaal
+30
+
+Kogus
+
+Ühik
+EUR/h
+
+Pakkuja
+täidetav
+jah
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+2
+
+3
+
+and costs not specified therein that are
+necessary for the proper performance of
+the contract. Costs with a 0 or negative
+value are not permitted and the
+contracting authority has the right to
+declare such tenders non-compliant and
+reject them. The cost shall be presented
+with an accuracy of two decimal places.
+The contracting authority shall not
+compensate the tenderer for any
+additional costs or make any additional
+payments when performing the contract.
+The contracting authority stipulates that
+if the price of one working hour is less
+than 50 EUR/h + VAT, the tenderer will
+be awarded 30 points. This means that
+submitting a price of one working hour
+below 50 EUR/h will not give the
+tenderer an advantage in the evaluation.
+Meeskonna
+kompetents
+//
+team Hankija hindab meeskonna kompetentsi Kvaliteet - hankija
+competence
+vastavalt hindamismetoodikas märgitule.
+hinnatav
+Informatsioon hindamisele kuuluvate
+andmete kohta esitatakse meeskonna CV
+vastavas alapunktis. // The contracting
+authority will assess the team's
+competence in accordance with the
+assessment methodology. Information
+on the data subject to assessment is
+provided in the relevant subsection of
+the team's CV.
+Koostöönägemus // Collaboration vision Töövõtja on läbi mõelnud, kuidas on Kvaliteet - hankija
+tagatud koostöö tellija ja kolmandate
+hinnatav
+isikutega. Pakkumus saab kuni 25 punkti
+koostöönägemuse eest. Pakkuja esitab
+pakkumuses
+nägemuse
+koostööst
+hankija ja projekti partneritega ning
+
+Koostatud 10.11.2025 14:26:56
+
+2/7
+
+45
+
+25
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+teiste
+seotud
+osapooltega
+tööde
+teostamise käigus. // The contractor has
+considered how cooperation with the
+client and third parties is ensured. The
+tender will receive up to 25 points for
+the vision of cooperation. The tenderer
+presents in the tender a vision of
+cooperation with the client and project
+partners and other related parties during
+the execution of the works.
+Kokku:
+
+100
+
+Hindamismetoodika kirjeldus
+1. Ühe töötunni hind ilma käibemaksuta // Price per hour excluding VAT
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. Meeskonna kompetents // team competence
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+3. Koostöönägemus // Collaboration vision
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+OSA 2 – INFO- JA KÜBERTURVALISUSE TARKVARAANALÜÜS, -ARENDUS JA -RAKENDUSED
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+Tüüp /
+nr
+hindamismeetod
+1 Ühe töötunni hind ilma käibemaksuta // Pakkumuse maksumus peab olema
+Maksumus Price per hour excluding VAT
+lõplik ja sisaldama kõiki kulusid vähim on parim
+vastavalt riigihanke alusdokumentidele
+ning seal nimetamata kulusid, mis on
+vajalikud
+lepingu
+nõuetekohaseks
+täitmiseks. 0 või negatiivse väärtusega
+Koostatud 10.11.2025 14:26:56
+
+3/7
+
+Osakaal
+30
+
+Kogus
+
+Ühik
+EUR/h
+
+Pakkuja
+täidetav
+jah
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+2
+
+Meeskonna
+
+kompetents
+
+Koostatud 10.11.2025 14:26:56
+
+//
+
+maksumusi ei ole lubatud kasutada ja
+sellised pakkumused on hankijal õigus
+tunnistada mittevastavaks ning tagasi
+lükata. Maksumus esitatakse täpsusega
+kaks kohta pärast koma. Hankija ei
+hüvita lepingu täitmisel pakkujale
+mingeid täiendavaid kulusid ega tee
+täiendavaid makseid.
+Hankija sätestab, et juhul, ühe töötunni
+hind jääb alla 50 EUR/h + km, siis
+omistatakse pakkujale 30 hindepunkti.
+See tähendab, et alla 50 EUR/h ühe
+töötunni hinna esitamist ei saa pakkuja
+hindamisel eelist.
+// The cost of the tender must be final
+and include all costs in accordance with
+the basic public procurement documents
+and costs not specified therein that are
+necessary for the proper performance of
+the contract. Costs with a 0 or negative
+value are not permitted and the
+contracting authority has the right to
+declare such tenders non-compliant and
+reject them. The cost shall be presented
+with an accuracy of two decimal places.
+The contracting authority shall not
+compensate the tenderer for any
+additional costs or make any additional
+payments when performing the contract.
+The contracting authority stipulates that
+if the price of one working hour is less
+than 50 EUR/h + VAT, the tenderer will
+be awarded 30 points. This means that
+submitting a price of one working hour
+below 50 EUR/h will not give the
+tenderer an advantage in the evaluation.
+team Hankija hindab meeskonna kompetentsi
+4/7
+
+45
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+3
+
+competence
+
+vastavalt hindamismetoodikas märgitule. Kvaliteet - hankija
+Informatsioon hindamisele kuuluvate
+hinnatav
+andmete kohta esitatakse meeskonna CV
+vastavas alapunktis. // The contracting
+authority will assess the team's
+competence in accordance with the
+assessment methodology. Information
+on the data subject to assessment is
+provided in the relevant subsection of
+the team's CV.
+
+Koostöönägemus // Collaboration vision
+
+Töövõtja on läbi mõelnud, kuidas on Kvaliteet - hankija
+tagatud koostöö tellija ja kolmandate
+hinnatav
+isikutega. Pakkumus saab kuni 25 punkti
+koostöönägemuse eest. Pakkuja esitab
+pakkumuses
+nägemuse
+koostööst
+hankija ja projekti partneritega ning
+teiste
+seotud
+osapooltega
+tööde
+teostamise käigus. // The contractor has
+considered how cooperation with the
+client and third parties is ensured. The
+tender will receive up to 25 points for
+the vision of cooperation. The tenderer
+presents in the tender a vision of
+cooperation with the client and project
+partners and other related parties during
+the execution of the works.
+Kokku:
+
+Koostatud 10.11.2025 14:26:56
+
+5/7
+
+25
+
+100
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+Hindamismetoodika kirjeldus
+1. Ühe töötunni hind ilma käibemaksuta // Price per hour excluding VAT
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. Meeskonna kompetents // team competence
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+3. Koostöönägemus // Collaboration vision
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+OSA 3 – ERINEVAD IT JA KÜBERTURVALISUSE INFRASTRUKTUURI KOMPONENDID, PAIGALDAMINE JA
+SEADISTAMINE
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+nr
+1 Meeskonna
+competence
+
+2
+
+Nimetus
+
+Tüüp /
+hindamismeetod
+kompetents
+//
+team Hankija hindab meeskonna kompetentsi Kvaliteet - hankija
+vastavalt hindamismetoodikas märgitule.
+hinnatav
+Informatsioon hindamisele kuuluvate
+andmete kohta esitatakse meeskonna CV
+vastavas alapunktis. // The contracting
+authority will assess the team's
+competence in accordance with the
+assessment methodology. Information
+on the data subject to assessment is
+provided in the relevant subsection of
+the team's CV.
+Koostöönägemus // Collaboration vision Töövõtja on läbi mõelnud, kuidas on Kvaliteet - hankija
+tagatud koostöö tellija ja kolmandate
+hinnatav
+isikutega. Pakkumus saab kuni 40 punkti
+koostöönägemuse eest. Pakkuja esitab
+pakkumuses
+nägemuse
+koostööst
+
+Koostatud 10.11.2025 14:26:56
+
+Kirjeldus
+
+6/7
+
+Osakaal
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+
+60
+
+40
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+hankija ja projekti partneritega ning
+teiste
+seotud
+osapooltega
+tööde
+teostamise käigus. // The contractor has
+considered how cooperation with the
+client and third parties is ensured. The
+tender will receive up to 40 points for
+the vision of cooperation. The tenderer
+presents in the tender a vision of
+cooperation
+Kokku:
+
+100
+
+Hindamismetoodika kirjeldus
+1. Meeskonna kompetents // team competence
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+2. Koostöönägemus // Collaboration vision
+Hindamismetoodika on kirjeldatud pakkumuse esitamise ettepaneku peatükis 9. // The evaluation methodology is described in Chapter 9 of the proposal for a tender.
+
+Koostatud 10.11.2025 14:26:56
+
+7/7
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9390245/general-info
+
+

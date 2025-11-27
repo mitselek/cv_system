@@ -1,0 +1,1378 @@
+1 / 28
+
+HANKEPASS
+Hankepass ehk Euroopa ühtne hankedokument (ESPD) on ettevõtja enda kinnitus, mis on esialgne tõend
+ametiasutuste või kolmandate isikute poolt väljastatavate tõendite asemel. Käesolev PDF vormingus registri
+poolt koostatud dokument on selgitava iseloomuga ja sisaldab hankija sätestatud tingimusi, ettevõtjalt
+oodatavate vastuste vormingu vaadet ja registri poolt lisatud viiteid RHS-ile. Käesolev dokument ei ole ette
+nähtud täitmiseks vaid tingimustega tutvumiseks. Ettevõtja täidab hankepassi elektrooniliselt infosüsteemis või
+ESPD teenuses.
+
+I OSA: HANKE JA HANKIJAGA SEOTUD TEAVE
+Teave avaldamise kohta
+Teate number ELTs:
+ELT URL:
+Riigi ametlik teataja:
+301036
+Kui Euroopa Liidu Teatajas hankekuulutust avaldatud ei ole või kui selle avaldamist ei nõuta, peab avaliku
+sektori hankija või võrgustiku sektori hankija ise teabe esitama, et hankemenetlust saaks üheselt
+identifitseerida (nt viide siseriikliku avaldamise kohta).
+
+Hankija andmed
+Ametlik nimi:
+Sihtasutus Eesti Rahvusvahelise Arengukoostöö Keskus (90015347)
+Riik:
+Eesti
+Hankija aadress:
+Tatari tn 1
+Hankija veebiaadress:
+E-posti aadress:
+info@estdev.ee
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+2 / 28
+
+Teave hankemenetluse kohta
+Hanke menetlusliik:
+Avatud hankemenetlus
+Pealkiri:
+Info- ja küberturvalisuse alased asjad ja teenused
+Lühikirjeldus:
+Raamhange Eesti Rahvusvahelise Arengukoostöö Keskuse (ESTDEV) poolt teostatavatele info- ja
+kommunikatsioonitehnoloogia (IKT) valdkonnaga seotud asjadele ja teenustele.
+Avaliku sektori hankija või võrgustiku sektori hankija poolt toimikule antud viitenumber (kui on
+asjakohane):
+301036
+Hanke liik:
+Teenused
+Hanke CPV-d:
+48200000-0 Networking, Internet and intranet software package
+48500000-3 Communication and multimedia software package
+48600000-4 Database and operating software package
+48800000-6 Information systems and servers
+48900000-7 Miscellaneous software package and computer systems
+72100000-6 Hardware consultancy services
+72200000-7 Software programming and consultancy services
+72300000-8 Data services
+72700000-7 Computer network services
+79400000-8 Business and management consultancy and related services
+
+Hanke osad
+Hanke osade kohta kehtivad järgnevad nõuded:
+Tingimuse kirjeldus:
+Pakkumusi võib esitada: Maksimaalne osade arv
+Maksimaalne osade arv, mille kohta võib pakkumusi esitada: 3
+Maksimaalne osade arv, mille kohta võidakse sõlmida leping ühe pakkujaga:
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+3 / 28
+
+II OSA: ETTEVÕTJAGA SEOTUD TEAVE
+A: Teave ettevõtja kohta
+Nimi:
+Registrikood:
+Riik:
+Aadress:
+Üldine veebileht:
+Kontaktisikud:
+Kontaktide e-posti aadressid:
+Kontaktide telefoninumbrid:
+Ettevõtte suurus:
+Töötajate arv:
+Käive:
+Valuuta:
+Finantsalase võimekuse kirjeldus:
+Tehnilise võimekuse kirjeldus:
+Teostatud tööde kirjeldus:
+Ettevõtja tegevusvaldkond:
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+4 / 28
+
+ETTEVÕTJA ON KAITSTUD TÖÖKOHT
+Ainult reserveeritud hangete puhul: kas ettevõtja puhul on tegemist kaitstud töökohaga, sotsiaalse
+ettevõttega või ta täidab lepingut kaitstud tööhõive programmide raames?
+
+Küsimused ettevõtjale:
+1. Mis on Teie vastus?
+2. Milline on puudega või ebasoodsas olukorras olevate töötajate osakaal?
+3. Kui seda on nõutud, täpsustage, millisesse puudega või ebasoodsas olukorras olevate töötajate
+kategooriasse või kategooriatesse asjaomased töötajad kuuluvad?
+4. Kas see teave on elektrooniliselt kättesaadav?
+5. URL
+6. Kood
+7. Väljaandja
+
+ETTEVÕTJA ON KANTUD TUNNUSTATUD ETTEVÕTJATE AMETLIKKU
+NIMEKIRJA
+Kui see on asjakohane, siis kas ettevõtja on kantud tunnustatud ettevõtjate ametlikku nimekirja
+või kas tal on olemas samaväärne tõend (nt riikliku (eel)kvalifitseerimissüsteemi alusel)?
+
+Küsimused ettevõtjale:
+1. Mis on Teie vastus?
+2. a) Vajaduse korral märkige asjakohane registreerimis- või sertifitseerimisnumber:
+3. c) Viited, millele registreerimine või sertifitseerimine tugineb ja vajaduse korral ametlikus
+nimekirjas omistatud klassifikatsioon:
+4. d) Kas registreerimine või sertifitseerimine hõlmab kõiki nõutud valikukriteeriume?
+5. Kas see teave on elektrooniliselt kättesaadav?
+6. URL
+7. Kood
+8. Väljaandja
+
+HANKEMENETLUSES KOOS OSALEVAD ETTEVÕTJAD
+Kas ettevõtja osaleb hankemenetluses koos teistega?
+
+Küsimused ettevõtjale:
+1. Ettevõtja nimi
+2. Ettevõtja ID
+3. Ettevõtja roll
+4. Kas see teave on elektrooniliselt kättesaadav?
+5. URL
+6. Kood
+7. Väljaandja
+
+TEAVE TEISTE ÜKSUSTE SUUTLIKKUSELE TOETUMISE KOHTA
+Kas ettevõtja toetub teiste üksuste suutlikkusele, et täita esitatud valikukriteeriumid ning eeskirjad
+(kui neid on)?
+
+Küsimused ettevõtjale:
+1. Mis on Teie vastus?
+2. Ettevõtja nimi
+3. Ettevõtja ID
+4. Ettevõtja roll
+5. Kas see teave on elektrooniliselt kättesaadav?
+6. URL
+7. Kood
+8. Väljaandja
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+5 / 28
+
+TEAVE NENDE ALLHANKIJATE KOHTA, KELLE NÄITAJATELE ETTEVÕTJA
+EI TUGINE
+Kas ettevõtja kavatseb sõlmida lepingu mis tahes osa kohta allhanke kolmanda isikuga?
+
+Küsimused ettevõtjale:
+1. Mis on Teie vastus?
+2. Ettevõtja nimi
+3. Ettevõtja ID
+4. Ettevõtja roll
+5. Kas see teave on elektrooniliselt kättesaadav?
+6. URL
+7. Kood
+8. Väljaandja
+
+HANKE OSAD
+Hanke osad, mille kohta ettevõtja soovib pakkumuse esitada
+
+Küsimused ettevõtjale:
+1. Hanke osa number
+2. Kas see teave on elektrooniliselt kättesaadav?
+3. URL
+4. Kood
+5. Väljaandja
+
+ETTEVÕTJA KINNITUSED MAKSUDE TASUMISE KOHTA
+Kas ettevõtja saab esitada tõendi sotsiaalkindlustusmaksete ja maksude tasumise kohta või esitada
+teabe, mis võimaldaks avaliku sektori hankijal või võrgustiku sektori hankijal saada sellise teabe
+otse ükskõik millise liikmesriigi tasuta andmebaasist?
+
+Küsimused ettevõtjale:
+1. Mis on Teie vastus?
+2. Kas see teave on elektrooniliselt kättesaadav?
+3. URL
+4. Kood
+5. Väljaandja
+
+B: Teave ettevõtja esindajate kohta
+Eesnimi:
+Perekonnanimi:
+Sünniaeg:
+Sünnikoht:
+Aadress:
+Linn/vald:
+Postiindeks:
+Riik:
+E-post:
+Telefon:
+Vajaduse korral esitage üksikasjalik teave esindamise kohta (selle vormid, ulatus, eesmärk, ...):
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+6 / 28
+
+III OSA: KÕRVALDAMISE ALUSED
+A: Kõrvalejätmise alused seoses kriminaalasjas tehtud süüdimõistva otsusega
+OSALEMINE KURITEGELIKUS ORGANISATSIOONIS
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem
+viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise
+kohustus endiselt?
+Viide seadusele:
+RHS § 95 lg 1 p 1 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või
+muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud kuritegelikus ühenduses osalemise eest". Kui hankemenetlusest
+kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud
+meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui
+tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke
+alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+KORRUPTSIOON
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud korruptsiooni eest kõige rohkem viimase viie aasta jooksul või
+kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt? See
+kõrvalejätmise alus hõlmab ka korruptsiooni avaliku sektori hankija (võrgustiku sektori hankija)
+või ettevõtja riigi õiguses sätestatud määratluses.
+Viide seadusele:
+RHS § 95 lg 1 p 1 ja lg 2 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi
+või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud aususe kohustuse rikkumise või korruptiivse teo eest". Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+7 / 28
+
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+PETTUS
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud kelmuse eest kõige rohkem viimase viie aasta jooksul või kehtib
+süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?
+Viide seadusele:
+RHS § 95 lg 1 p 1 ja lg 2 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi
+või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud kelmuse eest". Kui hankemenetlusest kõrvaldamise alus esineb, võib
+ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma
+usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+TERRORIAKTI TOIMEPANEK VÕI TERRORISTLIKU TEGEVUSEGA SEOTUD
+ÕIGUSRIKKUMISED
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud terroriakti toimepaneku või terroristliku tegevusega seotud
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+8 / 28
+
+õigusrikkumiste eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas
+kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?
+Viide seadusele:
+RHS § 95 lg 1 p 1 ja lg 2 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi
+või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud terroriakti toimepaneku või muu terroristliku tegevusega seotud kuriteo
+või sellele kihutamise, kaasaaitamise või selle katse eest". Kui hankemenetlusest kõrvaldamise
+alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid
+oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+RAHAPESU VÕI TERRORISMI RAHASTAMINE
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud rahapesu või terrorismi rahastamise eest kõige rohkem viimase
+viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus
+endiselt?
+Viide seadusele:
+RHS § 95 lg 1 p 1 ja lg 2 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi
+või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud rahapesualase süüteo või terrorismi rahastamise eest". Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+9 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+LASTE TÖÖJÕU KASUTAMINE JA MUUD INIMKAUBANDUSE VORMID
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud laste tööjõu kasutamise või muude inimkaubanduse vormide eest
+kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud
+kõrvalejäämise kohustus endiselt?
+Viide seadusele:
+RHS § 95 lg 1 p 3 ja lg 2 "keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi
+või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud laste tööjõu ebaseadusliku kasutamise või inimkaubandusega seotud
+teo eest". Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada
+tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise
+võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või
+hankija on selle hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Date of conviction (Date)
+3. Reason (Large input field (max 4000 characters))
+4. Who has been convicted (Large input field (max 4000 characters))
+5. Length of the period of exclusion (Period)
+6. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+7. Please describe them (Large input field (max 4000 characters))
+8. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+9. URL (URL)
+10. Reference/Code (Input field (max 250 characters))
+11. Issuer (Input field (max 250 characters))
+
+B: Kõrvalejätmise alused seoses maksude või sotsiaalkindlustusmaksete tasumisega
+MAKSUDE TASUMINE
+Kas ettevõtja on rikkunud oma maksude tasumise kohustusi nii asukohariigis kui ka avaliku
+sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb asukohariigist?
+Viide seadusele:
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+10 / 28
+
+RHS § 95 lg 1 p 4 „kellel on riikliku maksu, makse või keskkonnatasu maksuvõlg
+maksukorralduse seaduse tähenduses või maksuvõlg /…/ tema asukohariigi õigusaktide kohaselt“
+Kehtib: Kõik osad
+
+Tingimuse kirjeldus:
+Piirmäär: 0
+Valuuta: EUR
+Lisainfo: Maksukorralduse seaduse kohaselt ei väljasta maksuhaldur maksuvõlgade tõendit juhul, kui
+maksukohustuslasel olev kõikide sama maksuhalduri hallatavate maksude võlg, arvestamata
+haldusaktiga kindlaksmääramata intressi, on väiksem kui 100 eurot või kui maksuvõla tasumine on
+ajatatud. Välismaise ettevõtja puhul väljastatakse maksuvõlgade tõend tema asukohariigi õigusaktide
+kohaselt.
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Country or Member State concerned (Country code)
+3. Amount concerned (Amount)
+4. Currency (Currency)
+5. Has this breach of obligations been established by means other than a judicial or administrative
+decision? (Radio button with "Yes/No" options)
+6. Please describe which means were used (Large input field (max 4000 characters))
+7. If this breach of obligations was established through a judicial or administrative decision, was this
+decision final and binding? (Radio button with "Yes/No" options)
+8. Please indicate the date of conviction or decision (Date)
+9. In case of a conviction, insofar as established directly therein, the length of the period of exclusion
+(Period)
+10. Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement
+with a view to paying the taxes or social security contributions due, including, where applicable, any
+interest accrued or fines? (Radio button with "Yes/No" options)
+11. Please describe them (Large input field (max 4000 characters))
+12. Is this information available at no cost to the authorities from an EU Member State database?
+(Radio button with "Yes/No" options)
+13. URL (URL)
+14. Reference/Code (Input field (max 250 characters))
+15. Issuer (Input field (max 250 characters))
+
+SOTSIAALKINDLUSTUSMAKSETE TASUMINE
+Kas ettevõtja on rikkunud oma sotsiaalkindlustusmaksete tasumise kohustusi nii asukohariigis
+kui ka avaliku sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb
+asukohariigist?
+Viide seadusele:
+RHS § 95 lg 1 p 4 „kellel on riikliku /…/ makse /…/ maksuvõlg maksukorralduse seaduse
+tähenduses või sotsiaalkindlustusemaksete võlg tema asukohariigi õigusaktide kohaselt
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+11 / 28
+
+Tingimuse kirjeldus:
+Piirmäär: 0
+Valuuta: EUR
+Lisainfo: Maksukorralduse seaduse kohaselt ei väljasta maksuhaldur maksuvõlgade tõendit juhul,kui
+maksukohustuslasel olev kõikide sama maksuhalduri hallatavate maksude võlg, arvestamata
+haldusaktiga kindlaksmääramata intressi, on väiksem kui 100 eurot või kui maksuvõla tasumine on
+ajatatud. Välismaise ettevõtja puhul väljastatakse maksuvõlgade tõend tema asukohariigi õigusaktide
+kohaselt.
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Country or Member State concerned (Country code)
+3. Amount concerned (Amount)
+4. Currency (Currency)
+5. Has this breach of obligations been established by means other than a judicial or administrative
+decision? (Radio button with "Yes/No" options)
+6. Please describe which means were used (Large input field (max 4000 characters))
+7. If this breach of obligations was established through a judicial or administrative decision, was this
+decision final and binding? (Radio button with "Yes/No" options)
+8. Please indicate the date of conviction or decision (Date)
+9. In case of a conviction, insofar as established directly therein, the length of the period of exclusion
+(Period)
+10. Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement
+with a view to paying the taxes or social security contributions due, including, where applicable, any
+interest accrued or fines? (Radio button with "Yes/No" options)
+11. Please describe them (Large input field (max 4000 characters))
+12. Is this information available at no cost to the authorities from an EU Member State database?
+(Radio button with "Yes/No" options)
+13. URL (URL)
+14. Reference/Code (Input field (max 250 characters))
+15. Issuer (Input field (max 250 characters))
+
+C: Kõrvalejätmise alused seoses maksejõuetusega, huvide konfliktiga või ametialaste
+käitumisreeglite rikkumisega
+KESKKONNAÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud keskkonnaõiguse valdkonnas kohaldatavaid kohustusi?
+Viide seadusele:
+RHS § 95 lg 4 p 2 „kes on rikkunud õigusaktidest või kollektiivlepingust tulenevaid
+keskkonnaõiguse valdkonnas kohaldatavaid kohustusi“. Kui hankemenetlusest kõrvaldamise alus
+esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma
+usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+12 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+SOTSIAALÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud sotsiaalõiguse valdkonnas kohaldatavaid kohustusi?
+Viide seadusele:
+RHS § 95 lg 4 p 2 „kes on rikkunud õigusaktidest või kollektiivlepingust tulenevaid
+sotsiaalõiguse valdkonnas kohaldatavaid kohustusi“. Kui hankemenetlusest kõrvaldamise alus
+esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma
+usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+TÖÖÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud tööõiguse valdkonnas kohaldatavaid kohustusi?
+Viide seadusele:
+RHS § 95 lg 4 p 2 „kes on rikkunud õigusaktidest või kollektiivlepingust tulenevaid tööõiguse
+valdkonnas kohaldatavaid kohustusi“. Kui hankemenetlusest kõrvaldamise alus esineb, võib
+ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma
+usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+13 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+PANKROT
+Kas ettevõtja on pankrotis?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kes on pankrotis, välja arvatud asjade ostmisel RHS § 49 lõikes 4 sätestatud
+juhul ja tingimustel“. Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral
+esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks.
+Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava
+hankega või hankija on selle hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+MAKSEJÕUETUS
+Kas ettevõtja suhtes on algatatud maksejõuetus- või likvideerimismenetlus?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kes on likvideerimisel või kelle suhtes on algatatud pankrotimenetlus, välja
+arvatud asjade ostmisel RHS § 49 lõikes 4 sätestatud juhul ja tingimustel“. Kui hankemenetlusest
+kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud
+meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui
+tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle hanke
+alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+14 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+KOKKULEPE VÕLAUSALDAJATEGA
+Kas ettevõtja on sõlminud kokkuleppe võlausaldajatega?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kes on muus sellesarnases olukorras tema asukohamaa õigusaktide kohaselt,
+välja arvatud asjade ostmisel RHS § 49 lõikes 4 sätestatud juhul ja tingimustel“. Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+SISERIIKLIKU ÕIGUSE KOHANE SAMALAADNE OLUKORD, NÄITEKS PANKROT
+Kas ettevõtja on siseriiklike õigusnormide alusel toimuva samalaadse menetluse tõttu
+samalaadses olukorras?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kes on muus sellesarnases olukorras tema asukohamaa õigusaktide kohaselt“,
+välja arvatud asjade ostmisel RHS § 49 lõikes 4 sätestatud juhul ja tingimustel. Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+15 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+VARA HALDAB LIKVIDEERIJA
+Kas ettevõtja vara haldab likvideerija või kohus?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kes on pankrotis, likvideerimisel või kelle suhtes on algatatud
+pankrotimenetlus või kes on muus sellesarnases olukorras tema asukohamaa õigusaktide
+kohaselt, välja arvatud asjade ostmisel RHS § 49 lõikes 4 sätestatud juhul ja tingimustel“. Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+ÄRITEGEVUS ON PEATATUD
+Kas ettevõtja äritegevus on peatatud?
+Viide seadusele:
+RHS § 95 lg 4 p 3 „kelle äritegevus on peatatud, välja arvatud asjade ostmisel RHS § 49 lõikes 4
+sätestatud juhul ja tingimustel“. Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja
+soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse
+taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära
+ületava hankega või hankija on selle hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+16 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Indicate reasons for being able nevertheless to perform the contract (Large input field (max 4000
+characters))
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+SÜÜDI AMETIALASTE KÄITUMISREEGLITE OLULISES RIKKUMISES
+Kas ettevõtja on süüdi ametialaste käitumisreeglite olulises rikkumises? Vt siseriiklikud
+õigusaktid, asjaomane teade või hankedokumendid, kui see on asjakohane.
+Viide seadusele:
+RHS § 95 lg 4 p 4 „kes on raskelt eksinud ametialaste käitumisreeglite vastu ja see muudab tema
+aususe küsitavaks“. Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral
+esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks.
+Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava
+hankega või hankija on selle hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+KONKURENTSI MOONUTAMISE EESMÄRGIL TEISTE ETTEVÕTJATEGA
+SÕLMITUD KOKKULEPPED
+Kas ettevõtja on teiste ettevõtjatega sõlminud kokkuleppeid, mille eesmärk on moonutada
+konkurentsi?
+Viide seadusele:
+RHS § 95 lg 4 p 5 „konkurentsi kahjustava kokkuleppe, ettevõtjate ühenduse otsuse või
+kooskõlastatud tegevuse tõttu“. Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja
+soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid oma usaldusväärsuse
+taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära
+ületava hankega või hankija on selle hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+17 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+HANKEMENETLUSES OSALEMISEGA KAASNEV HUVIDE KONFLIKT
+Kas ettevõtja on teadlik hankemenetluses osalemisega kaasnevast mis tahes huvide konfliktist
+siseriikliku õiguse, asjakohase teatise või hankedokumentide kohaselt?
+Viide seadusele:
+RHS § 95 lg 4 p 6 „kui huvide konflikti ei ole muude vahenditega võimalik vältida“. Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+4. URL (URL)
+5. Reference/Code (Input field (max 250 characters))
+6. Issuer (Input field (max 250 characters))
+
+OTSENE VÕI KAUDNE OSALEMINE KÄESOLEVA HANKEMENETLUSE
+ETTEVALMISTAMISEL
+Kas ettevõtja või temaga seotud ettevõtja on nõustanud avaliku sektori hankijat või võrgustiku
+sektori hankijat hankemenetluse ettevalmistamisel või olnud muul viisil seotud hankemenetluse
+ettevalmistamisega?
+Viide seadusele:
+RHS § 95 lg 4 p 7 „kelle pakkumuse või taotluse koostamisel on osalenud isik, kes on osalenud
+sama riigihanke ettevalmistamisel või on muul viisil hankijaga seotud, ja sellele isikule seetõttu
+teadaolev info annab talle eelise teiste riigihankes osalejate eest ning sellest tingitud konkurentsi
+moonutamist ei ole muude vahenditega võimalik vältida“. Kui hankemenetlusest kõrvaldamise
+alus esineb, võib ettevõtja soovi korral esitada tõendeid selle kohta, et ta on võtnud meetmeid
+oma usaldusväärsuse taastamiseks. Heastamise võimalus on ettevõtjal juhul, kui tegemist on
+rahvusvahelist piirmäära ületava hankega või hankija on selle hanke alusdokumentides ette
+näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+18 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+4. URL (URL)
+5. Reference/Code (Input field (max 250 characters))
+6. Issuer (Input field (max 250 characters))
+
+ENNETÄHTAEGNE LÕPETAMINE, KAHJUTASU VÕI VÕRRELDAVAD
+SANKTSIOONID
+Kas ettevõtja on kogenud, et varasem riigihankeleping või võrgustiku sektori hankijaga sõlmitud
+varasem hankeleping või varasem kontsessioonileping on lõpetatud enneaegselt, või on määratud
+kahjutasu või sellega võrreldavad sanktsioonid seoses kõnealuse varasema lepinguga?
+Viide seadusele:
+RHS § 95 lg 4 p 8 „kes on oluliselt või pidevalt rikkunud eelnevalt sõlmitud hankelepingu olulist
+tingimust või hankelepingute olulisi tingimusi nii, et rikkumise tulemusena on lepingust
+taganetud või leping üles öeldud, hinda alandatud, hüvitatud kahju või makstud leppetrahvi". Kui
+hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud. Alates 1.09.2017 alustatud hangete tulemusena sõlmitud
+riigihankelepingute kohta leiab infot riigihangete registrist.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Please describe them (Large input field (max 4000 characters))
+3. Have you taken measures to demonstrate your reliability ("Self-Cleaning") (Radio button with "Yes/
+No" options)
+4. Please describe them (Large input field (max 4000 characters))
+5. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+6. URL (URL)
+7. Reference/Code (Input field (max 250 characters))
+8. Issuer (Input field (max 250 characters))
+
+SÜÜDI VALEANDMETE ESITAMISES, ON JÄTNUD TEAVET ESITAMATA, EI SUUDA
+NÕUTUD DOKUMENTE ESITADA, HANKINUD KÄESOLEVA MENETLUSE KOHTA
+KONFIDENTSIAALSET TEAVET
+Kas ettevõtja on olnud ühes järgmistest olukordadest:
+a) ta on kõrvalejätmise aluste puudumise või valikukriteeriumide täitmise kontrollimiseks
+nõutava teabe esitamisel esitanud valeandmeid;
+b) ta on jätnud sellist teavet esitamata;
+c) ta ei ole esitanud viivitamata avaliku sektori hankija või võrgustiku sektori hankija nõutud
+täiendavad dokumendid, ja
+d) ta on tegutsenud eesmärgiga mõjutada lubamatul viisil avaliku sektori hankija või võrgustiku
+sektori hankija otsustusprotsessi, et saada konfidentsiaalseid andmeid, mis võivad anda talle
+põhjendamatu eelise hankemenetluses, või hooletusest esitanud eksitavat teavet, mis võib
+oluliselt mõjutada kõrvalejätmise, valiku või lepingu hindamise kohta tehtavaid otsuseid?
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+19 / 28
+
+Viide seadusele:
+RHS § 95 lg 4 p 9 „kes on esitanud valeandmeid käesolevas paragrahvis sätestatud või RHS §des 98-101 sätestatu alusel hankija kehtestatud kvalifitseerimise tingimustele vastavuse kohta“;
+RHS § 95 lg 4 p 9 „kes on jätnud andmed käesolevas paragrahvis sätestatud või käesoleva
+seaduse §-des 98-101 sätestatu alusel hankija kehtestatud kvalifitseerimise tingimustele
+vastavuse kohta esitamata“;
+RHS § 95 lg 4 p 9 „kes on jätnud käesoleva seaduse § 104 lõigete 7 ja 8 alusel hankija nõutud
+täiendavad dokumendid esitamata“;
+RHS § 95 lg 4 p 10 „kes on tegutsenud eesmärgiga mõjutada hankijat või esitanud hooletusest
+eksitavat teavet, mis on võinud mõjutada hankija otsuseid riigihankes, või on tegutsenud
+eesmärgiga saada konfidentsiaalset teavet, mis on võinud anda talle põhjendamatu eelise teiste
+riigihankes osalejate ees“.
+Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+3. URL (URL)
+4. Reference/Code (Input field (max 250 characters))
+5. Issuer (Input field (max 250 characters))
+
+D: Ainult siseriiklikest õigusaktidest tulenevad kõrvalejätmise alused
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: SEADUSLIKU ALUSETA VIIBIVALE VÄLISMAALASELE TÖÖTAMISE
+VÕIMALDAMISE EEST
+Kas ettevõtja on rikkunud RHS § 95 lg 1 p-st 2 tuleneva kõrvalejätmise alusega seotud kohustusi?
+Viide seadusele:
+RHS § 95 lg 1 p 2 „keda või kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või
+muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha või teda
+kontrollida, on karistatud riigis ilma seadusliku aluseta viibivale välismaalasele töötamise
+võimaldamise või välismaalase Eestis töötamise tingimuste rikkumise võimaldamise, sealhulgas
+seaduses sätestatud töötasu määrast väiksema töötasu maksmise eest“. Kohustuslik kõrvaldamise
+alus.
+Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+20 / 28
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+3. URL (URL)
+4. Reference/Code (Input field (max 250 characters))
+5. Issuer (Input field (max 250 characters))
+
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: RAHVUSVAHELISE SANKTSIOONI SUBJEKT
+Kas ettevõtja on rikkunud RHS § 95 lg 1 p-st 5 tuleneva kõrvalejätmise alusega seotud kohustusi?
+Viide seadusele:
+RHS § 95 lg 1 p 5. Kellega hankelepingu sõlmimine rikuks rahvusvahelist või Vabariigi
+Valitsuse sanktsiooni rahvusvahelise sanktsiooni seaduse tähenduses. Hankija kontrollib
+käesoleva seaduse § 95 lõike 1 punktis 5 sätestatud kõrvaldamise alust pakkuja või taotleja
+kinnituse alusel. Hankija võib põhjendatud kahtluse korral nõuda pakkujalt või taotlejalt
+täiendavate andmete või tõendite esitamist, mis võimaldavad kõrvaldamise alust kontrollida.
+(RHS § 96 lg 2.1).
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+3. URL (URL)
+4. Reference/Code (Input field (max 250 characters))
+5. Issuer (Input field (max 250 characters))
+
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: KARISTATUD MAKSUALASTE SÜÜTEGUDE EEST
+Kas ettevõtja on rikkunud RHS § 95 lg 4 p-st 11 tuleneva kõrvalejätmise alusega seotud
+kohustusi?
+Viide seadusele:
+RHS § 95 lg 4 p 11 „keda või kelle haldus-, juhtimis- või järelevalveorgani liiget või muud
+seaduslikku esindajat on karistatud maksualaste süütegude eest“. Vabatahtlik kõrvaldamise alus.
+Kui hankemenetlusest kõrvaldamise alus esineb, võib ettevõtja soovi korral esitada tõendeid selle
+kohta, et ta on võtnud meetmeid oma usaldusväärsuse taastamiseks. Heastamise võimalus on
+ettevõtjal juhul, kui tegemist on rahvusvahelist piirmäära ületava hankega või hankija on selle
+hanke alusdokumentides ette näinud.
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Your answer? (Radio button with "Yes/No" options)
+2. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+3. URL (URL)
+4. Reference/Code (Input field (max 250 characters))
+5. Issuer (Input field (max 250 characters))
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+21 / 28
+
+IV OSA: KVALIFITSEERIMISTINGIMUSED
+B: Majanduslik ja finantsseisund
+ÜLDINE AASTAKÄIVE
+Ettevõtja üldine aastakäive on asjaomases teates, hankedokumentides või hankepassis nõutud
+majandusaastate jooksul järgmine:
+Viide seadusele:
+RHS § 100 lg 1 p 4 „andmed pakkuja või taotleja kogu majandustegevuse netokäibe kohta kuni
+viimase kolme riigihanke algamise ajaks lõppenud majandusaasta jooksul, sõltuvalt pakkuja või
+taotleja asutamise või äritegevuse alguse kuupäevast“
+Tingimuse selgitus:
+Pakkuja kogu majandustegevuse netokäive viimase kolme riigihanke algamise ajaks lõppenud
+majandusaasta jooksul (s.o. 2022-2024), sõltuvalt pakkuja asutamise või äritegevuse alguse
+kuupäevast peab olema vähemalt 500 000 eurot aastas. Sisestada eraldi iga majandusaasta käive.
+Kui pakkuja soovib tõendada oma vastavust käesolevale nõudele teise ettevõtja vahendite alusel,
+peab pakkuja ja teine ettevõtja vastutama hankelepingu nõuetekohase täitmise eest ühiselt (RHS
+§ 103 lg 3).
+Kehtib: Ainult järgmiste osade kohta:
+Osa 1 - Info- ja küberturvalisuse alased konsultatsiooniteenused
+
+Tingimuse kirjeldus:
+Miinimumnõue: 500000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+ÜLDINE AASTAKÄIVE
+Ettevõtja üldine aastakäive on asjaomases teates, hankedokumentides või hankepassis nõutud
+majandusaastate jooksul järgmine:
+Viide seadusele:
+RHS § 100 lg 1 p 4 „andmed pakkuja või taotleja kogu majandustegevuse netokäibe kohta kuni
+viimase kolme riigihanke algamise ajaks lõppenud majandusaasta jooksul, sõltuvalt pakkuja või
+taotleja asutamise või äritegevuse alguse kuupäevast“
+Tingimuse selgitus:
+Pakkuja kogu majandustegevuse netokäive viimase kolme riigihanke algamise ajaks lõppenud
+majandusaasta jooksul (s.o. 2022-2024), sõltuvalt pakkuja asutamise või äritegevuse alguse
+kuupäevast peab olema vähemalt 1 000 000 eurot aastas. Sisestada eraldi iga majandusaasta
+käive. Kui pakkuja soovib tõendada oma vastavust käesolevale nõudele teise ettevõtja vahendite
+alusel, peab pakkuja ja teine ettevõtja vastutama hankelepingu nõuetekohase täitmise eest ühiselt
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+22 / 28
+
+(RHS § 103 lg 3).
+Kehtib: Ainult järgmiste osade kohta:
+Osa 2 - Info- ja küberturvalisuse tarkvaraanalüüs, -arendus ja -rakendused
+
+Tingimuse kirjeldus:
+Miinimumnõue: 1000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+Tingimuse kirjeldus:
+Miinimumnõue: 1000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+Tingimuse kirjeldus:
+Miinimumnõue: 1000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+ÜLDINE AASTAKÄIVE
+Ettevõtja üldine aastakäive on asjaomases teates, hankedokumentides või hankepassis nõutud
+majandusaastate jooksul järgmine:
+Viide seadusele:
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+23 / 28
+
+RHS § 100 lg 1 p 4 „andmed pakkuja või taotleja kogu majandustegevuse netokäibe kohta kuni
+viimase kolme riigihanke algamise ajaks lõppenud majandusaasta jooksul, sõltuvalt pakkuja või
+taotleja asutamise või äritegevuse alguse kuupäevast“
+Tingimuse selgitus:
+Pakkuja kogu majandustegevuse netokäive viimase kolme riigihanke algamise ajaks lõppenud
+majandusaasta jooksul (s.o. 2022-2024), sõltuvalt pakkuja asutamise või äritegevuse alguse
+kuupäevast peab olema vähemalt 4 000 000 eurot aastas. Sisestada eraldi iga majandusaasta
+käive. Kui pakkuja soovib tõendada oma vastavust käesolevale nõudele teise ettevõtja vahendite
+alusel, peab pakkuja ja teine ettevõtja vastutama hankelepingu nõuetekohase täitmise eest ühiselt
+(RHS § 103 lg 3).
+Kehtib: Ainult järgmiste osade kohta:
+Osa 3 - Erinevad IT ja küberturvalisuse infrastruktuuri komponendid,
+paigaldamine ja seadistamine
+
+Tingimuse kirjeldus:
+Miinimumnõue: 4000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+Tingimuse kirjeldus:
+Miinimumnõue: 4000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+24 / 28
+
+Tingimuse kirjeldus:
+Miinimumnõue: 4000000
+Valuuta: EUR
+
+Ettevõtjalt oodatavad vastused:
+1. Period (Period)
+2. Amount (Amount)
+3. Currency (Currency)
+4. Is this information available at no cost to the authorities from an EU Member State database? (Radio
+button with "Yes/No" options)
+5. URL (URL)
+6. Reference/Code (Input field (max 250 characters))
+7. Issuer (Input field (max 250 characters))
+
+C: Tehniline ja kutsealane suutlikkus
+TEENUSLEPINGUTE PUHUL: TÄPSUSTATUD LIIKI TEENUSTE OSUTAMINE
+Ainult teenuste riigihankelepingute puhul: "nimekiri hankija kindlaksmääratud tunnustele
+vastavate teenuste osutamise lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu
+jooksul, koos teabega nende maksumuse, kuupäevade ja teiste lepingupoolte kohta." Avaliku
+sektori hankijad võivad võtta arvesse rohkem kui kolme aasta vanuseid kogemusi.
+Viide seadusele:
+RHS § 101 lg 1 p 2 „nimekiri hankija kindlaks määratud tunnustele vastavate teenuste osutamise
+lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu jooksul, koos teabega nende
+maksumuse, kuupäevade ja teiste lepingupoolte kohta“
+RHS § 101 lg 2 „hankija võib piisava konkurentsi tagamiseks arvesse võtta andmeid rohkem kui
+36 kuu eest täidetud teenuste osutamise lepingute kohta“
+Tingimuse selgitus:
+Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud vähemalt 3
+lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega 50 000
+eurot ilma käibemaksuta; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist.
+Kehtib: Ainult järgmiste osade kohta:
+Osa 1 - Info- ja küberturvalisuse alased konsultatsiooniteenused
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+25 / 28
+
+Tingimuse kirjeldus:
+Minimaalne teostatud tööde arv: 3
+Kirjeldus: Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud
+vähemalt 3 lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega
+50 000 eurot ilma käibemaksuta; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist. // The tenderer must have duly completed at
+least 3 contracts within the 36 months preceding the public procurement, of which the tenderer
+has: 1) completed a contract with a total value of 50,000 euros excluding VAT ; 2) the subject of
+the contract is similar to the field that is part of the specific public procurement. The required
+obligations must be fulfilled within the aforementioned period, i.e. the end dates of the obligations
+must be within 36 months. The tenderer shall submit a list of contracts in the procurement
+passport, together with data on the date of conclusion and performance of the contracts, their
+value and the other party to the contract (client name, e-mail address, telephone number). The
+contracting authority reserves the right to contact the contact persons of the other parties (clients)
+of the contracts submitted by the applicant in order to verify the data provided, including the
+proper performance of the contracts.
+
+Ettevõtjalt oodatavad vastused:
+1. Description (Large input field (max 4000 characters))
+2. Total amount (Amount)
+3. Currency (Currency)
+4. Responsibility of the entrepreneur (Large input field (max 4000 characters))
+5. Amount (Amount)
+6. Currency (Currency)
+7. Period (Period)
+8. Is the information confidential? (Radio button with "Yes/No" options)
+9. Subscriber's name (Input field (max 250 characters))
+10. Name of contact person (Input field (max 250 characters))
+11. E-mail (Input field (max 250 characters))
+12. Phone (Input field (max 250 characters))
+13. Is this information available electronically? (Radio button with "Yes/No" options)
+14. URL (URL)
+15. Reference/Code (Input field (max 250 characters))
+16. Issuer (Input field (max 250 characters))
+
+TEENUSLEPINGUTE PUHUL: TÄPSUSTATUD LIIKI TEENUSTE OSUTAMINE
+Ainult teenuste riigihankelepingute puhul: "nimekiri hankija kindlaksmääratud tunnustele
+vastavate teenuste osutamise lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu
+jooksul, koos teabega nende maksumuse, kuupäevade ja teiste lepingupoolte kohta." Avaliku
+sektori hankijad võivad võtta arvesse rohkem kui kolme aasta vanuseid kogemusi.
+Viide seadusele:
+RHS § 101 lg 1 p 2 „nimekiri hankija kindlaks määratud tunnustele vastavate teenuste osutamise
+lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu jooksul, koos teabega nende
+maksumuse, kuupäevade ja teiste lepingupoolte kohta“
+RHS § 101 lg 2 „hankija võib piisava konkurentsi tagamiseks arvesse võtta andmeid rohkem kui
+36 kuu eest täidetud teenuste osutamise lepingute kohta“
+Tingimuse selgitus:
+Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud vähemalt 3
+lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega 100 000
+eurot ilma käibemaksuta; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+26 / 28
+
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist.
+Kehtib: Ainult järgmiste osade kohta:
+Osa 2 - Info- ja küberturvalisuse tarkvaraanalüüs, -arendus ja -rakendused
+
+Tingimuse kirjeldus:
+Minimaalne teostatud tööde arv: 3
+Kirjeldus: Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud
+vähemalt 3 lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega
+100 000 eurot ilma käibemaksuta; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist. // The tenderer must have duly completed at
+least 3 contracts within the 36 months preceding the public procurement, of which the tenderer
+has: 1) completed a contract with a total value of 100,000 euros excluding VAT ; 2) the subject of
+the contract is similar to the field that is part of the specific public procurement. The required
+obligations must be fulfilled within the aforementioned period, i.e. and end dates of the
+obligations must be within 36 months. The tenderer shall submit a list of contracts in the
+procurement passport, together with data on the date of conclusion and performance of the
+contracts, their value and the other party to the contract (client name, e-mail address, telephone
+number). The contracting authority reserves the right to contact the contact persons of the other
+parties (clients) of the contracts submitted by the applicant in order to verify the data provided,
+including the proper performance of the contracts.
+
+Ettevõtjalt oodatavad vastused:
+1. Description (Large input field (max 4000 characters))
+2. Total amount (Amount)
+3. Currency (Currency)
+4. Responsibility of the entrepreneur (Large input field (max 4000 characters))
+5. Amount (Amount)
+6. Currency (Currency)
+7. Period (Period)
+8. Is the information confidential? (Radio button with "Yes/No" options)
+9. Subscriber's name (Input field (max 250 characters))
+10. Name of contact person (Input field (max 250 characters))
+11. E-mail (Input field (max 250 characters))
+12. Phone (Input field (max 250 characters))
+13. Is this information available electronically? (Radio button with "Yes/No" options)
+14. URL (URL)
+15. Reference/Code (Input field (max 250 characters))
+16. Issuer (Input field (max 250 characters))
+
+ASJADE HANKELEPINGUTE PUHUL: TÄPSUSTATUD LIIKI TARNETE TEOSTAMINE
+Ainult asjade riigihankelepingute puhul: nimekiri hankija kindlaksmääratud tunnustele vastavate
+asjade müügi või teenuste osutamise lepingutest, mis on täidetud riigihanke algamisele eelneva
+36 kuu jooksul, koos teabega nende maksumuse, kuupäevade ja teiste lepingupoolte kohta.
+Avaliku sektori hankijad võivad võtta arvesse rohkem kui kolme aasta vanuseid lepinguid.
+Viide seadusele:
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+27 / 28
+
+RHS § 101 lg 1 p 2 „nimekiri hankija kindlaks määratud tunnustele vastavate asjade müügi
+lepingutest, mis on täidetud riigihanke algamisele eelneva 36 kuu jooksul, koos teabega nende
+maksumuse, kuupäevade ja teiste lepingupoolte kohta“
+RHS § 101 lg 2 „hankija võib piisava konkurentsi tagamiseks arvesse võtta andmeid rohkem kui
+36 kuu eest täidetud asjade müügi lepingute kohta“
+Tingimuse selgitus:
+Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud vähemalt 3
+lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega 200 000
+eurot ilma käibemaksuta ; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist.
+Kehtib: Ainult järgmiste osade kohta:
+Osa 3 - Erinevad IT ja küberturvalisuse infrastruktuuri komponendid,
+paigaldamine ja seadistamine
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+28 / 28
+
+Tingimuse kirjeldus:
+Minimaalne teostatud tööde arv: 3
+Kirjeldus: Pakkuja peab riigihankele eelnenud 36 kuu jooksul olema nõuetekohaselt täitnud
+vähemalt 3 lepingut, millest iga lepingu raames on pakkuja: 1) täitnud lepingu kogumaksumusega
+200 000 eurot ilma käibemaksuta ; 2) lepingu ese on sarnane konkreetse riigihanke osaks oleva
+valdkonnaga. Nõutavad kohustused peavad olema täidetud eelnimetatud perioodi jooksul ehk
+kohustuste lõppaeg peab olema 36 kuu jooksul. Pakkuja esitab hankepassi lepingute nimekirja
+koos andmetega lepingute sõlmimise ja täitmise kuupäeva, maksumuse ja lepingu teise poole
+(kliendi nimi, e-posti aadress, telefon) kohta. Hanke teostaja jätab endale õiguse võtta ühendust
+taotleja poolt esitatud lepingute teiste osapoolte (klientide) kontaktisikutega, et kontrollida
+esitatud andmeid, sh lepingute nõuetekohast täitmist. // The tenderer must have duly completed at
+least 3 contracts within the 36 months preceding the public procurement, of which the tenderer
+has: 1) completed a contract with a total value of 200,000 euros excluding VAT; 2) the subject of
+the contract is similar to the field that is part of the specific public procurement. The required
+obligations must be fulfilled within the aforementioned period, i.e. the end dates of the obligations
+must be within 36 months. The tenderer shall submit a list of contracts in the procurement
+passport, together with data on the date of conclusion and performance of the contracts, their
+value and the other party to the contract (client name, e-mail address, telephone number). The
+contracting authority reserves the right to contact the contact persons of the other parties (clients)
+of the contracts submitted by the applicant in order to verify the data provided, including the
+proper performance of the contracts.
+
+Ettevõtjalt oodatavad vastused:
+1. Description (Large input field (max 4000 characters))
+2. Total amount (Amount)
+3. Currency (Currency)
+4. Responsibility of the entrepreneur (Large input field (max 4000 characters))
+5. Amount (Amount)
+6. Currency (Currency)
+7. Period (Period)
+8. Is the information confidential? (Radio button with "Yes/No" options)
+9. Subscriber's name (Input field (max 250 characters))
+10. Name of contact person (Input field (max 250 characters))
+11. E-mail (Input field (max 250 characters))
+12. Phone (Input field (max 250 characters))
+13. Is this information available electronically? (Radio button with "Yes/No" options)
+14. URL (URL)
+15. Reference/Code (Input field (max 250 characters))
+16. Issuer (Input field (max 250 characters))
+
+Koostatud 11.11.2025 21:27:43
+https://riigihanked.riik.ee/rhr-web/#/procurement/9390245/general-info
+
+

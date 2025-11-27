@@ -1,0 +1,966 @@
+RAAMLEPING OSA …1
+SA Eesti Rahvusvahelise Arengukoostöö Keskus (edaspidi tellija), registrikood
+90015347, Tatari tn 1, 10116 Tallinn, keda esindab põhikirja alusel juhatuse liige Klen Jäärats
+ja
+________, registrikood ________, aadress ________, keda esindab põhikirja alusel
+juhatuse liige ________ (edaspidi töövõtja 1 või pool),
+________, registrikood ________, aadress ________, keda esindab põhikirja alusel
+juhatuse liige ________ (edaspidi töövõtja 2 või pool),
+________, registrikood ________, aadress ________, keda esindab põhikirja alusel
+juhatuse liige ________ (edaspidi töövõtja 3 või pool) ning
+
+Sisestatakse kõik töövõtjad
+edaspidi eraldi pool või koos pooled, on sõlminud käesoleva raamlepingu (edaspidi leping)
+alljärgnevas:
+
+1. Lepingu eesmärk ja ese
+1.1. Tellija poolt korraldatud riigihanke „Info- ja küberturvalisuse alased asjad ja
+teenused“ (viitenumbriga 301036, osa …) alusel sõlmitud raamlepingu eesmärk on
+kokku leppida, kuidas toimub raamlepingu kehtivuse ajal raamlepingu esemeks
+olevate tööde tellimiseks hankelepingute sõlmimine tellija ja raamlepingu partnerite
+vahel.
+1.2. Raamleping ei kohusta tellijat töid tellima.
+1.3. Raamlepingu kehtivus on 48 kuud või kuni kohustuste täitmiseni või raamlepingu
+lõpetamiseni või raamlepingu rahalise mahu täituvuseni.
+1.4. Raamlepingut võidakse rahastada lisaks riigieelarvele ka välisvahenditest (s.o hankija
+eelarve välised finantsvahendid).
+2. Üldtingimused
+2.1. Raamlepingu juurde kuuluvateks lahutamatuteks osadeks loetakse kõik lisad ja
+riigihanke alusdokumendid ning töövõtja riigihankes esitatud pakkumus ja
+pooltevahelised kirjalikud teated, mida raamlepingu lisadena eraldi ei allkirjastata.
+2.2. Kui hankelepingu tingimus erineb raamlepingu tingimusest, loetakse ülimuslikuks
+hankelepingu tingimus. Kui lepingu lisades esinevad tingimused erinevad lepingu
+tingimustest, loetakse ülimuslikuks lepingu tingimus.
+2.3. Raamlepingu täitmise käigus võib kokku leppida täiendavaid tingimusi, kui need on
+vajalikud rahastamise tingimustest tulenevate nõuete täitmiseks.
+2.4. Kui hankelepingu alusel teostatavate tööde rahastamisega seonduvad täiendavad
+tingimused, on töövõtjal kohustus järgida hankelepingus teatavaks tehtud
+finantsvahendite kasutamisest tulenevaid nõudeid, sh kasutada programmi
+tingimustes nõutud sümboolikat.
+
+1 See raamlepingu projekt on osadele 1 ja 2
+
+1
+
+2.5. Pooled teevad raamlepingu ja selle alusel sõlmitud hankelepingute täitmiseks ja nende
+eesmärkide saavutamiseks koostööd. Pooled kohustuvad tegema kõik vajalikud
+pingutused, et täita hankeleping õigeaegselt ja vastavalt kokkulepetele.
+2.6. Pooled võivad kokkuleppel kaasata tööde kvaliteedi või tööde vastuvõtmise
+hindamiseks mõlema poole poolt aktsepteeritud sõltumatu eksperdi või audiitori. Kui
+tellija hinnang tööde kvaliteedile või tööde vastuvõtmisele osutub ekspertiisi
+tulemusel põhjendamatuks, hüvitab tellija ekspertiisikulud. Kui ekspertiis kinnitab
+tellija hinnangut kvaliteedile või tööde vastuvõtmisele, jäävad ekspertiisikulud
+töövõtja kanda.
+2.7. Poolel on õigus teha teisele poolele ettepanekuid hankelepingute täitmise kvaliteedi
+tõstmiseks. Kui pool on esitanud teisele poolele hankelepingu täitmisega seotud
+küsimuses päringu, on pool kohustatud sellele sisuliselt reageerima (asjakohast
+tagasisidet andma) võimalikult kiiresti, kuid hiljemalt 5 tööpäeva jooksul, v.a juhul kui
+pöördumine nõuab täiendavat analüüsi või info süstematiseerimist.
+2.8. Pooltel on kohustus osa võtta töökoosolekutest töö käigus tekkinud probleemide
+lahendamiseks ja infovahetuseks tellija juures kohapeal või virtuaalselt.
+Töökoosolekutel osalemist tellija ei tasusta, v.a juhul, kui hankelepingus on kokku
+lepitud teisiti.
+2.9. Lepingu täitmise keel on eesti ja inglise keel, muuhulgas on need ka hankelepingute
+sõlmimise, töökoosolekute jm suhtluse ning tööde dokumenteerimise keel. Pooled
+võivad kokku leppida vajaduses täita lepingut muudes keeltes, kuid tagatud peab
+olema inglise keelt valdav projektijuht ning eesti keeles suhtlemise ja
+dokumenteerimise võimekus (sobib ka tõlgi abil).
+3. Poolte õigused ja kohustused
+3.1. Töövõtja kohustub:
+3.1.1. täitma lepingut hankelepingus kokkulepitud tingimustel ja ulatuses, sh tagama
+tööde õigeaegse alustamise, teostamise, valmimise ja tellijale üleandmise;
+3.1.2. tagama hankelepingu täitmiseks vajalike ressursside olemasolu, tööde
+teostajate kõrge professionaalse taseme ning vajaliku tehnoloogia ja metoodikate
+väga hea tundmise, omama lepingu täitmiseks sobivaid keskkondi, koos kõige
+sinna juurde kuuluvaga, sh kasutatava tarkvara litsentsid, või kasutama tellija
+olemasolevaid jagatud keskkondi;
+3.1.3. tegema koostööd kolmandate osapooltega pidades silmas tellija vajadusi (nt
+äritellijaga, teiste arenduspartneritega jne);
+3.1.4. teavitama viivitamatult tellijat lepingu täitmist takistavatest asjaoludest, mis
+segavad hankelepingu nõuetekohast täitmist;
+3.1.5. juhinduma tellija suunistest ja eeskirjadest lepingu eesmärkide saavutamisel,
+pöördudes selleks vajadusel tellija poole;
+3.1.6. arvestama, et hankelepingu täitmiseks võib olla vajadus muuta ja täiendada
+olemasolevat koodi ning tagama protsesside ja funktsionaalsuse tervikluse pärast
+koodi muutmist või täiendamist;
+3.1.7. töötunni põhiselt tellitavate tööde puhul esitama tellijale lepingu täitmise
+ajaaruandeid (iga meeskonnaliige isiklikult);
+3.1.8. osutama tellijale teostatud töö osas tuge, sh pakkuma konsultatsiooni ja
+koolitusi kuni garantiiaja lõpuni;
+3.1.9. täitma lepingut kvaliteetselt ning vastavalt valdkonna headele tavadele ja
+praktikale. Tellija eeldab, et töövõtja on küberturvalisuse valdkonna
+professionaal, kes saab aru ning võtab teadlikult enda kanda hankelepingu
+2
+
+funktsionaalsete ja mittefunktsionaalsete nõuete täidetavuse ja tulemuse
+saavutatavuse riski. Sellest tulenevalt laieneb töövõtjale ka selliste tööde tegemise
+kohustus, mida ei ole hankelepingus kokku lepitud, kuid mis oma olemusest
+lähtuvalt kuuluvad hankelepinguga seotud tööde hulka. Nimetatud tööde
+tegemine ei kuulu eraldi tasustamisele ning töövõtja teostab kirjeldatud tööd
+hankelepingu täitmise raames;
+3.1.10. viivitamata teavitama tellijat töövõtja vastu suunatud küberintsidendist ning
+esitama töövõtja nõudmisel tellijale küberintsidendi raporti;
+3.1.11. teavitama kirjalikku taasesitamist võimaldavas vormis oma mistahes huvist,
+mis võib põhjustada lepingu täitmisel huvide konflikti tekkimist;
+3.1.12. mitte edastama lepingu täitmise käigus saadud isikuandmeid väljapoole
+Euroopa Liidu liikmesriikide, Euroopa Majandusühendusse kuuluvate riikide ja
+projekti asukohariigi territooriumit ilma tellija sellekohase selgesõnalise kirjaliku
+nõusolekuta;
+3.1.13. kasutama ja töötlema lepingu täitmise käigus saadud isikuandmeid üksnes
+lepingu täitmiseks ja tellija dokumenteeritud juhiste alusel, välja arvatud juhul,
+kui töövõtja on kohustatud teavet töötlema töövõtja suhtes kohalduva õiguse
+alusel. Viimati nimetatud juhul teavitab töövõtja tellijat vastava kohustuse
+olemasolust enne teabe töötlemist, kui selline teavitamine ei ole olulise avaliku
+huvi tõttu töövõtja suhtes kohalduva õigusega keelatud.
+3.2. Töövõtjal on õigus:
+3.2.1. saada lepingu täitmise eest hankelepingus kokkulepitud ulatuses ja korras tasu;
+3.2.2. kasutada lepingu täitmisel alltöövõtjaid, kooskõlastades selle eelnevalt
+kirjalikult tellijaga. Alltöövõtjate tegevuse ja tegevusetuse eest vastutab tellija ees
+täitja;
+3.2.3. anda arve esitamise õiguse üle kolmandale isikule lepingu muudatust
+sõlmimata, kui ta on tellijale esitanud sellekohase teate
+3.3. Tellija kohustub:
+3.3.1. tasuma töövõtjale töö eest vastavalt lepingus sätestatud tingimustele ja korrale;
+3.3.2. andma töövõtjale selgelt ja õigeaegselt töö teostamiseks vajalikke juhiseid ja
+informatsiooni, mis võib aidata kaasa töö parima lõpptulemuse saavutamiseks;
+3.3.3. viivitamatult, kuid mitte hiljem kui kahe tööpäeva jooksul alates vastavate
+asjaolude ilmnemisest kirjalikult informeerima töövõtjat selliste asjaolude
+ilmnemisest, millised võivad takistada töö teostamist.
+3.4. Tellijal on õigus:
+3.4.1. kontrollida igal ajal lepingu täitmist ja anda täitjale selleks kohustuslikke
+suuniseid;
+3.4.2. keelduda osaliselt või täielikult tasu maksmisest, kui täitja ei teostanud
+nõuetekohaseid töid kokku lepitud tähtajaks ja täitja poolne rikkumine ei ole
+objektiivselt põhjendatud;
+3.4.3. kaasata lepingu täitmiseks tellija teisi riigiasutusi informatsiooni andmisel,
+maksja ja/ või töö kvaliteedi kontrollija rollis. Kolmanda osapoole kaasamine
+tellija poolt ei ole käsitletav raamlepingu muutmisena riigihangete seaduse
+mõttes.
+4. Töö üleandmine ja vastuvõtmine
+4.1. Töövõtja teostab töö vastavalt hankelepingule ja selle lisadele, mis tehakse teatavaks
+minikonkursi raames.
+4.2. Töövõtja esitab tehtud tööd tellija kontaktisikule üle vaatamiseks ja ettepanekute
+esitamiseks. Tellija vaatab esitatud etapi töö üle 10 tööpäeva jooksul töö üleandmisest
+3
+
+alates ning esitab töövõtjale oma kommentaarid. Vajadusel korraldatakse töövõtja ja
+tellija kohtumine.
+4.3. Töövõtja viib omal kulul vajalikud parandused sisse töö lõppversiooni või tellija
+määratud muu mõistliku tähtaja jooksul. Seejärel kirjutavad pooled alla töö
+üleandmise-vastuvõtmise aktile, milles kinnitatakse, et töö on üle antud, üle vaadatud
+ja vastu võetud.
+4.4. Lepingu alusel koostatavad dokumendid antakse tellijale üle korrektselt vormistatult
+ja minikonkursi alusdokumentides määratud keeles (inglise või eesti). Dokumendid
+esitatakse digitaalsel kujul ning dokumentide vormingu lepivad pooled kokku lepingu
+täitmisel.
+4.5. Tellija poolt allkirjastab töö üleandmise-vastuvõtmise aktid lepingus nimetatud
+kontaktisik.
+4.6. Poolte kokkuleppel võib hankelepingus nimetatud tähtaegu muuta, kui selle tingivad
+hankelepingu sõlmimise hetkel ettenägematud asjaolud ja tähtagade muutmine on
+vajalik töö kvaliteetsemaks teostamiseks. Muuhulgas on töövõtjal õigus teha tellijale
+ettepanek tähtaegade muutmiseks, kui selle tingib tellija lepinguliste kohustuste
+rikkumine, ning tellijal on õigus tagasi lükata töövõtja ettepanek tähtaegade
+pikendamiseks, kui selle tingib töövõtja lepinguliste kohustuste rikkumine.
+5. Tasu ja tasumise tingimused
+5.1. Raamlepingu kehtivuse ajal on maksimaalseks töötunni hinnaks järgmised hinnad
+käibemaksuta vastavalt pakkumustele:
+5.1.1. Töövõtja 1 ühe töötunni tasu __ eurot käibemaksuta;
+5.1.2. Töövõtja 2 ühe töötunni tasu __ eurot käibemaksuta;
+5.1.3. Sisestatakse kõikide töövõtjate tasud
+5.2. Pakkumuse koosseisus esitatud ühe töötunni maksumust indekseeritakse esimest
+korda alates 01.02.2027. Iga kalendriaasta veebruarikuu 1. kuupäeva seisuga toimub
+ühe töötunni maksumuse indekseerimine järgneva 12 kuu jooksul läbi viidavatele
+minikonkurssidele, st kehtivate hankelepingute raames töötunni hind ei muutu ja
+indekseeritud
+hinda saab
+pakkuda
+indekseerimisjärgsel
+minikonkursil.
+Indekseerimine toimub tarbijahinnaindeksi alusel, st indekseerimise hetkele eelneva
+täispika kalendriaasta tarbijahinnaindeksi muudatuse võrra tõuseb või langeb ühe
+töötunni maksimaalne maksumus. Maksimaalselt võib lepingu koguperioodil
+indekseerimise tulemusel ühikuhind tõusta 20% esialgu esitatud ühikuhinnast.
+Negatiivse tarbijahinnaindeksi korral vähendatakse ühe töötunni maksumust
+vastavalt tarbijahinnaindeksi muutusele, aga mitte väiksemaks, kui lepingu
+sõlmimisel kokku lepitud ühe töötunni maksumus.
+5.3. Raamlepingu maht on maksimaalselt xxx2 eurot käibemaksuta, mis summeeritakse
+kõikide töövõtjatega sõlmitud hankelepingute alusel.
+5.4. Tellija tasub töö eest töövõtjale vastavalt esitatud arvetele, mis on kooskõlas koostatud
+ja mõlemapoolselt allkirjastatud aktiga.
+5.5. Töövõtja esitab tellijale Eesti e-arve standardile vastavad e-arved. E-arve tuleb esitada
+tellija e-arve operaatori (AS Fitek) ostuarvete halduskeskkonda. E-arves peab lisaks
+standardis nimetatud andmetele olema toodud ka tellija kontaktisiku ees- ja
+perekonnanimi, lepingu number, lepinguosa viitenumber ja riigihanke viitenumber.
+5.6. Töövõtja poolt esitatavad arved peavad selgelt ja üheselt viitama hanke- ja
+raamlepingule,
+vastama
+üleandmise-vastuvõtmise
+aktis
+sätestatule
+ja
+
+Lisatakse sõlmimisel ja koosneb eeldatavast maksumusest, millele lisatakse 20% indekseerimise
+katmiseks.
+2
+
+4
+
+käibemaksuseaduse nõuetele. Käesolevas punktis esitatud tingimustele mittevastav
+arve ei kuulu tasumisele.
+5.7. Tellija tasub esitatud arved 14 kalendripäeva jooksul nõuetekohase arve saamisest
+arvates. Arvel märgitud summa laekumise kohaks on töövõtja poolt arvel märgitud
+arveldusarve number.
+5.8. Arve tasumise kuupäevaks loetakse vastava maksekorralduse riigikassale esitamise
+kuupäev.
+6. Töövõtja meeskond
+6.1. Lepingu täitmisel osalevad raamhanke pakkumuses esitatud meeskonnaliikmed, v.a
+juhul, kui täitjast mittesõltuval asjaolul ei ole seda võimalik teha ja meeskonnaliige on
+asendatud tellija kirjalikku taasesitamist võimaldaval nõusolekul uue, hanke
+tingimustele vastava meeskonnaliikmega.
+6.2. Täitja võib tellija kirjalikku taasesitamist võimaldaval nõusolekul kaasata täiendavaid
+meeskonnaliikmeid. Täiendavad meeskonnaliikmed peavad vastama riigihankes
+seatud nõuetele.
+6.3. Kui hankemenetluse käigus hinnati meeskonnaliikme kogemusi ja hinnatud
+meeskonnaliige asendatakse või meeskonda täiendatakse, peab asendav või lisatav isik
+hindamisel samaväärselt punkte koguma. Asendada või täiendada on lubatud tellija
+kirjalikku taasesitamist võimaldaval nõusolekul.
+6.4. Täitja asendab tellija nõudmisel ja määratud tähtajaks meeskonnaliikme, kui isik
+osutub tellija põhjendatud arvamuse kohaselt lepingujärgsete ülesannete täitmiseks
+ebakompetentseks või ebasobivaks või kui tema lepingujärgsete ülesannete täitmine
+kahjustab pidevalt lepingu täitmist. Täitja kannab kõik asendusega kaasnevad kulud.
+Täiendavalt kaasatud meeskonnaliikmed peavad vastama rollile seatud
+hanketingimustele.
+6.5. Täitja garanteerib riigihankes isikuliselt mitte välja toodud meeskonnaliikmete
+olemasolu ja vastavuse riigihankes nõutud kvalifikatsioonile/varasemale
+töökogemusele ning esitab tööde teostajad nimeliselt hankelepingu sõlmimisel.
+6.6. Tellija võib lepingu sõlmimisel tellida lisaks riigihankes nõutud meeskonnaliikmete
+rollidele uusi rolle, kui see on tingitud tellitavate tööde iseloomust ja tööde efektiivseks
+teostamiseks on otstarbekas kaasata teistsuguse kompetentsiga meeskonnaliikmeid.
+Sellisel juhul määratakse uue meeskonnaliikme rolli kompetentsi nõuded
+minikonkursil/ tellimuses.
+6.7. Täiendavalt kaasatud isikutele rakenduvad kõik konfidentsiaalsusnõuded.
+7. Hankelepingute sõlmimine
+Kohaldatakse juhul, kui raamleping sõlmitakse mitme partneriga (ning eemaldatakse
+alltoodud ühe partneriga töö tellimise punktid):
+7.1. Tööde teostamise aluseks on sõlmitud hankeleping.
+7.2. Tellija korraldab minikonkursse vastavalt tegelikule vajadusele ning raamlepingu
+partnerid peavad olema valmis võimalike ajaliste pauside tekkimiseks tööde tellimise
+vahel.
+7.3. Lepingu sõlmimiseks esitab tellija raamlepingu partneritele kirjalikku taasesitamist
+võimaldavas vormis ettepaneku pakkumuse esitamiseks (korraldab minikonkursi) ja
+annab mõistliku aja pakkumuse esitamiseks, arvestades tööde keerukust ja
+pakkumuse esitamiseks vajalikku aega.
+5
+
+7.4. Sõlmitava hankelepingu tehnilises kirjelduses määrab tellija tööde sisu ja üle antavad
+tulemid (tööde loetelu), võimalusel tööde mahu, ajalised ja eelarvelised piirangud,
+etapid jm olulised tingimused.
+7.5. Minikonkursil on õigus seada täiendavaid tingimusi meeskonnale vastavalt
+hankelepingu esemele. Samuti on minikonkursil alati õigus kohaldada kõrvaldamise
+aluseid ning küsida hankepassi. Minikonkursil on õigus määrata kohustuslikuna ka
+sihtriigi ettevõtete, kodanike või asutuste kaasamine tööde teostamisse ehk nõuda
+kohalike partnerite kasutamist.
+7.6. Minikonkursi läbiviimisel valib tellija majanduslikult soodsaima pakkumuse
+järgnevalt:
+7.6.1. „tööde teostamise kogumaksumus“, „tööde kuumaksumus“, „ühe töötunni
+maksumus“, “litsentsi tasu” vms (sõltuvalt tellitavate tööde metoodikast) osakaal
+vahemikus: 30 – 40%;
+7.6.2. „kvaliteedikriteerium“: planeeritava/ tellitava tööga seotud ülesanne, näiteks
+töö teostamise kavand, meeskonna täiendav kogemus, kohalike kaasamine,
+hooldus- ja garantiitingimused jms vahemikus: 60 - 70%.
+7.7. Tellijal on õigus p 7.6 sätestatu asemel seada fikseeritud eelarve ning valida
+majanduslikult soodsaim pakkumus järgnevalt:
+7.7.1. „teostatavate tööde maht (nt tundides/ajas vms)/ skoop vms“ osakaal vahemikus:
+30 – 40%;
+7.7.2. „kvaliteedikriteerium“: planeeritava/ tellitava tööga seotud ülesanne, näiteks
+töö teostamise kavand, meeskonna täiendav kogemus, kohalike kaasamine jms
+vahemikus: 60 - 70%.
+7.8. Minikonkursi tingimustes sätestatakse, kui mitme töövõtjaga sõlmitakse hankeleping,
+st tellija võib soovi korral sõlmida lepingud mitme partneriga, kui see on asjaolusid
+arvestades vajalik.
+7.9. Tellijal on õigus küsida vajadusel täiendavaid kinnitusi ja andmeid tööde osutamiseks
+vajalike eelduste olemasolu kohta.
+7.10.
+Pakkumuse esitamisel tuleb järgida kõiki minikonkursi nõudeid ja tingimusi.
+7.11. Tellija avab pakkumused pärast minikonkursi kutses määratud tähtaega.
+7.11.1. Tellija
+kontrollib
+pakkumuste
+vastavust
+ja
+hindab
+määratud
+hindamiskriteeriumite alusel kõiki nõuetele vastavaid pakkumusi, milles ei esine
+sisulisi kõrvalekaldumisi minikonkursi tingimustest. Tellija ei hinda pakkumusi,
+mis ei vasta minikonkursi tingimustele. Seejärel kontrollib tellija eduka pakkuja
+kvalifitseerimistingimustele vastamist ning teostab kõrvaldamise aluste kontrolli.
+7.11.2. Tellija võib pakkumusi hinnata enne pakkumuste vastavuse või pakkujate
+suhtes kõrvaldamise aluste puudumise ja kvalifitseerimistingimustele vastamise
+kontrollimist. Sellisel juhul kontrollib tellija pakkumuse vastavust, pakkuja
+kvalifitseerimistingimustele vastamist ja kõrvaldamise aluste puudumist vaid
+edukal pakkujal. Kui eduka pakkuja pakkumus osutub kontrollimise tulemusena
+mittevastavaks, pakkuja ei täida kvalifitseerimistingimusi või pakkuja
+kõrvaldatakse menetlusest, on tellijal õigus tunnistada edukaks hindamise
+tulemusena paremusjärjestuses järgmine pakkuja ning teostada kirjeldatud
+kontrollid tema osas.
+7.12.
+Kui minikonkursile laekub üks vastavaks tunnistatud pakkumus, siis on
+hankijal õigus sisulist hindamist mitte läbi viia ning pakkumusele omistatakse
+maksimaalsed punktid.
+7.13.
+Kui pakkumus ei vasta minikonkursi tingimustele, lükatakse see tagasi.
+6
+
+7.14.
+Tellijal on õigus enne hankelepingu sõlmimist tunnistada minikonkurss omal
+algatusel põhjendatud vajadusel kehtetuks, teavitades sellest raamlepingu partnereid.
+7.15.
+Tellijal on õigus pakkumus tagasi lükata ja otsustada hankelepingut mitte
+sõlmida või vastavalt raamlepingule minikonkurss kehtetuks tunnistada, kui:
+7.15.1. pakkumus(ed) ei vasta tingimustele;
+7.15.2. pakkumus(ed) ületavad eeldatavat maksumust;
+7.15.3. tellija ei saa välisvahenditega seotud hankelepingu sõlmimiseks heakskiitu
+lõplikule taotlusele.
+7.16.
+Kui minikonkursile ei laeku ühtki pakkumust või ükski pakkumus ei osutu
+edukaks (sh tekib olukord, kus pakkuja ei läbi taustakontrolli), siis on tellijal õigus teha
+pakkumine sama hanke esemega otselepingu sõlmimiseks nii, et lepingu täitmise
+tingimusi oluliselt ei muudeta. Hankijal on lubatud vastavalt minikonkursi nurjumise
+põhjustele teha muudatusi hankelepingu kestvuses, sh tähtaegades, ja mahus.
+Hankelepingu eset ehk skoopi muuta lubatav ei ole. Otsepakkumise võib teha
+järgmises järjekorras:
+7.16.1. Esmalt teha pakkumine hankelepingu sõlmimiseks raamlepingu sõlmimisel
+enim hindepunkte teeninud töövõtjaga;
+7.16.2. Seejärel võib pakkumised teha hankelepingu sõlmimiseks vastavalt hindamise
+järjestusele järgmistele töövõtjale.
+7.17.
+Tellija sõlmib hankelepingu tööde teostamiseks vastavalt minikonkursi
+tingimustele ning teavitab minikonkursi tulemusest raamlepingu partnereid. Töövõtja
+kohustub hankelepingu allkirjastama hiljemalt 3 tööpäeva jooksul hankelepingu
+allkirjastamiseks saatmisest.
+Kohaldatakse juhul, kui raamleping sõlmitakse ühe pakkujaga (ning eemaldatakse mitme
+pakkujaga ülal toodud tööde tellimise punktid). Kui raamleping on sõlmitud hankemenetluse
+tulemusel ühe pakkujaga, minikonkursse läbi ei viida:
+7.18.
+Tööde teostamise aluseks on sõlmitud hankeleping. Hankeleping loetakse
+sõlmituks nii tellimuse esitamisel ja tellija poolt pakkumuse aktsepteerimisel kui ka
+hankelepingu sõlmimisel konkreetsel vormil. Pakkumusena käsitletakse selles
+alapunktis pakkumuse täpsustamist RHS § 30 lg 3 tähenduses.
+7.19.
+Tellimuste esitamiseks ja hankelepingu sõlmimiseks pöördub tellija otse
+töövõtja poole, esitades hankelepingu sõlmimise tingimused.
+7.20.
+Tööde teostamine toimub tellimuses fikseeritud tehnilise kirjelduse alusel,
+milles on määratud tööde sisu ja üle antavad tulemid (tööde loetelu), võimalusel tööde
+maht, ajalised ja eelarvelised piirangud jm olulised tingimused. Tingimused võivad
+olla fikseeritud etapiti. Tingimuste raames võib tellija seada kohustusena sihtriigi
+kohalike partnerite kaasamist lepingu täitmisel.
+7.21.
+Tööde tellimiseks esitab tellija töövõtjale kirjalikku taasesitamist võimaldavas
+vormis tellimuse, välja arvatud jooksva konsultatsiooni vajaduse korral. Tellimus on
+töövõtjale esitatav kirjalik pöördumine tööde teostamiseks, kas tellimuskirjana, mille
+järel sõlmitakse hankeleping kindlal vormil või tööde halduskeskkonna kaudu.
+7.22.
+Tellija annab mõistliku aja pakkumuse esitamiseks, arvestades tellitavate tööde
+keerukust ja pakkumuse esitamiseks vajalikku aega. Pakkumuse esitamisel tuleb
+järgida kõiki tellimuses esitatud nõudeid.
+7.23.
+Töövõtja hindab võimalusel tellimuse alusel töö mahtu ja esitab tellimuses
+määratud tähtajaks hinnapakkumuse töö teostamiseks ja/või vajadusel muud
+tellimuses nõutud andmed (pakkumus).
+
+7
+
+7.24.
+Kui pakkumus ei vasta tellimuse tingimustele või ei ole muul põhjusel
+vastuvõetav, lükatakse see tagasi.
+7.25.
+Tellijal on õigus esitatud pakkumus tagasi lükata ja otsustada hankelepingut
+mitte sõlmida või vastavalt raamlepingule esitatud tellimus kehtetuks tunnistada, kui:
+7.25.1. pakkumus ei vasta tingimustele;
+7.25.2. tellija vajadus tellimuse täitmiseks kaob või muutub;
+7.25.3. ületab eeldatavat maksumust või;
+7.25.4. tellija ei saa välisvahenditega seotud hankelepingu sõlmimiseks heakskiitu
+täistaotlusele.
+7.26.
+Tellija sõlmib hankelepingu tööde teostamiseks vastavalt minikonkursi
+tingimustele ning teavitab minikonkursi tulemusest raamlepingu partnereid. Töövõtja
+kohustub hankelepingu allkirjastama hiljemalt 3 tööpäeva jooksul hankelepingu
+allkirjastamiseks saatmisest.
+8. Vigadest teavitamine, veaparandused ja garantii
+8.1. Veaparandused on parandused töös, mis avastatakse ja kõrvaldatakse hankelepingu
+kehtivuse perioodil. Garantii hakkab kehtima hankelepingu lõppedes.
+8.2. Pool teavitab avastatud vigadest teist poolt esimesel võimalusel kokkulepitud viisil.
+Vea avastanud pool registreerib vea, märkides võimalusel vea põhjuse, eeldatava vea
+parandamise tähtaja ning kriitilisuse.
+8.3. Töövõtja on kohustatud veaparanduse teostama vähima võimaliku aja jooksul.
+8.4. Kui töövõtja annab vigade parandamise järgselt üle tööd, milles tellija
+vastuvõtutestimise käigus esineb jätkuvalt vigu (teistkordne vigadega tööde
+üleandmine), võib tellija otsustada, kas anda töövõtjale uus tähtaeg vigade
+parandamiseks või kõrvaldada vead ise või kolmanda isiku kaasabil, vähendades
+töövõtjale makstavat tasu võrdeliselt vigade parandamiseks tehtud kulutustega.
+8.5. Töövõtja annab hankelepingu alusel teostatud töödele garantii vähemalt 12 kuud
+(täpsustatakse minikonkursi alusdokumentides), kui see on objektiivselt võimalik.
+Vastav kokkulepe märgitakse hankelepingusse igakordselt.
+8.6. Garantiiga on hõlmatud kõik garantii tähtaja jooksul töös ilmnevad vead ja
+mittevastavused, mis ei ole tekkinud tellija või kolmandate osapoolte tegevuse
+tagajärjel. Garantiiga on hõlmatud ka kõigi tööde muudatused ja modifikatsioonid,
+mis on tehtud töövõtja poolt ja mis ei ole oluliselt muutnud varasemalt tehtud tööd.
+8.7. Töövõtja kõrvaldab garantii kehtivuse ajal töödes avaldunud vead ja mittevastavused
+tasuta, sealhulgas uuendab või asendab kõik seonduvad dokumendid.
+8.8. Kui töövõtja tõendab, et kõrvaldatud viga ei olnud garantiiga hõlmatud, hüvitab tellija
+töövõtja kantud otsesed kulud seoses nimetatud vea kõrvaldamisega. Kulude
+hüvitamisel võetakse aluseks hankelepingus, mille raames teostatud töödes on viga
+ilmnenud, fikseeritud tööde teostamise ühe töötunni hind.
+8.9. Kui töövõtja ei suuda vigasid kokkulepitud tähtajaks kõrvaldada, võib tellija nimetatud
+ise kõrvaldada või korraldada nende kõrvaldamise kolmanda isiku kaasabil, teavitades
+sellest töövõtjat. Tellijal on õigus töövõtjalt nõuda kõigi kulutuste hüvitamist, mis
+tekkisid seoses eelkirjeldatud viisil vea kõrvaldamisega, kui tegemist oli garantiiga
+hõlmatud veaga.
+9. Intellektuaalne omand
+9.1. Intellektuaalse omandi õigused lepingu alusel teostatud töö tulemitele kuuluvad
+tellijale käesolevas lepingus sätestatud tingimustel juhul, kui see on objektiivselt
+
+8
+
+võimalik (täpsustub minikonkursil vastavalt lepingu esemele). Tasu autoriõiguste
+üleandmise ja litsentsimise eest sisaldub lepingu tasus.
+9.2. Tellijale kuuluvad võimalusel töö tulemite osas kõik autori varalised õigused ja
+ainulitsents, kaasa arvatud õigus lepingu täitmisel töövõtja poolt koostatud
+dokumente reprodutseerida, töödelda, levitada ja üldsusele kättesaadavaks teha
+mistahes vormis ja kandjal, ilma geograafiliste piiranguteta ning tähtajatult. Varalised
+õigused ja ainulitsents loetakse tellijale üleläinuks üleandmise-vastuvõtmise akti
+allkirjastamisega poolte poolt.
+9.3. Tellijal on õigus teha ise või tellida kolmandalt isikult töö tulemitele arendusi ja
+muudatusi töövõtjalt täiendavat luba taotlemata ja töövõtjat teavitamata tingimusel,
+et selliste arenduste ja muudatuste puhul on selgelt aru saada, et nende autoriks ei ole
+töövõtja. Kui see ei ole selge, peab tellija töövõtjat eelnevalt teavitama ning andma
+töövõtjale võimaluse nõuda oma nime eemaldamist töö tulemitelt.
+9.4. Tellijal on õigus lepingu alusel väljatöötatut vabalt kasutada, sh õigus anda lepingu
+alusel loodut kolmandatele isikutele kasutamiseks.
+9.5. Käesoleva peatüki sätteid on õigus minikonkursi alusdokumentides muuta või
+täpsustada.
+10. Konfidentsiaalsuskohustus
+10.1.
+Pooled kohustuvad mitte avalikustama kolmandatele isikutele lepingu alusel
+saadud konfidentsiaalset informatsiooni, v.a seaduses sätestatud juhtudel.
+10.2.
+Pooled täidavad kõiki kehtivaid andmekaitsealaseid ja infoturvet puudutavaid
+õigusakte.
+10.3.
+Pooled edastavad konfidentsiaalset informatsiooni ainult nendele isikutele, kes
+on lepingu täitmisega otseselt seotud ja tagavad, et need isikud on teadlikud ja
+täidavad konfidentsiaalsuse nõuet.
+10.4.
+Konfidentsiaalse informatsiooni all mõistavad pooled lepingu täitmisel
+teatavaks saanud isikuandmeid ja informatsiooni, millele on kehtestatud
+juurdepääsupiirang, ning muud teavet, mille avalikuks tulek võiks kahjustada poolte
+huve.
+10.5.
+Vastutus konfidentsiaalsuskohustuse täitmise eest lasub poolel kõigi isikute
+eest, kes on tema poolt lepingu täitmisele kaasatud.
+10.6.
+Konfidentsiaalsusnõue kehtib tähtajatult. Tulenevalt konfidentsiaalse
+informatsiooni laadist on tellijal õigus seada täiendavaid nõuded ja/või juhised
+isikuandmete töötlemiseks.
+10.7.
+Pooled ei avalikusta (sh meedias) enne hankelepingu lõplikku üleandmisevastuvõtmise akti allkirjastamist ilma teise poole kirjaliku nõusolekuta lepingu
+täitmisel loodud või teatavaks saanud informatsiooni.
+10.8.
+Konfidentsiaalsuskohustus kehtib tähtajatult.
+11. Vastutus
+11.1. Pooled vastutavad oma lepinguliste kohustuste rikkumise eest seaduses ja lepingus
+sätestatud korras. Poole vastutus lepingu rikkumisega tekitatud kahju eest on piiratud
+ühekordse lepingu hinnaga ilma käibemaksuta. Vastutuse piirangut ei kohaldata
+lepingu tahtliku rikkumise korral.
+11.2.Töövõtja vastutab oma alltöövõtjate ja nende esindajate või töötajate tegevuse ja
+rikkumiste eest, nagu enda tegude eest. Alltöövõtu kasutamise korral mis tahes
+lepingu osa alltöövõtu korras täitmise heakskiitmine tellija poolt ei vabasta töövõtjat
+ühestki tema lepingujärgsest kohustusest. Töövõtja ei või oma lepingujärgseid
+kohustusi anda üle kolmandale isikule ega kaasata oma lepingujärgsete kohustuste
+
+9
+
+täitmiseks kolmandat isikut ilma tellija sellekohase selgesõnalise kirjaliku
+nõusolekuta.
+11.3.Juhul, kui tellija viivitab töövõtjale nõuetekohaselt esitatud arve alusel tasu
+maksmisega üle lepingus kokkulepitud tähtaja, on töövõtjal õigus nõuda viivist kuni
+0,5% tasumisega viivitanud tellijalt viivituses olevast summast iga tasumisega
+viivitatud kalendripäeva eest.
+11.4.Juhul, kui töövõtja viivitab töö või töö osa üleandmisega üle lepingus kokkulepitud
+tähtaja, on tellijal õigus nõuda leppetrahvi kuni 0,5% lepingu alusel makstavast tasust
+iga üleandmisega viivitatud kalendripäeva eest. Tellija võib nõuda leppetrahvi
+tasumist ka aja eest, mil töövõtja teeb töös parandusi seoses töö mittevastavusega
+lepingule. Töövõtja ei vastuta üleandmisega viivitamise eest juhul, kui viivitus tulenes
+vaid tellijast sõltuvatest asjaoludest. Lepingu muude sätete rikkumise tuvastamisel on
+tellijal õigus nõuda ning töövõtjal kohustus tasuda leppetrahvi kuni 1000 eurot iga
+rikkumise eest.
+11.5.Konfidentsiaalsuskohustuste rikkumise tuvastamise korral on kahjustatud poolel
+õigus nõuda ja konfidentsiaalsuskohustust rikkunud poolel kohustus tasuda iga
+vastava rikkumise eest leppetrahvi kuni 5000 eurot. Leppetrahvi suuruse määramise
+õigus on leppetrahvinõuet esitaval poolel.
+11.6.
+Lepingu olulise rikkumise korral on tellijal õigus esitada töövõtjale leppetrahvi
+nõue kuni 10 000 eurot iga rikkumise eest. Töövõtja poolse olulise hankelepingu
+rikkumise korral ei pea tellija määrama täitja lepingu täitmiseks võlaõigusseaduse §-s
+114 nimetatud täiendavat tähtaega ning tellijal on muu hulgas õigus hankeleping üles
+öelda või hankelepingust taganeda.
+11.7. Oluline rikkumine on lisaks võlaõigusseaduses sätestatule mh järgnev:
+11.7.1. mõjuva põhjuseta hankelepingu sõlmimata jätmine või täitmisele mitte
+asumine;
+11.7.2. hankelepingu täitmiseks vajalike õiguste (sealhulgas load, litsentsid,
+intellektuaalse omandi õigused) puudumine;
+11.7.3. intellektuaalse omandi õiguste ja nende kasutamise tingimuste rikkumine;
+11.7.4. korduv (vähemalt kahel korral) meeskonnaliikme asendamine isikuga, kes ei
+vasta kokku lepitud nõuetele või meeskonnaliikme asendamine ilma osja eelneva
+vähemalt kirjalikku taasesitamist võimaldavas vormis antud nõusolekuta;
+11.7.5. lepingujärgsete kohustuste korduv (vähemalt kahel korral) täitmata jätmine;
+11.7.6. tähtaegselt asja üle andmata jätmine selliselt, et lepingu eesmärgi täitmine ei
+ole enam tähtaegselt realistik ja/või täitja poolse tegevuse või tegevusetuse tõttu
+ei ole võimalik enam kasutada hankelepingu rahastamiseks ettenähtud
+vahendeid;
+11.8.
+lepingujärgsete kohustuste üleandmine kolmandale isikule vastavat
+lepingumuudatust sõlmimata.
+11.9.
+Leppetrahvid ja viivised tasutakse 21 kalendripäeva jooksul vastava nõude
+saamisest arvates.
+11.10.
+Lepingust tulenevate leppetrahvide ja viiviste maksmine, samuti tekitatud
+kahju hüvitamine, ei vabasta lepingut rikkunud poolt mistahes lepingujärgsete
+kohustuste täitmistest.
+11.11.
+Lepinguga võetud kohustuste mittetäitmise või mittenõuetekohase täitmisega
+tellijale või kolmandatele isikutele tekitatud kahju korral kohustub töövõtja taastama
+kahju tekitamisele eelnenud olukorra või hüvitama tellija poolt olukorra taastamiseks
+kantud kulud.
+11.12.
+Pooled võivad kokkuleppel leppetrahvi, viivise või kahjuhüvitamise nõuet
+vähendada ja nõude asemel leppida kokku täiendavalt tehtavates muudes kohustustes.
+Poolel on õigus oma nõue teise poole nõudega tasaarvestada.
+10
+
+11.13.
+Piiramata teisi lepingu sätteid, astuvad pooled mõistlikke samme vähendamaks
+kahju, mis on või võib olla aluseks mistahes lepingujärgsele kahju hüvitamise nõudele.
+12. Lepingu jõustumine, muutmine ja lõppemine
+12.1.Raam- ja hankeleping jõustub, kui pooled on lepingu allkirjastanud.
+12.2.
+Raam- ja hankeleping lõpeb lepinguliste kohustuste täitmisel, vastava lepingu
+ülesütlemisel või muul seadusest tuleneval alusel.
+12.3.
+Tellija võib raam- ja hankelepingu igal ajal etteteatamistähtajata kirjalikult üles
+öelda. Sel juhul kohustub tellija vastu võtma ülesütlemise hetkeks tehtud töö ning
+maksma selle eest tasu vastavalt tehtud töö mahule. Tellija ei ole kohustatud tasuma
+töö või selle osa eest, mis ei vasta lepingus ja selle lisades sätestatud tingimustele.
+12.4.
+Raam- ja hankelepingut võib muuta lepingus sätestatud tingimustel
+pooltevahelise kirjaliku kokkuleppega, mis vormistatakse lepingu lisana.
+13. Teadete edastamine ja kontaktisikud
+13.1.Teadete edastamine toimub üldjuhul e-posti teel, lähtudes kodukorra tingimustest
+selle olemasolul. E-posti teel, sh digitaalselt allkirjastatud dokumentide, saatmise
+korral loetakse teade kättesaaduks kohale jõudmise teates märgitud kellaajal või ekirjas näidatud saatmise kellaajal.
+13.2.
+Juhul, kui teate edastamisel on olulised õiguslikud tagajärjed, peab teade olema
+edastatud digiallkirjastatult poole allkirjaõigusliku isiku poolt. Informatiivset teadet
+võib edastada ka telefoni teel. Informatiivseks loetakse teade, millega ei kaasne
+õiguslikke tagajärgi.
+13.3.
+Kirjalik teade loetakse poole poolt kättesaaduks, kui see on üle antud allkirja
+vastu või kui teade on saadetud postiasutuse poolt tähitud kirjaga poole poolt teatatud
+aadressil ja postitamisest on möödunud 5 kalendripäeva.
+13.4.
+Tellija kontaktisik(ud) on: …. …, telefon …., e-post: …. või tema asendaja;
+13.5.
+Täitja kontaktisik(ud) on: …, …., telefon … e-post: …. või tema asendaja;
+13.6.
+Kontaktisikute pädevuses on anda teisele poolele vajaliku informatsiooni ja
+juhiseid oma pädevuse piires, anda nõusolek meeskonnaliikme vahetamiseks,
+kontrollida teostatud lepingu kvaliteeti, anda lepingu ese üle ja võtta vastu ning
+allkirjastada akt.
+13.7.
+Kontaktisiku muutumisest teavitab pool kirjalikult teist poolt viivitamatult.
+
+14. Lõppsätted
+14.1.Raamlepinguga seotud vaidlused, mida pooled ei ole suutnud läbirääkimiste teel
+lahendada, antakse lahendamiseks Harju Maakohtule.
+14.2.
+Raamlepingule kohaldub Eesti õigus. Kuivõrd tegemist on segatüüpi lepinguga,
+siis lisaks üldistele lepingulistele õiguskaitsevahenditele tuleb arvestada ka seadusest
+tulenevaid õiguskaitsevahendeid, mida kasutatakse vastavalt rikkumise olemusele kas
+VÕS peatükk 35 või 36 alusel.
+14.3.
+Raamlepinguga reguleerimata küsimustes või olukorras, kus mõni lepingu säte
+on vastuolus seadusega, lähtutakse Eesti Vabariigis kehtivast seadusandlusest.
+15. Lisad, mida koos raamlepinguga ei allkirjastata
+15.1.Lisa 1 - Tehniline kirjeldus;
+15.2.
+Lisa 2 – Hankelepingu projekt;
+11
+
+15.3.
+15.4.
+
+Lisa 3 – Andmetöötlusleping;
+Lisa 4 – Töövõtja pakkumus.
+
+16. Poolte allkirjad
+
+Tellija:
+...
+
+Töövõtja:
+...
+
+/allkirjastatud digitaalselt /
+
+/allkirjastatud digitaalselt /
+
+12
+
+Lisa 2
+HANKELEPINGU PROJEKT
+SA Eesti Rahvusvahelise Arengukoostöö Keskus (edaspidi tellija), keda esindab
+põhikirja alusel juhatuse liige __
+ja
+___ (edaspidi töövõtja), keda esindab __
+edaspidi eraldi pool või koos pooled, on sõlminud käesoleva hankelepingu (edaspidi leping)
+alljärgnevas:
+1. Lepingu ese
+1.1. Lepingu esemeks on minikonkursi „___“ viitenumbriga __ alusdokumentides olevvas
+tehnilises kirjelduses nimetatud tööd (edaspidi tööd).
+1.2. Lepinguliste tööde maht tundides/kuudes/maksumusena/maksimaalse mahuna vm
+määratletuna.
+1.3. Lepingut rahastatakse __.
+2. Tööde teostamise tingimused
+2.1. Töövõtja annab töö üle päev.kuu.aasta/kuude arv alates lepingu sõlmimisest.
+2.2. Töötunni põhise lepingu korral esitab töövõtja eelmise kuu töötundide ajaaruande,
+mis sisaldab teostatud töötunde ja nende jooksul teostatud töid. Ajaaruanne
+esitatakse allkirjastatult hiljemalt järgmise kalendrikuu 5. tööpäeval. Viimane
+ajaaruanne esitatakse koos aktiga.
+2.3. Tellitavad tööd antakse üle vastavalt lepingu tehnilises kirjelduses kokkulepitud
+tingimustele.
+2.4. Tellija vaatab töö üle vastavalt raamlepingu tingimustele.
+2.5. Koos üle antava tööga annab töövõtja tellijale üle kõik tööde intellektuaalse omandi
+õigused vastavalt raamlepingus kirjeldatule.
+2.6. Garantii tingimused.
+2.7. Kontaktisikud, kui erinevad raamlepingus märgitust.
+2.8. Siia sisestatakse kõik erisused võrreldes raamlepingus sätestatuga.
+3. Lepingu hind
+Kui tegemist on töötunnipõhise lepinguga:
+3.1. Lepingu täitmine toimub töötunnipõhisel arvestusel, tellija tasub üksnes lepingu
+alusel tellitud ja teostatud töötundide eest.
+3.2. Ühe töötunni maksumuseks lepingu täitmisel on ____ (maksumus sõnadega) eurot
+käibemaksuta.
+3.3. Hankelepingu reserv on 10% hankelepingu maksimaalsest mahust.
+3.4. Töövõtja esitab tellijale e-arve vastavalt raamlepingu regulatsioonile.
+Kui tegemist on fikseeritud kogumaksumusega:
+3.5. Tellija tasub lepingu alusel tellitud tööde eest kokku ___ (maksumus sõnadega) eurot
+käibemaksuta.
+3.6. Tööd antakse üle järgmistes etappides:
+3.6.1. ____;
+13
+
+3.6.2. ____.
+3.7. Hankelepingu reserv on 10% hankelepingu maksimaalsest mahust.
+3.8. Töövõtja esitab tellijale e-arve vastavalt raamlepingu regulatsioonile.
+4. Lõppsätted
+4.1. Leping jõustub sellele poolte poolt allakirjutamise hetkest ja kehtib kuni poolte poolt
+oma lepinguliste kohustuste täitmiseni.
+4.2. Lepingu dokumendid koosnevad riigihanke alusdokumentidest, sh lepingu lisadest,
+lepingu muudatustest ja pakkumusest.
+4.3. Lepingu lahutamatuteks osadeks lepingu sõlmimise hetkel on järgmised dokumendid:
+4.3.1. Lisa 1 – Tehniline kirjeldus;
+4.3.2. Lisa 2 – Pakkumus;
+4.3.3. ___.
+5. Poolte allkirjad
+Tellija:
+SA Eesti Rahvusvahelise Arengukoostöö
+Keskus
+Registrikood: 70000941
+E-post: info@estdev.ee
+(allkirjastatud digitaalselt)
+__
+Juhatuse liige
+
+14
+
+Töövõtja:
+___
+Registikood: __
+E-post: __
+(allkirjastatud digitaalselt)
+__
+__
+
+Lisa 3
+ANDMETÖÖTLUSE LEPING
+Käesolev isikuandmete töötlemist puudutav lepingu lisa (edaspidi: lisa) on lahutamatu osa
+„___” (viitenumber __) sõlmitud hankelepingule (edaspidi: leping), mis on sõlmitud SA
+Eesti Rahvusvahelise Arengukoostöö Keskuse (edaspidi: vastutav töötleja3) ja ___
+(edaspidi: volitatud töötleja4) vahel, teostamaks lepingus nimetatud tegevusi sihtgrupi seas
+(edaspidi: klient).
+1. Lepingu eesmärk
+1.1. Käesoleva lisa eesmärk on kokku leppida volitatud töötleja õigustes ja kohustuses
+isikuandmete töötlemisel, millest pooled juhinduvad lepingu täitmisel (edaspidi:
+teenused). Lisa jõustub pärast selle allkirjastamist mõlema poole poolt. Lisa
+rakendatakse, kui volitatud töötleja töötleb vastutava töötleja nimel vastavalt
+lepingule kliendi isikuandmeid. Käesolev lisa kujutab endast isikuandmete töötlemist
+puudutavat andmetöötlus lepingut vastavalt Euroopa Liidu isikuandmete kaitse
+üldmäärusele (2016/679) (edaspidi: üldmäärus).
+1.2. Andmesubjektide kategooriad ja isikuandmete liigid, mida teenuse osutamisel
+töödeldakse (edaspidi: kliendiandmed), isikuandmete töötlemise kestus, iseloom ja
+eesmärgid ning vastutava töötleja poolt antud juhised on välja toodud hanke
+alusdokumentides, lepingus ja selle lisades.
+1.3. Pooled kohustuvad järgima kõiki kohalduvaid andmekaitsealaseid õigusakte seoses
+mis tahes isikuandmetega, mida on lepingu alusel jagatud.
+1.4. Vastuolude korral lepingu ja käesoleva lisa sätete vahel tuleb juhinduda käesoleva lisa
+sätetest.
+2. Definitsioonid
+2.1. Lähtuvalt käesoleva lisa eesmärkidest kasutatakse käesolevas lisas üldmääruse
+mõisteid s.h. järgmiseid mõisteid:
+2.1.1. „Asjakohased tehnilised ja organisatsioonilised meetmed“ tähendavad selliseid
+protsesse ja protseduure, mis tehnoloogilist arengut ning rakendamise
+maksumust ja isikuandmeid arvesse võttes tagavad turvalisuse taseme vastavalt
+isikuandmete võimalikust volitusteta või ebaseaduslikust töötlemisest või
+juhuslikust kaotsiminekust või hävitamisest või kahjustamisest tulenevale kahju
+suurusele.
+2.1.2. „Andmekaitseseadused“ on üldmäärus ja Eesti Vabariigis kehtivad muud
+isikuandmete töötlemist reguleerivad õigusaktid ning nende rakendusaktid või
+täiendavad aktid koos nende paranduste, muudatuste või asendustega, mis tahes
+täitmisele kuuluvad juhendid ja tegevusjuhised, mis on väljastatud isikuandmete
+kaitse eest vastutava mis tahes kohaliku või EL reguleeriva asutuse poolt.
+2.1.3. „isikuandmete töötlemine” – isikuandmete või nende kogumitega tehtav
+automatiseeritud või automatiseerimata toiming või toimingute kogum, nagu
+näiteks kogumine, dokumenteerimine, korrastamine, struktureerimine,
+säilitamine, kohandamine ja muutmine, päringute tegemine, lugemine,
+kasutamine, edastamise, levitamise või muul moel kättesaadavaks tegemise teel
+avalikustamine, ühitamine või ühendamine, piiramine, kustutamine või
+hävitamine.
+2.1.4. „isikuandmed” – igasugune teave tuvastatud või tuvastatava füüsilise isiku
+(edaspidi: andmesubjekt) kohta. Tuvastatav füüsiline isik on isik, keda on
+3 hankija/ tellija
+4 pakkuja/ töövõtja/ teenuse osutaja/käsundisaaja
+
+15
+
+võimalik kaudselt või otseselt tuvastada, eelkõige sellise identifitseerimistunnuse
+põhjal nagu nimi, isikukood, asukohateave, võrguidentifikaator või selle füüsilise
+isiku ühe või mitme füüsilise, füsioloogilise, geneetilise, vaimse, majandusliku,
+kultuurilise või sotsiaalse tunnuse põhjal;
+2.1.5. „isikuandmetega seotud rikkumine” – turvanõuete rikkumine, mis põhjustab
+edastatavate, salvestatud või muul viisil töödeldavate isikuandmete juhusliku või
+ebaseadusliku hävimise, kaotsimineku, muutmise või loata avalikustamise või
+neile juurepääsu.
+3. Andmekaitse ja isikuandmete töötlemine
+3.1. Volitatud töötleja kohustused:
+3.1.1. Volitatud
+töötleja
+kohustub
+töötlema
+kliendiandmeid
+vastavalt
+andmekaitseseadustele ja lepingule ning ainult sellisel määral, mis on vajalik
+teenuse osutamiseks. Kui see on lepingu täitmisega seonduvalt vajalik, võib
+volitatud töötleja kliendiandmeid töödelda ka järgmistel eesmärkidel: i)
+asjakohaste IT-süsteemide hooldamine ja kasutamine; ii) kvaliteedi-, riski- ja
+kliendihaldusega seotud tegevused
+3.1.2. Volitatud töötleja töötleb isikuandmeid ainult vastutava töötleja
+dokumenteeritud juhiste alusel, sealhulgas seoses isikuandmete edastamisega
+kolmandale riigile või rahvusvahelisele organisatsioonile, välja arvatud juhul, kui
+ta on kohustatud tegema seda volitatud töötleja suhtes kohalduva õigusega.
+Sellisel juhul teatab volitatud töötleja selle õigusliku nõude enne isikuandmete
+töötlemist vastutavale töötlejale, kui selline teatamine ei ole olulise avaliku huvi
+tõttu kõnealuse õigusega keelatud.
+3.1.3. Volitatud
+töötleja
+teavitab
+andmesubjekte
+nende
+isikuandmete
+töötlemistingimustest.
+3.1.4. Volitatud töötleja vastutab vastutavale töötlejale edastatud isikuandmete
+õigsuse eest.
+3.1.5. Volitatud töötleja kohustub võtma mõistliku aja jooksul ühendust vastutava
+töötlejaga selgituste või täiendavate juhiste saamiseks, kui volitatud töötleja ei ole
+vastutava töötleja juhistes kindel. Volitatud töötleja teavitab vastutavat töötlejat
+kõigist avastatud vastuoludest juhendi ja Euroopa Liidu või pädeva jurisdiktsiooni
+andmekaitseseaduste või määruste vahel ja sellisel juhul võib volitatud töötleja
+koheselt keelduda vastutava töötleja juhendit täitmast.
+3.1.6. Volitatud töötleja võib kliendiandmete töötlemiseks kasutada teisi volitatud
+töötlejaid (edaspidi: teine volitatud töötleja) üksnes vastutava töötleja
+kirjalikul nõusolekul. Ilma vastutava töötleja kirjaliku nõusolekuta võib volitatud
+töötleja kasutada kliendiandmete töötlemiseks teisi volitatud töötlejaid üksnes
+juhul, kui see on vajalik volitatud töötleja IT-teenuse osutajatele info- ja
+sidesüsteemide ekspluatatsiooniks ning hoolduse korraldamiseks ja
+teostamiseks. Volitatud töötleja vastutab kõigi teiste volitatud töötlejate tegevuse
+eest samuti nagu enda tegevuse eest ning sõlmib teise volitatud töötlejaga
+isikuandmete töötlemiseks kirjalikud lepingud vastavalt üldmääruse artiklile 28
+lõikele 4, mis on lepingus sätestatuga samaväärsed (ja mitte vähem ranged). Kui
+volitatud töötleja soovib lepingu kestel kaasata isikuandmete töötlemisse teisi
+volitatud töötlejaid, teavitab volitatud töötleja sellest vastutavat töötlejat
+kirjalikult. Pooled lepivad kokku, et kui teise volitatud töötleja kaasamine on
+volitatud töötleja tegevuse toimimise jaoks oluline ning vastutaval töötlejal pole
+etteheiteid teise volitatud töötleja usaldusväärsusele, nõustub vastutav töötleja
+teise volitatud töötleja kaasamisega isikuandmete töötlemisse. Vastutav töötleja
+kinnitab oma nõustumist teise volitatud töötleja kaasamiseks kirjalikult. Kui
+16
+
+vastutav töötleja on andnud volitatud töötlejale loa kasutada käesolevast
+lepingust tulenevate kohustuste täitmiseks teisi volitatud töötlejaid, on
+käesolevast lepingust tulenevate küsimuste vastamisel kontaktisikuks Vastutavale
+töötlejale üksnes volitatud töötleja ning volitatud töötleja tagab selle, et kõnealune
+teine volitatud töötleja täidab käesoleva lepingu nõudeid ja on sellega seotud
+samal viisil nagu volitatud töötleja ise. Vastutav töötleja võib igal ajahetkel võtta
+tagasi volitatud töötlejale antud loa kasutada teisi volitatud töötlejaid.
+3.1.7. Volitatud töötleja kohustub hoidma lepingu täitmise käigus teatavaks saanud
+kliendiandmeid rangelt konfidentsiaalsena ning mitte kasutama ega avaldama
+kliendiandmeid muul kui lepingus sätestatud eesmärgil. Samuti tagama, et
+isikuandmeid töötlema volitatud isikud (sh teised volitatud töötlejad, volitatud
+töötleja töötajad jt, kellel on ligipääs lepingu täitmise käigus töödeldavatele
+isikuandmetele) järgivad konfidentsiaalsusnõuet või nende suhtes kehtib
+põhikirjajärgne konfidentsiaalsuskohustus.
+3.1.8. Volitatud töötleja võtab kasutusele kõik üldmääruse artiklis 32 nõutud
+meetmed isikuandmete töötlemisel ning rakendama asjakohaseid tehnilisi ja
+korralduslikke meetmeid sellisel viisil, et töötlemine vastaks üldmääruses toodud
+nõuetele.
+3.1.9. Volitatud töötleja kohustub rakendama asjakohaseid tehnilisi ja korralduslikke
+turvameetmeid kliendi andmete kaitseks juhusliku või ebaseadusliku hävitamise,
+kaotsimineku, muutmise ja loata avalikustamise või neile juurdepääsu saamise
+eest s.h.:
+• vältima kõrvaliste isikute ligipääsu andmete töötlemiseks kasutatavatele
+seadmetele;
+• ära hoidma andmete omavolilist lugemist, kopeerimist ja muutmist,
+samuti andmekandjate omavolilist teisaldamist;
+• ära hoidma andmete omavolilist salvestamist, muutmist ja kustutamist
+ning tagama, et tagantjärele oleks võimalik kindlaks teha, millal, kelle
+poolt ja milliseid isikuandmeid salvestati, muudeti või kustutati või millal,
+kelle poolt ja millistele andmetele juurdepääs saadi;
+• tagama, et igal kliendi andmete kasutajal oleks juurdepääs ainult temale
+töötlemiseks lubatud andmetele ja temale lubatud andmetöötluseks;
+• tagama andmete olemasolu andmete edastamise kohta: millal, kellele ja
+millised isikuandmed edastati, samuti selliste andmete muutusteta
+säilimise;
+• tagama, et andmete edastamisel andmesidevahenditega ja andmekandjate
+transportimisel ei toimuks andmete omavolilist lugemist, kopeerimist,
+muutmist või kustutamist;.
+3.1.10. Volitatud töötleja aitab võimaluste piires vastutaval töötleja asjakohaste
+tehniliste ja korralduslike meetmete abil täita vastutava töötleja kohustusi vastata
+üldmääruse tähenduses kõigile andmesubjekti taotlustele oma õiguste
+teostamisel, muu hulgas edastades kõik andmesubjektidelt saadud andmete
+kontrollimise, parandamise ja kustutamise, andmetöötluse keelamise ja muud
+taotlused vastutavale töötlejale viivitamatult nende saamisest alates.
+3.1.11. Volitatud töötleja aitab vastutaval töötlejal täita üldmääruse artiklites 32-36
+sätestatud kohustusi, võttes arvesse isikuandmete töötlemise laadi ja volitatud
+töötlejale kättesaadavat teavet.
+3.1.12. Vastutav töötleja võib viia läbi auditeid, taotledes volitatud töötlejalt kirjalikult
+asjakohast teavet eesmärgiga kontrollida volitatud töötleja lisast tulenevate
+kohustuste täitmist. Vastutava töötleja auditeid võib läbi viia kas (i) vastutav
+töötleja, või (ii) volitatud töötlejaga eelnevalt kokku lepitud kolmas isik, keda
+17
+
+vastutav töötleja on selleks volitanud. Kui vastutav töötleja ja volitatud töötleja ei
+jõua kokkuleppele kolmanda isiku osas, kes peaks auditi läbi viima, võib auditi
+läbi viia ainult vastutav töötleja. Teabenõudes volitatud töötlejale peab
+täpsustama, millist teavet, andmeid ja dokumente volitatud töötlejalt auditi osana
+nõutakse. Pooled on kokku leppinud, et: 1) volitatud töötlejal on kohustus anda
+vastutavale töötlejale teavet, andmeid ja dokumente, mida on mõistlikult vaja
+selleks, et tõendada volitatud töötleja lepingust tulenevate kohustuste täitmist,
+mis võib hõlmata olemasolevaid kolmandate osapoolte poolt teostatud
+turvalisusauditite aruandeid; 2) volitatud töötleja ei avalda mis tahes teavet,
+andmeid või muid dokumente, mille avaldamisega rikuks volitatud töötleja
+asjakohastest
+õigusaktidest
+või
+kutse-eeskirjadest
+tulenevat
+konfidentsiaalsuskohustust; 3) volitatud töötleja ei avalda mis tahes teavet,
+andmeid või muid dokumente, mis on seotud käimasoleva, võimaliku või
+ähvardava kohtuasja või muu vastutava ja volitatud töötleja vahelise vaidluse
+lahendamisega. Vastutav töötleja käsitleb kogu volitatud töötleja poolt auditi
+raames saadud teavet konfidentsiaalsena. Auditit ei või teostada sagedamini kui
+kord kalendriaasta jooksul ning vastav õigus lõpeb igal juhul 2 kuu jooksul pärast
+seda, kui volitatud töötleja lõpetab vastutava töötleja nimel isikuandmete
+töötlemise.
+3.1.13. Volitatud töötleja suunab kõik järelevalveasutuste päringud otse vastutavale
+töötlejale, kuna suhtluses järelevalveasutustega pole volitatud töötlejal õigust
+vastutavat töötlejat esindada ega tema nimel tegutseda.
+4. Töötlemine väljaspool Euroopa Liitu / Euroopa Majanduspiirkonda
+4.1. Vastutav töötleja lubab volitatud töötlejal ja teistel volitatud töötlejatel edastada
+isikuandmeid riikidesse väljaspool Euroopa Majanduspiirkonda, aga ainult siis, kui
+neil on selleks seaduslik alus, sh (i) vastuvõtjale, kes asub riigis, kus on tagatud piisav
+isikuandmete kaitse tase, või (ii) lepingu alusel, mis vastab Euroopa Liidu nõutele
+isikuandmete edastamiseks väljaspool Euroopa Liitu asuvatele isikuandmete
+töötlejatele.
+4.2. Pooled lepivad eelnevalt kirjalikult kokku igas väljaspool Euroopa Liitu / Euroopa
+Majanduspiirkonda toimuvas kliendiandmete edastamises või töötlemises.
+5. Isikuandmetega seotud rikkumisest teavitamine
+5.1. Volitatud töötleja teavitab vastutavat töötlejat kõigist isikuandmetega seotud
+rikkumistest või kui on alust kahtlustada, et selline rikkumine on aset leidnud, ilma
+põhjendamatu viivituseta alates hetkest, kui volitatud töötleja või tema poolt kasutatav
+teine volitatud töötleja saab teada isikuandmetega seotud rikkumisest või on alust
+kahelda, et selline rikkumine on aset leidnud.
+5.2. Volitatud töötleja peab ilma põhjendamatu viivituseta, aga mitte hiljem kui
+nelikümmend kaheksa (48) tundi pärast sellest teada saamist, edastama vastutavale
+töötlejale kogu isikuandmetega seotud rikkumist puudutava asjakohase
+informatsiooni. Määral, mil volitatud töötlejale on vastav informatsioon kättesaadav,
+peab teade kirjeldama vähemalt järgmist:
+5.2.1. toimunud isikuandmetega seotud rikkumise laad, eeldatav kuupäev ja kellaaeg;
+5.2.2. volitatud töötleja andmekaitseametniku või teise asjakohase kontaktisiku nimi
+ja kontaktandmed, kellelt saab täiendavat informatsiooni;
+5.2.3. asjaomaste andmesubjektide kategooriaid ja ligikaudset arv ning isikuandmete
+asjaomaste kirjete liik ja ligikaudne arv;
+5.2.4. isikuandmetega seotud rikkumise tõenäolised tagajärjed, ja
+
+18
+
+5.2.5. meetmeid, mida volitatud töötleja rikkumise lahendamiseks on tarvitusele
+võtnud või võtab, et vältida isikuandmetega seotud rikkumisi tulevikus, ja
+vajaduse korral ka meetmeid, mille abil leevendada rikkumise võimalikke
+negatiivseid mõjusid.
+5.3. Volitatud töötleja peab vastutava töötleja jaoks viivitamatult dokumenteerima
+uurimise tulemused ja tarvitusele võetud meetmed.
+5.4. Volitatud töötleja teeb vastutava töötlejaga igakülgset koostööd selleks, et välja
+töötada ja täita tegevusplaani isikuandmetega seotud rikkumiste kõrvaldamiseks.
+5.5. Vastutav töötleja vastutab järelevalveasutuse teavitamise eest.
+6. Muud sätted
+6.1. Volitatud töötleja kohustub lepingu lõppemisel tagastama vastutavale töötlejale kõik
+kliendi andmed või kustutama andmed ja nende koopiad vastavalt vastutava töötleja
+antud juhistele, juhul kui kehtiv seadusandlus ei nõua isikuandmete säilitamist või kui
+volitatud töötlejal ei ole õiguslikku alust isikuandmete töötlemiseks iseseisva
+vastutava töötlejana.
+6.2. Volitatud töötleja väljastab vastutavale töötlejale volitatud töötleja esindusõigusega
+isiku poolt allkirjastatud tõendi kinnitades, et lisa punktis 6.1 nimetatud toimingud on
+teostatud tema ja kõigi tema poolt kasutatud teiste volitatud töötlejate poolt.
+6.3. Volitatud töötleja vastutab kahju eest, mida Volitatud töötleja on tekitanud
+Vastutavale töötlejale, andmesubjektidele või muudele kolmandatele isikutele
+Lepingu alusel üle antud isikuandmete töötlemise tagajärjel, mida on tehtud Lepingut
+või õigusnorme rikkudes, ning eelkõige isikuandmete volitamata isikutele avaldamise
+tagajärjel. Kui kohaldatavaid õigusnorme või Lepingut rikutakse Volitatud töötlejale
+omistatavatel põhjustel ja selle tagajärjel on Vastutav töötleja kohustatud maksma
+hüvitist või trahvi, on Volitatud töötleja kohustatud hüvitama Vastutavale töötlejale
+sellega seoses kantud kulud. Kui Volitatud töötleja ei täida Lepingut või täidab seda
+mittenõuetekohaselt, on Volitatud töötleja kohustatud maksma leppetrahvi 1000
+eurot iga rikkumise eest võlateate alusel, mis tuleb tasuda 14 päeva jooksul pärast seda,
+kui Vastutav töötleja on vastava nõude väljastanud. Lepingu mittenõuetekohane
+täitmine tähendab eelkõige olukorda, mil isikuandmete töötlemise põhimõtete
+täitmist kontrolliv järelevalveasutus leiab, et Volitatud töötleja ei ole talle üle antud
+andmeid töödelnud kooskõlas nende põhimõtetega. Vastutav töötleja jätab endale
+õiguse nõuda lisaks leppetrahvile Lepingu rikkumisega tekitatud kahju hüvitamist.
+6.4. Volitatud töötleja teavitab vastutavat töötlejat kirjalikult kõigist muudatustest, mis
+võivad mõjutada volitatud töötleja võimet või väljavaateid pidada kinni käesolevast
+lisast ja vastutava töötleja kirjalikest juhistest. Pooled lepivad kõigis käesolevat lisa
+puudutavates täiendustes ja muudatustes kokku kirjalikult.
+6.5. Käesolev lisa jõustub selle allkirjastamisel mõlema poole poolt. Lisa kehtib, kuni (i)
+kehtib pooltevaheline leping või (ii) pooltel on omavahelisi kohustusi, mis on seotud
+isikuandmete töötlemisega.
+6.6. Kohustused, mis oma iseloomu tõttu peavad jääma jõusse hoolimata käesoleva lisa
+kehtivuse lõppemisest, jäävad pärast käesoleva lisa kehtivuse lõppemist jõusse.
+
+Vastutav töötleja
+
+Volitatud töötleja
+
+19
+
+

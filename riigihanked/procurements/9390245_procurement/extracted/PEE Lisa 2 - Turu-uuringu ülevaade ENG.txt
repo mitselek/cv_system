@@ -1,0 +1,576 @@
+PEE Annex 2 – Market Survey Summary
+The contracting authority conducted a market survey involving the partners of ITL (Estonian Association of Information Technology
+and Telecommunications), TMPO (Tallinn Mechanism Project Office) and SIDA-ESTDEV project CURE™ (Cybersecurity for Ukraine:
+Resilience and Enhancement) in Ukraine.
+As a result of the market research, a number of questions were asked and proposals were made, an overview of which is presented
+below:
+Question/suggestion
+
+Contracting
+explanation
+
+authority’s
+
+response/ Did it result in a
+change
+in
+the
+procurement
+documents?
+We have noticed that Kosovo is included among the eligible As the EU has a trade agreement with Kosovo, No
+countries. As you may know, Ukraine does not officially it is not possible to take the proposal into
+recognise Kosovo. Therefore, it would not be appropriate account.
+for Ukrainian public institutions or projects implemented
+in Ukraine to include entities from Kosovo as eligible
+participants. We kindly ask you to take this into account
+when finalising the documentation.
+Please clarify whether this list of eligible countries applies 1. All joint tenderers must be from allowed No
+equally to: 1 All consortium members (i.e. whether all countries.
+consortium participants must be registered in these listed 2. The subcontractors at the stage of the
+countries); 2 Subcontractors or partner organizations performance of the contract do not have to be
+involved in implementation (e.g. local partners in from these countries, only if their competence
+beneficiary countries); 3 References – whether projects is invoked to fulfil the qualification criterion.
+performed for clients or beneficiaries located outside the 3. Yes, because the law does not restrict it, i.e.
+listed countries are acceptable as past performance it is a matter of choosing the contracting
+evidence; 4 Offices or resources – whether the bidder may authority.
+demonstrate experience and team capacity located in 4. Doesn't limit the location of staff and
+countries not included in the eligibility list (for example, experience.
+technical staff or delivery centers in third countries).
+Clarification is needed to understand if the country list
+applies only to the legal registration of bidders and
+consortium members, or also limits the geographical origin
+of experience, projects, and personnel.
+
+For an international company or consortium with
+operations in several countries, please confirm: 1 Whether
+the turnover requirement may be aggregated across the
+bidder’s group entities, branches, or subsidiaries operating
+in different countries; and 2 Whether the project experience
+(e.g. minimum three similar contracts of at least EUR
+100,000 each) may include references implemented in
+various countries, provided they are relevant to the subject
+matter of the procurement.
+Parts 1 and 2: Net turnover of at least EUR 1,000,000 per
+year for the last 3 years. Question: Is the net turnover in
+the case of a consortium total or per unique company?
+
+1. No, the turnover of the members of the No
+consolidation group cannot be relied on if the
+entire consolidation group does not come as
+joint tenderers or as a reliant subcontractor.
+2. Yes.
+
+The turnover can be summed up as members No
+of the consortium, who are marked as joint
+tenderers or subcontractors in the tenders.
+
+Parts 1 and 2: at least 3 similar contracts in the last 36 Reference contracts can be combined with the No
+months, each worth at least €100,000 (excluding VAT). experience of consortium members who have
+Question: Is it a consortium or a unique company?
+been identified as joint tenderers or
+subcontractors.
+Part 3: At least 3 contracts in the last 36 months in the field The contracting authority analysed the Yes
+of IT or cybersecurity infrastructure, each worth at least feedback and slightly changed the costs of
+€100,000 (excluding VAT). Feedback: The condition is previous
+reference
+contracts
+in
+the
+not proportionate compared to the requirement of a procurement document and adjusted the
+contract similar to Part 1 and Part 2 3, because turnover requirements.
+infrastructure projects are usually significantly more
+expensive than those of the consultation.
+Minimum turnover in parts 1–2. Current wording. The contracting authority does not take this No
+'Lots 1 and 2: net turnover of at least EUR 1 000 000 per into account, since it would exclude the SME
+year for the last 3 years.' Recommendation. Align with from participating in the tender, which is the
+tranche 3: €4,000,000 per year.
+purpose of the division.
+
+The documents currently refer to English and Estonian as
+the working languages, while Ukrainian is not mentioned.
+Considering that most of the framework’s activities will be
+implemented in Ukraine and that direct interaction with
+Ukrainian institutions and experts will be required, we
+would recommend including Ukrainian language
+proficiency as a relevant requirement for project teams
+operating in Ukraine. This would ensure smoother
+coordination and communication with local recipients and
+stakeholders.
+The project manager of the team must be fluent in Estonian.
+Question: What is ESTDEV's vision of the project team
+and how it works? The requirements state that the Team's
+project manager must be proficient in Estonian, and at the
+same time, the procurement is open to non-EU countries in
+addition to the EU. Are these companies from non-EU
+countries really expected to participate in the procurement
+and are these companies expected to hire Estonians as
+project managers for the team??
+
+From clause 3.2.2 "Documentation concerning the
+performance of the contract in Estonian." + Requirements
+for the tenderer's team and CV form: from clause 1.2 "... to
+prepare
+and
+check
+the
+procurement
+contract
+documentation in Estonian." Regarding the Estonian
+language requirement, we think that since English is
+indicated for the performance of the works (other local
+language by agreement), it could also be allowed to write the
+tender/description of the works, project documentation,
+etc. Submission. This would ensure a clearer common
+understanding of the content of the works and that the
+actual project corresponds to the tender (there will be no
+problems with terminology and no need to translate the
+
+If necessary, the condition is established in a No
+mini-competition
+and
+the
+respective
+possibility is regulated by the framework
+agreement.
+
+The contracting authority analysed the Yes
+proposal and found that, taking into account
+the content of the projected projects, it is
+appropriate to require the project manager to
+speak English, which ensures smooth
+cooperation between the parties. However, the
+tenderer must take into account that the
+procurements will be carried out in accordance
+with the Language Act at least in Estonian, and
+if possible also in English. The contract partner
+must also be able to ensure communication in
+Estonian and prepare documents, if necessary,
+but an interpreter can also be used for this.
+The contracting authority allows the Yes
+submission of tenders in English (the relevant
+right specified in the Procurement Registre in
+the subsection "Additional details of the
+procurement").
+
+tender into English in the case of work carried out in a
+foreign country).
+As most Ukrainian recipient institutions are objects of
+critical infrastructure, we strongly recommend that all
+installation, configuration and training activities be carried
+out by personnel fluent in the Ukrainian language. This will
+guarantee precision, operational safety and effective
+communication during all stages of implementation.
+In point 1.1, it is incomprehensible why the project
+manager may not also perform another role in the project,
+if necessary. Also, a situation may arise if a consultation
+(consultant) and a penetration tester are needed in the
+project and they are listed as key roles, then two different
+people should definitely be involved, while a cybersecurity
+specialist is generally able to both successfully consult and
+perform a pentest.
+
+If necessary, the condition is established in a No
+mini-competition
+and
+the
+respective
+possibility is regulated by the framework
+agreement.
+
+The contracting authority wishes that the key No
+roles presented in the procurement for
+concluding the framework agreement would
+be mutually supportive. The contracting
+authority wants to make sure that the partner
+has a competent team. Considering that key
+members in 2-3 roles have been asked, the
+contracting authority does not consider the
+requirement to be unreasonably restrictive. It
+is possible to take a more flexible approach to
+assembling specific teams within the
+framework of mini-competitions.
+Requirements 2 and 3 of section 1.4 are very restrictive and This is a definition of the term "international No
+seem unreasonable. As a hypothetical example: If the project" and is not a separate requirement.
+project is directed to Poland, for example, then it seems
+unreasonable to us that it is mandatory to have a team
+member who is located in Poland and also partially carries
+out the project there, if it is always possible to travel to
+Poland as needed to carry out the project.
+Whether it is mandatory to identify and present potential In order to participate in the framework No
+local partners already at the framework procurement stage, procurement, there is no obligation to submit
+or whether such partnerships will be established later on-site experts or specialists to be involved.
+during mini-competitions for specific projects; If The corresponding need will be presented only
+demonstration of local partners is expected now, what form in the mini-competition. However, when
+of evidence or documentation (e.g. letters of intent, drawing up a vision for cooperation, it is
+cooperation agreements, or general descriptions of necessary to explain how locals will be
+potential partnerships) is required; Whether the evaluation involved, if necessary, in order to receive
+additional points in the assessment.
+
+will give additional points or preference for already having
+identified local partners.
+The requirements for the tenderer's team in point 3 PART 1
+(people/roles) are very strict. At least 5 years of work
+experience (in the role of project manager, consultant) and
+participation in at least 10 projects during this time is
+required, which is a very large number. This means that, in
+essence, the project should only be carried out with senior
+roles. Our proposal is to ask for a tender in the
+procurement, where roles of different levels - expert, senior,
+junior - can participate. The roles have different work and
+project experiences as well as hourly rates. At the same
+time, the above-mentioned requirement only favours those
+carrying out very short-term projects. Information and
+cyber security projects are long-term, many e.g. 3-year
+projects, so the requirement is disproportionate in the
+current wording. Proposal: For example, it would be
+reasonable to participate in three international projects
+over a five-year period.
+Requirements for the tenderer's team set out in clause 4 for the project manager regarding the PART 2 requirement:
+"Has participated as a project manager in at least ten
+international consultation projects related to the field of
+information and cyber security in the last five years." It is
+very difficult to distinguish between projects that are purely
+consulting projects and those that are not. Proposal: instead
+add as a condition projects where the Project Manager has
+participated in the part containing the consultation.
+In terms of the requirements of the project manager and all
+other members of the project team, the requirement of 10
+international projects in the last 60 months is excessively
+restrictive. Question: What is the purpose of such a
+requirement?
+
+In the context of finding partners for the No
+framework agreement, the contracting
+authority wishes to find tenderers who have an
+extremely competent team of key specialists.
+Of course, it is possible to involve other team
+members, including those with less
+experience, in mini-competitions and then in
+the performance of procurement contracts, but
+key members are responsible for the quality of
+their work.
+
+The contracting authority specified the Yes
+requirements for the content and volume of
+projects.
+
+The contracting authority wishes to find key Yes
+specialists with international experience who
+have experience with different cultures and
+environments. The contracting authority
+specified the requirements related to
+international projects and will assess the
+existence of more international projects within
+the framework of the evaluation criteria.
+
+Current wording. International experience is currently
+required in several separate roles (e.g. project manager,
+consultant, architect, administrator), which may exclude
+competent
+local
+specialists.
+Recommendation.
+International experience should be required at the company
+level – showing that the company has carried out
+international projects in different countries. Where
+necessary on an individual basis, the requirement should
+only apply to the project manager or lead expert responsible
+for the overall management and quality of the project.
+Experience Threshold: Leading Expert Current
+Wording. "The leading expert has over 85 months (7+
+years) of experience in creating and implementing
+cybersecurity solutions." Recommendation. Raise the
+threshold to 10 years to emphasize in-depth strategic
+experience (but this should not be reflected in 2 different
+projects per year). Prove through a relevant role.
+Confidential projects and submission of contacts.
+Current wording. "The contracting authority does not
+accept confidential projects..." Recommendation. Allow
+the submission of classified projects in anonymized form,
+adding contacts for later verification before signing the
+contract.
+
+The contracting authority considers it No
+necessary for the team members to have
+personal experience in the implementation of
+international projects, as the service is
+provided personally. The contracting authority
+has also set qualification criteria for the
+company.
+
+The contracting authority has set the Yes
+minimum requirement of length of work
+experience as a condition of compliance and
+more than that as an evaluation criterion for
+experience.
+The
+contracting
+authority
+specified the threshold somewhat in the
+assessment.
+The contracting authority is subject to the No
+obligation to keep business secrets and keep
+the tender secret pursuant to the Public
+Procurement Act. In addition, the contracting
+authority must carry out a check on the basis
+of the data submitted regarding the conformity
+of the tender, which cannot be done if the
+tenderer has not submitted the required data
+on the project. Therefore, the submission of
+confidential projects is also prohibited, as the
+contracting authority does not have the
+opportunity to validate the experience in such
+a case.
+
+Number of projects vs duration Current wording.
+At least 10 international projects in the last 5 years required.
+Recommendation. Prioritize the duration and impact of
+the experience; ask for 3 major projects in the last 5 years
+(or split into phases by program). The number of projects is
+not a sign of quality/competence. An alternative proposal is
+to reformulate the requirement as the volume (in hours)
+that has been carried out as a project manager in
+international information and cyber security projects over
+the past five years. NB! The proposal applies to all roles and
+parts of the project.
+Expansion of the project manager's experience
+Current wording. 60 months of experience in the field of
+information and cybersecurity. Recommendation.
+Experience in software development and digital consulting
+project management should also be taken into account, if
+the content of the work is relevant.
+5. Part 3 – Project Manager Current wording. "60
+months of experience in analysis and prototyping."
+Recommendation. Add "or at deployment" to cover
+the entire lifecycle.
+6.
+Architect
+(part
+3)
+Current
+wording.
+"Participated in at least ten international ICT
+infrastructure implementation projects in the last
+5 years." Recommendation. Add "analysis and/or
+design" as equivalent experience.
+
+The contracting authority
+conditions in this regard.
+
+specified
+
+the Yes
+
+The contracting authority
+conditions in this regard.
+
+specified
+
+the Yes
+
+The contracting authority
+conditions in this regard.
+
+specified
+
+the Yes
+
+The contracting authority
+conditions in this regard.
+
+specified
+
+the Yes
+
+It is essential that all equipment delivered to Ukrainian
+institutions under the Framework Procurement comes with
+an official manufacturer’s warranty that is valid and
+enforceable on the territory of Ukraine. The supplier
+should ensure the availability of an authorised service
+centre in Ukraine capable of performing warranty
+repairs or replacements within one business day, in
+accordance with the warranty terms. The warranty
+documentation should explicitly indicate that Ukrainian
+recipients are recognised as warranty beneficiaries and
+confirm that service and spare parts are available locally.
+Please note that, in the absence of such provisions,
+Ukrainian recipients may not be able to formally accept or
+register the delivered equipment.
+Section 5.2.4 states that 'the contractor is obliged to
+provide a warranty of at least 24 months for the
+goods to be supplied...' Proposal: This wording could be
+specified in the procurement: for example, "delivered
+products" instead of "deliverables" or exclude
+consultations, penetration testing, etc. The provider cannot
+provide a guarantee for the services (pentest, code review,
+etc.).
+3.3.2. Training on the implementation of various standards
+and frameworks (NIST, ISO, CIS, GDPR, NIS2, etc.);
+Proposal: I would like to add here as examples the
+frameworks concerning the cybersecurity of equipment: EU
+CRA, RED, ISO/IEC 62443, of which RED is the EU Radio
+Equipment Directive.
+
+If necessary, the condition is established in a No
+mini-competition
+and
+the
+respective
+possibility is regulated by the framework
+agreement.
+
+Thing and product are synonyms that do not No
+include a service in the context of the Public
+Procurement Act. Thus, the contracting
+authority proceeds from the fact that the word
+"thing" describes things, products and
+licenses, and the word "service" describes
+guarantees, consultations, etc.
+As far as the contracting authority is aware,
+there are no plans to order such services.
+
+No
+
+4.1.1. Preliminary analysis and requirements mapping – As far as the contracting authority is aware,
+business needs, information security and compliance there are no plans to order such services.
+requirements (e.g. GDPR/NIS2/ISO 27001); Proposal: I
+would like to add here as examples the frameworks
+concerning the cybersecurity of equipment: EU CRA, RED,
+ISO/IEC 62443, of which RED is the EU Radio Equipment
+Directive.
+
+No
+
+In our opinion, the ISO 27001 requirement established in
+Part 1 of the procurement is disproportionate and it is not
+directly necessary to achieve the objective of PART 1.
+However, the provision of such a requirement would inhibit
+the effective exploitation of potential competition:o The
+provision of information and cyber security consulting
+services in international development cooperation projects
+does not require the existence of this standard, because the
+providers of such services are generally not (and should not
+be) companies that need to protect a large amount of
+sensitive information. The ISO 27001 standard and
+equivalent systems are primarily used in companies with
+critical information and infrastructure, where it is
+necessary to strictly handle and protect a large amount of
+very different sensitive information (including IT
+companies, financial institutions, healthcare institutions,
+etc.). Proceeding from the general principles of public
+procurements (§ 3(1) and (3) of the PPrA), the procurement
+conditions must be proportionate, i.e. related to the object
+of the procurement and should not restrict the effective
+exploitation of competition in the market. If the
+procurement condition is not necessary for the achievement
+of the objective of the procurement and creates unjustified
+restrictions on participation, such a requirement is in
+conflict with the Public Procurement Act and should be
+omitted from the procurement conditions.
+o
+“1. The project manager has at least 1
+international certificate, e.g. Prince2, PMP or 2.
+The consultant has at least 1 international
+certificate,
+e.g.
+CISM,
+ISO
+27001
+Lead
+Implementer, CISSP, etc." In our opinion, the
+requirement for project manager and consultant certificates
+is unjustified, the existence of the required certificates is not
+an unavoidable prerequisite for fulfilling the role of project
+manager and consultant, and such a condition would
+potentially limit the range of tenderers participating in the
+procurement. As the existence of the certificate is not
+
+The contracting authority decided to waive this Yes
+qualification criterion with the aim of
+increasing competition and will include the
+implementation of the principles of the ISO
+27001 certificate in the composition of the
+cooperation vision assessment.
+
+These are requirements subject to assessment, No
+the fulfilment of which is not mandatory in
+order to participate in the procurement.
+
+necessary for achieving the objective of the procurement,
+the requirement can be considered disproportionate within
+the meaning of the Public Procurement Act.
+The weight of the cooperation vision is significantly lower
+(20%) in all parts of the evaluation criteria compared to the
+team and price parts. Only on the basis of a vision drawn
+up for evaluation can it be possible to assess the actual
+capabilities and experience of the tenderer and to rule out
+unstable projects filled with random people. Proposal: to
+increase the weight of the vision of cooperation, i.e. for
+example, 30% price + 30% competence + 40% vision of
+cooperation. Also, the evaluation of the criterion "vision of
+cooperation" is too general (for example: The tenderer's
+vision of cooperation meets the needs of the contracting
+authority). Specific criteria could be included.
+We also consider the requirement of 10 and 15 international
+projects to be too strict for receiving points. Again, only
+senior consultants and experts are suitable for these
+conditions.
+
+The contracting authority has specified the Yes
+proportion of evaluation criteria in the
+procurement.
+
+The goal of the contracting authority is to No
+become partners only good and very good,
+competent companies with whom to carry out
+important international projects in the next 4
+years. The purpose of the selection criteria
+cannot be to include all potential tenderers in
+the contract.
+1. Valuation based on the principle of "value and results", The contracting authority has specified the Yes
+not the lowest hourly rate Current wording. In the case of proportion of evaluation criteria in the
+parts 1–2, the "price of one hour of work" gives 40 points; procurement.
+The same logic for part 3 "price of the shopping basket" (40
+p). Recommendation. Set the proportion of cost ≤30%.
+
+Legal status:
+Is it required that the consortium be formally established as
+a legal entity (e.g. registered joint venture) prior to bid
+submission, or is it sufficient for the lead bidder to apply
+and identify consortium members through a consortium
+agreement or statement of intent (or teaming agreement)?
+
+Legal status: The consortium does not have to No
+be established as a legal entity (e.g. registered
+joint venture) prior to submission. Consortium
+members just have to be identified. In practice,
+this means that all joint tenderers have to be
+registered on the Estonian procurement portal
+and linked to the offer.
+Financial qualification:
+Financial
+qualification:
+Financial
+If the second option applies (a consortium led by one requirements can be aggregated across
+entity), will the financial requirements (e.g. minimum consortium members.
+annual turnover) be assessed only for the lead bidder, or can
+they be aggregated across consortium members?
+Technical and project experience: yes, past
+experience and project references can be
+Technical and project experience:
+cumulative across consortium members,
+Can past experience and project references be cumulative provided that each member's role in those
+across consortium members, provided that each member’s projects is clearly defines.
+role in those projects is clearly defined?
+Strategic value: N/A
+Strategic value:
+Please confirm whether the consortium model provides any Additional remark: When submitting team
+comparative advantage over a single implementing partner, members within the framework of the
+considering that future mini-competitions will allow the eligibility criteria, it is the roles and acting in
+engagement of local partners as needed for specific projects. these roles that are important on a personal
+level, not from the consortium of the project
+implementer (projects do not have to be
+related to the consortium at all, but only to the
+person himself).
+
+
