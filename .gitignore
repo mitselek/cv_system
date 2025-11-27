@@ -30,7 +30,7 @@ dist/
 Thumbs.db
 
 # Application-specific
-applications/*/delivery/
+applications/**/delivery/
 
 # Logs
 logs/
