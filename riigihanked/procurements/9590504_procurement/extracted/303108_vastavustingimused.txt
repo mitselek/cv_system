@@ -1,0 +1,100 @@
+1/2
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+303108
+Eesti Maaülikool (74001086)
+Välise kvaliteedihindaja teenus
+
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+2. Pakkuja lisab lühikirjelduse kavandatavast töömeetodist ja eelnevast kogemusest. (Vabas
+vormis dokument)
+
+PAKKUMUSE MAKSUMUS
+Pakkumuse maksumus tuleb esitada töölehel "Hindamiskriteeriumid ja hinnatavad näitajad"
+toodud struktuuri kohaselt.
+Küsimused ettevõtjale:
+1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe "Hindamiskriteeriumid ja hinnatavad
+näitajad" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega "Jah/Ei")
+NÕUDED LEPINGU TÄITMISEL VAHETULT OSALEVALE ISIKULE
+Lepingu vahetu täitjana peab olema kaasatud isik, kes:
+- peab omama doktorikraadi ja vähemalt 3-aastast kogemust kõrgharidusprojektide või
+Koostatud 25.11.2025 13:01:33
+https://riigihanked.riik.ee/rhr-web/#/procurement/9590504/general-info
+
+2/2
+
+rahvusvaheliste arendusprojektide kvaliteedihindamisel, mida on võimalik tõestada;
+- omab seost Euroopa kõrgharidusruumiga, nt karjäärikogemuse kaudu ELi ülikoolides või
+kõrghariduse juhtorganites;
+- peab omama kogemust Ukraina ja Mongoolia haridussüsteemi ja nende omapäradega;
+- peab olema võime töötada haridustehnoloogia valdkonnas.
+Pakkuja esitab teenuse osutamisele vahetult kaasatava isiku CV, mis peab sisaldama andmeid
+mahus, mis võimaldavad kontrollida vastutava isiku vastavust seatud nõuetele ja hanke
+kriteeriumitele.
+
+Küsimused ettevõtjale:
+1. Pakkuja esitab töö vahetu täitja CV. (Vabas vormis dokument)
+HUVIDE KONFLIKT PROJEKTI DOMANI PARTNERITEGA
+Pakkuja kinnitab, et tal puudub huvide konflikt projekti DOMANI partneritega, kelleks on:
+ESTONIA:
+The Open University, Estonian University of Life Science – Coordinator, WP1 and WP3 lead
+www.emu.ee
+Estonian Quality Agency for Education, Estonian Education and Youth Board – Partner
+www.haka.ee
+ITALY:
+University of Catania – Partner www.unict.it
+HUNGARY:
+Center for Systems Innovation – Partner, WP4 lead www.systemsinnovation.eu
+UKRAINE:
+Taras Shevchenko National University of Kyiv – Partner, WP5 lead www.knu.ua
+V. N. Karazin Kharkiv National University – Partner, WP2 lead www.karazin.ua
+Ukrainian Joint Meteorological and Hydrological Society – Partner www.umhs.org.ua
+National Agency for Higher Education Quality Assurance – Partner www.en.naqa.gov.ua
+MONGOLIA:
+National University of Mongolia – Partner, WP6 lead www.num.edu.mn
+School of Agroecology and Business, Mongolian University of Life Sciences – Partner
+www.sab.edu.mn
+Mongolian National Council for Education Accreditation – Partner www.mncea.edu.mn
+Environmental Auditing Association of Mongolia – Partner www.eaamongolia.org
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et tal puudub huvide konflikt projekti DOMANI partneritega. (Raadionupp
+valikutega "Jah/Ei")
+
+Koostatud 25.11.2025 13:01:33
+https://riigihanked.riik.ee/rhr-web/#/procurement/9590504/general-info
+
+
