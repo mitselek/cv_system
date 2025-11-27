@@ -1,0 +1,557 @@
+Registrite ja Infosüsteemide Keskus
+
+„E-kataloogi arendustööd“
+(302310)
+
+Hanke raamlepingu tehniline kirjeldus
+
+2025
+
+1.
+
+Hanke eesmärk ja üldinfo
+
+1.1.
+
+Riigihanke eesmärgiks on sõlmida raamleping ühe edukaks tunnistatud pakkujaga,
+kes hakkab teostama E-kataloogi arendustöid (k.a konsultatsioonid) pakkumuses
+fikseeritud tunnihinna alusel.
+
+1.2.
+
+E-kataloogi arendustööde eesmärk on E-kataloogi täiustamine ja parendamine, et
+tagada süsteemi stabiilne ja tõrgeteta toimimine lõppkasutajate jaoks.
+
+1.3.
+
+Raamleping jõustub allkirjastamise hetkest. Raamleping kehtib 36 kuud raamlepingu
+sõlmimisest või kuni raamlepingu eeldatava maksumuse täitumiseni.
+Raamlepingu eeldatavaks maksumuseks on 150 000 eurot (km-ta).
+
+1.4.
+1.5.
+
+1.6.
+
+Raamlepingu alusel sõlmitavaid hankelepinguid võidakse rahastatakse 2021-2027
+Euroopa
+Liidu
+ühtekuuluvusja
+siseturvalisuspoliitika
+fondidest
+„Ühtekuuluvuspoliitika fondide rakenduskava 2021–2027” poliitikaeesmärgi 1
+„Nutikam Eesti“ erieesmärgi 2 „Digitaliseerimisest kasu toomine kodanike, ettevõtjate,
+teadusasutuste ja avaliku sektori asutuste jaoks“ raames toetatava meetme 21.1.2.1
+„Digiriik” sekkumise 21.1.2.11. „Digilahenduste ja uuenduste väljatöötamine ja
+kasutuselevõtt avalikus sektoris” tegevuste elluviimiseks.
+Iga viidet, mille hankija teeb käesolevas dokumendis mõnele riigihangete seaduse
+paragrahvi 88 lõikes 2 nimetatud alusele kui pakkumuse tehnilisele kirjeldusele
+vastavuse kriteeriumile, tuleb lugeda selliselt, et see on täiendatud märkega „või
+sellega samaväärne“.
+
+1.7.
+
+Iga viidet, mille hankija teeb käesolevas dokumendis ostuallikale, protsessile,
+kaubamärgile, patendile, tüübile, päritolule või tootmisviisile, tuleb lugeda selliselt, et
+see on täiendatud märkega „või sellega samaväärne“.
+
+2.
+
+E-kataloogi lühitutvustus
+
+E-kataloog on Riigihangete registris teostatud riigihangete alusel sõlmitud lepingute
+järelhalduskeskkond. E-kataloogi tekivad tooted/teenused ainult läbi Riigihangete registri (RHR)
+teostatava e-kataloogi riigihanke, mistõttu e-kataloogi sisu on nähtav isikutele, kes on seotud
+RHRis mõne riigihankega (ning hankija vaates hanke alusel on sõlmitud ka leping). Hankijal on
+võimalik hanget korraldades määratleda, kas tegemist on nö tavahankega või e-kataloogi
+hankega.
+E-kataloogi demoversiooniga, mis on liidestatud Riigihangete registri koolituskeskkonnaga, on
+võimalik tutvuda aadressil: https://demo-ekat.rik.ee. Hankija vaatest tuleb sisse logida
+kasutajatunnusega „testhankija“ ja parooliks „testhankija“. Pakkuja vaates vastavalt „testpakkuja“
+ja parooliks „testpakkuja“.
+2.1.
+
+E-kataloogi kasutajad
+
+Keskkonna kasutajaskond jaguneb kaheks:
+
+
+Hankijad, kes on teostanud RHRis e-kataloogi riigihanke ning sõlminud hanke tulemusel
+lepingu, mille alt saab teostada soetusi e-kataloogi kaudu. Hankija tegevus e-kataloogis
+on peamiselt seotud lepingujärgse tegevusega – toodete/teenuste tellimisega.
+
+
+
+Pakkujad, kes on esitanud RHRis riigihankele pakkumuse. Pakkuja e-kataloogi tegevus
+hõlmab endast nii riigihankele pakkumuse koostamist ja selle haldamist kui sõlmitud
+lepingu järgse tegevusena tellimuste menetlemist, vajadusel pakkumuste kohandamist,
+võimalusel pakkumuste muutmist (võimalik ainult nö tootekataloogi lepingus).
+
+2
+
+Kasutajate haldus toimub RHR keskkonnas konkreetse hanke meeskonna juures. Kasutaja näeb
+e-kataloogis ainult neid pakkumusi, lepinguid ja seotud tooteid/teenuseid, millise hanke juurde on
+ta RHRis lisatud. Iga hankija ja pakkuja on seotud ainult temaga seotud hangete/pakkumuste
+infoga. See tähendab, et hankijad ei tohi näha teiste hankijate lepingute infot (sh ühishankijad ei
+näe üksteise tellimusi) ega pakkujad teiste pakkujate pakkumuste infot.
+Kasutajad jagunevad kahte erinevasse rolli: vastutav/volitatud isik ja e-kataloogi kasutaja, kellest
+viimase teostatud tellimused (hankija vaates) liiguvad kinnitamiseks kas volitatud isikule või selle
+puudumisel vastutavale isikule. Sellisel juhul on tellimuse koostajaks e-kataloogi kasutaja. Teistes
+rollides isikute tellimused liiguvad otse pakkujale. Sellisel juhul on tellimuse koostajaks kas
+vastutav isik või volitatud isik.
+2.2.
+
+Moodulid
+
+E-kataloog koosneb erinevatest moodulitest, millest mõned funktsionaalsused kattuvad pakkujate
+ja hankijate vaates:
+1. „Lepingud“ – RHRis sõlmitud lepingute info, sisaldades detailinfona toodete/teenuste
+nimekirja reaalajas (st juhul kui tooteid/teenuseid on muudetud või asendatud, kuvatakse
+viimane muudatus lepingu info alla);
+2. „Minu pakkumused“ – pakkuja poolt koostatud RHR pakkumuste info, sisaldades
+detailinfona toodete/teenuste nimekirja reaalajas (st juhul kui tooteid/teenuseid on
+muudetud või asendatud, kuvatakse viimane muudatus pakkumuse info alla);
+3. „Tooted/teenused“ – toodete ja teenuste otsingu vaade;
+4. „Minule esitatud tellimused“ – tellimuste menetlemise moodul;
+5. „Tellimused“ – tellimuste menetlemise moodul;
+6. „Tootekataloog“ – pakkuja kõikide toodete/teenuste kataloog;
+7. „Teavitused“ – jagunevad:
+7.1. „Teabevahetus“ – teatud erandlikes olukordades toimub teabevahetus e-kataloogis.
+Hankija vaates on võimalik esitada pakkujatele teavitus, küsimus ja pakkuja vaates
+on võimalik esitatud küsimustele süsteemi kaudu vastata;
+7.2. „Süsteemi teavitused“ – süsteemi automaatsed teavitused
+8. „Hankesse esitatud pakkumus“ – hankija vaates nähtav ainult RHR kaudu hanke
+pakkumust avades.
+Moodulid võivad jaguneda ning neid kuvatakse kasutaja vaates, nt lepingud jagunevad lepingu
+tüübi järgi, tellimused staatuse järgi. Käesolevas dokumendis nimetatakse mooduleid üldiselt
+mõistega kasutaja vaade.
+2.3.
+
+Otsingu süsteem
+
+E-kataloogis puudub nö tootegruppide puu, kuna riigihanked võivad olla seotud väga erinevate
+tootegruppidega (nt toiduainete, militaartarvete, rõivaste, ravimite jm), ning ühtset tootegruppide
+klassifikaatorit, mis sobiks kõigile, ei ole võimalik rakendada. Seetõttu asendab tootegruppe
+mõningal määral CPV-kood, kuid sellest jääb sageli väheks (nt IT-pisivahendite hankes on
+raamleping sõlmitud üheksa pakkujaga, kellest pooltel on e-kataloogi edastatud tuhandeid
+tooteid), kuna sarnaseid tooteid võib otsing kuvada sadades. Seetõttu langeb kogu koormus
+otsingusõna järgi otsimisele.
+
+3
+
+Hetkel on kõikides otsinguelementides kasutusel Elasticu otsingumoodul. See moodul võimaldab
+otsida tooteid ühe või kahe sõna kaupa; täpsemad reeglid on toodud lisas „1 Elastiku otsingu
+reeglid“. Selleks, et objekte saaks Elasticu otsingus kasutada, on vajalik nende indekseerimine.
+Massiline indekseerimine toimub öösiti ja nõuab suurt protsessori- ning mälumahtu.
+2.4.
+
+Liidestused
+
+E-kataloog on liidestatud Rahandusministeeriumi poolt hallatava Riigihangete registriga ning ei
+tööta iseseisva keskkonnana. Süsteemis puudub kasutajate moodul. Kasutajateks on RHR
+kasutajad, kes on registreeritud hanke või pakkuja meeskonda hanke juures. Kasutajate sisse
+logimisel E-kataloogi edastatakse RHR poolt E-kataloogile info kasutaja asutusest/ettevõttest
+ning konkreetsemalt millise hanke või pakkumuse meeskonnaga ning millises rollis on isik seotud.
+RHRis hanke või pakkumuse meeskonnaga sidumine annab võimaluse isikul E-kataloogis
+teostada toiminguid konkreetse riigihanke lepingu alt.
+Kahe süsteemi vaheliste liidestustega liigub mh info RHRist E-kataloogi hanke alustamisest,
+sõlmitud lepingutest, täidetud tellimustest jm.
+E-kataloogi on võimalik liidestada pakkuja poolt oma e-poega (vt lisa 2 Liidese kirjeldus.pdf).
+Liidestuse kaudu liigub e-poest e-kataloogi info pakkuja toodetest.
+
+2.5.
+
+Tehnoloogilised nõuded
+
+E-kataloog põhineb Java raamistikul, andmebaasisüsteemina on kasutusel PostgreSQL 10.
+Rakendus on integreeritud teiste infosüsteemidega üle x-tee või muude veebiteenuste. API kihis
+kasutatakse Java Spring Boot raamistikku ja kasutajaliides on kirjutatud Angular's.
+Arendamiskeel on inglise keel.
+Arendust testitakse vastuvõtmisel e-kataloogi testkeskkonnas ja avalikus e-kataloogi
+demokeskkonnas, mis on mõlemad liidestatud RHRiga. Arendajale korraldatakse oma
+arenduskeskkonna liidestus RHRi vastava keskkonnaga.
+
+3.
+
+Üldtingimused hankeobjektile
+
+3.1.
+
+Üldnõuded
+
+3.1.1
+
+Pakkuja peab teostama arendustöid vastavalt tellimustele, kirjeldatud tehnilisele
+kirjeldusele ja raamlepingu alusel sõlmitud hankelepingutele.
+
+3.1.2
+
+Kui hankelepingus ei ole märgitud teisiti, tuleb arendustöid teostada vastavalt
+raamlepingule ja käesoleva tehnilise kirjelduse tingimustele.
+
+3.1.3
+
+Arendustöödena tellitakse eeldatavalt infosüsteemi uuendusi, funktsionaalsuse
+parandamise ja täiendamisega seonduvaid töid jne. Arendustöödena mõistetakse
+näiteks tehnilist konsultatsiooni, disainitööde teostamist, süsteemi- ja detailanalüüsi
+läbiviimist, programmeerimistöid, testimist (sh automaattestid), dokumentatsiooni
+koostamist, vajadusel koolitusi jms. Täpne arendustöö kirjeldus esitatakse
+tellimuses.
+
+3.2.
+3.2.1
+
+Raamlepingu alusel sõlmitud hankelepingu(te) tulem on
+Hankelepingu tehnilises kirjelduses kirjeldatud nõuete täitmiseks loodud või
+kasutatud lähtekood.
+4
+
+3.2.2
+
+Dokumentatsioon (näiteks analüüsi dokument, arenduskeskkonna seadistusjuhend,
+süsteemi arhitektuuri joonis, kontseptuaalsete elementide kirjeldus ja
+kasutamisreeglid, ärisõnastik, arenduste ja arhitektuuri kirjeldus, Tarkvara kasutusja haldusjuhendid, administreerimisjuhend, testimise tulemusena valminud
+dokumendid, varundus/taasteplaan, versiooni kirjeldus, mittefunktsionaalsete
+nõuete vastavustabel, andmekogude semantiline kirjeldus ja andmekoosseis vms).
+
+3.2.3
+
+Testimiseks koostatud skriptid.
+
+3.3.
+
+Tööde teostamine
+
+3.3.1
+
+Tööde teostamiseks sõlmitakse hankelepinguid tellimuste alusel.
+
+3.3.2
+
+Tellimuste raames peab pakkuja olema valmis pakkumuses fikseeritud tunnitasu
+alusel teostama arendustöid:
+3.3.2.1 Sisendiks on konkreetne tulemi (skoobi) tellimus (kirjalikus taasesitamist
+võimaldavas vormis, nt e-post), sh tähtaeg.
+3.3.2.2 Pakkuja esitab omapoolse pakkumuse täpsustuse, sh tööde mahu
+hinnangu, teostamise tähtaja ning hankija nõudmisel projektiplaani (.pdf või
+.xls vormingus avatav). Tööd on jaotatud hankelepingu täitmiseks sobiva
+kestusega etappideks, etapi tööde mahuhinnangud on realistlikud
+arvestades etapi tulemite mahtu.
+3.3.2.3 Pakkuja annab valminud tööd hankijale üle tööde üleandmisaktiga. Pärast
+hankija poolset töö vastuvõtmist esitab pakkuja hankijale arve.
+3.3.2.4 Täpsem tellimuste esitamise kord sätestatakse raamlepingus.
+
+3.3.3
+
+Hankija poolt tellimuses antav töö teostamise tähtaeg on hankija hinnang. Juhul, kui
+pakkuja leiab, et hankija poolt etteantud tähtaeg on ebarealistlik, siis on pakkuja
+kohustatud sellele viitama pakkumuse täpsustuses. Hankelepingu täitmisel on
+vastavate sooviavalduste esitamine välistatud, v.a hankija poolt lisatööde tellimise
+olukorras või muul riigihangete seaduse §-s 123 toodud lepingu muudatust
+võimaldavas olukorras.
+
+3.3.4
+
+Lepingujärgsete tööde teostamisel on pakkujal õigus teha omapoolseid täiendus- ja
+muudatusettepanekuid. Kui hankija nõustub pakkuja poolsete täiendus- ja/või
+muudatusettepanekutega, ei ole pakkuja kohustatud tööde teostamisel lähtuma
+sõlmitava tellimuse kirjeldusest määral, mis vastab uutele kokkulepetele. Vajadusel
+koostatakse vastav lepingu lisa. Pakkuja peab rõhutama juhul kui pakkuja poolne
+muudatusettepanek tähendab lisatöid hankijale. Vastava teavituse puudumisel
+eeldab hankija, et muudatuse realiseerimiseks ei teostata lisatöid.
+
+3.3.5
+
+Hankelepingu alusel teostavate tööde prioriteetide seadmiseks, aja
+raporteerimiseks ning tööülesannete jälgimiseks ja haldamiseks kasutatakse RIKi
+projektijuhtimise keskkonda JIRA.
+
+3.3.6
+
+Hankija täpsustab vajadusel tellimuses arendustööde üleandmise ja vastuvõtmise
+tähtajad.
+
+3.3.7
+
+Pakkuja poolt teostatavate arendustööde garantiiperiood täpsustatakse tellimuses.
+
+4.
+
+Eeldatavalt tellitavad tööd e-kataloogis
+
+4.1.
+
+Süsteemi jõudluse parandamine
+5
+
+4.1.1
+
+E-kataloogi süsteem ei vasta hetkel kehtestatud SLA (Service Level Agreement)
+jõudlusnõuetele.
+
+4.1.2
+
+Puudused mõjutavad oluliselt kasutajakogemust ja vähendavad süsteemi
+töökindlust olulistes kasutusstsenaariumides.
+
+4.1.3
+
+Parandus peab tagama süsteemi stabiilse, katkestusteta ja töökindla toimimise
+tavapärastes kasutustingimustes.
+
+4.2.
+
+Elastic Search optimeerimine
+
+4.3.
+
+Teatiste kuvamise optimeerimine
+
+4.3.1
+
+4.4.
+4.4.1
+
+Hankija poolt pakkujatele sõnumite saatmise protsessi raames kuvatakse iga
+saadetud sõnum kasutajaliideses eraldi reana — üks rida iga saaja kohta. See toob
+kaasa liigse teabe dubleerimise ekraanil ning vähendab teavitustega töötamise
+kasutusmugavust.
+Rollide halduse parandamine
+Algne rollide ja õiguste süsteem oli üles ehitatud eeldusel, et kasutaja on seotud
+ainult ühe organisatsiooniga. Kuid praegustes tingimustes võib üks ja sama kasutaja
+olla seotud mitme asutusega ning osaleda erinevates hangetes nende nimel. Lisaks
+on süsteem seotud teise süsteemiga (RHR), kus määratakse kasutaja seos
+hankega, ning sageli ei eemalda kasutajad neid seoseid pärast asutusest lahkumist.
+
+5.
+
+Projektipõhised nõuded ja töökorraldus
+
+5.1.
+
+Projekti ja arendustöid juhib pakkuja. Pakkuja peab kinni pidama hanke
+alusdokumentidest ja tellimustest ning esitatud pakkumustest. Projekti elluviimisel on
+oluline tihe koostöö RIKi tugiinfosüsteemide tiimiga. Koostööna jõutakse ühistele
+arusaamadele kooskõlastatavate tegevuste osas ning üleantavate tulemite detailides,
+sh peab hankija olema pakkujaga samas infoväljas ning omama ülevaadet
+teostatavate tööde seisust ja pakkumuse koosseisus esitatava projektiplaani
+järgimisest. Kõik arhitektuursed lahendused peavad olema enne tööde alustamist
+kooskõlastatud hankijaga.
+
+5.2.
+
+Projekti arendustööd peavad vastama RIKis kehtestatud arendusnõuetele, mis on
+avaldatud SIIN. Ülejäänud nõuete dokumendid on lisatud riigihanke alusdokumentide
+juurde. Vajadusel täpsustatakse tellimuses, kui teatud nõuded ei kohaldu.
+
+5.3.
+
+Kogu dokumentatsioon tuleb vormistada RIK Confluence keskkonnas, kui ei lepita
+kokku teisiti, sh äri- ja süsteeminõuded tuleb vormistada kasutuslugude põhiselt koos.
+
+5.4.
+
+Pakkuja poolt üleantud ja testitud arendusi testitakse RIKi hallatavas keskkonnas.
+
+5.5.
+
+Projekti raames koostatud
+vormistusnõuetele:
+
+dokumentatsioon
+
+peab
+
+vastama
+
+järgmistele
+
+5.5.1
+
+Dokumentide teemad ja peatükid on loogiliselt struktureeritud ja esitatud koos
+sisukorraga (või seda asendava funktsionaalsusega).
+
+5.5.2
+
+Dokumendid ei sisalda kirjavigu ja on koostatud võimalikult üheselt arusaadava ja
+selge lauseehitusega.
+
+5.5.3
+
+Dokumentide sisu osas vastutuse selgemaks eristamiseks on dokumendis märgitud
+kõik selle koostajad eraldi nende osade juures, mida iga koostaja koostas.
+
+5.5.4
+
+Kõik kasutatud allikmaterjalid peavad olema viidetes ära märgitud ning viitamine
+teistele dokumentidele on selge ja ühtses stiilis.
+
+5.5.5
+
+Dokumendid on koostatud eesti keeles.
+6
+
+5.6.
+
+Hankelepingute raames hangitavate tööde teostamise tegevuskava kirjeldatakse
+hankija nõudmisel ära pakkumuse osana esitatavas projektiplaanis. Tegevuste ajalise
+järjestuse ja korduvuse valib pakkuja. Projektiplaan, peab sisaldama ajakava kõikide
+hanke tehnilises kirjelduses (tellimuses) kirjeldatud tööde läbiviimiseks ja vastama
+vähemalt järgmistele nõuetele:
+
+5.6.1
+
+Projektiplaanis kirjeldatud tööde läbiviimise tulemusena peab olema saavutatud
+hankelepingu raames soovitud tööd. Projektiplaanis peavad kajastuma need
+tegevused, mis on vajalikud lõpptulemuse saavutamiseks.
+
+5.6.2
+
+Tegevused tuleb planeerida selliselt, et iga planeeritud etapi eel kooskõlastatakse
+tegevused Hankijaga.
+
+5.6.3
+
+Pärast iga etapi lõppemist tuleb planeerida etappide tulemite presenteerimine
+Hankijale.
+
+5.6.4
+
+Iga projektiplaani töö kohta peab olema kirjeldatud töö nimetus, töö tegija(te)
+roll/nimi, ajaline kestus ja tähtaeg.
+
+5.6.5
+
+Projektiplaanis peab kajastuma töö tegemiseks vajalikud eeldused/lähteandmed
+ning töö mõõdetav(ad) tulem(id). Projektiplaan peab sisaldama mh. tähtaegu, mis
+on rakendatavad hankijale/välisele osapoolele projekti edukaks realiseerimiseks
+vajalike sisendite tagamise kohta.
+
+5.6.6
+
+Kõik projektiplaanis kirjeldatud tööd peavad olema omavahel loogiliselt seotud ja
+jaotatud iteratsioonidena.
+
+5.6.7
+
+Projektiplaan peab sisaldama ka töid, mille teostamist eeldatakse Hankijalt või teiste
+kaasatud väliste osapoolte poolt.
+
+5.6.8
+
+Projektiplaan peab sisaldama varuaega (puhvrit) ja selles peab arvestama riiklike
+pühade, puhkepäevade ja projektimeeskonna puhkustega.
+
+5.6.9
+
+Projektiplaan peab olema ajakohastatud kogu projekti teostamise vältel.
+
+5.6.10 Lisaks projektiplaanile tuleb kirjeldada, millist agiilset arendusmetoodikat
+kasutatakse ja kuidas seda plaanitakse praktiliselt rakendada (pakkumuse eraldi
+dokument).
+5.6.11 Lisaks projektiplaanile tuleb kirjeldada, kuidas projektijuhtimise riske maandada
+kavatsetakse (pakkumuse eraldi dokument). Riskide maandamise võimalused ja
+halduse ettepanekud (lähtuvalt käesolevast projektist) on esitatud selgelt, detailselt,
+läbimõeldult, struktureeritult ja põhjendatult.
+5.7.
+
+Pakkuja peab komplekteerima lepingute täitmiseks arendusmeeskonna, kes
+vastab vähemalt järgmistele nõuetele:
+
+5.7.1
+
+Pakkuja arendusmeeskonnas peavad olema kaetud vähemalt järgmised rollid:
+projektijuht, (süsteemi)analüütik, arendaja, arhitekt, testija. Meeskonnas peab
+olema vähemalt 4 liiget.
+
+5.7.2
+
+Meeskonnaliikmete rollid võivad kattuda projektijuhi ja analüütiku või arendaja ja
+arhitekti rollides esitatud isikute osas.
+
+5.7.3
+
+Pakkumuses võib ära nimetada ja lepingu täitmisel kaasata ka teisi
+meeskonnaliikmeid, kuid nende arvu ja kompetentsi hanke raames ei hinnata.
+
+5.7.4
+
+Meeskonda kokku pannes peab pakkuja arvestama, et hankelepingutega tellitavad
+tööd saaksid teostatud vastavalt hankija sätestatud nõuetele.
+
+5.7.5
+
+Hankija võib tellimuse esitamisel täpsustada töid teostava meeskonna suurust ja
+pakkujal võib olla vajadus meeskonda suurendada, et püstitatud eesmärke täita.
+
+5.7.6
+
+Meeskonnaliikmete esitamisega kinnitab pakkuja, et esitatud meeskonnaliikmed
+hakkavad riigihanke tulemusel sõlmitud lepingu alusel töid teostama. Pakkumuses
+esitatud meeskonnaliikme saab hankija eelneval nõusolekul vahetada üksnes uue
+meeskonnaliikme vastu, kes vastab hankes esitatud tingimustele.
+7
+
+5.7.7
+
+Kõigil meeskonnaliikmetel peab olema eesti keele oskus heal tasemel.
+
+5.7.8
+
+Vähemalt ühel meeskonnaliikmel peab olema JAVA platvormi ja Spring raamistiku
+kasutamise praktiline kogemus.
+
+5.7.9
+
+Vähemalt ühel meeskonnaliikmel peab olema JavaScripti, Angular ja Java
+kasutamise praktiline kogemus vähemalt kahes projektis.
+
+5.7.10 Vähemalt ühel meeskonnaliikmel
+versioonihalduse kasutamisega.
+
+peab
+
+olema
+
+praktiline
+
+kogemus
+
+Git
+
+5.7.11 Vähemalt ühel meeskonnaliikmel peab olema infosüsteemide arendamisel praktiline
+kogemus JSON päringutega ning veebitehnoloogiatega.
+5.7.12 Vähemalt ühel meeskonnaliikmel peab olema praktiline kogemus Kubernetes ja
+Helm vahenditega.
+5.7.13 Vähemalt ühel meeskonnaliikmel peab olema praktiline kogemus Docker
+vahenditega.
+5.7.14 Vähemalt ühel meeskonnaliikmel peab olema praktiline kogemus CI/CD pipeline
+kasutamisel.
+5.7.15 Meeskonnas kaasatud arendajal peab olema vähemalt 36-kuuline töökogemus
+tarkvara arendajana.
+5.7.16 Meeskonnas kaasatud süsteemiarhitektil peab olema vähemalt 36-kuuline
+töökogemus tarkvara arenduses arhitektina.
+5.7.17 Meeskonnas kaasatud analüütikul või projektijuhil peab olema vähemalt 36-kuuline
+töökogemus tarkvara analüüsi läbiviimisel.
+5.7.18 Meeskonnas kaasatud analüütikul või projektijuhil peab olema vähemalt 48-kuuline
+projektijuhtimise töökogemus tarkvara arenduses.
+5.7.19 Meeskonnas kaasatud testijal peab olema vähemalt 24-kuuline töökogemus
+tarkvara arenduses testijana.
+5.7.20 Vähemalt kolmel meeskonnaliikmel peab olema vähemalt 200 000 eurose (ilma
+käibemaksuta) maksumusega infosüsteemi väljatöötamise kogemus.
+5.7.21 Kui lepingu täitmisel tekib hankijal põhjendatud kahtlus, et meeskonnaliige ei vasta
+hanke tehnilises kirjelduses toodud nõuetele on pakkuja hankija nõudmisel
+kohustatud vastavalt lepingule isiku asendama.
+5.7.22 Pakkuja esitab meeskonnaliikmete nõuetele vastavuse tõendamiseks vajaliku teabe
+hankija poolt etteantud cv vormil.
+
+Lisad
+1. Elastiku otsingu reeglid
+2. Liidese kirjeldus
+3. E-kataloogi SLA
+4. Nõuded süsteemianalüüsile
+5. Nõuded testimisele
+
+8
+
+

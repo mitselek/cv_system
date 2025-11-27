@@ -25,9 +25,9 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 13  
+**Total Assessed:** 14  
 **Analyzing:** 1  
-**Consider:** 1  
+**Consider:** 2  
 **Skip:** 10  
 **FEASIBLE:** 1  
 **Submitted:** 0  
@@ -38,11 +38,12 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 | Date       | ID      | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
 |------------|---------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
+| 2025-11-27 | 9514425 | E-kataloogi arendustööd            | RIK                         | 2025-12-12 | Consider   | €150k Java/Spring Boot framework, 50-60% feasible, 30-40% win prob, need tester, DevOps gaps, 15d timeline tight |
 | 2025-11-28 | 9530644 | Läbipääsusüsteemi uuendamine       | Eesti Rahvusringhääling     | 2025-11-28 | Skip       | Hardware installation (not dev), Inner Range cert required (advanced+basic), <24h deadline, 0% match |
 | 2025-11-28 | 9522164 | IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus | Eesti Energia AS | 2025-12-02 | Skip | TPRM SaaS platform vendor required (not dev), ISO 27001/SOC2 Type II cert, manufacturer auth needed, product resale not development, <1% win prob |
 | 2025-11-27 | 9479004 | Andmelaohaldus ja analüüs          | Eesti Rahvusraamatukogu     | 2025-11-29 | Skip       | CISA audit cert required (9mo), Snowflake (none) |
 | 2025-11-27 | 9559644 | Veebide arendus ja hooldus         | Eesti Energia AS            | 2025-12-12 | Analyzing  | Drupal web dev, 40% conditional recommendation |
-| 2025-11-27 | 9590504 | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |
+| 2025-11-27 | 9590504 | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-11-02 | Skip       | PhD required, academic QA - impossible         |
 | 2025-11-27 | 9582704 | Andmelao arendusteenus             | Põhja-Eesti Regionaalhaigla | 2025-12-04 | Skip       | Market research, Snowflake expertise gap       |
 | 2025-11-27 | 9449264 | Kliendiportaali ja puidumüügi keskkond | Riigimetsa Majandamise Keskus | 2025-12-30 | Skip    | ISO 27001 blocker, GIS tech gap, team assembly |
 | 2025-11-27 | 9534824 | Pythoni baasil tarkvaraarendused   | KeMIT (Climate Ministry IT) | 2025-12-22 | FEASIBLE   | Python 9/10 MATCH, 70-80% win prob, DevOps gaps addressable |

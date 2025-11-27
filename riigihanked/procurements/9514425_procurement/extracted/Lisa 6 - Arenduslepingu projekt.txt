@@ -1,0 +1,1256 @@
+Riigihanke „E-kataloogi arendustööd“ (viitenumber 302310) hankedokumentide juurde
+
+Arendusleping nr ...
+Arenduslepingu eritingimused
+Tallinnas
+Kaldkirjas tekst lisatakse juhul, kui on leping seotud Euroopa Liidu vahenditest rahastatava projekti ja/või
+programmiga või kui riigihanget rahastatakse struktuuritoetustest. (punktiiri asemele viide konkreetsele
+rahastusallikale, EK raha puhul rahastuslepingu andmed ning SF projekti puhul kirja, kas tegemist avatud vooru või
+investeeringute kavaga ning kindlasti kirja ka projekti täpne nimi).
+Võttes arvesse ………. projekti „………………….“, mille kohaselt on vastava projekti toetuste saaja ……….:
+
+Registrite ja Infosüsteemide Keskus, (registrikoodiga 70000310) asukohaga Lubja 4, 19081 Tallinn,
+mida esindab põhimääruse alusel direktor Rivo Reitmann, edaspidi Tellija,
+ja
+………………. (registrikoodiga…………) asukohaga …………….., ……., mida esindab …………alusel
+………, edaspidi Täitja,
+ja
+………………. (registrikoodiga…………) asukohaga …………….., ……., mida esindab …………alusel
+………, edaspidi Maksja,
+keda nimetatakse edaspidi pool või koos pooled, sõlmisid käesoleva arenduslepingu (edaspidi nimetatud
+Leping) alljärgnevas:
+1. Lepingu sõlmimise alus ja ese
+1.1. Leping sõlmitakse riigihanke „E-kataloogi arendustööd“ (viitenumber 302310) tulemusena sõlmitud
+raamlepingu nr ……… alusel Lepingu lisas 3 kirjeldatud tööde teostamiseks ning kõigi muude Lepingust
+tulenevate kohustuste täitmiseks (edaspidi ka Töö).
+1.2. Pooled kinnitavad, et teevad kõik enesest oleneva, et täita lepingu eesmärgid käesolevas lepingus,
+seonduvates õigusaktides ja juhtrühma otsustes sätestatud tingimustel ja mahus.
+2. Hind ja maksetingimused
+2.1. Lepingu hind on …………. eurot (netosumma), arvestusega, et arendustööde tunnihind on ..... eurot
+(netosumma). Lepingu hinnale lisandub käibemaks.
+2.2. Tellija tasub lepingu alusel teostatud tööde eest lepingu üldtingimustes sätestatud korras. Juhul, kui
+Leping on sõlmitud kolmepoolselt tasub lepingu alusel teostatud tööde eest Maksja ning arve tuleb
+esitada Täitja poolt Maksjale pärast tööde vastuvõtmist Tellija poolt.
+3. Lepingu jõustumine ja Töö teostamise tähtaeg
+3.1 Leping jõustub allkirjastamise hetkest ja kehtib kuni lepingujärgsete kohustuste nõuetekohase
+täitmiseni.
+
+3.2 Töö teostamise tähtaeg on ……… arvates Lepingu jõustumise ajahetkest. /Märgitakse etapiviisilise
+üleandmise korral viimase etapi üleandmise tähtaeg/.
+4. Lepingu dokumendid
+4.1 Lepingu dokumendid koosnevad Lepingu tekstist, Lepingu lisadest, mis on lisatud Lepingu
+allkirjastamisel ja lisadest, millistes võidakse kokku leppida pärast Lepingu allkirjastamist.
+Lepingu allkirjastamisel on Lepingu lisad järgmised:
+4.1.1 Arenduslepingu üldtingimused Lisa nr 1;
+4.1.2 Personal ja kontaktandmed Lisa nr 2;
+4.1.3 Tehniline kirjeldus Lisa nr 3;
+4.1.4
+
+Pakkumus Lisa nr 4;
+
+4.1.5 Maksegraafik Lisa nr 5. /antud lisa eksisteerib juhul kui Töö eest tasumine toimub mitmes osas/.
+4.2 Kui Lepingu dokumendid on oma sisult vastuolulised ja/või nendes antud informatsioon erinevalt
+tõlgendatav, siis dokumentide pädevusjärjekord (ülimuslik lepingu dokument on nimetatud eespool
+allolevas loetelus) on järgmine:
+4.2.1
+
+Eritingimused;
+
+4.2.2
+
+Arenduslepingu üldtingimused;
+
+4.2.3
+
+Tehniline kirjeldus;
+
+4.2.4
+
+Muud riigihanke alusdokumendid;
+
+4.2.5
+
+Pakkumus.
+
+Käesoleva Lepingu allakirjutamisega tõendavad pooled, et on tutvunud ja on nõus Lepinguga ja selle
+lisadega ning mõistavad täielikult enesele võetavate kohustuste sisu ning nende tagajärgi.
+
+Tellija:
+
+Täitja:
+
+/ allkirjastatud digitaalselt /
+
+/ allkirjastatud digitaalselt /
+
+Rivo Reitmann
+Direktor
+Registrite ja Infosüsteemide Keskus
+
+Arendusleping nr ………
+Lisa nr 1
+ARENDUSLEPINGU ÜLDTINGIMUSED
+Kui eritingimustes on sätestatud teisiti kui üldtingimustes, siis kehtib eritingimustes toodu.
+1.
+
+Definitsioonid
+
+Järgnevad definitsioonid laienevad nii lepingule kui ka selle osaks olevatele dokumentidele.
+1.1 Tarkvara
+Tarkvara tähendab põhiliselt arvutiprogramme, telekommunikatsioone, andmebaasi-, rakendus- ja muud
+tarkvara objektikoodis, lähtekoodis või nende mistahes muid vorme või adaptsioone koos sellega seonduva
+dokumentatsiooniga. Spetsiaalselt Tellijale tema funktsioonide täitmiseks loodud tarkvara käsitletakse
+lepingu raames spetsiaaltarkvarana.
+1.2 Seadmed
+Seadmed tähendavad lepingus kirjeldatud tooteid, hõlmates nendega otseselt seotud tarkvara, mis on
+vajalik seadmete funktsioneerimiseks.
+1.3 Telekommunikatsioonid
+Telekommunikatsioonid tähendavad sisemise ja välise telekommunikatsiooni seadmeid, tarkvara ja
+teenuseid ning vajalikke vahendeid, teenuseid ja protseduure.
+1.4 Asukoht
+Asukoht tähendab kohta või kohti, välja arvatud Täitja asukoht, kuhu seadmeid, telekommunikatsioone või
+tarkvara
+
+tarnitakse või
+
+installeeritakse või
+
+teenuseid
+
+osutatakse (nt
+
+Tellija test-
+
+arendus-ja
+
+toodangukeskkond).
+1.5 Puudus ja viga
+Puuduse või veaga on tegemist juhul, kui seade, telekommunikatsioon või tarkvara ei täida lepingus
+sätestatud funktsioone, annab valesid tulemusi, kui tema nõuetekohane toimimine katkeb või on (muul
+viisil) häiritud, nii et seadme, telekommunikatsiooni või tarkvara otstarbekohane kasutamine on takistatud
+või oluliselt häiritud. Vigu liigitatakse järgnevalt:
+1.5.1
+
+Kriitiline/Blocker – viga, mille tõttu süsteemi tervikuna või mistahes süsteemi osa ei ole võimalik
+kasutada ja/või see piirab sama süsteemi mistahes teise osa kasutamist.
+
+1.5.2
+
+Kõrge – viga, mille tõttu pole võimalik mingit süsteemi osa kasutada, kuid see ei sega mõne
+teist sama süsteemi osa kasutamast.
+
+1.5.3
+
+Keskmine – viga, mille tõttu süsteemi või selle süsteemi mõnda osa on võimalik kasutada
+piirangutega
+
+ja/või
+
+kasutajad
+
+peavad
+
+tegema
+
+mitte
+
+ettenähtud
+
+tegevusi
+
+eesmärgi
+
+saavutamiseks (nt. funktsionaalsus lubab vigadega toiminguid lõpetada).
+1.5.4
+
+Madal – viga, mille tõttu süsteemis esineb kõrvalekaldeid ettenähtust, kuid üldprotsessi need ei
+häiri või häirivad vähesel määral.
+
+1.5.5
+
+Väheoluline
+
+-
+
+viga,
+
+mille
+
+tõttu
+
+otseseid
+
+kõrvalekaldeid
+
+ei
+
+teki
+
+muutmist/parandamist.
+1.6 Toodangukeskkond
+Reaalseks andmevahetuseks mõeldud keskkond, mis ei ole test- või arenduskeskkond.
+2.
+
+Hind
+
+kuid
+
+vajavad
+
+2.1
+
+Lepingu eritingimustes märgitakse lepingu hind käibemaksuta (netosummas).
+
+2.2
+
+Lepingu hind väljendatakse eurodes.
+
+2.3
+
+Lepingu hind on Täitja ainuke tasu seoses lepinguga ja Täitja ise ega tema töötajad ei võta
+päevarahasid, kaudset tasu ega muud lepingus toodud kohustustega seotud tasu. Samuti ei ole
+Täitjal ega tema töötajal õigust täiendavale autori- või muule sarnasele tasule seoses lepingu
+täitmisel kasutatud patenteeritud või muul viisil kaitstud eseme või protsessiga.
+
+3.
+
+Maksmine
+
+3.1 Täitja esitab Tellijale arve masinloetaval kujul e-arvena. Arve esitamise õigus tekib Täitjal pärast Töö
+vastuvõtmist Tellija poolt.
+3.2 Arve peab sisaldama vähemalt alljärgnevaid andmeid:
+3.2.1
+
+info arve esitaja kohta;
+
+3.2.2
+
+info maksja kohta;
+
+3.2.3
+
+viide Lepingule;
+
+3.2.4
+
+käibemaksukohustuslase number;
+
+3.2.5
+
+vastuvõetud Töö nimetus ja kirjeldus;
+
+3.2.6
+
+käibemaks;
+
+3.2.7
+
+kogusumma;
+
+3.3 Tellija tasub Lepingu hinna Täitja poolt esitatud arvel märgitud kuupäevaks. Maksetähtaeg ei tohi olla
+lühem kui 30 kalendripäeva, va juhul kui hankija on nimetatut pakkumuse esitamise ettepanekus ette
+näinud.
+3.4 Ettemakseid Tellija ei teosta.
+3.5 Lõpparve maksmine eeldab Täitja kõigi Lepingu järgsete kohustuste täitmist ning Tellija poolt
+vastuvõtmist.
+3.6 Tellijal on õigus Lepingu rikkumise korral arvestatud leppetrahvid ja kahju hüvitised maha arvata
+Lepingu alusel Täitjale tasumisele kuuluvatest summadest.
+3.7 Tellija poolt makstud mistahes summa, mis ületab Täitjale Lepingus ettenähtu, maksab Täitja Tellijale
+tagasi 30 kalendripäeva jooksul pärast vastava teate saamist.
+3.8 Lepingujärgse hinna tasumisega viivitamisel on Täitjal õigus nõuda viivist iga maksmisega viivitatud
+kalendripäeva eest 0,15 (null koma viisteist) % maksmata summast päevas.
+4.
+4.1.
+
+Informatsioon ja aruanded
+Täitja loetakse asukohaga ja lepingu tingimustega tutvunuks. Eelkõige ei rahuldata Täitja nõuet
+lisamakseteks või ajapikenduseks, kui ta oleks saanud vajaliku informatsiooni hankida visiidiga
+asukohta, konsulteerides Tellijaga või muul sobilikul viisil.
+
+4.2.
+
+Tellija varustab Täitjat tema käsutuses oleva mistahes informatsiooni ja dokumentatsiooniga, mis
+võib olla lepingu täitmisel oluline, niipea kui võimalik, kuid mitte hiljem kui 2 tööpäeva jooksul
+vastava nõude saamisest.
+
+4.3.
+
+Tellija abistab Täitjat niipalju kui võimalik lepingusse puutuva informatsiooni saamisel, mida Täitja
+mõistlikkuse piirides lepingu täitmiseks nõuab.
+
+4.4.
+
+Täitja annab Tellijale niipea kui võimalik, kuid mitte hiljem kui 2 tööpäeva jooksul vastava nõude
+
+saamisest, lepingu täitmist (sealhulgas seadmeid, telekommunikatsioone, tarkvara, projekti
+kulgemist ja teenuseid) puudutavat informatsiooni.
+5. Teated ja kirjavahetus
+5.1.
+
+Pooltevaheline suhtlus toimub selleks otstarbeks määratud poolte kontaktandmetel ja aadressidel.
+Pooled on kohustatud kontaktandmete ja aadresside muutusest teineteist teavitama viivitamatult,
+aga mitte hiljem kui 2 tööpäeva jooksul.
+
+5.2.
+
+Kui teisele poolele edastatav teade eeldab vastust, tuleb vastata viivitamatult, kuid mitte hiljem kui
+2 tööpäeva jooksul.
+
+5.3.
+
+Pooltevahelised Lepinguga seotud teated peavad olema kirjalikku taasesitamist võimaldavas
+vormis, välja arvatud juhtudel, kui teated on informatsioonilise iseloomuga, mille edastamisel
+teisele poolele ei ole õiguslikke tagajärgi. Teade loetakse kättesaaduks, kui:
+
+5.3.1.
+
+teade on üle antud allkirja vastu;
+
+5.3.2.
+
+teade on edastatud tähitud kirjana poole postiaadressil ja teate postitamisest on möödunud 5 (viis)
+kalendripäeva;
+
+5.3.3.
+
+e-posti või telefoni teel on teade edastatud Lepingus märgitud kontaktisikule või esindajale.
+
+6. Asukoht
+6.1.
+
+Täitja peab andma lepingutäitmise käigus piisavalt informatsiooni korrektselt kirjalikku
+taasesitamist võimaldavas vormis koostatud kasutusjuhendi näol, et võimaldada Tellijal asukoht
+lepingujärgsete kohustuste täitmiseks kohaselt ette valmistada. Juhend peab olema antud sellise
+sisendiga, et objektiivselt keskmise võimekusega programmeerija oleks suuteline asukoha Töö
+vastuvõtmiseks vajalike testide teostamiseks ette valmistada. Juhend peab olema esitatud piisava
+ajavaruga selleks, et Tellijal oleks võimalik Töö üleandmisel alustada koheselt vastuvõtmiseks
+vajalike testide teostamist. Juhul, kui Töö üleandmise hetkeks ei ole juhendit edastatud või kui
+edastamisest hoolimata ei ole Tellija asukohta ette valmistada jõudnud, algab Töö vastuvõtmiseks
+ette nähtud tähtaeg kulgema pärast asukoha ette valmistamist. Kui Täitja ei ole ette näinud erilisi
+keskkonnatingimusi, võib Tellija eeldada, et neid ei nõuta.
+
+6.2.
+
+Tellija teeb vastavad ettevalmistused ja loob tingimused omal kulul.
+
+6.3.
+
+Kui Tellija ettevalmistused või loodud tingimused ei vasta lepingus sätestatule, esitab Täitja
+viivitamatult puuduste loetelu. Kui Tellija ei muuda olukorda selliselt, et Täitjal oleks võimalik
+ajagraafikust kinni pidada, on Täitjal õigus saada lepingujärgsete kohustuste täitmiseks vajalikku
+ajapikendust.
+
+6.4.
+
+Täitjal on õigus taotleda juurdepääsu asukohale Tellija tavalisel tööajal.
+
+6.5.
+
+Täitja kulud, mis on seotud lepingus sätestatud juurdepääsupiirangutega ja turvaprotseduuridega,
+sisalduvad Lepingu hinnas ning neid ei hüvitata.
+
+6.6.
+
+Tellija võib igal ajal lepingu kehtivuse vältel muuta või kehtestada juurdepääsupiiranguid ja
+turvaprotseduure. Kui Täitja tõendab, et selline muudatuste tegemine või piirangute või
+protseduuride kehtestamine põhjustas lisakulusid, on tal õigus nende hüvitamisele.
+
+7. Lepingu muutmine
+7.1.
+
+Lepingut võib muuta poolte kirjalikul kokkuleppel. Muudatused jõustuvad pärast nende
+
+allkirjastamist mõlema poole poolt või poolte poolt määratud tähtajal. Kirjaliku vormi mittejärgimisel
+on muudatused tühised.
+7.2.
+
+Riigihangete seaduse § 123 lg 1 p 1 kirjeldatud muudatused lepitakse kokku Tellija ja Täitja
+esindajate poolt kirjalikku taasesitamist võimaldavas vormis.
+
+8. Poolte õiguskaitsevahendid
+8.1.
+
+Lepingu see peatükk fikseerib Lepingu olulised rikkumised, menetluse rikkumisest teatamisel ning
+Poolte vastutuse. See peatükk ei välista ega piira Poole õigust kasutada muude Lepingu rikkumiste
+korral muid õigusaktidest tulenevaid õiguskaitsevahendeid, samuti kasutada täiendavaid
+õiguskaitsevahendeid lisaks selles peatükis kokkulepitule.
+
+8.2.
+
+Lepingust või seadusest tuleneva õiguse või õiguskaitsevahendi mittekasutamine või selle
+kasutamisega viivitamine ei tähenda nimetatud õigusest või õiguskaitsevahendist või muudest
+õigustest või õiguskaitsevahenditest loobumist. Lepinguga seotud mis tahes loobumised on
+kehtivad ainult siis, kui need on selgesõnaliselt ja kirjalikult väljendatud.
+
+8.3.
+
+Pooled vastutavad Lepinguga võetud kohustuste täitmata jätmise või mittekohase täitmise eest
+Eesti Vabariigi õigusaktides ning Lepingus ettenähtud korras.
+
+8.4.
+
+Oluliseks lepingurikkumiseks loetakse muu hulgas järgmisi rikkumisi:
+
+8.4.1.
+
+Pool ei täida mis tahes Lepingust tulenevat kohustust teise Poole poolt Lepingust tuleneva vastava
+kohustuse täitmiseks antud täiendava tähtaja jooksul;
+
+8.4.2.
+
+Täitja ei täida garantiiperioodil Lepingust tulenevaid kohustusi;
+
+8.4.3.
+
+Täitja ei ole esitanud Tellijale Asukoha keskkonnatingimusi, millest tulenevalt on häiritud Tellija
+seadmete, telekommunikatsioonide või tarkvara kohane funktsioneerimine ning mistõttu Tellija
+kaotab Täitja Lepingu järgsete kohustuste täitmise vastu huvi;
+
+8.4.4.
+
+Täitja rikkus kohustust tahtlikult või raske hooletuse tõttu;
+
+8.4.5.
+
+Täitja rikub Personaliga seonduvaid tingimusi;
+
+8.4.6.
+
+Poolel või tema poolt kaasatud kolmandal isikul puuduvad Lepingu täitmiseks vajalikud õigused
+(sealhulgas load, litsentsid, Intellektuaalse omandi õigused);
+
+8.4.7.
+
+Täitja suhtes on algatatud pankrotimenetlus, pankrot on välja kuulutatud, Täitja varad arestitakse
+või Täitja finantsseisund halveneb Tellija põhjendatud hinnangul oluliselt ja see halvenemine
+muudab vähetõenäoliseks Lepingu nõuetekohase täitmise;
+
+8.4.8.
+
+Pool on rikkunud Intellektuaalse omandi õigusi ja nende kasutamise tingimusi;
+
+8.4.9.
+
+Pool on rikkunud konfidentsiaalsuskohustust ja/või isikuandmete töötlemisega seonduvaid
+kohustusi;
+
+8.4.10. Pool on rikkunud avalikustamise keelu kohustust;
+8.4.11. Pool on rikkunud kolmandate isikutega seonduvaid kohustusi;
+8.4.12. Tellija on viivituses Lepingus kokku lepitud maksetähtajaga rohkem kui kolmkümmend (30)
+kalendripäeva;
+8.5. Poolel on õigus nõuda Lepingu olulise rikkumise korral leppetrahvi tasumist kuni 30% Lepingu hinnast
+iga vastava juhtumi korral. Juhul, kui leppetrahvi nõue on seotud Töö etapi puuduliku teostamisega ja
+puudus ei sea ohtu lepingujärgse Töö tervikuna nõuetekohast üleandmist ei tohi leppetrahvi nõue
+ületada 30% teostatud või töös oleva etapi maksumusest.
+
+8.6. Poolte rahaline koguvastutus on piiratud Lepingu maksumusega, välja arvatud juhul, kui Pool rikkus
+kohustust tahtlikult või raske hooletuse tõttu.
+8.7. Pool peab teavitama teist Poolt leppetrahvi nõudest mõistliku aja jooksul arvates ajast, mil ta sai teada
+leppetrahvi nõudmise õiguse tekkimisest. Leppetrahvi nõude esitamisel on Pool kohustatud märkima
+mõistliku tähtaja leppetrahvi tasumiseks, tähtaeg ei tohi olla lühem kui 30 kalendripäeva. Pool on
+kohustatud leppetrahvi tasuma nõudes märgitud tähtaja jooksul. Kui Poole hinnangul on leppetrahvi
+nõue alusetu, on Pool kohustatud esitama oma vastuväited enne leppetrahvi tasumise tähtaega.
+Leppetrahvi nõudmine ei mõjuta Poole õigust nõuda Poolelt nõuetekohase Töö või selle osa teostamist
+ning kahju hüvitamist või kasutada muid seadusest tulenevaid õiguskaitsevahendeid.
+8.8. Lisaks leppetrahvi nõudele ja / või leppetrahvi asemel on Tellijal õigus nõuda Täitjalt Lepingu
+mittenõuetekohasel täitmisel, et:
+8.8.1.
+
+Täitja kõrvaldaks puudused, sealhulgas nõuda, et Täitja hangiks parema teenuse osutamiseks
+vajalikud lisa- või asendusseadmed, -telekommunikatsioonid, -tarkvara ja teenused;
+
+8.8.2.
+
+oluliste puuduste, samuti puuduste kõrvaldamise ebaõnnestumise korral nõuda, et Täitja teeks uue
+Töö ja tarniks uued seadmed, telekommunikatsioonid ja tarkvara või keelduda vastuvõtmisest ning
+Leping lõpetada;
+
+8.8.3.
+
+võtta Täitja pakutud Töö vastu ning alandada vastavalt hinda;
+
+8.9. Lepingust tulenevate leppetrahvide maksmine, samuti tekitatud kahju hüvitamine, ei vabasta Lepingut
+rikkunud poolt Lepingujärgsete kohustuste täitmisest.
+9. Standardid, liidesed ja ühilduvus
+9.1.
+
+Täitja lepingujärgsete kohustuste täitmine ei tohi tekitada häireid Tellija mistahes teiste liidestatud
+süsteemide talitluses.
+
+9.2.
+
+Täitja garanteerib, et kõik seadmed, telekommunikatsioonid, tarkvara ja teenused on vastastikku
+ühilduvad, funktsioneerivad ja töötavad standardite ja/või liideste vahendusel rahuldavalt koos
+mistahes teiste lepingus sätestatud seadmete, telekommunikatsioonide, tarkvara ja teenustega
+ning lepingus sätestatud keskkonnas.
+
+9.3.
+
+Täitja ei muuda ilma Tellija eelneva kirjaliku nõusolekuta mistahes standardeid, liideseid,
+sideprotokolle jms.
+
+10. Dokumentatsioon
+10.1.
+
+Lepingu täitmisel kaasneva dokumentatsiooni loomisel toetutakse dokumentatsiooniplaanile.
+
+10.2.
+
+Täitja varustab Tellijat piisava ja adekvaatse dokumentatsiooniga, kaasa arvatud informatsioon
+seadmete, telekommunikatsioonide ja tarkvara projekteerimise ja funktsioneerimise kohta, mis on
+vajalik, et Tellija saaks seadmeid, telekommunikatsioone, tarkvara ja teenuseid efektiivselt
+kasutada, hooldada, kohandada ja neile lisaseadmeid lisada.
+
+10.3.
+
+Kõik juhendid ja muud dokumendid esitatakse eesti keeles, kui ei ole kokku lepitud teisiti.
+
+10.4.
+
+Dokumentatsioon peab vastama tootele, sisaldama muudatusi ja olema terminoloogiliselt üheselt
+mõistetav.
+
+10.5.
+
+Dokumentide valmistamiseks ja levitamiseks kasutatakse paberkandjat või elektroonilist
+infokandjat.
+
+11. Üleandmine ja vastuvõtmine
+11.1.
+
+Töö või Töö etapi valmimise järgselt annab Täitja selle Tellijale üle vastuvõtmiseks.
+
+11.2.
+
+Täitja peab Tellijat Töö või Töö etapi üle andmise viivitusest või viivitusse sattumise ohust ja
+põhjustest koheselt kirjalikku taasesitamist võimaldavas vormis informeerima. Kui Täitja viivituse
+põhjustab Tellija, on Täitjal õigus nõuda mõistlikku ajapikendust ja põhjendatud lisakulude
+hüvitamist.
+
+11.3.
+
+Töö või Töö etapi üleandmise kohta koostab Täitja üleandmise akti, milles näidatakse muuhulgas
+ära üleandmise kuupäev, teostatud Töö, osutatud teenuste, hoolduse ja tarnitud seadmete,
+telekommunikatsioonide ja tarkvara detailiseeritud nimekiri ning vajaduse korral neis esinevad
+puudused. Iga Töö etapi üleandmisel koostab ja esitab Täitja antud etapi kohta koostatud
+dokumentatsiooni, vastavalt dokumentatsiooniplaanile või Tellija poolt tehnilises kirjelduses
+esitatud nõudmistele.
+
+11.4.
+
+Töö või Töö etapi üleandmine Tellijale ei ole käsitatav selle vastuvõtmisena Tellija poolt.
+
+11.5.
+
+Täitjal on õigus nõuda ja Tellijal kohustus Töö vatsu võtta kui Töös on Täitja poolt kõrvaldatud kõik
+järgmise prioriteediga vead: kriitiline/blocker, kõrge ja keskmine. Taolisel juhul lasub Täitjal
+kohustus vaegtöödena madala ja väheolulise tähtsusega vead parandada Töö vastuvõtmise aktis
+toodud ajaperioodiks.
+
+11.6.
+
+Pärast Töö etapi üleandmist on Tellijal õigus Töö üle vaadata 10 tööpäeva jooksul. Pärast Töö
+üleandmist on Tellijal õigus Töö üle vaadata 20 tööpäeva jooksul.
+
+11.7.
+
+Juhul, kui Tellija leiab, et Töö ei vasta Lepingu tingimustele, on Tellija kohustatud teavitama Täitjat
+Töös avastatud puudustest, keeldumisest Tööd enne puuduste kõrvaldamist vastu võtta ja
+kirjeldama Töö puudused. Täitja on kohustatud puudused kõrvaldama 5 tööpäeva jooksul, kui
+pooled ei ole kokku leppinud mõnda muud tähtaega. Töö puuduste kõrvaldamise kulud kannab
+Täitja.
+
+11.8.
+
+Enne töö üleandmist viib Täitja Töö nõuetelevastavuse kindlakstegemiseks läbi testid.
+
+11.9.
+
+Täitja esitab Tellijale kõik tema poolt läbiviidud testide tulemusena valminud dokumentide koopiad.
+
+11.10. Enne töö vastuvõtmist viib Tellija Töö nõuetelevastavuse kindlakstegemiseks läbi testid.
+11.11. Kui Töö või mistahes Töö osa ei läbi teste, viiakse otsekohe pärast seda, kui Täitja on teinud
+vajalikud korrektuurid testide edukaks läbiviimiseks, läbi kordustestid samadel tingimustel.
+11.12. Tellija nõudmisel viib kordustestid läbi Täitja.
+11.13. Parandatud Töö üleandmine toimub nagu esmakordsel üleandmiselgi.
+11.14. Puudustega üle antud Tööd ei loeta tähtaegselt üleantuks ning Tellijal on õigus nõuda sellise
+lepingurikkumise korral Täitjalt leppetrahvi Lepingus sätestatud korras ja määrades või rakendada
+muid õiguskaitsevahendeid.
+11.15. Vastuvõtmiseks valmis Töö peab vastama Lepingus sätestatud tingimustele. Töö etapi
+vastuvõtmine Tellija poolt ei tingi ega kohusta Töö kui terviku vastuvõtmist Tellija poolt juhul, kui
+Töö ei vasta tingimustele. Töö vastuvõtmise kohta koostab Tellija vastuvõtuakti, milles näidatakse
+muuhulgas ära vastuvõtmise kuupäev, teostatud Töö, osutatud teenuste, hoolduse ja tarnitud
+seadmete, telekommunikatsioonide ja tarkvara detailiseeritud nimekiri.
+11.16. Töö või Töö etapp loetakse vastuvõetuks vastuvõtuakti allkirjastamisest või toodangukeskkonnas
+kasutusele võtmisest. Juhul, kui Tellija on võtnud puuduseid sisaldava Töö või Töö etapi
+toodangukeskkonnas kasutusele, loetakse vastuvõetuks ainult nõuetekohaselt teostatud tööd ja
+Täitjal on õigus nimetatute osas esitada arve. Taolises olukorras esitab Tellija Täitjale Töös või Töö
+
+etapis esinevate puuduste nimekirja ning puuduste kõrvaldamise tähtaja, kas enne Töö või Töö
+etapi toodangukeskkonnas kasutusele võtmist või vahetult pärast selle toimumist.
+11.17. Mistahes seadmete, telekommunikatsioonide, tarkvara ja teenuste osa valmimisel võib Tellija anda
+välja vastuvõtuakti vastava osa kohta. Selline vastuvõtmine ei mõjuta Täitja kohustust täita kõiki
+Lepingus ettenähtud kohustusi.
+11.18. Täitja vastutab Töö juhusliku hävimise või kahjustumise eest kuni Töö vastuvõtmiseni Tellija poolt.
+Lisatakse vajadusel:
+11.19.
+
+Täitja kohustub Tellija juhendamisel märgistama Töö enne selle üleandmist vastavalt õigusaktides
+
+kehtestatud nõuetele (hankelepingu sõlmimisel märgitakse konkreetne viide, nt Vabariigi Valitsuse 30. augusti
+2007. a määrusele nr 211 „Struktuuritoetuse andmisest ja kasutamisest teavitamise, selle avalikustamise ning
+toetusest rahastatud objektide tähistamise ja Euroopa Liidu osalusele viitamise tingimused ning kord“).
+või
+11.19. Täitja kohustub seoses Euroopa Komisjoni poolt rahastatava projekti "……….“ tingimustega enne Töö
+üleandmist Tellijale märgistama Töö vastavalt Tellija poolt antud juhistele.
+ja
+11.20. Tellija kinnitab, et ta on teadlik asjaolust, et projekti „……….“ rakendamiseks antud toetuse saamiseks peab
+Töö vastuvõtmine olema fikseeritud vastuvõtmisaktis ning kinnitatud juhtrühma poolt.
+12. Koolitus
+12.1.
+
+Täitja
+
+tagab
+
+Tellija
+
+personalile
+
+adekvaatse
+
+väljaõppe,
+
+kindlustamaks
+
+seadmete,
+
+telekommunikatsioonide, tarkvara ja teenuste rahuldava ja efektiivse toimimise, vastavalt Lepingus
+kokkulepitule.
+12.2.
+
+Koolituse toimumise aeg, koht ja maht kooskõlastatakse eelnevalt Tellija kontaktisikuga.
+
+13. Garantii
+13.1.
+
+Täitja annab Tööle 12 (kaheteist) kuulise töövõtugarantii. Garantiiperiood algab Tööde kogumina
+vastuvõtmisest.
+
+13.2.
+
+Garantiiperioodil ilmnevad puudused kõrvaldab Täitja omal kulul, v.a punktis 13.6 toodud
+juhtumitel. Kui ilmnenud puudused ei ole garantii korras kõrvaldatavad, esitab Täitja Tellijale
+põhjendused kirjalikku taasesitamist võimaldavas vormis, kuid mitte hiljem kui järgmisel tööpäeval
+pärast sellest asjaolust teada saamist.
+
+13.3.
+
+Kui ei ole kokku lepitud teisiti, toimub garantiiliste puuduste üleandmine ja vastuvõtmine Lepingu
+punktis 10 toodud regulatsiooni kohaselt.
+
+13.4.
+
+Juhul
+
+kui
+
+garantiiperioodil
+
+ilmnenud
+
+puudused
+
+muudavad
+
+osa
+
+või
+
+kõik
+
+seadmed,
+
+telekommunikatsioonid ja/või tarkvara kasutamiskõlbmatuks, varustab Täitja Tellijat nõutud
+tasemel toimimise garanteerivate lisa- või asendusosade ja muu vajalikuga omal kulul.
+13.5.
+
+Tellija informeerib Täitjat puuduse iseloomust ja ulatusest otsekohe selle ilmnemisel. Täitja on
+kohustatud eemaldama ilmnenud puudused vastavalt lepingus toodule või Tellija poolt määratud
+ajal.
+
+13.6.
+
+Garantiiga ei ole hõlmatud:
+
+13.6.1. puudused, mille tekkimise eest vastutab Tellija;
+13.6.2. diagnostikaks kulunud aeg, juhul kui algselt garantii juhtumine registreeritud juhtumi raames
+
+tuvastatakse, et tegu ei ole garantiilise juhtumiga. Vastav töö kuulub eraldi tasustamisele Lepingu
+tunnihinna alusel.
+13.7.
+
+Garantii kaotab kehtivuse kui Täitjaga kooskõlastamata on muudetud või muudetakse lähtekoodi,
+v.a juhul kui Tellija suudab eristada lähtekoodis tehtavaid muudatusi.
+
+14. Load ja litsentsid
+14.1.
+
+Täitja vastutab ainuisikuliselt lepingu täitmiseks vajalike lubade ja litsentside saamise eest. Tellija
+teeb Täitjaga mõistliku koostööd, hoidmaks ära selliste lubade või litsentside väljaandmise asjatut
+viivitamist või väljaandmisest keeldumist.
+
+14.2.
+
+Tellija võib ilma ette teatamata lepingu lõpetada, kui Täitja ei saa lepingu täitmiseks vajalikku luba
+või litsentsi.
+
+14.3.
+
+Täitja garanteerib, et tal on õigus anda Tellijale lepingu objektiks oleva tarkvara ja teiste autori- või
+muude sarnaste õigustega kaitstavate esemete kasutamisõigus.
+
+14.4.
+
+Täitja garanteerib, et nimetatud kasutusõiguse üleandmisega ei rikuta kolmandate isikute õigusi.
+Juhul kui kolmas isik esitab oma õiguste rikkumise tõttu Tellija vastu hagi ning see rahuldatakse,
+tasub Täitja võimalikud kahjuhüvitusnõuded, samuti õigusabikulud ja muud seonduvad kulud.
+
+15. Riski üleminek
+15.1.
+
+Juhusliku hävimise või kahjustumise risk läheb Tellijale üle töö vastuvõtmisel, samuti hetkel, mil
+
+Tellija satub viivitusse toimingu tegemisega, millega ta töö üleandmisele peab kaasa aitama.
+16. Intellektuaalne vara
+16.1.
+
+Lepingu allkirjastamisega kinnitab Täitja Tellijale, et talle kuuluvad Lepingu täitmiseks vajalikud
+varalised autoriõigused, litsentsid ja muud intellektuaalse omandi õigused, mis on tarvilikud
+Lepingu järgse Töö täielikuks teostamiseks ja loovutamiseks ning, et nende suhtes ei ole
+kolmandatel isikutel nõudeid.
+
+16.2.
+
+Täitja kinnitab, et ta on võtnud tarvitusele kõik meetmed autori isiklike õiguste realiseerimiseks viisil,
+mis ei takista ega raskenda teose kasutamist ja autori varaliste õiguste teostamist Tellija poolt.
+
+16.3.
+
+Täitja annab spetsiaaltarkvarale Euroopa Liidu tarkvara vaba kasutuse litsentsi v.1.2 (EUPL).
+Juhul, kui Töö üleandmine toimub etapiviisiliselt, siis loetakse litsents antuks iga etapi (teose)
+vastuvõtmisel Tellija poolt.
+
+16.4.
+
+Tellijal on muuhulgas õigus spetsiaaltarkvara (teose) autoriõiguste kehtivusaja jooksul:
+
+16.4.1. teost kasutada mis tahes eesmärgil ja mis tahes viisil;
+16.4.2. teost reprodutseerida;
+16.4.3. originaalteost muuta ja luua teosel põhinevaid tuletatud teoseid;
+16.4.4. teost või selle koopiaid üldsusele edastada, sealhulgas neid kättesaadavaks teha või
+eksponeerida, samuti avalikult esitada;
+16.4.5. teost või selle koopiaid levitada;
+16.4.6. teost või selle koopiaid laenutada ja rentida;
+16.4.7. anda all-litsentse teose või selle koopiate suhtes kehtivate õiguste kohta.
+16.5.
+
+Täitja annab Tellijale spetsiaaltarkvara lähtekoodi, täitmiskoodi ja dokumentatsiooni kujul, mis
+
+võimaldab Tellijal sellest aru saada.
+16.6.
+
+Tellija võib levitada lähtekoodi ja täitmiskoodi ning dokumentatsiooni ja selle muudatusi mistahes
+kolmandatele isikutele ja asutustele.
+
+16.7.
+
+Kõik Täitja poolt Lepingu täitmise käigus koostatud dokumendid ja andmed kuuluvad Tellijale.
+Täitja annab kõik nimetatud dokumendid ja andmed Tellijale üle.
+
+16.8.
+
+Tellija võib spetsiaaltarkvara autoriõigusi teostada mistahes olemasolevas või hiljem loodud
+keskkonnas, toel või formaadis.
+
+16.9.
+
+Täitja tagab, et tema töötajad on loobunud Eesti seadusega lubatud ulatuses oma õigusest
+teostada isiklikke õigusi, et Tellijale oleks võimalik vajalikke varalisi õigusi litsentsida.
+
+16.10. Lepingujärgse tarkvarasüsteemi loomiseks kolmandatele isikutele kuuluvate komponentide
+(tarkvara) kasutamise osas juhinduvad Pooled nende kasutamise litsentsitingimustest. Täitja
+kinnitab, et eelistab tarkvara loomisel selliseid kolmandatele isikutele kuuluvaid komponente, mille
+kasutamisega ei kaasne täiendavaid litsentsitasusid ega piiranguid tarkvara kasutamisel või
+alllitsentside andmisel. Täitja on kohustatud Tellijat teavitama juhul, kui Täitja plaanib tarkvara
+loomisel kasutada selliseid kolmandatele isikutele kuuluvaid komponente, mille kasutamine toob
+Tellijale kaasa täiendavaid litsentsitasusid või piiranguid tarkvara kasutamisel. Ilma Tellija kirjaliku
+nõusolekuta ei tohi Täitja tarkvara loomisel nimetatud komponente kasutada.
+16.11. Nimetatud õigused kehtivad kogu autoriõiguste kehtivuse aja ja nende kehtivuse territooriumiks on
+kogu maailm.
+17 Personal
+17.1
+
+Lepingus kirjeldatud teenuseid osutavad Lepingus nimetatud isikud vastavalt Lepingus sätestatud
+ülesannetele. Muudatusi tohib teha vaid Tellija kirjalikku taasesitamist võimaldavas vormis antud
+nõusolekul.
+
+17.2
+
+Täitja asendab Töid teostava isiku viivitamatult Lepingu objekti täitmise seisukohast võrdväärse
+kvalifikatsiooni ja kogemustega ning Tellijale vastuvõetava isikuga, kui:
+
+17.2.1 Töid teostav isik ei ole võimeline teenuste osutamist jätkama haiguse, õnnetusjuhtumi või muu
+temast tuleneva põhjuse tõttu;
+17.2.2 lepingus nimetatud Töid teostav isik osutub Tellija põhjendatud arvamuse kohaselt lepingujärgsete
+ülesannete täitmiseks ebakompetentseks või ebasobivaks või kui tema lepingujärgsete ülesannete
+täitmine pidevalt kahjustab lepingu korrektset ja õigeaegset täitmist.
+17.2.3 Isikul on kuriteo toimepanemise eest määratud kehtiv karistus.
+17.3
+
+Täitja kannab kõik punktis 17.2 nimetatud asendusest tulenevad või sellega kaasnevad kulud.
+
+17.4
+
+Töid teostavatel isikutel ei tohi olla kuriteo toimepanemise eest määratud kehtivat karistust.
+
+17.5
+
+Töid teostavad isikud ei tohi olla Tellija töötajad ega Tellija töötajaga seotud juriidilised isikud.
+Seotud juriidiline isik tähendab käesoleva lepingu mõistes juriidilist isikut, mille juhtumis- või
+kontrollorgani liige Tellija töötaja on või juriidiline isik, milles vähemalt 1/10 osalusest kuulub Tellija
+töötajale.
+
+18 Kolmandad isikud
+18.1
+
+Pooled võivad loovutada lepingust tulenevaid rahalisi nõudeid kolmandatele isikutele. Pooled on
+kohustatud teineteist nõude loovutamisest viivitamatult kirjalikult informeerima.
+
+18.2
+
+Pooled ei või oma lepingujärgseid kohustusi anda üle kolmandale isikule ega kaasata oma
+
+lepingujärgsete kohustuste täitmiseks kolmandat isikut ilma teise poole sellekohase selgesõnalise
+kirjaliku nõusolekuta.Tellijal on õigus edastada või suunata Täitja poolt esitatud arve tasumisele
+Tellijast erinevale hankijale nendevahelise koostöökokkuleppest tuleneval alusel juhul kui
+vastavasisuline teavitus on Tellija poolt pakkumuse esitamise ettepanekus kajastatud.
+18.3
+
+Pooled vastutavad kõigi isikute eest, keda nad kasutavad oma lepingujärgsete kohustuste täitmisel.
+
+19 Auditeerimine
+19.1
+
+Mõlemal poolel on õigus kaasata auditeerimiseks sõltumatu audiitor. Audiitori kaasamiseks ei ole
+vajalik teise poole luba.
+
+19.2
+
+Audiitori isik ja muu auditeerimisega seotud asjaolud sätestatakse eraldi kokkuleppes.
+Auditeerimise käigus avastatud probleemid tuleb registreerida ja vajaduse korral sisestada
+probleemide lahendamise protsessi.
+
+19.3
+
+Täitja peab täpset arvet lepingu täitmisel töötatud kalendripäevade ja –kuude kompenseerimisele
+kuuluvate kulude kohta. Audiitorile võimaldatakse piiramatu ligipääs nimetatud andmetele.
+
+19.4
+
+Audiitorit kaasanud pool tagab, et audiitor käsitleb saadud informatsiooni konfidentsiaalsena.
+Vastutus jääb audiitorit kaasanud poolele.
+
+19.5
+
+Pärast andmete auditeerimist ja kontrollimist teeb audiitor järeldusotsuse, mis on lõplik.
+
+19.6
+
+Auditi kulud kannab auditi tellinud pool.
+
+20 Avalikud suhted
+20.1
+
+Pooled ei tegele seoses lepinguga avalike suhetega ega anna teateid pressile, elektroonilisele
+meediale, üldsusele või teistele auditooriumidele, välja arvatud teise poole eelneval kirjalikul
+nõusolekul. Avaldada võib vaid teateid, mis on teise poolega eelnevalt kooskõlastatud.
+
+20.2
+
+Kõik eelnimetatud kohustused kehtestab pool ka kõigile kolmandatele isikutele, keda ta kasutab
+oma lepingujärgsete kohustuste täitmisel.
+
+21 Õigustest loobumine
+21.1
+
+Kummagi poole mistahes viivitus, hoolimatus või keeldumine teist poolt lepingutingimuste täitmise
+nõudmisel või muude nõuete esitamisel ei kujuta endast selle poole mistahes lepingujärgsetest
+õigustest loobumist või nende tühistamist.
+
+22 Konfidentsiaalsus ja isikuandmed
+22.1
+
+Täitja ei või oma lepingujärgseid kohustusi anda üle kolmandale isikule ega kaasata oma
+lepingujärgsete kohustuste täitmiseks kolmandat isikut ilma Tellija sellekohase selgesõnalise
+kirjaliku nõusolekuta.
+
+22.2
+
+Täitja on kohustatud:
+
+22.2.1 tagama lepingu täitmise käigus Tellijalt ükskõik mis vormis saadud teabe (andmed,
+tehingudokumentatsioonis ja lepingutes sisalduvad Tellija esindajate isikuandmed, know-how)
+konfidentsiaalsuse ning ei edasta ega võimalda sellele teabele juurdepääsu kolmandale isikule
+ilma Tellija sellekohase selgesõnalise kirjaliku nõusolekuta;
+22.2.2 tagama lepingueelsete läbirääkimiste, lepingujärgsete kohustuste ja lepingu täitmise käigus
+ükskõik mis vormis teatavaks saanud isikuandmete (v.a. tehingudokumentatsioonis ja
+
+lepingutes sisalduvate Tellija esindajate isikuandmete) konfidentsiaalsuse ning ei edasta ega
+võimalda nendele juurdepääsu ühelegi kolmandale isikule ilma Tellija
+
+sellekohase
+
+selgesõnalise kirjaliku nõusolekuta;
+22.2.3 ei edasta punktis 22.2.2 nimetatud isikuandmeid väljapoole Euroopa Liidu liikmesriikide ja
+Euroopa Majandusühendusse kuuluvate riikide territooriumit ilma tellija
+
+sellekohase
+
+selgesõnalise kirjaliku nõusolekuta;
+22.2.4 kasutama ja töötlema punktis 22.2.2. nimetatud isikuandmeid üksnes Lepingu täitmiseks ja
+Tellija dokumenteeritud juhiste alusel, välja arvatud juhul, kui täitja on kohustatud teavet
+töötlema täitja suhtes kohalduva õiguse alusel. Viimati nimetatud juhul teavitab Täitja Tellijat
+vastava kohustuse olemasolust enne teabe töötlemist, kui selline teavitamine ei ole olulise
+avaliku huvi tõttu Täitja suhtes kohalduva õigusega keelatud;
+22.2.5 võimaldab juurdepääsu punktis 22.2.2. nimetatud isikuandmetele ainult nendele isikutele, kellel
+on selleks oma tööülesannete täitmiseks vajadus ning tagab, et need isikud on teadlikud ning
+järgivad isikuandmete töötlemisalaseid nõudeid ja õigusakte, nad on saanud asjakohase
+koolituse eelmainitud nõuete kohta, on võtnud endale konfidentsiaalsuskohustuse või neile
+kehtib
+
+asjakohane
+
+seadusest
+
+tulenev
+
+konfidentsiaalsuskohustus.
+
+Vastav
+
+konfidentsiaalsuskohustus jääb kehtima pärast käesoleva Lepingu lõppemist;
+22.2.6 kohustub täitma kõiki kehtivaid isikuandmete töötlemisalaseid nõudeid, andmete turvalisust
+puudutavaid ning isikuandmete kaitse alaseid Euroopa Liidu ja Eesti Vabariigi õigusakte ja muid
+eeskirju.
+22.2.7 kohustub rakendama järgmisi organisatsioonilisi, füüsilisi ja infotehnilisi turvameetmeid punktis
+22.2.2. nimetatud isikuandmete kaitseks juhusliku või tahtliku volitamata muutmise; juhusliku
+hävimise ja tahtliku hävitamise eest ning õigustatud isikule andmete kättesaadavuse
+takistamise eest, volitamata töötlemise s.h. avalikustamise eest:
+a) vältima kõrvaliste isikute ligipääsu isikuandmete töötlemiseks kasutatavatele seadmetele;
+b) ära
+
+hoidma
+
+andmete
+
+omavolilist
+
+lugemist,
+
+kopeerimist
+
+ja
+
+muutmist
+
+andmetöötlussüsteemis, samuti andmekandjate omavolilist teisaldamist;
+c)
+
+ära hoidma isikuandmete omavolilist salvestamist, muutmist ja kustutamist ning tagama, et
+tagantjärele oleks võimalik kindlaks teha, millal, kelle poolt ja milliseid isikuandmeid
+salvestati, muudeti või kustutati või millal, kelle poolt ja millistele isikuandmetele
+andmetöötlussüsteemis juurdepääs saadi;
+
+d) tagama, et igal andmetöötlussüsteemi kasutajal oleks juurdepääs ainult temale
+töötlemiseks lubatud isikuandmetele ja temale lubatud andmetöötluseks;
+e) tagama andmete olemasolu isikuandmete edastamise kohta: millal, kellele ja millised
+isikuandmed edastati, samuti selliste andmete muutusteta säilimise;
+f)
+
+tagama,
+
+et
+
+isikuandmete
+
+edastamisel
+
+andmesidevahenditega
+
+ja
+
+andmekandjate
+
+transportimisel ei toimuks isikuandmete omavolilist lugemist, kopeerimist, muutmist või
+kustutamist;
+g) pidama arvestust isikuandmete töötlemisel kasutatavate tema kontrolli all olevate
+seadmete ja tarkvara üle, dokumenteerides järgmised andmed:
+i.
+
+seadme nimetus, tüüp ja asukoht ning seadme valmistaja nimi;
+
+ii.
+
+tarkvara nimetus, versioon, valmistaja nimi ja kontaktandmed.
+
+22.2.8 teavitama tellijat toimunud või põhjendatult kahtlustatavast käesoleva lepingu punktis 22.2.1
+ja/või 22.2.2
+
+sätestatud konfidentsiaalsuskohustuse rikkumisest; punktis 22.2.7. ja selle
+
+alapunktides a-g sätestatud turvameetmete rikkumisest, mis põhjustab, on põhjustanud või võib
+põhjustada edastatavate, salvestatud või muul viisil töödeldavate isikuandmete juhusliku või
+ebaseadusliku hävitamise, kaotsimineku, muutmise või loata avalikustamise või neile
+juurdepääsu, kirjalikult viivitamata aga mitte hiljem kui kakskümmend neli (24) tundi pärast
+sellest teada saamist. Teates tuleb vähemalt:
+a) kirjeldada
+
+(Isikuandmetega
+
+seotud)
+
+rikkumise
+
+laadi,
+
+sealhulgas
+
+puudutatud
+
+andmesubjektide liike ja arvu ning puudutatud kirjete liike ja arvu;
+b) teatada andmekaitse töötaja ja tema kontaktandmed või muu kontaktpunkt, kust saab
+lisateavet;
+c) soovitada meetmeid (Isikuandmetega seotud) rikkumise võimalike negatiivsete mõjude
+leevendamiseks;
+d) kirjeldada (Isikuandmetega seotud) rikkumise tõttu andmesubjektidele tekkivaid tagajärgi
+ja potentsiaalseid ohte;
+e) kirjeldada täitja/või kolmandast isikust alltöötleja poolt välja pakutud või võetud meetmeid
+(Isikuandmetega seotud) rikkumisega tegelemiseks ja
+f)
+
+esitada muud teavet, mis on mõistlikult nõutav, et Tellija saaks täita Kohaldatavaid
+andmekaitse õigusakte, sealhulgas riigiasutustega seotud teavitamise ja avaldamise
+kohustusi, näiteks teavet, mis on nõutav andmesubjekti tuvastamiseks.
+
+22.2.9 Tellija eelnevalt kirjalikul heakskiidul lõpetama käesoleva lepingu punktis 22.2.8.nimetatud
+rikkumise ning kohaldama meetmeid (isikuandmetega seotud) rikkumise lahendamiseks,
+sealhulgas
+
+vajaduse
+
+korral
+
+rikkumise
+
+võimaliku
+
+kahjuliku
+
+mõju
+
+kõrvaldamiseks
+
+ja
+
+leevendamiseks;
+22.2.10 kohustub lepingu lõppemisel kustutama kõik punktis 22.2.2. nimetatud isikuandmed ja
+nimetatute koopiad 30 päeva jooksul, v.a juhul, kui õigusaktidest tuleneb teisiti;
+22.2.11 teeb Tellijale kättesaadavaks kogu teabe, mida Tellija peab vajalikuks lepingus sätestatud
+kohustuste täitmise tõendamiseks;
+22.2.12 võimaldab Tellijal või Tellija poolt volitatud audiitoril teha auditeid ja kontrolle ning panustab
+nendesse;
+22.2.13 kohustub võimaluse piires asjakohaste tehniliste ja korralduslike meetmete abil punktis 22.2.2.
+nimetatud isikuandmete osas Tellijal täita Tellija kohustust vastata taotlustele andmesubjekti
+õiguste teostamiseks ning teostada nende õiguste teostamisest tulenevaid toiminguid (andmete
+parandamine, sulgemine, kustutamine).
+22.3
+
+Käesoleva lepingu punktis 22.2.1. sätestatud konfidentsiaalsuse nõue ei laiene informatsiooni
+avaldamisele täitja audiitorile ja advokaadile.
+
+22.4
+
+Käesoleva lepingu punktides 22.2.1. ja 21.2.2. sätestatud konfidentsiaalsuskohustuse nõue on
+tähtajatu ning kehtib nii lepingu täitmise ajal kui ka pärast lepingu lõppemist.
+
+22.5
+
+Tulenevalt konfidentsiaalse informatsiooni laadist on tellijal õigus seada täiendavaid nõuded ja/või
+juhised isikuandmete töötlemiseks.
+
+22.6
+
+Kõik käesoleva lepingu punktides
+
+22.2.1. – 22.4 kohustused kehtestab täitja kõikidele
+
+kolmandatele isikutele, keda ta kasutab oma lepingujärgsete kohustuste täitmisel. Kolmas isik on
+
+füüsiline või juriidiline isik või riigi- või kohaliku omavalitsuse asutus, kes ei ole ei tellija ega ka täitja.
+
+23 Lepingu täitmise peatamine ja lepingu lõpetamine
+23.1
+
+Tellija võib peatada Täitjale lepingujärgselt makstavate summade maksmise kas osaliselt või
+täielikult, kui:
+
+23.1.1 Täitja ei täida Lepingut;
+23.1.2 vastuvõtmise, testimise või auditeerimise käigus avastatakse puudusi või muid Täitja poolseid
+kohustuste rikkumisi;
+23.1.3 Tellija Lepingu järgsete kohustuste õigeaegset ja korrektset täitmist segab või ähvardab segada
+muu asjaolu, mille eest vastutab Täitja.
+23.2
+
+Täitja võib peatada Tellijale teenuse osutamise kas osaliselt või täielikult, kui:
+
+23.2.1 Tellija ei täida Lepingut;
+23.2.2 Täitja Lepingu järgsete kohustuste õigeaegset ja korrektset täitmist segab või ähvardab segada
+muu asjaolu, mille eest vastutab Tellija.
+23.3
+
+Tellija võib igal ajal Lepingu üles öelda, teatades sellest 1 (üks) kuu ette. Sellisel juhul on Täitjal
+õigus nõuda tasu täidetud kohustuste eest.
+
+23.4
+
+Tellijal on õigus Leping erakorraliselt etteteatamata lõpetada Täitjapoolse olulise Lepingu rikkumise
+korral. Lepingu lõpetamisel punktides 8.4 nimetatud juhtudel Täitja tehtud Tööd ei tasustata. Täitja
+poolt tarnitud seadmed, telekommunikatsioonid ja tarkvara tagastatakse, selle võimatuse korral või
+muul juhul, kui tagastamine on saadu olemuse tõttu välistatud, makstakse hüvitust
+võlaõigusseaduses sätestatud korras.
+
+23.5
+
+Täitja võib Lepingu üles öelda Tellijapoolse olulise Lepingu rikkumise korral pärast vastava
+hoiatuse saatmist, kui rikkumist ei ole kõrvaldatud 10 (kümne) tööpäeva jooksul peale hoiatuse
+esitamist. Sellise Lepingu lõpetamise korral maksab Tellija Täitjale tasu täidetud kohustuste eest.
+
+23.6
+
+Lepingu lõppemisel on Täitja kohustatud Tellijale tagastama kõik Lepingu täitmiseks üleantu.
+
+24 Vääramatu jõud
+24.1
+
+Lepingust tulenevate kohustuste mittetäitmist või mittenõuetekohast täitmist ei loeta Lepingu
+rikkumiseks, kui selle põhjuseks oli vääramatu jõud. Vääramatu jõuna käsitlevad pooled
+võlaõigusseaduse §-s 103 lg 2 nimetatud asjaolusid.
+
+24.2
+
+Pool, kelle tegevus lepingujärgsete kohustuste täitmisel on takistatud vääramatu jõu asjaolude
+tõttu, on kohustatud sellest koheselt kirjalikult teatama teisele Poolele, esitades teavitusega ühes
+tõendid kõigi järgnevate asjaolude esinemise kohta:
+
+24.2.1 takistava asjaolu esinemine, mis takistab kohustuse kohast täitmist;
+24.2.2 takistava asjaolu asetsemine väljaspool võlgniku mõjusfääri;
+24.2.3 asjaolu ettenägematus;
+24.2.4 asjaolu vältimatus ja ületamatus.
+24.3
+
+Vääramatu jõu asjaolude ilmnemisel pikeneb Lepingu lõpptähtaeg nimetatud asjaolude esinemise
+perioodi võrra. Pool peab vääramatu jõu asjaolude äralangemisel Lepingut täitma asuma. Kui
+vääramatu jõu asjaolude tõttu on Poole Lepingust tulenevate kohustuste täitmine takistatud enam
+kui 60ne kalendripäeva võrra võib teine Pool öelda lepingu üles.
+
+25 Kehtiv seadusandlus
+Lepingule ning kõikidele lepingu osaks olevatele dokumentidele kohaldatakse Eesti Vabariigi
+õigusakte.
+26 Vaidluste lahendamine
+26.1
+
+Käesoleva Lepingu allkirjastamisega kinnitavad pooled, et on tutvunud ja on nõus Lepinguga ja
+selle lisadega ning mõistavad täielikult enesele võetavate kohustuste sisu ning nende tagajärgi.
+
+26.2
+
+Lepinguga seotud või sellest tulenevate arusaamatuste või vaidluste puhul püüavad pooled leida
+lahenduse heal tahtel põhinevate läbirääkimiste teel.
+
+26.3
+
+Kokkuleppe mittesaavutamisel lahendatakse vaidlus Harju Maakohtus.
+
+Arendusleping nr. …………
+Lisa nr 2
+PERSONAL JA KONTAKTANDMED
+1. Tellija esindaja ja kontaktisikud
+1.1. Tellija esindajaks tööde vastuvõtmise aktide, teadete jms lepinguga seonduvate dokumentide
+allkirjastamisel on Registrite ja Infosüsteemide Keskuse …………………. (tel ………….; e-post
+…………….).
+1.2. Tellija kontaktisikuks tööde teostamise juhendamisel ning Täitjale vajaliku lähteinformatsiooni ja
+tööülesannete täpsustamisel jmt. on Registrite ja Infosüsteemide Keskuse ………… (tel …; e-post
+…………………).
+2. Täitja esindaja ja kontaktisikud
+2.1 Täitja esindajaks on ………… (tel …………..; e-post………….).
+2.2 Täitja kontaktisikuks on ………… (tel …………..; e-post………….).
+3. Personali nimekiri
+3.1. Tellija personal
+Nr.
+
+Nimi
+
+Ametinimetus
+
+Kontaktandmed
+
+Ametinimetus
+
+Kontaktandmed
+
+3.2. Täitja personal
+Nr.
+
+Nimi
+
+4. Kontaktandmed
+4.1. Tellija kontaktandmed on:
+
+4.2. Täitja kontaktandmed on:
+
+Registrite ja Infosüsteemide Keskus
+
+…………….
+
+Reg. nr. 70000310
+
+Registrikood
+
+Lubja tn 4
+
+……………
+
+19081 TALLINN
+
+……………
+
+Telefon: 663 6300
+
+Telefon: …………….
+
+Arendusleping nr ……
+Lisa nr 3
+
+TEHNILINE KIRJELDUS KOOS LISADEGA
+
+Tehniline kirjeldus asub arenduslepingu asice konteineris eraldi faili(de)na.
+
+Arendusleping nr ………
+Lisa nr 4
+
+PAKKUMUS
+
+Pakkumus asub arenduslepingu asice konteineris eraldi konteinerina.
+
+

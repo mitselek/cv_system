@@ -1,0 +1,133 @@
+Nõuded süsteemianalüüsile
+versioon 1.0
+Sisukord:
+Sissejuhatus
+I. Vormistus
+SA-v 1. Loomise ja muutmise info:
+SA-v 2. Oleku info:
+SA-v 3. Identifitseerimise info:
+II. Sisu
+SA-s 1. Loetavus ja mõistetavus.
+SA-s 2. Infosüsteemi terviku kirjeldus
+SA-s 3. Vormide kirjeldused
+SA-s 4. Kasutuslugude/vormide kasutamise protsesside/tegevuste kirjeldused
+SA-s 5. Infosüsteemi teenuste kirjeldused
+SA-s 6. Pildid, skeemid, diagrammid:
+III. Töövahendid
+
+Sissejuhatus
+Enne projekti tegelikku algust lepitakse kokku kõik erisused - millised punktid vastavas projektis ei rakendu (pole võimalik/vajalik) ja kas
+rakenduvad mingid täiendavad punktid või all-loetletud punktidele täpsustused.
+Antud nõueteloetelu kehtib nii RIKi majasisestele projektidele kui välistele projektidele (majavälised arendajad).
+
+I. Vormistus
+Alljärgnevalt on kirjeldatud vormistuse nõuded kõiksugustele nõuetele, nõuete komplektidele, reeglitele, vormidele. Muudatuste haldamine ja
+seotud viitamine peavad olema kooskõlastatud ja kokkulepitud enne süsteemianalüüsi algust.
+
+SA-v 1. Loomise ja muutmise info:
+SA-v 1.1 Loomise eesmärk/taust
+SA-v 1.2 Tekkimise aeg
+SA-v 1.3 Autor
+SA-v 1.4 Viimase muutmise põhjus
+SA-v 1.5 Viimase muutmise aeg
+SA-v 1.6 Muutja
+SA-v 1.7 Kui on tegemist nõuete komplektiga (või plokiga), siis peavad olema selgelt eristatavad pealkiri ja sisu
+
+SA-v 2. Oleku info:
+SA-v 2.1 Kinnitaja ja kooskõlastajad
+SA-v 2.2 Nõude/nõuete komplekti seis - kasutusel olevad olekunäitajad peavad olema kokkulepitud vastavalt antud projekti vajadustele.
+Näiteks võivad nõude/nõuete komplekti olekud olla:
+tegemisel
+kooskõlastamisel
+kinnitatud
+implementeeritud
+kehtetu
+
+SA-v 3. Identifitseerimise info:
+SA-v 3.1 Igal nõudel/reeglil ja nõete komplektil peab olema unikaalne identifikaator
+
+II. Sisu
+Alljärgnevalt on kirjeldatud nõuded süsteemianalüüsi sisule.
+
+SA-s 1. Loetavus ja mõistetavus.
+Süsteemianalüüs peab olema:
+SA-s 1.1 Loetav ja selge
+SA-s 1.2 Kindlas kõneviisis
+SA-s 1.3 Sisaldama üheselt defineeritud äri- ja süsteemi mõisteid
+SA-s 1.4 Sisaldama ainult täpseid andmeolemite/andmeväljade nimetusi
+
+SA-s 2. Infosüsteemi terviku kirjeldus
+Infosüsteemi terviku kirjelduses peavad olema:
+SA-s 2.1 Kõikide kasutatavate mõistete definitsioonid
+SA-s 2.2 Kõikide äriobjektide ja neile vastavate andmeolemite ning seoste kirjeldused ning üldised tööpõhimõtted
+SA-s 2.3 Andmeolemite kõik andmeväljad ja nende sisu vastastikune mõju üksteisele
+SA-s 2.4 Infosüsteemi erinevate kihtide kirjeldused: andmevahetus/kasutajaliides, domeen ja andmebaas.
+SA-s 2.5 Andmete käitlemine antud süsteemis:
+SA-s 2.5.1 versioneerimine
+SA-s 2.5.2 sünkroniseerimine
+SA-s 2.5.3 arhiveerimine
+SA-s 2.5.4 kustutamine
+SA-s 2.6 Kasutusel väljade ja kasutatavate andmeolemite täpsed nimetused
+SA-s 2.7 Õiguste kirjeldused: kasutajad, rollid, grupid
+SA-s 2.8 Süsteemi üldised valideerimised
+
+SA-s 3. Vormide kirjeldused
+SA-s 3.1 Kõik kasutajaliidesevormid ja vormide elemendid peavad olema nõuetega/reeglitega kaetud
+SA-s 3.2 Peab olema loodud prototüüp, mis kajastab kõike realiseeritavat.
+Märkus: Sõltuvalt projekti kokkulepetest võib seda osa teha ka UX inimene UX ja ärianalüüsi tööde raames.
+SA-s 3.3 Iga vormi/vormi osa eesmärk peab olema selge - lühike ja täpne kirjeldus, milleks seda vormi on vaja.
+SA-s 3.4 Iga vormi jaoks peavad olema välja toodud kõik vormiga seotud sisulised veateated.
+Märkus: Sõltuvalt projekti kokkulepetest võib seda osa teha ka UX inimene UX ja ärianalüüsi tööde raames.
+
+SA-s 3.5 Iga vormi toimimise juures peavad olema välja toodud erandid, kui need on olemas, võrreldes selle konkreetse süsteemi üldiselt
+kehtivate reeglitega
+SA-s 3.6 Igal vormil peavad olema välja toodud kõik sellega seotud valideerimised ning nendega seotud süsteemi poolt tagastatavad
+veateated ja hoiatused
+SA-s 3.7 Vormi andmeväljade sisestamise ja muutmise kirjeldused; kes (süsteem, kasutaja, sidussüsteem, genereeritakse jooksvalt, ...),
+mis tingimustel, kuidas?
+SA-s 3.8 Millised andmeväljad on
+SA-s 3.8.1 kohustuslikud
+SA-s 3.8.2 valikulised
+SA-s 3.8.3 ainult kuvatavad
+SA-s 3.8.4 tingimuslikult kuvatavad vs alati kuvatavad
+SA-s 3.8.5 vaikeväärtustega täidetavad + millised need vaikeväärtused on
+SA-s 3.9 Lubatud väärtused väljadele (tekst, numbrid, e-mail, komakohad, jne)
+SA-s 3.10 Kuidas antud vormile saab - kui see ei tule välja punktis SA-s 4 nõutud kirjeldustest
+
+SA-s 4. Kasutuslugude/vormide kasutamise protsesside/tegevuste kirjeldused
+SA-s 4.1 Kuidas on erinevad vormid omavahel seotud
+SA-s 4.2 Kasutajate tegevuste ja tegevuste kogumite kirjeldused
+SA-s 4.3 Süsteemi terviklikud kasutamise protsessid/kasutuslood
+SA-s 4.4 Kriitiliste funktsionaalsuste jaoks testimise stsenaariumid
+
+SA-s 5. Infosüsteemi teenuste kirjeldused
+Kui tegemist on teenusepõhise (XML-teenuseid pakkuva) infosüsteemiga või liidetustumisega mingi teise infosüsteemiga (teenuste tarbimisega),
+siis peavad olema kirjeldatud:
+SA-s 5.1 Tarbitavad teiste süsteemide teenused (kui on)
+SA-s 5.1.1 Kõik edastatavad sisendid
+SA-s 5.1.2 Kõik tarbitavad väljundid - millised ja kus, kuhu edasi saadetakse/märgitakse/salvestatakse
+SA-s 5.2 Kõik infosüsteemi enda poolt pakutavad teenused (kui on)
+SA-s 5.2.1 Iga teenuse kohta detailne sisendite kirjeldus
+SA-s 5.2.2 Iga teenuse kohta detailne väljundite kirjeldus
+SA-s 5.2.3 Iga teenusega kaasnevad valideerimised ja sisulised veateated
+SA-s 5.2.4 Iga teenuse enda loogika ja funktisonaalsuse kirjeldus
+
+SA-s 6. Pildid, skeemid, diagrammid:
+Peavad:
+SA-s 6.1 toetama kirjeldatavat - olema tervikliku kirjelduse osa, mitte tühjalt genereeritud pildialbum
+SA-s 6.2 omama selget eesmärki - milleks see pilt/skeem/diagramm on, mida ta annab?
+
+SA-s 6.3 olema intuitiivselt loetavad
+Lisaks:
+SA-s 6.4 Teenuste puhul on hea lisada ka XML schema.
+
+III. Töövahendid
+SA-t 1. Süsteemianalüüsi kajastavad töövahendid peavad olema eelnevalt kokkulepitud
+SA-t 2. Spetsifikatsioon peab olema üle antud taaskasutataval kujul.
+Näiteks:
+skeemi/diagrammi/pildi algfail (mitte suvaline link sellele)
+*.eap fail
+Confluence eksportfail
+...
+
+

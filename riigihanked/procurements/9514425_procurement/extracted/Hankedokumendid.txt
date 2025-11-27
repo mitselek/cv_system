@@ -1,0 +1,185 @@
+KINNITATUD
+Direktori 11.11.2025
+Käskkiri nr 69
+Lisa 2
+
+„E-kataloogi arendustööd“
+Riigihanke viitenumber 302310
+
+Hankedokumendid
+
+REGISTRITE JA INFOSÜSTEEMIDE KESKUS
+Registrite ja Infosüsteemide Keskus teeb hankemenetluses osalemisest huvitatud isikutele
+ettepaneku esitada pakkumusi vastavalt hanketeates ja hankedokumentides sisalduvatele
+tingimustele.
+
+2025
+
+1. Üldosa
+1.1. Hankija nimi: Registrite ja Infosüsteemide Keskus
+1.2. Hankija aadress: Lubja tn 4, 10115 Tallinn
+1.3. Riigihanke nimetus: „E-kataloogi arendustööd".
+1.4. Riigihanke viitenumber: 302310.
+1.5. Hankedokumendid on kohaldatavad ainult koos riigihangete seaduse ja selle alusel kehtestatud õigusaktidega. Hankija eeldab,
+et huvitatud isik või pakkuja tunneb riigihangete seadust (RHS) ja selle alusel kehtestatud õigusakte.
+1.6. Riigihankes saavad osaleda ainult pakkujad või taotlejad, kelle elu- või asukoht on Eestis, mõnes muus Euroopa Liidu
+liikmesriigis, muus Euroopa Majanduspiirkonna lepinguriigis või Maailma Kaubandusorganisatsiooni riigihankelepinguga
+ühinenud riigis. Riigihankes ei ole lubatud osaleda ettevõtjatel, kelle elu- või asukoht on Venemaa Föderatsioonis või Valgevene
+Vabariigis.
+1.7. Huvitatud isik või pakkuja kannab hankemenetluses osalemisega seotud kogukulud ja -riski, kaasa arvatud vääramatu jõu (force
+majeure) toime võimalused.
+1.8. Hankija ei ole otstarbekuse kaalutlusel hanget osadeks jaganud, sest hanke osadeks jaotamine ei ole lepingu olemusest
+tulenevalt võimalik.
+1.9. Hankija ei arvesta olelusringi kulusid, kuivõrd antud hanke puhul on pakkujatel võimatu esitada RHS § 86 lg 2 p 2 nimetatud
+kulude osas näitajaid, mida oleks võimalik omavahel võrrelda.
+2. Lepingu ese
+2.1. Lepingu eseme tehniline kirjeldus on esitatud punktis 3.1 märgitud ühes või mitmes vastavas lisas.
+3. Hankedokumendid
+3.1. Hankedokumendid koosnevad käesolevast hankedokumentide põhitekstist ja selle lisadest:
+3.1.1 Lisa 1 kõrvaldamise alused ja kvalifitseerimistingimused (hankepass);
+3.1.2 Lisa 2 vastavustingimused;
+3.1.3 Lisa 3 hindamismetoodika ja hindamiskriteeriumid;
+3.1.4 Lisa 4 tehniline kirjeldus;
+3.1.5 Lisa 4-1 Elastiku otsingu reeglid;
+3.1.6 Lisa 4-2 Liidese kirjeldus;
+3.1.7 Lisa 4-3 E-kataloogi SLA;
+3.1.8 Lisa 4-4 nõuded süsteemianalüüsile;
+3.1.9 Lisa 4-5 nõuded testimisele;
+3.1.10 Lisa 5 raamlepingu projekt;
+3.1.11 Lisa 6 arenduslepingu projekt;
+3.1.12 Lisa 7 alltöövõtjate kontrollimise tingimused lepingu täitmise etapis.
+3.2. Hankedokumentide põhitekst ja selle juurde kuuluvad dokumendid on teineteist täiendavad.
+3.3. Hankedokumentide lahutamatuks osaks on hankepass, mis täidetakse riigihangete registris (RHR, https://riigihanked.riik.ee/).
+Hankepassi esitavad pakkujad hankijale esialgse tõendina kõrvaldamise aluste puudumise ja kvalifitseerimistingimuste
+vastavuse kontrolliks. Lisaks on hankija poolt koostatud CV vorm pakkujate meeskonnaliikmete vajalike andmete edastamiseks.
+3.4. RHS § 95 lg 4 p 9: Hankija võib kõrvaldada hankemenetlusest pakkuja, kes on esitanud valeandmeid käesolevas paragrahvis
+sätestatud või käesoleva seaduse §-des 98–101 sätestatu alusel hankija kehtestatud kvalifitseerimise tingimustele vastavuse
+kohta või jätnud need andmed või § 104 lõigete 7 ja 8 alusel hankija nõutud täiendavad dokumendid esitamata. Hankepassi
+esitamine on kohustuslik kõigile pakkujatele, kaasa arvatud ühispakkujad ning alltöövõtjad, kelle majandus-ja/või
+finantsnäitajatele tuginetakse. Alltöövõtjate osas tuleb hankepass esitada ka juhul, kui tema näitajatele ei tugineta, kuid keda
+kavatsetakse kasutada lepingu täitmisel.
+3.5. Juhul kui pakkujal esineb RHS § 97 nimetatud olukord, esitab ta hankepassis rikkumised ning info, et kohaldatud on
+heastamismeetmeid. Heastamismeetmetena esitab pakkuja vastavad tõendid hankija sellekohase küsimise peale.
+4. Täiendav teave ja selgitused
+4.1. Hankija ootus on, et huvitatud isikud või pakkujad teavitaks hankijat aegsasti RHR kaudu riigihanke alusdokumentides avastatud
+vigade, ebatäpsuste ja ebaselguste parandamiseks ja/või teeks ettepaneku pakkujate hinnangul riigihanke eseme hankimiseks
+seatud ebaproportsionaalsete või põhjendamatute piirangute leevendamiseks.
+4.2. Küsimuse või taotluse täiendava teabe või selgituste saamiseks hanke alusdokumentide kohta esitamisel peab huvitatud isik või
+pakkuja arvestama, et hankijal on õigus tulenevalt riigihangete seaduse § 46 lõikest 1 vastata nimetatule 3 (kolme) tööpäeva
+jooksul.
+4.3. Juhul, kui huvitatud isiku hanke alusdokumentidega seotud selgitustaotluse hankijale laekumisega ja pakkumuste esitamise
+tähtpäeva vahele ei jää vähemalt 6 (kuus) päeva, RHS § 93 lõike 2 punktis 2 ja § 94 lõike 4 punktis 2 nimetatud juhtudel 4 (nelja)
+päeva, ei ole hankijal kohustust selgitustaotlusele vastata.
+4.4. Punktis 4.2. märgitud küsimus või taotlus esitatakse eesti keeles.
+4.5. Huvitatud isik või pakkuja esitab punktis 4.2. märgitud küsimuse või taotluse kirjalikku taasesitamist võimaldavas vormis
+elektrooniliselt riigihangete registris. Registri töö tõrgete korral esitatakse küsimus või taotlus hanketeates märgitud hankija
+
+Lk 2/4
+
+kontaktisiku elektronposti aadressile. Telefoni teel esitatud küsimusi vastu ei võeta.
+4.6. Hankija esitab hankemenetluse käigus koostatud dokumendid ja antava täiendava teabe ning selgitused huvitatud isikule või
+pakkujale elektrooniliselt läbi riigihangete registri.
+5. Pakkumuse koostamine
+5.1. Pakkumuse koostamisel lähtutakse muu hulgas lepingu(te) projekti(de)s sätestatud tingimustest.
+5.2. Vastavalt RHS-le märgib pakkuja pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe ärisaladuseks
+määramist. Pakkumus on konfidentsiaalne kuni nimetatud pakkumuse edukaks tunnistamise otsuse tegemiseni. Hankija ei
+avalikusta pakkumuste sisu ärisaladusega kaetud osas. Hankija ei ole kohustatud täpsustama pakkujalt ärisaladuse ja/või
+pakkuja huve kahjustada võiva tehnoloogilise lahenduse sisaldumist juhul, kui nimetatud asjaolu on jäänud pakkumuses
+märkimata. Hankija ei vastuta ärisaladuse avaldamise eest osas, milles pakkuja ei ole seda ärisaladuseks märkinud.
+5.3. Pakkumus peab vastama riigihanke alusdokumentides sätestatud tingimustele, sisaldama nõutud dokumente ning olema
+vormistatud nõuetekohaselt. Pakkumuses esitatud andmed peavad olema esitatud mahus ja viisil, mis võimaldavad hankijal
+kontrollida nende vastavust riigihanke alusdokumentides toodud tingimustele.
+5.4. Pakkumuse maksumus peab olema lõplik ja sisaldama kõiki kulusid vastavalt riigihanke alusdokumentidele ning seal
+nimetamata kulusid, mis on vajalikud lepingu nõuetekohaseks täitmiseks. 0 või negatiivse väärtusega maksumusi ei ole lubatud
+kasutada ja sellised pakkumused on hankijal õigus tunnistada mittevastavaks ning tagasi lükata. Maksumus esitatakse
+täpsusega kaks kohta pärast koma. Hankija ei hüvita lepingu täitmisel pakkujale mingeid täiendavaid kulusid ega tee täiendavaid
+makseid.
+5.5. Iga viidet, mille hankija teeb ükskõik millises riigihanke alusdokumendis mõnele RHS-i § 88 lõikes 2 nimetatud alusele
+(standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms) kui vastavuse kriteeriumile, tuleb lugeda selliselt, et
+see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb ükskõik millises riigihanke alusdokumendis
+ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule või tootmisviisile, tuleb lugeda selliselt, et see on täiendatud
+märkega „või sellega samaväärne“.
+5.6. Kui pakkuja soovib pakkuda samaväärset lepingu eset, tuleb teha sellekohane märge pakkumuses ning esitada koos
+pakkumusega samaväärsust tõendavad andmed, dokumendid jms. Alternatiivseid lahendusi ei ole lubatud pakkuda.
+6. Dokumentide vormistamise üldnõuded
+6.1. Dokumentide vormistamisel lähtutakse võimalusel punktis 3.3 märgitud ühes või mitmes lisas esitatud vormidest.
+6.2. Dokumendid koostatakse eesti keeles.
+6.3. Dokumendid esitatakse hankijale kirjalikku taasesitamist võimaldavas vormis (see tähendab, et dokumendid peavad olema
+püsivat kirjalikku taasesitamist võimaldaval viisil ja sisaldama pakkumuse esitanud isiku(te) nimesid, kuid ei pea olema
+omakäeliselt (sh ka digitaalselt) allkirjastatud).
+7. Kvalifitseerimise dokumentide vormistamise erinõuded
+7.1. Esialgse tõendina pakkuja suhtes kõrvaldamise aluste puudumise ja tema kvalifitseerimise tingimustele vastavuse hindamiseks
+kasutatakse hankepassi. Juhul, kui pakkuja soovib tõendada enda vastavust majanduslikule ja finantsseisundile ja/või tehnilisele
+ja kutsealasele pädevusele esitatud nõuetele teiste ettevõtjate vahendite alusel, peab pakkuja esitama hankepassi ka selle isiku
+kohta, kelle vahenditele ta tugineb. Samuti tuleb esitada hankepass alltöövõtjate kohta.
+7.2. Juhul kui pakkuja kasutab alltöövõtjat, võib hankija nõuda lisaks hankepassis esitatule pakkuja poolset kirjeldust, millises tööde
+etapis ja suuruses alltöövõtjat kasutatakse.
+7.3. Hankija võib nõuda alltöövõtja asendamist juhul, kui kontrolli käigus tuvastatakse alltöövõtja suhtes kõrvaldamise alus.
+7.4. Enne lepingu sõlmimist võib hankija nõuda edukalt pakkujalt kõikide asjakohaste hankepassis esitatud kinnitustele vastavate
+dokumentide esitamist. Hankija võib vastavaid dokumente nõuda ka kvalifitseerimise etapis. Pakkuja võib esitada enda
+kvalifikatsiooni tõendamiseks lisaks hanketeates märgitud kõrvaldamise aluste puudumist tõendavatele ja kvalifikatsiooni
+tõendavatele dokumentidele (edaspidi koos nimetatud kvalifitseerimise dokumendid) ka muid dokumente.
+7.5. Hankija võib pakkuja esitatud andmete põhjal küsida tõendeid ja kinnitusi teiselt lepingu poolelt kõigi nende lepingute kohta,
+millele tuginetakse kvalifikatsiooni tõendamisel.
+7.6. Alates maist 2019 saab Euroopa hankepassi vormi täita RHRis või mõnes muus ESPD teenuses - nimekiri on kättesaadav
+https://ec.europa.eu/docsroom/documents/34484. Hankepassi ei ole vaja esitada juhul kui RHRis on olemas hankepassi osa ja
+ettevõte täidab selle RHR vormil. Hankepassi juhend https://www.fin.ee/riigihanked-riigiabi-osalused/riigihanked/kasulik-teaveoigusaktid#hankemenetlus.
+8. Pakkumuse dokumentide vormistamise erinõuded
+8.1. Pakkumuse dokumendid on järgnevad:
+8.1.1 hankepass;
+8.1.2 vastavustingimused;
+8.1.3 hindamiskriteeriumid;
+8.1.4 CV-d.
+8.2. kui hankedokumentides on nõutud, tuleb esitada lisaks punktis 8.1 toodule muud andmed ja dokumendid.
+9. Elektrooniliselt dokumentide esitamine
+9.1. Kvalifitseerimise dokumendid ja punktis 8.1 märgitud pakkumuse dokumendid esitatakse elektrooniliselt RHRis.
+9.2. Elektrooniliselt esitatavad dokumendid vormistatakse PDF-vormingus või mõnes muus üldlevinud vormingus.
+9.3. Kui esitatavate dokumentide koosseisus on dokumente, mida ei ole võimalik esitada elektrooniliselt, esitatakse need, lisaks
+
+Lk 3/4
+
+elektroonilistele koopiatele, paberkandjal enne pakkumuste esitamise tähtpäeva vastavalt punktile 10.
+9.4. Kui esitatavate dokumentide koosseisus on kolmanda osapoole poolt kirjalikult allkirjastatud dokumente, esitatakse dokument
+skaneeritud kujul ning originaaldokument esitatakse ainult juhul, kui hankijal on tekkinud kahtlus dokumendi osas.
+9.5. Kui esitatavate dokumentide koosseisus on elektroonilisi dokumente, mida ei ole võimalik terviklikult esitada RHRis, siis esitatakse
+need, lisaks RHRis esitatud väljavõtetele, terviklikult CD-l või muul üldlevinud andmekandjal enne pakkumuste esitamise
+tähtpäeva vastavalt punktile 10.
+10. Paberkandjal dokumentide esitamine
+10.1. Paberkandjal dokumendid esitatakse ainult punktis 9.3 märgitud juhul.
+10.2. Paberkandjal dokumendid esitatakse 1 (ühes) kinnises läbipaistmatus pakendis.
+10.3. Punktis 10.2 märgitud pakendile kantakse järgmised andmed:
+10.3.1 riigihanke nimetus – „E-kataloogi arendustööd“
+10.3.2 riigihanke viitenumber – 302310,
+10.3.3 kõikide pakkujate nimed ja registrikoodid,
+10.3.4 märge „Mitte avada enne pakkumuste avamise tähtaega“.
+10.4. Paberkandjal dokumendid esitatakse posti teel või isikliku kättetoimetamisega.
+10.5. Isikliku kättetoimetamisega esitatakse dokumendid pakkumuste esitamise tähtpäeval vähemalt 15 minutit enne pakkumuste
+avamist hankija asukohas (Registrite ja Infosüsteemide Keskus, Lubja tn 4, 10115 Tallinn) II korrusel.
+11. Raam- ja hankelepingute sõlmimine
+11.1. Kõik lepingute olulised tingimused on esitatud punktis 3.1 märgitud vastavas lisas.
+11.2. Hankija jätab endale õiguse anda nõustumus lepingu sõlmimiseks kuni 30 (kolmekümne) päeva jooksul alates lepingu sõlmimise
+otsuse või pakkumuse edukaks tunnistamise otsuse kohta teate edastamisest.
+11.3. Leping jõustub selle poolte poolt allkirjastamise hetkest.
+11.4. Pakkuja peab talle allkirjastamiseks edastatud lepingu allkirjastama hiljemalt 5 tööpäeva jooksul. Antud tähtaja jooksul lepingu
+allkirjastamisest keeldumist on hankijal õigus käsitleda kui RHS § 119 nimetatud eduka pakkumuse esitanud pakkuja poolset
+lepingu sõlmimisest keeldumist ja pakkumuse tagasi võtmist.
+12. Hankemenetluse kehtetuks tunnistamine
+12.1. Hankijal on õigus kõik esitatud või vastavaks tunnistatud pakkumused tagasi lükata igal ajal enne lepingu sõlmimist vastavalt
+RHS §-s 116 lg 1 sätestatule. Kõigi pakkumuste tagasilükkamisel teeb hankija sellekohase põhjendatud otsuse.
+12.2. Hankija jätab endale õiguse tunnistada hankemenetlus põhjendatud vajadusel kehtetuks, kui:
+12.2.1 hankemenetluse toimumise ajal on hankijale saanud teatavaks uued asjaolud, mis välistavad või muudavad
+ebaotstarbekaks hankemenetluse lõpuleviimise hanke alusdokumentides sätestatud tingimustel;
+12.2.2 vajadus on lepingu eset olulisel määral muuta;
+12.2.3 pakkumuste maksumused ülevatav hanke eeldatavat maksumust;
+12.2.4 hankija projektile otsustatakse rahastust mitte tagada;
+12.2.5 on toimunud sündmus, mida saab lugeda vääramatuks jõuks (force majeure). Vääramatu jõud on asjaolu, mida hankija ei
+saa mõjutada ja mõistlikkuse põhimõttest ei saa temalt oodata, et ta hankemenetluse ajal selle asjaoluga arvestaks või
+seda väldiks või takistava asjaolu või selle tagajärje ületaks.
+
+/allkirjastatud digitaalselt/
+Rivo Reitmann
+Direktor
+
+Lk 4/4
+
+

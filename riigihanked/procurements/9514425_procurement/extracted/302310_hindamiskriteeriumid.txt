@@ -1,0 +1,108 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302310
+Hankija: Registrite ja Infosüsteemide Keskus (70000310)
+Hange: E-kataloogi arendustööd
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+Tüüp /
+nr
+hindamismeetod
+1 Raamlepingu sõlmimise järgselt tellitava Pakkumuse maksumus peab olema
+Maksumus arendus- ja hooldustöö tunnihind lõplik ja sisaldama kõiki kulusid vähim on parim
+maksimaalse piirhinnana.
+vastavalt riigihanke alusdokumentidele
+ning seal nimetamata kulusid, mis on
+vajalikud
+lepingu
+nõuetekohaseks
+täitmiseks.
+0 või negatiivse väärtusega maksumusi
+ei ole lubatud kasutada ja sellised
+pakkumused
+on
+hankijal
+õigus
+tunnistada mittevastavaks ning tagasi
+lükata.
+Maksumus esitatakse täpsusega kaks
+kohta pärast koma.
+Hankija ei hüvita lepingu täitmisel
+pakkujale mingeid täiendavaid kulusid
+ega tee täiendavaid makseid.
+Hindamiskriteeriumite juures toodud
+osakaaludes ei ole ristsubsideerimine
+lubatud.
+2 Meeskonnaliikmete töökogemus
+Kvaliteet - hankija
+hinnatav
+3 Sotsiaalselt vastutustundlik ettevõtja
+Tingimuste täitmisel on pakkujal Kvaliteet - hankija
+võimalik saada 5 punkti. Tingimuse
+hinnatav
+mittetäitmisel omistatakse 0 punkti.
+Koostatud 17.11.2025 11:23:00
+
+1/2
+
+Osakaal
+40
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+jah
+
+55
+5
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9514425/general-info
+
+Kokku:
+
+100
+
+Hindamismetoodika kirjeldus
+1. Raamlepingu sõlmimise järgselt tellitava arendus- ja hooldustöö tunnihind maksimaalse piirhinnana.
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+2. Meeskonnaliikmete töökogemus
+Kokku on võimalik saada 55 punkti.
+1) Pakkumus, milles töökogemus tarkvara arendamisel ületab tehnilise kirjelduse p 5.7.15 selliselt, et meeskonnas kaasatud arendajal on vähemalt 60-kuuline töökogemus tarkvara arendajana –
+omistatakse 10 punkti;
+2) Pakkumus, milles töökogemus tarkvara arenduses arhitektina ületab tehnilise kirjelduse p 5.7.16 selliselt, et meeskonnas kaasatud süsteemiarhitektil on vähemalt 48-kuuline töökogemus
+arhitektina - omistatakse 10 punkti;
+3) Pakkumus, milles töökogemus tarkvara analüüsi läbiviimisel ületab tehnilise kirjelduse p 5.7.17 selliselt, et meeskonnaliikmel on vähemalt 60-kuuline töökogemus tarkvara analüüsi
+läbiviimisel - omistatakse 10 punkti;
+4) Pakkumus, milles projektijuhtimise töökogemus ületab tehnilise kirjelduse p 5.7.18 selliselt, et meeskonnaliikmel on vähemalt 72-kuuline projektijuhtimise töökogemus tarkvara arenduses omistatakse 10 punkti;
+5) Pakkumus, milles arendaja on eelnevalt osalenud arendajana vähemalt 12 kuud (ka erinevates projektides koondina) projektis, milles on kasutusel Java platvorm – omistatakse 5 punkti;
+6) Pakkumus, milles arhitekt on eelnevalt osalenud arhitektina vähemalt 12 kuud (ka erinevates projektides koondina) projektis, milles on kasutusel Java platvorm – omistatakse 5 punkti;
+7) Pakkumus, milles vähemalt ühel meeskonnaliikmel on kogemus Elastic search optimeerimisel ja arendamisel vähemalt kahes projektis – omistatakse 5 punkti.
+
+3. Sotsiaalselt vastutustundlik ettevõtja
+Tingimuse täitmise alternatiivid:
+1. 5 punkti saab pakkuja, kes on Vastutustundliku Ettevõtluse Foorumi liige (Kestliku Ettevõtluse Liit KELL liikmed). Palume liikmesuse tõend lisada pakkumuse koosseisu.
+2. 5 punkti saab pakkuja, kellele on omistatud vastutustundliku ettevõtte märgis või samaväärne. Palume märgis lisada
+pakkumuse koosseisu. Hankija peab samaväärseks näiteks "Hea Töökeskkonna auhind" või muud taolist.
+3. 5 punkti saab pakkuja, kes täidab järgmist tingimust:
+Pakkumus saab 5 punkti, kui pakkuja võtab kasutusele vähemalt kaks töötajate töö- ja eraelu tasakaalu toetavat meedet, mida pakkuja rakendab hankelepingu täitmisel. Näiteks on töö- ja eraelu
+tasakaalu toetavaks meetmeks töötajatele ühe vaba päeva võimaldamine kuus seoses eraelulise sündmusega või tervisepäeva võimaldamine. Tervisepäev on tasustatud tööpäev ilma haiguslehte
+võtmata, mida töötaja saab kasutada näiteks massaažis käimiseks või enda koduseks ravimiseks. Pakkuja esitab pakkumuses nimekirja, millised on kaks kasutusele võetavat töö- ja eraelu
+tasakaalu toetavat meedet ning selgitab, kuidas toetavad need meetmed töö- ja eraelu tasakaalu ning millal on töötajatel õigus neid meetmeid rakendada.
+
+Koostatud 17.11.2025 11:23:00
+
+2/2
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9514425/general-info
+
+

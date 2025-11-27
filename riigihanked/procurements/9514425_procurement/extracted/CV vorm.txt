@@ -1,0 +1,125 @@
+Curriculum Vitae vorm
+
+Hankija: Registrite ja Infosüsteemide Keskus
+
+Hanke nimetus ja viitenumber: „E-kataloogi arendustööd" (302310)
+
+Spetsialisti roll:
+
+-   Ees- ja perenimi:
+
+-   Isikukood või sünniaeg:
+
+-   Kodakondsus:
+
+-   Ettevõtte nimi (kus töötaja praegu töötab):
+
+-   Spetsialisti rollile vastav erialane tööstaaž (kuudes):
+
+-   Kontaktandmed (tel, e-post)[1]:
+
+Keeleoskus
+
+  ------------------------------------------------------------------------
+  Keele nimetus       Kõneoskus                Kirjaoskus
+  ------------------- ------------------------ ---------------------------
+  Eesti keel                                   
+
+  Inglise keel                                 
+
+  ……..                                         
+  ------------------------------------------------------------------------
+
+Haridustase:
+
+  ---------------------------------------------------------------------------
+  Haridusasutus   Õppimisaeg   Lõpetatud    Omandatud tase    Põhieriala
+                  (alates -    (jah / ei /  (diplom,          (kõrghariduse
+                  kuni         pooleli)     bakalaureus,      korral)
+                  kuu/aasta)                magister vmt)     
+  --------------- ------------ ------------ ----------------- ---------------
+                                                              
+
+                                                              
+  ---------------------------------------------------------------------------
+
+Töökogemused[2] (loetleda vastavalt spetsialistile esitatud nõuetele:
+ajaperiood esitada kalendrikuu täpsusega)
+
+  -----------------------------------------------------------------------
+  1. Ettevõtte nimi:         
+  -------------------------- --------------------------------------------
+  Ajaperiood (alates-kuni):  __.____(kuu/aasta) – __.____(kuu/aasta)
+
+  Ametikoha nimi:            
+
+  Töö sisu lühikirjeldus:    
+
+  2.[3] Ettevõtte nimi:      
+
+  …                          
+  -----------------------------------------------------------------------
+
+Kogemus nõutud rollis – Teostatud tööd, projektid, omandatud
+kompetentsid ja kogemused[4] (loetleda vastavalt spetsialistile esitatud
+kompetentsinõuetele):
+
+  ----------------------------------------------------------------------------------
+  1. Projekti nimetus:                        
+  ------------------------------------------- --------------------------------------
+  Projekti tellija (asutus/organisatsioon):   
+
+  Tellija esindaja kontakt:                   ees- ja perenimi; tel nr ning e-maili
+                                              aadress
+
+  Projekti periood (alates-kuni):             __.____(kuu/aasta) –
+                                              __.____(kuu/aasta)
+
+  Roll projektis (arendaja vms):              
+
+  Teostatud töö sisu lühikirjeldus (esitatud  
+  kirjeldusest peab välja tulema              
+  kompetentsinõuetes/hindamiskriteeriumites   
+  esitatud nõude/nõuete olemasolu projektis): 
+
+  2.[5] Projekti nimetus:                     ...
+
+  …                                           
+  ----------------------------------------------------------------------------------
+
+Käesolevaga kinnitab pakkuja, et spetsialist:
+
+-   on andnud nõusoleku lepingu täitmisel osalemiseks;
+
+-   on kriminaalkorras karistamata;
+
+-   käesolevas CV-s esitatud andmed on õiged ning vastavad tõele;
+
+-   hankija võib kõiki tema kohta esitatud andmeid igal ajal
+    kontrollida;
+
+-   valdab kõiki asjakohaseid riigihanke alusdokumentides kirjeldatud
+    tehnoloogiaid ja metoodikaid ning on nõus neid järgima.
+
+CV-s esitatud spetsialist: allkirjastatud digitaalselt (juhul kui ei ole
+tegemist samas ettevõttes töötava isikuga ja/või esitatud CV-st ei
+tulene pakkujaga töösuhet)
+
+Kinnitame, et spetsialist vastab kõikidele esitatud nõuetele.
+
+[1] Kasutatakse vaid lepingusse lisamisel, kui pakkujaga sõlmitakse
+leping.
+
+[2] Märkida alates hilisemast lepingust ainult need lepingud, millega on
+hõlmatud nõutav töökogemus.
+
+[3] Juhul kui nõutav töökogemus ei ole ühe tööandja juures, tuleb iga
+tööandja osas märkida info samade väljadega, nagu on esitatud viimase
+tööandja juures.
+
+[4] Märkida ainult need projektid, mis vastavad spetsialisti
+kompetentsinõuetes (tehnilise kirjelduse p 5.7) ja
+hindamiskriteeriumites esitatud tingimustele.
+
+[5] Iga projekt tuleb eraldi välja tuua samade väljadega, nagu on
+esimese projekti osas.

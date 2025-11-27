@@ -1,0 +1,581 @@
+1 / 12
+
+ALLTÖÖVÕTJATE KONTROLLIMISE TINGIMUSED LEPINGU
+TÄITMISE ETAPIS
+Viitenumber:
+
+302310
+Hankija:
+Registrite ja Infosüsteemide Keskus (70000310)
+Hange:
+E-kataloogi arendustööd
+Esimese ringi alltöövõtjaid kontrollitakse:Jah
+Teise ja järgmiste ringide alltöövõtjaid kontrollitakse: Ei
+Alltöövõtjad peavad esitama hankepassi: Jah
+
+ALLTÖÖVÕTJA ESIMESE RINGI KÕRVALDAMISE ALUSED
+A: Kõrvalejätmise alused seoses kriminaalasjas tehtud süüdimõistva otsusega
+OSALEMINE KURITEGELIKUS ORGANISATSIOONIS
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud kuritegelikus organisatsioonis osalemise eest kõige rohkem
+viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise
+kohustus endiselt?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+KORRUPTSIOON
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud korruptsiooni eest kõige rohkem viimase viie aasta jooksul või
+kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt? See
+kõrvalejätmise alus hõlmab ka korruptsiooni avaliku sektori hankija (võrgustiku sektori hankija)
+või ettevõtja riigi õiguses sätestatud määratluses.
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+2 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+PETTUS
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud kelmuse eest kõige rohkem viimase viie aasta jooksul või kehtib
+süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+TERRORIAKTI TOIMEPANEK VÕI TERRORISTLIKU TEGEVUSEGA SEOTUD
+ÕIGUSRIKKUMISED
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud terroriakti toimepaneku või terroristliku tegevusega seotud
+õigusrikkumiste eest kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas
+kohtuotsuses sätestatud kõrvalejäämise kohustus endiselt?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+3 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+RAHAPESU VÕI TERRORISMI RAHASTAMINE
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud rahapesu või terrorismi rahastamise eest kõige rohkem viimase
+viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud kõrvalejäämise kohustus
+endiselt?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+LASTE TÖÖJÕU KASUTAMINE JA MUUD INIMKAUBANDUSE VORMID
+Kas ettevõtja ise või tema haldus-, juht- või järelevalveorgani liige või isik, kellel on volitused
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on lõpliku süüdimõistva
+kohtuotsusega süüdi mõistetud laste tööjõu kasutamise või muude inimkaubanduse vormide eest
+kõige rohkem viimase viie aasta jooksul või kehtib süüdimõistvas kohtuotsuses sätestatud
+kõrvalejäämise kohustus endiselt?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+4 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Süüdimõistmise kuupäev (Kuupäev)
+3. Põhjus (Suur sisestusala (max pikkus 4000 tähemärki))
+4. Kes süüdi mõisteti? (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+6. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+7. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+8. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+9. URL (Url)
+10. Kood (Sisestusväli (max pikkus 250 tähemärki))
+11. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+B: Kõrvalejätmise alused seoses maksude või sotsiaalkindlustusmaksete tasumisega
+MAKSUDE TASUMINE
+Kas ettevõtja on rikkunud oma maksude tasumise kohustusi nii asukohariigis kui ka avaliku
+sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb asukohariigist?
+Kehtib: Kõik osad
+
+Tingimuse kirjeldus:
+Piirmäär: 0
+Valuuta: EUR
+Lisainfo: Maksukorralduse seaduse kohaselt ei väljasta maksuhaldur maksuvõlgade tõendit juhul,kui
+maksukohustuslasel olev kõikide sama maksuhalduri hallatavate maksude võlg, arvestamata
+haldusaktiga kindlaksmääramata intressi, on väiksem kui 100 eurot või kui maksuvõla tasumine on
+ajatatud. Välismaise ettevõtja puhul väljastatakse maksuvõlgade tõend tema asukohariigi õigusaktide
+kohaselt.
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Asjaomane riik või liikmesriik (Riigikood)
+3. Asjaomane summa (Summa)
+4. Valuuta (Vääring)
+5. Kas see kohustuste rikkumine on tuvastatud muude vahenditega kui kohtu- või haldusotsusega?
+(Raadionupp valikutega "Jah/Ei")
+6. Kirjeldage kasutatud vahendeid (Suur sisestusala (max pikkus 4000 tähemärki))
+7. Kui kohustuste rikkumine tuvastati kohtu- või haldusotsusega, märkige, kas see otsus on lõplik ja
+siduv. (Raadionupp valikutega "Jah/Ei")
+8. Süüdimõistmise kuupäev (Kuupäev)
+9. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+10. Kas ettevõtja on täitnud oma kohustused tasumisele kuuluvate maksude või
+sotsiaalkindlustusmaksete tasumisega või siduva kokkuleppe sõlmimisega tasumisele kuuluvate
+maksude või sotsiaalkindlustusmaksete, sealhulgas vajaduse korral kogunenud intresside ja viiviste
+tasumise kohta? (Raadionupp valikutega "Jah/Ei")
+11. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+12. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+13. URL (Url)
+14. Kood (Sisestusväli (max pikkus 250 tähemärki))
+15. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+5 / 12
+
+SOTSIAALKINDLUSTUSMAKSETE TASUMINE
+Kas ettevõtja on rikkunud oma sotsiaalkindlustusmaksete tasumise kohustusi nii asukohariigis
+kui ka avaliku sektori hankija või võrgustiku sektori hankija liikmesriigis, kui see erineb
+asukohariigist?
+Kehtib: Kõik osad
+
+Tingimuse kirjeldus:
+Piirmäär: 0
+Valuuta: EUR
+Lisainfo: Maksukorralduse seaduse kohaselt ei väljasta maksuhaldur maksuvõlgade tõendit juhul,kui
+maksukohustuslasel olev kõikide sama maksuhalduri hallatavate maksude võlg, arvestamata
+haldusaktiga kindlaksmääramata intressi, on väiksem kui 100 eurot või kui maksuvõla tasumine on
+ajatatud. Välismaise ettevõtja puhul väljastatakse maksuvõlgade tõend tema asukohariigi õigusaktide
+kohaselt.
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Asjaomane riik või liikmesriik (Riigikood)
+3. Asjaomane summa (Summa)
+4. Valuuta (Vääring)
+5. Kas see kohustuste rikkumine on tuvastatud muude vahenditega kui kohtu- või haldusotsusega?
+(Raadionupp valikutega "Jah/Ei")
+6. Kirjeldage kasutatud vahendeid (Suur sisestusala (max pikkus 4000 tähemärki))
+7. Kui kohustuste rikkumine tuvastati kohtu- või haldusotsusega, märkige, kas see otsus on lõplik ja
+siduv. (Raadionupp valikutega "Jah/Ei")
+8. Süüdimõistmise kuupäev (Kuupäev)
+9. Süüdimõistvas otsuses sõnaselgelt esitatud kõrvalejätmise kestus. (Periood)
+10. Kas ettevõtja on täitnud oma kohustused tasumisele kuuluvate maksude või
+sotsiaalkindlustusmaksete tasumisega või siduva kokkuleppe sõlmimisega tasumisele kuuluvate
+maksude või sotsiaalkindlustusmaksete, sealhulgas vajaduse korral kogunenud intresside ja viiviste
+tasumise kohta? (Raadionupp valikutega "Jah/Ei")
+11. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+12. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+13. URL (Url)
+14. Kood (Sisestusväli (max pikkus 250 tähemärki))
+15. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+C: Kõrvalejätmise alused seoses maksejõuetusega, huvide konfliktiga või ametialaste
+käitumisreeglite rikkumisega
+KESKKONNAÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud keskkonnaõiguse valdkonnas kohaldatavaid kohustusi?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+6 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+SOTSIAALÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud sotsiaalõiguse valdkonnas kohaldatavaid kohustusi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+TÖÖÕIGUSE VALDKONNAS KOHALDATAVATE KOHUSTUSTE TÄITMATA
+JÄTMINE
+Kas ettevõtja on enda teada rikkunud tööõiguse valdkonnas kohaldatavaid kohustusi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+PANKROT
+Kas ettevõtja on pankrotis?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+7 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+MAKSEJÕUETUS
+Kas ettevõtja suhtes on algatatud maksejõuetus- või likvideerimismenetlus?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+KOKKULEPE VÕLAUSALDAJATEGA
+Kas ettevõtja on sõlminud kokkuleppe võlausaldajatega?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+SISERIIKLIKU ÕIGUSE KOHANE SAMALAADNE OLUKORD, NÄITEKS PANKROT
+Kas ettevõtja on siseriiklike õigusnormide alusel toimuva samalaadse menetluse tõttu
+samalaadses olukorras?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+8 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+VARA HALDAB LIKVIDEERIJA
+Kas ettevõtja vara haldab likvideerija või kohus?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+ÄRITEGEVUS ON PEATATUD
+Kas ettevõtja äritegevus on peatatud?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Märkige põhjused, miks lepingu täitmine on sellest hoolimata võimalik. Seda teavet ei ole tarvis
+esitada, kui ettevõtja kõrvalejätmine on kohaldatava siseriikliku õiguse alusel muudetud konkreetsel
+juhul kohustuslikuks ja puudub võimalus teha erandit, isegi kui ettevõtja suudab lepingut täita. (Suur
+sisestusala (max pikkus 4000 tähemärki))
+4. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+5. URL (Url)
+6. Kood (Sisestusväli (max pikkus 250 tähemärki))
+7. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+SÜÜDI AMETIALASTE KÄITUMISREEGLITE OLULISES RIKKUMISES
+Kas ettevõtja on süüdi ametialaste käitumisreeglite olulises rikkumises? Vt siseriiklikud
+õigusaktid, asjaomane teade või hankedokumendid, kui see on asjakohane.
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+9 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+KONKURENTSI MOONUTAMISE EESMÄRGIL TEISTE ETTEVÕTJATEGA
+SÕLMITUD KOKKULEPPED
+Kas ettevõtja on teiste ettevõtjatega sõlminud kokkuleppeid, mille eesmärk on moonutada
+konkurentsi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+HANKEMENETLUSES OSALEMISEGA KAASNEV HUVIDE KONFLIKT
+Kas ettevõtja on teadlik hankemenetluses osalemisega kaasnevast mis tahes huvide konfliktist
+siseriikliku õiguse, asjakohase teatise või hankedokumentide kohaselt?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+4. URL (Url)
+5. Kood (Sisestusväli (max pikkus 250 tähemärki))
+6. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+OTSENE VÕI KAUDNE OSALEMINE KÄESOLEVA HANKEMENETLUSE
+ETTEVALMISTAMISEL
+Kas ettevõtja või temaga seotud ettevõtja on nõustanud avaliku sektori hankijat või võrgustiku
+sektori hankijat hankemenetluse ettevalmistamisel või olnud muul viisil seotud hankemenetluse
+ettevalmistamisega?
+Kehtib: Kõik osad
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+10 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+4. URL (Url)
+5. Kood (Sisestusväli (max pikkus 250 tähemärki))
+6. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+ENNETÄHTAEGNE LÕPETAMINE, KAHJUTASU VÕI VÕRRELDAVAD
+SANKTSIOONID
+Kas ettevõtja on kogenud, et varasem riigihankeleping või võrgustiku sektori hankijaga sõlmitud
+varasem hankeleping või varasem kontsessioonileping on lõpetatud enneaegselt, või on määratud
+kahjutasu või sellega võrreldavad sanktsioonid seoses kõnealuse varasema lepinguga?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+3. Kas olete võtnud meetmeid, et tõendada oma usaldusväärsust („Self-Cleaning”)? (Raadionupp
+valikutega "Jah/Ei")
+4. Kirjeldage neid (Suur sisestusala (max pikkus 4000 tähemärki))
+5. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+6. URL (Url)
+7. Kood (Sisestusväli (max pikkus 250 tähemärki))
+8. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+SÜÜDI VALEANDMETE ESITAMISES, ON JÄTNUD TEAVET ESITAMATA, EI SUUDA
+NÕUTUD DOKUMENTE ESITADA, HANKINUD KÄESOLEVA MENETLUSE KOHTA
+KONFIDENTSIAALSET TEAVET
+Kas ettevõtja on olnud ühes järgmistest olukordadest:
+a) ta on kõrvalejätmise aluste puudumise või valikukriteeriumide täitmise kontrollimiseks
+nõutava teabe esitamisel esitanud valeandmeid;
+b) ta on jätnud sellist teavet esitamata;
+c) ta ei ole esitanud viivitamata avaliku sektori hankija või võrgustiku sektori hankija nõutud
+täiendavad dokumendid, ja
+d) ta on tegutsenud eesmärgiga mõjutada lubamatul viisil avaliku sektori hankija või võrgustiku
+sektori hankija otsustusprotsessi, et saada konfidentsiaalseid andmeid, mis võivad anda talle
+põhjendamatu eelise hankemenetluses, või hooletusest esitanud eksitavat teavet, mis võib
+oluliselt mõjutada kõrvalejätmise, valiku või lepingu hindamise kohta tehtavaid otsuseid?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+3. URL (Url)
+4. Kood (Sisestusväli (max pikkus 250 tähemärki))
+5. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+11 / 12
+
+D: Ainult siseriiklikest õigusaktidest tulenevad kõrvalejätmise alused
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: SEADUSLIKU ALUSETA VIIBIVALE VÄLISMAALASELE TÖÖTAMISE
+VÕIMALDAMINE
+Kas ettevõtja on rikkunud RHS § 95 lg 1 p-st 2 tuleneva kõrvalejätmise alusega seotud kohustusi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+3. URL (Url)
+4. Kood (Sisestusväli (max pikkus 250 tähemärki))
+5. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: RAHVUSVAHELISE SANKTSIOONI SUBJEKT
+Kas ettevõtja on rikkunud RHS § 95 lg 1 p-st 5 tuleneva kõrvalejätmise alusega seotud kohustusi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+3. URL (Url)
+4. Kood (Sisestusväli (max pikkus 250 tähemärki))
+5. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: HANKIJA ASUKOHAJÄRGSE KOHALIKU MAKSU MAKSUVÕLG
+Kas ettevõtja on rikkunud RHS § 95 lg-st 4.1 tuleneva kõrvalejätmise alusega seotud kohustusi?
+Kehtib: Kõik osad
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+3. URL (Url)
+4. Kood (Sisestusväli (max pikkus 250 tähemärki))
+5. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: KARISTATUD MAKSUALASTE SÜÜTEGUDE EEST
+Kas ettevõtja on rikkunud RHS § 95 lg 4 p-st 11 tuleneva kõrvalejätmise alusega seotud
+kohustusi?
+Kehtib: Kõik osad
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+12 / 12
+
+Ettevõtjalt oodatavad vastused:
+1. Mis on Teie vastus? (Raadionupp valikutega "Jah/Ei")
+2. Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+3. URL (Url)
+4. Kood (Sisestusväli (max pikkus 250 tähemärki))
+5. Väljaandja (Sisestusväli (max pikkus 250 tähemärki))
+
+Koostatud 03.11.2025 15:12:23
+https://riigihanked.riik.ee/rhr-web/#/procurement/9514425/general-info
+
+

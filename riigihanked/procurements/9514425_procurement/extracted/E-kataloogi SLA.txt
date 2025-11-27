@@ -1,0 +1,168 @@
+KINNITATUD
+direktori 06.12.2021. a
+käskkiri nr 199
+Lisa
+E-kataloogi teenustaseme lepe (SLA)
+E-kataloog on Riigihangete registris teostatud riigihangete alusel sõlmitud lepingute
+järelhalduskeskkond. E-kataloogi tekivad tooted/teenused ainult läbi Riigihangete registri (RHR)
+teostatava e-kataloogi riigihanke, mistõttu e-kataloogi sisu on nähtav isikutele, kes on seotud RHRis
+mõne riigihankega ning hankija vaates hanke alusel on sõlmitud ka leping.
+ISKE turvaklass K2S2T2
+1. Üldmääratlus
+Jrk. nr
+1.1
+1.2
+1.3
+
+Tingimus
+
+Väärtus
+
+Kriitilisuse klass
+Andmete varukoopiaklass
+Varukoopiate paigutamine lühiajalisele säilitamisele
+
+III
+P
+N
+
+2. IT-Teenuse kättesaadavus
+2.1
+2.2
+
+Tööaeg
+Süsteemi sisutoe tööaeg
+
+2.3
+2.4
+
+Maksimaalne lubatud üheaegne kasutajate arv
+Maksimaalne lubatud üheaegne toimingute arv
+
+E-R
+I
+I
+
+L, P
+-
+
+250 kasutajat
+30 toimingut
+sekundis
+
+3. Planeeritud katkestus
+3.1
+3.2
+3.3
+3.4
+
+Planeeritud katkestusest etteteatamisaeg (vähemalt)
+Planeeritud katkestuste maksimaalne kogukestvus
+aastas
+Ühe planeeritud katkestuse maksimaalne kestvus
+Maksimaalne planeeritud katkestuste arv kuus
+
+48h
+144h
+6h
+4 tk
+
+4. Planeerimata katkestus
+4.1
+4.2
+
+Lubatud planeerimata katkestuste kogukestvus
+aastas
+Maksimaalne ühekordse planeerimata katkestuse
+kestvus1
+
+96h
+8h
+
+5. IT-teenuse funktsioonide reaktsiooniajad
+Reaktsiooniajad vastavad kokkuleppele, kui kokku lepitud aega mahub 90% tehtud operatsioonidest.
+Funktsioonid
+
+Viide
+(normaalne-
+
+1 Kahe või enama I kriitilisuse klassiga IT-teenuse katkestuse korral toimub IT-teenuse töö taastamine vastavalt
+Infoturbe juhtrühma protokollilise otsusega kinnitatud järjestusele.
+
+maksimaalne
+sekundites)
+5.1 Avalehe avamine
+5.2 Lihtotsingu tegemine
+6. Logide säilitamine
+
+6.1
+6.2
+
+1-3
+1-3
+
+Tingimus
+
+Väärtus
+
+Rakendusserveri logide säilitamine
+Andmebaasi logide säilitamine
+
+3 kuud
+1 aasta
+
+SLA mõisted
+1. Kriitilisuse klass – lähtuvalt taasteaegadest jaotatakse IT-teenuse osad järgmistesse kriitilisuse
+klassidesse:
+ I (tegevuskriitiline) - taasteaeg kuni 2 ööpäeva,
+ II (kriitiline) - taasteaeg kuni 7 ööpäeva,
+ III (oluline) - taasteaeg kuni 21 ööpäeva,
+ IV (vajalik ) - taasteaeg kuni 28 ööpäeva.
+2. Logide säilitamine – määratletakse kui kaua säilitatakse IT-teenuse jaoks vajalikke (andmebaasi,
+rakendusserveri) logisid. Logi on kronoloogiline sündmuste andmestik, mis talletatakse
+andmefailina järgnevaks läbivaatuseks ja analüüsimiseks.
+3. Lubatud planeerimata katkestuste kogukestvus – lubatud planeerimata katkestuse kogukestvus on
+maksimaalne lubatud planeerimata katkestuste kestvus mingil ajaperioodil (nt kuus, aastas).
+4. Maksimaalne lubatud üheaegne kasutajate arv – maksimaalne lubatud üheaegne kasutajate arv on
+süsteemi kvaliteetseks toimimiseks suurim lubatud sessioonide arv või suurim lubatud üheaegne
+kasutajate arv, kes IT-teenust kasutab.
+5. Maksimaalne lubatud üheaegne toimingute arv – maksimaalne lubatud üheaegne kas toimingute
+arv on süsteemi kvaliteetseks toimimiseks suurim lubatud üheaegne toimingute, sh logimine,
+otsimine, pärimine arv erinevate kasutajate poolt. Maksimaalne lubatud üheaegne toimingute arv
+on jõudlustestide tegemise aluseks.
+6. Maksimaalne planeeritud katkestuste arv kuus – maksimaalne planeeritud katkestuste arv kuus on
+mitu katkestust (korralist hooldustööd) maksimaalselt võib ühte kuusse IT-teenuses planeerida.
+7. Maksimaalne viide – maksimaalne viide on maksimaalne lubatud reaktsiooniaeg.
+8. Maksimaalne ühekordse planeerimata katkestuse kestvus – maksimaalne ühekordse planeerimata
+katkestuse kestvus on maksimaalne lubatud ajavahemik, kus IT-teenus ei ole tööajal kättesaadav
+või on oluliselt häiritud vähemalt ühe asutuse piires.
+9. Normaalne viide – normaalne viide on tavapärane reaktsiooniaeg sekundites, mille jaoks on
+süsteem optimeeritud.
+10. Planeeritud katkestus – planeeritud katkestus on eelnevalt kokkulepitud ajavahemik, mille jooksul
+IT-teenus ei ole kättesaadav. Planeeritud katkestused toimuvad ainult IT-teenuse tööajal.
+11. Planeerimata katkestus – planeerimata katkestus on tööajal aset leidev mitteplaanipärane katkestus
+IT-teenuse toimimises.
+12. Reaktsiooniaeg – reaktsiooniaeg on aeg, mis kulub sisestushetkest või päringusignaalist kuni
+vastuse saamiseni. Reaktsiooniaegade tabelis kirjeldatud funktsioonid on aluseks teenustaseme
+mõõtmisel ja peavad olema IT-teenuse seisukohast olulised ja millede monitoorimisel saab
+kinnituse IT-teenuse toimimisest.
+13. Tööaeg – tööaeg on ajavahemik, millal IT-teenus peab olema kasutajatele kättesaadav. Tööaeg
+määratakse eraldi tööpäevadele ning nädalavahetustele.
+Tööaeg on jaotatud klassidesse järgnevalt:
+I 8:00 – 18:00
+II 6:00 – 22:00
+III 00:00 – 00:00
+
+14. Süsteemi sisutoe tööaeg – süsteemi sisutoe tööaeg on ajavahemik, mille jooksul on võimalik saada
+halduri tuge IT-teenusele.
+Süsteemi sisutoe tööaeg on jaotatud klassidesse järgnevalt:
+I 8:30 – 17:00 – pöördumised, mis vajavad halduri või muu teise osapoole osalemist pöördumise
+lahendamisel.
+II 7.30 – 18.30 – pöördumised, mis ei vaja halduri või muu teise osapoole osalemist pöördumise
+lahendamisel.
+15. Varukoopia klass – varukoopia klass määratleb varukoopiate tegemise sageduse lähtuvalt süsteemi
+olulisusest ning maksimaalsest lubatud andmekaost.
+16. Varukoopiate säilitamine – varukoopia säilitamine määratleb varukoopia tsükli pikkuse ehk
+ajavahemiku, kui kaua säilitatakse varukoopiaid enne kustutamist (P-päev, N-nädal, K-kuu, Aaasta).
+
+

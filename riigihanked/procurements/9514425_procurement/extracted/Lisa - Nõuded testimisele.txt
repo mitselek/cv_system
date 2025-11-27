@@ -1,0 +1,225 @@
+Nõuded testimisele v1.2
+versioon 1.2
+Sisukord
+Sissejuhatus
+1. Üldine AO-N-TE-Y
+2. Dokumentatsioon AO-N-TE-D
+3. Testplaan ja -lood AO-N-TE-T
+4. Logimine, raporteerimine AO-N-TE-R
+5. Nõuded testidele AO-N-TE-N
+6. Lähtekood ja spetsiaalsed tööriistad AO-N-TE-I
+7. Alusandmed AO-N-TE-A
+8. Koormus- ja stressitestid AO-N-TE-S
+
+Sissejuhatus
+Enne projekti tegelikku algust lepitakse kokku kõik erisused - millised punktid vastavas projektis ei rakendu (pole võimalik/vajalik) ja kas rakenduvad mingid täiendavad punktid või all-loetletud punktidele
+täpsustused.
+
+1. Üldine AO-N-TE-Y
+Nõue
+
+Sisu
+
+AO-NTE-Y-1
+
+Kõikide üle antavate tarkvara versioonidega peavad kaasas olema vastavad testid, nendega seotud dokumentatsioon ning kirjelduse või raporti leitud ja parandatud vigadest.
+
+AO-NTE-Y-2
+
+Tarkvara vastuvõtmiseks vajalikud hankevõitja poolsed testimised ja skoop (osa testplaanist) lepitakse kokku projekti alguses ning seda muudetakse poolte kokkuleppel.
+
+AO-NTE-Y-3
+
+Vastavalt kokkuleppele tuleb koostada ning üle anda punktis AO-N-TE-Y-2 nimetatud testplaan ja testlood ning eraldi testprojekti ja -programmi puhul ka vajaminev dokumentatsioon ja
+kirjeldus.
+
+AO-NTE-Y-4
+
+Testitava tarkvara lõplik versioon peab läbima vastavad nõuded koormusele/jõudlusele (ISKE,SLA jm.). Selle tõestamiseks tuleb tarnida ka vastavad testid.
+
+AO-NTE-Y-5
+
+Üle antud testides või vastuvõtutestimisel esinenud probleemid tuleb parandada sarnaselt põhiarendusega.
+
+AO-NTE-Y-6
+
+Testid peavad olema loogiliselt grupeeritud ning numereeritud, nii et skriptide või tööriistade abil saab kindlat osa käivitada. Näiteks teenuse- või tüübi kaupa (süsteemitestid, koormustestid
+vm.).
+
+AO-NTE-Y-7
+
+Üle antud testide käivitamiseks ei pea RIK soetama lisatarkvara. Näiteks automaattestid, koormustestid jm. võiks olla kirjutatud C#+NUnit'is, Selenium'is, JMeter'is, Robot Framework'is või
+Gattling'us. Kokkuleppel Java+JUnit, Cypress või muu.
+
+2. Dokumentatsioon AO-N-TE-D
+Nõue
+
+Sisu
+
+AO-N-TE-D1
+
+Dokumentatsiooni eesmärgiks on edasi anda kogu vajalik informatsioon testide kohta (testplaanid, testlood, testide käivitamiseks, jooksutamiseks ja valideerimiseks vajalik informatsioon
+jne).
+
+AO-N-TE-D2
+
+Dokumentatsioon peab olema versioneeritud ning iga punkti (Näiteks Testlugu) juures peab olema tekkimise aeg, viimase muudatuse aeg, autor, muutja.
+
+3. Testplaan ja -lood AO-N-TE-T
+Nõue
+
+Sisu
+
+AO-NTE-T-1
+
+Testplaanile ja –lugudele rakendub peatükk AO-N-TE-D-2 .
+
+AO-NTE-T-2
+
+Testplaan kirjeldab ning selgitab kogu tarkvaraga seotud testimist, kui ei ole kokku lepitud teisiti.
+
+AO-NTE-T-3
+
+Testlood tulenevad kasutuslugudest ja/või süsteemianalüüsi nõuetest, nende kattumisel piisab testimise kirjeldusest, et vältida dokumentatsiooni dubleerimist.
+
+AO-NTE-T-4
+
+Testloos peab minimaalselt olema: testi kirjeldus, viide nõudele või kasutusloole, etapid, oodatud tulemus, tegelik tulemus.
+
+AO-NTE-T-5
+
+Testprojekti ja –programmi puhul võib kood koos kommentaaridega täita testloo rolli (Näiteks Testi nimetus viitab kindlale testloole või süsteeminõudele, C# kirjutatud süsteemitesti
+nimetamisloogika ja kommentaarid teevad kergelt selgeks tegevuste ahela).
+
+4. Logimine, raporteerimine AO-N-TE-R
+Nõue
+
+Sisu
+
+AO-NTE-R-1
+
+Raportitele rakendub peatükk AO-N-TE-D-2 . Eraldi raporteid pole tingimata vaja kui kasutatakse ühist JIRA + Confluence keskkonda.
+
+AO-NTE-R-2
+
+Testraportis kajastatud vigade juures peab olema märgitud tarne versioon, milles viga leiti ning milles see on kõrvaldatud.
+
+AO-NTE-R-3
+
+Automaatsete testide puhul peab automaatselt genereeruma testraport või statistika tegemiseks vajalik logi (Näiteks NUnit genereerib ise raporti, JMeteris Summary Report+ Aggregate Report
+või eraldi .csv fail jne.).
+
+AO-NTE-R-4
+
+Koormus- ja stressitestide puhul peab raport kajastama, millise koormuse juures hakkasid testid negatiivseid tulemusi saama ning millised vead esinesid.
+
+AO-NTE-R-5
+
+Koormus- ja stressitestide juures on vaja minimaalselt välja tuua: saadetud päringute arv, min. päringu käitlemise aeg(ms), max. päringu käitlemise aeg(ms), päringute käitlemise standardhälve
+(ms), keskmine päringu käitlemise aeg(ms), vigade %, läbilaskevõime(tegevust/sek.), 90/95/99 protsentiilid.
+
+5. Nõuded testidele AO-N-TE-N
+Nõue
+
+Sisu
+
+AO-N-TEN-1
+
+Testprojekti ja –programmi testide juures rakendub peatükk AO-N-TE-D-2 , lisaks peab testi juurde märkima testi tegija ning tarkvara versiooni, millele test koostati.
+
+AO-N-TEN-2
+
+Süsteemitestidega peavad olema kaetud kõik süsteemi osad, kui ei ole kokku lepitud teisiti (Näiteks kõik arendatud teenused, kasutajaliidesega rakenduse testlood jne.).
+
+AO-N-TEN-3
+
+Iga test peab olema süsteemi- või ärianalüütiliselt terviklik põhjendatav kooslus (Näiteks ühes testis ei testita kahte erinevat teenust või süsteemi viga).
+
+AO-N-TEN-4
+
+Iga teenuse kohta peab olema Smoke test, mis kontrollib lihtsaima sisendiga teenuse töökorda.
+
+AO-N-TEN-5
+
+Kuna RIKis arendatakse pideva integratsiooni mudelit järgides, siis peab olema võimalik teste valikuliselt grupeerida ning neid automaatselt käivitada (Näiteks Grupp „Nightly" öiste
+integratsioonitestide jaoks).
+
+AO-N-TEN-6
+
+Testsessioonid ning omavahel mitte seotud testid ei tohi üksteist mõjutada.
+
+6. Lähtekood ja spetsiaalsed tööriistad AO-N-TE-I
+Nõue
+
+Sisu
+
+AO-N-TE-I1
+
+Spetsiaalselt arendatud testprojektile ja -programmile rakenduvad „Nõuded arendustele –Nõuded rakenduse koodile" .
+
+AO-N-TE-I2
+
+Spetsiaalselt arendatud testprojektid peavad kasutama üldtuntud raamistikke Näiteks NUnit, JUnit.
+
+AO-N-TE-I3
+
+Kui testprojekt kasutab Objektide kihte, omab teenuste kihti või koodi osa, mida saab WSDL, andmebaasi või muu pealt genereerida, siis selleks peab kasutama tööriistu (Näiteks DTOd ei
+kirjutata käsitsi).
+
+AO-N-TE-I4
+
+Punktis AO-N-TE-I-3 mainitud tööriistad ja nende parandused tuleb tarnida koos testidega.
+
+7. Alusandmed AO-N-TE-A
+Nõue
+
+Sisu
+
+AO-N-TEA-1
+
+Alusandmete genereerimiseks vajalik peab olema vastavate testidega kaasas.
+
+AO-N-TEA-2
+
+Kui testimiseks on vajalikud andmed teistest süsteemidest, siis nende saamine lepitakse eelnevalt kokku.
+
+AO-N-TEA-3
+
+Alusandmed peavad töötama erinevates keskkondades, kaasa arvatud andmed, mida päritakse teistest süsteemidest.
+
+AO-N-TEA-4
+
+Peab vältima teiste süsteemide andmete rikkumist, selle vältimiseks vt. punkt AO-N-TE-A-2 .
+
+AO-N-TEA-5
+
+Eelistama peaks alusandmete genereerimist või eraldi üldkasutatavat kihti, millest andmed võetakse, mitte koodi sisse kirjutatud andmeid (Näiteks Isikukoodid võetakse üldisest jadast või
+eraldi testandmete alamprojektist).
+
+AO-N-TEA-6
+
+Võimalusel kasutada sünteetilisi, mitte reaalseid andmeid (Näiteks reaalsuses mitte eksisteerivad Isikud), eriti kui arendatavas tarkvaras on automaatseid teavitusi või muud samalaadset
+(Näiteks automaatne e-mailide saatmine).
+
+8. Koormus- ja stressitestid AO-N-TE-S
+Nõue
+
+Sisu
+
+AO-N-TE-S-1
+
+Testide üleandmisel peab kaasa andma nendega kaasneva dokumentatsiooni, kasutatud konfiguratsiooni ning vajadusel riistvara ja arhitektuuri kirjelduse.
+
+AO-N-TE-S-2
+
+Kasutatud konfiguratsioon ning riistvara ja arhitektuur võiks tugevalt sarnaneda vastuvõtja test- või toodangukeskkonna riistvaraga.
+
+AO-N-TE-S-3
+
+Testid peavad olema üldisest konfiguratsioonist skaleeritavad: kasutajate arv, kasutajate etapilisus (ramp-up), testide ajastamine jm. on üldised muutujad või üldises konfiguratsioonis.
+
+AO-N-TE-S-4
+
+Igal testil peab olema konkreetne kontekst (Näiteks SLA nõue, teenuse või baasiprotseduuri jõudluse hindamine vm.).
+
+

@@ -1,0 +1,393 @@
+E-kataloogiga liidestuse kirjeldus
+Versioon 4
+Kuupäev
+
+Versioon Autor
+1
+Jaana Raudla
+Priit Lepiku
+
+10.04.2019
+
+2
+
+06.11.2019
+27.05.2021
+
+3
+4
+
+01.04.2024
+
+4
+
+Kirjeldus
+
+• Rõhutatud tähtede tõusutundlikust JSONis.
+• Samalt Pakkujalt korduv sama
+vendorProductCode'ga toode asendab Pakkuja
+piires senise sama koodiga toote.
+• Vastuseks (OUT) ei tule enam teadet 404, sest
+sama koodi olemasolul toimub toote
+asendamine
+• Lisatud lühendite selgitused, sh kaks lühendit
+eemaldatud: EUR ja EURH
+Priit Lepiku
+Lisatud II osa
+Liina Leemet • Lisatud active väli toote eemaldamiseks liidese
+kaudu
+• Toote sidumine mitme pakkumusega
+Lana Teras
+• Uus impordi viga teavitus
+
+Sisukord
+E-kataloogiga liidestuse kirjeldus ............................................................................................................ 1
+I Toodete/teenuste import e-kataloogi................................................................................................... 2
+1.
+
+Lühikirjeldus ............................................................................................................................... 2
+
+2.
+
+IN Toote/teenuse andmed ......................................................................................................... 2
+
+3.
+
+OUT ............................................................................................................................................. 3
+
+4.
+
+Teenuse tehniline kirjeldus (JSON) ............................................................................................. 4
+Näide ............................................................................................................................................... 4
+
+5.
+
+Lühendite selgitused .................................................................................................................. 5
+
+E-kataloogi haldab Registrite ja Infosüsteemide Keskus. Küsimuste korral ning liidestuse
+teostamiseks palun ühendust võtta rik.hanked@rik.ee
+
+I Toodete/teenuste import e-kataloogi
+1. Lühikirjeldus
+•
+•
+•
+•
+
+•
+•
+
+E-Kataloog võimaldab süsteemselt vastu võtta pakkujate tooteid/teenuseid.
+Toodete/teenuste import tuleb iga pakkuja jaoks E-kataloogis eraldi aktiveerida.
+Aktiveerimiseks sisestatakse süsteemi kliendi parool ning edastatakse kliendile
+testkeskkonna aadress. Selle vastu saab klient teha vajalikud arendused ning proovida
+andmete edastamist E-kataloogi.
+Unikaalsuse tagab iga toote/teenuse kohta Pakkuja piires „vendorProductCode“. Antud
+välja järgi toimub insert loogika teenuses. Kui tootekood Pakkuja piires esineb, siis
+toimub toote andmete asendamine. Kui sama koodiga toode on E-kataloogis käsitsi
+kustutatud, siis lisatakse uus toode. Toote lõppemisel panna koguseks 0.
+Vastu võetav toode/teenus sisestatakse otse pakkumusse, pakkumuse ID (tenderRefNr)
+alusel.
+Toodete/teenuste arv on piiratud parameetriga productImportLimit 1000.
+
+2. IN Toote/teenuse andmed
+Väli
+ID
+
+Selgitus
+Süsteemi poolt
+täidetav väli
+
+Kohustuslikkus / võimalikud väärtused
+
+Kohustuslik määrata üks valik:
+productType
+
+productCode
+
+Määrab ära, kas
+tegemist on toote või
+teenusega
+
+productName
+productDescription
+
+Tootekood
+Pakkuja süsteemis
+olev tootekood
+Nimetus
+Sisukirjeldus
+
+availableQuantity
+
+Kogus
+
+vendorProductCode
+
+•
+•
+
+PRODUCT - toode
+SERVICE - teenus
+
+Kohustuslik.
+Unikaalne. Kohustuslik.
+Kohustuslik.
+Kohustuslik.
+PRODUCT korral kohustuslik
+SERVICE korral mittekohustuslik
+Kohustuslik.
+
+availableQuantityUnit
+
+Ühik
+
+Võimalikud väärtused: 'C', 'CUM', 'D', 'EUR',
+'EURH', 'H', 'K', 'KG', 'KM', 'L', 'M', 'M2', 'M3',
+'MWH', 'PC', 'PCT', 'S', 'T', 'Y']stringEnum:"C",
+"CUM", "D", "H", "K", "KG", "KM", "L", "M",
+"M2", "M3", "MWH", "PC", "PCT", "S", "T",
+"Y"
+2
+
+Hind ühiku kohta
+ilma KM-ta
+Käibemaksu määr
+vatRate
+%
+Tarnetähtaeg
+deliveryTimeInDays
+(päevades)
+Tarneviis
+
+Kohustuslik. Lubatud kuni 4 kohta peale koma.
+Eraldajaks on punkt.
+
+doorToDoor
+
+true/false
+
+unitPrice
+
+•
+
+Ukselt uksele
+
+Kohustuslik.
+Mittekohustuslik.
+
+Tarneviis
+selfPickup
+
+•
+
+Ise järgi
+
+true/false
+
+Tarneviis
+postalPackage
+
+warehouseLocation
+
+•
+
+Postipakk
+
+true/false
+
+PRODUCT
+korral Toote/lao
+asukoht
+Mittekohustuslik.
+
+SERVICE
+korral Teenuse
+teostamise piirkond
+tenderRefNr
+Pakkumuse ID
+Kohustuslik.
+cpvCode
+CPV kood
+Kohustuslik
+true/false
+active
+Toote staatus
+• false korral eemaldatakse toode
+rakendusest
+Iga toote/teenuse kohta saab edastada URL-i piltidele või kirjeldavatele failidele
+Määrab ära, kas
+• PICTURE
+fileType
+tegemist on pildi või
+• FILE
+failiga
+fileName
+Nimetus
+fileDescription
+Kirjeldus
+fileUrl
+URL
+
+3. OUT
+HTTP code
+Reason
+200
+OK
+400
+Product import limit exceeded
+3
+
+401
+401
+403
+
+Import error
+Additional file import error
+Authorization failed
+
+NB! „Additional file import error“ tähendab, et failide kohta info ei uuenda, kuid aga toote
+info on uuendatud!
+
+4. Teenuse tehniline kirjeldus (JSON)
+JSONis olev tekst on tõusutundlik.
+Import {
+productImportList (Array[ProductImport], optional)
+}
+ProductImport {
+availableQuantity (integer): Teenuse puhul ei ole kohustuslik.,
+productType (string) = ['PRODUCT', 'SERVICE']stringEnum:"PRODUCT",
+"SERVICE",
+unitPrice (number ): Eraldajaks on punkt. Kuni 4 komakohta,
+productName (string ),
+productDescription (string),
+productCode (string ),
+vendorProductCode(string),
+availableQuantityUnit (string) = ['C', 'CUM', 'D', 'EUR', 'EURH', 'H', 'K', 'KG', 'KM',
+'L', 'M', 'M2', 'M3', 'MWH', 'PC', 'PCT', 'S', 'T', 'Y']stringEnum:"C",
+"CUM", "D", "H", "K", "KG", "KM", "L", "M", "M2", "M3", "MWH", "PC", "PCT",
+"S", "T", "Y",
+vatRate (integer),
+deliveryTimeInDays (integer ),
+doorToDoor (boolean),
+selfPickup (boolean ),
+PostalPackage (boolean ),
+warehouseLocation (stringl),
+tenderRefNr (Array[string]),
+cpvCode(string),
+additionalFiles (Array[AdditionalFile] )
+}
+AdditionalFile {
+fileType (string),
+fileName (string ),
+fileDescription (string ),
+fileUrl (string)
+}
+Näide
+{
+4
+
+"productImportList":[
+{
+"availableQuantity": 3,
+"id": null,
+"unitPrice": 10,
+"productType": "PRODUCT",
+"productName": "import",
+"productDescription": "Product description",
+"productCode": "imported10",
+"vendorProductCode": "imported10"
+"availableQuantityUnit": "C",
+"vatRate": 20,
+"deliveryTimeInDays": 10,
+"doorToDoor": true,
+"selfPickup": true,
+"postalPackage": true,
+"warehouseLocation": "string",
+"tenderRefNr":["string","string"],
+"cpvCode": "string",
+"additionalFiles":[
+{
+"fileType": "PICTURE",
+"fileName": "import08",
+"fileDescription": "import08",
+"fileUrl": "https://static.independent.co.uk/s3fspublic/styles/article_small/public/thumbnails/image/2017
+/09/12/11/naturo-monkey-selfie.jpg"
+},
+{
+"fileType": "PICTURE",
+"fileName": "import08",
+"fileDescription": "import08",
+"fileUrl":
+"https://news.nationalgeographic.com/content/dam/news/
+2016/10/08/drill-monkey-waq/drill-monkey01.ngsversion.1475926206479.adapt.1900.1.jpg"
+}
+]
+}
+]
+}
+
+5. Lühendite selgitused
+Eesti
+VALUE_CODE keeles
+C
+ehitustööd
+
+Inglise keeles
+works
+5
+
+CUM
+D
+H
+K
+KG
+KM
+L
+M
+M2
+M3
+MWH
+PC
+PCT
+S
+T
+Y
+
+jm
+päeva
+h
+komplekt
+kg
+km
+liiter
+kuud
+m2
+m3
+MwH
+tk
+%
+teenus
+tonn
+aastat
+
+running metre
+days
+hour
+set
+kg
+km
+litre
+months
+m2
+m3
+MwH
+piece
+percentage
+service
+ton
+years
+
+6
+
+

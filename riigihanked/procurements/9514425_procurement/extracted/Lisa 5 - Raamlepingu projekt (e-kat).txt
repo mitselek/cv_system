@@ -1,0 +1,207 @@
+Lisa 5
+Riigihanke „E-kataloogi arendustööd“ (viitenumber 302310) hankedokumentide juurde
+RAAMLEPING NR
+Raamlepingu sõlmimise
+alus
+
+Raamleping sõlmitakse riigihanke „E-kataloogi arendustööd“ (viitenumber
+302310) (edaspidi nimetatud riigihange) tulemusena.
+
+Pooled
+
+Raamleping sõlmitakse Registrite ja Infosüsteemide Keskuse (edaspidi
+tellija) ning riigihankes edukaks osutunud pakkuja (edaspidi eraldi täitja)
+vahel, keda nimetatakse edaspidi eraldi pool või koos pooled.
+
+Raamlepingu
+eesmärk
+
+Raamlepingu eesmärgiks on:
+- kehtestada raamlepingu kehtivusaja vältel selle alusel sõlmitavaid
+hankelepinguid reguleerivad tingimused;
+- määratleda pooltevahelised õigused, kohustused ning vastutus
+hankelepingute sõlmimisel;
+- kehtestada ühtsed tingimused raamlepingu ja hankelepingute
+tõlgendamiseks.
+
+Tellija
+
+Registrite ja Infosüsteemide Keskus
+
+Registrikood
+
+70000310
+
+Aadress
+
+Lubja 4, Tallinn, 19081
+
+Tellija esindaja
+
+Rivo Reitmann
+
+Esinduse alus
+
+Põhimäärus
+
+Täitja
+Registrikood
+Aadress
+Täitja esindaja
+Esinduse alus
+1. Raamlepingu ese ja dokumendid
+1.1. Raamlepingu esemeks on e-kataloogi arendustööd, vastavalt raamlepingu kehtivuse perioodil
+esitatud tellimuste sisule.
+1.2. Raamleping koosneb lepingu põhiosast ja selle lisadest. Raamlepinguga samaaegselt
+allkirjastatavad lisad on:
+1.2.1. Lisa 1 – Raamlepingu tehniline kirjeldus;
+1.2.2. Lisa 2 – Hankelepingu projekt;
+1.2.3. Lisa 3 – Poolte volitatud esindajad ja kontaktandmed;
+1.2.4. Lisa 4 – Pakkumus.
+1.3. Raamlepingu lahutamatuks osaks on ka riigihanke dokumentatsioon ja riigihankes esitatud
+pakkumused, asudes tellijale kättesaadavana riigihangete registris.
+2. Kinnitused
+2.1. Pooled kinnitavad, et:
+2.1.1. raamlepingu sõlmimisega ei ole nad rikkunud ühegi enda suhetes kehtiva seaduse, põhikirja
+või muu normatiivakti sätet ega varem sõlmitud lepingu või kokkuleppega endale võetud
+kohustust;
+2.1.2. nad on oma majandustegevuses iseseisvad ja kumbki pool ei vastuta teise poole poolt
+endale kolmandate isikute ees raamlepingu või hankelepinguga võetud kohustuste täitmise
+1
+
+eest;
+2.1.3. neil on seaduses ettenähtud piisav õigus- ja teovõime raamlepingu ja hankelepingu
+sõlmimiseks ning nendest tulenevate kohustuste täitmiseks ja õiguste realiseerimiseks;
+2.1.4. nende poolt raamlepingu allkirjastanud isikutele on antud piisavad volitused selle
+sõlmimiseks kooskõlas seaduste, põhikirjade või muude normatiivaktidega;
+2.2. Poolte esindajad kinnitavad, et neil on kõik õigused ja volitused sõlmida raamleping esindatava
+nimel ning nad ei tea ühtegi takistust raamlepinguga võetud kohustuste täitmiseks.
+3. Raam- ja hankelepingute kestus ja maksumus
+3.1. Raamleping kehtib 36 kuud alates selle sõlmimisest või kuni raamlepingu eeldatava maksumuse
+täitumiseni.
+3.2. Raamlepingu eeldatav maksumus on 150 000 eurot (km-ta).
+3.3. Hankelepingute kehtivus ei ole piiratud raamlepingu kehtivuse lõpptähtpäevaga.
+4. Muutumatud tingimused
+4.1. Raamlepingu kehtivuse ajal kehtivad muutumatult raamlepingus ja hankelepingus sätestatud
+tingimused, sh pakkumuses toodud ühikuhinnad.
+4.2. Kui raamlepingu alusel sõlmitud hankelepingute tingimused erinevad raamlepingus sätestatust,
+peavad hankelepingu tingimused olema tellija jaoks raamlepingus sätestatud tingimustest
+soodsamad.
+5. Raamlepingu täitmine
+5.1. Hankelepingute sõlmimiseks esitab tellija kontaktisik täitja kontaktisikule kirjalikku taasesitamist
+võimaldavas vormis (nt e-posti teel) tellimuse esialgse raamlepingu sõlmimiseks esitatud
+pakkumuse täpsustamiseks. Tellimus sisaldab pakkumuse täpsustamiseks vajaminevaid tingimusi:
+5.2. kõiki sisulisi andmeid, mis on vajalikud tellimuse täitmiseks (tehniline kirjeldus; tööde teostamise
+soovitav ajaperiood; eeldatav maksumus; juhul kui on tegemist välisrahastusega, siis välja tuua
+nimetatu allikas, maksja. Kui tellimuses nõutud, esitab täitja lähteülesandes kirjeldatud
+funktsionaalsuse/tööde
+detailseks
+analüüsiks,
+realiseerimiseks,
+testimiseks
+ning
+dokumenteerimiseks kuluvat aega arendustundides; infosüsteemiga seotud infosüsteemide tööks
+vajalike
+tarkvarakomponentide
+täienduste
+kirjelduse;
+ajahinnangu
+kalendripäevades
+hinnapakkumuse aktsepteerimisest Tellijale tööde üleandmiseni; projektiplaani);
+5.3. pakkumuse täpsustuse esitamise tähtaega;
+5.4. pakkumuse täpsustuse jõusoleku minimaalset tähtaega;
+5.5. pakkumuse täpsustuse esitamise kontakt e-posti aadressi.
+5.6. Täitja esitab omapoolse pakkumuse täpsustuse vastavalt punktis 5.1 nimetatud tellimuse saamisel
+lähtudes vastavas tellimuses märgitud andmetest või põhjenduse tellimuse täitmise võimatuse
+kohta.
+5.7. Pakkumuse täpsustus aktsepteeritakse tellija poolt kui see vastab tellimuses kehtestatud
+tingimustele
+5.8. Tellijal on õigus jätta kirjalik hankeleping sõlmimata kuni 19 999,99 euro (ilma käibemaksuta)
+suuruste tehingute korral.
+5.9. Kirjaliku hankelepingu sõlmimata jätmisel loetakse hankelepinguks tellimus, aktsepteeritud
+pakkumuse täpsustus ning hankelepingu projektides sisalduvad üldtingimused kogumina.
+Hankelepingu lahutamatuteks osadeks on riigihanke alusdokumendid, raamleping koos lisadega,
+üleandmise-vastuvõtmise aktid, pooltevahelised kirjalikud teated ning lepingu muudatused ja lisad.
+5.10. Kirjalik hankeleping sõlmitakse alati 20 000 euro (ilma käibemaksuta) või suuremate tehingute
+korral. Kirjalik hankeleping koosneb hankelepingu eritingimuste projektis toodud lisadest ja
+hankelepingu lahutamatuks osaks nimetatud dokumentidest.
+2
+
+5.11. Pakkumise täpsustamiseks kulunud aega ei tasustata.
+6. Raamlepingu rikkumine ja vastutus
+6.1. Pooled vastutavad oma raamlepingust tulenevate kohustuste rikkumise eest iseseisvalt, välja
+arvatud, kui rikkumine on vabandatav. Eeldatakse, et rikkumine ei ole vabandatav.
+6.2. Kohustuse rikkumine on vabandatav, kui pool rikkus kohustust vääramatu jõu tõttu.
+6.3. Täitja vastutab kõikide isikute eest, keda nad kasutavad oma lepingujärgsete kohustuste täitmisel.
+6.4. Lepingust või seadusest tuleneva õiguse või õiguskaitsevahendi mittekasutamine või selle
+kasutamisega viivitamine ei tähenda nimetatud õigusest või õiguskaitsevahendist või muudest
+õigustest või õiguskaitsevahenditest loobumist. Lepinguga seotud mis tahes loobumised on
+kehtivad ainult siis, kui need on selgesõnaliselt ja kirjalikult väljendatud.
+7. Raamlepingu ülesütlemine
+7.1. Raamlepingu korralise ülesütlemise õigus on ainult Registrite ja Infosüsteemide Keskusel.
+7.2. Korralise ülesütlemise etteteatamistähtaeg on 90 (üheksakümmend) kalendripäeva.
+7.3. Registrite ja Infosüsteemide Keskusel on õigus raamleping erakorraliselt üles öelda ilma
+etteteatamistähtajata järgmistel juhtudel:
+7.3.1. Täitjaga on raamlepingu alusel sõlmitud hankeleping erakorraliselt üles öeldud;
+7.3.2. Täitja on korduvalt jätnud täitmata tehnilise kirjelduse punktis 6 toodud kohustuse;
+7.3.3. Täitja on oma lepingujärgsed kohustused üle andnud kolmandale isikule.
+7.4. Raamlepingu ülesütlemine ei mõjuta sõlmitud hankelepingute kehtivust. Täitjal ei teki tellija vastu
+raamlepingu korralisest ülesütlemisest tekkinud kahju hüvitamise nõude esitamise õigust, nt
+saamata jäänud tulu.
+8. Kolmandad isikud ja nõuete loovutamine
+8.1. Pooled ei või oma lepingujärgseid kohustusi üle anda kolmandale isikule.
+8.2. Pooled võivad loovutada lepingust tulenevaid rahalisi nõudeid kolmandatele isikutele. Pooled on
+kohustatud teineteist nõude loovutamisest viivitamatult informeerima.
+9. Lõppsätted
+9.1. Raamlepingu tingimused on avalikud.
+9.2. Raamlepingu muudatused vormistatakse raamlepingu lisadena. Raamlepingu muutmine ei mõjuta
+sõlmitud hankelepingute tingimusi.
+9.3. Pooled juhinduvad omavaheliste suhete reguleerimisel lepingust ning lepinguga reguleerimata
+küsimustes Eesti Vabariigis kehtivatest õigusaktidest.
+9.4. Lepingu tõlgendamisel lähtutakse poolte ühisest tegelikust tahtest. Kui poolte ühist tegelikku tahet
+ei õnnestu kindlaks teha, tuleb lepingut tõlgendada nii, nagu teise poolega samasugune mõistlik
+isik pidi lepingut samade asjaolude esinemise korral mõistma.
+9.5. Raamlepingu ja hankelepingute täitmise keel on eesti keel.
+9.6. Raamlepinguga seotud vaidlused lahendatakse läbirääkimiste teel. Läbirääkimiste tulemusel
+kokkuleppe mittesaavutamisel lahendatakse vaidlus Harju Maakohtus.
+9.7. Leping allkirjastatakse digitaalselt.
+Tellija
+
+Täitja
+
+/digitaalselt allkirjastatud/
+
+/digitaalselt allkirjastatud/
+
+3
+
+Raamlepingu nr …
+Lisa 3
+
+POOLTE VOLITATUD ESINDAJAD JA KONTAKTANDMED
+
+Poolte volitatud esindajateks raamlepingu täitmisel on:
+
+Pool
+
+Volitatud
+
+Volitatud esindaja
+
+esindaja nimi
+
+ametikoht
+
+Volitatud
+esindaja
+kontakttelefon
+
+Tellija
+
+Täitja
+
+4
+
+Volitatud esindaja email
+
+

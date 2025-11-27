@@ -1,0 +1,90 @@
+Elastiku otsingu reeglid
+1. Ühe otsingusõna järgi
+1.1. Ühe otsingusõna järgi otsimise toodete/teenuste kuvamise järjekord peab olema
+samas järjekorras kui nimetatud punktis on välja toodud. Erandiks on olukorrad, kus
+otsingusõna puudub otsitavas väljas. Sellisel juhul nihkub otsingute järjekord vastavalt
+ettepoole (nt tootekoodi otsingu sõna „AX_34565“ ei ole pealkirjas ega sisukirjelduses
+esindatud, mistõttu kuvatakse esimeses järjekorras sama tootekoodiga toode).
+1.1.1. Otsingusõna esineb pealkirjas ning samas käändes ja eraldiseisva sõnana ning
+pealkirjas ei ole rohkem sõnu (nt otsingusõnale „hiir“ kuvatakse esimeses
+järjekorras kõik vasted, millel on pealkirjas ainus sõna ehk siis „Hiir“);
+1.1.2. Otsingusõna esineb pealkirjas ning samas käändes ja eraldiseisva sõnana, kuid
+pealkirjas on rohkem sõnu (nt otsingusõnale „hiir“ kuvatakse teises järjekorras kõik
+vasted, millel on pealkirjas sõna hiir, kuid võib sisalduda ka muid sõnu nt pealkiri
+„Hiir, juhtmevaba“;
+1.1.3. Otsingusõna esineb pealkirjas, kuid on erinevas käändes (nt otsingusõna „arvuti“
+kuvatakse kolmandas järjekorras teenus, mille pealkirjaks on „Arvutite hooldus“);
+1.1.4. Otsingusõna esineb pealkirjas liitsõna osana (nt „hiir“ vastena „hiirematt“);
+1.1.5. Otsingusõna esineb sisukirjelduses ning samas käändes või eraldiseisva sõnana (nt
+otsingusõna „tooner“ toob siinkohal välja toote pealkirjaga „Printer“, mille
+sisukirjeldus sisaldab infot, „…esimene tooner on printeriga tasuta“);
+1.1.6. Otsingusõna esineb sisukirjelduses, kuid on erinevas käändes;
+1.1.7. Otsingusõna esineb sisukirjelduses liitsõna osana;
+1.1.8. Otsingusõna esineb iseseisva sõnana täies mahus tootekoodis (nt otsingusõna
+„AX_34565“ leiab vastena toote, mille koodiks on AX_34565);
+1.1.9. Otsingusõna esineb osaliselt tootekoodis (nt otsingusõna „AX_“ kuvatakse tooted,
+mille tootekoodis on nimetatud tähemärgid esindatud, sh toode AX_34565).
+
+1. Mitme otsingusõna järgi
+1.1. Mitme sõna järgi otsingus peab vastama otsitavate tulemuste kuvamisel järjekord
+täpselt allolevas nimekirjas toodule. Erandiks on olukorrad, kus otsingusõnad puuduvad
+otsitavas väljas. Sellisel juhul nihkub otsingute järjekord vastavalt ettepoole (nt
+tootekoodi otsingu sõnad „AX 34565“ ei ole pealkirjas ega sisukirjelduses esindatud,
+mistõttu kuvatakse esimeses järjekorras sama tootekoodiga toode, mille tootekoodiks
+on „AX 34565“).
+1.1.1. Otsingusõnad esinevad pealkirjas ning samas käändes ja samas järjekorras
+eraldiseisvate sõnadena ning on täpne vaste pealkirjale (nt otsing „tammepuidust
+käsitsi valmistatud tool“ kuvatakse täpselt sama pealkirjaga toode „Tammepuidust
+käsitsi valmistatud tool“, milles ei ole rohkem sõnu);
+1.1.2. Otsingusõnad esinevad pealkirjas ning samas käändes ja samas järjekorras
+eraldiseisvate sõnadega, kuid pealkirjas esineb veel teisi sõnu (nt otsing „käsitsi
+valmistatud tool“ annab teises järjekorras vaste tootele „Tammepuidust käsitsi
+valmistatud tool“);
+1.1.3. Otsingusõna esinevad pealkirjas, kuid on erinevas käändes, kuid samas järjekorras
+(nt otsingusõna „arvuti hooldus“ kuvatakse kolmandas järjekorras teenus, mille
+pealkirjaks on „Arvutite hooldus“);
+1.1.4. Otsingusõnad esinevad pealkirjas ning on samas käändes, kuid erinevas järjekorras
+eraldiseisvate sõnadena (nt otsing „käsitsi valmistatud tool tammepuidust“
+kuvatakse toode, mille pealkirjaks on „Tammepuidust käsitsi valmistatud tool“);
+1.1.5. Otsingusõnad esinevad pealkirjas, kuid on erinevas käändes ja erinevas järjekorras
+eraldiseisvate sõnadena (nt otsing „käsitsi valmistatav tool tammepuidust“
+kuvatakse toode, mille pealkirjaks on „Tammepuidust käsitsi valmistatud tool“);
+1.1.6. Otsingusõna esinevad pealkirjas, kuid ei sisalda kõiki pealkirjas olevaid sõnu ja/või
+on sõnad kuvatud liitsõnana/käändes (nt otsing „tamme tool“ kuvab toote
+„Tammepuidust käsitsi valmistatud tool“);
+1.1.7. Otsingusõnad esinevad pealkirjas, kuid ei sisalda kõiki pealkirjas olevaid sõnu ja/või
+on sõnad kuvatud liitsõnana/käändes ning sõnade järjekord on erinev pealkirjast
+(nt otsing „tool valmistatud puidust“ kuvab toote „Tammepuidust käsitsi
+valmistatud tool“);
+1.1.8. Otsingusõnad esinevad sisukirjelduses ning samas käändes ja samas järjekorras
+eraldiseisvate sõnadena (nt otsingusõnad „valmistatud mustast kangast“ kuvab
+välja toote, mille sisukirjelduses on antud sõnad samas järjekorras ning samamoodi
+eraldatavad);
+1.1.9. Otsingusõnad esinevad sisukirjelduses ning samas käändes, kuid erinevas
+järjekorras eraldiseisvate sõnadena (nt „mustast kangast valmistatud“ otsingusõna
+annab vastena toote, mille sisukirjeldus sisaldab „… valmistatud mustast kangast“);
+1.1.10. Otsingusõnad esinevad sisukirjelduses, kuid on erinevas käändes ja samas
+järjekorras eraldiseisvate sõnadena (nt „mustast kangast valmistav“ otsingusõna
+annab vastena toote, mille sisukirjeldus sisaldab „…valmistatud mustast kangast“);
+1.1.11. Otsingusõnad esinevad sisukirjelduses, kuid ei sisalda kõiki sisukirjelduses olevaid
+sõnu ja/või on sõnad kuvatud liitsõnana/käändes ning on samas järjekorras (nt
+otsingusõnad „must kangas“ kuvab toote, mille sisukirjelduses on sõnad „…mustast
+kangast“);
+1.1.12. Otsingusõnad esinevad sisukirjelduses, kuid ei sisalda kõiki sisukirjelduses olevaid
+sõnu ja/või on sõnad kuvatud liitsõnana/käändes ning sõnade järjekord on erinev
+
+sisukirjeldusest (nt otsingusõna „mustast kangast valmistatud“ annab vaste tootele,
+mille sisukirjeldus sisaldab sõnu „valmistatud mustast kangast“);
+1.1.13. Otsingusõnad esinevad iseseisva sõnana täies mahus tootekoodis õiges järjestuses
+(nt otsingusõnade „AX 34565“ leiab vastena toote, mille koodiks on AX 34565);
+1.1.14. Otsingusõnad esinevad iseseisvate sõnadena täies mahus tootekoodis erinevas
+järjestuses (nt otsingusõnade „34565 AX“ leiab vastena toote, mille koodiks on AX
+34565);
+1.1.15. Otsingusõnad esinevad osaliselt tootekoodis ja nende järjekord on sama, mis
+tootekoodis (nt otsingusõna „AX 34“ kuvatakse toode, mille tootekoodis on
+nimetatud tähemärgid esindatud „AX 34565“);
+1.1.16. Otsingusõnad esinevad osaliselt tootekoodis ja nende järjekord on erinev
+tootekoodi järjekorrast (nt otsingusõna „34 AX“ kuvatakse toode, mille tootekoodis
+on nimetatud tähemärgid esindatud „AX 34565“).
+
+
