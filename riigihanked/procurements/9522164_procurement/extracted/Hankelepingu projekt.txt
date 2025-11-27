@@ -1,0 +1,583 @@
+HANKELEPINGU PROJEKT
+
+/kuupäev digikonteineris/
+
+Eesti Energia AS, registrikood 10421629, asukohaga Lelle tn 22, Tallinn
+11318, keda esindab volikirja alusel ……. (edaspidi nimetatud Tellija),
+ja
+
+…………, registrikoodiga ……………, asukohaga ………., keda esindab ………alusel
+………(edaspidi nimetatud Täitja),
+
+keda nimetatakse edaspidi Pool või koos Poolteks, sõlmisid käesoleva
+hankelepingu (edaspidi nimetatud ka Leping) alljärgnevas:
+
+LEPINGU ESE JA LEPINGU DOKUMENDID 
+
+1.  Leping sõlmitakse riigihanke „IKT kolmanda osapoole riski-ja
+    turvalisuse haldamise lahendus“ tulemusena (viitenumber ) ning
+    vastavalt riigihanke alusdokumentidele (Lisa 1) ja Täitja esitatud
+    pakkumusele (Lisa 4).
+
+2.  Lepingu esemeks on kolmandate osapoolte riskihalduse ja ründepinna
+    seire platvormile kasutusõiguse (sh litsentsid ja tootetugi)
+    soetamine, mis seisneb juurutamises koos kasutaja- koolituse
+    läbiviimise ning tugiteenuse ja teenusena osutamises (edaspidi
+    Teenus).
+
+3.  Hankeleping koosneb Lepingu põhiosast ja selle lisadest. Lepinguga
+    samaaegselt allkirjastatavad lisad on:
+
+    1.  Lisa 1 – Tehniline kirjeldus koos lisadega;
+
+    2.  Lisa 2 – Eesti Energia kontserni eetikakoodeks partneritele;
+
+    3.  Lisa 3 – Töötervishoiu ja tööohutuse nõuded Eesti Energia
+          lepingupartneritele;
+
+    4.  Lisa 4 – Pakkumus, sh tootetoe tingimused.
+
+4.  Lepingu lahutamatuks osaks on ka muu riigihanke dokumentatsioon, mis
+    on kättesaadav riigihangete registrist.
+
+5.  Kui esineb vastuolusid Lepingu ja selle lisade vahel, siis lähtuvad
+    Pooled eelkõige Lepingust ja seejärel vastavalt punktis 1.3 toodud
+    loetelu järjekorrale (prioriteetsuse järjekord).
+
+6.  Lepingu muudatused vormistatakse lisana.
+
+1.  LEPINGU KEHTIVUS
+
+    1.  Leping jõustub selle allkirjastamisest ja kehtib 24 kuud.
+        Tellijal on õigus lepingut ühepoolselt pikendada ühe aasta
+        võrra. Lepingu pikendamise soovist teavitab Tellija Täitjat 30
+        päeva enne lepingu kehtivuse lõppemist.
+
+2.  TÄITJA KOHUSTUSED
+
+    1.  Täitja kohustub Teenuse kättesaadavaks tegema 5 tööpäeva jooksul
+        alates lepingu allkirjastamisest.
+
+    2.  Täitja kohustub osutama Teenust Lepingu lisas 1 toodud
+        tingimustel:
+
+        1.  pakkuma kasutusteenust koos koolituse ja vajalike
+            litsentsidega ning osutama tootetuge vastavalt Lepingus,
+            Lepingu lisades ja pakkumuses, õigusaktides sätestatud
+            tingimustele ja nõuetele, infotehnoloogia ja
+            telekommunikatsiooni parimas praktikas rakendatavatele
+            tehnilistele kvaliteedinõuetele, normidele ja standarditele;
+
+        2.  vastutama Teenuse tõrgeteta kättesaadavuse eest;
+
+        3.  tagama Teenuse häireteta funktsioneerimise ja arendamise;
+
+        4.  Täitja kohustub funktsionaalsuse tagamiseks tegema
+            veaparandusi ja vajalikke uuendusi tagamaks Teenuse
+            vastavuse õigusaktidele ja Lepingu tingimustele;
+
+        5.  tagama tootetoe kättesaadavuse tööpäevadel kell 9-17 (Eesti
+            ajatsoon) ja reageerima vastavalt Täitja tootetoe
+            tingimustes sätestatud aegadele;
+
+        6.  Täitja kohustub hoidma konfidentsiaalsena Lepingu täitmise
+            käigus teada saadud teabe ning kasutama seda üksnes Lepingu
+            täitmisel;
+
+        7.  teavitama Tellijat viivitamatult puudustest ja/või mis tahes
+            takistustest ja/või riskidest Lepingust tulenevate
+            kohustuste täitmisel.
+
+    3.  Täitja tagab, et Teenust pakutakse rangelt Täitja ainukontrolli,
+        juhtimise ja järelevalve all ning Tellija andmeid salvestatakse
+        üksnes Euroopa Liidu piires ning seal asuvate arvuti- ja
+        andmesalvestusseadmetes. Täitja tagab, et rakendatud on
+        lahenduse spetsiifikast tulenevad, nõuetena välja toodud ning
+        õigusaktide alusel kohalduvad andmekaitse meetmed.
+
+    4.  Täitja kohustub Tellijat viivitamatult teavitama asjaoludest,
+        mis takistavad Lepingu täitmist ja/või Teenuse kasutamist.
+
+    5.  Täitja kohustub tagama, et Tellijal ja Tellijaga ühte kontserni
+        kuuluvatel ettevõtjatel on võimalik Tellijale tarnitud litsentse
+        eesmärgipäraselt kasutada.
+
+3.  LEPINGU TASUD
+
+    1.  Teenuse kogumaksumus 24 kuuks on sätestatud Pakkumuses. Teenuse
+        ühe aasta maksumuse arvutamiseks jagatakse kogumaksumus kahega.
+
+    2.  Teenuse maksumus kolmandaks aastaks, kui Tellija pikendab
+        Lepingut peale 24 kuud 1 aasta võrra, on sätestatud Pakkumuses.
+
+    3.  Tasudele lisandub õigusaktides sätestatud juhtudel, korras ja
+        ulatuses käibemaks.
+
+    4.  Punktides 4.1 ja 4.2 nimetatud tasud on Täitja ainsad tasud
+        seoses Lepinguga ja Täitja ise ega tema töötajad ei võta
+        päevarahasid, kaudset tasu ega muud Lepingus toodud kohustustega
+        seotud tasu. Samuti ei ole Täitjal ega tema töötajal õigust
+        täiendavale autori- või muule sarnasele tasule seoses Lepingu
+        täitmisel kasutatud patenteeritud või muul viisil kaitstud eseme
+        või protsessiga.
+
+    5.  Lepingus sätestatud tasud sisaldavad ka kõiki
+        intellektuaalomandiga seotud tasusid.
+
+    6.  Teenuse eest esitatakse arve 12-kuulise perioodi kohta üks kord
+        aastas. Täitjal on õigus esitada Tellijale arve, Teenuse esimese
+        kasutusaasta eest, peale Teenuse Tellijale kättesaadavaks
+        tegemist.
+
+    7.  Tellija eelistab saada e-arveid, mis on xml-formaadis. Kui
+        Täitjal ei ole võimalik sellises formaadis e-arvet esitada,
+        aktsepteeritakse ka PDF kujul e-kirjaga saadetud arvet. Arve
+        tuleb saata e-posti aadressile: eesti.energia@e-arvetekeskus.eu.
+
+    8.  Arve peab sisaldama vähemalt alljärgnevaid andmeid:
+
+        1.  info arve esitaja kohta;
+
+        2.  info maksja kohta;
+
+        3.  info tehingu sisu kohta;
+
+        4.  Lepingu number;
+
+        5.  käibemaksukohustuslase number;
+
+        6.  netosumma;
+
+        7.  käibemaks;
+
+        8.  kogusumma.
+
+    9.  Tellija tasub Täitjale teenuse eest Täitja poolt esitatud arve
+        alusel 14 kalendripäeva jooksul alates arve kättesaamisest või
+        juhul, kui Täitja on liitunud Tellija faktooringuprogrammiga, 95
+        päeva jooksul pärast arve kätte saamist. Faktooringu kasutamisel
+        kannab faktooringut pakkuv pank raha Täitjale kahes osas -
+        esimese 99% kohe pärast arve sisemist kinnitamist Eesti Energia
+        poolt ja ülejäänud 1% miinus faktooringu kulud 95. päeval alates
+        arve väljastamise kuupäevast. Andmed Tellija faktooringprogrammi
+        ja sellega liitumise võimaluse kohta on leitava Tellija
+        kodulehelt.
+
+    10. Kui Tellija ei nõustu Täitja poolt esitatud arvega, esitab
+        Tellija Täitjale viivitamatult vastava järelpärimise täpsustuste
+        ja selgituste saamiseks. Tellija tasub osaliselt vaidlustatud
+        arve vaidlustamata osa Lepingus ettenähtud tähtajaks. Täitja ei
+        esita oma arvele viivist niikaua, kuni Täitja on esitanud
+        Tellijale põhjenduse vaidlustatud summa täpsuse kohta.
+
+4.  POOLTE VASTUTUS
+
+    1.  Pooled vastutavad teisele Poolele Lepingust tulenevate
+        kohustuste täitmata jätmise või mittenõuetekohase täitmisega
+        tekitatud otsese varalise kahju, kuid mitte saamata jäänud tulu
+        eest. Pooled vastutavad oma esindajate, töötajate ja
+        koostööpartnerite tegevuse ja tegevusetuse eest nagu iseenda
+        tegevuse ja tegevusetuse eest.
+
+    2.  Juhul kui Lepingust tuleneva kohustuse täitmiseks on määratud
+        tähtaeg ja Täitja hilineb nimetatud kohustuse täitmisega, on
+        Tellijal õigus nõuda Täitjalt leppetrahvi 100 eurot iga
+        hilinetud päeva eest. Juhul kui tähtaeg on määratud tundides
+        ning Täitja hilineb kohustuse täitmisega vähem kui 1
+        kalendripäev, arvestatakse leppetrahvi proportsionaalselt
+        hilinetud tundide järgi.
+
+    3.  Tellijal on õigus nõuda Täitjalt leppetrahvi kuni 20% Teenuse
+        kogumaksumusest, kui Täitja rikub oluliselt Lepingust tulenevat
+        kohustust. Oluliseks lepingurikkumiseks loetakse eelkõige
+        Lepingu punktis 5.9 märgitud rikkumisi. Kui leppetrahv ei kata
+        kogu tekkinud kahju, on Tellijal õigus nõuda Täitjalt
+        leppetrahvi ületava kahju hüvitamist.
+
+    4.  Kui Tellija viivitab arve tasumisega, on Täitjal õigus nõuda
+        Tellijalt viivist 0,03% tasumata põhivõlgnevusest päevas iga
+        viivitatud päeva eest.
+
+    5.  Lepingust tuleneva konfidentsiaalsuskohustuse igakordse
+        rikkumise korral on Tellijal õigus nõuda Täitjalt leppetrahvi
+        summas kuni viis tuhat (5000) eurot.
+
+    6.  Leppetrahvi tasumine ei välista Poolte õigust kasutada teisi
+        Lepingust või seadusest tulenevaid õiguskaitsevahendeid.
+        Muuhulgas on Tellijal õigus nõuda kahjude hüvitamist osas, mida
+        leppetrahv ei katnud.
+
+    7.  Leppetrahvi tasumine ei vabasta Pooli Lepingust tulenevate
+        kohustuste täitmisest.
+
+    8.  Poolel on õigus Leping igal ajal üles öelda, teatades sellest
+        kirjalikult vähemalt kolmkümmend (30) kalendripäeva ette ilma
+        põhjust avaldamata. Tellija kohustub tasuma Täitjale selleks
+        hetkeks Lepingu tingimustele vastava osutatud Teenuse eest.
+
+    9.  Poolel on õigus Leping ilma etteteatamise tähtajata üles öelda
+        teise poole olulise lepingurikkumise korral. Oluliseks
+        lepingurikkumiseks loetakse (lisaks seaduses toodud alustele)
+        muuhulgas järgmised olukorrad:
+
+        1.  Täitja hilineb oma Lepingust tulenevate kohustuste
+              täitmisega rohkem kui 30 kalendripäeva;
+
+        2.  Täitja on teavitanud, et ta ei täida Lepingut;
+
+        3.  Täitja ei kõrvalda Lepingu rikkumisi (mh puudusi
+              litsentsides) või viivitab nende kõrvaldamisega rohkem kui
+              30 kalendripäeva;
+
+        4.  Täitja suhtes on tehtud pankrotiotsus;
+
+        5.  Täitja on sattunud tõsistesse majandusraskustesse;
+
+        6.  Täitja rikub konfidentsiaalsuskohustust.
+
+5.  TEATED
+
+    1.  Üks Pool edastab Lepinguga seotud teated teisele Poolele
+        Lepingus märgitud e-posti aadressile.
+
+    2.  Poole nõue teisele Poolele, mis esitatakse tulenevalt Lepingu
+        rikkumisest, peab olema edastatud digitaalselt allkirjastatult
+        e-kirja teel.
+
+    3.  Lepingu kontaktisikuteks on:
+
+        1.  Tellija poolt: …., e-post….., telefon….
+
+        2.  Täitja poolt: ……, e-post….. telefon……
+
+    4.  Kontaktisikutel on õigus esitada Poole nimel küsimusi, teateid
+        jms kommunikatsiooni (edaspidi nimetatud Teated).
+        Kontaktisikutel ei ole õigust muuta Lepingut.
+
+    5.  Kontaktisikute või nende andmete muutumisel ei sõlmi Pooled
+        Lepingu muutmise kokkulepet vaid teavitavad teineteist selliste
+        andmete muutumisest viivitamata e-posti teel.
+
+    6.  Lepingu alusel esitatud Teated vormistatakse vähemalt kirjalikku
+        taasesitamist võimaldavas vormis, kui konkreetsest sättest ei
+        tulene teisiti.
+
+    7.  Lepingu alusel esitatud Teade loetakse nõuetekohaselt esitatuks,
+        kui see on koostatud eesti või inglise keeles ja saadetud
+        e-posti teel, millisel juhul loetakse see teise Poole poolt
+        kätte saaduks e-posti ärasaatmisel, kui see toimub tööpäeval
+        vahemikus 9.00-17.00 ja muul juhul ärasaatmisele esimesena
+        järgneval tööpäeval kell 9.00, kui serverilt ei ole saabunud
+        teadet e-posti mittekohaletoimetamise kohta ning seejuures on
+        Teade saadetud teise Poole Kontaktisikule selle Kontaktisiku
+        e-posti aadressil.
+
+6.  KONFIDENTSIAALSUSKOHUSTUS
+
+    1.  Konfidentsiaalne teave on Poolele, sh Poole Esindajale (vt
+        definitsiooni punktis 7.4) Lepingu sõlmimise ja täitmise käigus
+        teatavaks saanud teave teise Poole kohta, mis hõlmab endas
+        muuhulgas infot teise Poole, temaga samasse kontserni kuuluvate
+        ettevõtjate, partnerite ja klientide majandusliku olukorra,
+        sisemise töökorralduse ja muu töökorraldusse puutuva kohta;
+        teise Poole hallatavates süsteemides töödeldavaid andmed; teise
+        Poole säilitatavate dokumentide, raamatupidamisarvestuse ja
+        kirjavahetuse sisu; informatsioon teise Poole varade ja
+        turvasüsteemide kohta; teise Poole ärisaladust, oskusteavet,
+        tehnoloogiaid, andmebaase, arvutiprogramme, tehnilisi lahendusi,
+        kontseptsioone, ideid, meetodeid, protseduure, äri- või
+        turustamisplaane, ärikontakte, ettepanekuid, finantsteavet,
+        aruandeid, kirjavahetust, teadus- ja arendustegevuse sisu ja
+        tulemusi, tarkvara ning sellega seonduvat dokumentatsiooni,
+        äritegevuse seotud informatsiooni ja andmeid, muud kaitstud või
+        kaitsmata intellektuaalomandiga seotud informatsiooni ja
+        mistahes muud teavet, mida teine Pool, sh teise Poole Esindajad
+        annavad Lepingu täitmise käigus suulises, kirjalikus,
+        elektroonses vms vormis Poolele, sh Poole Esindajatele.
+
+    2.  Konfidentsiaalne teave ei ole teave, mis:
+
+        1.  oli teavet saava Poole valduses või talle õiguspäraselt
+              teatavaks saanud allikast, kellel ei olnud nimetatud teabe
+              suhtes konfidentsiaalsuse hoidmise kohustust teise Poole
+              suhtes;
+
+        2.  sõltumata teavet saava Poole tegevusest või tegevusetusest,
+              on või saab üldsusele teatavaks Lepingut rikkumata.
+
+    3.  Teabe kuulumine Konfidentsiaalse teabe alla ei sõltu selle
+        tähistamisest konfidentsiaalsena.
+
+    4.  Poole esindajaks (edaspidi nimetatud Esindaja) on:
+
+        1.  Poole töötaja, juhtorgani liige, alltöövõtja;
+
+        2.  Poolega ühte kontserni kuuluv ettevõtja ja nimetatud
+              ettevõtja töötaja, juhtorgani liige, alltöövõtja;
+
+        3.  muu füüsiline või juriidiline isik, kes tegutseb Poole või
+              Poolega ühte kontserni kuuluva ettevõtja korraldusel.
+
+    5.  Pooled kohustuvad Lepingu kehtivuse ajal ja 5 aastat peale
+        Lepingu mistahes alusel lõppemist ilma teise Poole eelneva
+        kirjaliku nõusolekuta mitte avaldama kolmandatele isikutele
+        teise Poole Konfidentsiaalset teavet, tagama Konfidentsiaalse
+        teabe konfidentsiaalsuse ja kasutama Konfidentsiaalset teavet
+        üksnes Lepingust tulenevate kohustuste täitmiseks (mh tagama
+        eeltoodut oma Esindajate poolt).
+
+    6.  Pooltel on õigus anda Konfidentsiaalset teavet oma Esindajatele
+        ulatuses, milles see on vajalik Lepingust tulenevate kohustuste
+        täitmiseks ja eeldusel, et vastava Esindajaga on sõlmitud
+        sisuliselt samaväärne konfidentsiaalsuskokkulepe nagu käesolevas
+        Lepingus.
+
+    7.  Kui Pool on õigusakti alusel kohustatud avaldama teise Poole
+        Konfidentsiaalset teavet, peab ta tegema majanduslikult
+        mõistlikke jõupingutusi selleks, et esitada teisele Poolele
+        sellise avaldamise kohta teade vähemalt 10 (kümme) tööpäeva
+        ette, piirata avaldatava Konfidentsiaalse teabe hulka nii suures
+        ulatuses kui võimalik ning avaldada Konfidentsiaalset teavet
+        vaid õigusakti kohaselt avaldamisele kuuluvas ulatuses.
+
+7.  DOKUMENTATSIOON
+
+    1.  Kui Teenuse osutamise käigus valmib Tellijale üleantav
+        dokumentatsioon, siis koostatakse see eesti või inglise keeles.
+
+    2.  Dokumentide valmistamiseks ja levitamiseks kasutatakse
+        elektroonilist infokandjat.
+
+    3.  Dokumentatsioon peab vastama Teenuse alusel pakutavale
+        lahendusele, sisaldama muudatusi ja olema terminoloogiliselt
+        üheselt mõistetav.
+
+    4.  Kui litsentsi tootja on väljastanud kasutusjuhendi, siis tuleb
+        see edastada Tellijale esimesel võimalusel. Kasutusjuhend võib
+        olla eesti või inglise keeles
+
+8.  TOOTETUGI
+
+    1.  Tootetugi peab sisaldama Teenuse uuendatud ja täiustatud
+        versioone ning veaparandusi, vastavalt Lisale 1 ning Lisale 4
+        (Pakkumus).
+
+    2.  Tootetoe hulka kuulub ka Teenuse uuendamine, mh uuendused, mis
+        on vajalikud, et tagada lahenduse funktsionaalsuse vastavus
+        kehtivatele õigusaktidele. Täitja kohustub hoidma end kursis
+        muudatustega seadusandluses ja teavitama Tellijat sellega seotud
+        lahenduse uuendustest ja nende kasutusele võtmise ajast.
+
+    3.  Täitja tagab tehnilise toe kogu Lepingu perioodil eesti või
+        inglise keeles vastavalt Pakkumuses esitatud Täitja tootetoe
+        tingimustele.
+
+    4.  Täitja tagab tootetoe tööpäevadel kella 08.00 kuni kella 17.00
+        Eesti aja järgi. Tööpäevadeks loetakse kõiki nädalapäevi, välja
+        arvatud laupäev, pühapäev ja riigipühad.
+
+    5.  Kõik tootetoe tegevused Lepingu kehtivuse perioodil on kaetud
+        Lepingulise tasuga (ehk selle eest ei saa nõuda lisatasu).
+
+    6.  Tootetoe kontaktandmed: e-post:… ja Täitja määratud keskkond: …
+
+9.  KASUTAJAKOOLITUS
+
+    1.  Täitja tagab Tellija peakasutajatele adekvaatse väljaõppe,
+        kindlustamaks Teenuse rahuldava ja efektiivse toimimise,
+        vastavalt Lepingus ja Lisa 1 kokkulepitule.
+
+    2.  Täitja viib Tellija peakasutajatele kasutajakoolituse läbi 30
+        päeva jooksul peale hankelepingu sõlmimist.
+
+    3.  Kasutajakoolitus toimub üle videosilla ja selle toimumise aeg,
+        koht ja maht kooskõlastatakse eelnevalt Tellija kontaktisikuga.
+
+    4.  Kasutajakoolitused toimuvad eesti või inglise keeles.
+
+10. LOAD JA LITSENTSID
+
+    1.  Täitja vastutab ainuisikuliselt Lepingu täitmiseks vajalike
+        lubade ja litsentside saamise eest. Tellija teeb Täitjaga
+        mõistliku koostööd, hoidmaks ära selliste lubade või litsentside
+        väljaandmise asjatut viivitamist või väljaandmisest keeldumist.
+
+    2.  Tellija võib ilma ette teatamata Lepingu lõpetada, kui täitja ei
+        saa Lepingu täitmiseks vajalikku luba või litsentsi.
+
+    3.  Täitja garanteerib, et tal on õigus anda Tellijale Lepingu
+        objektiks oleva Teenuse alusel pakutavat lahendust ja teiste
+        autori- või muude sarnaste õigustega kaitstavate esemete
+        kasutamisõigus.
+
+    4.  Täitja garanteerib, et nimetatud kasutusõiguse üleandmisega ei
+        rikuta kolmandate isikute õigusi. Juhul kui kolmas isik esitab
+        oma õiguste rikkumise tõttu Tellija vastu hagi ning see
+        rahuldatakse, tasub Täitja võimalikud kahjuhüvitusnõuded, samuti
+        õigusabikulud ja muud seonduvad kulud.
+
+11. INTELLEKTUAALNE OMAND
+
+    1.  Täitja annab Tellijale õiguse Teenust kasutada Lepingus
+        sätestatud ulatuses ja määras.
+
+    2.  Täitja on kohustatud tagama Lepingu täitmiseks vajalike
+        litsentside ja vajadusel muude intellektuaalse omandi õiguste
+        olemasolu ja kehtivuse Lepingu täitmise ajal.
+
+    3.  Täitja kinnitab, et Teenuse tulemusel lahenduse kasutusõiguse
+        andmisega Tellijale ei rikuta kolmandate isikute autoriõigusi,
+        ega muid intellektuaalse omandi õigusi Lepingu kehtivuse ajal.
+
+    4.  Täitja on vastutav selle eest, kui tema poolt pakutavad
+        litsentsid rikuvad teiste isikute õigusi. Täitja kohustub
+        hüvitama Tellijale kõik Täitja poolt käesoleva punkti
+        rikkumisest tulenevad Tellijale tekkivad kulud ja kahjud.
+
+    5.  Täitja esitab Tellijale kõigi Tarkvara litsentside autoriõiguste
+        ja muude intellektuaalomandi õiguste kasutamisõigust tõendavad
+        kinnitused hiljemalt ajaks, kui Tellijal tekib vajadus kasutada
+        nimetatud õigusi.
+
+    6.  Täitja annab Tellijale üle dokumendid ja teabe, mis on vajalikud
+        litsentsidest tulenevate õiguse kasutamiseks Lepingu alusel.
+
+    7.  Täitja kannab kõik otsesed ja kaudsed kahjud, mis tulenevad
+        sellest, et kolmandal isikul on või väidetavalt on
+        intellektuaalsest omandist tulenevaid õigusi Lepinguga seotud
+        intellektuaalse omandi objektile.
+
+    8.  Lepinguga reguleerimata autoriõiguse küsimustes lähtutakse Eesti
+        Vabariigis kehtivatest autoriõigusealastest õigusaktidest.
+
+    9.  Käesolevas peatükis kirjeldatud õigused laienevad ka kõigile
+        Tellija kontserni kuuluvatele ettevõtjatele.
+
+12. ANDMEKAITSE JA INFOTURVE
+
+    1.  Andmekaitse- ja infoturbenõudeid rakendatakse kõikidele Tellija
+          andmetele, sealhulgas isikuandmetele, mida Täitja Lepingu
+          täitmisel töötleb (isikuandmete kaitse üldmääruse (GDPR)
+          artikkel 4 punkti 2 tähenduses) või mis saavad talle Lepingu
+          täitmise käigus teatavaks.
+
+        1.  Andmesubjektid, kelle isikuandmeid Täitja Tellija nimel
+            töötleb, on: Tellija töötajad.
+
+        2.  Isikuandmete liigid/kategooriad, mida Täitja Tellija nimel
+            Töötleb, on: nimi kontaktandmed, ja platvormi
+            sisselogimismandaadid.
+
+        3.  Täitja poolt Tellija nimel teostatava Isikuandmete
+            Töötlemise eesmärk on: lepingu täitmisega seotud tegevused
+            ja kommunikatsiooni pidamine.
+
+    2.  Täitja kohustub järgima Tellija kirjalikku taasesitamist
+          võimaldavas vormis olevaid juhiseid andmekaitse ja/või
+          infoturbe tagamiseks, välja arvatud juhul kui juhised on
+          vastuolus kehtivate Euroopa Liidu ja/või siseriiklike
+          õigusaktidega (näiteks GDPR, küberturvalisuse seadus (KüTS),
+          HOS, NIS 2).
+
+    3.  Täitja teavitab Tellijat põhjendamatu viivituseta (kuid igal
+          juhul mitte hiljem kui kahekümne nelja (24) tunni jooksul),
+          kui Täitja saab teada Tellija isikuandmeid mõjutavast
+          isikuandmetega seotud rikkumisest (GDPR artikli 33 tähenduses)
+          privacy@enefit.ee ja/või küberintsidendist (küberturvalisuse
+          seaduse tähenduses) lepingu kontaktisikule, andes Tellijale
+          piisavalt teavet, et Tellija saaks täita mis tahes kohustusi
+          järelevalveasutuse või andmesubjekti teavitamiseks vastavalt
+          kehtivatele andmekaitse ja/või küberturvalisuse seadustele ja
+          -määrustele.
+
+    4.  Võttes arvesse isikuandmete töötlemise laadi, ulatust, konteksti
+          ja eesmärke, samuti erineva tõenäosuse ja suurusega ohte
+          füüsiliste isikute õigustele ja vabadustele, rakendab Täitja
+          Tellija isikuandmete kaitseks asjakohaseid tehnilisi ja
+          korralduslikke meetmeid, et tagada sellele riskile vastav
+          turbetase, sealhulgas vajaduse korral GDPR artiklis 32
+          osutatud meetmed.
+
+    5.  Täitja kohustub kustutama Tellija isikuandmed 30 päeva jooksul
+          pärast Lepingu lõppemist, välja arvatud juhul kui Pooled on
+          omavahel kirjalikku taasesitamist võimaldavas vormis leppinud
+          kokku muus säilitustähtajas.
+
+    6.  Täitja ei edasta Tellija andmeid, sealhulgas isikuandmeid
+          kolmandale isikule (alltöötlejale) ilma Tellija eelneva
+          konkreetse või üldise kirjaliku loata. Kui Täitja kaasab
+          alltöötleja, jääb Täitja täielikult vastutavaks alltöötleja
+          tegevuse eest Tellija ees.
+
+    7.  Täitja abistab Tellijat intsidentide lahendamisel ning
+          andmesubjektide ja asutuste päringutele või taotlustele
+          vastamisel Tellija juhiste alusel lisatasuta.
+
+    8.  Lepingus reguleerimata andmekaitse ja infoturbe küsimustes
+          lähtuvad Pooled kehtivatest siseriiklikest ja Euroopa Liidu
+          õigusaktidest ning nende alusel kehtestatud nõuetest,
+          juhistest, juhenditest ja suunistest.
+
+13. VÄÄRAMATU JÕUD
+
+    1.  Pooled vastutavad kohustuste rikkumise eest, välja arvatud
+        juhul, kui rikkumine on vabandatav. Kohustuse rikkumine on
+        vabandatav, kui selle on põhjustanud prognoosimatu või poole
+        tegevusest olenematu asjaolu (vääramatu jõud). Vääramatu jõuna
+        käsitlevad pooled võlaõigusseaduse §-s 103 lg 2 nimetatud
+        asjaolusid.
+
+    2.  Pool, kelle tegevus lepingujärgsete kohustuste täitmisel on
+        takistatud vääramatu jõu asjaolude tõttu, on kohustatud sellest
+        koheselt kirjalikult teatama teisele Poolele, esitades
+        teavitusega ühes tõendid kõigi järgnevate asjaolude esinemise
+        kohta:
+
+        1.  takistava asjaolu esinemine, mis takistab kohustuse kohast
+              täitmist;
+
+        2.  takistava asjaolu asetsemine väljaspool võlgniku mõjusfääri;
+
+        3.  asjaolu ettenägematus;
+
+        4.  asjaolu vältimatus ja ületamatus.
+
+    3.  Vääramatu jõu asjaolude ilmnemisel pikeneb Lepingu lõpptähtaeg
+        nimetatud asjaolude esinemise perioodi võrra. Pool peab
+        vääramatu jõu asjaolude äralangemisel Lepingut täitma asuma. Kui
+        vääramatu jõu asjaolude tõttu on Poole Lepingust tulenevate
+        kohustuste täitmine takistatud enam kui 30ne kalendripäeva võrra
+        võib teine Pool öelda lepingu üles.
+
+14. LÕPPSÄTTED
+
+    1.  Pooled kohustuvad tegema kõik endast oleneva vältimaks kahju
+        tekkimist teisele Poolele, sh teise Poole mainele.
+
+    2.  Pooled kinnitavad, et Lepingu sõlmimisega ei rikuta ühtegi enda
+        suhtes kehtiva seaduse, põhikirja või muu õigusakti sätet ega
+        ühtki endale varem sõlmitud lepingute ja kokkulepetega võetud
+        kohustust ning Pooltel on olemas vajalikud volitused ja pädevus
+        Lepingu sõlmimiseks nendes sätestatud tingimustel ja korras.
+
+    3.  Leping on koostatud eesti keeles ning tõlgitud inglise keelde.
+        Vastuolu korral eesti- ja inglisekeelse versioonide vahel,
+        kohaldub eestikeelne Lepingu versioon.
+
+    4.  Lepingut võib muuta Poolte kirjalikul kokkuleppel. Kõik Lepingu
+        muudatused jõustuvad pärast nende allakirjutamist mõlema Poole
+        poolt allakirjutamise momendist või Poolte poolt kirjalikult
+        määratud tähtajal.
+
+    5.  Kõik Lepingust tulenevad erimeelsused püüavad Pooled lahendada
+        läbirääkimiste teel. Kokkuleppe mittesaavutamisel lahendatakse
+        vaidlused Harju Maakohtus. Lepingule kohaldub Eesti Vabariigi
+        õigus.
+
+Poolte allkirjad:
+
+Eesti Energia AS [Täitja] 
+
+……. …………….
+
+(allkirjastatud digitaalselt) (allkirjastatud digitaalselt)

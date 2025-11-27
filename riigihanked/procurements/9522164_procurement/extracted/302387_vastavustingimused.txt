@@ -1,0 +1,120 @@
+1/3
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+302387
+Eesti Energia AS (10421629)
+IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus
+
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+ÄRISALADUS
+Pakkuja märgib pakkumuses, milline teave on pakkuja ärisaladus ning põhjendab teabe
+määramist ärisaladuseks.
+Teabe ärisaladuseks määramisel lähtutakse ebaausa konkurentsi takistamise ja ärisaladuse kaitse
+seaduse § 5 lõikes 2 sätestatust. Pakkuja ei või ärisaladusena märkida:
+1) pakkumuse maksumust ega osamaksumusi;
+2) teenuste hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste hindamise
+kriteeriumidele vastavaid pakkumust iseloomustavaid numbrilisi näitajaid;
+3) asjade ja ehitustööde hankelepingute puhul lisaks punktis 1 nimetatule muid pakkumuste
+hindamise kriteeriumidele vastavaid pakkumust iseloomustavaid näitajaid (RHS § 46 ülamärkega
+1).
+Küsimused ettevõtjale:
+1. Kirjeldage lühidalt pakkumuses sisalduvat ärisaladust ja lisage selle määramise põhjendus või
+märkige, et pakkumus ei sisalda ärisaladust. (Suur sisestusala (max pikkus 4000 tähemärki))
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud.
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+PAKKUMUSE MAKSUMUS
+Pakkumuse maksumus tuleb esitada töölehel "Hindamiskriteeriumid ja hinnatavad näitajad"
+toodud struktuuri kohaselt.
+Küsimused ettevõtjale:
+1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe "Hindamiskriteeriumid ja hinnatavad
+näitajad" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega "Jah/Ei")
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+Koostatud 05.11.2025 14:38:05
+https://riigihanked.riik.ee/rhr-web/#/procurement/9522164/general-info
+
+2/3
+
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+EDASIMÜÜGIÕIGUSE TÕENDAMINE
+Pakkujal peab olema kehtiv tarkvara tugiteenuse tootja volitus või sertifikaat pakkumuses esitatud
+tarkvara ja tarkvara tugiteenuste pakkumiseks hankelepingu kehtivuse perioodi jooksul. Pakkuja
+esitab pakkumuse koosseisus tootja volituse või sertifikaadi. Pakkuja esitab pakkumuse
+koosseisus tootja volituse või sertifikaadi.
+
+Küsimused ettevõtjale:
+1. Tootja poolt väljastatud volitus või sertifikaat (Vabas vormis dokument)
+TEHNILINE TUGI
+Vastavalt tehnilisele kirjeldusele peab pakkuja tagama kogu hankelepingu perioodil Platvormi
+tehnilise toe eesti -või inglise keeles. Tehnilise toe teenus peab vastama tehnilises kirjelduses
+sätestatud tingimustele. Pakkumusega koos tuleb esitada ka tootetoe tingimused, mis on
+pakkumuse lahutamatu osa
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et tagatud on tehnilise kirjelduse sätetele vastav tehnilise toe tugiteenus
+kogu hankelepingu perioodil? (Raadionupp valikutega "Jah/Ei")
+2. Tootetoe tingimused (Vabas vormis dokument)
+
+TEHNILINE PAKKUMUS
+1. Pakkuja esitab pakutava tarkvara tehnilise spetsifikatsiooni/tüüptingimused. Vastavustingimuse
+alla esitab pakkuja ka Tehnilise kirjelduse lisas 1_NFR tabelis punktides 1.3.1 ja 1.3.2 nõutud
+kehtiva sertifikaadi koopia ja/või sõltumatu kolmanda osapoole kinnituse tingimusele vastavuse
+kohta ning NFR_1.3.3 kohta tuleb esitada kirjalik kinnitus.
+2. Pakkuja esitab tehnilise informatsiooni, mille alusel on hankijal võimalik kontrollida vastavust
+tehnilises kirjelduses esitatud nõuetele ning esitab pakkuja poolt täidetud dokumendi
+mittefunktsionaalsete nõuete vastavuse kohta (Tehnilise kirjelduse lisa 1_NFR).
+
+Küsimused ettevõtjale:
+1. Tehniline pakkumus (Vabas vormis dokument)
+2. Mittefunktsionaalsete nõuete tabel (NFR) (Dokumendi vorm / NFR.xlsx)
+
+DETAILSE MAKSUMUSE VORM
+Pakkuja täidab detailse maksumuse vormi vastavalt etteantud juhistele. Detailse maksumuse
+vormi lahtris "Pakkumuse maksumus kokku (EUR, km-ta)" esitatud summa tuleb märkida
+pakkumuse kogumaksumusena “Hindamiskriteeriumid ja hinnatavad näitajad” lehel.
+Koostatud 05.11.2025 14:38:05
+https://riigihanked.riik.ee/rhr-web/#/procurement/9522164/general-info
+
+3/3
+
+Küsimused ettevõtjale:
+1. Detailse maksumus vorm (Dokumendi vorm / Detailse maksumuse vorm_detailed cost
+form.docx)
+
+Koostatud 05.11.2025 14:38:05
+https://riigihanked.riik.ee/rhr-web/#/procurement/9522164/general-info
+
+

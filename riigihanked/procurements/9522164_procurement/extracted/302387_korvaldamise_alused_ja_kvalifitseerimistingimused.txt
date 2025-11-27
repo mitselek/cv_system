@@ -1,0 +1,69 @@
+1/2
+
+KÕRVALDAMISE ALUSED JA
+KVALIFITSEERIMISTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+302387
+Eesti Energia AS (10421629)
+IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus
+
+KÕRVALDAMISE ALUSED
+RHS § 95 LÕIKEST 1 TULENEVAD KÕRVALDAMISE ALUSED
+Hankija ei sõlmi hankelepingut ja kõrvaldab hankemenetlusest pakkuja või taotleja: keda või
+kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud
+kuritegelikus ühenduses osalemise, aususe kohustuse rikkumise või korruptiivse teo, kelmuse,
+terroriakti toimepaneku või muu terroristliku tegevusega seotud kuriteo või sellele kihutamise,
+kaasaaitamise või selle katse, rahapesualase süüteo või terrorismi rahastamise eest;; keda või
+kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud riigis ilma
+seadusliku aluseta viibivale välismaalasele töötamise võimaldamise või välismaalase Eestis
+töötamise tingimuste rikkumise võimaldamise, sealhulgas seaduses sätestatud töötasu määrast
+väiksema töötasu maksmise eest keda või kelle haldus-, juhtimis- või järelevalveorgani liiget,
+prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha
+või teda kontrollida, on karistatud laste tööjõu ebaseadusliku kasutamise või inimkaubandusega
+seotud teo eest;; kellel on riikliku maksu, makse või keskkonnatasu maksuvõlg maksukorralduse
+seaduse tähenduses või maksu- või sotsiaalkindlustusmaksete võlg tema asukohariigi
+õigusaktide kohaselt; kellega hankelepingu sõlmimine rikuks rahvusvahelist või Vabariigi
+Valitsuse sanktsiooni rahvusvahelise sanktsiooni seaduse tähenduses.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Kas pakkuja kinnitab, et pakkujal puuduvad RHS § 95 lg 1 pakkuja kõrvaldamise alused?
+(Raadionupp valikutega "Jah/Ei")
+
+D: Ainult siseriiklikest õigusaktidest tulenevad kõrvalejätmise alused
+AINULT SISERIIKLIKEST ÕIGUSAKTIDEST TULENEVAD KÕRVALEJÄTMISE
+ALUSED: OSALEJA PIIRAMINE ETTEVÕTJA ELU- VÕI ASUKOHA PÕHISELT
+Kas ettevõtja rikub hankija kehtestatud piirangut pakkumust või taotlust esitada?
+Vastavalt RHS § 7 lg 3 saavad hankes osaleda ning pakkumuse esitada üksnes Euroopa Liidu
+liikmesriigist, Euroopa Majanduspiirkonna lepinguriigist ja Maailma Kaubandusorganisatsiooni
+riigihankelepinguga ühinenud riigist pärit pakkujad. Hankija kõrvaldab pakkuja kelle elu- või
+asukoht ei ole nimetatud riikides lähtudes RHS 95 lg 4 punktist 12.
+RHS § 95 lg 4 p 12 „kellel puudub käesoleva seaduse alusel õigus pakkumust või taotlust
+esitada, välja arvatud § 111 lõikes 6 sätestatud juhul". RHS § 7 lg 3 sätestab, et hankija võib
+piirata pakkujate ja taotlejate ringi, lubades riigihankes osaleda ainult RHS § 3 punktis 2
+nimetatud riikidest pärit ettevõtjatel või andes nendest riikidest pärit ettevõtjate esitatud
+pakkumustele eeliseid teistest riikidest pärit ettevõtjate esitatud pakkumuste ees. Hankija
+sätestab piirangu ettevõtja elu- või asukohale hanke alusdokumentides.
+
+Koostatud 04.11.2025 12:36:14
+https://riigihanked.riik.ee/rhr-web/#/procurement/9522164/general-info
+
+2/2
+
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Kas pakkuja kinnitab, et tema elu- või asukoht on Euroopa Liidu liikmesriigis, muus Euroopa
+Majanduspiirkonna lepinguriigis või Maailma Kaubandusorganisatsiooni riigihankelepinguga
+ühinenud riigis. (Raadionupp valikutega "Jah/Ei")
+2) Kas see teave on elektrooniliselt kättesaadav? (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 04.11.2025 12:36:14
+https://riigihanked.riik.ee/rhr-web/#/procurement/9522164/general-info
+
+

@@ -25,10 +25,10 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 10  
+**Total Assessed:** 11  
 **Analyzing:** 1  
 **Consider:** 1  
-**Skip:** 7  
+**Skip:** 8  
 **FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
@@ -38,6 +38,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 | Date       | ID      | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
 |------------|---------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
+| 2025-11-28 | 9522164 | IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus | Eesti Energia AS | 2025-12-02 | Skip | TPRM SaaS platform vendor required (not dev), ISO 27001/SOC2 Type II cert, manufacturer auth needed, product resale not development, <1% win prob |
 | 2025-11-27 | 9479004 | Andmelaohaldus ja analüüs          | Eesti Rahvusraamatukogu     | 2025-11-29 | Skip       | CISA audit cert required (9mo), Snowflake (none) |
 | 2025-11-27 | 9559644 | Veebide arendus ja hooldus         | Eesti Energia AS            | 2025-12-12 | Analyzing  | Drupal web dev, 40% conditional recommendation |
 | 2025-11-27 | 9590504 | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |

@@ -1,0 +1,659 @@
+DRAFT PUBLIC CONTRACT
+
+/date in digital container/
+
+Eesti Energia AS, registry code 10421629, registered office at Lelle 22,
+Tallinn 11318, represented on the basis of a power of attorney by ……
+(hereinafter: contracting authority), and
+
+..., registry code ..., registered office at ..., represented on the
+basis of ... by ... (hereinafter the contractor),
+
+hereinafter separately referred to as the party and collectively as the
+parties, entered into this public contract (hereinafter also referred to
+as the contract) as follows.
+
+SUBJECT MATTER OF THE CONTRACT AND CONTRACT DOCUMENTS 
+
+1.  The contract is awarded as a result of the public procurement ‘IKT
+    kolmanda osapoole riski-ja turvalisuse haldamise lahendus’ [’ICT
+    Third Party Risk and Security Management Solution’] (reference
+    number ) and in compliance with the procurement documents (Annex 1)
+    and the tender submitted by the contractor (Annex 6).
+
+2.  The subject matter of the contract is the acquisition of the right
+    to use a third-party risk management and attack surface monitoring
+    platform (including licenses and product support), which entails
+    implementation, user training, and provision of support service and
+    services (hereinafter: the service).
+
+3.  The public contract comprises the main part of the contract and its
+    annexes: The annexes to be signed at the same time as the contract
+    are:
+
+    1.  Annex 1 – Technical specifications and annexes;
+
+    2.  Annex 2 – Eesti Energia Group’s Code of Ethics for Partners;
+
+    3.  Annex 3 – Occupational Health and Safety Requirements for the
+          Contractual Partners of Eesti Energia;
+
+    4.  Annex 4 – Tender, including product support terms.
+
+4.  Other public procurement documentation, available on the Public
+    Procurement Register, is also an integral part of the contract.
+
+5.  Upon conflict between the contract and the annexes thereto, the
+    parties must primarily adhere to the contract and then pursuant to
+    the order of the list as set out in clause 1.3 (order of priority).
+
+6.  Any amendments to the contract are attached as an annex.
+
+1.  VALIDITY OF THE CONTRACT
+
+    1.  The contract enters into force once it is signed and remains
+        valid for 24 months. The contracting authority has the right to
+        unilaterally extend the contract by one year. The contracting
+        authority notifies the contractor of its desire to extend the
+        contract 30 (thirty) days before the expiry of the contract.
+
+2.  OBLIGATIONS OF THE CONTRACTOR
+
+    1.  The contractor undertakes to make the service available within 5
+        (five) business days from the signing of the contract.
+
+    2.  The contractor undertakes to provide the service under the terms
+        and conditions set out in Annex 1 to the contract, including:
+
+        1.  provide usage service with training and necessary licenses
+            and provide product support in accordance with the terms and
+            requirements set out in the contract, the Annexes to the
+            contract, and the tender, legislation, and technical quality
+            requirements, norms and standards applied in information
+            technology and telecommunications best practices;
+
+        2.  be responsible for the uninterrupted availability of the
+            service;
+
+        3.  ensure the uninterrupted functioning and development of the
+            service;
+
+        4.  the contractor undertakes to make bug fixes and necessary
+            updates to ensure the service’s compliance with legislation
+            and the terms and conditions of the contract;
+
+        5.  ensure the availability of product support on business days
+            from 09:00 to 17:00 (Estonian time zone) and respond in
+            accordance with the times set out in the contractor's
+            product support terms;
+
+        6.  the contractor undertakes to keep confidential the
+            information obtained during the performance of the contract
+            and to use it only for the performance of the contract;
+
+        7.  inform the contracting authority immediately of any
+            deficiencies and/or of any impediments and/or risks in the
+            performance of its contractual obligations.
+
+    3.  The contractor undertakes to ensure that the service is provided
+        strictly under the sole control, management and supervision of
+        the contractor, and that the data of the contracting authority
+        is stored only within the European Union and on computer and
+        data storage devices located there. The contractor must ensure
+        the implementation of data protection measures that stem from
+        the specifics of the solution, are set out as requirements and
+        apply under legislation.
+
+    4.  The contractor undertakes to notify the contracting authority
+        immediately of any circumstances that prevent the performance of
+        the contract and/or the use of the service.
+
+    5.  The contractor undertakes to ensure that the contracting
+        authority and companies belonging to the same group as the
+        contracting authority are able to use the licenses delivered to
+        the contracting authority for their intended purpose.
+
+3.  CONTRACT FEES
+
+    1.  The total cost of the service for 24 months is set out in the
+        tender. To calculate the cost of one year of service, the total
+        cost is divided by two.
+
+    2.  The cost of the service for a third year, if the contracting
+        authority extends the contract by 1 year after 24 months, is set
+        out in the tender.
+
+    3.  VAT is added to the remuneration in cases, pursuant to the
+        procedure, and at the extent specified by law.
+
+    4.  The fees specified in clauses 4.1 and 4.2 are the contractor’s
+        only remuneration in connection with the contract, and the
+        contractor and its employees do not receive per diems, indirect
+        remuneration or other remuneration related to the obligations
+        specified in the contract. Neither the contractor nor its
+        employees are entitled to additional author’s remuneration or
+        other similar remuneration in connection with the patented or
+        otherwise protected item or process used in the performance of
+        the contract.
+
+    5.  The remuneration set out in the contract must also include all
+        charges related to intellectual property.
+
+    6.  An invoice for the service is submitted once a year for a
+        12-month period. The contractor has the right to submit an
+        invoice to the contracting authority for the first year of use
+        of the service after making the service available to the
+        contracting authority.
+
+    7.  The contracting authority prefers to receive e-invoices in XML
+        format. If it is not possible for the contractor to submit an
+        e-invoice in this format, an invoice sent by email in PDF format
+        will also be accepted. Invoices must be sent to the email
+        address eesti.energia@e-arvetekeskus.eu.
+
+    8.  The invoice must contain at least the following information:
+
+        1.  Information about the submitter of the invoice;
+
+        2.  information about the payer;
+
+        3.  information on the content of the transaction;
+
+        4.  contract number:
+
+        5.  VAT number;
+
+        6.  net amount;
+
+        7.  VAT;
+
+        8.  total amount.
+
+    9.  The contracting authority pays the contractor for the service on
+        the basis of the invoice submitted by the contractor within 14
+        (fourteen) calendar days of receipt of the invoice or, if the
+        contractor has joined the contracting authority's factoring
+        programme, within 95 (ninety-five) days of receipt of the
+        invoice. When using factoring, the bank offering factoring
+        transfers the money to the contractor in two instalments – the
+        first 99% immediately after internal approval of the invoice by
+        Eesti Energia and the remaining 1% minus factoring costs on the
+        95th day from the date the invoice was issued. Information on
+        the factoring programme of the contracting authority and the
+        options to join it can be found on the website of the
+        contracting authority.
+
+    10. If the contracting authority does not agree with the invoice
+        submitted by the contractor, the contracting authority
+        immediately submits to the contractor a corresponding follow-up
+        enquiry for clarifications and explanations. The contracting
+        authority pays the uncontested part of the partially contested
+        invoice by the due date set out in the contract. The contractor
+        will not charge interest on late payment on its invoice until
+        the contractor has provided the contracting authority with a
+        justification for the accuracy of the disputed amount.
+
+4.  LIABILITY OF THE PARTIES
+
+    1.  The parties are liable to the other party for any direct
+        proprietary damage caused to the other party by the
+        non-performance or improper performance of obligations under the
+        contract, but not for any loss of profit. The parties are liable
+        for the acts or omissions of their representatives, employees
+        and cooperation partners as well as for their own acts and
+        omissions.
+
+    2.  If a time limit has been set for the performance of an
+        obligation arising from the contract and the contractor is late
+        in performing the said obligation, the contracting authority has
+        the right to claim a contractual penalty of 100 euros from the
+        contractor for each day of delay. If the time limit is set in
+        hours and the contractor is less than 1 (one) calendar day late
+        in fulfilling the obligation, the contractual penalty will be
+        calculated proportionally according to the number of hours in
+        delay.
+
+    3.  If the contractor is in material breach of an obligation arising
+        from the contract, the contracting authority has the right to
+        claim a contractual penalty of up to 20% of the total price of
+        the contract. A material breach of contract is considered to be,
+        in particular, the breaches specified in clause 5.9 of the
+        contract. If the contractual penalty does not cover all the
+        damage incurred, the contracting authority has the right to
+        claim from the contractor compensation for damage exceeding the
+        contractual penalty.
+
+    4.  If the contracting authority delays the payment of an invoice,
+        the contractor has the right to claim from the contracting
+        authority an interest on late payment of up to 0.03% of the
+        outstanding principal debt per day for each day of delay.
+
+    5.  In case of any violation of the confidentiality obligation
+        arising from the contract, the contracting authority has the
+        right to claim contractual penalty from the contractor in the
+        amount of up to five thousand (5,000) euros.
+
+    6.  Payment of the contractual penalty does not preclude the right
+        of the parties to exercise any other legal remedies available
+        arising from the contract or law. Among other things, the
+        contracting authority is entitled to claim compensation for
+        damages not covered by the contractual penalty.
+
+    7.  Payment of the contractual penalty does not release the party
+        from the obligations arising from the contract.
+
+    8.  A party has the right to cancel the contract at any time by
+        giving notice thereof in writing at least thirty (30) calendar
+        days in advance without giving any reason. The contracting
+        authority undertakes to pay the contractor for the service
+        performed by that time in accordance with the terms of the
+        contract.
+
+    9.  A party has the right to cancel the contract without prior
+        notice upon a material breach of contract by the other party. In
+        addition to the grounds provided by law, the following
+        situations, among others, are considered to constitute a
+        fundamental breach of contract:
+
+        1.  the contractor delays the performance of their contractual
+              obligations by more than 30 (thirty) calendar days;
+
+        2.  the contractor has notified that they will not perform the
+              contract;
+
+        3.  the contractor fails to remedy breaches of contract
+              (including deficiencies in licences) or delays remedying
+              them for more than 30 (thirty) calendar days;
+
+        4.  the contractor has been declared bankrupt;
+
+        5.  the contractor has encountered serious financial
+              difficulties;
+
+        6.  the contractor is in breach of the obligation of
+              confidentiality.
+
+5.  NOTICES
+
+    1.  One party sends the notices related to the contract to the other
+        party to the email address specified in the contract
+
+    2.  A party’s claim to the other party, which is submitted as a
+        result of a breach of the contract, must be delivered digitally
+        signed by email.
+
+    3.  The contract contact persons are:
+
+        1.  Contracting authority: …, email…, phone…
+
+        2.  Contractor: ……, email….. phone……
+
+    4.  Contact persons have the right to submit questions, notices, and
+        similar communications (hereinafter notices) on behalf of the
+        party. Contact persons do not have the right to amend the
+        contract.
+
+    5.  Upon a change in the contact persons or their details, the
+        parties do not enter into an agreement to amend the contract,
+        but immediately notify each other of any change in such details
+        by email.
+
+    6.  Notices sent under the contract are formalised at least in a
+        format that can be reproduced in writing, unless otherwise
+        stated in a specific provision.
+
+    7.  A notice submitted under the contract is deemed to have been
+        submitted properly if it has been prepared in Estonian or
+        English and sent by email, in which case it is deemed to have
+        been received by the other party upon sending of the email, if
+        this occurs on a business day between 09:00 and 17:00 and
+        otherwise at 09:00 on the first business day following the day
+        of sending, unless a notice of non-delivery of the email has
+        been received from the server and the notice has been sent to
+        the other party's contact person at the email address of that
+        contact person.
+
+6.  OBLIGATION OF CONFIDENTIALITY
+
+    1.  Confidential information is information about the other party
+        that has become known to the party, including the party’s
+        representative (see definition in clause 7.4), in the course of
+        conclusion and performance of the contract, which includes,
+        inter alia, the following information: information about the
+        financial situation, internal work organisation and other
+        matters relating to work organisation of the other party,
+        undertakings belonging to the same group of undertakings, their
+        partners and customers; data processed in the systems managed by
+        the other party; the contents of documents, the content of
+        accounts and correspondence maintained by the other party;
+        information about the assets and security systems of the other
+        party; the other party's trade secrets, know-how, technologies,
+        databases, computer programs, technical solutions, concepts,
+        ideas, methods, procedures, business or marketing plans,
+        business contacts, proposals, financial information, reports,
+        correspondence, the content and results of research and
+        development activities, software and related documentation,
+        business-related information and data, other proprietary or
+        unprotected intellectual property and any other information
+        provided by the other party, including the other party's
+        representatives, to the party, including the party's
+        representatives, in the course of performing the contract,
+        whether orally, in writing, electronically or in any other
+        format.
+
+    2.  Confidential information is not information that:
+
+        1.  was in the possession of the party receiving the information
+              or was lawfully made known to that party by a source who
+              did not have an obligation of confidentiality to the other
+              party in respect of that information;
+
+        2.  regardless of the actions or inactions of the party
+              receiving the information, is or becomes publicly known
+              without breach of the contract.
+
+    3.  The classification of information as confidential does not
+        depend on its marking or designation as confidential.
+
+    4.  A representative of the party (hereinafter: representative) is:
+
+        1.  a party’s employee, member of a managing body or
+              subcontractor;
+
+        2.  an undertaking belonging to the same group of undertakings
+              as the party and an employee, a member of the managing
+              body or subcontractor of said undertaking;
+
+        3.  any other natural or legal person acting on behalf of a
+              party or an undertaking belonging to the same group of
+              undertakings as the party.
+
+    5.  The parties undertake during the validity of the contract and
+        for a period of 5 (five) years after the cessation of the
+        contract on any grounds, not to disclose to third parties
+        confidential information of the other party without the prior
+        written consent of the other party, to ensure the
+        confidentiality of the confidential information and to use the
+        confidential information only for the performance of their
+        obligations under the contract (including to ensure the above by
+        their representatives).
+
+    6.  The parties are entitled to disclose confidential information to
+        their respective representatives to the extent necessary for the
+        performance of their obligations under the contract and provided
+        that a confidentiality agreement substantially equivalent to the
+        one contained in this contract has been entered into with the
+        respective representative.
+
+    7.  Where a party is obliged by law to disclose confidential
+        information of the other party, that party must make an
+        economically reasonable effort to provide the other party with a
+        notice about such disclosure at least 10 (ten) business days in
+        advance, limit the amount of confidential information to be
+        disclosed as much as possible, and disclose confidential
+        information only to the extent required by law.
+
+7.  DOCUMENTATION
+
+    1.  If documentation to be handed over to the contracting authority
+        is prepared during the provision of the service, it will be
+        prepared in Estonian or English.
+
+    2.  An electronic data carrier is used for the preparation and
+        distribution of documents.
+
+    3.  The documentation must correspond to the solution provided under
+        the service, comprise amendments and be terminologically
+        unambiguous.
+
+    4.  If the license producer has issued a user manual, it must be
+        forwarded to the contracting authority at the first opportunity.
+        The user manual may be in Estonian or English.
+
+8.  PRODUCT SUPPORT
+
+    1.  Product support must include updates and upgrades of the service
+        and bug fixes, in accordance with Annex 1 and Annex 4 (Tender).
+
+    2.  Product support also includes updating the service, including
+        updates necessary to ensure that the functionality of the
+        solution complies with applicable legislation. The contractor
+        undertakes to keep up to date with changes in legislation and to
+        inform the contracting authority of related solution updates and
+        the time of their implementation.
+
+    3.  The contractor provides technical support throughout the
+        contract period in Estonian or English in accordance with the
+        contractor's product support terms and conditions set out in the
+        tender.
+
+    4.  The contractor provides product support on business days from
+        08:00 to 17:00 Estonian time. All weekdays are considered
+        business days, except Saturday, Sunday and public holidays.
+
+    5.  All product support activities during the contract period are
+        covered by the contract fee (ie no additional fees can be
+        charged for this).
+
+    6.  Product support contact details: email:… and
+        contractor-designated environment: …
+
+9.  USER TRAINING
+
+    1.  The contractor ensures adequate training to the contracting
+        authority's main users to ensure the satisfactory and effective
+        functioning of the service, as agreed in the contract and Annex
+        1.
+
+    2.  The contractor will conduct user training for the contracting
+        authority's main users within 30 (thirty) days of entering into
+        the public contract.
+
+    3.  User training will take place via video link and the time, place
+        and scope of the training will be coordinated in advance with
+        the contracting authority's contact person.
+
+    4.  User training must be held in Estonian or English.
+
+10. PERMITS AND LICENSES
+
+    1.  The contractor is solely liable for obtaining the permits and
+        licences necessary for the performance of the contract. The
+        contracting authority co-operates reasonably with the contractor
+        to prevent any unnecessary delay or refusal in obtaining such
+        permits and licences.
+
+    2.  The contracting authority may terminate the contract without
+        prior notice if the contractor fails to obtain the permits or
+        licences necessary for the performance of the contract.
+
+    3.  The contractor guarantees that it has the right to grant the
+        contracting authority the right to use of the solution offered
+        under the service and any other items protected by copyright or
+        other similar rights that form the subject matter of the
+        contract.
+
+    4.  The contractor guarantees that the transfer of the said usage
+        right does not violate the rights of third parties. If a third
+        party brings a claim against the contracting authority for
+        rights infringement and the claim is upheld, the contractor must
+        pay any resulting claims for damages, costs for legal assistance
+        and other related costs.
+
+11. INTELLECTUAL PROPERTY
+
+    1.  The contractor grants the contracting authority the right to use
+        the service within the scope and to the extent set out in the
+        contract.
+
+    2.  The contractor is obliged to ensure the existence and validity
+        of the licences and, where necessary, other intellectual
+        property rights required for the performance of the contract
+        throughout its duration.
+
+    3.  The contractor declares that granting the contracting authority
+        the right of use of a solution as a result of the service does
+        not infringe copyrights or other intellectual property rights of
+        third parties during the term of validity of the contract.
+
+    4.  The contractor is liable if the licences offered by them violate
+        the rights of other persons. The contractor undertakes to
+        compensate the contracting authority for all costs and damages
+        arising from the contractor's violation of this clause and
+        incurred by the contracting authority.
+
+    5.  The contractor provides the contracting authority with
+        confirmations verifying the right to use the copyrights and
+        other intellectual property rights of all software licences no
+        later than by the time when the contracting authority needs to
+        use said rights.
+
+    6.  The contractor hands over to the contracting authority the
+        documents and information necessary for the use of the rights
+        arising from the licences under the contract.
+
+    7.  The contractor bears all direct and indirect damages resulting
+        from the fact that a third party has or is alleged to have
+        intellectual property rights to the object of intellectual
+        property related to the contract.
+
+    8.  In copyright matters not regulated by the contract, the
+        copyright-related legislation in force in the Republic of
+        Estonia must be adhered to.
+
+    9.  The rights described in this chapter also extend to all
+        undertakings belonging to the Group of the contracting
+        authority.
+
+DATA PROTECTION AND INFORMATION SECURITY
+
+13.1. Data protection and information security requirements apply to all
+data of the Client, including personal data processed by the Contractor
+in the performance of the Agreement (within the meaning of Article 4(2)
+of the General Data Protection Regulation (GDPR)) or which becomes known
+to the Contractor during the performance of the Agreement.
+
+  13.1.1. Data subjects whose personal data the Contractor processes on
+  behalf of the Client are: the Client’s employees.
+
+13.1.2. Types/categories of personal data processed by the Contractor on
+behalf of the Client are: name and contact details and login
+credentials.
+
+13.1.3. The purpose of personal data processing by the Contractor on
+behalf of the Client is: communication and activities related to the
+performance of the Agreement.
+
+13.2. The Contractor undertakes to comply with the Client’s written
+instructions (in a reproducible form) for ensuring data protection
+and/or information security, except where such instructions conflict
+with applicable European Union and/or national legislation (e.g., GDPR,
+Cybersecurity Act, HOS, NIS 2).
+
+13.3. The Contractor shall notify the Client without undue delay (and in
+any case no later than twenty-four (24) hours) upon becoming aware of a
+personal data breach affecting the Client’s personal data (within the
+meaning of GDPR Article 33) at privacy@enefit.ee and/or of a
+cybersecurity incident (within the meaning of the Cybersecurity Act) to
+the Agreement’s contact person, providing sufficient information to
+enable the Client to fulfill any obligations to notify the supervisory
+authority or data subjects in accordance with applicable data protection
+and/or cybersecurity laws and regulations.
+
+13.4. Taking into account the nature, scope, context, and purposes of
+personal data processing, as well as the risks of varying likelihood and
+severity to the rights and freedoms of natural persons, the Contractor
+shall implement appropriate technical and organizational measures to
+protect the Client’s personal data and ensure a level of security
+appropriate to the risk, including, where applicable, the measures
+referred to in GDPR Article 32.
+
+13.5. The Contractor undertakes to delete the Client’s personal data
+within 30 days after the termination of the Agreement, unless the
+Parties have agreed in writing (in a reproducible form) on a different
+retention period.
+
+13.6. The Contractor shall not transfer the Client’s data, including
+personal data, to any third party (sub-processor) without the Client’s
+prior specific or general written consent. If the Contractor engages a
+sub-processor, the Contractor remains fully liable to the Client for the
+actions of the sub-processor.
+
+13.7. The Contractor shall assist the Client, free of charge, in
+resolving incidents and responding to inquiries or requests from data
+subjects and authorities, in accordance with the Client’s instructions.
+
+13.8. For data protection and information security matters not regulated
+in this Agreement, the Parties shall follow applicable national and
+European Union legislation and the requirements, guidelines,
+instructions, and recommendations established thereunder.
+
+  14.1. FORCE MAJEURE
+
+1.  The parties are liable for breach of obligations, unless the breach
+    is excusable. A breach of duty is excusable if it is caused by an
+    unforeseeable or a circumstance beyond the party’s control (force
+    majeure). The parties treat the circumstances referred to in
+    subsection 2 of § 103 of the Law of Obligations Act as force
+    majeure.
+
+2.  A party whose actions in the performance of its obligations under
+    the contract are hindered due to force majeure is required to notify
+    the other party thereof immediately in writing, providing together
+    with the notification evidence of the occurrence of all of the
+    following circumstances:
+
+    1.  the existence of a circumstance hindering the proper performance
+        of the obligation;
+
+    2.  the existence of an hindering circumstance outside the debtor's
+        control;
+
+    3.  unpredictability of the circumstance;
+
+    4.  the inevitability and insurmountability of the circumstance.
+
+3.  In the event of force majeure, the term of the contract is extended
+    by the period during which the force majeure occurs. Upon a lapse of
+    the circumstances of force majeure, the party must immediately
+    proceed to perform the contract. If due to force majeure, the
+    performance of a party’s obligations under the contract is hindered
+    for more than 30 (thirty) calendar days, the other party may cancel
+    the contract.
+
+14. FINAL PROVISIONS
+
+    1.  The parties undertake to do everything in their power to avoid
+        any damage to the other party, including damage to the
+        reputation of the other party.
+
+    2.  The parties declare that by entering into the contract they are
+        not violating any provision of law, rules or regulations, or
+        other legislation applicable to them, or any of the obligations
+        assumed by them under previously concluded contracts and
+        agreements, and that they have the necessary authorisations and
+        competence to enter into the contract under the terms and
+        conditions and procedure stipulated herein.
+
+    3.  The contract has been prepared in Estonian and translated into
+        English. In the case of any discrepancies between the Estonian
+        and English versions, the Estonian version of the contract
+        prevails.
+
+    4.  The contract may be amended by written agreement of the parties.
+        All amendments to this contract enter into force after being
+        signed by both parties or on a date agreed in writing by the
+        parties.
+
+    5.  All disputes arising from the contract will be resolved by the
+        parties through negotiation. If no agreement is reached, the
+        dispute will be settled in Harju District Court. This contract
+        is subject to the law of the Republic of Estonia.
+
+Signatures of the parties
+
+Eesti Energia AS [Contractor] 
+
+……. …………….
+
+(signed digitally) (signed digitally)

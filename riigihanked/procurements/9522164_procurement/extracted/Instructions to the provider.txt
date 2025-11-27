@@ -1,0 +1,202 @@
+[logo_corner_small]Procurement procedure
+
+1.  Subject of public procurement and general information
+
+    1.  The basic documents for public procurement (hereinafter also the
+        RHAD) consist of the documents listed in Section 125 of the
+        Public Procurement Act (hereinafter also the RHS). All documents
+        complement each other. Any obligation, condition or requirement
+        set out in any document is mandatory for the tenderer.
+
+    2.  The RHAD has been prepared in Estonian and English. In the event
+        of any inconsistencies between the Estonian and English versions
+        of the basic public procurement documents, the provisions of the
+        Estonian version of the basic public procurement documents shall
+        prevail. The Estonian version of the basic public procurement
+        documents shall prevail.
+
+    3.  The subject matter of the framework agreement is described in
+        the RHAD document "Technical Description".
+
+    4.  Public procurement is organized in accordance with the
+        procurement procedure set out in Chapter 5 of the RHS and the
+        conditions set out in the RHAD .
+
+    5.  The bidder and the bid submitted by the bidder must meet all the
+        conditions set out in the RHAD . All documents required by the
+        RHAD must be submitted with the bid. electronically through the
+        e-public procurement environment at https://riigihanked.riik.ee.
+
+    6.  Other requirements and guidelines that must be taken into
+        account:
+
+1.6.1. Occupational health and safety requirements for Eesti Energia's
+contractual partners,
+
+1.6.2. Eesti Energia Group's Code of Ethics for Partners.
+
+2.  Requirements for bidders, elimination and qualification of bidders
+
+    1.  The grounds for exclusion from public procurement, the
+        requirements for the economic and financial status and technical
+        and professional competence of the bidder are set out in the
+        RHAD document "Grounds for Exclusion and Qualification
+        Conditions".
+
+    2.  The contracting entity has the right to verify that the bidder
+        does not have grounds for exclusion throughout the public
+        procurement and not to conclude a procurement contract with a
+        bidder who has grounds for exclusion as provided for in the
+        RHAD.
+
+    3.  If the bidder does not submit the documents necessary for
+        verifying the grounds for exclusion, or explanations regarding
+        the content of the submitted documents, or data or documents
+        enabling clarification, by the deadline set by the contracting
+        authority, and these data or documents are not available to the
+        contracting authority without significant costs based on the
+        public data in the database, the contracting authority shall
+        exclude the bidder from the public procurement.
+
+    4.  Only bidders whose residence or registered office is in Estonia,
+        another European Union Member State, another European Economic
+        Area contracting state, or a country that has acceded to the
+        World Trade Organization's Government Procurement Agreement may
+        participate in public procurement.
+
+3.  Tender requirements, verification of tender compliance
+
+    1.  The requirements for the tender are set out in the RHAD document
+        “Conditions of Eligibility” and “Technical Specification”.
+
+    2.  In the RHAD forms submitted with the tender, the tenderer is
+        prohibited from removing/changing the confirmations/conditions
+        specified by the contracting entity on the forms. The tenderer
+        may change the forms only to the extent specified for this
+        purpose (cells, brackets, lines, etc. indicated on the form).
+
+    3.  The provisions of Section 112 of the Public Procurement Act
+        shall apply to the extension of the tender validity period.
+
+    4.  The contracting authority shall declare the tender to be
+        responsive if it complies with the requirements set out in the
+        RHAD. The contracting authority may declare the tender to be
+        responsive if it does not contain any substantive deviations
+        from the conditions specified in the RHAD.
+
+    5.  The contracting authority shall reject the tender if the tender
+        does not comply with the requirements set out in the RHAD or if
+        the tenderer does not submit the explanations requested by the
+        contracting authority by the deadline or if, based on the
+        explanations provided by the tenderer, it is not possible to
+        unambiguously assess the conformity of the tender with the
+        conditions set out in the RHAD.
+
+    6.  In the event that there is a calculation error in the cost of
+        the tender, the contracting authority shall proceed from Section
+        117(3) of the Public Procurement Act.
+
+4.  Rejection of offers
+
+    1.  The contracting entity has the right to reject all tenders at
+        any time before the conclusion of the contract:
+
+        1.  if the costs of all tenders are higher than the estimated
+            cost of the procurement contract and the contract is not
+            acceptable to the contracting entity at such a cost;
+
+        2.  if less than 3 bids are received from different bidders in
+            the procurement and thus effective exploitation of
+            competition within the framework of the procurement is not
+            ensured within the meaning of Section 3, Clause 3 of the
+            RHS;
+
+        3.  if an event has occurred that can be considered force
+            majeure. Force majeure is a circumstance that the
+            contracting entity cannot influence and in which the
+            contracting entity cannot reasonably be expected to take
+            into account or avoid this circumstance during the public
+            procurement process or to overcome the hindering
+            circumstance or its consequences.
+
+    2.  The contracting entity has the right to reject the tender at any
+        time before the conclusion of the contract if the contracting
+        entity finds that the cost of the tender, any price component or
+        unit price is unreasonably low considering the subject matter of
+        the procurement contract. The contracting entity shall apply the
+        provisions of Section 115(1) and (7)-10 of the Public
+        Procurement Act. A general statement by the tenderer that the
+        cost of the tender is based on the tenderer's extensive
+        experience and real costs and that the tenderer is able to
+        perform the contract at the cost offered shall not be considered
+        sufficient.
+
+5.  Evaluation and award of tenders
+
+    1.  The evaluation criteria, evaluable indicators and evaluation
+        methodology are described in the RHAD document “Evaluation
+        criteria and evaluable indicators”.
+
+    2.  The bid that receives the most value points during the
+        evaluation will be declared successful.
+
+    3.  If the value points assigned to the tenders are equal, the
+        successful tender will be selected by drawing lots in accordance
+        with the procedure, time and place determined by the contracting
+        entity, and in which the legal or authorized representatives of
+        the tenderers who submitted tenders with equal value points will
+        participate.
+
+6.  Conclusion of a framework agreement
+
+    1.  The contracting entity concludes a framework agreement with the
+        successful tenderer. The draft framework agreement is included
+        in the RHAD "Framework Agreement Draft" and is binding on the
+        tenderer.
+
+    2.  If the successful tenderer withdraws its tender before the
+        conclusion of the procurement contract or does not sign the
+        procurement contract within 30 working days, the contracting
+        entity has the right to proceed from Section 119 of the Public
+        Procurement Act, including Section 119(3) of the Public
+        Procurement Act.
+
+    3.  The contracting entity shall conclude the framework agreement in
+        the Estonian language version.
+
+7.  Other provisions
+
+    1.  The contracting entity reserves the right to declare the public
+        procurement invalid in the event of justified need on the
+        contracting entity's own initiative.
+
+    2.  The contracting entity may check the compliance of tenders with
+        the conditions set out in the RHAD and assess the tenders
+        declared compliant in accordance with the procedure provided for
+        in this Act before checking the absence of grounds for exclusion
+        and the qualifications of the tenderers. In such a case, the
+        contracting entity shall ensure that the procurement contract is
+        not concluded with a tenderer who should have been excluded from
+        the procurement procedure on the basis of subsection 95 (1) of
+        this Act or who does not meet the qualification conditions
+        established by the contracting entity in accordance with
+        subsection 52 (3) of the RHS.
+
+    3.  Any reference made by the contracting entity in the basic
+        procurement documents to any of the grounds referred to in
+        Section 88(2) of the RHS (standard, technical approval,
+        technical control system, etc.) as a criterion for compliance
+        with the technical specifications of the tender shall be read as
+        if it were supplemented by the words “or equivalent”. Any
+        reference made by the contracting entity in the basic
+        procurement documents to a source of purchase, process,
+        trademark, patent, type, origin or method of production shall be
+        read as if it were supplemented by the words “or equivalent”.
+        Equivalence means exactly the same performance characteristics
+        and functionalities.
+
+    4.  Clarifications regarding the content of the RHAD can be obtained
+        by contacting the contracting entity in writing through the
+        e-public procurement environment at
+        https://riigihanked.riik.ee/, public procurement reference
+        number 298924.

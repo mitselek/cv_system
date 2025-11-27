@@ -1,0 +1,59 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302387
+Hankija: Eesti Energia AS (10421629)
+Hange: IKT kolmanda osapoole riski- ja turvalisuse haldamise lahendus
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+Kirjeldus
+Tüüp /
+nr
+hindamismeetod
+1 Pakkumuse kogumaksumus detailse Pakkumuse
+kogumaksumuseks
+on
+Maksumus maksumuse vormilt/ Total bid cost from kolmandate osapoolte riskihalduse ja vähim on parim
+detailed cost form
+ründepinna
+seire
+platvormi
+kasutusõiguse maksumus 2 (kaheks)
+aastaks kokku.
+The total cost of the offer is the cost of
+the right to use the third-party risk
+management
+and
+attack
+surface
+monitoring platform for a total of 2
+(two) years.
+Kokku:
+
+Osakaal
+100
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+jah
+
+100
+
+Hindamismetoodika kirjeldus
+1. Pakkumuse kogumaksumus detailse maksumuse vormilt/ Total bid cost from detailed cost form
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 05.11.2025 14:38:14
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9522164/general-info
+
+

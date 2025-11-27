@@ -1,0 +1,193 @@
+[logo_corner_small]Juhend pakkujale
+
+1.  Riigihanke ese ja üldine informatsioon
+
+    1.  Riigihanke alusdokumendid (edaspidi ka RHAD) koosnevad
+        riigihangete seaduse (edaspidi ka RHS) § 4 lg 17 loetletud
+        dokumentidest.
+
+    2.  Käesoleva riigihanke alusdokumentideks on:
+
+        1.  juhend pakkujale;
+
+        2.  tehniline kirjeldus;
+
+        3.  hankelepingu projekt;
+
+        4.  detailse maksumuse vorm;
+
+        5.  avaldus hankemenetluses osalemiseks;
+
+        6.  kõrvaldamise alused;
+
+        7.  vastavustingimused;
+
+        8.  hindamiskriteeriumid ja hinnatavad näitajad;
+
+        9.  hanketeade.
+
+    3.  Hankelepingu eseme kirjeldus on RHAD dokumendis "Tehniline
+        kirjeldus".
+
+    4.  Riigihange korraldatakse kooskõlas RHS § 125 sätestatud
+        lihthankemenetluse korraga ning RHAD-is sätestatud tingimustega.
+
+    5.  Pakkuja ja pakkuja poolt esitatud pakkumus peavad vastama
+        kõigile RHAD-is esitatud tingimustele. Pakkumusega tuleb esitada
+        kõik RHAD-is nõutud dokumendid elektrooniliselt e-riigihangete
+        keskkonna kaudu aadressil https://riigihanked.riik.ee .
+
+    6.  Muud nõuded ja juhendid, millega pakkuja peab arvestama:
+
+        1.  Töötervishoiu ja tööohutuse nõuded Eesti Energia
+              lepingupartneritele,
+
+        2.  Eesti Energia kontserni eetikakoodeks partneritele.
+
+2.  Nõuded pakkujale: pakkujate kõrvaldamine
+
+    1.  Riigihankest kõrvaldamise alused on sätestatud RHAD dokumendis
+        “Kõrvaldamise alused ja kvalifitseerimistingimused”.
+
+    2.  Hankijal on õigus kontrollida pakkujal kõrvaldamise aluste
+        puudumist kogu riigihanke vältel ning mitte sõlmida
+        hankelepingut pakkujaga, kellel esinevad RHAD-is sätestatud
+        kõrvaldamise alused.
+
+    3.  Kui pakkuja ei esita hankija antud tähtajaks kõrvaldamise aluste
+        kontrollimiseks vajalikke dokumente, või selgitusi esitatud
+        dokumentide sisu kohta, või selgitamist võimaldavaid andmeid või
+        dokumente, ja need andmed või dokumendid ei ole hankijale
+        andmekogus olevate avalike andmete põhjal oluliste kulutusteta
+        kättesaadavad, kõrvaldab hankija pakkuja riigihankest.
+
+    4.  Riigihankes saavad osaleda ainult pakkujad, kelle elu- või
+        asukoht on Eestis, mõnes muus Euroopa Liidu liikmesriigis, muus
+        Euroopa Majanduspiirkonna lepinguriigis või Maailma
+        Kaubandusorganisatsiooni riigihankelepinguga ühinenud riigis.
+
+3.  Nõuded pakkumusele: pakkumuste vastavuse kontrollimine
+
+    1.  Nõuded pakkumusele on sätestatud RHAD dokumendis
+        “Vastavustingimused”.
+
+    2.  Pakkumusega esitatavatel RHAD vormidel on pakkujal keelatud
+        hankija poolt vormidel ette nähtud kinnituste/tingimuste
+        eemaldamine/muutmine. Pakkuja võib vorme muuta vaid selleks ette
+        nähtud ulatuses (vormis näidatud lahtrid, sulud, jooned jne).
+
+    3.  Pakkumuse jõusoleku tähtaja pikendamisele kohaldatakse RHS § 112
+        sätestatut.
+
+    4.  Hankija tunnistab pakkumuse vastavaks, kui see vastab RHAD-s
+        sätestatud nõuetele. Hankija võib tunnistada pakkumuse
+        vastavaks, kui selles ei esine sisulisi kõrvalekaldeid RHAD-s
+        nimetatud tingimustest.
+
+    5.  Hankija lükkab pakkumuse tagasi, kui pakkumus ei vasta RHAD-s
+        sätestatud nõuetele või kui pakkuja ei esita tähtajaks hankija
+        nõutud selgitusi või kui pakkuja selgituste põhjal ei ole
+        võimalik üheselt hinnata pakkumuse vastavust RHAD-s esitatud
+        tingimustele.
+
+    6.  Juhul, kui pakkumuse maksumuses esineb arvutusviga lähtub
+        hankija riigihangete seaduse § 117 lõikest 3.
+
+4.  Pakkumuste tagasilükkamine
+
+    1.  Hankijal on õigus lükata tagasi kõik pakkumused igal ajal enne
+        lepingu sõlmimist:
+
+        1.  kui kõigi pakkumuste või vastavaks tunnistatud pakkumuste
+            maksumused on hankija reaalseid võimalusi arvestades nii
+            palju suuremad, et leping ei ole hankijale sellise
+            maksumusega vastuvõetav;
+
+        2.  kui hankes laekub erinevatelt pakkujatelt kokku vähem kui 3
+            pakkumust, ning seeläbi ei ole tagatud hanke raames
+            konkurentsi efektiivne ärakasutamine RHS § 3 punkti 3
+            mõistes.
+
+        3.  kui on aset leidnud sündmus, mida saab pidada vääramatuks
+            jõuks. Vääramatu jõud on asjaolu, mida hankija ei saa
+            mõjutada ja mille puhul ei saa mõistlikkuse põhimõttest
+            lähtuvalt hankijalt eeldada, et ta riigihanke ajal selle
+            asjaoluga arvestaks või seda väldiks või takistava asjaolu
+            või selle tagajärje ületaks.
+
+    2.  Hankijal on õigus pakkumus tagasi lükata igal ajal enne lepingu
+        sõlmimist, kui hankija leiab, et esitatud pakkumuse maksumus,
+        mõni hinnakomponent või ühikhind on hankelepingu eset arvestades
+        põhjendamatult madal. Hankija kohaldab RHS § 115 lg 1 ja lg 7-10
+        sätestatut. Piisavaks ei peeta pakkuja üldsõnalist kinnitust, et
+        esitatud pakkumuse maksumus lähtub pakkuja laiaulatuslikust
+        kogemusest ja reaalsetest kuludest ning pakkuja suudab pakutud
+        maksumusega lepingut täita.
+
+5.  Pakkumuste hindamine ja edukaks tunnistamine
+
+    1.  Hindamiskriteeriumid, hinnatavad näitajad ja hindamismetoodika
+        on kirjeldatud RHAD dokumendis „Hindamiskriteeriumid ja
+        hinnatavad näitajad“.
+
+    2.  Edukaks tunnistatakse hindamisel enim väärtuspunkte saanud
+        pakkumus.
+
+    3.  Juhul, pakkumustele on omistatud võrdne arv väärtuspunkte,
+        selgitab hankija eduka pakkuja välja liisuheitmise teel.
+        Liisuheitmise juures võimaldatakse viibida võrdsete
+        hindamistulemustega pakkumuse esitanud pakkujate esindajatel.
+        Liisuheitmise aja ja koha teavitab hankija vähemalt 3 (kolm)
+        tööpäeva ette.
+
+6.  Hankelepingu sõlmimine
+
+    1.  Hankija sõlmib hankelepingu ühe edukaks tunnistatud pakkujaga.
+        Hankelepingu projekt on toodud RHAD-s „Hankelepingu projekt“.
+
+    2.  Kui edukaks tunnistatud pakkuja võtab oma pakkumuse enne
+        hankelepingu sõlmimist tagasi või ei allkirjasta hankelepingut
+        10 tööpäeva jooksul, on hankijal õigus lähtuda RHS §-st 119, sh
+        RHS § 119 lõikest 3.
+
+7.  Muud sätted
+
+    1.  Hankija jätab endale õiguse tunnistada riigihange kehtetuks
+        põhjendatud vajaduse korral hankija omal algatusel.
+
+    2.  Hankija jätab endale õiguse korraldada riigihange järjestikuste
+        menetlusetappidena või otsustada etappide järjestus pärast
+        pakkumuste esitamise tähtpäeva, sealhulgas:
+
+        1.  hinnata esitatud pakkumusi enne pakkujate suhtes
+            kõrvaldamise aluste puudumise, kvalifikatsiooni ja
+            pakkumuste RHAD-le vastavuse kontrollimist. Hankija jätab
+            endale õiguse mitte teostada sisulist kontrolli hindamise
+            voorus mitte edukaks osutunud pakkumuste vastavuse ja
+            pakkujate kvalifikatsiooni ning kõrvaldamise aluste osas;
+
+        2.  kontrollida pakkumuste vastavust RHAD-is esitatud
+            tingimustele ning hinnata vastavaks tunnistatud pakkumusi
+            enne pakkujate suhtes kõrvaldamise aluste puudumise ja
+            kvalifikatsiooni kontrollimist. Hankija jätab endale õiguse
+            mitte teostada sisulist kontrolli hindamise voorus mitte
+            edukaks osutunud pakkujate kvalifikatsiooni ning
+            kõrvaldamise aluste osas.
+
+    3.  Kui hankele on esitatud üks pakkumus, on hankijal õigus küsida
+        pakkujalt pakkumusega esitamata ning pakkumuses viitamata
+        dokumentide esitamist peale pakkumuse esitamise tähtaega või
+        toetuda dokumentide või tõenditele, mis on hankija jaoks
+        oluliste kulutusteta kättesaadavad või hankija enda andmekogudes
+        olemas.
+
+    4.  Iga viidet, mille hankija teeb riigihanke alusdokumentides
+        mõnele RHS-i § 88 lõikes 2 nimetatud alusele (standardile,
+        tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms)
+        kui pakkumuse tehnilisele kirjeldusele vastavuse kriteeriumile,
+        tuleb lugeda selliselt, et see on täiendatud märkega „või
+        sellega samaväärne“. Iga viidet, mille hankija teeb riigihanke
+        alusdokumentides ostuallikale, protsessile, kaubamärgile,
+        patendile, tüübile, päritolule või tootmisviisile, tuleb lugeda
+        selliselt, et see on täiendatud märkega „või sellega
+        samaväärne“.

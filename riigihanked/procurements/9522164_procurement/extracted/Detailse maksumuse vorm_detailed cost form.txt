@@ -1,0 +1,73 @@
+Detailse maksumuse vorm/ Detailed cost form
+
+  ------------------------------------------------------------------------
+  PAKKUJA[1]                                                          
+  ---------------------- --- ---------------------------------------- ----
+  Pakkuja nimi/ name of      Pakkuja registrikood/ Tenderer’s          
+  the tenderer               registry code                            
+
+                                                                      
+  ------------------------------------------------------------------------
+
++---+------------------------------------+------------+---------------+
+| J | Kolmandate osapoolte riskihalduse  |            | Pakkumuse     |
+| r | ja ründepinna seire platvormi      |            | maksumus      |
+| k | kasutusõigusele 2 (kaheks) aastaks |            | kokku (EUR,   |
+| . |                                    |            | km-ta)        |
+| N | Third-party risk management and    |            |               |
+| r | attack surface monitoring platform |            | Total cost of |
+| . | usage rights for 2 (two) years     |            | the tender    |
+|   |                                    |            | (EUR,         |
+|   |                                    |            | excluding     |
+|   |                                    |            | VAT)          |
++===+====================================+============+===============+
+| 1 | Pakkuja esitab hinna kolmandate    |            |               |
+|   | osapoolte riskihalduse ja          |            |               |
+|   | ründepinna seire platvormi         |            |               |
+|   | kasutusõigusele 2 (kaheks)         |            |               |
+|   | aastaks. Esitatud hind on ka       |            |               |
+|   | pakkumuse kogumaksumuseks, mis     |            |               |
+|   | tuleb märkida ka                   |            |               |
+|   | “Hindamiskriteeriumid ja           |            |               |
+|   | hinnatavad näitajad” lehel.        |            |               |
+|   |                                    |            |               |
+|   | The tenderer shall submit a price  |            |               |
+|   | for the right to use the           |            |               |
+|   | third-party risk management and    |            |               |
+|   | attack surface monitoring platform |            |               |
+|   | for 2 (two) years. The submitted   |            |               |
+|   | price shall also be the total cost |            |               |
+|   | of the bid, which shall also be    |            |               |
+|   | indicated on the “Evaluation       |            |               |
+|   | criteria and evaluable indicators” |            |               |
+|   | page.                              |            |               |
++---+------------------------------------+------------+---------------+
+| 2 | Pakkuja esitab hinna kolmandate    | Hind kokku |               |
+|   | osapoolte riskihalduse ja          | (EUR,      |               |
+|   | ründepinna seire platvormi         | km-ta)/    |               |
+|   | kasutusõigusele 1 (üheks) aastaks. | Total      |               |
+|   | Esitatud hind võetakse aluseks,    | price      |               |
+|   | kui hankijal tekib vajadus         | (EUR,      |               |
+|   | lepingut pikendada 1 (ühe) aasta   | excluding  |               |
+|   | võrra.                             | VAT)       |               |
+|   |                                    |            |               |
+|   | The tenderer shall submit a price  |            |               |
+|   | for the right to use the           |            |               |
+|   | third-party risk management and    |            |               |
+|   | attack surface monitoring platform |            |               |
+|   | for 1 (one) year.                  |            |               |
+|   |                                    |            |               |
+|   | The price provided will be taken   |            |               |
+|   | as a basis if the contracting      |            |               |
+|   | authority needs to extend the      |            |               |
+|   | contract by 1 (one) year.          |            |               |
++---+------------------------------------+------------+---------------+
+|   |                                    |            |               |
++---+------------------------------------+------------+---------------+
+
+[1] Ühispakkujad esitavad vormi ühiselt, lisades iga pakkuja nime ja
+registrikoodi märkimiseks vormile vastava arvu ridasid koos vastavate
+lahtritega.
+
+Pakkuja täidab tabelis vaid helerohelisega märgitud lahtrid/ The
+tenderer fills in only the cells marked in light green in the table.
