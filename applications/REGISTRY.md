@@ -24,12 +24,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-23 | Kaitseressursside Amet | IKT-projektijuht | 70% | [README](Kaitseressursside_Amet/IKT-projektijuht/README.md) | 2025-11-23 | Submitted | Strong IT PM experience (15+ yrs, managed 700+ user LAN, Justice Ministry projects). Gaps: Cyber security background, security clearance unknown. Contact: <sigre.ratsepp@kra.ee> (+372 5307 3982) |
 | 2025-11-24 | Tallinna Strateegiakeskus | Innovatsioonispetsialist | 55% | [README](Tallinna_Strateegiakeskus/Innovatsioonispetsialist/README.md) | 2025-12-08 | Submitted | Systems thinking + team leadership strong; municipal sector experience zero (learning opportunity). Fact-checked: 0 fabrications. Contact: <mark-emil.talivere@tallinnlv.ee> (56479936) |
 | 2025-11-27 | Brandem Baltic OÜ | Full-stack vanemarendaja (Eesti Loto) | 80% | [README](Brandem_Baltic/Full_Stack_Vanemarendaja/README.md) | Not specified | Submitted | Strong full-stack (15+ yrs): Java/Spring Boot verified (4 yrs: Oracle ADF 2002-2005, Spring Boot mgmt 2017-2018), JavaScript (9/10), React, Python (9/10). Fact-checked: 0 fabrications. Contact: <margaret@brandem.ee> |
+| 2025-11-27 | RmIT | Full-Stack arendaja | 68.75% | [README](RmIT/Full_Stack_Arendaja/README.md) | 2025-12-14 | Submitted | Strong Java/Spring Boot (3+ yrs), PostgreSQL/Oracle, architecture (15 yrs), full-stack (Node.js/Vue.js). Gaps: Docker/Kubernetes, CI/CD (have deployment exp). Fact-checked: 0 fabrications. Contact: <jaana.kivila@rmit.ee> |
 
 ## Statistics
 
-- **Total Applications:** 7
+- **Total Applications:** 8
 - **Active (Draft/Ready):** 0
-- **Submitted:** 7
+- **Submitted:** 8
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
