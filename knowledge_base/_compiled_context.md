@@ -20,9 +20,7 @@ title:
   et: Müügikonsultant (ehitus)
   en: Sales Agent
 location: Estonia
-tags:
-  - Sales
-  - Construction
+tags: [Sales, Construction]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -45,18 +43,20 @@ type: employment
 company: BalticWindow OY
 url: http://www.balticwindow.fi
 dates:
-  start: '1998-01'
-  end: '2010-01'
+start: '1998-01'
+end: '2010-01'
 title:
-  et: Arvutigraafik-kujundaja
-  en: Computer Graphic Designer
+et: Arvutigraafik-kujundaja
+en: Computer Graphic Designer
 location: Estonia
 tags:
-  - Graphic Design
-  - Print Design
-  - Tourism
-status: verified
-last_verified: '2025-11-21'
+
+- Graphic Design
+- Print Design
+- Tourism:
+    status: verified
+    last_verified: '2025-11-21'
+
 ```
 
 #### et
@@ -82,10 +82,7 @@ title:
   et: Reprokoja juht
   en: Head of Repro Department
 location: Estonia
-tags:
-  - Management
-  - Media
-  - Print
+tags: [Management, Media, Print]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -113,13 +110,7 @@ title:
   et: Vanamsüsteemianalüütik
   en: Senior System Analyst
 location: Tallinn, Estonia
-tags:
-  - System Analysis
-  - Project Management
-  - Software Development
-  - Language Resources
-  - Java
-  - Spring Boot
+tags: [System Analysis, Project Management, Software Development, Language Resources, Java, Spring Boot]
 project: EKI-ASTRA (2014-2020.4.01.16-0034)
 repository: https://github.com/keeleinstituut/ekilex
 technologies:
@@ -134,9 +125,7 @@ technologies:
 status: verified
 last_verified: '2025-11-26'
 source: Employment contract nr 408, dated 12.04.2017; GitHub repository
-skills_demonstrated:
-  - java
-  - spring-boot
+skills_demonstrated: [java, spring-boot]
 ```
 
 #### et
@@ -169,15 +158,8 @@ title:
   et: IT-osakonna juht
   en: Head of IT Department
 location: Tallinn, Estonia
-tags:
-  - IT Management
-  - Infrastructure
-  - Network Administration
-  - System Implementation
-  - Education
-skills_demonstrated:
-  - it-management
-  - system-architecture
+tags: [IT Management, Infrastructure, Network Administration, System Implementation, Education]
+skills_demonstrated: [it-management, system-architecture]
 achievements:
   - eka-lan-construction-2012
   - eka-email-migration-2012
@@ -226,16 +208,8 @@ title:
   et: Andmesanitar
   en: Data Curator
 location: Tallinn, Estonia
-tags:
-  - Data Curation
-  - Data Cleansing
-  - Database Management
-  - History
-  - Research
-skills_demonstrated:
-  - data-curation
-  - database-management
-  - spreadsheet-tools
+tags: [Data Curation, Data Cleansing, Database Management, History, Research]
+skills_demonstrated: [data-curation, database-management, spreadsheet-tools]
 achievements:
   - mem-historian-db-adoption-2024
 status: verified
@@ -455,28 +429,34 @@ title:
   en: Software Developer
 location: Tallinn, Estonia
 tags:
-  - Software Development
-  - Government
-  - Security
-  - Java
-  - Oracle ADF
-  - .NET
+
+- Software Development
+- Government
+- Security
+- Java
+- Oracle ADF
+- .NET
+
 technologies:
-  - Oracle JDeveloper
-  - Oracle ADF (Application Development Framework)
-  - Java
-  - XML-based UI development
-  - JSP/JSF
-  - Oracle Database
-  - Microsoft .NET
+
+- Oracle JDeveloper
+- Oracle ADF (Application Development Framework)
+- Java
+- XML-based UI development
+- JSP/JSF
+- Oracle Database
+- Microsoft .NET
+
 status: verified
 last_verified: '2025-11-26'
 skills_demonstrated:
-  - java
-  - database-management
+
+- java
+- database-management
 achievements:
-  - justiitsministeerium-criminal-care-is-2005
-  - justiitsministeerium-criminal-procedure-register-2005
+- justiitsministeerium-criminal-care-is-2005
+- justiitsministeerium-criminal-procedure-register-2005
+
 ```
 
 #### et
@@ -514,15 +494,10 @@ title:
   et: Laborant
   en: Lab Rat
 location: Estonia
-tags:
-  - Research
-  - Science
-  - Scripting
-  - Data Analysis
+tags: [Research, Science, Scripting, Data Analysis]
 status: verified
 last_verified: '2025-11-21'
-skills_demonstrated:
-  - python
+skills_demonstrated: [python]
 ```
 
 #### et
@@ -561,11 +536,14 @@ title:
   en: Support Person (IT)
 location: Estonia
 tags:
-  - IT Support
-  - Culture
-  - Entertainment
+
+- IT Support
+- Culture
+- Entertainment
+
 status: verified
 last_verified: '2025-11-21'
+
 ```
 
 #### et
@@ -593,10 +571,7 @@ title:
   et: Arvutigraafik-kujundaja
   en: Computer Graphic Designer
 location: Estonia
-tags:
-  - Graphic Design
-  - Advertising
-  - Media
+tags: [Graphic Design, Advertising, Media]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -624,10 +599,7 @@ title:
   et: Arendusjuht
   en: Development Manager
 location: Estonia
-tags:
-  - IT
-  - Management
-  - Entrepreneurship
+tags: [IT, Management, Entrepreneurship]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -655,10 +627,7 @@ title:
   et: 3D graafika disainer
   en: 3D Graphic Designer
 location: Estonia
-tags:
-  - 3D Design
-  - Graphic Design
-  - Marketing
+tags: [3D Design, Graphic Design, Marketing]
 achievements:
   - oopus-disaini-liviko-logo-1995
 status: verified
@@ -696,10 +665,7 @@ title:
   et: Tegevjuht
   en: Manager
 location: Estonia
-tags:
-  - Management
-  - Sales
-  - Media
+tags: [Management, Sales, Media]
 achievements:
   - oopus-repro-den-za-dnjom-acquisition-1996
 status: verified
@@ -738,15 +704,10 @@ title:
   et: projektijuht (IT)
   en: Project Manager
 location: Estonia
-tags:
-  - Project Management
-  - Database Development
-  - Media
+tags: [Project Management, Database Development, Media]
 status: verified
 last_verified: '2025-11-21'
-skills_demonstrated:
-  - project-management
-  - database-management
+skills_demonstrated: [project-management, database-management]
 achievements:
   - soov-kirjastus-classifieds-db-1993
 ```
@@ -783,16 +744,11 @@ title:
   et: Teadustarkvara arendaja
   en: Software Developer
 location: Tartu, Estonia
-tags:
-  - Software Development
-  - Research
-  - Data Frameworks
+tags: [Software Development, Research, Data Frameworks]
 status: verified
 last_verified: '2025-11-21'
-skills_demonstrated:
-  - python
-  - javascript
-  - database-management
+skills_demonstrated: [python, javascript, database-management]
+
 ```
 
 #### et
@@ -826,11 +782,7 @@ title:
   et: IT-arendusspetsialist
   en: Software Developer
 location: Tallinn, Estonia
-tags:
-  - Software Development
-  - Invoicing Systems
-  - Customer Management
-  - Telecommunication
+tags: [Software Development, Invoicing Systems, Customer Management, Telecommunication]
 achievements:
   - tele2-documentation-process-2009
 status: verified
@@ -862,21 +814,17 @@ id: tftak-2013-2015
 type: employment
 company: Center of Food and Fermentation Technologies
 dates:
-  start: '2013-01'
-  end: '2015-01'
+start: '2013-01'
+end: '2015-01'
 title:
-  et: It-arhitekt
-  en: IT-Architect
+et: It-arhitekt
+en: IT-Architect
 location: Tallinn, Estonia
-tags:
-  - IT Architecture
-  - System Deployment
-  - Science
+tags: [IT Architecture, System Deployment, Science]
 status: verified
 last_verified: '2025-11-21'
-skills_demonstrated:
-  - system-architecture
-  - database-management
+skills_demonstrated: [system-architecture, database-management]
+
 ```
 
 #### et
@@ -909,9 +857,7 @@ title:
   et: Visionäär
   en: Visionary
 location: Estonia
-tags:
-  - IT
-  - Entrepreneurship
+tags: [IT, Entrepreneurship]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -928,10 +874,7 @@ skill_name:
   et: Andmete kureerimine
   en: Data Curation
 category: Data
-tags:
-  - data-cleansing
-  - data-integration
-  - data-quality
+tags: [data-cleansing, data-integration, data-quality]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -946,12 +889,7 @@ skill_name:
   et: Andmebaaside haldus
   en: Database Management
 category: Technical
-tags:
-  - database-design
-  - mysql
-  - postgresql
-  - oracle
-  - mongodb
+tags: [database-design, mysql, postgresql, oracle, mongodb]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -966,10 +904,7 @@ skill_name:
   et: IT-juhtimine
   en: IT Management
 category: Management
-tags:
-  - management
-  - infrastructure
-  - user-support
+tags: [management, infrastructure, user-support]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -985,12 +920,7 @@ skill_name:
   en: Java
 category: Programming Language
 proficiency_level: 7/10
-tags:
-  - programming
-  - backend
-  - enterprise
-  - spring-boot
-  - oracle-adf
+tags: [programming, backend, enterprise, spring-boot, oracle-adf]
 status: verified
 last_verified: '2025-11-26'
 ```
@@ -1011,11 +941,7 @@ skill_name:
   en: JavaScript
 category: Programming Language
 proficiency_level: 9/10
-tags:
-  - programming
-  - frontend
-  - backend
-  - nodejs
+tags: [programming, frontend, backend, nodejs]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1052,11 +978,11 @@ verified_through:
 
 #### Description
 
-#### et
+##### et
 
 Node.js backend arendus, server-side JavaScript rakendused, API disain ja integratsioonid.
 
-#### en
+##### en
 
 Node.js backend development, server-side JavaScript applications, API design and integrations.
 
@@ -1103,11 +1029,7 @@ skill_name:
   et: Projektijuhtimine
   en: Project Management
 category: Management
-tags:
-  - management
-  - planning
-  - execution
-  - agile
+tags: [management, planning, execution, agile]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1123,10 +1045,7 @@ skill_name:
   en: Python
 category: Programming Language
 proficiency_level: 9/10
-tags:
-  - programming
-  - scripting
-  - backend
+tags: [programming, scripting, backend]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1144,12 +1063,7 @@ category: Technical
 proficiency:
   excel: 8/10
   google_sheets: 10/10
-tags:
-  - data-analysis
-  - automation
-  - formulas
-  - database-operations
-  - reporting
+tags: [data-analysis, automation, formulas, database-operations, reporting]
 evidence:
   - eesti-malu-instituut-2017-2024
   - ilusa-koodi-instituut-2021-2024
@@ -1159,20 +1073,20 @@ last_verified: '2025-11-22'
 
 #### et
 
-#### MS Excel (8/10)
+##### MS Excel (8/10)
 
 - Keerukad valemid ja funktsioonid (VLOOKUP, pivot-tabelid)
 - Makrod ja automatiseerimine (VBA)
 - Andmebaasitaolised operatsioonid ja aruandlus
 
-#### Google Sheets (10/10)
+##### Google Sheets (10/10)
 
 - Kõrgtaseme automatiseerimine (Apps Script)
 - Keerukad valemid ja funktsioonid
 - Ühendused reaalajas andmebaasidega
 - Spetsiaalsete töökeskkondade loomine kasutajatele
 
-#### Praktiline kasutus
+##### Praktiline kasutus
 
 **Eesti Mälu Instituut (2017-2024):**
 Lõin ajaloolastele Google Sheets'is spetsiaalseid töökeskkondi andmete otsimiseks ja võrdlemiseks, integreerides andmeid kümnetest allikatest.
@@ -1182,20 +1096,20 @@ Ehitasin Google Sheets'is spetsiaalseid töökeskkondi ja automatiseerimislahend
 
 #### en
 
-#### MS Excel (8/10)
+##### MS Excel (8/10)
 
 - Complex formulas and functions (VLOOKUP, pivot tables)
 - Macros and automation (VBA)
 - Database-like operations and reporting
 
-#### Google Sheets (10/10)
+##### Google Sheets (10/10)
 
 - Advanced automation (Apps Script)
 - Complex formulas and functions
 - Live database connections
 - Creating specialized work environments for users
 
-#### Practical Usage
+##### Practical Usage
 
 **Estonian Memory Institute (2017-2024):**
 Created specialized work environments in Google Sheets for historians to search and compare data, integrating data from dozens of sources.
@@ -1220,10 +1134,7 @@ skill_name:
   et: Spring Boot
   en: Spring Boot
 category: Framework
-tags:
-  - java
-  - backend
-  - web-framework
+tags: [java, backend, web-framework]
 status: verified
 last_verified: '2025-11-26'
 ```
@@ -1242,10 +1153,7 @@ skill_name:
   et: Süsteemiarhitektuur
   en: System Architecture
 category: Technical
-tags:
-  - software-design
-  - infrastructure
-  - planning
+tags: [software-design, infrastructure, planning]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1260,10 +1168,7 @@ skill_name:
   et: Meeskonna juhtimine
   en: Team Leadership
 category: Management
-tags:
-  - management
-  - leadership
-  - mentoring
+tags: [management, leadership, mentoring]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1286,10 +1191,12 @@ description:
   et: Migreerisin üle 700 postkasti kohalikust mailiserverist Gmaili ilma andmekaotuseta (90% kulude kokkuhoid).
   en: Migrated the entire university's (approx. 700 users) email system to Google Mail, which improved collaboration and reduced IT costs on emails by 90%.
 tags:
+
   - cloud-migration
   - cost-reduction
   - it-management
   - project-management
+
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1309,11 +1216,7 @@ title:
 description:
   et: Juurutatud ja kohandatud Entu platvorm mitmeteks rakendusteks, sh inventari haldus (üle 5000 varaühiku) ja raamatukogu lõputööde arhiveerimine (üle 500 dokumendi aastas).
   en: Implemented and customized the Entu platform for multiple applications, including inventory management (tracking over 5000 assets) and archiving of degree papers (managing over 500 documents annually) for the library.
-tags:
-  - system-implementation
-  - asset-management
-  - document-management
-  - database
+tags: [system-implementation, asset-management, document-management, database]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1333,10 +1236,7 @@ title:
 description:
   et: Kogu ülikooli LAN-võrgu planeerimine ja ehitamine, hõlmates kõiki hooneid ja ühendades 700+ kasutajat.
   en: Planned and built the entire university's local area network infrastructure spanning multiple buildings and connecting 700+ users.
-tags:
-  - network-infrastructure
-  - project-management
-  - it-management
+tags: [network-infrastructure, project-management, it-management]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1353,11 +1253,7 @@ parent_experience: justiitsministeerium-2002-2005
 title:
   et: Kriminaalhoolduse infosüsteem
   en: Criminal Care Information System
-tags:
-  - government
-  - software-development
-  - oracle
-  - dotnet
+tags: [government, software-development, oracle, dotnet]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1382,11 +1278,7 @@ parent_experience: justiitsministeerium-2002-2005
 title:
   et: Kriminaalmenetluse register
   en: Criminal Procedure Register
-tags:
-  - government
-  - software-development
-  - oracle
-  - dotnet
+tags: [government, software-development, oracle, dotnet]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1414,11 +1306,7 @@ title:
 description:
   et: Õnnestus panna ajaloolased toimetama andmetega otse MySql andmebaasis, kus nad teevad päringuid ja loovad sisu, mis on märkimisväärne kasutuselevõtt.
   en: Succeeded in getting historians to work directly with the MySQL database, where they run queries and even create content, marking a significant user adoption success.
-tags:
-  - user-adoption
-  - training
-  - data-democratization
-  - process-improvement
+tags: [user-adoption, training, data-democratization, process-improvement]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1435,10 +1323,7 @@ parent_experience: oopus-disaini-1993-1995
 title:
   et: Liviko logo loomine
   en: Creation of the Liviko logo
-tags:
-  - graphic-design
-  - branding
-  - logo-design
+tags: [graphic-design, branding, logo-design]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1455,10 +1340,7 @@ parent_experience: oopus-repro-1994-1996
 title:
   et: Nädalakirja Den za Dnjom kaubamärgi ost
   en: Acquisition of the Den za Dnjom weekly magazine brand
-tags:
-  - business-development
-  - acquisition
-  - media
+tags: [business-development, acquisition, media]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1478,10 +1360,7 @@ title:
 description:
   et: Kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle.
   en: All 4 interns were hired full-time after completing their internships.
-tags:
-  - mentoring
-  - team-building
-  - leadership
+tags: [mentoring, team-building, leadership]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1501,11 +1380,7 @@ title:
 description:
   et: Arendasin Soovilehe telefonineiudele liidesega andmebaasi kuulutuste sisestamiseks ja automaatseks töötlemiseks küljenduskõlblikuks.
   en: Developed a database with an interface for Soov newspaper's telephone operators to input and process classified ads for layout.
-tags:
-  - database-development
-  - software-development
-  - media
-  - automation
+tags: [database-development, software-development, media, automation]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1525,10 +1400,7 @@ title:
 description:
   et: Tutvustasin dokumenteerimise võimalikkust ja väärtust korporatsioonis, parandades teadmiste jagamist ja jätkusuutlikkust.
   en: Introducing the possibility and value of documentation within the corporation, improving knowledge sharing and sustainability.
-tags:
-  - process-improvement
-  - documentation
-  - corporate-culture
+tags: [process-improvement, documentation, corporate-culture]
 status: verified
 last_verified: '2025-11-21'
 ```
@@ -1678,10 +1550,7 @@ proficiency:
   writing: C2
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - language
-  - communication
-  - international
+tags: [language, communication, international]
 evidence:
   - entusiastid-ou-2010-present
   - tartu-ulikool-2014-2015
@@ -1730,9 +1599,7 @@ proficiency:
   writing: native
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - native-language
-  - communication
+tags: [native-language, communication]
 ```
 
 #### et
@@ -1764,11 +1631,7 @@ proficiency:
 context: Second language, near-native speaker
 status: verified
 last_verified: '2025-11-22'
-tags:
-  - language
-  - communication
-  - baltic
-  - second-language
+tags: [language, communication, baltic, second-language]
 ```
 
 #### et
@@ -1801,9 +1664,7 @@ proficiency:
   writing: B2
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - language
-  - communication
+tags: [language, communication]
 ```
 
 #### et
@@ -1835,11 +1696,7 @@ tools:
   - 3D printers
 status: verified
 last_verified: '2025-11-21'
-tags:
-  - hobby
-  - 3d-modeling
-  - prototyping
-  - CAD
+tags: [hobby, 3d-modeling, prototyping, CAD]
 ```
 
 #### et
@@ -1866,11 +1723,7 @@ type: hobby
 title:
   en: 3D Modeling and Printing
   et: 3D Modelleerimine ja Printimine
-tags:
-  - maker
-  - design
-  - cad
-  - prototyping
+tags: [maker, design, cad, prototyping]
 ```
 
 - Using Onshape and FeatureScript for personal projects.
@@ -1887,9 +1740,7 @@ type: hobby
 title:
   en: Exploring Astronomy and Physics
   et: Astronoomia ja Füüsika Uurimine
-tags:
-  - science
-  - learning
+tags: [science, learning]
 ```
 
 ---
@@ -1902,10 +1753,7 @@ type: hobby
 title:
   en: Singing in Mixed Choirs
   et: Laulmine Segakoorides
-tags:
-  - creative
-  - music
-  - teamwork
+tags: [creative, music, teamwork]
 ```
 
 ---
@@ -1918,9 +1766,7 @@ type: hobby
 title:
   en: Music Composition
   et: Muusika Komponeerimine
-tags:
-  - creative
-  - music
+tags: [creative, music]
 ```
 
 ---
