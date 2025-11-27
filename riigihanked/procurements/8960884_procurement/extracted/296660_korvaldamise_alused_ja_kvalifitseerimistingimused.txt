@@ -1,0 +1,169 @@
+1/3
+
+KÕRVALDAMISE ALUSED JA
+KVALIFITSEERIMISTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+296660
+Elering AS (11022625)
+Framework agreement for Common IT Platform developments
+
+KÕRVALDAMISE ALUSED
+PAKKUJA KINNITUSED
+Pakkuja esitab täidetud vormi „Pakkuja kinnitused“ vastavalt etteantud vormile. Vormis ei ole
+lubatud teha sisulisi muudatusi. Hankija juhib tähelepanu Hankedokumendi „Juhised
+pakkujatele“ punktile 3.5, mis on sisestatud riigihangete registri sektsiooni „Dokumendid“.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Pakkuja kinnitused (Dokumendi vorm)
+
+KÕRVALDAMISE ALUSED
+Hankija ei sõlmi hankelepingut ja kõrvaldab lihthankemenetlusest Pakkuja: 1. keda või kelle
+haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus seda
+ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud kuritegelikus
+ühenduses osalemise, aususe kohustuse rikkumise või korruptiivse teo, kelmuse, terroriakti
+toimepaneku või muu terroristliku tegevusega seotud kuriteo või sellele kihutamise,
+kaasaaitamise või selle katse, rahapesualase süüteo või terrorismi rahastamise eest; 2. keda või
+kelle haldus-, juhtimis- või järelevalveorgani liiget, prokuristi või muud isikut, kellel on volitus
+seda ettevõtjat esindada, tema nimel otsuseid teha või teda kontrollida, on karistatud riigis ilma
+seadusliku aluseta viibivale välismaalasele töötamise võimaldamise või välismaalase Eestis
+töötamise tingimuste rikkumise võimaldamise, sealhulgas seaduses sätestatud töötasu määrast
+väiksema töötasu maksmise eest; 3. keda või kelle haldus-, juhtimis- või järelevalveorgani liiget,
+prokuristi või muud isikut, kellel on volitus seda ettevõtjat esindada, tema nimel otsuseid teha
+või teda kontrollida, on karistatud laste tööjõu ebaseadusliku kasutamise või inimkaubandusega
+seotud teo eest; 4. kellel on riikliku maksu, makse või keskkonnatasu maksuvõlg
+maksukorralduse seaduse tähenduses või maksu- või sotsiaalkindlustusmaksete võlg tema
+asukohariigi õigusaktide kohaselt; 5. kellega hankelepingu sõlmimine rikuks rahvusvahelist või
+Vabariigi Valitsuse sanktsiooni rahvusvahelise sanktsiooni seaduse tähenduses. Pakkuja/
+ühispakkujad esitab/esitavad vormi „Pakkuja kinnitused“ osas 1 „Kõrvaldamise alused“
+kinnituse kõrvaldamise aluste puudumise kohta. Pakkuja/ühispakkujad esitab/esitavad Hankija
+nõudmisel täiendavaid dokumente hankemenetlusest kõrvaldamise aluste puudumise kohta
+juhul, kui Hankijal pole antud infot võimalik avalikust andmekogust kontrollida. Hankija juhib
+tähelepanu Hankedokumendi „Juhised pakkujatele“ punktile 3.5. Hankija võib kontrollida ka
+RHS §-s 95 lg 4 sätestatud kõrvaldamise aluseid, sealhulgas kõrvaldada hankemenetlusest
+Pakkuja, kes on oluliselt või pidevalt rikkunud eelnevalt sõlmitud hankelepingut või
+hankelepinguid nii, et rikkumise tulemusena on lepingust taganetud või leping üles öeldud,
+hinda alandatud, hüvitatud kahju või makstud leppetrahvi.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Did You confirm the absence of the above mentioned exclusion grounds on the form “Declarations
+of the Tenderer” (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 12.11.2025 12:47:53
+https://riigihanked.riik.ee/rhr-web/#/procurement/8960884/general-info
+
+2/3
+
+Küsimused ettevõtjale:
+2) Kas pakkumus esitatakse koos välismaise ettevõtjaga? Kui jah, siis palun esitage koos pakkumusega
+kõrvaldamise aluste puudumist RHS § 95 lg 1 alusel tõendavad dokumendid (sh ettevõtte enda ning
+ettevõtte haldus-, juhtimis- või järelevalveorgani liikmete kohta või muude isikute kohta, kellel on
+õigus ettevõtet esindada/kontrollida või ettevõtte nimel otsuseid teha). (Raadionupp valikutega "Jah/
+Ei")
+
+KVALIFITSEERIMISTINGIMUSED
+B: Majanduslik ja finantsseisund
+NETOKÄIVE
+Pakkuja viimase kolme (3) majandusaasta (lõppenud ning kinnitatud majandusaasta aruandega)
+netokäive peab olema kokku vähemalt 600 000 eurot ning igal majandusaastal seejuures
+vähemalt 200 000 eurot. Pakkuja esitab vormil „Declarations of the Tenderer“ selles nõutud
+andmed netokäibe kohta. Pakkuja/ühispakkujad esitab/esitavad Hankija nõudmisel täiendavaid
+dokumente netokäibe kohta juhul, kui Hankijal pole antud infot võimalik avalikust andmekogust
+kontrollida.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Kas esitasite vormi „Declarations of the Tenderer“ osas 2 „Majanduslik ja finantsseisund“
+vastavasisulise kinnituse? (Raadionupp valikutega "Jah/Ei")
+2) Kas pakkumuse esitab välismaine ettevõte (mitte Eestis registreeritud)? Kui pakkumuse esitab ja/või
+selles osaleb välismaine ettevõte (st tuginedes, ühiselt pakkudes ja/või alltöövõtu kaudu), palume koos
+pakkumusega esitada dokumendid, mis kinnitavad selle välismaise ettevõtte netokäivet (Raadionupp
+valikutega "Jah/Ei")
+
+TUGINEMINE TEISE ETTEVÕTJA VAHENDITELE MAJANDUSLIKU JA
+FINANTSSEISUNDI NÕUDE OSAS
+Kui Pakkuja soovib tõendada oma vastavust majanduslikule ja finantsseisundile esitatud
+nõuetele teise ettevõtja vahendite alusel, siis peavad Pakkuja ja teine ettevõtja vastutama
+solidaarselt Hankelepingu selle osa täitmise eest, mille suhtes teise ettevõtja vahenditele tugineti.
+Pakkuja poolt teise ettevõtja vahenditele tuginemise korral esitab Pakkuja märke teise ettevõtja
+vahenditele tuginemise kohta Pakkuja poolt esitatavas täidetud vormis „Declarations of the
+Tenderer“. Need ettevõtjad, kelle vahenditele tuginetakse, peavad Hankijale esitama täidetud
+vormi „Declarations of the Tenderer“ (koos pakkumusega) ja see peab olema allkirjastatud
+vastava ettevõtja allkirjaõigusliku esindaja poolt. Hankija kontrollib, kas ettevõtjatel, kelle
+vahenditele tuginetakse, esinevad kõrvaldamise alused ja kas nad vastavad kvalifitseerimise
+tingimustele, mille osas Pakkuja nende vahenditele tugineb. Pakkuja poolt teise ettevõtja
+vahenditele tuginemise korral esitab Pakkuja Hankija nõudmisel: - informatsiooni selle kohta, et
+mis osas Pakkuja teise ettevõtja vahenditele tugineda soovib; - teise ettevõtja kirjaliku
+allkirjastatud kinnituse, et viimasel on vastavad vahendid olemas ning et teine ettevõtja on nõus
+tema vahendite kasutamisega Hankelepingu täitmisel; - Pakkuja enda kirjaliku allkirjastatud
+kinnituse, et Pakkuja vastutab solidaarselt Hankelepingu selle osa täitmise eest, mille suhtes
+teise ettevõtja vahenditele tugineti; - teise ettevõtja kirjaliku allkirjastatud kinnituse, et teine
+ettevõtja vastutab solidaarselt Hankelepingu selle osa täitmise eest, mille suhtes teise ettevõtja
+vahenditele tugineti.
+Kehtib: Kõik osad
+
+Koostatud 12.11.2025 12:47:53
+https://riigihanked.riik.ee/rhr-web/#/procurement/8960884/general-info
+
+3/3
+
+Küsimused ettevõtjale:
+1) Kas tuginete teise ettevõtja vahenditele netokäibe nõude osas? Kui tuginete teise ettevõtja
+vahenditele, esitage koos pakkumusega selle teise ettevõtja osas vorm "Declarations of the
+Tenderer" (ja see peab olema allkirjastatud vastava ettevõtja allkirjaõigusliku esindaja poolt).
+(Raadionupp valikutega "Jah/Ei")
+
+C: Tehniline ja kutsealane suutlikkus
+VARASEMALT TÄIDETUD LEPINGUD
+Pakkuja peab viimase 36 kuu jooksul (alates hanketeate avaldamise kuupäevast) olema
+nõuetekohaselt täitnud (lepingud on täidetud, st leping ei pea olema lõppenud, kuid kasutatud
+peab olema nimetatud süsteeme) vähemalt kaks (2) IT-süsteemi arendusteenuse lepingut, mis
+vastavad järgmistele tingimustele:
+Mõlemas IT-süsteemi arendusteenuse lepingus peavad IT-süsteemid kasutama Edigas
+andmevahetust, mis hõlmab vähemalt nomineerimise ja võimsuse jaotamise äriprotsessi
+dokumente Edigas versiooniga 5 või uuem (https://www.edigas.org/).
+Ühes (1) IT-süsteemi arendusteenuse lepingus peavad IT-süsteemid kasutama AS4
+andmevahetust rakenduste vahel.
+Ühes (1) IT-süsteemi arendusteenuse lepingus peab IT-süsteemil olema konfigureeritav
+kasutajate ligipääsu- ja õiguste haldus koos TOTP algoritmil põhineva autentimisega.
+Ühes (1) IT-süsteemi arendusteenuse lepingus peab IT-süsteem olema seotud gaasisüsteemi
+andmevahetusega, mis on seotud ülekandesüsteemi operaatori turuinfo vahetusega.
+Üks IT-süsteem peab kasutama mikroteenuste arhitektuuri, mis põhineb Docker
+tehnoloogialahendusel.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Kas esitasite vormi „Declarations of the Tenderer“ osa 3 „Tehniline ja kutsealane pädevus“ punktis
+3 vastavasisulise kinnituse ja nõutud andmed eelnevalt täidetud lepingute kohta? (Raadionupp
+valikutega "Jah/Ei")
+
+TUGINEMINE TEISE ETTEVÕTJA VAHENDITELE TEHNILISE JA KUTSEALASE
+PÄDEVUSENÕUDE OSAS
+Pakkuja poolt teise ettevõtja vahenditele tuginemine on lubatud üksnes juhul, kui ettevõtjad,
+kelle vahenditele tuginetakse, täidavad vastava Hankelepingu osa isiklikult. Hankija nõudmisel
+peab Pakkuja esitama teise ettevõtja kinnituse, et osas, milles tema vahenditele tuginetakse,
+täidab ta Hankelepingu isiklikult. Pakkuja poolt teise ettevõtja vahenditele tuginemise korral
+esitab Pakkuja märke teise ettevõtja vahenditele tuginemise kohta Pakkuja poolt esitatavas
+täidetud vormis „Declarations of the Tenderer“. Need ettevõtjad, kelle vahenditele tuginetakse,
+peavad Hankijale esitama täidetud vormi „Declarations of the Tenderer“ (koos pakkumusega) ja
+see peab olema allkirjastatud vastava ettevõtja allkirjaõigusliku esindaja poolt. Hankija
+kontrollib, kas ettevõtjatel, kelle vahenditele tuginetakse, esinevad kõrvaldamise alused ja kas
+nad vastavad kvalifitseerimise tingimustele, mille osas Pakkuja nende vahenditele tugineb.
+Hankija juhib tähelepanu Hankedokumendi „Juhised pakkujatele“ punktile 3.5 ja dokumendile
+„Täiendavad tingimused kvalifitseerimistingimuste ja kõrvaldamise aluste juurde“, mis on
+sisestatud sektsiooni „Dokumendid“.
+Kehtib: Kõik osad
+
+Küsimused ettevõtjale:
+1) Kas tuginete teise ettevõtja vahenditele eelnevalt täidetud lepingu nõude osas? Kui tuginete teise
+ettevõtja vahenditele, esitage koos pakkumusega selle teise ettevõtja poolt täidetud ja allkirjastatud
+vorm "Declarations of the Tenderer". (Raadionupp valikutega "Jah/Ei")
+
+Koostatud 12.11.2025 12:47:53
+https://riigihanked.riik.ee/rhr-web/#/procurement/8960884/general-info
+
+

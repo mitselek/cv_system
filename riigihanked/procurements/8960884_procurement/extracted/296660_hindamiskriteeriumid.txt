@@ -1,0 +1,178 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 296660
+Hankija: Elering AS (11022625)
+Hange: Framework agreement for Common IT Platform developments
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Tunnihinna maksumus/ Hourly price
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Pakkuja peab esitama raamlepingu
+Maksumus alusel Ühise IT Platvormi arendustööde vähim on parim
+tunnitasu eurodes ja ilma käibemaksuta.
+
+Osakaal
+50
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+jah
+
+Pakkumuse maksumus (tunnitasu) peab
+sisaldama kõiki kulusid, makse (v.a
+käibemaks), tasusid ja muid kohustusi,
+mida pakkuja teenuse osutamisel kannab
+või millele ta allub, sealhulgas neid, mis
+ei ole hankedokumentides kirjeldatud,
+kuid on vajalikud hankedokumentides
+määratletud
+teenuse
+osutamiseks
+vastavalt kehtestatud nõuetele.
+Pakkumuse maksumus pakkumuse
+esildisel ja Riigihangete registris ei tohi
+erineda.
+Pakkumuse
+(tunnitasu)
+maksumus
+pakkumuse esildises ja Riigihangete
+registris peab olema lõplik, fikseeritud
+raamlepingu täitmise perioodiks ning
+täiendavaid kulusid ei rakendata.
+Pakkumuse (tunnitasu) maksumus ei
+Koostatud 12.11.2025 13:11:41
+
+1/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+8960884/general-info
+
+tohi olla tingimuslik, st see peab olema
+sõltumatu
+inflatsioonist,
+valuutakurssidest jne.
+Hankija ei tee ettemakseid.
+The Tenderer shall present the tender
+cost of a hourly price of framework
+agreement for Common IT Platform
+developments in euros and VAT
+excluded.
+The tender cost (hourly price) shall
+include all expenses, taxes (except the
+VAT), fees and other charges that the
+Tenderer incurs or is subject to in
+connection with the performance of
+service that are not described in Tender
+Documents but are necessary for
+performing the service specified in the
+Tender Documents in accordance with
+the specified requirements.
+The tender cost in Tender Proposal and
+in the Public Procurement Register must
+not have deviations.
+The tender (hourly) cost in Tender
+Proposal and in the Public Procurement
+Register shall be final, fixed for the
+period of performing the Framework
+Agreement and no additional costs shall
+be applied.
+The tender (hourly) cost of the tender
+shall not be conditional i.e it must be
+independent of inflation, foreign
+Koostatud 12.11.2025 13:11:41
+
+2/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+8960884/general-info
+
+exchange rates etc.
+
+2
+
+Intervjuud/Interviews
+
+The Contracting Entity does not make
+advance payments.
+Intervjuu käigus hinnatakse kandidaadi Kvaliteet - hankija
+võimet vastata küsimustele, mis
+hinnatav
+põhinevad hanke nõuetel, sealhulgas
+dokumendil „Project Team CV“.
+
+50
+
+Iga
+rolli
+jaoks
+esitab
+hankija
+ettevalmistatud,
+rollipõhised
+standardküsimused.
+Intervjuud viiakse läbi järgmiste
+võtmetöötajatega:
+•
+Esimene
+programmeerija
+(maksimaalselt 30 punkti)
+• Ärianalüütik (maksimaalselt 20 punkti)
+During the interview, the candidate's
+ability to respond to questions based on
+the procurement requirements, including
+the document “Project Team CV”, will
+be assessed.
+For each role, the Contracting Authority
+will present pre-prepared, role-specific
+standard questions.
+Interviews will be conducted with the
+following key personnel:
+• First Programmer (maximum 30 points)
+• Business Analyst (maximum 20 points)
+Kokku:
+
+Koostatud 12.11.2025 13:11:41
+
+3/4
+
+100
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+8960884/general-info
+
+Hindamismetoodika kirjeldus
+1. Tunnihinna maksumus/ Hourly price
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+This criterion evaluates the value of the hourly price of the service as set out in the Tenderer’s tender, following the principle where the lowest is the best.
+The merit points of the next tenders will be calculated using the following formula:
+The lowest tender receives the maximum number of points. Other tenders are calculated using the formula: "weight" - ("tender value" - "lowest value") / "highest value" * "weight".
+
+2. Intervjuud/Interviews
+Intervjuudelt saadud punktid pakkuja võtmetöötajate kohta liidetakse. Võtmetöötajate meeskond, kes saab kõrgeima kogusumma, saab maksimaalse arvu väärtuspunkte (50 väärtuspunkti).
+Väärtuspunktid = (Hinnatava pakkumuse võtmetöötajate intervjuude koguskoor / Kõrgeim koguskoor kõigi pakkumuste seas) × kaal
+Kaal on 50%.
+The scores received from the interviews of a tenderer’s key personnel will be summed. The team of key personnel with the highest total score will receive the maximum number of value points
+(50 value points).
+Value points = (Total interview score of the key personnel in the evaluated tender/ Highest total interview score among all tenders) × weight
+Where the weight is 50%.
+
+Koostatud 12.11.2025 13:11:41
+
+4/4
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+8960884/general-info
+
+

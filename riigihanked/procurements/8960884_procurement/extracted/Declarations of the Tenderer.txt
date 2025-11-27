@@ -1,0 +1,119 @@
+SINGLE PROCUREMENT DOCUMENT
+
+DATA OF THE CONTRACTING ENTITY AND PROCUREMENT
+
+  -----------------------------------------------------------------------
+  Contracting Entity                  Elering AS
+  ----------------------------------- -----------------------------------
+  Name of the procurement             Framework agreement for Common IT
+                                      Platform developments
+
+  Reference number                    296660
+  -----------------------------------------------------------------------
+
+DATA OF THE TENDERER
+
+  -----------------------------------------------------------------------
+  Name of the Tenderer                
+  ----------------------------------- -----------------------------------
+
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+  Does the Tenderer rely on the       Choose: No/Yes
+  resources of other economic         
+  operators? *                        
+  ----------------------------------- -----------------------------------
+  Is the Tenderer submitting a joint  Choose: No/Yes
+  tender? *                           
+
+  -----------------------------------------------------------------------
+
+* In case where the Tenderer relies on the resources of other economic
+operator to meet the qualification criteria or submits joint tender, the
+Tenderer submits (with the tender) Single Procurement Document of the
+economic operator/joint tenderer as well.
+
+1.  Exclusion grounds
+
+Tenderer confirms that the Tenderer does not have the exclusion grounds
+enacted in the Procurement Documents.
+
+2.  Economic and financial standing
+
+The Tenderer confirms that the Tenderer net sales generated in the last
+three (3) financial years (which have ended and for which the annual
+report has been submitted and confirmed by a respective institution)
+amount to at least six hundred thousand (600 000) euros and at least two
+hundred thousand (200 000) euros each financial year throughout the
+period.
+
+  -----------------------------------------------------------------------
+  Financial year                        Net sales generated (turnover)
+  ------------------------------------- ---------------------------------
+                                        
+
+                                        
+
+                                        
+  -----------------------------------------------------------------------
+
+3. Technical and professional ability
+
+Data about previously performed contracts
+
+Tenderer confirms that the Tenderer has properly performed (contracts
+are fulfilled) in the past 36 months (since the date of publication of
+the contract notice) at least two (2) IT system development services
+contracts, which are in accordance with the following conditions:
+
+-   IT systems in both IT system development services contracts must be
+    with Edigas information data exchange using at least nomination and
+    capacity allocation business procedure documents with Edigas version
+    5 or newer (https://www.edigas.org/)
+
+-   In one (1) IT system development services contract IT systems must
+    be with AS4 information data exchange between applications
+
+-   In one (1) IT system development services contract IT system must be
+    with configurable user access and rights management for IT system
+    users with TOTP algorithm access.
+
+-   In one (1) IT system development services contract IT system must be
+    related to gas system information data Exchange related for
+    Transmission system operator market information exchange.
+
+-   One IT system using microsystem approach based on Docker technology
+    solution
+
++----+----------------+-----------+---------+------------+-----------+
+| Nr | Name of the    | De        | Which   | Client     | Period of |
+|    | contract       | scription | c       |            | the       |
+|    | (reference     | of the    | riteria | (name,     | contract  |
+|    | number in the  | work and  | does    | contacts)  | (insert   |
+|    | case of public | used      | the     |            | the       |
+|    | procurement)   | tec       | c       |            | beginning |
+|    |                | hnologies | ontract |            | and       |
+|    |                |           | meet:   |            | ending:   |
+|    |                |           |         |            | mo        |
+|    |                |           |         |            | nth/year) |
++====+================+===========+=========+============+===========+
+| 1  |                |           |         |            |           |
++----+----------------+-----------+---------+------------+-----------+
+| 2  |                |           |         |            |           |
++----+----------------+-----------+---------+------------+-----------+
+| 3  |                |           |         |            |           |
++----+----------------+-----------+---------+------------+-----------+
+
+*Add rows if needed.
+
+Tenderer declares that it meets all the requirements set out in the
+contract notice for qualifying the tenderer and all given data in this
+document is correct.
+
+Tenderer confirms that it is immediately able to submit declarations and
+documents that affirms abovementioned data.
+
+Tenderer:
+
+Signature:

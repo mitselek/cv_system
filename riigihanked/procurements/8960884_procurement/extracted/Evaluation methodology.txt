@@ -1,0 +1,82 @@
+EVALUATION METHODOLOGY
+
+1.  General provisions
+
+    1.  The Contracting Entity evaluates suitable tenders in the
+        100-merit point system that is divided into weightings as
+        follows:
+
+        1.  a maximum of 50 merit points may be awarded to a tender for
+            the tender value criterion;
+
+        2.  a maximum of 50 merit points may be awarded to a tender for
+            interviews.
+
+    2.  The merit points to be assigned to a tender are received by
+        summing up the merit points given on the basis of the evaluation
+        methodology described in each evaluation criterion (evaluation
+        criteria 1 and 2).
+
+    3.  Tenders are ranked on the basis of the merit points assigned to
+        a tender. The tender that scored the most merit points is the
+        best. If two or more tenders are awarded equally the greatest
+        number of merit points, the one that has been awarded more merit
+        points in the interview criterion will be preferred. If these
+        points are also equal, the successful tenderer will be
+        identified by drawing lots.
+
+2.  Evaluation criteria:
+
++----+--------+-----------------------------------------------+--------+
+| It | Eval   | Description of the conduct of the evaluation  | M      |
+| em | uation | process                                       | aximum |
+| n  | cri    |                                               | merit  |
+| o. | terion |                                               | points |
++====+========+===============================================+========+
+| 1  | Value  | This criterion evaluates the value of the     | 50     |
+|    | cri    | hourly price of the service as set out in the |        |
+|    | terion | Tenderer’s tender, following the principle    |        |
+|    |        | where the lowest is the best.                 |        |
+|    |        |                                               |        |
+|    |        | The tender of the lowest hourly price of the  |        |
+|    |        | service out of the submitted tenders is       |        |
+|    |        | awarded the maximum number of merit points    |        |
+|    |        | (50 merit points).                            |        |
+|    |        |                                               |        |
+|    |        | The merit points of the next tenders will be  |        |
+|    |        | calculated using the following formula:       |        |
+|    |        |                                               |        |
+|    |        | The lowest tender receives the maximum number |        |
+|    |        | of points. Other tenders are calculated using |        |
+|    |        | the formula: "weight" - ("tender value" -     |        |
+|    |        | "lowest value") / "highest value" * "weight". |        |
++----+--------+-----------------------------------------------+--------+
+| 2  | Inte   | During the interview, the candidate's ability | 50     |
+|    | rviews | to respond to questions based on the          |        |
+|    |        | procurement requirements, including the       |        |
+|    |        | document “Project Team CV”, will be assessed. |        |
+|    |        |                                               |        |
+|    |        | For each role, the Contracting Authority will |        |
+|    |        | present pre-prepared, role-specific standard  |        |
+|    |        | questions.                                    |        |
+|    |        |                                               |        |
+|    |        | Interviews will be conducted with the         |        |
+|    |        | following key personnel:                      |        |
+|    |        |                                               |        |
+|    |        | -   First Programmer (maximum 30 points)      |        |
+|    |        |                                               |        |
+|    |        | -   Business Analyst (maximum 20 points)      |        |
+|    |        |                                               |        |
+|    |        | The scores received from the interviews of a  |        |
+|    |        | tenderer’s key personnel will be summed. The  |        |
+|    |        | team of key personnel with the highest total  |        |
+|    |        | score will receive the maximum number of      |        |
+|    |        | value points (50 value points).               |        |
+|    |        |                                               |        |
+|    |        | Value points = (Total interview score of the  |        |
+|    |        | key personnel in the evaluated tender/        |        |
+|    |        | Highest total interview score among all       |        |
+|    |        | tenders) × weight                             |        |
+|    |        |                                               |        |
+|    |        | Where the weight is 50%.                      |        |
++----+--------+-----------------------------------------------+--------+

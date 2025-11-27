@@ -1,0 +1,236 @@
+ELERING AS
+
+Simple Procedure Document
+
+Instructions to Tenderers
+
+“Framework agreement for Common IT Platform developments”
+
+Reference No 296660
+
+Tallinn 2025
+
+The Contracting Entity asks to submit the tender according to the
+conditions stated in the Simple Procedure notice (hereafter: Contract
+Notice), Instructions to Tenderers and it´s appendixes (hereafter:
+Tender Documents).
+
+General
+
+Type of procurement, name of project, characterisation
+
+Simple procedure (hereafter: Procurement), electronic procedure.
+
+Contracting Entity: Elering AS (registry code 11022625), Kadaka tee 42, 12915 Tallinn, Estonia and AS Conexus Baltic Grid (40203041605), Stigu street 14, Riga.
+
+Title of the Procurement: “Framework agreement for Common IT Platform developments”.
+
+Reference No in the Public Procurement Register: 296660.
+
+Scope of Service and all Appendixes (hereafter: Scope of Service) is a part of Tender Documents.
+
+The composition of the Procurement is stated in the Scope of Service and in the Public Procurement Register.
+
+The successful Tenderer is expected to ensure that the service is performed according to the Framework Agreement and Scope of Service with competitive price. 
+
+Framework Agreement will be concluded with one (1) tenderer for the period of twenty four (24) calendar months with additional possibility to extend the agreement for twelve (12) calendar months in the total amount of 300 000 euros, taking into account the yearly budget possibilities and limitations.
+
+The deadline for the performance of the service under the Framework Agreement shall be twenty four (24) months (nominal period) from the conclusion of the Framework Agreement. An additional extended period of twelve (12) months can be applied. Extension of the Framework Agreement will be decided by the Contracting Entity. A 2 year period of warranty will be added to the deadline for the performance of the Framework Agreement.
+
+The estimated and total cost of the Framework Agreement during the period of validity of the Framework Agreement is three hundred thousand (300 000) euro (without VAT). 
+
+In case the estimated total cost of the Framework Agreement will be realized before the deadline of the Framework Agreement, the Framework Agreement shall be ceased with the realization of the estimated total cost of the Framework Agreement.
+
+The Contracting Entity shall order the service under the Framework Agreement according to it´s need, from the successful Tenderer and with the price stated in the tender submitted by the successful Tenderer. 
+
+The Contracting Entity is not obligated to order service up to the estimated total cost of the Framework Agreement.
+
+Life-cycle costing are considered in the cost of agreement.
+
+The Contracting Entity’s person responsible is Liis Hõrak, liis.horak@elering.ee. 
+
+TENDER documents 
+
+Contents of Tender Documents 
+
+The Contracting Entity shall make the Tender Documents available to all interested persons electronically via the Public Procurement Register.
+
+The composition of the documentation necessary to prepare and submit a tender is set forth in clause 5, the Public Procurement Register and in the Contract Notice.
+
+The Contracting Entity assumes that when preparing the tender, the Tenderer considers all the terms and conditions of the Tender Documents, Contract Notice and that when preparing the tender, the Tenderer considers the additional information to and clarifications of the contents of the documents issued by the Contracting Entity to the Tenderers in the course of the Procurement.
+
+Tender must comply with the condition stated in the Tender Documents and in the Public Procurement Register and must not be misleading in any way.
+
+All documents of the tender shall be prepared in Estonian or English. Tender must be submitted via the Public Procurement Register (www.riigihanked.riik.ee). Submitted files must not be secured against copying, printing or any other similar function of approach. The tender must be signed by a person who is authorized to sign (in case the tender is signed by a person who´s authorization to sign does not come from the law, then the original power of attorney issued to the person who signed the tender, must be included to the tender).
+
+Joint Tenderers shall appoint a representative authorized to perform on their behalf operations related to the Procurement procedure and the award and performance of the Framework Agreement. Joint Tenderers shall submit the original of the power of attorney issued to their representative (Joint Tenderers may use the form attached). 
+
+Joint Tenderers must submit (with the tender) a confirmation that the Joint Tenderers are jointly liable for the performance of the Framework Agreement (also in the form attached). 
+
+The Contracting Entity does not accept alternative tenders (tenders that´s conditions contrary to the conditions stated in Tender Documents). 
+
+The Contracting Entity does not accept tenders covering a part of the volume.
+
+All expenses and risks related to the preparation, composition and submission of the tender shall be carried out by the Tenderer in whole. The Contracting Entity shall not take material responsibility for any costs incurred by the Tenderer during the Procurement procedure.
+
+Clarifications of and additions to the Tender Documents 
+
+A tenderer who requires clarification regarding the Procurement Documents must submit a corresponding request for clarification to the Contracting Authority in writing via the Public Procurement Register. The tenderer is obliged to submit a request for clarification if they discover any contradictions or ambiguities in the Procurement Documents.
+
+The Contracting Authority’s responses or documents that provide clarification will be made electronically available to all interested parties simultaneously via the Public Procurement Register within three (3) working days from the receipt of the relevant request for clarification (pursuant to Section 46(1) of the Public Procurement Act).
+
+The Contracting Authority draws attention to the fact that if there are fewer than two (2) working days between the receipt of a request for clarification related to a simplified procurement and the deadline for submission of tenders, the Contracting Authority is not obliged to respond to the request (pursuant to Section 46(2) of the Public Procurement Act).
+
+The Contracting Authority has the right to amend the Procurement Notice and/or the Procurement Documents before the deadline for submission of tenders.
+
+Tenderer´s clarifications regarding the absence of grounds for exclusion, data submitted in proof of self-cleaning or qualifications, or data given in the tender
+
+The Contracting Entity has the right to submit a clarification request via the Public Procurement Register regarding the absence of grounds for exclusion, data submitted in proof of self-cleaning or qualifications, or data given in the tender. Tenderer is obligated to submit the clarifications or documents allowing for clarification within three (3) working days following the receipt of a respective request from the Contracting Entity.
+
+Tender´s COMPOSITION, DOCUMENTS, COST and the PERIOD OF VALIDITY OF THE TENDER 
+
+Composition and submission of the tender 
+
+Tenders shall be comprised of the following mandatory documents:
+
+Tender Proposal (in the form attached), (hourly price of framework agreement for Common IT Platform developments of the tender in Tender Proposal must be submitted in euros/without VAT). The hourly price of the tender must correspond to the total price of the tender, shown in in the Public Procurement Register;
+
+Proof of authorization to act of the person who signed the tender if the signatory is not a legal representative of the Tenderer. Tenderer may use the form attached “Power of attorney (form)”. If the person who signed the tender is a legal representative of the Tenderer, please submit proof of such authorization, (for example extract from the articles of association).
+
+Joint Tenderers shall appoint a representative authorized to perform on their behalf operations related to the Procurement procedure and the award and performance of the Procurement Contract. Joint Tenderers shall submit the original of the power of attorney issued to their representative (Joint Tenderers may use the form attached). Joint Tenderers must submit (with the tender) a confirmation that the Joint Tenderers are jointly liable for the performance of the Procurement Contract (also in the form attached).
+
+Description of the service (based on Scope of Service). Tender description must clearly describe compliance of the service offered with the Scope of Service;
+
+Tender security either as a deposit or a guarantee (in the form attached). The Tenderer shall submit, together with the tender, a tender security worth three thousand (3000) euros.
+
+The tender security shall be submitted as one of the following options:
+
+A guarantee issued by a credit or financial institution or an insurer in Estonia or abroad pursuant to the template attached to the Tender Documents. The guarantee shall remain valid for thirty (30) days after the term of validity of the tender;
+
+The amount shall be deposited on the Elering AS bank account EE282200221024551314 in Swedbank.
+
+The tender security shall be returned to the Tenderer or shall not be returned in accordance with the rules provided for in the Public Procurement Act § 91.
+
+The tenderer shall indicate in the tender which information constitutes the tenderer’s trade secret and shall provide justification for classifying the information as a trade secret (pursuant to Section 461(1), points 1 and 3 of the Public Procurement Act). The tenderer may not designate the total price of the tender or any partial prices as a trade secret (Section 461(1), point 1 of the Public Procurement Act). The successful tenderer's offer shall remain confidential after the decision declaring the tender successful has been made, and shall not be disclosed except for the parts that have been designated as trade secrets.
+
+The tenderer shall submit the CVs of the key personnel and other team members who will be involved in the performance of the Framework Agreement, using the prescribed form (“Project team CV”). 
+
+The tenderer shall submit, together with the tender, a completed “Declarations of the Tenderer” form, which confirms compliance with the qualification requirements. This form is electronically available in the Public Procurement Register, including a designated field for confirming the absence of grounds for exclusion. The Contracting Authority applies the provisions of the Public Procurement Act regarding the European Single Procurement Document (ESPD) to the “Tenderer’s Declarations” form and the confirmation of the absence of exclusion grounds by analogy (noting that this does not constitute an ESPD within the meaning of Section 104 of the Public Procurement Act). In other words, the “Tenderer’s Declarations” form and the confirmation provided in the relevant field of the e-Procurement Register serve as preliminary evidence for verifying the tenderer’s compliance with qualification requirements and the absence of exclusion grounds. Based on the declarations and data provided, the Contracting Authority will conduct a substantive verification of the successful tenderer’s compliance and eligibility (pursuant to Section 104(1) of the Public Procurement Act).
+
+By submitting a tender, the Tenderer accepts all the conditions stated by the Contracting Entity in the Contract Notice and Tender Documents (including Framework Agreement).
+
+Tender cost 
+
+The Tenderer shall present the tender cost of a hourly price of framework agreement for Common IT Platform developments in euros and VAT excluded. 
+
+The tender cost (hourly price) shall include all expenses, taxes (except the VAT), fees and other charges that the Tenderer incurs or is subject to in connection with the performance of service that are not described in Tender Documents but are necessary for performing the service specified in the Tender Documents in accordance with the specified requirements.
+
+The tender cost in Tender Proposal and in the Public Procurement Register must not have deviations.
+
+The tender (hourly) cost in Tender Proposal and in the Public Procurement Register shall be final, fixed for the period of performing the Framework Agreement and no additional costs shall be applied.
+
+The tender (hourly) cost of the tender shall not be conditional i.e it must be independent of inflation, foreign exchange rates etc.
+
+The Contracting Entity does not make advance payments.
+
+The period of validity of tender
+
+The tender shall remain valid for at least ninety (90) days from the time limit for submission of the tender.
+
+SUBMISSION OF THE TENDER AND TIME LIMIT FOR SUBMISSION OF THE TENDER
+
+Submission of the tender
+
+Tenders shall be submitted electronically via the Public Procurement Register. Tenders shall be prepared according to the provisions of clause 5, in the Contract Notice and in the documents “Declarations of the Tenderer” and “Compliance requirements” contained in the Public Procurement Register. 
+
+If the Contracting Entity has prescribed the format of a document to be submitted, the Tenderer shall submit the relevant document on the template provided for by the Contracting Entity. The Tenderer is not allowed to make any semantic changes in the forms given by the Contracting Entity.
+
+The Contracting Entity shall not be liable for potential delays, failures or disruptions in the Public Procurement Register caused by factors outside the control of the Contracting Entity such as force majeure, power outages, disruptions of the Tenderer’s or Contracting Entity’s telephone or internet connection or functioning of other electronic equipment and tools, incl. software. The Contracting Entity shall not be liable for damages due to the use or non-use of the Public Procurement Register or for any loss of income.
+
+Time limit for submission of the tender
+
+Tenders shall be submitted electronically via the Public Procurement Register at the latest on the date and time specified in the Contract Notice.
+
+Opening and processing of tender(s)
+
+Opening tender(s) 
+
+The Contracting Entity opens the tenders in the Public Procurement Register after the time limit for submission of tenders specified in the Contract Notice. The Contracting Entity does not arrange a public opening of tender(s).
+
+The name(s) and registry code(s) and tender cost(s) shall be recorded by the Contracting Entity as the tender(s) is/are opened.
+
+The Contracting Entity makes the information listed under clause 11.2 available to all Tenderers via the Public Procurement Register at the latest within three (3) working days after the opening of the tender(s).
+
+Processing tender(s)
+
+After opening the tender(s), the Contracting Entity shall verify the absence of the grounds for exclusion of a Tenderer and compliance of the Tenderers with the terms and conditions laid down in the Contract Notice. Before verifying the absence of the grounds for exclusion and the qualifications, the Contracting Entity may verify the conformity of the tenders with the terms and conditions set out in the Procurement Documents and assess the suitable tenders in accordance with the rules established in the Public Procurement Act (see § 52 (3)).
+
+After the Contracting Entity has verified the grounds of exclusions of the Tenderer(s) and the Tenderer(s) has/have been qualified and/or disqualified, the Contracting Entity shall make a respective reasoned written decision.
+
+An excluded or disqualified Tenderer cannot participate in the Procurement procedure any further. 
+
+The Contracting Authority has the right to reject a tender if the tenderer (including any entity whose resources the tenderer or joint tenderers rely on to meet the qualification requirements) is not established or does not have a place of residence in Estonia, another Member State of the European Union, a contracting state of the European Economic Area, or a country that is a party to the Government Procurement Agreement of the World Trade Organization (pursuant to Section 3, point 2 of the Public Procurement Act).
+
+After the verification of the absence of the grounds for exclusion and qualifications the Contracting Entity shall verify whether the tender(s) submitted meet the terms and conditions established in the Procurement Documents.
+
+The Contracting Entity shall make a reasoned written decision to declare the tender(s) suitable or to reject the tender(s).
+
+The tender that does not comply with the terms and conditions established in the Tender Documents shall be rejected and the Tenderer (of the tender) cannot participate in the Procurement procedure any further.
+
+In the final selection of the tenders declared admissible, the Contracting Entity shall proceed by the conditions set out in the Evaluation methodology document that is part of the Tender Documents.
+
+The Contracting Entity shall make the decisions to declare the tender(s) suitable and/or to reject the tender(s), assessment of tender(s) and the decision to declare the tender successful available to all Tenderers via the Public Procurement Register at the latest within three (3) working days after the decisions to this effect were made.
+
+Rejection of all tenders
+
+The Contracting Entity may reject all tenders in the following cases: 
+
+if any of the tenders submitted does not comply to the conditions in the Tender Documents and/or Contract Notice;
+
+if the circumstances and conditions prevalent at the time when the Procurement was announced have substantially changed and the realisation of the Procurement has become impossible or unreasonable;
+
+in the other events provided for in Public Procurement Act.
+
+Acceptance of a tender and entry into the FRAMEWORK AGREEMENT
+
+Accepting a tender(s)
+
+The Contracting Entity will conclude a Framework Agreement with one (1) successful Tenderer.
+
+The successful Tenderer (1) shall be the selected based on the evaluation (Procurement document Evaluation methodology) The Contracting Entity evaluates suitable tenders in the 100-merit point system that is divided into weightings as follows: 
+
+a maximum of 50 merit points may be awarded to a tender for the tender value criterion
+
+a maximum of 50 merit points may be awarded to a tender based on the interviews
+
+The tender that scored the most merit points and is compliant with all other criteria set out in Procurement Documents shall be awarded the right to enter into the Framework agreement with the Contracting Entity. If two or more tenders are awarded equally the greatest number of merit points, the one that has been awarded more merit points in the interviews will be preferred. If these points are also equal, the successful tenderer will be identified by drawing lots. 
+
+The Contracting Entity shall deliver a written notice about declaring a tender admissible to all Tenderers within three (3) workdays after a decision to this effect was made.
+
+Entry into the Framework Agreement 
+
+The Contracting Entity shall conclude a Framework Agreement according to the form attached to the Tender Documents with the Tenderer declared successful.
+
+The Contracting Entity and Tenderer shall enter into the Framework Agreement in English.
+
+The communication and working language in the performance of the Framework Agreement is English.
+
+Before awarding the Framework Agreement, the Contracting Entity demands that the Tenderer verified to be declared successful submits documents corresponding to all the relevant declarations made in the “Declarations of the Tenderer”.
+
+The Framework Agreement can be signed after five (5) working days since the Contracting Entity has notified the Tenderers about declaring a Tender successful, qualification decision or decision to conclude a Framework Agreement. 
+
+The standstill period does not need to be applied in case there was only one (1) tender submitted in the Procurement.
+
+The Tenderer who submitted the successful tender shall sign the Framework Agreement within seven (7) days after receipt thereof and return it to the Contracting Entity.
+
+Prior to concluding the contract, the successful Tenderer shall submit a list of all persons involved in the performance of the service (names, surnames, ID numbers) with an explanation of the involvement of each person in performance of the service (their specific role). The successful Tenderer shall provide consents to undergo verification process, including consents to data processing from the persons involved in the performance of the Framework Agreement.
+
+During the implementation of the concluded Framework Agreement the Contracting Entity and the Tenderer must secure each of their action to be in accordance with every law in force in Estonia.
+
+Other Conditions
+
+The Procurement Documents are applicable only with the Public Procurement Act. The Contracting Entity expects the interested parties or Tenderers to understand the Public Procurement Act.
+
+In accordance with the Public Procurement Act the Contracting Entity must recheck (before signing the Framework Agreement) lack of the grounds of exclusion on the successful Tenderer on the next working day from the date that a decision about declaring a tender successful has been taken by the Contracting Entity (Public Procurement Act § 125 (7)).
+
+Any reference made by the contracting authority to a basis mentioned in § 88 (2) or (6) of the Public Procurement Act (RHS) shall be interpreted as being supplemented with the note "or equivalent." When relying on equivalence, the tenderer must provide documents in the tender proving the equivalence.

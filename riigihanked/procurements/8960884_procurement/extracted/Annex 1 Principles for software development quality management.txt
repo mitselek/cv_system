@@ -1,0 +1,234 @@
+  Annex 1: Principles for software development quality management
+
+1.  Development work
+
+    1.  Work aimed at developing new software or creating a new
+          functionality for or changing the functionality of existing
+          software is considered development work. The purpose of
+          development works is to ensure the functionality of software,
+          based on changed or added needs. Software development works
+          shall be considered:
+
+        1.  analysis;
+
+        2.  creation of architecture;
+
+        3.  technical design;
+
+        4.  usability analysis and design of screen views;
+
+        5.  programming;
+
+        6.  project management;
+
+        7.  testing;
+
+        8.  configuration of the base software and other work necessary
+              for completion of the software as required;
+
+        9.  documentation of works performed;
+
+        10. other works related to development.
+
+    2.  In developing software in a development environment, it should
+          be kept in mind that must be possible to later develop
+          software further and make changes to it without the need for a
+          development environment framework or other additional
+          components.
+
+    3.  The specific nature of operations of Client infrastructure
+          requires information systems to be developed and implemented
+          rapidly, and thus agile software development methodology must
+          be used. Based on the project’s specifics, other software
+          development methodologies may be applied as well upon
+          agreement with Client.
+
+    4.  It must be possible to adopt use of software with additional
+          functionality step by step starting from the commencement of
+          the project, and the development process must allow individual
+          installations of functionality.
+
+    5.  Depending on needs, the development team must be prepared to
+        deliver software with a new added functionality to the user once
+        a week.
+
+    6.  The development environment is based at the developer’s
+        location. The test environment, pre-production environment (if
+        needed) and production environment are located at Client or
+        Client’s hosting service provider.
+
+    7.  The installations of the ready developments into the test
+        environment, preproduction environment and producing environment
+        are performed by Client or Client’s hosting service provider.
+
+    8.  Developments must be versioned using the GIT version control
+          system. The source code for the fruits of programming work
+          shall be stored and handed over in Client’s version control
+          system (GIT) pursuant to the required structure and the
+          synchronization agreements regarding the versions in
+          development and production environment must be followed.
+
+    9.  When ordering work, use-cases shall be described and furnished
+          with a code. The code on the order must match the code on the
+          developer’s work.
+
+    10. If necessary, the developer must be prepared to substantiate the
+          volumes expended for executing the work.
+
+    11. The ordered work shall be handed over on the basis of an
+        instrument of delivery containing a list of the works and
+        outcomes being handed over along with the time spent on
+        performing specific work.
+
+    12. The prerequisite for delivery and acceptance of developments is
+          the existence of documentation described in clause 3.9.
+
+    13. Client has the right to use the assistance of out-of-house
+          experts to assess the outcomes and quality of works.
+
+    14. The performance of development works must not interfere with
+          Client’s everyday activity with existing software unless
+          Client has provided prior written permission for this.
+
+    15. The working language of the project must be English.
+
+2.  Requirements for development work
+
+    1.  The developed software code and functionality must be testable
+          using automation tests, where possible, but the coverage with
+          automation testing may not be lower than 80%.
+
+    2.  The outcomes performed (classes, functions, including tests)
+          shall be documented in javadoc format.
+
+    3.  The outcome of the work must meet OWASP (www.owasp.org) level
+          2B.
+
+    4.  The source code comments must be clear, understandable and
+          essentially describe the corresponding code. The application
+          code must be well annotated so that a software developer with
+          corresponding training would be able to continue development
+          on the application.
+
+    5.  Code not in use must be removed from the application.
+
+    6.  The code format must continue in the same style as the existing
+          code.
+
+    7.  The integrity, confidentiality and availability of the data must
+          be ensured pursuant to the application or development brief’s
+          requirements.
+
+    8.  It must be possible to log what is taking place in the
+          application. The logs must be accessible for designated users
+          through the application.
+
+    9.  The time-based values in databases must be recorded using UTC
+          time.
+
+    10. UTC time must be used in data exchange operations.
+
+    11. In data exchange pertaining to electricity and gas data,
+          standardized XML based data exchange formats must be used. If
+          a suitable format is not found among the standards, creation
+          of a new format must be considered. In the course of analysis,
+          at least the following sources should be processed:
+
+        1.  Gas - Edig@s Gas trading documents and schemas
+
+    12. For uploads and downloads taking more time than 2 seconds, a
+          moving indicator must be displayed to the user until the
+          upload/download is complete. The precise design element shall
+          be agreed with an Client representative before it is used.
+
+    13. Software products that handle personal data must take into
+          account the personal data protection requirements arising from
+          legislation.
+
+    14. Additional non-functional requirements that must be followed are
+          described in Client’s non-functional requirements document.
+
+3.  Requirements for documentation
+
+    1.  Documentation takes place pursuant to the agreed-upon software
+          development methodology, the aim of which is to ensure
+          sustainable, transparent and high-quality software development
+          and maintenance.
+
+    2.  All documentation must take place in the Client Confluence
+          environment pursuant to the structure set forth by Client.
+
+    3.  The management of all development work must take place in
+          Client’s Jira environment.
+
+    4.  All documentation must be written in English unless agreed
+          otherwise.
+
+    5.  Documents must be created in a logical and systematic structure
+          that makes up a interrelated whole.
+
+    6.  References to documents must be made in uniform manner and
+          logically interconnected to make it easy to orient throughout
+          the structure of documents.
+
+    7.  The documents must be versioned pursuant to versions of the
+          application. With each new application’s version, the
+          documentation’s versions must also be updated. Upon handing
+          over all versions of the application to the Contracting
+          Authority, the Contractor shall also hand over the
+          corresponding version of the documentation unless agreed
+          otherwise.
+
+    8.  With each new version, the release notes must also always be
+          documented, which must document all changes between the old
+          and new version.
+
+    9.  The documentation must include the following unless agreed
+          otherwise.
+
+        1.  The functional specification (diagrams of use-cases and
+            specifications: UML (http://www.omg.org/spec/UML/), business
+            rules: BPMN 2 (www.bpmn.org)).
+
+        2.  Technical specification (Design). Document comprehensively
+              describing the application documenting all of the changes
+              made to the application/functionality. Describes the
+              details of the realized software (forms, fields, tables,
+              error messages, business rules, interface specifications,
+              application context-component diagrams, process logic
+              specifications, XML schemes and semantic specification to
+              be created/modified etc.). It must be possible to carry
+              out testing and admin activities on the basis of the
+              documentation.
+
+        3.  Architecture document. Describes the application’s general
+              structure, interfaces and dependencies on other
+              applications. Describes the application’s logical
+              structure, indicating how it is distributed into layers,
+              and also the physical architecture, technologies and
+              methods used.
+
+        4.  Application maintenance guide. Describes the integral
+              guidance material necessary for provision of system,
+              application, data and content management, hosting,
+              tracking, backup and recovery services, on the basis of
+              which it is possible to offer admin services to the
+              solution.
+
+        5.  Delivery installation guide;
+
+        6.  Physical data model. Describes the data structure used for
+              saving data (database scheme and explanations describing
+              the tables, columns, indices, views, triggers, procedures
+              and functions used in the database, scripts for changes
+              and installation scripts).
+
+        7.  Testing documentation. Information gained from testing the
+              executed developments (test cases, test plan etc.).
+
+        8.  User manuals pursuant to the use-cases and user groups
+              described.
+
+        9.  Explanations of terminology and concepts. Terminology and
+              concepts that are in use throughout the documentation with
+              regard to the relevant application.

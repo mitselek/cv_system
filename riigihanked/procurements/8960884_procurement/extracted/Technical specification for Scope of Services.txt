@@ -1,0 +1,227 @@
+1.  Table of contents
+
+1. Table of contents 1
+
+2. Introduction 2
+
+3. Object of the tender 3
+
+4. IT development service description 7
+
+2.  Introduction
+
+3.  Purpose of the Document
+
+This document is “Requirements Specification” (hereinafter –
+Specification) to the tender documents of the gas transmission and
+balancing services information system (hereinafter – System) additional
+developments for Elering and Conexus (hereinafter – Client).
+Specification defines and describes existing IT system technical
+overview and description of procured IT development service (hereinafter
+– Project).
+
+4.  Terms and Definitions
+
+The key gas specific terms and IT related abbreviations used in the
+document are listed in the table below:
+
+  ------------------------------------------------------------------------
+  Term               Definition
+  ------------------ -----------------------------------------------------
+  Common Balancing   The combined area of Estonian and Latvian natural gas
+  Zone               balancing zones [later expected to include Lithuania
+                     and Finland]
+
+  Transmission       The operator of one of the national transmission
+  System Operator    systems in the Common Balancing Zone. The owners and
+  (hereinafter TSO)  administrators of this system.
+
+  Web Application    A software application that runs on a remote server.
+
+  Single Page        A single-page application (SPA) is a web application
+  Application        that interacts with the user by dynamically rewriting
+  (hereinafter SPA)  the current page rather than loading entire new pages
+                     from a server.
+
+  Spring Framework   The Spring Framework provides a comprehensive
+                     programming and configuration model for modern
+                     Java-based enterprise applications - on any kind of
+                     deployment platform.
+
+  Web Service        In a web service, the Web technology such as
+                     HTTP—originally designed for human-to-machine
+                     communication—is utilized for machine-to-machine
+                     communication, more specifically for transferring
+                     machine-readable file formats such as XML and JSON.
+                     All webservices in this project are implemented using
+                     the Spring framework.
+
+  Database Server    A database server is a server which houses a database
+                     application that provides database services to other
+                     computer programs or to computers, as defined by the
+                     client–server model.
+
+  Common Zone        A set of web services, database servers, and SPAs
+  Platform           which work together to create the Common Balancing
+  (hereinafter CZP)  Zone. It consists of two main systems: the BCGP-MS
+                     and the BCGP-PPS.
+
+  Baltic Gas Common  An individual system responsible for communication
+  Platform - Main    between Elering’s - and Conexus’s system, as well as
+  System             external systems.
+  (hereinafter MS)   
+
+  Baltic Gas Common  A public portal of the BCGP-MS. A separate system –
+  Platform - Public  for security reasons - with a separate database, web
+  Portal System      application and a single page application.
+  (hereinafter PPS)  
+
+  AS4                AS4 (Application Statement 4) is an interoperability
+                     protocol that simplifies and standardizes the use of
+                     web services for business-to-business data exchange
+                     and integration.
+
+  The Time-based     An extension of the HMAC-based One-time Password
+  One-Time Password  algorithm (HOTP) generating a one-time password by
+  algorithm (TOTP)   instead taking uniqueness from the current time. It
+                     has been adopted as Internet Engineering Task Force
+                     [1] standard RFC 6238, [1] is the cornerstone of
+                     Initiative For Open Authentication (OATH), and is
+                     used in a number of two-factor authentication
+                     systems.
+
+  Identity and       Does authentication and authorization for
+  Access Management  applications and secure services.
+  (hereinafter IAM)  
+
+  Service-oriented   Service-oriented architecture (SOA) is a style of
+  architecture (SOA) software design where services are provided to the
+                     other components by application components, through a
+                     communication protocol over a network.
+  ------------------------------------------------------------------------
+
+5.  Background
+
+The Baltic Energy Market Interconnection Plan (BEMIP) Action Plan
+includes a precise task for the preparation of a regional gas market
+model in the Baltic States and interconnected gas market with Finland.
+With the establishment of the Regional Gas Market Coordination Group
+(RGMCG) to facilitate the development of the functioning regional gas
+market in the East Baltic region the countries have committed to jointly
+cooperate moving towards development of regional gas market.
+
+The initial common balancing zone has been developed between the TSOs of
+Latvia and Estonia in 2020, with the possibility of TSOs from Finland
+and Lithuania joining in the subsequent years. This specification is
+dedicated to the additional developments of an information system where
+NUs can submit and manage the activities related to gas capacity
+bookings and nominations, receive responses from the TSO system and see
+the overall status of gas transmission in the common balancing zone. The
+development of the back-end system and data processing (common IT system
+is meant to collect and forward pre-processed data) is not in the scope
+of this specification.
+
+6.  Object of the tender
+
+System Context Diagram
+
+The purpose of the CZP is to provide gas market related business
+functionality of the Common Balancing Zone to Elering (Estonia) and
+Conexus (Latvia), establish communication between them and external
+systems (other market participants), as well as provide a user interface
+for users of which both parties can access. The design of the system
+allows easy integration of TSOs of Lithuania and Finland later on,
+therefore having standardized technology for all parts of the system is
+necessary. All endpoints of the CZP must be authenticated (expect for
+endpoints for user authentication).
+
+[]
+
+Container Diagram
+
+The service-oriented architecture (SOA) shown on the diagram below
+contains components for both Human-to-Human (H2H), as well as
+Machine-to-Machine (M2M) communication between CZP, Elering’s Backend
+System, Conexus’ Backend System, as well as External Backend Systems.
+
+The main form of communication between the parties listed is the AS4
+protocol through the AS4 Gateway. The AS4 Service relays messages to the
+AS4 Message Broker through ActiveMQ Artemis message broker using the JMS
+API to the BCGP-Backend web service, where the main business logic is
+located. The Single-Page application of the BCGP- Backend application is
+served to the user through an external endpoint, the same can be said
+for the single-page application of the AS4-Service. For AS4
+communication, IP Systems’ solution is used.
+
+Keycloak is an open-source identity and access management tool
+(https://www.keycloak.org/). It supports protocols such as SAML v2.0,
+OpenID Connect v1.0, and Oauth v2.0 out of the box for Identity
+Brokering (i.e., using it with an external authentication provider).
+Keycloak is used as central point of authentication for H2M
+communication.
+
+Disclaimer: If not mentioned otherwise, all communication between client
+(web browser) and web server are done with TLS (Transport Layer
+Security, HTTPS).
+
+[]
+
+Technology Stack
+
+  -----------------------------------------------------------------------
+  Container name    Technology
+  ----------------- -----------------------------------------------------
+  Web Service       Spring Boot, JDK, Liquibase, JPA
+  (BCGP-IP)         
+
+  Keycloak          JDK
+
+  Single-Page       Angular, HTML, CSS, Angular Material, Bootstrap
+  Application       
+  (BCGP-IP)         
+
+  AS4 Message       ActiveMQ-Artemis
+  Broker            
+
+  Web Service       Spring Boot, JDK, Liquibase
+  (AS4-Service)     
+
+  Single-Page       AngularJS , HTML , CSS, Bootstrap
+  Application       
+  (AS4-Service)     
+
+  Database          MySQL Enterprise Version
+  -----------------------------------------------------------------------
+
+2-factor authentication
+
+2-factor authentication is required in the system, therefore, to receive
+the refresh and access tokens, the user has to input his/her username
+and password, as well the verification token generated by the Google
+Authenticator application for iOS or Android using the TOTP algorithm.
+
+Logging – Elastic Stack
+
+[https://cdn-images-1.medium.com/max/800/1*WB5FSGFEr5ozSiEPcaxAEQ.png]
+
+Traditionally application server logs are stored into files on the
+server. By using the Elastic Stack (Beats, Logstash, Elasticsearch, and
+Kibana), these server logs can be searched, queried, and visualized for
+better human consumption.
+
+Elasticsearch: Elasticsearch is a NoSQL database. It is distributed,
+centrally stores your data, allows RESTful searches and this analytical
+engine is capable of solving different kinds of growing number of use
+cases.
+
+Logstash: Logstash is the data collection pipeline tool. It collects
+data inputs and feeds into the Elasticsearch. It gathers all types of
+data from different sources and makes it available for further use.
+
+Kibana is a data visualization tool which completes the ELK stack. The
+queried data can be exported in different formats such as PDF and CSV.
+
+7.  IT development service description
+
+The principles of IT system development additional services are
+specified under annex 1.

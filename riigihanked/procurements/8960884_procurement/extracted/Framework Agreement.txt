@@ -1,0 +1,1317 @@
+DRAFT FRAMEWORK AGREEMENT
+
+Contracting authority: Elering AS, AS “Conexus Baltic Grid”
+
+Public procurement with simple procurement procedure: Framework
+agreement for Common IT Platform developments
+
+FRAMEWORK AGREEMENT No. ....
+
+The agreement is awarded as a result of the public procurement with
+simple procurement procedure as organised by Elering AS.
+
+Procurement title: Framework agreement for Common IT Platform
+developments (hereinafter the Simple Procurement)
+
+Simple Procurement reference number:
+
+The parties to this agreement (hereinafter the Agreement) are:
+
+Elering AS, registry code 11022625, registered office Kadaka tee 42,
+Tallinn 12915, represented by _____
+
+and
+
+AS “Conexus Baltic Grid”, Latvian VAT registration No. LV40203041605,
+registered office Aristida Briāna Street 6, Riga, LV-1001, Latvia,
+represented by _______
+
+(hereinafter both together referred to as the Contracting Entities or
+a/the Party, and jointly with the Contractor referred to as the
+Parties),
+
+and
+
+, registry code , registered office , ,
+
+and
+
+, registry code , registered office , ,
+
+(hereinafter the Contractor or a/the Party, jointly with the Contracting
+Entities the Parties),
+
+represented on the basis of by .
+
+The Contractors represent and warrant that they are solidarily liable
+for the performance of the public contract.
+
+BASIC DEFINITIONS AND ENTRY INTO PUBLIC CONTRACTS BASED ON THE FRAMEWORK AGREEMENT
+
+In this Agreement, unless the context requires otherwise, the following
+capitalised definitions have the following meanings:
+
+Agreement – this framework agreement with all annexes thereto.
+
+Software – the Common balancing zone IT system, incl. its part or
+follow-up development, to be developed and maintained by the Contractor
+on the basis of the Agreement. In respect of the Software, the
+Contractor is required to create the following in the Contracting
+Entities’ version and error management system: the development code,
+source code, installation manual, release notes, changelog, automatic
+tests, administration manual, user manuals and other related documents
+(incl. the documents and other materials specified in clause 1.5 of the
+Agreement) and deliver these to the Contracting Entities in accordance
+with clause 1.5. The aforementioned documentation, user manuals and
+other materials must provide the Contracting Entities with a principal
+and reasonably practicable ability to repair and develop the Software as
+well as to train and instruct their employees in using the Software.
+Reference to the Software in this Agreement also means reference to all
+the documentation, user manuals and other materials to be delivered
+along with the Software.
+
+Software Description – a full description of the structural, functional,
+technical, legal and other properties of the Software as set out in the
+Agreement, annexes thereto and each order placed by the Contracting
+Entities on the basis of a Public Contract or written order.
+
+Work – development or maintenance of the Software or execution of its
+follow-up developments as ordered by the Contracting Entities from the
+Contractor on the basis of a public contract or written order in the
+volume set out in the public contract or written order. If the Software
+is ordered from the Contractor on the basis of a public contract or
+written order, the Work is deemed completed if the prerequisites set out
+in clause 1.6 have been met.
+
+Transfer of the Work – installation of the Work or an intermediate
+result of the creation thereof in the Contracting Entities’ Test
+Environment and its transfer to the Contracting Entities for examination
+and testing under the terms and conditions prescribed in the Agreement
+(incl. in the case of every additional development that has been ordered
+separately), incl. the documentation, development code, source code,
+training sessions, user manuals, structure, design, user interfaces and
+their specifications, data flow integration solutions, databases created
+or to be created in the course of performing the Work, etc., have been
+delivered to the Contracting Entities and all the tests (incl. the
+Acceptance Test) that form part of the development process have been
+performed. Transfer of the Work does not obligate the Contracting
+Entities to accept it. Before the Work is transferred, the Contracting
+Entities performs a smoke test in respect of the Work unless otherwise
+agreed by the Parties.
+
+Acceptance of the Work – approval (acceptance) of the transferred Work
+or its intermediate result by the Contracting Entities under the terms
+and conditions prescribed by the Agreement after the Acceptance Tests
+have been performed and the deficiencies detected as a result of the
+tests have been eliminated. The Work (or its intermediate result) is
+ready for use after the Contracting Entities has accepted the Work.
+
+Acceptance Test – testing the Work or its intermediate result under the
+terms and conditions provided for in the Agreement. Successful passage
+of the Acceptance Test is the main, but not the only, prerequisite for
+the acceptance of the Work by the Contracting Entities.
+
+Hardware – the technical infrastructure offered by the Contracting
+Entities or a third party.
+
+Test Environment – the virtual environment meant for testing the
+Software, the Contracting Entities’ development activities, and for
+training.
+
+The Agreement also includes other definitions that have been specified
+in the text of the Agreement or whose meaning arises from the context of
+the Agreement and the conventional terminology of the Parties’ areas of
+activity covered by the Agreement.
+
+The Contractor is aware and accepts that, due to the specificity of the
+Agreement as a framework agreement, the Contracting Entities have no
+obligation to order service under this Agreement and this Agreement is
+entered into in order to agree on the terms and conditions of the public
+contracts and written orders to be entered into on the basis of the
+Agreement as regards, above all, the maximum value of the unit price of
+the service.
+
+More detailed technical conditions, scope and value of the object of the
+Agreement are set out according to the Contracting Entities’ needs and
+priorities in the public contracts or written orders to be entered into
+as a result of negotiations to be held on the basis of the Agreement in
+a format that can be reproduced in writing (hereinafter jointly referred
+to as the Public Contracts). A Public Contract is entered into as a
+written order if the value of each tender, based on an hourly price, as
+set out in the Contractor’s written-format tender is below 20,000
+(twenty thousand) euros (excl. VAT). If the value of a written-form
+tender based on an hourly price is 20,000 (twenty thousand) euros or
+more (excl. VAT), a Public Contract is entered into in accordance with
+the draft public contract set out in Annex 3.
+
+1.  The Public Contract(s) must be in compliance with the terms and
+    conditions provided for in the Agreement. If the terms and
+    conditions of the Public Contract(s) are different from those
+    provided for in the Agreement, the terms and conditions of the
+    Public Contract(s) must be more favourable for the Contracting
+    Entities than those provided for in the Agreement.
+
+2.  Public Contract(s) shall be signed on behalf of Contracting Entities
+    by:
+
+    1.  Elering AS: management board chairman and management board
+        member overseeing IT issues jointly;
+
+    2.  AS “Conexus Baltic Grid”: management board chairman and
+        management board member overseeing IT issues jointly;
+
+3.  Either of the Contracting Entities shall have the right to negotiate
+    and enter into a Public Contract with the Contractor solely, and
+    joint participation of both Contracting Entities shall not be
+    mandatory. In the event of a Contracting Entity entering into a
+    Public Contract solely, that Contracting Entity shall be solely
+    responsible for payment for Work performed pursuant to the solely
+    concluded Public Contract. All other terms of the Agreement shall
+    apply without modification.
+
+The Contracting Entities enter into a Public Contract with the
+Contractor for each order of the Work on the basis of the following
+principles and procedure:
+
+4.  the Contracting Entities prepare work items and backlogs and obtain
+      the Contractor’s approval for the work items based on which each
+      Work is ordered, i.e. the Contracting Entities submit to the
+      Contractor a description of the Work requested by the Contracting
+      Entities, i.e. place an order;
+
+5.  the Contractor is required to submit to the Contracting Entities a
+      tender by the deadline established by the Contracting Entities and
+      the tender must set out the actions necessary for performing the
+      work (incl. follow-up developments and maintenance work), the
+      maximum number of hours to be spent on such work and, based on the
+      hourly price, and the total value of the work to be performed on
+      the basis of an order, incl. the Contractor must take into account
+      that the hourly price under the Public Contract may not exceed the
+      hourly price set out in the tender of the Simple Procurement
+      specified in clause 2.1.2. The Contractor may not set conditional
+      requirements for the value of the hourly price in their tender,
+      including the Contractor may not demand from the Contracting
+      Entities a work volume the execution of which forms part of the
+      Public Contract specified in clause 1.12.
+
+6.  The Contractor must take into account the condition that payment for
+      the Work ordered on the basis of a Public Contract is made on the
+      basis of the number of hours actually spent on the Work, but the
+      time that exceeds the maximum number of hours determined in the
+      Public Contract is not subject to payment.
+
+7.  The Work to be performed on the basis of the Public Contracts must
+      be carried out observing the non-functional requirements which
+      have been laid down in the technical specification set out in
+      clause 2.1.1 and which are specified with the Contracting
+      Entities.
+
+The Public Contracts must be entered into during the term of the
+Agreement, the term of a Public Contract that has been entered into may
+be shorter or longer than the term of the Agreement.
+
+The Contracting Entities submit to the Contractor an order for the Work
+included in the Fixed Maintenance Fee (incl. the work that exceeds the
+volume included in the Fixed Fee, but which is, due to its nature,
+similar work) in the Jira or equivalent issue and project tracking
+environment operated by the Contractor (hereafter – Jira) and
+correspondence related to the fulfilment of the order takes place
+through Jira unless otherwise agreed by the Parties. The Contractor is
+required to submit to the Contracting Entities a response by the
+deadline established by the Contracting Entities and the response must
+set out the actions necessary for the performance of the Work and the
+maximum number of hours to be spent on such Work, incl. the Contractor
+must take into account that the hourly price under the Public Contract
+may not exceed the hourly price set out in the tender of the Simple
+Procurement specified in clause 2.1.2. The Contractor starts the work
+after the Contracting Entities have accepted their response. The
+Contractor submits to the Contracting Entities for approval a report on
+the Work performed during the calendar month no later than by the tenth
+(10^(th)) day of the following calendar month and the Contracting
+Entities will either approve or refuse to approve the report in
+accordance with the procedure set out in clause 7 of the Agreement.
+
+1.  AGREEMENT DOCUMENTS
+
+  The Agreement documents comprise the Agreement as well as annexes and
+  amendments thereto. For the purposes of the Agreement, the term
+  ‘Agreement’ means all of the Agreement documents. The Agreement has
+  the following annexes:
+
+1.  Annex 1 – the Contracting Entities’ procurement documents, including
+    the ‘Service description’ (technical specification) procurement
+    document of the Simple Procurement, the technical documentation of
+    the object of the procurement and the explanations provided by the
+    Contracting Entities in the course of the Simple Procurement;
+
+2.  Annex 2 – the Contractor’s tender;
+
+3.  other documents specified in the Agreement.
+
+  In the case of any inconsistencies between or multiple interpretations
+  of various Agreement documents, the explanations provided by the
+  Contracting Entities in the course of the Simple Procurement will
+  serve as the basis. If no explanations have been requested regarding
+  inconsistencies, contradictions or deficiencies in the course of the
+  Simple Procurement, the Contracting Entities’ interpretation of the
+  purpose of the Agreement will serve as the basis and in such a case
+  the Contractor will have no right to invoke unforeseeable
+  circumstances, lack of information, differences in interpretation or
+  other obstacles with regard to circumstances related to the
+  performance of the Agreement.
+
+2.  OBJECT OF THE AGREEMENT
+
+  The object of the Agreement is the development of the existing Common
+  balancing zone IT system follow-up developments by the Contractor for
+  the Contracting Entities.
+
+  The Parties’ rights and obligations are based on the Agreement, legal
+  acts, standards and technical norms in force in the Republic of
+  Estonia and good practice. The Contracting Entities and Contractor
+  jointly ensure, at each stage of the Work, that the aforementioned
+  requirements were executed in the Work. Regardless of the joint
+  obligation, primary liability for the appropriate execution of the
+  requirements in the Work is borne by the Contractor.
+
+  If various solutions can be used to achieve the prescribed
+  functionality, performance and other important properties of the
+  Software (or other Work), the Contractor must consult the Contracting
+  Entities about the issue and the Contracting Entities have the right
+  to choose from among the solutions the solution that is the most
+  suitable for the Contracting Entities.
+
+3.  COMMUNICATION OF NOTICES. REPRESENTATIVES OF THE PARTIES AND
+    COMMUNICATIONS CHANNELS
+
+  All notices and other information must be in English. Notices and
+  information are deemed as duly given if they have been communicated to
+  the representatives set out in clauses 4.3 and 4.4 of the Agreement by
+  e-mail. Notices of an organisational nature or urgent notices may also
+  be given by telephone. If the Agreement prescribes written form for
+  communication of information or if the information has legal
+  consequences, such information will be communicated dated, numbered
+  and signed by the Party’s representative.
+
+  A Party immediately notifies the other Party in a format that can be
+  reproduced in writing of a change in the contact persons specified in
+  the Agreement.
+
+  The Contractor is represented in technical and/or contractual issues
+  by: , tel. , mobile tel. , fax , e-mail:
+
+  The Contracting Entities shall be represented in technical and
+  contractual issues (except for amendment of the Agreement) by:
+
+1.  for Elering AS: .................., +372 ................., e-mail:
+    .................;
+
+2.  for AS “Conexus Baltic Grid”: ………., +371 ……….., e-mail: ……….
+
+4.  INTELLECTUAL PROPERTY
+
+  The owner of the outcome of the Work to be created on the basis of the
+  Agreement (incl. the Software, analyses, data models, databases,
+  materials, etc., to be created in the course of performing the Work)
+  shall be the Contracting Entities. For the avoidance of doubt, the
+  Parties hereby agree that either of the Contracting Entities shall
+  have complete, independent rights to use the outcome of Work. For the
+  avoidance of doubt, the definition ‘outcome of the Work’ also covers,
+  in the context of this Agreement, all the development plans, designs,
+  intermediate results, descriptions, repairs not yet applied, further
+  developments and improvements of the outcome of the Work and all the
+  related intellectual property (incl. the objects subject to copyright
+  protection, database objects subject to legal protection as well as
+  inventions and other intellectual property). The Contractor represents
+  and warrants that they have no claims against the Contracting Entities
+  in respect of the outcome of the Work. Should the Contractor still
+  have any claim against the Contracting Entities or should such a claim
+  arise in the future, the Contractor will waive that claim
+  unconditionally and irrevocably.
+
+  The Contractor assigns economic rights to the outcome of the Work to
+  the each of the Contracting Entities separately without a term, to the
+  fullest extent permitted by law without any geographical or other
+  restrictions, including, but not limited to, the right to reproduce,
+  disseminate, adjust, process and change the outcome of the Work and
+  make it available to the public in any form and on any media as well
+  as the right to apply for legal protection for the outcome of the
+  Work. The Contracting Entities have the right to assign said rights to
+  any person as they best see fit. The Contractor shall not interfere
+  with the Contracting Entities’ exercise of economic rights to the
+  outcome of the Work in any way.
+
+  The Contractor grants the Contracting Entity an irrevocable exclusive
+  licence without a term for exercising moral rights related to the
+  outcome of the Work to the fullest extent permitted by law without any
+  geographical or other restrictions, incl. the right to make (or order
+  from third parties) changes and supplements to the outcome of the Work
+  as they best see fit (incl. the right to create derivative works,
+  interface the outcome of the Work with other software solutions) and
+  the right to use the outcome of the Work (with or without supplements
+  and changes) in any manner and for any action (hereinafter the
+  Licence). The Contractor waives, in full, unconditionally and
+  irrevocably, the exercise of their moral rights in any manner,
+  including the Contractor waives, for the benefit of the Contracting
+  Entity without a term, irrevocably and worldwide, their right to the
+  inviolability and integrity of the outcome of the Work, and neither is
+  the Contracting Entity required, when using the outcome of the Work,
+  to refer to the author as the creator of the outcome of the Work or to
+  the author’s pseudonym. The Contracting Entity has the right to pass
+  on the right to use the outcome of the Work (sub-licence) to any third
+  party as they best see fit.
+
+  The Contractor represents and warrants that:
+
+1.  they have entered into appropriate agreements with all the persons
+      involved by the Contractor that has been involved in the
+      development of the outcome of the Work and who could have rights
+      to the outcome of the Work. Appropriate agreements mean agreements
+      that ensure full enforceability of the agreements between the
+      Contractor and Contracting Entities as provided for in clause 5 of
+      this Agreement. The Contractor represents and warrants that none
+      of the persons involved by them in performing the Work have any
+      claims related to the outcome of the Work against the Contracting
+      Entities and should such a person still have any claim against the
+      Contracting Entities or should such a claim arise in the future,
+      the Contractor is required to ensure that the person will waive
+      that claim unconditionally and irrevocably;
+
+2.  they will neither add to the Work (incl. to the Software) nor use in
+      the Work (incl. in the Software) any work protected by third-party
+      copyright or another intellectual property right, or another
+      intellectual property without prior written consent granted by the
+      author of the corresponding work or another entitled person and
+      the Contracting Entities. The Contracting Entities may refuse to
+      use a work protected by third-party copyright or another
+      intellectual property right, or another intellectual property in
+      the Work (incl. in the Software) or as an annex to the Work (incl.
+      the Software) without providing any reasons. If the Contractor
+      suspects that a third party’s work or another intellectual
+      property is protected by copyright or another right, the
+      Contractor is required not to use such a work or another
+      intellectual property without the Contracting Entities’ prior
+      written consent.
+
+  The fee for the assignment of the economic rights and the licence fee
+  are included in the remuneration payable to the Contractor on the
+  basis of the Agreement and the Contractor has no right to request that
+  the Contracting Entities pay any additional fees or compensations for
+  the assignment of the rights provided for in this Agreement or for the
+  right to use the outcome of the Work.
+
+  The Contractor is liable for ensuring that the Work transferred by
+  them is not in conflict with the patent or copyright laws in force in
+  the Republic of Estonia or Republic of Latvia and respects other
+  intellectual property rights.
+
+  Economic rights to any outcome of the Work will transfer to the
+  Contracting Entities and the Licence for the outcome of the Work will
+  take effect automatically after the Work (incl. its each intermediate
+  stage or other part) has been transferred to the Contracting Entities.
+
+5.  DEADLINES FOR THE COMPLETION OF THE WORK
+
+  The intermediate stages and deadlines of the Work will be specified in
+  the Public Contracts to be entered into on the basis of the Agreement.
+
+  The term for the Acceptance Test starts as of the day when the Work
+  has been transferred to the Contracting Entities. The term for the
+  Acceptance Test ends and the Warranty Period starts as of the day when
+  the Contracting Entities accept, as a whole, the Work that is in
+  compliance with the terms and conditions of the Agreement and its
+  annexes. If the Parties have agreed on the transfer and acceptance of
+  the Work in stages or in other parts, the term for the Acceptance Test
+  of a specific stage or part will end at the time agreed between the
+  Parties, but the Warranty Period of the Work will start after the
+  Contracting Entities has accepted the Work as a whole (i.e. when the
+  last stage or part has been accepted).
+
+  The start of use of the Work is the day when the Contracting Entities
+  accepted the Work as a whole.
+
+  The deadlines established in the Agreement are final and may only
+  extend under the terms and conditions provided for in the Agreement or
+  on the basis of written agreement between the Parties.
+
+  If the Contracting Entities wrongfully delay with the performance of
+  any of their obligations under the Agreement and, due to the delay,
+  the performance of the Work by the Contractor is impossible, all the
+  deadlines of transfer of the Work that follow the delay will extend by
+  the number of days of delay by the Contracting Entities provided that
+  the Contractor has notified the Contracting Entities of the
+  impossibility of the performance of the Work immediately in writing
+  and specified the Contracting Entities’ obligations the failure of
+  whose performance has prevented performance of the Contractor’s
+  obligations.
+
+6.  TRANSFER, TESTING AND ACCEPTANCE OF THE WORK
+
+  The Work is transferred to the Contracting Entities at the location
+  and pursuant to the procedure determined by the Contracting Entities
+  or at another location and pursuant to another procedure agreed upon
+  by the Parties. The transfer is fixed by signing the record of
+  transfer of the Work, which is prepared by the Contractor. For the
+  avoidance of doubt, the Contracting Entities have the right to refuse
+  to sign the record of transfer of the Work if the transfer of the Work
+  is not in compliance with the terms and conditions provided for in the
+  Agreement.
+
+  The Contracting Entities signs the record of acceptance of the Work or
+  notifies the Contractor of refusal to accept the Work within 7 (seven)
+  days of the expiry of the term for the Acceptance Test. If the
+  performance of the Acceptance Test has not been prescribed in respect
+  of a specific Work, the Contracting Entities sign the record of
+  acceptance of the Work or notify the Contractor of refusal to accept
+  the Work within 7 (seven) days after the Contractor has transferred
+  the Work to the Contracting Entities. The Work or its intermediate
+  result is deemed accepted by the Contracting Entities as of the moment
+  when the Contracting Entities have signed the record of acceptance of
+  the Work.
+
+  In the case of refusing to accept the Work, the Contracting Entities
+  submit to the Contractor a written list of non-conformities of the
+  Work, indicating the deficiencies in the Work and the nature of the
+  deficiencies as well as determining a term of at least 5 (five)
+  working days for the elimination of the deficiencies. The Contractor
+  eliminates the deficiencies described by the Contracting Entities at
+  their own expense and transfers the Work to the Contracting Entities
+  during the term of elimination of the deficiencies determined by the
+  Contracting Entities for repeated Acceptance Testing, unless otherwise
+  agreed.
+
+7.  RIGHTS AND OBLIGATIONS OF THE PARTIES
+
+  The Contracting Entities have the right to:
+
+1.  check, at any time, whether the Contractor adheres to the terms and
+    conditions of the Agreement, incl. check the Work performance
+    process at the place where the Contractor performs the Agreement,
+    notifying the Contractor thereof two working days in advance;
+
+2.  request from the Contractor proper, high-quality and timely
+    performance and transfer of the Work in accordance with the terms
+    and conditions of the Agreement;
+
+3.  involve experts, as third parties, in actions that allow the quality
+    of the Work to be checked.
+
+  The Contracting Entities are required to:
+
+4.  pay the Contractor remuneration for proper performance of the Work
+    in accordance with the Agreement, Public Contract and invoice
+    submitted by the Contractor;
+
+5.  notify the Contractor of all the deficiencies detected in the Work;
+
+6.  notify the Contractor of all planned and known changes that may have
+    a significant impact on the performance of the Work;
+
+7.  ensure that the information required for the performance of the Work
+    is available to the Contractor;
+
+8.  not to unreasonably hinder the Contractor’s performance of the Work;
+
+9.  accept the Work that has been transferred by the Contractor and is
+    in compliance with the terms and conditions of the Agreement and its
+    annexes and Public Contract.
+
+  The Contractor has the right to:
+
+10. obtain from the Contracting Entities information necessary for the
+    performance of the Work;
+
+11. receive remuneration from the Contracting Entities for the properly
+    performed Work under the terms and conditions and pursuant to the
+    procedure provided for in the Agreement and its annexes;
+
+12. involve additional specialists in the performance of the Agreement;
+
+13. substitute the key person of the team for another key person of the
+    team acting in the same role only with the Contracting Entities’
+    written consent that the Contracting Entities will grant after
+    having examined and verified the CV of the new team member,
+    considering that the work experience of the new key person of the
+    team acting in the same role must be equal to or more extensive than
+    the work experience of the key person of the team set out in the
+    Contractor’s tender, using the criteria set out in the procurement
+    documents as a basis;
+
+14. make proposals to the Contracting Entities for more effective and
+    high-quality performance of the Work, submitting their proposals in
+    a format that can be reproduced. The Contracting Entities examine
+    the proposals and notify the Contractor of their decision to accept
+    or refuse to accept the proposal within five working days;
+
+15. verify the personnel of the Contractor in accordance with Latvian
+    and Estonian regulations.
+
+  The Contractor is required to:
+
+16. perform the Work of high quality and in a timely manner in
+    accordance with the terms and conditions of the Agreement and its
+    annexes and the good procedure and best practices in the field of
+    performance of the Work;
+
+17. transfer the completed Work to the Contracting Entities in a timely
+    manner;
+
+18. start to perform the Work immediately after the Agreement and/or
+    Public Contract takes effect;
+
+19. notify the Contracting Entities immediately of any circumstances
+    that may hinder the timely completion or quality of the Work;
+
+20. ensure that the key persons (project manager and analyst) necessary
+    for services that require close communication with the Contracting
+    Entities (incl. analysis, regular project meetings) participate
+    actively in the meetings and telephone conferences to be arranged.
+    The time spent by the Contractor’s employees on transport as well as
+    their transport expenses are not subject to remuneration by the
+    Contracting Entities;
+
+21. involve the key persons set out in the tender of the Simple
+    Procurement in the performance of the Work within one (1) week of
+    entry into the Agreement;
+
+22. ensure that if supplementary workforce is involved in the
+    Contractor’s team in addition to the mandatory key persons of the
+    team and the supplementary workforce communicates directly with the
+    Contracting Entities’ employees, the corresponding employee must
+    have a good command of English;
+
+23. notify the Contracting Entities in advance of their request to
+    replace the key person of the team at least 14 (fourteen) calendar
+    days before the planned replacement. The Contracting Entities have
+    the right, in justified cases, not to agree with the new key person
+    and ask that another person be appointed as the new key person,
+    including if the new key person does not have work experience that
+    is equal to or more extensive than that of the key person of the
+    team set out in the Contractor’s tender, using the criteria set out
+    in the procurement documents as a basis;
+
+24. upon non-conformity of the Work with the terms and conditions of the
+    Agreement, eliminate, at the Contracting Entities’ request, the
+    respective deficiencies in the Work or submit a new Work that is in
+    compliance with the terms and conditions of the Agreement and its
+    annexes within the term indicated by the Contracting Entities;
+
+25. maintain complete confidentiality with respect to third parties for
+      any data and information that the Contractor has learnt in the
+      course of performing the Agreement;
+
+26. not cause any interferences in the operation of the Contracting
+      Entities’ other systems or services;
+
+27. ensure that if the Work is performed on the Contracting Entities’
+      premises, the persons whom the Contractor has involved in the
+      performance of the Work and who stay on the Contracting Entities’
+      premises must adhere to the Contracting Entities’ internal
+      procedure rules, incl. security requirements;
+
+28. ensure that the security of the developments of the common balancing
+      zone IT system is in compliance with Level 2 of OWASP ASVS 3.0 or
+      newer and observe the Top Ten solutions and recommendations of
+      OWASP 2018 and newer;
+
+29. ensure that the development of the common balancing zone IT system
+      is in compliance with K2T1S2 security class of ISKE of Estonia and
+      the Information Technology Security Law of Latvia. If the
+      Contractor uses cloud solutions, the cloud solution must be in
+      compliance with the laws and standards on cybersecurity of
+      Republic of Estonia and Republic of Latvia and all the established
+      requirements must be observed. The Contracting Entities may carry
+      out follow-up checks and the Contractor must eliminate
+      deficiencies at their own expense;
+
+30. provide the Contracting Entities with an overview of the working
+      hours of the Contractor’s team in terms of days and persons on an
+      ongoing basis. The Contractor’s team notes the working hours in
+      Jira on a daily basis;
+
+31. ensure that the Contracting Entities are provided with technical
+      support and counselling of the superuser and technical
+      administrators on issues related to the operation of the Software
+      at the level of the error detection code and database and
+      resolution of problems from Monday to Friday from 07:30 until
+      19:30.
+
+8.  AGREEMENT PRICE AND ITS PAYMENT
+
+  The value of the Agreement (incl. in the case of extending the
+  Agreement) shall be three hundred thousand (300,000) euros plus VAT,
+  depending on the limitations and opportunities of the Contracting
+  Entities. The Contracting Entities are not required to order the Work
+  from the Contractor to the extent of the maximum value of the
+  Agreement. The actual amount payable to the Contractor becomes clear
+  after the expiry of the Agreement, and shall depend onto the amount of
+  Work actually performed, expressed in working hours, multiplied by the
+  applicable hourly price.
+
+  The maximum hourly price (astronomical hour) of the performance of the
+  Work is ........ (amount in words) euros plus VAT. The Contractor is
+  aware that the exact hourly price of Public Contracts is provided for
+  in the Public Contract to be entered into, incl. the hourly price
+  under a Public Contract may not exceed the hourly price indicated in
+  this clause. The Contracting Entities pay the Contractor for the
+  performed Work after the Work ordered on the basis of a Public
+  Contract has been performed and accepted by the Contracting Entities
+  unless the Parties have agreed otherwise in the Public Contract.
+
+  The Contracting Entities pay for the Work actually performed in
+  accordance with the prices set out by the Contractor in the tender of
+  the Simple Procurement and the prices agreed in the Public Contract.
+  The hourly price set out in the tender is in effect during the entire
+  Agreement period and will not be modified for any reason.
+
+  Payment is made within 14 (fourteen) calendar days after the
+  Contracting Entities have received a proper invoice. A prerequisite
+  for the submission of an invoice is a record of acceptance of the Work
+  signed by the Contracting Entities. The date of payment of an invoice
+  is deemed to be the date of submission of a corresponding payment
+  order to the Contracting Entities’ bank. The payments arising from the
+  Agreement are transferred to the Contractor’s bank account indicated
+  on the invoice. The Contractor shall issue separate invoices to each
+  of the Contracting Entities, each covering half of the total amount
+  payable, except if the invoice pertains to Work ordered by only one of
+  the Contracting entities pursuant to article 1.13.2 of this Agreement,
+  in which case the ordering Contracting Entity shall be solely
+  responsible for payment.
+
+  The Contractor is required to notify the Contracting Entities in a
+  timely manner of the data and changes therein that are necessary for
+  the performance of the payment obligations hereunder. If the
+  Contractor breaches the notification obligation provided for in this
+  clause, the Contracting Entities will not bear any liability for a
+  resulting delay in payment of the fee.
+
+  Invoices must be submitted to Elering AS as pdf file to the e-mail
+  address: arved@elering.ee
+
+  Invoices must be submitted to the AS “Conexus Baltic Grid” in the UBL
+  standard* as an e-invoice format (xml format including a pdf file
+  (e-invoice visualization) using one of the channels indicated below:
+
+1.  to the e-mail address rekini@conexus.lv;
+
+2.  using the PEPPOL network (ID 9939:40203041605);
+
+3.  from the portal banqup.lv;
+
+4.  using the paid or free web service of the e-invoice processing
+    operator Unifiedpost.
+
+9.  WARRANTY AND COMPLAINTS
+
+  The Contractor guarantees that the Work is in compliance with the
+  terms and conditions provided for in the Agreement and its annexes,
+  Public Contract and laws of Republic of Estonia and Republic of
+  Latvia, the Software Description and the conventional and reasonable
+  requirements of the Contracting Entities’ principal activity within
+  the agreed period of time after the start of the warranty period in
+  accordance with clause 6.2 of the Agreement (hereinafter referred to
+  as the Warranty and the Warranty Period).
+
+  The Contractor provides the Work performed under a Public Contract
+  with the Warranty for a period of 24 (twenty-four) months.
+
+  The Contractor eliminates all the deficiencies that become evident
+  during the Warranty Period and are covered by the Warranty at their
+  own expense, bears the expenses related to the installation of a new
+  version of the Work and makes a correct version of the Work along with
+  the installation manual available to the Contracting Entities:
+
+1.  in the case of a warranty incident that does not hinder the use of a
+    part of the Work (the use of a part of the Work is not blocked)
+    (hereafter – Non-critical error) – within 30 calendar days of the
+    working day following the submission of the complaint or within the
+    term separately agreed by the Parties;
+
+2.  in the case of a warranty incident due to which the use of a part of
+    the Work is impossible (the use of the Work or an essential part
+    thereof is blocked) (hereafter - Crash) – the Contractor responds on
+    any day from 7:30 until 19:30 within four hours from submission of
+    complaint, submitting an assessment of the deadline for the
+    elimination of the problem and liquidates the error or deficiency no
+    later than within the next working day or within the term separately
+    agreed by the Parties;
+
+3.  in the case of errors and deficiencies in the Work that resulted in
+    the leak, transformation or loss of data in the Software (hereafter
+    – Critical error) – the Contractor responds on working days from
+    7:30 until 19:30 within four hours from submission of complaint,
+    submitting an assessment of the deadline for the elimination of the
+    problem and liquidates the error or deficiency no later than within
+    the next working day or, by way of exception, within deadlines
+    agreed upon with the Contracting Entities. Within two working days
+    of the elimination of the error or deficiency, the Contractor’s
+    project manager submits a detailed description of the reasons for
+    the problem to the Contracting Entities and indicates the actions to
+    be taken in the future in order for the error or deficiency not to
+    recur again.
+
+  Response times in clauses 10.3.1, 10.3.2 and 10.3.3, the penalty in
+  clause 11.6 are valid only during the term of contract.
+
+  In the course of repairing or replacing the Work, the Contractor
+  agrees, at the Contracting Entities’ request, to provide the
+  Contracting Entities’ customers with temporary measures or repairs
+  that would allow the impact of the aforementioned deviations or errors
+  on the use and functionality of the Work to be minimised.
+
+  If the Contractor does not eliminate a deficiency covered by the
+  Warranty within the term provided for in clause 11.3, the Contracting
+  Entities have the right to eliminate the deficiency in the Work
+  themselves or have it eliminated by a third party. The Contracting
+  Entities have the right to request that the Contractor compensate for
+  all the expenses related to the elimination of the deficiency in the
+  Work. The Contracting Entities may set off a corresponding claim
+  against the Contractor’s claim for remuneration, notifying the
+  Contractor thereof.
+
+  The Warranty covers all the deficiencies that became evident in the
+  Work during the Warranty Period, except the deficiencies caused by the
+  hardware used by the Contracting Entities. It is presumed in respect
+  of each deficiency that becomes evident during the Warranty Period
+  that the deficiency is covered by the Warranty. If a dispute arises
+  between the Parties concerning the quality of the Work accepted by the
+  Contracting Entities or as to whether the root cause of a deficiency
+  and/or the corresponding deficiency is covered by the Warranty, both
+  Parties have the right to request that an independent expert
+  assessment be designated and the person conducting the aforesaid
+  expert assessment will be designated by agreement between the Parties
+  and the expenses of the expert assessment will be paid by the Party
+  who requests the expert assessment. If the results of the expert
+  assessment confirm that the claim filed by the Party who requested the
+  expert assessment is correct, the other Party agrees to compensate for
+  the expenses and other damage incurred in connection with it (incl.
+  the expenses related to the expert assessment) by the Party that
+  requested the expert assessment.
+
+  The Warranty also covers the incidents where the use of the Work by
+  the Contracting Entities is hindered due to claims arising from third
+  parties’ copyright or other intellectual property rights or a breach
+  thereof. In such a case the Contractor is required to eliminate the
+  legal impediments to the use of the Work under the same terms and
+  conditions that apply to the correction of technical errors. This
+  provision does not limit any other liability of the Contractor arising
+  from copyright breach.
+
+  Correction of an error under the Warranty covers repair or
+  modification of all the parts of the Software or other Work, including
+  supporting documentation.
+
+  The Contractor provides the Work replaced or repaired during the
+  Warranty Period with a new Warranty of the same duration as the
+  initial Warranty.
+
+11. LIABILITY OF THE PARTIES AND TERMINATION OF THE AGREEMENT
+
+    1.  A Party is liable for damage caused to the other Party by breach
+        of the Agreement and is required to compensate the other Party
+        for the expenses and other damage related to the breach of the
+        Agreement.
+
+    2.  The Parties are liable for breaching their obligations hereunder
+        unless such a breach is excusable. A breach of an obligation is
+        excusable if the Party breached the obligation due to Force
+        majeure. It is presumed that a breach of an obligation is not
+        excusable.
+
+    3.  Under Force majeure the Parties understand circumstances that
+        are beyond the control of a Party and, following the principle
+        of reasonableness, it could not have been expected that the
+        Party would take them into account, avoid them or overcome the
+        impediment or consequences thereof at the time of entry into the
+        Agreement.
+
+    4.  The Party whose actions in performing the obligations hereunder
+        are impeded due to Force majeure are required to notify the
+        other Party thereof immediately in writing.
+
+    5.  The Contractor has the right to request that the Contracting
+        Entities pay default interest on overdue amounts at the rate of
+        0.15% (zero point one five percent) per calendar day of delay,
+        but no more than 20% (twenty percent) of the remuneration
+        payable to the Contractor under the Public Contract related to
+        the delayed payment. To receive default interest, the Contractor
+        must submit to the Contracting Entities a written claim and
+        corresponding invoice. The Contractor may not request that the
+        Contracting Entities pay default interest on default interest.
+
+    6.  Upon delay in the transfer of the Work or stage of the Work
+        provided for in a Public Contract, the Contractor must pay the
+        Contracting Entities a contractual penalty at the rate of 0.2%
+        (zero point two percent) of the amount of the remuneration for
+        the stage or Work per day of delay[1]. Upon delay in the
+        transfer of any subsequent stages, the contractual penalty is
+        calculated at the rate specified in this clause on a cumulative
+        basis – in the case of late transfer of each subsequent stage of
+        the work, the contractual penalty is calculated on the value of
+        all the previous stages.
+
+    7.  Upon delay in the transfer of the Work and/or a stage thereof
+        provided for in a Public Contract for more than 30 (thirty) days
+        or if, considering the circumstances, it is evident beyond
+        reasonable doubt that the Contractor is unable to complete the
+        Work or a stage thereof in such a way that the delay in the
+        transfer would not exceed 30 (thirty) days, the Contracting
+        Entities may terminate the Agreement and request that the
+        Contractor pay, in addition to the contractual penalty specified
+        in clause 11.6, a contractual penalty of 5% (five percent) of
+        the amount of the remuneration set out in the Public Contract.
+        In such a case, the Contracting Entities have the right to
+        continue calculating the contractual penalty set out in
+        clause 11.6 until the cancellation takes effect.
+
+    8.  If the Contractor does not eliminate the deficiencies in the
+        Work within the term granted to them by the Contracting Entities
+        in accordance with clause 7.3 of the Agreement, the Contracting
+        Entities may themselves eliminate the deficiencies or have these
+        eliminated by a third party and request that the Contractor
+        compensate for the reasonable expenses incurred to this end or
+        reduce the remuneration payable to the Contractor for the Work
+        to be performed on the basis of a Public Contract by amount that
+        the Contracting Entities paid to the third party for the
+        elimination of the deficiencies in the Work.
+
+    9.  If the Contractor breaches the obligation provided for in
+        clause 7.3 of the Agreement, the Contracting Entities have the
+        right, in addition to that provided for in clause 11.8 of the
+        Agreement, to request that the Contractor pay and the Contractor
+        has the obligation to pay a contractual penalty of up to 70
+        (seventy) euros per respective instance.
+
+    10. If the Contractor delays with the performance of the obligation
+        to eliminate the deficiencies of the Work or stage as provided
+        for in clause 7.3 of the Agreement for more than 30 (thirty)
+        days or if, considering the circumstances, it is evident beyond
+        reasonable doubt that the Contractor is unable to perform the
+        obligation provided for in clause 7.3 of the Agreement in such a
+        way that the delay would not exceed 30 (thirty) days, the
+        Contracting Entities may terminate the Agreement and request
+        that the Contractor pay, in addition to the contractual penalty
+        set out in clause 11.9, a contractual penalty of 5% (five
+        percent) of the amount of the remuneration set out in the Public
+        Contract. In such a case, the Contracting Entities has the right
+        to calculate the contractual penalty set out in clause 11.9 for
+        every day until the cancellation takes effect per instance of
+        breach.
+
+    11. If the Contractor breaches the warranty obligation provided for
+        in clause 10 of the Agreement, the Contracting Entities has the
+        right to request that the Contractor pay and the Contractor has
+        the obligation to pay a contractual penalty to the following
+        extent:
+
+        1.  upon exceeding the terms provided for in clause 10.3.1 of
+            the Agreement, 200 (two hundred) euros each month once per
+            respective warranty incident;
+
+        2.  upon exceeding the terms provided for in clause 10.3.2 of
+            the Agreement, 150 (one hundred and fifty) euros per
+            calendar day of delay in the elimination of the error or
+            deficiency;
+
+        3.  upon exceeding the terms provided for in clause 10.3.3 of
+            the Agreement, 100 (one hundred) euros per calendar day of
+            delay in the elimination of the error or deficiency or
+            submission of a description of the problem or further
+            actions.
+
+    12. If the Contractor breaches the terms and conditions related to
+        the processing of the personal data specified in clause 14 or
+        the duty of confidentiality specified in clause 13 of the
+        Agreement, the Contracting Entities has the right to request a
+        contractual penalty of 5,000 (five thousand) euros per breach.
+
+    13. To receive the contractual penalty, the Contracting Entities
+        must submit a written claim to the Contractor. The Contracting
+        Entities have the right to set off the contractual penalty
+        against the invoices payable by the Contracting Entities to the
+        Contractor.
+
+    14. Granting an additional term to the Contractor for the
+        performance of an obligation provided for in the Agreement does
+        not release the Contractor from the obligation to pay any
+        contractual penalty related to exceeding the term as provided
+        for in the Agreement, in the amount accrued in the period
+        between original deadline and the granting of extension.
+
+    15. The Contracting Entities have the right to withdraw from the
+        Agreement if the Contractor delays with the commencement of the
+        Work by 7 (seven) days or more.
+
+    16. In addition to other grounds provided for in the Agreement, the
+        Contracting Entities have the right to cancel the Agreement on
+        an extraordinary basis in the following cases:
+
+        1.  a bankruptcy petition is submitted or bankruptcy,
+            reorganisation, liquidation or any other similar proceedings
+            are commenced in respect of the Contractor;
+
+        2.  in other cases provided for in legal acts unless the
+            Agreement has provided another regulation.
+
+    17. If the Contracting Entities cancel the Agreement due to
+        circumstances occasioned by the Contractor, the Contractor
+        agrees to compensate the Contracting Entities for all the damage
+        related thereto (incl. rising cost of the Work, damage due to
+        delay in the transfer of the Work, damage to the Work already
+        performed and expenses on re-doing the Work, etc.).
+
+    18. The Contracting Entities have the right to cancel the Agreement
+        at any time without stating the reason, notifying the Contractor
+        thereof at least 10 (ten) days in advance. Upon cancellation of
+        the Agreement on the basis set out in this clause, the
+        Contracting Entities are required to pay the Contractor for the
+        Work actually performed until the submission of the declaration
+        of cancellation. Upon receiving a declaration of cancellation,
+        the Contractor is required to immediately suspend the
+        performance of the Work (except if the Contracting Entities have
+        made a request in the declaration for the completion of the Work
+        to a certain extent).
+
+    19. If the Agreement is cancelled, the Contractor is required to
+        grant the Contracting Entities the Licence for all the outcomes
+        of the Work created on the basis of the Agreement and assign the
+        rights related to the outcomes of the Work to the Contracting
+        Entities (to the extent not granted earlier) in accordance with
+        the provisions of Chapter 5 of the Agreement.
+
+    20. The Contractor has the right to cancel the Agreement on an
+        extraordinary basis solely in the following cases:
+
+        1.  the Contracting Entities delay with payment for 30 (thirty)
+            days or more after receiving a written reminder from the
+            Contractor;
+
+        2.  a bankruptcy petition is submitted or bankruptcy,
+            reorganisation, liquidation or any other similar proceedings
+            are commenced in respect of the Contracting Entities.
+
+    21. Payment of the contractual penalty or compensation for the
+        damage caused does not release the default Party from the
+        performance of their obligations hereunder. Payment of the
+        contractual penalty does not release the default Party from
+        their obligation to compensate for the damage caused to the
+        other Party. For the avoidance of doubt, when compensating for
+        damage, under damage arisen to the Contracting Entities the
+        Parties understand, among other things, the sanctions or
+        penalties imposed on the Contracting Entities in connection with
+        breaches of obligations provided for in legal acts, for example
+        breaches of personal data processing requirements or
+        intellectual property rights, if they had been caused by the
+        Contractor’s failure to fulfil and/or breach of the requirements
+        or obligations provided for in this Agreement or law.
+
+    22. The Contractor is liable for actions of the persons that they
+        have involved in the performance of the Agreement in the same
+        manner as they are liable for their own actions, being liable
+        for breaches of obligations effective in respect of the
+        Contractor and committed by such persons in the same manner as
+        they are liable for their own breaches.
+
+    23. The liability of the Parties in the case of each breach of a
+        Public Contract is limited, in the maximum rate, to the maximum
+        value of the Agreement set out in clause 9.1 of the Agreement.
+        The liability is not limited if the obligation was breached
+        intentionally or due to gross negligence or if the limitation of
+        the liability is not permitted on any other legal ground.
+
+12. TERM OF THE AGREEMENT
+
+    1.  The Agreement takes effect as of its signing by both Parties and
+        remains in effect for twenty-four (24) calendar months as of
+        entry into the Agreement. The Agreement may be extended for an
+        additional twelve (12) calendar months or until the maximum
+        value of the Agreement has been reached, whichever arrives
+        first. The extension of the Agreement is a right of the
+        Contracting Entities. To extend the Agreement, the Contracting
+        Entities submit a corresponding written notice to the
+        Contractor.
+
+    2.  The agreements set out in the Agreement that have been meant to
+        essentially remain in effect after the expiry of the Agreement,
+        incl. agreements related to intellectual property rights as set
+        out in the Agreement, will remain in effect without a term after
+        the expiry of the Agreement for any reason and the Parties have
+        no right to cancel or withdraw from such agreements. The Parties
+        have, by agreement, excluded all the statutory grounds for the
+        termination or cancellation of or withdrawal from corresponding
+        agreements.
+
+    3.  The Agreement will only be amended on the basis of written
+        agreement between the Parties. Any amendments to the Agreement
+        that have not been formalised in writing shall be null and void.
+
+    4.  The declaration of invalidity or establishment of voidness,
+        voidability or unenforceability of any provisions of the
+        Agreement by a court or any other competent authority does not
+        render the remaining part of the Agreement invalid.
+
+13. CONFIDENTIALITY
+
+    1.  The Parties agree to maintain secrecy of any information that
+        they have learnt in the course of performing the Agreement about
+        the other Party, their customers, business partners or other
+        third parties who have contractual relationships with the Party
+        (hereinafter the Confidential Information), except for
+        information that is already public or the non-confidentiality of
+        which the other Party has confirmed in writing.
+
+    2.  Any personal and security data learnt in the course of
+        performing the Agreement as well as other information and
+        circumstances (incl. business secrets) are confidential
+        information. Reproducing, selling, offering, disclosing or
+        disseminating corresponding information by the Contractor or a
+        person related to the Contractor is regarded as a fundamental
+        breach of the Agreement.
+
+    3.  The Parties agree not to disclose the Confidential Information
+        to any third parties and not to use it for business or any other
+        purposes without the other Party’s written consent. A Party is
+        required to take any necessary measures to avoid situations
+        where the Confidential Information may fall into the hands of
+        persons not entitled to that.
+
+    4.  Upon expiry of the Agreement, the Contractor is required to
+        return to the Contracting Entities or destroy the data media
+        that contain the Confidential Information and have been received
+        from the Contracting Entities during the term of the Agreement.
+
+    5.  The confidentiality requirement is indefinite.
+
+14. PERSONAL DATA PROCESSING
+
+    1.  Upon performing the Agreement, the Contractor, who shall be data
+        processor on behalf of the Contracting Entities, which shall be
+        data controllers, is required to observe all the appropriate
+        legal acts regulating the protection of personal data, incl.
+        Regulation (EU) 2016/679 of the European Parliament and of the
+        Council of 27 April 2016 (hereinafter the General Data
+        Protection Regulation), the terms and conditions provided for in
+        this Agreement, the Contracting Entities’ privacy notice and
+        Contracting Entities’ other appropriate documents concerning the
+        processing of personal data. If the Contracting Entities’
+        privacy notice or the Contracting Entities’ other documents
+        concerning the processing of personal data are amended or
+        modified, the Contracting Entities will notify the Contractor of
+        the amendments made.
+
+    2.  The Contractor is required to ensure, during the entire term of
+        performance of the Agreement, protection of the personal data
+        related to the performance of the Agreement, incl. ensure, upon
+        processing, the integrity, availability and confidentiality of
+        the personal data and apply appropriate technical and
+        organisational measures in order to ensure an appropriate level
+        of security. In assessing the appropriate level of security,
+        account is taken in particular of the risks that are presented
+        by processing, in particular from accidental or unlawful
+        destruction, loss, alteration, unauthorised disclosure of, or
+        access to personal data transmitted, stored or otherwise
+        processed. In situations where the Contracting Entities has not
+        provided the Contractor, in the course of ordering the Work,
+        with detailed instructions about the protection of personal
+        data, the Contractor also applies all necessary measures in
+        order to ensure that their employees and/or persons who perform
+        the Work on behalf of the Contractor, who have access to the
+        personal data being processed in the course of performing the
+        Work, process the personal data in compliance with the terms and
+        conditions specified in this Agreement and arising from the
+        legal acts referred to therein.
+
+    3.  In addition to the fulfilment of the terms and conditions
+        specified in previous clauses, the Contractor is required to
+        observe the following requirements:
+
+        1.  it is prohibited for the Contractor to transmit or grant
+            access to the data obtained upon performing the Agreement or
+            make them available in any other manner to any third
+            parties;
+
+        2.  the access to personal data granted by the Contracting
+            Entities for the performance of the Agreement gives the
+            Contractor no right to further process the data for any
+            other purposes (incl. the Contractor may not create,
+            supplement or change, on the basis thereof, their databases
+            that they use for actions other than performing to the
+            Contracting Entities the Work on the basis of this
+            Agreement), store them or perform other operations or
+            actions not directly related to the performance of the Work
+            specified in this Agreement and necessary for the
+            performance of the Work;
+
+        3.  the Contractor maintains a documented overview of the
+            operations of processing of personal data related to the
+            performance of the Agreement, incl. has an overview of the
+            persons who process personal data in the course of
+            performing the Work. Having an overview must have been
+            performed in a manner that allows the Contracting Entities
+            to conduct checks or establish possible circumstances of
+            personal data processing breaches in the course of
+            performing the Agreement;
+
+        4.  in the case of a breach related to the processing of
+            personal data, the Contractor is required to notify the
+            Contracting Entities of such a breach without any
+            unreasonable delay after learning of the breach;
+
+        5.  if the Contractor has had to create databases of the data
+            obtained in the course of performing the Agreement or has
+            processed personal data in another equivalent manner and the
+            personal data are in the Contractor’s possession, the
+            Contractor is required, upon expiry of the Agreement, to
+            destroy the data obtained from the Contracting Entities,
+            incl. the data used upon creating the databases, according
+            to the Contracting Entities’ instructions and provide the
+            Contracting Entities with information about the destruction;
+
+        6.  the Contractor shall ensure that personal data being
+            processed under this Agreement and the technical
+            infrastructure facilitating same are only accessible to duly
+            authorized employees of the Contractor;
+
+        7.  the Contractor shall ensure that said employees are
+            committed to confidentiality regarding the personal data
+            being processed, and have received instruction about the
+            Contractor’s obligations in data processing and have
+            undertaken to adhere to these restrictions.
+
+    4.  The Contractor is liable for and is able to prove the fulfilment
+        of the terms and conditions concerning the processing of
+        personal data as specified in this clause. If the Contractor is
+        unable to prove the application of measures for the protection
+        of personal data and the fulfilment of the terms and conditions
+        of the General Data Protection Regulation, it will be deemed
+        that the Contractor has breached a corresponding obligation and
+        this Agreement in respect of the processing of personal data.
+
+    5.  The Contracting Entities have the right to perform checks
+        concerning the observance of the requirements for the processing
+        of personal data and order from a third party an audit or a
+        compliance check analysis or another appropriate check to assess
+        the compliance of the Contractor’s activities with the terms and
+        conditions of processing of personal data specified in this
+        Agreement. The Contractor may not refuse or hinder the conduct
+        of the check specified in the previous sentence or make its
+        conduct difficult. Making any hindrances to the conduct of the
+        check by Contracting Entities or making the same impossible is
+        deemed to be a fundamental breach of this Agreement.
+
+15. CYBER SECURITY REQUIREMENTS
+
+    1.  The Contractor confirms that staff involved in the development
+        of the product are aware of cyber security risks and comply with
+        modern cyber hygiene requirements.
+
+    2.  If the Contractor uses open-source libraries, the Contractor
+        uses actively maintained open-source libraries.
+
+    3.  The Contractor ensures that it uses an active vulnerability
+        management and that vulnerabilities found within the scope of
+        The Agreement are eliminated in a timely manner free of charge:
+
+        1.  critical vulnerabilities - within 5 working day or within
+              time stipulated in a separate agreement with the Customer;
+
+        2.  high-risk vulnerabilities - within 10 working days or within
+              time stipulated in a separate agreement with the Customer;
+
+        3.  medium risk vulnerabilities - within 30 working days or
+              within time stipulated in a separate agreement with the
+              Customer.
+
+    4.  The Contractor also provides vulnerability management of used
+        third-party libraries.
+
+    5.  The Contractor ensures the encryption as follows:
+
+        1.  equipment (e.g. modems, routers, VPN hubs) used for
+            encryption must originate from a NATO, European Union or
+            European Economic Area member state;
+
+        2.  at least AES 256 algorithms are used for symmetric
+            information encryption;
+
+        3.  at least SHA2-256 algorithms are used for information
+            integrity checks;
+
+        4.  for asymmetric encryption, authentication and key exchange,
+            at least elliptic curve methods with keys of 256 bits length
+            and curves P-256, P-384, or P521 are used;
+
+        5.  the validity of the encryption certificate shall not exceed
+            one year;
+
+        6.  the validity period of encryption certificates should
+            provide the possibility to monitor them with automatic
+            tools.
+
+    6.  The Contractor shall maintain and provide software bill of
+        materials accordingly to the EU Cyber Resilience Act in a
+        commonly used machine-readable format, covering at least
+        top-level dependencies.
+
+16. OTHER PROVISIONS
+
+    1.  The Parties are guided by the respective legal acts of the
+        Republic of Estonia in all issues not governed by the Agreement.
+
+    2.  The Parties are not permitted to assign their rights and
+        obligations assumed hereunder to any third parties without the
+        other Party’s consent.
+
+    3.  The Agreement and information obtained in the course of
+        performing the Agreement are not subject to disclosure to any
+        third parties without the other Party’s consent unless such
+        disclosure is mandatory for the Party pursuant to legal acts. As
+        an exception, the Parties have the right to disclose the
+        information to providers of finance, advisers (incl. auditors)
+        and companies belonging to the group if this is necessary for
+        the proper and effective performance of the Agreement, and the
+        Party imposes the same prohibition on disclosure on such
+        persons.
+
+    4.  The headings in the Agreement have been inserted for convenience
+        of reference only and do not in any way limit or affect the
+        meaning or interpretation of the provisions of the Agreement.
+        Unless the context of the Agreement requires otherwise, words in
+        the singular refer to the same in the plural and vice versa.
+
+    5.  The Parties agree to apply all proper measures to resolve any
+        points of dispute arising from the Agreement by way of
+        negotiations without damaging the rights and interests of the
+        other Party arising from the Agreement and law. Failing
+        agreement, all points of dispute arising from the Agreement will
+        be resolved in accordance with the procedure prescribed by legal
+        acts, applying to this end the substantive and procedural law of
+        the Republic of Estonia.
+
+    6.  The Agreement is signed by digital signature, which is, in
+        accordance with section 80 of the General Part of the Civil Code
+        Act, deemed to be equal to the written form of signing. The date
+        of entry into the Agreement is the date when the last signature
+        is given.
+
+Signatures of Parties’ representatives:
+
+  ----------------------------------- -----------------------------------
+  Contracting Entities:               Contractor:
+
+                                      
+
+  Digitally signed                    Digitally signed
+
+  [name of the representative]        [name of the representative]
+  ----------------------------------- -----------------------------------
+
+  -----------------------------------------------------------------------
+
+  Digitally signed
+
+  [name of the representative]
+  -----------------------------------------------------------------------
+
+[1] If the performance of the Work to be ordered on the basis of a
+Public Contract has not been divided into stages.
