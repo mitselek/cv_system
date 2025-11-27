@@ -35,15 +35,15 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Procurement Tracking
 
-| Date       | ID      | Reference | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
-|------------|---------|-----------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
-| 2025-11-27 | 9479004 | -         | Andmelaohaldus ja analüüs          | Eesti Rahvusraamatukogu     | 2025-11-29 | Skip       | CISA audit cert required (9mo), Snowflake (none) |
-| 2025-11-27 | 9559644 | 302778    | Veebide arendus ja hooldus         | Eesti Energia AS            | 2025-12-12 | Analyzing  | Drupal web dev, 40% conditional recommendation |
-| 2025-11-27 | 9590504 | 303108    | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |
-| 2025-11-27 | 9582704 | -         | Andmelao arendusteenus             | Põhja-Eesti Regionaalhaigla | 2025-12-04 | Skip       | Market research, Snowflake expertise gap       |
-| 2025-11-27 | 9449264 | 301632    | Kliendiportaali ja puidumüügi keskkond | Riigimetsa Majandamise Keskus | 2025-12-30 | Skip    | ISO 27001 blocker, GIS tech gap, team assembly |
-| 2025-11-27 | 9534824 | 302531    | Pythoni baasil tarkvaraarendused   | KeMIT (Climate Ministry IT) | 2025-12-22 | FEASIBLE   | Python 9/10 MATCH, 70-80% win prob, DevOps gaps addressable |
-| 2025-11-27 | 9525405 | 302422    | Tehnopoli kodulehe arendus         | SA Tehnopol                 | 2025-12-01 | Skip       | WordPress/PHP gap, web design req, 4-day deadline, better alt exists (9534824) |
+| Date       | ID      | Title                              | Procurer                    | Deadline   | Status     | Notes                                          |
+|------------|---------|------------------------------------|-----------------------------|------------|------------|------------------------------------------------|
+| 2025-11-27 | 9479004 | Andmelaohaldus ja analüüs          | Eesti Rahvusraamatukogu     | 2025-11-29 | Skip       | CISA audit cert required (9mo), Snowflake (none) |
+| 2025-11-27 | 9559644 | Veebide arendus ja hooldus         | Eesti Energia AS            | 2025-12-12 | Analyzing  | Drupal web dev, 40% conditional recommendation |
+| 2025-11-27 | 9590504 | Välise kvaliteedihindaja teenus    | Eesti Maaülikool            | 2025-12-02 | Skip       | PhD required, academic QA - impossible         |
+| 2025-11-27 | 9582704 | Andmelao arendusteenus             | Põhja-Eesti Regionaalhaigla | 2025-12-04 | Skip       | Market research, Snowflake expertise gap       |
+| 2025-11-27 | 9449264 | Kliendiportaali ja puidumüügi keskkond | Riigimetsa Majandamise Keskus | 2025-12-30 | Skip    | ISO 27001 blocker, GIS tech gap, team assembly |
+| 2025-11-27 | 9534824 | Pythoni baasil tarkvaraarendused   | KeMIT (Climate Ministry IT) | 2025-12-22 | FEASIBLE   | Python 9/10 MATCH, 70-80% win prob, DevOps gaps addressable |
+| 2025-11-27 | 9525405 | Tehnopoli kodulehe arendus         | SA Tehnopol                 | 2025-12-01 | Skip       | WordPress/PHP gap, web design req, 4-day deadline, better alt exists (9534824) |
 
 ## Notes
 
