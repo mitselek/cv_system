@@ -53,6 +53,7 @@
 ### Critical Requirements
 
 1. **7-person team MANDATORY:**
+
    - Project Manager
    - Software Architect
    - Analyst
@@ -62,12 +63,14 @@
    - **SAP ABAP Developer** ← CRITICAL GAP
 
 2. **Test Assignment (70% of score):**
+
    - Build working calendar integration (iCal invites for vacation approvals)
    - Submit: Source code, deployment guide, architecture docs, explanation
    - Must meet ALL 13 technical criteria for full 70 points
    - Deadline: 2026-01-06 11:00 (must request source code by 2025-12-31)
 
 3. **Technical Stack:**
+
    - Spring Boot 2.5.8, Java 1.8
    - PostgreSQL 16
    - Microservices architecture (20+ services)
@@ -334,11 +337,12 @@
 **1. Java / Spring Boot Experience**
 
 - **Eesti Keele Instituut (2017-2018):** EKILEX project
+
   - Spring Boot 2.6.12
   - Spring Framework 5.3.23
   - Spring Security 5.6.7
   - **Role:** PROJECT MANAGER (not hands-on developer)
-  - **Repository:** https://github.com/keeleinstituut/ekilex
+  - **Repository:** <https://github.com/keeleinstituut/ekilex>
 
 - **Justiitsministeerium (2002-2005):** Government systems
   - Oracle JDeveloper + Oracle ADF (Java-based)
@@ -555,12 +559,14 @@ Current RTIP has HEAVY SAP dependency:
 **BID PREPARATION INVESTMENT:**
 
 1. **Test Assignment:** 40-58 hours
+
    - Source code study: 8-10 hours
    - Development: 20-30 hours
    - Testing: 4-6 hours
    - Documentation: 8-12 hours
 
 2. **Team Assembly:** 20-30 hours
+
    - SAP ABAP developer recruitment: 8-10 hours
    - Architect/Analyst/Tester recruitment: 6-8 hours
    - UI Designer recruitment: 2-4 hours
@@ -882,7 +888,7 @@ Current RTIP has HEAVY SAP dependency:
 - 80-118 hour investment for 5-15% win probability = poor ROI
 - Better opportunities available (Python procurement, job applications)
 
-### IF CONSIDERING FUTURE RTIP-LIKE BIDS (12-24 month horizon):
+### IF CONSIDERING FUTURE RTIP-LIKE BIDS (12-24 month horizon)
 
 **Priority 1: SAP ABAP capability (CRITICAL)**
 
