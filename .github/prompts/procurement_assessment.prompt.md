@@ -109,68 +109,103 @@ Compare requirements against candidate's knowledge base:
 
 ### Phase 5: Strategic Assessment
 
-Generate comprehensive assessment covering:
+Generate **CONCISE** assessment covering essential decision points:
 
-#### Executive Summary
+**Assessment Length Target:** 300-500 lines maximum (vs 1000+ comprehensive version)
 
-- Participation feasibility (FEASIBLE, CHALLENGING, IMPOSSIBLE)
-- Winning probability (HIGH, MEDIUM, LOW)
-- Key constraints or gaps
+**Focus on actionable insights over exhaustive documentation**
 
-#### Critical Requirements Analysis
+#### Executive Summary (3-5 paragraphs)
 
-For each mandatory requirement category:
+- Clear RECOMMENDATION: FEASIBLE / CHALLENGING / SKIP / CONSIDER
+- Feasibility percentage (e.g., 70-80%)
+- Winning probability percentage (e.g., 30-40%)
+- 1-2 sentence rationale for decision
+- Critical match highlights (2-3 key strengths)
+- Critical gaps highlights (2-3 key blockers)
 
-- List specific requirements
-- Assess candidate's fit
-- Document gaps
-- Flag critical blockers
+#### Project Scope (Brief overview)
 
-#### Technical Environment Assessment
+- Contract value and duration
+- Core deliverables (3-5 bullet points)
+- Technology stack (list only)
+- Key constraints (timeline, team size)
 
-- Technologies: Match vs gaps
-- Infrastructure: Capability assessment
-- Security/compliance: Experience level
+#### Requirements Analysis (Focused)
 
-#### Participation Options
+**Only cover the most critical requirements:**
 
-- **Option 1**: Best-fit role for candidate (e.g., Project Manager, Technical Lead)
-- **Option 2**: Partnership/subcontracting scenarios
-- **Option 3**: Team assembly requirements
-- **Option N**: Strategic pass (skip this procurement)
+- Mandatory technical skills with YOUR FIT assessment (1-2 lines each)
+- Team composition requirements with YOUR FIT
+- Critical certifications/qualifications with YOUR FIT
+- Skip detailed analysis of obvious matches or minor requirements
 
-#### Competitive Analysis
+**Use compact format:**
 
-- Evaluation criteria implications
-- Likely competitor profile
-- Candidate's competitive advantages
-- Candidate's competitive disadvantages
-- Realistic winning probability with reasoning
+```
+**Java/Spring Boot (CRITICAL):**
+- Required: Java 21+, Spring Boot 3.4+
+- YOUR FIT: Java 7/10 verified (2002-2005 dev, 2017-2018 PM). Gap: Needs refresh to current versions.
+```
 
-#### Cost-Benefit Analysis
+#### Capability Matching (Streamlined)
 
-- Time investment estimate (bid preparation hours)
-- Financial risk assessment
-- Potential contract value estimate
-- Break-even scenarios
+**Strong Matches (bullet list):**
 
-#### Strategic Recommendation
+- List 3-5 key strengths with brief evidence
 
-- PRIMARY: Participate conditionally / Skip strategically
-- Conditions for participation (if applicable)
-- Reasons to skip (if applicable)
-- Better-fit procurement types for candidate
+**Gaps Requiring Mitigation (bullet list):**
 
-#### Next Steps (if proceeding)
+- List 3-5 critical gaps with brief mitigation approach
 
-- Immediate actions (days 1-3)
-- Bid preparation tasks (days 4-N)
-- Final review checklist
-- Submission deadline reminder
+#### Strategic Assessment (Decision-focused)
+
+**Competitive Landscape (1-2 paragraphs):**
+
+- Who will likely bid
+- Your competitive position
+- Win probability reasoning
+
+**Participation Options (2-3 concise scenarios):**
+
+- Option 1: Best path (2-3 sentences)
+- Option 2: Alternative (2-3 sentences)
+- Option 3: Skip rationale (if applicable)
+
+**Cost-Benefit (1 paragraph or table):**
+
+- Bid prep hours estimate
+- Win probability
+- Expected value calculation
+- Risk level
+
+#### Recommendation (Clear and Direct)
+
+**One of:**
+
+- **FEASIBLE - PROCEED:** Condition 1, Condition 2, Condition 3
+- **CHALLENGING - CONSIDER:** Needs X, Y, Z assessment before deciding
+- **SKIP - STRATEGIC PASS:** Reason 1, Reason 2, Better alternatives
+
+#### Next Steps (If Proceeding)
+
+**Week-by-week breakdown (3-4 weeks typical):**
+
+- Week 1: Critical validation tasks
+- Week 2: Portfolio/team preparation
+- Week 3: Bid finalization
+- Critical deadline reminder
+
+**If skipping:**
+
+- Better-fit procurement types to focus on
+- Skills to develop for similar future opportunities
 
 ### Phase 6: Output Format and Git Workflow
 
-Create assessment document as `ASSESSMENT.md` in procurement folder:
+Create **CONCISE** assessment document as `ASSESSMENT.md` in procurement folder:
+
+**Target Length:** 300-500 lines (down from 1000+ in comprehensive version)
 
 **Markdown Formatting Requirements**:
 
@@ -181,90 +216,140 @@ Create assessment document as `ASSESSMENT.md` in procurement folder:
 - Avoid inline HTML unless necessary for tables
 - Use conservative emoji policy: avoid emojis in formal analysis
 
-**Document Structure**:
+**Concise Document Structure**:
 
 ```markdown
 # Procurement [ID] Assessment: [Title]
 
+**Assessment Date:** YYYY-MM-DD
 **Procurement ID:** [ID]
-**Reference:** [Reference number]
+**Reference:** [Reference]
 **Procurer:** [Organization]
-**Deadline:** [Date and time]
+**Title:** [Full title]
+**CPV Code:** [Code and description]
+**Contract Value:** [Amount if disclosed]
 **Contract Duration:** [Period]
-**Evaluation:** [Criteria summary]
-
----
+**Submission Deadline:** [Date and time]
+**Evaluation:** [Criteria summary - e.g., "100% price" or "60% price, 40% quality"]
 
 ## Executive Summary
 
-[Brief overview of feasibility and recommendation]
+**RECOMMENDATION: [FEASIBLE / CHALLENGING / CONSIDER / SKIP]**
+
+**Feasibility:** [XX-XX%] ([description])
+
+**Winning Probability:** [XX-XX%] ([competition level])
+
+**Key Decision:** [2-3 sentence summary of the core opportunity and challenge]
+
+**Critical Match:** [2-3 key strengths as bullet points]
+
+**Critical Gaps:** [2-3 key blockers as bullet points]
+
+## Project Scope
+
+[3-4 paragraph overview of what they're buying, core deliverables, technology stack, timeline]
+
+## Requirements Analysis
+
+### Mandatory Technical Skills
+
+[Only critical requirements with compact YOUR FIT assessments]
+
+### Team Requirements
+
+[Brief description with YOUR FIT]
+
+### Other Critical Requirements
+
+[Certifications, language, process requirements - brief]
+
+## Capability Matching
+
+### Strong Matches
+
+[Bullet list of 3-5 verified strengths with brief evidence]
+
+### Gaps Requiring Mitigation
+
+[Bullet list of 3-5 critical gaps with brief mitigation approach]
+
+## Strategic Assessment
+
+### Competitive Landscape
+
+[1-2 paragraphs on who will bid and your competitive position]
+
+### Participation Options
+
+**Option 1: [Best approach]**
+[2-3 sentences]
+
+**Option 2: [Alternative]**
+[2-3 sentences]
+
+**Option 3: [Skip/other]**
+[2-3 sentences if applicable]
+
+### Cost-Benefit Analysis
+
+[Table or brief paragraph with bid prep hours, win probability, expected value, risk level]
+
+## Recommendation
+
+**[CLEAR DECISION]**
+
+**Proceed IF:**
+1. Condition 1
+2. Condition 2
+3. Condition 3
+
+**Skip IF:**
+1. Reason 1
+2. Reason 2
+3. Reason 3
+
+## Next Steps (If Proceeding)
+
+**Week 1 (Dates): [Critical tasks]**
+- Task 1
+- Task 2
+
+**Week 2 (Dates): [Preparation]**
+- Task 1
+- Task 2
+
+**Week 3 (Dates): [Finalization]**
+- Task 1
+- Submit by [deadline]
+
+**Critical deadline:** X days remaining
+
+## Conclusion
+
+[1-2 paragraph final summary with strategic context]
 
 ---
 
-## Critical Requirements Analysis
+**Assessment completed:** YYYY-MM-DD
 
-### 1. MANDATORY TEAM COMPOSITION
+**Time invested:** X hours
 
-[Detailed role-by-role analysis]
-
-### 2. TECHNICAL ENVIRONMENT
-
-[Technology stack assessment]
-
-### 3. WORK METHODOLOGY REQUIREMENTS
-
-[Process and workflow requirements]
-
-### 4. SERVICE SCOPE
-
-[Deliverables and expectations]
-
----
-
-## PARTICIPATION REQUIREMENTS CHECKLIST
-
-[Actionable checklist of all submission requirements]
-
----
-
-## YOUR ROLE OPTIONS
-
-[Detailed scenarios for participation]
-
----
-
-## WINNING STRATEGY ANALYSIS
-
-[Competitive landscape and probability assessment]
-
----
-
-## COST-BENEFIT ANALYSIS
-
-[Investment vs return evaluation]
-
----
-
-## STRATEGIC RECOMMENDATION
-
-[Clear recommendation with conditions]
-
----
-
-## NEXT STEPS (if proceeding)
-
-[Phased action plan with deadlines]
-
----
-
-## CONCLUSION
-
-[Final summary and personal strategic note]
+**Confidence level:** HIGH/MEDIUM/LOW ([reason])
 ```
+
+**Key differences from comprehensive version:**
+
+- Executive summary is 5 paragraphs vs 2 pages
+- Requirements analysis is focused (critical only) vs exhaustive
+- Capability matching is bullet lists vs detailed matrices
+- Strategic assessment is 3-4 sections vs 8-10
+- Total length ~300-500 lines vs 1000-2000 lines
+- Focus on decision-making vs documentation
 
 ## Guidelines
 
-- Be thorough but concise in analysis
+- **Be concise but thorough** - aim for 300-500 line assessments that focus on decision-making
 - Use evidence from knowledge base (cite specific files/sections)
 - Be honest about gaps - no embellishment
 - Quantify probabilities and estimates when possible
@@ -273,6 +358,10 @@ Create assessment document as `ASSESSMENT.md` in procurement folder:
 - Flag critical blockers clearly
 - Distinguish between "nice to have" and "must have" requirements
 - Consider candidate's strategic positioning (core strengths vs stretching)
+- **Avoid exhaustive documentation** - focus on what matters for the go/no-go decision
+- Use compact formats (bullet lists, tables) over long paragraphs
+- Skip analysis of obvious matches or minor requirements
+- Prioritize strategic insights over comprehensive coverage
 
 ### Communication Style
 
