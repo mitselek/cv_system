@@ -231,7 +231,7 @@
 
 ### 1. TEAM COMPOSITION REQUIREMENTS
 
-#### Lot 1 Minimum (2 people):
+#### Lot 1 Minimum (2 people)
 
 **Projektijuht:**
 
@@ -253,7 +253,7 @@
 - Consultant role: You have NO cybersecurity consulting experience, NO security solution implementation, NO international projects
 - English C1: MATCH (documented C2 reading/writing/listening, C1 speaking)
 
-#### Lot 2 Minimum (3 people):
+#### Lot 2 Minimum (3 people)
 
 **Projektijuht:**
 
@@ -277,7 +277,7 @@
 - All require international project portfolios (you have zero)
 - Software development experience present but not security-focused
 
-#### Lot 3 Minimum (3 people):
+#### Lot 3 Minimum (3 people)
 
 **Projektijuht:**
 
@@ -680,19 +680,19 @@ To become competitive would require:
 
 **Medium Risks:**
 
-4. **Partnership Risk:** If attempting joint venture
+1. **Partnership Risk:** If attempting joint venture
 
    - Security consultancy may not want partnership with non-specialist
    - Negotiations could drag 6-12 months with no outcome
    - Your contribution to joint bid unclear (not security expert, no international portfolio)
 
-5. **Learning Risk:** Wrong domain for skill development
+2. **Learning Risk:** Wrong domain for skill development
    - If goal is to break into government contracting, cybersecurity consulting is wrong entry point
    - Better fit: Python development procurements, Entu-similar systems, IT infrastructure (domestic)
 
 **Low Risks:**
 
-6. **Financial Risk:** No bid bond or significant costs (assuming no application)
+1. **Financial Risk:** No bid bond or significant costs (assuming no application)
 
 ## Alternative Opportunities
 
