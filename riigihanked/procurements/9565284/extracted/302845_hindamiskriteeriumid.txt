@@ -1,0 +1,53 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302845
+Hankija: E-riigi Akadeemia Sihtasutus (90007000)
+Hange: Services for development of a software platform for the development of local public services (Ukraine)
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+nr
+1 Hind/Price
+
+Nimetus
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Hankeleping sõlmitakse madalaima
+Maksumus hinnaga pakkumuse esitajaga. The vähim on parim
+procurement contract shall be signed
+with the tenderer who offers the lowest
+price.
+Kokku:
+
+Osakaal
+100
+
+Kogus
+
+Ühik
+%
+
+Pakkuja
+täidetav
+jah
+
+100
+
+Hindamismetoodika kirjeldus
+1. Hind/Price
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+The tender proposal with the lowest price receives the highest score. Other tender proposals receive a score calculated with the following formula: “100” - (“bid price” – “lowest bid price”) /
+“highest bid price” * “100”.
+
+Koostatud 14.11.2025 13:47:38
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9565284/general-info
+
+

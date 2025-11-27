@@ -1,0 +1,110 @@
+1/2
+
+VASTAVUSTINGIMUSED
+Viitenumber:
+Hankija:
+Hange:
+
+302845
+E-riigi Akadeemia Sihtasutus (90007000)
+Services for development of a software platform for the development of
+local public services (Ukraine)
+
+ÜHISPAKKUJATE VOLIKIRI
+Ühispakkujad nimetavad riigihankega ning hankelepingu sõlmimise ja täitmisega seotud
+toimingute tegemiseks endi seast volitatud esindaja.
+Co-tenderers must appoint a representative authorized to sign and submit the tender and to act on
+their behalf throughout the procurement process. Such powers shall be confirmed by a Power of
+attorney.
+Küsimused ettevõtjale:
+1. Kas tegemist on ühispakkumusega? (Raadionupp valikutega "Jah/Ei")
+2. Kui tegemist on ühispakkumusega, kas olete lisanud pakkumuse "Lisadokumentide" lehele
+ühispakkujate volikirja? Kui tegemist ei ole ühispakkumusega, vastake "Ei"". (Raadionupp
+valikutega "Jah/Ei")
+
+PAKKUMUSE ESITAMINE
+Pakkumuse esitamisega kinnitab pakkuja kõigi riigihanke alusdokumentides esitatud tingimuste
+ülevõtmist.
+Tingimusliku pakkumuse esitamine ei ole lubatud. The tender cannot be unconditional. Tender
+proposals shall not include any restrictive or any other conditions.
+Tender proposals shall be submitted through the Public Procurement Register of Estonia (ePPR)
+available under the link https://riigihanked.riik.ee. All the forms and documents in the tender
+proposal must be made in English (if necessary, with translation into English). The tender
+proposal shall be signed; if signed by hand, it shall be submitted in a scanned form (with a clearly
+visible handwritten signature by the legal or trusted representative for a legal entity or an
+individual entrepreneur acting under civil law or for a different form of a company).
+
+Küsimused ettevõtjale:
+1. Kas ettevõtja saab kinnitada, et pakkumus vastab hanke alusdokumentides sätestatud
+tingimustele? (Raadionupp valikutega "Jah/Ei")
+SAMAVÄÄRSUS
+Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud.
+Iga viidet, mille hankija teeb riigihanke alusdokumentides mõnele RHS-i § 88 lõikes 2 nimetatud
+alusele (standardile, tehnilisele tunnustusele, tehnilisele kontrollisüsteemile vms), tuleb lugeda
+selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija teeb
+riigihanke alusdokumentides ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule,
+tootmisviisile, märgisele või vastavushindamisasutuse väljastatud katsearuandele või tõendile,
+tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“ (RHS § 88 lg-d 5-6,
+§ 89 lg 2, 114 lg-d 5-7).
+Hankija aktsepteerib objektiivsetel põhjustel muid asjakohaseid tõendeid, kui pakkuja tõendab
+hankijale vastuvõetaval viisil, et pakutav asi, teenus või ehitustöö vastab konkreetse märgise või
+hankija esitatud nõuetele, välja arvatud juhul, kui hankija nõutud märgis, samaväärne märgis või
+konkreetse või samaväärse vastavushindamisasutuse väljastatud katsearuanne või muu tõend on
+seaduse alusel eelduseks asja, teenuse või ehitustöö pakkumiseks turul (RHS § 114 lg 7).
+Küsimused ettevõtjale:
+1. Pakkuja kinnitab, et pakkumus vastab hanke alusdokumentides nõutule ja vajadusel on
+samaväärsus selgitatud ja tõendid samaväärsuse kohta lisatud. (Raadionupp valikutega "Jah/Ei")
+Koostatud 14.11.2025 14:20:50
+https://riigihanked.riik.ee/rhr-web/#/procurement/9565284/general-info
+
+2/2
+
+PAKKUMUSE MAKSUMUS
+Pakkumuse maksumus tuleb esitada töölehel "Hindamiskriteeriumid ja hinnatavad näitajad"
+toodud struktuuri kohaselt.
+The tender proposal must specify the total price of the Services to be delivered and must cover all
+objectives and terms of the Procurement without VAT and all other taxes . The price must be
+specified in the ePPR form and in Annex 3 in euros (EUR) with two (2) decimal places. Negative
+prices are not allowed.
+Küsimused ettevõtjale:
+1. Kas ettevõtja kinnitab, et täidab pakkumuse lehe "Hindamiskriteeriumid ja hinnatavad
+näitajad" lehel ette antud struktuuri kohaselt? (Raadionupp valikutega "Jah/Ei")
+SANKTSIOONIDE PUUDUMISE SERTIFIKAAT
+Tenderer shall also submit a certificate in a free form issued in English to confirm that the
+tenderer is not subject to personal special economical and other restrictive measures (sanctions)
+that are (could be) imposed pursuant to the Law of Ukraine “On Sanctions”, decisions of
+authorized international bodies and individual states (specifically, the UN Security Council and
+its committees, the EU, the USA, etc.), decisions of the National Security and Defence Council of
+Ukraine, any other law or regulatory and legal act of the Parliamentary Assembly of the Council
+of Europe, the European Union, the United Kingdom, the USA, the UN Security Council as well
+as a Law of Ukraine and/or Decree of the President of Ukraine imposing sectoral and personal
+special economic and other restrictions (sanctions) on individuals and/or legal entities committing
+terrorist or other acts considered dangerous for society.
+
+Küsimused ettevõtjale:
+1. A certificate (in a free form, in English) to confirm the compliance of this requirement. (Vabas
+vormis dokument)
+KINNITUS KEELATUD ISIKUTE MITTEKAASAMISE KOHTA
+Pakkuja esitab kinnituse (vabas vormis), et kinnitust, et pakkuja ei kaasa üle 10% hankelepingu
+maksumusest hankelepingu täitmiseks tarnijaid, kes on Vene Föderatsiooni ja Valgevene
+kodanikud, residendid, ettevõtjad või eelnimetatud isikute omandis.
+
+Küsimused ettevõtjale:
+1. Kas pakkuja kinnitab, et ta ei kaasa lepingu täitmisse tingimuses nimetatud isikuid?
+(Raadionupp valikutega "Jah/Ei")
+VORMID
+All the Forms must be filled. Along with the forms, the tenderer shall submit documents proving
+that the tenderer’s team meets the requirements as per paragraph 7.2 of the tender specification.
+
+Küsimused ettevõtjale:
+1. Have you submitted all the forms? (Raadionupp valikutega "Jah/Ei")
+2. Have you submitted the documents proving the team meets the requirements? (Raadionupp
+valikutega "Jah/Ei")
+3. Have you submitted other documents requested in Clause 9 of the tender specification?
+(Raadionupp valikutega "Jah/Ei")
+
+Koostatud 14.11.2025 14:20:50
+https://riigihanked.riik.ee/rhr-web/#/procurement/9565284/general-info
+
+

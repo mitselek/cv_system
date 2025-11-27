@@ -1,0 +1,248 @@
+Annex 3 to the Tender Specifications
+
+APPLICATION FORM
+
+for procurement of services for development of a software platform for
+the development of local public services (Ukraine)
+
+Procurement No.302845
+
+Herewith we confirm the following:
+
+We are aware of the procurement terms and conditions and agree with them (including the contract terms and conditions); we also follow all procurement requirements, both the selection criteria and the requirements to the tender proposal.
+
+We fully comply with all provisions of this procurement.
+
+Our tender proposal is not bound to any conditions.
+
+Our tender proposal (application) is valid for three months after the submission of our application without any conditions.
+
+The tenderer’s data
+
++-------------------------------------+--------------------------------+
+| Requirements                        | Data field                     |
++-------------------------------------+--------------------------------+
+| Full name of the tenderer           |                                |
++-------------------------------------+--------------------------------+
+| Representative                      | Surname, name, patronymic:     |
++-------------------------------------+--------------------------------+
+| Representative powers (power of     | Power of attorney or Charter   |
+| attorney or legal representative)   | documents                      |
++-------------------------------------+--------------------------------+
+| Phone number and e-mail address of  | Phone:                         |
+| the representative                  |                                |
+|                                     | E-mail address:                |
++-------------------------------------+--------------------------------+
+| Contact person for the contract,    | Surname, name, patronymic:     |
+| phone number and e-mail address of  |                                |
+| this person, if different from the  | Phone number:                  |
+| contact data of the representative  |                                |
+|                                     | E-mail address:                |
++-------------------------------------+--------------------------------+
+| Identification code of the tenderer |                                |
+| in the Unified state register       |                                |
++-------------------------------------+--------------------------------+
+| Types of the tenderer’s economic    |                                |
+| activity (the core activity shall   |                                |
+| be named first)                     |                                |
++-------------------------------------+--------------------------------+
+| Location: legal address             |                                |
++-------------------------------------+--------------------------------+
+| Location: actual address            |                                |
+| (if different from the legal        |                                |
+| address)                            |                                |
++-------------------------------------+--------------------------------+
+| Bank data of the tenderer for       |                                |
+| contract signing                    |                                |
++-------------------------------------+--------------------------------+
+
+ Other companies / private entrepreneurs participating in the procurement procedure
+
+Please only fill in this section, if you engage subcontractors, submit a
+joint tender proposal or rely on the funds of a third company (please
+add as many lines as needed to list all subcontractors, consortium
+members or the companies whose funds you rely on):
+
++----------------------------+-----------------------------------------+
+| Consortium member:         | Data field                              |
++----------------------------+-----------------------------------------+
+| Name / (surname, name,     | EDRPOU/RNOKPP:                          |
+| patronymic):               |                                         |
++----------------------------+-----------------------------------------+
+|                            |                                         |
++----------------------------+-----------------------------------------+
+| Subcontractor:             | Data field                              |
++----------------------------+-----------------------------------------+
+| Name / (surname, name,     | EDRPOU/RNOKPP:                          |
+| patronymic):               |                                         |
+|                            | Part of the contract where the          |
+|                            | subcontractor is engaged: share of the  |
+|                            | contract price covered by the           |
+|                            | subcontractor:                          |
++----------------------------+-----------------------------------------+
+|                            |                                         |
++----------------------------+-----------------------------------------+
+| Company whose funds you    | Data field                              |
+| rely on:                   |                                         |
++----------------------------+-----------------------------------------+
+| Name / (surname, name,     | EDRPOU/RNOKPP:                          |
+| patronymic):               |                                         |
+|                            | What kind of funding do you rely on and |
+|                            | in what volume?                         |
++----------------------------+-----------------------------------------+
+|                            |                                         |
++----------------------------+-----------------------------------------+
+
+ Affiliated persons
+
+1.  Affiliated persons of the procurement participant (shareholders,
+    beneficiaries, executive officers, authorized persons, management
+    board members, members of the board of directors, final
+    beneficiaries, etc.) (please add as many lines as needed):
+
+  ------------------------------ ---------------------- ------------------
+  Surname, name, patronymic      RNOKPP or, if not      Nationality
+                                 available, date and    
+                                 place of birth         
+
+                                                        
+
+                                                        
+  ------------------------------ ---------------------- ------------------
+
+2.  Please only fill in this section, if you engage subcontractors,
+    submit a joint tender proposal or rely on the funds of a third
+    company. Please add as many lines as needed.
+
+  Affiliated persons (shareholders, beneficiaries, executive officers,
+  authorized persons, management board members, members of the board of
+  directors, final beneficiaries, etc.) of your subcontractors, other
+  consortium members of the company whose funds you rely on:
+
+  ---------------------- ---------------- ------------- -------------------
+  Surname, name,         RNOKPP or, if    Nationality   What procurement
+  patronymic             not available,                 participant
+                         date and place                 (company) this
+                         of birth                       person is
+                                                        affiliated with:
+
+                                                        
+
+                                                        
+  ---------------------- ---------------- ------------- -------------------
+
+ Net turnover (net revenue from the sale of products (goods, works, services)) (as per 7.3 of the tender specifications)(please attach proofs):
+
+Financial year _______: EUR __________
+
+Financial year _______: EUR __________
+
+Financial year _______: EUR __________
+
+TOTAL: EUR __________
+
+ Experience in fulfilling similar contracts (as per 7.1 of the tender specifications):
+
+1.  Contract title; area; duration; surname, name, patronymic, phone
+    number and e-mail address of the contact person.
+
+2.  Contract title; area; duration; surname, name, patronymic, phone
+    number and e-mail address of the contact person.
+
+3.  Contract title; area; duration; surname, name, patronymic, phone
+    number and e-mail address of the contact person.
+
+Herewith we confirm that the mentioned similar contracts were duly
+fulfilled.
+
+ Personnel data (as per 7.2 of the tender specifications):
+
+Herewith we confirm that the employees listed below will be in charge of
+the Contract fulfilment and have required qualifications.
+
+  ---------------------- ---------------------- -------------------------
+  Function/role          Surname, name,         Title and data of
+                         patronymic             diplomas and/or
+                                                certificates confirming
+                                                the respective
+                                                qualification (copies are
+                                                attached to the
+                                                participation form)
+
+  Project manager                               
+
+  Business analyst                              
+
+  Back-end developer                            
+
+  Front-end developer                           
+
+  System administrator                          
+
+  Kubernetes setup                              
+  specialist                                    
+
+  Database developer                            
+
+  Software Quality                              
+  Specialist (Tester/QA                         
+  Manual)                                       
+
+  Technical Support                             
+  Manager                                       
+
+  Documentation                                 
+  developer                                     
+  ---------------------- ---------------------- -------------------------
+
+ Total price (of the tender proposal), without VAT and other non-included taxes
+
+Total service price, EUR: _________
+
+Signature: ___________________ Date: ________
+
+Annex: a power of attorney shall be submitted, if the representative is
+not a legal one (for instance, a board member as per the trade
+register).
+
+List of documents included 
+
+  -------------------------------------------------------------------------
+  Document required                                              Attached
+  -------------------------------------------------------------- ----------
+  Service Description (scope, content, compliance with Technical ☐
+  Specification) (where applicable)                              
+
+  ESPD of the Tenderer                                           ☐
+
+  ESPD of joint tenderer / subcontractor / relied entity (incl.  ☐
+  scope, tasks)                                                  
+
+  Excerpt or certificate from the register of legal entities     ☐
+
+  Certificate of no sanctions (Ukraine, UN, EU, UK, US, other)   ☐
+
+  Extract from corruption offenders register (where applicable)  ☐
+
+  Criminal record / non-conviction certificate (Tenderer &       ☐
+  Affiliated Persons)                                            
+
+  Certificate of no outstanding tax/fiscal debts (valid on       ☐
+  submission date)                                               
+
+  Evidence of experience in similar contracts                    ☐
+
+  Documents proving team qualifications and eligibility          ☐
+  (diplomas or relevant certificates)                            
+
+  Annual tax returns and bank statement, or annual report (3     ☐
+  years)                                                         
+
+  Evidence of equivalence (where applicable)                     ☐
+
+  Accessibility Conformance Statement or equivalent description  ☐
+  of measures taken to ensure accessibility.                     
+  -------------------------------------------------------------------------
+
+By ticking the boxes above, the Tenderer confirms that all required
+documents are duly attached to the tender.

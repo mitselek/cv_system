@@ -1,0 +1,562 @@
+of services for development of a software platform for the development
+of local public services
+
+Procurement No. 302845
+
+Abbreviations and acronyms
+
+  ------------------- ---------------------------------------------------
+  Term/abbreviation   Meaning
+
+  API                 Application Programming Interface – a set of rules
+                      and tools enabling interaction between different
+                      programs
+
+  BPMN                Business Process Model and Notation (graphic
+                      notation used for modelling business processes in
+                      information systems to make them more efficient and
+                      enhance their automation. It allows to build a
+                      structured diagram displaying the sequence of
+                      business-process stages and their dependencies)
+
+  JSON                JavaScript Object Notation - текстовий формат
+                      обміну даними, заснований на JavaScript
+
+  PPAE                Public Procurement Act of Estonia
+
+  Beneficiary         Zhytomyr Regional Military Administration
+
+  Demobilzed veterans War veterans, persons who made special service to
+  / veterans          the country, affected participants of the
+                      Revolution of Dignity, family members of these
+                      persons and family members of fallen (deceased) war
+                      veterans, family members of fallen (deceased)
+                      defenders of Ukraine
+
+  Contractor          Winner of the procurement procedure with who the
+                      Parties sign the procurement contract
+
+  ESPD                European Single Procurement Document
+
+  EDRVV               Unified State Register of War Veterans
+
+  Electronic public   A service provided by state bodies, local
+  service             self-government bodies, companies, institutions,
+  (e-service)         organisations reporting to them, including
+                      administrative services (also provided in the
+                      automated mode) provided via information and
+                      communication systems in line with an application
+                      (request) submitted in electronic form via
+                      information and communication systems (including
+                      the Unified State Web Portal of Electronic
+                      Services) or without such an application (request)
+
+  EO                  Electronic office
+
+  QES/AES             Advanced electronic signature based on the
+                      qualified electronic signature certificate or a
+                      qualified electronic signature created in
+                      accordance with the Law of Ukraine “On Electronic
+                      Identification and Electronic Trusted Services”
+
+  ASC                 Administrative service centre
+
+  NPA                 Regulations of Ukraine
+
+  PA                  Public authority
+
+  Contracting         e-Governance Academy (in Estonian: E-riigi
+  Authority           Akadeemia)
+
+  PB                  Private business
+
+  Platform            Software platform for the development of local
+                      public services
+
+  Project             Development of digital municipal services for
+                      demobilzed veterans in Ukraine
+
+  PPRE                Public Procurement Register of Estonia
+  ------------------- ---------------------------------------------------
+
+Procurement of services for the development of a software platform for
+the development of local public services (hereinafter referred to as the
+“Platform”) is taking place as part of the international technical
+assistance project “Development of Digital Municipal Services for
+Demobilzed Veterans in Ukraine”, funded by EstDev (registration card of
+the international technical assistance project (program) No. 6089 of 09
+July 2025) (hereinafter referred to as the “Project”).
+
+1. Goal and purpose of the Platform
+
+Development of a programming platform for the development of local
+public services to respond to the urgent need for a fast, user-friendly,
+and effective access to a broad range of electronic services. This
+platform must serve as a single entry point, which will significantly
+facilitate interaction between veterans and local self-government
+bodies, health-care facilities, educational institutions, and other
+bodies that are crucial for their successful adaptation to civil life.
+
+The main goal of the Platform is to develop a single digital platform
+for local public services, in particular, improving the quality of life
+of demobilzed veterans and their family members through a simpler access
+to public and social services, reduced bureaucracy, and more effective
+interaction with relevant public bodies.
+
+The purpose of the Platform is to perform a number of key functions
+meeting the needs of demobilzed veterans:
+
+-   Single entry point for services: veterans must have centralized
+    regional- or local-level access to electronic public services that
+    they can use without having to visit different public bodies via the
+    applicant’s electronic office;
+
+-   Online registration and submission of documents: veterans must be
+    able to register for visits to required specialists as well as
+    submit applications and required documents in electronic form;
+
+-   Information hub: veterans must receive up-to-date and credible
+    information about legal changes, state support programmes,
+    entitlements, veteran organisations, and other resources;
+
+-   Simplified interaction with state bodies: bureaucracy must be
+    reduced through electronic data exchange and automated process for
+    filing applications and receiving responds from authorities;
+
+-   Veteran community: it must be possible to establish a community or a
+    forum for experience exchange and mutual support among veterans.
+
+Overall, the Platform for demobilzed veterans must be a reliable,
+transparent, and user-friendly tool enabling veterans to exercise their
+rights fast and without impediments, obtain services they are entitled
+to, and reintegrate into society successfully after their return to
+civil life. Service providers can use the Platform to inform about their
+services, manage the service delivery process, monitor service delivery,
+analyse the needs of their target groups, and improve their processes.
+It is an investment in the future of our defenders and their families.
+
+2. Composition of the services
+
+The services cover the development of the Platform that includes the
+following components:
+
+-   Module “Management system for electronic public services”;
+
+-   EO of the PA providing local services;
+
+-   EO of the PB providing local services;
+
+-   Client for the service of interaction with the EDRVV via the
+    Trembita data-exchange bus;
+
+-   Electronic office of the applicant for obtaining services from a
+    local administration;
+
+-   Module for obtaining digital copies and metadata of documents
+    through Diia.Sharing;
+
+-   Module of integration with the public portal of a local
+    self-government body or a local state administration;
+
+-   Module of integration with the mobile application of a local
+    self-government body or a local state administration;
+
+-   Development of 3 local public services for demobilzed veterans.
+
+[Participants of.png]
+
+3. Functional requirements
+
+3.1. Module “Management system for electronic public services”
+
+The module must be designed to manage and set up the service delivery
+processes. Each service must be designed as a separate business process
+described with the BPMN notation and programmed in the module’s process
+design tool. This business process consists of logically completed
+blocks. Each block has the below functionality in line with its
+respective type:
+
+-   Process start and completion;
+
+-   Completion of the user form and generation of a document or an
+    application signed with a QES/AES;
+
+-   Gateway for logical operations;
+
+-   Messaging.
+
+A framework designed specifically for the module is use for the block
+configuration. The framework is based on JSON along with the list of
+controls required for services implementation.
+
+The module must have the option and functionality for setting up
+e-services and e-services for PB.
+
+The module must have a subsystem for logging the actions of users, which
+includes the time, user ID, operation type, and the network address.
+
+The module must have a subsystem for compiling reporting and statistical
+information.
+
+3.2. Central directory of municipal services
+
+The central directory of municipal services is a public catalogue with a
+search system that contains service descriptions as below:
+
+1.  Order reference (for electronic services);
+
+2.  Description of the service delivery procedure;
+
+3.  List of the required documents;
+
+4.  Service delivery duration;
+
+5.  User identification procedure (for electronic services);
+
+6.  Service price and payment procedures;
+
+7.  References to regulations and other sources;
+
+8.  Provider’s contact data.
+
+3.3. Applicant’s electronic office for obtaining services from a local
+administration
+
+The applicant’s EO shall allow a user authorized via Diia.Signature
+and/or QES/AES and/or Bank.ID to apply for a public local service.
+
+The applicant’s EO shall display a catalogue of services available for
+the Applicant containing their description, delivery procedure and
+timelines depending on the Applicant’s status verified through
+electronic interaction.
+
+The applicant’s EO shall be able to save drafts of submitted
+applications with the option to continue data entry, view the history of
+previously submitted application along with their processing status,
+and, if available for a specific service, the service delivery results.
+
+3.4. EO of a public authority providing local services
+
+The EO of a service provider must automate the work of authorized
+persons deciding on public service delivery.
+
+The provider’s EO must implement the log of applications and completed
+service assignments operating along with the search and selection system
+using specified criteria.
+
+The provider’s EO must be designed to process (including package
+processing) applications from a multi-channel entry programming
+interface (electronic office, portal, mobile application) and capture
+the application source. The processing includes the operation of the
+interface of the authorized person who examines an application and
+attached documents as well as enters the official decision (approval or
+reasoned rejection) along with the time and her/his official data.
+
+The provider’s EO must enable the functioning of the user notification
+subsystem (e-mail, messengers).
+
+The module shall enable interaction with local information systems via
+electronic interaction (mainly through the API), including Trembita
+tools or by sending applications in e-format to the respective document
+management systems (including via SEV OVV). It shall also be possible to
+receive applications from other sources (ASC etc.).
+
+The EO of a public authority must enable users to process and enter
+decisions on proposals concerning the provision of services by private
+business.
+
+3.5. EO of a private business (PB) providing local services
+
+The EO of a private business must allow representatives of private
+business entities to send proposals concerning delivery of services to
+discharged veterans through the Platform. Submitted proposals shall
+contain descriptions of service delivery procedures and the planned
+number of provided services for a specific period. Filing a proposal
+shall be considered as a consent to join the public offer with the
+obligation to comply with the declared service delivery procedure and
+service quality. Submitted proposals are examined by the representative
+of a local authority.
+
+The PB EO shall display the decision of a local authority on the
+approval of a specific service for being provided on the Platform by a
+private business.
+
+The Platform shall generate impersonalized service assignments with a
+unique code (QR and digital code) based on submitted applications and
+reported surplus capacities of private businesses for service delivery
+in a specific period.
+
+The PB EO shall display service assignments and allow to set marks
+confirming the actual service provision as per a specific assignment.
+
+3.6. Client for the service of interaction with the EDRVV via the
+Trembita data-exchange bus
+
+A Client must be developed for the service of interaction with the EDRVV
+via the Trembita data-exchange bus. A specification for data exchange
+with the EDRVV service must be prepared for the client. In addition, a
+draft contract on information interaction must be prepared.
+
+3.7. Module for obtaining digital copies and metadata of documents
+through Diia.Sharing
+
+The module must be designed to provide digital copies and metadata of
+the applicant’s documents when filling in applications in the EO of a
+local administration.
+
+An authorized User (Applicant) must be able to initiate a request for
+the digital copies and metadata of a specific document (biometric
+passports: ID card, travel passport, taxpayer card, certificate of an
+IDP, driver’s license, vehicle registration certificate, student card,
+education certificates, veteran card, birth records, name-change
+records, marriage and divorce records). After the User has provided a
+confirmation in the Diia mobile application, the System must accept the
+respective document and data. Based on this, the received data are added
+to the draft application for a public local service.
+
+3.8. Module of integration with the public portal of a local
+administration
+
+The module must enable the operation of the unified authorization model
+of the public portal of a local administration and the EK of a local
+administration and a provider for service delivery. Integration with the
+portal must allow to provide consolidated statistical reporting
+information (dashboard) to be published on the portal.
+
+3.9. Module of integration with the mobile application of a local
+administration
+
+The module of integration with the mobile application of a local
+administration must allow to receive the data of an application for a
+public local service to process them in the EO for local service
+delivery.
+
+3.10. Development of 3 local public services for demobilzed veterans
+
+The specific services will be determined at the stage of consultation
+with the Beneficiary.
+
+4. Non-functional requirements
+
+4.1. Applied software requirements
+
+The applied software shall be based on a free software that does not
+require any licenses for non-commercial use.
+
+4.2. User interface requirements
+
+-   The interface must be simple and clear, so users can easily find
+    required information and perform their operations;
+
+-   The interface must comply with the official design code;
+
+-   The design shall be displayed correctly and function on different
+    gadgets with different screen sizes (adaptivity);
+
+-   The interface shall be accessible for users with specials needs;
+
+-   The interface design must ensure fast download and efficient
+    operation;
+
+-   Users must receive clear feedback on their actions like confirmation
+    of a successful execution or failure messages;
+
+-   A user experience analysis shall be conducted prior to prototyping.
+    It must be based on a “user path” description to better understand
+    users’ needs and expectations;
+
+-   Interactive prototypes must be created for testing and approval
+    prior to the development start (tools like Figma, Adobe XD, or
+    Sketch must be used);
+
+-   Data exchange shall be supported via interaction interfaces,
+    including SEV DEITR (Trembita).
+
+The Platform shall provide tools for steering and distributing user
+rights concerning access to information, functions, modules.
+
+4.3. Organisational requirements
+
+The following measures are taken by the Parties to ensure the quality of
+the Services:
+
+The Contracting Authority shall provide the Contractor and/or the
+Beneficiary with materials that are required for service provision. All
+pecuniary intellectual property rights to all intellectual property
+objects and any other intellectual property objects (including all
+documentation, descriptions, conditions, reports, manuals, or any other
+written materials) created in full by the Contractor, its employees, or
+subcontractors shall be transferred for free to the
+Beneficiary/Recipient, once the Parties have signed respective
+Acceptance and Transfer Certificates for the Computer Programs under the
+respective stage. All pecuniary intellectual property rights to all
+intellectual property objects created in the course of service provision
+under this Contract belong to the Ukrainian state represented by the
+Beneficiary/Recipient.
+
+4.4. Integration requirements
+
+Integration with the EDRVV shall be enabled as part of the Platform
+development.
+
+The Trembita system for electronic interaction between state electronic
+information resources shall be used as a gateway for information
+exchange between systems.
+
+4.5. Development prospects and further modernization of the Services
+
+Detailed requirements are specified during the development of the Terms
+of Reference.
+
+It shall be possible to modernize and scale up the developed Platform
+with minimum time consumption concerning the following functions:
+
+-   Vertical (increase of the computing capacity of the unified
+    platform, access distribution – also for several administrative
+    units) and horizontal (deployment of several platforms in different
+    regions) scalability in terms of workload and performance;
+
+-   Hierarchic management of the region’s portals: setup of the portal
+    pages (names, contact data, etc.), distribution of the access
+    rights, administration of users, setup of services, including
+    copying from the central directory along with the entry of required
+    municipality-specific parameters;
+
+-   Editing of the “mandatory/non-mandatory” settings and parameters of
+    the fields in electronic forms;
+
+-   Add-up of additional automatic checks (including those involving
+    electronic interactions).
+
+4.6. Methodological requirements
+
+The Contractor shall prepare the required documentation for the
+developed Platform and provide the below technical documents:  
+
+-   Terms of Reference for the Platform development;
+
+-   User manuals for the Platform;
+
+-   Administrator manual;
+
+-   General installation, setup, backup copying, and data recovery
+    instructions;
+
+-   Preliminary testing programme and methodology;
+
+-   Protocol of the Platform’s preliminary testing;
+
+-   Source codes (coding results) on an optical data carrier.
+
+  All documentation shall be prepared and provided in printed form
+  (original) signed with QES as well as in electronic form (copy) in the
+  Microsoft Word format.  
+
+All documents shall be made in Ukrainian. 
+
+4.7. Information requirements
+
+Information supply shall meet the following requirements:
+
+-   Physical and logical data integrity;
+
+-   Minimum volume of excessive saved data;
+
+-   Standard form of data presentation;
+
+-   Credibility and relevance of data.
+
+4.8. Warranty support
+
+The deployed Platform shall have warranty support (correction of errors,
+etc.) for six months after the signing of the Acceptance and Transfer
+Certificate for the Platform under the last stage.
+
+  The coding services include warranty support for the Platform as
+  below:
+
+-   Monitoring of the Platform operation;
+
+-   Response to incidents that cause the incorrect operation of the
+    Platform;
+
+-   Server configuration, recovery of the Platform operations in case of
+    failures;
+
+-   Check of logs and errors in the industrial environment in accordance
+    with the agreed regulations and technical requirements;
+
+-   Correction of detected errors and failures in the Platform operation
+    and settings;
+
+-   Analysis and correction of errors in the business processes through
+    BPMN 2.0;
+
+-   Settings required for the proper functioning of the Platform;
+
+-   Hotline for users (phone number, messenger selected by the
+    Beneficiary/Recipient, e-mail).
+
+  Information exchange between the Contractor and the other Contract
+  Parties, operational control of the service delivery progress and
+  response to claims take place via GitLab as well as per e-mail.
+
+  The response time of the Contractor to received tasks shall not exceed
+  3 business days and 1 business day for high-priority tasks. The
+  priority level of tasks is determined depending on their relevance for
+  the Platform’s permanent accessibility and operability.
+
+5. Legal references
+
+-   Law of Ukraine “On Information”;
+
+-   Law of Ukraine “On the National Informatization Programme”;
+
+-   Law of Ukraine “On Applications Filed by Citizens”;
+
+-   Law of Ukraine “On Access to Public Information”;
+
+-   Law of Ukraine “On Information Protection in
+    Information-Communication Systetms”;
+
+-   Law of Ukraine “On Personal Data Protection”;
+
+-   Law of Ukraine “On Public Electronic Registers”;
+
+-   Law of Ukraine “On the Status of War Veterans, Guarantees for Their
+    Social Protection”;
+
+-   Law of Ukraine “On the Social and Legal Protection of Military
+    Personnel and Their Family Members” ;
+
+-   Law of Ukraine “On Pensions for Persons Discharged from Military
+    Services and Other Selected Persons”;
+
+-   Law of Ukraine “On Mandatory General State Pension Insurance”;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 94 of 16
+    February 1994 “On the Procedure of Granting Entitlements Specified
+    in the Law of Ukraine “On the Status of War Veterans, Their Social
+    Protection Entitlements””;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 700 of 14
+    August 2019 “On the Unified State Register of War Veterans”;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 740 of 23
+    September 2015 “On the Approval of the Procedure for Acknowledging
+    the Status of a Family Member of a Fallen (Deceased) Defender of
+    Ukraine”;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 881 of 02
+    August 2024 “On Selected Issues Concerning Support for the
+    Activities of Specialists Caring for War Veterans and Persons
+    Discharged from Military Service”;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 373 of 29
+    March 2006 “On the Approval of the Rules for Information Protection
+    in Information, Electronic Communication and
+    Information-Communication Systems”;
+
+-   Resolution of the Cabinet of Ministers of Ukraine No. 205 of 21
+    February 2025 “On Selected Issues Concerning the Development,
+    Administration, and Functioning of an Informatization Tool”.

@@ -1,0 +1,693 @@
+Tender specifications
+Procurement of services for development of a software platform for the
+development of local public services (Ukraine)
+
+Procurement No: 302845
+
+1.  Introduction
+
+  This procurement is made by the e-Governance Academy (Estonia)
+  (hereinafter referred to as the “Contracting Authority”) to purchase
+  services for development of a software platform for the development of
+  local public services (hereinafter referred to as the “Services”) in
+  accordance with the Technical Requirements (Annex 1) and the draft
+  Procurement Contract (Annex 2).
+
+  Provisions of the Public Procurement Act of Estonia (hereinafter also
+  referred to as “PPAE”) apply to this procurement, while all issues
+  concerning the fulfilment of the procurement contract are regulated by
+  the law of the Republic of Estonia, if not stated otherwise. Any
+  disputes shall be settled by Estonian courts within the jurisdiction
+  of the Republic of Estonia.
+
+  This Procurement is funded by the Estonian Centre for International
+  Development (EstDev).
+
+2.  Abbreviations and acronyms
+
++-----------------------+----------------------------------------------+
+| Contracting Authority | e-Governance Academy (Estonia)               |
++-----------------------+----------------------------------------------+
+| Beneficiary           | Zhytomyr regional military administration    |
++-----------------------+----------------------------------------------+
+| Contractor            | The winner of the procurement procedure with |
+|                       | whom the procurement contract is signed      |
++-----------------------+----------------------------------------------+
+| Power of attorney     | Written document issued by a party for       |
+|                       | another party to exercise representative     |
+|                       | functions towards third parties              |
++-----------------------+----------------------------------------------+
+| PPAE                  | Public Procurement Act of Estonia            |
++-----------------------+----------------------------------------------+
+| ePPR                  | Estonian Public Procurement Register         |
+|                       | www.riigihanked.riik.ee                      |
++-----------------------+----------------------------------------------+
+| ESPD                  | European single procurement document         |
++-----------------------+----------------------------------------------+
+| Affiliated persons    | Shareholders (natural persons and/or legal   |
+|                       | entities that own 10% or more of the         |
+|                       | tenderer's authorized capital),              |
+|                       | beneficiaries, executive officers, members   |
+|                       | of procurement commissions, management       |
+|                       | members and members of boards of directors,  |
+|                       | ultimate beneficial owners, etc.             |
+|                       |                                              |
+|                       | Affiliated persons of the tenderer are also  |
+|                       | the above-mentioned persons of the           |
+|                       | consortium members, subcontractors, or       |
+|                       | persons whose funds/experience the tenderer  |
+|                       | relies on                                    |
++-----------------------+----------------------------------------------+
+
+3.  Subject of the procurement contract
+
+    1.  The Services are procured for the Beneficiary to develop a
+        unified digital platform of local public services, specifically
+        for demobilized veterans. This platform must be designed to
+        provide fast and user-friendly access to social, health-care,
+        and educational services at the local level. While reducing
+        bureaucracy and streamlining interaction between municipalities
+        and civil institutions, the platform will be contributing to
+        reintegration of veterans in civil life as well as improve the
+        quality of life for their families in line with the terms of the
+        Technical Requirements (Annex 1) and the draft Procurement
+        Contract (Annex 2).
+
+    2.  Taxation of the procurement – the procurement is not subject to
+        VAT and any other taxes.
+
+    3.  Expected timeline for the fulfilment of the contract - up to 4
+        months after its entry into force (after its signing by all
+        Parties), but no later than 31.03.2026.
+
+    4.  Estimated term of the procurement contract is from the moment
+        the procurement contract enters into force (from the moment of
+        its signing by all Parties) up to 4 months (but no longer than
+        until 31.03.2026).
+
+    5.  The Services specified in the procurement contract shall be
+        provided on the territory of Ukraine and/or remotely from the
+        Contractor’s location, which is subject to the character and
+        technology capabilities for the provision of Services.
+
+4.  Validity period of the tender proposal
+
+3 months after the tender submission deadline.
+
+5.  Tender procedure
+
+    1.  Tender proposals shall be prepared and submitted in accordance
+        with the tender proposal requirements listed below.
+
+    2.  Tender proposals may be submitted by legal entities, natural
+        persons, and individual entrepreneurs, as well as by tenderers
+        acting jointly (co-tenderers). Any tenderer may act through a
+        duly authorized representative. Co-tenderers must appoint a
+        representative authorized to sign and submit the tender and to
+        act on their behalf throughout the procurement process. Such
+        powers shall be confirmed by a Power of attorney. All joint
+        tenderers shall bear joint and several liability for their
+        tender proposal and for the performance of any contract awarded
+        based on their tender.
+
+    3.  Economic operators, including any entities whose
+        capacities/resources the Tenderer relies upon, whose place of
+        residence or registered office is located in the Russian
+        Federation or the Republic of Belarus are not eligible to
+        participate in the procurement procedure.
+
+    4.  This procurement procedure is not divided into separate lots.
+        The subject of the procurement is indivisible, as it concerns
+        the development of an integrated software solution that cannot
+        be separated as it constitutes one integrated solution. Engaging
+        a single service provider to fulfil the order ensures
+        consistency in development, reduces integration risks, and
+        allows to use the Contracting Authority´s financial resources
+        effectively.
+
+    5.  In accordance with § 85 (6) and § 86 of the PPAE, the
+        Contracting Authority shall calculate the life-cycle costs of
+        the Services, which is not completely possible for this
+        particular procurement procedure. In the present project,
+        purchased Services are not kept by the Contracting Authority –
+        they are transferred to the Recipient. Hence, the Contracting
+        Authority is not in position to calculate the life-cycle costs.
+        However, the Contracting Authority has taken into consideration,
+        to the best of its knowledge, all the previous Services, so that
+        the present Services are compatible with all existing
+        technologies and equipment in line with their purpose and the
+        possibility of using them until the end of their life cycle.
+
+    6.  According to § 52 (3) of the PPAE, the Contracting Authority
+        may, prior to verifying the grounds for exclusion and
+        qualification, examine the Tender Proposals for their compliance
+        with the requirements set out in the procurement documents and
+        assess the respective tenders. In such cases, the Contracting
+        Authority ensures that the contract is not awarded to a tenderer
+        who should have been excluded from the procurement procedure or
+        who does not meet the selection criteria.
+
+    7.  Any reference made by the Contracting authority in the
+        invitation to one of the grounds specified in subsections §
+        88 (2) or (6) of the Public Procurement Act must be read as
+        supplemented by the notation "or equivalent".
+
+6.  Requirements to the tender proposal
+
+    1.  Tender proposals shall be submitted through the Public
+        Procurement Register of Estonia (ePPR) available under the link
+        https://riigihanked.riik.ee. All the forms and documents in the
+        tender proposal must be made in English (if necessary, with
+        translation into English). The tender proposal shall be signed;
+        if signed by hand, it shall be submitted in a scanned form (with
+        a clearly visible handwritten signature by the legal or trusted
+        representative for a legal entity or an individual entrepreneur
+        acting under civil law or for a different form of a company).
+        English is also the acknowledged official language for
+        interpreting all relevant provisions and terms. Forms and
+        documents made in other languages shall be considered as
+        non-official recommendatory translations of procurement
+        documents originally made in English, except for documents
+        issued by authorities of Ukraine or the documentation that
+        proves conformity with the qualification criteria.
+
+    2.  Tenderers shall submit the following documents along with their
+        tender proposals:
+
+6.2.1. European single procurement document (ESPD);
+
+6.2.2. Application form (Annex 3 to the Tender Specifications). In case
+of any discrepancies between the presented information in Annex 3 and
+data in the Public Procurement Register of Estonia, the Contracting
+Authority gives preference to Annex 3.
+
+3.  Where the Technical Requirements require a Service description, the
+    tenderer shall attach a Service Description explaining the scope and
+    content of the Services and how the tender complies with the
+    Technical Requirements.
+
+4.  ESPD for the joint tenderer, subcontractor or for the person whose
+    capacities the tenderer relies on. The tender proposal must specify
+    the scope, volume, and content of the parts of the contract to be
+    performed by each joint tenderer (member) in their tender.
+
+5.  If the tenderer relies on equivalence, it shall submit documentary
+    proof along with its tender proposal to confirm that its offered
+    services meet the requirements set out in this document and are
+    equal to the required Services.
+
+6.  Tenderers shall include in their tender an Accessibility Conformance
+    Statement or an equivalent description of measures taken to ensure
+    accessibility as specified in the Technical Requirements.
+
+7.  The tenderer shall also submit a certificate in a free form issued
+    in English to confirm that the tenderer is not subject to personal
+    special economical and other restrictive measures (sanctions) that
+    are (could be) imposed pursuant to the Law of Ukraine “On
+    Sanctions”, decisions of authorized international bodies and
+    individual states (specifically, the UN Security Council and its
+    committees, the EU, the USA, etc.), decisions of the National
+    Security and Defence Council of Ukraine, any other law or regulatory
+    and legal act of the Parliamentary Assembly of the Council of
+    Europe, the European Union, the United Kingdom, the USA, the UN
+    Security Council as well as a Law of Ukraine and/or Decree of the
+    President of Ukraine imposing sectoral and personal special economic
+    and other restrictions (sanctions) on individuals and/or legal
+    entities committing terrorist or other acts considered dangerous for
+    society.
+
+2.  Tender proposals shall not include any restrictive or any other
+    conditions. Tender proposals that are subject to restrictive
+    conditions shall be declined.
+
+3.  The tender proposal shall contain the total price of the Services to
+    be delivered, which means that the tender proposal shall cover all
+    above objectives and terms of the Procurement.
+
+4.  The tender proposal must specify the total price of the Services to
+    be delivered and must cover all objectives and terms of the
+    Procurement without VAT and all other taxes[1]. The price must be
+    specified in the ePPR form and in Annex 3 in euros (EUR) with
+    two (2) decimal places. Negative prices are not allowed.
+
+5.  The Contracting Authority is entitled to request additional
+    documents or to ask for clarification concerning submitted
+    documents.
+
+6.  Selection criteria
+
+    1.  Technical and professional capability (as per 1(2) of § 101
+        PPAE): the tenderer shall provide references for at least
+        two (2) similar contracts duly fulfilled in the last 36 months
+        preceding the commencement of this procurement procedure. A
+        similar contract is deemed to be a contract:
+
+-   with a duration of at least 6 months per contract;
+
+-   whose subject refers to services for developing software or
+    information-telecommunication systems or software platforms
+    establishing BPMN-based visual description of business processes,
+    operation of electronic offices with a specified set of functions in
+    line with the distribution of access rights including the option to
+    view messages, applications, and statuses;
+
+-   onboarding services, support of the ID.GOV.UA integrated electronic
+    identification system, interface programming based on JSON and XML,
+    API operation using REST and SOAP via access gateways similar to the
+    Trembita system for electronic interaction between public electronic
+    information resources, flexible integration with mobile
+    applications, automation tools for continuous integration and
+    delivery, a search system for log analysis and full-text search,
+    support of the WCAG 2.1 web content accessibility guidelines, use of
+    UI libraries for consistent style features, application status
+    tracking, e-mail notifications, integration with payment services,
+    operation of object-oriented databases, use of JavaScript, HTML5,
+    and CSS3 coding languages, adaptive design in the Diia guideline;
+
+-   with the total value of at least EUR 40,000 using the above
+    technologies.
+
+  To comply with this requirement, the tenderer must:
+
+-   enter the data of the fulfilled similar contracts in Annex 3,
+    including the subject of the contract, the customer, the contract
+    duration, and the name of the customer’s contact person, the
+    customer’s phone number and e-mail address (by providing data in
+    Annex 3 the tenderer confirms the proper execution of the
+    contracts);
+
+-   provide copies of the similar contracts or conformity letters from
+    the customers for these contracts or reference letters signed by the
+    customers or other similar documents proving the fulfilment of such
+    contracts and the use of the above-mentioned technologies.
+
+    1.  Availability of duly trained and qualified personnel (as per
+        1(3) of § 101 PPAE): the tenderer shall have a team to meet the
+        Technical Requirements and the draft Сontract as well as confirm
+        the availability of the following employees holding an academic
+        degree in IT or equivalent certificates:
+
+-   Project manager;  
+
+-   Business analyst;  
+
+-   Backend developer;   
+
+-   Frontend developer;   
+
+-   System administrator;   
+
+-   Kubernetes expert;   
+
+-   Database developer;   
+
+-   Software quality assurance specialist (tester/QA Manual);   
+
+-   Technical support manager.
+
+  It is allowed to submit the documents of one employee for several team
+  positions.
+
+  To comply with this requirement, the tenderer must:
+
+-   enter the employees’ surnames, names, positions, and education
+    degree in Annex 3;
+
+-   provide copies of the employees’ education documents (copies of
+    diplomas or relevant certificates).
+
+  By signing and submitting Annex 3 the tenderer confirms and guarantees
+  that it has obtained the written/electronic (signed with the QES/EDS)
+  consent for personal data processing from all persons who will be
+  engaged by the tenderer in any way for the procurement process.
+
+1.  Economic and financial status (as per 4(1) of § 100 PPAE): the total
+    turnover of the tenderer for the last three financial years (prior
+    to the start of this procurement procedure) must be at least EUR
+    160,000 in total.
+
+  To comply with this requirement, the tenderer must:
+
+-   enter its financial status data in Annex 3 stating its turnover for
+    the last three financial years – separately for each year;
+
+-   provide relevant documents - a copy of the annual tax return and a
+    bank statement for the above period or its annual report.
+
+    1.  Tenderers who submit a joint tender can rely on the competence
+        of their co-tenderers to confirm their own economic and
+        financial status as well as technical and professional
+        competence. The tenderer shall indicate in the respective part
+        of Annex 3 the volume and content of each part of the contract
+        that is to be fulfilled by its co-tenderer.
+
+    2.  If the tenderer wants to confirm its economic and financial
+        status or technical and professional competence based on the
+        funds/experience of other companies, the tenderer shall also
+        submit the ESPD for the legal entity whose funds/experience it
+        relies on.
+
+    3.  If the tenderer wants to confirm its financial status or
+        technical and professional competence based on the
+        funds/experience of another company, the tenderer shall specify
+        in the respective part of Annex 3 that this company has relevant
+        funds/experience, is willing to use them and that the tenderer
+        makes use of them when fulfilling the procurement contract. The
+        company whose funds or experience are used by the tenderer to
+        comply with the requirements to its economic and financial
+        status shall be actually participating in the fulfilment of the
+        procurement contract.
+
+    4.  The Contracting Authority shall check whether the company whose
+        funds/experience the tenderer relies on meets the qualification
+        requirements in regard to which the tenderer relies on this
+        company’s funds/experience.
+
+    5.  The Contracting Authority applies § 103 (6) of the PPAE and may
+        require the replacement of an excluded or unqualified tenderer.
+
+    6.  The Contracting Authority is entitled to request additional
+        documents or to ask for clarification concerning submitted
+        documents.
+
+7.  Exclusion criteria 
+
+    1.  The Contracting Authority will exclude a tenderer and will not
+        sign the contract if there is a mandatory exclusion ground under
+        PPAE § 95(1) in place. The Contracting Authority may also decide
+        to exclude the tenderer based on the grounds for voluntary
+        exclusion grounds (§ 95 (4) PPAE). A tenderer can submit,
+        together with its tender, a proof of corrective actions
+        (“self-cleaning”) taken to restore its reliability in accordance
+        with PPAE § 97.
+
+    2.  Prior to signing the contract, the Contracting Authority
+        verifies the grounds for exclusion of the tender through the
+        ESPD taking into account updated statements and remarks
+        concerning the absence of the exclusion reasons in accordance
+        with the ESPD form referred to in the ePPR. If a joint tender
+        proposal or a tender is based on the capacities of another
+        entity (economic/financial status or technical/professional
+        capability), the ESPD shall also be submitted for each of such
+        entities.
+
+    3.  The tenderer shall submit the following documents to confirm the
+        absence of reasons for its exclusion:
+
+        1.  for legal entities or individual entrepreneurs – excerpt or
+            certificate from the register of legal entities or another
+            authorized body of the tenderer’s country of residence
+            confirming its official registration. Estonian companies
+            shall be checked via the ePPR; 
+
+        2.  if the tenderer’s country of residence has a relevant
+            dedicated register of corruption-related activities, an
+            excerpt or certificate shall be obtained from such a
+            register to prove the absence of the tenderer and its
+            Affiliated persons in this. Ukrainian companies shall be
+            checked via the portal https://corruptinfo.nazk.gov.ua;
+
+        3.  a criminal liability certificate, a (non-)conviction
+            certificate or a certificate of restrictions imposed against
+            the tenderer and its Affiliated persons in accordance with
+            criminal procedure regulations. Estonian companies shall be
+            checked via the ePPR; 
+
+        4.  a certificate confirming that the tenderer does not have any
+            debts concerning taxes, charges, and fees in its country of
+            residence that are subject to control by fiscal authorities.
+            Ukrainian companies obtain this certificate in printed or
+            electronic form (via the electronic service “Electronic
+            taxpayer’s office”) from the competent unit of the State Tax
+            service of Ukraine. The certificate shall be valid as of the
+            day of its submission. The certificate in electronic form
+            shall be accessible for viewing by the Contracting Authority
+            in the public (open) part of the Electronic taxpayer’s
+            office. Estonian companies shall be checked via the ePPR. 
+
+8.  Submission of documents, list of documents 
+
+    1.  The tenderer shall provide the filled in and signed application
+        form in English (Annex 3), which includes the tender price offer
+        excluding VAT and any other taxes[2].
+
+    2.  The tenderer shall submit the European single procurement
+        document (ESPD).
+
+    3.  The tenderer shall also submit the European Single Procurement
+        Document (ESPD) for the joint tenderer, subcontractor or a
+        person whose capacities the tenderer relies on.
+
+    4.  Along with the Application Form, the tenderer shall submit
+        documents proving its experience in fulfilling similar contracts
+        as per paragraph 7.1 of this document.
+
+    5.  Along with the Application Form, the tenderer shall submit
+        documents proving that the tenderer’s team meets the
+        requirements as per paragraph 7.2 of this document.
+
+    6.  Along with the Application Form, the tenderer shall submit
+        documents confirming its turnover for the last three financial
+        years prior to the commencement of this procurement as per
+        paragraph 7.3 of this document.
+
+    7.  The tenderer shall submit the documents mentioned in paragraphs
+        6.2.3-6.2.7 of this document.
+
+    8.  The tenderer shall submit the documents mentioned in paragraph
+        8.3 of this document confirming the absence of reasons for its
+        mandatory exclusion (§ 95(1) PPAE) along with the tender
+        proposal. If a joint tender proposal is submitted, a
+        subcontractor is engaged or if the tenderer relies on the funds
+        of a third company, such documents shall also be submitted for
+        all parties participating in the procurement procedure.
+
+    9.  The documents mentioned in paragraphs 9.1 – 9.8 of this document
+        shall be submitted along with the tender proposal. If the
+        tenderer does not submit the documents mentioned in paragraphs
+        9.4-9.8 of this document together with the tender proposal, it
+        shall submit them within 3 working days from the date of the
+        request from the Contracting Authority. The Contracting
+        Authority can extend the period for the submission of the
+        documents.
+
+9.  Criteria for the selection of the winner
+
+    1.  The lowest price: the procurement contract shall be signed with
+        the tenderer who offers the lowest price. 
+
+    2.  The tender proposal with the lowest price receives the highest
+        score. Other tender proposals receive a score calculated with
+        the following formula: “100” - (“bid price” – “lowest bid
+        price”) / “highest bid price” * “100”.
+
+    3.  If two or more eligible tenders offer the same lowest total
+        price, the winner will be selected by drawing lots among them.
+        The terms and conditions for drawing lots will be sent to the
+        tenderers in advance via the ePPR. Authorized representatives of
+        the tenderers have the right to attend the drawing procedure.
+        The Contracting Authority will prepare a procedural record
+        specifying the tenders with the same score that are admitted to
+        the draw.
+
+10. Rejection of all tender proposals
+
+    1.  All tender proposals can be rejected, if the price of all tender
+        proposals exceeds the total expected price of the Procurement.
+
+11. Cancellation of the procurement procedure
+
+    1.  The Contracting Authority reserves the right to cancel the
+        procurement procedure at any time prior to the conclusion of the
+        contract in the following cases:
+
+        1.  None of the received tenders complies with the requirements
+            set out in the procurement documents;
+
+        2.  The circumstances that led to the initiation of the
+            procurement procedure have changed and the running
+            procurement procedure no longer serves the intended purpose
+            or the Contracting Authority’s interests;
+
+        3.  The financial resources foreseen for the procurement are no
+              longer available or insufficient to cover the cost of the
+              most economically beneficial tender;
+
+        4.  Material errors or irregularities have been detected in the
+            procurement process, which cannot be remedied without
+            restarting the procedure;
+
+        5.  Any other grounds for cancellation arise as specified in the
+            applicable public procurement legislation;
+
+        6.  The Contracting Authority takes a decision that makes the
+            Procurement impossible or impractical.
+
+    2.  In case of cancellation, all tenderers shall be informed in a
+        written form accordingly. The Contracting Authority shall not be
+        liable for any costs incurred by the tenderers in connection
+        with the preparation and submission of their tenders.
+
+12. Contract provisions
+
+    1.  All Services under the procurement contract shall be provided on
+        the territory of Ukraine and/or remotely from the Contractor’s
+        location, which is subject to the character and technology
+        capabilities for the provision of Services.
+
+    2.  The Contracting Authority can be replaced by a different legal
+        entity due to significant changes occur, such as merger,
+        division or departmental restructuring, or if the procurement
+        contract is handed over to a different contracting authority.
+
+    3.  The tenderer can be replaced by a new tenderer meeting the
+        selection criteria as per the tender documents, provided that
+        the Contracting Authority granted its consent in advance and in
+        cases determined in the PPAE. Tenderers are replaced in
+        accordance with an electronic or written request submitted by
+        the Contracting Authority.
+
+    4.  The timeline for the execution of the procurement contract can
+        only be extended with the prior written consent of the
+        Contracting Authority and in cases determined in the PPAE.
+
+    5.  At the request of the Recipient, the project’s Contractor can
+        hand over the work results in the form of ready-to-use products
+        to third parties.
+
+    6.  The procurement contract can be subject to changes in accordance
+        with § 123 PPAE and in any below case, but not limited to, when:
+
+        1.  it becomes impossible to fulfil the contract within its
+            validity period due to circumstances caused by the
+            Recipient, state bodies of Ukraine, the pandemic or the
+            Russian aggression against Ukraine and its consequences that
+            can be influenced neither by the Contracting Authority nor
+            by the tenderer (change of the validity period);
+
+        2.  it becomes impossible to fulfil the contract within its
+            validity period due to circumstances arising in the course
+            of its execution (approvals by authorities) that cannot be
+            influenced neither by the Contracting Authority nor by the
+            tenderer. In this case, the duration of the contract can be
+            extended by the time of the end of the circumstances (change
+            of the validity period);
+
+        3.  if new legal acts are adopted or enter into force during the
+            performance of the procurement contract that make it
+            necessary to adjust or supplement the Services for their
+            legal compliance. The changes to the Services must be
+            directly related to the implementation of new legislation or
+            regulations concerning functionality, security,
+            data-protection or other legal requirements to the IT
+            solution; they must not alter the overall nature of the
+            procurement contract or the main project objectives. If the
+            procurement contract price increases or the timelines for
+            Service delivery change as a result of changes in
+            legislation, the procurement contract can be amended to
+            reflect additional costs and, if necessary, the contract’s
+            fulfilment period can be extended under the following
+            conditions:
+
+(a) the reimbursement of additional costs shall be documented and
+      proportionate to the actual costs of complying with the new
+      requirements. The value of the modifications may not exceed 20% of
+      the original procurement contract price;
+
+(b) any extension of the timeline for the contract fulfilment shall be
+      reasonable and proportionate to the duration of implementing the
+      changes required to comply with the new requirements. The
+      extension may not exceed 35% of the original duration of the
+      procurement contract;
+
+    1.  if the eligibility period of the project is extended by the
+        party that granted support to the Contracting Authority using EU
+        Structural Funds. The extension of the eligibility period is
+        linked to the decision of the grantor allowing to extend the
+        project’s implementation period to achieve the project
+        objectives in the best possible way and to meet the funding
+        conditions.
+
+    1.  The Contracting Authority can demand amendments to the сontract
+        at its own discretion, if the intellectual property rights are
+        changed in favour of the Contracting Authority or the Recipient.
+        Such amendments shall be made in written and shall be signed by
+        all parties of the procurement contract.
+
+    2.  The Contracting Authority can demand amendments to the
+        procurement contract at its own discretion, if it is necessary
+        to conclude and to sign an agreement on personal data processing
+        in accordance with EU Regulation 2016/679. If such amendments
+        have been made, the Contracting Authority and the Recipient are
+        considered the Personal Data Controllers, and the tenderer is
+        considered the Personal Data Processor. The related risks shall
+        be included in the tender price.
+
+    3.  The Contracting Authority collects and processes personal data
+        in accordance with Regulation (EU) 2018/1725 on the protection
+        of natural persons in regards to the processing of personal data
+        by the Union institutions and bodies (hereinafter referred to as
+        the “GDPR”). Processing is based on article 6(1)(c) of the PPAE
+        and the GDPR. Personal data are processed to conduct the
+        procurement procedure, including tender assessment, verification
+        of qualification requirements, actions related to contract
+        conclusion and performance, as well as to ensure transparency,
+        reporting and control of the procurement, including audits and
+        supervision related to the use of the Structural Funds. No
+        automated decision-making or profiling mechanisms are used for
+        the personal data submitted in tenders.
+
+    4.  Access can be granted to the members of the tender committee,
+        engaged legal advisors (internal or external), the head of the
+        Contracting Authority or a person appointed by the head of the
+        Contracting Authority as well as to supervisory/audit bodies. In
+        case of a dispute, data can be made available to a court. If
+        international sanctions apply, data can be made available to the
+        Financial Intelligence Unit or any other competent authority.
+
+    5.  For issues not regulated in this section, the Contracting
+        Authority follows its privacy policy published on its website
+        (https://ega.ee/privacy-policy/).
+
+13. Timelines for the submission of tender proposals
+
+Tender proposals shall be submitted not later than on 03.12.2025 at
+12:00 Kyiv time (EET).
+
+Tender proposals will be opened in electronic form in the еPPR on
+03.12.2025 starting from 13:00 Kyiv time (EET).
+
+14. Contact data of the Contracting Authority
+
+Technical issues: Serhii Karelin, serhii.karelin@ega.ee
+
+Tender procedures: Kadi Karus, kadi.karus@ega.ee
+
+All questions concerning this procurement shall be submitted via the
+ePPR system using the “Information Exchange” function. Answers to all
+questions can be viewed by all potential tenderers.
+
+15. Annexes
+
+Annex 1 “Technical Requirements” (with an unofficial translation into
+Ukrainian).
+
+Annex 2 “Draft Procurement Contract” (with an unofficial translation
+into Ukrainian).
+
+Annex 3 “Application Form” (with an unofficial translation into
+Ukrainian).
+
+[1] In accordance with Article 3 of the Framework Agreement between the
+Government of Ukraine and the Commission of the European Communities of
+12 December 2006 (ratified by the Law of Ukraine of 03 September 2008
+No. 360-VI): "Measures financed in whole or in part by the Community
+shall not be subject to taxes, duties or other charges of a similar
+nature".
+
+[2] In accordance with Article 3 of the Framework Agreement between the
+Government of Ukraine and the Commission of the European Communities of
+12 December 2006 (ratified by the Law of Ukraine of 03 September 2008
+No. 360-VI): "Measures financed in whole or in part by the Community
+shall not be subject to taxes, duties or other charges of a similar
+nature".

@@ -1,0 +1,2355 @@
+Annex 2 to the Tender Specifications
+
+Додаток 2 до Тендерних вимог
+
++-----------------------------------+----------------------------------+
+| Contract                          |   ДОГОВІР                        |
+|                                   |                                  |
+| No.____                           |   №___                           |
++-----------------------------------+----------------------------------+
+| Kyiv ______ 202_                  | Київ «__»_______ 202___          |
+|                                   |                                  |
+|                                   | /Неофіційний переклад/           |
++-----------------------------------+----------------------------------+
+| This contract is made by and      |   Договір укладено між           |
+| between the e-Governance Academy  |   Неурядовою організацією        |
+| (in Estonian: E-riigi Akadeemia   |   Академія електронного          |
+| Sihtasutus) (reg. No.90007000;    |   управління (Естонською мовою - |
+| Ahtri 6, 10151 Tallinn, Estonia), |   E-riigi Akadeemia Sihtasutus)  |
+| represented by Hannes Astok,      |   (р. №90007000; Ахтрі 6, 10151  |
+| Chairman of the Management Board, |   Таллінн, Естонія) в особі      |
+| hereinafter referred to as the    |   Голови правління Ханнеса       |
+| “Contracting Authority”,          |   Астока, далі - «Замовник»,     |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Zhytomyr Regional State           |   Житомирською обласною          |
+| Administration (Zhytomyr Regional |   державною адміністрацією       |
+| Military Administration) (EDRPOU  |   (Житомирською обласною         |
+| code 00022489), located at the    |   військовою адміністрацією)     |
+| address: S.P. Korolev Square,     |   (код ЄДРПОУ 00022489), яка     |
+| building 1, Zhytomyr, 10014,      |   знаходиться за адресою: майдан |
+| represented by the Head of the    |   ім. С.П. Корольова, буд. 1, м. |
+| Regional State (Military)         |   Житомир, 10014, в особі голови |
+| Administration, Vitaliy Ivanovych |   обласної державної             |
+| Bunechko, acting on the basis of  |   (військової) адміністрації     |
+| the Law of Ukraine “On Local      |   Бунечка Віталія Івановича,     |
+| State Administrations”, the Law   |   який діє на підставі Закону    |
+| of Ukraine “On the Legal Regime   |   України «Про місцеві державні  |
+| of Martial Law”, the Decree of    |   адміністрації», Закону України |
+| the President of Ukraine “On the  |   «Про правовий режим воєнного   |
+| Formation of Military             |   стану», Указу Президента       |
+| Administrations” dated 02/24/2022 |   України «Про утворення         |
+| No. 68/2022, hereinafter referred |   військових адміністрацій» від  |
+| to as the " Beneficiary,          |   24.02.2022 № 68/2022, далі –   |
+|                                   |   «Бенефіціар»,                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| [Indicate the name of the legal   | [Зазначити найменування          |
+| entity, its EDRPOU code and       | юридичної особи, її код ЄДРПОУ   |
+| address], represented by          | та адресу], в особі [зазначити   |
+| [indicate the position of the     | посаду особи підписанти та її    |
+| signatory and her/his surname,    | ПІБ], який(а) діє на підставі    |
+| name, patronymic] acting on the   | Статуту [або зазначити інший     |
+| basis of the Charter [or indicate | документ яким надано             |
+| another document authorizing to   | повноваження на підписання       |
+| sign this Contract], hereinafter  | даного Договору] далі            |
+| referred to as the “Contractor”,  | «Виконавець»,                    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| hereinafter collectively referred | В подальшому разом – «Сторони»,  |
+| to as the “Parties” or            | а кожна окремо – «Сторона»       |
+| individually as a “Party” have    | уклали цей договір на надання    |
+| signed this contract for the      | послуг з розробки програмної     |
+| provision of services for         | платформи для розробки місцевих  |
+| development of a software         | публічних послуг (далі –         |
+| platform for the development of   | Договір) про таке:               |
+| local public services             |                                  |
+| (hereinafter referred to as the   |                                  |
+| “Contract”) and agreed as         |                                  |
+| follows:                          |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Definitions and acronyms used in  | Визначення та скорочення які     |
+| the Contract                      | вживаються в Договорі            |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Tender documentation –            | Тендерна документація –          |
+| documentation (including annexes) | документація (в тому числі       |
+| prepared by the Contracting       | додатки), що підготовлена        |
+| Authority and posted on any       | Замовником та розміщена на       |
+| resource available to the         | будь-якому доступному для        |
+| participants of the procurement   | учасників закупівлі (тендеру)    |
+| (tender). It is purposed to be    | ресурсі. Призначена для          |
+| read by an unlimited number of    | ознайомлення з нею необмеженого  |
+| parties so they prepare proposals | колу осіб та підготовки ними     |
+| regarding the procurement subject | тендерних пропозицій відносно    |
+| specified by the Contracting      | предмету закупівлі визначеного   |
+| Authority. The tender             | Замовником. Тендерна             |
+| documentation may include a       | документація може включати в     |
+| different set of documents with   | себе різний набір документів і   |
+| all of them being mandatory for   | всі вони є обов’язковими для     |
+| the Contractor. By taking part in | Виконавця. Виконавець в свою     |
+| the tender (procurement), the     | чергу, приймаючи участь в        |
+| Contractor confirms that it has   | тендері (закупівлі),             |
+| read and completely understands   | підтверджує, що він ознайомився  |
+| the content of such               | та йому цілком та повністю       |
+| documentation.                    | зрозумілий зміст такої           |
+|                                   | документації.                    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Tender specifications –           | Тендерні вимоги – визначені      |
+| parameters, specifications and    | Замовником параметри,            |
+| any other significant criteria    | характеристики та будь-які інші  |
+| set by the Contracting Authority  | істотні критерії, яким повинен   |
+| that the Contractor shall meet.   | відповідати Виконавець та        |
+| They also refer to the results    | результати отримані в процесі    |
+| achieved during the fulfilment of | виконання даного Договору, а     |
+| this Contract as well as the      | також інформація щодо            |
+| information concerning the        | особливостей проведення          |
+| specifics of the procurement      | закупівлі відповідно до вимог    |
+| process in accordance with the    | тендерної документації.          |
+| tender documents.                 |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Terms of reference – a document   | Технічне завдання – документ,    |
+| prepared in accordance with       | складений з урахуванням вимог    |
+| national standards, norms, and    | національних і чинних в Україні  |
+| regulations of Ukraine as well as | міжнародних стандартів, норм та  |
+| international standards, norms,   | регламентів, який визначає мету, |
+| and regulations that are valid in | підстави, призначення, вимоги,   |
+| Ukraine. This document determines | які необхідні для                |
+| the goal, reasons, purpose,       | розроблення/створення (розвитку  |
+| requirements for the              | або модернізації) програмного    |
+| design/creation (development or   | продукту, програмного            |
+| modernization) of a software      | забезпечення (в тому числі       |
+| product, software (including      | модернізованого), модулів,       |
+| modernized software), modules, an | застосунку, або                  |
+| application or an information and | інформаційно-комунікаційної      |
+| communication system (hereinafter | системи (далі – ПЗ), містить     |
+| referred to as the “Software”).   | технічні, якісні, функціональні  |
+| It contains technical, quality,   | характеристики та перелік робіт, |
+| functional specifications and the | необхідних для                   |
+| list of the works required to     | розроблення/створення (розвитку  |
+| design/create (develop or         | або модернізації) ПЗ, а також    |
+| modernize) the Software as well   | стадії та етапи його розробки.   |
+| as the phases and stages of the   |                                  |
+| development works.                |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Technical support under this      | Технічна підтримка в рамках      |
+| Contract is referred to as a set  | даного Договору вживається у     |
+| of organisational and technical   | наступному значенні – це         |
+| measures taken by the Contractor  | комплекс організаційних і        |
+| to:                               | технічних заходів, вчинених      |
+|                                   | Виконавцем щодо:                 |
+|   • deploy the Software on the    |                                  |
+|   Beneficiarys equipment (or on   | -   розгортання ПЗ на обладнанні |
+|   any other equipment to be       |     Бенефіціара (або на          |
+|   determined by the Beneficiary); |     будь-якому іншому обладнанні |
+|                                   |     що буде визначено            |
+|   • set up the respective         |     Бенефіціара);                |
+|   equipment and the server        |                                  |
+|   software installed on it;       | -   налаштування відповідного    |
+|                                   |     обладнання і серверного      |
+|   • ensure fault resilience,      |     програмного забезпечення     |
+|   backup copying, Software        |     встановленого на ньому;      |
+|   recovery in case of failure;    |                                  |
+|                                   | -   забезпечення                 |
+|   • carry out maintenance and     |     відмовостійкості, резервного |
+|   preventive measures in the      |     копіювання, відновлення ПЗ у |
+|   Software and server             |     разі збою;                   |
+|   environment;                    |                                  |
+|                                   | -   проведення регламентних та   |
+|   • monitor the Software          |     профілактичних заходів на ПЗ |
+|   performance and its recovery;   |     та серверному оточенні;      |
+|                                   |                                  |
+|   • consult on the Software       | -   моніторинг працездатності ПЗ |
+|   functioning and functionality.  |     та його відновлення;         |
+|                                   |                                  |
+| The response time for incidents   | -   консультування щодо          |
+| relevant for Technical Support    |     функціонування та            |
+| shall not exceed 24 hours, the    |     функціоналу ПЗ.              |
+| response time in critical cases   |                                  |
+| (defined as such by the           | Час реакції на інциденти що      |
+| Beneficiary) shall not exceed 30  | стосуються Технічної підтримки   |
+| minutes.                          | не мають перевищувати 24 годин,  |
+|                                   | а в критичних випадках (які      |
+|                                   | визначаються такими              |
+|                                   | Бенефіціаром) – не мають         |
+|                                   | перевищувати 30 хвилин.          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 1. The Contract                   | 1. Договір                       |
++-----------------------------------+----------------------------------+
+| 1.1. This Contract is deemed to   | 1.1 Підставою для укладення      |
+| be based on the results of the    | цього Договору вважаються        |
+| procurement procedure in          | результати процедури закупівель  |
+| accordance with the Contract      | згідно з Повідомленням про намір |
+| Notice, the Tender Specifications | укласти Договір, Тендерними      |
+| for the procurement of services   | вимогами до закупівлі послуг з   |
+| for development of a software     | розробки програмної платформи    |
+| platform for the development of   | для розробки місцевих публічних  |
+| local public services             | послуг (номер закупівлі:         |
+| (procurement procedure No.:       | ________), відповідними          |
+| ________), its Annexes and the    | Додатками та Тендерною           |
+| Tender Proposal of the            | пропозицією Виконавця. У випадку |
+| Contractor. If any contradictions | виявлення будь-яких              |
+| are detected in the documents     | суперечностей у документах, що   |
+| accompanying the procurement      | супроводжують процедуру          |
+| procedure (tender procedure),     | закупівлі (тендерну процедуру),  |
+| which results in disagreement     | і як наслідок виникнення         |
+| between the Parties, the          | розбіжностей між Сторонами,      |
+| documents directly related to the | документи, які безпосередньо     |
+| Contract shall apply in the       | пов'язані з Договором,           |
+| following hierarchical order:     | застосовуватимуться у наступній  |
+|                                   | ієрархічній послідовності:       |
++-----------------------------------+----------------------------------+
+| -   Contract Notice;              | -   Повідомлення про намір       |
+|                                   |     укласти договір;             |
+| -   Tender documents with         |                                  |
+|     annexes;                      | -   Тендерна документація з      |
+|                                   |     додатками;                   |
+| -   This Contract;                |                                  |
+|                                   | -   Цей Договір;                 |
+| -   Tender Proposal of the        |                                  |
+|     Contractor.                   | -   Тендерна пропозиція          |
+|                                   |     Виконавця.                   |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 1.2. Except with the prior        | 1.2. Виконавець не може          |
+| written consent of the            | передоручати будь-кому обов`язки |
+| Contracting Authority and the     | щодо виконання умов цього        |
+| Beneficiary, the Contractor may   | Договору або будь-якої його      |
+| not delegate the obligations to   | частини, також не може залучати  |
+| execute this Contract or any part | інших осіб у якості              |
+| thereof to any third party, nor   | субвиконавців для виконання      |
+| may the Contractor engage         | своїх обов'язків за цим          |
+| subcontractors for the            | Договором, за винятком випадків  |
+| performance of its duties         | попередньої письмової згоди      |
+| hereunder.                        | Замовника та Бенефіціара.        |
+|                                   |                                  |
+| 1.3. The Parties hereby agree     | 1.3. Сторони цим досягли згоди,  |
+| that at any time during the term  | що у будь-який момент дії        |
+| of the Contract, they may sign an | Договору, вони можуть підписати  |
+| additional agreement to it, which | додаткову угоду до нього, якою   |
+| will add another party to this    | буде додано ще одну сторону до   |
+| Contract- namely the Recipient.   | цього Договору - а саме          |
+| Such Recipient will have rights   | Реципієнта. Такий Реципієнт      |
+| under the Сontract similar to     | матиме права за Договором        |
+| those of the Beneficiary under    | аналогічні тим які має           |
+| this Contract.                    | Бенефіціар за цим Договором.     |
+|                                   |                                  |
+| By signing an additional          | Реципієнт шляхом підписанням     |
+| agreement to this Contract, the   | додаткової угоди до цього        |
+| Recipient unconditionally adheres | Договору беззастережно           |
+| to its terms and conditions and   | приєднується до його умов і      |
+| is obliged to comply with all     | зобов’язаний дотримуватись всіх  |
+| restrictions, reservations and    | обмежень, застережень та         |
+| obligations established by the    | обов’язків встановлених цим      |
+| Contract and the additional       | Договором та додатковою угодою.  |
+| agreement.                        |                                  |
+|                                   | Замовник зобов’язаний вжити всіх |
+| The Contracting Authority is      | необхідних для того              |
+| obliged to take all necessary     | процесуальних дій для набуття    |
+| procedural actions for the future | майбутнім Реципієнтом за         |
+| Recipient under the Contract to   | Договором статусу реципієнта в   |
+| acquire the status of a recipient | розумінні чинного законодавства  |
+| within the meaning of the current | України, до моменту підписання   |
+| legislation of Ukraine, by the    | додаткової угоди.                |
+| time of signing the additional    |                                  |
+| agreement.                        |                                  |
++-----------------------------------+----------------------------------+
+| 2. Subject of the Contract        | 2. Предмет Договору              |
++-----------------------------------+----------------------------------+
+| 2.1. The Contractor commissioned  | 2.1. Виконавець зобов’язується   |
+| by the Contracting Authority      | за завданням Замовника надати    |
+| shall provide services for        | послуги з розробки програмної    |
+| development of a software         | платформи для розробки місцевих  |
+| platform for the development of   | публічних послуг, у тому числі   |
+| local public services, which also | із наданням Гарантійної          |
+| includes Warranty service as per  | підтримки в порядку, визначеному |
+| section 14 of this Contract       | розділом 14 цього Договору       |
+| (hereinafter referred to as the   | (далі - Послуги), а Замовник     |
+| “Services”). The Contracting      | зобов’язується прийняти і        |
+| Authority shall accept and pay    | оплатити такі Послуги.           |
+| these Services.                   |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 2.2. The Contracting Authority    | 2.2. Замовник замовляє та        |
+| orders and pays for the Services  | оплачує Послуги за цим Договором |
+| under this Contract for the       | в інтересах та на користь        |
+| interest and benefit of the       | Бенефіціара. Послуги             |
+| Beneficiary. The Services are     | фінансуються з бюджету проекту   |
+| financed from the budget of the   | EstDev.                          |
+| EstDev project.                   |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 2.3. The list and content of the  | 2.3. Перелік та зміст Послуг,    |
+| Services as well as their         | етапи, строки та результати їх   |
+| delivery stages, timelines and    | надання, технічні та інші вимоги |
+| results, technical and other      | до предмету Договору,            |
+| requirements concerning the       | визначаються Технічними вимогами |
+| subject of the Contract are       | (Додаток 1 до Тендерних вимог),  |
+| specified in the Technical        | Календарним планом надання       |
+| Requirements (Annex 1 to the      | послуг (Додаток 1 до Договору).  |
+| Tender Specifications) and the    |                                  |
+| Service Delivery Schedule         |                                  |
+| (paragraph 1 of the Technical     |                                  |
+| Requirements).                    |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 2.4. The Parties acknowledge that | 2.4. Сторони визнають, що        |
+| the exclusive intellectual        | виключні майнові права           |
+| property rights to all Software   | інтелектуальної власності на     |
+| and any other objects resulting   | усі(е) ПЗ та на будь-які інші    |
+| from the Services provided under  | об’єкти, створені за             |
+| this Contract belong to the       | результатами надання Послуг за   |
+| Beneficiary that possesses, uses  | цим Договором належать           |
+| and disposes of the results of    | Бенефіціару, який на свій розсуд |
+| Service delivery at its own       | володіє, користується і          |
+| discretion and in accordance with | розпоряджається результатами     |
+| its tasks and functions           | наданих Послуг, відповідно до    |
+| determined by the relevant        | своїх завдань і функцій,         |
+| regulations.                      | визначених відповідними          |
+|                                   | нормативно-правовими актами.     |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3. Rights and duties of the       | 3. Права та обов`язки Сторін     |
+| Parties                           |                                  |
+|                                   | 3.1. Виконавець зобов'язується:  |
+| 3.1. The Contractor shall:        |                                  |
++-----------------------------------+----------------------------------+
+| 3.1.1. provide Services of proper | 3.1.1. надавати Послуги належної |
+| quality in accordance with the    | якості відповідно до Технічної   |
+| Technical Requirements, the       | специфікації, Календарного плану |
+| Service Delivery Schedule, and    | та умов цього Договору;          |
+| this Contract;                    |                                  |
++-----------------------------------+----------------------------------+
+| 3.1.2. grant the Contracting      | 3.1.2. надавати Замовнику та     |
+| Authority and the Beneficiary     | Бенефіару доступ до результатів  |
+| access to the results of Service  | Послуг;                          |
+| delivery;                         |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.1.3. inform the Contracting     | 3.1.3. на вимогу Замовника       |
+| Authority and the Beneficiary on  | та/або Бенефіціара інформувати   |
+| the progress of Service delivery  | їх про хід надання Послуг;       |
+| at the Contracting Authority’s    |                                  |
+| and/or the Recipient’s request;   |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.1.4. use all materials and      | 3.1.4. використовувати всі       |
+| information received from the     | отримані від Замовника та        |
+| Contracting Authority and the     | Бенефіціара матеріали та         |
+| Beneficiary solely for the        | інформацію виключно для надання  |
+| purpose of Service delivery under | Послуг за цим Договором;         |
+| this Contract;                    |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.  ensure that the Service and   | 3.1.5. забезпечити доступність   |
+|     all related components remain | Послуг та всіх пов'язаних з ним  |
+|     accessible throughout the     | компонентів протягом усього      |
+|     term of the Contract;         | терміну дії Договору;            |
+|                                   |                                  |
+| 6.  cooperate with the            | 3.1.6. співпрацювати з           |
+|     Contracting Authority in      | Замовником у моніторингу стану   |
+|     monitoring accessibility      | доступності;                     |
+|     performance;                  |                                  |
+|                                   | 3.1.7. надати документоване      |
+| 7.  provide documented            | обґрунтування, якщо повне        |
+|     justification, if full        | дотримання вимоги доступності    |
+|     compliance with an            | накладе непропорційне            |
+|     accessibility requirement     | навантаження або суттєво змінить |
+|     would impose a                | Послугу, та запропонувати        |
+|     disproportionate burden or    | альтернативні заходи, що         |
+|     fundamentally alter the       | забезпечують еквівалентний       |
+|     Service and propose           | доступ, де це можливо;           |
+|     alternative measures ensuring |                                  |
+|     equivalent access where       | 3.1.8. проводити тестування      |
+|     possible;                     | доступності на запит Замовника   |
+|                                   | або Бенефіціара.                 |
+| 8.  conduct accessibility testing |                                  |
+|     at the request of the         |                                  |
+|     Contracting Authority or      |                                  |
+|     Beneficiary.                  |                                  |
++-----------------------------------+----------------------------------+
+| 9.  take all necessary measures   | 3.1.9. вживати всіх необхідних   |
+|     to prevent, detect, and       | заходів для запобігання,         |
+|     report fraud, corruption,     | виявлення та повідомлення про    |
+|     conflicts of interest, and    | шахрайство, корупцію, конфлікт   |
+|     other irregularities. These   | інтересів та інші порушення. Ці  |
+|     obligations extend to all     | зобов'язання поширюються на всіх |
+|     subcontractors, consortium    | субпідрядників, членів           |
+|     members, and other entities   | консорціуму та інші організації, |
+|     involved in the performance   | залучені до виконання цього      |
+|     of this Contract.             | Договору.                        |
++-----------------------------------+----------------------------------+
+| 3.2. The Beneficiary shall:       | 3.2. Бенефіціар зобов’язується:  |
+|                                   |                                  |
+| 3.2.1. participate in the         | 3.2.1. приймати участь в         |
+| preparation of the Terms of       | підготовці Технічного завдання   |
+| Reference for the Services, agree | на надання Послуг та у           |
+| and approve them;                 | подальшому погодити та           |
+|                                   | затвердити його;                 |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.2.2. organise the acceptance    | 3.2.2. організувати проведення   |
+| testing and trial operation of    | приймальних випробувань та       |
+| the Software.                     | дослідної експлуатації ПЗ.       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.2.3. accept the results of      | 3.2.3. прийняти від Виконавця    |
+| Service delivery stages,          | результати етапів Послуг,        |
+| proprietary intellectual property | майнові права інтелектуальної    |
+| rights to the results of the      | власності на результат надання   |
+| Services delivery from the        | Послуг, після успішного          |
+| Contractor following the          | проходження тестування           |
+| successful completion of the      | (випробувань) ПЗ та              |
+| testing (trial) of the Software   | документації.                    |
+| and documentation.                |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.3. The Contractor is entitled:  | 3.3. Виконавець має право:       |
+|                                   |                                  |
+| 3.3.1. to receive timely and full | 3.3.1. на своєчасну і повну      |
+| payment for the properly          | оплату належним чином наданих    |
+| delivered Services;               | Послуг;                          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.3.2. to obtain information from | 3.3.2. на отримання інформації   |
+| the Contracting Authority and/or  | від Замовника та/або Бенефіціар  |
+| the Beneficiary required for the  | для надання Послуг в рамках      |
+| delivery of the Services under    | цього Договору.                  |
+| this Contract.                    |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.4. The Contracting Authority is | 3.4. Замовник має право:         |
+| entitled:                         |                                  |
+|                                   | 3.4.1. отримувати повний доступ  |
+| 3.4.1. to have unlimited access   | до результатів Послуг;           |
+| to the results of Service         |                                  |
+| delivery;                         |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.4.2. to receive Services of     | 3.4.2. to receive Services of    |
+| proper quality;                   | proper quality;                  |
++-----------------------------------+----------------------------------+
+| 3.4.3. set up commissions to      | 3.4.3. створювати комісії для    |
+| organise the acceptance of the    | організації приймання етапів     |
+| Service delivery stages, conduct  | надання послуг, проводити        |
+| acceptance tests;                 | приймальні випробування.         |
+|                                   |                                  |
+| 3.4.4. to ask the Contractor for  | 3.4.4. запитувати у Виконавця    |
+| information on the progress of    | інформацію про хід надання       |
+| Service delivery at the           | Послуг на відповідному етапі.    |
+| respective stage.                 |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.5. The Beneficiary is entitled: | 3.5. Бенефіціар має права:       |
+|                                   |                                  |
+| 3.5.1. to have unlimited access   | 3.5.1. отримувати повний доступ  |
+| to the results of Service         | до результатів Послуг;           |
+| delivery;                         |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.5.2. to receive Services of     | 3.5.2. отримувати Послуги        |
+| proper quality;                   | належної якості;                 |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.5.3. to ask the Contractor for  | 3.5.3. запитувати у Виконавця    |
+| information on the progress of    | інформацію про хід виконання     |
+| service delivery at the           | відповідних етапів надання       |
+| respective stage.                 | Послуг.                          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.5.4. set up commissions to      | 3.5.4. створювати комісії для    |
+| organise the acceptance of the    | організації приймання етапів     |
+| Service delivery stages, conduct  | Послуг, проводити приймальні     |
+| acceptance tests.                 | випробування.                    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 3.6. The Contracting Authority    | 3.6. Замовник зобов'язується:    |
+| shall:                            |                                  |
++-----------------------------------+----------------------------------+
+| 3.6.1. accept the Services and    | 3.6.1. приймати Послуги та       |
+| pay for the Services provided by  | своєчасно і в повному обсязі     |
+| the Contractor in a timely and    | оплачувати належним чином надані |
+| full manner.                      | Виконавцем Послуги.              |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4. The procedure for providing    | 4. Порядок надання Послуг та їх  |
+| services and transfer thereof     | передача                         |
++-----------------------------------+----------------------------------+
+| 4.1. The Services under this      | 4.1. Послуги за цим Договором    |
+| Contract shall be provided within | надаються протягом 4 місяців з   |
+| 4 months after the signing of     | дати підписання цього Договору,  |
+| this Contract, but no later than  | з подальшим порядком прийняття   |
+| 31.03.2026, followed with the     | Послуг Бенефіціаром та           |
+| activities by the Beneficiary and | Замовником.                      |
+| Contracting Authority according   |                                  |
+| to acceptance of the Services.    |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.2. Location of service          | 4.2. Місце надання послуг:       |
+| delivery: Ukraine, premises named | Україна, приміщення, визначене   |
+| by the Beneficiary and/or         | Бенефіціаром та/або дистанційно  |
+| remotely from the Contractor’s    | за місцем базування Виконавця,   |
+| location, if possible due to the  | коли це передбачається           |
+| nature and technological          | характером та технологічними     |
+| possibilities of the Service      | можливостями надання Послуг.     |
+| delivery.                         |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.3. The Services under this      | 4.3. Послуги за цим Договором    |
+| Contract shall be provided in     | надаються у відповідності з      |
+| accordance with the documentation | документацією, зазначеною у п.   |
+| specified in paragraph 1.1. of    | 1.1. цього Договору.             |
+| this Contract.                    |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.4. The Services under this      | 4.4. Послуги за цим Договором    |
+| Contract shall be provided by the | надаються Виконавцем поетапно    |
+| Contractor in stages according to | відповідно до п.2.3 цього        |
+| paragraph 2.3. of this Contract.  | Договору.                        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.5. Upon completion of service   | 4.5. Після завершення надання    |
+| delivery by the Contractor at the | Виконавцем Послуг за відповідним |
+| respective stage of the Schedule  | етапом Календарного плану (а в   |
+| of service delivery (and in some  | окремих випадках також за умови  |
+| cases also subject to positive    | позитивного завершення           |
+| completion of the acceptance      | приймальних випробувань та/або   |
+| trial and/or testing with the     | тестування за участю             |
+| participation of the Beneficiary, | Бенефіціара, що підтверджується  |
+| as confirmed by the documents     | документами, передбаченими       |
+| stipulated in the Service         | Календарним планом – якщо такий  |
+| Delivery Schedule – if such a     | етап передбачає попередні        |
+| stage involves a preliminary      | випробування та/або тестування)  |
+| trial and/or testing), the        | Виконавець протягом 5 (п’яти)    |
+| Contractor shall within 5 (five)  | робочих днів підписує та         |
+| working days sign and send for    | надсилає на підписання           |
+| signing to the Beneficiary 3      | Бенефіціару 3 (три) примірники   |
+| (three) copies of the respective  | відповідного Акту                |
+| Service Transfer and Acceptance   | приймання-передачі наданих       |
+| Certificate (hereinafter - the    | послуг (далі – Акт) за           |
+| Certificate) for the respective   | відповідним етапом Календарного  |
+| stage of the Service Delivery     | плану та передає результати      |
+| Schedule and deliver the results  | наданих Послуг, передбачені      |
+| of provided services specified in | Календарним планом і Технічною   |
+| the Service Delivery Schedule and | специфікацією. Одночасно         |
+| the Technical Requirements. At    | Виконавець надсилає Замовнику    |
+| the same time, the Contractor     | лист-повідомлення про початок    |
+| shall send to the Contracting     | процедури приймання та передачі  |
+| Authority the letter of           | Послуг.                          |
+| notification on the beginning of  |                                  |
+| the Service acceptance and        |                                  |
+| delivery procedure.               |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.6. Within 7 (seven) working     | 4.6. Бенефіціар протягом 7       |
+| days after the receipt of 3       | (семи) робочих днів з дня        |
+| (three) copies of the Certificate | отримання, згідно з пунктом 4.5  |
+| for the respective stage of the   | цього Договору, 3 (трьох)        |
+| Service Delivery Schedule in      | примірників Акту за відповідним  |
+| accordance with paragraph 4.5 of  | етапом Календарного плану,       |
+| this Contract, the Beneficiary    | підписує всі примірники Акту за  |
+| shall sign all copies of the      | відповідним етапом Календарного  |
+| Certificate for the respective    | плану та надсилає їх разом з     |
+| stage of the Service Delivery     | результатами наданих Послуг,     |
+| Schedule and send them together   | передбачених Календарним планом, |
+| with the results of the provided  | на подальше погодження та        |
+| Services specified in the Service | підписання Замовнику, або у разі |
+| Delivery Schedule for further     | виявлення недоліків якості       |
+| approval and signing to the       | Послуг за відповідним етапом     |
+| Contracting Authority. If the     | повертає їх Виконавцю разом з    |
+| Services at the respective stage  | письмовою вмотивованою відмовою  |
+| are found to have quality         | від підпису примірників Акту за  |
+| defects, the Recipient returns    | відповідним етапом Календарного  |
+| the Certificates to the           | плану, яка має містити вичерпний |
+| Contractor with a written         | перелік зауважень, та в          |
+| reasoned refusal to sign the      | електронному вигляді надсилає    |
+| Certificate for the respective    | Замовнику копії цих документів   |
+| stage of the Service Delivery     | щодо відмови.                    |
+| Schedule. This refusal shall      |                                  |
+| contain an exhaustive list of     |                                  |
+| critical comments. The electronic |                                  |
+| copies of these documents         |                                  |
+| concerning the refusal shall be   |                                  |
+| sent to the Contracting           |                                  |
+| Authority.                        |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.7. Within 7 (seven) working     |   4.7. Замовник протягом 7       |
+| days after the receipt of the     |   (семи) робочих днів з дня      |
+| relevant documents specified in   |   отримання, згідно з пунктом    |
+| the Service Delivery Schedule as  |   4.6. цього Договору,           |
+| per 4.6. of this Contract, the    |   відповідних документів,        |
+| Contracting Authority shall       |   передбачених Календарним       |
+| approve and sign 3 (three) copies |   планом, погоджує та підписує   |
+| of the Certificates for the       |   підписані Виконавцем та        |
+| respective stage of the Service   |   Бенефіціаром 3 (три)           |
+| Delivery Schedule signed by the   |   примірники Акту за відповідним |
+| Contractor and Beneficiary and    |   етапом Календарного плану, та  |
+| send one copy of this Certificate |   забезпечує направлення по      |
+| to the Contractor and the         |   одному примірнику цього Акту   |
+| Beneficiary respectively.         |   Виконавцю та Бенефіціару.      |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| If defects are detected in the    |   У разі виявлення недоліків у   |
+| Services delivered at the         |   наданих Послугах за            |
+| respective stage of the Service   |   відповідним етапом             |
+| Delivery Schedule, the            |   Календарного плану, Замовник   |
+| Contracting Authority can return  |   має право повернути отримані   |
+| the received documents to the     |   документи Виконавцеві разом з  |
+| Contractor along with a written   |   письмовою вмотивованою         |
+| reasoned refusal to sign them for |   відмовою у їх підписанні за    |
+| the respective stage of the       |   відповідним етапом             |
+| Service Delivery Schedule. This   |   Календарного плану, яка має    |
+| refusal shall contain an          |   містити вичерпний перелік      |
+| exhaustive list of critical       |   зауважень, та в електронному   |
+| comments. The electronic copies   |   вигляді надсилає Бенефіціару   |
+| of these documents concerning the |   копії цих документів щодо      |
+| refusal shall be sent to the      |   відмови.                       |
+| Beneficiary.                      |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.8. If the Contractor receives a | 4.8. Виконавець в разі отримання |
+| reasoned refusal from the         | від Бенефіціара або Замовника    |
+| Beneficiary or the Contracting    | згідно з пунктами 4.6. або 4.7.  |
+| Authority to approve and to sign  | цього Договору вмотивованої      |
+| the Certificate for the           | відмови від погодження та        |
+| respective stage of the Service   | підписання примірників Акту за   |
+| Delivery Schedule as per 4.6 or   | відповідним етапом Календарного  |
+| 4.7 of this Contract, the         | плану, у строк 5 (п’ять) робочих |
+| Contractor shall remedy the       | днів усуває недоліки та надсилає |
+| respective defects within 5       | Бенефіціару виправлені           |
+| (five) working days and send the  | документи, зазначені у пункті    |
+| corrected documents specified in  | 4.5. цього Договору, а           |
+| 4.5. of this Contract to the      | Бенефіціар та Замовник виконують |
+| Beneficiary. The Beneficiary and  | відповідно дії згідно з пунктами |
+| the Contracting Authority shall   | 4.6.-4.7. цього Договору.        |
+| act in accordance with paragraphs |                                  |
+| 4.6.- 4.7. of this Contract.      |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 4.9. The Contracting Authority    | 4.9. Замовник виходить з того,   |
+| assumes that the Contractor is a  | що Виконавець є професіоналом у  |
+| professional in the field of      | сфері послуг з розробки          |
+| services for development of a     | програмної платформи, який       |
+| software platform who understands | розуміє та свідомо бере на себе  |
+| and knowingly takes the risk of   | ризик виконання та досягнення    |
+| the requirements being met and    | вимог. Отже, на Виконавця також  |
+| achievable. Therefore, the        | поширюється обов'язок виконати   |
+| Contractor shall also be subject  | таку послугу, яка прямо не       |
+| to the obligation to provide a    | узгоджена в Договорі, але яка за |
+| service that is not explicitly    | своїм характером є частиною      |
+| agreed in the Contract, but poses | Послуг, пов'язаних з Договором,  |
+| an element of the Services        | і повинна була передбачатися     |
+| related to the Contract due to    | професійним підрядником і є      |
+| its nature and should have been   | необхідною для виконання         |
+| foreseen by a professional        | Договору. У разі відсутності     |
+| contractor and is necessary for   | будь-якої іншої письмової згоди  |
+| the execution of the Contract. In | Сторін, послуга, зазначена в     |
+| the absence of any other written  | попередньому реченні цього       |
+| agreement by the Parties, the     | пункту Договору, не              |
+| service mentioned in the previous | винагороджується окремо і        |
+| sentence of this paragraph of the | виконується Виконавцем під час   |
+| Contract shall not be remunerated | виконання Договору на основі     |
+| separately and shall be provided  | запиту/вимоги Замовника або      |
+| by the Contractor in the course   | Бенефіціара.                     |
+| of the Contract execution based   |                                  |
+| on the request/requirement of the | 4.10. Виконавець повинен         |
+| Contracting Authority or          | забезпечити, щоб усі Послуги, що |
+| Beneficiary.                      | надаються за цим Договором, були |
+|                                   | доступними в обґрунтовано        |
+| 4.10. The Contractor shall ensure | досяжному обсязі, щоб їх могли   |
+| that all services provided under  | ефективно використовувати особи  |
+| this Contract are accessible to   | з різними можливостями. Будь-які |
+| the extent reasonably achievable, | компоненти програмного           |
+| so that they can be used          | забезпечення, скрипти,           |
+| effectively by persons with       | інтеграції або документація,     |
+| different abilities. Any software | спеціально розроблені для        |
+| components, scripts,              | Договору, повинні бути           |
+| integrations, or documentation    | розроблені та надані відповідно  |
+| specifically developed for the    | до тих самих принципів           |
+| Contract shall be designed and    | доступності, що й у цьому        |
+| delivered in accordance with the  | пункті. Усі посібники            |
+| same accessibility principles set | користувача, посібники з         |
+| out in this Clause. All user      | встановлення та довідкові        |
+| manuals, installation guides, and | матеріали повинні бути надані в  |
+| help materials shall be provided  | доступних форматах. Канали       |
+| in accessible formats. Support    | підтримки, що надаються за       |
+| channels provided under the       | Договором, повинні бути          |
+| Contract shall be usable with     | придатними для використання з    |
+| assistive technologies. Where     | допоміжними технологіями. Якщо   |
+| strict compliance with            | суворе дотримання стандартів     |
+| accessibility standards is        | доступності технічно неможливе   |
+| technically not feasible due to   | через притаманну природу         |
+| the inherent nature of the        | поставленого комерційного        |
+| commercial software supplied, the | програмного забезпечення,        |
+| Contractor shall: (i) provide     | Виконавець повинен: (i) надати   |
+| written justification of the      | письмове обґрунтування           |
+| limitation; and (ii) propose      | обмеження; та (ii) запропонувати |
+| reasonable alternative measures   | розумні альтернативні заходи для |
+| to ensure that the Contracting    | забезпечення того, щоб Замовник  |
+| Authority can still achieve the   | все ще міг досягти цільової мети |
+| intended purpose of the Contract. | Договору.                        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5. Service price and payment      |   5. Ціна Послуг і порядок їх    |
+| procedure                         |   оплати                         |
+|                                   |                                  |
+| 5.1 The price of the Contract is: | 5.1. Вартість Договору складає:  |
+| EUR ____ (including all other     | ____ Євро (включаючи всі інші    |
+| relevant taxes, except VAT or VAT | відповідні податки, крім ПДВ або |
+| and any other taxes not included, | не враховуючи ПДВ та будь-які    |
+| accordance with Section 12 of     | інші податки, відповідно до      |
+| this Contract).                   | розділу 12 Договору).            |
+|                                   |                                  |
+| The price of the Contract also    | Ціна Договору також включає ціну |
+| includes the price of the         | виключних майнових прав          |
+| exclusive proprietary             | інтелектуальної власності та     |
+| intellectual property rights and  | будь-яких інших об'єктів         |
+| any other intellectual property   | інтелектуальної власності,       |
+| objects created by the Contractor | створених Виконавцем у рамках    |
+| as part of this Contract.         | цього Договору.                  |
+|                                   |                                  |
+| Payments hereunder shall be made  | Платежі за Договором повинні     |
+| in Euros (EUR). All the accruals  | здійснюватися в Євро. Усі        |
+| and fees at the Contracting       | нарахування та комісійні в банку |
+| Authority’s bank, including fees  | Замовника, включаючи комісійні   |
+| of correspondent banks related to | банків-кореспондентів, пов’язані |
+| the execution of payments shall   | з виконанням платежів,           |
+| be paid by the Contracting        | оплачуються Замовником. Усі      |
+| Authority. All the charges and    | збори та комісійні в банку       |
+| fees at the Contractor’s bank     | Виконавцем, включаючи комісійні  |
+| including fees of correspondent   | банків-кореспондентів, пов’язані |
+| banks related to the execution of | з виконанням платежів, сплачує   |
+| payments shall be paid by the     | Виконавець.                      |
+| Contractor.                       |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.1.1. Taking into account that   |   5.1.1. Беручи до уваги, що     |
+| the Beneficiary is a resident of  |   Бенефіціар є резидентом        |
+| Ukraine, the equivalent of the    |   України, еквівалент вартості   |
+| price of the Services in the      |   Послуг у національній валюті   |
+| national currency of Ukraine -    |   України – Гривні, визначається |
+| the Hryvnia, is determined on the |   на дату складання Виконавцем   |
+| date of the issuing the           |   Акту/ Актів за відповідним     |
+| Certificate/Certificates for the  |   етапом, згідно із курсом       |
+| respective stage by the           |   української Гривні по          |
+| Contractor according to the       |   відношенню до Євро             |
+| exchange rate of the Ukrainian    |   встановленим Національним      |
+| Hryvnia to the Euro set by the    |   Банком України.                |
+| National Bank of Ukraine.         |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.2. Prepayment to the Contractor | 5.2 Попередня оплата Виконавцю   |
+| is not possible under this        | умовами Договору не              |
+| Contract.                         | передбачається.                  |
+|                                   |                                  |
+| Payments to the Contractor shall  | Оплата послуг Виконавцю буде     |
+| be made based on the results of   | здійснюватися за результатами    |
+| the Services actually provided    | фактично наданих та прийнятих    |
+| and accepted at the respective    | Послуг за відповідним етапом     |
+| stage (one payment per one        | (один платіж за один етап):      |
+| stage):                           |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Stage 1 – Consolidation of the    | Етап 1 – Збір вимог та           |
+| requirements and drafting.        | проєктування.                    |
+| Preparation of the Terms of       |                                  |
+| Reference for the development of  | Розробка Технічного завдання на  |
+| a software platform for the       | розробку програмної платформи    |
+| development of local public       | для розробки місцевих публічних  |
+| services – 20% of the Contract    | послуг – 20% від вартості        |
+| price.                            | Договору.                        |
++-----------------------------------+----------------------------------+
+| Stage 2 – Development:            | Етап 2 - Розробка послуг:        |
+|                                   |                                  |
+| development of a software         | розробка програмної платформи    |
+| platform for the development of   | для розробки місцевих публічних  |
+| local public services 50% of the  | послуг - 50% від вартості        |
+| Contract price.                   | Договору.                        |
+|                                   |                                  |
+| Stage 3: Development of           | Етап 3 - Розробка електронних    |
+| electronic services:              | послуг:                          |
+|                                   |                                  |
+| Stage 3.1. Development of Terms   | Етап 3.1. Розробка Технічного    |
+| of Reference for the development  | завдання на розробку електронних |
+| of electronic services - 10% of   | послуг - 10% від вартості        |
+| the Contract price.               | Договору.                        |
+|                                   |                                  |
+| Stage 3.2. Development of         | Етап 3.2. Розробка електронних   |
+| electronic services - 20% of the  | послуг - 20% від вартості        |
+| Contract price.                   | Договору.                        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.3. The Contracting Authority    | 5.3. Замовник може, але не       |
+| may, but is not obliged to,       | зобов'язаний приймати часткове   |
+| accept the partial delivery of    | надання Послуг, передбачених цим |
+| the Services, but the payment to  | Договором, однак оплата          |
+| the Contractor will be pending,   | Виконавцю не буде здійснена доки |
+| until all due Services have been  | не буде здано весь обсяг Послуг  |
+| provided at the respective stage. | в рамках відповідного етапу.     |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.4. The Contracting Authority    | 5.4. Оплата здійснюється         |
+| shall make payment as a cashless  | Замовником у безготівковому      |
+| bank transfer to the Contractor’s | розрахунку шляхом перерахування  |
+| current bank account specified in | грошових коштів на поточний      |
+| this Contract within 10 banking   | рахунок Виконавця, який          |
+| days of the receipt of the        | зазначений у Договорі, протягом  |
+| invoice duly made and provided by | 10 банківських днів з дати       |
+| the Contractor, after all the     | отримання належним чином         |
+| Parties have signed the           | оформленого рахунку-фактури,     |
+| Certificate of Acceptance for the | наданого Виконавцем, після       |
+| respective stage.                 | підписання всіма Сторонами Акта  |
+|                                   | за відповідним етапом.           |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 5.5. The Services are deemed      | 5.5. Послуги вважаються повністю |
+| fully paid, once the funds have   | оплаченими з моменту списання    |
+| been debited from the Contracting | грошових коштів з поточного      |
+| Authority's current account in    | рахунку Замовника на користь     |
+| favour of the Contractor.         | Виконавця.                       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6. Liability of the Parties       | 6. Відповідальність Сторін       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.1. If the Contractor fails to   | 6.1. У разі, якщо з вини         |
+| provide the Services specified in | Виконавця Послуги, що            |
+| this Contract or to provide them  | передбачені даним Договором, не  |
+| in a due or in a timely manner,   | були надані, неналежно виконані  |
+| the Contracting Authority has the | або не виконані вчасно Замовник  |
+| right to apply the following      | має право застосувати до         |
+| penalties against the Contractor: | Виконавця наступні штрафні       |
+|                                   | санкції:                         |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.1.1. If the Contractor fails to | 6.1.1. У випадку ненадання       |
+| provide the Services (in this     | Послуг Виконавцем (в даному      |
+| case it means that the results of | випадку мається на увазі, що     |
+| Service delivery are missing or   | результат надання Послуг взагалі |
+| the Contractor has refused to     | відсутній, або Виконавець в      |
+| provide the Services unilaterally | односторонньому порядку без      |
+| without any significant reasons), | поважних на то причин відмовився |
+| the Contracting Authority can     | від надання Послуг) – Замовник   |
+| charge the Contractor a fine      | має право виставити Виконавцеві  |
+| equal to 10% of the total         | штраф у розмірі 10% від          |
+| Contract price (as per 5.1 of     | загальної вартості Договору      |
+| this Contract);                   | (передбаченої п. 5.1. цього      |
+|                                   | Договору);                       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.1.2. If the Services are not    | 6.1.2. Якщо Послуги виконано     |
+| properly fulfilled, the           | неналежним чином, Замовник може  |
+| Contracting Authority may impose  | накласти штраф у розмірі п'яти   |
+| a fine equal to five percent (5%) | відсотків (5%) від загальної     |
+| of the total Contract price;      | вартості Договору;               |
++-----------------------------------+----------------------------------+
+| 6.1.3. If the Services have not   | 6.1.3. У випадку несвоєчасного   |
+| been provided in time and/or if   | надання Послуг та/або затримок у |
+| there are delays in providing     | наданні Гарантійної підтримки –  |
+| Warranty service, the Contracting | Замовник має право вимагати від  |
+| Authority can claim a fine from   | Виконавця сплати пені у розмірі  |
+| the Contractor amounting 0.1%     | 0,1% (нуль цілих одна десята     |
+| (zero point onetenth of percent)  | відсотка) від загальної вартості |
+| of the total Contract price (as   | Договору (передбаченої п. 5.1.   |
+| per 5.1 of this Contract) for     | цього Договору) за кожен день    |
+| each day of the delay in the      | затримки надання Послуг та/або   |
+| Service delivery and/or the delay | затримки у надані Гарантійної    |
+| in providing Warranty service.    | підтримки.                       |
+|                                   |                                  |
+| 6.1.4. When the Service does not  | 6.1.4. Якщо Послуга не           |
+| meet the agreed accessibility     | відповідає узгодженим вимогам,   |
+| requirements, the Contracting     | Замовник може застосувати        |
+| Authority may apply a financial   | фінансовий штраф у розмірі 10%   |
+| penalty of 10 % of the total      | від загальної вартості Договору. |
+| Contract price.                   |                                  |
+|                                   | 6.1.5. Замовник може в           |
+| 6.1.5. The Contracting Authority  | односторонньому порядку та без   |
+| can unilaterally and without a    | рішення суду утримати загальну   |
+| court ruling withhold the total   | суму штрафів, зазначених у цьому |
+| amount of the fines set out in    | пункті Договору, із сум, що      |
+| this paragraph of the Contract    | підлягають сплаті Виконавцю.     |
+| from the amounts due to be paid   |                                  |
+| to the Contractor.                |                                  |
++-----------------------------------+----------------------------------+
+| 6.1.6. Any fine mentioned in 6.1  | 6.1.6. Будь-яка штрафна санкція, |
+| of the Contract can be applied    | зазначена у п. 6.1. Договору,    |
+| with the Beneficiary’s approval.  | може бути застосована за         |
+|                                   | погодженням з Бенефіціаром.      |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.2. The Contractor is            | 6.2. Виконавець несе             |
+| responsible for the activities of | відповідальність за дії своїх    |
+| his subcontractors and other      | субпідрядників та інших третіх   |
+| third parties engaged by him to   | осіб, залучених ним для          |
+| perform this Contract.            | виконання цього Договору.        |
+|                                   |                                  |
+| 6.2.1. The Contractor is exempt   | 6.2.1. Виконавець звільняється   |
+| from liability for violation of   | від відповідальності за          |
+| the terms of the Contract if such | порушення умов Договору, якщо    |
+| violation occurred because of     | таке порушення сталося внаслідок |
+| force majeure circumstances that  | дії обставин непереборної сили   |
+| meet the criteria specified in    | (форс-мажор), що відповідають    |
+| clause 6.8. of the Contract, or   | ознакам, визначеним у пункті     |
+| because of intentional actions or | 6.8. Договору, або внаслідок     |
+| failure to take necessary         | навмисних дій або неприйняття    |
+| measures by the Contracting       | необхідних заходів з боку        |
+| Authority or Beneficiary that     | Замовника чи Бенефіціара, що     |
+| directly prevented the Contractor | безпосередньо перешкодили        |
+| from performing the Contract.     | виконанню Договору Виконавцем.   |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.3. The Contractor shall not be  | 6.3. Виконавець не несе          |
+| liable for the breach of          | відповідальності за порушення    |
+| obligations to provide the        | зобов'язань з надання Послуг у   |
+| Services caused by the breach of  | разі, якщо таке порушення є      |
+| obligations by the Contracting    | наслідком порушення зобов'язань  |
+| Authority and/or the Beneficiary, | з боку Замовника та / або        |
+| including, but not limited to,    | Бенефіціара, зокрема, але не     |
+| the late provision of necessary   | виключно, – несвоєчасне надання  |
+| information / materials and       | необхідної                       |
+| documents, violation of the       | інформації/матеріалів,           |
+| payment deadlines.                | документів, порушення строків    |
+|                                   | оплати.                          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.4. The Parties shall deem the   | 6.4. У рамках цього Договору     |
+| following cases as a serious      | Сторони розглядають як основні   |
+| breach of this Contract:          | порушення Договору таке:         |
++-----------------------------------+----------------------------------+
+| 6.4.1. a Party fails to perform   | 6.4.1. якщо Сторона не виконує   |
+| any of the obligations arising    | жодних зобов'язань, що           |
+| from the Contract within the      | випливають з Договору, протягом  |
+| additional reasonable period of   | додаткового розумного періоду    |
+| time granted by the other Party   | часу, наданого іншою Стороною    |
+| to perform the respective         | для виконання відповідного       |
+| obligation under the Contract;    | зобов'язання за Договором;       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.4.2. the Contractor does not    | 6.4.2. якщо Виконавець не має    |
+| have the rights required to       | прав, необхідних для виконання   |
+| fulfill the Contract (including   | Договору (включаючи дозволи,     |
+| permits, licenses, copyrights);   | ліцензії, права інтелектуальної  |
+|                                   | власності).                      |
+| 6.4.3. the Contractor transfers   |                                  |
+| its business or a part thereof    | 6.4.3. Виконавець передає свої   |
+| together with the Contract        | авторські права або їх частину   |
+| without the prior written consent | разом із Договором без           |
+| of the Contracting Authority.     | попередньої письмової згоди      |
+|                                   | Замовника.                       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.5. If a Contract breach occurs  | 6.5. У разі виникнення           |
+| as specified in paragraph 6.4.,   | порушення, передбаченого п.      |
+| the Contracting Authority can     | 6.4., Замовник може вимагати     |
+| claim a penalty equal to EUR      | штраф в розмірі 2000 євро та /   |
+| 2,000 and/or terminate this       | або розірвати цей Договір.       |
+| Contract.                         |                                  |
++-----------------------------------+----------------------------------+
+| 6.6. The Contractor shall         | 6.6. Матеріальна (збитки) та/або |
+| reimburse in full any financial   | моральна шкода, нанесена третім  |
+| (losses) and/or moral damage      | особам у зв’язку з порушеннями   |
+| inflicted upon third parties by   | Виконавцем при виконанні умов    |
+| the Contractor when executing     | цього Договору авторських і      |
+| this Contract due to the          | патентних прав, комерційних      |
+| violation of copyrights and       | таємниць та інших прав третіх    |
+| patent rights, commercial secrets | осіб, відшкодовуються Виконавцем |
+| and other rights owned by third   | у повному обсязі.                |
+| parties.                          |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 6.7. The Contractor shall         | 6.7. Виконавець у повному обсязі |
+| reimburse in full any property    | відшкодовує майнову шкоду,       |
+| damage inflicted upon third       | завдану третім особам у зв’язку  |
+| parties due to failure to provide | з ненаданням або наданням з      |
+| or to provide in a proper manner  | порушенням умов Договору Послуг  |
+| the Services under this Contract  | та з невиконанням або неналежним |
+| as well as due to failure to meet | виконанням Гарантійних           |
+| or to meet in a proper manner the | зобов’язань, передбачених цим    |
+| Warranty obligations under this   | Договором.                       |
+| Contract.                         |                                  |
+|                                   | 6.8. Жодна зі Сторін не несе     |
+| 6.8. Neither Party shall be       | відповідальності за невиконання  |
+| liable for failure or delay in    | або затримку у виконанні своїх   |
+| performing its obligations due to | зобов'язань через обставини, що  |
+| circumstances beyond its          | знаходяться поза її розумним     |
+| reasonable control (including     | контролем (включаючи стихійні    |
+| natural disasters, war,           | лиха, війну, санкції,            |
+| sanctions, epidemics/pandemics,   | епідемії/пандемії, урядові акти  |
+| government acts, or similar       | або подібні події). Постраждала  |
+| events). The affected Party shall | Сторона повинна негайно          |
+| notify the others without undue   | повідомити інших та вжити        |
+| delay and take reasonable steps   | розумних заходів для пом'якшення |
+| to mitigate the effects. If such  | наслідків. Якщо такі обставини   |
+| circumstances continue for more   | тривають більше 60 днів,         |
+| than 60 days, either Party may    | будь-яка зі Сторін може          |
+| terminate the Contract by written | розірвати Договір письмовим      |
+| notice, with the Contractor       | повідомленням, при цьому         |
+| entitled to payment only for      | Виконавець має право на оплату   |
+| Services duly performed and       | лише за Послуги, належним чином  |
+| accepted up to that date          | виконані та прийняті до цієї     |
+|                                   | дати.                            |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7. Intellectual property rights   | 7. Права інтелектуальної         |
+|                                   | власності                        |
+| 7.1 Exclusive proprietary         |                                  |
+| intellectual property rights and  | 7.1 Виключні майнові права       |
+| any other intellectual property   | інтелектуальної власності та     |
+| objects created by the Contractor | будь-які інші об’єкти            |
+| as part of this Contract shall be | інтелектуальної власності,       |
+| deemed transferred free of charge | створені Виконавцем при          |
+| to the Beneficiary, after the     | виконанні цього Договору,        |
+| Parties have signed the copies of | вважаються безоплатно переданими |
+| the respective Software           | Бенефіціару з моменту підписання |
+| Transfer-Acceptance Certificate   | Сторонами примірників            |
+| and/or other Certificate under    | відповідного Акту                |
+| the Contract. These rights and    | передавання-прийняття ПЗ та/або  |
+| objects include as follows: use   | іншого Акту за Договором та      |
+| of intellectual property objects, | включають в себе: права на       |
+| permission or prohibition of      | використання об’єктів            |
+| their use by other parties; the   | інтелектуальної власності, на    |
+| right to reproduce, make copies,  | дозвіл або заборону їх           |
+| process, adapt, modify, update,   | використання іншими особами,     |
+| develop the Software and to make  | права на відтворення,            |
+| other similar changes to the      | виготовлення примірників,        |
+| Software; sale of licenses to use | переробки, адаптації,            |
+| the Software, handing it over to  | модифікації, модернізації,       |
+| rental, lending, copying and      | розвитку, та інші подібні зміни  |
+| reproduction of the Software,     | ПЗ, продаж ліцензій на           |
+| conversion of the source and/or   | використання ПЗ, здавання їх в   |
+| object codes and other            | оренду, надання в позику,        |
+| components, making any changes to | копіювання і відтворення ПЗ,     |
+| the codes of the Software, and    | перетворення вихідних та/або     |
+| any other property rights to      | об’єктних кодів та інших         |
+| products as per the Civil Code of | компонентів, внесення будь-яких  |
+| Ukraine and the Law Of Ukraine    | змін до кодів ПЗ та будь-які     |
+| "On Copyright and Related         | інші майнові права на твори,     |
+| Rights”, except for inalienable   | передбачені Цивільним кодексом   |
+| ones.                             | України та Законом України «Про  |
+|                                   | авторське право і суміжні права» |
+|                                   | за винятком тих, які є           |
+|                                   | невідчужуваними.                 |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.2. The value of the             | 7.2. Вартість майнових прав      |
+| intellectual property rights that | інтелектуальної власності, які   |
+| are transferred to the            | передано Бенефіціару, на         |
+| Beneficiary under this Contract   | виконання умов цього Договору,   |
+| is included into the price of the | включаються до вартості Послуг   |
+| Services under this Contract.     | за Договором.                    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.3. In accordance with this      | 7.3. Об’єкти інтелектуальної     |
+| Contract, intellectual property   | власності та виключні майнові    |
+| objects and the exclusive         | права інтелектуальної власності  |
+| proprietary intellectual property | на них які переходять до         |
+| rights to them that are           | Бенефіціару за результатом       |
+| transferred to the Beneficiary    | підписання Сторонами примірників |
+| upon the signing of copies of the | Акту передавання-прийняття ПЗ,   |
+| Software Transfer-Acceptance      | відповідно до цього Договору,    |
+| Certificate by the Parties are    | вважаються переданими на         |
+| deemed transferred to the         | використання Бенефіціару для     |
+| Recipient to enable the           | забезпечення виконання ним       |
+| Beneficiary to exercise its       | функцій визначених               |
+| functions specified by the        | законодавством України та        |
+| legislation of Ukraine and the    | установчими документами          |
+| Beneficiary’s articles.           | Бенефіціара.                     |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.4. Having signed the Contract,  | 7.4. Після підписання Договору   |
+| the Contractor has no right to    | Виконавець не має права          |
+| transfer (alienate) the property  | передавати (відчужувати) майнові |
+| rights to the Software, nor can   | права на ПЗ, а також передавати  |
+| the Contractor provide the rights | права на його використання       |
+| to use it to third parties.       | третім особам.                   |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.5. The Contractor guarantees    | 7.5. Виконавець гарантує, що ПЗ  |
+| that the Software does not        | не порушує прав третіх осіб, всі |
+| violate the rights of third       | дозволи та згоди на постачання   |
+| parties, all permissions and      | ПЗ, а також те, що Виконавець    |
+| approvals for the supply of the   | має достатній обсяг прав і       |
+| Software are available, the       | можливостей для виконання всіх   |
+| Contractor has sufficient rights  | умов цього Договору.             |
+| and capacities to fulfil all      |                                  |
+| provisions of this Contract.      |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.6. Copyright non-proprietary    | 7.6. Авторські особисті          |
+| rights to the Software belong to  | немайнові права на ПЗ належать   |
+| the Contractor (Article 11 of the | Виконавцю (ст. 11 Закону України |
+| Law of Ukraine "On Copyright and  | «Про авторське право і суміжні   |
+| Related Rights"). The Contractor  | права»). Виконавець має право    |
+| has the right to refer to them in | посилатися на них у своїх        |
+| its portfolios and other          | портфоліо та інших рекламних     |
+| promotional materials, to refer   | матеріалах, посилатися на них    |
+| to them in contests, and so on.   | при участі у конкурсах, тощо.    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.7. Within 3 days after the      | 7.7. Виконавець у 3-денний строк |
+| completion of the Services        | після завершення надання Послуг, |
+| resulting in the creation,        | наслідком яких стало створення   |
+| change, adaptation, modification  | ПЗ, або його зміни, адаптація,   |
+| of the Software, the Contractor   | модифікація зобов’язаний         |
+| shall transfer to the Beneficiary | передати Бенефіціару в           |
+| all source and / or object codes  | електронній формі усі вихідні    |
+| in electronic form, i.e., a set   | та/або об’єктні коди, тобто      |
+| of instructions in the form of    | набір інструкцій у вигляді слів, |
+| words, numbers, codes, diagrams,  | цифр, кодів, схем, символів чи у |
+| symbols or in any other form      | будь-якому іншому вигляді,       |
+| suitable to be read by a computer | виражених у формі, придатній для |
+| that actuate it.                  | зчитування комп'ютером, які      |
+|                                   | приводять його у дію.            |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.8. The Contractor guarantees    | 7.8. Виконавець гарантує, що у   |
+| that in case if a software        | випадку включення до ПЗ,         |
+| developed by third parties is     | програмного забезпечення         |
+| integrated in the Software, such  | розробленого третіми особами,    |
+| a software shall be distributed / | таке програмне забезпечення має  |
+| used under a free license, which, | роз                              |
+| in particular, does not require   | повсюджуватись/використовуватись |
+| any fees to be paid to the        | на умовах безоплатної ліцензії,  |
+| copyright holder. The validity    | яка зокрема, не передбачає       |
+| period of such licenses shall not | виплату будь-якої винагороди     |
+| be shorter than the period of     | правовласнику. Строк таких       |
+| validity of the exclusive         | ліцензій має бути не меншим      |
+| proprietary intellectual property | строку чинності виключних        |
+| rights to the Software. The       | майнових прав інтелектуальної    |
+| license must cover the territory  | власності на ПЗ. Ліцензія має    |
+| of Ukraine and the territory of   | поширюватись на територію        |
+| EU states.                        | України та території іноземних   |
+|                                   | держав.                          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.9. The intellectual property    | 7.9. Право інтелектуальної       |
+| rights concerning the integrity   | власності на цілісність роботи,  |
+| of the work, annexes, supplements | доповнення, додатки та           |
+| and the work withdrawal are       | відкликання роботи ліцензується  |
+| licensed by the Beneficiary       | Бенефіціаром по всьому світу без |
+| worldwide without any term        | терміну і без права розірвати    |
+| restrictions and without the      | ліцензійний договір. Плата за    |
+| right to terminate the license    | ліцензію входить до ціни наданих |
+| contract. The license fee is      | Послуг за Договором,             |
+| included into the price of the    | передбачених пунктом 2.1. цього  |
+| Services under this Contract      | Договору.                        |
+| stipulated in paragraph 2.1       |                                  |
+| herein.                           |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 7.10. Any and all documents       | 7.10. Будь-які та всі документи, |
+| generated during the execution of | що згенеровані в процесі         |
+| this Contract shall not be used   | виконання даного Договору, не    |
+| by the Contractor for purposes    | повинні використовуватися        |
+| not related to the present        | Виконавцем для цілей, не         |
+| Contract without the prior        | пов'язаних з цим Договором, без  |
+| written approval of the other     | попереднього письмового          |
+| Parties of this Contract. Upon    | схвалення інших учасників даного |
+| the termination of this Contract, | Договору. Після припинення дії   |
+| regardless of the termination     | цього Договору, незалежно від    |
+| reasons, the Contractor shall at  | підстав такого припинення,       |
+| a request by any Party            | Виконавець на вимогу будь-якої   |
+| provide/deliver to the requesting | зі Сторін зобов’язаний           |
+| Party all materials related to    | надати/доставити Стороні яка     |
+| the Services provided under this  | запитує всі матеріали, що        |
+| Contract and refrain from any use | стосуються Послуг, здійснених за |
+| of such materials.                | цим Договором, і утримуватись    |
+|                                   | від будь-якого використання      |
+|                                   | таких матеріалів.                |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 8. Confidentiality                | 8. Конфіденційність              |
+|                                   |                                  |
+| 8.1 The Parties shall maintain    | 8.1 Сторони зобов'язані          |
+| the confidentiality of            | зберігати конфіденційність щодо  |
+| information, including            | інформації, в тому числі         |
+| technological, commercial, and    | технологічної, комерційної та    |
+| financial information concerning  | фінансової, що стосується        |
+| the current activities and        | поточної діяльності і            |
+| long-term plans of the Parties,   | перспективних планів Сторін, як  |
+| including both the information    | вже отриманої ними один від      |
+| already received from each other  | одного, так і тієї, яка буде     |
+| and information received by them  | ними отримана протягом строку    |
+| during the validity period of     | дії цього Договору, а також щодо |
+| this Contract as well as          | умов підготовки, укладення,      |
+| information concerning the terms  | виконання, розірвання та інших   |
+| of preparation, conclusion,       | умов цього Договору. Однак,      |
+| execution, termination and other  | зобов'язання з конфіденційності  |
+| terms of this Contract. However,  | не поширюються на інформацію,    |
+| confidentiality obligations do    | яка: (i) підлягає розголошенню   |
+| not apply to information that:    | відповідно до Закону України     |
+| (i) is subject to disclosure in   | «Про доступ до публічної         |
+| accordance with the Law of        | інформації» або інших актів      |
+| Ukraine "On Access to Public      | законодавства України; (ii)      |
+| Information" or other acts of     | необхідна Бенефіціару для        |
+| Ukrainian legislation; (ii) is    | здійснення його повноважень як   |
+| necessary for the Beneficiary to  | державного органу; (iii) стала   |
+| exercise its powers as a state    | загальнодоступною не внаслідок   |
+| body; (iii) has become publicly   | порушення конфіденційності       |
+| available not as a result of a    | однією з Сторін.                 |
+| violation of confidentiality by   |                                  |
+| one of the Parties                |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 8.2. Transfer of information      | 8.2. Передача інформації,        |
+| specified in 8.1. of this         | зазначеної в пункті 8.1. даного  |
+| Contract to third parties, its    | Договору третім особам, її       |
+| publication and/or other          | опублікування та/або інше        |
+| disclosure and use during the     | розголошення та використання     |
+| validity period of this Contract  | протягом терміну дії цього       |
+| as well as for 10 (ten) years     | Договору, а також протягом 10    |
+| after the termination of this     | (десяти) років після припинення  |
+| Contract are only allowed with    | дії цього Договору може          |
+| the prior written consent of the  | здійснюватися тільки з письмової |
+| other Party regardless of the     | згоди іншої Сторони незалежно    |
+| reasons for the termination of    | від причин припинення дії цього  |
+| this Contract, except for cases   | Договору, крім випадків,         |
+| covered by this Contract (clause  | передбачених цим Договором (п.   |
+| 8.1.) and the valid legislation   | 8.1.) та чинним законодавством   |
+| of Ukraine and / or Estonia.      | України та/або Естонії.          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 8.3. The Party that has violated  | 8.3. Сторона, яка порушила       |
+| paragraphs 8.1, 8.2 of this       | пункти 8.1, 8.2 даного Договору, |
+| Contract, which has caused damage | якщо це призвело до збитків      |
+| (material, moral, profit loss) to | (матеріальних, моральних,        |
+| the other Party, is obliged to    | упущену вигоду), завданих іншій  |
+| reimburse this damage in full.    | Стороні, зобов'язана             |
+|                                   | відшкодувати такі збитки в       |
+|                                   | повному обсязі.                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+|   9. Contract modifications and   | 9.  Внесення змін та припинення  |
+|   termination of the Contract     |     дії Договору                 |
+|                                   |                                  |
+| 9.1. The Contracting Auhority or  | 9.1. Цей Договір може бути       |
+| the Contractor can terminate this | розірваний Замовником або        |
+| Contract by sending a prior       | Виконавцем шляхом надання        |
+| written notice 30 (thirty) days   | попереднього повідомлення у      |
+| prior to the termination date.    | письмовій формі за 30 (тридцять) |
+|                                   | днів до такого розірвання, із    |
+|                                   | надсиланням такого повідомлення. |
++-----------------------------------+----------------------------------+
+| 9.2. If the Contract is not       | 9.2. У разі незадовільного       |
+| fulfilled properly or if other    | виконання або будь-яких інших    |
+| reasons are available that are    | підстав, що є основними          |
+| considered as substantial         | порушеннями, зазначеними у       |
+| violations as per Section 6, the  | розділі 6, цей Договір може бути |
+| Contracting Authority can         | негайно розірваний Замовником    |
+| terminate the Contract            | шляхом подання Виконавцю         |
+| immediately by sending a          | письмового листа про завершення. |
+| termination letter to the         | У цьому випадку Виконавцю буде   |
+| Contractor. In this case, the     | сплачено послуги пропорційно     |
+| Contractor shall be paid in       | його послуг, які були надані і   |
+| accordance with the Services      | прийняті Замовником належним     |
+| already provided and duly         | чином.                           |
+| accepted by the Contracting       |                                  |
+| Authority.                        |                                  |
++-----------------------------------+----------------------------------+
+| 9.3. The Contracting Authority    | 9.3. Замовник має право          |
+| shall have the right to terminate | розірвати цей Договір, якщо: (a) |
+| this Contract if: (a) the         | до Договору було внесено зміни у |
+| Contract has been amended in a    | спосіб, не дозволений статтею    |
+| manner not permitted under        | 123 Закону про державні          |
+| Article 123 of the PPAE; or;(b)   | закупівлі; або; (b) на момент    |
+| at the time of conclusion of the  | укладення Договору Виконавець    |
+| Contract, the Contractor was      | підпадав під будь-яку з підстав, |
+| subject to any of the grounds set | викладених у § 95(1)(1–4) Закону |
+| out in § 95(1)(1–4) of the PPAE   | про державні закупівлі, і мав    |
+| and should have been excluded     | бути виключений з процедури      |
+| from the procurement procedure or | закупівлі, або Договір не мав    |
+| the Contract should not have been | бути укладений; або; (c) під час |
+| concluded; or; (c) during the     | виконання Договору Виконавець    |
+| performance of the Contract, the  | підпадає під будь-яку з підстав, |
+| Contractor becomes subject to any | викладених у § 95(1)(1–4) Закону |
+| of the grounds set out in §       | про державні закупівлі;          |
+| 95(1)(1–4) of the Public          |                                  |
+| Procurement Act;                  | 9.4. Замовник зобов'язаний       |
+|                                   | розірвати цей Договір, якщо: (a) |
+| 9.4. The Contracting Authority    | на момент укладення Договору або |
+| shall be obliged to terminate     | будь-коли після цього Виконавець |
+| this Contract if: (a) at the time | підпадає під підстави, викладені |
+| of conclusion of the Contract, or | в § 95(1)(5) Закону про державні |
+| at any time thereafter, the       | закупівлі; або; (b) продовження  |
+| Contractor is subject to the      | дії Договору порушуватиме        |
+| ground set out in § 95(1)(5) of   | міжнародну санкцію або санкцію   |
+| the Public Procurement Act; or;   | Уряду Естонії у значенні Закону  |
+| (b) continuation of the Contract  | про міжнародні санкції. Замовник |
+| would breach an international     | повинен повідомити Естонський    |
+| sanction or a Government of       | підрозділ фінансової розвідки    |
+| Estonia sanction within the       | (ПФР) про розірвання відповідно  |
+| meaning of the International      | до PPAE.                         |
+| Sanctions Act. The Contracting    |                                  |
+| Authority shall notify the        | 9.5. Замовник має право негайно  |
+| Estonian Financial Intelligence   | розірвати Договір у разі         |
+| Unit (FIU) of termination in      | застосування до Виконавця        |
+| accordance with PPAE.             | міжнародних санкцій.             |
+|                                   |                                  |
+| 9.5. The Contracting Authority    |                                  |
+| has the right to terminate the    |                                  |
+| Contract immediately, if the      |                                  |
+| Contractor becomes subject to     |                                  |
+| international sanctions.          |                                  |
++-----------------------------------+----------------------------------+
+| 9.6. The Contracting Authority    | 9.6. Замовник має право          |
+| has a right to modify the         | змінювати договір відповідно до  |
+| contract in accordance with § 123 | параграфу 123 РPAE та у          |
+| PPAE and in any case, when:       | будь-якому випадку коли:         |
+|                                   |                                  |
+| -   it becomes impossible to      | - стає неможливим виконання      |
+|     fulfil the Contract within    | Договору на термін дії через     |
+|     its period of validity due to | обставини, викликані Набувачем,  |
+|     circumstances caused by the   | державними органами України,     |
+|     Acquirer, state bodies of     | пандемією або російською         |
+|     Ukraine, the pandemic or the  | агресією проти України та її     |
+|     Russian aggression against    | наслідками, на які не можуть     |
+|     Ukraine and its consequences  | вплинути ні Замовник, ні         |
+|     that can be influenced        | Виконавець. (зміна терміну дії); |
+|     neither by the Contracting    |                                  |
+|     Authority, nor by the         | - модифікація викликана          |
+|     Contractor (change of the     | непередбачуваними обставинами,   |
+|     validity period);             | або вкрай незручними для обох    |
+|                                   | Сторін, через які необхідно      |
+| -   the modification is caused by | змінити або скорегувати етапи та |
+|                                   | часовий графік, враховуючи, що   |
+| circumstances the are             | термін виконання робіт не може   |
+| unforeseeable or extremely        | бути продовжений більш ніж на 2  |
+| inconvenient to both Parties due  | місяці (зміна часових рамок);    |
+| to which it is necessary to       |                                  |
+| change or adjust the stages and   | - до законодавства, що регулює   |
+| time schedule, taking into        | Договір, вносяться зміни, що     |
+| consideration that the time       | призводять до змін щодо прав та  |
+| period for the work performance   | обов'язків Сторін щодо надання   |
+| cannot be extended by more than 2 | Послуг (зміна зобов'язань).      |
+| months (change of the timeline);  |                                  |
+|                                   |                                  |
+| - changes are made to the laws    |                                  |
+| governing the Contract, which     |                                  |
+| results in changes concerning the |                                  |
+| rights and obligations of the     |                                  |
+| Parties in the provision of the   |                                  |
+| Services (change of obligations). |                                  |
++-----------------------------------+----------------------------------+
+| 10. Validity of the Contract      | 10. Чинність Договору            |
+|                                   |                                  |
+| 10.1. This Contract enters into   | 10.1 Цей Договір набирає         |
+| force once signed by all Parties  | чинності з моменту його          |
+| and remains valid up to 4 months  | підписання усіма Сторонами та    |
+| (but no longer than 31.03.2026)   | діє до 4 місяців (але не довше   |
+| in any case, however, it shall    | 31.03.2026), але в будь-якому    |
+| remain valid, until the Parties   | разі до повного виконання        |
+| have fulfilled all their          | зобов’язань Сторін за цим        |
+| obligations under this Contract   | Договором (водночас, не пізніше  |
+| (at the same time, no longer than | 31.03.2026), окрім зобов’язань   |
+| 31.03.2026). This does not apply  | щодо надання Виконавцем          |
+| to the obligations concerning     | гарантійної підтримки та         |
+| warranty support by the           | збереження конфіденційності      |
+| Contractor and confidentiality of | отриманої інформації, які        |
+| the received information, which   | залишаються чинними до їх        |
+| remain valid until their full     | повного виконання.               |
+| implementation.                   |                                  |
+|                                   | 10.2. Усі додатки, зміни і       |
+| 10.2. All annexes, changes and    | доповнення до цього Договору є   |
+| supplements to this Contract      | його невід'ємними чистинами і    |
+| constitute its integral parts and | дійсні тільки у разі їх          |
+| are only valid, if made in        | викладення у письмовій формі     |
+| written in Ukrainian and English  | українською та англійською       |
+| and duly signed by the authorized | мовами та після належного їх     |
+| representatives of the Parties.   | підписання уповноваженими        |
+| Fax copies or photocopies of the  | представниками Сторін. Факсові   |
+| documents have no legal force.    | чи фотокопії документів не мають |
+| The Parties have also agreed that | юридичної сили. Поряд з тим      |
+| documents signed with an          | Сторони погодили, що документи   |
+| electronic digital signature by   | підписані електронним цифровим   |
+| the Parties’ representatives      | підписом представниками          |
+| (authorized persons) have the     | (уповноваженими особами) Сторін  |
+| legal force of the originals.     | – мають силу оригіналів.         |
+|                                   |                                  |
+| 10.2.1. To avoid                  | 10.2.1. Для уникнення            |
+| misunderstandings, the Parties    | різнотлумачень Сторони досягли   |
+| have agreed that in case of       | згоди, що у випадку підписання   |
+| signing this Contract with an     | цього Договору електронним       |
+| electronic digital signature      | цифровим підписом, визнаним      |
+| acknowledged by the law of the    | чинним законодавством Сторін     |
+| Parties to this Contract          | цього Договору (далі –           |
+| (hereinafter referred to as the   | Електронний підпис), цей Договір |
+| “Electronic signature”) this      | набирає чинності з дати          |
+| Contract shall enter into force   | зазначеної в шапці (преамбулі)   |
+| on the date mentioned in the      | цього Договору, а момент         |
+| header (preamble) of this         | накладення/використання          |
+| Contract and the application/use  | Сторонами цього Договору         |
+| of the Electronic signature by    | Електронного підпису є фактом    |
+| the Parties to this Contracts is  | підтвердження/акцептування умов  |
+| equal to the                      | цього Договору. У разі якщо дата |
+| recognition/acceptance of the     | накладення/використання          |
+| terms of this Contract. If the    | будь-якою зі Сторін Електронного |
+| date when any of the Parties      | підпису буде пізнішою ніж дата,  |
+| applies/uses the Electronic       | зазначена в преамбулі Договору,  |
+| signature comes after the date    | Сторони погоджуються щодо        |
+| indicated in the Contract’s       | ретроактивності дії цього        |
+| preamble, the Parties agree that  | Договору, а саме з дати,         |
+| this Contract enters into force   | зазначеної в його преамбулі.     |
+| retrospectively, i.e., starting   |                                  |
+| from the date indicated in its    | 10.2.2. Аналогічне правило, щодо |
+| preamble.                         | моменту набрання чинності та     |
+|                                   | дійсності документів, буде також |
+| 10.2.2. The same rule concerning  | застосовуватись Сторонами при    |
+| the moment of entry into force of | підписанні Електронним підписом  |
+| documents will also be applied by | будь-яких документів,            |
+| the Parties when using the        | згенерованих/створених Сторонами |
+| Electronic signature to sign any  | в процесі виконання цього        |
+| documents generated/created by    | Договору: додаткові угоди, акти, |
+| the Parties in the process of     | рахунки і таке інше.             |
+| executing this Contract:          |                                  |
+| additional agreements,            |                                  |
+| certificates, invoices etc.       |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 11. Authorized representatives of | 11. Уповноважені представники    |
+| the Parties                       | Сторін                           |
+|                                   |                                  |
+| 11.1. The authorized              | 11.1. Уповноваженим              |
+| representative of the Contracting | представником Замовника у всіх   |
+| Authority in all issues related   | питаннях, пов'язаних з цим       |
+| to the Contract is Mr. Serhii     | Договором, вважати пана Сергія   |
+| Karelin, Project Team Lead        | Кареліна, Керівник проєктної     |
+| (serhii.karelin@ega.ee , mobile:  | групи (ел. пошта:                |
+|                                   | serhii.karelin@ega.ee,           |
+| +380954009442).                   | мобільний:+380954009442).        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 11.2. The authorized              | 11.2. Уповноваженим              |
+| representative of the Beneficiary | представником Бенефіціара у всіх |
+| in all issues related to the      | питаннях, пов'язаних з цим       |
+| Contract is _________             | Договором, вважати:_______       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 11.3. The authorized              | 11.3. Уповноваженим              |
+| representative of the Contractor  | представником Виконавця у всіх   |
+| in all issues related to the      | питаннях, пов'язаних з цим       |
+| Contract is _________             | Договором, вважати:______        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 12. Taxes                         | 12. Податки                      |
+|                                   |                                  |
+| In Ukraine the tax exemption      | В Україні угода про звільнення   |
+| agreement applies to goods and    | від оподаткування застосовується |
+| services (Agreement between the   | до товарів та послуг (Угода між  |
+| Cabinet of Ministers of Ukraine   | Кабінетом Міністрів України та   |
+| and the Government of the         | Урядом Естонської Республіки про |
+| Republic of Estonia on Technical  | технічне та фінансове            |
+| and Financial Cooperation dated   | співробітництво від 27 листопада |
+| November 27, 2020, ratified by    | 2020 року, ратифікована Законом  |
+| the Law of Ukraine No. 1826-IX    | України № 1826-IX від 21 жовтня  |
+| dated October 21, 2021)           | 2021 року) (Угода).              |
+| (Agreement).                      |                                  |
+|                                   | Відповідно до статті 3.1. Угоди, |
+| According to article 3.1. of the  | з метою реалізації               |
+| Agreement, for the purpose of     | програм/проектів за цим          |
+| implementing programs/projects    | Договором, весь імпорт товарів   |
+| under this Contract, all imports  | звільняється від будь-яких       |
+| of goods shall be exempt from any | податків, мит, зборів та інших   |
+| taxes, duties, fees and other     | платежів аналогічної сили. Це    |
+| charges of similar force. This    | також стосується послуг, коштів  |
+| also applies to services, funds   | та інших ресурсів, пов'язаних з  |
+| and other resources in connection | реалізацією програм/проектів за  |
+| with the implementation of        | цим Договором.                   |
+| programs/projects under this      |                                  |
+| Contract.                         |                                  |
++-----------------------------------+----------------------------------+
+| The Contracting Authority is a    | Замовник є некомерційною         |
+| non-profit, non-profit            | неприбутковою організацією,      |
+| organization accredited to        | акредитованою для забезпечення   |
+| implement an international        | реалізації проекту міжнародної   |
+| technical assistance project in   | технічної допомоги відповідно до |
+| accordance with the Framework     | Угоди, Закупівля за цим          |
+| Contract between the Government   | Договором здійснюється коштом    |
+| of Ukraine and the Commission of  | проекту міжнародної технічної    |
+| the European Communities of       | допомоги та відповідає категорії |
+| 12.12.2006, ratified with the     | (типу) товарів, робіт і послуг,  |
+| Declaration by the Law of Ukraine | зазначених у плані закупівлі     |
+| No. 360-VI dated 03.09.2008. The  | проекту. Оскільки Замовник       |
+| procurement under this Contract   | закуповує послуги Виконавця для  |
+| shall be carried out at the       | виконання проекту міжнародної    |
+| expense of the international      | технічної допомоги відповідно до |
+| technical assistance project and  | зазначеної вище Угоди та Порядку |
+| corresponds to the category       | залучення використання та        |
+| (type) of goods, works and        | моніторингу технічної допомоги,  |
+| services specified in the project | затвердженого постановою         |
+| procurement plan. Since the       | Кабінету Міністрів України від   |
+| Contracting Authority purchases   | 15/02/2002 р. №153 (153-2002-п)  |
+| the Contractor's services for the | «Про створення єдиної системи    |
+| implementation of the             | залучення, використання та       |
+| international technical           | моніторингу технічної допомоги», |
+| assistance project in accordance  | а також відповідно до пункту     |
+| with the above Contract and the   | 3.2. статті 3 Податкового        |
+| Procedure for attracting, using   | кодексу України, вартість таких  |
+| and monitoring technical          | товарів, робіт і послуг          |
+| assistance, approved by the       | звільняється від податку на      |
+| Cabinet of Ministers of Ukraine   | додану вартість. У зв’язку з цим |
+| dated 15/02/2002 No. 153          | Замовник сплачує вказані вище    |
+| (153-2002-p) of February 15, 2002 | послуги без ПДВ. На засвідчення  |
+| “On the creation of a unified     | свого права на податкові пільги  |
+| system for attracting, using and  | відповідно до міжнародних        |
+| monitoring technical assistance”, | договорів України Замовник при   |
+| as well as in accordance with     | укладанні цього Договору подає   |
+| paragraph 3.2. of Article 3 of    | Виконавцю такі документи:        |
+| the Tax Code of Ukraine, the cost |                                  |
+| of such goods, works and services | -Засвідчені печаткою виконавця   |
+| is exempt from value added tax.   | проекту (Замовника) копії        |
+| In this regard, the Contracting   | реєстраційних карток проекту     |
+| Authority shall pay for the above | міжнародної технічної допомоги,  |
+| services without VAT. To certify  | в рамках якого здійснено         |
+| its right to tax benefits in      | закупівлю, і який виконується    |
+| accordance with international     | Замовником;                      |
+| treaties of Ukraine, the          |                                  |
+| Contracting Authority shall       | - Засвідчену печаткою виконавця  |
+| submit the following documents to | проекту (Замовника) копію плану  |
+| the Contractor upon conclusion of | закупівлі товарів, робіт і       |
+| this Contract:                    | послуг, що придбаваються за      |
+|                                   | кошти міжнародної технічної      |
+| - Copies of the registration      | допомоги;                        |
+| cards of the international        |                                  |
+| technical assistance project      | - Засвідчену підписом та         |
+| under which the procurement is    | печаткою виконавця проекту       |
+| carried out and which is being    | (Замовника) копію цього          |
+| implemented by the Contracting    | Договору, у якому зазначено, що  |
+| Authority, certified by the seal  | закупівля здійснюється коштом    |
+| of the project executor           | проекту міжнародної технічної    |
+| (Contracting Authority);          | допомоги та відповідає категорії |
+|                                   | (типу) товарів, робіт і послуг,  |
+| - A copy of the procurement plan  | зазначених у плані закупівлі.    |
+| for goods, works and services to  |                                  |
+| be procured with the funds of     |                                  |
+| international technical           |                                  |
+| assistance certified by the seal  |                                  |
+| of the project executor           |                                  |
+| (Contracting Authority);          |                                  |
+|                                   |                                  |
+| - A copy of this Contract signed  |                                  |
+| and stamped by the project        |                                  |
+| executor (Contracting Authority), |                                  |
+| which states that the procurement |                                  |
+| carried out at the expense of the |                                  |
+| international technical           |                                  |
+| assistance project and            |                                  |
+| corresponds to the category       |                                  |
+| (type) of goods, works and        |                                  |
+| services specified in the         |                                  |
+| procurement plan.                 |                                  |
++-----------------------------------+----------------------------------+
+| 13. Banking information           | 13. Банківські реквізити         |
+|                                   |                                  |
+| The banking information for the   | Банківські реквізити, призначені |
+| direct transfer of funds under    | для прямого переведення коштів у |
+| this Contract:                    | рамках цього Договору:           |
+|                                   |                                  |
+| The Contracting Authority’s bank  | Банківські реквізити Замовника:  |
+| information:                      |                                  |
+|                                   | Валюта рахунку: Євро             |
+| Account currency: EUR             |                                  |
+|                                   | IBAN: EE915100005100088723       |
+| IBAN: EE915100005100088723        |                                  |
+|                                   | BIC / SWIFT-код: OKOYEE2X        |
+| BIC/SWIFT-code: OKOYEE2X          |                                  |
+|                                   | Назва банку: OP Corporate Bank   |
+| Bank name: OP Corporate Bank plc  | plc Estonian branch              |
+| Estonian branch                   |                                  |
+|                                   | Адреса: Maakri 19/1, Tallinn,    |
+| Address: Maakri 19/1, Tallinn,    | ESTONIA 10145                    |
+| ESTONIA 10145                     |                                  |
+|                                   | Власник рахунку: Неурядова       |
+| Account owner: e-Governance       | організація Академія             |
+| Academy (E-riigi Akadeemia        | електронного управління (E-riigi |
+| Sihtasutus)                       | Akadeemia Sihtasutus)            |
+|                                   |                                  |
+| Address: Ahtri 6, 10151 Tallinn,  | Адреса: Ахтрі 6, 10151 Таллінн,  |
+| Estonia                           | Естонія                          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Contractor’s Bank information:    | Банківські реквізити Виконавця:  |
+|                                   |                                  |
+| Account owner:                    | Власник рахунку:                 |
+|                                   |                                  |
+| Account currency: EUR             | Валюта рахунку: Євро             |
+|                                   |                                  |
+| Account No.:                      | Номер рахунку:                   |
+|                                   |                                  |
+| IBAN:                             | IBAN:                            |
+| _______________________________   | ________________________________ |
+|                                   |                                  |
+| Bank:                             | Банк:                            |
+|                                   |                                  |
+| SWIFT:                            | SWIFT-код:                       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14. Service Warranties            | 14. Гарантійні зобов’язання      |
+|                                   |                                  |
+| 14.1. The Contractor shall ensure | 14.1. Виконавець зобов'язується  |
+| that the Services (their results) | забезпечити, щоб Послуги (їх     |
+| are free of any non-compliances   | результати) не мали              |
+| and non-conformities to this      | невідповідностей до Договору та  |
+| Contract and to the Tender        | до Тендерної документації        |
+| documents for 6 months after the  | протягом 6 місяців після         |
+| signing of the Certificate in     | підписання Акту відповідно до    |
+| accordance with Section 4 of the  | розділу 4 Договору та п.4.8.     |
+| Contract and item 4.8 of the      | Технічних вимог.                 |
+| Technical requirements.           |                                  |
+|                                   | Якщо невідповідність Послуг до   |
+| Should any non-conformity of the  | Договору або до Тендерної        |
+| Services to the Contract or to    | документації виникає з будь-якої |
+| the Tender documents arise for    | причини або в якому б то не було |
+| whatever reason or in whatever    | вигляді, то Виконавець повинен   |
+| manner, the Contractor shall      | усунути невідповідність за       |
+| remedy it at its own cost and at  | власні кошти негайно, але не     |
+| the earliest opportunity, but not | пізніше ніж через 5 (п’ять)      |
+| later than within 5 (five)        | робочих днів з моменту           |
+| working days after the receipt of | відповідного звернення           |
+| a related report from the         | Бенефіціара або Замовника. У     |
+| Beneficiary or the Contracting    | разі неналежного, у тому числі   |
+| Authority. If the Warranty        | невчасного, виконання            |
+| obligations are not met in a      | Гарантійного зобов'язання        |
+| proper manner, including a delay  | застосовується розділ 6 цього    |
+| in their fulfillment, Section 6   | Договору.                        |
+| of this Contract shall apply.     |                                  |
++-----------------------------------+----------------------------------+
+| 14.2 As part of the Warranty      | 14.2. В рамках Гарантійної       |
+| services, the Contractor shall:   | підтримки Виконавець             |
+|                                   | зобов'язаний:                    |
+| 14.2.1. React to incidents        |                                  |
+| causing the irregular and/or      | 14.2.1. Реагувати на інциденти,  |
+| incorrect operation of the        | що спричинили неправильну та/або |
+| Software or its complete outage;  | некоректну роботу ПЗ, або повний |
+|                                   | збій в роботі ПЗ;                |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.2. Check logs and errors     | 14.2.2. Перевіряти логи та       |
+| detected in the industrial        | помилки, виявлені на             |
+| environment by the Beneficiary in | промисловому середовищі          |
+| accordance with the approved      | Бенефіціаром, відповідно         |
+| Beneficiary’s regulations and     | затвердженому регламенту         |
+| Technical Requirements;           | Бенефіціара та Технічній         |
+|                                   | специфікації;                    |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.3. Remedy detected errors    | 14.2.3. Виправляти виявлені      |
+| and defects in the Software       | помилки та недоліки в роботі ПЗ  |
+| operation and its settings;       | та його налаштуваннях;           |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.4. Update the Software in    | 14.2.4. Оновлювати ПЗ при        |
+| line with the release of the new  | випуску нових версій середовища  |
+| versions of the development       | розробки, систем безпеки тощо;   |
+| environment, security systems,    |                                  |
+| etc.;                             |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.5. Provide advice on the     | 14.2.5. Надавати консультації    |
+| required Software settings for    | щодо необхідних налаштувань ПЗ   |
+| its effective and smooth          | для його ефективної та           |
+| operation;                        | повноцінної роботи;              |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.6. Provide information       | 14.2.6. Здійснювати Інформаційну |
+| support for the representatives   | підтримку представників Сторін   |
+| of the Contract Parties and other | Договору та інших розробників з  |
+| developers concerning information | питань інформаційної взаємодії   |
+| interaction with external         | з  сторонніми інформаційними     |
+| information systems;              | системами;                       |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.2.7. Provide advice to the     | 14.2.7. Консультувати            |
+| specialists of the Contract       | спеціалістів Сторін Договору з   |
+| Parties concerning the            | методологічних та технічних      |
+| methodological and technical      | питань функціонування ПЗ в       |
+| aspects of the Software           | робочі дні з 9-00 до 18-00 за    |
+| functioning on working days from  | допомогою засобів                |
+| 9.00 until 18.00 via              | комунікаційного звʼязку.         |
+| communication tools.              |                                  |
++-----------------------------------+----------------------------------+
+| 14.3. Exchange with the           | 14.3. Обмін інформацією,         |
+| information needed for Warranty   | необхідною для виконання         |
+| services between the Contractor   | Гарантійної підтримки між        |
+| and the other Contract Parties as | Виконавцем та іншими Сторонами   |
+| well as the operational control   | Договору, оперативний контроль   |
+| of the progress in addressing     | стану виконання зауважень щодо   |
+| issues concerning the Software    | функціонування ПЗ та усунення    |
+| functioning and steps to remedy   | таких  зауважень, здійснюється з |
+| such issues are implemented via   | використанням системи GitLab або |
+| the GitLab system or other        | інших аналогічних по суті систем |
+| similar systems upon agreement by | за погодженням Сторін, а також   |
+| the Parties as well as via        | засобами електронної пошти.      |
+| e-mail.                           |                                  |
+|                                   | Час реагування з боку Виконавця  |
+| The Contractor’s reaction time    | на завдання (зауваження),        |
+| for tasks (critical comments)     | зафіксовані іншими Сторонами     |
+| logged by the other Contract      | Договору в системі баг трекінгу  |
+| Parties in the Beneficiary’s      | Бенефіціара або за допомогою     |
+| bug-tracking system or via        | засобів комунікаційного звʼязку, |
+| communication tools shall not     | не має перевищувати 3 (трьох)    |
+| exceed 3 (three) working days or  | робочих днів, а для завдань з    |
+| 1 (one) working day for           | високим пріоритетом – не більше  |
+| high-priority tasks. Priority     | 1 робочого дня. Пріоритет        |
+| level is determined based on the  | визначається, виходячи з         |
+| task relevance for the Software’s | необхідності забезпечення        |
+| permanent accessibility and       | безперервності доступності та    |
+| serviceability.                   | працездатності ПЗ.               |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 14.4. The provisions of section 7 | 14.4. Положення розділу 7        |
+| of the Contract apply to all      | Договору також розповсюджуються  |
+| intellectual property rights to   | щодо прав інтелектуальної        |
+| the results of the Services       | власності на результати наданих  |
+| provided (works performed) as     | Послуг (виконаних робіт) в       |
+| part of the Warranty services for | рамках Гарантійної підтримки ПЗ, |
+| the Software stipulated in this   | визначеної даним розділом        |
+| section of the Contract.          | Договору.                        |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 15. Applicable law                | 15. Застосовне право             |
+|                                   |                                  |
+| The law of the Republic of        | До цього Договору застосовується |
+| Estonia shall apply to this       | чинне право Республіки Естонія,  |
+| Contract, except for intellectual | крім регулювання інтелектуальної |
+| property rights (Section 7) that  | власності (Розділ 7) – яке       |
+| are regulated by the valid        | регулюється чинним               |
+| legislation of Ukraine.           | законодавством України.          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 16. Settlement of disputes        | 16. Вирішення спорів             |
+|                                   |                                  |
+| 16.1. The Parties shall strive to | 16.1. Сторони повинні докласти   |
+| resolve any disputes arising out  | зусиль для вирішення будь-яких   |
+| of this Contract through          | суперечок, що виникають у        |
+| negotiations. If negotiations do  | зв’язку з цим Договором, шляхом  |
+| not make any progress in          | обговорення. У випадку, якщо     |
+| resolving the issues, the Parties | обговорення не забезпечує        |
+| can solve the disputes arising    | прогрес у вирішенні питань,      |
+| out of this Contract in the Harju | Сторони можуть вирішити          |
+| County Court (Harju Maakohus)     | суперечки, що випливають з цього |
+| located in Tallinn, Estonia.      | Договору, в Окружному суді Harju |
+|                                   | (Harju Maakohus), що знаходиться |
+|                                   | в Таллінні, Естонія.             |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 17. Prevailing language           | 17. Мова Договору                |
+|                                   |                                  |
+| English is the prevailing         | Основною мовою для тлумачення    |
+| language of this Contract for the | положень цієї Угоди вважається   |
+| purposes of interpretation        | англійська мова, а українська    |
+| thereof, with Ukrainian being     | мова вважається мовою            |
+| used for an unofficial            | неофіційного перекладу.          |
+| translation.                      |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 18. Acknowledgements              | 18. Підтвердження                |
+|                                   |                                  |
+| The Contractor confirms that it   | Виконавець підтверджує, що він в |
+| has sufficiently and thoroughly   | достатній мірі і ретельно        |
+| checked all the terms and         | перевірив всі умови та положення |
+| conditions of the procurement     | документації про закупівлю, в    |
+| documentation, fully and clearly  | повній мірі і однозначно їх      |
+| understands and is aware of them, | розуміє та усвідомлює, відсутні  |
+| there are no misunderstandings,   | будь-які різнотлумачення, а      |
+| and the Contractor also had the   | також мав можливість подати      |
+| opportunity to submit any         | будь-які питання що стосуються   |
+| questions related to the          | як документації про закупівлю    |
+| procurement documentation as well | так і даного Договору.           |
+| as this Contract.                 |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 19. Annexes to the Contract       | 19. Додатки до Договору          |
++-----------------------------------+----------------------------------+
+| 19.1. An integral part of this    | 19.1. Невід'ємною частиною цього |
+| Contract are:                     | Договору є:                      |
+|                                   |                                  |
+| Annex 3 – Service Delivery        | Додаток 3 – Графік надання       |
+| Schedule on __ pages in Ukrainian | послуг на __ сторінках           |
+| and English.                      | українською та англійською       |
+|                                   | мовами.                          |
++-----------------------------------+----------------------------------+
+| 20. Sanction and anticorruption   | 20. Санкційне та антикорупційне  |
+| caveat                            | застереження                     |
+|                                   |                                  |
+| 20.1. The Sanction Legislation    | 20.1. Під Санкційним             |
+| shall be deemed to be the Law of  | законодавством слід розуміти:    |
+| Ukraine “On Sanctions”, decisions | Закон України «Про санкції»,     |
+| of authorized international       | рішення уповноважених            |
+| bodies and individual states      | міжнародних органів та окремих   |
+| (specifically, the UN Security    | держав (зокрема, Ради Безпеки    |
+| Council and its committees, the   | ООН та її комітетів, ЄС, США     |
+| EU, the USA, etc.), decisions of  | тощо), рішення  Ради             |
+| the National Security and Defence | національної безпеки та оборони  |
+| Council of Ukraine; any other law | України; будь-який закон або     |
+| or regulatory and legal act of    | інший нормативно-правовий акт    |
+| the Parliamentary Assembly of the | Парламентської асамблеї Ради     |
+| Council of Europe, the European   | Європи, Європейського Союзу,     |
+| Union, the United Kingdom, the    | Великобританії, США, Ради        |
+| USA, the UN Security Council as   | безпеки ООН, а також Закон       |
+| well as a law of Ukraine and/or   | України та/або Указ Президента   |
+| decree of the President of        | України, який застосовує         |
+| Ukraine imposing sectoral and     | секторальні та персональні       |
+| personal special economic and     | спеціальні економічні та інші    |
+| other restrictive measures        | обмежувальні заходи (санкції) до |
+| (sanctions) against individuals   | фізичних та/або юридичних осіб,  |
+| and/or legal entities committing  | які здійснюють терористичну або  |
+| terrorist or other acts           | іншу небезпечну для суспільства  |
+| considered dangerous for society. | діяльність.                      |
+|                                   |                                  |
+| 20.2. The Anticorruption          | 20.2 Під Антикорупційним         |
+| Legislation shall be deemed to be | законодавством слід розуміти:    |
+| any law or other regulatory and   | будь-який закон або інший        |
+| legal act enforcing or enacting   | нормативно-правовий акт, який    |
+| specific provisions of the OECD   | вводить в дію або відповідно до  |
+| Convention on Combating Bribery   | якого застосовується положення   |
+| of Foreign Public Officials in    | Конвенції по боротьбі з підкупом |
+| Business Transaction, UK Bribery  | посадових осіб іноземних держав  |
+| Act, FCPA (USA).                  | при здійсненні міжнародних       |
+|                                   | ділових операцій Організації     |
+| 20.3. The Contractor hereby       | Економічного Співробітництва та  |
+| assures and guarantees that (both | Розвитку (OECD Convention on     |
+| at the time of the signing of     | Combating Bribery of Foreign     |
+| this Contract by the Parties and  | Public Officials in Business     |
+| in the future):                   | Transaction), UK Bribery Act,    |
+|                                   | FCPA (США).                      |
+| 20.3.1. it is aware of the        |                                  |
+| Sanction Lists approved as per    | 20.3.   Виконавець цим запевняє  |
+| the valid Ukrainian legislation   | та гарантує, що (як на момент    |
+| and international legal acts;     | підписання Сторонами цього       |
+|                                   | Договору, так і на майбутнє):    |
+| 20.3.2. it pursues its economic   |                                  |
+| activities in accordance with the | 20.3.1. він ознайомлений з       |
+| Anticorruption and Sanction       | Санкційними списками,            |
+| Legislation; the Contractor and   | затвердженими українським        |
+| its affiliated persons are not    | законодавством та міжнародними   |
+| subject to the Sanctions in       | правовими актами,                |
+| accordance with the Sanction      |                                  |
+| Legislation;                      | 20.3.2. він здійснює свою        |
+|                                   | господарську діяльність із       |
+| 20.3.3. the Contractor and its    | дотриманням вимог                |
+| affiliated persons do not         | Антикорупційного і Санкційного   |
+| cooperate and have no control     | законодавства та на Виконавця та |
+| relationship with entities that   | пов’язаних з ним осіб не         |
+| are subject to the Sanctions      | поширюється дія Санкцій          |
+| and/or are acknowledged as        | відповідно до Санкційного        |
+| parties in a case(s) on           | законодавства;                   |
+| violations of the Anti-corruption |                                  |
+| Legislation;                      | 20.3.3. Виконавець та пов’язані  |
+|                                   | з ним особи не співпрацюють та   |
+| 20.3.4. it has no member and/or   | не пов`язані відносинами         |
+| ultimate beneficial owner         | контролю з особами, на яких      |
+| considered:                       | поширюється дія Санкцій та/або   |
+|                                   | які є стороною у справі(ах) про  |
+| - a member or participant         | порушення Антикорупційного       |
+| (shareholder) with a 10% and      | законодавства;                   |
+| greater share in authorized       |                                  |
+| capital known to be the Russian   | 20.3.4. він не має учасника      |
+| Federation, a citizen of the      | та/або кінцевого бенефіціарного  |
+| Russian Federation or a legal     | власника, який би був:           |
+| entity established and registered |                                  |
+| in accordance with the valid law  | - членом або учасником           |
+| of the Russian Federation;        | (акціонером), що мав би частку в |
+|                                   | статутному капіталі 10 і більше  |
+| - a member or participant         | відсотків, яким є російська      |
+| (shareholder) with a 10% and      | федерація, громадянин російської |
+| greater share in authorized       | федерації або юридична особа,    |
+| capital known to be the Republic  | створена та зареєстрована        |
+| of Belarus, a citizen of the      | відповідно до законодавства      |
+| Republic of Belarus or a legal    | російської федерації;            |
+| entity established and registered |                                  |
+| in accordance with the valid law  | - членом або учасником           |
+| of the Republic of Belarus.       | (акціонером), що мав би частку в |
+|                                   | статутному капіталі 10 і більше  |
+| 20.4. The Contractor hereby       | відсотків, яким є республіка     |
+| declares and guarantees that it   | Білорусь, громадянин республіки  |
+| does not commit any actions (does | Білорусь або юридична особа,     |
+| not deliver, nor receives, nor    | створена та зареєстрована        |
+| has offices, counterparts and     | відповідно до законодавства      |
+| partners) directly or indirectly  | республіки Білорусь.             |
+| related to any types of           |                                  |
+| activities prohibited/restricted  | 20.4. Виконавець заявляє і       |
+| in accordance with decisions of   | гарантує, що він не вчиняє дії   |
+| authorized international bodies   | (не постачає, не отримує, не має |
+| and individual states (the UN     | філіалів, контрагентів,          |
+| Security Council and its          | партнерів): прямо чи             |
+| committees, EU, USA, UK, etc.)    | опосередковано пов’язані із      |
+| and/or related to transactions    | видами діяльності,               |
+| for the benefit of parties that   | забороненими/обмеженими          |
+| are subject to international      | відповідно до рішень             |
+| sanctions in accordance with      | уповноважених міжнародних        |
+| decisions of authorized           | органів та окремих держав (Ради  |
+| international bodies and          | Безпеки ООН та її комітетів, ЄС, |
+| individual states.                | США, Великобританії та інших     |
+|                                   | країн) та/або пов’язані з        |
+| 20.5. The Contractor shall not    | проведенням операцій на користь  |
+| use any funds and/or property     | осіб, щодо яких застосовані      |
+| acquired hereunder in order to    | міжнародні санкції відповідно до |
+| finance terrorism or actions      | рішень уповноважених міжнародних |
+| violating the territorial         | органів та окремих держав.       |
+| integrity of Ukraine. The         |                                  |
+| services delivered under this     | 20.5. Виконавець не              |
+| Contract shall not be procured by | використовуватиме кошти та/або   |
+| the Contractor from individuals   | майно, отримані за цим           |
+| and/or legal entities that/who    | Договором, з метою фінансування  |
+| are subject to the valid Sanction | тероризму або дій, що порушують  |
+| Legislation.                      | територіальну цілісність         |
+|                                   | України. Послуги, що надаються   |
+| 20.6. Should the Contractor be    | за цим Договором, не придбані    |
+| subjected to the Sanctions or     | Виконавцем у фізичних та/або     |
+| cooperate with a party subjected  | юридичних осіб, що підпадають    |
+| to the Sanctions, the Contractor  | під дію законодавства про        |
+| shall immediately notify another  | Санкції.                         |
+| Party as well as reimburse this   |                                  |
+| Party for all the damage          | 20.6. У випадку накладення       |
+| inflicted thereupon due to or     | Санкцій на Виконавця або         |
+| resulting from the imposed        | співпраці Виконавцем з особою,   |
+| Sanctions or cooperation with a   | на яку накладено Санкції,        |
+| party subjected to the Sanctions. | Виконавець зобов’язується        |
+|                                   | негайно повідомити про це іншу   |
+| 20.7. In case of any changes in   | Сторону, а також відшкодувати    |
+| the chain of owners (including    | останній усі збитки, спричинені  |
+| beneficiaries) of the Contractor  | їй через або у зв’язку з         |
+| and/or its management and         | накладенням Санкцій або          |
+| executive bodies, the Contractor  | співпрацею з особою, на яку      |
+| shall provide the relevant        | накладено Санкції.               |
+| information to another Party      |                                  |
+| within five (5) working days      | 20.7. У разі змін в ланцюгу      |
+| following the enactment day of    | власників (в т.ч. бенефіціарів)  |
+| such changes, if such changes     | Виконавця та/або в його керівних |
+| contradict previous assurances    | та виконавчих органах,           |
+| and guarantees as well as can     | Виконавець зобов’язується надати |
+| result in a failure to meet the   | відповідну інформацію іншій      |
+| commitments of the Party under    | Стороні протягом (5) п’яти       |
+| the above paragraphs.             | робочих днів з дати внесення     |
+|                                   | таких змін, якщо такі зміни      |
+| 20.8.   The Contracting Authority | суперечать запевненням та        |
+| shall be entitled to suspend its  | гарантіям і можуть привести до   |
+| commitments under this Contract   | невиконання зобов’язань Сторони  |
+| or terminate the Contract at its  | за вищенаведеними пунктами.      |
+| sole discretion by notifying      |                                  |
+| another Party thereof in writing  | 20.8.   Замовник має право в     |
+| 10 calendar days before the       | односторонньому порядку зупинити |
+| planned termination date, if      | виконання своїх обов’язків за    |
+| there are well-based reasons to   | цим Договором або припинити дію  |
+| assume that any of the            | цього Договору шляхом письмового |
+| above-mentioned assurances and    | повідомлення про це інших Сторін |
+| guarantees referred to in this    | за 10 календарних днів до        |
+| section of the Contract will be   | бажаної дати у випадку наявності |
+| violated. Additionally, the       | обґрунтованих підстав вважати,   |
+| Contracting Authority that        | що відбулося або відбудеться     |
+| reasonably makes use of this      | порушення будь-яких з            |
+| right shall be exempt from any    | вищезазначених в цьому розділі   |
+| and all liabilities or            | Договору запевнень та гарантій.  |
+| obligations concerning penalties  | При цьому Замовник, що           |
+| hereunder resulting from the      | обґрунтовано скористався цим     |
+| Contracting Authority’s failure   | правом, звільняється від         |
+| to fulfil its contractual         | будь-якої відповідальності або   |
+| obligations as well as from the   | обов’язку щодо відшкодування     |
+| obligation to reimburse any       | штрафних санкцій за цим          |
+| losses and costs borne by another | Договором у зв’язку з            |
+| Party (be it directly or          | невиконанням Замовником          |
+| indirectly) resulting from such a | договірних зобов’язань та        |
+| suspension/termination of this    | будь-якого роду витрат, збитків, |
+| Contract.                         | понесених іншою Стороною (прямо  |
+|                                   | або опосередковано), в           |
+|                                   | результаті такого                |
+|                                   | призупинення/припинення дії      |
+|                                   | цього Договору.                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| 20.9. The Contracting Authority   | 20.9. Замовник гарантує, що при  |
+| guarantees that when performing   | виконанні цього Договору він     |
+| this Contract, it will act in     | діятиме відповідно до вимог      |
+| accordance with the requirements  | антикорупційного законодавства,  |
+| of anti-corruption legislation    | що застосовується до нього,      |
+| applicable to it, including the   | включаючи законодавство Естонії  |
+| legislation of Estonia and        | та України у сфері запобігання   |
+| Ukraine in the field of           | корупції.                        |
+| corruption prevention.            |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Signatures of the representatives | Підписи представників Сторін:    |
+| of the Parties:                   |                                  |
+|                                   | Своїми підписами під Договором   |
+| By signing this Contract, all the | всі її Сторони підтверджують, що |
+| Parties of the Contract confirm   | вони ознайомились і погодились   |
+| that they have reviewed and       | на умови і положення цього       |
+| accepted terms and provisions of  | Договору, а також повністю       |
+| the Contract, and they are fully  | проінформовані про зміст і       |
+| aware of the content and          | наслідки взятих на себе          |
+| consequences of their undertaken  | зобов'язань:                     |
+| obligations:                      |                                  |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Contracting Authority:            | Замовник:                        |
+|                                   |                                  |
+| Hannes Astok                      | Ханнес Асток                     |
+|                                   |                                  |
+| Chairman of the Management Board  | Голова правління                 |
+|                                   |                                  |
+| e-Governance Academy              | Неурядової організації Академія  |
+|                                   | електронного управління          |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Beneficiary:                      | Бенефіціар:                      |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Contractor:                       | Виконавець:                      |
++-----------------------------------+----------------------------------+
+|                                   |                                  |
++-----------------------------------+----------------------------------+
+| Signed in three copies.           | Підписано у трьох примірниках.   |
++-----------------------------------+----------------------------------+
+
+  Annex 1 to the Contract No. 2-11/_______ dated __________ 2025 
+
+  Додаток 1 до Договору від __________2025 № 2-11/________ 
+
+ 
+
+  Service Delivery Schedule / 
+
+  Календарний план надання послуг 
+
+ 
+
++---+------------------+-----------------------+----------------------+
+| N | Stage / Назва    | Результат етапу /     | Timeline (weeks) *   |
+| o | етапу надання    | result                | /                    |
+| . | послуг           |                       |                      |
+| / |                  |                       | Строк надання        |
+| № |                  |                       | послуги (тижнів) *   |
+| з |                  |                       |                      |
+| / |                  |                       |                      |
+| п |                  |                       |                      |
+|   |                  |                       |                      |
++===+==================+=======================+======================+
+| 1 | Етап 1: Збір     | Технічне завдання /   | до 3 тижнів з дати   |
+| . | вимог та         | Terms of Reference;   | набрання чинності    |
+|   | проєктування.    |                       | договором            |
+|   |                  | Акт наданих послуг за |                      |
+|   | Розробка         | першим етапом /       | Up to 3 weeks after  |
+|   | Технічного       |                       | the Contract’s entry |
+|   | завдання на      | Certificate of        | into force           |
+|   | розробку         | acceptance for the    |                      |
+|   | програмної       | services provided     |                      |
+|   | платформи для    | under stage 1         |                      |
+|   | місцевих         |                       |                      |
+|   | публічних послуг |                       |                      |
+|   |                  |                       |                      |
+|   | Stage 1:         |                       |                      |
+|   | Requirements     |                       |                      |
+|   | gathering and    |                       |                      |
+|   | design.          |                       |                      |
+|   | Preparation of   |                       |                      |
+|   | the Terms of     |                       |                      |
+|   | Reference for    |                       |                      |
+|   | the development  |                       |                      |
+|   | of a software    |                       |                      |
+|   | platform for     |                       |                      |
+|   | local public     |                       |                      |
+|   | services         |                       |                      |
++---+------------------+-----------------------+----------------------+
+| 2 | Етап 2:          | Програмна платформа   | до 7 тижнів з дати   |
+| . | розробка         | на електронному носії | підписання Акта      |
+|   | програмної       | (оптичному диску) /   | наданих послуг за    |
+|   | платформи для    | Computer program on   | Етапом 1             |
+|   | демобілізованих  | an electronic data    |                      |
+|   | ветеранів        | carrier (optical      | Up to 7 weeks after  |
+|   |                  | disc);                | the signing of the   |
+|   | Stage 2:         |                       | Certificate of       |
+|   | development of   | Програма та методика  | acceptance for the   |
+|   | the computer     | попередніх            | services provided    |
+|   | program for the  | випробувань           | under stage 1        |
+|   | development of   | Програмної платформи  |                      |
+|   | local public     | / Programme and       |                      |
+|   | services         | methodology of the    |                      |
+|   |                  | preliminary testing   |                      |
+|   |                  | of the Computer       |                      |
+|   |                  | Programme;            |                      |
+|   |                  |                       |                      |
+|   |                  | Протокол попередніх   |                      |
+|   |                  | випробувань           |                      |
+|   |                  | Програмної платформи  |                      |
+|   |                  | / Protocol of the     |                      |
+|   |                  | preliminary testing   |                      |
+|   |                  | of the Computer       |                      |
+|   |                  | Program;              |                      |
+|   |                  |                       |                      |
+|   |                  | Програмна платформа   |                      |
+|   |                  | на серверах /         |                      |
+|   |                  | Computer Program on   |                      |
+|   |                  | servers designated by |                      |
+|   |                  | the Technical         |                      |
+|   |                  | Administrator;        |                      |
+|   |                  |                       |                      |
+|   |                  | Інструкції            |                      |
+|   |                  | Користувача           |                      |
+|   |                  | Комп’ютерної програми |                      |
+|   |                  | / User manual for the |                      |
+|   |                  | Computer Program;     |                      |
+|   |                  |                       |                      |
+|   |                  | Інструкція            |                      |
+|   |                  | адміністратора        |                      |
+|   |                  | Програмної платформи  |                      |
+|   |                  | / Administrator’s     |                      |
+|   |                  | manual for the        |                      |
+|   |                  | Computer Program;     |                      |
+|   |                  |                       |                      |
+|   |                  | Загальна інструкція   |                      |
+|   |                  | по встановленню,      |                      |
+|   |                  | налаштуванню,         |                      |
+|   |                  | резервному копіюванню |                      |
+|   |                  | даних та відновленню  |                      |
+|   |                  | інформації / General  |                      |
+|   |                  | manual for the        |                      |
+|   |                  | installation, setup,  |                      |
+|   |                  | backup copying, and   |                      |
+|   |                  | data recovery;        |                      |
+|   |                  |                       |                      |
+|   |                  | Акт наданих послуг за |                      |
+|   |                  | другим етапом /       |                      |
+|   |                  | Certificate of        |                      |
+|   |                  | Acceptance for the    |                      |
+|   |                  | services provided     |                      |
+|   |                  | under stage 2;        |                      |
+|   |                  |                       |                      |
+|   |                  | Акт приймання -       |                      |
+|   |                  | передачі              |                      |
+|   |                  |                       |                      |
+|   |                  | Комп’ютерної програми |                      |
+|   |                  | / Acceptance and      |                      |
+|   |                  | Transfer Certificate  |                      |
+|   |                  | for the Computer      |                      |
+|   |                  | Program.              |                      |
++---+------------------+-----------------------+----------------------+
+| 3 | Етап 3: Розробка |                       |                      |
+| . | електронних      |                       |                      |
+|   | послуг           |                       |                      |
+|   |                  |                       |                      |
+|   | Stage 3:         |                       |                      |
+|   | Development of   |                       |                      |
+|   | electronic       |                       |                      |
+|   | services         |                       |                      |
++---+------------------+-----------------------+----------------------+
+| 3 | Етап 3.1.        | Технічне завдання /   | до 8 тижнів з дати   |
+| . | Розробка         | Terms of Reference    | набрання чинності    |
+| 1 | Технічного       |                       | договором            |
+|   | завдання на      |                       |                      |
+|   | розробку         |                       | Up to 8 weeks after  |
+|   | електронних      |                       | the Contract’s entry |
+|   | послуг           |                       | into force           |
+|   |                  |                       |                      |
+|   | Stage 3.1.       |                       |                      |
+|   | Development of   |                       |                      |
+|   | Terms of         |                       |                      |
+|   | Reference for    |                       |                      |
+|   | the development  |                       |                      |
+|   | of electronic    |                       |                      |
+|   | services         |                       |                      |
++---+------------------+-----------------------+----------------------+
+| 3 | Етап 3.2.        | Розроблені електронні | до 6 тижнів з дати   |
+| . | Розробка         | послуги на            | підписання Акта      |
+| 2 | електронних      | електронному носії    | наданих послуг за    |
+|   | послуг           | (оптичному диску) /   | Етапом 2             |
+|   |                  | Developed electronic  |                      |
+|   | Stage 3.2.       | services on an        | Up to 6 weeks after  |
+|   | Development of   | electronic data       | the signing of the   |
+|   | electronic       | carrier (optical      | Certificate of       |
+|   | services         | disc);                | acceptance for the   |
+|   |                  |                       | services provided    |
+|   |                  | Програма та методика  | under stage 2        |
+|   |                  | попередніх            |                      |
+|   |                  | випробувань           |                      |
+|   |                  | електронних послуг /  |                      |
+|   |                  | Programme and         |                      |
+|   |                  | methodology of the    |                      |
+|   |                  | preliminary testing   |                      |
+|   |                  | of electronic         |                      |
+|   |                  | services;             |                      |
+|   |                  |                       |                      |
+|   |                  | Протокол попередніх   |                      |
+|   |                  | випробувань           |                      |
+|   |                  | електронних послуг /  |                      |
+|   |                  | Protocol of the       |                      |
+|   |                  | preliminary testing   |                      |
+|   |                  | of electronic         |                      |
+|   |                  | services;             |                      |
+|   |                  |                       |                      |
+|   |                  | Електронні послуги на |                      |
+|   |                  | Платформі /           |                      |
+|   |                  | Electronic services   |                      |
+|   |                  | on the Platform;      |                      |
+|   |                  |                       |                      |
+|   |                  | Інструкції            |                      |
+|   |                  | користувача           |                      |
+|   |                  | електронних послуг /  |                      |
+|   |                  | Electronic services   |                      |
+|   |                  | user manuals;         |                      |
+|   |                  |                       |                      |
+|   |                  | Інструкція            |                      |
+|   |                  | адміністратора        |                      |
+|   |                  | електронних послуг /  |                      |
+|   |                  | electronic services   |                      |
+|   |                  | administrator's       |                      |
+|   |                  | manual;               |                      |
+|   |                  |                       |                      |
+|   |                  | Загальна інструкція   |                      |
+|   |                  | по встановленню,      |                      |
+|   |                  | налаштуванню,         |                      |
+|   |                  | резервному копіюванню |                      |
+|   |                  | даних та відновленню  |                      |
+|   |                  | інформації в частині  |                      |
+|   |                  | електронних послуг /  |                      |
+|   |                  | General manual for    |                      |
+|   |                  | the installation,     |                      |
+|   |                  | setup, backup         |                      |
+|   |                  | copying, and data     |                      |
+|   |                  | recovery regarding    |                      |
+|   |                  | electronic services;  |                      |
+|   |                  |                       |                      |
+|   |                  | Акт наданих послуг за |                      |
+|   |                  | третім етапом /       |                      |
+|   |                  | Certificate of        |                      |
+|   |                  | Acceptance for the    |                      |
+|   |                  | services provided     |                      |
+|   |                  | under stage 3;        |                      |
+|   |                  |                       |                      |
+|   |                  | Акт приймання -       |                      |
+|   |                  | передачі              |                      |
+|   |                  |                       |                      |
+|   |                  | Електронних послуг /  |                      |
+|   |                  | Acceptance and        |                      |
+|   |                  | Transfer Certificate  |                      |
+|   |                  | for the electronic    |                      |
+|   |                  | services.             |                      |
++---+------------------+-----------------------+----------------------+
+
+ 
+
++----------------------------------+-----------------------------------+
+| Contracting Authority:           | Замовник:                         |
+|                                  |                                   |
+| Hannes Astok                     | Ханнес Асток                      |
+|                                  |                                   |
+| Chairman of the Management       | Голова правління                  |
+| Board                            |                                   |
+|                                  | Неурядова організація Академія    |
+| e-Governance Academy             | електронного управління           |
+|                                  |                                   |
+|                                  |                                   |
++==================================+===================================+
+|                                  |                                   |
++----------------------------------+-----------------------------------+
+| Beneficiary:                     | Бенефіціар:                       |
+|                                  |                                   |
+|                                  |                                   |
++----------------------------------+-----------------------------------+
+|                                  |                                   |
++----------------------------------+-----------------------------------+
+|                                  |                                   |
++----------------------------------+-----------------------------------+
+| Contractor:                      | Виконавець:                       |
++----------------------------------+-----------------------------------+
+|                                  |                                   |
++----------------------------------+-----------------------------------+
+| Signed in three copies.          | Підписано у трьох примірниках.    |
++----------------------------------+-----------------------------------+
