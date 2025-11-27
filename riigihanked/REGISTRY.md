@@ -25,8 +25,9 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 9  
+**Total Assessed:** 10  
 **Analyzing:** 1  
+**Consider:** 1  
 **Skip:** 7  
 **FEASIBLE:** 1  
 **Submitted:** 0  
@@ -46,6 +47,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 | 2025-11-27 | 9525405 | Tehnopoli kodulehe arendus         | SA Tehnopol                 | 2025-12-01 | Skip       | WordPress/PHP gap, web design req, 4-day deadline, better alt exists (9534824) |
 | 2025-11-27 | 9390245 | Info- ja küberturvalisuse teenused | ESTDEV                      | 2025-12-16 | Skip       | €27M framework, 8+ specialists, 40+ intl projects, cybersec certs, dev cooperation - structural mismatch |
 | 2025-11-27 | 9526064 | CRM tarkvara                       | Tallinna Kultuurikatel      | 2025-12-01 | Skip       | Product procurement (not dev), CRM vendor status required, Entu not CRM, Scoro migration impossible, <5% win prob |
+| 2025-11-27 | 9407944 | Illegaali Rändepaketi taustakontroll | SMIT (Police/Border Guard) | 2025-12-16 | Consider   | €530k Java/Spring Boot, 50-60% feasible with team, 30-40% win prob, needs Java refresh + 2-3 person team, 5mo intensive |
 
 ## Notes
 
