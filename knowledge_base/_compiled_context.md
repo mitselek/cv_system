@@ -270,27 +270,47 @@ last_verified: '2025-11-21'
 id: entusiastid-ou-2010-present
 type: employment
 company: Entusiastid OÜ
-url: https://entu.ee
+url: <https://entu.ee>
+repository: <https://github.com/entu>
 dates:
-  start: '2010-09'
-  end: 'Present'
+start: '2010-09'
+end: 'Present'
 title:
-  et: Arhitekt/analüütik/arendaja
-  en: Architect/Analyst/Developer
+et: Arhitekt/analüütik/arendaja
+en: Architect/Analyst/Developer
 location: Estonia
 tags:
-  - IT
-  - Software Development
-  - System Architecture
-  - Business Analysis
-  - Database Design
+
+- IT
+- Software Development
+- System Architecture
+- Business Analysis
+- Database Design
+
 skills_demonstrated:
-  - system-architecture
-  - database-management
-  - python
-  - javascript
+
+- system-architecture
+- database-management
+- javascript
+- nodejs
+- python
+
+technology_stack:
+  backend:
+    - Node.js
+    - JavaScript
+  frontend:
+    - Vue.js
+    - JavaScript
+  database:
+    - MongoDB
+  deployment:
+    - Cloud-based (AWS)
+    - Container-ready
+
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-11-27'
+
 ```
 
 #### et
@@ -304,6 +324,7 @@ last_verified: '2025-11-21'
   - andmete eksport/import
   - jpm.
 - Entu andmehaldusplatvorm on paljulubav keskkond, mis võimaldab ettevõtte olemasolevate infosüsteemide konsolideerimist üheks ja seni katmata ärivajadused samas keskkonnas rahuldada.
+- Node.js/JavaScript põhine arhitektuur: API backend, Vue.js frontend, MongoDB andmebaas.
 - Entut kasutavad oma igapäevatöös:
   - u. 30 kooliraamatukogu üle Eesti;
   - Eesti Kunstiakadeemia dokumendiregistri, projektiregistri, ruumiplaani, inventari, osaliselt ka personali jne ...
@@ -313,15 +334,16 @@ last_verified: '2025-11-21'
 #### en
 
 - Adapting the Entu data management platform to the specific needs of various clients (schools, museums, businesses).
-- Database design.
-- Integration with existing systems.
+- Node.js/JavaScript-based architecture: API backend, Vue.js frontend, MongoDB database.
+- Database design and system integration.
 - User interface development.
+- Supporting 30+ organizations including schools, museums, universities, and businesses.
 
 ---
 
 #### Connections
 
-- **Skills:** [[system-architecture]], [[database-management]], [[python]], [[javascript]]
+- **Skills:** [[system-architecture]], [[database-management]], [[javascript]], [[nodejs]], [[python]]
 
 ---
 
@@ -332,35 +354,69 @@ id: ilusa-koodi-instituut-2021-2024
 type: employment
 company: Ilusa Koodi Instituut
 context: PÖFF (Black Nights Film Festival)
+repository: <https://github.com/poff-bnff/web2021>
 dates:
-  start: '2021-08'
-  end: '2024-10'
+start: '2021-08'
+end: '2024-10'
 title:
-  et: Arendusjuht
-  en: Development Lead
+et: Arendusjuht
+en: Development Lead
 location: Tallinn, Estonia
 tags:
-  - Team Leadership
-  - Technical Leadership
-  - Project Management
-  - Mentoring
-  - Culture
-  - Entertainment
+
+- Team Leadership
+- Technical Leadership
+- Project Management
+- Mentoring
+- Culture
+- Entertainment
+
 skills_demonstrated:
-  - project-management
-  - team-leadership
-  - system-architecture
-  - spreadsheet-tools
+
+- javascript
+- nodejs
+- project-management
+- team-leadership
+- system-architecture
+- database-management
+
+technology_stack:
+  backend:
+    - Node.js
+    - Strapi CMS
+    - JavaScript
+  frontend:
+    - Pug (templating)
+    - Stylus (CSS preprocessor)
+    - Static Site Generator (SSG)
+    - JavaScript
+  database:
+    - PostgreSQL
+  deployment:
+    - Shell scripts
+    - Database backups
+    - AWS CloudFront
+  languages:
+    - 'JavaScript: 42.4%'
+    - 'Pug: 36.3%'
+    - 'Stylus: 19.4%'
+    - 'Shell: 1.8%'
+
 achievements:
-  - poff-intern-hiring-2024
+
+- poff-intern-hiring-2024
+
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-11-27'
+
 ```
 
 #### et
 
 - Juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) platvormi arendamisel.
 - Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ja arhitektuur.
+- Node.js/JavaScript põhine arhitektuur: Strapi CMS backend, staatilise saidi generaator, PostgreSQL andmebaas.
+- Platvormi arendus hõlmas mitut festivali domeeni: poff.ee, justfilm.ee, kinoff.ee, industry.poff.ee, shorts.poff.ee.
 - Praktikantide mentorlus ja professionaalse arengu juhendamine.
 - Tulemus: Kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle.
 - Vastutus rahvusvahelise kultuurisündmuse digitaalse infrastruktuuri eest.
@@ -369,15 +425,18 @@ last_verified: '2025-11-21'
 
 - Led a 4-member development team for PÖFF (Black Nights Film Festival) platform development.
 - Technical leadership and architecture for the entire festival website and logistics system.
+- Node.js/JavaScript-based architecture: Strapi CMS backend, static site generator, PostgreSQL database.
+- Platform development covered multiple festival domains: poff.ee, justfilm.ee, kinoff.ee, industry.poff.ee, shorts.poff.ee.
 - Mentoring interns and guiding their professional development.
 - Achievement: All 4 interns were hired full-time after completing their internships.
 - Responsible for the digital infrastructure of an international cultural event.
+- Contributed as @mitselek to the open-source repository (13 contributors total).
 
 ---
 
 #### Connections
 
-- **Skills:** [[project-management]], [[team-leadership]], [[system-architecture]], [[spreadsheet-tools]]
+- **Skills:** [[javascript]], [[nodejs]], [[project-management]], [[team-leadership]], [[system-architecture]], [[database-management]]
 - **Achievements:** [[poff-intern-hiring-2024]]
 
 ---
@@ -716,7 +775,7 @@ id: tartu-ulikool-2014-2015
 type: employment
 company: Tartu Ülikool
 context: Centre of Estonian Language Resources
-url: https://keeleressursid.ee/en/
+url: https://www.keeleressursid.ee/
 dates:
   start: '2014-09'
   end: '2015-12'
@@ -960,6 +1019,79 @@ tags:
 status: verified
 last_verified: '2025-11-21'
 ```
+
+---
+
+### nodejs
+
+```yaml
+id: nodejs
+skill_name:
+et: Node.js
+en: Node.js
+category: Backend Development
+proficiency_level: 8/10
+tags:
+
+- programming
+- backend
+- javascript
+- server-side
+
+status: verified
+last_verified: '2025-11-27'
+
+verified_through:
+
+- Entu platform backend (2010-present, 15 years)
+- PÖFF platform backend with Strapi CMS (2021-2024, 3+ years)
+- API development and REST services
+- Database integration (MongoDB, PostgreSQL)
+
+```
+
+#### Description
+
+#### et
+
+Node.js backend arendus, server-side JavaScript rakendused, API disain ja integratsioonid.
+
+#### en
+
+Node.js backend development, server-side JavaScript applications, API design and integrations.
+
+#### Experience Summary
+
+**Primary projects:**
+
+- **Entu Platform (2010-present):** Node.js API backend, 15 years continuous development
+- **PÖFF Festival Platform (2021-2024):** Strapi CMS (Node.js-based), technical architecture lead
+- **Multiple deployments:** 30+ organizations using Node.js-based solutions
+
+**Technologies used with Node.js:**
+
+- Backend frameworks: Strapi CMS, custom APIs
+- Databases: MongoDB (Entu), PostgreSQL (PÖFF)
+- Frontend integration: Vue.js, Pug templating
+- Deployment: Cloud-based, containerization-ready
+
+#### Proficiency Level: 8/10
+
+**Strengths:**
+
+- 15+ years Node.js backend development (Entu platform)
+- API design and RESTful services
+- Database integration (MongoDB, PostgreSQL)
+- CMS platforms (Strapi)
+- Large-scale deployments (30+ organizations)
+
+**Experience areas:**
+
+- Server-side JavaScript architecture
+- Asynchronous programming patterns
+- Database query optimization
+- API security and authentication
+- System integration and data exchange
 
 ---
 

@@ -14,9 +14,12 @@ tags:
 - backend
 - javascript
 - server-side
-  status: verified
-  last_verified: '2025-11-27'
-  verified_through:
+
+status: verified
+last_verified: '2025-11-27'
+
+verified_through:
+
 - Entu platform backend (2010-present, 15 years)
 - PÖFF platform backend with Strapi CMS (2021-2024, 3+ years)
 - API development and REST services

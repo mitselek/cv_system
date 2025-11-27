@@ -179,11 +179,52 @@ _[Add investigation findings here]_
 - **Your role:** Architect/Analyst/Developer
 - **Deployments:** 30+ organizations documented
 
-### Key Questions to Answer
+### CRITICAL FINDING: Technology Evolution Timeline
 
-1. Is Entu backend Python-based? (Critical for qualification)
-2. What database does Entu use? (PostgreSQL likely)
-3. Current deployment method? (Containers or traditional?)
-4. Any government clients using TARA/X-Road? (Points opportunity)
+**Original Platform (2010-2017):**
 
-_[Investigation results to be added]_
+- **Language:** Python ✓
+- **Database:** MySQL ✗ (NOT PostgreSQL = -2 points)
+- **Repository:** https://github.com/entu/entu (archived)
+- **Last Updated:** 2017-01-19
+- **Status:** ARCHIVED
+
+**Current Platform (2017-present):**
+
+- **Language:** JavaScript/Node.js ✗ (NOT Python = DISQUALIFIED)
+- **Database:** MongoDB ✗ (NOT PostgreSQL = DISQUALIFIED)
+- **Repository:** https://github.com/entu (organization)
+- **Status:** ACTIVE
+
+### Procurement Qualification Analysis
+
+**48-Month Window Requirement:** 2021-11-27 to 2025-11-27
+
+**Python/MySQL Version:**
+
+- Migration date: ~2017 (8 years ago)
+- **Status:** ✗ OUTSIDE 48-month window
+- **Result:** DISQUALIFIED (too old)
+
+**Node.js/MongoDB Version:**
+
+- Active period: 2017-present (within window)
+- **Python requirement:** ✗ NO (JavaScript)
+- **PostgreSQL requirement:** ✗ NO (MongoDB)
+- **Result:** DISQUALIFIED (wrong technology stack)
+
+### CONCLUSION
+
+**Entu CANNOT be used as reference project because:**
+
+1. **Original Python version** (2010-2017): Outside 48-month window
+2. **Current Node.js version** (2017-present): Not Python, not PostgreSQL
+
+**Final Score: 0 points**
+
+Even with Python/MySQL historical context, the platform migration to Node.js/MongoDB in ~2017 means:
+
+- The qualifying Python version is too old (8 years)
+- The current version uses disqualifying technologies
+
+**Action Required:** Pursue Partnership Route (see todo list)

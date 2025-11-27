@@ -21,19 +21,30 @@ tags:
 - System Architecture
 - Business Analysis
 - Database Design
-  skills_demonstrated:
+
+skills_demonstrated:
+
 - system-architecture
 - database-management
 - javascript
 - nodejs
 - python
-  technology_stack:
-  backend: - Node.js - JavaScript
-  frontend: - Vue.js - JavaScript
-  database: - MongoDB
-  deployment: - Cloud-based (AWS) - Container-ready
-  status: verified
-  last_verified: '2025-11-27'
+
+technology_stack:
+  backend:
+    - Node.js
+    - JavaScript
+  frontend:
+    - Vue.js
+    - JavaScript
+  database:
+    - MongoDB
+  deployment:
+    - Cloud-based (AWS)
+    - Container-ready
+
+status: verified
+last_verified: '2025-11-27'
 
 ---
 

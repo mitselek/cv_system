@@ -22,23 +22,44 @@ tags:
 - Mentoring
 - Culture
 - Entertainment
-  skills_demonstrated:
+
+skills_demonstrated:
+
 - javascript
 - nodejs
 - project-management
 - team-leadership
 - system-architecture
 - database-management
-  technology_stack:
-  backend: - Node.js - Strapi CMS - JavaScript
-  frontend: - Pug (templating) - Stylus (CSS preprocessor) - Static Site Generator (SSG) - JavaScript
-  database: - PostgreSQL
-  deployment: - Shell scripts - Database backups - AWS CloudFront
-  languages: - JavaScript: 42.4% - Pug: 36.3% - Stylus: 19.4% - Shell: 1.8%
-  achievements:
+
+technology_stack:
+  backend:
+    - Node.js
+    - Strapi CMS
+    - JavaScript
+  frontend:
+    - Pug (templating)
+    - Stylus (CSS preprocessor)
+    - Static Site Generator (SSG)
+    - JavaScript
+  database:
+    - PostgreSQL
+  deployment:
+    - Shell scripts
+    - Database backups
+    - AWS CloudFront
+  languages:
+    - 'JavaScript: 42.4%'
+    - 'Pug: 36.3%'
+    - 'Stylus: 19.4%'
+    - 'Shell: 1.8%'
+
+achievements:
+
 - poff-intern-hiring-2024
-  status: verified
-  last_verified: '2025-11-27'
+
+status: verified
+last_verified: '2025-11-27'
 
 ---
 
