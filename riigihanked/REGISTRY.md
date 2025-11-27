@@ -25,10 +25,10 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 
 ## Statistics
 
-**Total Assessed:** 17  
+**Total Assessed:** 18  
 **Analyzing:** 1  
 **Consider:** 2  
-**Skip:** 13  
+**Skip:** 14  
 **FEASIBLE:** 1  
 **Submitted:** 0  
 **Won:** 0  
@@ -55,6 +55,7 @@ Simple tracking of Estonian public procurements (riigihanked) for participation 
 | 2025-11-27 | 9407944 | Illegaali Rändepaketi taustakontroll | SMIT (Police/Border Guard) | 2025-12-16 | Consider   | €530k Java/Spring Boot, 50-60% feasible with team, 30-40% win prob, needs Java refresh + 2-3 person team, 5mo intensive |
 | 2025-11-27 | 9224484 | RTIP arendus- ja hooldustööd       | RTK + RmIT                  | 2026-01-06 | Skip       | €5M framework, SAP ABAP mandatory (0% exp), Java 7/10 + 8yr gap, 70% test assignment vs insiders, 7-person team in 40d, 5-15% win prob |
 | 2025-11-27 | 9565284 | Ukraine veterans platform          | e-Governance Academy        | 2025-12-03 | Skip       | EstDev Ukraine project, 9-person team, Kubernetes/BPMN/Diia/Trembita gaps, Ukrainian lang barrier, 10-20% win prob, 6d insufficient |
+| 2025-11-27 | 9413285 | ATV ja RIHAKEse arendus            | RIA (State IT Authority)    | 2026-01-14 | Skip       | €1.6M data portal framework, Java/Angular/PostgreSQL, X-Road/TARA/K8s gaps (architect blockers), 40% test work favors incumbents, 20-35% win prob, 48d allows team but 5-6 specialists needed |
 
 ## Notes
 
