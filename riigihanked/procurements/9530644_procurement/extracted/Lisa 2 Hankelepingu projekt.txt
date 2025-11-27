@@ -1,0 +1,229 @@
+Lisa 2 Hankelepingu projekt
+Riigihange „Raadio- ja uudistemaja läbipääsusüsteemi uuendamine“ (viitenumber 302481)
+TÖÖVÕTULEPING
+/allkirjastamise kuupäev digikonteineris/ nr. 1.1-15/.....
+Eesti Rahvusringhääling (edaspidi Tellija või Pool), registrikood 74002322, mida esindab juhatuse
+liige ....... ja ....... (edaspidi Töövõtja või Pool), registrikoodiga........, mida esindab põhikirja/volituse
+alusel ........, sõlmisid käesoleva töövõtulepingu (edaspidi Leping) alljärgnevas:
+1. Üldsätted
+1.1 Tellija korraldas riigihanke „Raadio- ja uudistemaja läbipääsusüsteemi uuendamine”, viitenumber
+302481 (edaspidi nimetatud Riigihange).
+1.2 Tellija tunnistas Riigihanke menetluses .......2025 otsusega nr ...... edukaks Töövõtja pakkumuse.
+1.3 Leping sõlmitakse riigihangete seaduse §-i 120 alusel.
+1.4 Käesoleva Lepingu osaks on Riigihanke alusdokumendid (lisa 1) ja Riigihanke hankemenetluses
+Töövõtja poolt esitatud pakkumus (lisa 2).
+2. Lepingu ese
+2.1 Lepingu esemeks on Töövõtja poolt ERRi raadio- ja uudistemajja krüpteeritud kaardilugejate ja kaartide
+ostmine, olemasolevate kaardilugejate ja kaartide vahetus ja kogu süsteemi konfigureerimine (edaspidi
+Töö) 60 (kuuekümne) päeva jooksul alates Lepingu allkirjastamisest.
+3. Poolte kohustused
+3.1 Töövõtja kohustused Töö teostamisel:
+3.1.1 tagab Tellijal kasutusel oleva läbipääsusüsteemi tõrgeteta töö kogu asenduse perioodi jooksul, sh.
+olemasoleva valve- ja läbipääsusüsteemi tervikliku säilimise Tellijale. Tõrgeteks ei peeta planeeritud,
+kooskõlastatud ja vajalike meetmetega korraldatud läbipääsusüsteemi ümberlülitusi tööajal ja
+töövälisel ajal;
+3.1.2 peab määrama Töö teostamise ajaks projektijuhi ja tehnilise spetsialisti tehnilistes küsimustes;
+3.1.3 tagab Tööde kvaliteetse ettevalmistamise, läbiviimise, kontrolli ja andma igapäevaselt ülevaadet Töö
+käigus ja Tööde lõpetamisel;
+3.1.4 tagab Tööde süsteemse ettevalmistuse ja läbiviimise, kõik tegevused peavad olema Tellijale teada ja
+Tellijaga eelnevalt kooskõlastatud;
+3.1.5 kõik läbiviidavad muudatused läbipääsusüsteemis tuleb kajastada Tellija poolt edastatavate tehniliste
+teostusdokumentatsioonide muudatustena;
+3.1.6 kohustub korraldama peale seadmete üleandmist ja paigaldamist Tellija personalile seadmete
+kasutamise koolituse. Koolitus tuleb läbi viia Tellija asukohas ja eesti keeles. Koolituse käigus
+katsetatakse läbi ja kontrollitakse koolitatud personali oskusi kõigi seadmete ja selle lisaseadmete
+funktsioonide kasutamise oskuses;
+3.1.7 kohustub lepingu p-s 8.2 nimetatud Tellija kontaktisikule viivitamatult teatama kõigist Lepingu
+täitmist ohustavatest ja/või ohustada võivatest asjaoludest (s.h võimalikest tarneraskustest). Nimetatud
+kohustuse täitmine ei vabasta Töövõtjat leppetrahvi ja/või kahjuhüvitise tasumise kohustusest;
+3.1.8 arvestab, et töötsoon on töötavad toimetused, mistõttu mürarikkaid tegevusi ei saa teha salvestuste ja
+otsesaadete ajal. Pakkuja peab enne tööde alustamist esitama tööprojekti tasemel paigaldusplaanid ja
+ajagraafiku ning kooskõlastama need hankijaga.
+3.1.9 tagab, et lepinguperioodil oleks meeskonnas vähemalt kaks Inner Range tootjapoolse väljaõppe saanud
+inseneri, kellest ühe tase peab olema Inner Range Integriti advanced technician ja teine vähemalt Inner
+Range Integriti basic technician.
+3.1.10 kohustub tegema Lepingu täitmise käigus kõik selleks, et konfidentsiaalsete andmete kaitseks
+rakendatakse asjakohaseid ja piisavaid organisatsioonilisi, füüsilisi ja infotehnoloogilisi
+turvameetmeid;
+3.1.11 Töö peab vastama selles valdkonnas esitatavatele üldtunnustatud kvaliteedi nõuetele;
+3.1.12 käitub hoolsalt Tellija varaga, millega Töö teostamisel kokku puutub ning rakendab abinõusid kahju
+
+1[3]
+
+tekkimise vältimiseks, kahju tekkimisel hüvitab Tellijale tekitatud kahju;
+3.1.13 teostab objektil koristust jooksvalt, tagades objektil puhtuse igal ajahetkel;
+3.1.14 vastutab Töövõtja töötajate instrueerimise ja tööohutuse eest;
+3.1.15 vastutab tööõnnetuste ning selle tagajärgede eest.
+3.1.16 Töö üleandmisel üle andma ka muud õigusaktidest tulenevate nõuete kohased dokumendid (infolehed,
+kvaliteeditõendid või sertifikaadid jmt).
+3.1.17 Töövõtja peab omama kogu hankelepingu vältel kehtivat vastutuskindlustuspoliisi hüvituslimiidiga
+minimaalselt 100 000 (ükssada tuhat) eurot. Kehtiv vastutuskindlustus peab katma ERRi ja kolmandate
+isikute nõuded, mis tekivad töövõtja või tema töötajate tegevusest või tegevusetusest oma kohustuste
+täitmisel. Vastutuskindlustuse poliis tuleb ERRile esitada 5 tööpäeva jooksul peale Lepingu sõlmimist.
+3.2 Tellija kohustused:
+3.2.1 Tellija kohustub Töövõtja poolt teostatud Töö üle vaatama ja Lepingutingimustele vastava Töö vastu
+võtma ning mittevastavast Tööst teavitama Töövõtjalt viivitamatult kirjeldades mittevastavust
+mõistliku täpsusega.
+3.2.2 Tellija tasub Töövõtjale Töö eest vastavalt Lepingu punktile 5.
+4. Töö üleandmine-vastuvõtmine
+4.1 Tööde teostamine akteeritakse vastavalt tegelikult teostatud töödele. Töö loetakse teostatuks, kui kõik
+vastuvõtu- ja kontrollprotseduurid on edukalt läbitud ning teostusdokumentatsioon on esitatud.
+4.2 Töö vastuvõtmisest keeldumise korral esitab Tellija Töövõtjale kirjalikult põhjendatud otsuse
+vastuvõtmisest keeldumise kohta, milles on viidatud Töös ilmnenud puudused ning annab Töövõtjale
+täiendava tähtaja puuduste kõrvaldamiseks ning Töö Lepingutingimustele vastavusse viimiseks.
+4.3 Peale puuduste kõrvaldamist ning Töö Lepingutingimustele vastavusse viimise järel esitab Töövõtja
+Tellijale uuesti üleandmise - vastuvõtmise akti ning Tellija võtab Töö vastu või keeldub selle vastu
+võtmisest.
+4.4 Lepingule mittevastavalt tehtud Töö korral, isegi kui mittevastavus ilmneb enne Töö vastuvõtmist, on
+Tellijal õigus omal valikul nõuda selle ümbertegemist, asendamist või parandamist Töövõtja kulul. Kui
+Tellija nõuab põhjendatult eelnevalt teostatud Töö parandamist ja/või ümbertegemist ja Töövõtja ei tee
+seda Tellija poolt määratud mõistlikuks tähtajaks, siis võib Tellija Tööd ise parandada või lasta seda
+teha kolmandatel isikutel ja nõuda Töövõtjalt kõigi selleks tehtud kulutuste hüvitamist.
+4.5 Tellijal on õigus mitte tasuda mittekvaliteetselt tehtud Töö eest kas täielikult või osaliselt kuni Töö
+kvaliteedi nõutavale tasemele viimiseni.
+4.6 Koos Töö lõpliku üleandmisega-vastuvõtmisega läheb Töövõtjalt Tellijale üle ka Töö juhusliku hävimise
+ja kahjustumise riisiko.
+4.7 Töö teostamise käigus paigaldatud seadmete omandiõigus läheb Tellijale üle peale Töö eest tasumist.
+5. Lepingu maksumus
+5.1 Tellija maksab Töövõtjale tasu (edaspidi Tasu) Töö eest ..... eurot (....), millele lisandub käibemaks.
+Tellijal on õigus teha ettemaksu kas osaliselt või kogumaksumuse ulatuses.
+5.2 Lepingu maksumus sisaldab kõiki riigihankes ja Töövõtja pakkumuses välja toodud süsteemi, litsentside,
+töö ja garantii maksumust ning mistahes muude Lepingu täitmisega lahutamatult seotud toimingute
+maksumust.
+5.3 Tellija kannab Tasu Töövõtja pangakontole 14 (neljateistkümne) kalendripäeva jooksul arve saamisest
+arvates. Töövõtja esitab arve e-arvena e-arvete operaatorite kaudu. Arvel tuleb märkida Tellija lepingu
+number (1.1-15/......) ja kontaktisik (haldusdirektor Janar Vilde). Kui arvel ei ole märgitud Tellija lepingu
+numbrit, on Tellijal õigus arve Töövõtjale tagastada ja nõuda nõuetekohase arve esitamist ning
+maksetähtaega pikendada 14 (neljateistkümne) päeva võrra. Juhul, kui Tellija teeb ettemaksu, tuleb
+arvele märkida, et tegemist on ettemaksu arvega.
+6. Garantii
+6.1 Töövõtja annab tema poolt tehtud Tööle (sh paigaldatud seadmetele) 5 (viie) aastase garantii.
+Garantiiperiood algab Töö üleandmise-vastuvõtmise akti allkirjastamisest Poolte poolt (edaspidi
+nimetatud Garantiiaeg).
+6.2 Garantii tähendab Töövõtja kohustust tagada, et Töö vastab Lepingu tingimustele. Töövõtja kinnitab, et
+tal on olemas vajalikud erialased teadmised ja oskused tööde lepingujärgseks teostamiseks ning
+garanteerib teostatava tööde ja selle käigus paigaldatud osade ning materjalide kvaliteedi. Töövõtja
+garanteerib Töö käigus paigaldatavate materjalide ja seadmete kvaliteedi vastavuse nii Poolte vahel
+
+2[3]
+
+kokkulepitud kui ka tootjapoolselt ettenähtud tingimustele Töövõtja kohustub vahetama ringi
+paigaldatud mittekvaliteetsed detailid või materjalid, samuti hüvitama kõik nende mõjul tekkinud
+kahjud.
+6.3 Töövõtja ei vastuta üksnes nende vigade ja puuduste eest, mis on tekkinud ebaõigest ekspluateerimisest
+Garantiiajal, kui Töövõtja on Tellijat kirjalikult teavitanud vastavatest ekspluateerimise nõuetest.
+6.4 Töövõtja kohustub parandama kõik ilmnenud puudused remonttöödel ja tekkinud rikked, mis ilmnevad
+garantiiaja jooksul nii kiiresti kui võimalik omal kulul, kuid hiljemalt 5 (viie) kalendripäeva jooksul
+arvates sellekohase kirjaliku teate saamisest Tellijalt. Kui seadmete/materjalide tarnetähtajad või muud
+tingimused ei võimalda eelnimetatud tähtajast kinni pidada, lepitakse Poolte vahel kokku uus tähtaeg.
+Eelnimetatud tähtaegadest mittekinnipidamise korral on Tellijal õigus nõuda Töövõtjalt leppetrahvi 0,2
+(null koma kaks) % Lepingu maksumusest päevas iga viivitatud päeva eest, kusjuures leppetrahvi
+tasumine ei vabasta Töövõtjat puuduste või rikete kõrvaldamise kohustusest.
+6.5 Kui Tellija nõuab ilmnenud puuduste või vigade kõrvaldamist ja Töövõtja ei tee seda punktis 6.4.
+näidatud tähtaja jooksul või kahepoolselt kokkulepitud tähtajaks, siis võib Tellija puudused ja vead ise
+parandada või lasta seda teha kolmandatel isikutel Töövõtja kulul.
+6.6 Töövõtja kohustub vormistama kõik lepingujärgselt teostatud garantiitööd kirjalikult Tellija kehtestatud
+nõuete kohaselt.
+7. Vastutus
+7.1 Pool kohustub hüvitama teisele Poolele tema ja/või temaga lepingulistes suhetes olevate muude isikute
+poolt tekitatud kahju.
+7.2 Töövõtja on kohustatud organiseerima Töö teostamise selliselt, et ei kahjustaks siseviimistlust ega muud
+Tellija ja töömaal viibivate muude isikute vara.
+7.3 Töövõtja kohustub tagama ohutustehnika, töökaitse ja tuleohutuse nõuete täitmise enda poolt teostatavate
+Tööde osas.
+7.4 Lepingu punktis 5.1 märgitud tasu maksmisega viivitamisel, võib Töövõtja nõuda viivist 0,2 (null koma
+kaks) protsenti tasumisele kuuluvast summast iga viivitatud kalendripäeva eest tasumise tähtajale
+järgnevast kalendripäevast.
+7.5 Töö üleandmisega viivitamisel peab Töövõtja tasuma Tellijale leppetrahvi 200 (kakssada) eurot iga
+lõpptähtaega ületava kalendripäeva eest.
+7.6 Konfidentsiaalsuskohustuse rikkumise korral on Tellijal õigus Töövõtjalt nõuda 3000 (kolm tuhat) eurot
+iga rikkumise kohta.
+7.7 Leppetrahvi tasumine Töövõtja poolt ei vabasta Töövõtjat Lepingus sätestatud kohustuste täitmisest.
+Leppetrahv on kokku lepitud kohustuse täitmise tagamiseks, mitte kohustuse täitmise asendamiseks.
+Tellijal on õigus Töövõtjalt täiendavalt nõuda Lepingu rikkumise tulemusena tekkinud kahju hüvitamist
+osas, mida leppetrahv ei kata.
+7.8 Tellijal on õigus Lepingu alusel nõutav leppetrahv ning sellele lisanduv võimalik kahju hüvitamise nõue
+tasaarvestada Lepingu alusel tasumisele kuuluvatest summadest.
+7.9 Tellijal on õigus Leping üles öelda ilma Töövõtjale täiendavat tähtaega andmata, kui Töövõtja ei ole
+Tööd lõpule viinud 14 (neljateistkümne) kalendripäeva jooksul pärast Lepingus kokkulepitud tähtaega.
+Nimetatud tähtaeg loetakse VÕS § 114 tähenduses kohustuse täitmise täiendavaks tähtajaks ning pärast
+selle möödumist võib Tellija Lepingu üles öelda ilma täiendavat tähtaega andmata.
+7.10 Lepingust tulenevate kohustuste mittetäitmiste või mittenõuetekohast täitmist ei loeta Lepingu
+rikkumiseks, kui selle põhjuseks olid asjaolud, mille saabumist Pooled Lepingu sõlmimisel ei näinud
+ette ega võinud ette näha (Vääramatu jõud). Käesolevas Lepingus mõistetakse Vääramatu jõuna
+ülestõusu, üldstreiki, massilisi rahutusi Poolte asukoha haldusüksuses, sõda, terrorismi, riigikogu või
+valitsuse akti, mis oluliselt takistab käesoleva Lepingu täitmist ning muid Lepingus loetlematuid
+asjaolusid, mida mõlemad Pooled aktsepteerivad Vääramatu jõuna. Pool, kelle tegevus Lepingujärgsete
+kohustuste täitmisel on takistatud Vääramatu jõu asjaolude tõttu, on kohustatud sellest koheselt teatama
+teisele Poolele.
+8. Kontaktisikud
+8.1 Töövõtja volitatud esindajaks (kontaktisikuks) Lepingust tulenevate küsimuste lahendamisel on ...., tel....;
+e-post:.....; projektijuht on ...., tel....; e-post:.....; tehniline spetsialist tehnilistes küsimustes on ...., tel....;
+e-post:.....,
+8.2 Tellija volitatud esindajaks (kontaktisikuks) Lepingust tulenevate küsimuste lahendamisel ning kes annab
+Töövõtjale vajalikku informatsiooni on kinnisvara- ja transpordiosakonna projektijuht Laura-Liisa
+Veiler, tel 5170018; e-post: laura-liisa.veiler@err.ee. Töö kvaliteeti kontrollib haldusdirektor Janar
+
+3[3]
+
+Vilde, tel 5106808, e-post: janar.vilde@err.ee.
+9. Lõppsätted
+9.1 Leping jõustub viimase allkirja andmise kuupäevast ja kehtib kuni Poolte lepinguliste kohustuste
+täitmiseni.
+9.2 Lepingu täitmise käigus teatavaks saav informatsioon teise Poole majandustegevuse ja ärisaladuste kohta
+on konfidentsiaalne ning ei kuulu avaldamisele kolmandatele isikutele v.a seadusega ettenähtud juhtudel.
+9.3 Tellija loeb konfidentsiaalseks kogu mitteavaliku teabe, mis saab poolele teatavaks lepingujärgset
+teenust osutades. Töövõtja kohustub hoidma saladuses Tellijalt ükskõik mis vormis saadud
+informatsiooni, millele Tellija on osutanud kui konfidentsiaalsele või mille konfidentsiaalsust võib
+mõistlikult eeldada ning kasutama seda ainult Lepingu täitmiseks, sealhulgas tagama töödeldavate
+isikuandmete konfidentsiaalsuse.
+9.4 Töövõtja peab tegema kõik temast oleneva, et vältida Tellija olemuselt konfidentsiaalse informatsiooni
+sattumist kolmandate isikute kätte. Konfidentsiaalsuskohustus ei hõlma informatsiooni, mis on üldiselt
+kättesaadav või avalik; mille avaldamiseks on Tellija kirjalik nõusolek või mille avaldamise kohustus
+tuleneb seadusest. Konfidentsiaalsuskohustusega seotud õigused ja kohustused kehtivad tähtajatult
+pärast Lepingu lõppemist. Töövõtja kohustub teavitama oma töötajaid Lepingust tulenevast
+konfidentsiaalsuskohustusest ning tagama, et töötajad jälgivad Lepingus sätestatud nõudeid.
+9.5 Konfidentsiaalse informatsiooni väljastamisel ja/või juurdepääsu võimaldamisel kolmandatele isikutele
+eelistatakse informatsiooni andmist väljavõttena. Enne mistahes konfidentsiaalsete andmete väljastamist
+ja/või juurdepääsu võimaldamist kolmandatele isikutele kohustub Töövõtja saama lepingu p 8.2
+nimetatud Tellija kontaktisikult kirjalikku taasesitamist võimaldavas vormis kinnituse, kas kolmandatele
+isikutele võib konfidentsiaalseid andmeid edastada ja/või nendele juurdepääsu võimaldada.
+9.6 Tellijal on pärast Lepingu lõppemist õigus nõuda Töövõtjalt temale Lepingu täitmiseks üle antud
+dokumentide ja informatsiooni tagastamist ja/või nende hävitamist/kustutamist. Töövõtja kohustub
+nimetatud nõude täitma 3 (kolme) tööpäeva jooksul vastavasisulise nõude saamist Tellijalt. Töövõtja
+kohustub Tellija nõudmisel esitama vastavad adekvaatsed tõendid dokumentide ja/või informatsiooni
+hävitamise ja/või kustutamise kohta.
+9.7 Konfidentsiaalsuskohustus kehtib nii Lepingu kehtivuse ajal kui ka pärast seda 5 (viis) aastat. Lepingu
+täitmise käigus lepingupoolele teatavaks saanud (s.h eriliiki) isikuandmete osas kehtib
+konfidentsiaalsuskohustus tähtajatult.
+9.8 Pooled kohustuvad teise Poole eest mitte varjama turvaintsidente. Pool teavitab teist Poolt koheselt, kui
+tundlik informatsioon on sattunud kolmandate isikute kätte. Pooled võtavad viivitamatult ette abinõud
+endise olukorra taastamiseks või edasiste turvaintsidentide ärahoidmiseks.
+9.9 Töövõtja ei tohi Lepingust tulenevaid kohustusi üle anda kolmandatele isikutele Tellija kirjaliku
+nõusolekuta.
+9.10 Kõik Pooltevahelised õiguslikke tagajärgi kaasa toovad teated seoses Lepingu täitmisega esitatakse
+teisele Poolele kirjalikus vormis (sh digitaalselt allkirjastatult) Poolte poolt Lepingu punktis 9.12
+fikseeritud aadressidel. Informatiivset laadi teated võib edastada kirjalikku taasesitamist võimaldavas
+vormis (e-kiri).
+9.11 Lepingus tehtud muudatused ja täiendused kehtivad ainult tingimustel, et need on vormistatud kirjalikult
+Lepingu lisana ja allkirjastatud selleks volitatud esindajate poolt.
+9.12 Pooled kohustuvad rakendama kõiki kohaseid meetmeid, et lahendada kõik Lepingust tulenevad
+vaidlusküsimused läbirääkimiste teel. Kokkuleppe mittesaavutamisel lahendatakse vaidlused Harju
+Maakohtus
+9.13 Leping allkirjastatakse digitaalallkirjaga, mis loetakse vastavalt tsiviilseadustiku üldosa seaduse § 80
+võrdseks allkirjastamise kirjaliku vormiga. Lepingu sõlmimise kuupäevaks on hilisema allkirja andmise
+kuupäev.
+
+/allkirjastatud digitaalselt/
+_______________
+......
+Tellija
+
+/allkirjastatud digitaalselt/
+_________________
+.....
+Töövõtja
+
+4[3]
+
+

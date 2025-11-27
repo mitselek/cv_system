@@ -1,0 +1,58 @@
+HINDAMISKRITEERIUMID JA HINNATAVAD NÄITAJAD
+Viitenumber: 302481
+Hankija: Eesti Rahvusringhääling (74002322)
+Hange: Raadio- ja uudistemaja läbipääsusüsteemi uuendamine
+Pakkumuse maksumust hinnatakse - Ilma maksudeta
+Kriteeriumi kaalumise meetod - Osakaaludega
+Elektroonilist oksjoni kasutatakse: ei
+Jrk
+Nimetus
+nr
+1 Pakkumuse kogumaksumus
+
+Kirjeldus
+
+Tüüp /
+hindamismeetod
+Esitada pakkumuse kogumaksumus ilma
+Maksumus käibemaksuta (sama summa, mis on vähim on parim
+kantud hankijapoolsesse pakkumuse
+maksumuse vormi).
+Kui hankijapoolses maksumuse vormis
+ja RHR-i maksumuse vormis on
+erinevad summad, loetakse õigeks
+maksumus,
+mis
+on
+kantud
+hankijapoolsesse
+pakkumuse
+maksumuse vormi.
+Kokku:
+
+Osakaal
+100
+
+Kogus
+
+Ühik
+
+Pakkuja
+täidetav
+jah
+
+100
+
+Hindamismetoodika kirjeldus
+1. Pakkumuse kogumaksumus
+Madalaima väärtusega pakkumus saab maksimaalse arvu punkte. Teised pakkumused saavad punkte arvutades valemiga: "osakaal" - ("pakkumuse väärtus" - madalaim väärtus") / "suurim
+väärtus" * "osakaal".
+
+Koostatud 05.11.2025 20:12:28
+
+1/1
+
+https://riigihanked.riik.ee/rhr-web/#/procurement/
+9530644/general-info
+
+

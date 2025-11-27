@@ -1,0 +1,260 @@
+Lisa 1 Tehniline kirjeldus
+Eesti Rahvusringhäälingu riigihange
+„Raadio- ja uudistemaja läbipääsusüsteemi uuendamine” (viitenumber 302481)
+TEHNILINE KIRJELDUS
+Hanke eesmärk on osta Eesti Rahvusringhäälingu (edaspidi ERR või hankija) raadio- ja
+uudistemajja krüpteeritud kaardilugejad ja kaardid koos vahetusega ja kogu süsteemi
+konfigureerimine, mis vastab riigihanke alusdokumentides esitatud tingimustele. Pakutavad
+lahendused peavad ühilduma hankijal olemasoleva ja kasutusel oleva Inner Range Integriti
+süsteemiga. Asendatavad kaardilugejad peavad omama tootjapoolset integratsiooni Inner Range
+Integriti läbipääsusüsteemiga. Hankija teeb huvitatud isikutele ettepaneku esitada pakkumusi
+käesolevas riigihankes toodud tingimustel.
+Iga viidet, mille hankija teeb käesolevas dokumendis mõnele riigihangete seaduse paragrahvi 88
+lõikes 2 nimetatud alusele kui pakkumuse tehnilisele kirjeldusele vastavuse kriteeriumile, tuleb
+lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“. Iga viidet, mille hankija
+teeb käesolevas dokumendis ostuallikale, protsessile, kaubamärgile, patendile, tüübile, päritolule
+või tootmisviisile, tuleb lugeda selliselt, et see on täiendatud märkega „või sellega samaväärne“.
+Pakkumus peab olema esitatud eesti keeles. Seadmete tehnilised kirjeldused, andmelehed,
+sertifikaadid, kasutusjuhendid ja muud tehnilist laadi lisadokumendid võivad olla esitatud inglise
+keeles, kui need on pärit tootjalt ja nende tõlkimine ei ole vajalik pakkumuse sisu mõistmiseks.
+Hankija võib vajaduse korral nõuda, et pakkuja esitab nimetatud dokumentidest eesti keelse tõlke
+osas, mis on olulised pakkumuse sisulise hindamise seisukohalt.
+
+1. Üldnõuded
+Pakkuja peab tagama olemasoleva kasutusel oleva läbipääsusüsteemi tõrgeteta töö kogu
+asenduse perioodi jooksul, sh. olemasoleva valve- ja läbipääsusüsteemi tervikliku säilimise
+hankijale. Tõrgeteks ei peeta planeeritud, kooskõlastatud ja vajalike meetmetega korraldatud
+läbipääsusüsteemi ümberlülitusi tööajal ja töövälisel ajal.
+Pakutava läbipääsusüsteemi moderniseerimise töö iseärasused on konfidentsiaalne info.
+Kolmandatele isikutele on lubatud avaldada infot vaid vastaval kokkuleppel hankijaga või
+seadusandlusest tulenevatel juhtudel.
+Pakkuja on kohustatud tagama tööde kvaliteetse ettevalmistamise, läbiviimise, kontrolli ja
+andma igapäevaselt ülevaadet töö käigus ja tööde lõpetamisel.
+Pakkuja on kohustatud tagama tööde süsteemse ettevalmistuse ja läbiviimise, kõik tegevused
+peavad olema hankijale teada ja hankijaga eelnevalt kooskõlastatud.
+Kõik läbiviidavad muudatused läbipääsusüsteemis kajastatakse hankija poolt edastatavate
+tehniliste teostusdokumentatsioonide muudatustena.
+Pakkuja korraldab peale seadmete üleandmist ja paigaldamist hankija personalile seadmete
+kasutamise koolituse. Koolitus viiakse läbi hankija asukohas ja eesti keeles. Koolituse käigus
+katsetatakse läbi ja kontrollitakse koolitatud personali oskusi kõigi seadmete ja selle
+lisaseadmete funktsioonide kasutamise oskuses.
+
+Pakkumuses tuleb arvestada kõikide tööde teostamisega, mis on vajalikud riigihanke
+alusdokumentides ja selle lisades kirjeldatud eesmärgi täitmiseks kuni objekti ja riigihanke
+alusdokumentides kavandatud tööde täieliku valmimiseni ja üleandmiseni hankijale. Kõik
+süsteemi eesmärgipäraseks tõrgeteta töötamiseks vajalikud tööd või tooted, mis ei ole
+kajastatud pakkumuses, kuid milleta ei ole võimalik tagada lõppeesmärki, loeb hankija tööde
+koostisosaks, mille eest täiendavalt maksma ei pea.
+Pakkuja peab omama kogu hankelepingu vältel kehtivat vastutuskindlustuspoliisi
+hüvituslimiidiga minimaalselt 100 000 (ükssada tuhat) eurot. Kehtiv vastutuskindlustus peab
+katma hankija ja kolmandate isikute nõuded, mis tekivad pakkuja või tema töötajate
+tegevusest või tegevusetusest oma kohustuste täitmisel. Vastutuskindlustuse poliis tuleb
+hankijale esitada 5 tööpäeva jooksul peale hankelepingu sõlmimist.
+
+2. Eesti Rahvusringhäälingu raadiomaja ja uudistemaja olemasoleva tehnilise lahenduse
+kirjeldus.
+Hankijal on raadio- ja uudistemajas kasutusel peakontrollerid Inner Range Integriti
+(tootekood 996001) ja kontrollerid Inner Range Concept 4000 2 Door Access Module
+(tootekood 995012).
+Hankija kasutab tarkvara Integriti versioon 23, kõik kasutajate andmed (kasutajad,
+kasutajagrupid) on sarnased kõikides paneelides.
+Hankijal on olemasoleval läbipääsusüsteemil kasutuses raadiomajas admesidekaabel CAT5
+ja signalisatsioonikaabel ning uudistemajas signalisatsioonikaabel.
+ERRil on kasutusel ca 1200+ läbipääsukaarti.
+Kaardilugejatena kasutatakse täna raadiomajas Rosslare AY-CR12W ja uudistemajas
+Rosslare ay-K12C sarja lugejaid.
+Tabelis 1 on näha, et hoonete kaupa peakontrollerite, kontrollerite, uste, kaardilugejate ja
+numbriklahvistikuga kaardilugejate kogused.
+Pakkuja peab looma tarkvara graafika lahenduste funktsionaalsuse (täna puudub), samuti
+vajalikud alusplaanide uuendamised vektor graafikas (olemasolevad korrusplaanide
+joonised .dwg formaadis esitab hankija).
+Pakkujale on kasutajate õiguste üleviimise kriteeriumiks hetkel kasutusel oleva
+läbipääsusüsteemi Intergiti haldustarkvaras olevad väärtused.
+Hankija kasutusel oleva läbipääsusüsteemi tänase lahendusega on võimalik tutvuda
+kohapeal. Selleks tuleb kokku leppida tutvumise aeg e-posti teel laura-liisa.veiler@err.ee.
+Tabel 1
+Hoone
+
+Peakontroller
+
+Kontrollerid
+
+Uste arv
+
+Inner
+Range
+Integriti
+
+Inner Range
+Concept 4000
+2
+Door
+Acceess
+Module
+
+Raadiomaja
+
+1
+
+51
+
+89
+
+Uudistemaja
+
+1
+
+52
+
+101
+
+Vahetatavad
+kaardilugejad
+
+Lisatavad
+
+numbriklahvistikuga
+
+Lisatavad
+tamperid*
+
+kaardilugejad
+
+*Tegelik
+kogus
+sõltub
+paigaldamise
+võimalikkusest
+
+97
+
+16
+
+50
+
+111
+
+21
+
+0
+
+3. Asendatava läbipääsusüsteemi tehniline kirjeldus
+Läbipääsusüsteemi paigaldus peab vastama süsteemina standardi EN50131 nõuetele
+vastavalt turvalisuse tasemele 3. Seal kus tehniliselt pole võimalik tase 3, võib kokkuleppel
+hankijaga asendada tasemega 2.
+Vahetada välja olemasolevad kaardilugejad krüpteeritud andmesidega kaardilugejate vastu
+nt HID Signo Reader 20 või numbriklahvistikuga kaardilugeja HID Signo Keypad Reader
+20K. Täpsed mahud on sätestatud Tabelis nr 1.
+Raadiomajja paigadatavad kaardilugejad peavad olema sabotaaživastase funktsiooniga
+(tamper), mis rakendub, kui kaardilugeja avatakse või seinalt eemaldatakse. Tamperi
+paigaldamise võimalikkust tuleb hinnata iga lugeja paigaldamisel. Kaardilugeja tamper tuleb
+ühendada ja programmeerida süsteemis.
+Käesoleva hanke eesmärgiks lisaks kaardilugejate vahetusele on osta:
+3.4.1.
+
+2000 tk füüsilist kaarti HID Composite Seos Essential Prox Card, tootekood
+551PPGGANA, HID Corporate 1000 formaadis või sellega samaväärsed;
+
+3.4.2.
+
+400 tk HID mobiilsete kasutajate Enterprise litsentsi 5 aastaks või sellega
+samaväärsed.
+
+Katkematu töö tagamiseks peavad uued kaardilugejad lugema hetkel kasutuses olevaid
+kaarte ning hangitavaid krüpteeritud HID Seos kaarte ja HID mobiilseid kaarte või nendega
+samaväärseid.
+Katkematu töö tagamiseks peavad hangitavad füüsilised kaardid lisaks töötama telemaja
+125kHz lugejatel.
+Olemasolevad Integriti riist- ja tarkvara versioonid tuleb uuendada viimase teadaoleva
+versioonini.
+Pakkuja peab enne tööde alustamist esitama tööprojekti tasemel paigaldusplaanid ja
+ajagraafiku ning kooskõlastama need hankijaga.
+Töökohtade tarkvarad tuleb installida neljale lõppkasutaja töökohale.
+Lõppkasutajate töökohtades kasutakse erineva komplektsusega vaateid. Üleviimisel
+arvestada olemasolevaid lahendusi. Näiteks: valvelaua töötaja, süsteemiadministraator.
+Luua visualisatsioonid.
+Pakkumine peab sisaldama kahte kaardilugejat Omnikey 5427CK või sellega samaväärset
+koos paigaldamisega süsteemiadministraatorite töökohtadele.
+Pakkuja peab peale kõigi uute kaartide kasutajatele kättejagamist, eemaldama kõigilt uutelt
+kaardilugejatelt võimaluse neid vanade kaartidega avada.
+Tarkvaralitsentsid, mida on täiendavalt vaja hanke eesmärgi saavutamiseks, tuleb esitada
+koos pakkumusega.
+Pakkuja peab pakkumuse tegemisel arvestama, et pakutavad lahendused peavad ühilduma
+hankijal olemasoleva ja kasutusel oleva Inner Range Integriti süsteemiga. Hankija ei vaheta
+välja kogu süsteemi (peakontrollereid ja kontrollereid), vaid pakkuja peab pakkuma
+lahenduse, mis ühildub olemasolevaga.
+Pakkuja peab arvestama kõikide täna töötavate valve- ja läbipääsusüsteemi erisustega.
+Pakkuja peab arvestama täna kasutatavas tarkavaras töötavate funktsioonidega ja tagama
+nende funktsioonide analoogse või parema toimimise ning sellega kaasnevate litsentside
+lisamisega.
+
+Kõigile seadmetele peab kehtima vähemalt 5 aastane garantii.
+Tööd loetakse lõpetatuks ja vastu võetuks, kui selle on hankija vastava aktiga kinnitanud.
+4. Tööde tähtajad
+Tööde läbiviimise tähtaeg on 60 kalendripäeva alates lepingu sõlmimisest.
+5. Tööde dokumentatsioon
+Peale tööde lõppu tuleb esitada teostusdokumentatsioon, kus lisaks asendatavatele
+seadmetele tuleb näidata ära ka kõikide valve- ja läbipääsusüsteemi seadmete asukohad ja
+tähistused.
+Teostusdokumentatsiooni
+aluseks
+on
+teotusdokumentatsioon (.dwg formaadis).
+
+varasemate
+
+ehitusjärkude
+
+edastatav
+
+Teostusdokumentatsioon tuleb esitada digitaalselt:
+o joonised .dwg ja pdf formaadis
+o dokumendid .dwg , .doc , .docx
+o tabelid .xls, .xlsx
+o struktuur- ja koosteskeemid koos kirjeldustega.
+Lisaks tuleb teostusdokumentatsioon esitada ühes eksemplaris paberkandjal.
+Pärast valve- ja läbipääsusüsteemi paigaldusetappe tuleb läbi viia valve- ja
+läbipääsusüsteemi täielik kontroll koos hankija poolse hooldustehnikuga ning täita valve- ja
+läbipääsusüsteemi kontrolli akt.
+6. Eritingimused
+Arvestada tuleb, et tegemist on töötavate stuudiote ja toimetustega. Tööde teostamisel tuleb
+tagada, et raadio- ja telesalvestuste tööprotsesse häiritakse võimalikult vähe. Tööde
+läbiviimisel tuleb võimalikult vähe häirida ka töötajaid. Kõik võimalikud tööd, mis võivad
+mõjutada raadio- või teleprogrammi häireteta edastamist, tuleb hankijaga eelnevalt
+kooskõlastada.
+Pakkuja töötajad peavad objektil oleme riietatud firma eraldusmärkidega tööriietusse ja
+olema varustatud pakkuja firma töötaja kaartidega, kus on peal foto, nimi ja ametinimetus
+lisaks firma nimele.
+Pakkuja peab taotlema vajaliku koguse ERR-i isikustatud läbipääsukaarte, mis tuleb tööde
+lõppedes hankijale tagastada.
+Valve- ja läbipääsusüsteemi käivitamiseks ja testimiseks väljastatakse lisaks vajalik arv
+testkaarte, millega saab testida erinevaid valve- ja läbipääsusüsteemi funktsioonide
+toimimisi. Kaardid peavad asuma testitaval objektil ja tagastatakse igal õhtul hankija
+kontaktisikule.
+Pakkuja töötaja peab objektil alluma hankija järelevalvele. Koheselt reageerima personali
+poolt tehtud tööde teostamisega seotud märkustele ja edastama märkused koheselt hankija
+kontaktisikule.
+Pakkuja peab hankija objektidel tööde
+parkimiskorraldusega, erisusi ei võimaldata.
+
+teostamisel
+
+arvestama
+
+kohapealse
+
+Lepingu täitmisel juhindutakse kvaliteedinõude, standardite, normide ja juhiste
+vastuolulisuse korral kvaliteedinõude, standardi, normi ja juhise rangeimast püstitatud
+nõudest. Ehitamist reguleerivate kvaliteedinõuete, juhiste, normide ja standardite, aga
+samuti lepingu dokumentides sisalduvate tööde kirjelduste, mahtude ja/või kvaliteedinõuete
+vastuolude korral järgitakse „vaikimisi” rangemaid nõudeid ning töövõtjal tuleb teostada
+suurim määratav maht.
+
+7. Garantii tingimused
+Kõikidele paigaldatavatele valve- ja läbipääsusüsteemi seadmetele kehtib garantii vähemalt
+5 aastat alates seadmete üleandmise-vastuvõtmise akti allkirjastamisest.
+Kogu tööle kehtib garantii vähemalt 5 aastat.
+Garantii alla kuuluvad muuhulgas ka peale tööde teostamist hilisemalt ilmnevad
+konfiguratsiooni vead, puudused ja konfiguratsiooni teisaldamisel tekkinud erisused.
+
+
