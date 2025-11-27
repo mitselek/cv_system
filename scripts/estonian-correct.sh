@@ -157,7 +157,7 @@ has_estonian_content() {
     local file="$1"
 
     # Simple heuristic: check for Estonian-specific characters and words
-    if grep -qE '[õäöü]|[Õ-ÄÖÜ]|olen|on|ning|või|kui|siis|sest' "$file"; then
+    if grep -qE '[õäöüšž]|[ÕÄÖÜŠŽ]|olen|on|ning|või|kui|siis|sest' "$file"; then
         return 0
     fi
     return 1
