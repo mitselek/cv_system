@@ -15,7 +15,7 @@ You follow the constitutional principles defined in `/cv_system/docs/constitutio
 
 ## Required User Input
 
-```
+```text
 JOB_ADVERTISEMENT: """
 [Full text of job posting will be provided here]
 """
@@ -26,10 +26,12 @@ JOB_ADVERTISEMENT: """
 The following files will be read automatically:
 
 1. **Professional Context:** `/cv_system/knowledge_base/_compiled_context.md`
+
    - Single source of truth for skills, experiences, achievements
    - All claims must be verifiable against this file
 
 2. **Contact Information:** `/cv_system/knowledge_base/contact.md`
+
    - Verified contact details (name, email, phone, address)
    - No contact information may be invented or assumed
 
@@ -55,7 +57,7 @@ Read: /cv_system/knowledge_base/contact.md
 
 **Integrity Commitment:** Before proceeding, explicitly state your commitment:
 
-```
+```text
 I commit to the following integrity constraints:
 1. I will NOT add "helpful" embellishments
 2. I will NOT infer details from job titles
@@ -69,6 +71,7 @@ I commit to the following integrity constraints:
 Extract and structure the following from the job posting:
 
 **Required Analysis:**
+
 - Company name: [extract]
 - Position title: [extract]
 - Application deadline: [extract]
@@ -79,6 +82,7 @@ Extract and structure the following from the job posting:
 - Preferred skills: [list each]
 
 **Web Scraping Note:** If fetching URL returns incomplete content (navigation/footer but no description), check for iframe embedding:
+
 ```bash
 curl -s [URL] | grep -i iframe
 # Extract iframe src and fetch that URL directly
@@ -90,7 +94,7 @@ For each required and preferred qualification, perform explicit verification:
 
 **Use this reasoning template for EACH requirement:**
 
-```
+```text
 Requirement: [state the requirement]
 
 Step 1: Search compiled context for relevant experience/skills
@@ -107,6 +111,7 @@ If NO, reason: [gap explanation]
 ```
 
 **Calculate Overall Fit:**
+
 - Count requirements: [X total]
 - Count matches: [Y matches]
 - Fit percentage: [Y/X * 100]%
@@ -135,6 +140,7 @@ Use sanitized names (spaces to underscores, remove special characters).
 **File:** `applications/[Company_Name]/[Position_Title]/README.md`
 
 **Required Structure:**
+
 ```markdown
 # [Position_Title] at [Company_Name]
 
@@ -188,6 +194,7 @@ Use sanitized names (spaces to underscores, remove special characters).
 **CRITICAL: Metadata Header Required**
 
 Begin file with this exact format:
+
 ```html
 <!--
 docID: CV-[CompanyName]-[Position]
@@ -215,6 +222,7 @@ author: [Name from contact.md]
 [For each relevant experience from knowledge base]
 
 ### [Company Name] - [Job Title]
+
 **[Start Date] - [End Date] | [Location if available]**
 
 [Responsibilities and achievements - USE EXACT PHRASING from source]
@@ -230,6 +238,7 @@ author: [Name from contact.md]
 [For each education entry]
 
 ### [Institution Name - EXACTLY as in source]
+
 **[Dates - EXACTLY as in source] | [Location if present]**
 
 [Degree name - EXACTLY as in source]
@@ -246,6 +255,7 @@ author: [Name from contact.md]
 ```
 
 **FORBIDDEN ACTIONS:**
+
 - DO NOT add job responsibilities not in source
 - DO NOT infer degree specializations
 - DO NOT add "typical" skills for a role
@@ -285,22 +295,26 @@ author: [Name from contact.md]
 Dear Hiring Manager,
 
 [PARAGRAPH 1: Introduction]
+
 - State position applying for
 - Brief statement of interest
 - Where you found the posting
 
 [PARAGRAPH 2-3: Qualifications]
+
 - Connect specific experiences from knowledge base to job requirements
 - Use EXACT achievements/experiences from compiled context
 - Quote numbers, results, technologies as they appear in source
 - Address 2-3 strongest matches from fit assessment
 
 [PARAGRAPH 4: Gaps and Growth]
+
 - If significant gaps exist, acknowledge honestly
 - Emphasize transferable skills from knowledge base
 - Express genuine enthusiasm for learning
 
 [PARAGRAPH 5: Closing]
+
 - Reaffirm interest
 - Mention availability for interview
 - Professional closing
@@ -311,6 +325,7 @@ Sincerely,
 ```
 
 **Integrity Requirements:**
+
 - Every claim must trace to compiled context
 - No invented projects or experiences
 - No assumed skills
@@ -340,11 +355,12 @@ This registry tracks all job applications generated using the CV system.
 ## Applications
 
 | Date | Company | Position | Fit | Application | Deadline | Status | Notes |
-|------|---------|----------|-----|-------------|----------|--------|-------|
+| ---- | ------- | -------- | --- | ----------- | -------- | ------ | ----- |
 ```
 
 Add new entry:
-```
+
+```text
 | [YYYY-MM-DD] | [Company] | [Position] | [X]% | [README.md](./[Company]/[Position]/README.md) | [Date] | Draft | [Brief notes] |
 ```
 
@@ -365,6 +381,7 @@ Execute these steps sequentially after all documents are generated.
 ```
 
 **Fact-Check Process:**
+
 - Compare every claim in CV against compiled context
 - Compare every claim in motivation letter against compiled context
 - Flag FABRICATIONS (invented information)
@@ -372,6 +389,7 @@ Execute these steps sequentially after all documents are generated.
 - Flag OMISSIONS (required context missing)
 
 **If issues found:**
+
 ```bash
 4. Load FACT_CHECK_REPORT.md
 5. Apply ALL corrections to CV and motivation letter
@@ -410,6 +428,7 @@ PDFs are generated automatically by monitoring scripts:
 Before marking complete, verify:
 
 **Checklist:**
+
 - [ ] All files created with correct naming
 - [ ] Metadata headers present in CV and motivation letter
 - [ ] No emojis in any generated file
@@ -429,7 +448,7 @@ Before marking complete, verify:
 
 Present completion status in this format:
 
-```
+```text
 APPLICATION GENERATION COMPLETE
 
 Company: [Company Name]
@@ -457,7 +476,7 @@ Next Steps:
 
 **User provides:**
 
-```
+```text
 Please generate an application for this job posting. Follow the instructions in /cv_system/prompts/generate_application.prompt.md.
 
 JOB_ADVERTISEMENT: """
@@ -474,6 +493,7 @@ JOB_ADVERTISEMENT: """
 **ZERO TOLERANCE POLICY:**
 
 A single fabricated, embellished, or invented detail invalidates the ENTIRE application. If detected:
+
 1. STOP immediately
 2. DELETE all generated files
 3. RESTART from Phase 1
@@ -481,6 +501,7 @@ A single fabricated, embellished, or invented detail invalidates the ENTIRE appl
 **Conservative Interpretation:**
 
 When uncertain if a detail exists in source material:
+
 - DO NOT guess
 - DO NOT assume
 - DO NOT infer
@@ -495,8 +516,9 @@ No emojis in ANY generated file (README, CV, motivation letter, registry, etc.).
 **Source Attribution:**
 
 Every claim must be traceable:
+
 - Job title → Experience section of knowledge base
-- Skill → Skills section of knowledge base  
+- Skill → Skills section of knowledge base
 - Achievement → Achievements section of knowledge base
 - Contact info → contact.md file
 
