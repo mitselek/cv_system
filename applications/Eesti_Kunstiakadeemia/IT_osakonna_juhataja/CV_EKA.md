@@ -18,7 +18,7 @@ https://linkedin.com/in/mitselek
 
 ## Erialane kokkuvõte
 
-Kogenud IT-juht ja süsteemiarhitekt, kellel on üle 20 aasta kogemust IT-infrastruktuuri haldamise, süsteemide arendamise ja meeskonna juhtimise valdkonnas. Aastatel 2009–2012 juhtisin Eesti Kunstiakadeemia IT-osakonda, ehitades välja kogu ülikooli võrguinfrastruktuuri ning viies läbi edukaid migratsiooni- ja juurutusprojekte.
+Kogenud IT-juht ja süsteemi&shy;arhitekt, kellel on üle 20 aasta kogemust IT-infrastruktuuri haldamise, süsteemide arendamise ja meeskonna juhtimise valdkonnas. Aastatel 2009–2012 juhtisin Eesti Kunstiakadeemia IT-osakonda, ehitades välja kogu ülikooli võrgu&shy;infrastruktuuri ning viies läbi edukaid migratsiooni- ja juurutusprojekte.
 
 ## Töökogemus
 
@@ -42,7 +42,7 @@ Kogenud IT-juht ja süsteemiarhitekt, kellel on üle 20 aasta kogemust IT-infras
 - Lõin ajaloolastele Google Sheetsis spetsiaalseid töökeskkondi andmete otsimiseks ja võrdlemiseks.
 - Aitasin ajaloolastel hakata andmeid toimetama otse MySQL-i andmebaasis.
 
-### Eesti Keele Instituut - Vanem-süsteemianalüütik
+### Eesti Keele Instituut - Vanem-süsteemi&shy;analüütik
 
 **2017-04 - 2018-04 | Tallinn, Eesti**
 
@@ -67,7 +67,7 @@ Kogenud IT-juht ja süsteemiarhitekt, kellel on üle 20 aasta kogemust IT-infras
 
 **2010-09 - Praeguseni | Eesti**
 
-- Entu andmehaldusplatvormi arendamine ja kohandamine vastavalt kliendi vajadustele.
+- Entu andmehaldus&shy;platvormi arendamine ja kohandamine vastavalt kliendi vajadustele.
 - Node.js/JavaScript-põhine arhitektuur, mis koosneb API taustasüsteemist, Vue.js esisüsteemist ja MongoDB andmebaasist.
 - Andmebaasi disain ja süsteemide integreerimine.
 - Entut kasutavad oma igapäevatöös ligikaudu 30 kooliraamatukogu, Eesti Kunstiakadeemia, kolm muuseumi ning mitmed äriühingud.
@@ -76,7 +76,7 @@ Kogenud IT-juht ja süsteemiarhitekt, kellel on üle 20 aasta kogemust IT-infras
 
 **2009-08 - 2012-08 | Tallinn, Eesti**
 
-- Haldasin IT-infrastruktuuri, sh sisevõrku, e-posti, majasiseseid infosüsteeme ja kasutajatuge.
+- Haldasin IT-infrastruktuuri, sh sisevõrku, e-posti, majasiseseid info&shy;süsteeme ja kasutajatuge.
 - Planeerisin ja ehitasin välja kogu ülikooli LAN-võrgu, mis hõlmas kõiki hooneid ning ühendas üle 700 kasutaja.
 - Viisin kogu ülikooli e-postisüsteemi üle Google Maili platvormile, mis tõi kaasa 90%-lise kulude kokkuhoiu.
 - Juurutasin Entu platvormi inventari haldamiseks (üle 5000 varaühiku) ning lõputööde arhiveerimiseks.
@@ -141,7 +141,7 @@ Lõpetamata kõrgharidus (informaatika, matemaatika, loodusteadused)
 - **Oracle9i: Access the Database with Java and JDBC** - Oracle Eesti, 2003
 - **Using UML in Object-oriented Analysis and Design** - IT-Koolitus, 2005
 
-## Märkimisväärsed saavutused
+## Märkimis&shy;väärsed saavutused
 
 ### Meeskonna arendamine (2024)
 
@@ -151,7 +151,7 @@ Kõik neli PÖFF-i praktikanti said pärast praktika lõppemist ametlikult töö
 
 Õpetasin ajaloolasi töötama otse MySQL-i andmebaasiga, mis võimaldas neil oma andmeid iseseisvalt hallata (Eesti Mälu Instituut).
 
-### Ülikooli LAN-võrgu väljaehitamine (2012)
+### Ülikooli LAN-võrgu välja&shy;ehitamine (2012)
 
 Planeerisin ja ehitasin välja kogu ülikooli LAN-võrgu, mis hõlmas kõiki hooneid ja ühendas üle 700 kasutaja (Eesti Kunstiakadeemia).
 
@@ -163,6 +163,6 @@ Migreerisin üle 700 postkasti kohalikust meiliserverist Gmaili ilma andmekaotus
 
 Juurutasin Entu platvormi inventari haldamiseks (üle 5000 varaühiku) ning lõputööde arhiveerimiseks (üle 500 dokumenti aastas) raamatukogule (Eesti Kunstiakadeemia).
 
-### Riiklike infosüsteemide arendamine (2005)
+### Riiklike info&shy;süsteemide arendamine (2005)
 
 Kriminaalhoolduse infosüsteemi ja kriminaalmenetluse registri arendamine. Mõlemad projektid valmisid edukalt ja tähtajaks (Justiitsministeerium).

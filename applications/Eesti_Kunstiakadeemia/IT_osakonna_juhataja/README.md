@@ -86,9 +86,9 @@ Kandideerimiseks saatke oma CV ja lühike motivatsioonikiri koos palgasooviga l�
 
 **PREFERRED: Teadmised riigihangete korrast**
 
-- **Match Status:** NO_MATCH
-- **Evidence:** NONE - No documented public procurement knowledge
-- **Gap:** No experience with riigihangete procedures documented
+- **Match Status:** PARTIAL_MATCH
+- **Evidence:** Active public GitHub project (November 2025) analyzing riigihanked.riik.ee API, downloading and structuring procurement documents, building procurement registry
+- **Note:** Practical technical approach to understanding procurement system structure and requirements, though no formal procurement management experience
 
 **REQUIRED: Head teadmised arvutite, serverite, IT süsteemide arhitektuuri**
 
