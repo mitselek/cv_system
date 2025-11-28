@@ -1,7 +1,7 @@
 ---
 description: Generate comprehensive job applications using the compiled knowledge base, with integrity controls and honest fit assessment.
-version: 3.0
-last_updated: 2025-11-27
+version: 3.1
+last_updated: 2025-11-28
 improved_using: improve_prompt meta-prompt
 ---
 
@@ -41,6 +41,16 @@ The following files will be read automatically:
 # EXECUTION WORKFLOW
 
 Execute the following phases in strict sequence. Do not proceed to the next phase until the current phase is complete.
+
+**TERMINAL HANDLING RULES:**
+
+1. **Always verify current directory** before running scripts - use `pwd` or absolute paths
+2. **Change directory explicitly** at the start of each terminal session - don't assume context
+3. **For long-running processes** (especially those calling external APIs like Gemini):
+   - Launch the process
+   - STOP and wait for user confirmation before issuing more commands
+   - Never issue commands while async processes are running
+4. **Use absolute paths** for scripts when working directory is uncertain
 
 ---
 
@@ -197,12 +207,18 @@ Begin file with this exact format:
 
 ```html
 <!--
-docID: CV-[CompanyName]-[Position]
+docID: CV-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
 author: [Name from contact.md]
 -->
 ```
+
+**docID constraint:** Max 25 characters. Use abbreviations:
+
+- `CV-` prefix for CVs, `ML-` for motivation letters
+- `[Co]` = Company abbreviation (e.g., SRINI, EKI, POFF)
+- `[Pos]` = Position abbreviation (e.g., SysAnal, ProjMgr, DevLead)
 
 **Content Structure:**
 
@@ -270,7 +286,7 @@ author: [Name from contact.md]
 
 ```html
 <!--
-docID: MotivationLetter-[CompanyName]-[Position]
+docID: ML-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
 author: [Name from contact.md]
@@ -404,21 +420,100 @@ Execute these steps sequentially after all documents are generated.
 
 **IF application is in Estonian:**
 
+**IMPORTANT - TERMINAL CONTEXT AND ASYNC HANDLING:**
+
+1. **Always change directory first** - The terminal may be in a different directory than expected. Use absolute paths or explicitly `cd` to project root before running scripts.
+
+2. **The Estonian correction script calls Gemini API** - This is a long-running async process that sends file contents to an external LLM for grammar correction.
+
+3. **DO NOT issue any terminal commands while Gemini is processing** - Commands issued during Gemini processing will be captured as stdin and sent to Gemini as "text to correct", causing errors and unexpected behavior.
+
+**Execution procedure:**
+
 ```bash
-cd /home/michelek/Documents/github/cv_system && \
+# Step 1: Change to project root FIRST
+cd /home/michelek/Documents/github/cv_system
+
+# Step 2: Run the grammar correction script with ABSOLUTE path
 ./scripts/estonian-correct.sh --dir applications/[Company]/[Position]
 ```
 
-- Replace `[Company]/[Position]` with actual path
-- Script corrects all Estonian markdown files automatically
-- Verify by checking file timestamps
+Replace `[Company]/[Position]` with actual path.
 
-### Step 3.3: PDF Generation (Automatic)
+**STOP HERE AND WAIT FOR USER CONFIRMATION**
+
+After launching the Estonian grammar correction script:
+
+1. **STOP executing further commands**
+2. **Inform the user** that grammar correction is running
+3. **Wait for user to say "continue"** or similar confirmation before proceeding
+4. The user will verify the script completed successfully
+
+This prevents command injection into the Gemini API session and ensures proper async handling.
+
+### Step 3.3: Estonian Soft Hyphen Insertion (Conditional)
+
+**IF application is in Estonian (after grammar correction is complete):**
+
+Estonian has many long compound words that can cause layout problems in PDFs. Insert soft hyphens (`&shy;`) at **semantic compound word boundaries** to enable proper line breaking.
+
+**IMPORTANT: Insert hyphens at SEMANTIC boundaries, NOT syllables.**
+
+**BAD (syllable hyphenation - DO NOT DO THIS):**
+
+```text
+va&shy;nem&shy;süs&shy;tee&shy;mi&shy;ana&shy;lüü&shy;ti&shy;ku&shy;na
+```
+
+**GOOD (semantic compound boundaries):**
+
+```text
+vanem&shy;süsteemi&shy;analüütikuna
+```
+
+**Common Estonian compound patterns to hyphenate:**
+
+| Pattern | Example | With soft hyphens |
+|---------|---------|-------------------|
+| Noun + Noun | andmebaas | andme&shy;baas |
+| Adjective + Noun | kooliraamatukogu | kooli&shy;raamatu&shy;kogu |
+| Genitive + Noun | süsteemiarhitektuur | süsteemi&shy;arhitektuur |
+| Prefix + Word | tarkvaraarendus | tarkvara&shy;arendus |
+| Role compounds | vanemsüsteemianalüütik | vanem&shy;süsteemi&shy;analüütik |
+| Location compounds | majasisene | maja&shy;sisene |
+| Process compounds | dokumenteerimisprotsess | dokumenteerimis&shy;protsess |
+
+**How soft hyphens work:**
+
+- Invisible in normal text display
+- Browser/PDF renderer uses them as optional break points
+- Only visible when line break occurs at that point
+
+**Apply to:**
+
+- `CV_[Company].md`
+- `motivation_letter_[Company].md`
+
+**Words to look for:**
+
+- Words 15+ characters are likely compounds
+- Look for recognizable Estonian word roots joined together
+- Common suffixes: -süsteem, -baas, -arendus, -haldus, -töö, -kogu, -plaan, -juhtimine
+
+### Step 3.4: PDF Generation
+
+**Wait for user confirmation that Step 3.2 is complete before proceeding.**
 
 PDFs are generated automatically by monitoring scripts:
 
 - If using `./scripts/gemini_watch_and_convert.sh`: automatic
-- Manual: `cd applications/[Company]/[Position] && ../../../scripts/convert-to-pdf.sh CV_*.md motivation_letter_*.md`
+- Manual conversion (run from application directory):
+
+```bash
+cd /home/michelek/Documents/github/cv_system/applications/[Company]/[Position]
+/home/michelek/Documents/github/cv_system/scripts/convert-to-pdf.sh CV_*.md motivation_letter_*.md
+```
+
 - PDFs saved to: `delivery/` subdirectory
 
 ---

@@ -65,73 +65,147 @@ type EmailMessage struct {
 	Raw       []byte
 }
 
-func (c *Client) FetchUnreadEmails(folder string, since time.Time) ([]EmailMessage, error) {
+// FolderInfo contains metadata about the selected folder
+type FolderInfo struct {
+	UIDValidity uint32
+	NumMessages uint32
+}
+
+// SelectFolder selects a folder and returns its metadata
+func (c *Client) SelectFolder(folder string) (*FolderInfo, error) {
 	log.Printf("Selecting folder: %s", folder)
-	
+
 	selectData, err := c.client.Select(folder, nil).Wait()
 	if err != nil {
 		return nil, fmt.Errorf("failed to select folder: %w", err)
 	}
-	
-	log.Printf("Folder status: %d messages, %d recent", selectData.NumMessages, selectData.NumRecent)
 
-	if selectData.NumMessages == 0 {
-		log.Printf("Folder is empty")
-		return []EmailMessage{}, nil
+	log.Printf("Folder status: %d messages, UIDValidity: %d", selectData.NumMessages, selectData.UIDValidity)
+
+	return &FolderInfo{
+		UIDValidity: selectData.UIDValidity,
+		NumMessages: selectData.NumMessages,
+	}, nil
+}
+
+// FetchEmailsSinceUID fetches emails with UID greater than the given UID
+func (c *Client) FetchEmailsSinceUID(lastUID uint32) ([]EmailMessage, error) {
+	if lastUID == 0 {
+		// First run - use fallback to last 7 days
+		since := time.Now().AddDate(0, 0, -7)
+		return c.FetchEmailsSince(since)
 	}
 
-	// Use SEARCH to find messages since the given date
-	log.Printf("Searching for messages since %s...", since.Format("2006-01-02"))
-	
+	// Search for UIDs greater than lastUID
+	log.Printf("Searching for messages with UID > %d...", lastUID)
+
+	// UID search: UID lastUID+1:*
 	searchCriteria := &imap.SearchCriteria{
-		Since: since,
+		UID: []imap.UIDSet{
+			{imap.UIDRange{Start: imap.UID(lastUID + 1), Stop: 0}}, // 0 means * (highest)
+		},
 	}
-	
+
 	searchData, err := c.client.Search(searchCriteria, nil).Wait()
 	if err != nil {
 		return nil, fmt.Errorf("failed to search: %w", err)
 	}
-	
+
+	if len(searchData.AllUIDs()) == 0 {
+		log.Printf("No new messages found")
+		return []EmailMessage{}, nil
+	}
+
+	uids := searchData.AllUIDs()
+	log.Printf("Search found %d new messages", len(uids))
+
+	return c.fetchByUIDs(uids)
+}
+
+// FetchEmailsSince fetches emails since a given date (fallback for first run)
+func (c *Client) FetchEmailsSince(since time.Time) ([]EmailMessage, error) {
+	log.Printf("Searching for messages since %s...", since.Format("2006-01-02"))
+
+	searchCriteria := &imap.SearchCriteria{
+		Since: since,
+	}
+
+	searchData, err := c.client.Search(searchCriteria, nil).Wait()
+	if err != nil {
+		return nil, fmt.Errorf("failed to search: %w", err)
+	}
+
 	if len(searchData.AllSeqNums()) == 0 {
 		log.Printf("No messages found matching search criteria")
 		return []EmailMessage{}, nil
 	}
-	
+
 	seqNums := searchData.AllSeqNums()
 	log.Printf("Search found %d messages", len(seqNums))
 
-	var messages []EmailMessage
-	
-	// Create sequence set from search results
+	// Convert to UIDs first for consistent handling
 	seqSet := imap.SeqSetNum(seqNums...)
-	
-	// Request full body using BODY.PEEK[]
-	bodySection := &imap.FetchItemBodySection{
-		Specifier: imap.PartSpecifierNone,
-		Peek:      true,
-	}
-	
+
 	fetchOptions := &imap.FetchOptions{
-		UID:         true,
-		BodySection: []*imap.FetchItemBodySection{bodySection},
+		UID: true,
 	}
-	
+
 	fetchCmd := c.client.Fetch(seqSet, fetchOptions)
-	
+
+	var uids []imap.UID
 	for {
 		msg := fetchCmd.Next()
 		if msg == nil {
 			break
 		}
-		
-		// Collect the message data into a buffer
+		buf, err := msg.Collect()
+		if err != nil {
+			continue
+		}
+		uids = append(uids, buf.UID)
+	}
+	fetchCmd.Close()
+
+	if len(uids) == 0 {
+		return []EmailMessage{}, nil
+	}
+
+	return c.fetchByUIDs(uids)
+}
+
+// fetchByUIDs fetches full message content for given UIDs
+func (c *Client) fetchByUIDs(uids []imap.UID) ([]EmailMessage, error) {
+	var messages []EmailMessage
+
+	uidSet := imap.UIDSet{}
+	for _, uid := range uids {
+		uidSet = append(uidSet, imap.UIDRange{Start: uid, Stop: uid})
+	}
+
+	bodySection := &imap.FetchItemBodySection{
+		Specifier: imap.PartSpecifierNone,
+		Peek:      true,
+	}
+
+	fetchOptions := &imap.FetchOptions{
+		UID:         true,
+		BodySection: []*imap.FetchItemBodySection{bodySection},
+	}
+
+	fetchCmd := c.client.Fetch(uidSet, fetchOptions)
+
+	for {
+		msg := fetchCmd.Next()
+		if msg == nil {
+			break
+		}
+
 		buf, err := msg.Collect()
 		if err != nil {
 			log.Printf("Warning: error collecting message: %v", err)
 			continue
 		}
-		
-		// Get the body section using FindBodySection
+
 		bodyData := buf.FindBodySection(bodySection)
 		if bodyData != nil && len(bodyData) > 0 {
 			messages = append(messages, EmailMessage{
@@ -140,7 +214,7 @@ func (c *Client) FetchUnreadEmails(folder string, since time.Time) ([]EmailMessa
 			})
 		}
 	}
-	
+
 	if err := fetchCmd.Close(); err != nil {
 		log.Printf("Warning: error closing fetch command: %v", err)
 	}
@@ -148,4 +222,13 @@ func (c *Client) FetchUnreadEmails(folder string, since time.Time) ([]EmailMessa
 	log.Printf("Successfully fetched %d messages", len(messages))
 
 	return messages, nil
+}
+
+// FetchUnreadEmails - DEPRECATED: use FetchEmailsSinceUID instead
+func (c *Client) FetchUnreadEmails(folder string, since time.Time) ([]EmailMessage, error) {
+	_, err := c.SelectFolder(folder)
+	if err != nil {
+		return nil, err
+	}
+	return c.FetchEmailsSince(since)
 }

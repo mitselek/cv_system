@@ -26,11 +26,12 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-27 | Brandem Baltic OÜ | Full-stack vanemarendaja (Eesti Loto) | 80% | [README](Brandem_Baltic/Full_Stack_Vanemarendaja/README.md) | 2025-12-07 | Submitted | 2025-11-26: Ack received, feedback by end of Dec. Contact: <margaret@brandem.ee> (+372 515 1749) |
 | 2025-11-27 | RmIT | Full-Stack arendaja | 68.75% | [README](RmIT/Full_Stack_Arendaja/README.md) | 2025-12-14 | Submitted | 2025-11-27: Ack received, response ~2 weeks after deadline. Contact: <jaana.kivila@rmit.ee> |
 | 2025-11-28 | Entain NCE | (Recruiter contact) | - | [README](Entain_NCE/Technical_Recruiter_Contact/README.md) | - | Pending | Recruiter-initiated. Contact: <anastasiia.sakovskaia@enlabs.com> |
+| 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Draft | Excellent fit - direct system analyst experience at EKI. Contact: <heli@srini.ee> |
 
 ## Statistics
 
-- **Total Applications:** 9
-- **Active (Draft/Ready):** 0
+- **Total Applications:** 10
+- **Active (Draft/Ready):** 1
 - **Submitted:** 5
 - **In Interview Process:** 0
 - **Offers Received:** 0

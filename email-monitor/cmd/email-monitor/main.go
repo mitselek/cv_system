@@ -3,9 +3,10 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"io"
 	"log"
+	"os"
 	"path/filepath"
-	"time"
 
 	"github.com/michelek/cv_system/email-monitor/config"
 	"github.com/michelek/cv_system/email-monitor/internal/classifier"
@@ -13,26 +14,38 @@ import (
 	"github.com/michelek/cv_system/email-monitor/internal/matcher"
 	"github.com/michelek/cv_system/email-monitor/internal/parser"
 	"github.com/michelek/cv_system/email-monitor/internal/registry"
+	"github.com/michelek/cv_system/email-monitor/internal/state"
 	"github.com/michelek/cv_system/email-monitor/internal/storage"
 )
 
+// SavedFile tracks a saved communication file
+type SavedFile struct {
+	Path    string
+	Subject string
+}
+
 func main() {
-	log.SetFlags(log.LstdFlags | log.Lshortfile)
+	// Suppress log output unless VERBOSE is set
+	if os.Getenv("VERBOSE") != "true" && os.Getenv("VERBOSE") != "1" {
+		log.SetOutput(io.Discard)
+	} else {
+		log.SetFlags(log.LstdFlags | log.Lshortfile)
+	}
 
 	// Load configuration
 	cfg, err := config.Load()
 	if err != nil {
-		log.Fatalf("Failed to load config: %v", err)
+		fmt.Fprintf(os.Stderr, "Failed to load config: %v\n", err)
+		os.Exit(1)
 	}
 
 	// Load known applications from registry
 	registryPath := filepath.Join(cfg.Output.BasePath, "REGISTRY.md")
 	apps, err := registry.LoadApplications(registryPath)
 	if err != nil {
-		log.Printf("Warning: Could not load registry: %v", err)
+		fmt.Fprintf(os.Stderr, "Warning: Could not load registry: %v\n", err)
 		apps = []registry.Application{}
 	}
-	log.Printf("Loaded %d applications from registry", len(apps))
 
 	// Connect to IMAP
 	imapCreds := imap.Credentials{
@@ -44,44 +57,64 @@ func main() {
 
 	client, err := imap.NewClient(imapCreds)
 	if err != nil {
-		log.Fatalf("Failed to create IMAP client: %v", err)
+		fmt.Fprintf(os.Stderr, "Failed to create IMAP client: %v\n", err)
+		os.Exit(1)
 	}
 	defer client.Close()
 
-	// Fetch emails from the last N days
-	since := time.Now().AddDate(0, 0, -cfg.Processing.LookbackDays)
-	log.Printf("Searching for emails since %s (%d days)", since.Format("2006-01-02"), cfg.Processing.LookbackDays)
-
-	messages, err := client.FetchUnreadEmails(cfg.IMAP.Folder, since)
+	// Load state to track last checked email
+	statePath := cfg.Output.StatePath
+	st, err := state.Load(statePath)
 	if err != nil {
-		log.Fatalf("Failed to fetch emails: %v", err)
+		fmt.Fprintf(os.Stderr, "Warning: Could not load state: %v (starting fresh)\n", err)
+		st = &state.State{}
 	}
 
-	log.Printf("\n=== Processing %d email(s) ===\n", len(messages))
+	// Select folder and check UID validity
+	folderInfo, err := client.SelectFolder(cfg.IMAP.Folder)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Failed to select folder: %v\n", err)
+		os.Exit(1)
+	}
 
-	var saved, skipped, unmatched int
+	// Check if state is valid for this folder
+	var messages []imap.EmailMessage
+	if st.IsValid(cfg.IMAP.Folder, folderInfo.UIDValidity) {
+		// Incremental: fetch only new emails since last run
+		messages, err = client.FetchEmailsSinceUID(st.LastUID)
+	} else {
+		// First run or folder changed: use date-based fallback
+		messages, err = client.FetchEmailsSinceUID(0) // 0 triggers 7-day fallback
+	}
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Failed to fetch emails: %v\n", err)
+		os.Exit(1)
+	}
+
+	// Track highest UID seen
+	var maxUID uint32
+
+	var savedFiles []SavedFile
+	var saved, skipped, unmatched, parseErrors int
 
 	// Process each email
-	for i, msg := range messages {
+	for _, msg := range messages {
+		// Track highest UID
+		if uint32(msg.UID) > maxUID {
+			maxUID = uint32(msg.UID)
+		}
+
 		email, err := parser.ParseEmail(bytes.NewReader(msg.Raw))
 		if err != nil {
-			log.Printf("Error parsing email UID %d: %v", msg.UID, err)
-			skipped++
+			parseErrors++
 			continue
 		}
 
-		fmt.Printf("\n--- Email %d/%d (UID: %d) ---\n", i+1, len(messages), msg.UID)
-		fmt.Printf("Date: %s\n", email.Date.Format("2006-01-02 15:04:05"))
-		fmt.Printf("From: %s <%s>\n", email.From.Name, email.From.Address)
-		fmt.Printf("Subject: %s\n", email.Subject)
-
 		// Classify the email
 		classification := classifier.Classify(email.Subject, email.Body)
-		fmt.Printf("Classification: %s (confidence: %.0f%%)\n", 
-			classification.Type.TitleCase(), classification.Confidence*100)
 
 		if classification.Type == classifier.Unknown {
-			fmt.Printf("⏭️  Skipping: Unknown email type\n")
 			skipped++
 			continue
 		}
@@ -96,26 +129,24 @@ func main() {
 		)
 
 		if match == nil || match.Confidence < 0.3 {
-			fmt.Printf("❓ No application match found (confidence too low)\n")
-			fmt.Printf("   Body preview: %s\n", truncate(email.Body, 150))
 			unmatched++
 			continue
 		}
 
-		fmt.Printf("Match: %s / %s (confidence: %.0f%%, %s)\n",
-			match.Application.Company,
-			match.Application.Position,
-			match.Confidence*100,
-			match.Reason,
-		)
-
 		// Save communication (unless dry-run)
 		if cfg.Processing.DryRun {
-			fmt.Printf("🔍 DRY-RUN: Would save to %s/communications/%s_%s.md\n",
+			// In dry-run, simulate the path
+			dryPath := filepath.Join(
+				cfg.Output.BasePath,
 				match.Application.Path,
-				email.Date.Format("2006-01-02"),
-				classification.Type,
+				"communications",
+				fmt.Sprintf("%s_%s.md", email.Date.Format("2006-01-02"), classification.Type),
 			)
+			savedFiles = append(savedFiles, SavedFile{
+				Path:    dryPath,
+				Subject: email.Subject,
+			})
+			saved++
 		} else {
 			commData := storage.CommunicationData{
 				Date:     email.Date,
@@ -128,30 +159,63 @@ func main() {
 
 			savedPath, err := storage.SaveCommunication(cfg.Output.BasePath, match.Application.Path, commData)
 			if err != nil {
-				fmt.Printf("⚠️  Error saving: %v\n", err)
 				skipped++
 				continue
 			}
-			fmt.Printf("✅ Saved: %s\n", savedPath)
+			savedFiles = append(savedFiles, SavedFile{
+				Path:    savedPath,
+				Subject: email.Subject,
+			})
 			saved++
 		}
 	}
 
-	// Summary
-	fmt.Printf("\n=== Summary ===\n")
-	fmt.Printf("Total emails: %d\n", len(messages))
-	fmt.Printf("Saved: %d\n", saved)
-	fmt.Printf("Skipped: %d\n", skipped)
-	fmt.Printf("Unmatched: %d\n", unmatched)
+	// Output: List of saved files
+	if len(savedFiles) > 0 {
+		fmt.Println("# Created Files")
+		fmt.Println()
+		for _, f := range savedFiles {
+			fmt.Printf("- `%s`\n", f.Path)
+			fmt.Printf("  Subject: %s\n", f.Subject)
+		}
+		fmt.Println()
+	}
+
+	// Stats
+	fmt.Println("## Statistics")
+	fmt.Println()
+	fmt.Printf("- Emails processed: %d\n", len(messages))
+	fmt.Printf("- Files created: %d\n", saved)
+	fmt.Printf("- Skipped (unknown type): %d\n", skipped)
+	fmt.Printf("- Unmatched (no application): %d\n", unmatched)
+	if parseErrors > 0 {
+		fmt.Printf("- Parse errors: %d\n", parseErrors)
+	}
+	fmt.Println()
+
+	// Disclaimer
+	fmt.Println("## Action Required")
+	fmt.Println()
+	fmt.Println("⚠️  **Classification is preliminary** (keyword-based heuristics).")
+	fmt.Println()
+	fmt.Println("Please review each file and:")
+	fmt.Println("1. Verify/correct the classification type in the filename")
+	fmt.Println("2. Rename files if needed (e.g., `_interview.md` → `_acknowledgment.md`)")
+	fmt.Println("3. Update `REGISTRY.md` with any status changes")
+	fmt.Println()
 
 	if cfg.Processing.DryRun {
-		fmt.Println("\n🔍 DRY-RUN mode - no files were created")
+		fmt.Println("---")
+		fmt.Println("🔍 **DRY-RUN mode** - no files were actually created")
 	}
-}
 
-func truncate(s string, maxLen int) string {
-	if len(s) <= maxLen {
-		return s
+	// Save state for next run (unless dry-run)
+	if !cfg.Processing.DryRun && maxUID > 0 {
+		st.LastUID = maxUID
+		st.LastFolder = cfg.IMAP.Folder
+		st.UIDValidity = folderInfo.UIDValidity
+		if err := st.Save(statePath); err != nil {
+			fmt.Fprintf(os.Stderr, "Warning: Could not save state: %v\n", err)
+		}
 	}
-	return s[:maxLen] + "..."
 }
