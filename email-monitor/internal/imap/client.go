@@ -106,7 +106,8 @@ func (c *Client) FetchEmailsSinceUID(lastUID uint32) ([]EmailMessage, error) {
 		},
 	}
 
-	searchData, err := c.client.Search(searchCriteria, nil).Wait()
+	// Important: request UIDs back from the server
+	searchData, err := c.client.UIDSearch(searchCriteria, nil).Wait()
 	if err != nil {
 		return nil, fmt.Errorf("failed to search: %w", err)
 	}
