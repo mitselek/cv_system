@@ -1,0 +1,7 @@
+# Email monitor state and credentials
+.env
+.env.local
+.email-monitor-state.json
+
+# Compiled binary (in project root)
+/email-monitor
