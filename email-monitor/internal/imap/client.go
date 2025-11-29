@@ -28,27 +28,27 @@ type Credentials struct {
 
 func NewClient(creds Credentials) (*Client, error) {
 	addr := fmt.Sprintf("%s:%d", creds.Server, creds.Port)
-	
+
 	log.Printf("Connecting to %s...", addr)
-	
+
 	options := &imapclient.Options{
 		TLSConfig: &tls.Config{},
 	}
-	
+
 	c, err := imapclient.DialTLS(addr, options)
 	if err != nil {
 		return nil, fmt.Errorf("failed to connect: %w", err)
 	}
 
 	log.Printf("Authenticating as %s...", creds.Username)
-	
+
 	if err := c.Login(creds.Username, creds.Password).Wait(); err != nil {
 		c.Close()
 		return nil, fmt.Errorf("failed to login: %w", err)
 	}
 
 	log.Printf("Successfully connected and authenticated")
-	
+
 	return &Client{client: c}, nil
 }
 
@@ -208,7 +208,7 @@ func (c *Client) fetchByUIDs(uids []imap.UID) ([]EmailMessage, error) {
 		}
 
 		bodyData := buf.FindBodySection(bodySection)
-		if bodyData != nil && len(bodyData) > 0 {
+		if len(bodyData) > 0 { // len() for nil slices is defined as zero
 			messages = append(messages, EmailMessage{
 				UID: buf.UID,
 				Raw: bodyData,
