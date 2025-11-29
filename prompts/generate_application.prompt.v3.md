@@ -1,8 +1,5 @@
 ---
 description: Generate comprehensive job applications using the compiled knowledge base, with integrity controls and honest fit assessment.
-version: 3.1
-last_updated: 2025-11-28
-improved_using: improve_prompt meta-prompt
 ---
 
 # IDENTITY AND PURPOSE
@@ -228,7 +225,7 @@ author: [Name from contact.md]
 
 **Content Structure:**
 
-```markdown
+````markdown
 # [Full Name from contact.md]
 
 [Contact details from contact.md - use EXACTLY as written]
@@ -288,7 +285,7 @@ Lõpetamata kõrgharidus
 ## Achievements
 
 [Only significant achievements from knowledge base relevant to this position]
-```
+````
 
 **FORBIDDEN ACTIONS:**
 
@@ -399,7 +396,7 @@ This registry tracks all job applications generated using the CV system.
 Add new entry:
 
 ```text
-| [YYYY-MM-DD] | [Company] | [Position] | [X]% | [README.md](./[Company]/[Position]/README.md) | [Date] | Draft | [Brief notes] |
+| [YYYY-MM-DD] | [Company] | [Position] | [X]% | [README.md](/applications/[Company]/[Position]/README.md) | [Date] | Draft | [Brief notes] |
 ```
 
 ---

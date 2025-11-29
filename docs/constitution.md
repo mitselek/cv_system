@@ -86,6 +86,12 @@ The use of the following scripts is mandatory to ensure consistency and quality.
 - **Function:** Provides quick access to correspondence related to job applications, including acknowledgments, interview requests, and status updates.
 - **Integration:** This tool helps track application progress and maintain accurate records in the application registry.
 - **Output:** Email data is presented in a structured format for easy review and action.
+- **Post-Execution Protocol:** When the email monitoring tool is run, the LLM assistant must:
+  1. Review all newly created communication files in the `communications/` directories
+  2. Verify the classification type in each filename is correct (e.g., `_acknowledgment.md`, `_interview.md`, `_rejection.md`)
+  3. Rename files if the classification is incorrect based on the email content
+  4. Update the relevant application's `REGISTRY.md` status if the email indicates a status change (e.g., Draft → Applied, Applied → Interview)
+  5. Summarize the findings for the user, highlighting any action-required items
 
 ---
 
