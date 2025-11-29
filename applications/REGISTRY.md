@@ -28,11 +28,12 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-28 | Entain NCE | (Recruiter contact) | - | [README](Entain_NCE/Technical_Recruiter_Contact/README.md) | - | Pending | Recruiter-initiated. Contact: <anastasiia.sakovskaia@enlabs.com> |
 | 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Draft | Excellent fit - direct system analyst experience at EKI. Contact: <heli@srini.ee> |
 | 2025-11-28 | Eesti Kunstiakadeemia | IT-osakonna juhataja | 100% | [README](Eesti_Kunstiakadeemia/IT_osakonna_juhataja/README.md) | 2025-12-14 | Submitted | Previous position holder 2009-2012. LAN infrastructure (700+ users), email migration (90% cost savings), Entu asset management (5000+ assets). 6 years IT leadership experience. 2025-11-28: Ack received, response expected via CV.ee. |
+| 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Draft | Strong memory institution background. Gap: Education. |
 
 ## Statistics
 
-- **Total Applications:** 11
-- **Active (Draft/Ready):** 2
+- **Total Applications:** 12
+- **Active (Draft/Ready):** 3
 - **Submitted:** 5
 - **In Interview Process:** 0
 - **Offers Received:** 0
@@ -42,4 +43,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-11-28
+**Last Updated:** 2025-11-29
