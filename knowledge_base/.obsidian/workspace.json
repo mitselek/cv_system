@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "103732f1e7378535",
+        "id": "571694228c6dbfed",
         "type": "tabs",
         "children": [
           {
-            "id": "f93555f669b842aa",
+            "id": "f8ffe6df2605eee6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,8 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "f93555f669b842aa",
+  "active": "f8ffe6df2605eee6",
   "lastOpenFiles": [
+    "writing.md",
+    "skills/documentation.md",
     "projects/mozart-requiem.md",
     "projects/scores.md",
     "projects/cv-system.md",
@@ -205,8 +207,6 @@
     "experiences/tartu-ulikool-2014-2015.md",
     "experiences/soov-kirjastus-1993.md",
     "experiences/oopus-repro-1994-1996.md",
-    "experiences/oopus-disaini-1993-1995.md",
-    "experiences/oopus-arvutite-1993-1995.md",
     "skills/team-leadership.md.__stamp__",
     "skills/system-architecture.md.__stamp__",
     "skills/python.md.__stamp__",
