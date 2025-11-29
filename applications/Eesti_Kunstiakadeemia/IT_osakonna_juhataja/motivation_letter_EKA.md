@@ -1,9 +1,9 @@
-<!--
+---
 docID: ML-EKA-ITJuht
 version: 1.1
 date: 2025-11-28
-purpose: Motivation letter for IT-osakonna juhataja position at Eesti Kunstiakadeemia
--->
+author: Unknown
+---
 
 # Motivatsioonikiri
 

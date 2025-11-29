@@ -1,9 +1,9 @@
-<!--
+---
 docID: CV-TlnStrat-Innov
 version: 1.0
 date: 2025-11-24
 author: Mihkel Putrinš
--->
+---
 
 # Mihkel Putrinš
 

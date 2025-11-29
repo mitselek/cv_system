@@ -1,9 +1,9 @@
-<!--
+---
 docID: ML-Brandem-FullStack
 version: 1.0
 date: 2025-11-26
 author: Mihkel Putrinš
--->
+---
 
 # Motivatsioonikiri
 

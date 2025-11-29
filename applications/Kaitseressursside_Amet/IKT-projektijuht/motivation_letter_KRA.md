@@ -1,9 +1,9 @@
-<!--
+---
 docID: ML-KRA-IKT-PM
 version: 1.0
 date: 2025-11-23
 author: Mihkel Putrinš
--->
+---
 
 Mihkel Putrinš
 +372 5656 0978

@@ -1,9 +1,9 @@
-<!--
+---
 docID: motivation-letter-bcs-itera-erp-pm-2025
 version: 1.0
 date: 2025-11-21
 author: Mihkel Putrinš
--->
+---
 
 Mihkel Putrinš  
 <mitselek@gmail.com>  
