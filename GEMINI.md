@@ -1,8 +1,24 @@
-# Project Overview
+# CV System Compilation Guide
 
-This project is a CV (Curriculum Vitae) compilation system. It takes a modular knowledge base of professional experiences, skills, achievements, and other personal data, and compiles it into a single, large Markdown file. This consolidated file is intended to be used as a context for Large Language Models (LLMs) to generate tailored CVs, cover letters, or other professional documents.
+## Purpose
 
-The system is built with TypeScript and runs on Node.js. The data is stored in Markdown files with YAML frontmatter, which allows for both structured data and free-form text.
+You are assisting with a professional CV (Curriculum Vitae) compilation system. This system transforms a modular knowledge base of career information into a unified context document optimized for Large Language Model (LLM) consumption. The compiled output enables AI-powered generation of tailored CVs, cover letters, and professional documents.
+
+## System Architecture
+
+### Technology Stack
+
+- **Runtime**: Node.js
+- **Language**: TypeScript
+- **Package Manager**: npm
+- **Data Format**: Markdown files with YAML frontmatter
+- **Output**: Single consolidated Markdown file (`_compiled_context.md`)
+
+### Core Components
+
+1. **Knowledge Base**: Modular Markdown files organized by information type
+2. **Compiler Script**: TypeScript code (`scripts/build_context.ts`) that processes and consolidates files
+3. **Compiled Context**: Single Markdown file containing all professional information
 
 ## Building and Running
 

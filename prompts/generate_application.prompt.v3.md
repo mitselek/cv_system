@@ -416,40 +416,37 @@ Execute these steps sequentially after all documents are generated.
 
 **Only proceed to Step 3.2 when fact-check is clean.**
 
-### Step 3.2: Estonian Grammar Correction (Conditional)
+### Step 3.2: Estonian Grammar & Style Review (Conditional)
 
 **IF application is in Estonian:**
 
-**IMPORTANT - TERMINAL CONTEXT AND ASYNC HANDLING:**
+**Perform this review internally. Do NOT use external scripts.**
 
-1. **Always change directory first** - The terminal may be in a different directory than expected. Use absolute paths or explicitly `cd` to project root before running scripts.
+**Objective:** Ensure the application uses native-level, professional Estonian.
 
-2. **The Estonian correction script calls Gemini API** - This is a long-running async process that sends file contents to an external LLM for grammar correction.
+**Review Checklist:**
 
-3. **DO NOT issue any terminal commands while Gemini is processing** - Commands issued during Gemini processing will be captured as stdin and sent to Gemini as "text to correct", causing errors and unexpected behavior.
+1. **Grammar & Syntax:**
+   - **Case Agreement:** Check genitive/partitive/illative endings (e.g., `eMem jaoks` → `eMemi jaoks`, `Google tabelites` → `Google'i tabelites`).
+   - **Verb Conjugation:** Ensure consistency in tense and person (e.g., `juhtsin` → `juhtisin`).
+   - **Word Order:** Ensure natural Estonian sentence structure.
+   - **Conjunctions:** Use "ja" instead of slashes in formal text (e.g., `klientide/partneritega` → `klientide ja partneritega`).
 
-**Execution procedure:**
+2. **Spelling & Orthography:**
+   - **Compound Words:** Fix incorrect spacing and forms (e.g., `äri-spetsiifikast` → `äri-spetsiifikat`).
+   - **Capitalization:** Verify proper nouns and titles.
 
-```bash
-# Step 1: Change to project root FIRST
-cd /home/michelek/Documents/github/cv_system
+3. **Professional Style:**
+   - **Conciseness:** Remove redundant phrases (e.g., `Ausamalt öeldes...`).
+   - **Tone:** Ensure formal register (e.g., `äärmiselt keeruline` → `väga keeruline`).
+   - **Precision:** Use accurate terminology (e.g., `keskmise hariduse` → `keskhariduse`, `projekteerisin` → `juurutasin` where appropriate).
 
-# Step 2: Run the grammar correction script with ABSOLUTE path
-./scripts/estonian-correct.sh --dir applications/[Company]/[Position]
-```
+4. **Preservation:**
+   - Do NOT alter metadata headers (`docID`, etc.).
+   - Do NOT translate standard technical terms (IT, LAN, PÖFF).
 
-Replace `[Company]/[Position]` with actual path.
-
-**STOP HERE AND WAIT FOR USER CONFIRMATION**
-
-After launching the Estonian grammar correction script:
-
-1. **STOP executing further commands**
-2. **Inform the user** that grammar correction is running
-3. **Wait for user to say "continue"** or similar confirmation before proceeding
-4. The user will verify the script completed successfully
-
-This prevents command injection into the Gemini API session and ensures proper async handling.
+**Action:**
+Review the generated `CV_[Company].md` and `motivation_letter_[Company].md`. If you find any issues based on the checklist above, overwrite the files with the corrected versions immediately.
 
 ### Step 3.3: Estonian Soft Hyphen Insertion (Conditional)
 
