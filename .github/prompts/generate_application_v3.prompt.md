@@ -203,15 +203,15 @@ Use sanitized names (spaces to underscores, remove special characters).
 
 **CRITICAL: Metadata Header Required**
 
-Begin file with this exact format:
+Begin file with this exact YAML frontmatter format:
 
-```html
-<!--
+```yaml
+---
 docID: CV-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
 author: [Name from contact.md]
--->
+---
 ```
 
 **docID constraint:** Max 25 characters. Use abbreviations:
@@ -284,13 +284,15 @@ author: [Name from contact.md]
 
 **CRITICAL: Metadata Header Required**
 
-```html
-<!--
+Begin file with this exact YAML frontmatter format:
+
+```yaml
+---
 docID: ML-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
 author: [Name from contact.md]
--->
+---
 ```
 
 **Content Structure:**
