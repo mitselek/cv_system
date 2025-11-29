@@ -26,15 +26,15 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-27 | Brandem Baltic OÜ | Full-stack vanemarendaja (Eesti Loto) | 80% | [README](Brandem_Baltic/Full_Stack_Vanemarendaja/README.md) | 2025-12-07 | Submitted | 2025-11-26: Ack received, feedback by end of Dec. Contact: <margaret@brandem.ee> (+372 515 1749) |
 | 2025-11-27 | RmIT | Full-Stack arendaja | 68.75% | [README](RmIT/Full_Stack_Arendaja/README.md) | 2025-12-14 | Submitted | 2025-11-27: Ack received, response ~2 weeks after deadline. Contact: <jaana.kivila@rmit.ee> |
 | 2025-11-28 | Entain NCE | (Recruiter contact) | - | [README](Entain_NCE/Technical_Recruiter_Contact/README.md) | - | Pending | Recruiter-initiated. Contact: <anastasiia.sakovskaia@enlabs.com> |
-| 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Draft | Excellent fit - direct system analyst experience at EKI. Contact: <heli@srini.ee> |
+| 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Submitted | Excellent fit - direct system analyst experience at EKI. 2025-11-28: Ack received via CV.ee, application successfully forwarded to employer. Contact: <heli@srini.ee> |
 | 2025-11-28 | Eesti Kunstiakadeemia | IT-osakonna juhataja | 100% | [README](Eesti_Kunstiakadeemia/IT_osakonna_juhataja/README.md) | 2025-12-14 | Submitted | Previous position holder 2009-2012. LAN infrastructure (700+ users), email migration (90% cost savings), Entu asset management (5000+ assets). 6 years IT leadership experience. 2025-11-28: Ack received, response expected via CV.ee. |
-| 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Draft | Strong memory institution background. Gap: Education. |
+| 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Submitted | Strong memory institution background. Gap: Education. 2025-11-29: Ack received via CV.ee, application successfully forwarded to employer. |
 
 ## Statistics
 
 - **Total Applications:** 12
-- **Active (Draft/Ready):** 3
-- **Submitted:** 5
+- **Active (Draft/Ready):** 1
+- **Submitted:** 8
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
