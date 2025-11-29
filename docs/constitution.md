@@ -80,11 +80,12 @@ The use of the following scripts is mandatory to ensure consistency and quality.
 - **Mechanism:** The script uses `pandoc` with `xelatex` and the official LaTeX header template at `/templates/.header.tex` to ensure professional formatting and consistent, metadata-driven footers.
 - **Output:** Generated PDFs are placed in a `delivery/` subdirectory within the current working directory.
 
-### 4.3. Estonian Language Quality (`/scripts/estonian-spellcheck.sh`)
+### 4.3. Email Monitoring Tool (Golang)
 
-- **Mandate:** This script is a **non-negotiable quality gate** for all documents written in Estonian.
-- **Function:** It uses the Gemini API to perform advanced spelling, grammar, and style checks.
-- **Workflow:** All Estonian application materials must be processed and corrected based on this script's output before being finalized.
+- **Purpose:** A Golang-based tool that monitors and retrieves the latest application-related emails from the email account.
+- **Function:** Provides quick access to correspondence related to job applications, including acknowledgments, interview requests, and status updates.
+- **Integration:** This tool helps track application progress and maintain accurate records in the application registry.
+- **Output:** Email data is presented in a structured format for easy review and action.
 
 ---
 
@@ -102,6 +103,7 @@ All interactions with Large Language Models (LLMs) for the purpose of generating
 
 - The LLM's primary task is **synthesis and tailoring**, not invention. It must select, reframe, and order information from the provided context to best match the job ad.
 - All generated output must strictly adhere to the Formatting & Style Guide defined below.
+- Estonian language quality checks (spelling, grammar, style) are performed internally during the application generation process, as specified in the generation prompt.
 
 ### 5.3. Mandatory Verification Protocol
 
