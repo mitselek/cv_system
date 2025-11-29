@@ -257,13 +257,27 @@ author: [Name from contact.md]
 
 ## Education
 
-[For each education entry]
+[For each education entry from knowledge base]
 
-### [Institution Name - EXACTLY as in source]
+**IMPORTANT:** If the education entry has multiple institutions and a description field, combine them:
 
-**[Dates - EXACTLY as in source] | [Location if present]**
+### [List all institutions separated by commas]
 
-[Degree name - EXACTLY as in source]
+**[Dates]**
+
+[Description if present]  
+[Degree name]
+
+**Example:**
+
+```markdown
+### Tartu Ülikool, Tallinna Ülikool
+
+**1990 - 2002**
+
+Matemaatika, informaatika, loodusteaduslikud ained  
+Lõpetamata kõrgharidus
+```
 
 [STOP. Add NOTHING else unless explicitly in source body content]
 
