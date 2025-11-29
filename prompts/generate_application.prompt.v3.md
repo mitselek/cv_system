@@ -145,7 +145,14 @@ Create: applications/[Company_Name]/[Position_Title]/delivery/
 
 Use sanitized names (spaces to underscores, remove special characters).
 
-### Step 2.2: Generate README.md
+### Step 2.2: Save Job Posting
+
+**File:** `applications/[Company_Name]/[Position_Title]/job_posting.md`
+
+**Content:**
+Save the verbatim text of the `JOB_ADVERTISEMENT` input to this file. Do not modify or summarize.
+
+### Step 2.3: Generate README.md
 
 **File:** `applications/[Company_Name]/[Position_Title]/README.md`
 
@@ -159,8 +166,7 @@ Use sanitized names (spaces to underscores, remove special characters).
 **Source:** [URL or "Direct communication"]
 **Deadline:** [Date]
 **Status:** Applied
-
-[Full text of job advertisement]
+**Full Text:** [job_posting.md](./job_posting.md)
 
 ## Fit Assessment
 
@@ -197,7 +203,7 @@ Use sanitized names (spaces to underscores, remove special characters).
 
 **Integrity Check:** No emojis. All claims must reference specific sections of knowledge base.
 
-### Step 2.3: Generate CV
+### Step 2.4: Generate CV
 
 **File:** `applications/[Company_Name]/[Position_Title]/CV_[CompanyName].md`
 
@@ -278,7 +284,7 @@ author: [Name from contact.md]
 - DO NOT paraphrase - quote or omit
 - DO NOT add descriptive text unless in source
 
-### Step 2.4: Generate Motivation Letter
+### Step 2.5: Generate Motivation Letter
 
 **File:** `applications/[Company_Name]/[Position_Title]/motivation_letter_[CompanyName].md`
 
@@ -349,7 +355,7 @@ Sincerely,
 - No assumed skills
 - If uncertain, omit detail
 
-### Step 2.5: Update Application Registry
+### Step 2.6: Update Application Registry
 
 **File:** `applications/REGISTRY.md`
 
@@ -552,6 +558,7 @@ Location: applications/[Company]/[Position]/
 
 Generated Files:
 ✓ README.md
+✓ job_posting.md
 ✓ CV_[Company].md
 ✓ motivation_letter_[Company].md
 ✓ FACT_CHECK_REPORT.md
