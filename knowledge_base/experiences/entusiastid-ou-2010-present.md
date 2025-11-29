@@ -44,7 +44,7 @@ technology_stack:
     - Container-ready
 
 status: verified
-last_verified: '2025-11-27'
+last_verified: '2025-11-29'
 
 ---
 
@@ -62,9 +62,9 @@ last_verified: '2025-11-27'
 - Node.js/JavaScript põhine arhitektuur: API backend, Vue.js frontend, MongoDB andmebaas.
 - Entut kasutavad oma igapäevatöös:
   - u. 30 kooliraamatukogu üle Eesti;
-  - Eesti Kunstiakadeemia dokumendiregistri, projektiregistri, ruumiplaani, inventari, osaliselt ka personali jne ...
-  - 3 muuseumi
-  - paar äriühingut
+  - 3 muuseumi;
+  - paar äriühingut.
+- Eesti Kunstiakadeemia kasutas Entut aastatel 2010-2025 dokumendiregistri, projektiregistri, ruumiplaani, inventari ja personali haldamiseks.
 
 ## en
 
@@ -72,7 +72,8 @@ last_verified: '2025-11-27'
 - Node.js/JavaScript-based architecture: API backend, Vue.js frontend, MongoDB database.
 - Database design and system integration.
 - User interface development.
-- Supporting 30+ organizations including schools, museums, universities, and businesses.
+- Supporting 30+ organizations including schools, museums, and businesses.
+- Estonian Academy of Arts used the platform for document, project, and asset management (2010-2025).
 
 ---
 
