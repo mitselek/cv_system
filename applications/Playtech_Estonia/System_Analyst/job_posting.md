@@ -1,0 +1,77 @@
+# System Analyst - Playtech Estonia OÜ
+
+**Source:** https://cv.ee/et/vacancy/1468377/playtech-estonia-ou/system-analyst
+**Deadline:** 14.12.2025
+
+---
+
+## About Playtech
+
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B and B2C businesses. Both divisions leverage Playtech's proprietary technology to deliver innovative products and services to ensure a safe, engaging and entertaining gaming experience.
+
+Playtech is the gaming industry's leading technology company delivering business intelligence-driven gaming software, services, content, and platform technology across the industry.
+
+Read more about who we are and what we do here: www.playtechpeople.com
+
+Here at Playtech, we genuinely believe that people are our biggest asset.
+
+Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Recognizing differences and ensuring our processes are transparent is the core of Playtech's overall commitment to responsible business practices.
+
+---
+
+## Ready to level up your career?
+
+Playtech's Videobet unit is looking for an attentive System Analyst with excellent communication and problem-solving skills.
+
+---
+
+## Your influential mission. You will
+
+- Analyse the internal and external business requirements controlled by the Product Management team & help assess the required effort.
+- Derive use cases and functional flows, draw mockups and write system requirements for R&D.
+- Present the results of your work to other teams, follow up on development and hand over the ready products to QA.
+- Maintain knowledge of the product functionalities and features.
+- Have the potential to become a Product Owner for one of our scrum teams.
+
+---
+
+## Components for success. You
+
+- Hold a degree in IT, Computer Science, or a related field.
+- Bring prior experience as a System Analyst, Product Owner, or in a similar role.
+- Communicate fluently in English.
+- Demonstrate strong communication and problem-solving abilities.
+- Possess keen attention to detail.
+- Adapt quickly to changing situations.
+- Make informed decisions by understanding the complete product context.
+
+---
+
+## You'll get extra points for
+
+- Previous experience within the iGaming industry.
+- Proficiency in modelling techniques such as UML diagrams, written use cases, and software specifications.
+- Skills in visual prototyping of user interfaces.
+- Hands-on experience in software development.
+- Solid understanding of the software release life cycle and agile development principles.
+- Familiarity with databases and data modelling.
+
+---
+
+## Thrive in a culture that values
+
+- Initiative-taking and a confident approach at the workplace.
+- Global scope and inclusive working environment.
+- Constant learning and development opportunities.
+- Active lifestyle and mental well-being.
+- Fun and engaging company events.
+
+---
+
+## VIDEOBET'S PRODUCT TEAM
+
+We're responsible for managing the company roadmap and ensuring that all customer requests get handled in the most efficient way. Our team is constantly in communication with the customers in order to gather information on the usage of the existing Videobet product and to discuss new features or releases based on client needs. As part of this, we always make sure that customer requests get analysed and communicated, both internally and externally as per the agreed processes and prioritised accordingly in the product backlog.
+
+---
+
+Playtech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.

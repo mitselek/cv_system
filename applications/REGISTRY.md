@@ -29,12 +29,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Submitted | Excellent fit - direct system analyst experience at EKI. 2025-11-28: Ack received via CV.ee, application successfully forwarded to employer. Contact: <heli@srini.ee> |
 | 2025-11-28 | Eesti Kunstiakadeemia | IT-osakonna juhataja | 100% | [README](Eesti_Kunstiakadeemia/IT_osakonna_juhataja/README.md) | 2025-12-14 | Submitted | Previous position holder 2009-2012. LAN infrastructure (700+ users), email migration (90% cost savings), Entu asset management (5000+ assets). 6 years IT leadership experience. 2025-11-28: Ack received, response expected via CV.ee. |
 | 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Submitted | Strong memory institution background. Gap: Education. 2025-11-29: Ack received via CV.ee, application successfully forwarded to employer. |
+| 2025-11-30 | Playtech Estonia | System Analyst | 92% | [README](Playtech_Estonia/System_Analyst/README.md) | 2025-12-14 | Submitted | Senior System Analyst experience at EKI. UML certification. Strong database skills. Gap: iGaming industry experience. 2025-11-30: Ack received via SmartRecruiters, response within 2 weeks. |
 
 ## Statistics
 
-- **Total Applications:** 12
+- **Total Applications:** 13
 - **Active (Draft/Ready):** 1
-- **Submitted:** 8
+- **Submitted:** 9
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
