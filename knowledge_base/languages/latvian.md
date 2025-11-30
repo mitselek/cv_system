@@ -21,7 +21,6 @@ tags: [language, communication, baltic, second-language]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 - Teine keel, lähedane emakeelsetasemele

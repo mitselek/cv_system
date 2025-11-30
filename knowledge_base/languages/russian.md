@@ -20,7 +20,6 @@ tags: [language, communication]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 - Keskaste-kõrgtase oskus kõigis aspektides (B2)

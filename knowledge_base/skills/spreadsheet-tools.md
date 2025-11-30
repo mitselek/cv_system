@@ -20,7 +20,6 @@ last_verified: '2025-11-22'
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 ### MS Excel (8/10)

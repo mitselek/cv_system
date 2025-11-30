@@ -19,7 +19,6 @@ tags: [hobby, 3d-modeling, prototyping, CAD]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 - 3D modelleerimine ja printimine (kasutades Onshape ja FeatureScript)
@@ -33,5 +32,3 @@ tags: [hobby, 3d-modeling, prototyping, CAD]
 - Hobby-level experience
 - Basic understanding of mechanical principles
 - Knowledge of tolerances and material properties
-
-

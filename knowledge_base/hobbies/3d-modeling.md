@@ -12,7 +12,6 @@ tags: [maker, design, cad, prototyping]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 - Using Onshape and FeatureScript for personal projects.
 - Experience with 3D printing, including understanding of tolerances and material properties.
 - Basic understanding of mechanical principles.

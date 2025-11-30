@@ -5,7 +5,7 @@
 **Source:** https://www.rara.ee/uudised/otsime-it-projektijuhti/
 **Deadline:** 29. detsember 2025
 **Status:** Applied
-**Full Text:** [job_posting.md](./job_posting.md)
+**Full Text:** `job_posting.md` (relative link to ./job_posting.md)
 
 ## Fit Assessment
 

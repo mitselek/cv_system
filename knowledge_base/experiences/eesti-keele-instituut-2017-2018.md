@@ -32,7 +32,6 @@ skills_demonstrated: [java, spring-boot]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 Tööülesanded: Projektis EKI-ASTRA sõnastiku- ja terminibaasisüsteemi EKILEX tarkvaraarenduse EKI-poolne juhtimine, tehniline järelvalve ja süsteemianalüüs.

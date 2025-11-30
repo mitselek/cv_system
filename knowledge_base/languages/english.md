@@ -24,7 +24,6 @@ evidence:
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-
 ## et
 
 - Kuulamine: C2
