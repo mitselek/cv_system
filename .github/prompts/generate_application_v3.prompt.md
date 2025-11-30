@@ -163,7 +163,7 @@ Save the verbatim text of the `JOB_ADVERTISEMENT` input to this file. Do not mod
 **Source:** [URL or "Direct communication"]
 **Deadline:** [Date]
 **Status:** Applied
-**Full Text:** [job_posting.md](./job_posting.md)
+**Full Text:** `job_posting.md` (relative link to ./job_posting.md)
 
 ## Fit Assessment
 
@@ -393,11 +393,13 @@ This registry tracks all job applications generated using the CV system.
 | ---- | ------- | -------- | --- | ----------- | -------- | ------ | ----- |
 ```
 
-Add new entry:
+Add new entry (replace bracketed placeholders with actual values):
 
 ```text
-| [YYYY-MM-DD] | [Company] | [Position] | [X]% | [README.md](/applications/[Company]/[Position]/README.md) | [Date] | Draft | [Brief notes] |
+| [YYYY-MM-DD] | [Company] | [Position] | [X]% | README.md | [Date] | Draft | [Brief notes] |
 ```
+
+The README.md cell should be a relative link to `applications/<Company_Name>/<Position_Title>/README.md`
 
 ---
 
