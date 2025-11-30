@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: CV System
 type: project
@@ -6,8 +8,11 @@ status: active
 repository: https://github.com/mitselek/cv_system
 language: Shell
 last_updated: 2025-11-27
+
 visibility: public
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # CV System
 

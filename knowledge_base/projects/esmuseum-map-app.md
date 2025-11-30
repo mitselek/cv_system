@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: Estonian Museum Map App
 type: project
@@ -6,8 +8,11 @@ status: active
 repository: https://github.com/mitselek/esmuseum-map-app
 language: TypeScript
 license: MIT
+
 last_updated: 2024-11
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Estonian Museum Map App
 

@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: PÖFF Web Platform
 type: project
@@ -10,8 +12,11 @@ experience: ilusa-koodi-instituut-2021-2024
 organization: Black Nights Film Festival (PÖFF)
 role: Development Lead
 team_size: 4
+
 duration: 2021-08 to 2024-10
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # PÖFF Web Platform
 

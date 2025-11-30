@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: Mozart Requiem
 type: project
@@ -6,8 +8,11 @@ status: completed
 repository: https://github.com/mitselek/Mozart-Requiem
 language: CartoCSS
 license: CC0-1.0
+
 last_updated: 2021-09-19
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Mozart Requiem
 

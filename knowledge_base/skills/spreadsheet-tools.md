@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: spreadsheet-tools
 skill_name:
@@ -12,8 +14,12 @@ evidence:
   - eesti-malu-instituut-2017-2024
   - ilusa-koodi-instituut-2021-2024
 status: verified
+
 last_verified: '2025-11-22'
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 

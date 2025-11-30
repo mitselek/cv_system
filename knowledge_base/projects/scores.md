@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: Scores
 type: project
@@ -5,8 +7,11 @@ category: music-composition
 status: active
 repository: https://github.com/mitselek/Scores
 language: CartoCSS
+
 last_updated: 2024-02-23
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Scores
 

@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: spring-boot
 skill_name:
@@ -6,8 +8,12 @@ skill_name:
 category: Framework
 tags: [java, backend, web-framework]
 status: verified
+
 last_verified: '2025-11-26'
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## Experience
 

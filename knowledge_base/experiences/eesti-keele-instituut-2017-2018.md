@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: eesti-keele-instituut-2017-2018
 type: employment
@@ -24,8 +26,12 @@ technologies:
 status: verified
 last_verified: '2025-11-26'
 source: Employment contract nr 408, dated 12.04.2017; GitHub repository
+
 skills_demonstrated: [java, spring-boot]
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 

@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 Last updated: 2025-11-29T00:00:00+02:00
 
 ---

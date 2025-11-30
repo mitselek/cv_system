@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: java
 skill_name:
@@ -9,6 +11,8 @@ tags: [programming, backend, enterprise, spring-boot, oracle-adf]
 status: verified
 last_verified: '2025-11-26'
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## Experience
 

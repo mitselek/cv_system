@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: 3d-modeling-printing
 type: hobby
@@ -11,8 +13,12 @@ tools:
   - 3D printers
 status: verified
 last_verified: '2025-11-21'
+
 tags: [hobby, 3d-modeling, prototyping, CAD]
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 

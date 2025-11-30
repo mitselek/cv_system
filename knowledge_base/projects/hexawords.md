@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: Hexawords
 type: project
@@ -7,8 +9,11 @@ repository: https://github.com/mitselek/hexawords
 language: Python
 license: CC0-1.0
 last_updated: 2021-03-09
+
 pinned: true
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Hexawords
 

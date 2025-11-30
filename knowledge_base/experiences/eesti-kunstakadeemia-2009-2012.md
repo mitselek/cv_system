@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 Last updated: 2025-11-21T13:01:37+02:00
 
 ---
@@ -21,6 +23,8 @@ status: verified
 last_verified: '2025-11-21'
 ---
 
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 ## et
 
 - IT infrastruktuurid;
@@ -39,7 +43,8 @@ last_verified: '2025-11-21'
 - Adapted the platform to meet diverse needs, from tracking physical assets to managing sensitive academic records and ensuring secure storage and efficient retrieval.
 
 ---
+
 ## Connections
+
 - **Skills:** [[it-management]], [[system-architecture]]
 - **Achievements:** [[eka-lan-construction-2012]], [[eka-email-migration-2012]], [[eka-entu-implementation-2012]]
-

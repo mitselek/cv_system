@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: english
 type: language
@@ -16,8 +18,12 @@ tags: [language, communication, international]
 evidence:
   - entusiastid-ou-2010-present
   - tartu-ulikool-2014-2015
+
   - ilusa-koodi-instituut-2021-2024
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 

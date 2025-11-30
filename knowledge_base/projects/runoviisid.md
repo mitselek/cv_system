@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 title: Runoviisid - Musical Score Publishing
 type: project
@@ -7,8 +9,11 @@ repository: https://github.com/mitselek/runoviisid
 language: CartoCSS
 license: MIT
 last_updated: 2024-09-30
+
 pinned: true
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Runoviisid
 

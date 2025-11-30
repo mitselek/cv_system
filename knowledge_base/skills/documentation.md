@@ -1,9 +1,13 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: documentation
 category: technical
 proficiency: 9
 last_verified: 2025-11-29
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # Dokumenteerimisoskus / Documentation Skill
 

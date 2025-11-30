@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: cv-system-riigihanked-2025
 type: project
@@ -18,8 +20,11 @@ technologies:
   - DOCX/PDF parsing
 skills_demonstrated: [python, api-integration, data-analysis]
 related_experiences: []
+
 last_verified: '2025-11-28'
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## et
 

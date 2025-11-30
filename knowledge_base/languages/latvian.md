@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: latvian
 type: language
@@ -13,8 +15,12 @@ proficiency:
 context: Second language, near-native speaker
 status: verified
 last_verified: '2025-11-22'
+
 tags: [language, communication, baltic, second-language]
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 

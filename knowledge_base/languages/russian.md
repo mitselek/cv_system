@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
+
 ---
 id: russian
 type: language
@@ -12,8 +14,12 @@ proficiency:
   writing: B2
 status: verified
 last_verified: '2025-11-21'
+
 tags: [language, communication]
 ---
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 
 ## et
 
