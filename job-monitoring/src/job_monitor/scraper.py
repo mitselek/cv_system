@@ -6,6 +6,7 @@ Supports: Duunitori, Tyomarkkinatori, LinkedIn
 
 import json
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -71,11 +72,53 @@ class JobScraper:
             'Accept-Language': 'en-US,en;q=0.9,fi;q=0.8',
         })
     
-    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20) -> List[JobPosting]:
-        """Search Duunitori for jobs."""
+    def _extract_job_details(self, job_url: str, delay: float = 1.5) -> Optional[str]:
+        """Fetch full job posting page and extract description.
+        
+        Args:
+            job_url: Full URL to job posting
+            delay: Delay in seconds before fetching (rate limiting)
+            
+        Returns:
+            Job description text or None if extraction fails
+        """
+        try:
+            # Rate limiting - be respectful to the server
+            time.sleep(delay)
+            
+            response = self.session.get(job_url, timeout=30)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Duunitori uses .description--jobentry for job descriptions
+            desc_elem = soup.select_one('.description--jobentry, .description')
+            
+            if desc_elem:
+                # Extract text and clean up whitespace
+                description = desc_elem.get_text(separator=' ', strip=True)
+                return description
+            
+            return None
+            
+        except Exception as e:
+            print(f"⚠️  Error extracting details from {job_url}: {e}")
+            return None
+    
+    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20, full_details: bool = False) -> List[JobPosting]:
+        """Search Duunitori for jobs.
+        
+        Args:
+            keywords: Search keywords
+            location: Location filter
+            limit: Maximum number of results
+            full_details: If True, extract full job descriptions (slower)
+        """
         print(f"\n🔍 Searching Duunitori: {keywords}")
         if location:
             print(f"   Location filter: {location}")
+        if full_details:
+            print(f"   📄 Full details mode: extracting descriptions (slower)")
         
         url = "https://duunitori.fi/tyopaikat"
         params = {
@@ -101,6 +144,16 @@ class JobScraper:
                 job = self._parse_duunitori_job(job_elem)
                 if job:
                     jobs.append(job)
+            
+            # Extract full descriptions if requested
+            if full_details and jobs:
+                print(f"   📥 Extracting descriptions for {len(jobs)} jobs...")
+                for i, job in enumerate(jobs, 1):
+                    print(f"      [{i}/{len(jobs)}] {job.title[:50]}...")
+                    description = self._extract_job_details(str(job.url))
+                    if description:
+                        job.description = description
+                print(f"   ✅ Extracted {sum(1 for j in jobs if j.description)} descriptions")
             
             print(f"✅ Parsed {len(jobs)} jobs successfully")
             return jobs

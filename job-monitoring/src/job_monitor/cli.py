@@ -28,14 +28,14 @@ def _supported_source(name: str) -> bool:
     return any(k in n for k in ["duunitori", "linkedin", "tyomarkkinatori"])  # Phase 2 support
 
 
-def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict[str, Any]]) -> list[JobPosting]:
+def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict[str, Any]], full_details: bool = False) -> list[JobPosting]:
     jobs: list[JobPosting] = []
     for q in queries:
         kw = q.get("keywords", "")
         loc = q.get("location", "")
         lim = int(q.get("limit", 20))
         if "duunitori" in source_name.lower():
-            jobs.extend(scraper.search_duunitori(kw, loc, lim))
+            jobs.extend(scraper.search_duunitori(kw, loc, lim, full_details))
         elif "linkedin" in source_name.lower():
             jobs.extend(scraper.search_linkedin(kw, loc or "Finland"))
         elif "tyomarkkinatori" in source_name.lower():
@@ -97,7 +97,8 @@ def cli() -> None:
 @click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
 @click.option("--dry-run", is_flag=True, help="Run without saving state or candidates")
 @click.option("--force", is_flag=True, help="Force rescan of all sources")
-def scan(config: Path, dry_run: bool, force: bool) -> None:
+@click.option("--full-details", is_flag=True, help="Extract full job descriptions (slower, ~1.5s per job)")
+def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
     """Scan enabled job sources and save candidates."""
     try:
         cm = ConfigManager(config)
@@ -142,7 +143,7 @@ def scan(config: Path, dry_run: bool, force: bool) -> None:
         if scraper is None:
             continue  # dry-run: skip network scraping
         queries = cm.get_source_queries(src.name)
-        jobs = _scrape_source(scraper, src.name, queries)
+        jobs = _scrape_source(scraper, src.name, queries, full_details)
         all_jobs.extend(jobs)
 
     unique_jobs = dd.filter_unique(all_jobs)

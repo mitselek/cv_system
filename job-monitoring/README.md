@@ -33,55 +33,103 @@ pip install -e ".[dev]"
 
 1. **Create configuration file:**
 
-    ```bash
-    job-monitor init
-    ```
+   ```bash
+   job-monitor init
+   ```
 
 2. **Customize configuration:**
 
-    Edit `config.yaml` to add your preferences:
+   Edit `config.yaml` to add your preferences:
 
-    - Job search keywords
-    - Preferred companies and locations
-    - Scoring weights
-    - Enabled job portals
+   - Job search keywords
+   - Preferred companies and locations
+   - Scoring weights
+   - Enabled job portals
 
 3. **Add authentication cookies:**
 
-    Export cookies from job portals and save to `job_sources/cookies.json`.
+   Export cookies from job portals and save to `job_sources/cookies.json`.
 
 4. **Test the setup:**
 
-    ```bash
-    python scripts/job_monitor.py scan --dry-run
-    ```
+   ```bash
+   python scripts/job_monitor.py scan --dry-run
+   ```
 
 ## Usage
 
 ### Daily Job Monitoring
 
 ```bash
-# Run daily scan
-python scripts/job_monitor.py scan
+# Run quick scan (titles and metadata only, fast)
+job-monitor scan --config config.yaml
+
+# Run detailed scan (extracts full job descriptions, slower but better scoring)
+job-monitor scan --config config.yaml --full-details
 
 # Review today's candidates
-python scripts/job_monitor.py review --category high
+job-monitor review --category high
 
 # Check statistics
-python scripts/job_monitor.py stats
+job-monitor stats
 ```
+
+**Note on `--full-details` flag:**
+
+- Extracts full job descriptions from portal pages
+- Enables better keyword matching and higher scores (70-90 points vs 50-60)
+- Takes ~1.5 seconds per job (respectful rate limiting)
+- Typical scan: ~50-100 jobs = 1-3 minutes total
+- Recommended for weekly comprehensive scans
+- Quick scans (without flag) are faster for daily monitoring
 
 ### Managing Jobs
 
 ```bash
 # Mark job as candidate
-python scripts/job_monitor.py mark <job_id> candidate
+job-monitor mark <job_id> candidate
 
 # Mark as applied after submission
-python scripts/job_monitor.py mark <job_id> applied
+job-monitor mark <job_id> applied
 
 # Mark as rejected
-python scripts/job_monitor.py mark <job_id> rejected
+job-monitor mark <job_id> rejected
+```
+
+### Command Line Options
+
+#### Scan Command
+
+```bash
+job-monitor scan [OPTIONS]
+
+Options:
+  --config PATH        Configuration file (default: config.example.yaml)
+  --dry-run           Run without saving state or candidates
+  --force             Force rescan of all sources
+  --full-details      Extract full job descriptions (slower, ~1.5s per job)
+  --help              Show help message
+```
+
+**Performance Notes:**
+
+- **Quick scan** (default): 50-100 jobs in ~10-20 seconds
+- **Full details scan**: 50-100 jobs in ~75-150 seconds (1.5s per job)
+- Rate limiting: 1.5 second delay between description fetches
+- Respectful to job portals: prevents rate limiting or blocking
+
+#### Review Command
+
+```bash
+job-monitor review [OPTIONS]
+
+Options:
+  --config PATH       Configuration file
+  --category TEXT     Filter by: high, review, low, all (default: all)
+  --min-score FLOAT   Minimum score threshold
+  --source TEXT       Filter by source
+  --date TEXT         Filter by date (YYYY-MM-DD)
+  --help              Show help message
 ```
 
 ### Cleanup
@@ -91,7 +139,38 @@ python scripts/job_monitor.py mark <job_id> rejected
 python scripts/job_monitor.py cleanup --days 60
 ```
 
-## Directory Structure
+## Scoring System
+
+Jobs are scored based on multiple criteria:
+
+- **Keyword Matches** (+10 points each): Technical skills, methodologies, domain terms
+- **Preferred Company** (+15 points): Companies you've specified in config
+- **Preferred Location** (+10 points): Your target locations
+- **Remote Work** (+5 points): Remote or hybrid positions
+- **Freshness** (+10 points if <7 days, -10 if >30 days)
+
+**Scoring Categories:**
+
+- **High Priority** (70+ points): Excellent matches - apply immediately
+- **Review** (40-69 points): Good matches - review carefully
+- **Low Priority** (<40 points): Weak matches - archive
+
+**Impact of Description Extraction:**
+
+Without `--full-details`:
+
+- Keyword matches limited to title + company + location
+- Typical score: 30-60 points
+- Rarely reaches "High Priority"
+
+With `--full-details`:
+
+- Keyword matches include full job description
+- Typical score: 50-90 points
+- 5-10 jobs reach "High Priority" per scan
+- Much better automatic prioritization
+
+**Recommendation:** Use `--full-details` for weekly comprehensive scans, quick scans for daily monitoring.
 
 ```text
 cv_system/
