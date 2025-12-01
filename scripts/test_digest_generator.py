@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from typing import Generator
 
 import pytest
 from pydantic import HttpUrl
@@ -14,7 +15,7 @@ from schemas import JobPosting, ScoredJob
 
 
 @pytest.fixture
-def sample_candidates_dir() -> Path:
+def sample_candidates_dir() -> Generator[Path, None, None]:
     """Create a temporary candidates directory with sample data."""
     with TemporaryDirectory() as tmpdir:
         candidates_dir = Path(tmpdir)

@@ -8,121 +8,123 @@ Integrate automated job monitoring into the cv_system workflow with tracking, de
 
 ```text
 cv_system/
-├── job_sources/              # NEW: Job portal monitoring
-│   ├── config.json          # Source configurations
-│   ├── state.json           # Tracking state (last scan, seen IDs)
-│   ├── cache/               # Cached job listings
-│   │   ├── duunitori/
-│   │   ├── linkedin/
-│   │   └── tyomarkkinatori/
-│   ├── candidates/          # Promising jobs for review
-│   │   └── YYYY-MM-DD/
-│   └── archived/            # Rejected/outdated listings
+├── job_sources/              # Job portal monitoring
+│   ├── candidates/          # Scored jobs by date
+│   │   └── YYYY-MM-DD/     # Daily directories
+│   │       ├── high_priority/   # Score ≥70
+│   │       ├── review/          # Score 40-70
+│   │       ├── low_priority/    # Score <40
+│   │       └── DIGEST.md        # Daily summary
+│   ├── state.json          # Monitoring state (last scan, seen jobs)
+│   └── cookies.json        # Authentication cookies
 │
 ├── scripts/
-│   ├── job_scraper.py       # EXISTING: Portal scrapers
-│   ├── job_monitor.py       # NEW: Orchestration & scheduling
-│   ├── job_scorer.py        # NEW: Fit scoring algorithm
-│   └── job_to_application.py # NEW: Convert candidate → application
+│   ├── schemas.py           # Pydantic models (JobPosting, ScoredJob, etc.)
+│   ├── config_manager.py    # Configuration loading & validation
+│   ├── job_scraper.py       # Portal scrapers (duunitori, linkedin, etc.)
+│   ├── job_scorer.py        # Scoring algorithm
+│   ├── deduplicator.py      # Duplicate detection
+│   ├── state_manager.py     # State persistence
+│   ├── digest_generator.py  # Markdown digest generation
+│   ├── job_monitor.py       # CLI orchestrator
+│   └── job_to_application.py # Candidate → application converter
 │
-└── applications/            # EXISTING: Application tracking
+├── applications/            # Application tracking
+│   ├── Company_Name/
+│   │   └── Position_Title/
+│   │       ├── README.md
+│   │       └── job_posting.md
+│   └── REGISTRY.md
+│
+└── config.example.yaml      # Configuration template
 ```
 
 ## Core Components
 
-### 1. Source Configuration (`job_sources/config.json`)
+### 1. Source Configuration (`config.example.yaml`)
 
-```json
-{
-  "sources": [
-    {
-      "name": "duunitori",
-      "enabled": true,
-      "queries": [
-        {
-          "keywords": "system analyst",
-          "location": "Helsinki",
-          "priority": "high"
-        },
-        { "keywords": "IT projektijuht", "location": "", "priority": "high" },
-        {
-          "keywords": "software architect",
-          "location": "Helsinki",
-          "priority": "medium"
-        },
-        {
-          "keywords": "project manager IT",
-          "location": "",
-          "priority": "medium"
-        }
-      ],
-      "schedule": "daily",
-      "max_results_per_query": 30,
-      "cookie_file": "~/.config/job_scraper_cookies_duunitori.json"
-    },
-    {
-      "name": "linkedin",
-      "enabled": false,
-      "queries": [
-        { "keywords": "System Analyst Finland", "priority": "high" },
-        { "keywords": "IT Project Manager Estonia", "priority": "high" }
-      ],
-      "schedule": "daily",
-      "cookie_file": "~/.config/job_scraper_cookies_linkedin.json"
-    }
-  ],
-  "scoring": {
-    "keywords_match": {
-      "system analyst": 10,
-      "projektijuht": 10,
-      "project manager": 8,
-      "software": 7,
-      "IT": 5,
-      "architect": 6,
-      "technical lead": 7
-    },
-    "companies_preferred": {
-      "Playtech": 5,
-      "Wise": 5,
-      "Bolt": 5,
-      "Pipedrive": 5
-    },
-    "locations_preferred": {
-      "Helsinki": 3,
-      "Tallinn": 5,
-      "Espoo": 3,
-      "remote": 2
-    },
-    "threshold_review": 15,
-    "threshold_auto_apply": 25
-  }
-}
+```yaml
+sources:
+  - name: duunitori.fi
+    enabled: true
+    queries:
+      - keywords: system analyst
+        location: Helsinki
+        limit: 20
+      - keywords: projektijuht
+        location: Tallinn
+        limit: 20
+    cookies_file: job_sources/cookies.json
+
+  - name: linkedin.com
+    enabled: false
+    queries:
+      - keywords: System Analyst Finland
+        limit: 25
+
+scoring:
+  positive_keywords:
+    - system analyst
+    - projektijuht
+    - project manager
+    - software architect
+    - technical lead
+  
+  negative_keywords:
+    - junior
+    - internship
+  
+  required_keywords: []
+  
+  preferred_companies:
+    - Playtech
+    - Wise
+    - Bolt
+  
+  blocked_companies: []
+  
+  preferred_locations:
+    - Helsinki
+    - Tallinn
+    - remote
+  
+  remote_bonus: 15
+  days_threshold_fresh: 7
+  days_threshold_old: 30
+
+state_file: job_sources/state.json
+candidates_dir: job_sources/candidates
+scan_interval_hours: 24
+auto_archive_days: 60
+```
 ```
 
 ### 2. State Tracking (`job_sources/state.json`)
 
 ```json
 {
-  "last_scan": "2025-12-01T08:00:00Z",
-  "sources": {
-    "duunitori": {
-      "last_successful_scan": "2025-12-01T08:00:00Z",
-      "total_jobs_seen": 1247,
-      "jobs_reviewed": 23,
-      "jobs_applied": 5
+  "last_scan": "2025-12-01T08:00:00+00:00",
+  "total_jobs_seen": 1247,
+  "total_candidates": 23,
+  "total_applications": 5,
+  "new_jobs": [],
+  "candidates": ["job_id_1", "job_id_2"],
+  "applied": ["job_id_3", "job_id_4"],
+  "seen_jobs": {
+    "abc123def456": {
+      "id": "abc123def456",
+      "title": "Senior System Analyst",
+      "company": "Tech Corp",
+      "location": "Helsinki",
+      "url": "https://duunitori.fi/tyopaikat/...",
+      "source": "duunitori.fi",
+      "discovered_date": "2025-11-28T10:00:00+00:00",
+      "status": "candidate",
+      "description": "We are looking for..."
     }
   },
-  "seen_jobs": {
-    "duunitori-19754571": {
-      "first_seen": "2025-11-28T10:00:00Z",
-      "last_seen": "2025-12-01T08:00:00Z",
-      "url": "https://duunitori.fi/tyopaikat/...",
-      "title": "Project Manager (Software)",
-      "company": "Kultakiertue Oy",
-      "status": "reviewed",
-      "score": 18,
-      "notes": "Not a good fit - too junior"
-    }
+  "stats_by_source": {
+    "duunitori.fi": 1247
   }
 }
 ```
