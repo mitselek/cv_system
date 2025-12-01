@@ -104,7 +104,7 @@ We hope to hear from you soon
 - [x] Review job posting in detail
 - [x] Check company culture and reviews
 - [x] Prepare tailored CV and cover letter
-- [ ] Submit application
+- [x] Submit application
 - [ ] Follow up after 1 week
 
 ---

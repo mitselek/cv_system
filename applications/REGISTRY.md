@@ -33,12 +33,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-01 | Accenture | Senior AI Architect | 40% | [README](Accenture/Senior_AI_Architect/README.md) | Open | Draft | Strong software architecture (15+ yrs), Python/Node.js expertise. CRITICAL GAP: No ML/AI experience. Application via Accenture portal only (no email). |
 | 2025-12-01 | IONA | Technical Architect | 85% | [README](IONA/Technical_Architect/README.md) | 2025-12-14 | Submitted | 15+ yrs Node.js architecture, PÖFF team leadership, 100% intern hire rate. Gaps: Finnish language, e-commerce domain. Salary: €6,500-7,500. 2025-12-01: Ack received from Emmi Vahvelainen. |
 | 2025-12-01 | Posti Oy | Solution Lead Developer | 85% | [README](Posti/Solution_Lead_Developer/README.md) | 2025-12-10 | Submitted | Backend (20+ yrs), Oracle/PLSQL (8/10, O'Reilly handbook), Python (9/10), 100k+ real-time systems. Gaps: Kafka/event streaming, logistics. 2025-12-01: Application sent with CV and motivation letter. Contact: talentacquisition@posti.com. |
+| 2025-12-01 | EWQ Zone Oy | Senior Backend Developer | 68.75% | [README](EWQ_Zone/Senior_Backend_Developer/README.md) | 2025-12-14 | Submitted | Node.js (15 yrs, 8/10), MongoDB (15 yrs), Docker, backend architecture, AI tools (since Apr 2024). CRITICAL GAP: No PHP experience (primary requirement). Honest about gap in application. 2025-12-01: Application sent with CV and motivation letter. Contact: we@wecon.fi. |
 
 ## Statistics
 
-- **Total Applications:** 16
+- **Total Applications:** 17
 - **Active (Draft/Ready):** 2
-- **Submitted:** 11
+- **Submitted:** 12
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
