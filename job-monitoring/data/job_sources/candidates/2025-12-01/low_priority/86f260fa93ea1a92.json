@@ -7,15 +7,18 @@
     "company": "Helsingin kaupunki",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 3.11.",
-    "discovered_date": "2025-12-01T14:12:13.188864",
-    "description": null,
+    "discovered_date": "2025-12-01T14:35:57.425916",
+    "description": "Varhaiskasvatuksen ammattilainen, tule tekemään merkityksellistä työtä Helsinkiin! Haemme nyt varhaiskasvatuksen opettajia, erityisopettajia, sosionomeja ja lastenhoitajia vuoden 2026 alussa alkaviin vakinaisiin tehtäviin. Helsingissä saat tehdä omannäköistäsi työtä sinulle sopivassa työyhteisössä. Tarjoamme sinulle: ❤️ monipuolisen koulutustarjonnan ❤️ erilaisia työkaluja pedagogisen työsi tueksi ❤️ lukuisia urapolkuja, joita kohti mennä Sinua odottavat tietenkin myös ihanat pienet asiakkaat, joiden kanssa jokainen päivä on maailman tärkein. Miksi töihin Helsingin kaupungille? Meille on tärkeää, että voit tehdä vaikuttavaa työtä hyvän helsinkiläisen elämän eteen. Haluamme olla kasvatuksen ja koulutuksen pääkaupunki ja pedagogiikan suunnannäyttäjä. Jaamme osaamistamme ja kehitämme rohkeasti työtämme yhdessä. Pidämme tärkeänä työn ja vapaa-ajan tasapainoa. Meillä saat käyttöösi Suomen suurimman työnantajan henkilöstöedut, kuten jopa 550 euron Epassi Flex -edun käytettäväksi työmatkoihin sekä kulttuuri-, liikunta- ja hyvinvointipalveluihin. Kaupungin työntekijänä saat tukea myös vuokravakuudettoman asunnon hankintaan. Tule kanssamme kasvattamaan huomisen Helsinkiä! 🌱 📱 Tutustu meihin hel.fi/kasvatusjakoulutus ja somessa #helsinkioppii ➡️Katso kaikki avoimet tehtävät, löydä oma paikkasi ja hae vaikka jo tänään!",
     "status": "new",
     "notes": ""
   },
-  "score": 10.0,
+  "score": 20.0,
   "score_breakdown": {
+    "positive_keywords": 10.0,
     "preferred_location": 10.0
   },
-  "matched_keywords": [],
+  "matched_keywords": [
+    "IT"
+  ],
   "category": "Low Priority"
 }

@@ -28,14 +28,14 @@ def _supported_source(name: str) -> bool:
     return any(k in n for k in ["duunitori", "linkedin", "tyomarkkinatori"])  # Phase 2 support
 
 
-def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict[str, Any]], full_details: bool = False) -> list[JobPosting]:
+def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict[str, Any]], full_details: bool = False, state_manager: StateManager | None = None) -> list[JobPosting]:
     jobs: list[JobPosting] = []
     for q in queries:
         kw = q.get("keywords", "")
         loc = q.get("location", "")
         lim = int(q.get("limit", 20))
         if "duunitori" in source_name.lower():
-            jobs.extend(scraper.search_duunitori(kw, loc, lim, full_details))
+            jobs.extend(scraper.search_duunitori(kw, loc, lim, full_details, state_manager))
         elif "linkedin" in source_name.lower():
             jobs.extend(scraper.search_linkedin(kw, loc or "Finland"))
         elif "tyomarkkinatori" in source_name.lower():
@@ -143,7 +143,7 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
         if scraper is None:
             continue  # dry-run: skip network scraping
         queries = cm.get_source_queries(src.name)
-        jobs = _scrape_source(scraper, src.name, queries, full_details)
+        jobs = _scrape_source(scraper, src.name, queries, full_details, sm)
         all_jobs.extend(jobs)
 
     unique_jobs = dd.filter_unique(all_jobs)
@@ -164,7 +164,12 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
     
     # Update state and optionally persist
     for sj in scored:
-        sm.add_job(sj.job)
+        if sm.is_seen(sj.job.id):
+            # Update existing job (might have new description)
+            sm.update_job(sj.job)
+        else:
+            # Add new job
+            sm.add_job(sj.job)
 
     sm.touch_scan_time()
 

@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "561693f02f0a7bae",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-backend-developer-sdsuu-19785760",
+    "title": "Senior Backend Developer",
+    "company": "EWQ Zone Oy",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 27.11.",
+    "discovered_date": "2025-12-01T14:36:16.758571",
+    "description": "At EWQ Zone we are pioneers in transforming retail experiences across the Nordics. We are at the forefront of developing cutting-edge software and management tools for Queue Management Systems, Digital Signage, and Electronic Shelf Labels. Our commitment to innovation powers retail solutions you can see in a variety of stores, supported by our robust private cloud infrastructure and microservices architecture. https://ewq.zone/en/ Are you an experienced backend developer ready to make a tangible impact in the Nordics’ retail revolution? Do you enjoy solving complex technical challenges and want to see your work directly shape real-world environments Let’s build something extraordinary together. Our team is growing, and we are now looking for a Senior Backend Developer to join our skilled and collaborative engineering team in Pitäjänmäki, Helsinki. 👀 What Are We Looking For? We are seeking a senior-level developer with deep experience in backend technologies. Someone who thrives in a modern cloud environment and enjoys owning solutions from architecture to deployment. In this role, strong expertise in PHP, Node.js, and containerized environments (Docker) is essential. Experience with SQL, NoSQL, and specifically MongoDB will help you hit the ground running. We also value developers who understand infrastructure and architecture, write clear documentation, and feel comfortable working in an Agile setup (Jira, Confluence). ✅ Core Responsibilities As a Senior Backend Developer, you will: Build and improve the backend for our core products: EWQ Queue Management, Digital Signage, and Electronic Shelf Labels Take ownership of backend architecture and deliver high-quality, scalable solutions Work closely with a highly experienced backend developer to shape solutions and drive shared technical direction, while collaborating seamlessly with the entire development team Partner with customers and internal stakeholders to design smart, reliable integrations Join customer workshops to turn real-world needs into robust technical solutions Create clear technical documentation and contribute to a smooth Agile workflow Help shape our backend technologies and development practices moving forward Leverage AI tools to boost development efficiency - previous AI experience is a bonus, and curiosity to learn is highly appreciated 🥇 Ideal Candidate You will thrive in this role if you have: At least 5 years of professional experience in backend development Strong professional experience in PHP development Solid experience with Node.js Hands-on expertise with Docker and containerized workflows Good understanding of backend infrastructure and software architecture Experience with SQL and NoSQL databases, especially MongoDB Familiarity with Agile development (Jira, Confluence) and strong documentation skills Excellent communication skills and the ability to interact confidently with customers Professional proficiency in English ; Finnish and/or Swedish are a strong advantage (as well as other Nordic languages) Additionally, it’s a plus if you have practical experience with the ELK stack for monitoring, as well as a background working with message queues, microservice architectures, or event-driven systems. You work independently, solve problems proactively, and enjoy learning new things. You want your work to have a visible impact. 🌈 What’s In It For You? Joining EWQ Zone means stepping into a role where your contribution matters. You’ll get: Significant opportunities to deepen your backend expertise (especially PHP/Node.js) A forward-thinking, collaborative team that values your ideas A supportive workplace that prioritizes well-being and sustainability The chance to work on impactful, high-profile retail tech projects across the Nordics Competitive benefits and a workplace that encourages balance and personal growth 🤝 Company Benefits Lunch voucher Mobile phone EWQ’s fund membership (after 6 months) Extended occupational health care (incl. dental) Eyeglass benefit Culture & sport allowance eBike benefit HSL commuting benefit ✏️ How To Apply? Recruitment is carried out in collaboration with WeCon Oy. Apply easily through our platform by December 14th. Applications are reviewed continuously, so don’t wait too long! Got questions? Reach out to Laura Willberg at WeCon Oy, +358 50 586 2769. Phone hours: Mondays and Tuesdays 9:00–11:00. Or email us at we@wecon.fi .",
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 120.0,
+    "negative_keywords": -20.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "software architect",
+    "database",
+    "mongodb",
+    "backend",
+    "infrastructure",
+    "documentation",
+    "agile",
+    "senior",
+    "architect",
+    "developer",
+    "software",
+    "IT"
+  ],
+  "category": "High Priority"
+}

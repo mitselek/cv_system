@@ -105,7 +105,7 @@ class JobScraper:
             print(f"⚠️  Error extracting details from {job_url}: {e}")
             return None
     
-    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20, full_details: bool = False) -> List[JobPosting]:
+    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20, full_details: bool = False, state_manager: Any = None) -> List[JobPosting]:
         """Search Duunitori for jobs.
         
         Args:
@@ -113,6 +113,7 @@ class JobScraper:
             location: Location filter
             limit: Maximum number of results
             full_details: If True, extract full job descriptions (slower)
+            state_manager: Optional state manager for description caching
         """
         print(f"\n🔍 Searching Duunitori: {keywords}")
         if location:
@@ -147,13 +148,30 @@ class JobScraper:
             
             # Extract full descriptions if requested
             if full_details and jobs:
-                print(f"   📥 Extracting descriptions for {len(jobs)} jobs...")
-                for i, job in enumerate(jobs, 1):
-                    print(f"      [{i}/{len(jobs)}] {job.title[:50]}...")
-                    description = self._extract_job_details(str(job.url))
-                    if description:
-                        job.description = description
-                print(f"   ✅ Extracted {sum(1 for j in jobs if j.description)} descriptions")
+                # Check cache for existing descriptions
+                jobs_needing_details = []
+                cached_count = 0
+                
+                for job in jobs:
+                    if state_manager:
+                        cached_job = state_manager.get_job(job.id)
+                        if cached_job and cached_job.description:
+                            job.description = cached_job.description
+                            cached_count += 1
+                            continue
+                    jobs_needing_details.append(job)
+                
+                if cached_count > 0:
+                    print(f"   💾 Using cached descriptions for {cached_count} jobs")
+                
+                if jobs_needing_details:
+                    print(f"   📥 Extracting descriptions for {len(jobs_needing_details)} jobs...")
+                    for i, job in enumerate(jobs_needing_details, 1):
+                        print(f"      [{i}/{len(jobs_needing_details)}] {job.title[:50]}...")
+                        description = self._extract_job_details(str(job.url))
+                        if description:
+                            job.description = description
+                    print(f"   ✅ Extracted {sum(1 for j in jobs_needing_details if j.description)} descriptions")
             
             print(f"✅ Parsed {len(jobs)} jobs successfully")
             return jobs

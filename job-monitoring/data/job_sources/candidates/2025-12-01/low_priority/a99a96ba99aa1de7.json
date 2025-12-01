@@ -7,19 +7,22 @@
     "company": "Rovio Entertainment",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 20.11.",
-    "discovered_date": "2025-12-01T14:12:14.800482",
-    "description": null,
+    "discovered_date": "2025-12-01T14:38:30.079917",
+    "description": "Rovio is part of the SEGA family and world famous for our flagship IP Angry Birds - want to know more about Rovio as an employer? Click here . Are you enthusiastic about connecting players with exceptional loyalty experiences? We're looking for a Product Marketing Manager to join our Direct to Consumer team in Espoo! At its core, Red's Club is a key strategic initiative designed to deepen player engagement and loyalty across our games and drive sales in the Red's Club webshop. Red's Club is live and at a scale where you have the potential to start driving significant business impact from day one. You'll play a central role in shaping how players discover and experience Red's Club, both within our games and across our digital touchpoints like website and email. You'll help us build the foundation for how we market, measure, and continuously improve these player engagement initiatives. You'll collaborate closely with game teams, data and analytics, and creative teams to ensure our marketing is data-informed and scalable. This position is based in Espoo, Finland, and follows a hybrid work model with 2 on-site days per week. You will have impact and fun at work by: Collaborating with game teams to design integrated Red's Club marketing concepts and in-game activations that genuinely connect with the player journey. Developing, testing, and iterating on our email marketing concepts, focusing on user journeys, segmentation and clear impact tracking. Coordinating the production of engaging creative assets and content across multiple channels (in-game, email, website). Partnering with our analytics teams to define clear KPIs and success metrics, helping us evaluate impact on areas like engagement, conversion, and retention. Building and maintaining essential marketing measurement frameworks, dashboards, and post-campaign reports to drive informed decisions. Gathering deep insights from player feedback, campaign data, and competitor benchmarking to identify and translate opportunities into actionable recommendations. Creating and maintaining clear, shareable internal guidance and playbooks that help our Red's Club marketing continuously evolve. Experience and skills we are looking for: You have demonstrated experience in product marketing, CRM, or growth marketing, ideally within games, entertainment, or digital products. You have a solid understanding of core product marketing principles, including segmentation, positioning, and lifecycle marketing. You can demonstrate your ability to plan, execute, and measure marketing campaigns across channels like in-game, email, and web. You are comfortable working with structured data, metrics, and marketing tools (e.g., CRM, analytics, or automation platforms). You possess excellent written and verbal communication skills in English, with experience presenting data-driven insights to stakeholders. It would be nice if you also have the following skills: You have experience working within the gaming, mobile, or ecommerce industry. You're familiar with player engagement and retention strategies in gaming or digital ecosystems. You have experience setting up campaign tracking, A/B testing, or reporting workflows. Please send your CV in English. We look forward to speaking to you! We welcome applicants to use the name they want to be addressed by in the application form, regardless of whether it is their legal name. At Rovio, we are also committed to providing reasonable accommodations for qualified individuals with disabilities or conditions in our working environment and job application procedures. We are committed to continuously improving workplace accessibility. If you have any questions before applying, please write to us at [email protected] . What to expect when you join us Meet the Rovians Hiring process at Rovio Diversity, Equity and Inclusion at Rovio",
     "status": "new",
     "notes": ""
   },
   "score": 35.0,
   "score_breakdown": {
-    "positive_keywords": 10.0,
+    "positive_keywords": 30.0,
+    "negative_keywords": -20.0,
     "preferred_company": 15.0,
     "preferred_location": 10.0
   },
   "matched_keywords": [
-    "manager"
+    "API",
+    "manager",
+    "IT"
   ],
   "category": "Low Priority"
 }

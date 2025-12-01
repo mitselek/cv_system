@@ -7,15 +7,18 @@
     "company": "Barona",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 21.11.",
-    "discovered_date": "2025-12-01T14:12:14.657715",
-    "description": null,
+    "discovered_date": "2025-12-01T14:37:32.872233",
+    "description": "Etsimme vastaavaa työnjohtajaa datakeskuksen (data center) rakennushankkeeseen Vihtiin. Työ alkaa sopimuksen mukaan, ja kyseessä on usean vuoden mittainen projekti, joten osaavalle ammattilaiselle on tarjolla pitkäaikainen työsuhde. Tehtävänkuvaus Vastaavana työnjohtajana vastaat datakeskuksen rakennustöiden toteutumisesta aikataulu-, kustannus-, laatu- ja viranomaisvaatimukset sekä asiakkaan edun huomioiden. Toimit rakennustyöntekijöiden esihenkilönä ja teet tiivistä yhteistyötä sisäisten ja ulkoisten sidosryhmien kanssa. Valvot töiden suoritusta varmistaen tehokkaat ja turvalliset työskentelytavat. Ylläpidät yksityiskohtaista dokumentaatiota ja raportoit eri vaiheiden etenemisestä. Lisäksi ratkaiset mahdolliset ongelmat ja konfliktit, jotka ilmenevät rakennusprosessin aikana. Hakijoilta odotamme: Rakennusalan korkeakoulututkintoa Useiden vuosien kokemusta rakennusalan työnjohdollisista tehtävistä Kokemusta suurista rakennusprojekteista (esim. teollisuus- tai toimistorakennukset, sairaalat, liikenneterminaalit jne.) Aiempi kokemus datakeskuksista katsotaan eduksi Tarjoamme sinulle: Mahdollisuuden työskennellä merkittävässä roolissa osana edistyksellistä teknologiahanketta. Pääset tutustumaan datakeskusten moderniin tekniikkaan kansainvälisessä edelläkävijäyrityksessä. Saat arvokasta ja ainutlaatuista kokemusta, jonka parissa pääset kehittämään osaamistasi ja ammattitaitoasi seuraavalle tasolle. Vaativasta tehtävästä maksetaan kilpailukykyinen palkkaus. Rekrytointiprosessia hoitaa Barona Engineering, mutta työsopimus allekirjoitetaan suoraan pääurakoitsijan kanssa. Lisätietoja antaa Barona Engineeringin rekrytointikonsultti Markus Korpela (050 464 8493), parhaiten tavoitettavissa torstaisin klo 13-14. Huomioithan, että WhatsApp- ja sähköpostihakemuksia ei käsitellä.",
     "status": "new",
     "notes": ""
   },
-  "score": 10.0,
+  "score": 20.0,
   "score_breakdown": {
+    "positive_keywords": 10.0,
     "preferred_location": 10.0
   },
-  "matched_keywords": [],
+  "matched_keywords": [
+    "IT"
+  ],
   "category": "Low Priority"
 }

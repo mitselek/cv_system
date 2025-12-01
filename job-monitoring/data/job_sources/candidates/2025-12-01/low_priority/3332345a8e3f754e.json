@@ -7,17 +7,18 @@
     "company": "Alma Media",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 27.11.",
-    "discovered_date": "2025-12-01T14:12:13.833359",
-    "description": null,
+    "discovered_date": "2025-12-01T14:36:16.759369",
+    "description": "Arkkitehti, Mainonnanhallinta, Alma Mediaratkaisut Haluatko rakentaa moderneja, skaalautuvia ja älykkäitä mediaratkaisuja, jotka tekevät myynnin työstä sujuvampaa ja parantavat asiakkaiden itsepalvelukokemusta? Innostutko kokonaisarkkitehtuurin suunnittelusta, datavirtojen hallinnasta ja integraatioista - ja haluatko samalla tehdä konkreettista kehitystyötä yhdessä osaavan tiimin kanssa? Etsimme nyt kokenutta ja analyyttista arkkitehtia vahvistamaan Alma Mediaratkaisujen Operations -tiimiä. Roolissa pääset rakentamaan hands-on mainosliiketoimintamme teknistä perustaa ja tukemaan liiketoiminnan kehitystä laaja-alaisesti. Arkkitehtinä vastaat Alma Median mainosmyynnin taustajärjestelmäkokonaisuudesta - erityisesti Salesforce-ekosysteemistä, sen integraatioista sekä datan saumattomasta kulusta järjestelmien välillä. Teet tiivistä yhteistyötä Salesforce -tiimin, datakehityksen, liiketoiminnan ja AdTech -arkkitehdin kanssa. Keskeiset tehtävät ja vastuut Suunnittelet ja ylläpidät asiakasmatkan kokonaisarkkitehtuuria, varmistaen järjestelmien yhteentoimivuuden, skaalautuvuuden ja tietoturvan Vastaat Salesforce-alustan ja sen integraatioiden teknisestä suunnittelusta ja kehittämisestä Kehität asiakkaiden itsepalveluportaalin arkkitehtuuria ja teknisiä ratkaisuja Huolehdit datan laadusta, tietomalleista ja datavirran eheydestä raportointiin saakka Suunnittelet ja toteutat ratkaisuja hyödyntäen low-code/no-code-, automaatio- ja tekoälyteknologioita, jotka tehostavat myynti- ja palveluprosesseja Osallistut aktiivisesti järjestelmäkehitys- ja digitalisaatioprojekteihin Osaaminen ja ominaisuudet Hallitset laajasti myynnin, markkinoinnin ja liiketoiminnan järjestelmiä Ymmärrät asiakaslähtöistä liiketoimintaa ja miten teknologia tukee asiakasmatkaa sen eri vaiheissa Olet kokenut integraatioarkkitehtuurissa, tietomallinnuksessa ja API-suunnittelussa ja osaat myös toteuttaa suunnittelemasi ratkaisut Sinulla on vahva kokemus Salesforce Platformista (Sales Cloud, Service Cloud, Data Cloud) Osaat suunnitella ja toteuttaa ratkaisuja, jotka hyödyntävät automaatiota ja tekoälyä käytännön liiketoiminnassa (esim. AI agent -teknologiat, Copilot for Sales) Osaat yhdistää liiketoiminnan tarpeet ja teknologian - käännät tavoitteet toimiviksi ratkaisuiksi Kommunikoit selkeästi sekä teknisille että liiketoimintaa edustaville sidosryhmille, suomeksi ja englanniksi Arvostamme Kokemusta Adpointista, kampanjanhallinnan järjestelmistä tai muista mediamyynnin ympäristöistä Tuntemusta data-arkkitehtuurista, tietovarastoinnista ja raportointiratkaisuista Ymmärrystä ohjelmistokehityksestä ja modernista pilviarkkitehtuurista (AWS, Azure) Tietotaitoa tietoturvan ja tietosuojan soveltamisesta järjestelmäkehityksessä Alma työnantajana Meille almalaisille tärkeitä asioita ovat rohkeus, yhteistyö ja ystävällinen kulttuuri, jossa jokainen saa olla oma itsensä. Muuttuvassa liiketoimintaympäristössämme tarvitaan rohkeutta. Rohkeutta haastaa, kokeilla rajoja ja uudistua. Meille rohkeus ei tarkoita vain suuria sankaritekoja, vaan myös pieniä arkipäiväisiä asioita: kun uskallat sanoa mielipiteesi, tehdä asioita uudella tavalla, kokeilla ja epäonnistua. Uutta kasvua luodaksemme tarvitsemme rohkeutta. Ja rohkeus kasvaa parhaiten yhdessä. Lupauksemme sinulle: Ystävällinen kulttuuri, jossa voit olla juuri sellainen kuin olet: Luotamme toisiimme ja annamme vastuuta ja vapautta työhön. Merkityksellinen ja vaikuttava työ : Tuotteemme ovat tunnettuja ja miljoonat ihmiset käyttävät niitä päivittäin. Niihin luotetaan elämän tärkeitä valintoja tehdessä. Mahdollisuus kasvaa: Kannustamme kokeilemaan rohkeasti uutta ja oppimaan. Oman osaamisen kehittyminen on taattua, kunhan annat sille rohkeasti mahdollisuuden. Alman tarjoamista työsuhde-eduista sekä siitä, millaista meillä on olla töissä, voit lukea lisää täältä:",
     "status": "new",
     "notes": ""
   },
-  "score": 20.0,
+  "score": 30.0,
   "score_breakdown": {
-    "positive_keywords": 10.0,
+    "positive_keywords": 20.0,
     "preferred_location": 10.0
   },
   "matched_keywords": [
+    "API",
     "IT"
   ],
   "category": "Low Priority"

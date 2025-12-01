@@ -1,0 +1,32 @@
+{
+  "job": {
+    "id": "4c5fdad958f670c7",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-technical-writer-sasta-19794313",
+    "title": "Senior Technical Writer",
+    "company": "FA Solutions / aTalent",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 1.12.",
+    "discovered_date": "2025-12-01T14:37:32.870540",
+    "description": "FA Solutions , a leading provider of Wealth and Asset Management software solutions, is now looking for a Senior Technical Writer! What will you be doing? As a Senior Technical Writer, you will take responsibility for writing, editing, and updating selected documentation areas - improving existing content and creating new materials from scratch. You will produce and update external documentation and release notes for users, administrators, and developers, as well as internal documents for consultants and review UI texts. You will collaborate closely with a Lead Technical Writer, Product Owners, UX, developers, and testers. Your work also involves interviewing subject-matter experts, coordinating documentation timelines, and researching and testing the product yourself. You'll also have room to propose improvements that shape how documentation and related processes evolve. What makes you a great fit? You enjoy explaining complex concepts clearly and can independently drive documentation work forward. You are comfortable asking questions, interviewing experts, and challenging unclear details. You also have a genuine interest in software products and the wealth/asset management domain. We require you to have: Several years (5-8+) of experience in technical writing within a software industry Ability to summarize complex topics and create clear and organized texts Strong attention to detail and commitment to accuracy and consistency Good communication skills and confidence in interviewing subject-matter experts Interest in asset / wealth management and ability to learn about them A full working proficiency in English We consider as an asset: Understanding of software development processes and tools (e.g. Git, Jira) Experience with HTML, CSS, or DocBook/XML-based documentation Visual or graphic design skills Familiarity with asset/wealth management processes We can offer you: A meaningful role where your writing helps different stakeholders understand how to use the product Ownership of selected documentation areas Room to propose improvements that shape how documentation and related processes evolve Opportunities for growth: broaden or deepen your expertise, and build a career at FA Solutions The flexibility and speed of a startup, backed by the resources and stability of an established company Flexible working hours and remote work policy Lunch, sport & culture benefits, and Auntie well-being service Bonus model Practicalities: This is a full-time and permanent position, in which you will be employed directly to FA Solutions. The ideal starting date is as soon as possible. The company's office is located in Helsinki, but it's possible to work entirely remotely in this role - preferably from Finland. Does this sound like the next step in your career? Please submit your CV and motivation letter as well as a possible work sample in English by the latest 14th of December via our application system. Remember to use the application system, we do not accept applications by email. We want to ensure that all applicants can participate in the process equally, and we will take individual accessibility needs into account where necessary. You can familiarize yourself with FA Solutions here: https://fasolutions.com/. For more information about the recruitment process contact aTalent's Senior Recruitment Consultant Anni Nurmi (+358 50 304 2987, anni.nurmi(at) atalent.fi ). If I'm unable to answer your call right away, please leave a text message and I'll get back to you as soon as possible. FA Solutions is a market leading provider of software for Asset & Wealth Managers, helping them manage their investments globally. We offer a cloud-based Portfolio Management solution that automates and centralizes a wide range of operational processes into one easy-to-use FA Platform. We believe superior technology enables quality Asset & Wealth Management services for everyone.",
+    "status": "new",
+    "notes": ""
+  },
+  "score": 70.0,
+  "score_breakdown": {
+    "positive_keywords": 80.0,
+    "negative_keywords": -20.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "product owner",
+    "documentation",
+    "senior",
+    "lead",
+    "manager",
+    "developer",
+    "software",
+    "IT"
+  ],
+  "category": "High Priority"
+}

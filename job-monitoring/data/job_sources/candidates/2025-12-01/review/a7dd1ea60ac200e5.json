@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "a7dd1ea60ac200e5",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/ratkaisuarkkitehti-helsingin-seudun-liikenne-hsl-helsinki-sasca-19598174",
+    "title": "Ratkaisuarkkitehti, Helsingin seudun liikenne HSL, Helsinki",
+    "company": "Academic Work",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 16.9.",
+    "discovered_date": "2025-12-01T14:36:16.757750",
+    "description": "HSL:n Taustajärjestelmät-yksikkö etsii ratkaisuarkkitehtia vastaamaan uudistuvan, modernin lipunmyyntijärjestelmämme arkkitehtuurista. Pääset kehittämään sujuvaa matkustuskokemusta miljoonille ja varmistamaan järjestelmän teknisen sekä liiketoiminnallisen toimivuuden. Tehtävänkuvaus Etsimme asiakkaallemme HSL:lle ratkaisuarkkitehtia Taustajärjestelmät-yksikköön vastaamaan HSL:n lipunmyyntijärjestelmän arkkitehtuurista. Tehtävä liittyy uudistuvaan lippujärjestelmään - nyt on loistava hetki hypätä mukaan! Työsi tuloksena HSL:n miljoona päivittäistä asiakasta voivat ostaa matkalippuja sujuvasti. Ratkaisuarkkitehtina toimit liiketoiminnan ja teknologian rajapinnassa varmistaen, että HSL:n ratkaisuttäyttävät sekä tekniset että liiketoiminnalliset vaatimukset. Tukenasi on HSL:n kokenut arkkitehtitiimi. Työsuhde on vakituinen, ja aloitus onnistuu sopimuksen mukaan, mahdollisimman pian. Tarjoamme Tarjoamme sinulle vakituisen tehtävän HSL:n kehityksen ytimessä ja merkityksellisen työn, joka vaikuttaa suoraan miljoonien ihmisten arkeen. Pääset kehittymään ammatillisesti ja nauttimaan kattavista henkilöstöeduista innovatiivisessa ja innostavassa työympäristössä. Ylläpidämme yhteisöllisyyttä tapaamalla toimistolla vähintään kaksi kertaa viikossa. Tehtäväkohtainen kuukausipalkka on 4409-4762€/kk euroa työkokemuksesta riippuen, ja siihen voi lisäksi saada henkilökohtaista lisää. Työtehtävät Rooli keskittyy HSL:n lipunmyyntijärjestelmän ratkaisuarkkitehtuurin suunnitteluun, kehittämiseen ja ylläpitoon. Tehtävänäsi on varmistaa järjestelmän tekninen ja liiketoiminnallinen toimivuus, laatuvaatimukset sekä yhteensopivuus muun organisaation teknologian kanssa, tukien samalla kehitystiimejä. Lippujärjestelmän ratkaisuarkkitehtuurin suunnittelu ja kehittäminen Liiketoiminnan tukeminen vaatimusten määrittelyssä ja implementoinnin varmistaminen Ratkaisun laatu- ja lainsäädännöllisten vaatimusten varmistaminen Kehitystiimien teknisten suunnitelmien arviointi ja tuki Uusien teknologioiden ja kehityssuuntien seuranta ja arviointi Dokumentaation tuottaminen ja ylläpito Etsimme Vankkaa työkokemusta arkkitehtuurityöstä ja kykyä tunnistaa riskejä sekä esittää ratkaisuja Osaamista mm. pilvipalveluista, mikropalveluarkkitehtuurista, API-hallinnasta ja ketterästä sovelluskehityksestä Kiinnostusta teknologioihin kuten Java/Spring Boot, GitHub Actions, Jenkins, GKE, Bigtable ja Cloud Functions Erinomaista suomen ja hyvää englannin kielen taitoa sekä hyviä viestintä- ja tiimityötaitoja Soveltuvaa korkeakoulututkintoa tai vastaavaa työkokemusta Rekrytointiprosessimme Academic Work hoitaa tätä hakua asiakkaansa puolesta, jonka toiveena on kaikkien tehtävää koskevien kysymysten osoittaminen Academic Workille. Hakijoita haastatellaan jatkuvasti ja mikäli olemme edenneet jo rekrytointiprosessissa pidemmälle, saatamme sulkea haun ennen lopullisia valintoja. Valintaprosessiin sisältyvät luonteenpiirteitä sekä kognitiivista kykyä mittaavat testit. Testit toimivat työkaluina oikean tekijän löytämiseksi tehtävään sekä takaavat tasa-arvoisen ja oikeudenmukaisen arvioinnin. Helsingin seudun liikenne -kuntayhtymä, HSL Me HSL:ssä mahdollistamme sujuvan arjen ja luomme Helsingin seudun sykkeen ja liikkumisen selkärangan. Reilusti yli puolet Suomen joukkoliikennematkoista tehdään toiminta-alueellamme ja valtaosa asiakkaistamme on sitoutunut kulkemaan kanssamme vuodesta toiseen. Asiakaskokemus ja asiakasymmärrys ovat erottamaton osa kaikkea toimintaamme. Ennakoimme ja uudistamme tulevaisuuden liikkumista maailman muuttuessa ja ratkaisumme perustuvat tietoon ja analytiikkaan. Työnantajana olemme turvallinen ja vastuullinen. Meillä HSL:ssä on avoin ja rento ilmapiiri, jossa jokainen saa olla oma itsensä ja kokea kuuluvansa joukkoon. Sitoutumisemme yhdenvertaisuuteen ja monimuotoisuuteen on saanut tunnustusta syksyllä 2024 myönnetyllä Great Place To Work -sertifikaatilla. Sertifioinnin lisäksi olemme yksi Suomen parhaista työpaikoista vuoden 2025 Suomen Parhaiden Työpaikkojen suurten yritysten -listalla.",
+    "status": "new",
+    "notes": ""
+  },
+  "score": 50.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "java",
+    "spring boot",
+    "API",
+    "IT"
+  ],
+  "category": "Review"
+}
