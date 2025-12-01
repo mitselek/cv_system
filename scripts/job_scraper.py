@@ -7,9 +7,10 @@ Supports: Duunitori, Tyomarkkinatori, LinkedIn
 import json
 import sys
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import Any, Dict, List, Optional, Union
 import requests
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 
 
 class JobScraper:
@@ -19,7 +20,7 @@ class JobScraper:
         self.cookies_file = cookies_file
         self.load_cookies()
     
-    def load_cookies(self):
+    def load_cookies(self) -> None:
         """Load cookies from JSON file."""
         if not self.cookies_file.exists():
             print(f"❌ Cookie file not found: {self.cookies_file}")
@@ -31,21 +32,21 @@ class JobScraper:
             sys.exit(1)
         
         with open(self.cookies_file, 'r') as f:
-            cookies_data = json.load(f)
+            cookies_data: Union[List[Dict[str, Any]], Dict[str, str]] = json.load(f)
         
         # Handle different cookie export formats
         if isinstance(cookies_data, list):
             # Format: [{"name": "...", "value": "...", "domain": "..."}]
             for cookie in cookies_data:
                 self.session.cookies.set(
-                    cookie['name'],
-                    cookie['value'],
-                    domain=cookie.get('domain', '')
+                    str(cookie['name']),
+                    str(cookie['value']),
+                    domain=str(cookie.get('domain', ''))
                 )
         elif isinstance(cookies_data, dict):
             # Format: {"cookie_name": "cookie_value"}
             for name, value in cookies_data.items():
-                self.session.cookies.set(name, value)
+                self.session.cookies.set(str(name), str(value))
         
         # Set common headers
         self.session.headers.update({
@@ -54,7 +55,7 @@ class JobScraper:
             'Accept-Language': 'en-US,en;q=0.9,fi;q=0.8',
         })
     
-    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20) -> List[Dict]:
+    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20) -> List[Dict[str, str]]:
         """Search Duunitori for jobs."""
         print(f"\n🔍 Searching Duunitori: {keywords}")
         if location:
@@ -73,7 +74,7 @@ class JobScraper:
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            jobs = []
+            jobs: List[Dict[str, str]] = []
             
             # Duunitori uses .job-box for job listings
             job_elements = soup.select('.job-box')
@@ -94,7 +95,7 @@ class JobScraper:
             traceback.print_exc()
             return []
     
-    def _parse_duunitori_job(self, elem) -> Optional[Dict]:
+    def _parse_duunitori_job(self, elem: Tag) -> Optional[Dict[str, str]]:
         """Parse a Duunitori job element."""
         try:
             # Duunitori structure: .job-box with h3.job-box__title
@@ -107,23 +108,24 @@ class JobScraper:
                 return None
             
             # Company is in data-company attribute of the link
-            company = 'Unknown'
+            company: str = 'Unknown'
             if link_elem and link_elem.get('data-company'):
-                company = link_elem.get('data-company')
+                company = str(link_elem.get('data-company'))
             
-            return {
+            result: Dict[str, str] = {
                 'portal': 'Duunitori',
-                'title': title_elem.get_text(strip=True),
+                'title': str(title_elem.get_text(strip=True)),
                 'company': company,
-                'location': location_elem.get_text(strip=True) if location_elem else '',
-                'posted': posted_elem.get_text(strip=True) if posted_elem else '',
+                'location': str(location_elem.get_text(strip=True)) if location_elem else '',
+                'posted': str(posted_elem.get_text(strip=True)) if posted_elem else '',
                 'url': f"https://duunitori.fi{link_elem['href']}" if link_elem else '',
             }
+            return result
         except Exception as e:
             print(f"⚠️  Error parsing job: {e}")
             return None
     
-    def search_tyomarkkinatori(self, keywords: str) -> List[Dict]:
+    def search_tyomarkkinatori(self, keywords: str) -> List[Dict[str, str]]:
         """Search Tyomarkkinatori for jobs."""
         print(f"\n🔍 Searching Tyomarkkinatori: {keywords}")
         
@@ -136,7 +138,7 @@ class JobScraper:
             
             # The actual implementation depends on their HTML structure
             # or if they have a JSON API endpoint
-            soup = BeautifulSoup(response.text, 'html.parser')
+            # soup = BeautifulSoup(response.text, 'html.parser')  # Pending implementation
             
             print("⚠️  Tyomarkkinatori scraping needs HTML structure analysis")
             return []
@@ -145,7 +147,7 @@ class JobScraper:
             print(f"❌ Error searching Tyomarkkinatori: {e}")
             return []
     
-    def search_linkedin(self, keywords: str, location: str = "Finland") -> List[Dict]:
+    def search_linkedin(self, keywords: str, location: str = "Finland") -> List[Dict[str, str]]:
         """Search LinkedIn for jobs."""
         print(f"\n🔍 Searching LinkedIn: {keywords} in {location}")
         
@@ -161,7 +163,7 @@ class JobScraper:
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            jobs = []
+            jobs: List[Dict[str, str]] = []
             
             # LinkedIn job cards
             job_elements = soup.select('.job-search-card, .jobs-search-results__list-item')
@@ -178,7 +180,7 @@ class JobScraper:
             print(f"❌ Error searching LinkedIn: {e}")
             return []
     
-    def _parse_linkedin_job(self, elem) -> Optional[Dict]:
+    def _parse_linkedin_job(self, elem: Tag) -> Optional[Dict[str, str]]:
         """Parse a LinkedIn job element."""
         try:
             title_elem = elem.select_one('.job-search-card__title, h3')
@@ -189,13 +191,14 @@ class JobScraper:
             if not title_elem:
                 return None
             
-            return {
+            result: Dict[str, str] = {
                 'portal': 'LinkedIn',
-                'title': title_elem.get_text(strip=True),
-                'company': company_elem.get_text(strip=True) if company_elem else 'Unknown',
-                'location': location_elem.get_text(strip=True) if location_elem else '',
-                'url': link_elem['href'] if link_elem else '',
+                'title': str(title_elem.get_text(strip=True)),
+                'company': str(company_elem.get_text(strip=True)) if company_elem else 'Unknown',
+                'location': str(location_elem.get_text(strip=True)) if location_elem else '',
+                'url': str(link_elem['href']) if link_elem else '',
             }
+            return result
         except Exception as e:
             print(f"⚠️  Error parsing job: {e}")
             return None
@@ -221,7 +224,7 @@ def main():
     args = parser.parse_args()
     
     scraper = JobScraper(args.cookies)
-    all_jobs = []
+    all_jobs: List[Dict[str, str]] = []
     
     if args.portal in ['duunitori', 'all']:
         all_jobs.extend(scraper.search_duunitori(args.keywords, args.location, args.limit))
