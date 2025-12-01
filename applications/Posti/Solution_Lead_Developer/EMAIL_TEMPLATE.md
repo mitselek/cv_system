@@ -1,0 +1,48 @@
+# Email Template - Posti Solution Lead Developer Application
+
+## Subject Line
+
+**Application: Solution Lead Developer - Order Management & Orchestration (Mihkel Putrinš)**
+
+---
+
+## Email Body
+
+Dear Posti Talent Acquisition Team,
+
+I am writing to apply for the **Solution Lead Developer** position in the Order Management and Orchestration domain, as advertised with a deadline of December 10, 2025.
+
+With over 20 years of backend development experience and deep expertise in **Oracle/PL/SQL** (mastered through Justice Ministry and Tele2 billing systems), **Python** (9/10), and **Java** (7/10), I am excited by the opportunity to contribute to Posti's parcel tracking and order orchestration systems.
+
+**Key qualifications relevant to this role:**
+
+- **Oracle/PL/SQL mastery**: Acquired O'Reilly "Oracle PL/SQL Programming" handbook at Justice Ministry (2002-2005), extensively applied in Tele2 billing systems (2006-2009)
+- **Real-time systems expertise**: Designed Elasticsearch pipeline serving 100,000+ records with 5-minute update latency
+- **People-first leadership**: Led 4-member PÖFF development team with 100% intern-to-employee conversion rate
+- **Cloud deployment experience**: DigitalOcean, Docker containerization, AWS exposure
+- **Full SDLC experience**: From requirements to deployment across government, telecom, and cultural sectors
+
+While I have limited Kafka/event streaming experience, my strong backend foundation and eagerness to learn make me confident I can quickly contribute to your order orchestration domain.
+
+Attached are my CV and motivation letter detailing my relevant experience and honest assessment of areas where I will bring learning enthusiasm (event streaming, logistics domain).
+
+I am available for a phone discussion at your earliest convenience and look forward to learning more about your team's technical challenges.
+
+**Contact Information:**
+
+- Email: mitselek@gmail.com
+- Phone: +372 5656 0978
+- Location: Tallinn, Estonia (open to Helsinki hybrid work)
+
+Thank you for considering my application.
+
+Best regards,
+
+**Mihkel Putrinš**
+
+---
+
+**Attachments:**
+
+- CV_Posti.pdf
+- motivation_letter_Posti.pdf

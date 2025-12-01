@@ -148,7 +148,7 @@ Before finalizing ANY application document:
 
 This guide is the definitive standard for all generated documents and prompts.
 
-1. **No Emojis:** Emojis are strictly forbidden in all professional documents, prompts, scripts, and commit messages.
+1. **No Emojis:** Emojis are strictly forbidden in all professional documents (CVs, motivation letters, application materials), prompts, scripts, and commit messages.
 2. **Strict Markdown Linting:** All generated Markdown must be lint-compliant. This includes, but is not limited to:
     - A single blank line before and after all headings.
     - A single blank line before and after all lists.

@@ -22,7 +22,7 @@
 
 **Description**: At EWQ Zone we are pioneers in transforming retail experiences across the Nordics. We are at the forefront of developing cutting-edge software and management tools for Queue Management Systems, Digita...
 
-📄 [Full Details](2025-12-01/high_priority/561693f02f0a7bae.json)
+📄 [Full Details](561693f02f0a7bae.json)
 
 ### 2. Senior System Analyst
 

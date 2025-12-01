@@ -12,12 +12,11 @@ title:
   et: Andmesanitar
   en: Data Curator
 location: Tallinn, Estonia
-tags: [Data Curation, Data Cleansing, Database Management, History, Research]
-skills_demonstrated: [data-curation, database-management, spreadsheet-tools]
-achievements:
-  - mem-historian-db-adoption-2024
+tags: [Data Curation, Data Cleansing, Database Management, History, Research, Data Pipeline, Elasticsearch]
+skills_demonstrated: [data-curation, database-management, spreadsheet-tools, python, system-architecture]
+achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020]
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-12-01'
 ---
 
 ## et
@@ -34,7 +33,9 @@ last_verified: '2025-11-21'
 - I'm particularly proud of my success in getting historians to work directly with the database often without recognizing that they can now add MySQL to their CV :)
 
 ---
+
 ## Connections
-- **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]]
-- **Achievements:** [[mem-historian-db-adoption-2024]]
+
+- **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]], [[python]], [[system-architecture]]
+- **Achievements:** [[mem-historian-db-adoption-2024]], [[mem-elasticsearch-pipeline-2020]]
 

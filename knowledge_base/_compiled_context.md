@@ -14,15 +14,16 @@ id: auma-expo-1992-1993
 type: employment
 company: Auma Expo
 dates:
-  start: '1992-01'
-  end: '1993-01'
+start: '1992-01'
+end: '1993-01'
 title:
-  et: Müügikonsultant (ehitus)
-  en: Sales Agent
+et: Müügikonsultant (ehitus)
+en: Sales Agent
 location: Estonia
 tags: [Sales, Construction]
 status: verified
 last_verified: '2025-11-21'
+
 ```
 
 #### et
@@ -76,15 +77,16 @@ id: den-za-dnjom-1996-1999
 type: employment
 company: DEN ZA DNJOM KIRJASTUS OÜ
 dates:
-  start: '1996-01'
-  end: '1999-01'
+start: '1996-01'
+end: '1999-01'
 title:
-  et: Reprokoja juht
-  en: Head of Repro Department
+et: Reprokoja juht
+en: Head of Repro Department
 location: Estonia
 tags: [Management, Media, Print]
 status: verified
 last_verified: '2025-11-21'
+
 ```
 
 #### et
@@ -125,8 +127,11 @@ technologies:
 status: verified
 last_verified: '2025-11-26'
 source: Employment contract nr 408, dated 12.04.2017; GitHub repository
+
 skills_demonstrated: [java, spring-boot]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -168,6 +173,8 @@ status: verified
 last_verified: '2025-11-21'
 ```
 
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 #### et
 
 - IT infrastruktuurid;
@@ -208,12 +215,11 @@ title:
   et: Andmesanitar
   en: Data Curator
 location: Tallinn, Estonia
-tags: [Data Curation, Data Cleansing, Database Management, History, Research]
-skills_demonstrated: [data-curation, database-management, spreadsheet-tools]
-achievements:
-  - mem-historian-db-adoption-2024
+tags: [Data Curation, Data Cleansing, Database Management, History, Research, Data Pipeline, Elasticsearch]
+skills_demonstrated: [data-curation, database-management, spreadsheet-tools, python, system-architecture]
+achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020]
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-12-01'
 ```
 
 #### et
@@ -233,8 +239,8 @@ last_verified: '2025-11-21'
 
 #### Connections
 
-- **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]]
-- **Achievements:** [[mem-historian-db-adoption-2024]]
+- **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]], [[python]], [[system-architecture]]
+- **Achievements:** [[mem-historian-db-adoption-2024]], [[mem-elasticsearch-pipeline-2020]]
 
 ---
 
@@ -906,6 +912,8 @@ proficiency: 9
 last_verified: 2025-11-29
 ```
 
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
+
 ### Dokumenteerimisoskus / Documentation Skill
 
 #### Profiil
@@ -954,6 +962,8 @@ tags: [programming, backend, enterprise, spring-boot, oracle-adf]
 status: verified
 last_verified: '2025-11-26'
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### Experience
 
@@ -1051,6 +1061,65 @@ Node.js backend development, server-side JavaScript applications, API design and
 
 ---
 
+### plsql
+
+```yaml
+id: plsql
+skill_name:
+  et: PL/SQL
+  en: PL/SQL
+category: Database Programming
+proficiency_level: 8/10
+tags: [database, oracle, stored-procedures, sql, backend]
+status: verified
+last_verified: "2025-12-01"
+```
+
+#### Kogemus / Experience
+
+##### et
+
+PL/SQL-i hingeeluga tutvusin põhjalikult Justiitsministeeriumis ja Tele2s.
+
+**Õppimisprotsess:**
+
+- Justiitsministeeriumis (2002-2005) hankisin isikliku PL/SQL käsiraamatu (O'Reilly "Oracle PL/SQL Programming")
+- Tele2 billingusüsteemis (2006-2009) töötades lugesin käsiraamatu "lõplikult ribadeks"
+- Põhjalik praktika Oracle andmebaasidega ja salvestatud protseduuridega
+
+**Kogemus:**
+
+- Oracle JDeveloper + Oracle ADF projektid (Justiitsministeerium)
+- Billing süsteemide arendus ja hooldus (Tele2)
+- Stored procedures, triggers, packages
+- Andmebaasi loogikaAutorius ja optimeerimine
+
+##### en
+
+Gained deep familiarity with PL/SQL through work at the Ministry of Justice and Tele2.
+
+**Learning Process:**
+
+- Acquired personal PL/SQL handbook (O'Reilly "Oracle PL/SQL Programming") at Ministry of Justice (2002-2005)
+- Thoroughly mastered it ("wore it out") while working on Tele2 billing systems (2006-2009)
+- Extensive practice with Oracle databases and stored procedures
+
+**Experience:**
+
+- Oracle JDeveloper + Oracle ADF projects (Ministry of Justice)
+- Billing system development and maintenance (Tele2)
+- Stored procedures, triggers, packages
+- Database logic and optimization
+
+---
+
+#### Connections
+
+- **Related Skills:** [[java]], [[database-management]]
+- **Experiences:** [[justiitsministeerium-2002-2005]], [[tele2-eesti-as-2006-2009]]
+
+---
+
 ### project-management
 
 ```yaml
@@ -1098,8 +1167,11 @@ evidence:
   - eesti-malu-instituut-2017-2024
   - ilusa-koodi-instituut-2021-2024
 status: verified
+
 last_verified: '2025-11-22'
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1166,8 +1238,11 @@ skill_name:
 category: Framework
 tags: [java, backend, web-framework]
 status: verified
+
 last_verified: '2025-11-26'
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### Experience
 
@@ -1202,6 +1277,70 @@ tags: [management, leadership, mentoring]
 status: verified
 last_verified: '2025-11-21'
 ```
+
+---
+
+### typescript
+
+```yaml
+id: typescript
+skill_name:
+  et: TypeScript
+  en: TypeScript
+category: Programming Language
+proficiency_level: 8/10
+tags: [programming, type-safety, interfaces, data-modeling, strict-typing]
+status: verified
+last_verified: "2025-12-01"
+usage_period:
+  start: "2024"
+  intensity: daily
+```
+
+#### Kogemus / Experience
+
+##### et
+
+TypeScript on viimase aasta jooksul muutunud minu peamiseks tõe allika defineerimise vahendiks peaaegu kõigis projektides.
+
+**Kasutusviis:**
+
+- Igapäevane kasutus pea kõigis projektides (2024-present)
+- Andmemudeli loomise alus - esimesed interfeissid tekivad mudeli loomise käigus
+- Range tüübikontroll - ühtegi funktsionaalsust ei alustata, kui TypeScript oma täies ranguses seda ei toeta
+- Tõe allika (source of truth) defineerimine projektides
+
+**Tugevused:**
+
+- Interface'ide disain ja andmemudeli modelleerimine
+- Range tüübisüsteemi rakendamine
+- Kompileeriaja veakontroll
+- Koodibaasi struktuuri ja kvaliteedi tagamine läbi tüüpide
+
+##### en
+
+TypeScript has become my primary tool for defining source of truth in nearly all projects over the last year.
+
+**Usage:**
+
+- Daily use in nearly all projects (2024-present)
+- Foundation for data model creation - first interfaces emerge during model design
+- Strict type checking - no functionality begins without full TypeScript strict mode support
+- Source of truth definition in projects
+
+**Strengths:**
+
+- Interface design and data model modeling
+- Strict type system implementation
+- Compile-time error checking
+- Ensuring codebase structure and quality through types
+
+---
+
+#### Connections
+
+- **Related Skills:** [[javascript]], [[nodejs]], [[system-architecture]]
+- **Philosophy:** TypeScript's strict typing enforces architectural decisions at compile time, preventing runtime errors and ensuring data integrity
 
 ---
 
@@ -1320,6 +1459,84 @@ Osalesin arendusmeeskonna liikmena riikliku kriminaalmenetluse registri arendusp
 #### en
 
 Participated as a development team member in creating a national criminal procedure register. Project goals were achieved on time.
+
+---
+
+### mem-elasticsearch-pipeline-2020
+
+```yaml
+id: mem-elasticsearch-pipeline-2020
+aliases: ["Elasticsearch real-time data pipeline for memoriaal.ee and wwii-refugees.ee"]
+type: achievement
+parent_experience: eesti-malu-instituut-2017-2024
+title:
+  et: Elasticsearch reaalajas andmepublikatsiooni süsteemi loomine
+  en: Elasticsearch real-time data publication system
+description:
+  et: Disainisin ja implementeerisin reaalajas andmepublikatsiooni süsteemi Elasticsearch'i baasil, võimaldades memoriaal.ee ja wwii-refugees.ee veebilehtedel pakkuda ajaloolisi andmeid viie minuti viivitusega. Süsteem hõlmas isoleeritud töökeskkondi ja teenindas 100 000+ kirjet.
+  en: Designed and implemented a real-time data publication system based on Elasticsearch, enabling memoriaal.ee and wwii-refugees.ee websites to serve historical data with 5-minute latency. System included isolated work environments and served 100,000+ records.
+tags: [data-pipeline, elasticsearch, docker, python, architecture, devops, real-time-systems]
+technologies: [Elasticsearch, Docker, Python, JavaScript, DigitalOcean]
+date: '2020'
+status: verified
+last_verified: '2025-12-01'
+```
+
+#### et
+
+##### Väljakutse
+
+Eesti Mälu Instituudis oli vaja tagada, et ajaloolised andmed oleksid veebilehtedel memoriaal.ee ja wwii-refugees.ee kättesaadavad võimalikult kiiresti pärast nende uuendamist. Samuti oli oluline eraldada töökeskkonnad, et tagada andmete kvaliteet ja turvaline arendusprotsess.
+
+##### Lahendus
+
+Disainisin ja implementeerisin täieliku andmepublikatsiooni torujuhtme (data pipeline):
+
+- **Andmebaas:** Elasticsearch
+- **Deployment:** Docker konteinerid DigitalOcean'is
+- **Andmete üleslaadimine:** Kohandatud Python skriptid
+- **Andmete kuvamine:** JavaScript-põhine lugemine veebilehtedel
+- **Uuendussagedus:** Reaalajas publikatsioon iga 5 minuti järel
+- **Isoleeritud keskkonnad:** Eraldi arendus-, test- ja tootmiskeskkonnad
+
+##### Tulemus
+
+- **100 000+ kirjet** pidevalt kättesaadavad
+- **Reaalajas publikatsioon:** Andmete uuendused veebis nähtavad 5 minuti jooksul
+- **Isoleeritud töökeskkonnad:** Turvaline ja kontrollitud arendusprotsess
+- **Skaleeritav arhitektuur:** Docker-põhine lahendus võimaldab lihtsat skaleerimist
+
+#### en
+
+##### Challenge
+
+At the Estonian Memory Institute, we needed to ensure that historical data on memoriaal.ee and wwii-refugees.ee websites would be available as quickly as possible after updates. It was also important to isolate work environments to ensure data quality and secure development processes.
+
+##### Solution
+
+I designed and implemented a complete data publication pipeline:
+
+- **Database:** Elasticsearch
+- **Deployment:** Docker containers on DigitalOcean
+- **Data Upload:** Custom Python scripts
+- **Data Display:** JavaScript-based read-only access from web pages
+- **Update Frequency:** Real-time publication every 5 minutes
+- **Isolated Environments:** Separate development, testing, and production environments
+
+##### Result
+
+- **100,000+ records** continuously available
+- **Real-time publication:** Data updates visible on websites within 5 minutes
+- **Isolated work environments:** Secure and controlled development process
+- **Scalable architecture:** Docker-based solution enables easy scaling
+
+---
+
+#### Connections
+
+- **Parent Experience:** [[eesti-malu-instituut-2017-2024]]
+- **Skills:** [[python]], [[database-management]], [[system-architecture]]
+- **Technologies:** Elasticsearch, Docker, Python, JavaScript, DigitalOcean
 
 ---
 
@@ -1466,24 +1683,28 @@ type: education
 dates:
   start: '1990'
   end: '2002'
-studies:
-  - field:
-      et: Matemaatika
-      en: Mathematics
-    institution: University of Tartu
-  - field:
-      et: Loodusteaduslikud ained
-      en: Natural Sciences
-    institution: Tallinn University
-  - field:
-      et: Informaatika
-      en: Computer Science
-    institution: University of Tartu
+institutions:
+  - name:
+      et: Tartu Ülikool
+      en: University of Tartu
+  - name:
+      et: Tallinna Ülikool
+      en: Tallinn University
+fields:
+  - et: Matemaatika
+    en: Mathematics
+  - et: Informaatika
+    en: Computer Science
+  - et: Loodusteaduslikud ained
+    en: Natural Sciences
 degree:
   et: Lõpetamata kõrgharidus
   en: Incomplete Higher Education
+description:
+  et: Matemaatika, informaatika, loodusteaduslikud ained
+  en: Mathematics, computer science, natural sciences
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-11-29'
 ```
 
 ---
@@ -1584,8 +1805,11 @@ tags: [language, communication, international]
 evidence:
   - entusiastid-ou-2010-present
   - tartu-ulikool-2014-2015
+
   - ilusa-koodi-instituut-2021-2024
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1629,8 +1853,11 @@ proficiency:
   writing: native
 status: verified
 last_verified: '2025-11-21'
+
 tags: [native-language, communication]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1661,8 +1888,11 @@ proficiency:
 context: Second language, near-native speaker
 status: verified
 last_verified: '2025-11-22'
+
 tags: [language, communication, baltic, second-language]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1694,8 +1924,11 @@ proficiency:
   writing: B2
 status: verified
 last_verified: '2025-11-21'
+
 tags: [language, communication]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1726,8 +1959,11 @@ tools:
   - 3D printers
 status: verified
 last_verified: '2025-11-21'
+
 tags: [hobby, 3d-modeling, prototyping, CAD]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -1753,8 +1989,11 @@ type: hobby
 title:
   en: 3D Modeling and Printing
   et: 3D Modelleerimine ja Printimine
+
 tags: [maker, design, cad, prototyping]
 ```
+
+<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 - Using Onshape and FeatureScript for personal projects.
 - Experience with 3D printing, including understanding of tolerances and material properties.

@@ -30,12 +30,15 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-28 | Eesti Kunstiakadeemia | IT-osakonna juhataja | 100% | [README](Eesti_Kunstiakadeemia/IT_osakonna_juhataja/README.md) | 2025-12-14 | Submitted | Previous position holder 2009-2012. LAN infrastructure (700+ users), email migration (90% cost savings), Entu asset management (5000+ assets). 6 years IT leadership experience. 2025-11-28: Ack received, response expected via CV.ee. |
 | 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Submitted | Strong memory institution background. Gap: Education. 2025-11-29: Ack received via CV.ee, application successfully forwarded to employer. |
 | 2025-11-30 | Playtech Estonia | System Analyst | 92% | [README](Playtech_Estonia/System_Analyst/README.md) | 2025-12-14 | Submitted | Senior System Analyst experience at EKI. UML certification. Strong database skills. Gap: iGaming industry experience. 2025-11-30: Ack received via SmartRecruiters, response within 2 weeks. |
+| 2025-12-01 | Accenture | Senior AI Architect | 40% | [README](Accenture/Senior_AI_Architect/README.md) | Open | Draft | Strong software architecture (15+ yrs), Python/Node.js expertise. CRITICAL GAP: No ML/AI experience. Application via Accenture portal only (no email). |
+| 2025-12-01 | IONA | Technical Architect | 85% | [README](IONA/Technical_Architect/README.md) | 2025-12-14 | Submitted | 15+ yrs Node.js architecture, PÖFF team leadership, 100% intern hire rate. Gaps: Finnish language, e-commerce domain. Salary: €6,500-7,500. 2025-12-01: Ack received from Emmi Vahvelainen. |
+| 2025-12-01 | Posti Oy | Solution Lead Developer | 85% | [README](Posti/Solution_Lead_Developer/README.md) | 2025-12-10 | Submitted | Backend (20+ yrs), Oracle/PLSQL (8/10, O'Reilly handbook), Python (9/10), 100k+ real-time systems. Gaps: Kafka/event streaming, logistics. 2025-12-01: Application sent with CV and motivation letter. Contact: talentacquisition@posti.com. |
 
 ## Statistics
 
-- **Total Applications:** 13
-- **Active (Draft/Ready):** 1
-- **Submitted:** 9
+- **Total Applications:** 16
+- **Active (Draft/Ready):** 2
+- **Submitted:** 11
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
@@ -44,4 +47,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-11-29
+**Last Updated:** 2025-12-01
