@@ -218,23 +218,6 @@ cv_system/
 | `cleanup --days N`       | Archive jobs older than N days       |
 | `init`                   | Create configuration template        |
 
-## Scoring System
-
-Jobs are automatically scored based on:
-
-- **Keywords** in title and description (+10 points each)
-- **Company** match with preferred list (+5 points)
-- **Location** match with preferences (+5 points)
-- **Remote work** available (+15 points)
-- **Recency** - newer jobs score higher (+5 for <7 days)
-- **Negative keywords** reduce score (-5 points each)
-
-**Categories:**
-
-- **High Priority** (≥70): Excellent matches, review immediately
-- **Review** (40-69): Worth considering
-- **Low Priority** (<40): Poor matches
-
 ## Development
 
 ### Running Tests
