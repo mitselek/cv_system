@@ -35,7 +35,6 @@ Before generating an execution plan, you MUST gather the following information. 
 5. **Validation checkpoints**: What must pass before proceeding to next phase (e.g., "mypy strict mode passes, all tests green")
 6. **Current state**: Are any phases already started? Any work completed? (e.g., "Just created milestone today" or "Phase 1 50% complete")
 
-
 ### Planning Framework
 
 Your execution plan must follow a phase-gate methodology with these principles:
@@ -95,7 +94,6 @@ Generate a plan structured as follows (all sections are required):
    - Today: Specific tasks to start immediately
    - Tomorrow: First day of execution tasks
    - This week: Overall focus areas
-
 
 ### Decision Trees to Include
 
@@ -161,7 +159,6 @@ Is current phase (N-1) progressing well?
 **Definition of "progressing well"**: On track to complete within estimate ±1 day, no major blockers discovered, validation criteria likely to pass.
 
 **Example**: If Phase 1 (Dec 2-6) is on track by Dec 4 with no major issues, begin breaking down Phase 2 on Dec 5-6. If Phase 1 discovers major complexity on Dec 4, delay Phase 2 breakdown until Phase 1 issues are resolved.
-
 
 ### Markdown Formatting Requirements
 
@@ -505,7 +502,6 @@ While phases are sequential, some prep work can happen in parallel:
 - Begin Phase 2 breakdown on Dec 6-7
 - Stay alert for complexity triggers
 ````
-
 
 ## Usage Instructions
 
