@@ -21,7 +21,16 @@ class JobScraper:
         self.load_cookies()
     
     def load_cookies(self) -> None:
-        """Load cookies from JSON file."""
+        """Load cookies from JSON file.
+        
+        Note: Type ignores below are necessary because:
+        1. json.load() returns Any - JSON structure is runtime-determined
+        2. Cookie formats vary (list of dicts vs simple dict) from browser exports
+        3. requests library has incomplete type stubs (upstream issue)
+        
+        These are safe runtime operations with proper error handling.
+        If debugging cookie issues, check the actual JSON file format first.
+        """
         if not self.cookies_file.exists():
             print(f"❌ Cookie file not found: {self.cookies_file}")
             print("\nTo export cookies:")
@@ -31,6 +40,7 @@ class JobScraper:
             print(f"4. Save to: {self.cookies_file}")
             sys.exit(1)
         
+        # just let me say, that all that ignoring thing looks like workaround hack. I hope to not stumble on these lines in future while debugging some extremely annoying issue.
         with open(self.cookies_file, 'r') as f:
             cookies_data = json.load(f)  # type: ignore[no-untyped-call]
         
