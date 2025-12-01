@@ -6,6 +6,8 @@ Tests model instantiation and validators.
 
 from datetime import datetime
 from pathlib import Path
+from typing import cast
+from pydantic import HttpUrl
 
 from schemas import (
     JobPosting,
@@ -22,7 +24,7 @@ from schemas import (
 def test_job_posting_id_generation() -> None:
     """Test that ID is auto-generated from URL."""
     job = JobPosting(
-        url="https://example.com/job/123",
+        url=cast(HttpUrl, "https://example.com/job/123"),
         title="Test Job",
         company="Test Company",
         location="Tallinn",
@@ -40,7 +42,7 @@ def test_job_posting_explicit_id() -> None:
     explicit_id = "custom_id_123"
     job = JobPosting(
         id=explicit_id,
-        url="https://example.com/job/456",
+        url=cast(HttpUrl, "https://example.com/job/456"),
         title="Test Job",
         company="Test Company",
         location="Tallinn",
@@ -55,7 +57,7 @@ def test_job_posting_explicit_id() -> None:
 def test_scored_job_category_high() -> None:
     """Test category auto-determination for high score."""
     job = JobPosting(
-        url="https://example.com/job/789",
+        url=cast(HttpUrl, "https://example.com/job/789"),
         title="Python Developer",
         company="Tech Corp",
         location="Tallinn",
@@ -76,7 +78,7 @@ def test_scored_job_category_high() -> None:
 def test_scored_job_category_review() -> None:
     """Test category auto-determination for medium score."""
     job = JobPosting(
-        url="https://example.com/job/101",
+        url=cast(HttpUrl, "https://example.com/job/101"),
         title="Developer",
         company="Some Corp",
         location="Remote",
@@ -97,7 +99,7 @@ def test_scored_job_category_review() -> None:
 def test_scored_job_category_low() -> None:
     """Test category auto-determination for low score."""
     job = JobPosting(
-        url="https://example.com/job/202",
+        url=cast(HttpUrl, "https://example.com/job/202"),
         title="Manager",
         company="Corp",
         location="Helsinki",

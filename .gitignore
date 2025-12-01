@@ -42,3 +42,5 @@ temp/
 *.tmp
 riigihanked/queue.txt
 knowledge_base/.obsidian/workspace.json
+
+venv/
