@@ -5,6 +5,7 @@ General-purpose utility scripts for the CV system.
 ## Available Utilities
 
 ### extract_cookies.py
+
 Extract browser cookies for job scraping. Use this to export cookies from your browser for accessing job portals.
 
 ```bash
@@ -12,6 +13,7 @@ python utils/extract_cookies.py
 ```
 
 ### add_lint_comments.py
+
 Add markdownlint disable/enable comments to markdown files with YAML frontmatter.
 
 ```bash
@@ -19,6 +21,7 @@ python utils/add_lint_comments.py <file>
 ```
 
 ### compact_yaml_lists.py
+
 Convert block-style YAML lists to compact inline format.
 
 ```bash

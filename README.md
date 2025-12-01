@@ -11,6 +11,7 @@ This repository contains multiple tools and systems for career management:
 Automated job discovery and tracking system.
 
 **Features:**
+
 - 🔍 Automated scanning of job portals (Duunitori, LinkedIn, etc.)
 - 🎯 Intelligent scoring and ranking
 - 📊 State tracking and statistics
@@ -18,6 +19,7 @@ Automated job discovery and tracking system.
 - 🤖 CLI for all operations
 
 **Quick Start:**
+
 ```bash
 cd job-monitoring
 pip install -e .
@@ -76,7 +78,7 @@ job-monitor scan --config config.yaml
 # Scan for new jobs
 job-monitor scan --config config.yaml
 
-# Review candidates  
+# Review candidates
 job-monitor review --config config.yaml --category review
 
 # View statistics
@@ -85,8 +87,8 @@ job-monitor stats --config config.yaml
 
 ## Project Status
 
-| Component | Status | Version | Tests |
-|-----------|--------|---------|-------|
-| Job Monitoring | ✅ Production | v1.0.0 | 100/100 |
-| Email Monitor | 🚧 Development | - | - |
-| Riigihanked | 🚧 Development | - | - |
+| Component      | Status         | Version | Tests   |
+| -------------- | -------------- | ------- | ------- |
+| Job Monitoring | ✅ Production  | v1.0.0  | 100/100 |
+| Email Monitor  | 🚧 Development | -       | -       |
+| Riigihanked    | 🚧 Development | -       | -       |
