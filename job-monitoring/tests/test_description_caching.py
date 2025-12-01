@@ -178,10 +178,18 @@ class TestDescriptionCaching(unittest.TestCase):
             scraper = JobScraper(self.mock_cookies)
             scraper.session = mock_session
             
+            # Pre-calculate job IDs based on URL hashing (same logic as JobPosting)
+            import hashlib
+            cached_url = "https://duunitori.fi/tyopaikat/tyo/cached-1"
+            new_url = "https://duunitori.fi/tyopaikat/tyo/new-2"
+            cached_id = hashlib.md5(cached_url.encode()).hexdigest()[:16]
+            new_id = hashlib.md5(new_url.encode()).hexdigest()[:16]
+            
             # Mock state manager: first job cached, second not
             def get_job_side_effect(job_id):
-                if "cached" in job_id:
+                if job_id == cached_id:
                     return JobPosting(
+                        id=cached_id,
                         url="https://duunitori.fi/tyopaikat/tyo/cached-1",
                         title="Cached Job",
                         company="CachedCo",

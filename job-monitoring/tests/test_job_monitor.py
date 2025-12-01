@@ -9,7 +9,7 @@ from tempfile import TemporaryDirectory
 
 import pytest
 
-from job_monitor import _save_candidates
+from job_monitor.cli import _save_candidates
 from job_monitor.schemas import JobPosting, ScoredJob
 
 

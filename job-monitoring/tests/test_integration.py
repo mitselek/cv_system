@@ -10,10 +10,10 @@ from typing import Generator
 import pytest
 from pydantic import HttpUrl
 
+from job_monitor.cli import _save_candidates
 from job_monitor.config import ConfigManager
 from job_monitor.deduplicator import Deduplicator
 from job_monitor.digest import DigestGenerator
-from job_monitor import _save_candidates
 from job_monitor.scorer import JobScorer
 from job_monitor.converter import ApplicationConverter
 from job_monitor.schemas import JobPosting, JobStatus, ScoredJob, ScoringConfig

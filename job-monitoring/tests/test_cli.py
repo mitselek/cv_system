@@ -10,7 +10,7 @@ import pytest
 from click.testing import CliRunner
 from pydantic import HttpUrl
 
-from job_monitor import cli
+from job_monitor.cli import cli
 from job_monitor.schemas import JobPosting, JobStatus, ScoredJob
 from job_monitor.state import StateManager
 
