@@ -5,9 +5,10 @@ Interactive cookie extractor - paste cookies from browser DevTools.
 
 import json
 from pathlib import Path
+from typing import Dict, List, Optional
 
 
-def extract_from_devtools():
+def extract_from_devtools() -> Optional[Dict[str, str]]:
     """Extract cookies from browser developer tools paste."""
     print("=" * 80)
     print("COOKIE EXTRACTOR - Paste from Browser DevTools")
@@ -31,7 +32,7 @@ def extract_from_devtools():
     print("Paste cookies and press Enter twice when done:")
     print("-" * 80)
     
-    lines = []
+    lines: List[str] = []
     empty_count = 0
     
     while empty_count < 2:
@@ -48,7 +49,7 @@ def extract_from_devtools():
     cookie_text = ' '.join(lines)
     
     # Parse cookies
-    cookies = {}
+    cookies: Dict[str, str] = {}
     
     # Try format 1: name=value; name=value
     if '=' in cookie_text and ';' in cookie_text:
@@ -87,7 +88,7 @@ def extract_from_devtools():
     return cookies
 
 
-def save_cookies(cookies: dict, portal: str):
+def save_cookies(cookies: Dict[str, str], portal: str) -> Path:
     """Save cookies to file."""
     config_dir = Path.home() / '.config'
     config_dir.mkdir(exist_ok=True)
