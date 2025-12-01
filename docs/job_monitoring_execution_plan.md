@@ -52,7 +52,7 @@
 - **Mon Dec 9**: Create state_manager.py with StateManager class (load_state, save_state, add_job, update_job, get_job, cleanup_old_jobs, is_seen), implement atomic file operations with backup
 - **Tue Dec 10**: Create job_scorer.py with JobScorer class, implement scoring algorithm (keyword matching, company/location preferences, recency bonus), add score explanation method
 - **Wed Dec 11**: Create deduplicator.py (URL-based primary, title+company normalized secondary), begin job_monitor.py with JobMonitor class skeleton
-- **Thu Dec 12**: Complete job_monitor.py orchestrator (scan workflow, _scrape_source, _process_jobs, _categorize_jobs, _save_candidates, _update_statistics), add --force and --dry-run support
+- **Thu Dec 12**: Complete job_monitor.py orchestrator (scan workflow, `_scrape_source`, `_process_jobs`, `_categorize_jobs`, `_save_candidates`, `_update_statistics`), add --force and --dry-run support
 
 **Phase 2 Validation Gate (Dec 12)**:
 
