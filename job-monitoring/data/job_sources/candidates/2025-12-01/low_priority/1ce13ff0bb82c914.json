@@ -1,0 +1,21 @@
+{
+  "job": {
+    "id": "1ce13ff0bb82c914",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/bilar99e-automyyjaksi-bilarille-vantaa-sdsuu-19734955",
+    "title": "Automyyjäksi Bilarille",
+    "company": "Bilar99",
+    "location": "Vantaa –",
+    "posted_date": "Julkaistu 11.11.",
+    "discovered_date": "2025-12-01T13:45:37.574636",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

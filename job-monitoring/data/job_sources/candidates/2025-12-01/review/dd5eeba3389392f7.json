@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "dd5eeba3389392f7",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/lead-software-development-engineerarchitect-scsom-19534263",
+    "title": "Lead Software Development Engineer/Architect",
+    "company": "Verifone",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 19.11.",
+    "discovered_date": "2025-12-01T13:45:39.050008",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 50.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "software",
+    "IT",
+    "architect",
+    "lead"
+  ],
+  "category": "Review"
+}

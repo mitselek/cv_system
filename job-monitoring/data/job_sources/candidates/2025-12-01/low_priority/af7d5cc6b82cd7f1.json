@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "af7d5cc6b82cd7f1",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/koodaava-arkkitehti-scsgi-19778788",
+    "title": "Koodaava arkkitehti",
+    "company": "CGI Suomi",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 24.11.",
+    "discovered_date": "2025-12-01T13:45:39.050795",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "IT"
+  ],
+  "category": "Low Priority"
+}

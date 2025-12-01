@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "4253b33d1fc44060",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/arco-architecture-johtava-paa-ja-arkkitehtisuunnittelija-turkuun-sdsuu-19784629",
+    "title": "Johtava pää- ja arkkitehtisuunnittelija Turkuun",
+    "company": "Arco Architecture Company Oy",
+    "location": "Turku –",
+    "posted_date": "Julkaistu 27.11.",
+    "discovered_date": "2025-12-01T13:45:37.574305",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0
+  },
+  "matched_keywords": [
+    "IT",
+    "architect"
+  ],
+  "category": "Low Priority"
+}

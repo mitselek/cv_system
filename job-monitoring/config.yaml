@@ -1,0 +1,88 @@
+sources:
+  - name: duunitori
+    enabled: true
+    cookies_file: /home/michelek/.config/job_scraper_cookies_duunitori.json
+    queries:
+      - keywords: system analyst
+        location: Helsinki
+        limit: 30
+      - keywords: IT projektijuht
+        location: ""
+        limit: 30
+      - keywords: software architect
+        location: Helsinki
+        limit: 30
+      - keywords: project manager IT
+        location: ""
+        limit: 30
+
+  - name: linkedin
+    enabled: false
+    queries:
+      - keywords: System Analyst Finland
+        limit: 30
+      - keywords: IT Project Manager Estonia
+        limit: 30
+
+  - name: tyomarkkinatori
+    enabled: false
+    queries:
+      - keywords: järjestelmäanalyytikko
+        limit: 30
+
+scoring:
+  positive_keywords:
+    - system analyst
+    - järjestelmäanalyytikko
+    - projektijuht
+    - project manager
+    - software architect
+    - technical lead
+    - IT manager
+    - software
+    - IT
+    - architect
+    - senior
+    - lead
+    - developer
+  
+  negative_keywords:
+    - junior
+    - intern
+    - trainee
+    - student
+    - part-time
+  
+  required_keywords: []
+  
+  preferred_companies:
+    - Playtech
+    - Wise
+    - Bolt
+    - Pipedrive
+    - Wärtsilä
+    - Nokia
+    - ABB
+    - Kone
+    - Rovio
+  
+  blocked_companies: []
+  
+  preferred_locations:
+    - Tallinn
+    - Helsinki
+    - Espoo
+    - Vantaa
+    - remote
+    - Finland
+    - Estonia
+  
+  remote_bonus: 2.0
+  days_threshold_fresh: 7
+  days_threshold_old: 30
+
+state_file: data/job_sources/state.json
+candidates_dir: data/job_sources/candidates/
+
+scan_interval_hours: 24
+auto_archive_days: 30

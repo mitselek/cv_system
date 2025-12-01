@@ -1,0 +1,82 @@
+[project]
+name = "job-monitor"
+version = "1.0.0"
+description = "Automated job monitoring and tracking system"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Michele K", email = "your@email.com"}
+]
+
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "click>=8.1.0",
+    "pydantic>=2.0.0",
+    "python-dateutil>=2.8.0",
+    "pyyaml>=6.0",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.0.0",
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "types-pyyaml>=6.0.0",
+    "types-requests>=2.31.0",
+    "types-python-dateutil>=2.8.0",
+]
+
+[project.scripts]
+job-monitor = "job_monitor.cli:cli"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v --strict-markers"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_defs = false
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = []
+
+[tool.coverage.run]
+source = ["src/job_monitor"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

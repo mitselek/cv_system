@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "a7dd1ea60ac200e5",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/ratkaisuarkkitehti-helsingin-seudun-liikenne-hsl-helsinki-sasca-19598174",
+    "title": "Ratkaisuarkkitehti, Helsingin seudun liikenne HSL, Helsinki",
+    "company": "Academic Work",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 16.9.",
+    "discovered_date": "2025-12-01T13:45:39.051288",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "IT"
+  ],
+  "category": "Low Priority"
+}
