@@ -1,0 +1,94 @@
+# Product Manager - ONEiO
+
+**Score:** 70/100 ✨
+**Category:** High Priority 🔥
+**Location:** Helsinki –
+**Posted:** Julkaistu 11.8.
+**Discovered:** 2025-12-01
+
+## Quick Info
+
+- **Company:** ONEiO
+- **Source:** duunitori
+- **Location:** Helsinki –
+- **URL:** [https://duunitori.fi/tyopaikat/tyo/product-manager-stshe-19505523](https://duunitori.fi/tyopaikat/tyo/product-manager-stshe-19505523)
+
+## Score Breakdown
+
+- **Positive Keywords:** +80 points
+- **Negative Keywords:** -20 points
+- **Preferred Location:** +10 points
+
+**Total:** 70/100
+
+## Matched Keywords (8)
+
+API, IT, agile, documentation, lead, manager, product manager, team leadership
+
+## Job Description
+
+Role Overview ONEiO is on a mission to revolutionize how integrations are delivered - turning brittle, project-based integrations into scalable, lifecycle-managed services.
+
+As Product Manager for Managed Integration Services, you will lead the definition, packaging, and enablement of ONEiO's repeatable, high-impact service offerings.
+
+This role is more than service design - it's about inspiring the organization to adopt a new operating model : Integration Ops.
+
+You'll act as the voice of this transformation internally and externally, helping teams and customers understand how we shift from fragile integration projects to resilient integration capabilities.
+
+You will own the service catalog, drive alignment across Delivery, Product, and Commercial functions, and ensure every managed service delivers measurable customer value, operational scalability, and platform-aligned execution.
+
+Key Responsibilities Service Design & Ownership Define and maintain a portfolio of Managed Integration Services , such as onboarding, monitoring, change handling, and support escalation Establish SLAs, scope definitions, roles, and pricing models aligned to customer outcomes and internal delivery capabilities.
+
+Drive consistency and repeatability through templates, playbooks, and operational patterns.
+
+Product Management & Roadmap Own and evolve parts of the ONEiO SaaS platform roadmap that intersect with managed services - such as automation tooling, configuration UX, and observability features.
+
+Collaborate with Engineering and Platform teams to prioritize and define requirements for product enhancements that enable better service delivery and customer experience.
+
+Bring a holistic product management mindset - balancing internal operational needs, external customer demands, and strategic platform evolution.
+
+Go-to-Market & Cross-Team Leadership Translate technical capabilities into clear, compelling offerings with aligned messaging, documentation, and internal enablement.
+
+Inspire internal teams - from engineers to sales - around the opportunity Integration Ops brings to ONEiO's customers and the market.
+
+Act as a product marketing partner to commercial teams by creating value propositions, FAQs, collateral, and training content.
+
+Lifecycle & Operational Excellence Act as the lifecycle owner for all managed services - ensuring continuous improvement based on customer feedback, delivery metrics, and commercial insights.
+
+Collaborate with Delivery and Platform teams to automate lifecycle work , reduce variance, and increase reusability.
+
+Track and improve service-level KPIs like onboarding time, configuration reusability, MTTR, and cost-per-integration.
+
+What We're Looking For 4-7 years of experience in product management, product marketing, service design , or a related cross-functional role.
+
+Demonstrated ability to design, own, and iterate on repeatable service offerings - ideally in a platform, SaaS, or IT services context.
+
+Clear understanding of Integration, iPaaS, or DevOps landscapes; knowledge of Integration Ops is a major plus.
+
+A compelling communicator who can rally diverse stakeholders around a common vision and inspire action.
+
+Strong documentation, prioritization, and product lifecycle skills; able to switch between strategic narratives and operational detail.
+
+Embodies ONEiO's iONEER mindset - takes ownership, starts with the customer, inspires others, and delivers results .
+
+Why ONEiO Revolutionize an industry : Play a key role in reshaping how integrations are delivered across global service ecosystems.
+
+Inspire and lead change : Drive not just internal clarity, but a mindset shift in how our customers view and consume integrations.
+
+Work with forward thinkers : Be part of a team that combines platform engineering, automation, and service design to scale outcomes.
+
+Grow with purpose : Contribute to ONEiO's global growth and help build a culture of empowerment, ownership, and creativity.
+
+## Actions
+
+- [ ] Review job posting in detail
+- [ ] Check company culture and reviews
+- [ ] Prepare tailored CV and cover letter
+- [ ] Submit application
+- [ ] Follow up after 1 week
+
+---
+
+*Job ID: 8e8eaa9e53cb6eeb*  
+*Status: JobStatus.NEW*  
+*Exported: 2025-12-01 14:38*

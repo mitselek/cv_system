@@ -17,6 +17,7 @@ import click
 from job_monitor.config import ConfigManager, ConfigurationError
 from job_monitor.deduplicator import Deduplicator
 from job_monitor.digest import DigestGenerator
+from job_monitor.markdown_exporter import MarkdownExporter
 from job_monitor.scorer import JobScorer
 from job_monitor.schemas import JobPosting, JobStatus, ScoredJob, SystemConfig
 from job_monitor.state import StateManager
@@ -50,6 +51,8 @@ def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict
 def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict[str, int]:
     """Save scored jobs to date-stamped candidate directories.
     
+    Saves both JSON (for automation) and Markdown (for humans).
+    
     Returns dict with counts per category.
     """
     today = datetime.now().strftime("%Y-%m-%d")
@@ -82,6 +85,10 @@ def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict
         filepath = target_dir / f"{sj.job.id}.json"
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(sj.model_dump(mode="json"), f, ensure_ascii=False, indent=2)
+        
+        # Save as Markdown for human readability
+        md_filepath = target_dir / f"{sj.job.id}.md"
+        MarkdownExporter.export_job(sj, md_filepath)
     
     return counts
 

@@ -172,6 +172,57 @@ With `--full-details`:
 
 **Recommendation:** Use `--full-details` for weekly comprehensive scans, quick scans for daily monitoring.
 
+### Output Formats
+
+The system saves candidates in **dual formats** for different use cases:
+
+**JSON Format** (`{job_id}.json`):
+
+- Machine-readable format for automation and scripting
+- Contains all structured data (job details, scoring breakdown, matched keywords)
+- Used by CLI tools and future integrations
+
+**Markdown Format** (`{job_id}.md`):
+
+- Human-readable format for browsing and review
+- Rich formatting with emojis and action checklists
+- Clickable URLs and organized sections
+- Perfect for reading in VS Code or GitHub
+
+**Example Markdown structure:**
+
+```markdown
+# Job Title - Company Name
+
+**Score:** 85/100 ⭐
+**Category:** High Priority 🔥
+
+## Quick Info
+- Company, source, location, URL
+
+## Score Breakdown
+- Detailed points per category
+
+## Matched Keywords (N)
+- All matching keywords found
+
+## Job Description
+- Full description with formatting
+
+## Actions
+- [ ] Review job posting in detail
+- [ ] Check company culture and reviews
+- [ ] Prepare tailored CV and cover letter
+- [ ] Submit application
+- [ ] Follow up after 1 week
+```
+
+Both formats are saved automatically during scans to:
+
+- `data/job_sources/candidates/YYYY-MM-DD/high_priority/`
+- `data/job_sources/candidates/YYYY-MM-DD/review/`
+- `data/job_sources/candidates/YYYY-MM-DD/low_priority/`
+
 ```text
 cv_system/
 ├── scripts/                # Core monitoring and scoring logic
