@@ -7,13 +7,15 @@ Phase 2: implement scan workflow with --dry-run and --force.
 from __future__ import annotations
 
 import argparse
+import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
 
 from config_manager import ConfigManager, ConfigurationError
 from deduplicator import Deduplicator
 from job_scorer import JobScorer
-from schemas import JobPosting, SystemConfig
+from schemas import JobPosting, ScoredJob, SystemConfig
 from state_manager import StateManager
 from job_scraper import JobScraper
 
@@ -40,6 +42,45 @@ def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict
     for j in jobs:
         j.source = source_name
     return jobs
+
+
+def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict[str, int]:
+    """Save scored jobs to date-stamped candidate directories.
+    
+    Returns dict with counts per category.
+    """
+    today = datetime.now().strftime("%Y-%m-%d")
+    day_dir = candidates_dir / today
+    
+    # Create category subdirectories
+    high_dir = day_dir / "high_priority"
+    review_dir = day_dir / "review"
+    low_dir = day_dir / "low_priority"
+    
+    high_dir.mkdir(parents=True, exist_ok=True)
+    review_dir.mkdir(parents=True, exist_ok=True)
+    low_dir.mkdir(parents=True, exist_ok=True)
+    
+    counts = {"high_priority": 0, "review": 0, "low_priority": 0}
+    
+    for sj in scored_jobs:
+        # Determine directory by category
+        if sj.category == "High Priority":
+            target_dir = high_dir
+            counts["high_priority"] += 1
+        elif sj.category == "Review":
+            target_dir = review_dir
+            counts["review"] += 1
+        else:  # Low Priority
+            target_dir = low_dir
+            counts["low_priority"] += 1
+        
+        # Save as JSON with job ID as filename
+        filepath = target_dir / f"{sj.job.id}.json"
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(sj.model_dump(mode="json"), f, ensure_ascii=False, indent=2)
+    
+    return counts
 
 
 def scan(config_path: Path, dry_run: bool, force: bool) -> int:
@@ -95,6 +136,11 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
 
     print(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique.")
 
+    # Save candidates to directories
+    if scored and not dry_run:
+        counts = _save_candidates(cfg.candidates_dir, scored)
+        print(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
+    
     # Update state and optionally persist
     for sj in scored:
         sm.add_job(sj.job)
@@ -102,7 +148,7 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
     sm.touch_scan_time()
 
     if dry_run:
-        print("Dry-run: not saving state")
+        print("Dry-run: not saving state or candidates")
     else:
         sm.save_state()
         print(f"State saved to {cfg.state_file}")
