@@ -5,7 +5,8 @@ from pathlib import Path
 import pytest
 
 from job_monitor.markdown_exporter import MarkdownExporter
-from job_monitor.schemas import JobPosting, ScoredJob
+from job_monitor.schemas import JobPosting, JobStatus, ScoredJob
+from pydantic import HttpUrl
 
 
 def test_export_job_basic(tmp_path: Path) -> None:
@@ -15,12 +16,12 @@ def test_export_job_basic(tmp_path: Path) -> None:
         title="Senior Python Developer",
         company="Example Corp",
         location="Helsinki",
-        url="https://example.com/job/123",
+        url=HttpUrl("https://example.com/job/123"),
         source="duunitori",
         discovered_date=datetime(2025, 12, 1),
         posted_date="2025-11-28",
         description="We are looking for a skilled Python developer with experience in web frameworks.",
-        status="new"
+        status=JobStatus.NEW
     )
     
     scored = ScoredJob(
@@ -69,10 +70,10 @@ def test_export_job_no_description(tmp_path: Path) -> None:
         title="Software Architect",
         company="Tech Inc",
         location="Remote",
-        url="https://example.com/job/456",
+        url=HttpUrl("https://example.com/job/456"),
         source="linkedin",
         discovered_date=datetime(2025, 12, 1),
-        status="new"
+        status=JobStatus.NEW
     )
     
     scored = ScoredJob(
@@ -107,10 +108,10 @@ def test_export_job_with_emojis(tmp_path: Path) -> None:
         title="Data Analyst",
         company="DataCo",
         location="Tampere",
-        url="https://example.com/job/789",
+        url=HttpUrl("https://example.com/job/789"),
         source="duunitori",
         discovered_date=datetime(2025, 12, 1),
-        status="new"
+        status=JobStatus.NEW
     )
     
     # High score (90+) should get star emoji
@@ -139,10 +140,10 @@ def test_export_jobs_batch(tmp_path: Path) -> None:
             title=f"Job {i}",
             company=f"Company {i}",
             location="Helsinki",
-            url=f"https://example.com/job/{i}",
+            url=HttpUrl(f"https://example.com/job/{i}"),
             source="duunitori",
             discovered_date=datetime(2025, 12, 1),
-            status="new"
+            status=JobStatus.NEW
         )
         scored = ScoredJob(
             job=job,
@@ -168,10 +169,10 @@ def test_export_creates_parent_dirs(tmp_path: Path) -> None:
         title="Test Job",
         company="Test Co",
         location="Helsinki",
-        url="https://example.com/job/nested",
+        url=HttpUrl("https://example.com/job/nested"),
         source="duunitori",
         discovered_date=datetime(2025, 12, 1),
-        status="new"
+        status=JobStatus.NEW
     )
     
     scored = ScoredJob(

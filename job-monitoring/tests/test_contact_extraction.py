@@ -123,7 +123,7 @@ class TestContactExtraction(unittest.TestCase):
         description, contact_info = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
         
         self.assertIsNotNone(contact_info['contact_phone'])
-        self.assertIn('040', contact_info['contact_phone'])
+        self.assertIn('040', contact_info['contact_phone'] or '')
     
     @patch('job_monitor.scraper.requests.Session')
     def test_no_contact_info_available(self, mock_session_class):
