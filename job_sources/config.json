@@ -1,0 +1,140 @@
+{
+  "sources": [
+    {
+      "name": "duunitori",
+      "enabled": true,
+      "queries": [
+        {
+          "keywords": "system analyst",
+          "location": "Helsinki",
+          "priority": "high",
+          "comment": "Core role - highest priority"
+        },
+        {
+          "keywords": "IT projektijuht",
+          "location": "",
+          "priority": "high",
+          "comment": "Project manager roles - Estonian/Finnish hybrid"
+        },
+        {
+          "keywords": "software architect",
+          "location": "Helsinki",
+          "priority": "medium",
+          "comment": "Technical leadership"
+        },
+        {
+          "keywords": "project manager IT",
+          "location": "",
+          "priority": "medium",
+          "comment": "General IT PM roles"
+        }
+      ],
+      "schedule": "daily",
+      "max_results_per_query": 30,
+      "cookie_file": "~/.config/job_scraper_cookies_duunitori.json"
+    },
+    {
+      "name": "linkedin",
+      "enabled": false,
+      "queries": [
+        {
+          "keywords": "System Analyst Finland",
+          "priority": "high"
+        },
+        {
+          "keywords": "IT Project Manager Estonia",
+          "priority": "high"
+        }
+      ],
+      "schedule": "daily",
+      "cookie_file": "~/.config/job_scraper_cookies_linkedin.json"
+    },
+    {
+      "name": "tyomarkkinatori",
+      "enabled": false,
+      "queries": [
+        {
+          "keywords": "järjestelmäanalyytikko",
+          "priority": "medium"
+        }
+      ],
+      "schedule": "weekly",
+      "cookie_file": "~/.config/job_scraper_cookies_tyomarkkinatori.json"
+    }
+  ],
+  "scoring": {
+    "keywords_match": {
+      "system analyst": 10,
+      "järjestelmäanalyytikko": 10,
+      "projektijuht": 10,
+      "project manager": 8,
+      "software architect": 8,
+      "technical lead": 7,
+      "IT manager": 7,
+      "software": 5,
+      "IT": 3,
+      "developer": 4,
+      "architect": 6,
+      "senior": 2,
+      "lead": 3
+    },
+    "negative_keywords": {
+      "junior": -5,
+      "intern": -10,
+      "trainee": -10,
+      "student": -8,
+      "part-time": -3
+    },
+    "companies_preferred": {
+      "Playtech": 5,
+      "Wise": 5,
+      "Bolt": 5,
+      "Pipedrive": 5,
+      "Wärtsilä": 4,
+      "Nokia": 4,
+      "ABB": 4,
+      "Kone": 3,
+      "Rovio": 3
+    },
+    "locations_preferred": {
+      "Helsinki": 3,
+      "Tallinn": 5,
+      "Espoo": 3,
+      "Vantaa": 2,
+      "remote": 2,
+      "Finland": 1,
+      "Estonia": 2
+    },
+    "recency_bonus": {
+      "days_0_7": 5,
+      "days_8_14": 2,
+      "days_15_30": 0,
+      "days_31_plus": -3
+    },
+    "threshold_review": 15,
+    "threshold_high_priority": 20,
+    "threshold_auto_apply": 28
+  },
+  "deduplication": {
+    "match_by": ["url", "title_company"],
+    "similarity_threshold": 0.85
+  },
+  "notifications": {
+    "enabled": false,
+    "email": {
+      "enabled": false,
+      "to": "your@email.com",
+      "daily_digest": true,
+      "high_priority_immediate": false
+    },
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    }
+  },
+  "retention": {
+    "archive_after_days": 30,
+    "delete_archived_after_days": 180
+  }
+}
