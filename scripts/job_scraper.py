@@ -7,7 +7,7 @@ Supports: Duunitori, Tyomarkkinatori, LinkedIn
 import json
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Tag
@@ -32,21 +32,23 @@ class JobScraper:
             sys.exit(1)
         
         with open(self.cookies_file, 'r') as f:
-            cookies_data: Union[List[Dict[str, Any]], Dict[str, str]] = json.load(f)
+            cookies_data = json.load(f)  # type: ignore[no-untyped-call]
         
         # Handle different cookie export formats
         if isinstance(cookies_data, list):
             # Format: [{"name": "...", "value": "...", "domain": "..."}]
-            for cookie in cookies_data:
-                self.session.cookies.set(
-                    str(cookie['name']),
-                    str(cookie['value']),
-                    domain=str(cookie.get('domain', ''))
+            for cookie_item in cookies_data:  # type: ignore[attr-defined]
+                cookie: Dict[str, Any] = cookie_item  # type: ignore[assignment]
+                self.session.cookies.set(  # type: ignore[no-untyped-call]
+                    str(cookie['name']),  # type: ignore[arg-type]
+                    str(cookie['value']),  # type: ignore[arg-type]
+                    domain=str(cookie.get('domain', ''))  # type: ignore[arg-type]
                 )
-        elif isinstance(cookies_data, dict):
+        else:
             # Format: {"cookie_name": "cookie_value"}
-            for name, value in cookies_data.items():
-                self.session.cookies.set(str(name), str(value))
+            cookies_dict: Dict[str, Any] = cookies_data  # type: ignore[assignment]
+            for name, value in cookies_dict.items():
+                self.session.cookies.set(str(name), str(value))  # type: ignore[no-untyped-call]
         
         # Set common headers
         self.session.headers.update({
