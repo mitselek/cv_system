@@ -12,11 +12,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
 
+import click
+
 from config_manager import ConfigManager, ConfigurationError
 from deduplicator import Deduplicator
 from digest_generator import DigestGenerator
 from job_scorer import JobScorer
-from schemas import JobPosting, ScoredJob, SystemConfig
+from schemas import JobPosting, JobStatus, ScoredJob, SystemConfig
 from state_manager import StateManager
 from job_scraper import JobScraper
 
@@ -84,12 +86,24 @@ def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict
     return counts
 
 
-def scan(config_path: Path, dry_run: bool, force: bool) -> int:
+@click.group()
+@click.version_option(version="1.0.0")
+def cli() -> None:
+    """Job monitoring and application management system."""
+    pass
+
+
+@cli.command()
+@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option("--dry-run", is_flag=True, help="Run without saving state or candidates")
+@click.option("--force", is_flag=True, help="Force rescan of all sources")
+def scan(config: Path, dry_run: bool, force: bool) -> None:
+    """Scan enabled job sources and save candidates."""
     try:
-        cm = ConfigManager(config_path)
+        cm = ConfigManager(config)
     except ConfigurationError as e:
-        print(f"Config error: {e}")
-        return 2
+        click.echo(f"Config error: {e}", err=True)
+        raise SystemExit(2)
 
     cfg: SystemConfig = cm.config
     # Ensure directories
@@ -102,8 +116,8 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
 
     enabled = cm.get_enabled_sources()
     if not enabled:
-        print("No enabled sources in config.")
-        return 0
+        click.echo("No enabled sources in config.")
+        return
 
     all_jobs: list[JobPosting] = []
 
@@ -123,7 +137,7 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
         if not src.enabled:
             continue
         if not _supported_source(src.name):
-            print(f"Skipping unsupported source: {src.name}")
+            click.echo(f"Skipping unsupported source: {src.name}")
             continue
         if scraper is None:
             continue  # dry-run: skip network scraping
@@ -135,17 +149,17 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
 
     scored = [scorer.score(j) for j in unique_jobs]
 
-    print(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique.")
+    click.echo(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique.")
 
     # Save candidates to directories
     if scored and not dry_run:
         counts = _save_candidates(cfg.candidates_dir, scored)
-        print(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
+        click.echo(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
         
         # Generate digest
         dg = DigestGenerator(cfg.candidates_dir)
         digest_path = dg.save_digest()
-        print(f"Digest saved to {digest_path}")
+        click.echo(f"Digest saved to {digest_path}")
     
     # Update state and optionally persist
     for sj in scored:
@@ -154,30 +168,259 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
     sm.touch_scan_time()
 
     if dry_run:
-        print("Dry-run: not saving state or candidates")
+        click.echo("Dry-run: not saving state or candidates")
     else:
         sm.save_state()
-        print(f"State saved to {cfg.state_file}")
-
-    return 0
+        click.echo(f"State saved to {cfg.state_file}")
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Job monitoring tool")
-    sub = parser.add_subparsers(dest="cmd")
+@cli.command()
+@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option("--category", type=click.Choice(["high", "review", "low", "all"]), default="all", help="Filter by category")
+@click.option("--min-score", type=float, help="Minimum score threshold")
+@click.option("--source", help="Filter by source")
+@click.option("--date", help="Filter by date (YYYY-MM-DD)")
+def review(config: Path, category: str, min_score: float | None, source: str | None, date: str | None) -> None:
+    """Review candidate jobs with optional filtering."""
+    try:
+        cm = ConfigManager(config)
+    except ConfigurationError as e:
+        click.echo(f"Config error: {e}", err=True)
+        raise SystemExit(2)
+    
+    cfg = cm.config
+    
+    if date is None:
+        date = datetime.now().strftime("%Y-%m-%d")
+    
+    day_dir = cfg.candidates_dir / date
+    
+    if not day_dir.exists():
+        click.echo(f"No candidates found for {date}")
+        return
+    
+    # Load candidates based on category filter
+    categories = []
+    if category == "all":
+        categories = ["high_priority", "review", "low_priority"]
+    elif category == "high":
+        categories = ["high_priority"]
+    elif category == "review":
+        categories = ["review"]
+    elif category == "low":
+        categories = ["low_priority"]
+    
+    all_candidates: list[ScoredJob] = []
+    for cat in categories:
+        cat_dir = day_dir / cat
+        if cat_dir.exists():
+            for json_file in cat_dir.glob("*.json"):
+                try:
+                    with open(json_file, "r") as f:
+                        data = json.load(f)
+                        sj = ScoredJob(**data)
+                        
+                        # Apply filters
+                        if min_score and sj.score < min_score:
+                            continue
+                        if source and sj.job.source != source:
+                            continue
+                        
+                        all_candidates.append(sj)
+                except Exception as e:
+                    click.echo(f"Warning: Failed to load {json_file}: {e}", err=True)
+    
+    if not all_candidates:
+        click.echo("No candidates match the filters")
+        return
+    
+    # Sort by score
+    all_candidates.sort(key=lambda x: x.score, reverse=True)
+    
+    click.echo(f"\n{'='*80}")
+    click.echo(f"Candidates for {date} ({len(all_candidates)} total)")
+    click.echo(f"{'='*80}\n")
+    
+    for i, sj in enumerate(all_candidates, 1):
+        click.echo(f"{i}. {sj.job.title} @ {sj.job.company}")
+        click.echo(f"   Score: {sj.score:.1f}/100 | Category: {sj.category}")
+        click.echo(f"   Location: {sj.job.location or 'N/A'} | Source: {sj.job.source}")
+        if sj.matched_keywords:
+            click.echo(f"   Keywords: {', '.join(sj.matched_keywords)}")
+        click.echo(f"   URL: {sj.job.url}")
+        click.echo()
 
-    p_scan = sub.add_parser("scan", help="Scan enabled sources")
-    p_scan.add_argument("--config", default="config.example.yaml", type=Path)
-    p_scan.add_argument("--dry-run", action="store_true")
-    p_scan.add_argument("--force", action="store_true")
 
-    args = parser.parse_args()
+@cli.command()
+@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+def stats(config: Path) -> None:
+    """Show monitoring statistics."""
+    try:
+        cm = ConfigManager(config)
+    except ConfigurationError as e:
+        click.echo(f"Config error: {e}", err=True)
+        raise SystemExit(2)
+    
+    cfg = cm.config
+    sm = StateManager(cfg.state_file)
+    
+    state = sm.state
+    
+    click.echo(f"\n{'='*80}")
+    click.echo("Job Monitoring Statistics")
+    click.echo(f"{'='*80}\n")
+    
+    click.echo(f"Last Scan: {state.last_scan or 'Never'}")
+    click.echo(f"Total Jobs Seen: {state.total_jobs_seen}")
+    click.echo(f"Total Candidates: {state.total_candidates}")
+    click.echo(f"Total Applications: {state.total_applications}")
+    click.echo()
+    
+    click.echo("By Status:")
+    click.echo(f"  New: {len(state.new_jobs)}")
+    click.echo(f"  Candidates: {len(state.candidates)}")
+    click.echo(f"  Applied: {len(state.applied)}")
+    click.echo()
+    
+    if state.stats_by_source:
+        click.echo("By Source:")
+        for source, count in sorted(state.stats_by_source.items()):
+            click.echo(f"  {source}: {count}")
+        click.echo()
 
-    if args.cmd == "scan":
-        return scan(args.config, args.dry_run, args.force)
-    parser.print_help()
-    return 1
+
+@cli.command()
+@click.argument("job-id")
+@click.argument("status", type=click.Choice(["candidate", "applied", "rejected"]))
+@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+def mark(job_id: str, status: str, config: Path) -> None:
+    """Mark a job with a new status."""
+    try:
+        cm = ConfigManager(config)
+    except ConfigurationError as e:
+        click.echo(f"Config error: {e}", err=True)
+        raise SystemExit(2)
+    
+    cfg = cm.config
+    sm = StateManager(cfg.state_file)
+    
+    job = sm.get_job(job_id)
+    if not job:
+        click.echo(f"Job {job_id} not found", err=True)
+        raise SystemExit(1)
+    
+    # Update job status
+    if status == "candidate":
+        job.status = JobStatus.CANDIDATE
+        if job_id not in sm.state.candidates:
+            sm.state.candidates.append(job_id)
+        if job_id in sm.state.new_jobs:
+            sm.state.new_jobs.remove(job_id)
+    elif status == "applied":
+        job.status = JobStatus.APPLIED
+        if job_id not in sm.state.applied:
+            sm.state.applied.append(job_id)
+        if job_id in sm.state.candidates:
+            sm.state.candidates.remove(job_id)
+        sm.state.total_applications += 1
+    elif status == "rejected":
+        job.status = JobStatus.REJECTED
+        if job_id in sm.state.new_jobs:
+            sm.state.new_jobs.remove(job_id)
+        if job_id in sm.state.candidates:
+            sm.state.candidates.remove(job_id)
+    
+    sm.update_job(job)
+    sm.save_state()
+    
+    click.echo(f"Marked job {job_id} as {status}")
+
+
+@cli.command()
+@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option("--days", default=60, help="Archive jobs older than this many days")
+@click.option("--dry-run", is_flag=True, help="Show what would be archived without doing it")
+def cleanup(config: Path, days: int, dry_run: bool) -> None:
+    """Archive old jobs from state."""
+    try:
+        cm = ConfigManager(config)
+    except ConfigurationError as e:
+        click.echo(f"Config error: {e}", err=True)
+        raise SystemExit(2)
+    
+    cfg = cm.config
+    sm = StateManager(cfg.state_file)
+    
+    if dry_run:
+        click.echo(f"Would archive jobs older than {days} days")
+        # Count would-be archived
+        from datetime import timezone
+        now = datetime.now(timezone.utc)
+        count = 0
+        for job_id, job in sm.state.seen_jobs.items():
+            try:
+                age_days = (now - job.discovered_date.replace(tzinfo=timezone.utc)).days
+                if age_days > days:
+                    count += 1
+            except Exception:
+                pass
+        click.echo(f"Would archive {count} jobs")
+    else:
+        archived = sm.cleanup_old_jobs(days)
+        sm.save_state()
+        click.echo(f"Archived {archived} jobs")
+
+
+@cli.command()
+@click.option("--output", default="config.yaml", type=click.Path(path_type=Path), help="Output configuration file")
+def init(output: Path) -> None:
+    """Create a configuration file template."""
+    template = """sources:
+  - name: duunitori.fi
+    enabled: true
+    queries:
+      - keywords: python developer
+        location: helsinki
+        limit: 20
+
+scoring:
+  positive_keywords:
+    - python
+    - django
+    - postgresql
+  negative_keywords:
+    - java
+    - .net
+  required_keywords: []
+  preferred_companies: []
+  blocked_companies: []
+  preferred_locations:
+    - remote
+    - helsinki
+  remote_bonus: 15
+  days_threshold_fresh: 7
+  days_threshold_old: 30
+
+state_file: job_sources/monitor_state.json
+candidates_dir: job_sources/candidates
+scan_interval_hours: 24
+auto_archive_days: 60
+"""
+    
+    if output.exists():
+        if not click.confirm(f"{output} already exists. Overwrite?"):
+            click.echo("Aborted")
+            return
+    
+    output.write_text(template)
+    click.echo(f"Created configuration template at {output}")
+    click.echo("Edit the file to customize sources and scoring rules")
+
+
+def main() -> None:
+    """Main entry point."""
+    cli()
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()
