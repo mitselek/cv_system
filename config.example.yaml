@@ -1,0 +1,71 @@
+sources:
+  - name: cv.ee
+    enabled: true
+    queries:
+      - keywords: python django postgresql
+        location: tallinn
+        limit: 50
+      - keywords: python fastapi
+        location: remote
+        limit: 30
+  
+  - name: cvkeskus.ee
+    enabled: true
+    queries:
+      - keywords: software developer python
+        location: tallinn
+        limit: 40
+
+  - name: duunitori.fi
+    enabled: false
+    queries:
+      - keywords: python developer
+        location: helsinki
+        limit: 20
+
+scoring:
+  positive_keywords:
+    - python
+    - django
+    - fastapi
+    - postgresql
+    - docker
+    - kubernetes
+    - aws
+    - microservices
+    - agile
+    - ci/cd
+  
+  negative_keywords:
+    - php
+    - wordpress
+    - junior
+    - intern
+  
+  required_keywords:
+    - python
+  
+  preferred_companies:
+    - Microsoft
+    - Google
+    - Amazon
+    - Meta
+    - Tesla
+  
+  blocked_companies:
+    - ExampleBadCorp
+  
+  preferred_locations:
+    - tallinn
+    - remote
+    - helsinki
+  
+  remote_bonus: 15.0
+  days_threshold_fresh: 7
+  days_threshold_old: 30
+
+state_file: state/monitor_state.json
+candidates_dir: candidates/
+
+scan_interval_hours: 6
+auto_archive_days: 90
