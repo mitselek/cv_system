@@ -7,7 +7,7 @@
     "company": "Verifone",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 19.11.",
-    "discovered_date": "2025-12-01T13:45:39.050008",
+    "discovered_date": "2025-12-01T14:12:13.830467",
     "description": null,
     "status": "new",
     "notes": ""
@@ -18,10 +18,10 @@
     "preferred_location": 10.0
   },
   "matched_keywords": [
-    "software",
-    "IT",
+    "lead",
     "architect",
-    "lead"
+    "software",
+    "IT"
   ],
   "category": "Review"
 }

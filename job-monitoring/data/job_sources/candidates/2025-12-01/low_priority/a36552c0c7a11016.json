@@ -7,13 +7,17 @@
     "company": "Sandvik Mining and Construction Oy",
     "location": "Turku –",
     "posted_date": "Julkaistu 26.11.",
-    "discovered_date": "2025-12-01T13:45:37.573721",
+    "discovered_date": "2025-12-01T14:12:13.189404",
     "description": null,
     "status": "new",
     "notes": ""
   },
-  "score": 0.0,
-  "score_breakdown": {},
-  "matched_keywords": [],
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "manager"
+  ],
   "category": "Low Priority"
 }

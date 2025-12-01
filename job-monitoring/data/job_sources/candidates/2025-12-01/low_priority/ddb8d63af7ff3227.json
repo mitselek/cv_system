@@ -7,14 +7,15 @@
     "company": "CGI Suomi",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 10.10.",
-    "discovered_date": "2025-12-01T13:45:39.051035",
+    "discovered_date": "2025-12-01T14:12:13.831462",
     "description": null,
     "status": "new",
     "notes": ""
   },
-  "score": 20.0,
+  "score": 35.0,
   "score_breakdown": {
     "positive_keywords": 10.0,
+    "preferred_company": 15.0,
     "preferred_location": 10.0
   },
   "matched_keywords": [

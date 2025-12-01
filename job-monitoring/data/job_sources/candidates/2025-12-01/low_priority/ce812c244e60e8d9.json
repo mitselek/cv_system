@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "ce812c244e60e8d9",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/technical-product-owner-sdsan-19783943",
+    "title": "Technical Product Owner",
+    "company": "Danfoss",
+    "location": "Tampere ja 2 muuta –",
+    "posted_date": "Julkaistu 24.11.",
+    "discovered_date": "2025-12-01T14:12:14.654297",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 25.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_company": 15.0
+  },
+  "matched_keywords": [
+    "product owner"
+  ],
+  "category": "Low Priority"
+}

@@ -7,7 +7,7 @@
     "company": "Efima",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 21.10.",
-    "discovered_date": "2025-12-01T13:45:39.053484",
+    "discovered_date": "2025-12-01T14:12:13.833931",
     "description": null,
     "status": "new",
     "notes": ""
@@ -18,8 +18,8 @@
     "preferred_location": 10.0
   },
   "matched_keywords": [
-    "IT",
-    "architect"
+    "architect",
+    "IT"
   ],
   "category": "Low Priority"
 }

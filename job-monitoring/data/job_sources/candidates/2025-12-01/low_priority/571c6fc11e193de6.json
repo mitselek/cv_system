@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "571c6fc11e193de6",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/product-owner-aml-transaction-monitoring-talousrikollisuuden-torjunta-sospp-19770372",
+    "title": "Product Owner, AML Transaction monitoring, Talousrikollisuuden torjunta",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 20.11.",
+    "discovered_date": "2025-12-01T14:05:07.594756",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "IT"
+  ],
+  "category": "Low Priority"
+}

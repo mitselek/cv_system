@@ -47,19 +47,55 @@ sources:
 
 scoring:
   positive_keywords:
+    # Core role keywords (high value)
     - system analyst
+    - systems analyst
     - järjestelmäanalyytikko
-    - projektijuht
+    - business analyst
+    - product owner
+    - product manager
+    - delivery manager
     - project manager
     - software architect
+    - enterprise architect
+    - solution architect
     - technical lead
     - IT manager
-    - software
-    - IT
-    - architect
+    
+    # Technical skills from knowledge base
+    - database
+    - postgresql
+    - oracle
+    - mongodb
+    - mysql
+    - java
+    - javascript
+    - nodejs
+    - python
+    - spring boot
+    - API
+    - backend
+    - frontend
+    
+    # Domain expertise
+    - data analysis
+    - data integration
+    - data quality
+    - system architecture
+    - infrastructure
+    - documentation
+    - agile
+    - project management
+    - team leadership
+    
+    # General positive indicators
     - senior
     - lead
+    - architect
+    - manager
     - developer
+    - software
+    - IT
   
   negative_keywords:
     - junior
@@ -67,19 +103,40 @@ scoring:
     - trainee
     - student
     - part-time
+    - assistant
   
   required_keywords: []
   
   preferred_companies:
+    # High-value discovered companies
+    - McKinsey
+    - OP
+    - OP Pohjola
+    - Danfoss
+    - S-ryhmä
+    - Wärtsilä
+    - Aalto
+    - Aalto-yliopisto
+    - Telia
+    - Sievo
+    - CGI
+    - IBM
+    - ServiceNow
+    - Accenture
+    - Kesko
+    - Nokia
+    - ABB
     - Playtech
     - Wise
     - Bolt
     - Pipedrive
-    - Wärtsilä
-    - Nokia
-    - ABB
     - Kone
     - Rovio
+    
+    # Previous experience connections
+    - Eesti Kunstiakadeemia
+    - Justiitsministeerium
+    - Eesti Keele Instituut
   
   blocked_companies: []
   
@@ -89,10 +146,11 @@ scoring:
     - Espoo
     - Vantaa
     - remote
+    - hybrid
     - Finland
     - Estonia
   
-  remote_bonus: 2.0
+  remote_bonus: 5.0
   days_threshold_fresh: 7
   days_threshold_old: 30
 

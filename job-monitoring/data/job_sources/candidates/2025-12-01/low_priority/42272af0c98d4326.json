@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "42272af0c98d4326",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/analytics-lead-asiakkuuksien-liiketoiminta-analytiikka-pohjola-vakuutus-hki-sospp-19774318",
+    "title": "Analytics Lead, Asiakkuuksien Liiketoiminta-analytiikka, Pohjola Vakuutus, HKI",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 21.11.",
+    "discovered_date": "2025-12-01T14:12:14.657956",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 35.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_company": 15.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "lead"
+  ],
+  "category": "Low Priority"
+}

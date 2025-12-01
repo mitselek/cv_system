@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "ef7b8b2c97e32134",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/sales-manager-product-specialist-focus-scsom-19791071",
+    "title": "Sales Manager - Product Specialist focus",
+    "company": "Topcon Europe Medical B.V.",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 27.11.",
+    "discovered_date": "2025-12-01T14:12:14.800207",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 35.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_company": 15.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "manager"
+  ],
+  "category": "Low Priority"
+}

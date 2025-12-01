@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "f555f11cd9b844dc",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/service-delivery-manager-pankkitoimiala-scsgi-19763918",
+    "title": "Service Delivery Manager, pankkitoimiala",
+    "company": "CGI Suomi",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 18.11.",
+    "discovered_date": "2025-12-01T14:12:15.067465",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 55.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "preferred_company": 15.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "delivery manager",
+    "manager",
+    "IT"
+  ],
+  "category": "Review"
+}

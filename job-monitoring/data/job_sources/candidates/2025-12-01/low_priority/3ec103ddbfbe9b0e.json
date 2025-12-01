@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "3ec103ddbfbe9b0e",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/fullstack-developer-outdoor-payment-solutions-sok-helsinki-scsle-19701853",
+    "title": "Fullstack Developer (outdoor payment solutions), SOK, Helsinki",
+    "company": "SOK, Helsinki / Clevry",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 24.10.",
+    "discovered_date": "2025-12-01T14:12:14.655536",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "developer"
+  ],
+  "category": "Low Priority"
+}

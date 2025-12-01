@@ -7,7 +7,7 @@
     "company": "Arco Architecture Company Oy",
     "location": "Turku –",
     "posted_date": "Julkaistu 27.11.",
-    "discovered_date": "2025-12-01T13:45:37.574305",
+    "discovered_date": "2025-12-01T14:12:13.189969",
     "description": null,
     "status": "new",
     "notes": ""
@@ -17,8 +17,8 @@
     "positive_keywords": 20.0
   },
   "matched_keywords": [
-    "IT",
-    "architect"
+    "architect",
+    "IT"
   ],
   "category": "Low Priority"
 }

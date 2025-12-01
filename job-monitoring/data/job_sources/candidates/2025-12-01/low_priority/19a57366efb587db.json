@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "19a57366efb587db",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/competence-lead-afc-development-sospp-19784071",
+    "title": "Competence Lead, AFC Development",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 26.11.",
+    "discovered_date": "2025-12-01T14:12:14.656982",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 35.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_company": 15.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "lead"
+  ],
+  "category": "Low Priority"
+}

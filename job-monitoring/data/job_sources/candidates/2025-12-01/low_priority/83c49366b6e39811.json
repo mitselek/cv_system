@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "83c49366b6e39811",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/business-analyst-k-ryhmaan-skses-19784431",
+    "title": "Business Analyst päivittäistavarakaupan liiketoiminnan kehitykseen K-ryhmään",
+    "company": "Kesko",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 26.11.",
+    "discovered_date": "2025-12-01T14:05:07.394542",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "IT"
+  ],
+  "category": "Low Priority"
+}

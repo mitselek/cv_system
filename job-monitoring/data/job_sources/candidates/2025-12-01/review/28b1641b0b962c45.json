@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "28b1641b0b962c45",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-product-manager-games-scsom-19732550",
+    "title": "Senior Product Manager - Games",
+    "company": "Netflix",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 6.11.",
+    "discovered_date": "2025-12-01T14:12:14.799951",
+    "description": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 40.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "preferred_location": 10.0
+  },
+  "matched_keywords": [
+    "product manager",
+    "senior",
+    "manager"
+  ],
+  "category": "Review"
+}

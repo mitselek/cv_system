@@ -7,20 +7,21 @@
     "company": "ServiceNow",
     "location": "Helsinki –",
     "posted_date": "Julkaistu 10.7.",
-    "discovered_date": "2025-12-01T13:45:39.054800",
+    "discovered_date": "2025-12-01T14:12:13.835355",
     "description": null,
     "status": "new",
     "notes": ""
   },
-  "score": 40.0,
+  "score": 55.0,
   "score_breakdown": {
     "positive_keywords": 30.0,
+    "preferred_company": 15.0,
     "preferred_location": 10.0
   },
   "matched_keywords": [
-    "IT",
+    "senior",
     "architect",
-    "senior"
+    "IT"
   ],
   "category": "Review"
 }

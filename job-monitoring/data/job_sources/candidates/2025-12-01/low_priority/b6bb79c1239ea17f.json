@@ -7,7 +7,7 @@
     "company": "61N Solutions Oy",
     "location": "Helsinki ja 1 muu –",
     "posted_date": "Julkaistu 1.12.",
-    "discovered_date": "2025-12-01T13:45:39.051858",
+    "discovered_date": "2025-12-01T14:12:13.832308",
     "description": null,
     "status": "new",
     "notes": ""
@@ -18,8 +18,8 @@
     "preferred_location": 10.0
   },
   "matched_keywords": [
-    "IT",
-    "architect"
+    "architect",
+    "IT"
   ],
   "category": "Low Priority"
 }
