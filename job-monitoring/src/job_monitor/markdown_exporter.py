@@ -75,22 +75,20 @@ class MarkdownExporter:
         lines.append("")
         
         # Contact information (if available)
-        # Note: Currently JobPosting schema doesn't have contact fields
-        # This is a placeholder for future enhancement
         has_contact = False
-        if hasattr(job, 'contact_name') and job.contact_name:
+        if job.contact_name:
             if not has_contact:
                 lines.append("### Contact Information")
                 lines.append("")
                 has_contact = True
             lines.append(f"- **Contact Person:** {job.contact_name}")
-        if hasattr(job, 'contact_email') and job.contact_email:
+        if job.contact_email:
             if not has_contact:
                 lines.append("### Contact Information")
                 lines.append("")
                 has_contact = True
             lines.append(f"- **Email:** {job.contact_email}")
-        if hasattr(job, 'contact_phone') and job.contact_phone:
+        if job.contact_phone:
             if not has_contact:
                 lines.append("### Contact Information")
                 lines.append("")

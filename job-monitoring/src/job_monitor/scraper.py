@@ -72,15 +72,15 @@ class JobScraper:
             'Accept-Language': 'en-US,en;q=0.9,fi;q=0.8',
         })
     
-    def _extract_job_details(self, job_url: str, delay: float = 1.5) -> Optional[str]:
-        """Fetch full job posting page and extract description.
+    def _extract_job_details(self, job_url: str, delay: float = 1.5) -> tuple[str | None, dict[str, str | None]]:
+        """Fetch full job posting page and extract description and contact info.
         
         Args:
             job_url: Full URL to job posting
             delay: Delay in seconds before fetching (rate limiting)
             
         Returns:
-            Job description text or None if extraction fails
+            Tuple of (description, contact_info dict) or (None, empty dict) if extraction fails
         """
         try:
             # Rate limiting - be respectful to the server
@@ -91,19 +91,90 @@ class JobScraper:
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Duunitori uses .description--jobentry for job descriptions
+            # Extract description
+            description = None
             desc_elem = soup.select_one('.description--jobentry, .description')
-            
             if desc_elem:
-                # Extract text and clean up whitespace
                 description = desc_elem.get_text(separator=' ', strip=True)
-                return description
             
-            return None
+            # Extract contact information
+            contact_info = self._extract_contact_info(soup)
+            
+            return description, contact_info
             
         except Exception as e:
             print(f"⚠️  Error extracting details from {job_url}: {e}")
-            return None
+            return None, {}
+    
+    def _extract_contact_info(self, soup: BeautifulSoup) -> dict[str, str | None]:
+        """
+        Extract contact information from job detail page.
+        
+        Args:
+            soup: BeautifulSoup object of the job detail page
+            
+        Returns:
+            Dict with contact_name, contact_email, contact_phone (values may be None)
+        """
+        contact_info = {
+            'contact_name': None,
+            'contact_email': None,
+            'contact_phone': None
+        }
+        
+        try:
+            # Look for email with mailto: links
+            email_link = soup.select_one('a[href^="mailto:"]')
+            if email_link:
+                email = email_link.get('href', '').replace('mailto:', '').strip()
+                if email:
+                    contact_info['contact_email'] = email
+            
+            # Look for phone numbers with tel: links
+            phone_link = soup.select_one('a[href^="tel:"]')
+            if phone_link:
+                phone = phone_link.get('href', '').replace('tel:', '').strip()
+                if phone:
+                    contact_info['contact_phone'] = phone
+            
+            # Search for email patterns in text if not found
+            if not contact_info['contact_email']:
+                import re
+                email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+                text = soup.get_text()
+                emails = re.findall(email_pattern, text)
+                if emails:
+                    contact_info['contact_email'] = emails[0]
+            
+            # Search for phone patterns (Finnish numbers)
+            if not contact_info['contact_phone']:
+                import re
+                phone_pattern = r'(?:\+358|0)[\s-]?\d{1,3}[\s-]?\d{3,4}[\s-]?\d{3,4}'
+                text = soup.get_text()
+                phones = re.findall(phone_pattern, text)
+                if phones:
+                    contact_info['contact_phone'] = phones[0].strip()
+            
+            # Look for contact person name (simple text search near contact info)
+            if contact_info['contact_email'] or contact_info['contact_phone']:
+                # Try to find name near contact info
+                text_lines = soup.get_text().split('\n')
+                for i, line in enumerate(text_lines):
+                    if contact_info['contact_email'] and contact_info['contact_email'] in line:
+                        # Check previous lines for a name
+                        for j in range(max(0, i-3), i):
+                            potential_name = text_lines[j].strip()
+                            # Simple heuristic: 2-4 words, each capitalized
+                            words = potential_name.split()
+                            if 2 <= len(words) <= 4 and all(w[0].isupper() for w in words if w):
+                                contact_info['contact_name'] = potential_name
+                                break
+                        break
+        
+        except Exception as e:
+            print(f"⚠️  Error extracting contact info: {e}")
+        
+        return contact_info
     
     def search_duunitori(self, keywords: str, location: str = "", limit: int = 20, full_details: bool = False, state_manager: Any = None) -> List[JobPosting]:
         """Search Duunitori for jobs.
@@ -168,9 +239,16 @@ class JobScraper:
                     print(f"   📥 Extracting descriptions for {len(jobs_needing_details)} jobs...")
                     for i, job in enumerate(jobs_needing_details, 1):
                         print(f"      [{i}/{len(jobs_needing_details)}] {job.title[:50]}...")
-                        description = self._extract_job_details(str(job.url))
+                        description, contact_info = self._extract_job_details(str(job.url))
                         if description:
                             job.description = description
+                        # Update contact information
+                        if contact_info.get('contact_name'):
+                            job.contact_name = contact_info['contact_name']
+                        if contact_info.get('contact_email'):
+                            job.contact_email = contact_info['contact_email']
+                        if contact_info.get('contact_phone'):
+                            job.contact_phone = contact_info['contact_phone']
                     print(f"   ✅ Extracted {sum(1 for j in jobs_needing_details if j.description)} descriptions")
             
             print(f"✅ Parsed {len(jobs)} jobs successfully")

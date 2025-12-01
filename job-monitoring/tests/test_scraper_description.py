@@ -48,13 +48,14 @@ class TestDescriptionExtraction(unittest.TestCase):
         scraper = JobScraper(self.mock_cookies)
         scraper.session = mock_session
         
-        description = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
+        description, contact_info = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
         
         # Assertions
         self.assertIsNotNone(description)
         self.assertIn("business analyst", description)
         self.assertIn("data analysis", description)
         self.assertIn("agile", description)
+        self.assertIsInstance(contact_info, dict)
         mock_session.get.assert_called_once()
     
     @patch('job_monitor.scraper.requests.Session')
@@ -73,9 +74,10 @@ class TestDescriptionExtraction(unittest.TestCase):
         scraper = JobScraper(self.mock_cookies)
         scraper.session = mock_session
         
-        description = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
+        description, contact_info = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
         
         self.assertIsNone(description)
+        self.assertIsInstance(contact_info, dict)
     
     @patch('job_monitor.scraper.requests.Session')
     def test_extract_job_details_network_error(self, mock_session_class):
@@ -87,9 +89,11 @@ class TestDescriptionExtraction(unittest.TestCase):
         scraper = JobScraper(self.mock_cookies)
         scraper.session = mock_session
         
-        description = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
+        description, contact_info = scraper._extract_job_details("https://duunitori.fi/test", delay=0)
         
         self.assertIsNone(description)
+        self.assertEqual(contact_info, {})
+        self.assertEqual(contact_info, {})
     
     @patch('job_monitor.scraper.time.sleep')
     @patch('job_monitor.scraper.requests.Session')

@@ -44,6 +44,11 @@ class JobPosting(BaseModel):
     # Content
     description: str | None = Field(default=None, description="Full job description (if available)")
 
+    # Contact information (if available from job portal)
+    contact_name: str | None = Field(default=None, description="Contact person name")
+    contact_email: str | None = Field(default=None, description="Contact email address")
+    contact_phone: str | None = Field(default=None, description="Contact phone number")
+
     # Status tracking
     status: JobStatus = Field(default=JobStatus.NEW, description="Current status in workflow")
     notes: str = Field(default="", description="User notes about this job")
