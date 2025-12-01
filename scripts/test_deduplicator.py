@@ -1,6 +1,7 @@
 """Tests for deduplicator.py"""
 from __future__ import annotations
 
+from pydantic import HttpUrl
 from schemas import JobPosting
 from deduplicator import Deduplicator
 
@@ -10,7 +11,7 @@ def test_is_duplicate_by_id() -> None:
     dd = Deduplicator()
     
     job1 = JobPosting(
-        url="https://example.com/job/123",
+        url=HttpUrl("https://example.com/job/123"),
         title="Python Developer",
         company="Tech Co",
         location="Remote",
@@ -18,7 +19,7 @@ def test_is_duplicate_by_id() -> None:
     )
     
     job2 = JobPosting(
-        url="https://example.com/job/123",  # Same URL
+        url=HttpUrl("https://example.com/job/123"),  # Same URL
         title="Senior Python Developer",  # Different title
         company="Different Co",  # Different company
         location="Office",
@@ -35,7 +36,7 @@ def test_is_duplicate_by_fingerprint() -> None:
     dd = Deduplicator()
     
     job1 = JobPosting(
-        url="https://duunitori.fi/job/123",
+        url=HttpUrl("https://duunitori.fi/job/123"),
         title="Python Developer",
         company="Tech Company",
         location="Remote",
@@ -43,7 +44,7 @@ def test_is_duplicate_by_fingerprint() -> None:
     )
     
     job2 = JobPosting(
-        url="https://linkedin.com/jobs/456",  # Different URL
+        url=HttpUrl("https://linkedin.com/jobs/456"),  # Different URL
         title="Python Developer",  # Same title
         company="Tech Company",  # Same company
         location="Office",
@@ -60,7 +61,7 @@ def test_not_duplicate_different_jobs() -> None:
     dd = Deduplicator()
     
     job1 = JobPosting(
-        url="https://example.com/job/1",
+        url=HttpUrl("https://example.com/job/1"),
         title="Python Developer",
         company="Company A",
         location="Remote",
@@ -68,7 +69,7 @@ def test_not_duplicate_different_jobs() -> None:
     )
     
     job2 = JobPosting(
-        url="https://example.com/job/2",
+        url=HttpUrl("https://example.com/job/2"),
         title="Java Developer",
         company="Company B",
         location="Office",
@@ -84,7 +85,7 @@ def test_fingerprint_normalization() -> None:
     dd = Deduplicator()
     
     job1 = JobPosting(
-        url="https://example.com/job/1",
+        url=HttpUrl("https://example.com/job/1"),
         title="Python   Developer",  # Extra spaces
         company="Tech Company",
         location="Remote",
@@ -92,7 +93,7 @@ def test_fingerprint_normalization() -> None:
     )
     
     job2 = JobPosting(
-        url="https://example.com/job/2",
+        url=HttpUrl("https://example.com/job/2"),
         title="python developer",  # Lowercase, single space
         company="TECH COMPANY",  # Uppercase
         location="Office",
@@ -108,7 +109,7 @@ def test_filter_unique() -> None:
     dd = Deduplicator()
     
     job1 = JobPosting(
-        url="https://example.com/job/1",
+        url=HttpUrl("https://example.com/job/1"),
         title="Python Developer",
         company="Tech Co",
         location="Remote",
@@ -116,7 +117,7 @@ def test_filter_unique() -> None:
     )
     
     job2 = JobPosting(
-        url="https://example.com/job/2",
+        url=HttpUrl("https://example.com/job/2"),
         title="Java Developer",
         company="Other Co",
         location="Office",
@@ -124,7 +125,7 @@ def test_filter_unique() -> None:
     )
     
     job3 = JobPosting(
-        url="https://example.com/job/1",  # Duplicate of job1
+        url=HttpUrl("https://example.com/job/1"),  # Duplicate of job1
         title="Python Developer",
         company="Tech Co",
         location="Remote",
@@ -146,7 +147,7 @@ def test_filter_unique_maintains_order() -> None:
     
     jobs = [
         JobPosting(
-            url=f"https://example.com/job/{i}",
+            url=HttpUrl(f"https://example.com/job/{i}"),
             title=f"Job {i}",
             company=f"Company {i}",
             location="Remote",

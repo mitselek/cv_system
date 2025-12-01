@@ -1,6 +1,8 @@
 """Tests for job_scorer.py"""
 from __future__ import annotations
 
+from pydantic import HttpUrl
+
 from schemas import JobPosting, ScoringConfig
 from job_scorer import JobScorer
 
@@ -21,7 +23,7 @@ def test_score_positive_keywords() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/1",
+        url=HttpUrl("https://example.com/job/1"),
         title="Python Developer",
         company="Tech Co",
         location="Remote",
@@ -54,7 +56,7 @@ def test_score_negative_keywords() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/2",
+        url=HttpUrl("https://example.com/job/2"),
         title="Java Developer",
         company="Corp",
         location="Office",
@@ -84,7 +86,7 @@ def test_score_required_keywords_missing() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/3",
+        url=HttpUrl("https://example.com/job/3"),
         title="Developer",
         company="Tech",
         location="Remote",
@@ -115,7 +117,7 @@ def test_score_preferred_company() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/4",
+        url=HttpUrl("https://example.com/job/4"),
         title="Engineer",
         company="Google",
         location="Remote",
@@ -145,7 +147,7 @@ def test_score_blocked_company() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/5",
+        url=HttpUrl("https://example.com/job/5"),
         title="Great Job",
         company="BadCorp",
         location="Remote",
@@ -175,7 +177,7 @@ def test_score_remote_bonus() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/6",
+        url=HttpUrl("https://example.com/job/6"),
         title="Developer",
         company="Tech",
         location="Remote",
@@ -205,7 +207,7 @@ def test_score_recency_fresh() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/7",
+        url=HttpUrl("https://example.com/job/7"),
         title="Developer",
         company="Tech",
         location="Remote",
@@ -236,7 +238,7 @@ def test_score_clamping() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/8",
+        url=HttpUrl("https://example.com/job/8"),
         title="Python Python Python Developer",
         company="Tech",
         location="Remote",
@@ -266,7 +268,7 @@ def test_score_category_high() -> None:
     
     scorer = JobScorer(config)
     job = JobPosting(
-        url="https://example.com/job/9",
+        url=HttpUrl("https://example.com/job/9"),
         title="Python Kubernetes Engineer",
         company="Google",
         location="Helsinki Remote",

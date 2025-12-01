@@ -1,6 +1,7 @@
 """Tests for job_monitor.py candidate storage"""
 from __future__ import annotations
 
+from pydantic import HttpUrl
 import json
 from datetime import datetime
 from pathlib import Path
@@ -16,7 +17,7 @@ from schemas import JobPosting, ScoredJob
 def sample_scored_jobs() -> list[ScoredJob]:
     """Create sample scored jobs in different categories."""
     high_job = JobPosting(
-        url="https://example.com/high/1",
+        url=HttpUrl("https://example.com/high/1"),
         title="Senior Python Developer",
         company="Great Co",
         location="Remote",
@@ -24,7 +25,7 @@ def sample_scored_jobs() -> list[ScoredJob]:
     )
     
     review_job = JobPosting(
-        url="https://example.com/review/2",
+        url=HttpUrl("https://example.com/review/2"),
         title="Python Developer",
         company="OK Co",
         location="Office",
@@ -32,7 +33,7 @@ def sample_scored_jobs() -> list[ScoredJob]:
     )
     
     low_job = JobPosting(
-        url="https://example.com/low/3",
+        url=HttpUrl("https://example.com/low/3"),
         title="Junior Developer",
         company="Small Co",
         location="On-site",
@@ -133,7 +134,7 @@ def test_save_candidates_categorizes_correctly() -> None:
         jobs = [
             ScoredJob(
                 job=JobPosting(
-                    url=f"https://example.com/job/{i}",
+                    url=HttpUrl(f"https://example.com/job/{i}"),
                     title=f"Job {i}",
                     company="Co",
                     location="Remote",

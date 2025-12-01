@@ -5,15 +5,17 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from typing import Generator
 
 import pytest
+from pydantic import HttpUrl
 
 from schemas import JobPosting, MonitorState
 from state_manager import StateManager
 
 
 @pytest.fixture
-def temp_state_file() -> Path:
+def temp_state_file() -> Generator[Path, None, None]:
     """Create a temporary state file."""
     with TemporaryDirectory() as tmpdir:
         yield Path(tmpdir) / "state.json"
@@ -23,7 +25,7 @@ def temp_state_file() -> Path:
 def sample_job() -> JobPosting:
     """Create a sample job posting."""
     return JobPosting(
-        url="https://example.com/job/123",
+        url=HttpUrl("https://example.com/job/123"),
         title="Senior Python Developer",
         company="Test Company",
         location="Remote",
@@ -123,7 +125,7 @@ def test_cleanup_old_jobs(temp_state_file: Path) -> None:
     
     # Add old job
     old_job = JobPosting(
-        url="https://example.com/old/1",
+        url=HttpUrl("https://example.com/old/1"),
         title="Old Job",
         company="Old Co",
         location="Remote",
@@ -136,7 +138,7 @@ def test_cleanup_old_jobs(temp_state_file: Path) -> None:
     
     # Add recent job
     recent_job = JobPosting(
-        url="https://example.com/recent/2",
+        url=HttpUrl("https://example.com/recent/2"),
         title="Recent Job",
         company="Recent Co",
         location="Remote",
