@@ -42,7 +42,7 @@ class JobPosting(BaseModel):
     discovered_date: datetime = Field(default_factory=datetime.now, description="When we discovered it")
 
     # Content
-    description: str = Field(default="", description="Full job description (if available)")
+    description: str | None = Field(default=None, description="Full job description (if available)")
 
     # Status tracking
     status: JobStatus = Field(default=JobStatus.NEW, description="Current status in workflow")

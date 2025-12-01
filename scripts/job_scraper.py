@@ -6,11 +6,15 @@ Supports: Duunitori, Tyomarkkinatori, LinkedIn
 
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Tag
+from pydantic import HttpUrl
+
+from schemas import JobPosting
 
 
 class JobScraper:
@@ -42,23 +46,23 @@ class JobScraper:
         
         # just let me say, that all that ignoring thing looks like workaround hack. I hope to not stumble on these lines in future while debugging some extremely annoying issue.
         with open(self.cookies_file, 'r') as f:
-            cookies_data = json.load(f)  # type: ignore[no-untyped-call]
+            cookies_data = json.load(f)
         
         # Handle different cookie export formats
         if isinstance(cookies_data, list):
             # Format: [{"name": "...", "value": "...", "domain": "..."}]
-            for cookie_item in cookies_data:  # type: ignore[attr-defined]
-                cookie: Dict[str, Any] = cookie_item  # type: ignore[assignment]
-                self.session.cookies.set(  # type: ignore[no-untyped-call]
-                    str(cookie['name']),  # type: ignore[arg-type]
-                    str(cookie['value']),  # type: ignore[arg-type]
-                    domain=str(cookie.get('domain', ''))  # type: ignore[arg-type]
+            for cookie_item in cookies_data:
+                cookie: Dict[str, Any] = cookie_item
+                self.session.cookies.set(
+                    str(cookie['name']),
+                    str(cookie['value']),
+                    domain=str(cookie.get('domain', ''))
                 )
         else:
             # Format: {"cookie_name": "cookie_value"}
-            cookies_dict: Dict[str, Any] = cookies_data  # type: ignore[assignment]
+            cookies_dict: Dict[str, Any] = cookies_data
             for name, value in cookies_dict.items():
-                self.session.cookies.set(str(name), str(value))  # type: ignore[no-untyped-call]
+                self.session.cookies.set(str(name), str(value))
         
         # Set common headers
         self.session.headers.update({
@@ -67,7 +71,7 @@ class JobScraper:
             'Accept-Language': 'en-US,en;q=0.9,fi;q=0.8',
         })
     
-    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20) -> List[Dict[str, str]]:
+    def search_duunitori(self, keywords: str, location: str = "", limit: int = 20) -> List[JobPosting]:
         """Search Duunitori for jobs."""
         print(f"\n🔍 Searching Duunitori: {keywords}")
         if location:
@@ -86,7 +90,7 @@ class JobScraper:
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            jobs: List[Dict[str, str]] = []
+            jobs: List[JobPosting] = []
             
             # Duunitori uses .job-box for job listings
             job_elements = soup.select('.job-box')
@@ -107,7 +111,7 @@ class JobScraper:
             traceback.print_exc()
             return []
     
-    def _parse_duunitori_job(self, elem: Tag) -> Optional[Dict[str, str]]:
+    def _parse_duunitori_job(self, elem: Tag) -> Optional[JobPosting]:
         """Parse a Duunitori job element."""
         try:
             # Duunitori structure: .job-box with h3.job-box__title
@@ -116,7 +120,7 @@ class JobScraper:
             link_elem = elem.select_one('a.job-box__hover, a[href*="/tyopaikat/tyo/"]')
             posted_elem = elem.select_one('.job-box__job-posted')
             
-            if not title_elem:
+            if not title_elem or not link_elem:
                 return None
             
             # Company is in data-company attribute of the link
@@ -124,20 +128,22 @@ class JobScraper:
             if link_elem and link_elem.get('data-company'):
                 company = str(link_elem.get('data-company'))
             
-            result: Dict[str, str] = {
-                'portal': 'Duunitori',
-                'title': str(title_elem.get_text(strip=True)),
-                'company': company,
-                'location': str(location_elem.get_text(strip=True)) if location_elem else '',
-                'posted': str(posted_elem.get_text(strip=True)) if posted_elem else '',
-                'url': f"https://duunitori.fi{link_elem['href']}" if link_elem else '',
-            }
-            return result
+            url = f"https://duunitori.fi{link_elem['href']}"
+            
+            return JobPosting(
+                url=HttpUrl(url),
+                title=str(title_elem.get_text(strip=True)),
+                company=company,
+                location=str(location_elem.get_text(strip=True)) if location_elem else 'Unknown',
+                posted_date=str(posted_elem.get_text(strip=True)) if posted_elem else None,
+                discovered_date=datetime.now(),
+                description=None,
+            )
         except Exception as e:
             print(f"⚠️  Error parsing job: {e}")
             return None
     
-    def search_tyomarkkinatori(self, keywords: str) -> List[Dict[str, str]]:
+    def search_tyomarkkinatori(self, keywords: str) -> List[JobPosting]:
         """Search Tyomarkkinatori for jobs."""
         print(f"\n🔍 Searching Tyomarkkinatori: {keywords}")
         
@@ -159,7 +165,7 @@ class JobScraper:
             print(f"❌ Error searching Tyomarkkinatori: {e}")
             return []
     
-    def search_linkedin(self, keywords: str, location: str = "Finland") -> List[Dict[str, str]]:
+    def search_linkedin(self, keywords: str, location: str = "Finland") -> List[JobPosting]:
         """Search LinkedIn for jobs."""
         print(f"\n🔍 Searching LinkedIn: {keywords} in {location}")
         
@@ -175,7 +181,7 @@ class JobScraper:
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            jobs: List[Dict[str, str]] = []
+            jobs: List[JobPosting] = []
             
             # LinkedIn job cards
             job_elements = soup.select('.job-search-card, .jobs-search-results__list-item')
@@ -192,7 +198,7 @@ class JobScraper:
             print(f"❌ Error searching LinkedIn: {e}")
             return []
     
-    def _parse_linkedin_job(self, elem: Tag) -> Optional[Dict[str, str]]:
+    def _parse_linkedin_job(self, elem: Tag) -> Optional[JobPosting]:
         """Parse a LinkedIn job element."""
         try:
             title_elem = elem.select_one('.job-search-card__title, h3')
@@ -200,23 +206,26 @@ class JobScraper:
             location_elem = elem.select_one('.job-search-card__location')
             link_elem = elem.select_one('a')
             
-            if not title_elem:
+            if not title_elem or not link_elem or not link_elem.get('href'):
                 return None
             
-            result: Dict[str, str] = {
-                'portal': 'LinkedIn',
-                'title': str(title_elem.get_text(strip=True)),
-                'company': str(company_elem.get_text(strip=True)) if company_elem else 'Unknown',
-                'location': str(location_elem.get_text(strip=True)) if location_elem else '',
-                'url': str(link_elem['href']) if link_elem else '',
-            }
-            return result
+            url = str(link_elem['href'])
+            
+            return JobPosting(
+                url=HttpUrl(url),
+                title=str(title_elem.get_text(strip=True)),
+                company=str(company_elem.get_text(strip=True)) if company_elem else 'Unknown',
+                location=str(location_elem.get_text(strip=True)) if location_elem else 'Unknown',
+                posted_date=None,
+                discovered_date=datetime.now(),
+                description=None,
+            )
         except Exception as e:
             print(f"⚠️  Error parsing job: {e}")
             return None
 
 
-def main():
+def main() -> None:
     """Main entry point."""
     import argparse
     
@@ -236,7 +245,7 @@ def main():
     args = parser.parse_args()
     
     scraper = JobScraper(args.cookies)
-    all_jobs: List[Dict[str, str]] = []
+    all_jobs: List[JobPosting] = []
     
     if args.portal in ['duunitori', 'all']:
         all_jobs.extend(scraper.search_duunitori(args.keywords, args.location, args.limit))
@@ -249,26 +258,28 @@ def main():
     
     # Display results based on format
     if args.format == 'json':
-        print(json.dumps(all_jobs, indent=2, ensure_ascii=False))
+        jobs_data = [job.model_dump(mode='json') for job in all_jobs]
+        print(json.dumps(jobs_data, indent=2, ensure_ascii=False))
     elif args.format == 'csv':
         if all_jobs:
             import csv
             import sys
-            writer = csv.DictWriter(sys.stdout, fieldnames=all_jobs[0].keys())
+            jobs_data = [job.model_dump(mode='json') for job in all_jobs]
+            writer = csv.DictWriter(sys.stdout, fieldnames=jobs_data[0].keys())
             writer.writeheader()
-            writer.writerows(all_jobs)
+            writer.writerows(jobs_data)
     else:  # text format
         print(f"\n{'='*80}")
         print(f"📊 TOTAL RESULTS: {len(all_jobs)}")
         print(f"{'='*80}\n")
         
         for i, job in enumerate(all_jobs, 1):
-            print(f"{i}. [{job['portal']}] {job['title']}")
-            print(f"   Company: {job['company']}")
-            print(f"   Location: {job['location']}")
-            if job.get('posted'):
-                print(f"   Posted: {job['posted']}")
-            print(f"   URL: {job['url']}")
+            print(f"{i}. {job.title}")
+            print(f"   Company: {job.company}")
+            print(f"   Location: {job.location}")
+            if job.posted_date:
+                print(f"   Posted: {job.posted_date}")
+            print(f"   URL: {job.url}")
             print()
     
     # Save to file if requested
@@ -278,11 +289,13 @@ def main():
             if args.format == 'csv':
                 import csv
                 if all_jobs:
-                    writer = csv.DictWriter(f, fieldnames=all_jobs[0].keys())
+                    jobs_data = [job.model_dump(mode='json') for job in all_jobs]
+                    writer = csv.DictWriter(f, fieldnames=jobs_data[0].keys())
                     writer.writeheader()
-                    writer.writerows(all_jobs)
+                    writer.writerows(jobs_data)
             else:
-                json.dump(all_jobs, f, indent=2, ensure_ascii=False)
+                jobs_data = [job.model_dump(mode='json') for job in all_jobs]
+                json.dump(jobs_data, f, indent=2, ensure_ascii=False)
         print(f"\n💾 Results saved to: {args.output}")
 
 
