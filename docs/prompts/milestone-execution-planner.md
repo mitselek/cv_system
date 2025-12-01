@@ -136,7 +136,7 @@ Validation checkpoints defined in each issue
 
 ### Expected Output
 
-```markdown
+````markdown
 # Execution Plan: Job Monitoring v1.0
 
 **Duration**: 3 weeks (Dec 1 - Dec 22, 2025)
@@ -427,7 +427,7 @@ While phases are sequential, some prep work can happen in parallel:
 - Complete Phase 1 by Dec 6
 - Begin Phase 2 breakdown on Dec 6-7
 - Stay alert for complexity triggers
-```
+````
 
 ---
 
