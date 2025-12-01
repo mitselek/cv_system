@@ -200,12 +200,12 @@ def test_monitor_state() -> None:
 
 def test_job_status_enum() -> None:
     """Test JobStatus enum."""
-    assert JobStatus.NEW == "new"
-    assert JobStatus.REVIEWED == "reviewed"
-    assert JobStatus.CANDIDATE == "candidate"
-    assert JobStatus.APPLIED == "applied"
-    assert JobStatus.REJECTED == "rejected"
-    assert JobStatus.ARCHIVED == "archived"
+    assert JobStatus.NEW.value == "new"
+    assert JobStatus.REVIEWED.value == "reviewed"
+    assert JobStatus.CANDIDATE.value == "candidate"
+    assert JobStatus.APPLIED.value == "applied"
+    assert JobStatus.REJECTED.value == "rejected"
+    assert JobStatus.ARCHIVED.value == "archived"
     print("✅ JobStatus enum valid: all 6 states")
 
 

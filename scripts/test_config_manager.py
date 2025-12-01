@@ -11,7 +11,7 @@ from config_manager import ConfigManager, ConfigurationError, load_config
 
 def test_load_yaml_config() -> None:
     """Test loading YAML configuration."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     assert manager.config is not None
     assert len(manager.config.sources) == 3
     print("✅ YAML config loaded successfully")
@@ -19,7 +19,7 @@ def test_load_yaml_config() -> None:
 
 def test_get_enabled_sources() -> None:
     """Test getting enabled sources."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     enabled = manager.get_enabled_sources()
     assert len(enabled) == 2  # cv.ee and cvkeskus.ee
     assert "cv.ee" in enabled
@@ -30,7 +30,7 @@ def test_get_enabled_sources() -> None:
 
 def test_get_source_queries() -> None:
     """Test getting queries for a source."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     queries = manager.get_source_queries("cv.ee")
     assert len(queries) == 2
     assert queries[0]["keywords"] == "python django postgresql"
@@ -40,7 +40,7 @@ def test_get_source_queries() -> None:
 
 def test_get_source_queries_not_found() -> None:
     """Test getting queries for non-existent source."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     try:
         manager.get_source_queries("nonexistent")
         assert False, "Should raise ConfigurationError"
@@ -51,7 +51,7 @@ def test_get_source_queries_not_found() -> None:
 
 def test_validate_paths() -> None:
     """Test path validation."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     warnings = manager.validate_paths()
     # Warnings expected since directories don't exist yet
     assert len(warnings) > 0
@@ -61,7 +61,7 @@ def test_validate_paths() -> None:
 
 def test_load_config_convenience() -> None:
     """Test convenience load_config function."""
-    config = load_config("../config.example.yaml")
+    config = load_config("config.example.yaml")
     assert config is not None
     assert len(config.sources) == 3
     assert config.scoring.remote_bonus == 15.0
@@ -71,7 +71,7 @@ def test_load_config_convenience() -> None:
 
 def test_config_properties() -> None:
     """Test configuration properties."""
-    config = load_config("../config.example.yaml")
+    config = load_config("config.example.yaml")
     
     # Check scoring config
     assert len(config.scoring.positive_keywords) == 10
@@ -98,7 +98,7 @@ def test_config_file_not_found() -> None:
 
 def test_repr() -> None:
     """Test ConfigManager string representation."""
-    manager = ConfigManager("../config.example.yaml")
+    manager = ConfigManager("config.example.yaml")
     repr_str = repr(manager)
     assert "ConfigManager" in repr_str
     assert "config.example.yaml" in repr_str
