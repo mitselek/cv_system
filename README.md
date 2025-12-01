@@ -7,8 +7,9 @@ Automated job monitoring and application tracking system for managing job search
 This system provides automated monitoring of job portals, intelligent scoring of opportunities, and streamlined application management.
 
 **Key Features:**
+
 - 🔍 **Automated Job Monitoring** - Continuous scanning of multiple job portals
-- 🎯 **Intelligent Scoring** - Keyword-based ranking of job matches  
+- 🎯 **Intelligent Scoring** - Keyword-based ranking of job matches
 - 📊 **State Tracking** - Historical view of all discovered opportunities
 - 📝 **Application Management** - Organized tracking of applications
 - 🤖 **CLI Tools** - Command-line interface for all operations
@@ -36,27 +37,28 @@ pip install -e .
 
 1. **Create configuration file:**
 
-```bash
-python scripts/job_monitor.py init
-```
+    ```bash
+    python scripts/job_monitor.py init
+    ```
 
 2. **Customize configuration:**
 
-Edit `config.yaml` to add your preferences:
-- Job search keywords
-- Preferred companies and locations
-- Scoring weights
-- Enabled job portals
+    Edit `config.yaml` to add your preferences:
+
+    - Job search keywords
+    - Preferred companies and locations
+    - Scoring weights
+    - Enabled job portals
 
 3. **Add authentication cookies:**
 
-Export cookies from job portals and save to `job_sources/cookies.json`.
+    Export cookies from job portals and save to `job_sources/cookies.json`.
 
 4. **Test the setup:**
 
-```bash
-python scripts/job_monitor.py scan --dry-run
-```
+    ```bash
+    python scripts/job_monitor.py scan --dry-run
+    ```
 
 ## Usage
 
@@ -79,7 +81,7 @@ python scripts/job_monitor.py stats
 # Mark job as candidate
 python scripts/job_monitor.py mark <job_id> candidate
 
-# Mark as applied after submission  
+# Mark as applied after submission
 python scripts/job_monitor.py mark <job_id> applied
 
 # Mark as rejected
@@ -95,7 +97,7 @@ python scripts/job_monitor.py cleanup --days 60
 
 ## Directory Structure
 
-```
+```text
 cv_system/
 ├── scripts/                # Core monitoring and scoring logic
 │   ├── job_monitor.py     # Main CLI orchestrator
@@ -128,18 +130,18 @@ cv_system/
 
 ## CLI Commands
 
-| Command | Description |
-|---------|-------------|
-| `scan` | Scan job portals and save candidates |
-| `scan --dry-run` | Test scan without saving |
-| `scan --force` | Force full rescan |
-| `review` | Display candidates with filters |
-| `review --category high` | Show high-priority jobs only |
-| `review --min-score 70` | Filter by minimum score |
-| `stats` | Show monitoring statistics |
-| `mark <id> <status>` | Update job status |
-| `cleanup --days N` | Archive jobs older than N days |
-| `init` | Create configuration template |
+| Command                  | Description                          |
+| ------------------------ | ------------------------------------ |
+| `scan`                   | Scan job portals and save candidates |
+| `scan --dry-run`         | Test scan without saving             |
+| `scan --force`           | Force full rescan                    |
+| `review`                 | Display candidates with filters      |
+| `review --category high` | Show high-priority jobs only         |
+| `review --min-score 70`  | Filter by minimum score              |
+| `stats`                  | Show monitoring statistics           |
+| `mark <id> <status>`     | Update job status                    |
+| `cleanup --days N`       | Archive jobs older than N days       |
+| `init`                   | Create configuration template        |
 
 ## Scoring System
 
@@ -153,6 +155,7 @@ Jobs are automatically scored based on:
 - **Negative keywords** reduce score (-5 points each)
 
 **Categories:**
+
 - **High Priority** (≥70): Excellent matches, review immediately
 - **Review** (40-69): Worth considering
 - **Low Priority** (<40): Poor matches
@@ -189,7 +192,7 @@ ruff check scripts/
 ## Documentation
 
 - **[Workflows Guide](docs/job_monitoring_workflows.md)** - Common usage patterns
-- **[Architecture](docs/job_monitoring_architecture.md)** - System design  
+- **[Architecture](docs/job_monitoring_architecture.md)** - System design
 - **[Job Sources](job_sources/README.md)** - Directory structure
 - **[Implementation Plan](docs/job_monitoring_implementation_plan.md)** - Technical specs
 - **[Execution Plan](docs/job_monitoring_execution_plan.md)** - Development timeline
@@ -198,7 +201,7 @@ ruff check scripts/
 
 **Test Coverage:** 90 tests, >80% coverage on critical modules
 
-```
+```text
 Critical Modules:
 - schemas.py: 100%
 - deduplicator.py: 100%
@@ -213,12 +216,14 @@ Critical Modules:
 **Current Version:** 1.0.0
 
 **Completed:**
+
 - ✅ Phase 1: Type System & Foundation
-- ✅ Phase 2: Core Logic & State Management  
+- ✅ Phase 2: Core Logic & State Management
 - ✅ Phase 3: User Interface & Integration
 - ✅ Phase 4: Testing & Documentation
 
 **Roadmap:**
+
 - v1.1: Additional job portals (LinkedIn, CV-Online)
 - v1.2: Email notifications for high-priority jobs
 - v2.0: ML-based job scoring

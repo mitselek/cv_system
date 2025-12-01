@@ -20,9 +20,10 @@ vi config.yaml
 ```
 
 Key settings to configure:
+
 - **sources**: Enable/disable job portals, add search queries
 - **scoring.positive_keywords**: Keywords that increase job score
-- **scoring.negative_keywords**: Keywords that decrease score  
+- **scoring.negative_keywords**: Keywords that decrease score
 - **scoring.preferred_locations**: Add your preferred work locations
 - **scoring.remote_bonus**: Points added for remote positions
 
@@ -45,6 +46,7 @@ python scripts/job_monitor.py scan
 ```
 
 This will:
+
 - Scrape all enabled job sources
 - Score and categorize new jobs
 - Save candidates to `job_sources/candidates/YYYY-MM-DD/`
@@ -94,6 +96,7 @@ python scripts/job_monitor.py stats
 ```
 
 This shows:
+
 - Last scan time
 - Total jobs seen/candidates/applications
 - Status breakdown (new, candidates, applied)
@@ -126,7 +129,7 @@ import json
 candidate_path = Path("job_sources/candidates/2025-12-01/high_priority/abc123.json")
 with open(candidate_path) as f:
     data = json.load(f)
-    
+
 from schemas import ScoredJob
 sj = ScoredJob(**data)
 
@@ -140,11 +143,13 @@ print(f"Application created at: {app_path}")
 **Option 2: Manual process**
 
 1. Review the candidate file:
+
    ```bash
    cat job_sources/candidates/2025-12-01/high_priority/abc123.json
    ```
 
 2. Create application directory:
+
    ```bash
    mkdir -p applications/Company_Name/Position_Title
    ```
@@ -187,6 +192,7 @@ done
 **Problem**: Scan runs but finds 0 jobs
 
 **Solutions**:
+
 1. Check if sources are enabled in config
 2. Verify cookies are valid (may need to re-authenticate)
 3. Try `--dry-run` to see error messages
@@ -197,6 +203,7 @@ done
 **Problem**: All jobs score too low
 
 **Solutions**:
+
 1. Review `scoring.positive_keywords` - add more relevant terms
 2. Lower score thresholds in configuration
 3. Add more preferred companies/locations
@@ -207,6 +214,7 @@ done
 **Problem**: Same job appears multiple times
 
 **Solutions**:
+
 1. Deduplicator uses URL and title+company fingerprint
 2. Check if job URL is different (same job, different links)
 3. This is working as intended - different URLs = different postings
@@ -216,6 +224,7 @@ done
 **Problem**: `state.json` appears corrupted
 
 **Solutions**:
+
 1. Check for backup: `state.json.backup`
 2. Restore from backup if needed
 3. Delete `state.json` to start fresh (loses history)
@@ -225,6 +234,7 @@ done
 ### When to Update Cookies
 
 Job scraping requires authentication cookies. Update when:
+
 - Jobs aren't being found
 - You see authentication errors
 - It's been >30 days since last update
@@ -234,6 +244,7 @@ Job scraping requires authentication cookies. Update when:
 1. Use browser extension to export cookies
 2. Save to `job_sources/cookies.json`
 3. Format should be:
+
    ```json
    [
      {
@@ -300,20 +311,20 @@ chmod +x ~/bin/daily-job-scan.sh
 
 ## Quick Reference
 
-| Command | Purpose |
-|---------|---------|
-| `scan` | Scrape job sources and save candidates |
-| `scan --dry-run` | Test configuration without saving |
-| `scan --force` | Force full rescan ignoring timestamps |
-| `review` | Display candidates with filters |
-| `review --category high` | Show only high-priority jobs |
-| `review --min-score 70` | Filter by minimum score |
-| `stats` | Show monitoring statistics |
-| `mark <id> candidate` | Mark job for later review |
-| `mark <id> applied` | Mark job as applied |
-| `mark <id> rejected` | Mark job as rejected |
-| `cleanup --days 60` | Archive jobs older than 60 days |
-| `init` | Create configuration template |
+| Command                  | Purpose                                |
+| ------------------------ | -------------------------------------- |
+| `scan`                   | Scrape job sources and save candidates |
+| `scan --dry-run`         | Test configuration without saving      |
+| `scan --force`           | Force full rescan ignoring timestamps  |
+| `review`                 | Display candidates with filters        |
+| `review --category high` | Show only high-priority jobs           |
+| `review --min-score 70`  | Filter by minimum score                |
+| `stats`                  | Show monitoring statistics             |
+| `mark <id> candidate`    | Mark job for later review              |
+| `mark <id> applied`      | Mark job as applied                    |
+| `mark <id> rejected`     | Mark job as rejected                   |
+| `cleanup --days 60`      | Archive jobs older than 60 days        |
+| `init`                   | Create configuration template          |
 
 ## See Also
 

@@ -4,7 +4,7 @@ This directory contains job monitoring data, state, and candidates.
 
 ## Structure
 
-```
+```text
 job_sources/
 ├── candidates/          # Daily candidate directories
 │   └── YYYY-MM-DD/     # Date-stamped folders
@@ -25,6 +25,7 @@ Contains all discovered job candidates organized by date and score category.
 **Directory naming**: `YYYY-MM-DD` (e.g., `2025-12-01`)
 
 **Categories**:
+
 - `high_priority/`: Jobs scoring 70 or higher - excellent matches
 - `review/`: Jobs scoring 40-69 - worth reviewing
 - `low_priority/`: Jobs scoring below 40 - poor matches
@@ -60,6 +61,7 @@ Each candidate is stored as JSON with the full job posting and scoring details:
 Daily summary of candidates in markdown format. Generated automatically after each scan.
 
 Contains:
+
 - Summary statistics (total jobs, breakdown by category)
 - High priority jobs listed first
 - Review category jobs
@@ -71,6 +73,7 @@ Contains:
 Tracks all seen jobs and monitoring statistics. **Do not edit manually.**
 
 Managed by `StateManager` class. Contains:
+
 - Last scan timestamp
 - Total counters (jobs seen, candidates, applications)
 - Status lists (new jobs, candidates, applied)
@@ -96,6 +99,7 @@ Authentication cookies for job portal scraping. Required for accessing job listi
 ```
 
 **How to obtain**:
+
 1. Log into job portal in browser
 2. Use browser extension (e.g., "Get cookies.txt") to export cookies
 3. Save to this file
@@ -184,6 +188,7 @@ If `state.json` is corrupted:
 ### Old Cookie Files
 
 Cookies expire. Update them monthly or when you see errors like:
+
 - "No jobs found" (when there should be jobs)
 - HTTP 401/403 errors
 - "Authentication required" messages

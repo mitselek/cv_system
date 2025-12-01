@@ -97,7 +97,6 @@ candidates_dir: job_sources/candidates
 scan_interval_hours: 24
 auto_archive_days: 60
 ```
-```
 
 ### 2. State Tracking (`job_sources/state.json`)
 
