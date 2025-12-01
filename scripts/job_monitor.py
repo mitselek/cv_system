@@ -14,6 +14,7 @@ from typing import Any, Iterable
 
 from config_manager import ConfigManager, ConfigurationError
 from deduplicator import Deduplicator
+from digest_generator import DigestGenerator
 from job_scorer import JobScorer
 from schemas import JobPosting, ScoredJob, SystemConfig
 from state_manager import StateManager
@@ -140,6 +141,11 @@ def scan(config_path: Path, dry_run: bool, force: bool) -> int:
     if scored and not dry_run:
         counts = _save_candidates(cfg.candidates_dir, scored)
         print(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
+        
+        # Generate digest
+        dg = DigestGenerator(cfg.candidates_dir)
+        digest_path = dg.save_digest()
+        print(f"Digest saved to {digest_path}")
     
     # Update state and optionally persist
     for sj in scored:
