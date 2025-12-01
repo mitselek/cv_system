@@ -6,14 +6,29 @@ sources:
       - keywords: system analyst
         location: Helsinki
         limit: 30
-      - keywords: IT projektijuht
-        location: ""
-        limit: 30
       - keywords: software architect
         location: Helsinki
         limit: 30
-      - keywords: project manager IT
+      - keywords: business analyst
+        location: Helsinki
+        limit: 30
+      - keywords: product owner
+        location: Helsinki
+        limit: 30
+      - keywords: product manager
+        location: Helsinki
+        limit: 30
+      - keywords: järjestelmäanalyytikko
         location: ""
+        limit: 30
+      - keywords: delivery manager
+        location: Helsinki
+        limit: 30
+      - keywords: enterprise architect
+        location: Helsinki
+        limit: 30
+      - keywords: technical product owner
+        location: Helsinki
         limit: 30
 
   - name: linkedin
