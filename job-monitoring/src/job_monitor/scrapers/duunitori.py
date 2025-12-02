@@ -6,6 +6,7 @@ Requires authentication cookies for full access.
 """
 
 import json
+import re
 import time
 from datetime import datetime
 from pathlib import Path
@@ -334,7 +335,7 @@ class DuunitoriScraper(BaseScraper):
         }
         
         try:
-            # Look for contact section
+            # 1. Try structured contact section first (anywhere on page)
             contact_section = soup.select_one('.contact-info, .job-contact')
             if contact_section:
                 # Extract name
@@ -356,6 +357,57 @@ class DuunitoriScraper(BaseScraper):
                     phone = phone_elem.get_text(strip=True)
                     if phone:
                         contact_info['contact_phone'] = phone
+            
+            # 2. Fallback: Search in description section or whole page
+            desc_elem = soup.select_one('.description--jobentry, .description')
+            search_area = desc_elem if desc_elem else soup
+            
+            # Extract email from mailto links if not found yet
+            if not contact_info['contact_email']:
+                email_link = search_area.select_one('a[href^="mailto:"]')
+                if email_link:
+                    href = email_link.get('href', '')
+                    email = str(href).replace('mailto:', '').strip()
+                    if email:
+                        contact_info['contact_email'] = email
+            
+            # Extract phone from tel links if not found yet
+            if not contact_info['contact_phone']:
+                phone_link = search_area.select_one('a[href^="tel:"]')
+                if phone_link:
+                    href = phone_link.get('href', '')
+                    phone = str(href).replace('tel:', '').strip()
+                    # Remove common phone number formatting
+                    phone = re.sub(r'[\s\-\(\)]', '', phone)
+                    if phone:
+                        contact_info['contact_phone'] = phone
+            
+            # 3. Fallback: Regex extraction from text content
+            text_content = search_area.get_text()
+            
+            # Extract email from text if not found yet
+            if not contact_info['contact_email']:
+                email_match = re.search(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text_content)
+                if email_match:
+                    contact_info['contact_email'] = email_match.group()
+            
+            # Extract phone from text if not found yet (Finnish format: 040, 050, +358, etc.)
+            if not contact_info['contact_phone']:
+                # Try Finnish mobile format first
+                phone_match = re.search(r'\b(?:\+358|0)(?:40|50|45|44)\s*\d{3}\s*\d{4}\b', text_content)
+                if phone_match:
+                    phone = phone_match.group()
+                    # Normalize: remove spaces
+                    phone = re.sub(r'\s+', '', phone)
+                    contact_info['contact_phone'] = phone
+            
+            # 4. Try to extract contact name (heuristic: find capitalized words near email)
+            if contact_info['contact_email'] and not contact_info['contact_name']:
+                # Look for patterns like "Contact: FirstName LastName" or "FirstName LastName\nEmail:"
+                name_pattern = r'(?:Contact|Yhteyshenkilö|Yhteydet|Contact Person)[\s:]*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)'
+                name_match = re.search(name_pattern, text_content)
+                if name_match:
+                    contact_info['contact_name'] = name_match.group(1).strip()
         
         except Exception as e:
             print(f"⚠️  Error extracting contact info: {e}")
