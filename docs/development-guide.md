@@ -80,7 +80,7 @@ print(f"⚠️  Warning: Rate limit approaching")
 
 **Format:**
 
-```
+```text
 Brief summary (imperative mood, <72 chars)
 
 - Detailed change 1
