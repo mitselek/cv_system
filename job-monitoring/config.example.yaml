@@ -1,5 +1,5 @@
 sources:
-  - name: cv.ee
+  - name: cvee
     enabled: true
     queries:
       - keywords: python django postgresql
@@ -9,15 +9,9 @@ sources:
         location: remote
         limit: 30
   
-  - name: cvkeskus.ee
-    enabled: true
-    queries:
-      - keywords: software developer python
-        location: tallinn
-        limit: 40
-
-  - name: duunitori.fi
+  - name: duunitori
     enabled: false
+    cookies_file: /path/to/duunitori_cookies.json
     queries:
       - keywords: python developer
         location: helsinki

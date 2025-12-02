@@ -21,30 +21,39 @@ from job_monitor.markdown_exporter import MarkdownExporter
 from job_monitor.scorer import JobScorer
 from job_monitor.schemas import JobPosting, JobStatus, ScoredJob, SystemConfig
 from job_monitor.state import StateManager
-from job_monitor.scraper import JobScraper
+from job_monitor.scrapers import ScraperRegistry
 
 
-def _supported_source(name: str) -> bool:
-    n = name.lower()
-    return any(k in n for k in ["duunitori", "linkedin", "tyomarkkinatori"])  # Phase 2 support
-
-
-def _scrape_source(scraper: JobScraper, source_name: str, queries: Iterable[dict[str, Any]], full_details: bool = False, state_manager: StateManager | None = None) -> list[JobPosting]:
+def _scrape_source(source_name: str, config: dict[str, Any], queries: Iterable[dict[str, Any]], state_manager: StateManager | None = None) -> list[JobPosting]:
+    """Scrape a source using the registry.
+    
+    Args:
+        source_name: The scraper ID (e.g., 'duunitori', 'cvee')
+        config: Scraper-specific configuration (cookies_file, etc.)
+        queries: List of search queries
+        state_manager: Optional state manager for tracking
+    
+    Returns:
+        List of job postings
+    """
+    # Extract cookies_file from config if present
+    cookies_file = config.pop('cookies_file', None)
+    if cookies_file:
+        cookies_file = Path(cookies_file)
+    
+    # Get scraper from registry
+    scraper = ScraperRegistry.get_scraper(source_name, config=config, cookies_file=cookies_file)
+    
     jobs: list[JobPosting] = []
     for q in queries:
-        kw = q.get("keywords", "")
-        loc = q.get("location", "")
-        lim = int(q.get("limit", 20))
-        if "duunitori" in source_name.lower():
-            jobs.extend(scraper.search_duunitori(kw, loc, lim, full_details, state_manager))
-        elif "linkedin" in source_name.lower():
-            jobs.extend(scraper.search_linkedin(kw, loc or "Finland"))
-        elif "tyomarkkinatori" in source_name.lower():
-            jobs.extend(scraper.search_tyomarkkinatori(kw))
-        # else: unsupported handled by caller
-    # annotate source consistently
+        # Pass the entire query dict to the scraper
+        search_results = scraper.search(q)
+        jobs.extend(search_results)
+    
+    # Annotate source consistently
     for j in jobs:
         j.source = source_name
+    
     return jobs
 
 
@@ -129,29 +138,29 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
     all_jobs: list[JobPosting] = []
 
-    scraper: JobScraper | None = None
-    if not dry_run:
-        # Choose a cookies file if any source defines it; else fallback under job_sources/
-        cookies_path = None
-        for s in cfg.sources:
-            if s.enabled and s.cookies_file:
-                cookies_path = s.cookies_file
-                break
-        if cookies_path is None:
-            cookies_path = Path("job_sources/cookies.json")
-        scraper = JobScraper(cookies_file=cookies_path)
-
     for src in cfg.sources:
         if not src.enabled:
             continue
-        if not _supported_source(src.name):
+        
+        # Check if scraper is registered
+        if not ScraperRegistry.is_registered(src.name):
             click.echo(f"Skipping unsupported source: {src.name}")
             continue
-        if scraper is None:
-            continue  # dry-run: skip network scraping
+        
+        if dry_run:
+            click.echo(f"Dry-run: would scrape {src.name}")
+            continue
+        
+        # Build scraper config from source settings
+        scraper_config = {}
+        if src.cookies_file:
+            scraper_config["cookies_file"] = str(src.cookies_file)
+        
         queries = cm.get_source_queries(src.name)
-        jobs = _scrape_source(scraper, src.name, queries, full_details, sm)
+        jobs = _scrape_source(src.name, scraper_config, queries, sm)
         all_jobs.extend(jobs)
+        
+        click.echo(f"✓ Scraped {len(jobs)} jobs from {src.name}")
 
     unique_jobs = dd.filter_unique(all_jobs)
 
@@ -389,8 +398,16 @@ def cleanup(config: Path, days: int, dry_run: bool) -> None:
 def init(output: Path) -> None:
     """Create a configuration file template."""
     template = """sources:
-  - name: duunitori.fi
+  - name: cvee
     enabled: true
+    queries:
+      - keywords: python developer
+        location: tallinn
+        limit: 20
+  
+  - name: duunitori
+    enabled: false
+    cookies_file: /path/to/duunitori_cookies.json
     queries:
       - keywords: python developer
         location: helsinki
@@ -410,6 +427,7 @@ scoring:
   preferred_locations:
     - remote
     - helsinki
+    - tallinn
   remote_bonus: 15
   days_threshold_fresh: 7
   days_threshold_old: 30
