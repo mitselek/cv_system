@@ -1,0 +1,108 @@
+sources:
+  - name: cvee
+    enabled: true
+    queries:
+      # Estonian terms that work better with CV.ee
+      - keywords: tarkvaraarendaja
+        limit: 50
+      - keywords: arendaja
+        limit: 50
+      - keywords: programmeerija
+        limit: 50
+      # Mixed Estonian/English
+      - keywords: tehniline juht
+        limit: 50
+      - keywords: full-stack
+        limit: 50
+      - keywords: backend
+        limit: 50
+      - keywords: frontend
+        limit: 50
+      # English terms
+      - keywords: software engineer
+        limit: 50
+      - keywords: senior developer
+        limit: 50
+      - keywords: technical lead
+        limit: 50
+
+scoring:
+  positive_keywords:
+    # Core technical skills
+    - python
+    - javascript
+    - typescript
+    - node.js
+    - nodejs
+    - vue.js
+    - react
+    # Backend & databases
+    - django
+    - fastapi
+    - flask
+    - postgresql
+    - mysql
+    - mongodb
+    - elasticsearch
+    # DevOps & Cloud
+    - docker
+    - kubernetes
+    - aws
+    - azure
+    - digitalocean
+    - ci/cd
+    - devops
+    # Architecture & Design
+    - architecture
+    - architect
+    - system design
+    - microservices
+    - api design
+    - rest api
+    # Leadership & Management
+    - technical lead
+    - team lead
+    - project manager
+    - mentor
+    - agile
+    - scrum
+    # Domain expertise
+    - cultural heritage
+    - digital archives
+    - data curation
+    - content management
+  
+  negative_keywords:
+    - junior
+    - intern
+    - trainee
+    - php only
+    - wordpress only
+  
+  required_keywords:
+    - python OR javascript OR architect OR "project manager" OR "technical lead"
+  
+  preferred_companies:
+    - Nortal
+    - Pipedrive
+    - Wise
+    - Bolt
+    - Skype
+    - Microsoft
+    - Guardtime
+    - Veriff
+  
+  preferred_locations:
+    - tallinn
+    - remote
+    - hybrid
+  
+  remote_bonus: 15.0
+  days_threshold_fresh: 7
+  days_threshold_old: 30
+
+state_file: state/search_state.json
+candidates_dir: candidates/
+
+scan_interval_hours: 6
+auto_archive_days: 90
