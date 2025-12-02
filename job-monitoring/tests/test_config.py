@@ -13,7 +13,7 @@ def test_load_yaml_config() -> None:
     """Test loading YAML configuration."""
     manager = ConfigManager("config.example.yaml")
     assert manager.config is not None
-    assert len(manager.config.sources) == 3
+    assert len(manager.config.sources) == 2
     print("✅ YAML config loaded successfully")
 
 
@@ -21,21 +21,20 @@ def test_get_enabled_sources() -> None:
     """Test getting enabled sources."""
     manager = ConfigManager("config.example.yaml")
     enabled = manager.get_enabled_sources()
-    assert len(enabled) == 2  # cv.ee and cvkeskus.ee
-    assert "cv.ee" in enabled
-    assert "cvkeskus.ee" in enabled
-    assert "duunitori.fi" not in enabled  # disabled
+    assert len(enabled) == 1  # cvee enabled, duunitori disabled
+    assert "cvee" in enabled
+    assert "duunitori" not in enabled  # disabled
     print(f"✅ Got {len(enabled)} enabled sources: {enabled}")
 
 
 def test_get_source_queries() -> None:
     """Test getting queries for a source."""
     manager = ConfigManager("config.example.yaml")
-    queries = manager.get_source_queries("cv.ee")
+    queries = manager.get_source_queries("cvee")
     assert len(queries) == 2
     assert queries[0]["keywords"] == "python django postgresql"
     assert queries[0]["limit"] == 50
-    print(f"✅ Got {len(queries)} queries for cv.ee")
+    print(f"✅ Got {len(queries)} queries for cvee")
 
 
 def test_get_source_queries_not_found() -> None:
@@ -62,7 +61,7 @@ def test_load_config_convenience() -> None:
     """Test convenience load_config function."""
     config = load_config("config.example.yaml")
     assert config is not None
-    assert len(config.sources) == 3
+    assert len(config.sources) == 2
     assert config.scoring.remote_bonus == 15.0
     assert config.scan_interval_hours == 6
     print("✅ Convenience load_config() works")
@@ -101,7 +100,7 @@ def test_repr() -> None:
     repr_str = repr(manager)
     assert "ConfigManager" in repr_str
     assert "config.example.yaml" in repr_str
-    assert "2/3 sources enabled" in repr_str
+    assert "1/2 sources enabled" in repr_str
     print(f"✅ __repr__ works: {repr_str}")
 
 

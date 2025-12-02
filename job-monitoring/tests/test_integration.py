@@ -462,3 +462,120 @@ def test_concurrent_state_updates(integration_workspace: Path) -> None:
     # Note: This test documents current behavior (last write wins)
     # In production, recommend single-process access or proper locking
     assert sm3.state.total_jobs_seen >= 1
+
+
+def test_scraper_registry_integration(integration_workspace: Path) -> None:
+    """Test that both scrapers are registered and accessible."""
+    from job_monitor.scrapers import ScraperRegistry
+    
+    # Verify both scrapers are registered
+    scrapers = ScraperRegistry.list_scrapers()
+    assert 'duunitori' in scrapers
+    assert 'cvee' in scrapers
+    
+    # Verify scraper metadata
+    duunitori_info = ScraperRegistry.get_scraper_info('duunitori')
+    assert duunitori_info['name'] == 'Duunitori'
+    assert duunitori_info['requires_cookies'] is True
+    
+    cvee_info = ScraperRegistry.get_scraper_info('cvee')
+    assert cvee_info['name'] == 'CV.ee'
+    assert cvee_info['requires_cookies'] is False
+
+
+def test_multi_scraper_workflow(integration_workspace: Path) -> None:
+    """Test workflow with multiple scrapers (mocked)."""
+    from job_monitor.scrapers import ScraperRegistry
+    from unittest.mock import Mock, patch
+    
+    # Create mixed-source jobs
+    jobs_duunitori = [
+        JobPosting(
+            title="Python Developer",
+            company="Finnish Corp",
+            location="Helsinki",
+            url=HttpUrl("https://duunitori.fi/job1"),
+            source="duunitori",
+            discovered_date=datetime.now(timezone.utc),
+            description="Python role in Helsinki"
+        )
+    ]
+    
+    jobs_cvee = [
+        JobPosting(
+            title="Software Developer",
+            company="Estonian Corp",
+            location="Tallinn",
+            url=HttpUrl("https://cv.ee/job1"),
+            source="cvee",
+            discovered_date=datetime.now(timezone.utc),
+            description="Developer role in Tallinn"
+        )
+    ]
+    
+    # Test deduplication across sources
+    dd = Deduplicator()
+    all_jobs = jobs_duunitori + jobs_cvee
+    unique = dd.filter_unique(all_jobs)
+    assert len(unique) == 2  # Different URLs, should be unique
+    
+    # Test scoring works for both sources
+    config_path = integration_workspace / "config.yaml"
+    cm = ConfigManager(config_path)
+    scorer = JobScorer(cm.config.scoring)
+    
+    scored = [scorer.score(job) for job in unique]
+    assert len(scored) == 2
+    assert all(hasattr(sj, 'score') for sj in scored)
+    assert all(hasattr(sj, 'category') for sj in scored)
+
+
+def test_scraper_config_validation(integration_workspace: Path) -> None:
+    """Test scraper-specific configuration validation."""
+    from job_monitor.scrapers import ScraperRegistry
+    
+    # Duunitori requires cookies
+    try:
+        scraper = ScraperRegistry.get_scraper('duunitori', config={})
+        assert False, "Should have raised ValueError for missing cookies"
+    except ValueError as e:
+        assert "cookies" in str(e).lower()
+    
+    # CV.ee doesn't require cookies
+    scraper = ScraperRegistry.get_scraper('cvee', config={})
+    assert scraper is not None
+    assert scraper.SCRAPER_ID == 'cvee'
+
+
+def test_cli_with_registry(integration_workspace: Path) -> None:
+    """Test CLI uses registry correctly."""
+    from job_monitor.cli import _scrape_source
+    from unittest.mock import Mock, patch
+    
+    # Mock scraper search to return sample jobs
+    mock_jobs = [
+        JobPosting(
+            title="Test Job",
+            company="Test Corp",
+            location="Test City",
+            url=HttpUrl("https://test.com/job"),
+            source="cvee",
+            discovered_date=datetime.now(timezone.utc)
+        )
+    ]
+    
+    with patch('job_monitor.scrapers.ScraperRegistry.get_scraper') as mock_get:
+        mock_scraper = Mock()
+        mock_scraper.search.return_value = mock_jobs
+        mock_get.return_value = mock_scraper
+        
+        # Test _scrape_source function
+        queries = [{'keywords': 'python', 'limit': 5}]
+        result = _scrape_source('cvee', {}, queries)
+        
+        # Verify scraper was called correctly
+        mock_get.assert_called_once()
+        mock_scraper.search.assert_called_once()
+        assert len(result) == 1
+        assert result[0].source == 'cvee'
+
