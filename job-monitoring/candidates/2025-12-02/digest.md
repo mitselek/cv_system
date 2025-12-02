@@ -3,6 +3,7 @@
 ## Summary
 
 **Total Candidates**: 168
+
 - 🔥 High Priority: 17
 - 📋 Review: 11
 - 💤 Low Priority: 140
@@ -11,7 +12,7 @@
 
 ### 1. Senior Software Engineer (Consumer Ledger team)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -25,7 +26,7 @@
 
 ### 2. Senior Backend Engineer (m\w\d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -53,7 +54,7 @@
 
 ### 4. Senior Software Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -95,7 +96,7 @@
 
 ### 7. Senior Backend Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -109,7 +110,7 @@
 
 ### 8. Senior QA Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 95.0/100
 **Source**: cvee
@@ -123,7 +124,7 @@
 
 ### 9. Senior Cloud Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 95.0/100
 **Source**: cvee
@@ -151,7 +152,7 @@
 
 ### 11. DevOps Systems Engineer Road Logistics (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -165,7 +166,7 @@
 
 ### 12. Full Stack Developer - Python (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -179,7 +180,7 @@
 
 ### 13. Data Analytics Engineer (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -193,7 +194,7 @@
 
 ### 14. Tech Platform Lead
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -235,7 +236,7 @@
 
 ### 17. Software Engineer (Credit Path)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 75.0/100
 **Source**: cvee
@@ -265,7 +266,7 @@
 
 ### 2. DevOps System Engineer for Application Integration (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 65.0/100
 **Source**: cvee
@@ -279,7 +280,7 @@
 
 ### 3. Senior Software Engineer (Client)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 65.0/100
 **Source**: cvee
@@ -377,7 +378,7 @@
 
 ### 10. Senior Data Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 45.0/100
 **Source**: cvee
@@ -477,7 +478,7 @@
 
 ### 6. Senior Tech Consultant M365 (Tenant)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 25.0/100
 **Source**: cvee
@@ -632,7 +633,7 @@
 
 ### 18. Senior IT Infrastructure Expert (Tenant)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -683,7 +684,7 @@
 
 ### 22. Logopeed
 
-**Company**: Harku Vallavalitsus 
+**Company**: Harku Vallavalitsus
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -767,7 +768,7 @@
 
 ### 29. Accounting System Analyst
 
-**Company**: Gunvor Services AS 
+**Company**: Gunvor Services AS
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -1460,7 +1461,7 @@
 
 ### 87. Investeeringute spetsialist
 
-**Company**: Utilitas 
+**Company**: Utilitas
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -1484,7 +1485,7 @@
 
 ### 89. HEVKO, sotsiaalpedagoog, psühholoog
 
-**Company**: Harku Vallavalitsus 
+**Company**: Harku Vallavalitsus
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -1932,7 +1933,7 @@
 
 ### 127. Administrative Assistant / Administratiivosakonna assistent
 
-**Company**: Jaapani  Suursaatkond
+**Company**: Jaapani Suursaatkond
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -2005,7 +2006,7 @@ Spordikompensatsioon
 
 📄 [Full Details](low_priority/1468003.json)
 
-### 133. JAVA  full-stack arendaja
+### 133. JAVA full-stack arendaja
 
 **Company**: SRINI OÜ
 **Location**: Unknown
