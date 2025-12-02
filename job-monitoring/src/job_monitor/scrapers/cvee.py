@@ -6,6 +6,7 @@ API documentation: docs/cvee-api-*.md
 """
 
 import logging
+import re
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin
@@ -28,6 +29,29 @@ class CVeeScraper(BaseScraper):
     REQUIRES_COOKIES = False
     REQUIRES_AUTH = False
     BASE_URLS = ["https://cv.ee"]
+    
+    @staticmethod
+    def _slugify(text: str) -> str:
+        """Convert text to URL-friendly slug for CV.ee.
+        
+        Args:
+            text: Text to convert to slug
+            
+        Returns:
+            URL-friendly slug
+        """
+        # Convert to lowercase
+        text = text.lower()
+        # Replace Estonian letters
+        text = text.replace('õ', 'o').replace('ä', 'a').replace('ö', 'o').replace('ü', 'u')
+        # Remove dots (from OÜ, AS, etc.)
+        text = text.replace('.', '')
+        # Remove special characters except alphanumeric, spaces, and hyphens
+        text = re.sub(r'[^\w\s-]', '', text)
+        # Replace spaces with hyphens
+        text = re.sub(r'[-\s]+', '-', text)
+        # Remove leading/trailing hyphens
+        return text.strip('-')
     
     # API endpoints
     BASE_URL = "https://cv.ee"
@@ -180,27 +204,38 @@ class CVeeScraper(BaseScraper):
         Returns:
             JobPosting object
         """
-        # Extract basic fields
+        # Extract basic fields - note: API uses positionTitle and employerName
         job_id = vacancy.get('id', '')
-        title = vacancy.get('title', 'Unknown Title')
-        company = vacancy.get('company_name', 'Unknown Company')
+        title = vacancy.get('positionTitle', vacancy.get('title', 'Unknown Title'))
+        company = vacancy.get('employerName', vacancy.get('company_name', 'Unknown Company'))
         
         # Resolve location from IDs
-        location_ids = vacancy.get('location_ids', [])
+        location_ids = vacancy.get('townId', [])
+        if isinstance(location_ids, int):
+            location_ids = [location_ids]
         location = self._resolve_location(location_ids)
         
-        # Build URL
-        slug = vacancy.get('slug', '')
-        url = urljoin(self.BASE_URL, f"/vacancies/{slug}") if slug else ""
+        # Build URL - CV.ee uses /et/vacancy/{id} format
+        url = f"{self.BASE_URL}/et/vacancy/{job_id}" if job_id else ""
         
-        # Extract dates
-        published_date = vacancy.get('published_at', '')
+        # Extract dates - API uses publishDate
+        published_date = vacancy.get('publishDate', vacancy.get('published_at', ''))
         
-        # Parse salary
-        salary = self._parse_salary(vacancy)
+        # Parse salary - API uses salaryFrom/salaryTo
+        salary_from = vacancy.get('salaryFrom')
+        salary_to = vacancy.get('salaryTo')
+        salary = None
+        if salary_from or salary_to:
+            if salary_from and salary_to:
+                salary = f"{salary_from}-{salary_to} EUR"
+            elif salary_from:
+                salary = f"From {salary_from} EUR"
+            elif salary_to:
+                salary = f"Up to {salary_to} EUR"
         
-        # Get description
-        description = vacancy.get('description', '').strip()
+        # Get description - API uses positionContent (often empty in search results)
+        description = vacancy.get('positionContent') or vacancy.get('description') or ''
+        description = description.strip() if description else None
         
         # Build standardized JobPosting object
         job_data = {
@@ -243,14 +278,17 @@ class CVeeScraper(BaseScraper):
         location_name = query.get('location')
         limit = query.get('limit', 100)
         
-        # Build query parameters
+        # Build query parameters using CV.ee's actual API format
         params: Dict[str, Any] = {
-            'page': query.get('page', 1),
-            'page_size': min(query.get('page_size', 20), 100),
+            'limit': min(limit, 100),
+            'offset': query.get('offset', 0),
+            'sorting': 'RELEVANCE',
+            'showHidden': True,
         }
         
+        # Keywords must be passed as array parameter (keywords[])
         if keywords:
-            params['keywords'] = keywords
+            params['keywords[]'] = keywords
         
         # Resolve location name to ID if provided
         if location_name:
@@ -299,17 +337,18 @@ class CVeeScraper(BaseScraper):
             response.raise_for_status()
             data = response.json()
             
-            # Extract vacancies from response
-            vacancies = data.get('data', {}).get('vacancies', [])
+            # Extract vacancies from response - API returns vacancies at top level
+            vacancies = data.get('vacancies', [])
+            total = data.get('total', 0)
             
             if not vacancies:
                 logger.warning(f"No results found for query: {keywords}")
                 return []
             
-            # Parse and standardize jobs
-            jobs = [self._parse_job(v) for v in vacancies[:limit]]
+            # Parse and standardize jobs (limit already applied in params)
+            jobs = [self._parse_job(v) for v in vacancies]
             
-            logger.info(f"Found {len(jobs)} jobs on CV.ee")
+            logger.info(f"Found {len(jobs)} jobs on CV.ee (total available: {total})")
             return jobs
             
         except requests.exceptions.RequestException as e:
