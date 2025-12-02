@@ -2,10 +2,10 @@
 
 ## Summary
 
-**Total Candidates**: 120
+**Total Candidates**: 168
 - 🔥 High Priority: 17
 - 📋 Review: 11
-- 💤 Low Priority: 92
+- 💤 Low Priority: 140
 
 ## 🔥 High Priority
 
@@ -584,7 +584,18 @@
 
 📄 [Full Details](low_priority/1471615.json)
 
-### 14. Full Stack Developer
+### 14. Väekaitsekompanii ülema abi
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1442264
+**Posted**: 2025-11-20T08:14:13.000+00:00
+
+📄 [Full Details](low_priority/1442264.json)
+
+### 15. Full Stack Developer
 
 **Company**: Insly OÜ
 **Location**: Unknown
@@ -595,7 +606,7 @@
 
 📄 [Full Details](low_priority/1474431.json)
 
-### 15. Full-stack arendaja
+### 16. Full-stack arendaja
 
 **Company**: BitWeb OÜ
 **Location**: Unknown
@@ -606,7 +617,7 @@
 
 📄 [Full Details](low_priority/1465988.json)
 
-### 16. Lawyer (Employment & OHS)
+### 17. Lawyer (Employment & OHS)
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -619,7 +630,7 @@
 
 📄 [Full Details](low_priority/1460968.json)
 
-### 17. Senior IT Infrastructure Expert (Tenant)
+### 18. Senior IT Infrastructure Expert (Tenant)
 
 **Company**: Riverty 
 **Location**: Unknown
@@ -633,7 +644,7 @@
 
 📄 [Full Details](low_priority/1469778.json)
 
-### 18. Full-stack arendaja
+### 19. Full-stack arendaja
 
 **Company**: Delfi Meedia AS
 **Location**: Unknown
@@ -644,7 +655,7 @@
 
 📄 [Full Details](low_priority/1472121.json)
 
-### 19. Lawyer
+### 20. Lawyer
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -658,7 +669,7 @@
 
 📄 [Full Details](low_priority/1460971.json)
 
-### 20. Junior Java Developer (Tartu)
+### 21. Junior Java Developer (Tartu)
 
 **Company**: Helmes AS
 **Location**: Unknown
@@ -670,7 +681,29 @@
 
 📄 [Full Details](low_priority/1474191.json)
 
-### 21. Software Engineer (Java/Angular)
+### 22. Logopeed
+
+**Company**: Harku Vallavalitsus 
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1468205
+**Posted**: 2025-11-14T12:35:25.000+00:00
+
+📄 [Full Details](low_priority/1468205.json)
+
+### 23. Majandustarkvara lahenduste projektijuht
+
+**Company**: BCS Itera AS
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1465614
+**Posted**: 2025-12-02T08:00:07.742+00:00
+
+📄 [Full Details](low_priority/1465614.json)
+
+### 24. Software Engineer (Java/Angular)
 
 **Company**: LHV Pank AS
 **Location**: Unknown
@@ -682,7 +715,7 @@
 
 📄 [Full Details](low_priority/1469355.json)
 
-### 22. Senior Lawyer
+### 25. Senior Lawyer
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -696,7 +729,7 @@
 
 📄 [Full Details](low_priority/1460957.json)
 
-### 23. Product Development Engineer – PPE & Hard Goods
+### 26. Product Development Engineer – PPE & Hard Goods
 
 **Company**: NoCry OÜ
 **Location**: Unknown
@@ -710,7 +743,18 @@
 
 📄 [Full Details](low_priority/1463322.json)
 
-### 24. Full-stack vanemarendaja - ehitame nullist uut Eesti Loto veebikogemust!
+### 27. Maleva meeskonna tegevusjuhendaja
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1461771
+**Posted**: 2025-11-04T14:05:48.000+00:00
+
+📄 [Full Details](low_priority/1461771.json)
+
+### 28. Full-stack vanemarendaja - ehitame nullist uut Eesti Loto veebikogemust!
 
 **Company**: Brandem Baltic OÜ
 **Location**: Unknown
@@ -721,7 +765,7 @@
 
 📄 [Full Details](low_priority/1469048.json)
 
-### 25. Accounting System Analyst
+### 29. Accounting System Analyst
 
 **Company**: Gunvor Services AS 
 **Location**: Unknown
@@ -734,7 +778,7 @@
 
 📄 [Full Details](low_priority/1465746.json)
 
-### 26. Site project manager
+### 30. Site project manager
 
 **Company**: Grafton Estonia OÜ
 **Location**: Unknown
@@ -748,7 +792,7 @@
 
 📄 [Full Details](low_priority/1469350.json)
 
-### 27. Java Developer
+### 31. Java Developer
 
 **Company**: Playtech Estonia OÜ
 **Location**: Unknown
@@ -762,7 +806,7 @@
 
 📄 [Full Details](low_priority/1465097.json)
 
-### 28. System Analyst
+### 32. System Analyst
 
 **Company**: Playtech Estonia OÜ
 **Location**: Unknown
@@ -776,7 +820,18 @@
 
 📄 [Full Details](low_priority/1468377.json)
 
-### 29. Deployment Team Lead
+### 33. Muusikaterapeut
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1462646
+**Posted**: 2025-11-05T12:19:23.000+00:00
+
+📄 [Full Details](low_priority/1462646.json)
+
+### 34. Deployment Team Lead
 
 **Company**: Saku Õlletehase AS
 **Location**: Unknown
@@ -788,7 +843,7 @@
 
 📄 [Full Details](low_priority/1473212.json)
 
-### 30. Timber Sales Manager
+### 35. Timber Sales Manager
 
 **Company**: Ingka Investments Estonia OÜ
 **Location**: Unknown
@@ -801,7 +856,7 @@
 
 📄 [Full Details](low_priority/1476220.json)
 
-### 31. Full Stack Engineer
+### 36. Full Stack Engineer
 
 **Company**: Rush Street Interactive LLC
 **Location**: Unknown
@@ -812,7 +867,7 @@
 
 📄 [Full Details](low_priority/1461930.json)
 
-### 32. Full-Stack arendaja
+### 37. Full-Stack arendaja
 
 **Company**: RMIT
 **Location**: Unknown
@@ -825,7 +880,7 @@
 
 📄 [Full Details](low_priority/1474479.json)
 
-### 33. Junior Software Developer in CODE Tribe, Customer Engagement Solutions team | SEB, Tallinn
+### 38. Junior Software Developer in CODE Tribe, Customer Engagement Solutions team | SEB, Tallinn
 
 **Company**: SEB
 **Location**: Unknown
@@ -836,7 +891,7 @@
 
 📄 [Full Details](low_priority/1473184.json)
 
-### 34. Estonian Language & Culture Teacher (Part-Time/Full-Time)
+### 39. Estonian Language & Culture Teacher (Part-Time/Full-Time)
 
 **Company**: International School of Estonia
 **Location**: Unknown
@@ -849,7 +904,7 @@
 
 📄 [Full Details](low_priority/1474684.json)
 
-### 35. Reisikonsultant / Travel Consultant
+### 40. Reisikonsultant / Travel Consultant
 
 **Company**: SIA INTERLUX Travel
 **Location**: Unknown
@@ -863,7 +918,7 @@
 
 📄 [Full Details](low_priority/1468212.json)
 
-### 36. QA Engineer
+### 41. QA Engineer
 
 **Company**: EvoGame Estonia OÜ
 **Location**: Unknown
@@ -877,7 +932,7 @@
 
 📄 [Full Details](low_priority/1473603.json)
 
-### 37. Electromechanical Assembler
+### 42. Electromechanical Assembler
 
 **Company**: Repligen Estonia OÜ
 **Location**: Unknown
@@ -890,7 +945,7 @@
 
 📄 [Full Details](low_priority/1467394.json)
 
-### 38. Systems Operations Lead
+### 43. Systems Operations Lead
 
 **Company**: Orkla Accounting Centre OÜ
 **Location**: Unknown
@@ -903,7 +958,7 @@
 
 📄 [Full Details](low_priority/1475690.json)
 
-### 39. Finnish-Speaking Customer Expert
+### 44. Finnish-Speaking Customer Expert
 
 **Company**: Majorel Estonia OÜ
 **Location**: Unknown
@@ -916,7 +971,42 @@
 
 📄 [Full Details](low_priority/1476564.json)
 
-### 40. Full stack Java arendaja
+### 45. Kutsealuste büroo juhataja
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1472994
+**Posted**: 2025-11-25T12:25:03.045+00:00
+
+📄 [Full Details](low_priority/1472994.json)
+
+### 46. Inglise keele õpetaja (Aruküla Põhikool)
+
+**Company**: Raasiku Vallavalitsus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1461131
+**Posted**: 2025-11-13T18:02:51.000+00:00
+
+**Description**: kvalifikatsiooninõuetele vastav haridus (või selle omandamine). Kandideeri julgelt, kui sul on õpingud veel pooleli või oled huvitatud töö kõrvalt pedagoogilise kvalifikatsiooni omandamisest! oskus mõ...
+
+📄 [Full Details](low_priority/1461131.json)
+
+### 47. Juhtimise suuna lektor
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1476462
+**Posted**: 2025-12-02T12:10:16.000+00:00
+
+📄 [Full Details](low_priority/1476462.json)
+
+### 48. Full stack Java arendaja
 
 **Company**: Siseministeeriumi infotehnoloogia- ja arenduskeskus
 **Location**: Unknown
@@ -928,7 +1018,31 @@
 
 📄 [Full Details](low_priority/1459746.json)
 
-### 41. Quality Assurance Engineer (Manual Testing)
+### 49. Laohoidja
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1471799
+**Posted**: 2025-11-24T06:57:36.000+00:00
+
+📄 [Full Details](low_priority/1471799.json)
+
+### 50. Haridus- ja noorsootöövaldkonna spetsialist
+
+**Company**: Elva Vallavalitsus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1470851
+**Posted**: 2025-11-20T13:47:34.000+00:00
+
+**Description**: Ootused kandidaadile: erialane kõrgharidus (soovitavalt haridusvaldkond); eelnev töökogemus haridus- või noorsootöövaldkonnas. Tööülesanded: toetab ja koordineerib valla haridus- ja noortevaldkonna ko...
+
+📄 [Full Details](low_priority/1470851.json)
+
+### 51. Quality Assurance Engineer (Manual Testing)
 
 **Company**: Interactive Brokers Software Services Estonia
 **Location**: Unknown
@@ -942,7 +1056,7 @@
 
 📄 [Full Details](low_priority/1467500.json)
 
-### 42. Head of Internal Audit
+### 52. Head of Internal Audit
 
 **Company**: IPF Digital AS
 **Location**: Unknown
@@ -956,7 +1070,18 @@
 
 📄 [Full Details](low_priority/1468215.json)
 
-### 43. Quality engineer
+### 53. Saalitöötaja Lasnamäe Promo Cash&Carry hulgikaupluses
+
+**Company**: Sanitex OÜ
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1467232
+**Posted**: 2025-11-13T09:24:53.000+00:00
+
+📄 [Full Details](low_priority/1467232.json)
+
+### 54. Quality engineer
 
 **Company**: BLRT Grupp AS
 **Location**: Unknown
@@ -967,7 +1092,7 @@
 
 📄 [Full Details](low_priority/1462832.json)
 
-### 44. Technical Manager
+### 55. Technical Manager
 
 **Company**: Ragn-Sells AS
 **Location**: Unknown
@@ -978,7 +1103,7 @@
 
 📄 [Full Details](low_priority/1463285.json)
 
-### 45. Frontend Developer
+### 56. Frontend Developer
 
 **Company**: Insly OÜ
 **Location**: Unknown
@@ -989,7 +1114,7 @@
 
 📄 [Full Details](low_priority/1457825.json)
 
-### 46. Müügiinsener
+### 57. Müügiinsener
 
 **Company**: BLRT Grupp AS
 **Location**: Unknown
@@ -1000,7 +1125,40 @@
 
 📄 [Full Details](low_priority/1471228.json)
 
-### 47. Operational Excellence Lead
+### 58. Arst Kaitseväe Akadeemiasse
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1465880
+**Posted**: 2025-11-11T11:02:30.000+00:00
+
+📄 [Full Details](low_priority/1465880.json)
+
+### 59. Staabiohvitser
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1470865
+**Posted**: 2025-11-20T13:59:27.000+00:00
+
+📄 [Full Details](low_priority/1470865.json)
+
+### 60. Riide- ja erivarustuselao vanemlaohoidja
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1473791
+**Posted**: 2025-11-26T16:41:45.886+00:00
+
+📄 [Full Details](low_priority/1473791.json)
+
+### 61. Operational Excellence Lead
 
 **Company**: Grafton Estonia OÜ
 **Location**: Unknown
@@ -1011,7 +1169,18 @@
 
 📄 [Full Details](low_priority/1463369.json)
 
-### 48. Head of Support
+### 62. Jurist
+
+**Company**: Enefit
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1473217
+**Posted**: 2025-11-25T17:56:09.235+00:00
+
+📄 [Full Details](low_priority/1473217.json)
+
+### 63. Head of Support
 
 **Company**: Swedbank AS
 **Location**: Unknown
@@ -1025,7 +1194,18 @@
 
 📄 [Full Details](low_priority/1471460.json)
 
-### 49. Legal Assistant
+### 64. IT värbamise ja töösuhete partner
+
+**Company**: Enefit
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1474873
+**Posted**: 2025-11-28T10:47:47.000+00:00
+
+📄 [Full Details](low_priority/1474873.json)
+
+### 65. Legal Assistant
 
 **Company**: ESTO AS
 **Location**: Unknown
@@ -1038,7 +1218,18 @@
 
 📄 [Full Details](low_priority/1470691.json)
 
-### 50. Staff Engineer
+### 66. Rühmaülem
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1470842
+**Posted**: 2025-11-20T13:32:57.000+00:00
+
+📄 [Full Details](low_priority/1470842.json)
+
+### 67. Staff Engineer
 
 **Company**: Bigbank AS
 **Location**: Unknown
@@ -1049,7 +1240,29 @@
 
 📄 [Full Details](low_priority/1474591.json)
 
-### 51. Internal Services Engineer
+### 68. Sõpruse maja tegevusjuhendaja
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1461943
+**Posted**: 2025-11-04T13:58:28.000+00:00
+
+📄 [Full Details](low_priority/1461943.json)
+
+### 69. Operatsioonide ja väljaõppe sektsiooni staabiallohvitser
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1414883
+**Posted**: 2025-11-03T08:38:48.000+00:00
+
+📄 [Full Details](low_priority/1414883.json)
+
+### 70. Internal Services Engineer
 
 **Company**: Tripod Grupp OÜ
 **Location**: Unknown
@@ -1060,7 +1273,40 @@
 
 📄 [Full Details](low_priority/1471989.json)
 
-### 52. Employer Branding and Communications Partner
+### 71. Köögi abitööline (Filtri)
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1469341
+**Posted**: 2025-11-18T08:09:47.000+00:00
+
+📄 [Full Details](low_priority/1469341.json)
+
+### 72. Instruktor
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1474046
+**Posted**: 2025-11-27T08:13:48.000+00:00
+
+📄 [Full Details](low_priority/1474046.json)
+
+### 73. Tehnoloogiajuht
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1473201
+**Posted**: 2025-11-25T15:26:11.636+00:00
+
+📄 [Full Details](low_priority/1473201.json)
+
+### 74. Employer Branding and Communications Partner
 
 **Company**: Playtech Estonia OÜ
 **Location**: Unknown
@@ -1074,7 +1320,7 @@
 
 📄 [Full Details](low_priority/1473499.json)
 
-### 53. Security Engineer (Threat Detection)
+### 75. Security Engineer (Threat Detection)
 
 **Company**: Helmes AS
 **Location**: Unknown
@@ -1085,7 +1331,7 @@
 
 📄 [Full Details](low_priority/1470695.json)
 
-### 54. Front-end arendaja
+### 76. Front-end arendaja
 
 **Company**: BitWeb OÜ
 **Location**: Unknown
@@ -1096,7 +1342,7 @@
 
 📄 [Full Details](low_priority/1473044.json)
 
-### 55. Product Owner (Mechanical)
+### 77. Product Owner (Mechanical)
 
 **Company**: Stargate Hydrogen Solutions OÜ
 **Location**: Unknown
@@ -1110,7 +1356,40 @@
 
 📄 [Full Details](low_priority/1472277.json)
 
-### 56. Sales Manager
+### 78. Remondigrupi tehnik
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1471826
+**Posted**: 2025-11-24T07:05:34.001+00:00
+
+📄 [Full Details](low_priority/1471826.json)
+
+### 79. Väljaõppeallohvitser
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475785
+**Posted**: 2025-12-01T12:06:24.179+00:00
+
+📄 [Full Details](low_priority/1475785.json)
+
+### 80. Kandideeri ohvitseri väljaõppesse Soome Maanpuolustuskorkeakoulus!
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1476619
+**Posted**: 2025-12-02T14:37:31.567+00:00
+
+📄 [Full Details](low_priority/1476619.json)
+
+### 81. Sales Manager
 
 **Company**: VILPE BALTICS SIA
 **Location**: Unknown
@@ -1124,7 +1403,29 @@
 
 📄 [Full Details](low_priority/1471521.json)
 
-### 57. Technical Account Manager
+### 82. Kliendisuhte juht
+
+**Company**: OIXIO IT AS
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475932
+**Posted**: 2025-12-01T14:06:28.000+00:00
+
+📄 [Full Details](low_priority/1475932.json)
+
+### 83. Ratastehnika staabiallohvitser
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1468999
+**Posted**: 2025-11-17T14:00:02.000+00:00
+
+📄 [Full Details](low_priority/1468999.json)
+
+### 84. Technical Account Manager
 
 **Company**: Insly OÜ
 **Location**: Unknown
@@ -1135,7 +1436,18 @@
 
 📄 [Full Details](low_priority/1473118.json)
 
-### 58. Mobile App Quality Engineer
+### 85. Kübersihtmärgistamise staabiohvitser-süsteemianalüütik
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1424536
+**Posted**: 2025-11-20T11:54:14.000+00:00
+
+📄 [Full Details](low_priority/1424536.json)
+
+### 86. Mobile App Quality Engineer
 
 **Company**: Bigbank AS
 **Location**: Unknown
@@ -1146,7 +1458,20 @@
 
 📄 [Full Details](low_priority/1470890.json)
 
-### 59. Professor of Software Engineering
+### 87. Investeeringute spetsialist
+
+**Company**: Utilitas 
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1472017
+**Posted**: 2025-11-24T09:53:25.000+00:00
+
+**Description**: Paindlik tööaeg, lisapuhkus, tervisekindlustus või sporditoetus, koolitusvõimalused
+
+📄 [Full Details](low_priority/1472017.json)
+
+### 88. Professor of Software Engineering
 
 **Company**: TalTech (Tallinna Tehnikaülikool)
 **Location**: Unknown
@@ -1157,7 +1482,29 @@
 
 📄 [Full Details](low_priority/1471078.json)
 
-### 60. Full-Stack arendaja
+### 89. HEVKO, sotsiaalpedagoog, psühholoog
+
+**Company**: Harku Vallavalitsus 
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1474394
+**Posted**: 2025-11-27T14:11:51.140+00:00
+
+📄 [Full Details](low_priority/1474394.json)
+
+### 90. Juhtiv siseaudiitor
+
+**Company**: Enefit
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1474677
+**Posted**: 2025-11-28T07:35:15.050+00:00
+
+📄 [Full Details](low_priority/1474677.json)
+
+### 91. Full-Stack arendaja
 
 **Company**: Eesti Raudtee AS
 **Location**: Unknown
@@ -1168,7 +1515,40 @@
 
 📄 [Full Details](low_priority/1470470.json)
 
-### 61. Operational manager
+### 92. Andmehalduse juht
+
+**Company**: Enefit
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1467868
+**Posted**: 2025-11-14T07:18:54.000+00:00
+
+📄 [Full Details](low_priority/1467868.json)
+
+### 93. Prantsuse keele lektor
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475750
+**Posted**: 2025-12-01T11:47:05.000+00:00
+
+📄 [Full Details](low_priority/1475750.json)
+
+### 94. Mereväe juhtimis- ja siderühma rühmavanem
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1451377
+**Posted**: 2025-11-19T14:33:30.000+00:00
+
+📄 [Full Details](low_priority/1451377.json)
+
+### 95. Operational manager
 
 **Company**: LAUNDROMAT OÜ
 **Location**: Unknown
@@ -1181,7 +1561,29 @@
 
 📄 [Full Details](low_priority/1463659.json)
 
-### 62. Product Manager
+### 96. Mehaanika remonditööde meister
+
+**Company**: Enefit
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475651
+**Posted**: 2025-12-01T10:18:37.000+00:00
+
+📄 [Full Details](low_priority/1475651.json)
+
+### 97. Juksi meeskonna tegevusjuhendaja
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1461832
+**Posted**: 2025-11-04T12:28:27.000+00:00
+
+📄 [Full Details](low_priority/1461832.json)
+
+### 98. Product Manager
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -1194,7 +1596,7 @@
 
 📄 [Full Details](low_priority/1474130.json)
 
-### 63. Technical director / Member of the management board
+### 99. Technical director / Member of the management board
 
 **Company**: BLRT Grupp AS
 **Location**: Unknown
@@ -1205,7 +1607,7 @@
 
 📄 [Full Details](low_priority/1469603.json)
 
-### 64. Design engineer (metal structures)
+### 100. Design engineer (metal structures)
 
 **Company**: BLRT Grupp AS
 **Location**: Unknown
@@ -1216,7 +1618,7 @@
 
 📄 [Full Details](low_priority/1471604.json)
 
-### 65. Automation Lead
+### 101. Automation Lead
 
 **Company**: LHV Pank AS
 **Location**: Unknown
@@ -1227,7 +1629,18 @@
 
 📄 [Full Details](low_priority/1467214.json)
 
-### 66. Automation Integration Engineer
+### 102. Robootikainsener
+
+**Company**: Southwestern Recruitment
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1468338
+**Posted**: 2025-11-17T12:06:56.000+00:00
+
+📄 [Full Details](low_priority/1468338.json)
+
+### 103. Automation Integration Engineer
 
 **Company**: ABB AS
 **Location**: Unknown
@@ -1238,7 +1651,7 @@
 
 📄 [Full Details](low_priority/1465889.json)
 
-### 67. Quality Assurance Lead
+### 104. Quality Assurance Lead
 
 **Company**: Helmes AS
 **Location**: Unknown
@@ -1249,7 +1662,7 @@
 
 📄 [Full Details](low_priority/1475013.json)
 
-### 68. AI Engineer
+### 105. AI Engineer
 
 **Company**: Cybernetica AS
 **Location**: Unknown
@@ -1260,7 +1673,18 @@
 
 📄 [Full Details](low_priority/1438693.json)
 
-### 69. Slot Game Engine Developer
+### 106. Sõjalaeva vanemelektrik
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1442631
+**Posted**: 2025-11-18T10:39:05.000+00:00
+
+📄 [Full Details](low_priority/1442631.json)
+
+### 107. Slot Game Engine Developer
 
 **Company**: Playstack OÜ
 **Location**: Unknown
@@ -1273,7 +1697,7 @@
 
 📄 [Full Details](low_priority/1462103.json)
 
-### 70. FULL-STACK ARENDAJA
+### 108. FULL-STACK ARENDAJA
 
 **Company**: Elisa Eesti AS
 **Location**: Unknown
@@ -1284,7 +1708,7 @@
 
 📄 [Full Details](low_priority/1433318.json)
 
-### 71. Circuit Design Engineer
+### 109. Circuit Design Engineer
 
 **Company**: Tallinna Elektrotehnika Tehas "Estel" AS
 **Location**: Unknown
@@ -1297,7 +1721,7 @@
 
 📄 [Full Details](low_priority/1468615.json)
 
-### 72. Senior Customer Retention Manager
+### 110. Senior Customer Retention Manager
 
 **Company**: Malwarebytes Estonia OÜ
 **Location**: Unknown
@@ -1311,7 +1735,18 @@
 
 📄 [Full Details](low_priority/1471610.json)
 
-### 73. Solutions Specialist
+### 111. Insener-tehnik
+
+**Company**: Kaitsepolitseiamet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475671
+**Posted**: 2025-12-01T10:37:27.179+00:00
+
+📄 [Full Details](low_priority/1475671.json)
+
+### 112. Solutions Specialist
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -1325,7 +1760,7 @@
 
 📄 [Full Details](low_priority/1460953.json)
 
-### 74. French & Spanish Teacher (Full-time)
+### 113. French & Spanish Teacher (Full-time)
 
 **Company**: International School of Estonia
 **Location**: Unknown
@@ -1338,7 +1773,7 @@
 
 📄 [Full Details](low_priority/1474682.json)
 
-### 75. Software Developer in Investment Advisory team | SEB, Tallinn
+### 114. Software Developer in Investment Advisory team | SEB, Tallinn
 
 **Company**: SEB
 **Location**: Unknown
@@ -1349,7 +1784,7 @@
 
 📄 [Full Details](low_priority/1474457.json)
 
-### 76. PCM Team Lead
+### 115. PCM Team Lead
 
 **Company**: Saku Õlletehase AS
 **Location**: Unknown
@@ -1361,7 +1796,7 @@
 
 📄 [Full Details](low_priority/1467677.json)
 
-### 77. Senior Technical Marketing Operations Manager
+### 116. Senior Technical Marketing Operations Manager
 
 **Company**: Malwarebytes Estonia OÜ
 **Location**: Unknown
@@ -1375,7 +1810,29 @@
 
 📄 [Full Details](low_priority/1469103.json)
 
-### 78. QA Engineer
+### 117. Lahing- ja sidesüsteemideohvitser
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1434030
+**Posted**: 2025-11-18T10:18:47.000+00:00
+
+📄 [Full Details](low_priority/1434030.json)
+
+### 118. Tegevusjuhendaja vaimse tervise meeskonda
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1462684
+**Posted**: 2025-11-05T12:50:06.000+00:00
+
+📄 [Full Details](low_priority/1462684.json)
+
+### 119. QA Engineer
 
 **Company**: Playtech Estonia OÜ
 **Location**: Unknown
@@ -1388,7 +1845,7 @@
 
 📄 [Full Details](low_priority/1470946.json)
 
-### 79. QUALITY ASSURANCE LEAD
+### 120. QUALITY ASSURANCE LEAD
 
 **Company**: Elisa Eesti AS
 **Location**: Unknown
@@ -1399,7 +1856,31 @@
 
 📄 [Full Details](low_priority/1468373.json)
 
-### 80. Assembly Operator
+### 121. Tiimijuht
+
+**Company**: Riigi IT Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1471189
+**Posted**: 2025-11-21T07:51:47.783+00:00
+
+**Description**: Tööandja tervisekindlustus, spordihüvitis, koolitused, tervisepäevad, ühisüritused.
+
+📄 [Full Details](low_priority/1471189.json)
+
+### 122. Tegevusjuhendaja graafiku alusel
+
+**Company**: Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1461752
+**Posted**: 2025-11-04T11:44:20.000+00:00
+
+📄 [Full Details](low_priority/1461752.json)
+
+### 123. Assembly Operator
 
 **Company**: Starship Technologies OÜ
 **Location**: Unknown
@@ -1412,7 +1893,7 @@
 
 📄 [Full Details](low_priority/1473485.json)
 
-### 81. Client Relationship Manager
+### 124. Client Relationship Manager
 
 **Company**: Wallester AS
 **Location**: Unknown
@@ -1425,7 +1906,7 @@
 
 📄 [Full Details](low_priority/1474126.json)
 
-### 82. Software Support Specialist
+### 125. Software Support Specialist
 
 **Company**: Magnetic MRO AS
 **Location**: Unknown
@@ -1438,7 +1919,7 @@
 
 📄 [Full Details](low_priority/1469801.json)
 
-### 83. Tech Lead - Data Warehouse
+### 126. Tech Lead - Data Warehouse
 
 **Company**: Inbank
 **Location**: Unknown
@@ -1449,7 +1930,7 @@
 
 📄 [Full Details](low_priority/1460471.json)
 
-### 84. Administrative Assistant / Administratiivosakonna assistent
+### 127. Administrative Assistant / Administratiivosakonna assistent
 
 **Company**: Jaapani  Suursaatkond
 **Location**: Unknown
@@ -1463,7 +1944,32 @@
 
 📄 [Full Details](low_priority/1475112.json)
 
-### 85. Head of Legal
+### 128. Büroojuht-juhiabi
+
+**Company**: Arhitekt11 OÜ
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1475442
+**Posted**: 2025-12-01T08:52:14.000+00:00
+
+**Description**: Tasuta parkimine
+Spordikompensatsioon
+
+📄 [Full Details](low_priority/1475442.json)
+
+### 129. Kogukonna noorsootöötaja
+
+**Company**: Tartu Linnavalitsus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1471246
+**Posted**: 2025-11-21T08:36:53.332+00:00
+
+📄 [Full Details](low_priority/1471246.json)
+
+### 130. Head of Legal
 
 **Company**: Marabu Airlines OÜ
 **Location**: Unknown
@@ -1477,7 +1983,18 @@
 
 📄 [Full Details](low_priority/1474733.json)
 
-### 86. Süsteemiarhitekt
+### 131. Vanemfinantsplaneerija
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1473970
+**Posted**: 2025-11-27T06:49:12.000+00:00
+
+📄 [Full Details](low_priority/1473970.json)
+
+### 132. Süsteemiarhitekt
 
 **Company**: Siseministeeriumi infotehnoloogia- ja arenduskeskus
 **Location**: Unknown
@@ -1488,7 +2005,7 @@
 
 📄 [Full Details](low_priority/1468003.json)
 
-### 87. JAVA  full-stack arendaja
+### 133. JAVA  full-stack arendaja
 
 **Company**: SRINI OÜ
 **Location**: Unknown
@@ -1500,7 +2017,18 @@
 
 📄 [Full Details](low_priority/1469467.json)
 
-### 88. Senior Games Developer
+### 134. Lennujuht
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1476213
+**Posted**: 2025-12-02T07:31:57.635+00:00
+
+📄 [Full Details](low_priority/1476213.json)
+
+### 135. Senior Games Developer
 
 **Company**: Playstack OÜ
 **Location**: Unknown
@@ -1514,7 +2042,7 @@
 
 📄 [Full Details](low_priority/1464887.json)
 
-### 89. Senior Credit Risk Analyst
+### 136. Senior Credit Risk Analyst
 
 **Company**: TF Bank AB Eesti filiaal
 **Location**: Unknown
@@ -1528,7 +2056,18 @@
 
 📄 [Full Details](low_priority/1466966.json)
 
-### 90. Full-stack Arendaja
+### 137. Füsioterapeut
+
+**Company**: Kaitseressursside Amet
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1465586
+**Posted**: 2025-11-11T12:31:08.000+00:00
+
+📄 [Full Details](low_priority/1465586.json)
+
+### 138. Full-stack Arendaja
 
 **Company**: Tietoevry Fintech Estonia OÜ
 **Location**: Unknown
@@ -1541,7 +2080,7 @@
 
 📄 [Full Details](low_priority/1470751.json)
 
-### 91. Mapping Team Lead
+### 139. Mapping Team Lead
 
 **Company**: Starship Technologies OÜ
 **Location**: Unknown
@@ -1555,7 +2094,7 @@
 
 📄 [Full Details](low_priority/1469463.json)
 
-### 92. Lead Product Engineer/Tech Lead
+### 140. Lead Product Engineer/Tech Lead
 
 **Company**: LHV Pank AS
 **Location**: Unknown

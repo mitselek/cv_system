@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1475932",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475932",
+    "title": "Kliendisuhte juht",
+    "company": "OIXIO IT AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T14:06:28.000+00:00",
+    "discovered_date": "2025-12-02T23:39:32.022829",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

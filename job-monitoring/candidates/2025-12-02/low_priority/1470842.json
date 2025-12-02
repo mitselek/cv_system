@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1470842",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470842",
+    "title": "Rühmaülem",
+    "company": "Kaitseressursside Amet",
+    "location": "Unknown",
+    "posted_date": "2025-11-20T13:32:57.000+00:00",
+    "discovered_date": "2025-12-02T23:39:28.700148",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}
