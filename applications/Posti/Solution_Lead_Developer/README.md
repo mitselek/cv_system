@@ -142,6 +142,16 @@
 - Open to discussion based on role scope and responsibilities
 - Flexible given relocation consideration
 
+## Application Timeline
+
+- **2025-12-01 16:45:** Initial email application sent with CV and motivation letter attachments
+- **2025-12-02 14:25:** First response - informed that email applications not accepted, must use Workday system (GDPR/data security reasons)
+- **2025-12-02 14:27:** Replied "In this case you lost me, sorry :)"
+- **2025-12-02 14:35:** Jennifer Kyllönen (Talent Acquisition Specialist) provided detailed explanation about GDPR compliance and data protection requirements for using Workday
+- **2025-12-03 01:26:** Reconsidered and sent professional reply acknowledging GDPR explanation, confirming submission through Workday
+- **2025-12-02 23:23:** Workday acknowledgment received - "Application will be reviewed and we will contact you regarding the next steps as soon as we have started to proceed in the recruitment process"
+- **Status:** Submitted, under review by Posti's Recruitment Team
+
 ## Notes
 
 - Hybrid work model aligns with preferences
@@ -149,3 +159,4 @@
 - 15,000 employee company offers growth opportunities
 - Sustainability mission (fossil-free 2030) resonates
 - Mental Health Friendly Workplace® label indicates good culture
+- Learned importance of following proper HR system procedures for GDPR compliance

@@ -32,19 +32,20 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-30 | Playtech Estonia | System Analyst | 92% | [README](Playtech_Estonia/System_Analyst/README.md) | 2025-12-14 | Submitted | Senior System Analyst experience at EKI. UML certification. Strong database skills. Gap: iGaming industry experience. 2025-11-30: Ack received via SmartRecruiters, response within 2 weeks. |
 | 2025-12-01 | Accenture | Senior AI Architect | 40% | [README](Accenture/Senior_AI_Architect/README.md) | Open | Draft | Strong software architecture (15+ yrs), Python/Node.js expertise. CRITICAL GAP: No ML/AI experience. Application via Accenture portal only (no email). |
 | 2025-12-01 | IONA | Technical Architect | 85% | [README](IONA/Technical_Architect/README.md) | 2025-12-14 | Submitted | 15+ yrs Node.js architecture, PÖFF team leadership, 100% intern hire rate. Gaps: Finnish language, e-commerce domain. Salary: €6,500-7,500. 2025-12-01: Ack received from Emmi Vahvelainen. |
-| 2025-12-01 | Posti Oy | Solution Lead Developer | 85% | [README](Posti/Solution_Lead_Developer/README.md) | 2025-12-10 | Rejected | Backend (20+ yrs), Oracle/PLSQL (8/10, O'Reilly handbook), Python (9/10), 100k+ real-time systems. Gaps: Kafka/event streaming, logistics. 2025-12-02: Rejected - applications only accepted through Workday HR system, not email. Contact: talentacquisition@posti.com. |
-| 2025-12-01 | EWQ Zone Oy | Senior Backend Developer | 68.75% | [README](EWQ_Zone/Senior_Backend_Developer/README.md) | 2025-12-14 | Submitted | Node.js (15 yrs, 8/10), MongoDB (15 yrs), Docker, backend architecture, AI tools (since Apr 2024). CRITICAL GAP: No PHP experience (primary requirement). Honest about gap in application. 2025-12-02: Requested to apply through TeamTailor system (https://weconoy.teamtailor.com/en-GB/jobs/6848324-senior-backend-developer-ewq-zone-oy). Contact: Laura Willberg <laura@wecon.fi>. |
+| 2025-12-01 | Posti Oy | Solution Lead Developer | 85% | [README](Posti/Solution_Lead_Developer/README.md) | 2025-12-10 | Submitted | Backend (20+ yrs), Oracle/PLSQL (8/10, O'Reilly handbook), Python (9/10), 100k+ real-time systems. Gaps: Kafka/event streaming, logistics. 2025-12-03: Applied through Workday system after GDPR clarification. Ack received, application under review. Contact: Jennifer Kyllönen <jennifer.kyllonen@posti.com> / workday.notification@posti.com. |
+| 2025-12-01 | EWQ Zone Oy | Senior Backend Developer | 68.75% | [README](EWQ_Zone/Senior_Backend_Developer/README.md) | 2025-12-14 | Submitted | Node.js (15 yrs, 8/10), MongoDB (15 yrs), Docker, backend architecture, AI tools (since Apr 2024). CRITICAL GAP: No PHP experience (primary requirement). Honest about gap in application. 2025-12-02: Applied through TeamTailor system. Ack received, application registered, response expected within a few days. Contact: Laura Willberg <laura@wecon.fi> (+358 50 586 2769). |
 | 2025-12-03 | Kühne + Nagel | Senior Backend Engineer (m/w/d) | 90% | [README](Kuhne_Nagel/Senior_Backend_Engineer/README.md) | Not specified | Submitted | 20+ yrs backend, Spring Boot (EKI), AWS, Docker, API design. Gaps: Kotlin, Kubernetes production. Job ID: 1476464. 2025-12-02: Ack received from PeopleHub, application under review. Contact: people@kuehne-nagel.com. |
+| 2025-12-03 | 1oT OÜ | Tech Lead / Senior Java Software Engineer | 95% | [README](1oT/Tech_Lead_Senior_Java_Software_Engineer/README.md) | Not specified | Draft | 20+ yrs Java/Spring backend, led 4-member team (100% intern hire rate), API architecture, AWS/Docker. Gaps: Terraform, Grafana, cryptography/HSM. Job ID: 1473117. eSIM/IoT domain. |
 
 ## Statistics
 
-- **Total Applications:** 18
-- **Active (Draft/Ready):** 1
-- **Submitted:** 13
+- **Total Applications:** 19
+- **Active (Draft/Ready):** 2
+- **Submitted:** 14
 - **In Interview Process:** 0
 - **Offers Received:** 0
 - **Positions Accepted:** 0
-- **Rejected:** 4
+- **Rejected:** 3
 - **Withdrawn:** 0
 
 ---

@@ -1,0 +1,57 @@
+# Tech Lead / Senior Java Software Engineer at 1oT OÜ
+
+**Source:** https://cv.ee/et/vacancy/1473117
+
+**Posted:** 2025-11-25
+
+**Job ID:** 1473117
+
+---
+
+1oT is looking for a Tech Lead / Senior Software Engineer to join us in building connectivity solutions according to the new eSIM IoT standard.
+
+1oT has built a platform for helping global IoT service providers manage their SIM cards and billing. The self-service based platform enables users to control and monitor SIM card sessions, switch SIM cards on/off, buy new SIMs, send SMS to the SIM, etc. Our client portfolio ranges from e-mobility to asset tracking to smart city solutions, so you will have interaction with a variety of IoT sectors and telecom companies.
+
+eSIM team builds and maintains services that implement at 1oT the eSIM standard of GSMA.
+
+## Responsibilities
+
+- Develop large-scale services (Java / REST / Spring / SQL)
+- Contribute to back-office UI (Vue.js)
+- Run and maintain our services in AWS (Terraform / Docker / Grafana)
+- Lead discussions on the architecture of the platform
+- Identify bottlenecks in technical solutions of the team
+- Lead implementation of technical initiatives
+- Prioritize security and compliance in development initiatives
+- Mentor junior members of the team on best practices and ways of working
+- Ensure that eSIM services are built according to GSMA specs
+- Handle external integrations via APIs
+
+## Required Qualifications
+
+- 6+ years of development experience (Java / REST / Spring / SQL)
+- Previous experience as Senior Engineer, Solution Architect, or Tech Lead
+- Experience with cloud-hosted services (AWS / Azure / GCP)
+- Ability to work with APIs and integrations
+- Comfortable with security-focused development
+- Willingness to mentor and guide other engineers
+
+## Nice to Have
+
+- Familiarity with modern UI frameworks is a huge plus
+- Experience with cryptography or HSM is a huge plus
+- enjoy working as part of a team and like driving technical discussions forward
+- approach challenges with a problem-solver mindset and get things done
+- take strong ownership of your work and manage yourself well
+- have the curiosity and hunger to build products that don't yet exist
+- Readiness to take ownership of technical domains
+- A degree in Computer Science or a related field is beneficial but not mandatory. Strong practical experience is valued more highly.
+
+## What We Offer
+
+- Meaningful, globally impactful work on cutting-edge eSIM technology
+- Diverse tasks from building new features to optimizing existing systems
+- Influence and ownership inside a growing, sustainable company
+- Cozy and productive environment in Tallinn HQ
+- Ambitious teammates who challenge the status quo
+- Supportive, fun team and great vibes
