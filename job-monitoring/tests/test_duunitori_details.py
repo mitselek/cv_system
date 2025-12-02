@@ -13,6 +13,8 @@ from pathlib import Path
 from typing import Dict, Any, Optional
 from unittest.mock import Mock, MagicMock, patch
 
+from pydantic import HttpUrl
+
 from job_monitor.schemas import JobPosting
 from job_monitor.scrapers.duunitori import DuunitoriScraper
 
@@ -58,6 +60,7 @@ class TestDuunitoriDetailExtraction(unittest.TestCase):
         description, contact_info = scraper._extract_job_details("https://duunitori.fi/test")
         
         self.assertIsNotNone(description)
+        assert description is not None  # Type narrowing for mypy
         self.assertIn("business analyst", description)
         self.assertIn("Python", description)
         self.assertIn("SQL", description)
@@ -305,7 +308,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         
         # Create jobs that need details
         job1 = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-123",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-123"),
             title="Test Job 1",
             company="TestCorp",
             location="Helsinki",
@@ -315,7 +318,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         )
         
         job2 = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-456",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-456"),
             title="Test Job 2",
             company="TestCorp",
             location="Helsinki",
@@ -329,7 +332,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         # Mock state manager with cached description for job1
         mock_state_manager = Mock()
         cached_job1 = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-123",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-123"),
             title="Test Job 1",
             company="TestCorp",
             location="Helsinki",
@@ -377,7 +380,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         
         # Create jobs
         job1 = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-123",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-123"),
             title="Test Job 1",
             company="TestCorp",
             location="Helsinki",
@@ -387,7 +390,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         )
         
         job2 = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-456",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-456"),
             title="Test Job 2",
             company="TestCorp",
             location="Helsinki",
@@ -446,7 +449,7 @@ class TestDuunitoriCaching(unittest.TestCase):
         
         # Create job
         job = JobPosting(
-            url="https://duunitori.fi/tyopaikat/tyo/test-123",
+            url=HttpUrl("https://duunitori.fi/tyopaikat/tyo/test-123"),
             title="Test Job",
             company="TestCorp",
             location="Helsinki",
