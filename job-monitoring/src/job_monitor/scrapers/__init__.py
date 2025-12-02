@@ -176,8 +176,10 @@ class ScraperRegistry:
 
 
 # Auto-register scrapers
+from job_monitor.scrapers.cvee import CVeeScraper
 from job_monitor.scrapers.duunitori import DuunitoriScraper
 
+ScraperRegistry.register(CVeeScraper)
 ScraperRegistry.register(DuunitoriScraper)
 
 
