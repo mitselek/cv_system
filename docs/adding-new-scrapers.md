@@ -42,14 +42,14 @@ from job_monitor.scrapers.utils import rate_limit, retry
 
 class MyPortalScraper(BaseScraper):
     """MyPortal job scraper implementation."""
-    
+
     # Required class attributes
     SCRAPER_ID = "myportal"           # Used in config files
     DISPLAY_NAME = "MyPortal"         # Human-readable name
     REQUIRES_COOKIES = False           # True if needs authentication
     REQUIRES_AUTH = False              # True if needs API keys
     BASE_URLS = ["https://myportal.com"]
-    
+
     def _setup(self) -> None:
         """Initialize scraper (HTTP session, cookies, etc.)."""
         self.session = requests.Session()
@@ -57,11 +57,11 @@ class MyPortalScraper(BaseScraper):
             'User-Agent': self._build_user_agent(),
             'Accept': 'application/json',
         })
-        
+
         # Load cookies if required
         if self.REQUIRES_COOKIES and self.cookies_file:
             self._load_cookies()
-    
+
     def validate_config(self) -> bool:
         """Validate scraper-specific configuration."""
         # Check required config keys
@@ -70,19 +70,19 @@ class MyPortalScraper(BaseScraper):
         if self.cookies_file and not self.cookies_file.exists():
             return False
         return True
-    
+
     @rate_limit(delay=1.5)  # Respect rate limits
     @retry(max_attempts=3)   # Retry on failures
     def search(self, query: Dict[str, Any]) -> List[JobPosting]:
         """
         Search for jobs matching the query.
-        
+
         Args:
             query: Dictionary with search parameters
                 - keywords: str - Search terms
                 - location: str - Location filter
                 - limit: int - Max results (default: 20)
-                
+
         Returns:
             List of JobPosting objects
         """
@@ -90,7 +90,7 @@ class MyPortalScraper(BaseScraper):
         keywords = query.get('keywords', '')
         location = query.get('location', '')
         limit = query.get('limit', 20)
-        
+
         # Build API/search request
         response = self.session.get(
             f"{self.BASE_URLS[0]}/api/jobs",
@@ -101,18 +101,18 @@ class MyPortalScraper(BaseScraper):
             }
         )
         response.raise_for_status()
-        
+
         data = response.json()
-        
+
         # Parse results
         jobs = []
         for item in data.get('jobs', []):
             job = self._parse_job(item)
             if job:
                 jobs.append(job)
-        
+
         return jobs
-    
+
     def _parse_job(self, data: Dict[str, Any]) -> JobPosting:
         """Convert portal-specific data to JobPosting."""
         return JobPosting(
@@ -127,7 +127,7 @@ class MyPortalScraper(BaseScraper):
             remote=data.get('remote', False),
             source=self.DISPLAY_NAME
         )
-    
+
     def _parse_salary(self, salary_data: Any) -> str | None:
         """Parse salary information."""
         if not salary_data:
@@ -162,11 +162,11 @@ from job_monitor.scrapers import ScraperRegistry
 
 class TestMyPortalRegistration:
     """Test MyPortal scraper registration."""
-    
+
     def test_myportal_registered(self):
         """Test MyPortal is in registry."""
         assert ScraperRegistry.is_registered('myportal')
-    
+
     def test_myportal_metadata(self):
         """Test MyPortal metadata."""
         info = ScraperRegistry.get_scraper_info('myportal')
@@ -176,7 +176,7 @@ class TestMyPortalRegistration:
 
 class TestMyPortalSearch:
     """Test MyPortal search functionality."""
-    
+
     @patch('requests.Session.get')
     def test_search_basic_query(self, mock_get):
         """Test basic search."""
@@ -191,10 +191,10 @@ class TestMyPortalSearch:
             }]
         }
         mock_get.return_value = mock_response
-        
+
         scraper = ScraperRegistry.get_scraper('myportal', config={})
         jobs = scraper.search({'keywords': 'python', 'limit': 5})
-        
+
         assert len(jobs) > 0
         assert jobs[0].title == 'Python Developer'
 
@@ -237,19 +237,19 @@ Add documentation to your scraper file:
 class MyPortalScraper(BaseScraper):
     """
     MyPortal job scraper.
-    
+
     Portal Details:
         - URL: https://myportal.com
         - Type: REST API / HTML scraping
         - Authentication: None / Cookies required
         - Rate Limit: X requests per minute
-    
+
     Supported Query Parameters:
         - keywords (str): Search terms
         - location (str): City or region
         - limit (int): Max results (1-100)
         - category (str, optional): Job category
-    
+
     Example:
         scraper = ScraperRegistry.get_scraper('myportal', config={})
         jobs = scraper.search({
@@ -257,7 +257,7 @@ class MyPortalScraper(BaseScraper):
             'location': 'Helsinki',
             'limit': 20
         })
-    
+
     Notes:
         - Results are cached for 1 hour
         - Salary information may not always be available
@@ -273,7 +273,7 @@ class MyPortalScraper(BaseScraper):
 class APIPortalScraper(BaseScraper):
     SCRAPER_ID = "apiportal"
     REQUIRES_COOKIES = False
-    
+
     def search(self, query):
         response = self.session.get(
             f"{self.BASE_URLS[0]}/api/v1/jobs",
@@ -290,21 +290,21 @@ from bs4 import BeautifulSoup
 class HTMLPortalScraper(BaseScraper):
     SCRAPER_ID = "htmlportal"
     REQUIRES_COOKIES = True
-    
+
     def search(self, query):
         response = self.session.get(
             f"{self.BASE_URLS[0]}/search",
             params={'q': query.get('keywords')}
         )
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
         jobs = []
         for card in soup.select('.job-card'):
             job = self._parse_card(card)
             if job:
                 jobs.append(job)
         return jobs
-    
+
     def _parse_card(self, card):
         return JobPosting(
             url=HttpUrl(card.select_one('a')['href']),
@@ -357,7 +357,7 @@ def search(self, query):
     if not keywords:
         print("⚠️  No keywords provided")
         return []
-    
+
     limit = min(query.get('limit', 20), 100)  # Cap at 100
     ...
 ```
@@ -367,9 +367,9 @@ def search(self, query):
 ```python
 def search(self, query):
     print(f"\n🔍 Searching {self.DISPLAY_NAME}: {query.get('keywords')}")
-    
+
     jobs = self._fetch_jobs(query)
-    
+
     print(f"✅ Found {len(jobs)} jobs from {self.DISPLAY_NAME}")
     return jobs
 ```
@@ -384,12 +384,12 @@ def search(self, query):
 def _load_cookies(self):
     with open(self.cookies_file, 'r') as f:
         cookies = json.load(f)
-    
+
     for cookie in cookies:
         # Verify required fields
         if 'name' not in cookie or 'value' not in cookie:
             raise ValueError(f"Invalid cookie format in {self.cookies_file}")
-        
+
         self.session.cookies.set(
             name=cookie['name'],
             value=cookie['value'],
@@ -454,6 +454,7 @@ Before submitting your scraper:
 ## Support
 
 For questions or issues:
+
 1. Check existing scraper implementations
 2. Review test files for examples
 3. Check architecture documentation: `docs/scraper-architecture.md`

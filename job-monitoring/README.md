@@ -1,18 +1,27 @@
 # Job Monitoring System
 
-Automated job monitoring and application tracking system for managing job search workflows.
+Automated job monitoring and application tracking system with plugin-based scraper architecture.
 
 ## Overview
 
-This system provides automated monitoring of job portals, intelligent scoring of opportunities, and streamlined application management.
+This system provides automated monitoring of job portals, intelligent scoring of opportunities, and streamlined application management. Built with a plugin architecture that makes adding new job portals simple and maintainable.
 
 **Key Features:**
 
 - 🔍 **Automated Job Monitoring** - Continuous scanning of multiple job portals
+- 🔌 **Plugin Architecture** - Easy-to-extend scraper registry system
 - 🎯 **Intelligent Scoring** - Keyword-based ranking of job matches
 - 📊 **State Tracking** - Historical view of all discovered opportunities
 - 📝 **Application Management** - Organized tracking of applications
 - 🤖 **CLI Tools** - Command-line interface for all operations
+
+**Supported Job Portals:**
+
+- **Duunitori** (Finland) - HTML scraping with cookies (20 tests)
+- **CV.ee** (Estonia) - REST API integration (19 tests)
+- **Extensible** - Add new scrapers following our [developer guide](../docs/adding-new-scrapers.md)
+
+**Test Coverage:** 209 tests passing (100%)
 
 ## Quick Start
 
@@ -253,6 +262,66 @@ cv_system/
     ├── job_monitoring_workflows.md
     └── ...
 ```
+
+## Scraper Architecture
+
+The system uses a **plugin-based scraper registry** that makes adding new job portals straightforward:
+
+### Using Scrapers Programmatically
+
+```python
+from job_monitor.scrapers import ScraperRegistry
+
+# List available scrapers
+scrapers = ScraperRegistry.list_scrapers()
+print(scrapers)  # {'duunitori': <class>, 'cvee': <class>}
+
+# Get scraper info
+info = ScraperRegistry.get_scraper_info('cvee')
+print(info)  # {'id': 'cvee', 'name': 'CV.ee', 'requires_cookies': False, ...}
+
+# Use a scraper
+scraper = ScraperRegistry.get_scraper('cvee', config={})
+jobs = scraper.search({
+    'keywords': 'python developer',
+    'location': 'Tallinn',
+    'limit': 20
+})
+```
+
+### Configuration Format
+
+```yaml
+sources:
+  - name: cvee              # Scraper ID from registry
+    enabled: true
+    queries:
+      - keywords: "python developer"
+        location: "tallinn"
+        limit: 20
+
+  - name: duunitori         # Requires cookies
+    enabled: true
+    cookies_file: /path/to/cookies.json
+    queries:
+      - keywords: "python kehittäjä"
+        location: "Helsinki"
+        limit: 20
+```
+
+### Adding New Scrapers
+
+See [Adding New Scrapers Guide](../docs/adding-new-scrapers.md) for step-by-step instructions on creating new job portal scrapers.
+
+**Quick Overview:**
+
+1. Create `scrapers/myportal.py` extending `BaseScraper`
+2. Implement `search()` and `_setup()` methods
+3. Register in `scrapers/__init__.py`
+4. Add tests in `tests/test_scrapers/test_myportal.py`
+5. Update configuration files
+
+**Architecture Details:** See [Scraper Architecture Documentation](../docs/scraper-architecture.md)
 
 ## CLI Commands
 
