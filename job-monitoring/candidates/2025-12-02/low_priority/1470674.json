@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1470674",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470674",
+    "title": "Senior QA Engineer",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T10:00:10.908+00:00",
+    "discovered_date": "2025-12-02T22:39:50.109843",
+    "description": "Senior QA Engineer:\nAbout Playtech\nFounded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging its proprietary technology, Playtech delivers innovative products and services to ensure a safe, engaging and entertaining gaming experience.\nAs the gaming industry's leading technology company, it combines business intelligence-driven software, services, content, and platform technology to drive excellence and innovation across the sector. Read more about who we are and what we do here: www.playtechpeople.com and www.playtech.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Embracing differences and maintaining transparency in our processes is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytechs\nCasino unit\nis looking for a proactive\nSenior\nQA Engineer\nwith excellent communication and problem-solving skills.\nYour influential mission. You will...\nDesign and configure complex environments and applications, and create strategic test plans\nCollaborate with cross-functional teams to define requirements and influence quality standards\nUse advanced SQL, Java, and Linux tools in your daily work\nLead participation in an agile software development life cycle, ensuring quality practices\nAnalyze documentation and drive clarity for testing objectives\nCreate advanced test cases and contribute to automation frameworks, guiding improvements\nManage and optimize test environments for scalability and reliability\nLeverage automated tests and proactively identify gaps\nEnsure product quality at scale through rigorous testing and strategic feedback\nTrack and report project status, providing actionable insights\nPresent demos and share recommendations to stakeholders\nWork on global-scale, high-complexity products\nProvide feedback and drive continuous improvement for product and processes\nMentor team members, fostering growth and best practices in QA\nComponents for success. You...\nBring a deep technical foundation and extensive hands-on experience\nDemonstrate advanced SQL skills for complex data analysis and validation\nApply expert-level Linux knowledge in day-to-day tasks and troubleshooting\nPossess strong mentoring abilities, strategic thinking, and exceptional self-management skills\nHave a comprehensive understanding of software testing principles and development processes\nMaintain a collaborative, solution-focused, and positive mindset\nIdentify issues and investigate their root causes with precision and efficiency\nApproach technical challenges with creativity, flexibility, and scalability in mind\nThink abstractly to anticipate edge cases, system behaviors, and architectural impacts\nPrioritize issues based on severity, impact, and business risk\nCommunicate clearly and confidently in both spoken and written English\nYou'll get extra points for...\nProficiency in at least one programming language (Java preferred)\nThrive in a culture that values...\nEmpowerment, support and mentoring. Initiative-taking, positive and confident approach at the workplace.\nGlobal scope and inclusive working environment.\nConstant learning and development opportunities.\nActive lifestyle and mental well-being.\nCASINO UNIT\nCreating Playtechs flagship products is in our DNA. Our successful gaming ecosystems reach millions of players around the globe and win prestigious industry awards. We are striving to explore and utilize new technologies on a regular basis.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "mentor",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

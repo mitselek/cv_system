@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1467677",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1467677",
+    "title": "PCM Team Lead",
+    "company": "Saku Õlletehase AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T15:00:01.172+00:00",
+    "discovered_date": "2025-12-02T22:39:53.288570",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "team lead"
+  ],
+  "category": "Low Priority"
+}

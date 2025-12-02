@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1476699",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476699",
+    "title": "Project Manager - Regulated markets",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T16:56:55.039+00:00",
+    "discovered_date": "2025-12-02T22:39:51.696873",
+    "description": "Project Manager - Regulated markets:\nYour influential mission. You will\nManage projects that ensure Playtech Casino is compliant across regulated markets, enabling safe and lawful gameplay for our players\nCollect requirements for regulatory changes and translate them into clear tickets/emails for development teams and senior management\nHost and attend weekly project and regulatory meetings, ensuring smooth communication across departments\nPrepare evidence for audits and actively participate in them\nWork closely with the Certification team, supporting their projects and initiatives\nComponents for success. You\nAre familiar with both Agile methodologies (Scrum) and Waterfall practices\nHave previous experience in people management, with strong communication skills to coordinate across departments and manage information flows\nPossess strong analytical thinking and decision-making abilities\nAre fluent in English (Upper-Intermediate or higher)\nAre independent, resilient, and highly organized, able to stay calm under pressure in a fastpaced environment\nKnow when to escalate issues to avoid breaches and ensure compliance\nAre approachable and create a platform for teams to communicate effectively\nYou'll get extra points for\nExperience with JIRA (recommended but not mandatory)\nBroad understanding of project management tools and processes\nAbility to mentor and support colleagues across different functions\nHOW TO APPLY?\nIn addition to your CV, please add a brief motivation letter covering your goals, your current experience, or related fields and/or working in a project team.You can write it in the comment section at the end of the application page (under \"your message to the hiring manager\").",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "project manager",
+    "mentor",
+    "agile",
+    "scrum"
+  ],
+  "category": "Low Priority"
+}

@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1474875",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1474875",
+    "title": "PHP arendaja",
+    "company": "Opus Online OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-28T12:08:18.858+00:00",
+    "discovered_date": "2025-12-02T22:39:40.080094",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

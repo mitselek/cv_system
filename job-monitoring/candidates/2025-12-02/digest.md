@@ -19,7 +19,9 @@
 **Posted**: 2025-12-02T12:16:39.758+00:00
 **Matched Keywords**: docker, kubernetes, aws, ci/cd, devops, architecture, architect, microservices, api design
 
-**Description**: It's more than a job In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagels' global systems and operations. This contribution is vital to making...
+**Description**: Job description:
+It's more than a job
+In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagels' global systems and operations. This contribution i...
 
 📄 [Full Details](review/1476464.json)
 
@@ -33,7 +35,11 @@
 **Posted**: 2025-12-01T09:00:04.611+00:00
 **Matched Keywords**: javascript, typescript, react, aws, ci/cd, architecture, architect, microservices, mentor
 
-**Description**: Develop and maintain web applications using React and TypeScript. Integrate front-end applications with AWS services. Write clean, maintainable, and efficient code. Collaborate with designers, product...
+**Description**: Duties and Responsibilities:
+Develop and maintain web applications using React and TypeScript.
+Integrate front-end applications with AWS services.
+Write clean, maintainable, and efficient code.
+Collab...
 
 📄 [Full Details](review/1468785.json)
 
@@ -49,7 +55,9 @@
 **Posted**: 2025-11-24T13:20:58.000+00:00
 **Matched Keywords**: docker, kubernetes, azure, architecture, architect, microservices, agile, scrum
 
-**Description**: Hands-on experience with C# and the .NET framework, with a minimum of 5 years of experience Experience developing, shipping, and maintaining cloud-based applications Good knowledge and experience work...
+**Description**: What will help you to succeed in the role: :
+Hands-on experience with C# and the .NET framework, with a minimum of 5 years of experience
+Experience developing, shipping, and maintaining cloud-based ap...
 
 📄 [Full Details](low_priority/1472248.json)
 
@@ -63,7 +71,10 @@
 **Posted**: 2025-11-27T05:24:12.000+00:00
 **Matched Keywords**: docker, azure, ci/cd, devops, architecture, architect, microservices
 
-**Description**: • 5+ years of experience as a QA Engineer or Software Development Engineer in Test with multiple projects and technologies • Experience developing automation test frameworks from the ground up. • Prof...
+**Description**: What will help you to succeed in the role::
+•
+5+ years of experience as a QA Engineer or Software Development Engineer in Test with multiple projects and technologies
+• Experience developing automatio...
 
 📄 [Full Details](low_priority/1473955.json)
 
@@ -77,7 +88,9 @@
 **Posted**: 2025-11-20T06:02:29.000+00:00
 **Matched Keywords**: docker, kubernetes, azure, architecture, architect, microservices, agile, scrum
 
-**Description**: To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well: Youre a seasoned software engineer with a strong command of C# and .NET, an...
+**Description**: What will help you to succeed in the role:  :
+To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well:
+Youre a seasoned software eng...
 
 📄 [Full Details](low_priority/1470452.json)
 
@@ -91,7 +104,9 @@
 **Posted**: 2025-11-20T11:06:45.000+00:00
 **Matched Keywords**: docker, kubernetes, azure, architecture, architect, microservices, agile, scrum
 
-**Description**: Hands-on experience with C# and the .NET framework, with a minimum of 5 years of experience Experience developing, shipping, and maintaining cloud-based applications Good knowledge and experience work...
+**Description**: What will help you to succeed in the role: :
+Hands-on experience with C# and the .NET framework, with a minimum of 5 years of experience
+Experience developing, shipping, and maintaining cloud-based ap...
 
 📄 [Full Details](low_priority/1470704.json)
 
@@ -105,7 +120,9 @@
 **Posted**: 2025-12-01T13:52:44.000+00:00
 **Matched Keywords**: python, javascript, aws, azure, technical lead, mentor
 
-**Description**: Bachelor's or Master's degree in Computer Science, Engineering, or a related field. Proven experience in a technical leadership role, preferably in the fintech industry. Strong knowledge of both front...
+**Description**: What will help to succeed in the role: :
+Bachelor's or Master's degree in Computer Science, Engineering, or a related field.
+Proven experience in a technical leadership role, preferably in the fintech...
 
 📄 [Full Details](low_priority/1475899.json)
 
@@ -119,7 +136,8 @@
 **Posted**: 2025-11-25T14:59:04.000+00:00
 **Matched Keywords**: vue.js, docker, aws, azure, architecture, architect
 
-**Description**: 1oT is expanding its team and looking for an engineer to join us in building connectivity solutions according to the new eSIM IoT standard. 1oT has built a platform for helping global IoT service prov...
+**Description**: 1oT is expanding its team and looking for an engineer to join us in building connectivity solutions according to the new eSIM IoT standard.
+1oT has built a platform for helping global IoT service prov...
 
 📄 [Full Details](low_priority/1473131.json)
 
@@ -133,7 +151,8 @@
 **Posted**: 2025-11-25T14:48:51.000+00:00
 **Matched Keywords**: vue.js, docker, aws, azure, architecture, architect, team lead, mentor
 
-**Description**: 1oT is looking for a Tech Lead / Senior Software Engineer to join us in building connectivity solutions according to the new eSIM IoT standard. 1oT has built a platform for helping global IoT service ...
+**Description**: 1oT is looking for a Tech Lead / Senior Software Engineer to join us in building connectivity solutions according to the new eSIM IoT standard.
+1oT has built a platform for helping global IoT service ...
 
 📄 [Full Details](low_priority/1473117.json)
 
@@ -147,7 +166,9 @@
 **Posted**: 2025-11-26T09:01:59.044+00:00
 **Matched Keywords**: python, javascript, vue.js, django, elasticsearch
 
-**Description**: It's more than a job In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making...
+**Description**: Job description:
+It's more than a job
+In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution i...
 
 📄 [Full Details](low_priority/1466631.json)
 
@@ -161,7 +182,11 @@
 **Posted**: 2025-11-19T12:52:18.000+00:00
 **Matched Keywords**: typescript, node.js, react, postgresql, ci/cd, agile
 
-**Description**: Sisu Group is a fast-growing iGaming startup with over 150 team members and offices in Tallinn and Malaga. We are on a mission to redefine the future of iGaming and sports betting by building cutting-...
+**Description**: Sisu Group is a fast-growing iGaming startup
+with over
+150 team members
+and offices in Tallinn and Malaga.
+We are on a mission to redefine the future of iGaming and sports betting by building cutting-...
 
 📄 [Full Details](low_priority/1470124.json)
 
@@ -175,7 +200,8 @@
 **Posted**: 2025-11-28T10:00:01.774+00:00
 **Matched Keywords**: javascript, react, postgresql, docker, kubernetes
 
-**Description**: Kui soovid anda oma panuse Eesti riigi majandusse läbi suurte avalike organisatsioonide ning eraettevõtete strateegiliste töövahendite arendamise, siis tule ja liitu Fujitsu meeskonnaga. Oma töös puut...
+**Description**:  Sina oled oluline lüli lisandväärtuse loomisel.:
+Kui soovid anda oma panuse Eesti riigi majandusse läbi suurte avalike organisatsioonide ning eraettevõtete strateegiliste töövahendite arendamise, sii...
 
 📄 [Full Details](low_priority/1471344.json)
 
@@ -189,7 +215,10 @@
 **Posted**: 2025-11-24T05:21:59.000+00:00
 **Matched Keywords**: python, postgresql, mongodb, docker, kubernetes, azure, ci/cd, architect
 
-**Description**: A bachelor's degree in computer science or a related field. Hands-on experience working with infrastructure as code approach using Terraform. Hands-on experience working with Azure cloud and Kubernete...
+**Description**: What do you need to succeed in the role? :
+A bachelor's degree in computer science or a related field.
+Hands-on experience working with infrastructure as code approach using Terraform.
+Hands-on experi...
 
 📄 [Full Details](low_priority/1471768.json)
 
@@ -203,7 +232,8 @@
 **Posted**: 2025-11-26T12:27:23.760+00:00
 **Matched Keywords**: javascript, typescript, react, architecture, architect, agile, scrum
 
-**Description**: Evolution is a multinational business at the forefront of the online gaming industry. We have an extensive track record of number 1s and are always looking for great people to help us create the next ...
+**Description**: Company Description:
+Evolution is a multinational business at the forefront of the online gaming industry. We have an extensive track record of number 1s and are always looking for great people to hel...
 
 📄 [Full Details](low_priority/1473609.json)
 
@@ -217,7 +247,8 @@
 **Posted**: 2025-11-13T12:25:08.000+00:00
 **Matched Keywords**: azure, architecture, architect, rest api, agile, scrum
 
-**Description**: We seek a highly skilled software developer with 3+ years of experience working mainly with front end using modern technologies. We strongly believe in a "You build it, you run it" mindset. You will b...
+**Description**: What will help you to succeed in the role? :
+We seek a highly skilled software developer with 3+ years of experience working mainly with front end using modern technologies. We strongly believe in a "...
 
 📄 [Full Details](low_priority/1467476.json)
 
@@ -231,7 +262,9 @@
 **Posted**: 2025-11-26T09:01:59.042+00:00
 **Matched Keywords**: python, kubernetes, aws, ci/cd, devops, architect
 
-**Description**: It's more than a job In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making...
+**Description**: Job description:
+It's more than a job
+In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution i...
 
 📄 [Full Details](low_priority/1466630.json)
 
@@ -266,7 +299,8 @@
 **URL**: https://cv.ee/et/vacancy/1474799
 **Posted**: 2025-11-28T09:36:47.294+00:00
 
-**Description**: Vahetuse juhi peamine ülesanne on olla Stockmanni kliendikeskse teeninduskultuuri eestvedaja, toetada müügimeeskonda, algatada parendusi, hoolitseda protsesside järjepidevuse eest. Samuti loob vahetus...
+**Description**: Tööülesannete kirjeldus:
+Vahetuse juhi peamine ülesanne on olla Stockmanni kliendikeskse teeninduskultuuri eestvedaja, toetada müügimeeskonda, algatada parendusi, hoolitseda protsesside järjepidevuse ...
 
 📄 [Full Details](low_priority/1474799.json)
 
@@ -279,7 +313,10 @@
 **URL**: https://cv.ee/et/vacancy/1460968
 **Posted**: 2025-11-03T13:42:13.000+00:00
 
-**Description**: Develop and maintain Wallesters employment law and OHS policy framework. Advise managers and executives on employment law and OHS matters. Draft and update employment contracts, templates, internal po...
+**Description**: Requirements for candidates:
+Develop and maintain Wallesters employment law and OHS policy framework.
+Advise managers and executives on employment law and OHS matters.
+Draft and update employment cont...
 
 📄 [Full Details](low_priority/1460968.json)
 
@@ -292,7 +329,14 @@
 **URL**: https://cv.ee/et/vacancy/1465431
 **Posted**: 2025-11-11T03:03:37.000+00:00
 
-**Description**: SMT Programmeerija Aktsiaselts Aurightec Estonia * Komponentide pinnale paigaldamise tehnoloogia (SMT - Surface-Mount Technology) masinate ja lisaseadmete (nt toite- ja jooteliini seadmed) seadistamin...
+**Description**: Lisakirjeldus:
+SMT Programmeerija
+
+Tööandja nimi:
+Aktsiaselts Aurightec Estonia
+
+Tööülesanded:
+* Komponentide pinnale paigaldamise tehnoloogia (SMT - Surface-Mount Technology) masinate ja lisaseadmete...
 
 📄 [Full Details](low_priority/1465431.json)
 
@@ -316,7 +360,15 @@
 **URL**: https://cv.ee/et/vacancy/1467902
 **Posted**: 2025-11-28T06:01:06.797+00:00
 
-**Description**: Kohusetundlikkus Tehniline taip Hea füüsiline vorm C-kategooria juhilubade olemasolu Roomikmasinate veermike remont Ehitusmasinate lisaseadmete müügiks ettevalmistamine ja remont Tööstusrehvide paigal...
+**Description**: Ootused kandidaadile:
+Kohusetundlikkus
+Tehniline taip
+Hea füüsiline vorm
+C-kategooria juhilubade olemasolu
+
+Tööülesannete kirjeldus:
+Roomikmasinate veermike remont
+Ehitusmasinate lisaseadmete müügiks ...
 
 📄 [Full Details](low_priority/1467902.json)
 
@@ -341,7 +393,9 @@
 **Posted**: 2025-12-02T10:23:49.415+00:00
 **Matched Keywords**: python, aws, azure, ci/cd, architect
 
-**Description**: It's more than a job In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making...
+**Description**: Job description:
+It's more than a job
+In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution i...
 
 📄 [Full Details](low_priority/1476374.json)
 
@@ -366,7 +420,9 @@
 **Posted**: 2025-11-11T13:08:50.000+00:00
 **Matched Keywords**: architecture, architect
 
-**Description**: Define and maintain tenant-wide policies, baselines, and templates for M365 services. Lead Exchange Online administration (org settings, transport, role models) and hygiene/mail flow posture. Govern S...
+**Description**: Key Responsibilities::
+Define and maintain tenant-wide policies, baselines, and templates for M365 services.
+Lead Exchange Online administration (org settings, transport, role models) and hygiene/mail...
 
 📄 [Full Details](low_priority/1466039.json)
 
@@ -380,7 +436,10 @@
 **Posted**: 2025-11-19T05:42:40.000+00:00
 **Matched Keywords**: architecture, architect
 
-**Description**: Deep knowledge of Microsoft Entra ID platform operations Experience building and maintaining operational tooling for secure policy rollout Strong analytical mindset and troubleshooting skills Ability ...
+**Description**: What will help you to succeed in the role: :
+Deep knowledge of Microsoft Entra ID platform operations
+Experience building and maintaining operational tooling for secure policy rollout
+Strong analytica...
 
 📄 [Full Details](low_priority/1469778.json)
 
@@ -427,7 +486,9 @@
 **Posted**: 2025-12-01T15:00:02.341+00:00
 **Matched Keywords**: project manager
 
-**Description**: Company Description Founded in 1999 and premium listed on the Main Market of the London Stock Exchange, Playtech is a technology leader in the gambling industry with over 7,000 employees across 20 cou...
+**Description**: GRC Security Expert:
+Company Description
+Founded in 1999 and premium listed on the Main Market of the London Stock Exchange, Playtech is a technology leader in the gambling industry with over 7,000 em...
 
 📄 [Full Details](low_priority/1465380.json)
 
@@ -477,7 +538,11 @@
 **Posted**: 2025-11-19T12:50:04.000+00:00
 **Matched Keywords**: typescript, node.js, react, postgresql, agile
 
-**Description**: Sisu Group is a fast-growing iGaming startup with over 150 team members and offices in Tallinn and Malaga. We are on a mission to redefine the future of iGaming and sports betting by building cutting-...
+**Description**: Sisu Group is a fast-growing iGaming startup
+with over
+150 team members
+and offices in Tallinn and Malaga.
+We are on a mission to redefine the future of iGaming and sports betting by building cutting-...
 
 📄 [Full Details](low_priority/1470137.json)
 
@@ -502,7 +567,9 @@
 **Posted**: 2025-11-03T13:33:57.000+00:00
 **Matched Keywords**: mentor
 
-**Description**: Masters degree in law from Estonia (preferred) or another EEA/EU university. Full professional fluency in English required; Estonian language skills considered an advantage. Minimum 2 years legal prac...
+**Description**: Requirements for candidates:
+Masters degree in law from Estonia (preferred) or another EEA/EU university.
+Full professional fluency in English required; Estonian language skills considered an advantag...
 
 📄 [Full Details](low_priority/1460957.json)
 
@@ -515,7 +582,8 @@
 **URL**: https://cv.ee/et/vacancy/1463322
 **Posted**: 2025-11-06T10:00:14.000+00:00
 
-**Description**: NoCry is an Estonian company with a small yet powerful team doing big things. We are one of the fastest-growing work gear brands on Amazon. With over 5 million customers worldwide, we aim to become th...
+**Description**: About us:
+NoCry is an Estonian company with a small yet powerful team doing big things. We are one of the fastest-growing work gear brands on Amazon. With over 5 million customers worldwide, we aim to...
 
 📄 [Full Details](low_priority/1463322.json)
 
@@ -539,7 +607,9 @@
 **URL**: https://cv.ee/et/vacancy/1465746
 **Posted**: 2025-12-02T08:00:07.749+00:00
 
-**Description**: Bachelors degree in Information Technology, Computer Science, Information Systems, or a related field. Additional studies or certifications in Finance, Accounting, or Business Administration are an ad...
+**Description**: Ootused kandidaadile:
+Bachelors degree in Information Technology, Computer Science, Information Systems, or a related field.
+Additional studies or certifications in Finance, Accounting, or Business Ad...
 
 📄 [Full Details](low_priority/1465746.json)
 
@@ -567,7 +637,10 @@
 **Posted**: 2025-11-18T08:28:54.000+00:00
 **Matched Keywords**: project manager
 
-**Description**: Join the Future of European Connectivity Are you ready to lead complex infrastructure works that shape the future of transport across Europe? We're looking for a skilled Earthworks Site Project Manage...
+**Description**: Site Project Manager:
+Join the Future of European Connectivity
+Are you ready to lead complex infrastructure works that shape the future of transport across Europe? We're looking for a skilled
+Earthwor...
 
 📄 [Full Details](low_priority/1469350.json)
 
@@ -581,7 +654,9 @@
 **Posted**: 2025-12-01T11:00:40.334+00:00
 **Matched Keywords**: postgresql, mentor
 
-**Description**: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leverag...
+**Description**: Java Developer:
+About Playtech
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B busi...
 
 📄 [Full Details](low_priority/1465097.json)
 
@@ -606,7 +681,9 @@
 **Posted**: 2025-11-26T13:27:59.845+00:00
 **Matched Keywords**: aws
 
-**Description**: Senior Operational Risk Officer (External Theft & Fraud)! Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potential t...
+**Description**: Senior Operational Risk Officer (External Theft & Fraud)
+!
+Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potential ...
 
 📄 [Full Details](low_priority/1473673.json)
 
@@ -620,7 +697,9 @@
 **Posted**: 2025-11-26T09:01:59.037+00:00
 **Matched Keywords**: aws, architecture, architect, mentor
 
-**Description**: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leverag...
+**Description**: Network Operations Engineer:
+About Playtech
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across...
 
 📄 [Full Details](low_priority/1466614.json)
 
@@ -667,7 +746,12 @@
 **URL**: https://cv.ee/et/vacancy/1473963
 **Posted**: 2025-11-27T06:29:47.000+00:00
 
-**Description**: Töökogemus ja haridus: • Projektijuhtimise kogemus • Tööalast tegevust toetav kõrgharidus • Muudatuste juhtimise kogemus • Haldusjuhtimise kogemus • Tehniliste ülesannete lahendamise ja juhtimise koge...
+**Description**: Ametikoha täitmiseks vajalikud oskused ja isikuomadused::
+Töökogemus ja haridus:
+•	Projektijuhtimise kogemus
+•	Tööalast tegevust toetav kõrgharidus
+•	Muudatuste juhtimise kogemus
+•	Haldusjuhtimise kog...
 
 📄 [Full Details](low_priority/1473963.json)
 
@@ -738,7 +822,9 @@
 **Posted**: 2025-11-26T12:23:19.717+00:00
 **Matched Keywords**: agile, scrum
 
-**Description**: Be a proactive member of a Scrum/Kanban development team (work closely with PDM, BA, Designers, Developers, and other QAs). Perform functional, regression, and exploratory testing, review and analyze ...
+**Description**: You will need to::
+Be a proactive member of a Scrum/Kanban development team (work closely with PDM, BA, Designers, Developers, and other QAs).
+Perform functional, regression, and exploratory testing, ...
 
 📄 [Full Details](low_priority/1473603.json)
 
@@ -751,7 +837,13 @@
 **URL**: https://cv.ee/et/vacancy/1467394
 **Posted**: 2025-11-13T11:15:12.000+00:00
 
-**Description**: Assemble world class production systems Support the engineers designing the systems Work experience in a similar position Good technical acumen and ability to read drawings Communication skills in Est...
+**Description**: What does the day-to-day look like in this role?:
+Assemble world class production systems
+Support the engineers designing the systems
+
+Must-have qualifications::
+Work experience in a similar position
+...
 
 📄 [Full Details](low_priority/1467394.json)
 
@@ -765,7 +857,14 @@
 **Posted**: 2025-11-28T03:03:06.000+00:00
 **Matched Keywords**: mysql
 
-**Description**: Tarkvaraarendaja Digitalspace OÜ Toote või projekti kavandamine, rakenduse projekteerimine, kavandamine ja väljatöötamine, süsteemide integreerimine, testimine, lahenduse kasutuselevõtt ja dokumenteer...
+**Description**: Lisakirjeldus:
+Tarkvaraarendaja
+
+Tööandja nimi:
+Digitalspace OÜ
+
+Tööülesanded:
+Toote või projekti kavandamine, rakenduse projekteerimine, kavandamine ja väljatöötamine, süsteemide integreerimine, test...
 
 📄 [Full Details](low_priority/1474550.json)
 
@@ -791,7 +890,12 @@
 **URL**: https://cv.ee/et/vacancy/1472819
 **Posted**: 2025-11-25T09:17:19.562+00:00
 
-**Description**: Kandidaadil võiks olla: Tehniline eriharidus ja/või eelnev töökogemus mehaanilistel tööpinkidel Valmisolek töötada vajadusel öövahetuses Täpsus ja korrektsus töötamisel Hea füüsiline vorm Tootmisliini...
+**Description**: Ootused kandidaadile:
+Kandidaadil võiks olla:
+Tehniline eriharidus ja/või eelnev töökogemus mehaanilistel tööpinkidel
+Valmisolek töötada vajadusel öövahetuses
+Täpsus ja korrektsus töötamisel
+Hea füüsi...
 
 📄 [Full Details](low_priority/1472819.json)
 
@@ -805,7 +909,8 @@
 **Posted**: 2025-12-01T11:00:40.358+00:00
 **Matched Keywords**: python, architecture, architect
 
-**Description**: As a Platform Operations Engineer, you will join our global Internal IT team and play an essential part in our mission to provide the world with affordable and environment-friendly deliveries. Every d...
+**Description**: Your new adventure:
+As a Platform Operations Engineer, you will join our global Internal IT team and play an essential part in our mission to provide the world with affordable and environment-friendly...
 
 📄 [Full Details](low_priority/1468873.json)
 
@@ -819,7 +924,9 @@
 **Posted**: 2025-11-14T10:42:21.000+00:00
 **Matched Keywords**: python, azure, architect, agile
 
-**Description**: Lead the design, development, and maintenance of data pipelines and data models, primarily in Azure (incl. Snowflake) and Google Cloud. Work closely with business stakeholders, internal IT teams, Mast...
+**Description**: Job description::
+Lead the design, development, and maintenance of data pipelines and data models, primarily in Azure (incl. Snowflake) and Google Cloud.
+Work closely with business stakeholders, inter...
 
 📄 [Full Details](low_priority/1468081.json)
 
@@ -854,7 +961,8 @@
 **URL**: https://cv.ee/et/vacancy/1467500
 **Posted**: 2025-11-27T12:00:48.725+00:00
 
-**Description**: Interactive Brokers is seeking a Manual Quality Assurance Engineer to join our mQA department. You will be a part of Quality Assurance team that focuses on testing various end user systems, to deliver...
+**Description**: Position:
+Interactive Brokers is seeking a Manual Quality Assurance Engineer to join our mQA department. You will be a part of Quality Assurance team that focuses on testing various end user systems, ...
 
 📄 [Full Details](low_priority/1467500.json)
 
@@ -868,7 +976,9 @@
 **Posted**: 2025-11-14T12:52:31.000+00:00
 **Matched Keywords**: aws, mentor
 
-**Description**: We are seeking a Head of Internal Audit who will play a key role within IPF Digital, leading and executing the internal audit strategy across all markets. This role will be responsible for ensuring ef...
+**Description**: We are seeking a
+Head of Internal Audit
+who will play a key role within IPF Digital, leading and executing the internal audit strategy across all markets. This role will be responsible for ensuring ef...
 
 📄 [Full Details](low_priority/1468215.json)
 
@@ -881,7 +991,8 @@
 **URL**: https://cv.ee/et/vacancy/1463290
 **Posted**: 2025-11-28T11:00:01.296+00:00
 
-**Description**: Selles põnevas ja nõudlikus rollis edu saavutamiseks peaks Sul olema vähemalt viieaastane tootmise juhtimise kogemus eelistatult tehase juhi või tootmisjuhi tasemel ning vähemalt bakalaureuse tasemel ...
+**Description**: Ootused kandidaadile:
+Selles põnevas ja nõudlikus rollis edu saavutamiseks peaks Sul olema vähemalt viieaastane tootmise juhtimise kogemus eelistatult tehase juhi või tootmisjuhi tasemel ning vähemalt...
 
 📄 [Full Details](low_priority/1463290.json)
 
@@ -1015,7 +1126,10 @@
 **Posted**: 2025-12-02T14:02:00.233+00:00
 **Matched Keywords**: postgresql
 
-**Description**: Otsime tehnilist eksperti meie rahvusvahelise toe tiimi. Tiim tegeleb igapäevaselt tarkvara ja mehaanika probleemide lahendamisega, mis tulevad sisse kõikidest RVM Systems riikidest. Sulle sobib töö m...
+**Description**: Töö iseloom:
+Otsime tehnilist eksperti meie rahvusvahelise toe tiimi.
+Tiim tegeleb igapäevaselt tarkvara ja mehaanika probleemide lahendamisega, mis tulevad sisse kõikidest RVM Systems riikidest.
+Sull...
 
 📄 [Full Details](low_priority/1476586.json)
 
@@ -1029,7 +1143,12 @@
 **Posted**: 2025-11-05T03:04:15.000+00:00
 **Matched Keywords**: aws
 
-**Description**: FOB Solutions OÜ Otsime kogenud back-end arendajat, kes soovib panustada innovaatilisse ja laia kasutajaskonnaga avaliku sektori projekti. Töö hõlmab süsteemide arhitektuuri kavandamist, API-de disain...
+**Description**: Tööandja nimi:
+FOB Solutions OÜ
+
+Tööülesanded:
+Otsime kogenud back-end arendajat, kes soovib panustada innovaatilisse ja laia kasutajaskonnaga avaliku sektori projekti.
+Töö hõlmab süsteemide arhitektu...
 
 📄 [Full Details](low_priority/1462140.json)
 
@@ -1043,7 +1162,7 @@
 **Posted**: 2025-12-01T13:00:01.565+00:00
 **Matched Keywords**: python
 
-**Description**: Were looking for a Report Developer to turn data into clear, actionable insights for stakeholders across the NCE region. Youll build robust reporting assets, maintain reliable schedules, and ensure de...
+**Description**: Were looking for a Report Developer to turn data into clear, actionable insights for stakeholders across the NCE region. Youll build robust reporting assets, maintain reliable schedules, and ensure de...
 
 📄 [Full Details](low_priority/1465175.json)
 
@@ -1056,7 +1175,12 @@
 **URL**: https://cv.ee/et/vacancy/1465027
 **Posted**: 2025-11-10T12:38:31.000+00:00
 
-**Description**: Võtmeklientidega suhtlemine ja lisamüük Proaktiivne kliendisuhete loomine Kliendivajaduste kaardistamine ja konsultatsioon Äriarenduse võimaluste kaardistamine Müügitunneli ja püsiteenuste juhtimine S...
+**Description**: Töö sisu:
+Võtmeklientidega suhtlemine ja lisamüük
+Proaktiivne kliendisuhete loomine
+Kliendivajaduste kaardistamine ja konsultatsioon
+Äriarenduse võimaluste kaardistamine
+Müügitunneli ja püsiteenuste j...
 
 📄 [Full Details](low_priority/1465027.json)
 
@@ -1102,7 +1226,8 @@
 **URL**: https://cv.ee/et/vacancy/1471460
 **Posted**: 2025-11-21T12:36:02.000+00:00
 
-**Description**: Are you passionate about payment systems, APIs and leading technical teams? The Head of Support & Integration is responsible for managing all customer support, integration and technical onboarding act...
+**Description**: Are you passionate about payment systems, APIs and leading technical teams?
+The Head of Support & Integration is responsible for managing all customer support, integration and technical onboarding act...
 
 📄 [Full Details](low_priority/1471460.json)
 
@@ -1127,7 +1252,10 @@
 **Posted**: 2025-11-18T07:12:12.000+00:00
 **Matched Keywords**: mentor
 
-**Description**: Operatiivteeninduse meeskonnaga on oodatud liituma operatiivteenindaja! Kui Sulle on oluline, et tööandja pakub: põhjalikku väljaõpet ja toetavat mentorit sisseelamisperioodil ettevõttesiseseid arengu...
+**Description**: Operatiivteeninduse meeskonnaga on oodatud liituma operatiivteenindaja!
+Kui Sulle on oluline, et tööandja pakub:
+põhjalikku väljaõpet ja toetavat mentorit sisseelamisperioodil
+ettevõttesiseseid arengu...
 
 📄 [Full Details](low_priority/1469300.json)
 
@@ -1162,7 +1290,9 @@
 **URL**: https://cv.ee/et/vacancy/1473499
 **Posted**: 2025-11-26T09:52:18.000+00:00
 
-**Description**: About Playtech Founded in 1999, Playtech has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging...
+**Description**: Employer Branding and Communications Partner :
+About Playtech
+Founded in 1999, Playtech has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating...
 
 📄 [Full Details](low_priority/1473499.json)
 
@@ -1187,7 +1317,8 @@
 **Posted**: 2025-11-25T15:00:48.938+00:00
 **Matched Keywords**: agile
 
-**Description**: We're looking for an experienced Product Owner/Mechanical Engineer with strong NPI and product ownership expertise to join our Product Development team at Stargate Hydrogen. You will be responsible fo...
+**Description**: Role overview: :
+We're looking for an experienced Product Owner/Mechanical Engineer with strong NPI and product ownership expertise to join our Product Development team at Stargate Hydrogen. You will ...
 
 📄 [Full Details](low_priority/1472277.json)
 
@@ -1223,7 +1354,9 @@
 **Posted**: 2025-11-27T10:00:10.908+00:00
 **Matched Keywords**: architect, mentor, agile
 
-**Description**: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leverag...
+**Description**: Senior QA Engineer:
+About Playtech
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B ...
 
 📄 [Full Details](low_priority/1470674.json)
 
@@ -1236,7 +1369,10 @@
 **URL**: https://cv.ee/et/vacancy/1466575
 **Posted**: 2025-11-12T09:07:22.000+00:00
 
-**Description**: · kõrgharidust ja vähemalt 5-aastast töökogemust personalijuhtimises; · häid teadmisi tööõiguses ja kvaliteedijuhtimises; · head eesti ja inglise keele oskust nii kõnes kui kirjas ning digipädevust; i...
+**Description**: Ootused kandidaadile:
+·      kõrgharidust ja vähemalt 5-aastast töökogemust personalijuhtimises;
+·      häid teadmisi tööõiguses ja kvaliteedijuhtimises;
+·      head eesti ja inglise keele oskust nii ...
 
 📄 [Full Details](low_priority/1466575.json)
 
@@ -1249,7 +1385,11 @@
 **URL**: https://cv.ee/et/vacancy/1472278
 **Posted**: 2025-11-24T13:51:14.601+00:00
 
-**Description**: •vähemalt keskharidus; •raudtee teemehaaniku kutsetunnistus tase 5; •meeskonna juhtimiskogemus, kohusetundlikkus, koostöövalmidus, tehniline taip, füüsiline vastupidavus ; •eesti keele oskus vähemalt ...
+**Description**: Ootused kandidaadile:
+•vähemalt keskharidus;
+•raudtee teemehaaniku kutsetunnistus tase 5;
+•meeskonna juhtimiskogemus, kohusetundlikkus, koostöövalmidus, tehniline taip, füüsiline vastupidavus ;
+•eesti...
 
 📄 [Full Details](low_priority/1472278.json)
 
@@ -1284,7 +1424,13 @@
 **URL**: https://cv.ee/et/vacancy/1471521
 **Posted**: 2025-11-28T13:00:01.039+00:00
 
-**Description**: Sales Manager Estonia Location: Flexible within Estonia, preferably in the Tallinn region or nearby Reports to: Head of Baltics About VILPE VILPE Oy is the leading Finnish developer and manufacturer o...
+**Description**: Sales Manager Estonia
+Location:
+Flexible within Estonia, preferably in the Tallinn region or nearby
+Reports to:
+Head of Baltics
+About VILPE
+VILPE Oy is the leading Finnish developer and manufacturer o...
 
 📄 [Full Details](low_priority/1471521.json)
 
@@ -1297,7 +1443,11 @@
 **URL**: https://cv.ee/et/vacancy/1471847
 **Posted**: 2025-11-24T07:22:27.000+00:00
 
-**Description**: Ootame SOS meeskonda käsunduslepinguga õhtust kaubapaigutajat! Kui Sulle on oluline, et pakume: kaasaegseid tingimusi, sõbralikku keskkonda ja vajalikku tuge õigeaegselt makstavat tasu vastavalt kokku...
+**Description**: Ootame SOS meeskonda käsunduslepinguga õhtust kaubapaigutajat!
+Kui Sulle on oluline, et pakume
+:
+kaasaegseid tingimusi, sõbralikku keskkonda ja vajalikku tuge
+õigeaegselt makstavat tasu vastavalt kokk...
 
 📄 [Full Details](low_priority/1471847.json)
 
@@ -1310,7 +1460,9 @@
 **URL**: https://cv.ee/et/vacancy/1464859
 **Posted**: 2025-11-10T13:53:15.000+00:00
 
-**Description**: 10 aastat kogemust projektijuhina tehnoloogiliste projektide valdkonnas Tehniline kõrgharidus, automaatika, ehituse, energeetika, keskkonnaehituse või soojusenergeetika valdkonnas Väga hea suhtlemisos...
+**Description**: Ametikohal edukaks tegutsemiseks vajalikud eeldused:
+10 aastat kogemust projektijuhina tehnoloogiliste projektide valdkonnas
+Tehniline kõrgharidus, automaatika, ehituse, energeetika, keskkonnaehituse ...
 
 📄 [Full Details](low_priority/1464859.json)
 
@@ -1346,7 +1498,8 @@
 **Posted**: 2025-11-03T13:38:39.000+00:00
 **Matched Keywords**: team lead, mentor
 
-**Description**: University degree in Accounting, Finance, or Economics.At least 5 years of professional experience in accounting, including a minimum of 2 years in a senior accountant or equivalent role. Excellent kn...
+**Description**: Requirements for candidates:
+University degree in Accounting, Finance, or Economics.At least 5 years of professional experience in accounting, including a minimum of 2 years in a senior accountant or ...
 
 📄 [Full Details](low_priority/1460964.json)
 
@@ -1414,7 +1567,8 @@
 **URL**: https://cv.ee/et/vacancy/1463659
 **Posted**: 2025-11-28T08:00:07.732+00:00
 
-**Description**: We are looking for a practical and responsible person who enjoys working with their hands and figuring out how things work. You do not need to already be a laundry technician what matters is curiosity...
+**Description**: Operational Manager (Entry to Mid-Level):
+We are looking for a practical and responsible person who enjoys working with their hands and figuring out how things work. You do not need to already be a la...
 
 📄 [Full Details](low_priority/1463659.json)
 
@@ -1438,7 +1592,10 @@
 **URL**: https://cv.ee/et/vacancy/1461891
 **Posted**: 2025-11-04T13:40:03.000+00:00
 
-**Description**: sul on tootmisalane või tehniline kõrgharidus eelnev kogemus tootmisprotsesside juhtimises ja korraldamises, soovitavalt toidutööstuse ettevõttes oled suurepärane liidriomadustega inimeste juht, inits...
+**Description**: Ootused kandidaadile:
+sul on tootmisalane või tehniline kõrgharidus
+eelnev kogemus tootmisprotsesside juhtimises ja korraldamises, soovitavalt toidutööstuse ettevõttes
+oled suurepärane liidriomadusteg...
 
 📄 [Full Details](low_priority/1461891.json)
 
@@ -1486,7 +1643,13 @@
 **URL**: https://cv.ee/et/vacancy/1476704
 **Posted**: 2025-12-02T19:14:03.871+00:00
 
-**Description**: Varasem kogemus ehitus- või paigaldusprojektide juhtimises Tehniline pädevus: Diplomeeritud ehitusinsener, tase 6 või 7. Kogemus betoonitööde valdkonnas Töövahendid: Oskus lugeda ja tõlgendada tööjoon...
+**Description**: Ootused kandidaadile:
+Varasem kogemus ehitus- või paigaldusprojektide juhtimises
+Tehniline pädevus:
+Diplomeeritud ehitusinsener, tase 6 või 7.
+Kogemus betoonitööde valdkonnas
+Töövahendid:
+Oskus lugeda...
 
 📄 [Full Details](low_priority/1476704.json)
 
@@ -1511,7 +1674,9 @@
 **Posted**: 2025-12-02T14:02:14.600+00:00
 **Matched Keywords**: mentor, agile
 
-**Description**: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leverag...
+**Description**: QA Engineer:
+About Playtech
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B busines...
 
 📄 [Full Details](low_priority/1466239.json)
 
@@ -1524,7 +1689,11 @@
 **URL**: https://cv.ee/et/vacancy/1474104
 **Posted**: 2025-11-27T09:04:52.000+00:00
 
-**Description**: · varasemat B2B müügikogemust; · head eesti ja inglise keele oskust nii kõnes kui kirjas; · head arvuti kasutamise oskust; · kohusetundlikkust, korrektsust ja iseseisvust ning julgust suhelda, tahet õ...
+**Description**: Ootused kandidaadile:
+·     varasemat B2B müügikogemust;
+·     head eesti ja inglise keele oskust nii kõnes kui kirjas;
+·     head arvuti kasutamise oskust;
+·     kohusetundlikkust, korrektsust ja ise...
 
 📄 [Full Details](low_priority/1474104.json)
 
@@ -1549,7 +1718,13 @@
 **Posted**: 2025-12-01T14:27:28.980+00:00
 **Matched Keywords**: python, architecture, architect
 
-**Description**: Are you passionate about working with data and statistical modelling? In Swedbank you have the opportunity to: Develop and implement statistical models for credit risk assessment in accordance with IF...
+**Description**: Are you passionate about working with data and statistical modelling?
+In Swedbank you have the opportunity to:
+Develop
+and
+implement statistical models
+for credit risk assessment in accordance with
+IF...
 
 📄 [Full Details](low_priority/1475946.json)
 
@@ -1573,7 +1748,14 @@
 **URL**: https://cv.ee/et/vacancy/1462103
 **Posted**: 2025-11-04T15:59:17.000+00:00
 
-**Description**: Tallinn, Estonia
+**Description**: Location:
+Tallinn, Estonia
+
+
+
+
+
+
 
 📄 [Full Details](low_priority/1462103.json)
 
@@ -1608,7 +1790,14 @@
 **URL**: https://cv.ee/et/vacancy/1468615
 **Posted**: 2025-11-17T07:52:08.000+00:00
 
-**Description**: TET Estel (Tallinn Electrical Engineering Factory), founded in 1870, is a leading player in the power converter equipment market. We design and manufacture power converter systems and semiconductor de...
+**Description**: TET Estel
+(Tallinn Electrical Engineering Factory), founded in
+1870
+, is a leading player in the
+power converter equipment market
+.
+We design and manufacture
+power converter systems and semiconductor ...
 
 📄 [Full Details](low_priority/1468615.json)
 
@@ -1622,7 +1811,8 @@
 **Posted**: 2025-11-27T11:00:01.000+00:00
 **Matched Keywords**: architecture, architect, api design
 
-**Description**: Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging its proprie...
+**Description**: POP & GPAS Platforms Architect:
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B bus...
 
 📄 [Full Details](low_priority/1470703.json)
 
@@ -1635,7 +1825,10 @@
 **URL**: https://cv.ee/et/vacancy/1471610
 **Posted**: 2025-11-21T14:47:25.000+00:00
 
-**Description**: Malwarebytes is looking for... A Senior Customer Retention Manager who can blend analytical and creative thinking to deliver customer-first solutions. Your role will focus on subscription management a...
+**Description**: Ootused kandidaadile:
+Malwarebytes is looking for.
+..
+A Senior Customer Retention Manager who can blend analytical and creative thinking to deliver customer-first solutions. Your role will focus on su...
 
 📄 [Full Details](low_priority/1471610.json)
 
@@ -1649,7 +1842,10 @@
 **Posted**: 2025-11-03T13:30:53.000+00:00
 **Matched Keywords**: architect
 
-**Description**: Experience with workflow/project management systems (ClickUp, Jira, or similar). Basic technical skills in low-code automation, integrations, or scripting. Strong organisational skills and attention t...
+**Description**: Requirements for candidates:
+Experience with workflow/project management systems (ClickUp, Jira, or similar).
+Basic technical skills in low-code automation, integrations, or scripting.
+Strong organisa...
 
 📄 [Full Details](low_priority/1460953.json)
 
@@ -1663,7 +1859,9 @@
 **Posted**: 2025-12-02T16:56:55.039+00:00
 **Matched Keywords**: project manager, mentor, agile, scrum
 
-**Description**: Your influential mission. You will Manage projects that ensure Playtech Casino is compliant across regulated markets, enabling safe and lawful gameplay for our players Collect requirements for regulat...
+**Description**: Project Manager - Regulated markets:
+Your influential mission. You will
+Manage projects that ensure Playtech Casino is compliant across regulated markets, enabling safe and lawful gameplay for our pla...
 
 📄 [Full Details](low_priority/1476699.json)
 
@@ -1711,7 +1909,8 @@
 **Posted**: 2025-11-17T15:56:30.000+00:00
 **Matched Keywords**: devops, rest api
 
-**Description**: Malwarebytes Marketing and Customer Value team is dedicated to providing engaging and impactful experiences for our customers. We focus on generating sustained growth through innovative and purpose-dr...
+**Description**: Ootused kandidaadile:
+Malwarebytes Marketing and Customer Value team is dedicated to providing engaging and impactful experiences for our customers. We focus on generating sustained growth through inn...
 
 📄 [Full Details](low_priority/1469103.json)
 
@@ -1724,7 +1923,10 @@
 **URL**: https://cv.ee/et/vacancy/1473702
 **Posted**: 2025-11-26T14:05:22.698+00:00
 
-**Description**: Join our team as a Operational Risk Officer (Data Oversight)! Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potenti...
+**Description**: Join our team as a
+Operational Risk Officer (Data Oversight)
+!
+Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potent...
 
 📄 [Full Details](low_priority/1473702.json)
 
@@ -1737,7 +1939,11 @@
 **URL**: https://cv.ee/et/vacancy/1464394
 **Posted**: 2025-11-28T15:00:44.621+00:00
 
-**Description**: Oled oodatud kandideerima meie meeskonnaga liitumiseks, kui sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade terviklik rekonstrueerimine. Sind iseloomustab koostöövalmidus, kasv...
+**Description**: Ootused kandidaadile:
+Oled
+oodatud kandideerima
+meie meeskonnaga liitumiseks, kui sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade terviklik rekonstrueerimine.
+Sind iseloomustab...
 
 📄 [Full Details](low_priority/1464394.json)
 
@@ -1762,7 +1968,9 @@
 **Posted**: 2025-11-26T09:01:59.025+00:00
 **Matched Keywords**: python, kubernetes, aws, ci/cd, devops
 
-**Description**: It's more than a job In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making...
+**Description**: Job description:
+It's more than a job
+In this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution i...
 
 📄 [Full Details](low_priority/1462426.json)
 
@@ -1787,7 +1995,9 @@
 **Posted**: 2025-11-27T05:23:41.000+00:00
 **Matched Keywords**: architecture, architect, agile, scrum
 
-**Description**: To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well: Youre a seasoned software engineer with a strong command of C# and .NET, an...
+**Description**: What will help you to succeed in the role:  :
+To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well:
+Youre a seasoned software eng...
 
 📄 [Full Details](low_priority/1473954.json)
 
@@ -1800,7 +2010,11 @@
 **URL**: https://cv.ee/et/vacancy/1474126
 **Posted**: 2025-11-27T09:17:14.000+00:00
 
-**Description**: BS degree in business administration or related field Successful previous experience in client account or relationship management High emotional intelligence Independent thinking and self-starting Ver...
+**Description**: Requirements :
+BS degree in business administration or related field
+Successful previous experience in client account or relationship management
+High emotional intelligence
+Independent thinking and se...
 
 📄 [Full Details](low_priority/1474126.json)
 
@@ -1826,7 +2040,11 @@
 **URL**: https://cv.ee/et/vacancy/1463455
 **Posted**: 2025-11-06T16:09:30.000+00:00
 
-**Description**: · varasemat laos töötamise kogemust ja tõstukijuhi lube; · head eesti keele oskust nii kõnes kui kirjas; · tavakasutaja tasemel arvuti kasutamise oskust; · täpsust, kohusetundlikkust ja iseseisvust; ·...
+**Description**: Ootused kandidaadile:
+·     varasemat laos töötamise kogemust ja tõstukijuhi lube;
+·     head eesti keele oskust nii kõnes kui kirjas;
+·     tavakasutaja tasemel arvuti kasutamise oskust;
+·     täpsus...
 
 📄 [Full Details](low_priority/1463455.json)
 
@@ -1839,7 +2057,8 @@
 **URL**: https://cv.ee/et/vacancy/1471457
 **Posted**: 2025-11-21T12:33:39.397+00:00
 
-**Description**: Join our team as a Senior Product Manager! Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potential to achieve big t...
+**Description**: Join our team as a Senior Product Manager!
+Yes, you can! That's our attitude towards our work, ambitions, ideas, and relationships. We at Luminor believe that anyone has the potential to achieve big t...
 
 📄 [Full Details](low_priority/1471457.json)
 
@@ -1897,7 +2116,10 @@
 **Posted**: 2025-11-28T08:54:42.804+00:00
 **Matched Keywords**: aws
 
-**Description**: Masters degree in Law. Minimum of 5 years of relevant legal experience, ideally a combination of in-house and reputable law firm work. Strong background in corporate and commercial law; experience in ...
+**Description**: Requirements:
+Masters degree in Law.
+Minimum of 5 years of relevant legal experience, ideally a combination of in-house and reputable law firm work.
+Strong background in corporate and commercial law; ...
 
 📄 [Full Details](low_priority/1474733.json)
 
@@ -1921,7 +2143,10 @@
 **URL**: https://cv.ee/et/vacancy/1469546
 **Posted**: 2025-11-18T18:16:40.000+00:00
 
-**Description**: Täpsus, korrektsus, süsteemsus, analüüsivõime Erialane kutse- või kõrgharidus (automaatika, elektroonika või mehhatroonika) 2+ aastat erialane töökogemus tööstusautomaatika valdkonnas Väga hea arvuti ...
+**Description**: Ametikohal edukaks tegutsemiseks vajalikud eeldused:
+Täpsus, korrektsus, süsteemsus, analüüsivõime
+Erialane kutse- või kõrgharidus (automaatika, elektroonika või mehhatroonika)
+2+ aastat erialane töök...
 
 📄 [Full Details](low_priority/1469546.json)
 
@@ -1934,7 +2159,10 @@
 **URL**: https://cv.ee/et/vacancy/1474475
 **Posted**: 2025-11-27T16:11:16.741+00:00
 
-**Description**: Tehnilist või majandusalast kõrg- või rakenduskõrgharidust Vähemalt 3-aastast kogemust kinnisvarahalduse, ehituse või üüripindade majandamise valdkonnas Väga head organiseerimisvõimet ja süsteemsust K...
+**Description**: Sinult ootame:
+Tehnilist või majandusalast kõrg- või rakenduskõrgharidust
+Vähemalt 3-aastast kogemust kinnisvarahalduse, ehituse või üüripindade majandamise valdkonnas
+Väga head organiseerimisvõimet j...
 
 📄 [Full Details](low_priority/1474475.json)
 
@@ -1959,7 +2187,10 @@
 **Posted**: 2025-11-20T06:04:23.000+00:00
 **Matched Keywords**: python, azure, architecture, architect
 
-**Description**: You will be a good fit for the role if you have: Degree in (Business) Informatics, Data Engineering, Mathematics, or a comparable field Proven experience in data integration, data modeling, and data f...
+**Description**: What will help you to succeed in the role?:
+You will be a good fit for the role if you have:
+Degree in (Business) Informatics, Data Engineering, Mathematics, or a comparable field
+Proven experience in...
 
 📄 [Full Details](low_priority/1470453.json)
 
@@ -1983,7 +2214,9 @@
 **URL**: https://cv.ee/et/vacancy/1464887
 **Posted**: 2025-11-10T09:11:29.000+00:00
 
-**Description**: A creative and collaborative working environment with a talented team of professionals. Opportunities for professional growth and the chance to work on high-impact online gaming projects. Flexible wor...
+**Description**: What We Offer:
+A creative and collaborative working environment with a talented team of professionals.
+Opportunities for professional growth and the chance to work on high-impact online gaming project...
 
 📄 [Full Details](low_priority/1464887.json)
 
@@ -1997,7 +2230,8 @@
 **Posted**: 2025-11-12T16:23:08.000+00:00
 **Matched Keywords**: python
 
-**Description**: We are seeking a talented Senior Credit Risk Analyst to join our growing credit risk analytics team. This role is specifically designed for professionals with minimum of 3 years of experience in the l...
+**Description**: Who we are looking for?:
+We are seeking a talented Senior Credit Risk Analyst to join our growing credit risk analytics team. This role is specifically designed for professionals with minimum of 3 yea...
 
 📄 [Full Details](low_priority/1466966.json)
 
@@ -2021,7 +2255,8 @@
 **URL**: https://cv.ee/et/vacancy/1464515
 **Posted**: 2025-11-26T09:01:59.032+00:00
 
-**Description**: Selles põnevas ja nõudlikus rollis edu saavutamiseks peaks Sul olema mõneaastane tööstusettevõtte kvaliteedijuhtimise, kliendiauditite, uute toodete lansseerimise ja kvaliteedisertifikaatidega töötami...
+**Description**: Ootused kandidaadile:
+Selles põnevas ja nõudlikus rollis edu saavutamiseks peaks Sul olema mõneaastane tööstusettevõtte kvaliteedijuhtimise, kliendiauditite, uute toodete lansseerimise ja kvaliteedise...
 
 📄 [Full Details](low_priority/1464515.json)
 
@@ -2047,7 +2282,13 @@
 **URL**: https://cv.ee/et/vacancy/1472851
 **Posted**: 2025-11-25T09:37:32.000+00:00
 
-**Description**: Kas Sulle pakub huvi ärilt-ärile turundus? Üheskoos meiega saad: planeerida, kujundada ja ellu viia tõhusaidturundus- ja müügiedendustegevusi, et kaasa aidataärieesmärkide saavutamiselening suurendada...
+**Description**: Kas Sulle pakub huvi ärilt-ärile turundus?
+Üheskoos meiega saad:
+planeerida, kujundada ja ellu viia tõhusaid
+turundus- ja
+müügiedendustegevusi, et kaasa aidata
+ärieesmärkide saavutamisele
+ning suurend...
 
 📄 [Full Details](low_priority/1472851.json)
 
@@ -2061,7 +2302,9 @@
 **Posted**: 2025-11-27T13:00:01.134+00:00
 **Matched Keywords**: javascript, typescript, ci/cd, project manager, agile, scrum
 
-**Description**: Test Strategy & Planning: Design, implement, and introduce comprehensive test strategies for current assignments, providing approximate timelines and coordinating testing efforts for medium-sized proj...
+**Description**: Key Responsibilities:
+Test Strategy & Planning:
+Design, implement, and introduce comprehensive test strategies for current assignments, providing approximate timelines and coordinating testing efforts...
 
 📄 [Full Details](low_priority/1470837.json)
 
@@ -2075,7 +2318,10 @@
 **Posted**: 2025-12-01T09:14:58.000+00:00
 **Matched Keywords**: architecture, architect, mentor
 
-**Description**: At least 3 years in the Data area (e.g., Data Officer, Senior Data Analyst, or Data Architect positions). Familiarity with data governance and compliance frameworks (e.g., GDPR, NIS2). Understanding o...
+**Description**: Requirements:
+At least 3 years in the Data area (e.g., Data Officer, Senior Data Analyst, or Data Architect positions).
+Familiarity with data governance and compliance frameworks (e.g., GDPR, NIS2).
+U...
 
 📄 [Full Details](low_priority/1475557.json)
 
@@ -2113,7 +2359,14 @@
 **URL**: https://cv.ee/et/vacancy/1463783
 **Posted**: 2025-11-07T03:03:36.000+00:00
 
-**Description**: Juksi meeskond Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus Sinu tööülesandeks on teenusekasutajatele luua turvaline õhkkond, arendaja ja juhendada neid igapäevaelu tegevustega toimetul...
+**Description**: Lisakirjeldus:
+Juksi meeskond
+
+Tööandja nimi:
+Tallinna Erihoolekande- ja Rehabilitatsiooniteenuste Keskus
+
+Tööülesanded:
+Sinu tööülesandeks on teenusekasutajatele luua turvaline õhkkond, arendaja ja j...
 
 📄 [Full Details](low_priority/1463783.json)
 
@@ -2127,7 +2380,9 @@
 **Posted**: 2025-11-27T11:00:01.187+00:00
 **Matched Keywords**: project manager
 
-**Description**: PARENTAL COVER Founded in 1999 and premium listed on the Main Market of the London Stock Exchange, Playtech is a technology leader in the gambling industry with over 7,000 employees across 20 countrie...
+**Description**: Infrastructure Regulations Support Project Manager:
+PARENTAL COVER
+Founded in 1999 and premium listed on the Main Market of the London Stock Exchange, Playtech is a technology leader in the gambling i...
 
 📄 [Full Details](low_priority/1467387.json)
 
@@ -2141,7 +2396,9 @@
 **Posted**: 2025-12-01T11:00:40.324+00:00
 **Matched Keywords**: python, django, kubernetes, aws, devops, architect
 
-**Description**: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leverag...
+**Description**: DevOps Engineer:
+About Playtech
+Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B bus...
 
 📄 [Full Details](low_priority/1465008.json)
 

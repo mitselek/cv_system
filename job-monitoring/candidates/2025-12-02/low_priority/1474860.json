@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1474860",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1474860",
+    "title": "Juhtivspetsialist (PSK)",
+    "company": "Sotsiaalkindlustusamet",
+    "location": "Unknown",
+    "posted_date": "2025-11-28T10:21:12.784+00:00",
+    "discovered_date": "2025-12-02T22:39:43.202295",
+    "description": "35 kalendripäeva puhkust, 3 tervisepäeva, täiendav haigushüvitis, mentorlus, vaimse tervise tugi",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "mentor"
+  ],
+  "category": "Low Priority"
+}

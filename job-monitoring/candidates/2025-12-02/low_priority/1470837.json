@@ -1,0 +1,34 @@
+{
+  "job": {
+    "id": "1470837",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470837",
+    "title": "Quality Assurance Engineer II",
+    "company": "Raintree Systems OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T13:00:01.134+00:00",
+    "discovered_date": "2025-12-02T22:39:50.110019",
+    "description": "Key Responsibilities:\nTest Strategy & Planning:\nDesign, implement, and introduce comprehensive test strategies for current assignments, providing approximate timelines and coordinating testing efforts for medium-sized projects.\nExecution & Defect Management:\nExecute software testing for changes and fixes using the most appropriate methods and tools. Conduct thorough investigation and root cause analysis of issues found, and report defects (\nbugs, questions, noteworthy items\n) clearly to relevant stakeholders.\nAutomation:\nIndependently contribute to and maintain automated QA projects, utilizing industry-standard tools like\nCypress\nand\nJenkins\nwith\nJavaScript/TypeScript\n.\nQuality Advocacy:\nCollaborate with feature teams to define and refine\nAcceptance Criteria (AC)\nand test cases for new tasks, acting as a quality advocate throughout the development lifecycle.\nRegression Management:\nCreate, maintain, and execute regression tests, ensuring documentation is clear and understandable for all team members.\nDocumentation & Reporting:\nPrepare test reports, create necessary documentation tasks, and perform demos of new features during sprint reviews or stakeholder meetings.\nCollaboration & Agile Practices:\nParticipate in and organize work-related meetings, contribute actively to team rituals (Scrum), and communicate effectively with international teams (US and Partner teams), customers, and non-technical stakeholders.\n\nRequired Qualifications:\nEducation & Experience\nDiploma or Degree in\nComputer Science\nor a related technical field.\nMinimum of\n2+ years\nof professional experience in software development or automated testing.\nProven experience applying various\ntesting methodologies\nand working with engineers, QA, and project managers.\nSolid understanding of the\nSoftware Development Life Cycle (SDLC)\nand basic principles of the\nAgile process\n.\nTechnical Skills\nPrevious experience with\nCI/CD systems\n(e.g.,\nJenkins\n).\nPrevious experience with test automation tools (e.g.,\nCypress, Selenium\n).\nDemonstrable experience with\nJava and/or JavaScript\n.\nAbility to read, understand, and translate business diagrams and documentation into test cases.\nSoft Skills\nExcellent\nCommunication Skills\n(written and spoken English) and the ability to articulate complex technical issues to varied audiences.\nStrong\nAttention to Detail\nand a commitment to quality.\nProven\nProblem-Solving & Critical Thinking\nabilities.\nHigh level of\nAdaptability & Resilience\nto manage shifting priorities and work under time restrictions.\nAbility to work effectively both\nindependently and collaboratively\nin an international environment.\n\nPreferred Qualifications:\nExperience with\nAPI testing\ntools (e.g., SoapUI, Postman, Jest).\nAwareness of various testing schools and industry-standard tools for\nPerformance Testing\n(e.g., JMeter) and\nSecurity Testing\n(e.g., OWASP ZAP).\nFamiliarity with bug tracking and test management systems like\nJira\nand\nTestRail\n.\nStrong\nDocumentation Practices\n.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 60.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "javascript",
+    "typescript",
+    "ci/cd",
+    "project manager",
+    "agile",
+    "scrum"
+  ],
+  "category": "Low Priority"
+}

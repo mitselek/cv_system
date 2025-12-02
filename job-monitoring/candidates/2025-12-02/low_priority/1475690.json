@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1475690",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475690",
+    "title": "Systems Operations Lead",
+    "company": "Orkla Accounting Centre OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T11:00:52.000+00:00",
+    "discovered_date": "2025-12-02T22:39:53.288534",
+    "description": "Spordikompensatsioon, lisapuhkusepäevad, ühisüritused, ergonoomiline töökoht, osaline kaugtöö võimalus.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

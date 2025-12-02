@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1465097",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465097",
+    "title": "Java Developer",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T11:00:40.334+00:00",
+    "discovered_date": "2025-12-02T22:39:51.695753",
+    "description": "Java Developer:\nAbout Playtech\nFounded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging its proprietary technology, Playtech delivers innovative products and services to ensure a safe, engaging and entertaining gaming experience.\nAs the gaming industry's leading technology company, it combines business intelligence-driven software, services, content, and platform technology to drive excellence and innovation across the sector. Read more about who we are and what we do here: www.playtechpeople.com and www.playtech.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Embracing differences and maintaining transparency in our processes is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytech's\nCasino unit\nis looking for a proactive\nJava Developer\nwith strong communication and problem-solving skills.\nYour influential mission. You will...\nWork on a massively multithreaded high-performance client-server solution with a large code base that is used by millions of players around the world daily, 24/7.\nDevelop exciting new features in cooperation with others.\nMentor colleagues within your area of expertise.\nComponents for success. You...\nDemonstrate a good understanding of object-oriented design principles and their application in Java.\nHave strong Java programming skills (SE only, EE not required).\nAre experienced with relational databases, especially Oracle and PostgreSQL.\nPossess knowledge about writing multithreaded applications.\nDemonstrate at least a basic understanding of networking.\nAre a dedicated team player and have excellent collaboration skills.\nYou'll get extra points for...\nKnowledge of version control practices.\nFamiliarity with Atlassian portfolio (JIRA, Confluence).\nThrive in a culture that values...\nInitiative-taking and confident approach at the workplace.\nGlobal scope and inclusive working environment.\nConstant learning and development opportunities.\nActive lifestyle and mental well-being.\nFun and engaging company events.\nCASINO TEAM\nCasino products are the flagship of Playtech's products, offering an industry-leading selection of online games together with a state-of-the-art platform for seamless integration with our business customers websites. We ensure to deliver a thrilling web experience content library that includes a slot, table/card, fixed odds games, and more. Some of the movie and entertainment brands we have collaborated with, include DC, MGM, and NBC Universal. Casino Unit is represented in the following locations: Estonia, Bulgaria, and Ukraine and includes around 300 great employees in total, who build the most extensive games portfolio across the industry.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "postgresql",
+    "mentor"
+  ],
+  "category": "Low Priority"
+}

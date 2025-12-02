@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1469103",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469103",
+    "title": "Senior Technical Marketing Operations Manager",
+    "company": "Malwarebytes Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-17T15:56:30.000+00:00",
+    "discovered_date": "2025-12-02T22:39:51.695990",
+    "description": "Ootused kandidaadile:\nMalwarebytes Marketing and Customer Value team is dedicated to providing engaging and impactful experiences for our customers. We focus on generating sustained growth through innovative and purpose-driven marketing programs. We are seeking a Senior Marketing Operations Technical Marketing Manager who will bring a customer-first approach to our team.\nThis high-visibility individual will work alongside multiple teams, such as Marketing, Ecom, Product, Analytics, Data Engineering, and various stakeholders, to support Email and SMS communications by building marketing and product communications. This includes working on end-to-end emails, from creative assets to real-time API-triggered emails to batch email deployments.\nSkills You'll Need to Have:\n5+ years of experience integrating and supporting enterprise email/SMS platforms such as Iterable, Salesforce Marketing Cloud, Adobe Campaign, or similar\nStrong proficiency in building and managing API-driven workflows, including RESTful service integration and webhook/event handling.\n5+ years of experience in SQL and working with relational databases or data warehouses (e.g., Snowflake, Redshift, BigQuery)\nExtensive experience with email or in-product lifecycle marketing campaigns\nExperience in designing and maintaining data pipelines for syncing customer profiles, events, and catalog data into messaging platforms.\nStrong understanding of data mapping, schema validation, and identity resolution in omnichannel marketing contexts.\nSolid grasp of email/SMS deliverability principles, consent management, and compliance (e.g., CAN-SPAM, GDPR, CCPA).\nExcellent communication and stakeholder management skills for gathering requirements and coordinating across Marketing, Data Engineering, and Analytics teams.\nBA/BS in marketing or related field preferred\n\nTööülesannete kirjeldus:\nBuild and deploy campaigns using Iterable (experience with Responsys, Braze, Exact Target or similar tools welcome)\nDemonstrated advanced proficiency in leveraging AI tools and automation to design, execute, and optimize marketing campaigns.\nWork in lockstep with Customer Marketing and Product Marketing to plan and execute messaging strategies across email, in-app, and other channels.\nCollaborate with business stakeholders (e.g., Marketing, Product, Analytics) to gather and translate technical specifications into campaigns and automation requirements\nWork with data engineers to help design, implement, and maintain system integrations between Iterable and upstream systems (e.g., HighTouch, Snowflake, eCommerce platforms, data lakes).\nDevelop and support data pipelines (batch and real-time) to ensure timely and accurate delivery of audience, events, and transactional data into Iterable\nOwn and optimize API-based integrations using Iterables REST API and event/webhook framework.\nImplement robust data mapping and transformation logic to align source data structures with Iterables user profiles, custom events, and catalog data models.\nCreate and manage workflow automation and trigger logic for event-based campaigns (e.g., abandon cart, lifecycle messaging).\nCollaborate with cross-functional teams (Marketing, Data Engineering, Analytics, DevOps) to ensure campaign readiness and data accuracy.\n\nOmalt poolt pakume:\nComprehensive medical, dental, and vision insurance coverage\nEmployee Referral Bonus Program\nWellness programs\nAn opportunity to do something great for yourself and the world!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "devops",
+    "rest api"
+  ],
+  "category": "Low Priority"
+}

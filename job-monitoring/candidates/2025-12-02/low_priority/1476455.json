@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1476455",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476455",
+    "title": "Töödejuht",
+    "company": "BLRT Grupp AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T12:02:17.400+00:00",
+    "discovered_date": "2025-12-02T22:39:43.201958",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

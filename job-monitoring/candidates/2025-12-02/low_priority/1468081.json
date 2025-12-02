@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1468081",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1468081",
+    "title": "Data Engineer",
+    "company": "Alliance for Recruitment",
+    "location": "Unknown",
+    "posted_date": "2025-11-14T10:42:21.000+00:00",
+    "discovered_date": "2025-12-02T22:39:50.110513",
+    "description": "Job description::\nLead the design, development, and maintenance of data pipelines and data models, primarily in Azure (incl. Snowflake) and Google Cloud.\nWork closely with business stakeholders, internal IT teams, Master Data teams, and external consultants to deliver scalable, reliable data solutions.\nSelect and apply appropriate data engineering tools, methods, and technologies in line with architectural guidelines.\nTroubleshoot data pipeline issues and enhance data quality, performance, and maintainability.\nPrioritize and implement technical improvements without separate business approval, following company standards.\n\nRequirements for candidates::\nEducation:\nBachelors or Masters degree in engineering, computer science, or a related field.\nData Engineering Expertise:\nPractical experience building and maintaining data pipelines; strong SQL skills; data modeling experience (dimensional, Data Vault 2.0); familiarity with Agile Data Engine.\nTech Stack:\nExperience with Azure, Google Cloud, or Snowflake. Proficiency in Python or a similar programming language.\nCollaboration:\nStrong communication and problem-solving skills, with the ability to work effectively with internal stakeholders and external partners.\nIndependence & Initiative:\nAbility to work with high levels of autonomy, drive complex initiatives, and influence decisions.\nStrategic thinking:\nCourage to challenge and analyze initiatives to ensure business value.\nAdditional experience:\nETL processes, scripting (Python), supporting Data Science initiatives.\nBI tools:\nExperience with Power BI or Qlik is considered an advantage.\n\nCompany Offers::\nHealth and incident insurance after a 3-month probation period.\nLearn from experienced colleagues across multiple countries.\nOpportunity to grow your expertise within an international organization.\nAnnual performance bonuses.\nSports allowance.\nHybrid working model (3 days in the office, 2 days remote).\n* We truly appreciate your interest in this role. We will reach out personally to those candidates who are invited to the second round.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "python",
+    "azure",
+    "architect",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

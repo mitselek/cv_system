@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1470553",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470553",
+    "title": "Finantsjuht",
+    "company": "Fund Ehitus OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-20T11:03:31.000+00:00",
+    "discovered_date": "2025-12-02T22:39:43.202055",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

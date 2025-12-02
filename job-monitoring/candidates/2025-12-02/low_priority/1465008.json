@@ -1,0 +1,34 @@
+{
+  "job": {
+    "id": "1465008",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465008",
+    "title": "DevOps Engineer",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T11:00:40.324+00:00",
+    "discovered_date": "2025-12-02T22:39:50.109943",
+    "description": "DevOps Engineer:\nAbout Playtech\nFounded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging its proprietary technology, Playtech delivers innovative products and services to ensure a safe, engaging and entertaining gaming experience.\nAs the gaming industry's leading technology company, it combines business intelligence-driven software, services, content, and platform technology to drive excellence and innovation across the sector. Read more about who we are and what we do here: www.playtechpeople.com and www.playtech.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Embracing differences and maintaining transparency in our processes is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytech's\nInfrastructure\nunit is looking for a\nNetwork DevOps Engineer\nwith a curious mindset and a strong sense of initiative to join our team in Estonia.\nYour influential mission. You will...\nAnalyze, develop, and implement automated solutions for network management.\nPerform testing and evaluation of new network solutions.\nCollaborate with developers, engineers, and architects.\nHelp ensure network reliability and availability in critical environments.\nWork with other teams and apply security measures according to requirements.\nDocument work processes and share best practices.\nComponents for success. You...\nHave a technical background in IT.\nAre proficient in working with Linux.\nPossess development/scripting skills.\nAre eager to learn and grow professionally.\nUnderstand network fundamentals (load balancing, TCP IP, TLS).\nHave experience working with Python.\nCommunicate fluently in English, both written and spoken.\nYou'll get extra points for...\nDemonstrating previous experience in software development.\nWorking with virtualization tools.\nBringing experience in the networking domain.\nUnderstanding of cloud platforms.\nBringing experience in systems analysis.\nHaving IT-related education.\nFamiliar keywords to you are...\nPython\nLinux\nDjango\nGrafana\nPuppet\nAWS\nGoogle Cloud\nKubernetes (Network policies / CNI; Ingress controllers)\nCCNA\nTCP IP\nTLS\nF5\nCheckPoint\nThrive in a culture that values...\nInitiative-taking and confident approach at the workplace.\nGlobal scope and inclusive working environment.\nConstant learning and development opportunities.\nActive lifestyle and mental well-being.\nFun and engaging company events.\nINFRASTRUCTURE UNIT\nOur infrastructure is spread over 20 different countries and 34 data centers. We rely on 25 000 virtual machines and have 39 000 TB of storage space. Impressive? Using cutting-edge technologies, we provide central IT infrastructure service to business and internal customers worldwide.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 60.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "django",
+    "kubernetes",
+    "aws",
+    "devops",
+    "architect"
+  ],
+  "category": "Low Priority"
+}

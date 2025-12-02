@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1460964",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1460964",
+    "title": "Senior Accountant",
+    "company": "Wallester AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-03T13:38:39.000+00:00",
+    "discovered_date": "2025-12-02T22:39:51.695952",
+    "description": "Requirements for candidates:\nUniversity degree in Accounting, Finance, or Economics.At least 5 years of professional experience in accounting, including a minimum of 2 years in a senior accountant or equivalent role.\nExcellent knowledge of Estonian accounting and taxation standards, including preparation of annual reports and tax returns.\nKnowledge of UK accounting and taxation principles will be considered an advantage.\nAdvanced MS Excel skills (formulas, pivot tables, Power Query, and handling large data sets).\nExperience working with accounting systems; knowledge of the SAF program will be an asset.\nFluency in Estonian and English (C1 level), both written and spoken.\nStrong attention to detail, analytical mindset, high sense of responsibility, and ability to work independently.\nReadiness to work in an international financial environment and communicate with regulatory authorities.\n\nJob description:\nFinancial Accounting & Reporting\nPrepare and review monthly, quarterly, and annual financial statements.\nReconcile bank, client, and settlement accounts, ensuring alignment of transactions.\nMaintain general ledger accuracy.\nManage group consolidation.\nPrepare internal reports for the company management.\nRegulatory Compliance\nEnsure compliance with Estonian Financial Supervision and Resolution Authority (Finantsinspektsioon) requirements under the Payment Institutions and E-Money Institutions Act.\nSupport the management with both ad-hoc and recurring financial data for:\n- Capital adequacy and safeguarding requirements (e.g., segregation of client funds).\n- Reporting obligations to Finantsinspektsioon (FSA) and the Bank of Estonia (Eesti Pank).\n- Any other reports as needed.\nLiaise with external auditors and regulatory inspectors.\nTax and Statutory Duties\nOversee VAT, payroll tax, income tax and cross-border reporting.\nEnsure timely submission of tax declarations and coordinate with the Estonian Tax and Customs Board.\nAssets and Cash Management\nTimeley preparation of cash flow and client funds reports.\nSupport finance department by providing reconciliation of payment gateways, acquirers, and wallets.\nProcess Improvement and Systems\nOptimise accounting processes, automation, and use of ERP or PSP transaction systems.\nReview and improve the existing prodcedures, drafting of new ones.\nCollaborate with IT/Finance to ensure accounting data integrity.\nTeam Leadership and Mentoring\nSupervise junior accountants, review their journal entries and reconciliations.\nTrain team members in PSP-specific accounting practices\n\nWhat we offer:\nCompetitive salary\nMedical Insurance upon the completion of the probationary period\nA modern office in the center of Tallinn\nReferral program\nStebby\nFree parking\nGrowth and Development We invest in your professional journey with continuous learning opportunities, skill development programmes, and a clear path for career progression.\nCollaborative and Innovative Environment Join a talented, motivated team that thrives on creativity, innovation, and collaboration in a fast-paced Fintech setting.\nTeam Events and Company Celebrations Take part in regular team-building activities and company-wide events that strengthen connections and celebrate shared success.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "negative_keywords": -40.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "team lead",
+    "mentor"
+  ],
+  "category": "Low Priority"
+}

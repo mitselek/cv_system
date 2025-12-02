@@ -1,0 +1,34 @@
+{
+  "job": {
+    "id": "1473955",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1473955",
+    "title": "Senior QA Engineer",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T05:24:12.000+00:00",
+    "discovered_date": "2025-12-02T22:39:50.109608",
+    "description": "What will help you to succeed in the role::\n•\n5+ years of experience as a QA Engineer or Software Development Engineer in Test with multiple projects and technologies\n• Experience developing automation test frameworks from the ground up.\n• Proficient in unit-, functional-, performance-, load- and end-to-end testing\n• Excellent knowledge of various types and methodologies of testing\n• Proficiency in automation tools and frameworks, particularly in BDD tooling\n• Understanding and experience with CI/CD, dependency management, and source control tools\n• Ideally, ISTQB foundation level or other similar certification\n• Experience working with microservices and AMQP architecture\nAs a person, you are self-driven and have a proactive and can-do attitude. You have good communication skills with different business and tech stakeholders, and you speak English fluently.\n\nYour daily tasks will include::\nCreating tests by analyzing requirements, refining, executing, and ensuring comprehensive test coverage of all product scenarios\nPerforming manual and automated acceptance testing for upcoming releases\nEstablishing traceability links from the test cases to the requirements and bugs, assessing the systems quality, and tracking test case metrics\nDesigning, developing, and maintaining automated test scripts, frameworks, and tools to ensure high-quality software delivery\nIntegrating automated tests into the CI/CD pipeline to provide continuous feedback on software quality\nInvestigating test failures, determining the root cause, and retesting resolved defects\nCollaborating with the development team to ensure the application is testable, writing tests at the lowest possible level, achieving comprehensive test coverage, and adhering to shift-left principles\nParticipate in the definition of product requirements and acceptance criteria's\nProvide QA expertise for the team, train and coach other software engineers\nCollaborate with other QA's of different products to ensure good coverage and integration.\nWork closely with the product owner, giving overview status and upcoming project quality plan.\nYou will be using technologies:\nC# .Net, Specflow, Reqnroll, Postman, SQL, NoSQL, RabbitMQ\nDocker Compose, Azure DevOps, Allure Reports\nSoap UI, JMeter, or other load-testing tools\nXray or other test management tools\nCypress / Playwright / Selenium is nice to have\nWiremock or similar mocking implementations\n\nWhat do we offer: :\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 70.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "docker",
+    "azure",
+    "ci/cd",
+    "devops",
+    "architecture",
+    "architect",
+    "microservices"
+  ],
+  "category": "Low Priority"
+}

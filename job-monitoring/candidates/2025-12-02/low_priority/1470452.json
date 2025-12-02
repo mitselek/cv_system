@@ -1,0 +1,34 @@
+{
+  "job": {
+    "id": "1470452",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470452",
+    "title": "Senior Software Engineer",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-20T06:02:29.000+00:00",
+    "discovered_date": "2025-12-02T22:39:50.109482",
+    "description": "What will help you to succeed in the role:  :\nTo thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well:\nYoure a seasoned software engineer with a strong command of C# and .NET, and a track record of delivering production-grade systems.\nYouve built and supported cloud-native applications and understand the challenges of distributed systems.\nYou think in systems and design with focus on scalability, resilience, and long-term maintainability.\nYoure proactive in shaping technical direction and enjoy contributing to architectural decisions.\nYou care deeply about craftsmanship and continuously seek opportunities to improve your skills and share knowledge with others.\nYou thrive in collaborative environments, value diverse perspectives, and communicate clearly in English across disciplines.\nYoure comfortable taking ownershipfrom ideation to deploymentand balancing technical excellence with business impact.\nFamiliarity with FinTech or banking systems is a plus.\nOur teams work with a modern and evolving tech stack centered around C# and the .NET ecosystem. We build cloud-native applications using Azure and follow microservices architecture principles. You'll encounter:\nRESTful APIs and distributed systems\nAzure cloud services supporting scalable and event-driven architectures\nMicrosoft SQL Server and Entity Framework\nMessaging platforms like RabbitMQ, MassTransit, and Kafka\nContainerization with Docker and orchestration via Kubernetes\nInfrastructure as Code using Terraform\nMonitoring and observability tools such as NewRelic\nWe value clean architecture, automation, and continuous improvementand were always open to new ideas and technologies that help us build better systems.\n\n What will be your challenge: :\nYou will join one of our product teams and daily you will:\nDesign, develop, test, and ship robust, maintainable, and readable software, applications, APIs, and other workflows\nInitiate, participate in, and communicate technical architecture designs\nAttend regular scrum ceremonies as a member of an agile cross-functional team\nAnalyze, discuss, and implement business requirements while maintaining good documentation of the systems and components you create\nBring in industry standards and best practices to continually improve our codebase and architecture\nMake a positive impact on our engineering culture by adopting, implementing, and providing feedback on best standards and practices\n\nWhat do we offer: :\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 80.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "docker",
+    "kubernetes",
+    "azure",
+    "architecture",
+    "architect",
+    "microservices",
+    "agile",
+    "scrum"
+  ],
+  "category": "Low Priority"
+}

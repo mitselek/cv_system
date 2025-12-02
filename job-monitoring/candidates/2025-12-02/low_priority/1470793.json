@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1470793",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470793",
+    "title": "Tehase juht",
+    "company": "PharmaPark Production OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-21T06:13:55.000+00:00",
+    "discovered_date": "2025-12-02T22:39:43.202457",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}
