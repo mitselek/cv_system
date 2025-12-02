@@ -23,6 +23,15 @@ sources:
       - keywords: full stack developer
         location: ""
         limit: 50
+      - keywords: IT project manager
+        location: ""
+        limit: 50
+      - keywords: IT manager
+        location: ""
+        limit: 50
+      - keywords: it juht
+        location: ""
+        limit: 50
 
   - name: duunitori
     enabled: false
@@ -114,6 +123,11 @@ scoring:
     - project manager
     - product owner
     - team lead
+    - IT manager
+    - IT project manager
+    - it juht
+    - it osakonna juhataja
+    - juhtimiskogemus
   
   negative_keywords:
     - junior
@@ -126,7 +140,7 @@ scoring:
     - 24/7
   
   required_keywords:
-    - "python OR javascript OR typescript OR nodejs OR architect OR \"project manager\" OR \"technical lead\""
+    - "python OR javascript OR typescript OR nodejs OR architect OR \"project manager\" OR \"technical lead\" OR \"IT project manager\" OR \"IT manager\" OR \"it juht\" OR \"it osakonna juhataja\""
   
   preferred_companies:
     - Kühne
