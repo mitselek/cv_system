@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1475946",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475946",
+    "title": "Senior Credit Risk Modeller",
+    "company": "Swedbank AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T14:27:28.980+00:00",
+    "discovered_date": "2025-12-02T23:33:47.807374",
+    "description": "Are you passionate about working with data and statistical modelling? In Swedbank you have the opportunity to: Develop and implement statistical models for credit risk assessment in accordance with IFRS 9 requirements; Analyze large datasets to identify trends, patterns and insights related to credit risk; Present models and other relevant analysis/reports to business units, local risk units, management and to other interested stakeholders; Monitor regulatory compliance of implemented IFRS 9 system. What is needed in this role: Higher education degree in Mathematics, Statistics, Economics or a related quantitative field; Minimum 3 years of experience in data analysis, statistics, econometrics or credit risk modelling; Experience working with complex data systems and an ability to quickly learn corporate data architecture; Proficiency in statistical tools such as SPSS Modeler, SAS or R, experience with machine learning algorithms and Python is a strong advantage; Strong analytical skills and the ability to interpret and communicate complex data effectively; Fluency in English with excellent verbal and written communication skills; Strategic mindset paired with strong interpersonal and teamwork skills. With us, you can experience: Personal and professional growth through self-leadership and continuous development; Meaningful work that positively impacts our workplace, our customers, and society; An open and collaborative culture that encourages cross-functional teamwork and provides networking opportunities; A supportive and inclusive environment that promotes a balanced and sustainable work-life, with flexible working conditions when suitable for the role; Benefits such as our share based reward program Eken, company pension plan, employee offer for banking products, health insurance. \" Join our team and... be a part of an international team of professionals who are jointly delivering challenging projects. We offer a supportive work environment where you as an individual will be given a lot of freedom and responsibility. The outcome of your work will play a very important role at the highest levels of the organization. Join our team if you feel like taking the challenge and would want to work in a team with dedicated and supportive colleagues, who uphold the best industry practices in both the Baltics and Sweden.\" Karin Ange, your future leader We look forward to your application at 11.01.2026 the latest. We may begin the selection during the application period, so we welcome your application as soon as possible. We have made our choice regarding recruitment media and therefore kindly decline contact with ad sellers or sellers of other recruitment services. If you are to be employed in Estonia, please note that the salary offered for this position ranges from 3,500-5,300 € gross i.e. before taxes. Read more here! Swedbank does not discriminate anybody based on gender, age, sexual orientation or sexual identity, ethnicity, religion or disability everybody is welcome. #LI-Hybrid #LI-ML1",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "architect",
+    "architecture",
+    "senior"
+  ],
+  "category": "Low Priority"
+}

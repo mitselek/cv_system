@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1475010",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475010",
+    "title": "Principal Systems & Safety Engineer",
+    "company": "Starship Technologies OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-28T13:02:25.428+00:00",
+    "discovered_date": "2025-12-02T23:33:52.725294",
+    "description": "Starship Technologies is revolutionizing deliveries with autonomous robots. These robots are designed to deliver food, groceries, and packages across college campuses and neighborhoods in minutes. Starship has now completed millions of autonomous deliveries to date, traveled millions of miles, and is currently doing more than 140k road crossings each day. Our contribution to society includes reducing congestion and pollution, providing zero-emissions deliveries, increasing the quality of life for residents, empowering seniors and disabled people, and enabling affordable delivery for local businesses. We're hitting records on an almost weekly basis. Now is an exciting time to join as we grow rapidly around the world! We're looking for a Principal Systems & Safety Engineer to join our Hardware Engineering team. As a Principal Systems & Safety Engineer, you'll play a critical role in our product development process for robots from concept to launch. You will be a key technical voice on product safety and compliance, ensuring our system architecture and design meet and exceed regulatory requirements. This is an opportunity to have a major impact on our products and grow your leadership skills by driving significant improvements in our compliance framework. Your main responsibilities are: Driving improvements to our compliance framework: You'll identify opportunities and lead initiatives to make a step-change improvement in our existing compliance and safety processes, ensuring we stay ahead of global standards (e.g., CE, IEC, ISO, UL). Translating standards into requirements: You'll analyse complex safety standards and regulations and translate them into clear, verifiable system and subsystem requirements for our hardware and software teams. Analysing system architecture: You'll review the system architectures to identify potential hazards, ensure safety-critical functions are robust, and guide design choices from the start. Conducting technical risk assessments: You'll lead and document technical risk assessments, including Hazard Analysis and Risk Assessment (HARA) and Failure Modes and Effects Analysis (FMEA) at the system level. Contributing to product certifications: You'll be a key part of the certification process, preparing technical documentation and collaborating with external labs to ensure successful product validation. Developing validation strategies: You'll work with our test and validation teams to create and execute test plans that verify compliance and validate the safety of the overall system. What's in it for you? Opportunity to work on industry-leading self-driving delivery robot technology on a uniquely large scale, creating history and making things happen. You can immerse yourself in the world of technology and innovation. You will have a chance to work with people with a strong inner burning and motivation. We are self-aware and seek feedback and improvement. We don't want to wait until we are told what needs to be done but take it as a matter of pride to figure out solutions for topics in various teams and areas. You'll have endless opportunities to learn from our inspirational, talented team members across the globe. What we're looking for: A systems-level thinker: You can understand how different components of a complex system interact and can anticipate potential failure modes. A passion for building safe, complex systems: You're excited about the challenge of building robust consumer robots and are committed to ensuring they are safe and reliable. A growth mindset: You're eager to learn and grow, and you're not afraid to take on new challenges. We're looking for someone who wants to become a leader in this field. A collaborative spirit: You're a great communicator and enjoy working with cross-functional teams to solve challenging problems. A proactive problem-solver: You're a self-starter who can identify potential issues and develop creative solutions. We'd love to hear from you if you have: Extensive experience in systems engineering, compliance, safety, or a related role. Familiarity with product safety standards (e.g., IEC 61508, ISO 26262, UL 3300). Proven experience writing and managing technical requirements. Strong background in risk assessment methodologies (e.g., FMEA, HARA). If you're excited about this role but don't meet all the requirements, we'd still encourage you to apply. Want to learn more about our robots and our people? Get in touch and lets have a chat! Also, have a sneak peek to our blog and discover more about us!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 50.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "API"
+  ],
+  "category": "Review"
+}

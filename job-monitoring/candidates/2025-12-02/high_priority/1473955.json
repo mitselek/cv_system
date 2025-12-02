@@ -1,0 +1,37 @@
+{
+  "job": {
+    "id": "1473955",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1473955",
+    "title": "Senior QA Engineer",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T05:24:12.000+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137204",
+    "description": "• 5+ years of experience as a QA Engineer or Software Development Engineer in Test with multiple projects and technologies • Experience developing automation test frameworks from the ground up. • Proficient in unit-, functional-, performance-, load- and end-to-end testing • Excellent knowledge of various types and methodologies of testing • Proficiency in automation tools and frameworks, particularly in BDD tooling • Understanding and experience with CI/CD, dependency management, and source control tools • Ideally, ISTQB foundation level or other similar certification • Experience working with microservices and AMQP architecture As a person, you are self-driven and have a proactive and can-do attitude. You have good communication skills with different business and tech stakeholders, and you speak English fluently. Creating tests by analyzing requirements, refining, executing, and ensuring comprehensive test coverage of all product scenarios Performing manual and automated acceptance testing for upcoming releases Establishing traceability links from the test cases to the requirements and bugs, assessing the systems quality, and tracking test case metrics Designing, developing, and maintaining automated test scripts, frameworks, and tools to ensure high-quality software delivery Integrating automated tests into the CI/CD pipeline to provide continuous feedback on software quality Investigating test failures, determining the root cause, and retesting resolved defects Collaborating with the development team to ensure the application is testable, writing tests at the lowest possible level, achieving comprehensive test coverage, and adhering to shift-left principles Participate in the definition of product requirements and acceptance criteria's Provide QA expertise for the team, train and coach other software engineers Collaborate with other QA's of different products to ensure good coverage and integration. Work closely with the product owner, giving overview status and upcoming project quality plan. You will be using technologies: C# .Net, Specflow, Reqnroll, Postman, SQL, NoSQL, RabbitMQ Docker Compose, Azure DevOps, Allure Reports Soap UI, JMeter, or other load-testing tools Xray or other test management tools Cypress / Playwright / Selenium is nice to have Wiremock or similar mocking implementations Inclusive and valuing culture At Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks. Health & Wellbeing Your physical and mental health is important to us. Take advantage of our various preventive care and support services. Professional and Personal Development Take advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings Monetary Benefits & Discounts Know that you're appreciated with plenty of employee benefits & discounts just for you. Flexibility Our diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 95.0,
+  "score_breakdown": {
+    "positive_keywords": 90.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "docker",
+    "azure",
+    "ci/cd",
+    "devops",
+    "microservices",
+    "product owner"
+  ],
+  "category": "High Priority"
+}

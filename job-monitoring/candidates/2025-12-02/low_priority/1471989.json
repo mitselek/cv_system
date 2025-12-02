@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1471989",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1471989",
+    "title": "Internal Services Engineer",
+    "company": "Tripod Grupp OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-24T09:11:32.072+00:00",
+    "discovered_date": "2025-12-02T23:33:54.318257",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "negative_keywords": -20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

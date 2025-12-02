@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1464909",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1464909",
+    "title": "Automation QA Engineer",
+    "company": "Entain",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T11:00:40.309+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137184",
+    "description": "We are seeking a skilled and detail-oriented QA Automation Engineer to join our dynamic team. You will play a crucial role in ensuring the quality and reliability of our software through the development and execution of robust automation scripts. Responsibilities: Develop and maintain UI autotests (Python + Playwright) Maintenance test environment (docker) Design, evolve and execute test plans Develop API test (REST) Manage application releases and plan test runs Detect and explain software failures Monitor and evolve test coverage Development of procedures to simplify the work of manual testers (scripts) Requirements 2+ years of software development experience or automation testing (Python, Playwright, Pytest) Software testing experience 3+ yrs Good understanding of the Quality Assurance process Agile software development methodology understanding Web and network technologies basics. (HTML, HTTP, TCP, REST) Strong communication skills English ( verbal and written intermediate+) We offer: Great opportunity to take part in the development of a growth- and innovation-driven company and build its future. Dynamic work in a rapidly growing international company with personal development possibilities. Professional team with various international backgrounds to collaborate. Opportunity for career development. Wide benefits package: annual company performance bonus, extra day off on your birthday, dedicated days off for your physical and mental health, additional vacation days depending on the length of employment, health insurance policy, wellness and team-building events, dedicated budget for your training and development, paid online consultations with certified therapists and so much more!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "docker",
+    "API",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

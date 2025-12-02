@@ -1,0 +1,34 @@
+{
+  "job": {
+    "id": "1470453",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470453",
+    "title": "Senior Data Engineer",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-20T06:04:23.000+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137340",
+    "description": "You will be a good fit for the role if you have: Degree in (Business) Informatics, Data Engineering, Mathematics, or a comparable field Proven experience in data integration, data modeling, and data flow design Strong skills in SQL and data integration tools (e.g., Azure Data Factory) or programming languages (e.g., Python) Solid understanding of relational databases, modern data architectures, cloud-based data analytics tools and platforms (e.g. Databricks) Experience working closely with business stakeholders, ideally with product owners Analytical thinking, structured work approach, and high level of initiative As a Data Engineer, you will play a key role in building the next evolution of our customer risk platform. The focus lies on integrating data from various internal systems into a centralized, real-time database, laying the foundation for consistent and reliable data processing and analysis across the organization. You will join one of our platform product teams and you are expected to deal with: Target System Analysis. Identify and document data fields, formats, and structures needed in the central target systems, etc Internal Source System Analysis. Evaluate existing internal systems, determine relevant data, coordinate data exports, etc Design Data Integration Concepts. Develop mapping logics,, define transformation rules, data flows and technical interfaces, document data models, etc Technical Implementation. Build and test ETL/ELT processes, ensure data consistency, quality, and traceability, etc Drive and own data engineering topics . Standardize mechanisms for PII data handling, support operational data activities, etc in collaborative way with software engineers and other relevant stakeholders Inclusive and valuing culture At Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks. Health & Wellbeing Your physical and mental health is important to us. Take advantage of our various preventive care and support services. Professional and Personal Development Take advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings Monetary Benefits & Discounts Know that you're appreciated with plenty of employee benefits & discounts just for you. Flexibility Our diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 45.0,
+  "score_breakdown": {
+    "positive_keywords": 70.0,
+    "negative_keywords": -40.0,
+    "preferred_company": 15.0
+  },
+  "matched_keywords": [
+    "python",
+    "architect",
+    "architecture",
+    "senior",
+    "azure",
+    "database",
+    "product owner"
+  ],
+  "category": "Review"
+}

@@ -1,0 +1,37 @@
+{
+  "job": {
+    "id": "1473131",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1473131",
+    "title": "Java Software Engineer",
+    "company": "1oT OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-25T14:59:04.000+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137124",
+    "description": "1oT is expanding its team and looking for an engineer to join us in building connectivity solutions according to the new eSIM IoT standard. 1oT has built a platform for helping global IoT service providers manage their SIM cards and billing. The self-service based platform enables users to control and monitor SIM card sessions, switch SIM cards on/off, buy new SIMs, send SMS to the SIM, etc. Our client portfolio ranges from e-mobility to asset tracking to smart city solutions, so you will have interaction with a variety of IoT sectors and telecom companies. eSIM team owns services that implement the eSIM standard of GSMA. Develop large-scale services ( Java / REST / Spring / SQL ) Contribute to back-office UI ( Vue.js ) Run and maintain AWS services ( Terraform / Docker / Grafana ) Participate in discussions on the architecture of the platform Build eSIM infrastructure according to GSMA specs Handle external integrations via APIs 3+ years of development experience (Java / REST / Spring / SQL) Experience with cloud platforms (AWS / Azure / GCP) Familiarity with modern UI frameworks is a plus Experience with cryptography or HSM is a strong plus Background in working with APIs enjoy solving problems and turning ideas into clean, working solutions take ownership of your tasks deadlines, goals, responsibilities like collaborating, sharing ideas, and joining technical discussions prefer action over bureaucracy and dont get stuck in corporate slow-motion are curious, eager to learn, and excited about building things that dont yet exist bring a positive, high-accountability approach to teamwork Ability to work with APIs and integrations Comfortable with security-focused development approaches Willingness to collaborate closely with the eSIM team A degree in Computer Science or a related field is beneficial but not mandatory. Practical experience matters more. Meaningful, globally impactful work on cutting-edge eSIM technology Diverse development tasks: new features, optimizations, refactoring Opportunity to grow, influence, and shape products in a scaling company Cozy, productive environment in our Tallinn HQ Ambitious teammates who challenge the status quo daily Supportive and fun team atmosphere",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 110.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "java",
+    "vue",
+    "architect",
+    "architecture",
+    "docker",
+    "aws",
+    "azure",
+    "gcp",
+    "terraform",
+    "infrastructure",
+    "API"
+  ],
+  "category": "High Priority"
+}

@@ -3,11 +3,26 @@ sources:
     enabled: true
     queries:
       - keywords: python developer
-        location: Tallinn
-        limit: 10
+        location: ""
+        limit: 50
+      - keywords: javascript developer
+        location: ""
+        limit: 50
       - keywords: software architect
-        location: Tallinn
-        limit: 10
+        location: ""
+        limit: 50
+      - keywords: technical lead
+        location: ""
+        limit: 50
+      - keywords: devops engineer
+        location: ""
+        limit: 50
+      - keywords: backend developer
+        location: ""
+        limit: 50
+      - keywords: full stack developer
+        location: ""
+        limit: 50
 
   - name: duunitori
     enabled: false

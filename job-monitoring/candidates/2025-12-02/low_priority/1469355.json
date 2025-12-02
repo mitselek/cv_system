@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1469355",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469355",
+    "title": "Software Engineer (Java/Angular)",
+    "company": "LHV Pank AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T08:39:38.000+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137096",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "java",
+    "angular"
+  ],
+  "category": "Low Priority"
+}

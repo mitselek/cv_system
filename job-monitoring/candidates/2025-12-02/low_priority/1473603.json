@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1473603",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1473603",
+    "title": "QA Engineer",
+    "company": "EvoGame Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-26T12:23:19.717+00:00",
+    "discovered_date": "2025-12-02T23:33:51.137220",
+    "description": "Be a proactive member of a Scrum/Kanban development team (work closely with PDM, BA, Designers, Developers, and other QAs). Perform functional, regression, and exploratory testing, review and analyze automated test results to surface issues and trends. Plan & execute work that includes interdependent tasks for the projects (testing of requirements, specifications, and designs, test case/plan creation, bug reporting). Assess product usability and reliability and provide feedback and recommendations for improvements. Keep testing documentation up-to-date. Be ready to learn, develop skills and knowledge, as well as share it. 1.5+ years of professional experience in software testing. Understanding of software development processes, stages, concepts, and methodologies of Quality Assurance. Experience with web and mobile testing. Strong exploratory testing skills and critical thinking ability. Proficiency in writing clear and comprehensive test cases, test scenarios, defect reports, and test plans. Strong analytical and diagnostic skills, attention to detail. Willingness to learn test automation and contribute to improving automation coverage. Good level of English, both written and spoken. Strong communication and collaboration skills. Willingness to ask for help from colleagues and to help others. Nice-to-have: Experience with Postman, Confluence, TestRail, Jenkins, Git, and Playwright. Entrepreneur culture of the company, which allows you to try new approaches and technologies all the time. Recognition from the business, which translates to very competitive salaries and a supportive attitude. A healthy mix of startup-like culture of the company, which enables us to try new approaches and technologies, and remain on the edge of technological development and enterprise, with stability and supporting functions to help you focus on your job. Modern and developer-friendly delivery processes, including Agile (Scrum / Kanban), JIRA issue tracking, Confluence wiki, GitLab source control, Jenkins continuous integration and delivery, modern hardware and software for development (an IDE of your choice). Being a part of an international team in a successful, publicly traded company. Health insurance, contemporary office environment, tech conference attendance, training, hackathons, and other benefits and perks. Application Submission Share your LinkedIn profile or CV to express your interest. Introduction Chat A casual conversation where we get to know each other, answer basic questions, and discuss the role. Verbal Technical Interview An opportunity to assess your understanding of key concepts and identify areas where we can support your growth. Culture Fit Meeting A chance for you to meet the team, ensuring a mutual fit in terms of values and work environment.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "agile",
+    "scrum"
+  ],
+  "category": "Low Priority"
+}

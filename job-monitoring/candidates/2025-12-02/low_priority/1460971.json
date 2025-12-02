@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1460971",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1460971",
+    "title": "Lawyer",
+    "company": "Wallester AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-03T13:43:27.000+00:00",
+    "discovered_date": "2025-12-02T23:33:57.472944",
+    "description": "Masters degree in law from Estonia (preferred) or another EEA/EU university. Full professional fluency in English required; Estonian language skills considered an advantage. Minimum 2 years legal practice in a regulated sector, either in-house or at a law firm for example financial services, payments, fintech, banking, telecommunications, insurance, energy, or gaming. Expertise in one or more of the following areas: payment services regulation, contract drafting and negotiation, data protection, AML/CFT, corporate governance, or intellectual property. Ability to take responsibility for assigned legal tasks and deliver high-quality results. Provide legal advice and support on the companys business activities. Draft, review, and help negotiate agreements, legal opinions, and other key documents. Support dispute resolution, litigation, and settlement processes together with senior lawyers and external advisors. Monitor regulatory developments, assess compliance implications, and contribute to guidance for internal stakeholders. Take responsibility for assigned legal tasks and ensure timely, high-quality delivery. Contribute legal input to the development of new services and products. Coordinate the improvement of internal legal workflows, policies, and cross-functional projects. Support corporate governance requirements and company secretarial matters. Competitive salary Medical Insurance upon the completion of the probationary period A modern office in the center of Tallinn Referral program Stebby Free parking Growth and Development We invest in your professional journey with continuous learning opportunities, skill development programmes, and a clear path for career progression. Collaborative and Innovative Environment Join a talented, motivated team that thrives on creativity, innovation, and collaboration in a fast-paced Fintech setting. Team Events and Company Celebrations Take part in regular team-building activities and company-wide events that strengthen connections and celebrate shared success.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

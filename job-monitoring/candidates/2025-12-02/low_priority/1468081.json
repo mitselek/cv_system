@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1468081",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1468081",
+    "title": "Data Engineer",
+    "company": "Alliance for Recruitment",
+    "location": "Unknown",
+    "posted_date": "2025-11-14T10:42:21.000+00:00",
+    "discovered_date": "2025-12-02T23:33:47.807336",
+    "description": "Lead the design, development, and maintenance of data pipelines and data models, primarily in Azure (incl. Snowflake) and Google Cloud. Work closely with business stakeholders, internal IT teams, Master Data teams, and external consultants to deliver scalable, reliable data solutions. Select and apply appropriate data engineering tools, methods, and technologies in line with architectural guidelines. Troubleshoot data pipeline issues and enhance data quality, performance, and maintainability. Prioritize and implement technical improvements without separate business approval, following company standards. Education: Bachelors or Masters degree in engineering, computer science, or a related field. Data Engineering Expertise: Practical experience building and maintaining data pipelines; strong SQL skills; data modeling experience (dimensional, Data Vault 2.0); familiarity with Agile Data Engine. Tech Stack: Experience with Azure, Google Cloud, or Snowflake. Proficiency in Python or a similar programming language. Collaboration: Strong communication and problem-solving skills, with the ability to work effectively with internal stakeholders and external partners. Independence & Initiative: Ability to work with high levels of autonomy, drive complex initiatives, and influence decisions. Strategic thinking: Courage to challenge and analyze initiatives to ensure business value. Additional experience: ETL processes, scripting (Python), supporting Data Science initiatives. BI tools: Experience with Power BI or Qlik is considered an advantage. Health and incident insurance after a 3-month probation period. Learn from experienced colleagues across multiple countries. Opportunity to grow your expertise within an international organization. Annual performance bonuses. Sports allowance. Hybrid working model (3 days in the office, 2 days remote). * We truly appreciate your interest in this role. We will reach out personally to those candidates who are invited to the second round.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0
+  },
+  "matched_keywords": [
+    "python",
+    "architect",
+    "azure",
+    "agile"
+  ],
+  "category": "Low Priority"
+}
