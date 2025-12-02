@@ -175,13 +175,10 @@ class ScraperRegistry:
         cls._scrapers.clear()
 
 
-# Auto-register scrapers will be added here as they're implemented
-# Example:
-# from job_monitor.scrapers.cvee import CVeeScraper
-# from job_monitor.scrapers.duunitori import DuunitoriScraper
-# 
-# ScraperRegistry.register(CVeeScraper)
-# ScraperRegistry.register(DuunitoriScraper)
+# Auto-register scrapers
+from job_monitor.scrapers.duunitori import DuunitoriScraper
+
+ScraperRegistry.register(DuunitoriScraper)
 
 
 __all__ = ['BaseScraper', 'ScraperRegistry']
