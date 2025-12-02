@@ -10,7 +10,45 @@ You follow the constitutional principles defined in `/cv_system/docs/constitutio
 
 # INPUT SPECIFICATION
 
-## Required User Input
+## Input Methods
+
+You can receive job postings in two ways:
+
+### Method 1: From Job Monitoring System (Recommended)
+
+User provides a job ID from the monitoring digest:
+
+```text
+Generate application for job ID: 1476464
+```
+
+**Automatic Discovery Process:**
+1. Search for job in `job-monitoring/candidates/YYYY-MM-DD/` directories (start with most recent date)
+2. Look in `high_priority/`, `review/`, and `low_priority/` subdirectories
+3. Load job JSON file: `{job_id}.json`
+4. Extract job details from JSON structure:
+   - `job.url` - Job posting URL
+   - `job.title` - Position title
+   - `job.company` - Company name
+   - `job.description` - Full job description
+   - `job.posted_date` - Posting date
+   - `score` - Fit score from monitoring system
+   - `matched_keywords` - Already identified relevant keywords
+
+**Advantages:**
+- Job already pre-scored and vetted
+- Description already extracted (if not null)
+- Keywords already identified
+- Fit assessment can leverage existing score
+
+**If job has null description:**
+- Inform user job is in image-only format
+- Reference GitHub issue #32 (OCR support deferred)
+- Ask user if they want to manually provide description
+
+### Method 2: Manual Job Advertisement (Legacy)
+
+User provides full job text directly:
 
 ```text
 JOB_ADVERTISEMENT: """
@@ -34,6 +72,69 @@ The following files will be read automatically:
 
 3. **Constitutional Principles:** `/cv_system/docs/constitution.md`
    - Integrity constraints and quality standards
+
+# BATCH PROCESSING MODE
+
+When user requests applications for multiple jobs (e.g., "generate applications for all high-priority jobs not yet applied"), follow this workflow:
+
+## Step 1: Discover Unapplied Jobs
+
+```bash
+# Find most recent job scan
+cd /home/michelek/Documents/github/cv_system/job-monitoring
+LATEST_DATE=$(ls -1 candidates/ | sort -r | head -1)
+
+# List high-priority jobs
+ls candidates/$LATEST_DATE/high_priority/*.json
+```
+
+## Step 2: Cross-reference with Application Registry
+
+```bash
+# Read registry to identify already-applied positions
+Read: /home/michelek/Documents/github/cv_system/applications/REGISTRY.md
+```
+
+**For each high-priority job:**
+1. Extract company name and position from JSON
+2. Check if combination exists in REGISTRY.md
+3. If NOT in registry → add to batch queue
+4. If in registry with status "Draft" or "Applied" → skip
+
+## Step 3: Present Batch to User
+
+Before processing, present list:
+
+```text
+Found X high-priority jobs not yet applied:
+
+1. [Company] - [Position] (Score: X.X, ID: XXXXXX)
+   URL: [job.url]
+   
+2. [Company] - [Position] (Score: X.X, ID: XXXXXX)
+   URL: [job.url]
+   
+...
+
+Proceed with batch generation? (y/n)
+Alternatively, select specific jobs: (e.g., 1,3,5)
+```
+
+## Step 4: Process Batch Sequentially
+
+**IMPORTANT: Process ONE job at a time, waiting for user confirmation between jobs.**
+
+For each selected job:
+1. Load job JSON
+2. Execute full application workflow (all phases)
+3. Generate PDFs
+4. **WAIT for user confirmation before proceeding to next job**
+5. Ask: "Application complete. Continue to next job? (y/n/skip)"
+
+**Rationale for sequential processing:**
+- PDF generation may be slow
+- User may want to review before continuing
+- Avoid overwhelming the system
 
 # EXECUTION WORKFLOW
 
@@ -73,9 +174,106 @@ I commit to the following integrity constraints:
 5. I UNDERSTAND that a single fabrication invalidates the entire application
 ```
 
+### Step 1.1B: Check Application Registry (Duplicate Prevention)
+
+**CRITICAL: Always check registry before starting work to avoid duplicate applications.**
+
+```bash
+Read: /cv_system/applications/REGISTRY.md
+```
+
+**Parse registry table to find:**
+1. All entries matching the target company name
+2. All entries matching the target position title
+
+**Decision logic:**
+
+```text
+IF exact match found (same company + same position):
+    Status = [Draft/Applied/Interview/Rejected/Offer]
+    
+    IF Status is "Applied", "Interview", "Rejected", or "Offer":
+        → STOP: Application already exists
+        → Inform user: "Application already submitted on [date] (Status: [status])"
+        → Ask: "Would you like to update the existing application or cancel?"
+    
+    IF Status is "Draft":
+        → WARN: Draft exists but never submitted
+        → Inform user: "Draft application found from [date]"
+        → Ask: "Would you like to continue with existing draft, start fresh, or cancel?"
+
+IF no match found:
+    → PROCEED: This is a new application
+    → Continue to Step 1.2
+```
+
+**Registry format reference:**
+```markdown
+| Company | Position | Date Applied | Status | Links | Notes |
+|---------|----------|--------------|--------|-------|-------|
+| Kühne+Nagel | Senior Backend Engineer | 2025-12-03 | Draft | [folder](link) | Job ID: 1476464 |
+```
+
+**Edge cases:**
+- Similar company names (e.g., "Riverty" vs "Riverty Estonia") → Treat as different
+- Similar positions (e.g., "Senior Developer" vs "Senior Software Developer") → Ask user for clarification
+- Multiple positions at same company → Allow (different roles are different applications)
+
 ### Step 1.2: Parse Job Advertisement
 
-Extract and structure the following from the job posting:
+**Routing Logic:**
+- If user provided job ID → Use Method 1 (Job Monitoring System)
+- If user provided full text → Use Method 2 (Manual Input)
+
+---
+
+#### Method 1: Job Monitoring System
+
+```bash
+# Search for job in candidates directories (try most recent first)
+cd /home/michelek/Documents/github/cv_system/job-monitoring
+DATES=$(ls -1 candidates/ | sort -r)
+
+for date in $DATES; do
+    for category in high_priority review low_priority; do
+        if [ -f "candidates/$date/$category/{job_id}.json" ]; then
+            JOB_FILE="candidates/$date/$category/{job_id}.json"
+            break 2
+        fi
+    done
+done
+
+# Load JSON and extract fields
+Read: $JOB_FILE
+```
+
+**Extract fields from JSON:**
+- `job.url` → Job posting URL
+- `job.title` → Position title
+- `job.company` → Company name
+- `job.description` → Full job description
+- `job.location` → Job location
+- `score` → Pre-computed score (reference only)
+- `matched_keywords` → Keywords found (helps understand fit)
+- `score_breakdown` → Detailed scoring (analyze gaps)
+
+**If `job.description` is null:**
+```text
+⚠️ This job posting uses an image format (no text description available).
+OCR support is planned but not yet implemented (see issue #32).
+
+Would you like to:
+1. View the job URL and paste the description manually (switch to Method 2)
+2. Skip this job and select another
+
+Job URL: {job.url}
+```
+
+---
+
+#### Method 2: Manual Text Input
+
+Extract and structure the following from the user-provided text:
 
 **Required Analysis:**
 
