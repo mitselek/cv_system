@@ -6,7 +6,7 @@ Each scraper is a plugin that can be enabled/disabled via configuration.
 """
 
 from pathlib import Path
-from typing import Dict, List, Optional, Type
+from typing import Any, Dict, List, Optional, Type
 
 from job_monitor.scrapers.base import BaseScraper
 
@@ -73,7 +73,7 @@ class ScraperRegistry:
     def get_scraper(
         cls,
         scraper_id: str,
-        config: Dict[str, any],
+        config: Dict[str, Any],
         cookies_file: Optional[Path] = None
     ) -> BaseScraper:
         """Get scraper instance by ID.
@@ -137,7 +137,7 @@ class ScraperRegistry:
         return scraper_id in cls._scrapers
     
     @classmethod
-    def get_scraper_info(cls, scraper_id: str) -> Dict[str, any]:
+    def get_scraper_info(cls, scraper_id: str) -> Dict[str, Any]:
         """Get metadata about a registered scraper.
         
         Args:

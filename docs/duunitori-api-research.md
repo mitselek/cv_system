@@ -1,24 +1,29 @@
 # Duunitori API Research
 
 ## Investigation Date
+
 2025-01-03
 
 ## Summary
+
 Duunitori uses Django REST Framework but does **not** expose a public JSON API for job search. Only auxiliary APIs are available.
 
 ## Discovered API Endpoints
 
 ### 1. Areas API (`/api/v1/areas`)
+
 **Purpose:** Location/area data for Finland
 
 **Format:** JSON (with `?format=json` parameter or `Accept: application/json` header)
 
 **Example Request:**
+
 ```bash
 curl "https://duunitori.fi/api/v1/areas?format=json"
 ```
 
 **Response Structure:**
+
 ```json
 {
   "results": [
@@ -41,16 +46,19 @@ curl "https://duunitori.fi/api/v1/areas?format=json"
 ---
 
 ### 2. Search Autocomplete API (`/api/v1/search_autocomplete`)
+
 **Purpose:** Employer/company group suggestions
 
 **Format:** JSON
 
 **Example Request:**
+
 ```bash
 curl "https://duunitori.fi/api/v1/search_autocomplete?q=python" -H "Accept: application/json"
 ```
 
 **Response Structure:**
+
 ```json
 {
   "results": [
@@ -73,11 +81,13 @@ curl "https://duunitori.fi/api/v1/search_autocomplete?q=python" -H "Accept: appl
 ## Non-Existent Endpoints
 
 ### Job Listings API
+
 - **Tested:** `/api/v1/jobadvertisements`, `/api/v1/jobs`, `/api/v1/vacancies`
 - **Result:** All return 404 errors
 - **Conclusion:** No public job listings JSON API exists
 
 ### Carousel Endpoint
+
 - **URL:** `/carousel/search?haku=python`
 - **Format:** HTML fragments (not JSON)
 - **Purpose:** Server-side rendering for infinite scroll
@@ -85,9 +95,10 @@ curl "https://duunitori.fi/api/v1/search_autocomplete?q=python" -H "Accept: appl
 ## JavaScript API References
 
 Found in page source:
+
 ```javascript
-API_AREA_URL = '/api/v1/areas'
-API_SEARCH_URL = '/api/v1/search_autocomplete'
+API_AREA_URL = "/api/v1/areas";
+API_SEARCH_URL = "/api/v1/search_autocomplete";
 ```
 
 No job search API endpoint defined in JavaScript.
@@ -95,11 +106,13 @@ No job search API endpoint defined in JavaScript.
 ## Architecture Analysis
 
 **Backend:** Django REST Framework (confirmed by browsable API HTML)
+
 - DRF provides automatic API documentation
 - Browsable API available at endpoint URLs (HTML format)
 - JSON available via `Accept: application/json` header or `?format=json` parameter
 
 **Job Listings Rendering:**
+
 - Server-side HTML rendering (not SPA)
 - `/tyopaikat` endpoint returns fully rendered HTML
 - Job boxes use CSS class `.job-box` with data attributes
@@ -107,18 +120,20 @@ No job search API endpoint defined in JavaScript.
 
 ## Comparison to CV.ee
 
-| Feature | CV.ee | Duunitori |
-|---------|-------|-----------|
-| **Job Search API** | ✅ Yes (`/api/v1/vacancy-search-service/search`) | ❌ No |
-| **Search Backend** | Elasticsearch | Unknown (likely database) |
-| **Rendering** | React SPA + API | Server-side HTML |
-| **Auxiliary APIs** | Locations, Categories | Areas, Autocomplete |
-| **Public Access** | Yes (no auth required) | Limited (no job search) |
+| Feature            | CV.ee                                            | Duunitori                 |
+| ------------------ | ------------------------------------------------ | ------------------------- |
+| **Job Search API** | ✅ Yes (`/api/v1/vacancy-search-service/search`) | ❌ No                     |
+| **Search Backend** | Elasticsearch                                    | Unknown (likely database) |
+| **Rendering**      | React SPA + API                                  | Server-side HTML          |
+| **Auxiliary APIs** | Locations, Categories                            | Areas, Autocomplete       |
+| **Public Access**  | Yes (no auth required)                           | Limited (no job search)   |
 
 ## Recommendations
 
 ### Option 1: Continue HTML Scraping (RECOMMENDED)
+
 **Pros:**
+
 - Already implemented and working
 - 20 tests passing (100% coverage)
 - Handles all features (full details, contact info, descriptions)
@@ -126,6 +141,7 @@ No job search API endpoint defined in JavaScript.
 - Reliable and stable
 
 **Cons:**
+
 - More fragile (HTML changes break scraper)
 - Slower than API calls
 - More complex parsing logic
@@ -133,6 +149,7 @@ No job search API endpoint defined in JavaScript.
 **Decision:** Keep current implementation since no API alternative exists.
 
 ### Option 2: Contact Duunitori
+
 **Request:** Public API access for job listings
 
 **Unlikely:** Estonian competitor (CV.ee) has public API, Finnish sites may not follow same model.

@@ -8,7 +8,7 @@
 
 ### Existing Structure
 
-```
+```text
 job-monitoring/src/job_monitor/
 ├── scraper.py          # Single class with all scrapers
 ├── cli.py              # Hardcoded source routing
@@ -19,16 +19,19 @@ job-monitoring/src/job_monitor/
 ### Current Problems
 
 1. **Single Monolithic Class**
+
    - `JobScraper` contains methods for all portals
    - `search_duunitori()`, `search_linkedin()`, etc. in one file
    - Each portal needs different dependencies (BeautifulSoup vs JSON API)
 
 2. **Hardcoded Routing**
+
    - `cli.py` has string matching: `if "duunitori" in name`
    - Adding new portal = editing multiple files
    - No clear extension point
 
 3. **Mixed Concerns**
+
    - Cookie handling (Duunitori needs it)
    - REST API calls (CV.ee doesn't need cookies)
    - HTML parsing vs JSON parsing
@@ -44,27 +47,35 @@ job-monitoring/src/job_monitor/
 ## Design Principles
 
 ### 1. Plugin Architecture
+
 Each scraper is a **self-contained module** that can be:
+
 - Developed independently
 - Tested in isolation
 - Enabled/disabled without code changes
 - Replaced without affecting others
 
 ### 2. Clear Abstraction
+
 Define **what** each scraper must do (interface), not **how** they do it:
+
 - Search for jobs with query parameters
 - Return standardized `JobPosting` objects
 - Handle their own rate limiting
 - Manage their own authentication
 
 ### 3. Configuration-Driven
+
 Scraper selection based on **configuration**, not code:
+
 - Add new scraper = drop in new file + config entry
 - No editing existing code
 - Runtime discovery of available scrapers
 
 ### 4. Shared Infrastructure
+
 Common utilities available to all scrapers:
+
 - HTTP session management
 - Rate limiting decorators
 - Caching
@@ -74,7 +85,7 @@ Common utilities available to all scrapers:
 
 ### Directory Structure
 
-```
+```text
 job-monitoring/src/job_monitor/
 ├── scrapers/                    # NEW: Scraper plugins
 │   ├── __init__.py             # Scraper registry
@@ -100,18 +111,18 @@ from job_monitor.schemas import JobPosting
 
 class BaseScraper(ABC):
     """Abstract base class for all job scrapers."""
-    
+
     # Class-level metadata
     SCRAPER_ID: str          # e.g., "cvee", "duunitori"
     DISPLAY_NAME: str        # e.g., "CV.ee", "Duunitori"
     REQUIRES_COOKIES: bool = False
     REQUIRES_AUTH: bool = False
     BASE_URLS: List[str]     # e.g., ["https://cv.ee"]
-    
+
     def __init__(self, config: dict[str, Any], cookies_file: Optional[Path] = None):
         """
         Initialize scraper with configuration.
-        
+
         Args:
             config: Scraper-specific configuration from YAML
             cookies_file: Optional path to cookies JSON file
@@ -119,31 +130,31 @@ class BaseScraper(ABC):
         self.config = config
         self.cookies_file = cookies_file
         self._setup()
-    
+
     @abstractmethod
     def _setup(self) -> None:
         """Setup scraper (sessions, load cookies, etc.)."""
         pass
-    
+
     @abstractmethod
     def search(self, query: dict[str, Any]) -> List[JobPosting]:
         """
         Search for jobs with given query.
-        
+
         Args:
             query: Query parameters (keywords, location, limit, etc.)
                    Structure varies by scraper
-        
+
         Returns:
             List of JobPosting objects
         """
         pass
-    
+
     @abstractmethod
     def validate_config(self) -> bool:
         """Validate scraper-specific configuration."""
         pass
-    
+
     def get_rate_limit_delay(self) -> float:
         """Get delay between requests (default: 1.5s)."""
         return self.config.get('rate_limit_delay', 1.5)
@@ -165,13 +176,13 @@ from job_monitor.scrapers.base import BaseScraper
 
 class CVeeScraper(BaseScraper):
     """CV.ee job scraper using REST API."""
-    
+
     SCRAPER_ID = "cvee"
     DISPLAY_NAME = "CV.ee"
     REQUIRES_COOKIES = False
     REQUIRES_AUTH = False
     BASE_URLS = ["https://cv.ee"]
-    
+
     def _setup(self) -> None:
         """Setup HTTP session."""
         self.session = requests.Session()
@@ -179,43 +190,43 @@ class CVeeScraper(BaseScraper):
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36',
             'Accept': 'application/json',
         })
-        
+
         # Cache locations on first search
         self._locations_cache: Optional[dict] = None
-    
+
     def validate_config(self) -> bool:
         """Validate CV.ee configuration."""
         # CV.ee has no required config (uses public API)
         return True
-    
+
     def _get_locations(self) -> dict:
         """Fetch and cache location mappings."""
         if self._locations_cache is not None:
             return self._locations_cache
-        
+
         response = self.session.get(
             "https://cv.ee/api/v1/locations-service/list",
             timeout=30
         )
         response.raise_for_status()
-        
+
         data = response.json()
-        
+
         # Build townId -> name mapping
         town_map = {town['id']: town['name'] for town in data['towns']}
-        
+
         self._locations_cache = {
             'towns': town_map,
             'counties': data.get('counties', {}),
             'countries': data.get('countries', {})
         }
-        
+
         return self._locations_cache
-    
+
     def search(self, query: dict[str, Any]) -> List[JobPosting]:
         """
         Search CV.ee for jobs.
-        
+
         Query parameters:
             keywords: str - Search terms
             location: str - City name (e.g., "Tallinn")
@@ -226,28 +237,28 @@ class CVeeScraper(BaseScraper):
         """
         # Load locations for mapping
         locations = self._get_locations()
-        
+
         # Build API request
         params = {
             'sorting': query.get('sorting', 'LATEST'),
             'limit': query.get('limit', 20),
             'offset': query.get('offset', 0),
         }
-        
+
         if 'keywords' in query:
             params['keywords'] = query['keywords']
-        
+
         if 'location' in query:
             params['location'] = query['location']
-        
+
         if 'categories' in query:
             # Handle array parameters
             for cat in query['categories']:
                 params['categories[]'] = cat
-        
+
         if 'salary_from' in query:
             params['salaryFrom'] = query['salary_from']
-        
+
         # Make API request
         response = self.session.get(
             "https://cv.ee/api/v1/vacancy-search-service/search",
@@ -255,36 +266,36 @@ class CVeeScraper(BaseScraper):
             timeout=30
         )
         response.raise_for_status()
-        
+
         data = response.json()
-        
+
         # Parse results
         jobs = []
         for vacancy in data.get('vacancies', []):
             job = self._parse_vacancy(vacancy, locations)
             if job:
                 jobs.append(job)
-        
+
         return jobs
-    
+
     def _parse_vacancy(self, vacancy: dict, locations: dict) -> Optional[JobPosting]:
         """Convert CV.ee vacancy to JobPosting."""
         try:
             # Resolve location
             town_id = vacancy.get('townId')
             location = locations['towns'].get(town_id, 'Unknown')
-            
+
             # Build job URL
             job_id = vacancy['id']
             url = f"https://cv.ee/en/vacancy/{job_id}"
-            
+
             # Extract salary
             salary = None
             if vacancy.get('salaryFrom') and vacancy.get('salaryTo'):
                 salary = f"€{int(vacancy['salaryFrom'])}-{int(vacancy['salaryTo'])}"
             elif vacancy.get('salaryFrom'):
                 salary = f"€{int(vacancy['salaryFrom'])}+"
-            
+
             return JobPosting(
                 url=HttpUrl(url),
                 title=vacancy['positionTitle'],
@@ -320,33 +331,33 @@ from job_monitor.scrapers.base import BaseScraper
 
 class DuunitoriScraper(BaseScraper):
     """Duunitori job scraper using HTML parsing with cookies."""
-    
+
     SCRAPER_ID = "duunitori"
     DISPLAY_NAME = "Duunitori"
     REQUIRES_COOKIES = True  # Needs authentication
     REQUIRES_AUTH = False
     BASE_URLS = ["https://duunitori.fi"]
-    
+
     def _setup(self) -> None:
         """Setup HTTP session and load cookies."""
         self.session = requests.Session()
-        
+
         if self.REQUIRES_COOKIES and not self.cookies_file:
             raise ValueError(f"{self.DISPLAY_NAME} requires cookies file")
-        
+
         if self.cookies_file:
             self._load_cookies()
-        
+
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         })
-    
+
     def _load_cookies(self) -> None:
         """Load cookies from JSON file."""
         with open(self.cookies_file, 'r') as f:
             cookies_data = json.load(f)
-        
+
         if isinstance(cookies_data, list):
             for cookie in cookies_data:
                 self.session.cookies.set(
@@ -357,7 +368,7 @@ class DuunitoriScraper(BaseScraper):
         else:
             for name, value in cookies_data.items():
                 self.session.cookies.set(name, value)
-    
+
     def validate_config(self) -> bool:
         """Validate Duunitori configuration."""
         if self.REQUIRES_COOKIES and not self.cookies_file:
@@ -365,11 +376,11 @@ class DuunitoriScraper(BaseScraper):
         if self.cookies_file and not self.cookies_file.exists():
             return False
         return True
-    
+
     def search(self, query: dict[str, Any]) -> List[JobPosting]:
         """
         Search Duunitori for jobs.
-        
+
         Query parameters:
             keywords: str - Search terms
             location: str - Location filter
@@ -396,36 +407,36 @@ from job_monitor.scrapers.duunitori import DuunitoriScraper
 
 class ScraperRegistry:
     """Central registry for all available scrapers."""
-    
+
     _scrapers: Dict[str, Type[BaseScraper]] = {}
-    
+
     @classmethod
     def register(cls, scraper_class: Type[BaseScraper]) -> None:
         """Register a scraper class."""
         cls._scrapers[scraper_class.SCRAPER_ID] = scraper_class
-    
+
     @classmethod
     def get_scraper(cls, scraper_id: str, config: dict, cookies_file: Optional[Path] = None) -> BaseScraper:
         """
         Get scraper instance by ID.
-        
+
         Args:
             scraper_id: Scraper identifier (e.g., "cvee", "duunitori")
             config: Scraper-specific configuration
             cookies_file: Optional cookies file path
-        
+
         Returns:
             Initialized scraper instance
-        
+
         Raises:
             ValueError: If scraper ID not found
         """
         if scraper_id not in cls._scrapers:
             raise ValueError(f"Unknown scraper: {scraper_id}")
-        
+
         scraper_class = cls._scrapers[scraper_id]
         return scraper_class(config=config, cookies_file=cookies_file)
-    
+
     @classmethod
     def list_scrapers(cls) -> Dict[str, Type[BaseScraper]]:
         """Get all registered scrapers."""
@@ -453,14 +464,14 @@ def _scrape_source(
 ) -> list[JobPosting]:
     """
     Scrape jobs from a source using appropriate scraper.
-    
+
     Args:
         source_name: Source identifier (e.g., "cvee", "duunitori")
         source_config: Source-specific configuration
         queries: List of query dictionaries
         cookies_file: Optional cookies file
         state_manager: Optional state manager
-    
+
     Returns:
         List of JobPosting objects
     """
@@ -471,26 +482,26 @@ def _scrape_source(
             config=source_config,
             cookies_file=cookies_file
         )
-        
+
         # Validate configuration
         if not scraper.validate_config():
             print(f"❌ Invalid configuration for {scraper.DISPLAY_NAME}")
             return []
-        
+
         # Execute queries
         all_jobs = []
         for query in queries:
             print(f"\n🔍 Searching {scraper.DISPLAY_NAME}: {query.get('keywords', 'all jobs')}")
             jobs = scraper.search(query)
             all_jobs.extend(jobs)
-        
+
         # Annotate source
         for job in all_jobs:
             job.source = scraper.DISPLAY_NAME
-        
+
         print(f"✅ Found {len(all_jobs)} jobs from {scraper.DISPLAY_NAME}")
         return all_jobs
-        
+
     except ValueError as e:
         print(f"❌ {e}")
         return []
@@ -508,7 +519,7 @@ def _scrape_source(
 sources:
   - name: cvee
     enabled: true
-    scraper: cvee  # Maps to ScraperRegistry
+    scraper: cvee # Maps to ScraperRegistry
     config:
       rate_limit_delay: 1.5
     queries:
@@ -518,12 +529,12 @@ sources:
         salary_from: 3000
         sorting: "LATEST"
         limit: 30
-      
+
       - keywords: "software architect"
         location: "Tartu"
         categories: ["INFORMATION_TECHNOLOGY"]
         salary_from: 4000
-  
+
   - name: duunitori
     enabled: true
     scraper: duunitori
@@ -535,11 +546,11 @@ sources:
       - keywords: "python kehittäjä"
         location: "Helsinki"
         limit: 20
-      
+
       - keywords: "ohjelmistoarkkitehti"
         location: "Tampere"
         limit: 15
-  
+
   - name: linkedin
     enabled: false
     scraper: linkedin
@@ -552,11 +563,13 @@ sources:
 ## Benefits of This Approach
 
 ### 1. **Separation of Concerns**
+
 - Each scraper is self-contained
 - Duunitori changes don't affect CV.ee
 - Can use different libraries per scraper
 
 ### 2. **Easy to Extend**
+
 ```python
 # Add new scraper:
 # 1. Create scrapers/newsite.py
@@ -567,6 +580,7 @@ sources:
 ```
 
 ### 3. **Easy to Test**
+
 ```python
 # Test scraper in isolation
 def test_cvee_scraper():
@@ -581,17 +595,21 @@ def test_cvee_scraper():
 ```
 
 ### 4. **Configuration-Driven**
+
 - Enable/disable scrapers without code changes
 - Different queries per scraper
 - Scraper-specific settings isolated
 
 ### 5. **Backward Compatible**
+
 - Keep old `scraper.py` for transition
 - Gradually migrate sources
 - Both approaches work during migration
 
 ### 6. **Shared Infrastructure**
+
 Common utilities in `scrapers/utils.py`:
+
 ```python
 # Rate limiting decorator
 @rate_limit(delay=1.5)
@@ -611,29 +629,34 @@ def get_static_data():
 
 ## Migration Path
 
-### Phase 1: Setup Structure ✅
+### Phase 1: Setup Structure
+
 1. Create `scrapers/` directory
 2. Create `base.py` with `BaseScraper`
 3. Create registry in `__init__.py`
 
-### Phase 2: Migrate CV.ee ✅
-1. Create `scrapers/cvee.py`
-2. Implement using REST API research
-3. Register in registry
-4. Test independently
+### Phase 2: Migrate Duunitori
 
-### Phase 3: Migrate Duunitori
 1. Move existing code to `scrapers/duunitori.py`
 2. Adapt to `BaseScraper` interface
 3. Keep functionality identical
 4. Test against existing config
 
+### Phase 3: Migrate CV.ee
+
+1. Create `scrapers/cvee.py`
+2. Implement using REST API research
+3. Register in registry
+4. Test independently
+
 ### Phase 4: Update CLI
+
 1. Update `_scrape_source()` to use registry
 2. Keep backward compatibility
 3. Update config format (optional)
 
 ### Phase 5: Add More Scrapers
+
 1. LinkedIn (if needed)
 2. cv.lv / cvonline.lt (reuse CV.ee logic)
 3. Others as required
@@ -682,31 +705,40 @@ def test_cvee_live_api():
 ## Alternatives Considered
 
 ### Alternative 1: Keep Monolithic Class
+
 **Pros:**
+
 - No refactoring needed
 - Familiar structure
 
 **Cons:**
+
 - ❌ Single file grows to 1000+ lines
 - ❌ Tight coupling between scrapers
 - ❌ Hard to test individual scrapers
 - ❌ Dependencies mixed (BeautifulSoup + others)
 
 ### Alternative 2: Separate Files, Manual Routing
+
 **Pros:**
+
 - Better organization than monolith
 
 **Cons:**
+
 - ❌ Still hardcoded routing in CLI
 - ❌ No common interface
 - ❌ Each file implements differently
 
 ### Alternative 3: Plugin System with Entry Points
+
 **Pros:**
+
 - True plugin architecture
 - Scrapers can be separate packages
 
 **Cons:**
+
 - ❌ Overkill for current needs
 - ❌ More complex setup
 - ❌ Harder for single developer
@@ -716,6 +748,7 @@ def test_cvee_live_api():
 ## Conclusion
 
 The **plugin architecture with scraper registry** provides:
+
 - ✅ Clean separation of concerns
 - ✅ Easy to add new scrapers
 - ✅ Easy to maintain existing scrapers
@@ -724,6 +757,7 @@ The **plugin architecture with scraper registry** provides:
 - ✅ Backward compatible migration path
 
 This prevents "the mess" by ensuring each scraper:
+
 - Lives in its own file
 - Has clear responsibilities
 - Shares common interface

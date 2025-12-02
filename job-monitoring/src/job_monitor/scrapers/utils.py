@@ -10,9 +10,21 @@ Common functionality used across multiple scrapers:
 
 import functools
 import time
-from typing import Any, Callable, Optional, TypeVar
+from typing import Any, Callable, Optional, Protocol, TypeVar
 
 F = TypeVar('F', bound=Callable[..., Any])
+
+
+class CachedFunction(Protocol):
+    """Protocol for cached function with clear_cache method."""
+    
+    def __call__(self, *args: Any, **kwargs: Any) -> Any:
+        """Call the cached function."""
+        ...
+    
+    def clear_cache(self) -> None:
+        """Clear the function's cache."""
+        ...
 
 
 def rate_limit(delay: float = 1.5) -> Callable[[F], F]:
@@ -84,7 +96,7 @@ def retry(
     return decorator
 
 
-def cached(ttl: Optional[int] = None) -> Callable[[F], F]:
+def cached(ttl: Optional[float] = None) -> Callable[[Callable[..., Any]], CachedFunction]:
     """Decorator to cache function results.
     
     Args:
@@ -95,7 +107,7 @@ def cached(ttl: Optional[int] = None) -> Callable[[F], F]:
         def get_locations() -> dict:
             return requests.get('/api/locations').json()
     """
-    def decorator(func: F) -> F:
+    def decorator(func: Callable[..., Any]) -> CachedFunction:
         cache: dict[tuple, tuple[Any, float]] = {}
         
         @functools.wraps(func)

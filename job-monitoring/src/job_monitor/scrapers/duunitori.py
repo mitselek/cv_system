@@ -345,8 +345,10 @@ class DuunitoriScraper(BaseScraper):
                 # Extract email
                 email_elem = contact_section.select_one('a[href^="mailto:"]')
                 if email_elem:
-                    email = email_elem.get('href', '').replace('mailto:', '')
-                    contact_info['contact_email'] = email
+                    href = email_elem.get('href', '')
+                    email = str(href).replace('mailto:', '') if href else ''
+                    if email:
+                        contact_info['contact_email'] = email
                 
                 # Extract phone
                 phone_elem = contact_section.select_one('.contact-phone, .phone, a[href^="tel:"]')
