@@ -5,6 +5,7 @@ Uses the CV.ee REST API with Elasticsearch backend.
 API documentation: docs/cvee-api-*.md
 """
 
+import json
 import logging
 import re
 from datetime import datetime
@@ -52,6 +53,83 @@ class CVeeScraper(BaseScraper):
         text = re.sub(r'[-\s]+', '-', text)
         # Remove leading/trailing hyphens
         return text.strip('-')
+    
+    def fetch_job_details(self, job_id: int) -> Optional[Dict[str, Any]]:
+        """Fetch full job details by scraping the job page.
+        
+        The CV.ee website embeds complete job data in a JSON script tag.
+        This method extracts that data, including the full job description
+        broken into sections (duties, requirements, benefits, etc.).
+        
+        Args:
+            job_id: CV.ee vacancy ID
+            
+        Returns:
+            Dictionary with full job details, or None if fetch fails
+        """
+        from bs4 import BeautifulSoup
+        
+        url = f"{self.BASE_URL}/et/vacancy/{job_id}"
+        
+        try:
+            response = self.session.get(url, timeout=10)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Find the Next.js data script tag
+            scripts = soup.find_all('script')
+            for script in scripts:
+                if script.string and script.string.strip().startswith('{'):
+                    try:
+                        data = json.loads(script.string)
+                        
+                        # Navigate to the vacancy data
+                        if 'props' in data and 'pageProps' in data['props']:
+                            redux = data['props']['pageProps']['initialReduxState']
+                            
+                            if 'publicVacancies' in redux:
+                                vacancy = redux['publicVacancies'].get(str(job_id))
+                                
+                                if vacancy:
+                                    # Extract and combine description sections
+                                    full_content = []
+                                    
+                                    if 'details' in vacancy and 'standardDetails' in vacancy['details']:
+                                        for section in vacancy['details']['standardDetails']:
+                                            title = section.get('title', '')
+                                            content = section.get('content', '')
+                                            
+                                            if content:
+                                                # Parse HTML to get clean text
+                                                content_soup = BeautifulSoup(content, 'html.parser')
+                                                text = content_soup.get_text(separator='\n', strip=True)
+                                                
+                                                if title:
+                                                    full_content.append(f"{title}:\n{text}")
+                                                else:
+                                                    full_content.append(text)
+                                    
+                                    # Combine all sections
+                                    description = '\n\n'.join(full_content)
+                                    
+                                    # Return enriched data
+                                    return {
+                                        'id': job_id,
+                                        'description': description,
+                                        'highlights': vacancy.get('highlights', {}),
+                                        'employer': vacancy.get('employer', {}),
+                                        'raw_data': vacancy,
+                                    }
+                    except json.JSONDecodeError:
+                        continue
+            
+            logger.warning(f"No job data found in page for job {job_id}")
+            return None
+            
+        except Exception as e:
+            logger.error(f"Failed to fetch job details for {job_id}: {e}")
+            return None
     
     # API endpoints
     BASE_URL = "https://cv.ee"

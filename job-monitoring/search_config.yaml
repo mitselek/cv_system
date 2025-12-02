@@ -77,7 +77,7 @@ scoring:
     - intern
     - trainee
     - php only
-    - wordpress only
+    - wordpress
   
   required_keywords:
     - python OR javascript OR architect OR "project manager" OR "technical lead"

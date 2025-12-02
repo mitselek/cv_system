@@ -69,7 +69,19 @@ class JobScorer:
             breakdown["negative_keywords"] = val
 
         # required keywords penalty if any missing
-        missing_req = [k for k in self.cfg.required_keywords if k.lower() not in _normalize(text)]
+        # Handle OR logic: "python OR javascript" means at least one must be present
+        missing_req = []
+        for req in self.cfg.required_keywords:
+            if " OR " in req:
+                # Split by OR and check if any term is present
+                terms = [t.strip().strip('"').lower() for t in req.split(" OR ")]
+                if not any(term in _normalize(text) for term in terms):
+                    missing_req.append(req)
+            else:
+                # Simple term check
+                if req.lower() not in _normalize(text):
+                    missing_req.append(req)
+        
         if missing_req and self.cfg.required_keywords:
             score -= 50.0
             breakdown["required_missing"] = -50.0

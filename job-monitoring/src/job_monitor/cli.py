@@ -163,6 +163,37 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
         click.echo(f"✓ Scraped {len(jobs)} jobs from {src.name}")
 
     unique_jobs = dd.filter_unique(all_jobs)
+    
+    # Enrich with full details if requested
+    if full_details and unique_jobs:
+        click.echo(f"\nFetching full details for {len(unique_jobs)} jobs...")
+        enriched_jobs = []
+        
+        for i, job in enumerate(unique_jobs, 1):
+            # Only fetch details for CV.ee jobs (other scrapers might not support it)
+            if job.source == "cvee":
+                try:
+                    # Get scraper instance
+                    scraper = ScraperRegistry.get_scraper(job.source, config={})
+                    
+                    # Check if scraper has fetch_job_details method
+                    if hasattr(scraper, 'fetch_job_details'):
+                        details = scraper.fetch_job_details(job.id)
+                        
+                        if details and details.get('description'):
+                            # Update job description with full content
+                            job.description = details['description']
+                            
+                            # Show progress every 10 jobs
+                            if i % 10 == 0:
+                                click.echo(f"  Fetched {i}/{len(unique_jobs)}...")
+                except Exception as e:
+                    click.echo(f"  Warning: Failed to fetch details for job {job.id}: {e}", err=True)
+            
+            enriched_jobs.append(job)
+        
+        unique_jobs = enriched_jobs
+        click.echo(f"✓ Fetched full details")
 
     scored = [scorer.score(j) for j in unique_jobs]
 
