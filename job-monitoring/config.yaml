@@ -1,6 +1,16 @@
 sources:
-  - name: duunitori
+  - name: cvee
     enabled: true
+    queries:
+      - keywords: python developer
+        location: Tallinn
+        limit: 10
+      - keywords: software architect
+        location: Tallinn
+        limit: 10
+
+  - name: duunitori
+    enabled: false
     cookies_file: /home/michelek/.config/job_scraper_cookies_duunitori.json
     queries:
       - keywords: system analyst
@@ -47,55 +57,48 @@ sources:
 
 scoring:
   positive_keywords:
-    # Core role keywords (high value)
-    - system analyst
-    - systems analyst
-    - järjestelmäanalyytikko
-    - business analyst
-    - product owner
-    - product manager
-    - delivery manager
-    - project manager
-    - software architect
-    - enterprise architect
-    - solution architect
-    - technical lead
-    - IT manager
+    # Core technical skills
+    - python
+    - javascript
+    - java
+    - typescript
+    - nodejs
+    - react
+    - vue
+    - angular
     
-    # Technical skills from knowledge base
+    # Architecture & leadership
+    - architect
+    - architecture
+    - technical lead
+    - lead developer
+    - senior
+    
+    # DevOps & Infrastructure
+    - kubernetes
+    - docker
+    - aws
+    - azure
+    - gcp
+    - ci/cd
+    - devops
+    - terraform
+    - infrastructure
+    
+    # Backend & APIs
+    - backend
+    - API
+    - microservices
     - database
     - postgresql
-    - oracle
     - mongodb
-    - mysql
-    - java
-    - javascript
-    - nodejs
-    - python
-    - spring boot
-    - API
-    - backend
-    - frontend
     
-    # Domain expertise
-    - data analysis
-    - data integration
-    - data quality
-    - system architecture
-    - infrastructure
-    - documentation
+    # Agile & Management
     - agile
-    - project management
-    - team leadership
-    
-    # General positive indicators
-    - senior
-    - lead
-    - architect
-    - manager
-    - developer
-    - software
-    - IT
+    - scrum
+    - project manager
+    - product owner
+    - team lead
   
   negative_keywords:
     - junior
@@ -104,58 +107,38 @@ scoring:
     - student
     - part-time
     - assistant
+    - on-call
+    - 24/7
   
-  required_keywords: []
+  required_keywords:
+    - "python OR javascript OR typescript OR nodejs OR architect OR \"project manager\" OR \"technical lead\""
   
   preferred_companies:
-    # High-value discovered companies
-    - McKinsey
-    - OP
-    - OP Pohjola
-    - Danfoss
-    - S-ryhmä
-    - Wärtsilä
-    - Aalto
-    - Aalto-yliopisto
-    - Telia
-    - Sievo
-    - CGI
-    - IBM
-    - ServiceNow
-    - Accenture
-    - Kesko
-    - Nokia
-    - ABB
-    - Playtech
-    - Wise
+    - Kühne
+    - Raintree
+    - Riverty
     - Bolt
+    - Wise
     - Pipedrive
-    - Kone
-    - Rovio
+    - Playtech
+    - Nortal
+    - Transferwise
     
-    # Previous experience connections
-    - Eesti Kunstiakadeemia
-    - Justiitsministeerium
-    - Eesti Keele Instituut
-  
   blocked_companies: []
   
   preferred_locations:
     - Tallinn
-    - Helsinki
-    - Espoo
-    - Vantaa
+    - Tartu
     - remote
     - hybrid
-    - Finland
     - Estonia
   
   remote_bonus: 5.0
   days_threshold_fresh: 7
   days_threshold_old: 30
 
-state_file: data/job_sources/state.json
-candidates_dir: data/job_sources/candidates/
+state_file: state/monitor_state.json
+candidates_dir: candidates/
 
 scan_interval_hours: 24
 auto_archive_days: 30

@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "1469359",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469359",
+    "title": "Solutions Architect (Trading)",
+    "company": "Enefit",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T08:50:58.000+00:00",
+    "discovered_date": "2025-12-02T23:31:27.273301",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}
