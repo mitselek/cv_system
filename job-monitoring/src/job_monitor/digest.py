@@ -108,7 +108,8 @@ class DigestGenerator:
                 category = "low_priority"
             
             json_path = day_dir / category / f"{job.id}.json"
-            relative_json = json_path.relative_to(self.candidates_dir)
+            # Path relative to the digest file location (day_dir)
+            relative_json = category + "/" + f"{job.id}.json"
             
             lines.extend([
                 f"### {i}. {job.title}",
