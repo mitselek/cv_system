@@ -413,7 +413,7 @@ MIT License - see LICENSE file for details
 
 ## Author
 
-Mihkel Rego - [GitHub](https://github.com/mitselek)
+Mihkel Putrinš - [GitHub](https://github.com/mitselek)
 
 ## Contributing
 

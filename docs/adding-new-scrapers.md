@@ -461,5 +461,5 @@ For questions or issues:
 
 ---
 
-**Last Updated:** December 2, 2025  
-**Maintainer:** Michele Keil
+**Author:** Mihkel Putrinš  
+**Last Updated:** December 2, 2025
