@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "561693f02f0a7bae",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-backend-developer-sdsuu-19785760",
+    "title": "Senior Backend Developer",
+    "company": "EWQ Zone Oy",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 27.11.",
+    "discovered_date": "2025-12-03T03:04:12.227847",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior",
+    "backend"
+  ],
+  "category": "Low Priority"
+}

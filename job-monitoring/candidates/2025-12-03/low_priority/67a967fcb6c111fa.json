@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "67a967fcb6c111fa",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/data-platform-architect-sssii-19604643",
+    "title": "Data Platform Architect",
+    "company": "Siili Solutions",
+    "location": "Helsinki ja 6 muuta –",
+    "posted_date": "Julkaistu 18.9.",
+    "discovered_date": "2025-12-03T03:04:12.230250",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

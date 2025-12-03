@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "4c5fdad958f670c7",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-technical-writer-sasta-19794313",
+    "title": "Senior Technical Writer",
+    "company": "FA Solutions / aTalent",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 1.12.",
+    "discovered_date": "2025-12-03T03:04:13.702973",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

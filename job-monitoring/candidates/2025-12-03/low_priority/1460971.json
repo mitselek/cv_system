@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1460971",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1460971",
+    "title": "Lawyer",
+    "company": "Wallester AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-03T13:43:27.000+00:00",
+    "discovered_date": "2025-12-03T03:04:03.257058",
+    "description": "Requirements for candidates:\nMasters degree in law from Estonia (preferred) or another EEA/EU university.\nFull professional fluency in English required; Estonian language skills considered an advantage.\nMinimum 2 years legal practice in a regulated sector, either in-house or at a law firm for example financial services, payments, fintech, banking, telecommunications, insurance, energy, or gaming.\nExpertise in one or more of the following areas: payment services regulation, contract drafting and negotiation, data protection, AML/CFT, corporate governance, or intellectual property.\nAbility to take responsibility for assigned legal tasks and deliver high-quality results.\n\nJob description:\nProvide legal advice and support on the companys business activities.\nDraft, review, and help negotiate agreements, legal opinions, and other key documents.\nSupport dispute resolution, litigation, and settlement processes together with senior lawyers and external advisors.\nMonitor regulatory developments, assess compliance implications, and contribute to guidance for internal stakeholders.\nTake responsibility for assigned legal tasks and ensure timely, high-quality delivery.\nContribute legal input to the development of new services and products.\nCoordinate the improvement of internal legal workflows, policies, and cross-functional projects.\nSupport corporate governance requirements and company secretarial matters.\n\nWhat we offer:\nCompetitive salary\nMedical Insurance upon the completion of the probationary period\nA modern office in the center of Tallinn\nReferral program\nStebby\nFree parking\nGrowth and Development We invest in your professional journey with continuous learning opportunities, skill development programmes, and a clear path for career progression.\nCollaborative and Innovative Environment Join a talented, motivated team that thrives on creativity, innovation, and collaboration in a fast-paced Fintech setting.\nTeam Events and Company Celebrations Take part in regular team-building activities and company-wide events that strengthen connections and celebrate shared success.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "recency_old": -10.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

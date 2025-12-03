@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "12aa7487c2623dff",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/technical-architect-finland-sdsuu-19784396",
+    "title": "Technical Architect (Finland)",
+    "company": "IONA",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 26.11.",
+    "discovered_date": "2025-12-03T03:04:12.228119",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

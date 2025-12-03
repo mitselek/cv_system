@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1469778",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469778",
+    "title": "Senior IT Infrastructure Expert (Tenant)",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-19T05:42:40.000+00:00",
+    "discovered_date": "2025-12-03T03:03:58.500722",
+    "description": "What will help you to succeed in the role: :\nDeep knowledge of Microsoft Entra ID platform operations\nExperience building and maintaining operational tooling for secure policy rollout\nStrong analytical mindset and troubleshooting skills\nAbility to lead operational excellence efforts and align with broader platform strategy\nMicrosoft Certified: Identity and Access Administrator Associate (or higher)\nClear, concise technical writing and documentation skills\nStakeholder management and facilitation ability\nStructured problem solving, attention to detail, and decision-record discipline\nGrowth mindset, pragmatism, and comfort operating in evolving governance contexts\nResponsible and patient, with the ability to undertake routine tasks accurately.\nOpen-minded and comfortable working within a multicultural team environment.\nAbility to embrace change and innovation, contributing to a dynamic work environment.\nAbility to travel internationally.\n\nWhat will be the challenge: :\nOwn and evolve the operational execution of tenant-wide Conditional Access and MFA policies, ensuring secure, compliant, and observable implementations across the Microsoft tenant landscape. This role leads the development of reusable tooling, supports capability monitoring, and acts as the bridge between operational enforcement and architectural intent.\nKey Responsibilities:\nServe as subject matter expert for Conditional Access and MFA platform operations\nLead script/tool development for configuration rollout, validation, and remediation\nEstablish operational dashboards and reports that surface compliance and enforcement health\nDrive root cause analysis and continuous improvement on policy drift or enforcement gaps\nCoordinate closely with IAM, Security, and Architecture teams to reflect evolving platform standards\nGuide junior team members in tooling use, operational best practices, and script quality\nSupport readiness reviews, internal audits, and compliance documentation\n\nWhat do we offer: :\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -60.0,
+    "preferred_company": 15.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "infrastructure"
+  ],
+  "category": "Low Priority"
+}

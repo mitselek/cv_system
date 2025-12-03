@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1472017",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472017",
+    "title": "Investeeringute spetsialist",
+    "company": "Utilitas ",
+    "location": "Unknown",
+    "posted_date": "2025-11-24T09:53:25.000+00:00",
+    "discovered_date": "2025-12-03T03:04:04.832136",
+    "description": "Paindlik tööaeg, lisapuhkus, tervisekindlustus või sporditoetus, koolitusvõimalused",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

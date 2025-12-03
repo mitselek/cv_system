@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "0ddde1ffa52689ec",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/verisure-myyja-kodinturva-alalle-helsinki-sdsuu-19725351",
+    "title": "Myyjä kodinturva-alalle",
+    "company": "Verisure Oy",
+    "location": "Helsinki ja 7 muuta –",
+    "posted_date": "Julkaistu 7.11.",
+    "discovered_date": "2025-12-03T03:04:11.388156",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

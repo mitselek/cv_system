@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "862770183856694a",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-product-owner-vahinkovakuutuksen-yritysasiakkaiden-jarjestelmakehitys-sospp-19778246",
+    "title": "Senior Product Owner, Vahinkovakuutuksen yritysasiakkaiden järjestelmäkehitys",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 24.11.",
+    "discovered_date": "2025-12-03T03:04:13.704522",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior",
+    "product owner"
+  ],
+  "category": "Low Priority"
+}

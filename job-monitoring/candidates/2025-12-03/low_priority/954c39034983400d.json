@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "954c39034983400d",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/enterprise-architect-marine-and-navy-swsar-19794829",
+    "title": "Enterprise Architect, Marine and Navy",
+    "company": "Wärtsilä Oyj Abp",
+    "location": "Helsinki ja 1 muu –",
+    "posted_date": "Julkaistu 1.12.",
+    "discovered_date": "2025-12-03T03:04:15.103868",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1470124",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470124",
+    "title": "QA Automation Engineer",
+    "company": "Sisu Tech OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-19T12:52:18.000+00:00",
+    "discovered_date": "2025-12-03T03:03:56.911011",
+    "description": "Sisu Group is a fast-growing iGaming startup\nwith over\n150 team members\nand offices in Tallinn and Malaga.\nWe are on a mission to redefine the future of iGaming and sports betting by building cutting-edge technology and next-generation player experiences\n-\nIn 2024,\nReSpin.com\nand\nEpicbet.com\nwere successfully launched.\nBacked by €21M in secured funding\n, the majority of our company is owned by the people building it, our team.\nSisu promotes a collaborative, non-corporate culture, offering competitive salaries with stock options to match.\nWe are seeking a\nQA Automation Engineer\nto help us build the next generation iGaming platform. If you're looking to build something from the ground up, free from any technical debt, look no further than Sisu Group.\nYoull have the exciting opportunity to\n:\nDesign, develop, and maintain automated tests to ensure software quality\nWrite clean, efficient, and maintainable code\nCollaborate with cross-functional teams to gather and analyze requirements\nImprove the performance, scalability, and reliability of the software\nImplement and manage automated testing within a cloud-native, CI/CD-driven environment\nWhat we expect\n:\nExperience in designing and implementing automated test frameworks and test scripts\nAbility to conduct thorough manual testing to complement automated tests, ensuring comprehensive coverage and identifying edge cases\nFamiliarity with CI/CD pipelines and integrating automated tests within them\nUnderstanding of application lifecycle and agile workflows\nStrong communication and teamwork skills\nGenuine interest and enthusiasm for the technologies and tools we use\nWhat we use:\nGoogle Cloud\nTerraform (CDK)\nGithub\nMonorepo\nArgoCD\nTypescript & Node.js\nPostgreSQL\nReact / Preact\nPlaywright\nLocation:\nTallinn, working hybrid - 4 in the office and a day remote.\nCompany culture and benefits:\nAt Sisu Group we believe in creating a positive and inclusive workplace culture where teamwork is the key. We value collaboration, open communication, and treat all team members as equals. We encourage each other to be proactive and take ownership, while also providing the support and resources needed to help them grow and develop even further.\nWe understand that our employees are our biggest asset, which is why we offer a competitive compensation package that includes stock options, and generous paid time off. We believe that building a great company is about more than just creating a successful product, it's about building a community of passionate and driven individuals who share a common goal.\nIf you're looking for a company where you can grow professionally, work with talented and dedicated colleagues, and make a real impact, while sharing our key values of caring, thinking outside the box, taking charge and having a positive mindset, then Sisu Group is the place for you.\nBy submitting this application, the candidate agrees that Sisu Group stores personal details to be able to process the job application. Sisu Group follows and is compliant with the General Data Protection Regulation. Clear police record required, ensuring a commitment to integrity and a safe workplace.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 60.0,
+  "score_breakdown": {
+    "positive_keywords": 60.0
+  },
+  "matched_keywords": [
+    "typescript",
+    "react",
+    "ci/cd",
+    "terraform",
+    "postgresql",
+    "agile"
+  ],
+  "category": "Review"
+}

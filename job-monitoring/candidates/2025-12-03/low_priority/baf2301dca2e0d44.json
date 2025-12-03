@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "baf2301dca2e0d44",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/it-area-lead-vahittaispankin-heimot-helsinki-ja-oulu-sospp-19797663",
+    "title": "IT Area Lead, Vähittäispankin heimot (Helsinki ja Oulu)",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 2.12.",
+    "discovered_date": "2025-12-03T03:04:13.702426",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

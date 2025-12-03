@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1469350",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469350",
+    "title": "Site project manager",
+    "company": "Grafton Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T08:28:54.000+00:00",
+    "discovered_date": "2025-12-03T03:03:58.500643",
+    "description": "Site Project Manager:\nJoin the Future of European Connectivity\nAre you ready to lead complex infrastructure works that shape the future of transport across Europe? We're looking for a skilled\nEarthworks Site Project Manager\nto join\nBudimex\nand the\nRail Baltic\nproject in Estonia - a transformative development connecting the Baltic States with the rest of Europe.\nThis is a unique opportunity to work on a high-impact project delivered in an Alliance model, where collaboration, transparency, and shared success are key.\nYour Mission as a Site Project Manager, you will be responsible for:\nLeading the design and coordination of technical solutions with designers, clients, and internal teams.\nEnsuring project delivery on time, within budget, and in compliance with HSE standards.\nMinimizing environmental and social impact, especially near protected Natura 2000 areas.\nManaging subcontractors and service providers, ensuring quality and performance.\nOverseeing documentation and reporting using Common Data Environment (CDE) platforms.\nTaking ownership of budgeting and cost control within assigned work packages.\nWhat You Bring:\nEducation: Degree in Civil Engineering.\nCertification: Valid authorization to manage large-scale construction works.\nExperience: Proven track record in large-scale earthworks and infrastructure projects.\nTechnical Skills: Proficiency in CAD, MS Office, and familiarity with CDE platforms. Experience with Last Planner System and Situational Awareness Systems is a plus.\nLanguage: Good knowledge of English verbally and written.\nSoft Skills That Set You Apart:\nExcellent communication and interpersonal skills.\nAbility to thrive in multicultural, international teams.\nStrong sense of collaboration, transparency, and respect for cultural differences.\nHigh resilience and adaptability in fast-paced environments.\nWhy Join Budimex?\nBe part of a landmark European infrastructure project.\nWork in a collaborative Alliance model with leading industry partners.\nMake a real impact on sustainable development and regional connectivity.\nGrow your career in a dynamic, international environment.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "negative_keywords": -20.0
+  },
+  "matched_keywords": [
+    "infrastructure",
+    "project manager"
+  ],
+  "category": "Low Priority"
+}

@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "0f3b82e0746c2180",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/project-manager-new-product-introduction-scsom-19759445",
+    "title": "Project Manager, New Product Introduction",
+    "company": "GE HealthCare",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 17.11.",
+    "discovered_date": "2025-12-03T03:04:14.150522",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "project manager"
+  ],
+  "category": "Low Priority"
+}

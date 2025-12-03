@@ -1,0 +1,33 @@
+{
+  "job": {
+    "id": "1466631",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1466631",
+    "title": "Full Stack Developer - Python (m/w/d)",
+    "company": "Kühne + Nagel ",
+    "location": "Unknown",
+    "posted_date": "2025-11-26T09:01:59.044+00:00",
+    "discovered_date": "2025-12-03T03:03:53.653923",
+    "description": "Job description:\nIt's more than a job\nIn this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making both special and ordinary moments in the lives of people a reality. In fact, your work enables our teams to deliver fresh fruit, time-sensitive healthcare products and much more to people all around the world. Working in IT at Kuehne+Nagel contributes to more than we imagine.\nThe position is to cover the role of Software Engineer for our industry-leading One Global System. You will be joining a global team of engineers and analysts; you will design and build products to provide innovative solutions to delight your customers. We want you to help take us to the next level!\nHow you create impact\nYou are responsible to be an active member of the team by not only the delivery of features designed by the analysts but by being creative and innovative in bringing new ideas, software and solutions to the product\nYou strive to deliver clean code that is focused, pleasing to read and well tested\nBeing responsible as part of the team that all software delivered is of the highest possible quality within the constraints imposed by time and money\nNot afraid to research, learn and implement new technologies and techniques\nWilling to positively challenge all team members on how the products and processes can be improved\nWhat we would like you to bring\nProvable experience in full-stack web development with Python and JavaScript - preferably experience in Django REST framework, Vue.js and Elasticsearch\nAny knowledge of Artificial Intelligence, Machine Learning and Apache Spark would be useful\nThirst, willingness and ability to quickly learn new skills and technologies\nStrong customer service orientation as this is the center of everything we do\nTeam player who cares about delivering the best that they can\nGood English written and oral communication skills\nExcellent listening, interpersonal and communication skills in both technical and user-friendly language\nHighly self-motivated, directed, detail-oriented and result-driven personality\nWhat's in it for you\nJoin Kuehne+Nagel's IT Hub in Tallinn, where your work will have a meaningful impact on the logistics industry. Here, youll find a hybrid work model, extensive health benefits, and a culture of continuous learning that ensures your career growth. Youll be surrounded by extraordinary and committed people, all dedicated to shaping the future of logistics. Even if you dont tick every box, we encourage you to apply your unique perspective and experience could be exactly what we need. Be part of a team that values work-life balance, supports your personal well-being, and empowers you to contribute to something truly impactful.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 85.0,
+  "score_breakdown": {
+    "positive_keywords": 60.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "javascript",
+    "java",
+    "vue",
+    "infrastructure",
+    "API"
+  ],
+  "category": "High Priority"
+}

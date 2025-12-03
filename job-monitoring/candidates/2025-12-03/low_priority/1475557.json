@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1475557",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475557",
+    "title": "Data Governance and Architecture Lead",
+    "company": "DPD Eesti AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T09:14:58.000+00:00",
+    "discovered_date": "2025-12-03T03:03:56.910287",
+    "description": "Requirements:\nAt least 3 years in the Data area (e.g., Data Officer, Senior Data Analyst, or Data Architect positions).\nFamiliarity with data governance and compliance frameworks (e.g., GDPR, NIS2).\nUnderstanding of data modeling (e.g., conceptual, logical, physical models).\nStrong focus on strategic, long-term planning and scalability.\nExpertise in data modeling, databases (SQL, NoSQL), and data warehousing.\nExcellent analytical and problem-solving skills.\nStrong communication skills to convey complex data concepts to non-technical stakeholders.\n\nResponsibilities:\nDefine the overall vision for Data Management and establish a robust Data Management business capability.\nManage Data Governance and Architecture functional area.\nDevelop and implement Data policies, standards, and procedures for data management across the data lifecycle.\nSelect tools, technologies, and platforms for data management.\nDevelop, document, and manage data models to optimize data flows and data storage.\nDesign, implement, and manage data warehouse and data analytics systems.\nAnalyze and interpret data to support business decision-making.\nEnsure that data from various sources is integrated and managed consistently.\nEnsure data compliance with regulatory requirements, data protection regulations, and standards.\nCollaborate with business stakeholders to align data architecture with business goals and needs.\nEnsure that data governance practices are aligned with business objectives.\nCollaborate and supervise Data Analysts to maintain and improve data quality across the organization.\n\nCompany offers:\nGain international working experience and learn from the best in Geopost.\nFlexible working environment and a comprehensive benefits package.\nAnnual bonus.\nAdditional benefits like a monthly Stebby allowance, additional mental health benefits, 100% sickness leave payment for the first 3 days, additional holiday days, and more.\nPersonal mentor to support you.\nOnboarding and training plan.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "database"
+  ],
+  "category": "Low Priority"
+}

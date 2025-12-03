@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1472994",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472994",
+    "title": "Kutsealuste büroo juhataja",
+    "company": "Kaitseressursside Amet",
+    "location": "Unknown",
+    "posted_date": "2025-11-25T12:25:03.045+00:00",
+    "discovered_date": "2025-12-03T03:04:04.832681",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

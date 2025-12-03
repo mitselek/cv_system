@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "a5a017d2dedf27a1",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/product-manager-b2c-stshe-19722801",
+    "title": "Product Manager B2C",
+    "company": "Singa",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 5.11.",
+    "discovered_date": "2025-12-03T03:04:14.149179",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "b6bb79c1239ea17f",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/data-platform-architect-sdsuu-19794272",
+    "title": "Data Platform Architect",
+    "company": "61N Solutions Oy",
+    "location": "Helsinki ja 1 muu –",
+    "posted_date": "Julkaistu 1.12.",
+    "discovered_date": "2025-12-03T03:04:12.227587",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

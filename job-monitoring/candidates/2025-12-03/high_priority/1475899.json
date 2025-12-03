@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "1475899",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475899",
+    "title": "Tech Platform Lead",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T13:52:44.000+00:00",
+    "discovered_date": "2025-12-03T03:03:56.911114",
+    "description": "What will help to succeed in the role: :\nBachelor's or Master's degree in Computer Science, Engineering, or a related field.\nProven experience in a technical leadership role, preferably in the fintech industry.\nStrong knowledge of both frontend and backend technologies.\nFamiliarity with programming languages such as C#, Java, JavaScript, Python, or similar.\nExperience with cloud platforms (AWS, Azure, Google Cloud).\nExcellent problem-solving skills and attention to detail.\nStrong communication and interpersonal skills.\nAbility to work collaboratively in a fast-paced environment.\n\nYour key responsibilities will be: :\nOwning the technical vision of our payment methods, our Apps, Portals and our checkout APIs\nLeading design, development, deployment, and operations of the components\nCollaborating with product leadership to align technical solutions with business requirements\nProviding technical leadership and mentorship to the software engineering teams\nPlanning and tracking budgets, ensuring cost efficiency of development and operations\nEnsuring engineering adhesion to best practices in security, scalability, and performance and fulfilling all compliance and regulatory requirements\nStaying on top of the latest industry trends and overseeing the integration of new technologies and tools to enhance the platforms capabilities\n\nWhat do we offer: :\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 85.0,
+  "score_breakdown": {
+    "positive_keywords": 80.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "javascript",
+    "java",
+    "technical lead",
+    "aws",
+    "azure",
+    "backend",
+    "API"
+  ],
+  "category": "High Priority"
+}

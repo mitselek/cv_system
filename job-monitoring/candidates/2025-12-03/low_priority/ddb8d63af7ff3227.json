@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "ddb8d63af7ff3227",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/ratkaisuarkkitehti-finanssitoimialan-uudistushankkeisiin-scsgi-19664592",
+    "title": "Ratkaisuarkkitehti finanssitoimialan uudistushankkeisiin",
+    "company": "CGI Suomi",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 10.10.",
+    "discovered_date": "2025-12-03T03:04:12.226789",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

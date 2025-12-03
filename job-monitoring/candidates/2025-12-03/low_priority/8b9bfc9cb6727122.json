@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "8b9bfc9cb6727122",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/business-analyst-intern-smsck-10955648",
+    "title": "Business Analyst Intern",
+    "company": "McKinsey & Company",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 25.7.2019",
+    "discovered_date": "2025-12-03T03:04:12.533083",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "negative_keywords": -20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

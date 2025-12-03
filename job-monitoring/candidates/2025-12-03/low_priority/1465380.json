@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1465380",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465380",
+    "title": "GRC Security Expert",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T15:00:02.341+00:00",
+    "discovered_date": "2025-12-03T03:03:56.911374",
+    "description": "GRC Security Expert:\nCompany Description\nFounded in 1999 and premium listed on the Main Market of the London Stock Exchange, Playtech is a technology leader in the gambling industry with over 7,000 employees across 20 countries.\nPlaytech is the gambling industry's leading technology company delivering business intelligence-driven gambling software, services, content, and platform technology across the industry's most popular product verticals, including, casino, live casino, sports betting, virtual sports, bingo and poker. Read more about who we are and what we do here: www.playtech.com & www.playtechpeople.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Recognising differences and ensuring our processes are transparent is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytech's\nGovernance Risk and Compliance Unit\nis looking for a\nGRC Security Expert\nwith excellent communication and problem-solving skills.\nPress play and let us design future technology together!\nYour influential mission. You will...\nDefine, establish and implement organizational information security processes, to ensure business, regulatory, legislative and contractual requirements and obligations are met.\nManage the internal and external ISMS audit processes, monitor effectiveness of controls and corrective actions in cooperation with the stakeholders across the organization.\nManage gap analysis, compliance readiness, and compliance monitoring activities for ISO/IEC 27001, PCI DSS and other regulatory security audits.\nCoordinate external security audits, assessments and testing as well as remediation plans development and implementation.\nIdentify, assess and monitor information security risks and recommend mitigation measures.\nDevelop content, coordinate and facilitate a comprehensive organizational information security awareness training program.\nManage security requirements with third parties, including due diligence of products and services providers and information security requirements clauses in service provision agreements and contracts.\nDevelop, coordinate and maintain information security policies, procedures and other security related documents.\nAnalyse, map and communicate information security requirements, that derive from legislative and regulatory obligations in various jurisdictions.\nServe as project manager/lead within security projects.\nContinually improve and update knowledge to accommodate changes to the company's regulatory environment and needs.\nComponents for success. You have...\nProven experience (3+ years) across security governance, risk and compliance domain\nStrong communication skills and ability to interact professionally with a diverse group including executive management, managers and subject matter experts\nHave strong management skills, leading people, delegating tasks, setting goals and ensuring objectives are met in continuous and deadline-oriented activities\nExperience in leading PCI DSS ISO 27001:2022 and SOC/ISAE402 certification and surveillance audits as well as leading and supporting information security risk assessments and management process\nBachelors Degree in Information Security, Information Assurance, Computer Science, Cybersecurity, Risk Management or equivalent work experience\nProfessional certification (CISSP/CISM and ISO 27001 Lead Implementer/Auditor or similar)\nA pro-active, self-motivated approach and ability to work independently within a global security team.\nVery good written and spoken English\nYou'll get extra points for...\nPrior experience working within a SaaS/Online Gambling organization\nTechnical experience in IT infrastructure, networks, databases, or software development.\nThrive in a culture that values...\nInitiative-taking and confident approach at the workplace\nGlobal scope and inclusive working environment\nConstant learning and development opportunities\nActive lifestyle and mental well-being\nFun and engaging company events\nAdditional Information\nGOVERNANCE RISK & COMPLIANCE UNIT\nAt our GRC Security business unit, we view every challenge as a stepping stone towards innovation and growth. We are on the lookout for individuals who are not just curious, but also thrive in team environments. If you have a passion for exploring new cybersecurity frameworks and solutions, then you are the one we are looking for. Join us, and turn challenges into opportunities for learning and innovation.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 35.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "infrastructure",
+    "database",
+    "project manager"
+  ],
+  "category": "Low Priority"
+}

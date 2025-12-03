@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "cd92e15ddcd066ff",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/software-architect-scsom-19708194",
+    "title": "Software Architect",
+    "company": "twoday Finland",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 14.10.",
+    "discovered_date": "2025-12-03T03:04:12.225160",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

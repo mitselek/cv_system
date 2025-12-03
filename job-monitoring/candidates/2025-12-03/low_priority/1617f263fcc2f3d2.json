@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "1617f263fcc2f3d2",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-application-architect-sap-scsom-19640061",
+    "title": "Senior Application Architect - SAP",
+    "company": "IBM",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 1.10.",
+    "discovered_date": "2025-12-03T03:04:12.229964",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0
+  },
+  "matched_keywords": [
+    "architect",
+    "senior"
+  ],
+  "category": "Low Priority"
+}

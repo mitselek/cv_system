@@ -8,7 +8,7 @@
     "start": "node dist/scripts/build_context.js",
     "compile": "npm run build && npm run start",
     "run:gemini-watch": "bash ./scripts/gemini_watch_and_convert.sh",
-    "job:fetch": "cd job-monitoring && python -m job_monitor.cli scan --config config.yaml --full-details"
+    "job:fetch": "cd job-monitoring && bash -c 'source ../.venv/bin/activate && python -m job_monitor.cli scan --config config.yaml --full-details'"
   },
   "keywords": [],
   "author": "Mihkel Putrinš",

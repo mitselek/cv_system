@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "ab021bde711535ac",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/technical-specialist-sosri-19794914",
+    "title": "Technical Specialist",
+    "company": "Orion",
+    "location": "Hanko –",
+    "posted_date": "Julkaistu 2.12.",
+    "discovered_date": "2025-12-03T03:04:11.387580",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

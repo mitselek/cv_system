@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "1469467",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469467",
+    "title": "JAVA  full-stack arendaja",
+    "company": "SRINI OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T11:30:18.000+00:00",
+    "discovered_date": "2025-12-03T03:03:53.654403",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "java"
+  ],
+  "category": "Low Priority"
+}

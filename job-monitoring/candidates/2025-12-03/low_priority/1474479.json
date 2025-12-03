@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1474479",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1474479",
+    "title": "Full-Stack arendaja",
+    "company": "RMIT",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T16:20:50.672+00:00",
+    "discovered_date": "2025-12-03T03:04:03.256451",
+    "description": "Arengu- ja koolitusvõimalused, paindlik töökorraldus, Stebby, 35 puhkusepäeva, 3 tervisepäeva",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

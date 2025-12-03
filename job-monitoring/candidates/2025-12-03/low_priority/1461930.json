@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1461930",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1461930",
+    "title": "Full Stack Engineer",
+    "company": "Rush Street Interactive LLC",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T13:00:01.916+00:00",
+    "discovered_date": "2025-12-03T03:04:03.256505",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

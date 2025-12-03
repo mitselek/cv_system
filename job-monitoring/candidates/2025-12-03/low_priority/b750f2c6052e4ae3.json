@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "b750f2c6052e4ae3",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-ouluun-ja-turkuun-sdsuu-19794314",
+    "title": "Haussa myyjiä Ouluun, Helsinkiin ja Turkuun",
+    "company": "Sector Alarm",
+    "location": "Oulu ja 2 muuta –",
+    "posted_date": "Julkaistu 1.12.",
+    "discovered_date": "2025-12-03T03:04:11.388457",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

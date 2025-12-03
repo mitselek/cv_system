@@ -1,0 +1,38 @@
+{
+  "job": {
+    "id": "1468785",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1468785",
+    "title": "Full Stack Developer (React, Node, AWS)",
+    "company": "Raintree Systems OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T09:00:04.611+00:00",
+    "discovered_date": "2025-12-03T03:03:53.654294",
+    "description": "Duties and Responsibilities:\nDevelop and maintain web applications using React and TypeScript.\nIntegrate front-end applications with AWS services.\nWrite clean, maintainable, and efficient code.\nCollaborate with designers, product managers, and other engineers to deliver high-quality software.\nParticipate in code reviews and contribute to improving our development processes.\nTroubleshoot and resolve issues related to front-end and AWS integrations.\nStay up-to-date with the latest trends and technologies in front-end development and AWS.\n\nPosition Proficiencies and Requirements:\nStrong proficiency in React and TypeScript/JavaScript.\nProficient with GraphQL\nExperience with AWS services (e.g., EC2, S3, Lambda, API Gateway).\nSolid understanding of HTML, CSS, and JavaScript.\nExperience with serverless architectures.\nKnowledge of CI/CD pipelines.\nAWS certifications.\nExcellent problem-solving and debugging skills.\nExperience with testing frameworks (e.g., Jest, Cypress).\nStrong communication and collaboration skills.\n\nWhy Join Us::\nWorking with cutting-edge technologies\nAWS Serverless tools\nGraphQL\nCI/CD via GitHub Actions\nMonitoring tools with Slack integrations\nMicroservices\nEvent-driven architecture\nMostly work with\ngreenfield\nprojects\nWe offer a flexible hybrid model that strikes a balance between collaboration and autonomy.\nWork on software that directly improves peoples lives with better healthcare outcomes\nGet valuable experience in bringing a 40+ year legacy software system to a modern stack.\nCollaborative team environment with opportunities for growth\nOpportunity to do AWS certifications\nTight-knit team with team events\nModern development practices and a continuous learning culture with an individual development plan and career guidance\nCompetitive compensation and benefits package\nPaid bonus vacation during Christmas week\nCompany, Team, and personal performance-based bonus pay\nStebby for the health and sports bonus\nKeep full salary when on military exercises\nBudget for personal training\nBeautiful office space in Tartu with flexible work arrangements\nYou'll have dedicated mentorship and ongoing support from senior engineers to ensure you thrive from day one\n\nDuties and Responsibilities:\nDevelop and maintain web applications using React and TypeScript.\nIntegrate front-end applications with AWS services.\nWrite clean, maintainable, and efficient code.\nCollaborate with designers, product managers, and other engineers to deliver high-quality software.\nParticipate in code reviews and contribute to improving our development processes.\nTroubleshoot and resolve issues related to front-end and AWS integrations.\nStay up-to-date with the latest trends and technologies in front-end development and AWS.\n\nPosition Proficiencies and Requirements:\nStrong proficiency in React and TypeScript/JavaScript.\nProficient with GraphQL\nExperience with AWS services (e.g., EC2, S3, Lambda, API Gateway).\nSolid understanding of HTML, CSS, and JavaScript.\nExperience with serverless architectures.\nKnowledge of CI/CD pipelines.\nAWS certifications.\nExcellent problem-solving and debugging skills.\nExperience with testing frameworks (e.g., Jest, Cypress).\nStrong communication and collaboration skills.\n\nWhy Join Us::\nWorking with cutting-edge technologies\nAWS Serverless tools\nGraphQL\nCI/CD via GitHub Actions\nMonitoring tools with Slack integrations\nMicroservices\nEvent-driven architecture\nMostly work with\ngreenfield\nprojects\nWe offer a flexible hybrid model that strikes a balance between collaboration and autonomy.\nWork on software that directly improves people's lives with better healthcare outcomes\nGet valuable experience in bringing a 40+ year legacy software system to a modern stack.\nCollaborative team environment with opportunities for growth\nOpportunity to do AWS certifications\nTight-knit team with team events\nModern development practices and a continuous learning culture with an individual development plan and career guidance\nCompetitive compensation and benefits package\nPaid bonus vacation during Christmas week\nCompany, Team, and personal performance-based bonus pay\nStebby for the health and sports bonus\nKeep full salary when on military exercises\nBudget for personal training\nBeautiful office space in Tartu with flexible work arrangements\nYou'll have dedicated mentorship and ongoing support from senior engineers to ensure you thrive from day one",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 110.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "javascript",
+    "java",
+    "typescript",
+    "react",
+    "architect",
+    "architecture",
+    "senior",
+    "aws",
+    "ci/cd",
+    "API",
+    "microservices"
+  ],
+  "category": "High Priority"
+}

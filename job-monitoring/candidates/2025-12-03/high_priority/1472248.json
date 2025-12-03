@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "1472248",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472248",
+    "title": "Senior Software Engineer (Consumer Ledger team)",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-11-24T13:20:58.000+00:00",
+    "discovered_date": "2025-12-03T03:03:56.910667",
+    "description": "Hands-on experience with C# and the .NET framework, with a minimum of 5 years of experience Experience developing, shipping, and maintaining cloud-based applications Good knowledge and experience working with microservices and distributed architectures Strong understanding of RESTful APIs Experience with relational databases, preferably Microsoft SQL Server Working knowledge of ORMs, preferably Entity Framework Familiarity with cloud development; experience with Azure is a plus Experience with messaging platforms in distributed architectures (e.g., RabbitMQ, MassTransit, Kafka) Proficiency with containerization technologies such as Docker Experience with Kubernetes for container orchestration Terraform for Infrastructure as Code (IaC) Monitoring and observability experience using tools like NewRelic Proficiency in both written and spoken English Experience in the FinTech or banking industry is a plus We build and maintain core financial services that power Rivertys consumer products. This includes systems for tracking customer account balances and ensuring financial data flows accurately across merchants and platforms. Whether working on transactional ledgers or customer-facing invoice flows, youll contribute to scalable, event-driven systems that support transparency, compliance, and a seamless user experience. You will join one of our product teams and daily you will: Design, develop, test, and ship robust, maintainable, and readable software, applications, APIs, and other workflows Initiate, participate in, and communicate technical architecture designs Attend regular scrum ceremonies as a member of an agile cross-functional team Analyze, discuss, and implement business requirements while maintaining good documentation of the systems and components you create Bring in industry standards and best practices to continually improve our codebase and architecture Make a positive impact on our engineering culture by adopting, implementing, and providing feedback on both organizational and industry standards and practices Inclusive and valuing culture At Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks. Health & Wellbeing Your physical and mental health is important to us. Take advantage of our various preventive care and support services. Professional and Personal Development Take advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings Monetary Benefits & Discounts Know that you're appreciated with plenty of employee benefits & discounts just for you. Flexibility Our diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 130.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "kubernetes",
+    "docker",
+    "azure",
+    "terraform",
+    "infrastructure",
+    "API",
+    "microservices",
+    "database",
+    "agile",
+    "scrum"
+  ],
+  "category": "High Priority"
+}

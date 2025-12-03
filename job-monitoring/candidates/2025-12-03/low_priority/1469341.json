@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1469341",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469341",
+    "title": "Köögi abitööline (Filtri)",
+    "company": "Kaitseressursside Amet",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T08:09:47.000+00:00",
+    "discovered_date": "2025-12-03T03:04:04.832363",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

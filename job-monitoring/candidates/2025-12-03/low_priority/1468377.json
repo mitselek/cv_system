@@ -1,0 +1,33 @@
+{
+  "job": {
+    "id": "1468377",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1468377",
+    "title": "System Analyst",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-28T14:00:01.324+00:00",
+    "discovered_date": "2025-12-03T03:03:56.910915",
+    "description": "System Analyst:\nAbout Playtech\nFounded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B and B2C businesses. Both divisions leverage Playtechs proprietary technology to deliver innovative products and services to ensure a safe, engaging and entertaining gaming experience.\nPlaytech is the gaming industry's leading technology company delivering business intelligence-driven gaming software, services, content, and platform technology across the industry. Read more about who we are and what we do here: www.playtechpeople.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Recognizing differences and ensuring our processes are transparent is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytechs\nVideobet unit\nis looking for an attentive\nSystem Analyst\nwith excellent communication and problem-solving skills.\nYour influential mission. You will...\nAnalyse the internal and external business requirements controlled by the Product Management team & help assess the required effort.\nDerive use cases and functional flows, draw mockups and write system requirements for R&D.\nPresent the results of your work to other teams, follow up on development and hand over the ready products to QA.\nMaintain knowledge of the product functionalities and features.\nHave the potential to become a Product Owner for one of our scrum teams.\nComponents for success. You...\nHold a degree in IT, Computer Science, or a related field.\nBring prior experience as a System Analyst, Product Owner, or in a similar role.\nCommunicate fluently in English.\nDemonstrate strong communication and problemsolving abilities.\nPossess keen attention to detail.\nAdapt quickly to changing situations.\nMake informed decisions by understanding the complete product context.\nYou'll get extra points for...\nPrevious experience within the iGaming industry.\nProficiency in modelling techniques such as UML diagrams, written use cases, and software specifications.\nSkills in visual prototyping of user interfaces.\nHandson experience in software development.\nSolid understanding of the software release life cycle and agile development principles.\nFamiliarity with databases and data modelling.\nThrive in a culture that values...\nInitiative-taking and a confident approach at the workplace.\nGlobal scope and inclusive working environment.\nConstant learning and development opportunities.\nActive lifestyle and mental well-being.\nFun and engaging company events.\nVIDEOBETS PRODUCT TEAM\nWere responsible for managing the company roadmap and ensuring that all customer requests get handled in the most efficient way. Our team is constantly in communication with the customers in order to gather information on the usage of the existing Videobet product and to discuss new features or releases based on client needs. As part of this, we always make sure that customer requests get analysed and communicated, both internally and exterally as per the agreed processes and prioritised accordingly in the product backlog.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "database",
+    "agile",
+    "scrum",
+    "product owner"
+  ],
+  "category": "Low Priority"
+}

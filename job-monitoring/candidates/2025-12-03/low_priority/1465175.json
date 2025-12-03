@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1465175",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465175",
+    "title": "Reporting Developer",
+    "company": "Entain",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T13:00:01.565+00:00",
+    "discovered_date": "2025-12-03T03:03:53.654017",
+    "description": "Were looking for a Report Developer to turn data into clear, actionable insights for stakeholders across the NCE region. Youll build robust reporting assets, maintain reliable schedules, and ensure decision-makers can trust what they see.\nKEY RESPONSIBILITIES:\nDesign and develop high-quality Power BI dashboards and visuals.\nProduce ad-hoc/manual reports for business requests with fast, accurate turnaround.\nCreate, maintain, and schedule recurring reports and alerts.\nMonitor report pipelines/jobs, troubleshoot issues, and proactively improve reliability.\nPartner with data engineering/analytics to standardize definitions and improve data\nquality\nREQUIREMENTS:\nThe successful candidate will demonstrate a high sense of responsibility and stress resistance and must have the following skills:\nSQL expert, with strong experience using Python and/or R for complex queries, data prep, and statistical models.\nAdvanced Excel and solid data-modelling fundamentals.\nProven Power BI data visualization skills (DAX, data modeling, performance tuning).\nExperience with dbt, GitHub (or similar), and an understanding of ETL/ELT best\npractices.\nStrong problem-solving skills. Able to simplify complexity into clear, actionable\ninsights.\nHigh standards for accuracy, precision, and attention to detail.\nConfident communication and presentation skills with non-technical stakeholders.\nFluent English\nCompetencies:\nBreaks down complex problems into clear, actionable tasks.\nProactive, resourceful, and takes ownership end-to-end.\nManages multiple priorities without sacrificing quality or deadlines.\nCollaborative team player who elevates shared goals and outcomes\nHolds a strong quality mindset and respects deadlines\nWE OFFER:\nGreat opportunity to take part in the development of a growth- and innovation-driven company and build its future.\nDynamic work in a rapidly growing international company with personal development possibilities.\nProfessional team with various international backgrounds to collaborate.\nOpportunity for career development.\nWide benefits package: annual company performance bonus, extra day off on your birthday, dedicated days off for your physical and mental health, additional vacation days depending on the length of employment, health insurance policy, wellness and team-building events, dedicated budget for your training and development, paid online consultations with certified therapists and so much more!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "API"
+  ],
+  "category": "Low Priority"
+}

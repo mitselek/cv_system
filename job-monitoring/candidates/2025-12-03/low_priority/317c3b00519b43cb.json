@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "317c3b00519b43cb",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/lead-software-developer-architect-iot-laakeautomaatille-sdsuu-19783871",
+    "title": "Lead Software Developer / Architect IOT-lääkeautomaatille",
+    "company": "Axitare Oy",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 26.11.",
+    "discovered_date": "2025-12-03T03:04:12.226032",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

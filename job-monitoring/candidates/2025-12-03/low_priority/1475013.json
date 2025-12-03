@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1475013",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1475013",
+    "title": "Quality Assurance Lead",
+    "company": "Helmes AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-28T13:10:09.725+00:00",
+    "discovered_date": "2025-12-03T03:03:58.500377",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1433318",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1433318",
+    "title": "FULL-STACK ARENDAJA",
+    "company": "Elisa Eesti AS",
+    "location": "Unknown",
+    "posted_date": "2025-10-29T14:00:02.000+00:00",
+    "discovered_date": "2025-12-03T03:04:03.256580",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_old": -10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

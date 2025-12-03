@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1471615",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1471615",
+    "title": "Malware Research Engineer",
+    "company": "Malwarebytes Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-21T14:51:53.000+00:00",
+    "discovered_date": "2025-12-03T03:04:00.096986",
+    "description": "Ootused kandidaadile:\nHighly developed sense of integrity and demonstrated passion for excellence with respect to treating and caring for customers.\nCreative thinking and problem solving, with a positive and motivated approach.\nAbility to setup and conduct research/analysis in an emulated/virtual environment, such as VMWare or Hyper-V.\nAbility to research & classify malicious domains and IPs.\nExperience with and understanding of malware research tools involved in static & dynamic analysis and core aspects of a threat research & response team.\nBasic understanding and experience using various operating systems, incl. Windows, Linux, Mac, and Android.\nAbility and passion to stay up to date with the latest malware threats and collaborate with other researchers, coordinators, as well as developers.\n\nTööülesannete kirjeldus:\nProcess daily threat-feeds, related to newly created malware and write detection rules for various technologies.\nInvestigate and resolve customer related inquiries related to protection, performance, and usability.\nConduct research and threat hunting for the latest cyber-web threats affecting our customers.\nProvide feedback on new projects and syntaxes/tools being developed that involve your daily work and suggest ideas how to handle different threat types.\nSupport content creation efforts incl. threat descriptions, blogs, and presentations\n\nOmalt poolt pakume:\nEmployee Referral Bonus Program\nHealth benefits\nWellness programs\nComprehensive Time Off policy\nAn opportunity to do something great for yourself and the world!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

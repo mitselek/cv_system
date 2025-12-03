@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "9d02bf34f05f45c1",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/power-platform-architect-scsom-19627476",
+    "title": "Power Platform Architect",
+    "company": "Efima",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 21.10.",
+    "discovered_date": "2025-12-03T03:04:12.229444",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

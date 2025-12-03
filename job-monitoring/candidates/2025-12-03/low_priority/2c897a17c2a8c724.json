@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "2c897a17c2a8c724",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/fellowmind-finland-solution-architect-agile-delivery-lead-sdsuu-19725114",
+    "title": "Solution Architect / Agile Delivery Lead",
+    "company": "Fellowmind Finland Oy Ab",
+    "location": "Helsinki ja 3 muuta –",
+    "posted_date": "Julkaistu 7.11.",
+    "discovered_date": "2025-12-03T03:04:12.228389",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0
+  },
+  "matched_keywords": [
+    "architect",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

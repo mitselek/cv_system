@@ -1,0 +1,32 @@
+{
+  "job": {
+    "id": "1470703",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470703",
+    "title": "POP & GPAS Platforms Architect",
+    "company": "Playtech Estonia OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T11:00:01.000+00:00",
+    "discovered_date": "2025-12-03T03:03:56.910231",
+    "description": "POP & GPAS Platforms Architect:\nFounded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is focused on regulated and regulating markets across its B2B business. By leveraging its proprietary technology, Playtech delivers innovative products and services to ensure a safe, engaging and entertaining gaming experience.\nAs the gaming industry's leading technology company, it combines business intelligence-driven software, services, content, and platform technology to drive excellence and innovation across the sector. Read more about who we are and what we do here: www.playtechpeople.com and www.playtech.com\nHere at Playtech, we genuinely believe that people are our biggest asset. Diverse thoughts, experiences, and individual characteristics enrich our work environment and lead to better business decisions. Embracing differences and maintaining transparency in our processes is the core of Playtech's overall commitment to responsible business practices.\nReady to level up your career?\nPlaytechs\nPOP & GPAS unit\nis looking for\nPlatforms Architect\nwith a curious mindset, excellent communication, and good technical troubleshooting skills. We have opened this position in\nUkraine\nas well as in\nEstonia\n, with opportunities available in both\nTallinn\nand\nTartu\n.\nYour influential mission. You will...\nIdentify stakeholders, analyze requirements, and extract key architectural elements to shape clear API designs and integration strategies.\nDevelop solution structures that align with company goals while applying best practices in software development and the iGaming industry.\nCommunicate and negotiate daily with clients and stakeholders to drive the solution forward.\nEnsure all team members understand the architecture and how it supports the broader system.\nLead end-to-end solutions and systems architecture for large-scale cross-functional projects.\nComponents for success. You...\nPossess comprehensive experience in software engineering for complex distributed systems.\nHave expert knowledge of software architecture and design patterns.\nDemonstrate excellent English skills, both spoken and written.\nCan effectively present ideas to diverse audiences, from developers to C-level executives.\nExcel in managing multiple priorities while keeping focus on defined goals.\nMaintain an open and analytical mindset, thinking creatively to solve problems.\nHave hands-on experience with business analysis, research & development, and understand business processes used in software design and development.\nHold a Bachelors or higher degree in Computer Science or a related software engineering field.\nStay aware of modern software standards and industry trends.\nBring experience working in international and diverse teams.\nThrive in a culture that values...\nPossibility to cooperate with a product company\nEducational possibilities\nCompetitive compensation\nFully-equipped perfect office space\nWarm and friendly attitude to every specialist\nProfessional growth\nHOW TO APPLY?\nIn addition to your CV, please add a brief motivation letter covering your goals, your current experience, or related fields and/or working in a project team.You can write it in the comment section at the end of the application page (under \"your message to the hiring manager\").\nPlaytech Open Platform (POP) Unit\nPlaytech Open Platform provides a unified network and API for communication with the Playtech infrastructure, enabling client-side implementation by independent developers. It is an adapter between systems, and it can deliver a more accessible and seamless integration between gaming provider services and operator systems.\nPlaytech is an equal opportunities employer. Our mission is to welcome everyone and create inclusive teams. We celebrate differences and encourage everyone to join us and be themselves at work.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 45.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "infrastructure",
+    "API"
+  ],
+  "category": "Review"
+}

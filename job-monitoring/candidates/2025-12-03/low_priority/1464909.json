@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "1464909",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1464909",
+    "title": "Automation QA Engineer",
+    "company": "Entain",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T11:00:40.309+00:00",
+    "discovered_date": "2025-12-03T03:03:56.910736",
+    "description": "We are seeking a skilled and detail-oriented QA Automation Engineer to join our dynamic team. You will play a crucial role in ensuring the quality and reliability of our software through the development and execution of robust automation scripts.\nResponsibilities:\nDevelop and maintain UI autotests (Python + Playwright)\nMaintenance test environment (docker)\nDesign, evolve and execute test plans\nDevelop API test (REST)\nManage application releases and plan test runs\nDetect and explain software failures\nMonitor and evolve test coverage\nDevelopment of procedures to simplify the work of manual testers (scripts)\nRequirements\n2+ years of software development experience or automation testing (Python, Playwright, Pytest)\nSoftware testing experience 3+ yrs\nGood understanding of the Quality Assurance process\nAgile software development methodology understanding\nWeb and network technologies basics. (HTML, HTTP, TCP, REST)\nStrong communication skills\nEnglish ( verbal and written intermediate+)\nWe offer:\nGreat opportunity to take part in the development of a growth- and innovation-driven company and build its future.\nDynamic work in a rapidly growing international company with personal development possibilities.\nProfessional team with various international backgrounds to collaborate.\nOpportunity for career development.\nWide benefits package: annual company performance bonus, extra day off on your birthday, dedicated days off for your physical and mental health, additional vacation days depending on the length of employment, health insurance policy, wellness and team-building events, dedicated budget for your training and development, paid online consultations with certified therapists and so much more!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 30.0,
+  "score_breakdown": {
+    "positive_keywords": 40.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "docker",
+    "API",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

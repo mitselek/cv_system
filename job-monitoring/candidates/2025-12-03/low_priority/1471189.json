@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1471189",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1471189",
+    "title": "Tiimijuht",
+    "company": "Riigi IT Keskus",
+    "location": "Unknown",
+    "posted_date": "2025-11-21T07:51:47.783+00:00",
+    "discovered_date": "2025-12-03T03:04:08.522045",
+    "description": "Tööandja tervisekindlustus, spordihüvitis, koolitused, tervisepäevad, ühisüritused.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

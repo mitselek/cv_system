@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "eb3c0371afcbd73b",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/erp-arkkitehti-sgsof-19277879",
+    "title": "ERP-arkkitehti",
+    "company": "Gofore",
+    "location": "Helsinki ja 2 muuta –",
+    "posted_date": "Julkaistu 6.5.",
+    "discovered_date": "2025-12-03T03:04:15.105806",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

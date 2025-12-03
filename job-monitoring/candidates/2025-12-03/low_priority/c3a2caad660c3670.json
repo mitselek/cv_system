@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "c3a2caad660c3670",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-system-analyst-swsar-19576423",
+    "title": "Senior System Analyst",
+    "company": "Wärtsilä Oyj Abp",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 10.9.",
+    "discovered_date": "2025-12-03T03:04:11.386639",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

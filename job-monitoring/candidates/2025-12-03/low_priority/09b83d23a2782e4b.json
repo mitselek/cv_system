@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "09b83d23a2782e4b",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/veikkaus-lead-developer-scsom-19759428",
+    "title": "Veikkaus - Lead Developer",
+    "company": "Talented",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 12.11.",
+    "discovered_date": "2025-12-03T03:04:12.228914",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "lead developer"
+  ],
+  "category": "Low Priority"
+}

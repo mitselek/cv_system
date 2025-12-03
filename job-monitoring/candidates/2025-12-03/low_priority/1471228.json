@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1471228",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1471228",
+    "title": "Müügiinsener",
+    "company": "BLRT Grupp AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-21T08:20:42.159+00:00",
+    "discovered_date": "2025-12-03T03:04:00.096749",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

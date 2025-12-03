@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "32036b104c777c34",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/deloitte-sap-cloud-erp-public-solution-architect-helsinki-sdsuu-19744437",
+    "title": "SAP Cloud ERP (Public) Solution Architect",
+    "company": "Deloitte Oy",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 12.11.",
+    "discovered_date": "2025-12-03T03:04:12.225473",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

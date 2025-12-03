@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1469048",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469048",
+    "title": "Full-stack vanemarendaja - ehitame nullist uut Eesti Loto veebikogemust!",
+    "company": "Brandem Baltic OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-11-18T08:57:29.000+00:00",
+    "discovered_date": "2025-12-03T03:04:03.256609",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

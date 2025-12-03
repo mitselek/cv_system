@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "901f5690eebae031",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/lehtovuori-oy-tuotekehitysinsinoori-sdsuu-19797615",
+    "title": "Tuotekehitysinsinööri",
+    "company": "Lehtovuori Oy",
+    "location": "Ylöjärvi –",
+    "posted_date": "Julkaistu 2.12.",
+    "discovered_date": "2025-12-03T03:04:11.389017",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

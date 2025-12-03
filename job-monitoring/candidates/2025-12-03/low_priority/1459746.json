@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1459746",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1459746",
+    "title": "Full stack Java arendaja",
+    "company": "Siseministeeriumi infotehnoloogia- ja arenduskeskus",
+    "location": "Unknown",
+    "posted_date": "2025-10-31T07:38:27.000+00:00",
+    "discovered_date": "2025-12-03T03:04:03.256541",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_old": -10.0
+  },
+  "matched_keywords": [
+    "java"
+  ],
+  "category": "Low Priority"
+}

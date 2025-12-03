@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "7c8ebfdf42a41902",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/director-consulting-expert-digital-channels-and-mobile-development-architecture-scsgi-19790601",
+    "title": "Director Consulting Expert, Digital Channels, Mobile & Architecture",
+    "company": "CGI Suomi",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 28.11.",
+    "discovered_date": "2025-12-03T03:04:12.226284",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture"
+  ],
+  "category": "Low Priority"
+}

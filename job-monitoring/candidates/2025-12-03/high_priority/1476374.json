@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "1476374",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476374",
+    "title": "Data Analytics Engineer (m/w/d)",
+    "company": "Kühne + Nagel ",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T10:23:49.415+00:00",
+    "discovered_date": "2025-12-03T03:03:53.654502",
+    "description": "Job description:\nIt's more than a job\nIn this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making both special and ordinary moments in the lives of people a reality. In fact, your work enables our teams to deliver fresh fruit, time-sensitive healthcare products and much more to people all around the world. Working in IT at Kuehne+Nagel contributes to more than we imagine.\nWe are seeking a talented and motivated Analytics Engineer to join our team. The ideal candidate will have a strong background in data engineering, analytics, and a passion for turning data into actionable insights. Experience with Snowflake and DBT is essential, while familiarity with Python is advantageous.\nHow you create impact\nData Pipeline Development: Design, build, and maintain scalable data pipelines to support analytics and reporting needs.\nData Integration: Integrate data from various sources, ensuring data quality and consistency.\nData Modeling: Develop and maintain data models to support business intelligence and analytics.\nData Analysis: Perform data analysis to derive actionable insights and support decision-making.\nCollaboration: Work closely with data analysts, data architects, and other stakeholders to understand data requirements and deliver solutions.\nPerformance Optimization: Optimize data processing and storage for performance and cost-efficiency.\nWhat we would like you to bring\nEducation: Bachelor's degree in Computer Science, Engineering, or a related field.\nExperience: 3+ years of experience in data engineering, analytics, or a related role.\nTechnical Skills: Proficiency in SQL, Snowflake, and DBT or any other data pipeline tool. Experience with cloud platforms (e.g., AWS, GCP, Azure) is a plus. Familiarity with Python and the Dagster tool is advantageous.\nCI/CD: Experience with continuous integration and continuous deployment (CI/CD) practices and tools.\nBI Tools: Experience with business intelligence tools like Tableau and SAP BusinessObjects (BO) is welcomed.\nLanguage Skills: High level of written and spoken English is required to work effectively in an international team.\nAttitude: A positive, can-do attitude and a proactive approach to problem-solving.\nAnalytical Skills: Strong problem-solving skills and the ability to analyze complex data sets. Excellent communication skills and the ability to work collaboratively in a team environment.\nWhat's in it for you\nJoin Kuehne+Nagel's IT Hub in Tallinn, where your work will have a meaningful impact on the logistics industry. Here, you'll find a hybrid work model, extensive health benefits, and a culture of continuous learning that ensures your career growth. You'll be surrounded by extraordinary and committed people, all dedicated to shaping the future of logistics.\nEven if you don't tick every box, we encourage you to apply your unique perspective and experience could be exactly what we need. Be part of a team that values work-life balance, supports your personal well-being, and empowers you to contribute to something truly impactful.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 85.0,
+  "score_breakdown": {
+    "positive_keywords": 80.0,
+    "negative_keywords": -20.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "python",
+    "architect",
+    "aws",
+    "azure",
+    "gcp",
+    "ci/cd",
+    "infrastructure",
+    "API"
+  ],
+  "category": "High Priority"
+}
