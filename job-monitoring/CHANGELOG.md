@@ -14,6 +14,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
 ### Added
 
 #### Core Architecture
+
 - **Plugin-based Scraper Registry System** (#25)
   - Abstract `BaseScraper` class for all job portal scrapers
   - `ScraperRegistry` for dynamic scraper discovery and loading
@@ -21,6 +22,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - Support for both API-based and HTML-based scrapers
 
 #### Utility Framework
+
 - **Decorator Utilities** (#25)
   - `@rate_limit` - Configurable rate limiting for API calls
   - `@retry` - Automatic retry with exponential backoff
@@ -28,13 +30,13 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - Type-safe `CachedFunction` Protocol
 
 #### Job Portal Scrapers
+
 - **Duunitori Scraper** (Finland) (#26)
   - HTML parsing with BeautifulSoup4
   - Cookie-based authentication support
   - Full job description extraction
   - Contact information parsing
   - 20 comprehensive tests
-  
 - **CV.ee Scraper** (Estonia) (#29)
   - REST API integration
   - Location caching and resolution
@@ -44,6 +46,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - 19 comprehensive tests
 
 #### CLI Enhancements
+
 - **Registry-based CLI** (#30)
   - Dynamic scraper loading from configuration
   - Per-source configuration support
@@ -53,6 +56,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - 19 CLI-specific tests
 
 #### Configuration
+
 - **Flexible Configuration Format** (#30)
   - YAML-based configuration
   - Per-scraper settings
@@ -61,6 +65,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - Scraper enable/disable flags
 
 #### Testing
+
 - **Comprehensive Test Suite** (#31)
   - 209 total tests (100% passing)
   - 85 scraper-specific tests
@@ -70,6 +75,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
   - Mock-based scraper testing
 
 #### Documentation
+
 - **Architecture Documentation** (#31)
   - `docs/scraper-architecture.md` - Complete architecture overview
   - `docs/adding-new-scrapers.md` - Developer guide for creating scrapers
@@ -93,6 +99,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
 ### Technical Details
 
 #### Metrics
+
 - **Production Code:** ~2,000 lines
 - **Test Code:** ~1,500 lines
 - **Documentation:** ~1,500 lines (Markdown)
@@ -100,6 +107,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
 - **Files Changed:** 15+ files
 
 #### Performance
+
 - Duunitori: ~2s per job (with full description extraction)
 - CV.ee: ~0.5s per job (API calls)
 - Rate limiting: Working correctly (no 429 errors)
@@ -110,6 +118,7 @@ This release marks the completion of Milestone #2, introducing a complete rewrit
 ⚠️ **Configuration Format Changed**
 
 Old format:
+
 ```yaml
 sources:
   - name: "Duunitori"
@@ -117,9 +126,10 @@ sources:
 ```
 
 New format:
+
 ```yaml
 sources:
-  - name: duunitori  # Scraper ID from registry
+  - name: duunitori # Scraper ID from registry
     enabled: true
     cookies_file: /path/to/cookies.json
     queries:
@@ -144,23 +154,27 @@ Migration: Update your `config.yaml` to use scraper IDs and new query format. Se
 ### Migration Guide
 
 1. **Update Configuration:**
+
    ```bash
    cp config.example.yaml config.yaml
    # Edit config.yaml with your preferences
    ```
 
 2. **Extract Cookies:**
+
    ```bash
    # Export cookies from browser (JSON format)
    # Save to job_sources/cookies.json
    ```
 
 3. **Test New Setup:**
+
    ```bash
    job-monitor scan --config config.yaml --dry-run
    ```
 
 4. **Run First Scan:**
+
    ```bash
    job-monitor scan --config config.yaml
    ```
@@ -179,12 +193,14 @@ Migration: Update your `config.yaml` to use scraper IDs and new query format. Se
 ## [Unreleased]
 
 ### Planned for v1.1.0
+
 - Additional job portals (LinkedIn, CV-Online)
 - Async scraping for parallel queries
 - Scraper health monitoring
 - Email notifications for high-priority jobs
 
 ### Planned for v2.0.0
+
 - ML-based job scoring
 - Automated application generation
 - Web dashboard

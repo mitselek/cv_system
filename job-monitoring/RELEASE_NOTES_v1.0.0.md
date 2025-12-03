@@ -13,6 +13,7 @@
 This release introduces a complete architectural overhaul with a **plugin-based scraper registry system** that makes adding new job portals simple and maintainable.
 
 **Before:**
+
 ```python
 # Monolithic, hardcoded approach
 scraper = JobScraper()
@@ -20,6 +21,7 @@ jobs = scraper.search_duunitori(keywords, location)
 ```
 
 **After:**
+
 ```python
 # Clean, extensible plugin system
 scraper = ScraperRegistry.get_scraper('duunitori', config)
@@ -31,6 +33,7 @@ jobs = scraper.search({'keywords': 'python', 'location': 'Helsinki'})
 #### 🔌 Two Working Job Portal Scrapers
 
 1. **Duunitori** (Finland)
+
    - HTML scraping with BeautifulSoup
    - Cookie-based authentication
    - Full job description extraction
@@ -196,6 +199,7 @@ Adding a new job portal takes **7 simple steps**:
 ### Configuration Format Changed
 
 **Old format (deprecated):**
+
 ```yaml
 sources:
   - name: "Duunitori"
@@ -203,9 +207,10 @@ sources:
 ```
 
 **New format (required):**
+
 ```yaml
 sources:
-  - name: duunitori  # Scraper ID
+  - name: duunitori # Scraper ID
     enabled: true
     queries:
       - keywords: "python"
@@ -227,41 +232,44 @@ sources:
 
 ### Code Quality
 
-| Metric              | Value          |
-| ------------------- | -------------- |
-| Production Code     | ~2,000 lines   |
-| Test Code           | ~1,500 lines   |
-| Documentation       | ~1,500 lines   |
-| Test Coverage       | 201/209 (96%)  |
-| Files Changed       | 15+            |
-| Commits             | 7              |
+| Metric          | Value         |
+| --------------- | ------------- |
+| Production Code | ~2,000 lines  |
+| Test Code       | ~1,500 lines  |
+| Documentation   | ~1,500 lines  |
+| Test Coverage   | 201/209 (96%) |
+| Files Changed   | 15+           |
+| Commits         | 7             |
 
 ### Test Coverage by Component
 
-| Component           | Tests | Status |
-| ------------------- | ----- | ------ |
-| Scrapers            | 85    | ✅     |
-| CLI                 | 19    | ✅     |
-| Integration         | 14    | ✅     |
-| Core Components     | 91    | ✅     |
-| **Total**           | 209   | ✅     |
+| Component       | Tests | Status |
+| --------------- | ----- | ------ |
+| Scrapers        | 85    | ✅     |
+| CLI             | 19    | ✅     |
+| Integration     | 14    | ✅     |
+| Core Components | 91    | ✅     |
+| **Total**       | 209   | ✅     |
 
 ---
 
 ## 🗺️ Roadmap
 
 ### v1.1.0 (Planned)
+
 - Additional job portals (LinkedIn, CV-Online)
 - Fix Pydantic deprecation warnings
 - Async scraping for parallel queries
 - Email notifications
 
 ### v1.2.0 (Planned)
+
 - Scraper health monitoring
 - Web dashboard
 - Advanced filtering options
 
 ### v2.0.0 (Future)
+
 - ML-based job scoring
 - Automated application generation
 - Remove deprecated code
@@ -273,6 +281,7 @@ sources:
 This release completes Milestone #2 and represents a significant architectural improvement that sets the foundation for long-term growth and maintainability.
 
 Special thanks to the open-source community for the excellent tools:
+
 - `pydantic` - Data validation
 - `beautifulsoup4` - HTML parsing
 - `pytest` - Testing framework
@@ -303,4 +312,4 @@ Special thanks to the open-source community for the excellent tools:
 
 ---
 
-*Released with ❤️ by Mihkel Putrinš*
+_Released with ❤️ by Mihkel Putrinš_
