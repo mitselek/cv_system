@@ -3,6 +3,7 @@
 ## Summary
 
 **Total Candidates**: 235
+
 - 🔥 High Priority: 17
 - 📋 Review: 11
 - 💤 Low Priority: 207
@@ -11,7 +12,7 @@
 
 ### 1. Senior Software Engineer (Consumer Ledger team)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -25,7 +26,7 @@
 
 ### 2. Senior Backend Engineer (m\w\d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -56,7 +57,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 
 ### 4. Senior Software Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -64,7 +65,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 **Posted**: 2025-11-20T06:02:29.000+00:00
 **Matched Keywords**: architect, architecture, senior, kubernetes, docker, azure, terraform, infrastructure, API, microservices, agile, scrum
 
-**Description**: What will help you to succeed in the role:  :
+**Description**: What will help you to succeed in the role: :
 To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well:
 Youre a seasoned software eng...
 
@@ -105,7 +106,7 @@ Collab...
 
 ### 7. Senior Backend Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 100.0/100
 **Source**: cvee
@@ -121,7 +122,7 @@ Experience developing, shipping, and maintaining cloud-based ap...
 
 ### 8. Senior QA Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 95.0/100
 **Source**: cvee
@@ -138,7 +139,7 @@ Experience developing, shipping, and maintaining cloud-based ap...
 
 ### 9. Senior Cloud Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 95.0/100
 **Source**: cvee
@@ -163,14 +164,14 @@ Hands-on experi...
 **Posted**: 2025-11-28T10:00:01.774+00:00
 **Matched Keywords**: javascript, java, react, vue, angular, kubernetes, docker, postgresql
 
-**Description**:  Sina oled oluline lüli lisandväärtuse loomisel.:
+**Description**: Sina oled oluline lüli lisandväärtuse loomisel.:
 Kui soovid anda oma panuse Eesti riigi majandusse läbi suurte avalike organisatsioonide ning eraettevõtete strateegiliste töövahendite arendamise, sii...
 
 📄 [Full Details](high_priority/1471344.json)
 
 ### 11. DevOps Systems Engineer Road Logistics (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -186,7 +187,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 
 ### 12. Full Stack Developer - Python (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -202,7 +203,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 
 ### 13. Data Analytics Engineer (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -218,7 +219,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 
 ### 14. Tech Platform Lead
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 85.0/100
 **Source**: cvee
@@ -265,7 +266,7 @@ Evolution is a multinational business at the forefront of the online gaming indu
 
 ### 17. Software Engineer (Credit Path)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 75.0/100
 **Source**: cvee
@@ -298,7 +299,7 @@ Founded in 1999, the company has a premium listing on the Main Market of the Lon
 
 ### 2. DevOps System Engineer for Application Integration (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Location**: Unknown
 **Score**: 65.0/100
 **Source**: cvee
@@ -314,7 +315,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 
 ### 3. Senior Software Engineer (Client)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 65.0/100
 **Source**: cvee
@@ -322,7 +323,7 @@ In this IT role, you will manage, develop, and support the technology infrastruc
 **Posted**: 2025-11-27T05:23:41.000+00:00
 **Matched Keywords**: architect, architecture, senior, API, agile, scrum
 
-**Description**: What will help you to succeed in the role:  :
+**Description**: What will help you to succeed in the role: :
 To thrive in this role and make a meaningful impact, we believe the following qualities and experiences will serve you well:
 Youre a seasoned software eng...
 
@@ -425,7 +426,7 @@ Founded in 1999, the company has a premium listing on the Main Market of the Lon
 
 ### 10. Senior Data Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 45.0/100
 **Source**: cvee
@@ -541,7 +542,7 @@ U...
 
 ### 6. Senior Tech Consultant M365 (Tenant)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 25.0/100
 **Source**: cvee
@@ -877,7 +878,7 @@ Draft and update employment cont...
 
 ### 32. Senior IT Infrastructure Expert (Tenant)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -945,7 +946,7 @@ Full professional fluency in English required; Estonian language skills consider
 
 ### 37. Logopeed
 
-**Company**: Harku Vallavalitsus 
+**Company**: Harku Vallavalitsus
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -1111,7 +1112,7 @@ NoCry is an Estonian company with a small yet powerful team doing big things. We
 
 ### 51. Accounting System Analyst
 
-**Company**: Gunvor Services AS 
+**Company**: Gunvor Services AS
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -2068,7 +2069,7 @@ VILPE Oy is the leading Finnish developer and manufacturer o...
 
 ### 128. Investeeringute spetsialist
 
-**Company**: Utilitas 
+**Company**: Utilitas
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -2114,7 +2115,7 @@ VILPE Oy is the leading Finnish developer and manufacturer o...
 
 ### 132. HEVKO, sotsiaalpedagoog, psühholoog
 
-**Company**: Harku Vallavalitsus 
+**Company**: Harku Vallavalitsus
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -2396,12 +2397,6 @@ Strong background in third-party vendor management and system integrations
 
 **Description**: Location:
 Tallinn, Estonia
-
-
-
-
-
-
 
 📄 [Full Details](low_priority/1462103.json)
 
@@ -2789,7 +2784,7 @@ Independent thinking and se...
 
 ### 187. Administrative Assistant / Administratiivosakonna assistent
 
-**Company**: Jaapani  Suursaatkond
+**Company**: Jaapani Suursaatkond
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -2889,7 +2884,7 @@ Strong background in corporate and commercial law; ...
 
 📄 [Full Details](low_priority/106f2e502132dda6.json)
 
-### 195. JAVA  full-stack arendaja
+### 195. JAVA full-stack arendaja
 
 **Company**: SRINI OÜ
 **Location**: Unknown

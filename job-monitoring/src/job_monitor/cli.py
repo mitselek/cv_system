@@ -197,11 +197,14 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
     scored = [scorer.score(j) for j in unique_jobs]
 
-    click.echo(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique.")
+    # Filter out already-seen jobs before saving (fix for issue #33)
+    new_candidates = [sj for sj in scored if not sm.is_seen(sj.job.id)]
+    
+    click.echo(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique, {len(new_candidates)} new.")
 
-    # Save candidates to directories
-    if scored and not dry_run:
-        counts = _save_candidates(cfg.candidates_dir, scored)
+    # Save only NEW candidates to directories
+    if new_candidates and not dry_run:
+        counts = _save_candidates(cfg.candidates_dir, new_candidates)
         click.echo(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
         
         # Generate digest
@@ -209,7 +212,7 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
         digest_path = dg.save_digest()
         click.echo(f"Digest saved to {digest_path}")
     
-    # Update state and optionally persist
+    # Update state for ALL jobs (new and existing with potential updates)
     for sj in scored:
         if sm.is_seen(sj.job.id):
             # Update existing job (might have new description)
