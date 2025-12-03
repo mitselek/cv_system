@@ -27,3 +27,13 @@ personalispetsialist
 
 RmIT
 https://rmit.ee/tule-meile/rmit-tooandjana
+
+---
+
+**Interview Confirmed:**
+
+- **Date:** December 5, 2025
+- **Time:** 10:30 (GMT+2)
+- **Duration:** ~1 hour
+- **Platform:** MS Teams
+- **Status:** Accepted (2025-12-03)
