@@ -3,11 +3,22 @@
 ## Schedule Overview
 
 **10:30-11:30** - RmIT Full-Stack arendaja (1 hour, MS Teams)
+
+- **Interviewer**: Jaana Kivila (jaana.kivila@rmit.ee) - personalispetsialist (HR specialist)
+
 **13:30-14:15** - Brandem Baltic Full-stack vanemarendaja (45 min, MS Teams)
+
+- **Interviewer**: Margaret Idasaar (margaret@brandem.ee, +372 515 1749) - Värbamise vanemkonsultant (Senior Recruitment Consultant)
 
 ---
 
 ## Interview 1: RmIT Full-Stack Arendaja (10:30)
+
+### Key People to Remember
+
+- **Jaana Kivila** - Your interviewer (personalispetsialist/HR specialist)
+- **Contact**: jaana.kivila@rmit.ee
+- **She invited you** to the interview on Dec 3, 2025
 
 ### Company Context
 
@@ -174,6 +185,13 @@
 ---
 
 ## Interview 2: Brandem Baltic Full-Stack Vanemarendaja (13:30)
+
+### Key People to Remember
+
+- **Margaret Idasaar** - Your interviewer (Värbamise vanemkonsultant/Senior Recruitment Consultant)
+- **Contact**: margaret@brandem.ee, +372 515 1749
+- **Margus Klaaser** - Original contact person (margus.klaaser@brandem.ee) - listed on job posting
+- **Client**: Eesti Loto (lottery company)
 
 ### Company Context
 
