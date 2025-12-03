@@ -34,36 +34,36 @@ sources:
         limit: 50
 
   - name: duunitori
-    enabled: false
+    enabled: true
     cookies_file: /home/michelek/.config/job_scraper_cookies_duunitori.json
     queries:
       - keywords: system analyst
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: software architect
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: business analyst
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: product owner
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: product manager
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: järjestelmäanalyytikko
         location: ""
-        limit: 30
+        limit: 50
       - keywords: delivery manager
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: enterprise architect
         location: Helsinki
-        limit: 30
+        limit: 50
       - keywords: technical product owner
         location: Helsinki
-        limit: 30
+        limit: 50
 
   - name: linkedin
     enabled: false
