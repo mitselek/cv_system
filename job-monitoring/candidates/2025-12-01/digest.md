@@ -432,19 +432,7 @@
 
 📄 [Full Details](2025-12-01/review/862770183856694a.json)
 
-### 4. Lead Software Developer / Architect IOT-lääkeautomaatille
-
-**Company**: Axitare Oy
-**Location**: Helsinki –
-**Score**: 60.0/100
-**Source**: duunitori
-**URL**: https://duunitori.fi/tyopaikat/tyo/lead-software-developer-architect-iot-laakeautomaatille-sdsuu-19783871
-**Posted**: Julkaistu 26.11.
-**Matched Keywords**: lead, architect, developer, software, IT
-
-📄 [Full Details](2025-12-01/review/317c3b00519b43cb.json)
-
-### 5. Solution Architect / Agile Delivery Lead
+### 4. Solution Architect / Agile Delivery Lead
 
 **Company**: Fellowmind Finland Oy Ab
 **Location**: Helsinki ja 3 muuta –
@@ -1156,19 +1144,7 @@
 
 📄 [Full Details](2025-12-01/low_priority/4c5fdad958f670c7.json)
 
-### 23. Data Platform Architect
-
-**Company**: 61N Solutions Oy
-**Location**: Helsinki ja 1 muu –
-**Score**: 30.0/100
-**Source**: duunitori
-**URL**: https://duunitori.fi/tyopaikat/tyo/data-platform-architect-sdsuu-19794272
-**Posted**: Julkaistu 1.12.
-**Matched Keywords**: architect, IT
-
-📄 [Full Details](2025-12-01/low_priority/b6bb79c1239ea17f.json)
-
-### 24. Product Manager
+### 23. Product Manager
 
 **Company**: ONEiO
 **Location**: Helsinki –
@@ -1318,19 +1294,7 @@
 
 📄 [Full Details](2025-12-01/low_priority/862770183856694a.json)
 
-### 36. Data Platform Architect
-
-**Company**: Siili Solutions
-**Location**: Helsinki ja 6 muuta –
-**Score**: 30.0/100
-**Source**: duunitori
-**URL**: https://duunitori.fi/tyopaikat/tyo/data-platform-architect-sssii-19604643
-**Posted**: Julkaistu 18.9.
-**Matched Keywords**: architect, IT
-
-📄 [Full Details](2025-12-01/low_priority/67a967fcb6c111fa.json)
-
-### 37. Solution Analyst, vakuutuksen korvausjärjestelmä (GW Claims Center)
+### 36. Solution Analyst, vakuutuksen korvausjärjestelmä (GW Claims Center)
 
 **Company**: OP Pohjola
 **Location**: Helsinki –

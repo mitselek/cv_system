@@ -1,0 +1,75 @@
+# Senior System Analyst - Wärtsilä Oyj Abp
+
+**Source:** https://duunitori.fi/tyopaikat/tyo/senior-system-analyst-swsar-19576423  
+**Posted:** September 10, 2025  
+**Location:** Helsinki, Finland  
+**Job ID:** c3a2caad660c3670
+
+---
+
+Wärtsilä is a world leader in marine technology and leading the industry's transformation towards a decarbonised and sustainable future. With the world's widest portfolio and service network, we - Wärtsilians - deliver efficient, safe and sustainable integrated products and solutions to enhance the business of our customers. The opportunities presented through digitalisation and new technologies are offering a new era of shipping. Did you know that shipping is the world's most efficient mode of transportation and that 88% of the world's trade is carried by sea? We want to change the course towards an interconnected and cleaner maritime future and are constantly on the lookout for future-oriented talent to join our team and to work towards enabling sustainable societies through innovation in technology and services - together. Are you ready to jump onboard?
+
+We are looking for an experienced System Analyst (Expert level) to strengthen our Navigation product development team. You will play a key role in shaping our onboard marine navigation solutions - including Wärtsilä Navi-Sailor WECDIS for Navy applications, and other current and next generation onboard navigation products including Wärtsilä Navi-Sailor ECDIS, Wärtsilä BridgeMate, Wärtsilä Navi-Planner and Wärtsilä IoT Gateway.
+
+In this role, you will act as the bridge between product managers, development teams, certification authorities, and end-users, ensuring our solutions remain compliant, cyber-secure, and future-ready (S-100, IEC/IHO, naval standards). You will join an Agile product development team and contribute across the full lifecycle: requirements, compliance validation, certification, documentation, and expert consultancy.
+
+The preferred location for this position is Helsinki, Finland.
+
+## Key Responsibilities
+
+- **Requirements engineering:** Collect, analyze, and document business, functional, and non-functional requirements for navigation products.
+- **Documentation:** Compile, structure, and review technical manuals, guides, and other technical documentation.
+- **Cross-team consultancy:** Support software developers, product managers, support engineers, and other stakeholders with system-level insights and advice.
+- **Standards expertise:** Help with interpreting applicable international standards in the area of maritime navigation (IMO, IEC, IHO, NATO STANAG, etc.).
+- **Certification support:** Liaise with classification societies and authorities (DNV, BSH, etc.) to secure and maintain type approvals and certificates (MED-B, MER, cyber compliance, etc.).
+- **Verification & validation:** Design and setup up test benches and validate the products
+- **Knowledge sharing:** Maintain the product knowledge base, and conduct trainings and webinars for internal teams, partners, and customers.
+- **Customer interaction:** Provide expert support during inspections, audits, and customer acceptance trials.
+- **Travel:** Occasional business travel (10-20%) to customer sites, shipyards, and authority meetings (most of WECDIS projects are located in India).
+
+## Requirements
+
+To be able to succeed in the position we expect you to have:
+
+- Bachelor's or Master's in Systems Engineering, Electrical/Computer Engineering, IT, or similar.
+- 3+ years of experience as a System Analyst / Requirements Engineer / Technical.
+- Solid knowledge of IT networks (LAN/WAN, TCP/IP).
+- Solid knowledge of computer operating systems: Windows (advanced), Linux.
+- Skilled in requirements and documentation tools (Jira, Confluence).
+- Team player and collaboration mindset.
+- Analytical mindset and ability to learn quickly.
+- Good communication and presentation skills in English.
+- Readiness to business trips.
+
+## Strong Plus
+
+- Maritime experience will be an advantage.
+- Familiarity with relevant IMO, IHO, IEC standards and certification processes.
+- Strong knowledge of navigational or marine electronics systems (ECDIS, WECDIS, INS/IBS, radar integration).
+- Knowledge of marine networks and NMEA protocol.
+- Experience working on military projects as project manager, analyst or another role.
+- Basic knowledge of Python, Batch or PowerShell.
+
+## Why You and Us?
+
+At Wärtsilä, we encourage all employees to take advantage of our diverse training activities, learning solutions, and self-study materials. These resources support the development of your talents and competencies within a global working environment, fostering growth and ambition.
+
+We have an exceptional team with a clear purpose. We are passionate about our work and seek a colleague who shares our enthusiasm for smart technologies and a sustainable future. Join us and be part of a team dedicated to innovation and sustainability.
+
+## Contact & Next Steps
+
+We hope to hear from you soon by submitting your application through our careers portal. We aim to keep you updated on the process throughout. For further questions, please reach out to Violetta Blatz, Head of Engineering, Navigation & Data, through violetta.blatz@wartsila.com with any questions related to this position (only for questions from direct job applicants, applications through email will not be recorded or responded to).
+
+Welcome to join us in shaping the decarbonisation of marine and energy!
+
+**Last application date:** 24/09/2025
+
+---
+
+At Wärtsilä we value, respect and embrace all our differences, and are committed to diversity, inclusion and equal employment opportunities; everyone can be their true self and succeed based on their job-relevant merits and abilities. All new Wärtsilä employees in Finland will attend occupational health checks, including drug tests/screenings where applicable. When a person is located outside of Finland, the country legislation is followed. Please note that according to Wärtsilä policy, voluntary consent for a security check may be required from candidates being considered for this position, depending on the applicable country.
+
+## This is Wärtsilä
+
+Wärtsilä is a global leader in innovative technologies and lifecycle solutions for the marine and energy markets. Our team of 18,300 professionals, in more than 230 locations in 77 countries, shape the decarbonisation transformation of our industries across the globe. Read more on www.wartsila.com.
+
+`#wärtsilämarine #LI-AC1 #LI-Hybrid`
