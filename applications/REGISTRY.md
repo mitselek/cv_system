@@ -38,7 +38,14 @@ This file tracks all job applications generated from the CV system. Each applica
 ### Awaiting Response
 
 - Kaitseressursside Amet - IKT-projektijuht (submitted Nov 23, no response)
+- Tallinna Strateegiakeskus - Innovatsioonispetsialist (ack Nov 24, ~2 weeks to deadline Dec 8)
 - SRINI OÜ - Süsteemianalüütik (ack Nov 28)
+- Eesti Kunstiakadeemia - IT-osakonna juhataja (ack Nov 28)
+- Eesti Rahvusraamatukogu - IT-projektijuht (ack Nov 29)
+- Playtech Estonia - System Analyst (ack Nov 30, ~2 weeks expected)
+- IONA - Technical Architect (ack Dec 1)
+- Posti Oy - Solution Lead Developer (ack Dec 3, application under review)
+- EWQ Zone Oy - Senior Backend Developer (ack Dec 2, first round interviews weeks 50-51)
 - Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
 - 1oT OÜ - Tech Lead (interview Dec 11)
 - Riverty - Tech Platform Lead (ack Dec 3)
@@ -87,13 +94,14 @@ This file tracks all job applications generated from the CV system. Each applica
 ## Statistics
 
 - **Total Applications:** 23
-- **Active (Draft/Ready):** 3
-- **Submitted:** 15
-- **In Interview Process:** 2
+- **Active (Draft/Ready):** 2
+- **Submitted:** 12
+- **In Interview Process:** 3
+- **Pending Response:** 1
+- **Not Applied:** 1
 - **Offers Received:** 0
 - **Positions Accepted:** 0
 - **Rejected:** 3
-- **Not Applied:** 0
 
 ---
 
