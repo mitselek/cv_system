@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "1477415",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477415",
+    "title": "Project manager (production)",
+    "company": "BLRT Grupp AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T00:03:21.254+00:00",
+    "discovered_date": "2025-12-04T14:13:20.254628",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "project manager"
+  ],
+  "category": "Low Priority"
+}

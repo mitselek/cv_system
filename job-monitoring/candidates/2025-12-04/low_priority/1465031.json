@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1465031",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465031",
+    "title": "Eripedagoog (Laagri Kooli Möldre maja)",
+    "company": "Saue Vallavalitsuse allasutus",
+    "location": "Unknown",
+    "posted_date": "2025-11-10T11:48:41.000+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902997",
+    "description": "Spordikompensatsioon",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

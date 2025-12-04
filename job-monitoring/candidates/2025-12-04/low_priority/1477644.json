@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1477644",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477644",
+    "title": "Baltics IT Business Analyst",
+    "company": "DPD Eesti AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T08:49:07.105+00:00",
+    "discovered_date": "2025-12-04T13:57:13.154505",
+    "description": "Our requirements:\nHigher Education in Computer Science, Information Systems, or a related field.\nProven experience in business and systems analysis, design, and documentation.\nExperience in stakeholders' engagement and representation.\nExcellent organizational skills, attention to details.\nEffective communication and interpersonal skills.\nAbility to communicate in a language understandable to business, technical team and customers. Ability to work independently and within the cross-functional and business units' teams. Knowledge of analysis related tools, frameworks, standard modeling languages, e.g., BPML, UML.\nExcellent English knowledge (oral and written).\nNice to have (competitive advantages):\nUnderstanding of system integration concepts and how data moves between systems.\nFamiliarity with web services\nAwareness of data exchange protocols such as FTP/SFTP, message queues, etc.\nAbility to interpret or validate data in JSON, XML, or CSV formats.\nBasic understanding of data modeling.\nAbility to interpret or write simple data extract queries\nGeneral awareness of cloud platforms (e.g., Salesforce, Azure) and their role in modern IT ecosystems.\n\nYour responsibilities:\n1.  Business & Technical Analysis\nWork with stakeholders to define and document clear business case, needs and problems, business solution, functional and non-functional requirements, and success metrics.\nTranslate requirements into IT solutionʼs technical specifications.\nAnalyze, evaluate and document IT solutions, systems and integrations to support IT\nenhancements and new implementations.\nAssess, analyze, develop and document process models (e.g., BPMN) to support process digital transformation and/or IT optimization.\nDefine User Acceptance Testing (UAT) scenarios, acceptance criteria, and traceability to\nrequirements, support UAT.\n2.  Community Engagement\nRepresent DPD Baltics interests, participate in community initiatives.\n3.  User Support & Training\nPrepare and deliver clear documentation, presentations, and training materials to ensure effective knowledge transfer to IT support teams, business users, and other stakeholders.\n4.  Collaboration\nFacilitate workshops and requirement-gathering sessions with stakeholders.\nContribute to project planning, estimation, and prioritisation.\nSupport solution design, testing, and deployment phases.\nCollaborate with project managers, architects, business and technical service owners, and 3rd party services providers to ensure business requirements are correctly implemented.\n5.  Continuous Improvement\nIdentify opportunities for process improvement, automation, and digital transformation.\nStay informed about emerging technologies, logistics innovations, and business analysis trends.\nPromote data-driven decision making.\nContinuous improvement of business analysis service quality and KPIʼs\n\nCompany offers:\nGain international working experience and learn from the best in Geopost.\nFlexible working environment and a comprehensive benefits package.\nAnnual bonus.\nAdditional benefits like a monthly Stebby allowance, additional mental health benefits, 100% sickness leave payment for the first 3 days, additional holiday days, and more.\nPersonal mentor to support you.\nOnboarding and training plan.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "negative_keywords": -20.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "azure",
+    "project manager"
+  ],
+  "category": "Low Priority"
+}

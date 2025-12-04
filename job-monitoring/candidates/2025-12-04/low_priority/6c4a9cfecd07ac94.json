@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "6c4a9cfecd07ac94",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/plm-solution-architect-scsap-19573168",
+    "title": "PLM Solution Architect",
+    "company": "Capgemini Finland",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 5.9.",
+    "discovered_date": "2025-12-04T13:57:24.686891",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0
+  },
+  "matched_keywords": [
+    "architect"
+  ],
+  "category": "Low Priority"
+}

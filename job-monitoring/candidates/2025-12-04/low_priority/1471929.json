@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1471929",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1471929",
+    "title": "Tehniline projektijuht",
+    "company": "M-Partner",
+    "location": "Unknown",
+    "posted_date": "2025-11-24T08:25:51.297+00:00",
+    "discovered_date": "2025-12-04T14:13:20.254208",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

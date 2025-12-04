@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1465387",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465387",
+    "title": "Energiateenuse müügi ja strateegilise kliendisuhte juht",
+    "company": "CV-Online värbamisteenused",
+    "location": "Unknown",
+    "posted_date": "2025-11-10T18:59:20.000+00:00",
+    "discovered_date": "2025-12-04T14:13:20.256633",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

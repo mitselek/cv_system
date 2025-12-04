@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "5c71a97e12db9cc2",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/haemme-koodaavaa-arkkitehtia-teknologiamodernisoinnin-automaatioratkaisuihin-scsgi-19799239",
+    "title": "Haemme koodaavaa arkkitehtiä teknologiamodernisoinnin automaatioratkaisuihin",
+    "company": "CGI Suomi",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 3.12.",
+    "discovered_date": "2025-12-04T13:57:24.682714",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

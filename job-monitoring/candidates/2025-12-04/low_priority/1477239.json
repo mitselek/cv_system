@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1477239",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477239",
+    "title": "MLOps Engineer",
+    "company": "If P&C Insurance AS ",
+    "location": "Unknown",
+    "posted_date": "2025-12-03T12:55:02.070+00:00",
+    "discovered_date": "2025-12-04T13:57:14.889899",
+    "description": "Read more about our employee benefits (in Estonian) https://www.if.ee/ifist/tootamine-ifis/elu-ifis/tootaja-soodustused",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

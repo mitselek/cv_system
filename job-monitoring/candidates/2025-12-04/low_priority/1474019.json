@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1474019",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1474019",
+    "title": "Tallinna Humanitaargümnaasiumi õpetaja abi konkursil",
+    "company": "Tallinna Humanitaargümnaasium",
+    "location": "Unknown",
+    "posted_date": "2025-11-27T07:42:16.000+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902722",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

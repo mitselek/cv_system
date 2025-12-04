@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1469118",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1469118",
+    "title": "Senior FPGA Engineer",
+    "company": "KrattWorks OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-01T18:00:00.992+00:00",
+    "discovered_date": "2025-12-04T14:13:10.524456",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

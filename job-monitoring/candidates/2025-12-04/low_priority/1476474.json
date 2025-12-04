@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1476474",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476474",
+    "title": "Ehituse projektijuht",
+    "company": "SULANE EHITAB OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T12:28:45.250+00:00",
+    "discovered_date": "2025-12-04T14:13:20.254418",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

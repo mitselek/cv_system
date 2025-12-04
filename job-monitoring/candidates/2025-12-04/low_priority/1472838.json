@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1472838",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472838",
+    "title": "IT-süsteemihaldur",
+    "company": "BCS Itera AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T09:02:32.720+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902898",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

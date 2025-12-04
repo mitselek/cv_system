@@ -17,13 +17,21 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text.strip().lower())
 
 
-def _contains_any(text: str, terms: Iterable[str]) -> list[str]:
+def _contains_any(text: str, terms: Iterable[str], use_word_boundary: bool = False) -> list[str]:
     t = _normalize(text)
     found: list[str] = []
     for term in terms:
         term_n = term.strip().lower()
-        if term_n and term_n in t:
-            found.append(term)
+        if not term_n:
+            continue
+        if use_word_boundary:
+            # Use word boundary regex to avoid substring matches like "intern" in "international"
+            pattern = r'\b' + re.escape(term_n) + r'\b'
+            if re.search(pattern, t):
+                found.append(term)
+        else:
+            if term_n in t:
+                found.append(term)
     return found
 
 
@@ -62,14 +70,34 @@ class JobScorer:
             breakdown["positive_keywords"] = val
             matched.extend(pos)
 
-        neg = _contains_any(text, self.cfg.negative_keywords)
+        # Use word boundary for negative keywords to avoid "intern" matching "international"
+        neg = _contains_any(text, self.cfg.negative_keywords, use_word_boundary=True)
         val = -20.0 * len(neg)
         score += val
         if val:
             breakdown["negative_keywords"] = val
 
+        # Title-based scoring: software/developer/arendaja titles get bonus
+        title_lower = job.title.lower() if job.title else ""
+        title_keywords = ["arendaja", "developer", "engineer", "programmer", "programmeerija", 
+                          "architect", "arhitekt", "lead", "manager"]
+        if any(kw in title_lower for kw in title_keywords):
+            score += 15.0
+            breakdown["title_match"] = 15.0
+
+        # Language bonus: Latvian or Russian in title/description
+        lang_text = f"{job.title or ''} {job.description or ''}".lower()
+        if "läti" in lang_text or "latvian" in lang_text or "latviešu" in lang_text:
+            score += 20.0
+            breakdown["language_latvian"] = 20.0
+        if "vene" in lang_text or "russian" in lang_text or "русский" in lang_text:
+            score += 10.0
+            breakdown["language_russian"] = 10.0
+
         # required keywords penalty if any missing
         # Handle OR logic: "python OR javascript" means at least one must be present
+        # But be lenient if description is missing/short (image-based ads)
+        desc_len = len(job.description or "")
         missing_req = []
         for req in self.cfg.required_keywords:
             if " OR " in req:
@@ -83,8 +111,13 @@ class JobScorer:
                     missing_req.append(req)
         
         if missing_req and self.cfg.required_keywords:
-            score -= 50.0
-            breakdown["required_missing"] = -50.0
+            # Softer penalty if description is missing/short (likely image-based ad)
+            if desc_len < 100:
+                score -= 15.0  # Mild penalty - we just don't know enough
+                breakdown["required_missing_no_desc"] = -15.0
+            else:
+                score -= 50.0
+                breakdown["required_missing"] = -50.0
 
         # company preferences
         if job.company:

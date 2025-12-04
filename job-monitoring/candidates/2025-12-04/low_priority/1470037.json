@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1470037",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1470037",
+    "title": "Service Sales Representative",
+    "company": "Toyota Material Handling Baltic Eesti Filiaal",
+    "location": "Unknown",
+    "posted_date": "2025-11-19T11:09:17.000+00:00",
+    "discovered_date": "2025-12-04T13:57:13.154763",
+    "description": "Customer oriented with good communication skills Highly organized, very good planning skills Education and work experience in technical area (automotive, machinery) Experience in customer support Very good Estonian language skills, good English or/and Russian language skills; Computer literacy (Outlook, Excel, PowerPoint) and ability to acquire new programs Actively sell Toyota OEM spare parts, service agreements and service products Prepare offers to customers Visit customers and work in business-to-business environment Report in CRM system daily visits and leads Communicate with customers to coordinate service requests, deadlines, changes etc. Perform control of mechanics` vans and inventories as part of service team Local and international trainings, good work conditions Fixed salary and bonuses for work results Career possibilities in international company Health care compensation, accident insurance Other benefits for employees according to Personnel policy Salary includes also monthly bonus. Monthly bonus depends on results.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "negative_keywords": -20.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

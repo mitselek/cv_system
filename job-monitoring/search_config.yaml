@@ -91,6 +91,11 @@ scoring:
     - Microsoft
     - Guardtime
     - Veriff
+    - RMIT
+    - Rahandusministeerium
+    - Riverty
+    - Playtech
+    - Siseministeerium
   
   preferred_locations:
     - tallinn

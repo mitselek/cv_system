@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "38e6af20eddd0969",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-platform-architect-scsom-19456527",
+    "title": "Senior Platform Architect",
+    "company": "ServiceNow",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 10.7.",
+    "discovered_date": "2025-12-04T13:57:24.687176",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 20.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0
+  },
+  "matched_keywords": [
+    "architect",
+    "senior"
+  ],
+  "category": "Low Priority"
+}

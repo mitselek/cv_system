@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "014b3d2aa8bfa7dc",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-product-manager-sleep-squad-scsom-19799160",
+    "title": "Senior Product Manager, Sleep Squad",
+    "company": "Ōura",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 24.11.",
+    "discovered_date": "2025-12-04T13:57:26.037181",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "senior"
+  ],
+  "category": "Low Priority"
+}

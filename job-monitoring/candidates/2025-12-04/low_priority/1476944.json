@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1476944",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476944",
+    "title": "Tarkvaraarendaja",
+    "company": "RMIT",
+    "location": "Unknown",
+    "posted_date": "2025-12-03T07:47:22.703+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902633",
+    "description": "Arenguvõimalused, paindlik töökorraldus, Stebby, 35 puhkusepäeva, 35 puhkusepäeva, 3 tervisepäeva",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

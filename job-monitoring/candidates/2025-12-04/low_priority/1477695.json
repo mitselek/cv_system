@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "1477695",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477695",
+    "title": "IT Security Engineer",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T09:23:42.552+00:00",
+    "discovered_date": "2025-12-04T13:57:14.889524",
+    "description": "What you need to succeed in the role::\nRelevant university degree or an excellent reason for not having one\nSecurity or related background, with hands-on experience in cybersecurity management and operations tools\nStrong IT skills, including knowledge of hardware, software, networks, and cloud services\nKnowledge of incident response, handling methodologies, and cybersecurity principles\nReadiness to solve problems quickly while always looking for ways to improve the systems\nYou can work independently, take responsibility, and perform well despite ambiguity or constant changes. You are good at communication, fluent in English, comfortable interacting with business and technology, and have excellent analytical skills.\n\nWhat will be your challenge in the role::\nWe are looking for\nIT Security Engineer\nTo join our team in Tallinn\nWhat will be your challenge in the role:\nYou will join the team of security specialists and enthusiasts to work with international stakeholders to resolve cybersecurity operations challenges and vulnerability compliance. You will navigate the SecOps landscape in our global company, be a responsible engineer for at least one of the cybersecurity defence capabilities, and successfully participate in a rotating security analyst role. Your tasks will include the following:\nBuild, configure, test, and maintain dedicated cyber defence systems\nMake sense of the influx of information through the myriad data sources\nStrive for automation of repeatable tasks\nGain situational awareness, determine the effectiveness of observed potential attacks, and perform event correlation using information gathered from various sources within the company.\nPerform cyber defence incident triage.\nTrack and document cyber defence incidents from initial detection through final resolution\n\nWhat do we offer: :\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "negative_keywords": -40.0,
+    "required_missing": -50.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

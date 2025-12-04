@@ -32,9 +32,12 @@ sources:
       - keywords: it juht
         location: ""
         limit: 50
+      - keywords: projektijuht
+        location: ""
+        limit: 50
 
   - name: duunitori
-    enabled: true
+    enabled: false
     cookies_file: /home/michelek/.config/job_scraper_cookies_duunitori.json
     queries:
       - keywords: system analyst

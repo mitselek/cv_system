@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1465601",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1465601",
+    "title": "Massöör",
+    "company": "Kaitseressursside Amet",
+    "location": "Unknown",
+    "posted_date": "2025-11-11T12:58:18.000+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902864",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

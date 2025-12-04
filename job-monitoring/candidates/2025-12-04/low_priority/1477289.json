@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1477289",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477289",
+    "title": "Võrguadministraatorite tiimijuht",
+    "company": "OIXIO IT AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-03T13:50:57.560+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902911",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

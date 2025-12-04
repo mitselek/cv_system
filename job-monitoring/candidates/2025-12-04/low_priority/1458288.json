@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1458288",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1458288",
+    "title": "Eripedagoog",
+    "company": "Tallinna Mustamäe Humanitaargümnaasium",
+    "location": "Unknown",
+    "posted_date": "2025-10-29T07:20:51.000+00:00",
+    "discovered_date": "2025-12-04T13:57:19.903014",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_old": -10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

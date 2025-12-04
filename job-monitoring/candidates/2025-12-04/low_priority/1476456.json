@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1476456",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1476456",
+    "title": "Projektijuht",
+    "company": "BLRT Grupp AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T12:02:19.827+00:00",
+    "discovered_date": "2025-12-04T14:13:20.254373",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

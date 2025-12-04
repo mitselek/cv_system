@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1467136",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1467136",
+    "title": "Palgaarvestuse IT lahenduste konsultant (läti keele oskusega)",
+    "company": "OIXIO Digital AS",
+    "location": "Unknown",
+    "posted_date": "2025-11-13T07:38:07.000+00:00",
+    "discovered_date": "2025-12-04T13:57:19.902918",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

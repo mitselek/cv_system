@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1472986",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472986",
+    "title": "Tarkvarateenuste administraator-projektijuht",
+    "company": "Delfi Meedia AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-02T12:00:00.938+00:00",
+    "discovered_date": "2025-12-04T14:13:20.254163",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}
