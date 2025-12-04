@@ -15,6 +15,10 @@ This file tracks all job applications generated from the CV system. Each applica
 - [ ] Follow up with Entain NCE recruiter (pending since Nov 28)
 - [ ] EWQ Zone first round interviews begin (weeks 50-51)
 
+### Next Week (Dec 9-15)
+
+- [ ] **Dec 11 11:00**: 1oT - Tech Lead (45 min, Google Meet)
+
 ### Upcoming Deadlines
 
 | Deadline | Company | Position | Status |
@@ -36,7 +40,7 @@ This file tracks all job applications generated from the CV system. Each applica
 - Kaitseressursside Amet - IKT-projektijuht (submitted Nov 23, no response)
 - SRINI OÜ - Süsteemianalüütik (ack Nov 28)
 - Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
-- 1oT OÜ - Tech Lead (interview scheduled Dec 4)
+- 1oT OÜ - Tech Lead (interview Dec 11)
 - Riverty - Tech Platform Lead (ack Dec 3)
 
 ---
