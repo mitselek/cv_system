@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1477856",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477856",
+    "title": "Tugiisik Laitse lasteaeda",
+    "company": "Saue Vallavalitsuse allasutus",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T12:42:08.719+00:00",
+    "discovered_date": "2025-12-04T14:46:23.529914",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

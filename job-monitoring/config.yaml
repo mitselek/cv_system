@@ -37,7 +37,8 @@ sources:
         limit: 50
 
   - name: duunitori
-    enabled: false
+    enabled: true
+    full_details: true
     cookies_file: /home/michelek/.config/job_scraper_cookies_duunitori.json
     queries:
       - keywords: system analyst

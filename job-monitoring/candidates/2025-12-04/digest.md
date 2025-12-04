@@ -2,10 +2,10 @@
 
 ## Summary
 
-**Total Candidates**: 93
+**Total Candidates**: 95
 - 🔥 High Priority: 0
 - 📋 Review: 1
-- 💤 Low Priority: 92
+- 💤 Low Priority: 94
 
 ## 📋 Review
 
@@ -376,7 +376,20 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/3ddcf7489ccf30c3.json)
 
-### 28. Riide-  ja erivarustuse laohoidja
+### 28. Tarkvaraarendaja
+
+**Company**: RMIT
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1477812
+**Posted**: 2025-12-04T12:00:31.960+00:00
+
+**Description**: Arengu toetamine, paindlik töökorraldus, 35 puhkusepäeva, 3 tervisepäeva, Stebby, motiveeriv töötasu
+
+📄 [Full Details](low_priority/1477812.json)
+
+### 29. Riide-  ja erivarustuse laohoidja
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -387,7 +400,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1471417.json)
 
-### 29. MLOps Engineer
+### 30. MLOps Engineer
 
 **Company**: If P&C Insurance AS 
 **Location**: Unknown
@@ -400,7 +413,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1477239.json)
 
-### 30. Saalitöötaja Mustamäe Promo Cash&Carry hulgikaupluses
+### 31. Saalitöötaja Mustamäe Promo Cash&Carry hulgikaupluses
 
 **Company**: Sanitex OÜ
 **Location**: Unknown
@@ -411,7 +424,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1474194.json)
 
-### 31. Service Sales Representative
+### 32. Service Sales Representative
 
 **Company**: Toyota Material Handling Baltic Eesti Filiaal
 **Location**: Unknown
@@ -424,7 +437,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1470037.json)
 
-### 32. Haemme koodaavaa arkkitehtiä teknologiamodernisoinnin automaatioratkaisuihin
+### 33. Haemme koodaavaa arkkitehtiä teknologiamodernisoinnin automaatioratkaisuihin
 
 **Company**: CGI Suomi
 **Location**: Helsinki –
@@ -435,7 +448,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/5c71a97e12db9cc2.json)
 
-### 33. Müügi projektijuht (Rantelon OÜ)
+### 34. Müügi projektijuht (Rantelon OÜ)
 
 **Company**: Tammiste Personalibüroo OÜ
 **Location**: Unknown
@@ -446,7 +459,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1469276.json)
 
-### 34. Senior Product Manager, Sleep Squad
+### 35. Senior Product Manager, Sleep Squad
 
 **Company**: Ōura
 **Location**: Helsinki –
@@ -458,7 +471,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/014b3d2aa8bfa7dc.json)
 
-### 35. Projektijuhi abi
+### 36. Projektijuhi abi
 
 **Company**: LEONHARD WEISS OÜ
 **Location**: Unknown
@@ -469,7 +482,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1477148.json)
 
-### 36. Arst
+### 37. Arst
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -480,7 +493,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1465888.json)
 
-### 37. Eripedagoog
+### 38. Eripedagoog
 
 **Company**: Raasiku Vallavalitsus
 **Location**: Unknown
@@ -496,7 +509,7 @@ Koostöisus, lahendusmeelsus ning väga hea suhtle...
 
 📄 [Full Details](low_priority/1464850.json)
 
-### 38. IT-süsteemihaldur
+### 39. IT-süsteemihaldur
 
 **Company**: BCS Itera AS
 **Location**: Unknown
@@ -507,7 +520,7 @@ Koostöisus, lahendusmeelsus ning väga hea suhtle...
 
 📄 [Full Details](low_priority/1472838.json)
 
-### 39. Taastusraviõde
+### 40. Taastusraviõde
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -518,7 +531,7 @@ Koostöisus, lahendusmeelsus ning väga hea suhtle...
 
 📄 [Full Details](low_priority/1471242.json)
 
-### 40. Projektijuht
+### 41. Projektijuht
 
 **Company**: Norma AS
 **Location**: Unknown
@@ -529,7 +542,7 @@ Koostöisus, lahendusmeelsus ning väga hea suhtle...
 
 📄 [Full Details](low_priority/1467295.json)
 
-### 41. Psühholoog
+### 42. Psühholoog
 
 **Company**: Astangu Kutserehabilitatsiooni Keskus
 **Location**: Unknown
@@ -540,7 +553,7 @@ Koostöisus, lahendusmeelsus ning väga hea suhtle...
 
 📄 [Full Details](low_priority/1474103.json)
 
-### 42. Projektijuht
+### 43. Projektijuht
 
 **Company**: Töötukassa vahendatud pakkumised
 **Location**: Unknown
@@ -562,7 +575,7 @@ Tööülesanded:
 
 📄 [Full Details](low_priority/1462993.json)
 
-### 43. Grupi turunduse projektijuht
+### 44. Grupi turunduse projektijuht
 
 **Company**: Bigbank AS
 **Location**: Unknown
@@ -573,7 +586,7 @@ Tööülesanded:
 
 📄 [Full Details](low_priority/1470332.json)
 
-### 44. Müüja - laotöötaja Tähesaju JYSK
+### 45. Müüja - laotöötaja Tähesaju JYSK
 
 **Company**: JYSK Linnen`n Furniture OÜ
 **Location**: Unknown
@@ -591,7 +604,7 @@ Sa t...
 
 📄 [Full Details](low_priority/1470029.json)
 
-### 45. Füüsikaõpetaja (Aruküla Põhikool)
+### 46. Füüsikaõpetaja (Aruküla Põhikool)
 
 **Company**: Raasiku Vallavalitsus
 **Location**: Unknown
@@ -605,7 +618,7 @@ kvalifikatsiooninõuetele vastav haridus (või selle omandamine). Kandideeri jul
 
 📄 [Full Details](low_priority/1467698.json)
 
-### 46. Projektijuht
+### 47. Projektijuht
 
 **Company**: Filter AS
 **Location**: Unknown
@@ -620,7 +633,7 @@ Tehniline kõrgharidus, automaatika, ehituse, energeetika, keskkonnaehituse ...
 
 📄 [Full Details](low_priority/1464859.json)
 
-### 47. Projektijuht
+### 48. Projektijuht
 
 **Company**: Everster OÜ
 **Location**: Unknown
@@ -634,7 +647,7 @@ Kui Sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade ter
 
 📄 [Full Details](low_priority/1464398.json)
 
-### 48. Tehnik
+### 49. Tehnik
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -645,7 +658,7 @@ Kui Sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade ter
 
 📄 [Full Details](low_priority/1471842.json)
 
-### 49. Senior FPGA Engineer
+### 50. Senior FPGA Engineer
 
 **Company**: KrattWorks OÜ
 **Location**: Unknown
@@ -657,7 +670,7 @@ Kui Sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade ter
 
 📄 [Full Details](low_priority/1469118.json)
 
-### 50. IT Product Area Owner in Wealth Management
+### 51. IT Product Area Owner in Wealth Management
 
 **Company**: Aktia Pankki Oyj
 **Location**: Helsinki –
@@ -668,7 +681,7 @@ Kui Sind kõnetab Eesti olemasoleva elamufondi renoveerimine ja kortermajade ter
 
 📄 [Full Details](low_priority/9b9a711144a3021e.json)
 
-### 51. Ehituse ärisuuna juht
+### 52. Ehituse ärisuuna juht
 
 **Company**: Pindi Kinnisvarahaldus OÜ
 **Location**: Unknown
@@ -687,7 +700,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1476273.json)
 
-### 52. Eripedagoog (Laagri Kooli Möldre maja)
+### 53. Eripedagoog (Laagri Kooli Möldre maja)
 
 **Company**: Saue Vallavalitsuse allasutus
 **Location**: Unknown
@@ -700,7 +713,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1465031.json)
 
-### 53. Looduskaitse planeerimise osakond projekti ekspert
+### 54. Looduskaitse planeerimise osakond projekti ekspert
 
 **Company**: Keskkonnaamet
 **Location**: Unknown
@@ -711,7 +724,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1474183.json)
 
-### 54. Ettevõtlussuhete projektijuht (tervise valdkond, tähtajaline leping)
+### 55. Ettevõtlussuhete projektijuht (tervise valdkond, tähtajaline leping)
 
 **Company**: Tartu Ülikool
 **Location**: Unknown
@@ -722,7 +735,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1470534.json)
 
-### 55. Projektijuht
+### 56. Projektijuht
 
 **Company**: BLRT Grupp AS
 **Location**: Unknown
@@ -733,7 +746,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1476456.json)
 
-### 56. Eripedagoog
+### 57. Eripedagoog
 
 **Company**: Tallinna Mustamäe Humanitaargümnaasium
 **Location**: Unknown
@@ -744,7 +757,18 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1458288.json)
 
-### 57. Kokk (Tapa)
+### 58. Tugiisik Laitse lasteaeda
+
+**Company**: Saue Vallavalitsuse allasutus
+**Location**: Unknown
+**Score**: 0.0/100
+**Source**: cvee
+**URL**: https://cv.ee/et/vacancy/1477856
+**Posted**: 2025-12-04T12:42:08.719+00:00
+
+📄 [Full Details](low_priority/1477856.json)
+
+### 59. Kokk (Tapa)
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -755,7 +779,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1477785.json)
 
-### 58. Diginoorsootöötaja
+### 60. Diginoorsootöötaja
 
 **Company**: Tartu Linnavalitsus
 **Location**: Unknown
@@ -766,7 +790,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1471255.json)
 
-### 59. Elektritehnik
+### 61. Elektritehnik
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -777,7 +801,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1475457.json)
 
-### 60. IT-projektijuht
+### 62. IT-projektijuht
 
 **Company**: Eesti Rahvusraamatukogu
 **Location**: Unknown
@@ -788,7 +812,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1475106.json)
 
-### 61. Ülem-arst
+### 63. Ülem-arst
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -799,7 +823,7 @@ projektijuhtimises
 
 📄 [Full Details](low_priority/1465807.json)
 
-### 62. Ehituse Objekti- ja Projektijuht
+### 64. Ehituse Objekti- ja Projektijuht
 
 **Company**: NOCC Solutions OÜ
 **Location**: Unknown
@@ -818,7 +842,7 @@ Oskus lugeda...
 
 📄 [Full Details](low_priority/1476704.json)
 
-### 63. Kehitysinsinööri
+### 65. Kehitysinsinööri
 
 **Company**: FORCIT
 **Location**: Hanko –
@@ -829,7 +853,7 @@ Oskus lugeda...
 
 📄 [Full Details](low_priority/c15c834227200845.json)
 
-### 64. Energiateenuse müügi ja strateegilise kliendisuhte juht
+### 66. Energiateenuse müügi ja strateegilise kliendisuhte juht
 
 **Company**: CV-Online värbamisteenused
 **Location**: Unknown
@@ -840,7 +864,7 @@ Oskus lugeda...
 
 📄 [Full Details](low_priority/1465387.json)
 
-### 65. Reklaamimüügi projektijuht
+### 67. Reklaamimüügi projektijuht
 
 **Company**: Töötukassa vahendatud pakkumised
 **Location**: Unknown
@@ -861,7 +885,7 @@ Helistades ja e-kirju saates võtad ühendust tur...
 
 📄 [Full Details](low_priority/1476775.json)
 
-### 66. PROJEKTIJUHT
+### 68. PROJEKTIJUHT
 
 **Company**: Rail Baltic Estonia OÜ
 **Location**: Unknown
@@ -872,7 +896,7 @@ Helistades ja e-kirju saates võtad ühendust tur...
 
 📄 [Full Details](low_priority/1449907.json)
 
-### 67. Office Manager
+### 69. Office Manager
 
 **Company**: Playstack OÜ
 **Location**: Unknown
@@ -892,7 +916,7 @@ Tallinn, Estonia
 
 📄 [Full Details](low_priority/1477123.json)
 
-### 68. Nooremstaabiallohvitser
+### 70. Nooremstaabiallohvitser
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -903,7 +927,7 @@ Tallinn, Estonia
 
 📄 [Full Details](low_priority/1439028.json)
 
-### 69. Full Stack Java arendaja (sisuteenused)
+### 71. Full Stack Java arendaja (sisuteenused)
 
 **Company**: Siseministeeriumi infotehnoloogia- ja arenduskeskus
 **Location**: Unknown
@@ -915,7 +939,7 @@ Tallinn, Estonia
 
 📄 [Full Details](low_priority/1428361.json)
 
-### 70. Võrguadministraatorite tiimijuht
+### 72. Võrguadministraatorite tiimijuht
 
 **Company**: OIXIO IT AS
 **Location**: Unknown
@@ -926,7 +950,7 @@ Tallinn, Estonia
 
 📄 [Full Details](low_priority/1477289.json)
 
-### 71. Assistent-projektijuht
+### 73. Assistent-projektijuht
 
 **Company**: PLMF Arts Management
 **Location**: Unknown
@@ -943,7 +967,7 @@ Valm...
 
 📄 [Full Details](low_priority/1477164.json)
 
-### 72. Keskkonnahariduse projektijuht
+### 74. Keskkonnahariduse projektijuht
 
 **Company**: Keskkonnainvesteeringute Keskus SA
 **Location**: Unknown
@@ -954,7 +978,7 @@ Valm...
 
 📄 [Full Details](low_priority/1474035.json)
 
-### 73. Elektriinsener
+### 75. Elektriinsener
 
 **Company**: Hitachi Energy Estonia AS
 **Location**: Unknown
@@ -969,7 +993,7 @@ Otsime ...
 
 📄 [Full Details](low_priority/1468494.json)
 
-### 74. Peadisainer
+### 76. Peadisainer
 
 **Company**: Tallink Grupp AS
 **Location**: Unknown
@@ -982,7 +1006,7 @@ Otsime ...
 
 📄 [Full Details](low_priority/1470945.json)
 
-### 75. Saalitöötaja sügavkülmutatud kaupade osakonda
+### 77. Saalitöötaja sügavkülmutatud kaupade osakonda
 
 **Company**: Sanitex OÜ
 **Location**: Unknown
@@ -993,7 +1017,7 @@ Otsime ...
 
 📄 [Full Details](low_priority/1469592.json)
 
-### 76. Tugiisik
+### 78. Tugiisik
 
 **Company**: Kiili Vallavalitsus
 **Location**: Unknown
@@ -1004,7 +1028,7 @@ Otsime ...
 
 📄 [Full Details](low_priority/1473330.json)
 
-### 77. Logopeed (Laagri Kooli peamaja)
+### 79. Logopeed (Laagri Kooli peamaja)
 
 **Company**: Saue Vallavalitsuse allasutus
 **Location**: Unknown
@@ -1017,7 +1041,7 @@ Otsime ...
 
 📄 [Full Details](low_priority/1465029.json)
 
-### 78. Elektritööde Projektijuht
+### 80. Elektritööde Projektijuht
 
 **Company**: Töötukassa vahendatud pakkumised
 **Location**: Unknown
@@ -1037,7 +1061,7 @@ Sinu töö on mitmekülgne ja vastutusrikas:
 
 📄 [Full Details](low_priority/1472553.json)
 
-### 79. Projektijuht-analüütik
+### 81. Projektijuht-analüütik
 
 **Company**: Haridus- ja Noorteamet
 **Location**: Unknown
@@ -1048,7 +1072,7 @@ Sinu töö on mitmekülgne ja vastutusrikas:
 
 📄 [Full Details](low_priority/1477005.json)
 
-### 80. IT Security Engineer
+### 82. IT Security Engineer
 
 **Company**: Riverty 
 **Location**: Unknown
@@ -1063,7 +1087,7 @@ Security or related background, with hands-on experience in cybersecurity manage
 
 📄 [Full Details](low_priority/1477695.json)
 
-### 81. Ehituse projektijuht
+### 83. Ehituse projektijuht
 
 **Company**: SULANE EHITAB OÜ
 **Location**: Unknown
@@ -1074,7 +1098,7 @@ Security or related background, with hands-on experience in cybersecurity manage
 
 📄 [Full Details](low_priority/1476474.json)
 
-### 82. Ärikliendihaldur
+### 84. Ärikliendihaldur
 
 **Company**: Töötukassa vahendatud pakkumised
 **Location**: Unknown
@@ -1096,7 +1120,7 @@ kellele meeldib suhelda ja kellel on siiras huvi dis...
 
 📄 [Full Details](low_priority/1477482.json)
 
-### 83. Kinnisvarahalduse projektijuht
+### 85. Kinnisvarahalduse projektijuht
 
 **Company**: Psience OÜ klient
 **Location**: Unknown
@@ -1112,7 +1136,7 @@ Väga head organiseerimisvõimet j...
 
 📄 [Full Details](low_priority/1474475.json)
 
-### 84. Planeerimis- ja majandusosakonna juhataja
+### 86. Planeerimis- ja majandusosakonna juhataja
 
 **Company**: Maardu linnavalitsus
 **Location**: Unknown
@@ -1129,7 +1153,7 @@ Maade arvestuse ja maakorra...
 
 📄 [Full Details](low_priority/1473594.json)
 
-### 85. Robotic Software Developer
+### 87. Robotic Software Developer
 
 **Company**: Hiab
 **Location**: Helsinki ja 2 muuta –
@@ -1140,7 +1164,7 @@ Maade arvestuse ja maakorra...
 
 📄 [Full Details](low_priority/a19e0588609f8b70.json)
 
-### 86. Massöör
+### 88. Massöör
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -1151,7 +1175,7 @@ Maade arvestuse ja maakorra...
 
 📄 [Full Details](low_priority/1465601.json)
 
-### 87. Lepete haldur (tähtajaline)
+### 89. Lepete haldur (tähtajaline)
 
 **Company**: Riigi IT Keskus
 **Location**: Unknown
@@ -1164,7 +1188,7 @@ Maade arvestuse ja maakorra...
 
 📄 [Full Details](low_priority/1472440.json)
 
-### 88. Senior Talent Acquisition Specialist
+### 90. Senior Talent Acquisition Specialist
 
 **Company**: Gepard Media OÜ
 **Location**: Unknown
@@ -1180,7 +1204,7 @@ Demonstrated capability in hiring roles such as software engineerin...
 
 📄 [Full Details](low_priority/1477592.json)
 
-### 89. Kirde piirkonna kinnisvarahaldur
+### 91. Kirde piirkonna kinnisvarahaldur
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -1191,7 +1215,7 @@ Demonstrated capability in hiring roles such as software engineerin...
 
 📄 [Full Details](low_priority/1471426.json)
 
-### 90. Arhitekt
+### 92. Arhitekt
 
 **Company**: Viimsi Vallavalitsus
 **Location**: Unknown
@@ -1202,7 +1226,7 @@ Demonstrated capability in hiring roles such as software engineerin...
 
 📄 [Full Details](low_priority/1475059.json)
 
-### 91. Energiakompleksi operaator
+### 93. Energiakompleksi operaator
 
 **Company**: Utilitas 
 **Location**: Unknown
@@ -1213,7 +1237,7 @@ Demonstrated capability in hiring roles such as software engineerin...
 
 📄 [Full Details](low_priority/1468912.json)
 
-### 92. Tarkvarateenuste administraator-projektijuht
+### 94. Tarkvarateenuste administraator-projektijuht
 
 **Company**: Delfi Meedia AS
 **Location**: Unknown
