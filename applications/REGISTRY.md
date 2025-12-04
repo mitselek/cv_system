@@ -38,12 +38,13 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-03 | 1oT OÜ | Tech Lead / Senior Java Software Engineer | 95% | [README](1oT/Tech_Lead_Senior_Java_Software_Engineer/README.md) | Not specified | Submitted | 20+ yrs Java/Spring backend, led 4-member team (100% intern hire rate), API architecture, AWS/Docker. Gaps: Terraform, Grafana, cryptography/HSM. Job ID: 1473117. eSIM/IoT domain. 2025-12-02: Ack received from Julia Tihane via Recrur ATS, continuous review process. |
 | 2025-12-03 | Riverty | Tech Platform Lead | 85% | [README](Riverty/Tech_Platform_Lead/README.md) | Not specified | Submitted | 30+ yrs full-stack, led 4-member team (PÖFF), system architecture (30+ orgs), Node.js (15 yrs), Java/Python. Gaps: Fintech experience, C# documentation, Azure/GCP. Job ID: 1475899. Leadership role managing payment methods, apps, portals, checkout APIs. 2025-12-03: Ack received from Bertelsmann HR/SuccessFactors, application under review. |
 | 2025-12-03 | Wärtsilä Oyj Abp | Senior System Analyst | 70% | [README](Wartsila/Senior_System_Analyst/README.md) | 2025-09-24 (CLOSED) | Draft | Direct Senior System Analyst title at EKI. Network infrastructure (700+ users). Documentation 9/10, Python 9/10. CRITICAL GAP: No maritime/naval systems experience. Job ID: c3a2caad660c3670. Position confirmed closed 2025-12-03 (career portal: "no longer taking applications"). Generated for reference only. |
+| 2025-12-04 | Eesti Raudtee AS | Full-Stack arendaja | 87.5% | [README](Eesti_Raudtee/Full_Stack_Arendaja/README.md) | 2025-12-16 | Submitted | Excellent fit: 15+ yrs Node.js/Java, PostgreSQL/Oracle expertise, Docker/cloud experience. CRITICAL GAP: Svelte/SvelteKit (no direct experience, but strong JavaScript 9/10 foundation, Vue.js framework experience). 2025-12-04: Submitted via CV.ee, confirmation received. Contact: personal@evr.ee |
 
 ## Statistics
 
-- **Total Applications:** 21
+- **Total Applications:** 22
 - **Active (Draft/Ready):** 2
-- **Submitted:** 14
+- **Submitted:** 15
 - **In Interview Process:** 2
 - **Offers Received:** 0
 - **Positions Accepted:** 0
@@ -52,4 +53,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-12-03
+**Last Updated:** 2025-12-04
