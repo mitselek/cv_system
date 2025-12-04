@@ -18,10 +18,12 @@
 **Meeting Link:** https://meet.google.com/zqu-dvfe-hvx
 
 **Join by phone:**
+
 - (EE) +372 685 2061
 - PIN: 548988582
 
 **Attendees:**
+
 - Julia Tihane (organizer)
 - Aleksander Reitsakas
 - Mihkel Putrinš
