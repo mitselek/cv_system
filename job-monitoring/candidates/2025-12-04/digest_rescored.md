@@ -25,7 +25,7 @@ DevOps Engineer: About Playtech Founded in 1999, the company has a premium listi
 
 ### 2. Senior Cloud Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1471768
@@ -38,14 +38,14 @@ What do you need to succeed in the role? : A bachelor's degree in computer scien
 
 ### 3. Senior Software Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1470452
 **Matched**: docker, kubernetes, azure, architecture, architect
 **Breakdown**: {'positive_keywords': 80.0, 'title_match': 15.0, 'preferred_company': 15.0}
 
-What will help you to succeed in the role:  : To thrive in this role and make a meaningful impact, we believe the following qualities and experiences ...
+What will help you to succeed in the role: : To thrive in this role and make a meaningful impact, we believe the following qualities and experiences ...
 
 ---
 
@@ -64,7 +64,7 @@ Duties and Responsibilities: Develop and maintain web applications using React a
 
 ### 5. Senior Software Engineer (Consumer Ledger team)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1472248
@@ -77,7 +77,7 @@ What will help you to succeed in the role: : Hands-on experience with C# and the
 
 ### 6. Senior QA Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1473955
@@ -90,7 +90,7 @@ What will help you to succeed in the role:: • 5+ years of experience as a QA E
 
 ### 7. Tech Platform Lead
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1475899
@@ -103,7 +103,7 @@ What will help to succeed in the role: : Bachelor's or Master's degree in Comput
 
 ### 8. Senior Backend Engineer (m\w\d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1476464
@@ -116,7 +116,7 @@ Job description: It's more than a job In this IT role, you will manage, develop,
 
 ### 9. Senior Backend Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 100/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1470704
@@ -168,7 +168,7 @@ WE MAKE AI REAL Siili is at the forefront of AI-powered digital development. Her
 
 ### 13. Software Engineer (Credit Path)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 90/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1467476
@@ -207,7 +207,7 @@ Key Responsibilities: Test Strategy & Planning: Design, implement, and introduce
 
 ### 16. DevOps Systems Engineer Road Logistics (m/w/d)
 
-**Company**: Kühne + Nagel 
+**Company**: Kühne + Nagel
 **Score**: 85/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1466630
@@ -246,14 +246,14 @@ Fellowmindilla viihtymisen taustalla on sama asia, jonka vuoksi asiakkaatkin luo
 
 ### 19. Senior Software Engineer (Client)
 
-**Company**: Riverty 
+**Company**: Riverty
 **Score**: 80/100
 **Source**: cvee
 **URL**: https://cv.ee/et/vacancy/1473954
 **Matched**: architecture, architect, agile, scrum
 **Breakdown**: {'positive_keywords': 40.0, 'title_match': 15.0, 'preferred_company': 15.0, 'recency_fresh': 10.0}
 
-What will help you to succeed in the role:  : To thrive in this role and make a meaningful impact, we believe the following qualities and experiences ...
+What will help you to succeed in the role: : To thrive in this role and make a meaningful impact, we believe the following qualities and experiences ...
 
 ---
 
@@ -269,7 +269,6 @@ What will help you to succeed in the role:  : To thrive in this role and make a 
 Network Operations Engineer: About Playtech Founded in 1999, the company has a premium listing on the Main Market of the London Stock Exchange and is ...
 
 ---
-
 
 ## 📋 Review
 
@@ -407,4 +406,3 @@ Network Operations Engineer: About Playtech Founded in 1999, the company has a p
 **Breakdown**: {'positive_keywords': 20.0, 'title_match': 15.0, 'recency_fresh': 10.0}
 
 ---
-

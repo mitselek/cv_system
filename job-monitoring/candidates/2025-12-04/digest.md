@@ -3,6 +3,7 @@
 ## Summary
 
 **Total Candidates**: 95
+
 - 🔥 High Priority: 0
 - 📋 Review: 1
 - 💤 Low Priority: 94
@@ -41,7 +42,7 @@ Founded in 1999, the company has a premium listing on the Main Market of the Lon
 In Swedbank you have the opportunity to:
 Develop
 and
-implement statistical      models
+implement statistical models
 for credit risk assessment in accordance wi...
 
 📄 [Full Details](low_priority/1475938.json)
@@ -219,6 +220,7 @@ ELKORAL OÜ
 
 Tööülesanded:
 Sinu töö on mitmekülgne ja vastutusrikas:
+
 - Koostad hinnapakkumisi;
 - Suhtled klientidega, tellijatega ja tarnijatega;
 - Kasutad ja koostad oskuslikult tehnili...
@@ -389,7 +391,7 @@ Kandidaadilt eeldame:
 
 📄 [Full Details](low_priority/1477812.json)
 
-### 29. Riide-  ja erivarustuse laohoidja
+### 29. Riide- ja erivarustuse laohoidja
 
 **Company**: Kaitseressursside Amet
 **Location**: Unknown
@@ -402,7 +404,7 @@ Kandidaadilt eeldame:
 
 ### 30. MLOps Engineer
 
-**Company**: If P&C Insurance AS 
+**Company**: If P&C Insurance AS
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -569,9 +571,10 @@ Tööandja nimi:
 OÜ Belle Industries BV
 
 Tööülesanded:
-* Metalltoodete müügiprojektide juhtimine;
-* Hinnapakkumiste, arvete ja aktide koostamine;
-* Aktiivne koo...
+
+- Metalltoodete müügiprojektide juhtimine;
+- Hinnapakkumiste, arvete ja aktide koostamine;
+- Aktiivne koo...
 
 📄 [Full Details](low_priority/1462993.json)
 
@@ -908,12 +911,6 @@ Helistades ja e-kirju saates võtad ühendust tur...
 **Description**: Location:
 Tallinn, Estonia
 
-
-
-
-
-
-
 📄 [Full Details](low_priority/1477123.json)
 
 ### 70. Nooremstaabiallohvitser
@@ -1055,6 +1052,7 @@ ELKORAL OÜ
 
 Tööülesanded:
 Sinu töö on mitmekülgne ja vastutusrikas:
+
 - Koostad hinnapakkumisi;
 - Suhtled klientidega, tellijatega ja tarnijatega;
 - Kasutad ja koostad oskuslikult tehnili...
@@ -1074,7 +1072,7 @@ Sinu töö on mitmekülgne ja vastutusrikas:
 
 ### 82. IT Security Engineer
 
-**Company**: Riverty 
+**Company**: Riverty
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
@@ -1228,7 +1226,7 @@ Demonstrated capability in hiring roles such as software engineerin...
 
 ### 93. Energiakompleksi operaator
 
-**Company**: Utilitas 
+**Company**: Utilitas
 **Location**: Unknown
 **Score**: 0.0/100
 **Source**: cvee
