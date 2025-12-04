@@ -55,7 +55,7 @@ Mitä tahdot saada tästä roolista? Haluamme johtaa teknista strategiaa, koodat
 
 Olen myös suomalainen, puhun suomea, ja tunnen suomalaisen healthcare-kontekstin. Minulla ei ole muuttovaatimusta.
 
-**Huomio kielestä:** Jos odotatte sujuvaa suomen kielen kommunikaatiota päivästä yksi, niin etsitte muita. Minun suomi on "Ritari Ässä" -tasolla – eli 1990-luvun Suomi-television tason. Tekniikka ja arkkitehtuuri? Sujuvaa. Suomen kieleen johtaminen? Hitaampaa. Mutta se opitaan. 😊
+**Huomio kielestä:** Jos odotatte sujuvaa suomen kielen kommunikaatiota päivästä yksi, niin etsitte muita. Minun suomi on "Ritari Ässä" -tasolla – eli 1990-luvun Suomi-television tason. Tekniikka ja arkkitehtuuri? Sujuvaa. Suomen kieleen johtaminen? Hitaampaa. Mutta se opitaan. Olen varma, että kolmen kuukauden systemaattisella opiskelulla ja harjoittelulla voin kehittää varsin hyvät suomen kielen taidot. Haluan sijoittaa siihen. 😊
 
 **Kiitos**
 
