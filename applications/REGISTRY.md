@@ -2,6 +2,45 @@
 
 This file tracks all job applications generated from the CV system. Each application should be registered here with comprehensive tracking information.
 
+## Action Agenda
+
+### Immediate (Today - Dec 4)
+
+- [ ] **Prepare for interviews tomorrow (Dec 5)**
+  - 10:30 RmIT - Full-Stack arendaja (~1h, MS Teams, Jaana Kivila)
+  - 13:30 Brandem Baltic - Full-stack vanemarendaja (45 min, MS Teams, Margaret Idasaar)
+
+### This Week (Dec 5-8)
+
+- [ ] Follow up with Entain NCE recruiter (pending since Nov 28)
+- [ ] EWQ Zone first round interviews begin (weeks 50-51)
+
+### Upcoming Deadlines
+
+| Deadline | Company | Position | Status |
+|----------|---------|----------|--------|
+| 2025-12-07 | Brandem Baltic OÜ | Full-stack vanemarendaja | Interview |
+| 2025-12-08 | Tallinna Strateegiakeskus | Innovatsioonispetsialist | Submitted |
+| 2025-12-10 | Posti Oy | Solution Lead Developer | Submitted |
+| 2025-12-14 | RmIT | Full-Stack arendaja | Interview |
+| 2025-12-14 | Eesti Kunstiakadeemia | IT-osakonna juhataja | Submitted |
+| 2025-12-14 | Playtech Estonia | System Analyst | Submitted |
+| 2025-12-14 | IONA | Technical Architect | Submitted |
+| 2025-12-14 | EWQ Zone Oy | Senior Backend Developer | Submitted |
+| 2025-12-16 | Eesti Raudtee AS | Full-Stack arendaja | Submitted |
+| 2025-12-21 | DataShift OÜ | Project Manager | Submitted |
+| 2025-12-29 | Eesti Rahvusraamatukogu | IT-projektijuht | Submitted |
+
+### Awaiting Response
+
+- Kaitseressursside Amet - IKT-projektijuht (submitted Nov 23, no response)
+- SRINI OÜ - Süsteemianalüütik (ack Nov 28)
+- Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
+- 1oT OÜ - Tech Lead (ack Dec 2, continuous review)
+- Riverty - Tech Platform Lead (ack Dec 3)
+
+---
+
 ## Status Definitions
 
 - **Draft:** Application materials being prepared, not yet complete
