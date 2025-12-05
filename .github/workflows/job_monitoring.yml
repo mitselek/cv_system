@@ -29,26 +29,26 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -e .
+        cd job-monitoring && pip install -e .
         pip install pytest pytest-cov mypy ruff types-pyyaml types-requests
     
     - name: Run ruff linting
       run: |
-        ruff check scripts/
+        cd job-monitoring && ruff check src/
     
     - name: Run mypy type checking
       run: |
-        mypy scripts/ --strict
+        cd job-monitoring && mypy src/ --strict
     
     - name: Run tests with coverage
       run: |
-        pytest scripts/ --cov=scripts --cov-report=term --cov-report=xml --cov-report=html
+        cd job-monitoring && pytest tests/ --cov=src --cov-report=term --cov-report=xml --cov-report=html
     
     - name: Upload coverage reports
       uses: codecov/codecov-action@v4
       if: always()
       with:
-        file: ./coverage.xml
+        file: ./job-monitoring/coverage.xml
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
@@ -58,11 +58,12 @@ jobs:
       if: always()
       with:
         name: coverage-report
-        path: htmlcov/
+        path: job-monitoring/htmlcov/
     
     - name: Check test count
       run: |
-        TEST_COUNT=$(pytest scripts/ --collect-only -q | tail -1 | awk '{print $1}')
+        cd job-monitoring
+        TEST_COUNT=$(pytest tests/ --collect-only -q | tail -1 | awk '{print $1}')
         echo "Total tests: $TEST_COUNT"
         if [ "$TEST_COUNT" -lt 100 ]; then
           echo "❌ Expected at least 100 tests, found $TEST_COUNT"
