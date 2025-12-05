@@ -50,7 +50,7 @@ This file tracks all job applications generated from the CV system. Each applica
 - Playtech Estonia - System Analyst (ack Nov 30, ~2 weeks expected)
 - IONA - Technical Architect (ack Dec 1)
 - Siili Solutions - Data Platform Architect (ack Dec 4, application under review)
-- Posti Oy - Solution Lead Developer (ack Dec 3 & 5, application under review)
+- Posti Oy - Solution Lead Developer (ack Dec 3 & 5, application under review, follow-up ack received Dec 5)
 - EWQ Zone Oy - Senior Backend Developer (ack Dec 2, first round interviews weeks 50-51)
 - Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
 - 1oT OÜ - Tech Lead (interview Dec 11)
