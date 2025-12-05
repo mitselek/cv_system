@@ -1,3 +1,10 @@
+---
+docID: PREP-2025-12-05
+version: 1.0
+date: 2025-12-05
+author: Mihkel Putrinš
+---
+
 # Intervjuude ettevalmistus - 5. detsember 2025
 
 ## EESTIKEELSED VESTLUSPUNKTID
