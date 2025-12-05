@@ -29,8 +29,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        cd job-monitoring && pip install -e .
-        pip install pytest pytest-cov mypy ruff types-pyyaml types-requests
+        cd job-monitoring && pip install -e . pytest pytest-cov mypy ruff types-pyyaml types-requests
     
     - name: Run ruff linting
       run: |
