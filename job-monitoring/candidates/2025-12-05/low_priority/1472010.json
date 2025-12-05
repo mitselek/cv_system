@@ -1,0 +1,24 @@
+{
+  "job": {
+    "id": "1472010",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1472010",
+    "title": "Microsoft pilveinsener",
+    "company": "RMIT",
+    "location": "Unknown",
+    "posted_date": "2025-11-24T09:43:40.566+00:00",
+    "discovered_date": "2025-12-05T08:59:55.071411",
+    "description": "Paindlik töökorraldus, kaasaegsed õpivõimalused, Stebby, 3 tervisepäeva, 35 puhkusepäeva",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

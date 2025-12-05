@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "1478025",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478025",
+    "title": "Senior Software Engineer (m/w/d)",
+    "company": "Kühne + Nagel ",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T15:37:03.673+00:00",
+    "discovered_date": "2025-12-05T08:59:43.745383",
+    "description": "Job description:\nIt's more than a job\nIn this IT role, you will manage, develop, and support the technology infrastructure that powers Kuehne+Nagel's global systems and operations. This contribution is vital to making both special and ordinary moments in the lives of people a reality. In fact, your work enables our teams to deliver fresh fruit, time-sensitive healthcare products and much more to people all around the world. Working in IT at Kuehne+Nagel contributes to more than we imagine.\nWe're looking for an experienced Senior Developer to join our team, someone who will take ownership of designing, maintaining, and continuously improving a critical screening service. This service validates parties, individuals, and their addresses against multiple sanctions lists. The primary objective is to ensure full compliance with regulatory requirements and sanctioned regimes, which is crucial for keeping our trade control and compliance processes running smoothly.\nIn this role, you will be responsible for improving the services accuracy, scalability, and efficiency through development practices, automation, and performance optimization. You will work closely with compliance teams to deliver dependable solutions that reduce risk and strengthen our compliance framework. Your efforts will play a key role in ensuring the company remains protected against sanctions-related challenges.\nHow you create impact\nDesign, implement, and maintain secure, scalable, and maintainable software.\nEnsure quality through automated testing (unit, integration, UI, performance) and targeted manual tests.\nDesign and optimize database models, queries, and performance.\nFollow clean code practices, contributing to code reviews and development standards.\nProactively improve the codebase: refactor for simplicity, performance, and maintainability on a continuous basis.\nParticipate in planning discussions and technical evaluation of features and changes.\nCollaborate closely with developers, Product Owners, analysts, and other stakeholders.\nWhat we would like you to bring\n5+ years of hands-on software development experience in enterprise and cloud environments, with strong expertise in Java, Spring Boot, and relational databases (Postgres, MySQL).\nExperienced with frontend frameworks (Angular, ReactJS) and RESTful API design, with a deep understanding of efficient messaging systems such as Kafka and RMQ.\nHands-on experience working with CI/CD tools (Jenkins, GitLab CI).\nProven experience designing and implementing systems optimized for high availability, scalability, and performance, capable of handling large data volumes and high request rates.\nExperience with AWS environment setup, automation, and maintenance is highly desirable.\nProven ability to write clean, maintainable code and a commitment to continuous code improvement.\nExcellent analytical and problem-solving abilities, combined with strong communication and mentoring skills. Proficient in both written and spoken English.\nStrong sense of ownership, initiative, and accountability for product quality and technical direction.\nWhat's in it for you\nJoin Kuehne+Nagel's IT Hub in Tallinn, where your work will have a meaningful impact on the logistics industry. Here, you'll find a hybrid work model, extensive health benefits, and a culture of continuous learning that ensures your career growth. You'll be surrounded by extraordinary and committed people, all dedicated to shaping the future of logistics. Even if you don't tick every box, we encourage you to apply - your unique perspective and experience could be exactly what we need. Be part of a team that values work-life balance, supports your personal well-being, and empowers you to contribute to something truly impactful.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 110.0,
+    "title_match": 15.0,
+    "required_missing": -50.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "java",
+    "react",
+    "angular",
+    "data",
+    "senior",
+    "aws",
+    "ci/cd",
+    "infrastructure",
+    "API",
+    "database",
+    "product owner"
+  ],
+  "category": "High Priority"
+}

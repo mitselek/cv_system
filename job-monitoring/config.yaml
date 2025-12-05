@@ -94,6 +94,7 @@ scoring:
     - react
     - vue
     - angular
+    - data
     
     # Architecture & leadership
     - architect

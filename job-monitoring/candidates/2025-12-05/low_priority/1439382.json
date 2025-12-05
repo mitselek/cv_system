@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1439382",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1439382",
+    "title": "Kütte- ja jahutussüsteemide ehituse projektijuht",
+    "company": "CV-Online värbamisteenused",
+    "location": "Unknown",
+    "posted_date": "2025-10-03T10:59:31.000+00:00",
+    "discovered_date": "2025-12-05T08:59:59.873151",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0,
+    "recency_old": -10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

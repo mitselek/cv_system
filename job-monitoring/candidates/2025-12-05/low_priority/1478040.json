@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1478040",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478040",
+    "title": "Vastavuskontrolli juht",
+    "company": "Enefit",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T16:46:31.252+00:00",
+    "discovered_date": "2025-12-05T08:59:55.070475",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

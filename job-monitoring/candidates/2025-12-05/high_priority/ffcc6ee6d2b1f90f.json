@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "ffcc6ee6d2b1f90f",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/viestimedia-full-stack-tech-lead-sdsuu-19771977",
+    "title": "Full Stack Tech Lead",
+    "company": "Viestimedia Oy",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 21.11.",
+    "discovered_date": "2025-12-05T09:00:00.804997",
+    "description": "Kyllästyttääkö hidas kehittäminen ja projektista toiseen pomppiminen? Haluaisitko mieluummin tehdä työtä, jossa pääset vaikuttamaan media-alan digitransformaatioon aitiopaikalla? Haemme nyt Digitaalisten palvelut, Data ja AI -tiimiimme Full Stack Tech Leadia Tehtävässä vastuullasi ovat Viestimedian digitaaliset palvelut, jotka vaikuttavat viikoittain yli puolen miljoonan suomalaisen elämään. Pääset kehittämään moderneja verkkosovelluksiamme pitkäjänteisesti aina suunnittelusta toteutukseen sekä ylläpitoon yhdessä pienen ja ketterän tiimimme kanssa. Pääset myös kehittämään tekoälyratkaisuja sekä Viestimedian henkilökunnan että asiakkaidemme hyödyksi. Olet tehtävään oikea henkilö, jos sinulta löytyy näkemyksellisyyttä, itsenäistä ongelmanratkaisukykyä sekä aloitteellisuutta. Pystyt ottamaan vastuuta, mutta olet ennen kaikkea tiimipelaaja ja jaat mielelläsi oppeja myös koko tiimille. Työskentelet tiiviissä yhteistyössä niin sisäisten kuin ulkoistenkin kumppaneiden kanssa. Menestyäksesi sinulla tulisi olla kokemusta seuraavista asioista: Node.js, React, TypeScript AWS (Lambda, S3, ECS, API Gateway, ECR, CloudWatch) AWS CDK Docker GitHub Actions CI/CD PostgreSQL Git workflow management Nice to have: OpenSearch/Elasticsearch Azure AI/ML-kehitys Bash scripting Python Next.js, Remix/react-router Figma Semanttinen HTML + CSS Saavutettavuusosaaminen Plussaa on myös kokemus headless CMS:stä, (S)CSS:stä, microservice-arkkitehtuurista sekä integraatioista. Tekoälyosaaminen ja ymmärrys palveluiden jatkokehittämisestä, ylläpidosta ja moderneista työkaluista sekä ketteristä menetelmistä nostavat sinut seuraavalle tasolle. Tarjoamme sinulle mahdollisuuden rakentaa tulevaisuuden mediapalveluita yhdessä osaavien ja mukavien työkavereiden kanssa. Merkitykselliseen ja monipuoliseen työhön sisältyy kilpailukykyisen palkan lisäksi hyvät ja kattavat henkilöstöedut. Juuri uudistettu ja erittäin viihtyisä toimistomme sijaitsee aivan Helsingin ydinkeskustassa, mutta työskentelemme hyvinkin joustavalla hybridimallilla. Epäröitkö vielä? Jos yllä kuvatun lisäksi arvomme (juureva, yhdessä uudistuva ja rehdisti inhimillinen) puhuttelevat sinua, niin hae 7.12. mennessä täyttämällä hakemus ansioluetteloineen. Lisätietoja antaa: Kehityksen päällikkö Taru Salo, puh. 044 057 0777 maanantaina 24.11. klo 12-13 sekä perjantaina 28.11. klo 10-11. Viestimedia Oy on Suomen johtava maaseutuun, metsään ja kotiin liittyvien mediasisältöjen tuottaja. Monikanavaiset mediamme ovat tunnettuja ja luotettuja. Päätuotteitamme ovat uutismedia Maaseudun Tulevaisuus sekä aikakausmediat Koneviesti ja Metsänomistajan Aarre. Olemme panostaneet voimakkaasti digitaalisiin palveluihin ja tuotamme palkittuja sisältöjä sekä tunnustettuja teknisiä ratkaisuja. Yrityksemme työllistää noin 100 media-alan ammattilaista. Ylpeästi juureva. Yhdessä uudistuva. Rehdisti inhimillinen. www.viestimedia.fi. Rekrytoinnin tietosuojaselosteemme löydät täältä .",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": "0440570777",
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 100.0,
+    "title_match": 15.0
+  },
+  "matched_keywords": [
+    "python",
+    "typescript",
+    "react",
+    "data",
+    "docker",
+    "aws",
+    "azure",
+    "ci/cd",
+    "API",
+    "postgresql"
+  ],
+  "category": "High Priority"
+}
