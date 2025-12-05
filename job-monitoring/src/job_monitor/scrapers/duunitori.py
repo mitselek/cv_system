@@ -121,7 +121,7 @@ class DuunitoriScraper(BaseScraper):
         except (json.JSONDecodeError, IOError):
             return False
     
-    def search(self, query: Dict[str, Any]) -> List[JobPosting]:
+    def search(self, query: dict[str, Any]) -> list[JobPosting]:
         """Search Duunitori for jobs.
         
         Query parameters:
@@ -167,7 +167,7 @@ class DuunitoriScraper(BaseScraper):
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            jobs: List[JobPosting] = []
+            jobs: list[JobPosting] = []
             
             # Duunitori uses .job-box for job listings
             job_elements = soup.select('.job-box')
@@ -194,7 +194,7 @@ class DuunitoriScraper(BaseScraper):
             traceback.print_exc()
             return []
     
-    def _parse_job(self, elem: Tag) -> Optional[JobPosting]:
+    def _parse_job(self, elem: Tag) -> JobPosting | None:
         """Parse a Duunitori job element from HTML.
         
         Args:
@@ -236,7 +236,7 @@ class DuunitoriScraper(BaseScraper):
     
     def _extract_full_details(
         self,
-        jobs: List[JobPosting],
+        jobs: list[JobPosting],
         state_manager: Any = None
     ) -> None:
         """Extract full job descriptions and contact info.
@@ -288,7 +288,7 @@ class DuunitoriScraper(BaseScraper):
             
             print(f"   ✅ Extracted {sum(1 for j in jobs_needing_details if j.description)} descriptions")
     
-    def fetch_job_details(self, job_url: str) -> Dict[str, Any]:
+    def fetch_job_details(self, job_url: str) -> dict[str, Any]:
         """Fetch full job details for CLI enrichment.
         
         Public interface for CLI to call when fetching job descriptions.
@@ -305,7 +305,7 @@ class DuunitoriScraper(BaseScraper):
             **contact_info
         }
     
-    def _extract_job_details(self, job_url: str) -> Tuple[Optional[str], Dict[str, Optional[str]]]:
+    def _extract_job_details(self, job_url: str) -> tuple[str | None, dict[str, str | None]]:
         """Fetch full job posting page and extract description and contact info.
         
         Args:
@@ -336,7 +336,7 @@ class DuunitoriScraper(BaseScraper):
             print(f"⚠️  Error extracting details from {job_url}: {e}")
             return None, {}
     
-    def _extract_contact_info(self, soup: BeautifulSoup) -> Dict[str, Optional[str]]:
+    def _extract_contact_info(self, soup: BeautifulSoup) -> dict[str, str | None]:
         """Extract contact information from job posting page.
         
         Args:

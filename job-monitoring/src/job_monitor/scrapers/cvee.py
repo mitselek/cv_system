@@ -9,7 +9,7 @@ import json
 import logging
 import re
 from datetime import datetime
-from typing import Any, Dict, List, Optional
+from typing import Any
 from urllib.parse import urljoin
 
 import requests
@@ -54,7 +54,7 @@ class CVeeScraper(BaseScraper):
         # Remove leading/trailing hyphens
         return text.strip('-')
     
-    def fetch_job_details(self, job_id: int) -> Optional[Dict[str, Any]]:
+    def fetch_job_details(self, job_id: int) -> dict[str, Any | None]:
         """Fetch full job details by scraping the job page.
         
         The CV.ee website embeds complete job data in a JSON script tag.
@@ -147,13 +147,13 @@ class CVeeScraper(BaseScraper):
         })
         
         # Cache location and category mappings
-        self._locations_cache: Optional[Dict[int, Dict[str, Any]]] = None
-        self._categories_cache: Optional[Dict[int, str]] = None
+        self._locations_cache: dict[int, dict[str, Any | None]] = None
+        self._categories_cache: dict[int, str | None] = None
         
         logger.info("CV.ee scraper initialized")
     
     @cached(ttl=86400)  # Cache locations for 24 hours
-    def _get_locations(self) -> Dict[int, Dict[str, Any]]:
+    def _get_locations(self) -> dict[int, dict[str, Any]]:
         """Fetch and cache location data from CV.ee API.
         
         Returns:
@@ -194,7 +194,7 @@ class CVeeScraper(BaseScraper):
             return {}
     
     @cached(ttl=86400)  # Cache categories for 24 hours
-    def _get_categories(self) -> Dict[int, str]:
+    def _get_categories(self) -> dict[int, str]:
         """Fetch and cache category data from CV.ee API.
         
         Returns:
@@ -226,7 +226,7 @@ class CVeeScraper(BaseScraper):
             logger.error(f"Failed to fetch CV.ee categories: {e}")
             return {}
     
-    def _resolve_location(self, location_ids: List[int]) -> str:
+    def _resolve_location(self, location_ids: list[int]) -> str:
         """Convert location IDs to readable location string.
         
         Args:
@@ -247,7 +247,7 @@ class CVeeScraper(BaseScraper):
         
         return ", ".join(names) if names else "Unknown"
     
-    def _parse_salary(self, vacancy: Dict[str, Any]) -> Optional[str]:
+    def _parse_salary(self, vacancy: dict[str, Any]) -> str | None:
         """Extract and format salary information.
         
         Args:
@@ -273,7 +273,7 @@ class CVeeScraper(BaseScraper):
         
         return None
     
-    def _parse_job(self, vacancy: Dict[str, Any]) -> JobPosting:
+    def _parse_job(self, vacancy: dict[str, Any]) -> JobPosting:
         """Parse a single vacancy from CV.ee API response.
         
         Args:
@@ -331,7 +331,7 @@ class CVeeScraper(BaseScraper):
     
     @retry(max_attempts=3, backoff=2.0)
     @rate_limit(delay=1.5)
-    def search(self, query: Dict[str, Any]) -> List[JobPosting]:
+    def search(self, query: dict[str, Any]) -> list[JobPosting]:
         """Search for jobs on CV.ee using their API.
         
         Args:
@@ -357,7 +357,7 @@ class CVeeScraper(BaseScraper):
         limit = query.get('limit', 100)
         
         # Build query parameters using CV.ee's actual API format
-        params: Dict[str, Any] = {
+        params: dict[str, Any] = {
             'limit': min(limit, 100),
             'offset': query.get('offset', 0),
             'sorting': 'RELEVANCE',

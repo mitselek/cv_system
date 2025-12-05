@@ -5,7 +5,6 @@ Markdown exporter for job candidates.
 Generates human-readable Markdown files alongside JSON for better browsability.
 """
 from pathlib import Path
-from typing import Optional
 from job_monitor.schemas import ScoredJob
 
 

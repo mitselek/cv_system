@@ -11,7 +11,7 @@ Common functionality used across multiple scrapers:
 import functools
 import time
 from collections.abc import Callable
-from typing import Any, Optional, Protocol, TypeVar
+from typing import Any, Protocol, TypeVar
 
 F = TypeVar('F', bound=Callable[..., Any])
 

@@ -8,7 +8,7 @@ rate limiting, and data parsing.
 
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 from job_monitor.schemas import JobPosting
 
@@ -31,7 +31,7 @@ class BaseScraper(ABC):
             def _setup(self) -> None:
                 self.session = requests.Session()
             
-            def search(self, query: dict[str, Any]) -> List[JobPosting]:
+            def search(self, query: dict[str, Any]) -> list[JobPosting]:
                 # Implementation here
                 pass
             
@@ -44,12 +44,12 @@ class BaseScraper(ABC):
     DISPLAY_NAME: str = ""  # e.g., "CV.ee", "Duunitori"
     REQUIRES_COOKIES: bool = False
     REQUIRES_AUTH: bool = False
-    BASE_URLS: List[str] = []  # e.g., ["https://cv.ee"]
+    BASE_URLS: list[str] = []  # e.g., ["https://cv.ee"]
     
     def __init__(
         self,
-        config: Dict[str, Any],
-        cookies_file: Optional[Path] = None
+        config: dict[str, Any],
+        cookies_file: Path | None = None
     ) -> None:
         """Initialize scraper with configuration.
         
@@ -93,7 +93,7 @@ class BaseScraper(ABC):
         pass
     
     @abstractmethod
-    def search(self, query: Dict[str, Any]) -> List[JobPosting]:
+    def search(self, query: dict[str, Any]) -> list[JobPosting]:
         """Search for jobs with given query parameters.
         
         Args:
@@ -112,7 +112,7 @@ class BaseScraper(ABC):
             Exception: If search fails (should be caught by caller)
         
         Example:
-            def search(self, query: dict[str, Any]) -> List[JobPosting]:
+            def search(self, query: dict[str, Any]) -> list[JobPosting]:
                 keywords = query.get('keywords', '')
                 limit = query.get('limit', 20)
                 
