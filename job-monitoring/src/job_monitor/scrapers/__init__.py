@@ -175,8 +175,8 @@ class ScraperRegistry:
 
 
 # Auto-register scrapers
-from job_monitor.scrapers.cvee import CVeeScraper
-from job_monitor.scrapers.duunitori import DuunitoriScraper
+from job_monitor.scrapers.cvee import CVeeScraper  # noqa: E402
+from job_monitor.scrapers.duunitori import DuunitoriScraper  # noqa: E402
 
 ScraperRegistry.register(CVeeScraper)
 ScraperRegistry.register(DuunitoriScraper)
