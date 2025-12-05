@@ -23,6 +23,14 @@ from job_monitor.schemas import JobPosting, JobStatus, ScoredJob, SystemConfig
 from job_monitor.state import StateManager
 from job_monitor.scrapers import ScraperRegistry
 
+# Shared click option decorator for config file
+config_option = click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
+
 
 def _scrape_source(
     source_name: str,
@@ -115,12 +123,7 @@ def cli() -> None:
 
 
 @cli.command()
-@click.option(
-    "--config",
-    default="config.example.yaml",
-    type=click.Path(path_type=Path),
-    help="Path to configuration file",
-)
+@config_option
 @click.option("--dry-run", is_flag=True, help="Run without saving state or candidates")
 @click.option("--force", is_flag=True, help="Force rescan of all sources")
 @click.option("--full-details", is_flag=True, help="Extract full job descriptions (slower, ~1.5s per job)")
@@ -253,12 +256,7 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
 
 @cli.command()
-@click.option(
-    "--config",
-    default="config.example.yaml",
-    type=click.Path(path_type=Path),
-    help="Path to configuration file",
-)
+@config_option
 @click.option(
     "--category",
     type=click.Choice(["high", "review", "low", "all"]),
@@ -340,12 +338,7 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
 
 
 @cli.command()
-@click.option(
-    "--config",
-    default="config.example.yaml",
-    type=click.Path(path_type=Path),
-    help="Path to configuration file",
-)
+@config_option
 def stats(config: Path) -> None:
     """Show monitoring statistics."""
     try:
@@ -385,12 +378,7 @@ def stats(config: Path) -> None:
 @cli.command()
 @click.argument("job-id")
 @click.argument("status", type=click.Choice(["candidate", "applied", "rejected"]))
-@click.option(
-    "--config",
-    default="config.example.yaml",
-    type=click.Path(path_type=Path),
-    help="Path to configuration file",
-)
+@config_option
 def mark(job_id: str, status: str, config: Path) -> None:
     """Mark a job with a new status."""
     try:
@@ -435,12 +423,7 @@ def mark(job_id: str, status: str, config: Path) -> None:
 
 
 @cli.command()
-@click.option(
-    "--config",
-    default="config.example.yaml",
-    type=click.Path(path_type=Path),
-    help="Path to configuration file",
-)
+@config_option
 @click.option("--days", default=60, help="Archive jobs older than this many days")
 @click.option("--dry-run", is_flag=True, help="Show what would be archived without doing it")
 def cleanup(config: Path, days: int, dry_run: bool) -> None:
