@@ -41,7 +41,7 @@ jobs:
     
     - name: Run tests with coverage
       run: |
-        cd job-monitoring && pytest tests/ --cov=src --cov-report=term --cov-report=xml --cov-report=html
+        cd job-monitoring && pytest --cov=src --cov-report=term --cov-report=xml --cov-report=html
     
     - name: Upload coverage reports
       uses: codecov/codecov-action@v4
@@ -62,7 +62,7 @@ jobs:
     - name: Check test count
       run: |
         cd job-monitoring
-        TEST_COUNT=$(pytest tests/ --collect-only -q | tail -1 | awk '{print $1}')
+        TEST_COUNT=$(pytest --collect-only -q | tail -1 | awk '{print $1}')
         echo "Total tests: $TEST_COUNT"
         if [ "$TEST_COUNT" -lt 100 ]; then
           echo "❌ Expected at least 100 tests, found $TEST_COUNT"
