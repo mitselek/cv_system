@@ -115,7 +115,12 @@ def cli() -> None:
 
 
 @cli.command()
-@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
 @click.option("--dry-run", is_flag=True, help="Run without saving state or candidates")
 @click.option("--force", is_flag=True, help="Force rescan of all sources")
 @click.option("--full-details", is_flag=True, help="Extract full job descriptions (slower, ~1.5s per job)")
@@ -219,7 +224,11 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
     # Save only NEW candidates to directories
     if new_candidates and not dry_run:
         counts = _save_candidates(cfg.candidates_dir, new_candidates)
-        click.echo(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
+        msg = (
+            f"Saved candidates: {counts['high_priority']} high, "
+            f"{counts['review']} review, {counts['low_priority']} low"
+        )
+        click.echo(msg)
 
         # Generate digest
         dg = DigestGenerator(cfg.candidates_dir)

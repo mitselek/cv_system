@@ -13,6 +13,7 @@ from urllib.parse import urljoin
 import requests
 
 from job_monitor.schemas import JobPosting
+
 from .base import BaseScraper
 from .utils import cached, rate_limit, retry
 
@@ -300,14 +301,14 @@ class CVeeScraper(BaseScraper):
         # Parse salary - API uses salaryFrom/salaryTo
         salary_from = vacancy.get('salaryFrom')
         salary_to = vacancy.get('salaryTo')
-        salary = None
+        # NOTE: salary info extracted for future use in scoring/filtering
         if salary_from or salary_to:
             if salary_from and salary_to:
-                salary = f"{salary_from}-{salary_to} EUR"
+                _ = f"{salary_from}-{salary_to} EUR"
             elif salary_from:
-                salary = f"From {salary_from} EUR"
+                _ = f"From {salary_from} EUR"
             elif salary_to:
-                salary = f"Up to {salary_to} EUR"
+                _ = f"Up to {salary_to} EUR"
 
         # Get description - API uses positionContent (often empty in search results)
         description = vacancy.get('positionContent') or vacancy.get('description') or ''
