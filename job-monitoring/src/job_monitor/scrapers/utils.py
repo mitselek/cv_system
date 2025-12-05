@@ -147,8 +147,8 @@ def build_user_agent(scraper_name: str = "JobMonitor") -> str:
         user_agent = build_user_agent("CV.ee Scraper")
     """
     return (
-        f"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        f"(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 "
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 "
         f"({scraper_name})"
     )
 

@@ -6,8 +6,6 @@ Phase 2: implement scan workflow with --dry-run and --force.
 """
 from __future__ import annotations
 
-import argparse
-import json
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
@@ -202,7 +200,7 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
             enriched_jobs.append(job)
 
         unique_jobs = enriched_jobs
-        click.echo(f"✓ Fetched full details")
+        click.echo("✓ Fetched full details")
 
     scored = [scorer.score(j) for j in unique_jobs]
 

@@ -118,7 +118,7 @@ class DuunitoriScraper(BaseScraper):
             with open(self.cookies_file, 'r') as f:
                 json.load(f)
             return True
-        except (json.JSONDecodeError, IOError):
+        except OSError:
             return False
 
     def search(self, query: dict[str, Any]) -> list[JobPosting]:
@@ -152,7 +152,7 @@ class DuunitoriScraper(BaseScraper):
         if location:
             print(f"   Location filter: {location}")
         if full_details:
-            print(f"   📄 Full details mode: extracting descriptions (slower)")
+            print("   📄 Full details mode: extracting descriptions (slower)")
 
         url = f"{self.BASE_URLS[0]}/tyopaikat"
         params = {
@@ -363,7 +363,7 @@ class DuunitoriScraper(BaseScraper):
                 # Extract email
                 email_elem = contact_section.select_one('a[href^="mailto:"]')
                 if email_elem:
-                    href = email_elem.get('href', '')
+                    href = email_elem.get('hre', '')
                     email = str(href).replace('mailto:', '') if href else ''
                     if email:
                         contact_info['contact_email'] = email
@@ -383,7 +383,7 @@ class DuunitoriScraper(BaseScraper):
             if not contact_info['contact_email']:
                 email_link = search_area.select_one('a[href^="mailto:"]')
                 if email_link:
-                    href = email_link.get('href', '')
+                    href = email_link.get('hre', '')
                     email = str(href).replace('mailto:', '').strip()
                     if email:
                         contact_info['contact_email'] = email
@@ -392,7 +392,7 @@ class DuunitoriScraper(BaseScraper):
             if not contact_info['contact_phone']:
                 phone_link = search_area.select_one('a[href^="tel:"]')
                 if phone_link:
-                    href = phone_link.get('href', '')
+                    href = phone_link.get('hre', '')
                     phone = str(href).replace('tel:', '').strip()
                     # Remove common phone number formatting
                     phone = re.sub(r'[\s\-\(\)]', '', phone)
