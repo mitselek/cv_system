@@ -150,7 +150,7 @@ class BaseScraper(ABC):
         Can be overridden in config:
             config = {'rate_limit_delay': 2.0}
         """
-        return self.config.get('rate_limit_delay', 1.5)
+        return float(self.config.get('rate_limit_delay', 1.5))
 
     def fetch_job_details(self, job_id: str) -> dict[str, Any] | None:
         """Fetch full details for a specific job.

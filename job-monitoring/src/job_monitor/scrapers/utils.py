@@ -58,7 +58,7 @@ def rate_limit(delay: float = 1.5) -> Callable[[F], F]:
 def retry(
     max_attempts: int = 3,
     backoff: float = 2.0,
-    exceptions: tuple = (Exception,)
+    exceptions: tuple[type[Exception], ...] = (Exception,)
 ) -> Callable[[F], F]:
     """Decorator to retry function calls on failure.
 
@@ -109,7 +109,7 @@ def cached(ttl: float | None = None) -> Callable[[Callable[..., Any]], CachedFun
             return requests.get('/api/locations').json()
     """
     def decorator(func: Callable[..., Any]) -> CachedFunction:
-        cache: dict[tuple, tuple[Any, float]] = {}
+        cache: dict[tuple[Any, ...], tuple[Any, float]] = {}
 
         @functools.wraps(func)
         def wrapper(*args: Any, **kwargs: Any) -> Any:
@@ -153,7 +153,7 @@ def build_user_agent(scraper_name: str = "JobMonitor") -> str:
     )
 
 
-def safe_get(data: dict, *keys: str, default: Any = None) -> Any:
+def safe_get(data: dict[str, Any], *keys: str, default: Any = None) -> Any:
     """Safely get nested dictionary value.
 
     Args:
