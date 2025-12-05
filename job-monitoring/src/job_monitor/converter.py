@@ -244,7 +244,10 @@ class ApplicationConverter:
 
         # Create new entry row
         fit_score = f"{score:.0f}%"
-        new_row = f"| {today} | {company} | {position} | {fit_score} | [README]({app_link}) | Not specified | Draft | {notes} |"
+        new_row = (
+            f"| {today} | {company} | {position} | {fit_score} | "
+            f"[README]({app_link}) | Not specified | Draft | {notes} |"
+        )
 
         # Insert new row
         lines.insert(insert_idx, new_row)

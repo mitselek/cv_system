@@ -107,7 +107,6 @@ class DigestGenerator:
             else:
                 category = "low_priority"
 
-            json_path = day_dir / category / f"{job.id}.json"
             # Path relative to the digest file location (day_dir)
             relative_json = category + "/" + f"{job.id}.json"
 

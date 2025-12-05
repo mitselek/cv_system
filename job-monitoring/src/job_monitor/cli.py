@@ -253,8 +253,18 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
 
 @cli.command()
-@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
-@click.option("--category", type=click.Choice(["high", "review", "low", "all"]), default="all", help="Filter by category")
+@click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
+@click.option(
+    "--category",
+    type=click.Choice(["high", "review", "low", "all"]),
+    default="all",
+    help="Filter by category",
+)
 @click.option("--min-score", type=float, help="Minimum score threshold")
 @click.option("--source", help="Filter by source")
 @click.option("--date", help="Filter by date (YYYY-MM-DD)")
@@ -294,7 +304,7 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
         if cat_dir.exists():
             for json_file in cat_dir.glob("*.json"):
                 try:
-                    with open(json_file, "r") as f:
+                    with open(json_file) as f:
                         data = json.load(f)
                         sj = ScoredJob(**data)
 
@@ -330,7 +340,12 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
 
 
 @cli.command()
-@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
 def stats(config: Path) -> None:
     """Show monitoring statistics."""
     try:
@@ -370,7 +385,12 @@ def stats(config: Path) -> None:
 @cli.command()
 @click.argument("job-id")
 @click.argument("status", type=click.Choice(["candidate", "applied", "rejected"]))
-@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
 def mark(job_id: str, status: str, config: Path) -> None:
     """Mark a job with a new status."""
     try:
@@ -415,7 +435,12 @@ def mark(job_id: str, status: str, config: Path) -> None:
 
 
 @cli.command()
-@click.option("--config", default="config.example.yaml", type=click.Path(path_type=Path), help="Path to configuration file")
+@click.option(
+    "--config",
+    default="config.example.yaml",
+    type=click.Path(path_type=Path),
+    help="Path to configuration file",
+)
 @click.option("--days", default=60, help="Archive jobs older than this many days")
 @click.option("--dry-run", is_flag=True, help="Show what would be archived without doing it")
 def cleanup(config: Path, days: int, dry_run: bool) -> None:
