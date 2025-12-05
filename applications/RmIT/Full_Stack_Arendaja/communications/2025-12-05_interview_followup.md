@@ -13,11 +13,13 @@
 ## Actions
 
 ### Immediate
+
 - [ ] Review transcription once complete
 - [ ] Send thank-you email (if not done yet)
 - [ ] Wait for their response
 
 ### Follow-up
+
 - [ ] Check status if no response within a week
 
 ## Notes
@@ -31,4 +33,4 @@
 
 ---
 
-*Last updated: December 5, 2025*
+_Last updated: December 5, 2025_
