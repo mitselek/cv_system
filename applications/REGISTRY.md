@@ -10,18 +10,19 @@ This file tracks all job applications generated from the CV system. Each applica
   - 10:30 RmIT - Full-Stack arendaja (~1h, MS Teams, Jaana Kivila) ✓
   - 13:30 Brandem Baltic - Full-stack vanemarendaja (45 min, MS Teams, Margaret Idasaar) ✓
 
-### This Week (Dec 5-8)
+### This Week (Dec 5-7)
 
 - [ ] Follow up with Entain NCE recruiter (pending since Nov 28)
 - [ ] EWQ Zone first round interviews begin (weeks 50-51)
 
-### Next Week (Dec 9-15)
+### Next Week (Dec 8-14)
 
+- [ ] **Dec 8 15:15**: online consultation with Töötukassa (Merle Parts)
 - [ ] **Dec 11 11:00**: 1oT - Tech Lead (45 min, Google Meet)
 
 ### January 2026
 
-- [ ] **Wednesday, January 8, 2026**: Send follow-up reminder to Brandem Baltic (day after deadline)
+- [ ] **Wednesday, January 7, 2026**: Send follow-up reminder to Brandem Baltic (day after deadline)
 
 ### Upcoming Deadlines
 
