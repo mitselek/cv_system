@@ -195,17 +195,16 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
                     scraper = ScraperRegistry.get_scraper(job.source, config=scraper_config, cookies_file=cookies_file)
 
-                    # Check if scraper has fetch_job_details method
-                    if hasattr(scraper, 'fetch_job_details'):
-                        details = scraper.fetch_job_details(job.id if job.source == "cvee" else str(job.url))
+                    # Try to fetch full details if scraper supports it
+                    details = scraper.fetch_job_details(job.id if job.source == "cvee" else str(job.url))
 
-                        if details and details.get('description'):
-                            # Update job description with full content
-                            job.description = details['description']
+                    if details and details.get('description'):
+                        # Update job description with full content
+                        job.description = details['description']
 
-                            # Show progress every 10 jobs
-                            if i % 10 == 0:
-                                click.echo(f"  Fetched {i}/{len(unique_jobs)}...")
+                        # Show progress every 10 jobs
+                        if i % 10 == 0:
+                            click.echo(f"  Fetched {i}/{len(unique_jobs)}...")
                 except Exception as e:
                     click.echo(f"Failed to fetch job details for {job.id}: {e}")
 

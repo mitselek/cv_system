@@ -152,6 +152,20 @@ class BaseScraper(ABC):
         """
         return self.config.get('rate_limit_delay', 1.5)
 
+    def fetch_job_details(self, job_id: str) -> dict[str, Any] | None:
+        """Fetch full details for a specific job.
+
+        Optional method for scrapers that support fetching full job details.
+        Not all scrapers implement this.
+
+        Args:
+            job_id: Job identifier (URL, ID, etc. depends on scraper)
+
+        Returns:
+            Dictionary with job details or None if not supported
+        """
+        return None
+
     def __repr__(self) -> str:
         """String representation of scraper."""
         return f"{self.__class__.__name__}(id={self.SCRAPER_ID}, name={self.DISPLAY_NAME})"
