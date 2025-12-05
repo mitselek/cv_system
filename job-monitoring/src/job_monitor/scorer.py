@@ -109,7 +109,7 @@ class JobScorer:
                 # Simple term check
                 if req.lower() not in _normalize(text):
                     missing_req.append(req)
-        
+
         if missing_req and self.cfg.required_keywords:
             # Softer penalty if description is missing/short (likely image-based ad)
             if desc_len < 100:

@@ -6,7 +6,7 @@ Provides simple JSON persistence with atomic writes and backup.
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -40,7 +40,7 @@ class StateManager:
                 applied=[],
                 stats_by_source={},
             )
-        with open(self.state_file, "r", encoding="utf-8") as f:
+        with open(self.state_file, encoding="utf-8") as f:
             data: dict[str, Any] = json.load(f)
         # Pydantic validates and coalesces
         return MonitorState(**data)
@@ -82,12 +82,12 @@ class StateManager:
         """Archive jobs older than given days. Returns number archived."""
         if days <= 0:
             return 0
-        now = datetime.now(timezone.utc)
+        now = datetime.now(datetime.UTC)
         archived = 0
         for job_id, job in list(self.state.seen_jobs.items()):
             # Use discovered_date as reference
             try:
-                age_days = (now - job.discovered_date.replace(tzinfo=timezone.utc)).days
+                age_days = (now - job.discovered_date.replace(tzinfo=datetime.UTC)).days
             except Exception:
                 continue
             if age_days > days:

@@ -26,13 +26,13 @@ from job_monitor.scrapers import ScraperRegistry
 
 def _scrape_source(source_name: str, config: dict[str, Any], queries: Iterable[dict[str, Any]], state_manager: StateManager | None = None) -> list[JobPosting]:
     """Scrape a source using the registry.
-    
+
     Args:
         source_name: The scraper ID (e.g., 'duunitori', 'cvee')
         config: Scraper-specific configuration (cookies_file, etc.)
         queries: List of search queries
         state_manager: Optional state manager for tracking
-    
+
     Returns:
         List of job postings
     """
@@ -40,44 +40,44 @@ def _scrape_source(source_name: str, config: dict[str, Any], queries: Iterable[d
     cookies_file = config.pop('cookies_file', None)
     if cookies_file:
         cookies_file = Path(cookies_file)
-    
+
     # Get scraper from registry
     scraper = ScraperRegistry.get_scraper(source_name, config=config, cookies_file=cookies_file)
-    
+
     jobs: list[JobPosting] = []
     for q in queries:
         # Pass the entire query dict to the scraper
         search_results = scraper.search(q)
         jobs.extend(search_results)
-    
+
     # Annotate source consistently
     for j in jobs:
         j.source = source_name
-    
+
     return jobs
 
 
 def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict[str, int]:
     """Save scored jobs to date-stamped candidate directories.
-    
+
     Saves both JSON (for automation) and Markdown (for humans).
-    
+
     Returns dict with counts per category.
     """
     today = datetime.now().strftime("%Y-%m-%d")
     day_dir = candidates_dir / today
-    
+
     # Create category subdirectories
     high_dir = day_dir / "high_priority"
     review_dir = day_dir / "review"
     low_dir = day_dir / "low_priority"
-    
+
     high_dir.mkdir(parents=True, exist_ok=True)
     review_dir.mkdir(parents=True, exist_ok=True)
     low_dir.mkdir(parents=True, exist_ok=True)
-    
+
     counts = {"high_priority": 0, "review": 0, "low_priority": 0}
-    
+
     for sj in scored_jobs:
         # Determine directory by category
         if sj.category == "High Priority":
@@ -89,16 +89,16 @@ def _save_candidates(candidates_dir: Path, scored_jobs: list[ScoredJob]) -> dict
         else:  # Low Priority
             target_dir = low_dir
             counts["low_priority"] += 1
-        
+
         # Save as JSON with job ID as filename
         filepath = target_dir / f"{sj.job.id}.json"
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(sj.model_dump(mode="json"), f, ensure_ascii=False, indent=2)
-        
+
         # Save as Markdown for human readability
         md_filepath = target_dir / f"{sj.job.id}.md"
         MarkdownExporter.export_job(sj, md_filepath)
-    
+
     return counts
 
 
@@ -141,34 +141,34 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
     for src in cfg.sources:
         if not src.enabled:
             continue
-        
+
         # Check if scraper is registered
         if not ScraperRegistry.is_registered(src.name):
             click.echo(f"Skipping unsupported source: {src.name}")
             continue
-        
+
         if dry_run:
             click.echo(f"Dry-run: would scrape {src.name}")
             continue
-        
+
         # Build scraper config from source settings
         scraper_config = {}
         if src.cookies_file:
             scraper_config["cookies_file"] = str(src.cookies_file)
-        
+
         queries = cm.get_source_queries(src.name)
         jobs = _scrape_source(src.name, scraper_config, queries, sm)
         all_jobs.extend(jobs)
-        
+
         click.echo(f"✓ Scraped {len(jobs)} jobs from {src.name}")
 
     unique_jobs = dd.filter_unique(all_jobs)
-    
+
     # Enrich with full details if requested
     if full_details and unique_jobs:
         click.echo(f"\nFetching full details for {len(unique_jobs)} jobs...")
         enriched_jobs = []
-        
+
         for i, job in enumerate(unique_jobs, 1):
             # Fetch details for supported scrapers (cvee and duunitori)
             if job.source in ("cvee", "duunitori"):
@@ -182,25 +182,25 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
                             if src.name == "duunitori" and src.cookies_file:
                                 cookies_file = src.cookies_file
                                 break
-                    
+
                     scraper = ScraperRegistry.get_scraper(job.source, config=scraper_config, cookies_file=cookies_file)
-                    
+
                     # Check if scraper has fetch_job_details method
                     if hasattr(scraper, 'fetch_job_details'):
                         details = scraper.fetch_job_details(job.id if job.source == "cvee" else str(job.url))
-                        
+
                         if details and details.get('description'):
                             # Update job description with full content
                             job.description = details['description']
-                            
+
                             # Show progress every 10 jobs
                             if i % 10 == 0:
                                 click.echo(f"  Fetched {i}/{len(unique_jobs)}...")
                 except Exception as e:
                     click.echo(f"Failed to fetch job details for {job.id}: {e}")
-            
+
             enriched_jobs.append(job)
-        
+
         unique_jobs = enriched_jobs
         click.echo(f"✓ Fetched full details")
 
@@ -208,19 +208,19 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
     # Filter out already-seen jobs before saving (fix for issue #33)
     new_candidates = [sj for sj in scored if not sm.is_seen(sj.job.id)]
-    
+
     click.echo(f"Discovered {len(all_jobs)} jobs, {len(unique_jobs)} unique, {len(new_candidates)} new.")
 
     # Save only NEW candidates to directories
     if new_candidates and not dry_run:
         counts = _save_candidates(cfg.candidates_dir, new_candidates)
         click.echo(f"Saved candidates: {counts['high_priority']} high, {counts['review']} review, {counts['low_priority']} low")
-        
+
         # Generate digest
         dg = DigestGenerator(cfg.candidates_dir)
         digest_path = dg.save_digest()
         click.echo(f"Digest saved to {digest_path}")
-    
+
     # Update state for ALL jobs (new and existing with potential updates)
     for sj in scored:
         if sm.is_seen(sj.job.id):
@@ -252,18 +252,18 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
     except ConfigurationError as e:
         click.echo(f"Config error: {e}", err=True)
         raise SystemExit(2)
-    
+
     cfg = cm.config
-    
+
     if date is None:
         date = datetime.now().strftime("%Y-%m-%d")
-    
+
     day_dir = cfg.candidates_dir / date
-    
+
     if not day_dir.exists():
         click.echo(f"No candidates found for {date}")
         return
-    
+
     # Load candidates based on category filter
     categories = []
     if category == "all":
@@ -274,7 +274,7 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
         categories = ["review"]
     elif category == "low":
         categories = ["low_priority"]
-    
+
     all_candidates: list[ScoredJob] = []
     for cat in categories:
         cat_dir = day_dir / cat
@@ -284,28 +284,28 @@ def review(config: Path, category: str, min_score: float | None, source: str | N
                     with open(json_file, "r") as f:
                         data = json.load(f)
                         sj = ScoredJob(**data)
-                        
+
                         # Apply filters
                         if min_score and sj.score < min_score:
                             continue
                         if source and sj.job.source != source:
                             continue
-                        
+
                         all_candidates.append(sj)
                 except Exception as e:
                     click.echo(f"Warning: Failed to load {json_file}: {e}", err=True)
-    
+
     if not all_candidates:
         click.echo("No candidates match the filters")
         return
-    
+
     # Sort by score
     all_candidates.sort(key=lambda x: x.score, reverse=True)
-    
+
     click.echo(f"\n{'='*80}")
     click.echo(f"Candidates for {date} ({len(all_candidates)} total)")
     click.echo(f"{'='*80}\n")
-    
+
     for i, sj in enumerate(all_candidates, 1):
         click.echo(f"{i}. {sj.job.title} @ {sj.job.company}")
         click.echo(f"   Score: {sj.score:.1f}/100 | Category: {sj.category}")
@@ -325,28 +325,28 @@ def stats(config: Path) -> None:
     except ConfigurationError as e:
         click.echo(f"Config error: {e}", err=True)
         raise SystemExit(2)
-    
+
     cfg = cm.config
     sm = StateManager(cfg.state_file)
-    
+
     state = sm.state
-    
+
     click.echo(f"\n{'='*80}")
     click.echo("Job Monitoring Statistics")
     click.echo(f"{'='*80}\n")
-    
+
     click.echo(f"Last Scan: {state.last_scan or 'Never'}")
     click.echo(f"Total Jobs Seen: {state.total_jobs_seen}")
     click.echo(f"Total Candidates: {state.total_candidates}")
     click.echo(f"Total Applications: {state.total_applications}")
     click.echo()
-    
+
     click.echo("By Status:")
     click.echo(f"  New: {len(state.new_jobs)}")
     click.echo(f"  Candidates: {len(state.candidates)}")
     click.echo(f"  Applied: {len(state.applied)}")
     click.echo()
-    
+
     if state.stats_by_source:
         click.echo("By Source:")
         for source, count in sorted(state.stats_by_source.items()):
@@ -365,15 +365,15 @@ def mark(job_id: str, status: str, config: Path) -> None:
     except ConfigurationError as e:
         click.echo(f"Config error: {e}", err=True)
         raise SystemExit(2)
-    
+
     cfg = cm.config
     sm = StateManager(cfg.state_file)
-    
+
     job = sm.get_job(job_id)
     if not job:
         click.echo(f"Job {job_id} not found", err=True)
         raise SystemExit(1)
-    
+
     # Update job status
     if status == "candidate":
         job.status = JobStatus.CANDIDATE
@@ -394,10 +394,10 @@ def mark(job_id: str, status: str, config: Path) -> None:
             sm.state.new_jobs.remove(job_id)
         if job_id in sm.state.candidates:
             sm.state.candidates.remove(job_id)
-    
+
     sm.update_job(job)
     sm.save_state()
-    
+
     click.echo(f"Marked job {job_id} as {status}")
 
 
@@ -412,19 +412,19 @@ def cleanup(config: Path, days: int, dry_run: bool) -> None:
     except ConfigurationError as e:
         click.echo(f"Config error: {e}", err=True)
         raise SystemExit(2)
-    
+
     cfg = cm.config
     sm = StateManager(cfg.state_file)
-    
+
     if dry_run:
         click.echo(f"Would archive jobs older than {days} days")
         # Count would-be archived
         from datetime import timezone
-        now = datetime.now(timezone.utc)
+        now = datetime.now(datetime.UTC)
         count = 0
         for job_id, job in sm.state.seen_jobs.items():
             try:
-                age_days = (now - job.discovered_date.replace(tzinfo=timezone.utc)).days
+                age_days = (now - job.discovered_date.replace(tzinfo=datetime.UTC)).days
                 if age_days > days:
                     count += 1
             except Exception:
@@ -447,7 +447,7 @@ def init(output: Path) -> None:
       - keywords: python developer
         location: tallinn
         limit: 20
-  
+
   - name: duunitori
     enabled: false
     cookies_file: /path/to/duunitori_cookies.json
@@ -480,12 +480,12 @@ candidates_dir: job_sources/candidates
 scan_interval_hours: 24
 auto_archive_days: 60
 """
-    
+
     if output.exists():
         if not click.confirm(f"{output} already exists. Overwrite?"):
             click.echo("Aborted")
             return
-    
+
     output.write_text(template)
     click.echo(f"Created configuration template at {output}")
     click.echo("Edit the file to customize sources and scoring rules")
