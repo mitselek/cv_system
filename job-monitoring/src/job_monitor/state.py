@@ -6,7 +6,7 @@ Provides simple JSON persistence with atomic writes and backup.
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -82,12 +82,12 @@ class StateManager:
         """Archive jobs older than given days. Returns number archived."""
         if days <= 0:
             return 0
-        now = datetime.now(datetime.UTC)
+        now = datetime.now(UTC)
         archived = 0
         for job_id, job in list(self.state.seen_jobs.items()):
             # Use discovered_date as reference
             try:
-                age_days = (now - job.discovered_date.replace(tzinfo=datetime.UTC)).days
+                age_days = (now - job.discovered_date.replace(tzinfo=UTC)).days
             except Exception:
                 continue
             if age_days > days:
