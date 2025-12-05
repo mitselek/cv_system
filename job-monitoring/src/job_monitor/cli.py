@@ -6,9 +6,11 @@ Phase 2: implement scan workflow with --dry-run and --force.
 """
 from __future__ import annotations
 
-from datetime import datetime
+import json
+from collections.abc import Iterable
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 import click
 
@@ -22,7 +24,12 @@ from job_monitor.state import StateManager
 from job_monitor.scrapers import ScraperRegistry
 
 
-def _scrape_source(source_name: str, config: dict[str, Any], queries: Iterable[dict[str, Any]], state_manager: StateManager | None = None) -> list[JobPosting]:
+def _scrape_source(
+    source_name: str,
+    config: dict[str, Any],
+    queries: Iterable[dict[str, Any]],
+    state_manager: StateManager | None = None,
+) -> list[JobPosting]:
     """Scrape a source using the registry.
 
     Args:
@@ -417,12 +424,11 @@ def cleanup(config: Path, days: int, dry_run: bool) -> None:
     if dry_run:
         click.echo(f"Would archive jobs older than {days} days")
         # Count would-be archived
-        from datetime import timezone
-        now = datetime.now(datetime.UTC)
+        now = datetime.now(UTC)
         count = 0
         for job_id, job in sm.state.seen_jobs.items():
             try:
-                age_days = (now - job.discovered_date.replace(tzinfo=datetime.UTC)).days
+                age_days = (now - job.discovered_date.replace(tzinfo=UTC)).days
                 if age_days > days:
                     count += 1
             except Exception:

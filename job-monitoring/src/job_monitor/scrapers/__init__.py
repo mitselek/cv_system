@@ -4,9 +4,8 @@ Job scraper plugin system.
 This module provides a registry for dynamically loading and managing job scrapers.
 Each scraper is a plugin that can be enabled/disabled via configuration.
 """
-
 from pathlib import Path
-from typing import Any, Type
+from typing import Any
 
 from job_monitor.scrapers.base import BaseScraper
 
@@ -32,10 +31,10 @@ class ScraperRegistry:
         scrapers = ScraperRegistry.list_scrapers()
     """
 
-    _scrapers: dict[str, Type[BaseScraper]] = {}
+    _scrapers: dict[str, type[BaseScraper]] = {}
 
     @classmethod
-    def register(cls, scraper_class: Type[BaseScraper]) -> None:
+    def register(cls, scraper_class: type[BaseScraper]) -> None:
         """Register a scraper class.
 
         Args:
@@ -107,7 +106,7 @@ class ScraperRegistry:
         return scraper_class(config=config, cookies_file=cookies_file)
 
     @classmethod
-    def list_scrapers(cls) -> dict[str, Type[BaseScraper]]:
+    def list_scrapers(cls) -> dict[str, type[BaseScraper]]:
         """Get all registered scrapers.
 
         Returns:

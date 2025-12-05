@@ -4,12 +4,10 @@ Duunitori job scraper.
 Scrapes Finnish job portal Duunitori (https://duunitori.fi) using HTML parsing.
 Requires authentication cookies for full access.
 """
-
 import json
 import re
 import time
 from datetime import datetime
-from pathlib import Path
 from typing import Any
 
 import requests
@@ -87,7 +85,7 @@ class DuunitoriScraper(BaseScraper):
                 f"4. Save to: {self.cookies_file}"
             )
 
-        with open(self.cookies_file, 'r') as f:
+        with open(self.cookies_file) as f:
             cookies_data = json.load(f)
 
         # Handle different cookie export formats
@@ -115,7 +113,7 @@ class DuunitoriScraper(BaseScraper):
         if not self.cookies_file.exists():
             return False
         try:
-            with open(self.cookies_file, 'r') as f:
+            with open(self.cookies_file) as f:
                 json.load(f)
             return True
         except OSError:

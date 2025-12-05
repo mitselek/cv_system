@@ -3,11 +3,9 @@ Pydantic schemas for job monitoring system.
 
 This module defines all data models with runtime validation and type safety.
 """
-
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
-
 from typing import Any
 
 from pydantic import BaseModel, Field, HttpUrl, model_validator

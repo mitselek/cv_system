@@ -4,11 +4,9 @@ CV.ee job scraper implementation.
 Uses the CV.ee REST API with Elasticsearch backend.
 API documentation: docs/cvee-api-*.md
 """
-
 import json
 import logging
 import re
-from datetime import datetime
 from typing import Any
 from urllib.parse import urljoin
 
@@ -240,8 +238,8 @@ class CVeeScraper(BaseScraper):
 
         locations = self._get_locations()
         names = [
-            locations[loc_id]['name'] 
-            for loc_id in location_ids 
+            locations[loc_id]['name']
+            for loc_id in location_ids
             if loc_id in locations
         ]
 

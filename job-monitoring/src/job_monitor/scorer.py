@@ -6,9 +6,8 @@ Scores JobPosting instances according to ScoringConfig.
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from collections.abc import Iterable
 from datetime import datetime
-from typing import Iterable
 
 from job_monitor.schemas import JobPosting, ScoredJob, ScoringConfig
 
@@ -79,7 +78,7 @@ class JobScorer:
 
         # Title-based scoring: software/developer/arendaja titles get bonus
         title_lower = job.title.lower() if job.title else ""
-        title_keywords = ["arendaja", "developer", "engineer", "programmer", "programmeerija", 
+        title_keywords = ["arendaja", "developer", "engineer", "programmer", "programmeerija",
                           "architect", "arhitekt", "lead", "manager"]
         if any(kw in title_lower for kw in title_keywords):
             score += 15.0
