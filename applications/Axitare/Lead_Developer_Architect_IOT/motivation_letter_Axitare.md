@@ -1,92 +1,65 @@
 ---
-docID: ML-AXIT-LeadArch
-version: 1.0
-date: 2025-12-04
+docID: ML-Axi-LeadArch
+version: 1.1
+date: 2025-12-05
 author: Mihkel Putrinš
 ---
 
-Mihkel Putrinš
-Tallinn, Estonia
-+372 5656 0978
+Mihkel Putrinš  
+Tallinn, Estonia  
++372 5656 0978  
 mitselek@gmail.com
 
-2025-12-04
+December 4, 2025
 
-Axitare Oy
-Helsinki, Finland
+Axitare Oy  
+Helsinki, Malmi
 
 **Subject: Application for Lead Software Developer / Architect IOT-lääkeautomaatille**
 
----
-
 Dear Hiring Manager,
 
-I am applying for the position of Lead Software Developer / Architect IOT-lääkeautomaatille at Axitare Oy. Your job description resonates deeply with my experience in system architecture leadership, cloud-native development, and building reliable platforms that directly impact users' lives.
+I am writing to apply for the Lead Software Developer / Architect position at Axitare Oy. This role represents an exceptional opportunity to bring architectural leadership and technical vision to a mission-critical healthcare system - meaningful, high-reliability technical challenge I have pursued throughout my career.
 
-## Why This Role
+**Alignment with Your Technical Vision**
 
-Your description emphasizes that this role affects patient safety and home care operations directly. This context is meaningful to me. Over my 30-year career, I have built systems serving educational institutions, cultural organizations, and healthcare data management platforms. I understand what it means to architect for reliability, security, and human impact—not just technical metrics.
+Your emphasis on modern cloud-native architecture, team leadership, and security-conscious design resonates deeply with my career trajectory. Over the past 15 years, I have specialized in building scalable, reliable Node.js/TypeScript backend systems and architecting technical solutions that balance security, performance, and team capability. At PÖFF (Black Nights Film Festival), I led a 4-member development team as technical architect, establishing CI/CD pipelines with GitHub Actions, containerizing services with Docker, and achieving a 100% conversion rate of interns to full-time team members - a testament to both technical mentoring and culture building.
 
-The role's scope—architecture leadership, team guidance, and technical decision-making—aligns exactly with my background. I spent three decades designing systems from foundation to scale, leading technical teams, and making architectural choices that support long-term growth.
+**Proven Track Record in Security-Critical Systems**
 
-## Core Technical Strengths
+I bring direct experience developing government-level security-critical systems. At the Ministry of Justice (2002-2005), I participated in building the Criminal Care Information System and Criminal Procedure Register - both mission-critical applications handling sensitive data. This foundation, combined with more recent work integrating historical data from dozens of sources at the Estonian Memory Institute (2017-2024) while maintaining data integrity and access controls, demonstrates my commitment to secure, auditable system design.
 
-**System Architecture (30+ years):** I have designed and implemented three major platforms from ground up:
+**Architectural Leadership at Scale**
 
-- **Entu:** Node.js backend, MongoDB, Vue.js frontend. 15 years continuous production serving 30+ organizations (schools, museums, businesses, government). This platform demonstrates my ability to build systems that scale, evolve with requirements, and remain maintainable over time.
-- **PÖFF Festival:** Technical architecture lead for international film festival (100,000+ participants). Architected Strapi CMS (Node.js), PostgreSQL schema, Docker deployment across five festival domains.
-- **University Infrastructure:** Designed and built campus LAN for 700+ users, implemented cloud email migration reducing costs by 90%.
+I have designed and deployed systems serving 30+ organizations simultaneously (the Entu platform), requiring careful attention to multi-tenant isolation, data security, and system reliability. One achievement I am particularly proud of: implementing a real-time Elasticsearch data pipeline that serves 100,000+ historical records with just 5-minute publication latency from update to live display. This project required thinking systematically about data flow, containerization, and infrastructure-as-code - exactly the mindset required for leading a medical device IoT platform to "the next level."
 
-**Node.js & TypeScript (15+ years, 8/10):** Entu platform demonstrates production Node.js expertise at scale. 15 years of asynchronous architecture, API design, database integration, system scaling. TypeScript proficiency through modern development practices.
+**Technical Expertise**
 
-**Cloud Architecture:** AWS deployments (Entu platform, CloudFront CDN), Docker containerization (Elasticsearch real-time pipeline, 100,000+ records, 5-minute latency), cloud-native pattern understanding.
+My skill set aligns directly with your requirements:
 
-**Database Design (Oracle 8/10, PostgreSQL, MongoDB 15+ years):** Schema architecture for complex systems. PÖFF: designed PostgreSQL for festival's multi-domain complexity. Entu: MongoDB schemas for multi-tenant flexibility. Real-time Elasticsearch pipeline optimization.
+- **Backend Architecture:** 15+ years Node.js (8/10), JavaScript (9/10), and 4+ years Java backend development
+- **Modern Stack:** Daily TypeScript usage (8/10) with strict type discipline; Docker containerization; GitHub Actions CI/CD
+- **Cloud-Native Design:** Deployed systems on AWS, Google Cloud, and DigitalOcean; experienced with infrastructure patterns and containerization
+- **Team Leadership:** Led 4-person development team with hands-on coding involvement and mentoring focus
 
-**Team Leadership:** Led 4-member team at PÖFF. Mentored developers—100% of interns were hired full-time after internships completed. Comfortable providing technical vision and growing team capability.
+**Addressing the Gaps with Honest Perspective**
 
-## Addressing Learning Opportunities
+Your job listing mentions Kubernetes/Helm, Terraform, and medical device compliance (IEC/EN 62304) as requirements. I have not deployed Kubernetes or Terraform in production, though I understand the underlying containerization and infrastructure concepts deeply. Medical device compliance is new domain knowledge for me. However, I approach these gaps not as barriers but as learning opportunities backed by my strongest assets - strong architectural fundamentals and the discipline to master new domains. The core capability - designing and leading secure, scalable, reliable systems - is exactly what I bring.
 
-Your requirements include technologies I have not used hands-on: Kubernetes, Terraform, Helm. I want to be direct about this.
+**On Finnish Language**
 
-**My Assessment:** These are implementation tools built on architectural concepts I understand deeply. I have designed containerized systems (Docker), implemented cloud infrastructure (AWS), and automated deployments (GitHub Actions, shell scripts). The foundational thinking is solid. Kubernetes is container orchestration. Terraform is infrastructure-as-code syntax. Helm is package management. The concepts behind them are within my grasp; the syntax and tools are learnable.
+Regarding Finnish: my current level is quite basic, mutta ma voi oppi. Olen varmaa, et with consistent effort and exposure, musta tulee hüvä Finnish speaker suhteellisen lühüessä ajassa.
 
-**My Commitment:** I do not expect to be expert immediately. I expect a 3-6 month ramping period with mentorship, like any architectural technology transition. After that period, I will have production proficiency.
+**Why This Role Matters**
 
-**Your Advantage:** You get an architect who understands _why_ these tools exist and how they fit into larger system design—because I have designed those larger systems. Many Kubernetes experts lack this architectural context.
+Your description resonates: "This is a role where you get to influence broadly: architecture, technical choices, and development culture." This is precisely what has motivated my 23+ years in software development. I have never been interested in isolated technical optimization; I am interested in building systems and teams that matter. A pharmacy IoT platform affecting patient safety and home care quality is exactly the kind of meaningful technical challenge I want to dedicate my expertise toward.
 
-## Medical Device & Healthcare Context
-
-Your role involves systems classified as medical devices and patient safety. You mention IEC/EN 62304 compliance and IoT domain requirements as preferred (not required).
-
-I have no formal medical device development experience. I have designed systems for healthcare data management, built infrastructure supporting institutional operations with 700+ users, and worked in domain contexts where reliability and data security matter fundamentally.
-
-I am not asking to bypass learning—I am confident this domain knowledge is learnable through job context and mentorship. What I bring is architectural rigor, system design thinking, and experience building systems people rely on.
-
-## Finnish Language
-
-I am Finnish, I speak Finnish, and I understand Finnish healthcare context. I do not have fluent Finnish language proficiency from day one. My current level is approximately "Ritari Ässä from 1990s Suomi-TV"—basic, functional, sometimes entertaining but not professional.
-
-However, I am confident that three months of systematic study and practice—combined with daily work immersion—will develop professional Finnish proficiency. I am willing to invest in this commitment. Language learning is achievable on a 3-month timeline when combined with daily use.
-
-## Why I Am Interested
-
-1. **Impact:** Patient safety and home care represent meaningful work. Healthcare outcomes are real impact, not abstract metrics.
-
-2. **Architectural Autonomy:** Your description positions this as lead-level technical decision-making, not execution-only. After 30 years of system architecture, I value autonomy to shape long-term technical direction.
-
-3. **Team & Culture:** "Tight, skilled, straightforward team" in small company (30+ people). This is my preferred working environment—close enough to matter, large enough to be stable.
-
-4. **Modern Tech Stack:** Kubernetes, Node.js, TypeScript, Cloud-native patterns. These are technologies I choose to work with, not reluctantly adopt.
-
-5. **Growth Context:** "Expanding rapidly in Finland and internationally." Building systems for growth is what I do best—designing for scale from inception.
-
-## Closing
-
-I bring 30 years of system architecture experience, proven team leadership, Node.js and cloud expertise, and demonstrated ability to build reliable platforms. I will contribute immediately to architectural decisions and team guidance. I have genuine enthusiasm to learn Kubernetes/Terraform/medical device specifics and develop professional Finnish proficiency on a 3-month commitment timeline.
-
-I am available for an interview at your convenience and confident this role aligns with both my capabilities and my professional interests.
+I am excited about the opportunity to bring architectural leadership, team mentoring, and technical vision to Axitare's next phase of growth. I welcome the chance to discuss how my 23+ years of backend architecture, security-conscious design, and lead-level technical decision-making can accelerate your medical device platform.
 
 Sincerely,
 
 Mihkel Putrinš
+
+---
+
+**P.S.:** I am located in Estonia and am comfortable with hybrid work arrangements in Helsinki or remote work as the role requires. I am available to begin immediately and am particularly interested in the challenging technical problems inherent in medical device systems.

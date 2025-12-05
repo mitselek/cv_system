@@ -1,151 +1,257 @@
 ---
-docID: CV-AXIT-LeadArch
-version: 1.0
-date: 2025-12-04
+docID: CV-Axi-LeadArch
+version: 1.1
+date: 2025-12-05
 author: Mihkel Putrinš
 ---
 
 # Mihkel Putrinš
 
++372 5656 0978  
+mitselek@gmail.com  
+https://github.com/mitselek  
+https://linkedin.com/in/mitselek  
 Tallinn, Estonia
-+372 5656 0978
-mitselek@gmail.com
-https://github.com/mitselek
-https://linkedin.com/in/mitselek
 
 ---
 
 ## Professional Summary
 
-Senior software architect and development leader with 30+ years of experience spanning full-stack development, system architecture, and team leadership. Proven track record designing scalable platforms serving 30+ organizations, architecting complex distributed systems, and leading technical teams to successful outcomes. Deep expertise in Node.js backend architecture, cloud-native systems (AWS, Docker), and database design. Successfully led 4-member development team with 100% intern-to-hire success rate. Committed to building secure, reliable systems that support critical operations.
-
----
+Senior software architect with 23+ years developing scalable systems for diverse organizations. Led technical architecture and team development for international cultural platform (PÖFF) managing 4-member engineering team. Specialized in Node.js/TypeScript backend architecture, cloud-native systems design, and building high-reliability platforms serving mission-critical use cases. Proven track record architecting systems that balance security, performance, and team capability.
 
 ## Professional Experience
 
 ### Entusiastid OÜ - Architect/Analyst/Developer
 
-**2010-09 - Present | Estonia**
+**September 2010 – Present | Estonia**
 
-Designed and implemented Entu data management platform serving 30+ organizations including schools, museums, and businesses. Architected Node.js API backend with Vue.js frontend and MongoDB database. Platform has operated continuously for 15 years supporting document management, project tracking, and asset inventory across diverse client bases including Estonian Academy of Arts (2010-2025).
+Architect and lead developer of Entu data management platform, a Node.js/JavaScript-based system serving 30+ organizations including schools, museums, and businesses across Estonia.
 
-- Node.js/JavaScript-based architecture: API backend, Vue.js frontend, MongoDB database
-- Database design and system integration for multi-tenant deployments
-- Cloud infrastructure: AWS deployment, CloudFront CDN
-- Supporting 30+ organizations with varying technical and business requirements
-- System reliability and performance optimization over 15-year continuous operation
+**Architecture & Technical Vision:**
 
-### PÖFF (Black Nights Film Festival) - Development Lead
+- Designed and evolved system architecture supporting 700+ concurrent users across 30+ organizations
+- Created and maintained API backend using Node.js, with MongoDB database and Vue.js frontend
+- Established architectural patterns for multi-tenant data isolation and secure information system design
 
-**2021-2024 | Estonia**
+**Platform Scaling:**
 
-Led 4-member development team as technical architect for international film festival's digital infrastructure. Designed and implemented technical architecture across five festival domains serving 100,000+ international participants.
+- Built systems managing asset tracking for 5000+ items (schools, museums)
+- Supported document management handling 500+ annual submissions
+- Designed for educational institutions including Estonian Academy of Arts
 
-- Technical architecture leadership: Strapi CMS (Node.js), PostgreSQL, Docker
-- Led development team: 4 members with 100% intern-to-hire success rate
-- Festival website and logistics system: poff.ee, justfilm.ee, kinoff.ee, industry.poff.ee, shorts.poff.ee
-- Managed complex multi-domain festival data and workflows
+**Technology Stack:** Node.js (8/10), JavaScript (9/10), MongoDB, Vue.js, system architecture
+
+---
+
+### Ilusa Koodi Instituut (PÖFF / Black Nights Film Festival) - Development Lead
+
+**August 2021 – October 2024 | Tallinn, Estonia**
+
+Led 4-member development team as technical architect for PÖFF platform redesign and ongoing development. Responsible for complete technical architecture and strategic technology decisions for international film festival infrastructure.
+
+**Team Leadership & Culture:**
+
+- Mentored and led 4 interns from onboarding through independent project ownership
+- Achievement: All 4 interns hired to full-time positions after internship completion
+- Established development culture emphasizing code quality, testing, and knowledge sharing
+
+**Technical Architecture & Infrastructure:**
+
+- Architected complete platform serving multiple festival domains (poff.ee, justfilm.ee, kinoff.ee, industry.poff.ee, shorts.poff.ee)
+- Designed Node.js/JavaScript backend with Strapi CMS, PostgreSQL database
+- Implemented containerization strategy using Docker
+- Established CI/CD pipeline with GitHub Actions for automated testing and deployment
+
+**Technology Stack:** Node.js (8/10), JavaScript (9/10), TypeScript (8/10), Strapi CMS, PostgreSQL, Docker, GitHub Actions, AWS CloudFront, Pug templating, Stylus CSS preprocessor
+
+---
+
+### Eesti Keele Instituut - Senior System Analyst
+
+**April 2017 – April 2018 | Tallinn, Estonia**
+
+Managed technical architecture and project oversight for EKILEX dictionary and terminology database system. EKI-ASTRA project (2014-2020, EU-funded code 4.01.16-0034).
+
+**System Analysis & Architecture:**
+
+- Oversaw software development and technical coordination for enterprise dictionary platform
+- Conducted technical supervision and system requirements analysis
+- Project completed successfully and on schedule
+
+**Technology Stack:** Java JDK 17, Spring Boot 2.6.12, Spring Framework 5.3.23, Spring Security 5.6.7, PostgreSQL, Apache Maven
+
+---
 
 ### Eesti Kunstiakadeemia - Head of IT Department
 
-**2009-2012 | Estonia**
+**August 2009 – August 2012 | Tallinn, Estonia**
 
-Planned and built entire university's campus-wide local area network infrastructure connecting 700+ users across multiple buildings. Managed IT operations for 1,000+ user organization.
+Directed IT department serving 700+ users and multiple administrative functions for university.
 
-- LAN infrastructure: 700+ users, multi-building campus
-- Email migration: Transferred 700+ accounts to Google Mail, reducing IT costs by 90%
-- Implemented Entu platform for document registry, project management, and asset tracking (5,000+ assets)
-- Database architecture and system administration
+**Campus-Wide Infrastructure:**
 
-### Eesti Mälu Instituut - System Architect / Analyst
+- Designed and built complete LAN infrastructure spanning all university buildings, connecting 700+ users
+- Planned network architecture to support academic facilities and administrative operations
 
-**2017-2024 | Estonia**
+**System Implementation & Migration:**
 
-Designed and implemented real-time Elasticsearch data pipeline serving 100,000+ historical records with 5-minute update latency. Managed production systems on DigitalOcean infrastructure with Docker containerization.
+- Migrated entire university email system (700 users) to Google Mail, reducing IT costs by 90%
+- Implemented Entu data management platform for multiple applications: document registry, project registry, inventory (5000+ assets), and personnel records
 
-- Real-time data publication system: 100,000+ records, 5-minute update frequency
-- Elasticsearch optimization and database design
-- Docker containerization for production deployments
-- System monitoring and performance optimization
+**Technology Stack:** Network infrastructure, email systems, Google Mail, Entu platform
 
-### Additional Experience: Government & Enterprise Systems
+---
 
-**20+ years cumulative**
+### Eesti Mälu Instituut (Estonian Memory Institute) - Data Curator
 
-- Justice Ministry systems: Spring Boot backend, Oracle databases
-- Tele2 IT operations: Large-scale system administration, performance optimization
-- Multiple enterprise data management and migration projects
+**July 2017 – October 2024 | Tallinn, Estonia**
+
+Data curation and system architecture for historical record management, serving memoriaal.ee and wwii-refugees.ee public websites.
+
+**Data Pipeline Architecture:**
+
+- Designed and implemented Elasticsearch-based real-time data publication system
+- Built Docker containerized infrastructure serving 100,000+ historical records
+- Established 5-minute publication latency from data updates to public web display
+- Created isolated development, testing, and production environments
+
+**Data Integration:**
+
+- Integrated data from dozens of historical sources
+- Ensured data quality and consistency across heterogeneous sources
+- Implemented secure data access controls and audit trails
+
+**Technology Stack:** Elasticsearch, Docker, Python, JavaScript, PostgreSQL, DigitalOcean
+
+---
+
+### Justiitsministeerium (Ministry of Justice) - Software Developer
+
+**October 2002 – October 2005 | Tallinn, Estonia**
+
+Participated in security-critical government information systems development as team member in application development projects.
+
+**Government Systems:**
+
+- Criminal Care Information System: Oracle JDeveloper with Oracle ADF (Java-based), XML-based UI development
+- Criminal Procedure Register: Microsoft .NET implementation
+
+**Project Outcome:** Both projects completed successfully and on schedule.
+
+**Technology Stack:** Java, Oracle JDeveloper, Oracle ADF, Oracle Database, Microsoft .NET
+
+---
+
+### Tele2 Eesti AS - Software Developer
+
+**October 2006 – June 2009 | Tallinn, Estonia**
+
+Developed specialized solutions for billing and customer management systems.
+
+**Focus Areas:**
+
+- Billing system enhancements and customer complaint handling
+- Introduced documentation practices and knowledge management culture within the corporation
+
+---
+
+### Tartu Ülikool (University of Tartu) - Software Developer
+
+**September 2014 – December 2015 | Tartu, Estonia**
+
+Developed archival and data management tools for language resources center.
+
+**Project Work:**
+
+- Developed language resource archiving tools
+- Deployed Entu data framework for resource management
 
 ---
 
 ## Skills
 
-### Backend Architecture & Development (15+ years)
+### Technical Architecture
 
-- **Node.js:** 8/10 proficiency, 15+ years production experience
-- **JavaScript:** 9/10 proficiency, frameworks (Vue.js, Strapi CMS)
-- **TypeScript:** 8/10 proficiency
-- **System design:** Microservices architecture, API-first design, real-time systems
+- System design and architecture (23+ years)
+- Cloud-native architecture design
+- Microservices and API design
+- Database architecture and optimization
+- Security-critical system design
 
-### Database & Data Management
+### Backend Development
 
-- **SQL expertise:** Oracle (8/10), PostgreSQL (3+ years), MySQL
-- **NoSQL:** MongoDB (15+ years production)
-- **Elasticsearch:** Real-time data indexing and optimization
-- **Database design:** Multi-tenant systems, schema optimization, performance tuning
+- Node.js (8/10, 15+ years)
+- JavaScript (9/10, 15+ years)
+- Java (7/10, 4+ years enterprise systems)
+- Spring Boot (verified EKI project experience)
+- Python (9/10, scripting and data analysis)
 
-### Cloud & Infrastructure
+### Modern Development Stack
 
-- **AWS:** Cloud deployments, CloudFront CDN, EC2, S3
-- **Docker:** Production containerization, Elasticsearch pipelines
-- **DigitalOcean:** Cloud infrastructure management
-- **Cloud architecture:** Cloud-native patterns, scalability design
+- TypeScript (8/10, daily use since 2024, strict typing)
+- Containerization: Docker
+- CI/CD: GitHub Actions
+- Infrastructure automation: cloud deployment patterns
+- Database: PostgreSQL, MongoDB, Oracle, MySQL
 
-### Development Practices & DevOps
+### Team Leadership
 
-- **CI/CD:** GitHub Actions, automated deployments, shell scripting
-- **Version control:** Git, GitHub
-- **Testing & quality:** Code review practices, quality assurance
-- **Documentation:** 9/10 proficiency, technical documentation
-- **Agile:** Experience in fast-paced environments
+- Technical team leadership (4-member team at PÖFF, 100% retention to full-time)
+- Mentoring and professional development
+- Culture building and knowledge sharing
+- Architectural decision-making
 
-### Team Leadership & Mentoring
+### Data & Integration
 
-- Team leadership: 4-member development team at PÖFF
-- Mentoring: 100% intern-to-hire success rate
-- Technical vision and architectural guidance
-- Cross-functional collaboration
+- Real-time data pipelines (Elasticsearch)
+- Data curation and quality management
+- Multi-source data integration
+- API design and integration
 
-### Technologies & Tools
+### Infrastructure & Deployment
 
-- **Backend frameworks:** Node.js, Strapi CMS, Spring Boot
-- **Frontend:** Vue.js, JavaScript frameworks
-- **Databases:** MongoDB, PostgreSQL, MySQL, Oracle
-- **Cloud platforms:** AWS, DigitalOcean, Docker
-- **Development tools:** Git, GitHub, shell scripting
-
-### Additional Skills
-
-- **Languages:** Estonian (native), English (C1-C2), Finnish (basic)
-- **System administration:** Linux, database administration
-- **Business analysis:** Requirements gathering, stakeholder communication
-- **Data integration:** System integration, data migration projects
-
----
+- Cloud deployment (AWS, DigitalOcean, Google Cloud)
+- Containerization (Docker)
+- CI/CD automation (GitHub Actions)
+- Linux system administration
 
 ## Education
 
-### Tallinna Ülikool, Tartu Ülikool
+### Tartu Ülikool, Tallinna Ülikool
 
-**1990 - 2002**
+**1990 – 2002**
 
-Informatics, Mathematics, Natural Sciences
+Matemaatika, informaatika, loodusteaduslikud ained  
+Lõpetamata kõrgharidus
 
 ---
 
-## Professional Context
+### Tallinn Secondary School of Science, Õismäe Humanities Gymnasium
 
-- **Primary domains:** Education, culture, healthcare data management
-- **Organization sizes:** Startups to 1,000+ user enterprises
-- **Industry experience:** Educational technology, cultural organizations, data management, government systems
-- **International experience:** Festival management serving 100,000+ international participants
+**1979 – 1990**
+
+Secondary Education
+
+## Certifications
+
+**MikroTik Certified Network Associate (MTCNA)**  
+Issued: February 2025
+
+**MikroTik Certified IPv6 Engineer (MTCIPv6E)**  
+Issued: October 2025
+
+## Languages
+
+- **Estonian:** Native speaker
+- **English:** C1/C2 (reading, writing, professional communication)
+- **Latvian:** C2 (near-native, second language)
+- **Russian:** B2 (professional communication)
+
+## Hobbies
+
+3D modeling and printing (using Onshape), astronomy and physics, choral singing, music composition
+
+---
+
+**GitHub:** https://github.com/mitselek  
+**Portfolio:** Entu platform (30+ organizations) — https://entu.ee

@@ -1,36 +1,44 @@
-# Lead Software Developer / Architect IOT-lääkeautomaatille - Axitare Oy
+# Lead Software Developer / Architect IOT-lääkeautomaatille
 
 **Source:** https://duunitori.fi/tyopaikat/tyo/lead-software-developer-architect-iot-laakeautomaatille-sdsuu-19783871
+
 **Posted:** 26.11.2025
-**Deadline:** 12.12.2025
+
+**Company:** Axitare Oy
+
+**Location:** Helsinki, Malmi
 
 ---
 
-## Job Description
+Axitare kehittää älykkäitä IOT-lääkeautomaatteja ja niihin liittyvää pilvipalvelua. Axitaren lääkeautomaattipalvelun avulla tuhannet kotihoidon loppuasiakkaat saavat lääkkeensä ajallaan ja turvallisesti, ja hoitajat voivat valvoa ja ohjata lääkitystä keskitetysti ja mobiilisti. Laajennamme palveluamme nopeasti Suomessa ja ulkomailla – ja siksi etsimme tiimiimme kokenutta Lead Software Developeria / Software Architectia viemään lääkinnälliseksi laitteeksi luokitellun järjestelmämme arkkitehtuuri ja kehityksen seuraavalle tasolle. Tässä roolissa vaikutat suoraan siihen, miten tulevaisuuden lääkehoito toteutetaan kotiympäristöissä.
 
-Axitare kehittää älykkäitä IOT-lääkeautomaatteja ja niihin liittyvää pilvipalvelua. Axitaren lääkeautomaattipalvelun avulla tuhannet kotihoidon loppuasiakkaat saavat lääkkeensä ajallaan ja turvallisesti, ja hoitajat voivat valvoa ja ohjata lääkitystä keskitetysti ja mobiilisti. Laajennamme palveluamme nopeasti Suomessa ja ulkomailla – ja siksi etsimme tiimiimme kokenutta Lead Software Developeria / Software Architectia viemään lääkinnälliseksi laitteeksi luokitellun järjestelmämme arkkitehtuurin ja kehityksen seuraavalle tasolle. Tässä roolissa vaikutat suoraan siihen, miten tulevaisuuden lääkehoito toteutetaan kotiympäristöissä.
-
-### ROOLISI – MITÄ PÄÄSET TEKEMÄÄN
+## ROOLISI – MITÄ PÄÄSET TEKEMÄÄN
 
 Lead-tason asiantuntijana ohjaat sekä nykyisen järjestelmän kehitystä että tulevia teknisiä ratkaisuja:
 
-#### Arkkitehtuuri & tekninen visio
+### Arkkitehtuuri & tekninen visio
 
-Vastuullasi on järjestelmän kokonaisarkkitehtuuri ja teknisten linjausten tekeminen yhteistyössä CTO:n kanssa Suunnittelet ja rakennat skaalautuvia, turvallisia ja luotettavia ratkaisuja kriittiseen terveydenhuollon järjestelmään Viet käytäntöön modernia cloud-native-arkkitehtuuria ja kehitysmallia
+- Vastuullasi on järjestelmän kokonaisarkkitehtuuri ja teknisten linjausten tekeminen yhteistyössä CTO:n kanssa
+- Suunnittelet ja rakennat skaalautuvia, turvallisia ja luotettavia ratkaisuja kriittiseen terveydenhuollon järjestelmään
+- Viet käytäntöön modernia cloud-native-arkkitehtuuria ja kehitysmallia
 
-#### Pilvi & infrastruktuuri
+### Pilvi & infrastruktuuri
 
-Kehität ja ylläpidät tuotantoympäristöä Kubernetes-ekosysteemissä Työskentelet Helm-charttien, konttien optimoinnin, IaC-ympäristöjen ja GitOps/CI/CD-prosessien parissa Vastaat pilvialustan (GCP) rakenteista ja ratkaisuista
+- Kehität ja ylläpidät tuotantoympäristöä Kubernetes-ekosysteemissä
+- Työskentelet Helm-charttien, konttien optimoinnin, IaC-ympäristöjen ja GitOps/CI/CD-prosessien parissa
+- Vastaat pilvialustan (GCP) rakenteista ja ratkaisuista
 
-#### Kehitys & tiimin sparraaminen
+### Kehitys & tiimin sparraaminen
 
-Suunnittelet ja määrittelet uusia palvelun toiminnallisuuksia yhdessä tuotekehitystiimin kanssa Koodaat, teet koodikatselmointeja ja parannat tiimin kehityskäytäntöjä Toimit kehitystiimin teknisenä tukena ja ongelmanratkaisijana
+- Suunnittelet ja määrittelet uusia palvelun toiminnallisuuksia yhdessä tuotekehitystiimin kanssa
+- Koodaat, teet koodikatselmointeja ja parannat tiimin kehityskäytäntöjä
+- Toimit kehitystiimin teknisenä tukena ja ongelmanratkaisijana
 
 Tämä on rooli, jossa pääset vaikuttamaan laajasti: niin arkkitehtuuriin, teknisiin valintoihin kuin kehityskulttuuriinkin.
 
-### ODOTUKSEMME SINULLE
+## ODOTUKSEMME SINULLE
 
-#### Edellytämme kokemusta
+### Edellytämme
 
 - Vahva senior-tason ohjelmistokehitys- ja arkkitehtuuriosaaminen
 - Syvällinen osaaminen Kuberneteksesta ja pilviympäristöistä (GCP, AWS tai Azure)
@@ -39,14 +47,14 @@ Tämä on rooli, jossa pääset vaikuttamaan laajasti: niin arkkitehtuuriin, tek
 - TypeScript, Node.js, SQL
 - Kiinnostus ja ymmärrys tietoturvasta sekä turvallisuuskriittisistä järjestelmistä
 
-#### Katsomme eduksi
+### Katsomme eduksi
 
 - Kokemus Reactista
 - Ymmärrys lääkinnällisten laitteiden kehityksestä (esim. IEC/EN 62304) ja laatujärjestelmän mukaisesta toiminnasta
 - Kokemus IoT- tai sulautettujen järjestelmien kehityksestä
 - Aiempi työ kriittisten tai korkean luotettavuuden järjestelmien kanssa
 
-### MIKSI TÄMÄ ROOLI ON MERKITYKSELLINEN?
+## MIKSI TÄMÄ ROOLI ON MERKITYKSELLINEN?
 
 1. **Merkityksellinen tuote:** Työ vaikuttaa suoraan potilasturvallisuuteen ja kotihoidon arkeen. Saat rakentaa ratkaisua, jota käytetään joka päivä aidosti tärkeissä tilanteissa.
 
@@ -58,16 +66,16 @@ Tämä on rooli, jossa pääset vaikuttamaan laajasti: niin arkkitehtuuriin, tek
 
 5. **Hyvä tiimi:** Teemme töitä Helsingin Malmilla lähellä laitteita ja tuotantoa. Tiimi on tiivis, osaava ja mutkaton.
 
-### KÄYTÄNNÖN ASIAT
+## KÄYTÄNNÖN ASIAT
 
 - **Sijainti:** Helsinki, Malmi - työskentelemme pääosin toimistolla, yhdessä yrityksen muiden tiimien kanssa
-- **Työkieli:** suomi
+- **Työkieli:** Suomi
 - **Yrityksen koko:** 30+ henkeä, kasvu jatkuu
 - **Teknologiat:** Kubernetes, Node.js, TypeScript, SQL, React, IaC, pilvipalvelut, IoT
 - **Työsuhde:** Kokoaikainen ja toistaiseksi voimassa oleva
 
-### KIINNOSTUITKO?
+## KIINNOSTUITKO?
 
-Jätä hakemuksesi 12.12.2025 mennessä tai kysy lisätietoja rekrytointikumppanimme Growicon konsultilta Joel Kinnuselta: joel@growico.fi
+Jätä hakemuksesi 12.12.2025 mennessä tai kysy lisätietoja rekrytointikumppanimme Growicon konsultilta Joel Kinnuselta: joel@growico.fi.
 
 Huomioithan, että emme voi tietosuojasyistä vastaanottaa hakemuksia sähköpostitse.

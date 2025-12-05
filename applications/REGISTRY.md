@@ -91,12 +91,12 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-04 | Eesti Raudtee AS | Full-Stack arendaja | 87.5% | [README](Eesti_Raudtee/Full_Stack_Arendaja/README.md) | 2025-12-16 | Submitted | Excellent fit: 15+ yrs Node.js/Java, PostgreSQL/Oracle expertise, Docker/cloud experience. CRITICAL GAP: Svelte/SvelteKit (no direct experience, but strong JavaScript 9/10 foundation, Vue.js framework experience). 2025-12-04: Submitted via CV.ee, confirmation received. Contact: personal@evr.ee |
 | 2025-12-04 | Siili Solutions | Data Platform Architect | 65% | [README](Siili_Solutions/Data_Platform_Architect/README.md) | Not specified | Draft | Data pipeline (Elasticsearch 100k+ records), Python 9/10, SQL/PL/SQL 8/10, AWS experience, 30+ org platform architecture. CRITICAL GAP: Finnish language (only basic, job requires fluent). Job ID: 67a967fcb6c111fa. Source: duunitori. |
 | 2025-12-04 | Raintree Systems OÜ | Full Stack Developer (React, Node, AWS) | 90% | [README](Raintree_Systems/Full_Stack_Developer_React_Node_AWS/README.md) | 2025-12-17 | Draft | 15+ yrs full-stack JavaScript/Node.js, React/TypeScript expertise, AWS CloudFront/deployment, CI/CD (GitHub Actions). Healthcare software opportunity with greenfield projects. Job ID: 1468785. Source: cvee. Gaps: GraphQL (learnable), AWS certifications (offered by employer). |
-| 2025-12-04 | Axitare Oy | Lead Developer / Architect IOT-lääkeautomaatille | 95% | [README](Axitare/Lead_Developer_Architect_IOT/README.md) | 2025-12-12 | Draft | 30+ yrs system architecture, Node.js/TypeScript backend, cloud-native architecture (AWS, Docker), GitHub Actions CI/CD, team leadership. Medical device IoT pharmacy automation for patient safety. Job ID: 317c3b00519b43cb. Source: duunitori. Gaps: Kubernetes/Helm/Terraform hands-on (learnable), medical device compliance, IoT-specific domain (supported by mentorship). |
+| 2025-12-04 | Axitare Oy | Lead Developer / Architect IOT-lääkeautomaatille | 95% | [README](Axitare/Lead_Developer_Architect_IOT/README.md) | 2025-12-12 | Ready | 30+ yrs system architecture, Node.js/TypeScript backend, cloud-native architecture (AWS, Docker), GitHub Actions CI/CD, team leadership. Medical device IoT pharmacy automation for patient safety. Job ID: 317c3b00519b43cb. Source: duunitori. 2025-12-04: Application package complete - CV, motivation letter, PDFs generated. Gaps: Kubernetes/Helm/Terraform hands-on (learnable), medical device compliance, IoT-specific domain (supported by mentorship). |
 
 ## Statistics
 
 - **Total Applications:** 25
-- **Active (Draft/Ready):** 4
+- **Active (Draft/Ready):** 3 (Draft) + 1 (Ready) = 4
 - **Submitted:** 12
 - **In Interview Process:** 3
 - **Pending Response:** 1
@@ -107,4 +107,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-12-04
+**Last Updated:** 2025-12-04 (Axitare application completed)
