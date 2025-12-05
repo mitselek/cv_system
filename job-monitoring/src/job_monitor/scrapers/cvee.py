@@ -53,7 +53,7 @@ class CVeeScraper(BaseScraper):
         # Remove leading/trailing hyphens
         return text.strip('-')
 
-    def fetch_job_details(self, job_id: str) -> dict[str, Any | None]:
+    def fetch_job_details(self, job_id: str) -> dict[str, Any] | None:
         """Fetch full job details by scraping the job page.
 
         The CV.ee website embeds complete job data in a JSON script tag.
