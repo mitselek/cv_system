@@ -361,7 +361,7 @@ class DuunitoriScraper(BaseScraper):
                 # Extract email
                 email_elem = contact_section.select_one('a[href^="mailto:"]')
                 if email_elem:
-                    href = email_elem.get('hre', '')
+                    href = email_elem.get('href', '')
                     email = str(href).replace('mailto:', '') if href else ''
                     if email:
                         contact_info['contact_email'] = email
@@ -381,7 +381,7 @@ class DuunitoriScraper(BaseScraper):
             if not contact_info['contact_email']:
                 email_link = search_area.select_one('a[href^="mailto:"]')
                 if email_link:
-                    href = email_link.get('hre', '')
+                    href = email_link.get('href', '')
                     email = str(href).replace('mailto:', '').strip()
                     if email:
                         contact_info['contact_email'] = email
@@ -390,7 +390,7 @@ class DuunitoriScraper(BaseScraper):
             if not contact_info['contact_phone']:
                 phone_link = search_area.select_one('a[href^="tel:"]')
                 if phone_link:
-                    href = phone_link.get('hre', '')
+                    href = phone_link.get('href', '')
                     phone = str(href).replace('tel:', '').strip()
                     # Remove common phone number formatting
                     phone = re.sub(r'[\s\-\(\)]', '', phone)

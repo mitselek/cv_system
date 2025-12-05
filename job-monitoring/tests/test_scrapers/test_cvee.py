@@ -59,27 +59,26 @@ class TestCVeeSearch:
         mock_response = Mock()
         mock_response.status_code = 200
         mock_response.json.return_value = {
-            'data': {
-                'vacancies': [
-                    {
-                        'id': 12345,
-                        'title': 'Python Developer',
-                        'company_name': 'TechCorp',
-                        'slug': 'python-developer-techcorp',
-                        'location_ids': [1],
-                        'published_at': '2025-01-01',
-                        'description': 'Great Python job',
-                    }
-                ]
-            }
+            'vacancies': [
+                {
+                    'id': 12345,
+                    'positionTitle': 'Python Developer',
+                    'employerName': 'TechCorp',
+                    'slug': 'python-developer-techcorp',
+                    'townId': [1],
+                    'publishDate': '2025-01-01',
+                    'positionContent': 'Great Python job',
+                }
+            ],
+            'total': 1
         }
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
         
-        # Mock locations cache
-        with patch.object(scraper, '_get_locations', return_value={1: {'id': 1, 'name': 'Tallinn', 'type': 'city'}}):
-            results = scraper.search({'keywords': 'python'})
+        # Mock locations cache before search
+        scraper._locations_cache = {1: {'id': 1, 'name': 'Tallinn', 'type': 'city'}}
+        results = scraper.search({'keywords': 'python'})
         
         assert len(results) == 1
         assert isinstance(results[0], JobPosting)
@@ -87,7 +86,7 @@ class TestCVeeSearch:
         assert results[0].company == 'TechCorp'
         assert results[0].location == 'Tallinn'
         assert results[0].source == 'cvee'
-        assert 'python-developer-techcorp' in str(results[0].url)
+        assert str(results[0].url) == 'https://cv.ee/et/vacancy/12345'
     
     @patch('requests.Session.get')
     def test_search_with_location(self, mock_get):
@@ -95,31 +94,29 @@ class TestCVeeSearch:
         mock_response = Mock()
         mock_response.status_code = 200
         mock_response.json.return_value = {
-            'data': {
-                'vacancies': [
-                    {
-                        'id': 123,
-                        'title': 'Developer',
-                        'company_name': 'TestCo',
-                        'slug': 'dev-test',
-                        'location_ids': [2],
-                        'published_at': '2025-01-01',
-                    }
-                ]
-            }
+            'vacancies': [
+                {
+                    'id': 123,
+                    'positionTitle': 'Developer',
+                    'employerName': 'TestCo',
+                    'slug': 'dev-test',
+                    'townId': [2],
+                    'publishDate': '2025-01-01',
+                }
+            ],
+            'total': 1
         }
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
         
         # Mock locations
-        locations = {
+        scraper._locations_cache = {
             1: {'id': 1, 'name': 'Tallinn', 'type': 'city'},
             2: {'id': 2, 'name': 'Tartu', 'type': 'city'},
         }
         
-        with patch.object(scraper, '_get_locations', return_value=locations):
-            results = scraper.search({'keywords': 'python', 'location': 'Tartu'})
+        results = scraper.search({'keywords': 'python', 'location': 'Tartu'})
         
         assert len(results) == 1
         assert results[0].location == 'Tartu'
@@ -134,7 +131,7 @@ class TestCVeeSearch:
         """Should handle empty results."""
         mock_response = Mock()
         mock_response.status_code = 200
-        mock_response.json.return_value = {'data': {'vacancies': []}}
+        mock_response.json.return_value = {'vacancies': [], 'total': 0}
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
@@ -145,28 +142,28 @@ class TestCVeeSearch:
     @patch('requests.Session.get')
     def test_search_limit_respected(self, mock_get):
         """Should respect limit parameter."""
-        # Create 10 mock vacancies
+        # Create 5 mock vacancies (API respects limit parameter)
         vacancies = [
             {
-                'id': i,
-                'title': f'Job {i}',
-                'company_name': 'Company',
+                'id': i + 1,  # Start from 1 to avoid empty URL
+                'positionTitle': f'Job {i}',
+                'employerName': 'Company',
                 'slug': f'job-{i}',
-                'location_ids': [1],
-                'published_at': '2025-01-01',
+                'townId': [1],
+                'publishDate': '2025-01-01',
             }
-            for i in range(10)
+            for i in range(5)
         ]
         
         mock_response = Mock()
         mock_response.status_code = 200
-        mock_response.json.return_value = {'data': {'vacancies': vacancies}}
+        mock_response.json.return_value = {'vacancies': vacancies, 'total': 10}
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
         
-        with patch.object(scraper, '_get_locations', return_value={1: {'id': 1, 'name': 'Tallinn', 'type': 'city'}}):
-            results = scraper.search({'keywords': 'test', 'limit': 5})
+        scraper._locations_cache = {1: {'id': 1, 'name': 'Tallinn', 'type': 'city'}}
+        results = scraper.search({'keywords': 'test', 'limit': 5})
         
         assert len(results) == 5
     
@@ -189,32 +186,29 @@ class TestCVeeParsing:
         """Should parse complete job data."""
         vacancy = {
             'id': 999,
-            'title': 'Senior Python Developer',
-            'company_name': 'EstTech OÜ',
+            'positionTitle': 'Senior Python Developer',
+            'employerName': 'EstTech OÜ',
             'slug': 'senior-python-developer',
-            'location_ids': [1, 2],
-            'published_at': '2025-01-01T10:00:00',
-            'description': 'We are looking for...',
-            'salary_from': 2000,
-            'salary_to': 3500,
-            'salary_currency': 'EUR',
-            'salary_period': 'month',
+            'townId': [1, 2],
+            'publishDate': '2025-01-01T10:00:00',
+            'positionContent': 'We are looking for...',
+            'salaryFrom': 2000,
+            'salaryTo': 3500,
         }
         
         mock_response = Mock()
         mock_response.status_code = 200
-        mock_response.json.return_value = {'data': {'vacancies': [vacancy]}}
+        mock_response.json.return_value = {'vacancies': [vacancy], 'total': 1}
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
         
-        locations = {
+        scraper._locations_cache = {
             1: {'id': 1, 'name': 'Tallinn', 'type': 'city'},
             2: {'id': 2, 'name': 'Tartu', 'type': 'city'},
         }
         
-        with patch.object(scraper, '_get_locations', return_value=locations):
-            results = scraper.search({'keywords': 'python'})
+        results = scraper.search({'keywords': 'python'})
         
         assert len(results) == 1
         job = results[0]
@@ -226,22 +220,22 @@ class TestCVeeParsing:
         assert job.posted_date == '2025-01-01T10:00:00'
         assert job.description == 'We are looking for...'
         assert job.source == 'cvee'
-        assert 'senior-python-developer' in str(job.url)
+        assert str(job.url) == 'https://cv.ee/et/vacancy/999'
     
     @patch('requests.Session.get')
     def test_parse_job_missing_optional(self, mock_get):
         """Should handle missing optional fields."""
         vacancy = {
             'id': 888,
-            'title': 'Developer',
-            'company_name': 'Company',
+            'positionTitle': 'Developer',
+            'employerName': 'Company',
             'slug': 'dev',
-            'location_ids': [],
+            'townId': [],
         }
         
         mock_response = Mock()
         mock_response.status_code = 200
-        mock_response.json.return_value = {'data': {'vacancies': [vacancy]}}
+        mock_response.json.return_value = {'vacancies': [vacancy], 'total': 1}
         mock_get.return_value = mock_response
         
         scraper = CVeeScraper(config={})
@@ -291,14 +285,13 @@ class TestCVeeLocationResolution:
         """Should resolve multiple location IDs."""
         scraper = CVeeScraper(config={})
         
-        locations = {
+        scraper._locations_cache = {
             1: {'id': 1, 'name': 'Tallinn', 'type': 'city'},
             2: {'id': 2, 'name': 'Tartu', 'type': 'city'},
             3: {'id': 3, 'name': 'Pärnu', 'type': 'city'},
         }
         
-        with patch.object(scraper, '_get_locations', return_value=locations):
-            result = scraper._resolve_location([1, 2, 3])
+        result = scraper._resolve_location([1, 2, 3])
         
         assert result == 'Tallinn, Tartu, Pärnu'
     
@@ -307,12 +300,11 @@ class TestCVeeLocationResolution:
         """Should handle unknown location IDs."""
         scraper = CVeeScraper(config={})
         
-        locations = {
+        scraper._locations_cache = {
             1: {'id': 1, 'name': 'Tallinn', 'type': 'city'},
         }
         
-        with patch.object(scraper, '_get_locations', return_value=locations):
-            result = scraper._resolve_location([999])
+        result = scraper._resolve_location([999])
         
         assert result == 'Unknown'
 

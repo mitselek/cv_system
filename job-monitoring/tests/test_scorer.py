@@ -34,9 +34,10 @@ def test_score_positive_keywords() -> None:
     scored = scorer.score(job)
     
     # 2 positive keywords matched (python, remote) = 20 points
+    # title_match bonus (Developer in title) = 15 points
     # remote bonus = 5 points
-    # Total = 25 points
-    assert scored.score == 25
+    # Total = 40 points
+    assert scored.score == 40.0
     assert "python" in scored.matched_keywords or "remote" in scored.matched_keywords
 
 
@@ -96,9 +97,12 @@ def test_score_required_keywords_missing() -> None:
     
     scored = scorer.score(job)
     
-    # Missing required keywords = -50 points, clamped to 0
-    assert scored.score == 0
-    assert "required_missing" in scored.score_breakdown
+    # title_match (Developer) = 15 points
+    # Missing required keywords with short description (<100 chars) = -15 points
+    # Total = 0
+    assert scored.score == 0.0
+    # Short description triggers softer penalty
+    assert "required_missing_no_desc" in scored.score_breakdown
 
 
 def test_score_preferred_company() -> None:
