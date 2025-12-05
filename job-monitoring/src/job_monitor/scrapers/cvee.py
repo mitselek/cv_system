@@ -146,8 +146,8 @@ class CVeeScraper(BaseScraper):
         })
 
         # Cache location and category mappings
-        self._locations_cache: dict[int, dict[str, Any | None]] = None
-        self._categories_cache: dict[int, str | None] = None
+        self._locations_cache: dict[int, dict[str, Any | None]] | None = None
+        self._categories_cache: dict[int, str | None] | None = None
 
         logger.info("CV.ee scraper initialized")
 
@@ -193,7 +193,7 @@ class CVeeScraper(BaseScraper):
             return {}
 
     @cached(ttl=86400)  # Cache categories for 24 hours
-    def _get_categories(self) -> dict[int, str]:
+    def _get_categories(self) -> dict[int, str | None]:
         """Fetch and cache category data from CV.ee API.
 
         Returns:
@@ -211,7 +211,7 @@ class CVeeScraper(BaseScraper):
             data = response.json()
 
             # Build ID -> name mapping
-            categories = {}
+            categories: dict[int, str | None] = {}
             for cat in data.get('data', []):
                 cat_id = cat.get('id')
                 if cat_id:
