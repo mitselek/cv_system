@@ -286,18 +286,18 @@ class DuunitoriScraper(BaseScraper):
 
             print(f"   ✅ Extracted {sum(1 for j in jobs_needing_details if j.description)} descriptions")
 
-    def fetch_job_details(self, job_url: str) -> dict[str, Any]:
+    def fetch_job_details(self, job_id: str) -> dict[str, Any]:
         """Fetch full job details for CLI enrichment.
 
         Public interface for CLI to call when fetching job descriptions.
 
         Args:
-            job_url: Full URL to job posting
+            job_id: Full URL to job posting
 
         Returns:
             Dictionary with 'description' and contact info keys
         """
-        description, contact_info = self._extract_job_details(job_url)
+        description, contact_info = self._extract_job_details(job_id)
         return {
             'description': description,
             **contact_info

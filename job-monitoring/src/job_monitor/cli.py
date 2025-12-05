@@ -18,10 +18,10 @@ from job_monitor.config import ConfigManager, ConfigurationError
 from job_monitor.deduplicator import Deduplicator
 from job_monitor.digest import DigestGenerator
 from job_monitor.markdown_exporter import MarkdownExporter
-from job_monitor.scorer import JobScorer
 from job_monitor.schemas import JobPosting, JobStatus, ScoredJob, SystemConfig
-from job_monitor.state import StateManager
+from job_monitor.scorer import JobScorer
 from job_monitor.scrapers import ScraperRegistry
+from job_monitor.state import StateManager
 
 # Shared click option decorator for config file
 config_option = click.option(
