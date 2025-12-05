@@ -7,6 +7,7 @@
 ## Problem Summary
 
 The `job_monitoring.yml` CI/CD workflow is failing with:
+
 1. Test process exit code 1
 2. Missing `htmlcov/` coverage report directory
 3. Codecov upload failure
@@ -16,6 +17,7 @@ The `job_monitoring.yml` CI/CD workflow is failing with:
 ### Issue 1: Incorrect Test Path Configuration
 
 **Current Workflow:**
+
 ```yaml
 - name: Run tests with coverage
   run: |
@@ -23,12 +25,14 @@ The `job_monitoring.yml` CI/CD workflow is failing with:
 ```
 
 **Problem:**
+
 - Tests are configured to run from `scripts/` directory
 - Actual test suite is located in `job-monitoring/tests/`
 - `scripts/test_cvee_api.py` is not part of the main job monitoring test suite
 - Mismatch between configured path and actual source structure
 
 **Evidence:**
+
 - Directory structure:
   - `/job-monitoring/tests/` - Main test suite (15+ test files)
   - `/job-monitoring/src/job_monitor/` - Source code
@@ -38,12 +42,14 @@ The `job_monitoring.yml` CI/CD workflow is failing with:
 ### Issue 2: Missing Working Directory Context
 
 **Problem:**
+
 - Workflow runs from repository root (default)
 - Attempts to run `pytest scripts/` which doesn't have all dependencies configured
 - `pip install -e .` installs from repo root, not from `job-monitoring/` subdirectory
 - `pyproject.toml` in `job-monitoring/` has specific pytest configuration that's not being used
 
 **Evidence:**
+
 ```yaml
 # pyproject.toml specifies:
 [tool.pytest.ini_options]
@@ -54,11 +60,13 @@ pythonpath = ["src"]
 ### Issue 3: Missing Coverage Configuration
 
 **Problem:**
+
 - Coverage report generation depends on test discovery and execution
 - If tests fail to run or collect properly, `htmlcov/` directory is never created
 - Codecov action tries to upload report from `./coverage.xml` which also fails to generate
 
 **Evidence:**
+
 - GitHub Actions error: "No files were found with the provided path: htmlcov/"
 - This indicates pytest's coverage report generation step never completed
 
@@ -67,6 +75,7 @@ pythonpath = ["src"]
 ### Fix 1: Update Workflow Working Directory and Test Path
 
 **Change from:**
+
 ```yaml
 - name: Install dependencies
   run: |
@@ -88,6 +97,7 @@ pythonpath = ["src"]
 ```
 
 **Change to:**
+
 ```yaml
 - name: Install dependencies
   run: |
@@ -117,6 +127,7 @@ pythonpath = ["src"]
 ### Fix 2: Update Artifact Path
 
 **Change from:**
+
 ```yaml
 - name: Upload coverage HTML
   uses: actions/upload-artifact@v4
@@ -127,6 +138,7 @@ pythonpath = ["src"]
 ```
 
 **Change to:**
+
 ```yaml
 - name: Upload coverage HTML
   uses: actions/upload-artifact@v4
@@ -139,6 +151,7 @@ pythonpath = ["src"]
 ### Fix 3: Update Test Count Check
 
 **Change from:**
+
 ```yaml
 - name: Check test count
   run: |
@@ -152,6 +165,7 @@ pythonpath = ["src"]
 ```
 
 **Change to:**
+
 ```yaml
 - name: Check test count
   run: |
