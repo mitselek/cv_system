@@ -143,14 +143,13 @@ class DuunitoriScraper(BaseScraper):
         keywords = query.get('keywords', '')
         location = query.get('location', '')
         limit = query.get('limit', 20)
-        full_details = query.get('full_details', self.config.get('full_details', False))
+        full_details = query.get('full_details', self.config.get('full_details', True))
         state_manager = query.get('state_manager')
 
         print(f"\n🔍 Searching {self.DISPLAY_NAME}: {keywords}")
         if location:
             print(f"   Location filter: {location}")
-        if full_details:
-            print("   📄 Full details mode: extracting descriptions (slower)")
+        print("   📄 Fetching full job descriptions and contact info")
 
         url = f"{self.BASE_URLS[0]}/tyopaikat"
         params = {

@@ -126,8 +126,7 @@ def cli() -> None:
 @config_option
 @click.option("--dry-run", is_flag=True, help="Run without saving state or candidates")
 @click.option("--force", is_flag=True, help="Force rescan of all sources")
-@click.option("--full-details", is_flag=True, help="Extract full job descriptions (slower, ~1.5s per job)")
-def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
+def scan(config: Path, dry_run: bool, force: bool) -> None:
     """Scan enabled job sources and save candidates."""
     try:
         cm = ConfigManager(config)
@@ -177,8 +176,8 @@ def scan(config: Path, dry_run: bool, force: bool, full_details: bool) -> None:
 
     unique_jobs = dd.filter_unique(all_jobs)
 
-    # Enrich with full details if requested
-    if full_details and unique_jobs:
+    # Enrich with full details
+    if unique_jobs:
         click.echo(f"\nFetching full details for {len(unique_jobs)} jobs...")
         enriched_jobs = []
 
