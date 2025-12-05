@@ -4,11 +4,11 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ## Action Agenda
 
-### Immediate (Today - Dec 4)
+### Completed (Dec 5)
 
-- [ ] **Prepare for interviews tomorrow (Dec 5)**
-  - 10:30 RmIT - Full-Stack arendaja (~1h, MS Teams, Jaana Kivila)
-  - 13:30 Brandem Baltic - Full-stack vanemarendaja (45 min, MS Teams, Margaret Idasaar)
+- [x] **Interviews completed**
+  - 10:30 RmIT - Full-Stack arendaja (~1h, MS Teams, Jaana Kivila) ✓
+  - 13:30 Brandem Baltic - Full-stack vanemarendaja (45 min, MS Teams, Margaret Idasaar) ✓
 
 ### This Week (Dec 5-8)
 
@@ -19,11 +19,14 @@ This file tracks all job applications generated from the CV system. Each applica
 
 - [ ] **Dec 11 11:00**: 1oT - Tech Lead (45 min, Google Meet)
 
+### January 2026
+
+- [ ] **Wednesday, January 8, 2026**: Send follow-up reminder to Brandem Baltic (day after deadline)
+
 ### Upcoming Deadlines
 
 | Deadline | Company | Position | Status |
 |----------|---------|----------|--------|
-| 2025-12-07 | Brandem Baltic OÜ | Full-stack vanemarendaja | Interview |
 | 2025-12-08 | Tallinna Strateegiakeskus | Innovatsioonispetsialist | Submitted |
 | 2025-12-10 | Posti Oy | Solution Lead Developer | Submitted |
 | 2025-12-14 | RmIT | Full-Stack arendaja | Interview |
@@ -34,6 +37,7 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-16 | Eesti Raudtee AS | Full-Stack arendaja | Submitted |
 | 2025-12-21 | DataShift OÜ | Project Manager | Submitted |
 | 2025-12-29 | Eesti Rahvusraamatukogu | IT-projektijuht | Submitted |
+| 2025-01-07 | Brandem Baltic OÜ | Full-stack vanemarendaja (response deadline) | Interview |
 
 ### Awaiting Response
 
@@ -49,6 +53,8 @@ This file tracks all job applications generated from the CV system. Each applica
 - Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
 - 1oT OÜ - Tech Lead (interview Dec 11)
 - Riverty - Tech Platform Lead (ack Dec 3)
+- RmIT - Full-Stack arendaja (interview completed Dec 5, awaiting response)
+- Brandem Baltic - Full-stack vanemarendaja (interview completed Dec 5, response expected by Jan 7)
 
 ---
 
@@ -73,8 +79,8 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-22 | Askend Estonia OÜ | Tarkvaraarenduse projektijuht | 75% | [README](Askend_Estonia/Tarkvaraarenduse_Projektijuht/README.md) | 2025-11-22 | Rejected | 2025-11-27: Rejected - selected another candidate. Contact: <melissa.padjus@askend.com> |
 | 2025-11-23 | Kaitseressursside Amet | IKT-projektijuht | 70% | [README](Kaitseressursside_Amet/IKT-projektijuht/README.md) | 2025-11-23 | Submitted | Strong IT PM experience (15+ yrs, managed 700+ user LAN, Justice Ministry projects). Gaps: Cyber security background, security clearance unknown. Contact: <sigre.ratsepp@kra.ee> (+372 5307 3982) |
 | 2025-11-24 | Tallinna Strateegiakeskus | Innovatsioonispetsialist | 55% | [README](Tallinna_Strateegiakeskus/Innovatsioonispetsialist/README.md) | 2025-12-08 | Submitted | 2025-11-24: Ack received, response ~2 weeks after deadline. Contact: <taimi.schyts@tallinnlv.ee> |
-| 2025-11-27 | Brandem Baltic OÜ | Full-stack vanemarendaja (Eesti Loto) | 80% | [README](Brandem_Baltic/Full_Stack_Vanemarendaja/README.md) | 2025-12-07 | Interview | 2025-11-26: Ack received. 2025-12-03: **Interview scheduled** - Dec 5 at 13:30-14:15 (45 min) MS Teams with Margaret Idasaar. Contact: <margaret@brandem.ee> (+372 515 1749) |
-| 2025-11-27 | RmIT | Full-Stack arendaja | 68.75% | [README](RmIT/Full_Stack_Arendaja/README.md) | 2025-12-14 | Interview | 2025-11-27: Ack received. 2025-12-03: **Interview confirmed** - Dec 5 at 10:30 (~1h) MS Teams with Jaana Kivila. Contact: <jaana.kivila@rmit.ee> |
+| 2025-11-27 | Brandem Baltic OÜ | Full-stack vanemarendaja (Eesti Loto) | 80% | [README](Brandem_Baltic/Full_Stack_Vanemarendaja/README.md) | 2025-01-07 (response) | Interview | 2025-11-26: Ack received. 2025-12-03: Interview scheduled. 2025-12-05: **Interview completed** - 13:30-14:15 MS Teams with Margaret Idasaar. Expected response ASAP, deadline Tuesday Jan 7, 2026. Follow-up scheduled: Wednesday Jan 8, 2026. Contact: <margaret@brandem.ee> (+372 515 1749) |
+| 2025-11-27 | RmIT | Full-Stack arendaja | 68.75% | [README](RmIT/Full_Stack_Arendaja/README.md) | 2025-12-14 | Interview | 2025-11-27: Ack received. 2025-12-03: Interview confirmed. 2025-12-05: **Interview completed** - 10:30 (~1h) MS Teams with Jaana Kivila. Recording transcribed. Contact: <jaana.kivila@rmit.ee> |
 | 2025-11-28 | Entain NCE | (Recruiter contact) | - | [README](Entain_NCE/Technical_Recruiter_Contact/README.md) | - | Pending | Recruiter-initiated. Contact: <anastasiia.sakovskaia@enlabs.com> |
 | 2025-11-28 | SRINI OÜ | Süsteemianalüütik | 100% | [README](SRINI/Susteemianaluutik/README.md) | Not specified | Submitted | Excellent fit - direct system analyst experience at EKI. 2025-11-28: Ack received via CV.ee, application successfully forwarded to employer. Contact: <heli@srini.ee> |
 | 2025-11-28 | Eesti Kunstiakadeemia | IT-osakonna juhataja | 100% | [README](Eesti_Kunstiakadeemia/IT_osakonna_juhataja/README.md) | 2025-12-14 | Submitted | Previous position holder 2009-2012. LAN infrastructure (700+ users), email migration (90% cost savings), Entu asset management (5000+ assets). 6 years IT leadership experience. 2025-11-28: Ack received, response expected via CV.ee. |
@@ -107,4 +113,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-12-04 (Axitare application completed)
+**Last Updated:** 2025-12-05 (Dec 5 interviews completed: RmIT and Brandem Baltic)
