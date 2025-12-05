@@ -10,7 +10,8 @@ Common functionality used across multiple scrapers:
 
 import functools
 import time
-from typing import Any, Callable, Optional, Protocol, TypeVar
+from collections.abc import Callable
+from typing import Any, Optional, Protocol, TypeVar
 
 F = TypeVar('F', bound=Callable[..., Any])
 
@@ -96,7 +97,7 @@ def retry(
     return decorator
 
 
-def cached(ttl: Optional[float] = None) -> Callable[[Callable[..., Any]], CachedFunction]:
+def cached(ttl: float | None = None) -> Callable[[Callable[..., Any]], CachedFunction]:
     """Decorator to cache function results.
     
     Args:
@@ -176,10 +177,10 @@ def safe_get(data: dict, *keys: str, default: Any = None) -> Any:
 
 
 def format_salary(
-    salary_from: Optional[float],
-    salary_to: Optional[float],
+    salary_from: float | None,
+    salary_to: float | None,
     currency: str = "€"
-) -> Optional[str]:
+) -> str | None:
     """Format salary range as string.
     
     Args:

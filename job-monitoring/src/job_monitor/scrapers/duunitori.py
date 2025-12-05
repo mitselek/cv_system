@@ -10,7 +10,7 @@ import re
 import time
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any
 
 import requests
 from bs4 import BeautifulSoup
@@ -345,7 +345,7 @@ class DuunitoriScraper(BaseScraper):
         Returns:
             Dictionary with contact_name, contact_email, contact_phone
         """
-        contact_info: Dict[str, Optional[str]] = {
+        contact_info: dict[str, str | None] = {
             'contact_name': None,
             'contact_email': None,
             'contact_phone': None,
@@ -421,7 +421,10 @@ class DuunitoriScraper(BaseScraper):
             # 4. Try to extract contact name (heuristic: find capitalized words near email)
             if contact_info['contact_email'] and not contact_info['contact_name']:
                 # Look for patterns like "Contact: FirstName LastName" or "FirstName LastName\nEmail:"
-                name_pattern = r'(?:Contact|Yhteyshenkilö|Yhteydet|Contact Person)[\s:]*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)'
+                name_pattern = (
+                    r'(?:Contact|Yhteyshenkilö|Yhteydet|Contact Person)[\s:]*'
+                    r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)'
+                )
                 name_match = re.search(name_pattern, text_content)
                 if name_match:
                     contact_info['contact_name'] = name_match.group(1).strip()

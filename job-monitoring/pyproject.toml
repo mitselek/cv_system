@@ -65,7 +65,7 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
-ignore = ["UP015", "UP017", "W293"]
+ignore = []
 
 [tool.coverage.run]
 source = ["src/job_monitor"]
