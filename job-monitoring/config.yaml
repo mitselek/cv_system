@@ -142,6 +142,9 @@ scoring:
     - part-time
     - assistant
     - on-call
+    - casino
+    - gambling
+    - betting
     - 24/7
   
   required_keywords:
