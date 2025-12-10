@@ -1,0 +1,39 @@
+{
+  "job": {
+    "id": "1480504",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480504",
+    "title": "DevOps Engineer",
+    "company": "Ridango AS",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T12:04:46.333+00:00",
+    "discovered_date": "2025-12-10T15:09:25.280844",
+    "description": "Ootused kandidaadile:\nRequirements:\nStrong Linux and infrastructure experience with solid security awareness.\nHands-on Kubernetes administration and application deployment.\nExperience with automation (Ansible, Salt, Jenkins), virtualization, and CI/CD pipelines.\nKnowledge of Nginx/HAProxy, cloud platforms (AWS/GCP/Azure), and PostgreSQL HA concepts.\nStrong networking fundamentals; Cloudflare is a plus.\nExperience with monitoring, logging, and backup systems.\nExcellent troubleshooting and problem-solving skills, including work with open-source tools.\nEffective communicator and collaborator; willing to join a 2nd-level on-call rotation.\nFluent in English.\n\nTööülesannete kirjeldus:\nKey responsibilities:\nAutomating infrastructure\nof a state-of-the-art critical real-time transit ticketing and payment systems used by thousands of vehicles and millions of people across the globe.\nConstantly improve the level of automation\nin all areas.\nServer setup and configuration:\nSet up and configure virtual and on-premise servers for deploying and operating the company's software.\nSupporting services configuration:\nDevelop and manage supporting services for servers, including monitoring, backups, and other necessary services.\nOperational troubleshooting:\nTroubleshoot operational issues on the infrastructure level with the company's services.\nDatabase setup and maintenance:\nSet up and maintain databases, with a focus on PostgreSQL, ensuring optimal performance and reliability.\nKubernetes cluster management:\nSet up and maintain Kubernetes clusters on various platforms, including cloud and on-premises environments. Migrate services and applications there from traditional setups.\nCollaboration and assistance:\nAssist, advise, and cooperate with colleagues, primarily software developers, to collaboratively implement new solutions and solve issues.\nOn-call support:\nParticipate in an on-call schedule for 2nd level operational support.\n\nOmalt poolt pakume:\nWe offer:\nAn opportunity to participate in high-impact system development with a combination of hardware and software that influences billions of people around the globe.\nDynamic and challenging work in a growing international technology company.\nPassionate and experienced leaders. A company culture that empowers people and where each employee’s contribution counts and is valued.\nOpportunity to grow together with an ambitious and expanding company filled with supportive and positive people.\nCompetitive compensation package.\nPassion, fun, and power to make public transportation seamless to use.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 55.0,
+  "score_breakdown": {
+    "positive_keywords": 100.0,
+    "negative_keywords": -20.0,
+    "title_match": 15.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "data",
+    "kubernetes",
+    "aws",
+    "azure",
+    "gcp",
+    "ci/cd",
+    "devops",
+    "infrastructure",
+    "database",
+    "postgresql"
+  ],
+  "category": "Review"
+}

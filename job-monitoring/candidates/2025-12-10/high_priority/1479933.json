@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "1479933",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1479933",
+    "title": ".NET arhitekt - meie tiimis saad lauale tuua visiooni, mis ühendab tehnoloogia ja äri!",
+    "company": "Net Group OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-09T12:46:00.056+00:00",
+    "discovered_date": "2025-12-10T15:09:25.280369",
+    "description": "Ootused kandidaadile:\nSul on töökogemus\nfull-stack\nvanemarendaja ja/või tarkvaraarhitektina;\ntehnoloogiad: .NET, C#, ASP.NET Core, React, Docker, Kubernetes, SQL, REST, x-tee, RabbitMQ;\noskus luua töötavaid\nfull-stack\nrakendusi ja neid hooldada;\ntunned DevOpsi, konteinertehnoloogiaid ja Azure’i ökosüsteemi;\ntunned mikroteenuste arhitektuuri, sh nende integreerimisevõimalusi ja skaleeritavust;\nkogemused relatsiooniliste andmebaasidega töötamisel;\ntunned arhitektuuriraamistikke;\nheal tasemel modelleerimisoskused;\noskused selgitada välja kliendi ärivajadused ning pakkuda ning põhjendada lahendusi;\nagiilsete arendusmetoodikate tundmine ja rakendamise oskus;\nheal tasemel teadmised meeskonnatöö toimimise põhimõtetest ning meeskonnatöö kogemus;\nvalmisolek iseseisvaks tööks ja kliendisuhtluseks;\neesti ja inglise keele oskus kõrgtasemel;\nIT-alane kutse- või kõrgharidus.\nKasuks tuleb:\nJava programmeerimiskeele oskus ning Spring, HTML, CSS, Javascript, Typescript ja Angular raamistike tundmine;\nLLM, AI;\nPower BI;\nhuvi uute tehnoloogiate kasutuselevõtu vastu;\nkogemus tiimi eestvedaja, juhendaja, mentorina.\n\nTööülesannete kirjeldus:\nOtsime oma tiimi kogenud tarkvaraarhitekti, kes suudab juhtida keerukaid tarkvaraarenduse protsesse, kujundada skaleeritavaid lahendusi ning tuua lauale visiooni, mis ühendab tehnoloogia ja äri. Sinu igapäev:\nteostad süsteemi arhitektuuri tervikuna: määratled süsteemi tehnilise struktuuri ja komponendid, rakenduste struktuuri, arenduskeskkonna, tehniliste komponentide valiku, kavandad süsteemi arendust ning süsteemi jõudluse;\ntöötad välja ja dokumenteerid arhitektuuri- ja projekteerimislahendusi ning edastad need tiimile;\nkirjutad ja täiendad keerukaid programme, teostad\ncode review\n'sid;\ntagad toote, projekti või rakenduse versiooni õigeaegse ja spetsifikatsioonikohase valmimise;\ntöötad välja tarkvaraarenduse protsesse ja meetodeid pidades silmas parimaid praktikaid ja standardeid;\ntiimi tehnilise eestvedajana juhid tarkvaraarenduse protsesse, koordineerid ja juhendad arendusmeeskonna tööd, osaled värbamises ja aitad suunata meeskonnaliikmete arengut;\noled kliendi tehniline konsultant;\nvahetad infot eri osapoolte vahel (klient, projektijuht, arendusmeeskond, süsteemiadministraator);\nosaled hankepakkumiste koostamisel.\n\nOmalt poolt pakume:\nNet Groupis on meie väärtus meil töötavad inimesed. Peame oluliseks paindlikkust, et ühendada töö- ja eraelu, meil on\nhübriidtöö\nvõimalus.\nKontoris\noleme loonud keskkonna, kuhu on mõnus ja\nhubane\ntulla. Oma tervise hoidmiseks on meil\nStebby\nvõi\nConfido\nning haiguse korral hüvitame esimesed\nhaiguspäevad 70%\ntöötaja\nkeskmisest\nkalendripäeva töötasust. Tähtpäevade puhul peame üksteist meeles\nkingitustega\n; ema- ja isadepäeva eelsel reedel on\nemadele-isadele lühendatud tööpäev\n; meil on\nregulaarsed tiimiüritused\nning iga kuu viimasel reedel on meil aegade algusest\ntraditsiooniline kontoripidu\n, kuhu igaüks on oodatud koos aega veetma.\nMeeskonnas ootavad Sind\nvisad inimesed\n, kes on alati valmis abistama, nõustama, ära kuulama ja\nhead huumorit\ntegema.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 90.0,
+    "title_match": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "javascript",
+    "java",
+    "typescript",
+    "react",
+    "angular",
+    "kubernetes",
+    "docker",
+    "azure",
+    "devops"
+  ],
+  "category": "High Priority"
+}

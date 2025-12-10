@@ -1,0 +1,42 @@
+{
+  "job": {
+    "id": "1479989",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1479989",
+    "title": "Senior Frontend Platform Engineer",
+    "company": "Rush Street Interactive LLC",
+    "location": "Unknown",
+    "posted_date": "2025-12-09T13:31:48.000+00:00",
+    "discovered_date": "2025-12-10T15:09:22.051576",
+    "description": "About the Role:\nThe Senior Frontend Platform Engineer role focus on building the systems, tools, and pipelines that enable engineers to deliver high-quality software more efficiently and reliably. This is not a product feature development role. Instead, Frontend Platform Engineer will work at the intersection of tooling, infrastructure, and developer experience to improve the effectiveness and velocity of engineering teams working in a large-scale monorepo environment. Creating cleaner, faster, and more resilient workflows, robust automation and reliable pipelines are essential to productive software development.\n\nWhat You'll Do::\nDeveloper Experience & Tooling\nIdentify friction points in frontend workflows and design automation solutions to remove them.\nOwn and evolve tooling across our client monorepo using technologies like Vite and Nx.\nProvide technical support and guidance to engineers to help them use internal tools effectively.\nCI/CD Pipeline Optimization\nDesign and optimize frontend-specific CI/CD workflows for speed, reliability, and scalability.\nExtend CI/CD pipelines with capabilities such as preview app deployments, Lighthouse CI, Storybook and static asset analysis.\nCollaborate with platform teams to build standardized, scalable pipeline templates and integrations.\nCross-functional Enablement\nPartner with product engineering teams to identify friction points in build, test, and deployment processes.\nPromote adoption of best practices through internal education, technical guidance, and documentation.\nAct as an advocate for continuous improvement and operational excellence in frontend development.\n\nWhat You'll Bring::\nStrong proficiency in JavaScript and TypeScript, with hands-on experience in modern frontend frameworks (e.g., React, Vue, Angular).\nDeep understanding of frontend build systems and tools (e.g., Vite, Webpack, Rollup, Nx).\nPractical knowledge of CI/CD systems (e.g., GitHub Actions, GitLab CI, Jenkins), with a track record of building or maintaining pipelines.\nBackground as a frontend engineer with a focus on developer productivity, tooling, or infrastructure.\nExcellent debugging and communication skills, with a collaborative approach to problem-solving.\nExperience working in and maintaining large-scale frontend monorepos, preferred.\nExperience with containerization (Docker, Kubernetes) and cloud infrastructure (AWS, GCP), preferred.\nFamiliarity with developer experience metrics and a methodical approach to continuous improvement, preferred.\nExperience building and maintaining internal developer tools used at scale, preferred.\n\nWhat Makes Us Great::\nComprehensive compensation\nWork-life balance initiatives\nAutonomy we embrace personal freedom and responsibility\nCreativity we are open to new ideas of how we can be better\nGrowth we want you to develop personally as well as professionally\nTop-notch professionals who are passionate about what they do\nPeople-oriented environment and supportive atmosphere\nAs a rapidly growing company in an emerging industry, youll have a huge impact on our product and our company. We like proactive team members and strive to have a company of self-disciplined professionals who enjoy collaboration, having fun, and of course, achieving together what others believe to be improbable. We are dedicated to treating everyone with respect and to support your professional and personal growth.\nRush Street Interactive is an equal opportunity employer and committed to a diverse and inclusive workplace. All qualified applicants will be considered for employment without regard to race, national origin, ancestry, sex, sexual orientation, sexual identity and expression, marital status, family status, lifestyle, age, culture, religion, military and veteran status, citizenship, or disability.\nBe at the forefront of this ground-breaking industry! Apply now!",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 100.0,
+  "score_breakdown": {
+    "positive_keywords": 140.0,
+    "title_match": 15.0,
+    "language_russian": 10.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "javascript",
+    "java",
+    "typescript",
+    "react",
+    "vue",
+    "angular",
+    "senior",
+    "kubernetes",
+    "docker",
+    "aws",
+    "gcp",
+    "ci/cd",
+    "infrastructure",
+    "API"
+  ],
+  "category": "High Priority"
+}

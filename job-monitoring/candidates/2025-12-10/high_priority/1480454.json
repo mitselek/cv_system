@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "1480454",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480454",
+    "title": "Senior Software Engineer .NET (AaaS)",
+    "company": "Riverty ",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T10:20:07.357+00:00",
+    "discovered_date": "2025-12-10T15:09:25.280448",
+    "description": "What you bring:\n6+ years hands-on in C#/.NET, including direct contribution to architectural decisions - not just code writing, but supporting redesign and migration.\nStrategic, outcome-driven experience in cloud platforms - Azure preferred, but open to reasoned argument for alternatives; know where the hype stops and real business value begins.\nProficiency designing RESTful APIs people actually want to use.\nExperience in microservices, distributed architectures, and event-driven integration (bonus for actual deployment at scale).\nPractical exposure to messaging, e.g., RabbitMQ, Kafka - in production, not just academic.\nBasic experience in frontend JS frameworks - enough to communicate with frontend teams or prototype, not necessarily to ship production UIs.\nThe ability and willingness to challenge company and engineering assumptions, prioritize ruthlessly, and defend your technical choices.\nStrong written and spoken English - clarity beats verbosity.\nFinTech/banking experience is a plus, but ability to learn fast and question existing norms is essential.\n\nYour key responsibilities:\nYou will join one of our product teams and on a daily basis:\nAssist in tackling architectural and coding challenges within your product team. Your remit: support migration, refactoring, and modernization of our Azure cloud environments. Transformation - NOT superficial patching.\nDesign, build, test, and deploy robust, maintainable, readable code and APIs, maximizing automation and reliability.\nAnalyse requirements sceptically, challenge weak assumptions, and assist in architecting systems aligned with future business needs. Document clearly - leave no process ambiguous.\nAssist in driving best practices and standards - if something’s broken, outdated, or inefficient, call it out and help fix it.\nActively shape our engineering culture: give direct feedback, adopt new ideas quickly, and question the status quo.\nParticipate fully in agile processes, but bring tough-minded scrutiny to deadlines, priorities, and work scope.\nMentor team members and assist in setting a visible standard for quality and architectural thinking.\n\nWhat do we offer::\nInclusive and valuing culture\nAt Riverty, you can be who you are. We strive to create an inclusive environment and an appreciative culture, enhanced by our employee networks.\nHealth & Wellbeing\nYour physical and mental health is important to us. Take advantage of our various preventive care and support services.\nProfessional and Personal Development\nTake advantage of our numerous training and development opportunities. Benefit, for example, from training courses offered by Bertelsmann University, language courses or leadership trainings\nMonetary Benefits & Discounts\nKnow that you're appreciated with plenty of employee benefits & discounts just for you.\nFlexibility\nOur diverse working models empower you to customize your work to perfectly align with your preferences. Benefit from mobile office, flexible working hours and part-time models.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 90.0,
+  "score_breakdown": {
+    "positive_keywords": 70.0,
+    "negative_keywords": -20.0,
+    "title_match": 15.0,
+    "preferred_company": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "architect",
+    "architecture",
+    "senior",
+    "azure",
+    "API",
+    "microservices",
+    "agile"
+  ],
+  "category": "High Priority"
+}

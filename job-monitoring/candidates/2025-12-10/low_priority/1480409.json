@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1480409",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480409",
+    "title": "Finnish Speaking Customer Service Agent",
+    "company": "Big Bada Boom OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T09:35:11.876+00:00",
+    "discovered_date": "2025-12-10T15:09:31.618965",
+    "description": "Essential Qualifications & Competencies::\nCommunication:\nFluent written Finnish (native) and strong command of English.\nResilience & Ownership:\nAbility to thrive under pressure and manage challenging customer interactions. Must be proactive, decisive, and take full responsibility for situations.\nCustomer Focus & Problem-Solving:\nA genuine enjoyment of connecting with people and a passion for resolving issues.\nIndustry Interest:\nEnthusiasm for the iGaming sector or a strong motivation to rapidly acquire industry knowledge.\nAge Requirement:\nMust be a minimum of 21 years old due to licensing regulations.\n\nThe core responsibilities of this role include::\nProviding customer support primarily through live chat and email (phone calls are excluded).\nHandling diverse customer inquiries related to games, payments, bonuses, and other aspects of the business.\nProactively communicating customer feedback and concerns to the rest of the team.\nAssisting other internal teams with occasional tasks that are closely related to the business operations.\n\nIn return for your valuable time with us, you can expect::\nA competitive base salary complemented by a monthly bonus.\nThe full support of a small yet highly knowledgeable team.\nOpportunities for professional growth into various other roles within the iGaming sector, including CRM, payments, and more.\nBecause this is a newly formed team, you'll have a significant role in shaping the future direction of our customer service operations. This presents a unique, best-case scenario opportunity to influence and develop your own career trajectory.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "API"
+  ],
+  "category": "Low Priority"
+}

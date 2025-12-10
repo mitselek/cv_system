@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "1479672",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1479672",
+    "title": "Ehitajad (müüriladujad, kipsimehed, maalrid)",
+    "company": "Saul Project OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-09T08:10:28.441+00:00",
+    "discovered_date": "2025-12-10T15:09:33.197677",
+    "description": "Ootused kandidaadile:\nEST\nSoov ja valmisolek teha kvaliteetset tööd\nAusus ja töökindlus\nValmidus töötada täistööajaga\nKasuks tuleb B-kategooria juhiluba\nEesti või vene keele oskus\nRUS\nЖелание выполнять работу качественно\nНадёжность и пунктуальность\nГотовность работать полный рабочий день\nПриветствуется водительское удостоверение категории B\nВладение эстонским или русским языком\n\nTööülesannete kirjeldus:\nEST\nMüürimeestele:\nmüüride ladumine, plokk- ja tellistöö, konstruktsioonide püstitamine\nGipsimeestele:\nkarkasside paigaldus, kipsplaatide paigaldus, viimistlustööd\nMaalritele:\npindade ettevalmistamine, kruntimine, pahteldamine, värvimine ja muud viimistlustööd\nRUS\nДля каменщиков:\nкладка стен, работы с блоками и кирпичом, монтаж конструкций\nДля гипсокартонщиков:\nмонтаж каркасов, установка гипсокартонных плит, отделочные работы\nДля маляров:\nподготовка поверхностей, грунтовка, шпатлевание, покраска и другие отделочные работы",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "language_russian": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

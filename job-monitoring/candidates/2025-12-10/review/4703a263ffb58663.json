@@ -1,0 +1,36 @@
+{
+  "job": {
+    "id": "4703a263ffb58663",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/developer-centralized-access-management-team-authentication-services-tribe-sospp-19807703",
+    "title": "Developer, Centralized Access Management Team, Authentication Services Tribe",
+    "company": "OP Pohjola",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 5.12.",
+    "discovered_date": "2025-12-10T15:11:28.069568",
+    "description": "Haemme vakituiseen työsuhteeseen Developeria Helsinkiin tai Ouluun. Hyödynnämme joustavaa hybridityömallia suomen rajojen sisäpuolella. Tehtävästä Haemme joukkoomme Developeria. Tässä tehtävässä pääsee keskeisesti vaikuttamaan arkkitehtuurin ja järjestelmäintegraation ratkaisuihin. Tässä tehtävässä tulet keskittymään Tunnistamisen heimon järjestelmäkehitykseen ja ylläpitoon. Pääset työskentelemään kiinnostavien järjestelmien parissa ja varmistamaan, että järjestelmäintegraatio toimii saumattomasti. Tässä tehtävässä vastaat järjestelmäintegraation toimivuudesta ja varmistat, että kehittäminen toteuttaa asetetut arkkitehtuurin ja ei-toiminnalliset vaatimukset. Olet aktiivisesti mukana toteutusarkkitehtuurin suunnittelussa, hallitset riippuvuuksia ja varmistat kokonaisuuden eheyden. Pääset arjessasi työskentelemään tiiviisti mm. Product Ownerin, System Product Ownerin ja Lead Developerin kanssa. Yhdessä kehitätte IAM-alueen järjestelmiä, niiden käyttöä ja järjestelmien kokonaisvaltaista arkkitehtuuria, varmistatte järjestelmien toimivuuden sekä parhaiden ratkaisujen löytämisen OP:n tarpeisiin. Millaista osaamista etsimme? Tiimi tekee töitä käyttäjäystävällisen pääsynhallinnan ja monivaiheisen todennuksen (MFA) parissa, mikä auttaa suojaamaan palveluita webissä, mobiilissa ja yritysinfrastruktuurissa. Toivomme, että sinulla on vankka teknologia tausta, esimerkiksi ohjelmistokehittäjänä, teknisenä arkkitehtina tai sovellusarkkitehtina. Sinulla tulisi myös olla kokemusta erikoistumisalueesi arkkitehtuurien ja teknologioiden hallinnasta sekä niiden kanssa työskentelystä. Tässä tehtävässä korostuu erityisesti usean vuoden kokemus ja ymmärrys laajojen järjestelmäkokonaisuuksien, integraatioiden sekä järjestelmäarkkitehtuurin parissa työskentelystä. Lisäksi arvostamme kokemusta pilviteknologioiden parissa, aikaisempi Azure-ympäristön osaaminen on eduksi ja odotamme aktiivista työskentelyotetta. Palveluita käytetään kaikessa tunnistautumisessa OP.fi, OP Mobiili ja luottamusverkostossa joten kyseessä on OP:lle tärkeä palvelu. Toivomme, että sinulla on osaamista seuraavilla osa-alueilla: kokemusta IBM Security Verify Access (IVIA) -ratkaisusta tai vastaavista identiteetin ja pääsynhallinnan (IAM) ratkaisuista kokemusta Java-kehittämisestä (Java21 ja Spring Boot 3 tai vastaava osaaminen) vankkaa kokemusta backend-kehittämisestä kokemusta järjestelmäarkkitehtuurin ja integraatioiden kehittämisessä kontitetuissa ohjelmistoympäristöissä (Docker, Kubernetes, Helm) kokemusta tunnistamisen alueen kehittämisestä, IAM, JWT, OIDC, PKI, HSM, KSM ja vastaavat ovat sinulle tuttuja kokemusta ketteristä menetelmistä, testiautomaatiosta ja devopsista hyvät vuorovaikutustaidot suomeksi ja englanniksi Arvostamme myös kykyäsi tuottaa laadukkaita, dokumentoituja ja pitkäikäisiä ratkaisuja sekä kiinnostustasi kehittämisen menetelmien ja työkalujen parantamiseen. Yhteisössämme tekninen osaaminen on tärkeää, mutta erityisesti toivomme sinulta intohimoa ja rohkeutta kohdata uusia haasteita sekä löytää niihin ratkaisuja. Yhdessä tekeminen on meille aidosti tärkeää, ja toivomme löytävämme sinusta uuden kollegan, joka haluaa antaa aina parhaansa tiimin yhteisten tavoitteiden saavuttamiseksi! Me tarjoamme Vastuullisen työn vastapainoksi pidämme huolen työhyvinvoinnistasi ja tulevaisuuteen katsovista työjärjestelyistä. Tarjoamme sinulle vakaan ympäristön, jossa vastuullisuus, ihmisläheisyys ja yhdessä menestyminen ovat keskeisiä arvoja. Saat käyttöösi monipuoliset henkilöstöetumme , johon kuuluvat mm. henkilökuntaehtoiset pankki-, vakuutus- ja lainapalvelut. Tarjoamme myös kattavan työterveyshuollon, laajan hoitokuluvakuutuksen sekä täysajan tapaturmavakuutuksen. Työssäjaksamiseen panostamme arjen tasapainolla ja joustavuudella sekä tarjoamalla käyttöösi lounas-, liikunta- ja kulttuuriedut sekä mahdollisuuden edulliseen lomailuun OP Pohjolan lomaosakkeissa. Lisätiedot ja hakuohjeet Hae tehtävää lähettämällä meille CV:si ja vapaamuotoinen hakemuksesi rekrytointijärjestelmämme kautta viimeistään 12.12.2025. Kuulemme mielellämme lisää osaamisestasi ja motivaatiostasi tätä tehtävää kohtaan. Ilmoitathan hakemuksesi yhteydessä myös palkkatoiveesi. Lisätietoja tehtävästä antaa Competence Lead Jori Lyytinen keskiviikkona 10.12.2025 klo 9:00-10:00 välisenä aikana. Finanssialalla luottamus ja vastuullisuus ovat toimintamme perusta, minkä vuoksi tehtävään valittavalta henkilöltä tarkistetaan luottotiedot, yritysyhteydet ja mahdolliset eturistiriidat, teetetään huumausainetesti sekä Suojelupoliisin teettämä perusmuotoinen turvallisuusselvitys. OP Pohjola - Meillä on jotain yhteistä OP Pohjola on monimuotoisuutta ja yhdenvertaisuutta kunnioittava työyhteisö. Meille on tärkeää, että jokainen tuntee olonsa tervetulleeksi ja arvostetuksi. Arvostamme erilaisuuden mukanaan tuomaa rikkautta ja monipuolisia näkökulmia. Kannustamme kaikkia hakemaan meille töihin, sillä meillä on jotain yhteistä. Hienoa, että haluat mukaan yhteiselle matkallemme. Olemme asiakkaidemme omistama, finanssialan vetovoimaisin työnantaja Suomessa. Meillä työskentelee yli 14 000 alan ammattilaista. Perustehtävämme on edistää omistaja-asiakkaidemme ja toimintaympäristömme kestävää taloudellista menestystä, turvallisuutta ja hyvinvointia. Meillä työskentely on merkityksellistä sekä työntekijöillemme että muille, sillä Suomen suurimpana finanssitoimijana rakennamme työllämme toiveikkaampaa tulevaisuutta. Sitä olemme tehneet jo yli 120 vuoden ajan.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 55.0,
+  "score_breakdown": {
+    "positive_keywords": 90.0,
+    "title_match": 15.0,
+    "required_missing": -50.0
+  },
+  "matched_keywords": [
+    "java",
+    "data",
+    "lead developer",
+    "kubernetes",
+    "docker",
+    "azure",
+    "devops",
+    "backend",
+    "product owner"
+  ],
+  "category": "Review"
+}

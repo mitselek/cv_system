@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1478501",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478501",
+    "title": "Помощник руководителя / Executive assistant",
+    "company": "MN Laboratooritehnik OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-05T12:48:30.445+00:00",
+    "discovered_date": "2025-12-10T15:09:33.198283",
+    "description": "Требования к кандидатам:\nAt least 1 year of experience as an executive assistant, office manager, or in a related role;\nFamiliarity with document management and foreign economic activity (FEA) principles;\nExperience or basic understanding of tender participation principles would be an advantage;\nProficient PC skills (MS Office, Excel, email);\nAttention to detail, responsibility, and the ability to work with large volumes of information;\nDecent communication skills, and the ability to build business communication.\n\nОписание работы:\nDocument management (contracts, agreements, invoices, transport docs, certificates, etc.);\nPreparing shipping documents and ensuring data accuracy;\nCommunicating with manufacturers: placing and monitoring orders, clarifying delivery terms and conditions;\nMonitoring tenders in target countries, collecting and analyzing information on current and upcoming tenders;\nPreparing tender documents and participating in the bid submission process;\nConducting business correspondence with partners, including foreign trade;\nAssisting the manager on ongoing organizational and administrative matters.\n\nМы предлагаем:\nWork in a modern office in the center of Tallinn;\nHybrid work arrangements are possible (partial remote work by prior arrangement);\nFriendly team and management support;\nOfficial employment, competitive salary (level to be discussed after interview).",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "negative_keywords": -20.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "data"
+  ],
+  "category": "Low Priority"
+}

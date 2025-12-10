@@ -1,0 +1,32 @@
+{
+  "job": {
+    "id": "7c0a392c43d0367c",
+    "source": "duunitori",
+    "url": "https://duunitori.fi/tyopaikat/tyo/senior-embedded-developer-bluefors-helsinki-sasca-19808017",
+    "title": "Senior Embedded Developer, Bluefors, Helsinki",
+    "company": "Academic Work",
+    "location": "Helsinki –",
+    "posted_date": "Julkaistu 5.12.",
+    "discovered_date": "2025-12-10T15:09:57.233060",
+    "description": "Join our client's innovative team and help shape the future of cryostat systems. Bluefors is a leader in cryogenics, designing groundbreaking measurement devices for their advanced cryostat systems. As a Senior Embedded Developer, you get to work in a collaborative, innovative and technically challenging environment. If this sounds an excellent next step for you, apply today! About the role As a Senior Embedded Developer, you will be a part of Bluefors' Temperature Controller team and focus on refactoring and improving a long-standing embedded software codebase, fixing bugs, closing gaps, and ensuring maintainability of a measurement device. You will also participate in designing and implementing new features and participate in testing activities. Collaboration with engineers, physicists, and technicians is essential to understand device behaviour and support system integration. To be successful in this role, you have an excellent understanding working with embedded softwares and ability to cooperate and communicate with different stakeholders. Technologies and tools Linux Yocto Python Git You are offered A senior role in a technically challenging, innovative and global environment Possibility to work with interesting work tasks and with a collaborative and supportive team Flexible hybrid work model, combining weekly office presence and remote work Work tasks Refactoring and improving existing embedded software for a critical measurement device Fixing bugs, closing functional gaps, and ensuring a code maintainability Participating in designing and implementing of a new features and functionalities for the measurement device Collaborating with various stakeholders Contributing to architectural discussions and strategic planning for future product evolution We are looking for Degree in a relevant field of engineering Strong hands-on experience in embedded software development Advanced knowledge of Linux, Yocto, Python, and Git Experience working with software architecture Excellent collaboration and interaction skills and ability to work with different stakeholders Proactive and independent way of working Fluency in English It is meritorious if you have Knowledge of Angular Experience working with test automation Ability to leverage AI tools for code analysis and optimization Experience working in the manufacturing industry Experience working with measurement devices. Our recruitment process This recruitment process is handled by Academic Work and it is our client's wish that all questions regarding the position is directed to Academic Work. Our selection process is continuous and the advert may close before the recruitment process is completed if we have moved forward to the next phase. The process includes two tests: one personality test and one cognitive test. The tests are tools to find the right talent for the right position, to enable equality, diversity, and a fair process. Bluefors Oy Bluefors is the world-leading manufacturer of dilution refrigerators, cryogenic measurement infrastructure, cryocoolers and other cryogenic product lines vital for quantum technology , fundamental physics research and other select industries such as medical and life sciences . With more than 700 employees globally, Bluefors deliver the most reliable, versatile, and easy-to-operate systems on the market under the Bluefors and Cryomech brands.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 75.0,
+  "score_breakdown": {
+    "positive_keywords": 60.0,
+    "title_match": 15.0
+  },
+  "matched_keywords": [
+    "python",
+    "angular",
+    "architect",
+    "architecture",
+    "senior",
+    "infrastructure"
+  ],
+  "category": "High Priority"
+}

@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1480524",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480524",
+    "title": "DevOps insener",
+    "company": "Siseministeeriumi infotehnoloogia- ja arenduskeskus",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T12:03:46.961+00:00",
+    "discovered_date": "2025-12-10T15:09:28.458290",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 5.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "devops"
+  ],
+  "category": "Low Priority"
+}

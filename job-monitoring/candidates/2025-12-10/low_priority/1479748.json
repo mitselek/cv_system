@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1479748",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1479748",
+    "title": "Sotsiaalhoolekande peaspetsialist",
+    "company": "Rae vallavalitsus",
+    "location": "Unknown",
+    "posted_date": "2025-12-09T09:12:52.000+00:00",
+    "discovered_date": "2025-12-10T15:09:33.198342",
+    "description": "Kui Sa tunned, et kirjeldatud töö on Sinu jaoks, siis ootame CV-d ja motivatsioonikirja meiliaadressile cv@rae.ee hiljemalt 31.detsembril märgusõnaga \"sotsiaalhoolekande peaspetsialist\". Täiendav info tel 5814 1962",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

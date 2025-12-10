@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1478563",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478563",
+    "title": "Customer Support Manager",
+    "company": "Stebby",
+    "location": "Unknown",
+    "posted_date": "2025-12-05T13:30:38.264+00:00",
+    "discovered_date": "2025-12-10T15:09:26.870239",
+    "description": "About the job:\nWe are looking for a dynamic and experienced Customer Support Manager to lead and transform our customer service operations. At Stebby, we are all about proactive problem-solving and adding real value to our users lives. The ideal candidate is passionate about fostering a happy, high-performing team, defining and upholding exceptional service standards with consistency, and collaborating cross-functionally to drive customer satisfaction and retention.\nLocation:\nTallinn or Tartu based.\n\nWhat you will do:\nLead and develop the Customer Support team - plan and organize the team's work, conduct 1-on-1s, performance reviews, daily calls and team meetings.\nEnsure service quality and meet customer satisfaction expectations by implementing and establishing new best practices and customer service standards.\nOwn the metrics - drive decision-making by utilizing data to transform service trends into actionable product and process improvements.\nDrive cross-team collaboration with Sales and Product teams to resolve systemic issues and align customer retention strategies.\nDesign and deliver training to reduce customer turnover and capture additional business opportunities; empower the team to continuously learn and develop their skills.\nAdvance coaching culture and be an active mentor for the team.\nAlign and collaborate with other teams to meet company goals.\n\nWhat we are looking for:\nAt least 5 years of managerial and customer support experience.\nGood understanding of modern solutions and operations related to customer service.\nAbility to interpret data to make business cases.\nA people person and a team player.\nExperience with cross-team collaboration with business and technical teams.\nA strong sense of ownership, the ability to work independently and a decent work ethic.\nAbility to effectively lead a hybrid/remote team.\nExcellent Estonian and English skills. Proficiency in Russian is considered an advantage.\n\nOur promises to you:\nA chance to make a change in peoples habits to live a healthier life - more wellness equals better health and a happier society.\nFamily-friendly benefits to support work-life balance (hybrid workplace, health insurance, dedicated monthly budget for your health & wellness, days-off for personal occasions, extra vacation days, to name a few).\nPersonal training budget to support your professional and personal growth.\nOpportunity to work with a positive, active and committed team.\nFun and modern environment combined with the perks of a fully established and still expanding company.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "title_match": 15.0,
+    "language_russian": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "data"
+  ],
+  "category": "Low Priority"
+}

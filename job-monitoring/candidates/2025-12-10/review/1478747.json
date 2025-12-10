@@ -1,0 +1,29 @@
+{
+  "job": {
+    "id": "1478747",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478747",
+    "title": "WordPress arendaja",
+    "company": "Töötukassa vahendatud pakkumised",
+    "location": "Unknown",
+    "posted_date": "2025-12-06T03:03:05.000+00:00",
+    "discovered_date": "2025-12-10T15:09:23.683656",
+    "description": "Tööandja nimi:\nRM24 Eesti OÜ\n\nTööülesanded:\n-Wordpress e-poe arendus\n- PHP ja HTML / CSS / Javascript oskused\n- Oskad töötada nii iseseisvalt kui ka meeskonnas.\n- Suhtled vabalt eesti ja inglise keeles.\n\nOmalt poolt pakume:\n- Sõbralikku kollektiivi\n- Arenemisvõimalusi\n- Paindlikku tööaega\n- Motiveerivat töötasu kokkuleppel\n\nKandideerimise info:\nTähtaeg: 2026-01-03\nTöösuhte kestus: tähtajatu",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 45.0,
+  "score_breakdown": {
+    "positive_keywords": 20.0,
+    "title_match": 15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "javascript",
+    "java"
+  ],
+  "category": "Review"
+}

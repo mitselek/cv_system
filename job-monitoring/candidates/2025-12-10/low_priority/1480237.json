@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "1480237",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480237",
+    "title": "Atlassian Administrator",
+    "company": "Genius Sports",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T05:45:55.000+00:00",
+    "discovered_date": "2025-12-10T15:09:31.619184",
+    "description": "A bit about us:\nBy bringing together next-gen technology and the finest live data available, Genius Sports is enabling a new era of sports for fans worldwide, delivering experiences that are more immersive, interactive and personalised than ever before. Learn more at geniussports.com.\nTHE ROLE:\nGenius Sports is a longstanding user of the Atlassian tooling. Like most companies, we have accrued some overlap in our internal tooling and we’re looking to streamline this across teams by importing data and migrating teams over to the Atlassian stack. Genius Sports is looking for a passionate Atlassian administrator to help us with achieving our goal of driving adoption of Jira and Confluence further within the business so we can end up with a unified stack for documentation and work management.\n\nWhat you'll do:\nMonitor responsible usage of the Jira & Confluence systems and maintain configuration and workflows\nMonitor upcoming changes and feature releases for tools in scope\nSupport adoption of Atlassian tooling when migration is being done\nWork with the IT team on reviewing requests or suggestions, assess their impact and value, and prioritise appropriately\nUnderstand usage and plan migrations between ITSM and documentation tooling\nWrite scripts and API calls as needed to automate migration processes\nIn conjunction with the IT and business teams, plan appropriate migration paths to ensure usability and feature parity\nScript API calls to facilitate the migration into from Jira and Confluence from other tooling - Notion, Linear, other Jira instances\n\nWhat you'll bring:\nWork experience in a similar position where maintenance of Atlassian tooling and migration to Atlassian tools was required\nExtensive Atlassian experience - Jira and Confluence and their respective API’s\nExperience in migrating/merging Jira instances and migrating data into Jira and Confluence cloud\nUnderstanding of the agile workflow and requirements\nUnderstanding of permissions structure in Atlassian tooling\nAbility to quickly learn and adapt\nSolid verbal and written communication skills (English), including the ability to communicate complex issues to both technical and non-technical stakeholders\n\nWhy join?:\nWe enjoy an office-first culture and maximize opportunities to collaborate, connect and learn together. Our hybrid working models differ depending on your role and location.\nAs well as a competitive salary and range of benefits, were committed to supporting employee wellbeing and helping you grow your skills, experience and career. Learn more about how rewarding life at Genius can be at Reward | Genius Sports.\nOne team, being brave, driving change\nWe strive to create an\ninclusive working environment, where everyone feels a sense of belonging and\nthe ability to make a difference. Learn more about our values and culture at Culture | Genius\n.\nLet us know when you apply if you need any assistance during the recruiting process due to a disability.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 30.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "data",
+    "API",
+    "agile"
+  ],
+  "category": "Low Priority"
+}

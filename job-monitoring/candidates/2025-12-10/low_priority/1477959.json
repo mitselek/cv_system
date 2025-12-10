@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "1477959",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1477959",
+    "title": "Construction site engineer - join a team of professionals!",
+    "company": "Brandem Baltic OÜ",
+    "location": "Unknown",
+    "posted_date": "2025-12-04T14:38:12.000+00:00",
+    "discovered_date": "2025-12-10T15:09:28.459453",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 10.0,
+  "score_breakdown": {
+    "title_match": 15.0,
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

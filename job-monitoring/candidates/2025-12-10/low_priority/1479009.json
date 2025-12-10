@@ -1,0 +1,28 @@
+{
+  "job": {
+    "id": "1479009",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1479009",
+    "title": "Application Support Analyst - Tallinn or Viljandi",
+    "company": "Sysynkt",
+    "location": "Unknown",
+    "posted_date": "2025-12-09T20:06:14.341+00:00",
+    "discovered_date": "2025-12-10T15:09:25.280865",
+    "description": "What we Offer:\nAre you ready to embark on an exciting journey with Sysynkt - a dynamic cloud software scale-up! Our rapid growth and ambitious expansion plans present a\nunique opportunity\nfor\ndriven professionals and those starting out after graduating\n. We are currently seeking an Application Support Analyst.\nWe're in search of a\nresourceful and motivated\nApplication Support Analyst to join our Customer Success team. Based at either our\nstate-of-the-art Viljandi office\nalongside our engineering team\nor in our new Tallinn office\n, you'll play a\ncrucial role in assisting our corporate customers\nand users of our cloud business management software. This position is an\nideal starting point\nfor\nrecent graduates\nor for those aspiring to\nkickstart a rewarding career in cloud business software\n. At Sysynkt we're dedicated to ensuring that our customers and partners are genuinely delighted with their experience of our products, and this is your chance to play a key part in achieving this goal.\nAs a\nyoung scale-up\n, we all chip in from time-to-time with whatever is needed to make Sysynkt a success so flexibility and adaptability are key requirements, along with a strong desire to work as part of a team but still be motivated and driven when working by yourself. In return you will receive\nfull training\nin our product suite plus an\nexciting and dynamic working environment\nwith highly talented co-workers who care passionately about their roles and the company.\nThe role is\n37.5 hours a week full-time\nand is based in our office in Viljandi or Tallinn. You\nmay be required to work outside the regular 9-5\nto cover support for our customers in SE Asia and Australasia.\nWhilst we're happy for our team to sometimes work from home the role is office-based as we find it the best way to continually learn from each other in this fast-paced software development. Occasional travel may be also required as we are an international company. A\ncompetitive salary\nis offered, dependent upon your experience, plus\n28 days paid holiday\nand\nStebby benefits\n.\n**This role does NOT provide sponsorship to obtain an Estonian working visa. Please do not apply for this role if you do not already possess the right to work in Estonia as you will not be considered**\n\nThe Role:\nAs a valued member of the Sysynkt team, your role will encompass these tasks:\nProactively monitor and promptly respond to new customer tickets.\nMethodically review, progress, and update existing tickets.\nEnsure all tickets are attended to promptly or escalated when necessary.\nConduct remote troubleshooting and guide customers through effective solutions.\nExecute comprehensive issue and patch testing.\nMaster the Sysynkt product suite, and contribute by creating Solution articles, helpful videos and other articles to share knowledge and solutions.\nDeepen your understanding of the application and its ecosystem, as well as the business processes of our customers, to provide invaluable insights.\nIdentify and propose process improvements.\nAssist with release testing & communications.\n\nThe Ideal Candidate:\nIf you already enjoy making customers happy, love solving problems and have technical skills then we're keen to hear from you, but we also open to candidates with all levels of experience. This role would be ideally suited to Computer Science graduates with customer-facing experience, who are looking to start their careers at an exciting scale-up.\nYou will need to:\nTruly want to keep our customers happy even under pressure.\nDemonstrate proficiency in understanding our clients' business processes.\nPossess prior experience in customer-facing roles.\nExhibit comfort with web applications, CRMs, or similar web-based software requiring configuration and management.\nShowcase troubleshooting prowess and a passion for problem-solving.\nBe eager to delve into understanding the technical side of our product and how our customers utilise it.\nBe a team-player but able to work on your own too\nHappy to work outside the regular 9-5 to cover our global clients\nAs our clientele predominantly operates in the UK or utilises English as their working language, excellent English proficiency is a prerequisite.",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "positive_keywords": 10.0,
+    "required_missing": -50.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [
+    "API"
+  ],
+  "category": "Low Priority"
+}

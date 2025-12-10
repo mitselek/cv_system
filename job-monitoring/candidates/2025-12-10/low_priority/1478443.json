@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1478443",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1478443",
+    "title": "Laohoidja",
+    "company": "Kaitseressursside Amet",
+    "location": "Unknown",
+    "posted_date": "2025-12-05T11:41:17.000+00:00",
+    "discovered_date": "2025-12-10T15:09:33.198499",
+    "description": null,
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}

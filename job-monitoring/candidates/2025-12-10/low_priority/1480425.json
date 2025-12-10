@@ -1,0 +1,25 @@
+{
+  "job": {
+    "id": "1480425",
+    "source": "cvee",
+    "url": "https://cv.ee/et/vacancy/1480425",
+    "title": "Jurist",
+    "company": "Tervise Arengu Instituut",
+    "location": "Unknown",
+    "posted_date": "2025-12-10T09:32:12.805+00:00",
+    "discovered_date": "2025-12-10T15:09:33.198899",
+    "description": "Spordikompensatsioon, tasuta parkimine, 35 päevane põhipuhkus, 3 tervisepäeva aastas",
+    "contact_name": null,
+    "contact_email": null,
+    "contact_phone": null,
+    "status": "new",
+    "notes": ""
+  },
+  "score": 0.0,
+  "score_breakdown": {
+    "required_missing_no_desc": -15.0,
+    "recency_fresh": 10.0
+  },
+  "matched_keywords": [],
+  "category": "Low Priority"
+}
