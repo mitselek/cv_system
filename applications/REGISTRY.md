@@ -101,13 +101,12 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-04 | Siili Solutions | Data Platform Architect | 65% | [README](Siili_Solutions/Data_Platform_Architect/README.md) | Not specified | Submitted | Data pipeline (Elasticsearch 100k+ records), Python 9/10, SQL/PL/SQL 8/10, AWS experience, 30+ org platform architecture. CRITICAL GAP: Finnish language (only basic, job requires fluent). Job ID: 67a967fcb6c111fa. Source: duunitori. 2025-12-04: Ack received, application being reviewed against project needs. Contact: joonas.raatikainen@siili.teamtailor-mail.com. |
 | 2025-12-04 | Raintree Systems OÜ | Full Stack Developer (React, Node, AWS) | 90% | [README](Raintree_Systems/Full_Stack_Developer_React_Node_AWS/README.md) | 2025-12-17 | Draft | 15+ yrs full-stack JavaScript/Node.js, React/TypeScript expertise, AWS CloudFront/deployment, CI/CD (GitHub Actions). Healthcare software opportunity with greenfield projects. Job ID: 1468785. Source: cvee. Gaps: GraphQL (learnable), AWS certifications (offered by employer). |
 | 2025-12-04 | Axitare Oy | Lead Developer / Architect IOT-lääkeautomaatille | 95% | [README](Axitare/Lead_Developer_Architect_IOT/README.md) | 2025-12-12 | Ready | 30+ yrs system architecture, Node.js/TypeScript backend, cloud-native architecture (AWS, Docker), GitHub Actions CI/CD, team leadership. Medical device IoT pharmacy automation for patient safety. Job ID: 317c3b00519b43cb. Source: duunitori. 2025-12-04: Application package complete - CV, motivation letter, PDFs generated. Gaps: Kubernetes/Helm/Terraform hands-on (learnable), medical device compliance, IoT-specific domain (supported by mentorship). |
-| 2025-12-10 | Rush Street Interactive LLC | Senior Frontend Platform Engineer | 85% | [README](Rush_Street_Interactive/Senior_Frontend_Platform_Engineer/README.md) | Not specified | Draft | 15+ yrs JavaScript/Node.js platform development (Entu 30+ orgs), CI/CD (GitHub Actions), Docker production, AWS (CloudFront), Vue.js, team leadership (4-member, 100% intern hire rate). Platform/infrastructure focus (not features), developer tooling at scale. Job ID: 1479989. Source: cvee. Gaps: Vite/Nx specifics (general build knowledge), Kubernetes operational (Docker yes), monorepo-specific tooling (multi-project experience). 2025-12-10: Application package complete - CV, motivation letter, PDFs generated, fact-check passed (87/87 claims verified). |
 | 2025-12-10 | Net Group OÜ | .NET Arhitekt | 90% | [README](Net_Group_OU/NET_Arhitekt/README.md) | Not specified | Draft | **NATIVE ESTONIAN = PRIMARY ADVANTAGE.** 30+ yrs full-stack/architecture, Java/Spring Boot (8+ yrs, EKI 2017-2018), .NET history (2002-2005, ADO.NET cert 2003), JavaScript 9/10 (15+ yrs), React/Vue.js, Docker production, AWS, 4-member team (100% intern hire), mikroteenused, PostgreSQL/Oracle. Job ID: 1479933. Source: cvee. Gaps: .NET recent experience (historical 2002-2005, but Java/Spring Boot transferable), Azure (AWS experience), Kubernetes operational, RabbitMQ, Angular (Vue.js). 2025-12-10: Estonian CV & motivation letter generated, PDFs created, fact-check passed (42/42 claims verified). CRITICAL ADVANTAGE: Native Estonian language in Estonian-language work environment. |
 
 ## Statistics
 
-- **Total Applications:** 27
-- **Active (Draft/Ready):** 5 (Draft) + 1 (Ready) = 6
+- **Total Applications:** 26
+- **Active (Draft/Ready):** 4 (Draft) + 1 (Ready) = 5
 - **Submitted:** 12
 - **In Interview Process:** 3
 - **Pending Response:** 1
@@ -118,4 +117,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-12-10 (Rush Street Interactive and Net Group OÜ applications generated)
+**Last Updated:** 2025-12-10 (Net Group OÜ application generated; Rush Street Interactive removed - casino business)
