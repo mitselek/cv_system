@@ -18,8 +18,8 @@ This file tracks all job applications generated from the CV system. Each applica
 ### Next Week (Dec 8-14)
 
 - [ ] **Dec 8 15:15**: online consultation with Töötukassa (Merle Parts)
-- [ ] **Dec 11 10:00**: Eesti Raudtee - Full-Stack arendaja (Telliskivi tn 60/2, Kristi Rand)
-- [ ] **Dec 11 11:00**: 1oT - Tech Lead (45 min, Google Meet)
+- [ ] **Dec 11 10:00**: Eesti Raudtee - Full-Stack arendaja (Telliskivi tn 60/2, Kristi Rand) ✓ COMPLETED
+- [ ] ~~**Dec 11 11:00**: 1oT - Tech Lead (45 min, Google Meet)~~ **MISSED** - Apology sent 13:41, reschedule requested
 
 ### January 2026
 
@@ -49,12 +49,10 @@ This file tracks all job applications generated from the CV system. Each applica
 - Eesti Kunstiakadeemia - IT-osakonna juhataja (ack Nov 28)
 - Eesti Rahvusraamatukogu - IT-projektijuht (ack Nov 29)
 - Playtech Estonia - System Analyst (ack Nov 30, ~2 weeks expected)
-- IONA - Technical Architect (ack Dec 1)
 - Siili Solutions - Data Platform Architect (ack Dec 4, application under review)
 - Posti Oy - Solution Lead Developer (ack Dec 3 & 5, application under review, follow-up ack received Dec 5)
 - EWQ Zone Oy - Senior Backend Developer (ack Dec 2, first round interviews weeks 50-51)
-- Kühne + Nagel - Senior Backend Engineer (ack Dec 2)
-- 1oT OÜ - Tech Lead (interview Dec 11)
+- 1oT OÜ - Tech Lead (**Interview missed Dec 11**, apology sent 13:41, reschedule requested)
 - Riverty - Tech Platform Lead (ack Dec 3)
 - RmIT - Full-Stack arendaja (interview completed Dec 5, awaiting response)
 - Brandem Baltic - Full-stack vanemarendaja (interview completed Dec 5, response expected by Jan 7)
@@ -90,11 +88,11 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-11-29 | Eesti Rahvusraamatukogu | IT-projektijuht | 85% | [README](Eesti_Rahvusraamatukogu/IT_projektijuht/README.md) | 2025-12-29 | Submitted | Strong memory institution background. Gap: Education. 2025-11-29: Ack received via CV.ee, application successfully forwarded to employer. |
 | 2025-11-30 | Playtech Estonia | System Analyst | 92% | [README](Playtech_Estonia/System_Analyst/README.md) | 2025-12-14 | Submitted | Senior System Analyst experience at EKI. UML certification. Strong database skills. Gap: iGaming industry experience. 2025-11-30: Ack received via SmartRecruiters, response within 2 weeks. |
 | 2025-12-01 | Accenture | Senior AI Architect | 40% | [README](Accenture/Senior_AI_Architect/README.md) | Open | Draft | Strong software architecture (15+ yrs), Python/Node.js expertise. CRITICAL GAP: No ML/AI experience. Application via Accenture portal only (no email). |
-| 2025-12-01 | IONA | Technical Architect | 85% | [README](IONA/Technical_Architect/README.md) | 2025-12-14 | Submitted | 15+ yrs Node.js architecture, PÖFF team leadership, 100% intern hire rate. Gaps: Finnish language, e-commerce domain. Salary: €6,500-7,500. 2025-12-01: Ack received from Emmi Vahvelainen. |
+| 2025-12-01 | IONA | Technical Architect | 85% | [README](IONA/Technical_Architect/README.md) | 2025-12-14 | Rejected | 15+ yrs Node.js architecture, PÖFF team leadership, 100% intern hire rate. Gaps: Finnish language, e-commerce domain. Salary: €6,500-7,500. 2025-12-01: Ack received from Emmi Vahvelainen. **2025-12-11: REJECTED** - Finnish language requirement essential for client-facing work (meetings, documentation, workshops). Most collaboration in Finnish and English. Company open to future international opportunities with different language requirements. Contact: vahvelainen.emmi@iona.teamtailor-mail.com. |
 | 2025-12-01 | Posti Oy | Solution Lead Developer | 85% | [README](Posti/Solution_Lead_Developer/README.md) | 2025-12-10 | Submitted | Backend (20+ yrs), Oracle/PLSQL (8/10, O'Reilly handbook), Python (9/10), 100k+ real-time systems. Gaps: Kafka/event streaming, logistics. 2025-12-03: Applied through Workday system after GDPR clarification. Ack received, application under review. 2025-12-05: Follow-up ack from Jennifer Kyllönen confirming review in progress. Contact: Jennifer Kyllönen <jennifer.kyllonen@posti.com> / workday.notification@posti.com. |
 | 2025-12-01 | EWQ Zone Oy | Senior Backend Developer | 68.75% | [README](EWQ_Zone/Senior_Backend_Developer/README.md) | 2025-12-14 | Submitted | Node.js (15 yrs, 8/10), MongoDB (15 yrs), Docker, backend architecture, AI tools (since Apr 2024). CRITICAL GAP: No PHP experience (primary requirement). Honest about gap in application. 2025-12-02: Applied through TeamTailor system. Ack received, application registered, response expected within a few days. 2025-12-03: **Timeline update** - Application period closes Dec 14. First round interviews (Google Meet) weeks 50-51 (Dec 8-16). Contact: Laura Willberg <laura@wecon.fi> (+358 50 586 2769). |
-| 2025-12-03 | Kühne + Nagel | Senior Backend Engineer (m/w/d) | 90% | [README](Kuhne_Nagel/Senior_Backend_Engineer/README.md) | Not specified | Submitted | 20+ yrs backend, Spring Boot (EKI), AWS, Docker, API design. Gaps: Kotlin, Kubernetes production. Job ID: 1476464. 2025-12-02: Ack received from PeopleHub, application under review. Contact: people@kuehne-nagel.com. |
-| 2025-12-03 | 1oT OÜ | Tech Lead / Senior Java Software Engineer | 95% | [README](1oT/Tech_Lead_Senior_Java_Software_Engineer/README.md) | Not specified | Interview | 20+ yrs Java/Spring backend, led 4-member team (100% intern hire rate), API architecture, AWS/Docker. Gaps: Terraform, Grafana, cryptography/HSM. Job ID: 1473117. eSIM/IoT domain. 2025-12-02: Ack received from Julia Tihane via Recrur ATS, continuous review process. 2025-12-04: Interview invitation received - 45-minute intro call scheduled for next week. Interview confirmed: Dec 11, 2025 11:00-11:45 EET, Google Meet (meet.google.com/zqu-dvfe-hvx), phone +372 685 2061. Attendees: Julia Tihane, Aleksander Reitsakas, Mihkel Putrinš. |
+| 2025-12-03 | Kühne + Nagel | Senior Backend Engineer (m/w/d) | 90% | [README](Kuhne_Nagel/Senior_Backend_Engineer/README.md) | Not specified | Rejected | 20+ yrs backend, Spring Boot (EKI), AWS, Docker, API design. Gaps: Kotlin, Kubernetes production. Job ID: 1476464. 2025-12-02: Ack received from PeopleHub, application under review. **2025-12-10: REJECTED** - Strong pool of candidates, others closer match to specific requirements. Profile was impressive but not selected. Invited to join talent community for future opportunities. Contact: people@kuehne-nagel.com. |
+| 2025-12-03 | 1oT OÜ | Tech Lead / Senior Java Software Engineer | 95% | [README](1oT/Tech_Lead_Senior_Java_Software_Engineer/README.md) | Not specified | Interview | 20+ yrs Java/Spring backend, led 4-member team (100% intern hire rate), API architecture, AWS/Docker. Gaps: Terraform, Grafana, cryptography/HSM. Job ID: 1473117. eSIM/IoT domain. 2025-12-02: Ack received from Julia Tihane via Recrur ATS, continuous review process. 2025-12-04: Interview invitation received - 45-minute intro call scheduled for next week. Interview confirmed: Dec 11, 2025 11:00-11:45 EET, Google Meet (meet.google.com/zqu-dvfe-hvx), phone +372 685 2061. Attendees: Julia Tihane, Aleksander Reitsakas, Mihkel Putrinš. **2025-12-11: INTERVIEW MISSED** - Eesti Raudtee interview (10:00) ran over schedule, timing conflict not detected by job monitoring system. Called 11:15 to inform. Apology email sent 13:41 to Julia Tihane and Aleksander Reitsakas, reschedule requested. Automation system scheduling collision detection gap identified and being addressed. |
 | 2025-12-03 | Riverty | Tech Platform Lead | 85% | [README](Riverty/Tech_Platform_Lead/README.md) | Not specified | Submitted | 30+ yrs full-stack, led 4-member team (PÖFF), system architecture (30+ orgs), Node.js (15 yrs), Java/Python. Gaps: Fintech experience, C# documentation, Azure/GCP. Job ID: 1475899. Leadership role managing payment methods, apps, portals, checkout APIs. 2025-12-03: Ack received from Bertelsmann HR/SuccessFactors, application under review. |
 | 2025-12-03 | Wärtsilä Oyj Abp | Senior System Analyst | 70% | [README](Wartsila/Senior_System_Analyst/README.md) | 2025-09-24 (CLOSED) | Not Applied | Direct Senior System Analyst title at EKI. Network infrastructure (700+ users). Documentation 9/10, Python 9/10. CRITICAL GAP: No maritime/naval systems experience. Job ID: c3a2caad660c3670. Position confirmed closed 2025-12-03 (career portal: "no longer taking applications"). Generated for reference only. |
 | 2025-12-04 | Eesti Raudtee AS | Full-Stack arendaja | 87.5% | [README](Eesti_Raudtee/Full_Stack_Arendaja/README.md) | 2025-12-16 | Interview | Excellent fit: 15+ yrs Node.js/Java, PostgreSQL/Oracle expertise, Docker/cloud experience. CRITICAL GAP: Svelte/SvelteKit (no direct experience, but strong JavaScript 9/10 foundation, Vue.js framework experience). 2025-12-04: Submitted via CV.ee, confirmation received. Contact: personal@evr.ee. 2025-12-10: Interview scheduled for Dec 11, 2025 at 10:00, location: Telliskivi tn 60/2, A korpus, 2nd floor, Tallinn. Contact: Kristi Rand (kristi.rand@evr.ee, 53 037 755). |
@@ -107,14 +105,14 @@ This file tracks all job applications generated from the CV system. Each applica
 
 - **Total Applications:** 26
 - **Active (Draft/Ready):** 4 (Draft) + 1 (Ready) = 5
-- **Submitted:** 12
+- **Submitted:** 10
 - **In Interview Process:** 3
 - **Pending Response:** 1
 - **Not Applied:** 1
 - **Offers Received:** 0
 - **Positions Accepted:** 0
-- **Rejected:** 3
+- **Rejected:** 5
 
 ---
 
-**Last Updated:** 2025-12-10 (Net Group OÜ application generated; Rush Street Interactive removed - casino business)
+**Last Updated:** 2025-12-11 (IONA & Kühne + Nagel rejected; 1oT interview missed, apology sent)
