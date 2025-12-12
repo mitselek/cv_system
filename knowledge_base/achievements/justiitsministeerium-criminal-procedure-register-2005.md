@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: justiitsministeerium-criminal-procedure-register-2005
 aliases: ["Criminal Procedure Register"]

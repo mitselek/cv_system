@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: oopus-disaini-1993-1995
 type: employment

@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: mtcipv6e-2025
 type: certification

@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: eesti-malu-instituut-2017-2024
 type: employment
@@ -14,9 +12,9 @@ title:
 location: Tallinn, Estonia
 tags: [Data Curation, Data Cleansing, Database Management, History, Research, Data Pipeline, Elasticsearch]
 skills_demonstrated: [data-curation, database-management, spreadsheet-tools, python, system-architecture]
-achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020]
+achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020, mem-memorial-name-plates-2018-2024]
 status: verified
-last_verified: '2025-12-01'
+last_verified: '2025-12-12'
 ---
 
 ## et
@@ -24,6 +22,7 @@ last_verified: '2025-12-01'
 - Skännida raamatud [Memento raamatud](https://www.memento.ee/trukised/memento-raamatud) ja moodustada nende põhjal andmebaas [eMem](https://github.com/memoriaal/eMem) ning ehitada sellele veebiväljund [Memoriaal](https://www.memoriaal.ee).
 - Memento raamatutele on aja jooksul lisandunud veel kümneid allikaid, mille nimekirjad on tulnud olemasolevatega kokku viia; suuresti toimub töö Google tabelites, kus loon igaks ülesandeks ajaloolastele spetsiaalse töökeskkonna andmete otsimiseks ja võrdlemiseks.
 - Ka on mul õnnestunud panna ajaloolased toimetama andmetega otse MySql andmebaasis - nad teevad päringuid ja isegi loovad seal kontrollitud keskkonnas sisu; selle üle olen ma eriti uhke.
+- Kogu andmetöö Maarjamäe kommunismiohvrite memoriaali „Teekonna" mälestusseina 22 000+ nimetahvlile ja perioodilistele lisatahvlitele (2018-2024).
 
 ## en
 
@@ -37,5 +36,5 @@ last_verified: '2025-12-01'
 ## Connections
 
 - **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]], [[python]], [[system-architecture]]
-- **Achievements:** [[mem-historian-db-adoption-2024]], [[mem-elasticsearch-pipeline-2020]]
+- **Achievements:** [[mem-historian-db-adoption-2024]], [[mem-elasticsearch-pipeline-2020]], [[mem-memorial-name-plates-2018-2024]]
 

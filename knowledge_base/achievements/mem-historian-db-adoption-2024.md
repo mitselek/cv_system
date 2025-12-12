@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: mem-historian-db-adoption-2024
 aliases: ["Onboarded historians to use the database directly"]

@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: oopus-repro-den-za-dnjom-acquisition-1996
 aliases: ["Acquisition of the Den za Dnjom weekly magazine brand"]

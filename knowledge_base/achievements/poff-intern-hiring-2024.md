@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: poff-intern-hiring-2024
 aliases: ["Mentored 4 interns to full-time positions"]

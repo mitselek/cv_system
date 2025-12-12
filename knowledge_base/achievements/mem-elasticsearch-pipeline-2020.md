@@ -1,5 +1,3 @@
-Last updated: 2025-12-01T00:00:00+02:00
-
 ---
 id: mem-elasticsearch-pipeline-2020
 aliases: ["Elasticsearch real-time data pipeline for memoriaal.ee and wwii-refugees.ee"]

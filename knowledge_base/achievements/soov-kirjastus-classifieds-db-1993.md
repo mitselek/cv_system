@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: soov-kirjastus-classifieds-db-1993
 aliases: ["Developed a classifieds database for Soov newspaper"]

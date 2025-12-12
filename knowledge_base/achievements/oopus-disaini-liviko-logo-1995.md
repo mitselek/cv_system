@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: oopus-disaini-liviko-logo-1995
 aliases: ["Creation of the Liviko logo"]

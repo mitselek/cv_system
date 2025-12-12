@@ -1,5 +1,3 @@
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: eka-entu-implementation-2012
 aliases: ["Implemented Entu platform for inventory and archive management"]

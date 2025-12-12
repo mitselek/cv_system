@@ -1,7 +1,4 @@
 <!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
-Last updated: 2025-11-21T13:01:37+02:00
-
 ---
 id: secondary-education-1979-1990
 type: education
