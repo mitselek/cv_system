@@ -4,7 +4,7 @@ skill_name:
   et: AI tööriistad
   en: AI Tools
 category: Development Tools
-proficiency_level: 5/10
+proficiency_level: 7/10
 tags: [ai, copilot, mcp, prompt-engineering, code-generation, llm]
 status: verified
 last_verified: "2025-12-01"
