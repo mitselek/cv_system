@@ -18,25 +18,21 @@ Net Group OÜ
 
 Austatud värbamis&shy;meeskond,
 
-Kandideerin .NET arhitekti ametikohale, mille leidsin CV.ee portaalist. Üle 30 aasta tarkvaraarenduse ja süsteemiarhitektuuri kogemusega spetsialistina näen selles rollis võimalust tuua lauale visiooni, mis ühendab tehnoloogia ja äri - täpselt nii, nagu teie kuulutus seda kirjeldab.
+Kandideerin .NET arhitekti ametikohale, mille leidsin CV.ee portaalist. Üle 30 aasta tarkvaraarenduse ja süsteemiarhitektuuri kogemusega spetsialistina näen selles rollis võimalust tuua lauale tehnoloogiat ja äri ühendavaid visioone.
 
-## Miks mina sobilin Net Groupi?
-
-### Emakeelne eesti keel - ainulaadne eelis
-
-Olen emakeelne eestlane ja töötan päevast päeva eestikeelses keskkonnas. See annab mulle ainulaadse eelise võrreldes rahvusvaheliste kandidaatidega - suudan loomulikult ja ladusalt suhelda klientidega, kirjutada tehnilist dokumentatsiooni ning osaleda meeskonna igapäeva&shy;töödes ilma keele&shy;barjäärideta. Minu kogemus Eesti e-valitsuse projektides (Justiitsministeerium 2002-2005) annab mulle ka x-tee keskonnaga tutvuse.
+## Minu sobivus Net Group'i?
 
 ### 30+ aastat full-stack arhitektuuri kogemust
 
-Minu karjäär tarkvaraarenduses ulatub tagasi 1986. aastasse, kui kirjutasin esimesi skripte biofüüsika laboris. Viimased 15 aastat olen olnud Entu andme&shy;haldus&shy;platvormi peamine arhitekt ja arendaja - platvorm, mis teenindab 30+ organisatsiooni üle Eesti (kooliraamatukogud, muuseumid, äriühingud). Olen vastutanud kogu platvormi arhitektuuri, API disaini ja mikroteenuste struktuuri loomise eest.
+Minu karjäär tarkvaraarenduses ulatub tagasi 1986. aastasse, kui kirjutasin esimesi skripte biofüüsika laboris. Viimased 15 aastat olen olnud Entu andme&shy;haldus&shy;platvormi kaasarhitekt ja -arendaja - platvorm, mis teenindab 30+ organisatsiooni üle Eesti (kooliraamatukogud, muuseumid, äriühingud). Olen vastutanud kogu platvormi arhitektuuri, API disaini ja mikroteenuste struktuuri loomise eest.
 
 2021-2024 juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) digitaalse platvormi arendamisel. See oli keeruline multidomeen projekt (poff.ee, justfilm.ee, kinoff.ee jne), mis nõudis nii tehnilist ekspertiisi kui ka meeskonna koordineerimist. Olen eriti uhke selle üle, et kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle - see näitab minu võimekust juhendada ja kasvatada noori arendajaid.
 
-### Java/Spring Boot - transferable .NET-i
+### Java/Spring Boot - ülekantav .NET-i
 
-Kuigi minu .NET kogemus pärineb aastates 2002-2005 (Justiitsministeerium, kriminaalhoolduse infosüsteem ja kriminaalmenetluse register), on mul tänapäevane kogemus Java ja Spring Boot'iga (2017-2018, Eesti Keele Instituut, EKI-ASTRA projekt). Kasutasin Spring Boot 2.6.12, Spring Framework 5.3.23 ja Spring Security 5.6.7.
+Kuigi minu .NET kogemus pärineb aastates 2002-2005 (Justiitsministeerium, kriminaalhoolduse infosüsteem ja kriminaalmenetluse register), on mul tänapäevane kõrvaltpilgu kogemus Java ja Spring Boot'iga (2017-2018, Eesti Keele Instituut, EKI-ASTRA projekt). Kasutasime Spring Boot 2.6.12, Spring Framework 5.3.23 ja Spring Security 5.6.7.
 
-C# ja Java on väga sarnased keeled - mõlemad on C-stiilis objekt&shy;orienteeritud programmeerimis&shy;keeled tugeva tüübi&shy;süsteemiga. ASP.NET Core ja Spring Boot on samuti analoogsed web framework'id. Minu Java/Spring Boot kogemus on otseselt ülekantav .NET maailma, ja olen kindel, et suudan kiiresti ajakohastada oma .NET teadmisi tänapäevaste C# ja ASP.NET Core standarditega.
+Ka mu Java/Spring Boot kogemus on otseselt ülekantav .NET maailma ja olen kindel, et suudan kiiresti ajakohastada oma .NET teadmisi tänapäevaste C# ja ASP.NET Core standarditega.
 
 Minu ADO.NET sertifikaat (2003) ja Oracle JDBC sertifikaat (2003) näitavad, et mul on tugev alus andmebaasi integratsioonide vallas, mis on jätkuvalt asjakohane nii .NET kui ka Java ökosüsteemides.
 
@@ -46,7 +42,7 @@ JavaScript on olnud minu põhiline töökeel viimased 15 aastat (9/10 proficienc
 
 TypeScript on muutunud viimase aasta jooksul minu peamiseks tõe allika defineerimise vahendiks peaaegu kõigis projektides (8/10). Kasutan range tüübisüsteemi rakendamist ja interface'ide disaini, et tagada koodibaasi struktuur ja kvaliteet läbi tüüpide.
 
-Mul on Vue.js tootmiskeskkonna kogemus (Entu frontend), ja kuigi pole React'i konkreetselt kasutanud, on minu JavaScript ekspertiis ja framework-agnostic lähenemisviis taganud kiire õppimise. React õppimine on lihtsalt järjekordne framework minu 15+ aastases JavaScript karjääris.
+Mul on Vue.js tootmiskeskkonna kogemus (Entu frontend), ja kuigi pole React'i konkreetselt kasutanud (alati on lõpuks mõni muu vahendite kombinatsioon kohasem tundunud), on minu JavaScript ekspertiis ja framework-agnostic lähenemisviis taganud kiire õppimise. React õppimine on lihtsalt järjekordne framework minu 15+ aastases JavaScript karjääris.
 
 ### Mikroteenuste arhitektuur ja API disain
 
@@ -83,31 +79,11 @@ Olen aktiivne AI tööriistade kasutaja alates aprillist 2024: GitHub Copilot, M
 
 Minu karjäär on olnud pidev õppimise ja kohanemise protsess: Python → Node.js → TypeScript → AI tools. See näitab minu huvi uute tehnoloogiate vastu ja võimekust kiiresti õppida.
 
-## Lüngad ja ausus
+## Lüngad
 
-Ausan, et minu .NET kogemus pärineb aastates 2002-2005 ja pole tänapäevane C#/ASP.NET Core kogemus. Samuti pole mul konkreetset Kubernetes või RabbitMQ kogemust, kuigi mõistan konteinerite ja messaging patterns'ide põhimõtteid.
+Mu .NET kogemus pärineb aastates 2002-2005 ja pole tänapäevane C#/ASP.NET Core kogemus. Samuti pole mul konkreetset Kubernetes või RabbitMQ kogemust, kuigi mõistan konteinerite ja messaging patterns'ide põhimõtteid.
 
-Siiski usun, et minu:
-
-- Java/Spring Boot tänapäevane kogemus (transferable .NET-i)
-- 30+ aastat süsteemiarhitektuuri kogemust
-- Mikroteenuste arhitektuuri ekspertiis
-- Tõestatud kiire õppimisoskus (Python → Node.js → TypeScript evolutsioon)
-- Emakeelne eesti keel
-- Tõestatud tiimi juhtimise edu (100% praktikantide palkamine)
-
-...kompenseerivad need lüngad ja võimaldavad mul kiiresti ajakohastada oma .NET teadmisi ja omandada puuduvaid tehnoloogiaid.
-
-## Kokkuvõte
-
-Olen kogenud tarkvaara&shy;arhitekt, kes suudab:
-
-- Määratleda süsteemi tehnilise struktuuri ja komponendid
-- Juhtida keerukaid tarkvaraarenduse protsesse
-- Kujundada skaleeritavaid lahendusi
-- Tuua lauale visiooni, mis ühendab tehnoloogia ja äri
-- Juhendada ja kasvatada meeskonda
-- Suhelda klientidega emakeelses eesti keeles
+---
 
 Ootan huviga võimalust arutada, kuidas saan Net Groupi meeskonda panustada.
 

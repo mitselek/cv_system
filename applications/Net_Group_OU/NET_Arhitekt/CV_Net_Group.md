@@ -74,6 +74,7 @@ Kogenud tarkvaara&shy;arhitekt ja full-stack arendaja üle 30 aasta kogemusega s
 - Skännida raamatud (Memento raamatud) ja moodustada nende põhjal andmebaas (eMem) ning ehitada sellele veebi&shy;väljund (Memoriaal)
 - Memento raamatutele on aja jooksul lisandunud veel kümneid allikaid, mille nimekirjad on tulnud olemasolevate&shy;ga kokku viia; suuresti toimub töö Google tabelites, kus loon igaks ülesandeks ajaloolastele spetsiaalse töö&shy;keskkonna andmete otsimiseks ja võrdlemiseks
 - Ka on mul õnnestunud panna ajaloolased toimetama andmetega otse MySql andmebaasis - nad teevad päringuid ja isegi loovad seal kontrollitud keskkonnas sisu; selle üle olen ma eriti uhke
+- **Maarjamäe memoriaali nimetahvlid:** Kogu andmetöö Maarjamäe kommunismiohvrite memoriaali „Teekonna" mälestusseina 22 000+ nimetahvlile ja perioodilistele lisatahvlitele (2018-2024). Loodud keeruline Google Sheets töökeskkond kohandatud päringutega, ekstraheeritud andmeid MySQL'ist, viidud läbi süstemaatiline kvaliteedi&shy;kontroll
 - Elasticsearch data pipeline: 100,000+ records processed
 
 ### Eesti Keele Instituut - Vanem&shy;süsteemi&shy;analüütik
@@ -162,7 +163,7 @@ Tööülesanded: Projektis EKI-ASTRA sõnastiku- ja termini&shy;baasi&shy;süste
 
 - Interface'ide disain ja andme&shy;mudeli modelleerimine
 - Range tüübi&shy;süsteemi rakendamine
-- Kompileeriaja vea&shy;kontroll
+- Kompileerimisaja vea&shy;kontroll
 - TypeScript on muutunud peamiseks tõe allika defineerimise vahendiks peaaegu kõigis projektides
 
 **Java:** 7/10 (8+ aastat)
@@ -220,7 +221,7 @@ Tööülesanded: Projektis EKI-ASTRA sõnastiku- ja termini&shy;baasi&shy;süste
 
 ### AI ja Kaasaegsed Tööriistad
 
-**AI Tools:** 5/10 (aktiivne kasutamine alates aprill 2024)
+**AI Tools:** 7/10 (aktiivne kasutamine alates aprill 2024)
 
 - GitHub Copilot: koodi&shy;genereerimine, täiendamine, testimine
 - MCP (Model Context Protocol) serverid: konteksti&shy;põhine AI integratsioon
