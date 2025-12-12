@@ -1,194 +1,119 @@
-# Motivatsioonikiri
-
-**Mihkel Putrinš**  
-Tallinn, Eesti  
-mitselek@gmail.com  
-+372 5656 0978
-
-10. detsember 2025
-
-**Net Group OÜ**  
-.NET Arhitekti Positsioon
-
+---
+docID: ML-NetGr-NETArh
+version: 1.0
+date: 2025-12-12
+author: Mihkel Putrinš
 ---
 
-Lugupeetud Net Group'i värbamismeeskond,
+Mihkel Putrinš  
+Tallinn, Eesti  
++372 5656 0978  
+mitselek@gmail.com
 
-Kirjutan, et väljendada oma tugevat huvi **NET Arhitekti** positsiooni vastu Net Group OÜ-s. Enam kui 30-aastase kogemusega tarkvaraarenduses ja arhitektuuris, sh 15 aastat platvormide arendust, mis teenindavad 30+ organisatsiooni, olen ma põnevil võimalusest panustada teie meeskonda ja aidata luua skaleeritavaid lahendusi, mis ühendavad tehnoloogia ja äri.
+2025-12-12
 
-## Miks Eesti Keele Oskus On Minu Peamine Konkurentsieelis
+Net Group OÜ
 
-Net Group on eesti ettevõte, teenindades peamiselt Eesti turgu, ja **eesti keel on minu emakeel**. See on ainulaadne konkurentsieelis, mida ma toon teie meeskonda:
+**Teema: Kandidatuur .NET arhitekti ametikohale**
 
-**Siduv Kliendikommunikatsioon:**
-Tehniline konsultant peab suutma selgelt selgitada keerukaid tehnilisi lahendusi äriklientidele. Emakeelne suhtlus tagab, et ma saan klientide vajadusi täpselt mõista ja pakkuda põhjendatud lahendusi ilma keelebarjäärita.
+Austatud värbamis&shy;meeskond,
 
-**Loomulik Dokumentatsioon:**
-Arhitektuuri dokumentatsioon, tehnilised spetsifikatsioonid ja meeskonna juhendamine eesti keeles on mulle loomulik. See tagab, et teadmised liiguvad meeskonnas sujuvalt ja täpselt.
+Kandideerin .NET arhitekti ametikohale, mille leidsin CV.ee portaalist. Üle 30 aasta tarkvaraarenduse ja süsteemiarhitektuuri kogemusega spetsialistina näen selles rollis võimalust tuua lauale visiooni, mis ühendab tehnoloogia ja äri - täpselt nii, nagu teie kuulutus seda kirjeldab.
 
-**Kultuuriline Sobivus:**
-Eesti töökultuuri mõistmine ja loomulik suhtlus eesti klientide ja partneritega (sh x-tee integratsioonid ja e-valitsuse süsteemid) annab mulle eelise rahvusvaheliste kandidaatide ees.
+## Miks mina sobilin Net Groupi?
 
-## Miks See Positsioon Resoneerib Minuga
+### Emakeelne eesti keel - ainulaadne eelis
 
-**Full-Stack Arhitektuuri DNA:**
+Olen emakeelne eestlane ja töötan päevast päeva eestikeelses keskkonnas. See annab mulle ainulaadse eelise võrreldes rahvusvaheliste kandidaatidega - suudan loomulikult ja ladusalt suhelda klientidega, kirjutada tehnilist dokumentatsiooni ning osaleda meeskonna igapäeva&shy;töödes ilma keele&shy;barjäärideta. Minu kogemus Eesti e-valitsuse projektides (Justiitsministeerium 2002-2005) annab mulle ka x-tee keskonnaga tutvuse.
 
-Viimased 15 aastat olen juhtinud **Entu Platvormi** - andmehaldussüsteemi, mis nüüd teenindab 30+ organisatsiooni. See pole lihtsalt üks projekt - see on ökosüsteem, mis hõlmab API serverit, CMS-i, staatilise saidi generaatorit, pistikprogramme ja impordivahendeid. Iga komponent on disainitud skaleeritavuse, laiendatavuse ja hooldatavuse silmas.
+### 30+ aastat full-stack arhitektuuri kogemust
 
-See on täpselt see lähenemine, mida teie kuulutus rõhutab: **"visioon, mis ühendab tehnoloogia ja äri."** Ma ei ehita lihtsalt koodi - ma disainin süsteeme, mis lahendavad äriprobleeme.
+Minu karjäär tarkvaraarenduses ulatub tagasi 1986. aastasse, kui kirjutasin esimesi skripte biofüüsika laboris. Viimased 15 aastat olen olnud Entu andme&shy;haldus&shy;platvormi peamine arhitekt ja arendaja - platvorm, mis teenindab 30+ organisatsiooni üle Eesti (kooliraamatukogud, muuseumid, äriühingud). Olen vastutanud kogu platvormi arhitektuuri, API disaini ja mikroteenuste struktuuri loomise eest.
 
-**PÖFF-i Kogemus (2021-2024):**
+2021-2024 juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) digitaalse platvormi arendamisel. See oli keeruline multidomeen projekt (poff.ee, justfilm.ee, kinoff.ee jne), mis nõudis nii tehnilist ekspertiisi kui ka meeskonna koordineerimist. Olen eriti uhke selle üle, et kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle - see näitab minu võimekust juhendada ja kasvatada noori arendajaid.
 
-Pimedate Ööde Filmifestivali jaoks juhtisin ma 4-liikmelist arendusmeeskonda, vastutades kogu festivali digitaalse infrastruktuuri eest. See hõlmas:
+### Java/Spring Boot - transferable .NET-i
 
-- **Multi-domain arhitektuuri:** 5 festivali domeeni (poff.ee, justfilm.ee, kinoff.ee, industry.poff.ee, shorts.poff.ee)
-- **Node.js/JavaScript põhine stack:** Strapi CMS backend, PostgreSQL andmebaas
-- **AWS CloudFront CDN:** Globaalse sisu levitamise jaoks
-- **Deployment automatiseerimine:** Shell skriptid, andmebaasi backupid
+Kuigi minu .NET kogemus pärineb aastates 2002-2005 (Justiitsministeerium, kriminaalhoolduse infosüsteem ja kriminaalmenetluse register), on mul tänapäevane kogemus Java ja Spring Boot'iga (2017-2018, Eesti Keele Instituut, EKI-ASTRA projekt). Kasutasin Spring Boot 2.6.12, Spring Framework 5.3.23 ja Spring Security 5.6.7.
 
-Olen uhke, et **kõik 4 praktikanti, keda ma mentorlusin, palgati peale praktikat täistööle** - 100% konversioonimäär. See ei olnud ainult tehniliste oskuste õpetamine - see oli kultuuri loomine, kus meeskonnaliikmed tunnevad end võimestatud ja toetatud.
+C# ja Java on väga sarnased keeled - mõlemad on C-stiilis objekt&shy;orienteeritud programmeerimis&shy;keeled tugeva tüübi&shy;süsteemiga. ASP.NET Core ja Spring Boot on samuti analoogsed web framework'id. Minu Java/Spring Boot kogemus on otseselt ülekantav .NET maailma, ja olen kindel, et suudan kiiresti ajakohastada oma .NET teadmisi tänapäevaste C# ja ASP.NET Core standarditega.
 
-## Tehniline Sobivus Teie Nõuetega
+Minu ADO.NET sertifikaat (2003) ja Oracle JDBC sertifikaat (2003) näitavad, et mul on tugev alus andmebaasi integratsioonide vallas, mis on jätkuvalt asjakohane nii .NET kui ka Java ökosüsteemides.
 
-### Java ja Spring Boot Tänapäevane Kogemus
+### JavaScript, TypeScript ja React
 
-**Eesti Keele Instituudis (2017-2018)** töötas ma vanem süsteemianalüütikuna EKILEX sõnastiku- ja terminibaasisüsteemi projektil. Tehnoloogiline stack oli:
+JavaScript on olnud minu põhiline töökeel viimased 15 aastat (9/10 proficiency). Olen arendanud Entu platvormi Node.js backend'i alates 2010. aastast ning PÖFF platvormi (2021-2024) kasutasime Strapi CMS'i (Node.js-based) koos PostgreSQL andmebaasiga.
 
-- **Java JDK 17**
-- **Spring Boot 2.6**
-- **Spring Framework 5.3**
-- **Spring Security 5.6**
-- **PostgreSQL 15.4**
+TypeScript on muutunud viimase aasta jooksul minu peamiseks tõe allika defineerimise vahendiks peaaegu kõigis projektides (8/10). Kasutan range tüübisüsteemi rakendamist ja interface'ide disaini, et tagada koodibaasi struktuur ja kvaliteet läbi tüüpide.
 
-See oli minu kõige hiljutine ettevõtte Java kogemus, ja see oli **Spring Boot-põhine**, mis on väga sarnane ASP.NET Core'iga. Mõlemad on kaasaegsed veebiraamistikud, mis kasutavad dependency injection'it, middleware pattern'e ja RESTful API disaini.
+Mul on Vue.js tootmiskeskkonna kogemus (Entu frontend), ja kuigi pole React'i konkreetselt kasutanud, on minu JavaScript ekspertiis ja framework-agnostic lähenemisviis taganud kiire õppimise. React õppimine on lihtsalt järjekordne framework minu 15+ aastases JavaScript karjääris.
 
-### .NET Ajalooline Taust
+### Mikroteenuste arhitektuur ja API disain
 
-**Justiitsministeeriumis (2002-2005)** töötasin ma tarkvaraarendajana kahe suure e-valitsuse projekti kallal:
+Entu platvormi arhitektuur on mikroteenuste põhine - Node.js API backend, Vue.js frontend, MongoDB andmebaas. Olen disaininud RESTful API-sid, mis teenindavad 30+ organisatsiooni mitmekesiseid vajadusi. Mõistan API-first design'i, mikroteenuste integreerimist ja skaleeritavust.
 
-- **Kriminaalhoolduse infosüsteem:** Java/Oracle ADF
-- **Kriminaalmenetluse register:** Microsoft .NET
+### Docker, DevOps ja pilve&shy;tehnoloogiad
 
-Sain 2003. aastal **ADO.NET sertifikaadi** ja töötas .NET-iga 3 aastat valitsussektoris. Kuigi see oli 20 aastat tagasi, andis see mulle .NET ökosüsteemi soldi aluse.
+Mul on Docker'i tootmis&shy;keskkonna kogemus (Elasticsearch deploy Memoriaal projektis). Entu ja PÖFF platformid on konteineri-valmis arhitektuuriga. Kasutan CI/CD pipeline'e (GitHub Actions) ja deploy&shy;ment automation'it.
 
-**Miks Ma Usun, Et Saan Kiiresti ASP.NET Core'i Õppida:**
+Kuigi minu otsene kogemus on AWS'iga (CloudFront, cloud deploys), on Azure õpitav minu cloud kogemusega. Pilvetehnoloogiate põhiprintsiibid (skaleeritavus, turvalisus, kättesaadavus) on sarnased kõigis platvormides.
 
-1. **C# ja Java sarnasus:** Mõlemad on C-stiilis objektorienteeritud keeled. Ma olen kirjutanud neid mõlemaid tootmiskeskkonnas.
-2. **Spring Boot ↔ ASP.NET Core analoogia:** Dependency injection, middleware, routing, REST APIs - kontseptsioonid on peaaegu identsed.
-3. **Kiire õppimine tõestatud:** Ma olen evolutsioneerinud Python'ist (Entu vana versioon) Node.js'i (kaasaegne versioon) 15 aasta jooksul. Ma ei karda uusi tehnoloogiaid.
-4. **Üldised arhitektuuriprintsiibid:** Mikroteenused, API disain, skaleeritavus, turvaline kodeerimine - need on keelest sõltumatud.
+### SQL ja andmebaasid
 
-### JavaScript/React Tugevus
+Mul on 20+ aastat SQL kogemust: PostgreSQL, Oracle (8/10), MongoDB, MySQL. Minu PL/SQL oskus on 8/10 - lugesin O'Reilly "Oracle PL/SQL Programming" käsiraamatu "lõplikult ribadeks" Tele2 billingusüsteemides töötades (2006-2009). Mõistan relatsiooniliste andmebaaside disaini, stored procedures, triggers, packages ja andmebaasi optimeerimist.
 
-**15+ aastat JavaScript/TypeScript kogemust**, proficiency 9/10. Ma olen töötanud:
+### Tiimi juhtimine ja mentorlus
 
-- **Vue.js tootmises:** Entu platvorm, PÖFF
-- **React kogemus:** Framework-agnostic lähenemine
-- **TypeScript:** Kaasaegne frontend arendus
-- **Node.js backend:** 15 aastat API arendust
+PÖFF projektis juhtisin 4-liikmelist arendusmeeskonda. Vastutasin tehnilise eestvedamise, koordineerimise ja juhendamise eest. Tulemus oli erakordne: kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle. See näitab minu võimekust:
 
-Teie nõue React'i jaoks on minu tugevus. Ma võin kirjutada kaasaegset, hooldat
+- Juhendada ja kasvatada noori arendajaid
+- Luua meeskonnas positiivset ja toetavat keskkonda
+- Anda konstruktiivset tagasisidet ja suunata arengut
+- Tuvastada ja kasvatada talente
 
-ud frontend koodi, mis integreerub sujuvalt backend API'dega.
+Eesti Kunstiakadeemias (2009-2012) juhtides IT-osakonda ehitasin kogu ülikooli LAN-võrgu (700+ kasutajat), migreerisin 700+ postkasti Google Mail'i (90% kulude kokkuhoid) ja juurutasin Entu platvormi mitmeks rakenduseks.
 
-### Docker ja DevOps
+### Kliendi&shy;suhtlus ja ärivajaduste väljaselgitamine
 
-**Eesti Mälu Instituudis (2020)** disainisin ja paigaldasin ma **Docker-põhise reaalajas andmepipeline'i** Elasticsearch'iga:
+Entusiastid OÜ (2010-present) ettevõtjana olen suhtelnud 30+ organisatsiooniga, selgitades välja nende äri&shy;vajadused ja pakkudes tehnilisi lahendusi. Mõistan, kuidas ühendada äri ja tehnoloogiat ning kuidas suhelda erinevate osapooltega (klient, projektijuht, arendusmeeskond, süsteemiadministraator).
 
-- **Docker konteinerid DigitalOceanis**
-- **Isoleeritud arendus-, test- ja tootmiskeskkonnad**
-- **100 000+ kirjeid reaalajas publikatsiooniga** (5-minutiline viivitus)
-- **Custom Python skriptid automatiseerimiseks**
+### AI tööriistad ja uued tehnoloogiad
 
-**PÖFF-is** rakendas ma:
+Olen aktiivne AI tööriistade kasutaja alates aprillist 2024: GitHub Copilot, MCP (Model Context Protocol) serverid, LLM API-d (Claude, GPT). Töötasin välja ai-team MVP kahe nädalaga, järgides kõiki tööstuse parimaid tavasid (arhitektuur, dokumentatsioon, testimine, versioonihaldus).
 
-- **CI/CD pipeline'id GitHub Actionsiga**
-- **Shell scripting deployment automatiseerimiseks**
-- **AWS CloudFront CDN integratsioon**
+Minu karjäär on olnud pidev õppimise ja kohanemise protsess: Python → Node.js → TypeScript → AI tools. See näitab minu huvi uute tehnoloogiate vastu ja võimekust kiiresti õppida.
 
-Ma ei ole lihtsalt arendaja - ma olen DevOps-mindsetiga arhitekt, kes mõistab, et hea arhitektuur hõlmab ka deploymendit, monitoringut ja operatsioone.
+## Lüngad ja ausus
 
-### Kubernetes ja Azure
+Ausan, et minu .NET kogemus pärineb aastates 2002-2005 ja pole tänapäevane C#/ASP.NET Core kogemus. Samuti pole mul konkreetset Kubernetes või RabbitMQ kogemust, kuigi mõistan konteinerite ja messaging patterns'ide põhimõtteid.
 
-**Tunnistan ausalt:** Mul ei ole Kubernetes'e operatiivset kogemust tootmiskeskkonnas, kuigi ma olen kasutanud Docker'it. Azure kogemus on mul AWS kaudu transferable (CloudFront, cloud deployments), kuid mitte Azure-spetsiifilised teenused.
+Siiski usun, et minu:
 
-Kuid ma olen enesekindel, et saan neid kiiresti õppida:
+- Java/Spring Boot tänapäevane kogemus (transferable .NET-i)
+- 30+ aastat süsteemiarhitektuuri kogemust
+- Mikroteenuste arhitektuuri ekspertiis
+- Tõestatud kiire õppimisoskus (Python → Node.js → TypeScript evolutsioon)
+- Emakeelne eesti keel
+- Tõestatud tiimi juhtimise edu (100% praktikantide palkamine)
 
-1. **Docker tootmiskogemus** annab tugeva aluse K8s-i jaoks
-2. **Cloud principles on sarnased:** AWS ↔ Azure on teenuste nimede küsimus
-3. **Ma olen pidev õppija:** 30 aastat tarkvaraarenduses tähendab pidevat adaptatsiooni
+...kompenseerivad need lüngad ja võimaldavad mul kiiresti ajakohastada oma .NET teadmisi ja omandada puuduvaid tehnoloogiaid.
 
-## Tiimi Juhtimine ja Mentorlus
+## Kokkuvõte
 
-Net Group'i kuulutus mainib **"tiimi eestvedaja, juhendaja, mentorina"** kogemust kui kasuks tulevat oskust. See on minu tugevus:
+Olen kogenud tarkvaara&shy;arhitekt, kes suudab:
 
-**PÖFF-i 4-liikmeline meeskond:**
+- Määratleda süsteemi tehnilise struktuuri ja komponendid
+- Juhtida keerukaid tarkvaraarenduse protsesse
+- Kujundada skaleeritavaid lahendusi
+- Tuua lauale visiooni, mis ühendab tehnoloogia ja äri
+- Juhendada ja kasvatada meeskonda
+- Suhelda klientidega emakeelses eesti keeles
 
-- Juhtisin arendusprotsesse
-- Andsin code review'sid ja tehnilisi juhendamisi
-- Mentorlusin praktikante professionaalses arengus
-- **100% edu:** Kõik 4 praktikanti said täistööle palgatud
-
-See ei ole lihtsalt number - see on kultuur. Ma usun, et parimad tiimid on need, kus inimesed tunnevad end toetatud, väljakutsutud ja väärtustatud. Ma ei juhi lihtsalt projekte - ma kasvan inimesi.
-
-**30+ Organisatsiooni Konsultatsioon:**
-
-Entu platvormi kaudu olen ma töötanud 30+ organisatsiooniga, alates haridusasutustest kuni avaliku sektori organisatsioonideni. Iga klient vajab erinevat lähenemist - mõned vajavad tehnilisi detaile, teised ärilist väärtust. Ma olen õppinud kohandama oma suhtlust publikule.
-
-## Miks Net Group?
-
-Teie kuulutus mainib **hübriidtöö võimalust, paindlikkust ja sõbralikku meeskonda**. Need väärtused resoneerivad minuga:
-
-1. **Tööelu ja eraelu tasakaal:** Ettevõtjana (Entusiastid OÜ 2010-) olen ma õppinud väärtustama paindlikkust ja autonoomiat.
-2. **Meeskonnatöö kultuur:** PÖFF-i kogemus näitas mulle, et parimad tulemused tulevad toetavatest meeskondadest.
-3. **Pidev õppimine:** Ma ei ole kunagi lõpetanud õppimist - Python'ist Node.js'i, XML'ist React'i, serveritest pilve. Olen alati valmis uusi tehnoloogiaid õppima.
-
-**Konkreetsed Põhjused Net Group'i Kandideerimiseks:**
-
-1. **Eestikeelne töökeskkond** - Minu emakeel on minu suurim konkurentsieelis.
-2. **Tehnoloogiline mitmekesisus** - .NET + Java + React + Azure + Docker - see on tänapäevane stack, mis pakub väljakutseid.
-3. **Tiimi eestvedaja roll** - Ma tahan mitte ainult koodida, vaid ka kasvatada järgmist generatsiooni arendajaid.
-4. **E-valitsuse taust** - x-tee integratsioonid, Eesti avaliku sektori mõistmine (Justiitsministeerium taust).
-
-## Mida Ma Toon Net Group'i Meeskonda
-
-1. **Emakeelne Eesti Keel** - Ainulaadne eelis eestikeelses töökeskkonnas ja klientidega suhtluses
-2. **30+ Aastat Tõestatud Kogemust** - Lai vaade tarkvaraarendusele ja arhitektuurile
-3. **Java/Spring Boot Tänapäevane Kogemus** - Transferable .NET-i (ASP.NET Core ↔ Spring Boot)
-4. **Full-Stack Ekspertiis** - JavaScript/React tugevus + backend arhitektuur
-5. **DevOps Mindset** - Docker, CI/CD, deployment automatiseerimine
-6. **Tõestatud Tiimi Juhtimine** - 100% praktikantide edu, mentorluse kultuur
-7. **Mikroteenuste Arhitektuur** - API-first design, skaleeritavad lahendused
-8. **Kliendikonsultatsioon** - 30+ organisatsiooni kogemus
-
-## Järgmised Sammud
-
-Ma soovin võimalust arutada:
-
-- Kuidas minu full-stack arhitektuuri kogemus saab kiirendada Net Group'i projekte
-- Konkreetsed tehnoloogilised väljakutsed, millega teie meeskond praegu kokku puutub
-- Kuidas ma saan aidata kasvatada järgmist generatsiooni arhitekte teie meeskonnas
-
-Olen saadaval intervjuuks teie sobival ajal ja võin pakkuda täiendavaid näiteid oma arhitektuuri tööst, koodilõike või soovitusi meeskonnaliikmetelt, keda ma olen mentorlusnud.
-
-**Lõpetuseks:**
-
-Ma ei ole lihtsalt tarkvaraarendaja, kes otsib tööd. Ma olen arhitekt, kes armastab keerukaid väljakutseid, mentorlust ja süsteemide loomist, mis teevad erinevust. Net Group'i visioon teknoloogia ja äri ühendamisest on täpselt see, mida ma olen teinud 30 aastat.
-
-**Ja ma teen seda eesti keeles - teie klientide keeles.**
-
-Tänan teid minu kandidatuuri kaalumise eest. Loodan võimalust näidata, kuidas ma saan panustada Net Group'i edasisse edukasse kasvu.
+Ootan huviga võimalust arutada, kuidas saan Net Groupi meeskonda panustada.
 
 Lugupidamisega,
 
-**Mihkel Putrinš**
-
----
-
-**Kontaktandmed:**
-
-- E-post: mitselek@gmail.com
-- Telefon: +372 5656 0978
-- GitHub: github.com/mitselek
-- LinkedIn: linkedin.com/in/mitselek
-- Asukoht: Tallinn, Eesti
+Mihkel Putrinš  
++372 5656 0978  
+mitselek@gmail.com  
+GitHub: https://github.com/mitselek
