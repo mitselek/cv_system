@@ -1,7 +1,7 @@
 # Communication: Interview
 
 **Date:** 2025-12-10
-**From:** Kristi Rand <kristi.rand@evr.ee>
+**From:** Kristi Rand <replyto@teamdash.com>
 **Subject:** AS Eesti Raudtee vestlus
 
 ---
@@ -12,14 +12,3 @@ Seoses Teie kandideerimisega konkursile: Full-stack arendaja (VJS2), leppisime k
 Maja ümbruses on parkimine tasuline.
 
 Kohtumiseni!
-
----
-
-**Kontaktandmed:**
-
-Kristi Rand
-juhataja asetäitja
-personaliosakond
-Tel: 53 037 755
-Email: kristi.rand@evr.ee
-Aadress: Telliskivi tn 60/2, 15073 Tallinn, Eesti

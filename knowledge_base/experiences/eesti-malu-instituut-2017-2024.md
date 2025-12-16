@@ -37,4 +37,3 @@ last_verified: '2025-12-12'
 
 - **Skills:** [[data-curation]], [[database-management]], [[spreadsheet-tools]], [[python]], [[system-architecture]]
 - **Achievements:** [[mem-historian-db-adoption-2024]], [[mem-elasticsearch-pipeline-2020]], [[mem-memorial-name-plates-2018-2024]]
-
