@@ -39,6 +39,7 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-16 | Eesti Raudtee AS | Full-Stack arendaja | Interview |
 | 2025-12-21 | DataShift OÜ | Project Manager | Submitted |
 | 2025-12-29 | Eesti Rahvusraamatukogu | IT-projektijuht | Submitted |
+| 2025-12-31 | Kaitseressursside Amet | Riigivara projektijuht-koordinaator | Ready |
 | 2025-01-07 | Brandem Baltic OÜ | Full-stack vanemarendaja (response deadline) | Interview |
 
 ### Awaiting Response
@@ -100,11 +101,12 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-04 | Raintree Systems OÜ | Full Stack Developer (React, Node, AWS) | 90% | [README](Raintree_Systems/Full_Stack_Developer_React_Node_AWS/README.md) | 2025-12-17 | Draft | 15+ yrs full-stack JavaScript/Node.js, React/TypeScript expertise, AWS CloudFront/deployment, CI/CD (GitHub Actions). Healthcare software opportunity with greenfield projects. Job ID: 1468785. Source: cvee. Gaps: GraphQL (learnable), AWS certifications (offered by employer). |
 | 2025-12-04 | Axitare Oy | Lead Developer / Architect IOT-lääkeautomaatille | 95% | [README](Axitare/Lead_Developer_Architect_IOT/README.md) | 2025-12-12 | Ready | 30+ yrs system architecture, Node.js/TypeScript backend, cloud-native architecture (AWS, Docker), GitHub Actions CI/CD, team leadership. Medical device IoT pharmacy automation for patient safety. Job ID: 317c3b00519b43cb. Source: duunitori. 2025-12-04: Application package complete - CV, motivation letter, PDFs generated. Gaps: Kubernetes/Helm/Terraform hands-on (learnable), medical device compliance, IoT-specific domain (supported by mentorship). |
 | 2025-12-12 | Net Group OÜ | .NET Arhitekt | 90% | [README](Net_Group_OU/NET_Arhitekt/README.md) | Not specified | Draft | **NATIVE ESTONIAN = PRIMARY ADVANTAGE.** 30+ yrs full-stack/architecture, Java/Spring Boot (8+ yrs, EKI 2017-2018), .NET history (2002-2005, ADO.NET cert 2003), JavaScript 9/10 (15+ yrs), TypeScript 8/10, React/Vue.js, Docker production, AWS, 4-member team (100% intern hire), mikroteenused, PostgreSQL/Oracle, AI tools (2024+). Job ID: 1479933. Source: cvee. Gaps: .NET recent experience (historical 2002-2005, but Java/Spring Boot transferable), Azure (AWS experience), Kubernetes operational, RabbitMQ, Angular (Vue.js). 2025-12-12: Application recreated from scratch in Estonian. CV & motivation letter generated, fact-check passed (156 claims verified, 0 fabrications, 0 embellishments). CRITICAL ADVANTAGE: Native Estonian language in Estonian-language work environment. |
+| 2025-12-12 | Kaitseressursside Amet | Riigivara projektijuht-koordinaator | 100% | [README](Kaitseressursside_Amet/Riigivara_Projektijuht_Koordinaator/README.md) | 2025-12-31 | Ready | Civil support project manager/coordinator. 100% match on all 7 qualifications (5 required + 2 preferred). MEDIUM confidence - domain gap (no civil support/state property experience). Strong PM experience: EKI ASTRA (2017-2018), PÖFF team lead (2021-2024, 4 members), EKA IT head (2009-2012, 700+ users). Public sector: Justiitsministeerium (2002-2005). Registry systems: Entu (2010-present, 30+ orgs), Memoriaal (100k+ records). Estonian C2 native (exceeds C1 requirement). Contact: Olga Meinson <olga.meinson@kra.ee> (+372 53974077). Source: https://karjaarriigikaitses.teamdash.com/p/job/0lK5jIMT/riigivara-projektijuht-koordinaator |
 
 ## Statistics
 
-- **Total Applications:** 26
-- **Active (Draft/Ready):** 4 (Draft) + 1 (Ready) = 5
+- **Total Applications:** 27
+- **Active (Draft/Ready):** 4 (Draft) + 2 (Ready) = 6
 - **Submitted:** 10
 - **In Interview Process:** 3
 - **Pending Response:** 1
@@ -115,4 +117,4 @@ This file tracks all job applications generated from the CV system. Each applica
 
 ---
 
-**Last Updated:** 2025-12-11 (IONA & Kühne + Nagel rejected; 1oT interview missed, apology sent)
+**Last Updated:** 2025-12-12 (KRA Riigivara projektijuht-koordinaator application generated)
