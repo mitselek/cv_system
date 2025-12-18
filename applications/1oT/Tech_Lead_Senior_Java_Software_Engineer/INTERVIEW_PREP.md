@@ -1,12 +1,12 @@
 ---
 docID: INTERVIEW-PREP-1oT
 version: 1.0
-date: 2025-12-11
+date: 2025-12-18
 author: Mihkel Putrinš
 company: 1oT OÜ
 position: Tech Lead / Senior Java Software Engineer
-interview_date: 2025-12-11
-interview_time: "11:00-11:45"
+interview_date: 2025-12-18
+interview_time: "10:00-10:45"
 format: Google Meet (45 min)
 attendees: Julia Tihane, Aleksander Reitsakas
 fit_score: 95%
@@ -15,12 +15,12 @@ status: scheduled
 
 # Interview Prep: 1oT Tech Lead / Senior Java Software Engineer
 
-**TODAY at 11:00-11:45 EET**
+**TODAY at 10:00-10:45 EET**
 
 ## Meeting Details
 
-- **Link:** https://meet.google.com/zqu-dvfe-hvx
-- **Phone:** +372 685 2061, PIN: 548988582
+- **Link:** https://meet.google.com/hif-bznu-vyo
+- **Phone:** +372 647 2814, PIN: 157518251
 - **Duration:** 45 minutes
 - **Attendees:** Julia Tihane (organizer), Aleksander Reitsakas, Mihkel Putrinš
 
@@ -163,7 +163,7 @@ le: teen koostööd, mitte käsin. Õpetan debugging mindset'i, code review kult
 
 **Domain Learning Agility:**
 
-> "Mul on kogemus kiiresti uusi valdkondi õppida. Alustanud keeleressurssidega (EKI), liikunud filmi festivalide IT-sse (PÖFF), ehitanud mäluasutuste süsteeme (Rahvusraamatukogu, Mäluinstituut), ja nüüd IoT seadmete juurde (Phone Zero). Iga valdkond oli alguses võõras, aga süsteemsed põhimõtted - API disain, andmebaasid, arhitektuur - on samad. GSMA eSIM spec on dokument, mida saan lugeda ja implementeerida."
+> "Mul on kogemus kiiresti uusi valdkondi õppida. Alustanud keeleressurssidega (EKI), liikunud filmi festivalide IT-sse (PÖFF), ehitanud mäluasutuste süsteeme (1<Mäluinstituut), ja nüüd IoT seadmete juurde (Phone Zero). Iga valdkond oli alguses võõras, aga süsteemsed põhimõtted - API disain, andmebaasid, arhitektuur - on samad. GSMA eSIM spec on dokument, mida saan lugeda ja implementeerida."
 
 **Shows:**
 
