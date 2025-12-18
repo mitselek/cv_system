@@ -73,6 +73,51 @@ The following files will be read automatically:
 3. **Constitutional Principles:** `/cv_system/docs/constitution.md`
    - Integrity constraints and quality standards
 
+# NAMING CONVENTIONS
+
+All generated files follow consistent naming patterns to ensure uniqueness and traceability:
+
+## Filename Components
+
+- **[Company]**: Company name, sanitized for filesystem compatibility
+  - Remove special characters: `+`, `&`, `/`, etc.
+  - Replace spaces with underscores: `_`
+  - Convert to ASCII: `ü` → `u`, `õ` → `o`, etc.
+  - Example: "Kühne + Nagel" → "Kuhne_Nagel"
+
+- **[Position]**: Position title, sanitized
+  - Apply same rules as company name
+  - Abbreviate if needed to keep filename under 255 characters
+  - Example: "Senior Backend Engineer" → "Senior_Backend_Engineer"
+
+- **[Name]**: Candidate's last name from contact.md
+  - Value: "Putrins" (from Mihkel Putrinš)
+  - Sanitized: "Putrins" (ASCII-safe)
+
+## File Naming Patterns
+
+**Application Materials:**
+- CV: `CV_[Company]_[Position]_Putrins.md`
+- Motivation Letter: `motivation_letter_[Company]_[Position]_Putrins.md`
+- PDF Deliverables:
+  - `delivery/CV_[Company]_[Position]_Putrins.pdf`
+  - `delivery/motivation_letter_[Company]_[Position]_Putrins.pdf`
+
+**Example:**
+```
+Company: "1oT"
+Position: "Tech Lead"
+
+Files:
+- CV_1oT_Tech_Lead_Putrins.md
+- motivation_letter_1oT_Tech_Lead_Putrins.md
+- delivery/CV_1oT_Tech_Lead_Putrins.pdf
+- delivery/motivation_letter_1oT_Tech_Lead_Putrins.pdf
+```
+
+**Shell Wildcard Reference:**
+When using wildcards in scripts, use: `CV_*.md` and `motivation_letter_*.md`
+
 # BATCH PROCESSING MODE
 
 When user requests applications for multiple jobs (e.g., "generate applications for all high-priority jobs not yet applied"), follow this workflow:
@@ -382,8 +427,8 @@ Save the verbatim text of the `JOB_ADVERTISEMENT` input to this file. Do not mod
 
 ## Application Materials
 
-- CV: `CV_[CompanyName].md`
-- Motivation Letter: `motivation_letter_[CompanyName].md`
+- CV: `CV_[Company]_[Position]_Putrins.md`
+- Motivation Letter: `motivation_letter_[Company]_[Position]_Putrins.md`
 - Delivery Folder: `delivery/` (contains PDFs)
 
 ## Timeline
@@ -400,7 +445,7 @@ Save the verbatim text of the `JOB_ADVERTISEMENT` input to this file. Do not mod
 
 ### Step 2.4: Generate CV
 
-**File:** `applications/[Company_Name]/[Position_Title]/CV_[CompanyName].md`
+**File:** `applications/[Company_Name]/[Position_Title]/CV_[Company]_[Position]_Putrins.md`
 
 **CRITICAL: Metadata Header Required**
 
@@ -495,7 +540,7 @@ Lõpetamata kõrgharidus
 
 ### Step 2.5: Generate Motivation Letter
 
-**File:** `applications/[Company_Name]/[Position_Title]/motivation_letter_[CompanyName].md`
+**File:** `applications/[Company_Name]/[Position_Title]/motivation_letter_[Company]_[Position]_Putrins.md`
 
 **CRITICAL: Metadata Header Required**
 
@@ -665,7 +710,7 @@ Execute these steps sequentially after all documents are generated.
    - Do NOT translate standard technical terms (IT, LAN, PÖFF).
 
 **Action:**
-Review the generated `CV_[Company].md` and `motivation_letter_[Company].md`. If you find any issues based on the checklist above, overwrite the files with the corrected versions immediately.
+Review the generated `CV_[Company]_[Position]_Putrins.md` and `motivation_letter_[Company]_[Position]_Putrins.md`. If you find any issues based on the checklist above, overwrite the files with the corrected versions immediately.
 
 ### Step 3.3: Estonian Soft Hyphen Insertion (Conditional)
 
@@ -707,8 +752,8 @@ vanem&shy;süsteemi&shy;analüütikuna
 
 **Apply to:**
 
-- `CV_[Company].md`
-- `motivation_letter_[Company].md`
+- `CV_[Company]_[Position]_Putrins.md`
+- `motivation_letter_[Company]_[Position]_Putrins.md`
 
 **Words to look for:**
 
@@ -770,11 +815,11 @@ Location: applications/[Company]/[Position]/
 Generated Files:
 ✓ README.md
 ✓ job_posting.md
-✓ CV_[Company].md
-✓ motivation_letter_[Company].md
+✓ CV_[Company]_[Position]_Putrins.md
+✓ motivation_letter_[Company]_[Position]_Putrins.md
 ✓ FACT_CHECK_REPORT.md
-✓ delivery/CV_[Company].pdf
-✓ delivery/motivation_letter_[Company].pdf
+✓ delivery/CV_[Company]_[Position]_Putrins.pdf
+✓ delivery/motivation_letter_[Company]_[Position]_Putrins.pdf
 
 Registry: Updated
 
