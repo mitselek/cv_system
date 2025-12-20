@@ -983,6 +983,216 @@ last_verified: '2025-11-21'
 
 ---
 
+### data-processing
+
+```yaml
+id: data-processing
+skill_name:
+  et: Andmetöötlus
+  en: Data Processing
+category: Data Engineering
+proficiency_level: Advanced
+tags: [python, pandas, etl, data-transformation]
+status: verified
+last_verified: '2025-12-20'
+evidence:
+  - vabamu-museum-migration
+  - poff-scripts
+  - job-monitoring-system
+```
+
+### Data Processing
+
+**Advanced data manipulation and ETL operations using Python, Pandas, and modern data engineering tools**
+
+Comprehensive experience in large-scale data processing, transformation, and validation using Python's data science ecosystem. Proven ability to handle complex ETL pipelines, CSV operations, and data quality assurance across diverse domains.
+
+#### Core Technologies
+
+##### Primary Libraries
+
+- **Pandas 2.0+** - DataFrame operations and data manipulation
+- **Python 3.x** - Primary language
+- **Pydantic** - Data validation and schema enforcement
+- **CSV/Excel** - Structured data I/O
+- **pytest** - Testing and validation
+
+##### Data Operations
+
+- DataFrame transformations
+- CSV reading and writing
+- Row-by-row processing
+- Data type conversions
+- Quality checks and validation
+- Schema transformations
+
+#### Production Projects
+
+##### Vabamu Museum Data Migration
+
+**[[projects/vabamu-museum-migration]]** - Large-scale historical data processing
+
+- **108,867 museum records** processed with Pandas
+- **38 CSV files** in ETL pipeline
+- **Pandas 2.0+** DataFrame operations
+- Production-ready data migration architecture
+- Comprehensive testing (96-test pytest suite)
+- Data quality assurance throughout pipeline
+
+**Key Operations:**
+
+```python
+
+### Production Pandas patterns from project
+
+df = pd.read_csv(csv_path, nrows=limit)
+for index, row in df.iterrows():
+    record = row.to_dict()
+    # Transform and validate
+
+```
+
+##### PÖFF Data Processing
+
+**[[projects/poff-scripts]]** - Festival data transformation
+
+- XML/HTML to structured data conversion
+- Multiple data format handling
+- Schema validation with Pydantic
+- Production reliability requirements
+- Data integration for web platform
+
+##### Job Monitoring Data Pipeline
+
+**[[projects/job-monitoring-system]]** - Multi-source data aggregation
+
+- Job posting data extraction
+- Cross-platform standardization
+- Deduplication logic
+- Data validation and scoring
+- State management
+
+#### Technical Capabilities
+
+##### Pandas Expertise
+
+- **DataFrame operations** - Complex data manipulations
+- **CSV I/O** - `pd.read_csv()`, `df.to_csv()`
+- **Iterative processing** - `df.iterrows()`, `df.itertuples()`
+- **Data transformations** - `to_dict()`, type conversions
+- **Filtering and selection** - Boolean indexing
+- **Aggregations** - Group-by operations
+
+##### ETL Patterns
+
+- **Extract** - CSV files, web scraping, API data
+- **Transform** - Schema mapping, validation, normalization
+- **Load** - Database insertion, file output
+- **Validation** - Pydantic schemas, data quality checks
+- **Error handling** - Graceful failures, logging
+
+#### Real-World Applications
+
+##### Museum Data Migration
+
+- Historical record standardization
+- Legacy format transformation
+- Quality assurance validation
+- Schema migration across systems
+- Documentation for maintainability
+
+##### Festival Operations
+
+- XML/HTML data extraction
+- Film catalog processing
+- Schedule data transformation
+- Industry data integration
+- Real-time updates
+
+##### Career Intelligence
+
+- Job posting normalization
+- Multi-source aggregation
+- Duplicate detection
+- Scoring and ranking
+- Continuous monitoring
+
+#### Scale & Complexity
+
+##### Data Volume
+
+- **108,867 records** - Vabamu museum migration
+- **38 CSV files** - Complex ETL pipeline
+- **Multiple platforms** - Cross-source integration
+- **Production deployment** - Years of reliable operation
+
+##### Technical Challenges
+
+- Large-scale CSV processing
+- Historical data quality issues
+- Multiple data format conversions
+- Schema validation across sources
+- Production reliability requirements
+
+#### Best Practices
+
+##### Code Quality
+
+- Type hints throughout
+- Comprehensive testing (pytest)
+- Documentation and comments
+- Modular design patterns
+- Error handling
+
+##### Data Quality
+
+- Pydantic validation schemas
+- Data type enforcement
+- Quality check pipelines
+- Error logging and tracking
+- Test coverage
+
+##### Performance
+
+- Efficient DataFrame operations
+- Memory-conscious processing
+- Batch operations where applicable
+- Row-limit controls for testing
+- Production optimization
+
+#### Proficiency Evidence
+
+##### Production Scale
+
+- 108,867 records processed successfully
+- Multi-year production deployments
+- Critical mission systems (festival, museum)
+- Comprehensive test coverage (96 tests)
+- Clear documentation
+
+##### Technical Depth
+
+- Pandas 2.0+ advanced features
+- Complex DataFrame transformations
+- ETL pipeline architecture
+- Data validation patterns
+- Schema design and enforcement
+
+#### Connections
+
+- **Projects:**
+  - [[projects/vabamu-museum-migration]] (108,867 records, Pandas 2.0+)
+  - [[projects/poff-scripts]] (XML/HTML transformation)
+  - [[projects/job-monitoring-system]] (Multi-source aggregation)
+- **Related Skills:**
+  - [[skills/python]] (9/10 proficiency)
+  - [[skills/web-scraping]] (Data extraction)
+  - [[skills/database-management]] (Data storage)
+- **Experience:**
+  - [[experiences/ilusa-koodi-instituut-2021-2024]] (Production data pipelines)
+
+---
+
 ### database-management
 
 ```yaml
@@ -1239,10 +1449,159 @@ skill_name:
   en: Python
 category: Programming Language
 proficiency_level: 9/10
-tags: [programming, scripting, backend]
+tags: [programming, scripting, backend, data-processing]
 status: verified
-last_verified: '2025-11-21'
+last_verified: '2025-12-20'
+evidence:
+  - vabamu-museum-migration
+  - poff-scripts
+  - job-monitoring-system
+  - cv-system
 ```
+
+### Python
+
+**Advanced Python programming with data processing, web scraping, and backend development expertise**
+
+Extensive experience in Python development across multiple domains: data processing with Pandas, web scraping with BeautifulSoup, backend systems, automation, and data engineering. Demonstrated proficiency in production environments with large-scale data operations and mission-critical systems.
+
+#### Core Competencies
+
+##### Data Processing & Analysis
+
+- **Pandas 2.0+** - DataFrame operations, CSV I/O, ETL pipelines
+- **Large-scale data** - 108,867 records processed (Vabamu project)
+- **Data validation** - Pydantic schemas, quality assurance
+- **CSV operations** - Read, write, transform
+- **Data transformations** - Schema mapping, normalization
+
+##### Web Scraping & Data Extraction
+
+- **BeautifulSoup** - HTML/XML parsing (813-line production system)
+- **requests** - HTTP library for data fetching
+- **xmltodict** - XML-to-dictionary conversions
+- **Production scrapers** - Multiple platform implementations
+- **Error handling** - Robust, production-ready systems
+
+##### Backend & Automation
+
+- **System architecture** - Modular, maintainable design
+- **Configuration management** - YAML-based systems
+- **State management** - Persistent data handling
+- **Testing** - pytest with comprehensive coverage
+- **Type hints** - Modern Python best practices
+
+#### Production Projects
+
+##### Data Processing
+
+**[[projects/vabamu-museum-migration]]** - Museum data migration
+
+- 108,867 historical records processed
+- Pandas 2.0+ DataFrame operations
+- 38 CSV files in ETL pipeline
+- Comprehensive test suite (96 tests)
+- Production-ready data migration
+
+##### Web Scraping
+
+**[[projects/poff-scripts]]** - Film festival data extraction
+
+- 813 lines of BeautifulSoup code
+- XML/HTML parsing for Eventival platform
+- Production use: 2021-2024
+- Multiple data format handling
+- Pydantic validation
+
+**[[projects/job-monitoring-system]]** - Job board monitoring
+
+- Multi-platform web scrapers
+- BeautifulSoup implementations
+- Real-time data extraction
+- Continuous production deployment
+- State management and deduplication
+
+##### System Development
+
+**[[projects/cv-system]]** - Career management system
+
+- Shell/Python hybrid architecture
+- TypeScript build tooling
+- Automation workflows
+- Git integration
+- Document generation pipelines
+
+#### Technical Stack
+
+##### Libraries & Frameworks
+
+- **Pandas** - Data manipulation and analysis
+- **BeautifulSoup** - Web scraping and parsing
+- **Pydantic** - Data validation
+- **pytest** - Testing framework
+- **requests** - HTTP library
+- **xmltodict** - XML processing
+- **YAML** - Configuration
+
+##### Best Practices
+
+- Type hints throughout
+- Comprehensive testing
+- Modular architecture
+- Clear documentation
+- Error handling
+- Code quality standards
+
+#### Scale & Impact
+
+##### Data Volume
+
+- **108,867 records** - Vabamu migration
+- **813 lines** - PÖFF scraping system
+- **Years of production** - Multiple systems (2021-present)
+- **Multiple platforms** - Cross-source integration
+
+##### Production Environments
+
+- Museum data migration
+- Film festival infrastructure (critical mission)
+- Job monitoring automation
+- Career management system
+- Zero downtime requirements
+
+#### Proficiency Evidence
+
+##### Advanced Features
+
+- Pandas DataFrame operations (`read_csv`, `iterrows`, `to_dict`)
+- BeautifulSoup complex parsing patterns
+- Pydantic validation schemas
+- pytest test suites
+- Type-annotated code
+- Production error handling
+
+##### Real-World Applications
+
+- Large-scale ETL pipelines
+- Production web scraping
+- Data validation systems
+- Automated monitoring
+- Multi-platform integration
+
+#### Connections
+
+- **Skills:**
+  - [[skills/data-processing]] (Pandas, ETL)
+  - [[skills/web-scraping]] (BeautifulSoup)
+  - [[skills/system-architecture]]
+  - [[skills/database-management]]
+- **Projects:**
+  - [[projects/vabamu-museum-migration]]
+  - [[projects/poff-scripts]]
+  - [[projects/job-monitoring-system]]
+  - [[projects/cv-system]]
+- **Experience:**
+  - [[experiences/ilusa-koodi-instituut-2021-2024]] (PÖFF systems)
 
 ---
 
@@ -1436,6 +1795,176 @@ TypeScript has become my primary tool for defining source of truth in nearly all
 
 - **Related Skills:** [[javascript]], [[nodejs]], [[system-architecture]]
 - **Philosophy:** TypeScript's strict typing enforces architectural decisions at compile time, preventing runtime errors and ensuring data integrity
+
+---
+
+### web-scraping
+
+```yaml
+id: web-scraping
+skill_name:
+  et: Veebilõimuse (Web Scraping)
+  en: Web Scraping
+category: Data Extraction
+proficiency_level: Advanced
+tags: [python, beautifulsoup, data-extraction, automation]
+status: verified
+last_verified: '2025-12-20'
+evidence:
+  - poff-scripts
+  - job-monitoring-system
+```
+
+### Web Scraping
+
+**Production-level web scraping and data extraction expertise using Python and BeautifulSoup**
+
+Extensive experience building robust, production-ready web scraping systems for data extraction from HTML and XML sources. Demonstrated ability to handle complex parsing requirements, implement error handling, and maintain reliable automated data pipelines.
+
+#### Core Technologies
+
+##### Primary Tools
+
+- **BeautifulSoup** - HTML/XML parsing library
+- **requests** - HTTP library for fetching content
+- **xmltodict** - XML-to-dictionary conversions
+- **Pydantic** - Data validation and schema enforcement
+
+##### Python Ecosystem
+
+- **Python 3.x** - Primary language
+- **pytest** - Testing and validation
+- **YAML** - Configuration management
+- **Type hints** - Code quality and maintainability
+
+#### Production Projects
+
+##### PÖFF Data Extraction Scripts
+
+**[[projects/poff-scripts]]** - Film festival data automation
+
+- **813 lines** of BeautifulSoup code in `eventivalfetch.py`
+- XML/HTML parsing for Eventival platform
+- Production use: 2021-2024
+- Critical festival infrastructure component
+- Multiple data format handling (XML, HTML, JSON)
+- Data validation with Pydantic schemas
+- Zero downtime requirement during festival season
+
+##### Job Monitoring System
+
+**[[projects/job-monitoring-system]]** - Automated job board monitoring
+
+- BeautifulSoup scrapers for multiple platforms
+- Duunitori and CV Keskus (CV.ee) implementations
+- Real-time job posting extraction
+- Robust error handling and anti-blocking
+- Continuous production deployment (2024-present)
+- State management and deduplication
+- Automated monitoring cycles
+
+#### Technical Capabilities
+
+##### HTML/XML Parsing
+
+- Complex DOM structure navigation
+- XPath and CSS selector expertise
+- Nested element extraction
+- Attribute and text content retrieval
+- Multi-format data sources
+
+##### Data Extraction Patterns
+
+```python
+
+### BeautifulSoup production patterns
+
+from bs4 import BeautifulSoup
+import requests
+
+### Robust HTML parsing
+
+### Error handling and retry logic
+
+### Data validation and transformation
+
+### Schema enforcement with Pydantic
+
+```
+
+##### Production Considerations
+
+- **Error handling** - Graceful failure recovery
+- **Anti-blocking** - Rate limiting and user agents
+- **Data validation** - Pydantic schema enforcement
+- **State management** - Tracking processed items
+- **Logging** - Debugging and monitoring
+- **Testing** - pytest validation suites
+
+#### Real-World Applications
+
+##### Festival Data Pipeline
+
+- Automated Eventival platform scraping
+- Film catalog data extraction
+- Schedule and program information
+- Industry professional data integration
+- Real-time updates during festival season
+
+##### Job Market Intelligence
+
+- Multi-platform job board monitoring
+- Automated posting detection
+- Data standardization across sources
+- Deduplication and normalization
+- Continuous monitoring deployment
+
+#### Best Practices
+
+##### Code Quality
+
+- Type hints throughout
+- Modular scraper design
+- Configuration-driven approach
+- Comprehensive error handling
+- Test coverage with pytest
+
+##### Maintainability
+
+- Clear documentation
+- Reusable components
+- Platform-specific modules
+- Configuration separation
+- Version control
+
+#### Proficiency Evidence
+
+##### Scale
+
+- **813-line** production BeautifulSoup implementation (PÖFF)
+- Multiple platform scrapers (job-monitoring)
+- Years of production deployment (2021-present)
+- Critical mission systems experience
+
+##### Reliability
+
+- Production use in festival environment
+- Zero downtime requirements
+- Automated continuous monitoring
+- Robust error handling
+- Data quality validation
+
+#### Connections
+
+- **Projects:**
+  - [[projects/poff-scripts]] (813-line BeautifulSoup system)
+  - [[projects/job-monitoring-system]] (Multi-platform scrapers)
+- **Related Skills:**
+  - [[skills/python]] (9/10 proficiency)
+  - [[skills/data-processing]]
+  - [[skills/system-architecture]]
+- **Experience:**
+  - [[experiences/ilusa-koodi-instituut-2021-2024]] (PÖFF project context)
 
 ---
 

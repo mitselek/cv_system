@@ -120,7 +120,7 @@ This project represents the intersection of:
 - **Experience:** [[experiences/ilusa-koodi-instituut-2021-2024]]
 - **Skills:** [[skills/javascript]], [[skills/nodejs]], [[skills/project-management]], [[skills/team-leadership]], [[skills/system-architecture]], [[skills/database-management]]
 - **Achievement:** [[achievements/poff-intern-hiring-2024]]
-- **Related Tools:** [[projects/poff-scripts]] (Python automation scripts)
+- **Related Projects:** [[projects/poff-scripts]] (Python web scraping - 813-line BeautifulSoup system)
 
 ## Repository
 
