@@ -1,20 +1,43 @@
 ---
 id: eesti-malu-instituut-2017-2024
 type: employment
-company: Eesti Mälu Instituut
+company:
+  et: Eesti Mälu Instituut
+  en: Estonian Institute of Historical Memory
 url: https://mnemosyne.ee
 dates:
-  start: '2017-07'
-  end: '2024-10'
+  start: "2017-07"
+  end: "2024-10"
 title:
   et: Andmesanitar
   en: Data Curator
 location: Tallinn, Estonia
-tags: [Data Curation, Data Cleansing, Database Management, History, Research, Data Pipeline, Elasticsearch]
-skills_demonstrated: [data-curation, database-management, spreadsheet-tools, python, system-architecture]
-achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020, mem-memorial-name-plates-2018-2024]
+tags:
+  [
+    Data Curation,
+    Data Cleansing,
+    Database Management,
+    History,
+    Research,
+    Data Pipeline,
+    Elasticsearch,
+  ]
+skills_demonstrated:
+  [
+    data-curation,
+    database-management,
+    spreadsheet-tools,
+    python,
+    system-architecture,
+  ]
+achievements:
+  [
+    mem-historian-db-adoption-2024,
+    mem-elasticsearch-pipeline-2020,
+    mem-memorial-name-plates-2018-2024,
+  ]
 status: verified
-last_verified: '2025-12-12'
+last_verified: "2025-12-12"
 ---
 
 ## et

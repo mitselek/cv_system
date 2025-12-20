@@ -1,13 +1,13 @@
 <!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
 
 ---
+
 id: contact-information
 type: contact
 status: verified
 last_verified: '2025-11-21'
 
-privacy: public
----
+## privacy: public
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 

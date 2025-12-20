@@ -1,17 +1,25 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 id: eesti-keele-instituut-2017-2018
 type: employment
-company: Eesti Keele Instituut
+company:
+  et: Eesti Keele Instituut
+  en: Institute of the Estonian Language
 dates:
-  start: '2017-04-12'
-  end: '2018-04-30'
+  start: "2017-04-12"
+  end: "2018-04-30"
 title:
   et: Vanamsüsteemianalüütik
   en: Senior System Analyst
 location: Tallinn, Estonia
-tags: [System Analysis, Project Management, Software Development, Language Resources, Java, Spring Boot]
+tags:
+  [
+    System Analysis,
+    Project Management,
+    Software Development,
+    Language Resources,
+    Java,
+    Spring Boot,
+  ]
 project: EKI-ASTRA (2014-2020.4.01.16-0034)
 repository: https://github.com/keeleinstituut/ekilex
 technologies:
@@ -24,13 +32,11 @@ technologies:
   - Jooq 3.14.16
   - Postgres 15.4
 status: verified
-last_verified: '2025-11-26'
+last_verified: "2025-11-26"
 source: Employment contract nr 408, dated 12.04.2017; GitHub repository
 
 skills_demonstrated: [java, spring-boot]
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## et
 

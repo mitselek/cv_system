@@ -104,7 +104,9 @@ last_verified: '2025-11-21'
 ```yaml
 id: eesti-keele-instituut-2017-2018
 type: employment
-company: Eesti Keele Instituut
+company:
+  et: Eesti Keele Instituut
+  en: Institute of the Estonian Language
 dates:
   start: '2017-04-12'
   end: '2018-04-30'
@@ -155,7 +157,9 @@ Responsibilities: Management of EKILEX dictionary and terminology database syste
 ```yaml
 id: eesti-kunstakadeemia-2009-2012
 type: employment
-company: Eesti Kunstiakadeemia
+company:
+  et: Eesti Kunstiakadeemia
+  en: Estonian Academy of Arts
 dates:
   start: '2009-08'
   end: '2012-08'
@@ -206,7 +210,9 @@ last_verified: '2025-11-21'
 ```yaml
 id: eesti-malu-instituut-2017-2024
 type: employment
-company: Eesti Mälu Instituut
+company:
+  et: Eesti Mälu Instituut
+  en: Estonian Institute of Historical Memory
 url: https://mnemosyne.ee
 dates:
   start: '2017-07'
@@ -334,7 +340,9 @@ last_verified: '2025-11-29'
 ```yaml
 id: ilusa-koodi-instituut-2021-2024
 type: employment
-company: Ilusa Koodi Instituut
+company:
+  et: Ilusa Koodi Instituut
+  en: Institute of Beautiful Code
 context: PÖFF (Black Nights Film Festival)
 repository: <https://github.com/poff-bnff/web2021>
 dates:
@@ -428,7 +436,9 @@ last_verified: '2025-11-27'
 ```yaml
 id: justiitsministeerium-2002-2005
 type: employment
-company: Justiitsministeerium
+company:
+  et: Justiitsministeerium
+  en: Estonian Ministry of Justice
 dates:
   start: '2002-10'
   end: '2005-10'

@@ -1,7 +1,9 @@
 ---
 id: justiitsministeerium-2002-2005
 type: employment
-company: Justiitsministeerium
+company:
+  et: Justiitsministeerium
+  en: Estonian Ministry of Justice
 dates:
   start: '2002-10'
   end: '2005-10'

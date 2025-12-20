@@ -2,7 +2,9 @@
 
 id: ilusa-koodi-instituut-2021-2024
 type: employment
-company: Ilusa Koodi Instituut
+company:
+  et: Ilusa Koodi Instituut
+  en: Institute of Beautiful Code
 context: PÖFF (Black Nights Film Festival)
 repository: <https://github.com/poff-bnff/web2021>
 dates:

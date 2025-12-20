@@ -1,27 +1,32 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 id: eesti-kunstakadeemia-2009-2012
 type: employment
-company: Eesti Kunstiakadeemia
+company:
+  et: Eesti Kunstiakadeemia
+  en: Estonian Academy of Arts
 dates:
-  start: '2009-08'
-  end: '2012-08'
+  start: "2009-08"
+  end: "2012-08"
 title:
   et: IT-osakonna juht
   en: Head of IT Department
 location: Tallinn, Estonia
-tags: [IT Management, Infrastructure, Network Administration, System Implementation, Education]
+tags:
+  [
+    IT Management,
+    Infrastructure,
+    Network Administration,
+    System Implementation,
+    Education,
+  ]
 skills_demonstrated: [it-management, system-architecture]
 achievements:
   - eka-lan-construction-2012
   - eka-email-migration-2012
   - eka-entu-implementation-2012
 status: verified
-last_verified: '2025-11-21'
+last_verified: "2025-11-21"
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## et
 
