@@ -108,13 +108,21 @@ company:
   et: Eesti Keele Instituut
   en: Institute of the Estonian Language
 dates:
-  start: '2017-04-12'
-  end: '2018-04-30'
+  start: "2017-04-12"
+  end: "2018-04-30"
 title:
   et: Vanamsüsteemianalüütik
   en: Senior System Analyst
 location: Tallinn, Estonia
-tags: [System Analysis, Project Management, Software Development, Language Resources, Java, Spring Boot]
+tags:
+  [
+    System Analysis,
+    Project Management,
+    Software Development,
+    Language Resources,
+    Java,
+    Spring Boot,
+  ]
 project: EKI-ASTRA (2014-2020.4.01.16-0034)
 repository: https://github.com/keeleinstituut/ekilex
 technologies:
@@ -127,13 +135,11 @@ technologies:
   - Jooq 3.14.16
   - Postgres 15.4
 status: verified
-last_verified: '2025-11-26'
+last_verified: "2025-11-26"
 source: Employment contract nr 408, dated 12.04.2017; GitHub repository
 
 skills_demonstrated: [java, spring-boot]
 ```
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -161,23 +167,28 @@ company:
   et: Eesti Kunstiakadeemia
   en: Estonian Academy of Arts
 dates:
-  start: '2009-08'
-  end: '2012-08'
+  start: "2009-08"
+  end: "2012-08"
 title:
   et: IT-osakonna juht
   en: Head of IT Department
 location: Tallinn, Estonia
-tags: [IT Management, Infrastructure, Network Administration, System Implementation, Education]
+tags:
+  [
+    IT Management,
+    Infrastructure,
+    Network Administration,
+    System Implementation,
+    Education,
+  ]
 skills_demonstrated: [it-management, system-architecture]
 achievements:
   - eka-lan-construction-2012
   - eka-email-migration-2012
   - eka-entu-implementation-2012
 status: verified
-last_verified: '2025-11-21'
+last_verified: "2025-11-21"
 ```
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 #### et
 
@@ -215,17 +226,38 @@ company:
   en: Estonian Institute of Historical Memory
 url: https://mnemosyne.ee
 dates:
-  start: '2017-07'
-  end: '2024-10'
+  start: "2017-07"
+  end: "2024-10"
 title:
   et: Andmesanitar
   en: Data Curator
 location: Tallinn, Estonia
-tags: [Data Curation, Data Cleansing, Database Management, History, Research, Data Pipeline, Elasticsearch]
-skills_demonstrated: [data-curation, database-management, spreadsheet-tools, python, system-architecture]
-achievements: [mem-historian-db-adoption-2024, mem-elasticsearch-pipeline-2020, mem-memorial-name-plates-2018-2024]
+tags:
+  [
+    Data Curation,
+    Data Cleansing,
+    Database Management,
+    History,
+    Research,
+    Data Pipeline,
+    Elasticsearch,
+  ]
+skills_demonstrated:
+  [
+    data-curation,
+    database-management,
+    spreadsheet-tools,
+    python,
+    system-architecture,
+  ]
+achievements:
+  [
+    mem-historian-db-adoption-2024,
+    mem-elasticsearch-pipeline-2020,
+    mem-memorial-name-plates-2018-2024,
+  ]
 status: verified
-last_verified: '2025-12-12'
+last_verified: "2025-12-12"
 ```
 
 #### et
@@ -503,34 +535,38 @@ achievements:
 ```yaml
 id: kbfi-1986-1990
 type: employment
-company: National Institute of Chemical Physics and Biophysics
+company:
+  et: Keemilise ja Bioloogilise Füüsika Instituut
+  en: Institute of Chemical and Biological Physics
 url: https://kbfi.ee
 dates:
-  start: '1986-01'
-  end: '1990-01'
+  start: "1986-01"
+  end: "1990-01"
 title:
   et: Laborant
-  en: Lab Rat
+  en: Laboratory Technician
 location: Estonia
-tags: [Research, Science, Scripting, Data Analysis]
+tags: [Research, Science, Scripting, Data Analysis, Biotechnology]
 status: verified
-last_verified: '2025-11-21'
+last_verified: "2025-12-21"
 skills_demonstrated: [python]
 ```
 
 #### et
 
-- Töötasin e-coliga kääritajates paar aastat
-- Aitasin neil kasvada raskes vees
+Keemilise ja Bioloogilise Füüsika Instituudi (praegu TFTAK-iga seotud) biotehnoloogia laboris:
+
+- Töötasin E. coli fermentatsiooniprotsesside ja raskete vee kasvatuskatsetega mitu aastat
 - Kirjutasin skripte kogutud andmete analüüsimiseks ja söötmispumpade automaatseks reguleerimiseks
-- Kuuldavasti on minu tarkvara tükid endiselt kasutusel aadressil [https://www.tftak.eu/](https://www.tftak.eu/)
+- Kuuldavasti jätkavad praegu töötavad süsteemid (TFTAK pilotplant) minu tarkvara elementide kasutamist
 
 #### en
 
-- Worked with e-coli on fed-batch fermenters for couple of years
-- Helped them to grow on heavy water
-- Wrote scripts to analyze collected data and to automatically adjust feeding pumps
-- There are rumors that pieces of my software are still running at [https://www.tftak.eu/](https://www.tftak.eu/)
+At the Institute of Chemical and Biological Physics (now associated with TFTAK) biotechnology laboratory:
+
+- Worked with E. coli fermentation processes and heavy water growth experiments for several years
+- Wrote scripts to analyze collected data and to automatically adjust feeding pumps for precision control
+- Legacy software components reportedly continue to be used in current TFTAK pilot plant operations
 
 ---
 
