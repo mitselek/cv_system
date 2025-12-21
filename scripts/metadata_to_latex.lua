@@ -26,6 +26,36 @@ function Meta(m)
   add_macro('docdate', m.date)
   add_macro('docauthor', m.author)
   
+  -- Extract pdf_metadata for external processing
+  -- This stores the metadata in a special variable that the shell script can read
+  if m['pdf_metadata'] then
+    local pdf_meta = m['pdf_metadata']
+    
+    -- Create JSON representation of pdf_metadata
+    -- Store as raw LaTeX comment so it doesn't appear in PDF but can be extracted
+    local json_parts = {}
+    
+    if pdf_meta['title'] then
+      table.insert(json_parts, '"title":"' .. pandoc.utils.stringify(pdf_meta['title']):gsub('"', '\\"') .. '"')
+    end
+    if pdf_meta['subject'] then
+      table.insert(json_parts, '"subject":"' .. pandoc.utils.stringify(pdf_meta['subject']):gsub('"', '\\"') .. '"')
+    end
+    if pdf_meta['keywords'] then
+      table.insert(json_parts, '"keywords":"' .. pandoc.utils.stringify(pdf_meta['keywords']):gsub('"', '\\"') .. '"')
+    end
+    if pdf_meta['creator'] then
+      table.insert(json_parts, '"creator":"' .. pandoc.utils.stringify(pdf_meta['creator']):gsub('"', '\\"') .. '"')
+    end
+    
+    if #json_parts > 0 then
+      local json_str = '{' .. table.concat(json_parts, ',') .. '}'
+      -- Store as a macro that contains the JSON (for shell extraction)
+      local latex_cmd = '\\def\\pdfmetadatajson{' .. json_str .. '}'
+      table.insert(headers, pandoc.RawBlock('latex', latex_cmd))
+    end
+  end
+  
   m['include-before'] = headers
   return m
 end

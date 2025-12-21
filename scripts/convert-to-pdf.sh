@@ -105,6 +105,111 @@ needs_regeneration() {
     return 1
 }
 
+# Function to extract pdf_metadata from markdown frontmatter
+extract_pdf_metadata() {
+    local md_file="$1"
+    local in_metadata=false
+    local in_pdf_metadata=false
+    local metadata=""
+    
+    while IFS= read -r line; do
+        # Start of metadata block
+        if [ "$line" = "---" ]; then
+            if [ "$in_metadata" = false ]; then
+                in_metadata=true
+                continue
+            else
+                # End of metadata block
+                break
+            fi
+        fi
+        
+        # Look for pdf_metadata section
+        if [ "$in_metadata" = true ]; then
+            if [ "$line" = "pdf_metadata:" ]; then
+                in_pdf_metadata=true
+                continue
+            fi
+            
+            if [ "$in_pdf_metadata" = true ]; then
+                # Check if we've left the pdf_metadata section (line starts with non-space)
+                case "$line" in
+                    [!\ ]*) break ;;
+                esac
+                
+                # Extract indented fields: "  title: value"
+                # Use grep to safely parse
+                if echo "$line" | grep -q "^  [a-z_]*: "; then
+                    local field=$(echo "$line" | sed 's/^  \([a-z_]*\):.*/\1/')
+                    local value=$(echo "$line" | sed 's/^  [a-z_]*: *//' | sed 's/"//g')
+                    metadata+="${field}|${value}"$'\n'
+                fi
+            fi
+        fi
+    done < "$md_file"
+    
+    echo "$metadata"
+}
+
+# Function to apply PDF metadata using exiftool
+apply_pdf_metadata() {
+    local pdf_file="$1"
+    local metadata="$2"
+    
+    if [ -z "$metadata" ]; then
+        return 0  # No metadata to apply
+    fi
+    
+    # Check if exiftool is available
+    if ! command -v exiftool &> /dev/null; then
+        echo "⚠ WARNING: exiftool not found - PDF metadata will NOT be applied"
+        echo "   Install with: sudo apt-get install libimage-exiftool-perl"
+        return 1
+    fi
+    
+    # Parse metadata and build exiftool arguments
+    local -a exif_args=()
+    
+    while IFS='|' read -r field value; do
+        if [ -z "$field" ]; then continue; fi
+        
+        case "$field" in
+            title)
+                exif_args+=("-Title=$value")
+                ;;
+            subject)
+                exif_args+=("-Subject=$value")
+                ;;
+            keywords)
+                exif_args+=("-Keywords=$value")
+                ;;
+            creator)
+                exif_args+=("-Creator=$value")
+                ;;
+            recommendation)
+                # Custom field for recommendation/brief description
+                exif_args+=("-XMP:recommendation=$value")
+                ;;
+            *)
+                # Ignore unknown fields
+                ;;
+        esac
+    done <<< "$metadata"
+    
+    # Only proceed if we have arguments
+    if [ ${#exif_args[@]} -eq 0 ]; then
+        return 0
+    fi
+    
+    # Apply metadata
+    if exiftool "${exif_args[@]}" "$pdf_file" > /dev/null 2>&1; then
+        return 0
+    else
+        echo "✗ ERROR: Failed to apply PDF metadata with exiftool"
+        return 1
+    fi
+}
+
 # Function to convert a single markdown file
 convert_md_to_pdf() {
     local md_file="$1"
@@ -134,6 +239,17 @@ convert_md_to_pdf() {
             if [ -f "${pdf_file}" ]; then
                 local file_size=$(ls -lh "${pdf_file}" | awk '{print $5}')
                 echo "✓ Created: ${pdf_file} (${file_size})"
+                
+                # Apply PDF metadata if specified in frontmatter
+                local metadata=$(extract_pdf_metadata "${md_file}")
+                if [ -n "$metadata" ]; then
+                    if ! apply_pdf_metadata "${pdf_file}" "$metadata"; then
+                        echo ""
+                        FAILED_COUNT=$((FAILED_COUNT + 1))
+                        return 1
+                    fi
+                fi
+                
                 echo ""
                 REGENERATED_COUNT=$((REGENERATED_COUNT + 1))
                 return 0
