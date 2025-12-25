@@ -22,7 +22,7 @@ pdf_metadata:
 
 ## Professional Summary
 
-Data processing specialist with 7 years of data curation experience and extensive Python expertise. Proven track record in large-scale data operations (108,867 records), production web scraping systems (813-line BeautifulSoup implementation), and database management (PostgreSQL, MySQL, Oracle/PL/SQL). Advanced proficiency in Python (9/10), Pandas 2.0+, and spreadsheet tools (Google Sheets 10/10, Excel 8/10).
+Data processing specialist with 7 years of data curation experience and extensive Python expertise. Proven track record in large-scale data operations (108,867 records), production web scraping systems (800-line BeautifulSoup implementation), and database management (PostgreSQL, MySQL, Oracle/PL/SQL). Advanced proficiency in Python (9/10), Pandas 2.0+, and spreadsheet tools (Google Sheets 10/10, Excel 8/10).
 
 ## Professional Experience
 
