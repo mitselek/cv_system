@@ -1,7 +1,12 @@
 % LaTeX header file for pandoc PDF conversion
 % Customizes heading spacing, list formatting, and footer metadata
 % Usage: pandoc INPUT.md -o OUTPUT.pdf --pdf-engine=xelatex -H .header.tex
-% 
+
+% Font configuration (XeLaTeX)
+\usepackage{fontspec}
+\setmainfont{Noto Sans}
+\setmonofont{Noto Mono}
+ 
 % Font Awesome 5 icons for social media links
 \usepackage{fontawesome5}
 
