@@ -202,7 +202,7 @@ apply_pdf_metadata() {
     fi
     
     # Apply metadata
-    if exiftool "${exif_args[@]}" "$pdf_file" > /dev/null 2>&1; then
+    if exiftool -overwrite_original "${exif_args[@]}" "$pdf_file" > /dev/null 2>&1; then
         return 0
     else
         echo "✗ ERROR: Failed to apply PDF metadata with exiftool"

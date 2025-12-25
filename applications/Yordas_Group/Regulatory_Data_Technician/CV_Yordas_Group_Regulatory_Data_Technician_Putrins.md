@@ -12,10 +12,10 @@ pdf_metadata:
 
 # Mihkel Putrinš
 
-**Phone:** +372 5656 0978
-**Email:** mitselek@gmail.com
-**GitHub:** https://github.com/mitselek
-**LinkedIn:** https://linkedin.com/in/mitselek
+**Phone:** +372 5656 0978  
+**Email:** mitselek@gmail.com  
+**GitHub:** https://github.com/mitselek  
+**LinkedIn:** https://linkedin.com/in/mitselek  
 **Location:** Tallinn, Estonia
 
 ---
@@ -104,7 +104,7 @@ Context: PÖFF (Black Nights Film Festival)
 
 - **Python:** 9/10 proficiency - Data processing with Pandas, web scraping with BeautifulSoup, backend development, automation
 - **Pandas 2.0+:** DataFrame operations, CSV I/O, ETL pipelines, 108,867 records processed (Vabamu museum migration)
-- **Web Scraping:** BeautifulSoup (813-line production system), requests, xmltodict, Pydantic validation
+- **Web Scraping:** BeautifulSoup (800-line production system), requests, xmltodict, Pydantic validation
 - **JavaScript/Node.js:** 15+ years experience, backend API development, system architecture
 - **Java:** Spring Boot, Oracle ADF, enterprise applications
 - **TypeScript:** 8/10 proficiency, type-safe development
@@ -144,8 +144,10 @@ Riga Secondary School No. 1, Tallinn Secondary School of Science, Õismäe Human
 ## Certifications
 
 - **MikroTik Certified IPv6 Engineer (MTCIPv6E)** - Mikrotikls SIA, October 2025
+- **MikroTik Certified Network Associate (MTCNA)** - Mikrotikls SIA, February 2025
+- **Oracle9i: Access the Database with Java and JDBC** - Oracle Eesti, 2003
 - **Programming with Microsoft ADO .NET** - IT-Koolitus, 2003
-- **UML** - Via3L, 2003
+- **Using UML in Object-oriented Analysis and Design** - IT-Koolitus, 2005
 
 ## Key Projects & Achievements
 
