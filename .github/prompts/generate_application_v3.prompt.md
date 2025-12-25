@@ -449,27 +449,52 @@ Save the verbatim text of the `JOB_ADVERTISEMENT` input to this file. Do not mod
 
 **CRITICAL: Metadata Header Required**
 
-Begin file with this exact YAML frontmatter format:
+Begin file with this exact YAML frontmatter format - this aligns with TypeScript types in `scripts/application-types.ts`:
 
 ```yaml
 ---
 docID: CV-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
-author: [Name from contact.md]
+author: Mihkel Putrinš
+pdf_metadata:
+  title: "CV: [Full Position Title]"
+  subject: "Job Application"
+  keywords: "[comma-separated keywords matching job requirements]"
+  creator: "Mihkel Putrinš"
+  recommendation: "[1-2 sentence summary of candidate fit for this role]"
 ---
 ```
 
-**docID constraint:** Max 25 characters. Use abbreviations:
+**Frontmatter Field Specifications:**
 
-- `CV-` prefix for CVs, `ML-` for motivation letters
-- `[Co]` = Company abbreviation (e.g., SRINI, EKI, POFF)
-- `[Pos]` = Position abbreviation (e.g., SysAnal, ProjMgr, DevLead)
+- **`docID`**: Max 24 characters (enforced by TypeScript types). Use abbreviations:
+  - `CV-` prefix for CVs, `ML-` for motivation letters
+  - `[Co]` = Company abbreviation (e.g., SRINI, EKI, POFF)
+  - `[Pos]` = Position abbreviation (e.g., SysAnal, ProjMgr, DevLead)
+  - Example: `CV-EKA-ITHead` (14 chars)
+
+- **`version`**: Semantic version number (e.g., "1.0", "1.1", "2.0")
+  - Increment for revisions to same application
+
+- **`date`**: ISO format YYYY-MM-DD (validated by type system)
+  - Use current date for new applications
+
+- **`author`**: Exact name: "Mihkel Putrinš" (required, validated)
+
+- **`pdf_metadata`** (optional, for ATS optimization):
+  - **`title`**: Position-specific title visible in PDF properties
+  - **`subject`**: Document purpose (typically "Job Application" or "Motivation Letter")
+  - **`keywords`**: Comma-separated keywords from job posting for ATS parsing
+  - **`creator`**: Author name
+  - **`recommendation`**: Brief summary for AI/ATS systems (1-2 sentences)
+
+**Type Validation:** All frontmatter fields are validated against `ApplicationFrontmatter` interface in `scripts/application-types.ts`. The PDF conversion pipeline (`scripts/convert-to-pdf.sh`) reads this metadata to generate document footers and embed PDF metadata.
 
 **Content Structure:**
 
 ````markdown
-# [Full Name from contact.md]
+# Mihkel Putrinš
 
 [Contact details from contact.md - use EXACTLY as written]
 
@@ -544,21 +569,32 @@ Lõpetamata kõrgharidus
 
 **CRITICAL: Metadata Header Required**
 
-Begin file with this exact YAML frontmatter format:
+Begin file with this exact YAML frontmatter format - this aligns with TypeScript types in `scripts/application-types.ts`:
 
 ```yaml
 ---
 docID: ML-[Co]-[Pos]
 version: 1.0
 date: [YYYY-MM-DD]
-author: [Name from contact.md]
+author: Mihkel Putrinš
+pdf_metadata:
+  title: "Motivation Letter: [Full Position Title]"
+  subject: "Job Application"
+  keywords: "[comma-separated keywords matching job requirements]"
+  creator: "Mihkel Putrinš"
+  recommendation: "[1-2 sentence summary highlighting key motivations and fit]"
 ---
 ```
+
+**Frontmatter specifications:** Same as CV (see Step 2.4), except:
+- **`docID`** prefix: Use `ML-` instead of `CV-`
+- **`pdf_metadata.title`**: Use "Motivation Letter: [Position]" format
+- **`pdf_metadata.recommendation`**: Focus on motivations and cultural fit
 
 **Content Structure:**
 
 ```markdown
-[Full Name from contact.md]
+Mihkel Putrinš
 [Address from contact.md]
 [Phone from contact.md]
 [Email from contact.md]
