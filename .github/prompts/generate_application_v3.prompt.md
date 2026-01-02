@@ -256,7 +256,7 @@ IF no match found:
 ```markdown
 | Company | Position | Date Applied | Status | Links | Notes |
 |---------|----------|--------------|--------|-------|-------|
-| Kühne+Nagel | Senior Backend Engineer | 2025-12-03 | Draft | [folder](link) | Job ID: 1476464 |
+| Kühne+Nagel | Senior Backend Engineer | 2025-12-03 | Draft | [folder]\(link\) | Job ID: 1476464 |
 ```
 
 **Edge cases:**
