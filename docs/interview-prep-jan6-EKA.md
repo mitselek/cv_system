@@ -1,7 +1,7 @@
 ---
 docID: PREP-EKA-ITHead
-version: 1.0
-date: 2025-12-25
+version: 2.0
+date: 2026-01-02
 author: Mihkel Putrinš
 pdf_metadata:
   title: "EKA IT Department Head - Interview Preparation"
@@ -292,38 +292,138 @@ This is NOT a small side project - T4EU represents a fundamental shift toward Eu
 ### 1. E-ITS Implementation (Priority #1)
 
 **What is E-ITS?**
-Estonian Information Security Standard - mandatory framework for public sector information security management.
+Estonian Information Security Standard (Eesti Infoturbestandard) - **MANDATORY** framework for ALL public sector organizations including universities. Based on German BSI IT-Grundschutz methodology.
 
-**Requirements:**
+**Critical Understanding (See [eits-deep-dive-research.md](eits-deep-dive-research.md) for full analysis):**
 
-- Information security management system (ISMS)
-- Risk assessment and management processes
-- Security policies and procedures documentation
-- Access control and identity management
-- Incident management procedures
-- Business continuity planning
-- Regular audits and compliance reviews
+E-ITS is **NOT just an IT project** - it's an **organizational transformation** requiring:
 
-**Your Gap:**
+- **Top management commitment** (Rector/Board must lead, not just IT)
+- **Cross-functional involvement** (all process owners, not just IT department)
+- **Systematic risk management** across ALL business processes
+- **Information Security Management System (ISMS)** lifecycle
+- **Comprehensive documentation** of policies, procedures, measures
+- **Continuous monitoring and improvement** (ongoing, not one-time)
+- **Security culture transformation** (training for ALL staff, not just IT)
 
-- No direct E-ITS implementation experience
-- General IT security background exists
+**Legal Foundation:**
 
-**Approach:**
+- Küberturvalisuse seadus (Cybersecurity Act) § 3
+- Minister's Decree No. 101 (December 16, 2022)
+- Latest version: 2024 (updated August 28, 2025)
+- Regulatory authority: Riigi Infosüsteemi Amet (RIA)
+- Source: https://eits.ria.ee/
 
-- Acknowledge gap honestly
-- Emphasize willingness to learn and work with external consultants
-- Highlight general security experience (university infrastructure, sensitive data)
-- Propose phased implementation with expert guidance
-- Leverage inter-university IT cooperation for knowledge sharing
+**Core Components:**
 
-**Questions to Ask:**
+1. **E-ITS Nõuded** - ISMS requirements (11 sections, full lifecycle)
+2. **Etalonturbe kataloog** - Reference security catalog (800+ measures in modules)
+3. **Auditeerimiseeskiri** - Audit guidelines (external compliance verification)
 
-- What is the current state of E-ITS compliance at EKA?
-- Is there existing documentation or has implementation started?
-- What budget and timeline is planned for E-ITS implementation?
-- Are other Estonian art/design universities further ahead (peer learning)?
-- What external consultants have been considered?
+**Implementation Approaches:**
+
+- **Põhiturve** (Basic Security) - Normal protection requirements, essential baseline
+- **Standardturve** (Standard Security) - High/very high requirements, ≈ ISO 27001 alignment
+- **Tuumikuturve** (Core Security) - Focused on critical processes only
+
+**EKA Reality - Likely Needs Standardturve:**
+
+- Public sector university = mandatory compliance
+- Student/research data = high protection requirements
+- T4EU international partnerships = complex data sharing
+- Financial/HR systems = high protection requirements
+
+**Realistic Timeline for EKA:**
+
+- **Phase 1 (Prep):** 2-3 months - Management commitment, appoint lead, initial training
+- **Phase 2 (Planning):** 4-6 months - Policy, risk assessment, scope definition
+- **Phase 3 (Basic):** 6-12 months - Basic measures implementation
+- **Phase 4 (Standard):** 12-18 months additional - Standard measures, external risk analysis
+- **Phase 5 (Audit):** 3-6 months - Internal review, external audit
+
+**Total: 2.5-4 years** for full standard-level implementation
+
+**Effort Required:**
+
+- IT Department: 30-50% of one FTE continuously (not one-time project!)
+- Information Security Lead: 20-30% FTE (likely IT head role)
+- Process Owners: 10-20% during implementation
+- Management: Quarterly reviews + policy approvals
+- All Staff: Annual training (4-8 hours)
+- External Consultant: Recommended 50-100 hours total
+
+**EKA Advantages:**
+
+- **Bert Blös** (Data Protection Officer) already in place - essential E-ITS resource!
+- GDPR compliance work underway - overlaps with E-ITS requirements
+- Existing digital systems (Tahvel, Moodle, etc.) - defined scope
+- Inter-university cooperation opportunity - learn from other Estonian universities
+
+**EKA Challenges:**
+
+- **Small team** (5 people) for large scope (1,144 students + 279 staff)
+- **Team likely saturated** with operations - no capacity for E-ITS strategic work
+- **T4EU complexity** - 10-university alliance, cross-border data, likely high protection requirements
+- **Legacy infrastructure** unknown (2012 systems may still exist - technical debt?)
+- **Limited budget** - public sector constraints, procurement regulations
+
+**Your Gap (Honest Assessment):**
+
+- **NO direct E-ITS implementation experience** - this is real
+- **BUT:**
+  - Strong general IT security background (20+ years infrastructure, network security)
+  - Public sector experience (Justiitsministeerium, understand compliance frameworks)
+  - University environment knowledge (EKA 2009-2012, understand academic culture)
+  - Team leadership experience (can coordinate cross-functional effort)
+  - Research capability (completed deep E-ITS analysis before interview)
+
+**Your Approach (Demonstrate Maturity):**
+
+"E-ITS is mandatory for EKA and will be a major strategic priority. I've researched the framework thoroughly - it's based on BSI IT-Grundschutz, requires top management commitment, and involves systematic risk management across organizational processes.
+
+While I don't have direct implementation experience, I understand E-ITS is fundamentally organizational transformation, not just IT configuration. My approach would be:
+
+1. **Partner with certified E-ITS consultant** for initial assessment and planning
+2. **Engage in inter-university IT cooperation** to learn from peers (TalTech, TÜ, etc.)
+3. **Build cross-functional E-ITS working group** with process owners and Bert Blös
+4. **Ensure top management understands their essential leadership role** (not delegate to IT alone)
+5. **Take phased approach** - basic security first, systematic build toward standard compliance
+6. **Set realistic expectations** - 2.5-4 years minimum, requires sustained resources
+
+EKA has critical foundations: Bert Blös as data protection officer, existing digital systems, GDPR compliance underway. We can build on these. But success requires management commitment and adequate resources - I won't promise what I can't deliver."
+
+**Critical Questions to Ask:**
+
+**Current State:**
+
+1. "What is EKA's current E-ITS compliance level? Has any assessment been done?"
+2. "Has there been board-level discussion about E-ITS requirements and timeline?"
+3. "What role does Bert Blös play beyond GDPR - is he involved in broader security management?"
+4. "What security incidents or concerns have been raised recently?"
+
+**Management Support:** 5. "How does the rector view information security? Is there awareness that E-ITS requires top management commitment?" 6. "What budget exists or can be allocated for security initiatives beyond daily operations?" 7. "Is there IT governance structure or committee for strategic IT matters?"
+
+**Team Capacity (CRITICAL):** 8. "What percentage of IT team's time is reactive support vs. strategic projects?" 9. "Has there been consideration of adding E-ITS/security-focused capacity?" 10. "How would we create 30-50% FTE capacity for E-ITS within current team size?"
+
+**Inter-University Cooperation:** 11. "What is EKA's engagement level with Estonian universities' IT cooperation working groups?" 12. "Has EKA learned from other universities' E-ITS implementations?"
+
+**Priorities & Timeline:** 13. "Given E-ITS is mandatory, what is the university's compliance timeline expectation?" 14. "How does security rank among priorities like T4EU infrastructure and digital transformation?" 15. "Are there external drivers (audits, partnerships) creating E-ITS urgency?" 16. "Why is Kenet leaving? (Is E-ITS pressure a factor?)"
+
+**Red Flags to Watch:**
+
+- "We need you to implement E-ITS quickly" (unrealistic - 2.5-4 years minimum)
+- "This is IT department responsibility" (wrong - requires organizational commitment)
+- "No budget for consultants or additional staff" (proper implementation needs resources)
+- "Security shouldn't interfere with academic freedom" (cultural resistance)
+- "Previous IT head didn't mention E-ITS" (institution may be significantly behind)
+
+**Green Flags to Look For:**
+
+- "Rector/board has discussed information security strategy" (management awareness)
+- "We've started GDPR work with Bert Blös" (foundation exists)
+- "We're open to external consultants" (realistic about expertise gaps)
+- "We participate in inter-university IT cooperation" (collaborative, learning mindset)
+- "We understand this is multi-year journey" (realistic expectations)
 
 ### 2. Digital Development Strategy
 
