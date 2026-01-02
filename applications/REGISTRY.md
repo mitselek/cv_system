@@ -13,7 +13,7 @@ This file tracks all job applications generated from the CV system. Each applica
 ### This Week (Dec 5-7)
 
 - [ ] Follow up with Entain NCE recruiter (pending since Nov 28)
-- [ ] EWQ Zone first round interviews begin (weeks 50-51)
+- [x] ~~EWQ Zone first round interviews begin (weeks 50-51)~~ **REJECTED Dec 19**
 
 ### Next Week (Dec 8-14)
 
@@ -34,7 +34,7 @@ This file tracks all job applications generated from the CV system. Each applica
 | 2025-12-14 | Eesti Kunstiakadeemia   | IT-osakonna juhataja                         | Submitted |
 | 2025-12-14 | Playtech Estonia        | System Analyst                               | Submitted |
 | 2025-12-14 | IONA                    | Technical Architect                          | Submitted |
-| 2025-12-14 | EWQ Zone Oy             | Senior Backend Developer                     | Submitted |
+| 2025-12-14 | EWQ Zone Oy             | Senior Backend Developer                     | Rejected  |
 | 2025-12-16 | Eesti Raudtee AS        | Full-Stack arendaja                          | Interview |
 | 2025-12-21 | DataShift OÜ            | Project Manager                              | Submitted |
 | 2025-12-29 | Eesti Rahvusraamatukogu | IT-projektijuht                              | Submitted |
