@@ -560,12 +560,12 @@ E-ITS nõuded kirjeldavad ISMS elutsüklit 11 jaotises. See on **pideva täiusta
 
 ### 8.1 EKA tugevused E-ITS kontekstis
 
-**1. Bert Blös (andmekaitsespetsialist):**
+**1. Bert Blös (andmekaitsespetsialist, Rektoraadi büroo):**
 
-- Juba organisatsioonis
+- Juba organisatsioonis (kuigi Rektoraadi büroost, mitte IT-osakonnast)
 - GDPR kogemus kattub E-ITS nõuetega (isikuandmete kaitse)
 - Võimalik oluline koostööpartner E-ITS rakendamisel
-- Peaks olema kaasatud E-ITS töörühma
+- Tuleb siduda E-ITS töörühma ühistöö lepinguga
 
 **2. Olemasolevad digitaalsed süsteemid:**
 
@@ -658,7 +658,7 @@ E-ITS nõuded kirjeldavad ISMS elutsüklit 11 jaotises. See on **pideva täiusta
 
 - "Soovitaksin kaasata sertifitseeritud E-ITS konsultandi esialgseks hindamiseks ja plaanimiseks."
 - "Ülikoolidevahelise IT-koostöö kasutamine - õppida teiste Eesti ülikoolide kogemustest."
-- "Bert Blös on väärtuslik ressurss - tema GDPR teadmised ja ISMS vaheldusvused toetavad E-ITSi."
+- \"Bert Blös (Rektoraadi büroo) on väärtuslik väline partner - tema GDPR teadmised ja ISMS valdkonnad toetavad E-ITSi, kuid IT-osakonna poolt tuleb ta aktiivselt koostööks kaasata.\"
 
 ### 9.2 Konkreetsed vastusevariandid
 
@@ -674,7 +674,7 @@ Mul on tugev IT-turvaalane taust üle 20 aasta infrastruktuuritöös, kogemus av
 Minu lähenemine oleks pragmaatiline:
 
 1. Kaasata sertifitseeritud E-ITS konsultant esimeseks hindamiseks ja planeerimiseks
-2. Ehitada E-ITS töörühm koos Bert Blösi (andmekaitsespetsialist) ja protsessijuhtidega
+2. Ehitada E-ITS töörühm koos Bert Blösiga (Rektoraadi büroo andmekaitsespetsialist) ja protsessijuhtidega - koordineerimiskokkulepe vajalik
 3. Tagada rektori ja juhatuse mõistmine, et see on nende kohustumus, mitte ainult IT-osakonna ülesanne
 4. Võtta faasipõhine lähenemine - põhiturve esimese 12-18 kuu jooksul, siis järk-järguline üleminek standardturvele
 5. Seada realistlikud ootused - 2,5-4 aastat täielikuks standardturve rakendamiseks"
@@ -690,7 +690,7 @@ E-ITS rakendamine nõuab 30-50% ühe FTE ressurssi pidevalt, mitte ühekordset p
 
 - IT-osakonna juhi roll hõlmab infoturbejuhi ülesandeid (20-30% ajast)
 - Välise konsultandi kaasamine algplaanimiseks ja riskianalüüsi teostamiseks (50-100 tundi)
-- E-ITS töörühma moodustamine - kaasates Bert Blösi, õppeosakonna esindaja, personaliosakonna esindaja
+- E-ITS töörühma moodustamine - kaasates Bert Blösi (Rektoraadi büroost), õppeosakonna esindaja, personaliosakonna esindaja
 - Selge prioritiseerimine - mis operatiivtööst saab minimeerida või automatiseerida?
 
 **Keskpikas (2-3 aastat):**
@@ -713,7 +713,7 @@ Oluline on juhtkonna mõistmine, et **kvaliteetne infoturve nõuab investeeringu
 
 1. "Mis on EKA praegune E-ITS vastavuse tase? Kas on tehtud mingit esialgset hindamist?"
 2. "Kas juhatus või rektor on arutanud E-ITS rakendamise vajadust ja ajakava?"
-3. "Kas Bert Blös on kaasatud laiemasse infoturbe haldusesse peale GDPR?"
+3. \"Kuidas Bert Blös (Rektoraadi büroo) saab koordineerida IT-osakonnaga E-ITS ja infoturbehalduse küsimustes?\"
 
 **Juhtkonna toetuse kohta:** 4. "Kuidas rektor suhtub infoturbesse? Kas on arusaam, et E-ITS nõuab tippjuhtkonna kohustumust?" 5. "Mis eelarve on või saab olla eraldatud infoturbe strateegiateks peale igapäevase IT-toe?" 6. "Kas eksisteerib IT-juhtimise struktuur või komitee strateegiliste IT-küsimuste jaoks?"
 
@@ -738,7 +738,7 @@ Kui kuulete neid, olge ettevaatlik:
 Need märgid näitavad head pinnavst:
 
 - **"Rektor/juhatus on arutanud infoturbe strateegiat"** → Juhtkonna teadlikkus
-- **"Oleme alustanud GDPR tööd Bert Blösiga"** → Alus eksisteerib
+- **\"Oleme alustanud GDPR tööd Bert Blösiga (Rektoraadi büroo)\"** → Alus eksisteerib, koordineerimine vajalik
 - **"Oleme avatud väliste konsultantide kaasamisele"** → Realistlik ekspertiisi lõhede kohta
 - **"Osaleme ülikoolide IT-koostöö võrgustikes"** → Koostööle orienteeritud, õppiv mõtteviis
 - **"Mõistame, et see on mitmeaastane teekond"** → Realistlikud ootused
@@ -769,7 +769,7 @@ Need märgid näitavad head pinnavst:
 
 **Tugevustele toetumine:**
 
-- Kaasata Bert Blös (andmekaitsespetsialist) E-ITS töörühma - tema GDPR kogemus on väärtuslik
+- Kaasata Bert Blös (Rektoraadi büroo andmekaitsespetsialist) E-ITS töörühma - tema GDPR kogemus on väärtuslik, kuid ametliku koostöö leping vajalik
 - Kasutada olemasoleva GDPR töö dokumentatsiooni E-ITS jaoks
 - Ühenduda Eesti ülikoolide IT-koostöö võrgustikuga - õppida teiste kogemustest
 

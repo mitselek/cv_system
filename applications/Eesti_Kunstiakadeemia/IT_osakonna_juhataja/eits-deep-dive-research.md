@@ -276,7 +276,7 @@ E-ITS follows continuous improvement cycle:
 - Information Security Lead (Infoturbejuht)
 - Process Owners (Protsessijuhid)
 - IT Security Lead (IT-turbejuht) - for large orgs
-- Data Protection Officer (already exists at EKA: Bert Blös!)
+- Data Protection Officer (already exists at EKA: Bert Blös in Rector's Office)
 - IT Coordination Committee
 
 **6.4 Security Training**
@@ -696,7 +696,7 @@ Each module contains measures at different levels:
 
 **Positive Assets:**
 
-1. **Data Protection Officer** - Bert Blös already in place
+1. **Data Protection Officer** - Bert Blös (Rector's Office) already in place - coordinate with him on data protection aspects
 
    - Essential for E-ITS (GDPR compliance overlaps)
    - Can lead data protection aspects

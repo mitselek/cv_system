@@ -150,6 +150,13 @@ The title "**IT-osakonna juhataja**" (Head of IT Department) may be **inflated r
 **Strategic Significance:**
 This is NOT a small side project - T4EU represents a fundamental shift toward European integration. As IT head, you'll need to ensure EKA's IT infrastructure can support this level of international collaboration. This goes far beyond basic support operations.
 
+**Key Contact:** Sven Idarand (T4EU General Secretary & Knowledge Transfer Lead)
+
+- Email: sven.idarand@artun.ee
+- Profile: https://www.artun.ee/et/inimesed/sven-idarand/
+- Location: Research & Development Department
+- Role: Drives international digital collaboration needs from EKA's side
+
 ### Digital Repository (Digivaramu)
 
 **Platform:** Preservica-based digital archive system
@@ -294,7 +301,7 @@ This is NOT a small side project - T4EU represents a fundamental shift toward Eu
 **What is E-ITS?**
 Estonian Information Security Standard (Eesti Infoturbestandard) - **MANDATORY** framework for ALL public sector organizations including universities. Based on German BSI IT-Grundschutz methodology.
 
-**Critical Understanding (See [eits-deep-dive-research.md](eits-deep-dive-research.md) for full analysis):**
+**Critical Understanding (See [eits-deep-dive-research.md](../applications/Eesti_Kunstiakadeemia/IT_osakonna_juhataja/eits-deep-dive-research.md) for full analysis):**
 
 E-ITS is **NOT just an IT project** - it's an **organizational transformation** requiring:
 
@@ -501,7 +508,7 @@ If team is fully saturated with no capacity and no growth budget, this role beco
 - Reduced scope expectations
 - Your willingness to do 60-80 hour weeks
 
-**Current IT Department Team (5 people):**
+**Current IT Department Team (4 people):**
 
 1. **Kenet Pindmaa** - IT-osakonna juhataja (Head of IT Department)
    - Email: kenet.pindmaa@artun.ee
@@ -528,25 +535,30 @@ If team is fully saturated with no capacity and no growth budget, this role beco
 **Specialized Role:**
 
 5. **Bert Blös** - Andmekaitse spetsialist (Data Protection Specialist)
-   - Email: bert.blos@artun.ee
-   - _GDPR/data protection - critical for E-ITS implementation!_
+   - Email: andmekaitse@artun.ee
+   - Location: Rektoraadi büroo (Rector's Office), NOT IT department
+   - Phone: +372 53 794 636
+   - _GDPR/data protection - critical partner for E-ITS implementation!_
 
 **Team Analysis:**
 
-- **Small team:** 5 people supporting 1,144 students + 279 employees (~280 users per IT staff)
-- **Customer support focus:** 3-person support team handling helpdesk, user issues, daily operations
-- **Data protection specialist:** Bert Blös = excellent foundation for E-ITS work
-- **Structure:** 1 head + 3 support specialists + 1 data protection specialist
-- **Missing roles?** No dedicated system administrator, developer, or infrastructure specialist visible
+- **Compact team:** 4 IT people supporting 1,144 students + 279 employees (~290 users per IT staff)
+- **IT Department Structure:** 1 head (osakonnajuhataja - you) + 3 specialists (Robert Luig, Alan Aleksander Antriainen, Mark Erik Tina)
+- **Data protection:** Bert Blös (Rector's Office) = external partner for E-ITS work
+- **Note:** Bert Blös is organizationally separate (Rector's Office), requires coordination but not direct management
+- **Missing roles?** No dedicated separate system administrator, developer, or infrastructure specialist visible
 - **Historical connection:** Alan Antriainen may be related to Olga Antriainen (your 2009-2012 learning systems specialist)
+  - Olga worked as "haridustehnoloog" (educational technologist/learning technologist)
+  - **Question to ask:** Does this role still exist? If not, why was it discontinued? What functions did it cover?
 
 **CRITICAL CONCERN - Team Capacity Reality:**
 
 **Potential Scenario (RISK):**
 
-- 3-person "support" team actually fully occupied with infrastructure maintenance/system administration
-- Bert Blös (data protection) semi-independent, only nominally attached to IT department
-- Result: **ZERO spare capacity for strategic initiatives, digital transformation, or E-ITS**
+- 3-person IT support team actually fully occupied with infrastructure maintenance/system administration
+- Bert Blös (data protection) operates from Rector's Office, requires coordination but not direct management
+- Result: **IT team has ZERO spare capacity for strategic initiatives, digital transformation, or E-ITS**
+- **Additional Challenge:** E-ITS requires top management buy-in, not just IT department work - coordination across departments needed
 
 **If This is True:**
 
@@ -571,8 +583,8 @@ If team is fully saturated with no capacity and no growth budget, this role beco
 - **Why is Kenet Pindmaa leaving?** (Retirement? Better opportunity? Burnout?)
 - **CRITICAL: What percentage of the team's time is spent on reactive support vs. infrastructure maintenance vs. strategic projects?**
 - **How much of Robert/Alan/Mark's time is infrastructure/sysadmin work vs. user support?**
-- **Is Bert Blös fully integrated into IT department or operating semi-independently?**
-- **What does Bert's typical week look like? How much time on IT projects vs. institutional data protection?**
+- **CRITICAL: How does Rector's Office data protection work integrate with IT department? Will E-ITS coordination require formal inter-departmental agreements?**
+- **What does Bert Blös' typical week look like? What's his capacity for E-ITS collaboration vs. institutional GDPR/data protection responsibilities?**
 - **Who manages servers, networks, system updates, security patches if the support team is handling users?**
 - **What external vendors/consultants handle specialized IT needs? (Infrastructure? Development? Security?)**
 - **What happened to learning systems role (Olga Antriainen 2009-2012)?**
