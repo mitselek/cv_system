@@ -1,3 +1,13 @@
+---
+docID: "EKA-STAFF-PROFILES"
+version: "1.0"
+date: "2026-01-05"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "EKA Staff Profiles - IT and Related Departments"
+  description: "Systematic inventory of EKA staff in IT and related departments with contact information and role descriptions"
+---
+
 # EKA Staff Profiles - IT and Related Departments
 
 **Last Updated:** January 5, 2026  

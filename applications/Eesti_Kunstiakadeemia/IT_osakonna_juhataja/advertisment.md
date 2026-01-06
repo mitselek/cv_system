@@ -1,3 +1,13 @@
+---
+docID: "EKA-ITHEAD-ADVERT"
+version: "1.0"
+date: "2025-12-14"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "IT-osakonna juhataja - Job Advertisement"
+  description: "Official job advertisement for IT Department Head position at Eesti Kunstiakadeemia"
+---
+
 # IT-osakonna juhataja at Eesti Kunstiakadeemia
 
 ## Job Posting

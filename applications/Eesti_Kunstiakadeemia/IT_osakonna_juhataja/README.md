@@ -1,3 +1,13 @@
+---
+docID: "EKA-ITHEAD-README"
+version: "1.0"
+date: "2026-01-02"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "IT-osakonna juhataja at Eesti Kunstiakadeemia - Application Directory"
+  description: "Directory and reference guide for IT Department Head position application materials"
+---
+
 # IT-osakonna juhataja at Eesti Kunstiakadeemia
 
 ## Job Posting

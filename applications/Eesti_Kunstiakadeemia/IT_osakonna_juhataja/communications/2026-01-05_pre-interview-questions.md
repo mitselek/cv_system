@@ -1,3 +1,13 @@
+---
+docID: "EKA-PREINT-QUESTIONS"
+version: "1.0"
+date: "2026-01-05"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "Pre-Interview Questions Sent to EKA"
+  description: "Email with 9 strategic pre-interview questions sent to EKA HR on January 5, 2026"
+---
+
 # Pre-Interview Questions Sent to EKA
 
 **Date:** January 5, 2026  

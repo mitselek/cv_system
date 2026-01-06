@@ -1,3 +1,13 @@
+---
+docID: "EKA-FACT-CHECK"
+version: "1.0"
+date: "2025-11-28"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "Fact-Checking Report: Eesti Kunstiakadeemia IT-osakonna juhataja Application"
+  description: "Systematic fact-checking of claims and information related to EKA IT department head position application"
+---
+
 # Fact-Checking Report: Eesti Kunstiakadeemia IT-osakonna juhataja Application
 
 **Date**: 2025-11-28

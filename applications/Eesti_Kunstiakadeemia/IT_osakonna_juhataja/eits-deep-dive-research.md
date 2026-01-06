@@ -1,3 +1,13 @@
+---
+docID: "EKA-EITS-RESEARCH"
+version: "1.0"
+date: "2026-01-02"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "E-ITS (Eesti Infoturbestandard) Deep Dive Research"
+  description: "Comprehensive research on E-ITS standard, implementation requirements, and application to Eesti Kunstiakadeemia"
+---
+
 # E-ITS (Eesti Infoturbestandard) Deep Dive Research
 
 **Research Date:** 2026-01-02

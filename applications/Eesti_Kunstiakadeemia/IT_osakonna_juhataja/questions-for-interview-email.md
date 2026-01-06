@@ -1,3 +1,13 @@
+---
+docID: "EKA-INTERVIEW-QUESTIONS"
+version: "1.0"
+date: "2026-01-05"
+author: "Mihkel Putrinš"
+pdf_metadata:
+  title: "Küsimused EKA-le enne intervjuud (6. jaanuar 2026)"
+  description: "Strategic pre-interview questions sent to EKA HR department to clarify role expectations and team structure"
+---
+
 # Küsimused EKA-le enne intervjuud (6. jaanuar 2026)
 
 Siin on 9 strateegilist küsimust, mis aitavad täpsustada ootusi ja kaardistada võimalikke riske seoses meeskonna suuruse ja tööülesannete mahuga.
