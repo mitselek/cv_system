@@ -88,6 +88,7 @@ metrics:
 Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue located at Pikk 20 in Tallinn. I architected and led development of the complete event and venue management platform powering saal.ee, the venue's public-facing website and ticketing system.
 
 **Experience Summary:**
+
 - **Role:** Architect, Lead Developer (2020-2021), Active Consultant (2022-present)
 - **Context:** Pro bono project supporting cultural institution while building dev team for Ilusa Koodi Instituut
 - **Impact:** Production event management system serving real venue operations
@@ -102,6 +103,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 **Focus:** Contemporary performing arts — supporting theatre, dance, performance, music, film, lectures, discussions, exhibitions, and residencies
 
 **Event Categories Supported:**
+
 - Theatre performances and productions
 - Dance performances and contemporary dance
 - Live performances and music
@@ -118,12 +120,14 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 ### Architecture Phase (2020)
 
 **System Design:**
+
 - Planned complete event and venue management architecture
 - Designed multi-category event data model supporting diverse performance types
 - Structured Strapi CMS for flexible content management
 - Planned homepage user experience for event discovery and ticketing
 
 **Key Decisions:**
+
 - Strapi CMS for content flexibility and team scalability
 - Node.js backend for team skill alignment
 - Static site generation for performance
@@ -133,6 +137,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 ### Lead Development Phase (2020-2021)
 
 **Homepage Implementation**
+
 - Designed and developed complete public-facing homepage
 - Event discovery interface with filtering and search
 - Venue information and logistics presentation
@@ -140,6 +145,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 - Responsive design for audience accessibility
 
 **Strapi Backend & Data Model**
+
 - Built comprehensive content management system with flexible data modeling
 - Event type management:
   - Performance classification and scheduling
@@ -157,6 +163,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
   - Image and media asset handling
 
 **Key Features Delivered:**
+
 - Event listing with full categorization
 - Calendar view for scheduling visibility
 - Performer/artist profiles
@@ -168,12 +175,14 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 ### Active Consultation Phase (2022-present)
 
 **Developer Support & Mentoring**
+
 - Ongoing technical guidance and architecture consultation
 - Mentoring development team on system decisions
 - Ensuring adequate resources for maintenance and feature development
 - Supporting team growth and knowledge transfer
 
 **System Evolution**
+
 - Continuous feature additions and improvements
 - Event type expansion and categorization refinement
 - Performance optimization
@@ -183,6 +192,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 ## Technical Achievement
 
 **Backend System (KGS21):**
+
 - 871 total commits demonstrating active iteration
 - 7 contributors with sustainable team transition
 - Full production system serving real operations
@@ -191,6 +201,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 - Node.js/JavaScript stack for team consistency
 
 **Architecture Principles:**
+
 - Scalable event management for diverse performance types
 - Team-oriented code organization (enabling developer handoff)
 - Flexible content management (supporting cultural institution needs)
@@ -200,6 +211,7 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 ## Impact & Outcomes
 
 ### For Kanuti Gildi SAAL
+
 - Professional, scalable event management platform
 - Integrated ticketing and audience engagement
 - Multi-language support for international audience reach
@@ -207,12 +219,14 @@ Kanuti Gildi SAAL is Estonia's premier contemporary performing arts venue locate
 - Foundation for venue growth and programming expansion
 
 ### For Ilusa Koodi Instituut
+
 - **Proof of Concept:** Demonstrated dev team's capability to deliver production systems for cultural institutions
 - **Real-World Experience:** Provided complex real-world project for team skill development
 - **Cultural Sector Expertise:** Established foundation for technology expertise in Estonian cultural organizations
 - **PÖFF Connection:** Built capacity supporting Pimedate Ööde FilmiFestival technical needs
 
 ### Team Development
+
 - Successfully transitioned from single architect/lead developer to sustainable 7-person team
 - Established mentoring model for ongoing support
 - Created repeatable patterns for cultural sector technology projects

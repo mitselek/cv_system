@@ -60,16 +60,17 @@ I bootstrapped the initial system architecture and established the static site g
 
 The project utilizes a JAMstack approach for reliability, security, and performance:
 
--   **Content Source:** Strapi CMS (headless) managing dynamic content like events and news.
--   **Build Process:** Static site generation (Entu SSG) transforming CMS data into static files.
--   **Templating:** Pug for concise, readable HTML structure.
--   **Styling:** Stylus for modular and maintainable CSS.
--   **Deployment:** GitHub Actions pipeline automatig builds and deployment.
+- **Content Source:** Strapi CMS (headless) managing dynamic content like events and news.
+- **Build Process:** Static site generation (Entu SSG) transforming CMS data into static files.
+- **Templating:** Pug for concise, readable HTML structure.
+- **Styling:** Stylus for modular and maintainable CSS.
+- **Deployment:** GitHub Actions pipeline automatig builds and deployment.
 
 **Key Contributions:**
--   Designed the initial project structure and build workflow.
--   Implemented the integration logic between the headless CMS and the static generator.
--   Provided ongoing code reviews and technical problem-solving support.
+
+- Designed the initial project structure and build workflow.
+- Implemented the integration logic between the headless CMS and the static generator.
+- Provided ongoing code reviews and technical problem-solving support.
 
 ## Related Projects
 

@@ -64,6 +64,7 @@ repo_stats:
 KGS21 is a comprehensive event management system backend developed as a proof of concept for Kanuti Gildi SAAL venue operations. The system integrates Strapi CMS for content management with a Node.js backend and static site generator for efficient event publishing and venue management.
 
 **Project Context:**
+
 - Developed as pro bono work for Kanuti Gildi SAAL
 - Served as proof of concept and real-world testing ground for dev team development at Ilusa Koodi Instituut
 - Aligned with building development capacity for Pimedate Ööde FilmiFestival (PÖFF)
@@ -74,16 +75,19 @@ KGS21 is a comprehensive event management system backend developed as a proof of
 ### Core Components
 
 **Strapi CMS Backend**
+
 - Content management system for event data, venue information, and scheduling
 - Data modeling for complex event types and venue information
 - API-driven content delivery for flexible frontend consumption
 
 **Static Site Generator (SSG)**
+
 - Dynamic publishing of events to static HTML for performance
 - Integration with Strapi content for site generation pipeline
 - Efficient rendering of event listings and venue information
 
 **Homepage Implementation**
+
 - Complete home page design and development
 - Event display and filtering capabilities
 - Venue information and logistics presentation
@@ -103,12 +107,14 @@ KGS21 is a comprehensive event management system backend developed as a proof of
 ## Development Timeline
 
 ### Phase 1: Architecture (2020)
+
 - Designed complete event management system architecture
 - Planned Strapi CMS integration
 - Established data models for venues, events, and scheduling
 - Designed static site generation workflow
 
 ### Phase 2: Lead Development (2020-2021)
+
 - **Homepage:** Implemented complete venue homepage with event display
 - **Strapi Backend:** Built CMS backend with data models for:
   - Event types and classifications
@@ -122,6 +128,7 @@ KGS21 is a comprehensive event management system backend developed as a proof of
 - **Integration:** Connected frontend display with CMS content delivery
 
 ### Phase 3: Active Consultation (2022-present)
+
 - **Developer Support:** Ensuring adequate developer team resources and guidance
 - **Maintenance:** Ongoing system stability and feature additions
 - **Features:** Support for expanding event types and venue capabilities
@@ -139,12 +146,14 @@ KGS21 is a comprehensive event management system backend developed as a proof of
 ## Impact
 
 ### For Kanuti Gildi SAAL
+
 - Professional venue management and event publishing system
 - Integrated ticketing through Fienta
 - Event categorization and audience targeting
 - Multilingual support (Estonian/English)
 
 ### For Ilusa Koodi Instituut
+
 - Real-world proof of concept for dev team capabilities
 - Demonstrated capacity to deliver production systems
 - Training ground for developers on full-stack JavaScript development

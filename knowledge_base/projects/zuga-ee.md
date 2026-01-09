@@ -7,12 +7,20 @@ title:
 url: https://zuga.ee
 repository: https://github.com/mitselek/zuga.ee
 dates:
-  start: '2025-12'
+  start: "2025-12"
   end: present
 status: active
 tags: [web-development, architecture, frontend, performance, typescript, astro]
-technologies: [astro, typescript, tailwind-css, zod, markdown, netlify, github-actions]
-skills_demonstrated: [system-architecture, frontend-development, performance-optimization, typescript, documentation]
+technologies:
+  [astro, typescript, tailwind-css, zod, markdown, netlify, github-actions]
+skills_demonstrated:
+  [
+    system-architecture,
+    frontend-development,
+    performance-optimization,
+    typescript,
+    documentation,
+  ]
 ```
 
 ## et
@@ -26,6 +34,7 @@ Zuga.ee on kõrge-jõudlusega kahelingne (eesti/inglise) portfoolio-veebisait, m
 Ehitasin ja arhitektuurisin Phase 1 implementatsiooni:
 
 **Tehniline Eesmärk:**
+
 - Lighthouse Performance ≥90
 - Accessibility 100
 - <2s lehekülgekoormus 3G-l
@@ -33,6 +42,7 @@ Ehitasin ja arhitektuurisin Phase 1 implementatsiooni:
 - Sisust taastasuvad HTML-failid (Markdown/YAML allikas)
 
 **Implementatsioon:**
+
 - **Framework:** Astro 4.x SSG (staatiliste lehtede generaator)
 - **Andmed:** 35+ Markdowni lehekülge (ettekanded, workshopid, teave)
 - **Valideerimis:** Zod skeemid käitusajal sisusisu kontrollimiseks
@@ -76,6 +86,7 @@ Zuga.ee is a high-performance bilingual (Estonian/English) portfolio website sho
 Architected and implemented Phase 1 of the project:
 
 **Technical Objectives:**
+
 - Lighthouse Performance ≥90
 - Accessibility 100
 - <2s page load on 3G
@@ -83,6 +94,7 @@ Architected and implemented Phase 1 of the project:
 - Regeneratable HTML from Markdown/YAML source
 
 **Implementation:**
+
 - **Framework:** Astro 4.x SSG (static site generator)
 - **Content:** 35+ markdown pages (performances, workshops, information)
 - **Validation:** Zod schemas for runtime content validation
