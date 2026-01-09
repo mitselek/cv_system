@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start EdgeDB",
+      "type": "shell",
+      "command": "docker compose up -d edgedb",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated"
+      },
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "Stop EdgeDB",
+      "type": "shell",
+      "command": "docker compose stop edgedb",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Restart EdgeDB",
+      "type": "shell",
+      "command": "docker compose restart edgedb",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
