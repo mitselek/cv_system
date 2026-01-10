@@ -23,35 +23,51 @@ export class AchievementService {
    */
   async addAchievement(input: AchievementInput): Promise<Achievement> {
     const query = `
-      INSERT Achievement {
-        title := <str>$title,
-        date := <str>$date,
-        description := <str>$description,
-        tags := (
-          FOR tag_name IN array_unpack(<array<str>>$tags)
-          UNION (SELECT Tag FILTER .name = tag_name)
-        )
+      SELECT (
+        INSERT Achievement {
+          title := <str>$title,
+          date := <str>$date,
+          description := <str>$description,
+          tags := (
+            SELECT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          )
+        }
+      ) {
+        id,
+        title,
+        date,
+        description,
+        tags: { name },
+        created
       }
     `;
 
-    const result = await this.client.querySingle<Achievement>(query, {
+    const data = await this.client.querySingle<any>(query, {
       title: input.title,
       date: input.date,
       description: input.description || '',
       tags: input.tags
     });
 
-    if (!result) {
+    if (!data) {
       throw new Error('Failed to create achievement');
     }
 
-    return result;
+    return {
+      ...data,
+      created: data.created.toISOString(),
+      tags: data.tags?.map((t: any) => t.name) || []
+    };
   }
 
   /**
    * Get achievement by ID
    */
   async getAchievement(id: string): Promise<Achievement | null> {
+    // Validate UUID format
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+      return null;
+    }
     const query = `
       SELECT Achievement {
         id,

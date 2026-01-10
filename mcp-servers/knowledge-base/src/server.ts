@@ -183,6 +183,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
  */
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
   const { name, arguments: args } = request.params;
+  const params = (args ?? {}) as Record<string, unknown>;
 
   try {
     switch (name) {
@@ -192,7 +193,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await experienceService.addExperience(args as any),
+                await experienceService.addExperience(params as any),
                 null,
                 2
               )
@@ -206,7 +207,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await experienceService.getExperience(args.id),
+                await experienceService.getExperience(params.id as string),
                 null,
                 2
               )
@@ -220,7 +221,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await experienceService.updateExperience(args.id, args as any),
+                await experienceService.updateExperience(params.id as string, params as any),
                 null,
                 2
               )
@@ -233,7 +234,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           content: [
             {
               type: 'text',
-              text: JSON.stringify(await skillService.addSkill(args as any), null, 2)
+              text: JSON.stringify(await skillService.addSkill(params as any), null, 2)
             }
           ]
         };
@@ -243,7 +244,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           content: [
             {
               type: 'text',
-              text: JSON.stringify(await skillService.getSkill(args.id), null, 2)
+              text: JSON.stringify(await skillService.getSkill(params.id as string), null, 2)
             }
           ]
         };
@@ -254,7 +255,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await skillService.updateSkill(args.id, args as any),
+                await skillService.updateSkill(params.id as string, params as any),
                 null,
                 2
               )
@@ -268,7 +269,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await achievementService.addAchievement(args as any),
+                await achievementService.addAchievement(params as any),
                 null,
                 2
               )
@@ -282,7 +283,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(
-                await achievementService.getAchievement(args.id),
+                await achievementService.getAchievement(params.id as string),
                 null,
                 2
               )
@@ -295,7 +296,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           content: [
             {
               type: 'text',
-              text: JSON.stringify(await tagService.listTags(args.category), null, 2)
+              text: JSON.stringify(await tagService.listTags(params.category as string | undefined), null, 2)
             }
           ]
         };
@@ -305,7 +306,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           content: [
             {
               type: 'text',
-              text: JSON.stringify(await tagService.addTag(args.name, args.category), null, 2)
+              text: JSON.stringify(await tagService.addTag(params.name as string, params.category as string), null, 2)
             }
           ]
         };
@@ -315,7 +316,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           content: [
             {
               type: 'text',
-              text: JSON.stringify(await tagService.getTagUsage(args.tag), null, 2)
+              text: JSON.stringify(await tagService.getTagUsage(params.tag as string), null, 2)
             }
           ]
         };

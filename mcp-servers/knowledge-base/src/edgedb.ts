@@ -9,12 +9,11 @@ export class EdgeDBClient {
   async connect(): Promise<void> {
     this.client = createClient({
       dsn: process.env.EDGEDB_DSN || 'edgedb://edgedb@localhost:5656/edgedb',
-      tlsCAData: process.env.EDGEDB_TLS_CA_DATA,
-      tlsSecurity: process.env.EDGEDB_TLS_SECURITY as any || 'insecure'
+      tlsSecurity: (process.env.EDGEDB_TLS_SECURITY as any) || 'insecure'
     });
 
     // Test connection
-    const result = await this.client.query('SELECT 1');
+    const result = await this.client.query<number>('SELECT 1');
     console.log('EdgeDB connected:', result);
   }
 
@@ -28,21 +27,21 @@ export class EdgeDBClient {
   /**
    * Execute raw EdgeQL query
    */
-  async query<T = any>(query: string, args?: Record<string, any>): Promise<T> {
+  async query<T = unknown>(query: string, args?: Record<string, any>): Promise<T[]> {
     if (!this.client) {
       throw new Error('EdgeDB client not connected');
     }
-    return this.client.query(query, args);
+    return this.client.query<T>(query, args);
   }
 
   /**
    * Execute query expecting single result
    */
-  async querySingle<T = any>(query: string, args?: Record<string, any>): Promise<T | null> {
+  async querySingle<T = unknown>(query: string, args?: Record<string, any>): Promise<T | null> {
     if (!this.client) {
       throw new Error('EdgeDB client not connected');
     }
-    return this.client.querySingle(query, args);
+    return this.client.querySingle<T>(query, args);
   }
 
   /**

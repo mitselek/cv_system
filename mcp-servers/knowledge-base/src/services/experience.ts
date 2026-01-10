@@ -26,21 +26,32 @@ export class ExperienceService {
    */
   async addExperience(input: ExperienceInput): Promise<Experience> {
     const query = `
-      INSERT Experience {
-        title := <str>$title,
-        organization := <str>$organization,
-        start_date := <str>$start_date,
-        end_date := <str>$end_date,
-        description_en := <str>$description_en,
-        description_et := <str>$description_et,
-        tags := (
-          FOR tag_name IN array_unpack(<array<str>>$tags)
-          UNION (SELECT Tag FILTER .name = tag_name)
-        )
+      SELECT (
+        INSERT Experience {
+          title := <str>$title,
+          organization := <str>$organization,
+          start_date := <str>$start_date,
+          end_date := <OPTIONAL str>$end_date,
+          description_en := <OPTIONAL str>$description_en,
+          description_et := <OPTIONAL str>$description_et,
+          tags := (
+            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          )
+        }
+      ) {
+        id,
+        title,
+        organization,
+        start_date,
+        end_date,
+        description_en,
+        description_et,
+        tags: { name } ORDER BY .name,
+        created
       }
     `;
 
-    const result = await this.client.querySingle<Experience>(query, {
+    const data = await this.client.querySingle<any>(query, {
       title: input.title,
       organization: input.organization,
       start_date: input.startDate,
@@ -50,17 +61,31 @@ export class ExperienceService {
       tags: input.tags
     });
 
-    if (!result) {
+    if (!data) {
       throw new Error('Failed to create experience');
     }
 
-    return result;
+    return {
+      id: data.id,
+      title: data.title,
+      organization: data.organization,
+      startDate: data.start_date,
+      endDate: data.end_date,
+      description: input.description || '',
+      tags: data.tags?.map((t: any) => t.name) || [],
+      language: input.language,
+      created: data.created.toISOString()
+    };
   }
 
   /**
    * Get experience by ID
    */
   async getExperience(id: string): Promise<Experience | null> {
+    // Validate UUID format
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+      return null;
+    }
     const query = `
       SELECT Experience {
         id,
@@ -76,7 +101,20 @@ export class ExperienceService {
       FILTER .id = <uuid>$id
     `;
 
-    return this.client.querySingle<Experience>(query, { id });
+    const result = await this.client.querySingle<any>(query, { id });
+    if (!result) return null;
+
+    return {
+      id: result.id,
+      title: result.title,
+      organization: result.organization,
+      startDate: result.start_date,
+      endDate: result.end_date,
+      description: result.description_en || result.description_et || '',
+      tags: result.tags?.map((t: any) => t.name) || [],
+      language: result.description_en ? 'en' : 'et',
+      created: result.created.toISOString()
+    };
   }
 
   /**
@@ -122,18 +160,41 @@ export class ExperienceService {
     }
 
     const query = `
-      UPDATE Experience
-      SET {
-        ${setClauses.join(',')}
+      SELECT (
+        UPDATE Experience
+        FILTER .id = <uuid>$id
+        SET {
+          ${setClauses.join(',')}
+        }
+      ) {
+        id,
+        title,
+        organization,
+        start_date,
+        end_date,
+        description_en,
+        description_et,
+        tags: { name },
+        created
       }
-      FILTER .id = <uuid>$id
     `;
 
-    const result = await this.client.querySingle<Experience>(query, params);
+    const result = await this.client.querySingle<any>(query, params);
     if (!result) {
       throw new Error('Failed to update experience');
     }
 
-    return result;
+    // Transform DB response to Experience interface
+    return {
+      id: result.id,
+      title: result.title,
+      organization: result.organization,
+      startDate: result.start_date,
+      endDate: result.end_date,
+      description: result.description_en || result.description_et || '',
+      tags: result.tags?.map((t: any) => t.name) || [],
+      language: result.description_en ? 'en' : 'et',
+      created: result.created.toISOString()
+    };
   }
 }

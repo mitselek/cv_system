@@ -21,10 +21,10 @@ export class TagService {
 
     if (category) {
       query += ' FILTER .category = <str>$category';
-      return this.client.query<Tag[]>(query, { category });
+      return this.client.query<Tag>(query, { category });
     }
 
-    return this.client.query<Tag[]>(query);
+    return this.client.query<Tag>(query);
   }
 
   /**
@@ -32,9 +32,18 @@ export class TagService {
    */
   async addTag(name: string, category: string): Promise<Tag> {
     const query = `
-      INSERT Tag {
-        name := <str>$name,
-        category := <str>$category
+      SELECT (
+        INSERT Tag {
+          name := <str>$name,
+          category := <str>$category
+        } UNLESS CONFLICT ON (.name, .category) ELSE (
+          SELECT Tag FILTER .name = <str>$name AND .category = <str>$category
+        )
+      ) {
+        id,
+        name,
+        category,
+        created
       }
     `;
 

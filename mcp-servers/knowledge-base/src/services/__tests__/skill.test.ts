@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import { EdgeDBClient } from '../src/edgedb.js';
-import { SkillService } from '../src/services/skill.js';
+import { EdgeDBClient } from '../../edgedb.js';
+import { SkillService } from '../skill.js';
 
 describe('Skill CRUD', () => {
   let client: EdgeDBClient;

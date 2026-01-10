@@ -28,19 +28,28 @@ export class SkillService {
     }
 
     const query = `
-      INSERT Skill {
-        name := <str>$name,
-        level := <int16>$level,
-        description := <str>$description,
-        evidence_refs := <array<str>>$evidence_refs,
-        tags := (
-          FOR tag_name IN array_unpack(<array<str>>$tags)
-          UNION (SELECT Tag FILTER .name = tag_name)
-        )
+      SELECT (
+        INSERT Skill {
+          name := <str>$name,
+          level := <int16>$level,
+          description := <str>$description,
+          evidence_refs := <array<str>>$evidence_refs,
+          tags := (
+            SELECT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          )
+        }
+      ) {
+        id,
+        name,
+        level,
+        description,
+        evidence_refs,
+        tags: { name },
+        created
       }
     `;
 
-    const result = await this.client.querySingle<Skill>(query, {
+    const data = await this.client.querySingle<any>(query, {
       name: input.name,
       level: input.level,
       description: input.description || '',
@@ -48,17 +57,25 @@ export class SkillService {
       tags: input.tags
     });
 
-    if (!result) {
+    if (!data) {
       throw new Error('Failed to create skill');
     }
 
-    return result;
+    return {
+      ...data,
+      created: data.created.toISOString(),
+      tags: data.tags?.map((t: any) => t.name) || []
+    };
   }
 
   /**
    * Get skill by ID
    */
   async getSkill(id: string): Promise<Skill | null> {
+    // Validate UUID format
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+      return null;
+    }
     const query = `
       SELECT Skill {
         id,
@@ -118,18 +135,32 @@ export class SkillService {
     }
 
     const query = `
-      UPDATE Skill
-      SET {
-        ${setClauses.join(',')}
+      SELECT (
+        UPDATE Skill
+        FILTER .id = <uuid>$id
+        SET {
+          ${setClauses.join(',')}
+        }
+      ) {
+        id,
+        name,
+        level,
+        description,
+        evidence_refs,
+        tags: { name },
+        created
       }
-      FILTER .id = <uuid>$id
     `;
 
-    const result = await this.client.querySingle<Skill>(query, params);
+    const result = await this.client.querySingle<any>(query, params);
     if (!result) {
       throw new Error('Failed to update skill');
     }
 
-    return result;
+    return {
+      ...result,
+      created: result.created.toISOString(),
+      tags: result.tags?.map((t: any) => t.name) || []
+    };
   }
 }

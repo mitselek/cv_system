@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import { EdgeDBClient } from '../src/edgedb.js';
-import { AchievementService } from '../src/services/achievement.js';
+import { EdgeDBClient } from '../../edgedb.js';
+import { AchievementService } from '../achievement.js';
 
 describe('Achievement CRUD', () => {
   let client: EdgeDBClient;
