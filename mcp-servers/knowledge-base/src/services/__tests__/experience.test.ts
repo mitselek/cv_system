@@ -22,15 +22,11 @@ describe('Experience CRUD', () => {
       await client.query('DELETE Experience');
     }
     
-    // KNOWN LIMITATION: Tags are matched by name only, not (name, category)
-    // This means if "leadership" exists in multiple categories, it will match all.
-    // Delete any conflicting tags from other test suites to ensure clean state.
-    await client.query(`DELETE Tag FILTER .name = 'leadership' AND .category != 'skills'`);
-    
-    // Create tags for testing - use unique names to avoid collisions with other test suites
+    // Create tags for testing
     await client.query(`
-      INSERT Tag { name := 'nodejs', category := 'skills' } UNLESS CONFLICT;
-      INSERT Tag { name := 'teamwork', category := 'skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'nodejs', category := 'languages' } UNLESS CONFLICT;
+      INSERT Tag { name := 'teamwork', category := 'soft-skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'python', category := 'languages' } UNLESS CONFLICT;
     `);
   });
 
@@ -45,7 +41,10 @@ describe('Experience CRUD', () => {
       startDate: '2020-01-15',
       endDate: '2023-12-31',
       description: 'Led backend team',
-      tags: ['nodejs', 'teamwork'],
+      tags: [
+        { name: 'nodejs', category: 'languages' },
+        { name: 'teamwork', category: 'soft-skills' }
+      ],
       language: 'en'
     });
 
@@ -53,8 +52,8 @@ describe('Experience CRUD', () => {
     expect(result.title).toBe('Senior Software Engineer');
     expect(result.organization).toBe('TechCorp');
     expect(result.tags).toHaveLength(2);
-    expect(result.tags).toContain('nodejs');
-    expect(result.tags).toContain('teamwork');
+    expect(result.tags).toContainEqual({ name: 'nodejs', category: 'languages' });
+    expect(result.tags).toContainEqual({ name: 'teamwork', category: 'soft-skills' });
   });
 
   it('should retrieve experience by ID', async () => {
@@ -64,7 +63,7 @@ describe('Experience CRUD', () => {
       startDate: '2023-01-01',
       endDate: '2024-06-30',
       description: 'Managed product strategy',
-      tags: ['pm'],
+      tags: [{ name: 'pm', category: 'skills' }],
       language: 'en'
     });
 
@@ -80,7 +79,7 @@ describe('Experience CRUD', () => {
       organization: 'OldCorp',
       startDate: '2019-06-01',
       description: 'Learning role',
-      tags: ['junior'],
+      tags: [{ name: 'junior', category: 'skills' }],
       language: 'en'
     });
 
@@ -130,7 +129,10 @@ describe('Experience Search', () => {
       startDate: '2020-01-01',
       endDate: '2021-12-31',
       description: 'Backend development',
-      tags: ['search-nodejs', 'search-teamwork'],
+      tags: [
+        { name: 'search-nodejs', category: 'skills' },
+        { name: 'search-teamwork', category: 'skills' }
+      ],
       language: 'en'
     });
     exp1Id = exp1.id;
@@ -141,7 +143,7 @@ describe('Experience Search', () => {
       startDate: '2022-01-01',
       endDate: '2023-06-30',
       description: 'Data pipelines',
-      tags: ['search-python'],
+      tags: [{ name: 'search-python', category: 'skills' }],
       language: 'en'
     });
     exp2Id = exp2.id;
@@ -151,7 +153,10 @@ describe('Experience Search', () => {
       organization: 'TechCorp',
       startDate: '2023-07-01',
       description: 'Both frontend and backend',
-      tags: ['search-nodejs', 'search-python'],
+      tags: [
+        { name: 'search-nodejs', category: 'skills' },
+        { name: 'search-python', category: 'skills' }
+      ],
       language: 'en'
     });
     exp3Id = exp3.id;
@@ -162,7 +167,9 @@ describe('Experience Search', () => {
   });
 
   it('should search experiences by single tag', async () => {
-    const results = await service.searchExperiences({ tags: ['search-nodejs'] });
+    const results = await service.searchExperiences({ 
+      tags: [{ name: 'search-nodejs', category: 'skills' }] 
+    });
     
     expect(results).toHaveLength(2);
     expect(results.map(r => r.id)).toContain(exp1Id);
@@ -171,7 +178,10 @@ describe('Experience Search', () => {
 
   it('should search experiences by multiple tags (AND logic)', async () => {
     const results = await service.searchExperiences({ 
-      tags: ['search-nodejs', 'search-python'] 
+      tags: [
+        { name: 'search-nodejs', category: 'skills' },
+        { name: 'search-python', category: 'skills' }
+      ] 
     });
     
     expect(results).toHaveLength(1);
@@ -202,7 +212,7 @@ describe('Experience Search', () => {
   it('should combine multiple search filters', async () => {
     const results = await service.searchExperiences({ 
       organization: 'TechCorp',
-      tags: ['search-nodejs']
+      tags: [{ name: 'search-nodejs', category: 'skills' }]
     });
     
     expect(results).toHaveLength(2);

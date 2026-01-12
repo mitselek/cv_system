@@ -84,6 +84,48 @@ npm run test:coverage
 npm run test:ui
 ```
 
+## Tag Reference Format
+
+All entities use **TagReference objects** for precise tag matching:
+
+```typescript
+interface TagReference {
+  name: string;      // Tag name (e.g., 'javascript')
+  category: string;  // Tag category (e.g., 'languages')
+}
+```
+
+### Why TagReference?
+
+The schema allows multiple tags with the same name in different categories:
+- `{name: 'leadership', category: 'soft-skills'}`
+- `{name: 'leadership', category: 'domains'}`
+
+Using TagReference ensures you match the exact tag you intend, avoiding ambiguity.
+
+### Usage Examples
+
+```typescript
+// Add experience with tags
+await experienceService.addExperience({
+  title: 'Senior Developer',
+  organization: 'TechCorp',
+  startDate: '2020-01-01',
+  tags: [
+    { name: 'javascript', category: 'languages' },
+    { name: 'backend', category: 'skills' }
+  ],
+  language: 'en'
+});
+
+// Search by specific tags
+const results = await experienceService.searchExperiences({
+  tags: [
+    { name: 'javascript', category: 'languages' }
+  ]
+});
+```
+
 ## Services
 
 ### ExperienceService

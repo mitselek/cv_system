@@ -3,13 +3,18 @@
  */
 import { EdgeDBClient } from '../edgedb.js';
 
+export interface TagReference {
+  name: string;
+  category: string;
+}
+
 export interface ExperienceInput {
   title: string;
   organization: string;
   startDate: string;
   endDate?: string;
   description?: string;
-  tags: string[];
+  tags: TagReference[];
   language: 'en' | 'et';
 }
 
@@ -19,7 +24,7 @@ export interface Experience extends ExperienceInput {
 }
 
 export interface ExperienceSearchFilters {
-  tags?: string[];
+  tags?: TagReference[];
   organization?: string;
   dateRange?: {
     start?: string;
@@ -35,6 +40,7 @@ export class ExperienceService {
    */
   async addExperience(input: ExperienceInput): Promise<Experience> {
     const query = `
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Experience {
           title := <str>$title,
@@ -43,8 +49,11 @@ export class ExperienceService {
           end_date := <OPTIONAL str>$end_date,
           description_en := <OPTIONAL str>$description_en,
           description_et := <OPTIONAL str>$description_et,
-          tags := (
-            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          tags := DISTINCT (
+            FOR tag_ref IN tag_refs UNION (
+              SELECT Tag 
+              FILTER .name = tag_ref.name AND .category = tag_ref.category
+            )
           )
         }
       ) {
@@ -55,7 +64,7 @@ export class ExperienceService {
         end_date,
         description_en,
         description_et,
-        tags: { name } ORDER BY .name,
+        tags: { name, category } ORDER BY .name,
         created
       }
     `;
@@ -67,7 +76,7 @@ export class ExperienceService {
       end_date: input.endDate || null,
       description_en: input.language === 'en' ? input.description : null,
       description_et: input.language === 'et' ? input.description : null,
-      tags: input.tags
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
     });
 
     if (!data) {
@@ -81,7 +90,7 @@ export class ExperienceService {
       startDate: data.start_date,
       endDate: data.end_date,
       description: input.description || '',
-      tags: data.tags?.map((t: any) => t.name) || [],
+      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
       language: input.language,
       created: data.created.toISOString()
     };
@@ -216,14 +225,18 @@ export class ExperienceService {
 
     // Filter by tags (AND logic - experience must have ALL specified tags)
     if (filters.tags && filters.tags.length > 0) {
-      params.tags = filters.tags;
-      // Count how many of the requested tags are in this experience's tags
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
+      // Count how many of the requested tag references match this experience's tags
       // Must equal the number of requested tags (AND logic)
-      conditions.push(`
-        count((FOR tag IN array_unpack(<array<str>>$tags) 
-               UNION (SELECT Tag FILTER .name = tag AND Tag IN Experience.tags)))
-        = len(<array<str>>$tags)
-      `);
+      conditions.push(`count((
+        FOR tag_ref IN tag_refs 
+        UNION (
+          SELECT Tag 
+          FILTER .name = tag_ref.name 
+            AND .category = tag_ref.category 
+            AND Tag IN Experience.tags
+        )
+      )) = len(<array<tuple<name: str, category: str>>>$tag_refs)`);
     }
 
     // Filter by organization
@@ -250,7 +263,13 @@ export class ExperienceService {
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
 
+    // Build WITH clause if we have tags
+    const withClause = filters.tags && filters.tags.length > 0
+      ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
+      : '';
+
     const query = `
+      ${withClause}
       SELECT Experience {
         id,
         title,
@@ -259,7 +278,7 @@ export class ExperienceService {
         end_date,
         description_en,
         description_et,
-        tags: { name } ORDER BY .name,
+        tags: { name, category } ORDER BY .name,
         created
       }
       ${whereClause}
@@ -278,7 +297,7 @@ export class ExperienceService {
       startDate: r.start_date,
       endDate: r.end_date,
       description: r.description_en || r.description_et || '',
-      tags: r.tags?.map((t: any) => t.name) || [],
+      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
       language: r.description_en ? 'en' as const : 'et' as const,
       created: r.created.toISOString()
     }));

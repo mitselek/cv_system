@@ -3,11 +3,16 @@
  */
 import { EdgeDBClient } from '../edgedb.js';
 
+export interface TagReference {
+  name: string;
+  category: string;
+}
+
 export interface AchievementInput {
   title: string;
   date: string;
   description?: string;
-  tags: string[];
+  tags: TagReference[];
 }
 
 export interface Achievement extends AchievementInput {
@@ -16,7 +21,7 @@ export interface Achievement extends AchievementInput {
 }
 
 export interface AchievementSearchFilters {
-  tags?: string[];
+  tags?: TagReference[];
   dateRange?: {
     start?: string;  // ISO date
     end?: string;    // ISO date
@@ -31,13 +36,17 @@ export class AchievementService {
    */
   async addAchievement(input: AchievementInput): Promise<Achievement> {
     const query = `
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Achievement {
           title := <str>$title,
           date := <str>$date,
           description := <str>$description,
-          tags := (
-            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          tags := DISTINCT (
+            FOR tag_ref IN tag_refs UNION (
+              SELECT Tag 
+              FILTER .name = tag_ref.name AND .category = tag_ref.category
+            )
           )
         }
       ) {
@@ -45,7 +54,7 @@ export class AchievementService {
         title,
         date,
         description,
-        tags: { name },
+        tags: { name, category },
         created
       }
     `;
@@ -54,7 +63,7 @@ export class AchievementService {
       title: input.title,
       date: input.date,
       description: input.description || '',
-      tags: input.tags
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
     });
 
     if (!data) {
@@ -64,7 +73,7 @@ export class AchievementService {
     return {
       ...data,
       created: data.created.toISOString(),
-      tags: data.tags?.map((t: any) => t.name) || []
+      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
     };
   }
 
@@ -82,13 +91,20 @@ export class AchievementService {
         title,
         date,
         description,
-        tags: { name },
+        tags: { name, category },
         created
       }
       FILTER .id = <uuid>$id
     `;
 
-    return this.client.querySingle<Achievement>(query, { id });
+    const result = await this.client.querySingle<any>(query, { id });
+    if (!result) return null;
+
+    return {
+      ...result,
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
+      created: result.created.toISOString()
+    };
   }
 
   /**
@@ -123,19 +139,32 @@ export class AchievementService {
     }
 
     const query = `
-      UPDATE Achievement
-      SET {
-        ${setClauses.join(',')}
+      SELECT (
+        UPDATE Achievement
+        FILTER .id = <uuid>$id
+        SET {
+          ${setClauses.join(',')}
+        }
+      ) {
+        id,
+        title,
+        date,
+        description,
+        tags: { name, category },
+        created
       }
-      FILTER .id = <uuid>$id
     `;
 
-    const result = await this.client.querySingle<Achievement>(query, params);
+    const result = await this.client.querySingle<any>(query, params);
     if (!result) {
       throw new Error('Failed to update achievement');
     }
 
-    return result;
+    return {
+      ...result,
+      created: result.created.toISOString(),
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
+    };
   }
 
   /**
@@ -147,11 +176,17 @@ export class AchievementService {
 
     // Filter by tags (AND logic - achievement must have ALL specified tags)
     if (filters.tags && filters.tags.length > 0) {
-      params.tags = filters.tags;
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
       conditions.push(`
-        count((FOR tag IN array_unpack(<array<str>>$tags) 
-               UNION (SELECT Tag FILTER .name = tag AND Tag IN Achievement.tags)))
-        = len(<array<str>>$tags)
+        count((
+          FOR tag_ref IN tag_refs 
+          UNION (
+            SELECT Tag 
+            FILTER .name = tag_ref.name 
+              AND .category = tag_ref.category 
+              AND Tag IN Achievement.tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
     }
 
@@ -171,13 +206,19 @@ export class AchievementService {
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
 
+    // Build WITH clause if we have tags
+    const withClause = filters.tags && filters.tags.length > 0
+      ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
+      : '';
+
     const query = `
+      ${withClause}
       SELECT Achievement {
         id,
         title,
         date,
         description,
-        tags: { name } ORDER BY .name,
+        tags: { name, category } ORDER BY .name,
         created
       }
       ${whereClause}
@@ -194,7 +235,7 @@ export class AchievementService {
       title: r.title,
       date: r.date,
       description: r.description || '',
-      tags: r.tags?.map((t: any) => t.name) || [],
+      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
       created: r.created.toISOString()
     }));
   }

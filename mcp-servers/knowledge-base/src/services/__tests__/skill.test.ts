@@ -23,7 +23,10 @@ describe('Skill CRUD', () => {
       level: 9,
       description: 'Expert-level Python programming',
       evidenceRefs: ['EKI backend systems'],
-      tags: ['languages', 'backend']
+      tags: [
+        { name: 'languages', category: 'languages' },
+        { name: 'backend', category: 'skills' }
+      ]
     });
 
     expect(result).toHaveProperty('id');
@@ -51,7 +54,10 @@ describe('Skill CRUD', () => {
       level: 8,
       description: 'Strong TypeScript skills',
       evidenceRefs: ['PÖFF system'],
-      tags: ['languages', 'frontend']
+      tags: [
+        { name: 'languages', category: 'languages' },
+        { name: 'frontend', category: 'skills' }
+      ]
     });
 
     const retrieved = await service.getSkill(created.id);
@@ -65,7 +71,7 @@ describe('Skill CRUD', () => {
       level: 7,
       description: 'Working knowledge',
       evidenceRefs: [],
-      tags: ['devops']
+      tags: [{ name: 'devops', category: 'skills' }]
     });
 
     const updated = await service.updateSkill(created.id, {
@@ -83,7 +89,7 @@ describe('Skill CRUD', () => {
       level: 5,
       description: 'Basic knowledge',
       evidenceRefs: [],
-      tags: ['devops']
+      tags: [{ name: 'devops', category: 'skills' }]
     });
 
     // Attempt to create duplicate
@@ -93,7 +99,7 @@ describe('Skill CRUD', () => {
         level: 6,
         description: 'Different description',
         evidenceRefs: [],
-        tags: ['devops']
+        tags: [{ name: 'devops', category: 'skills' }]
       })
     ).rejects.toThrow();
   });
@@ -133,7 +139,10 @@ describe('Skill Search', () => {
       level: 9,
       description: 'Expert Node.js',
       evidenceRefs: ['PÖFF'],
-      tags: ['search-nodejs', 'search-backend']
+      tags: [
+        { name: 'search-nodejs', category: 'languages' },
+        { name: 'search-backend', category: 'skills' }
+      ]
     });
     skill1Id = skill1.id;
 
@@ -142,7 +151,10 @@ describe('Skill Search', () => {
       level: 7,
       description: 'Data pipelines',
       evidenceRefs: ['EKI'],
-      tags: ['search-python', 'search-backend']
+      tags: [
+        { name: 'search-python', category: 'languages' },
+        { name: 'search-backend', category: 'skills' }
+      ]
     });
     skill2Id = skill2.id;
 
@@ -151,7 +163,10 @@ describe('Skill Search', () => {
       level: 8,
       description: 'Both frontend and backend',
       evidenceRefs: ['Multiple projects'],
-      tags: ['search-nodejs', 'search-advanced']
+      tags: [
+        { name: 'search-nodejs', category: 'languages' },
+        { name: 'search-advanced', category: 'level' }
+      ]
     });
     skill3Id = skill3.id;
   });
@@ -161,7 +176,9 @@ describe('Skill Search', () => {
   });
 
   it('should search skills by single tag', async () => {
-    const results = await service.searchSkills({ tags: ['search-nodejs'] });
+    const results = await service.searchSkills({ 
+      tags: [{ name: 'search-nodejs', category: 'languages' }] 
+    });
 
     expect(results).toHaveLength(2);
     expect(results.map(r => r.id)).toContain(skill1Id);
@@ -170,7 +187,10 @@ describe('Skill Search', () => {
 
   it('should search skills by multiple tags (AND logic)', async () => {
     const results = await service.searchSkills({
-      tags: ['search-nodejs', 'search-backend']
+      tags: [
+        { name: 'search-nodejs', category: 'languages' },
+        { name: 'search-backend', category: 'skills' }
+      ]
     });
 
     expect(results).toHaveLength(1);
@@ -188,7 +208,7 @@ describe('Skill Search', () => {
 
   it('should combine tag and level filters', async () => {
     const results = await service.searchSkills({
-      tags: ['search-backend'],
+      tags: [{ name: 'search-backend', category: 'skills' }],
       levelMin: 8
     });
 
@@ -198,7 +218,7 @@ describe('Skill Search', () => {
 
   it('should return empty array when no matches', async () => {
     const results = await service.searchSkills({
-      tags: ['nonexistent-tag']
+      tags: [{ name: 'nonexistent-tag', category: 'skills' }]
     });
 
     expect(results).toHaveLength(0);

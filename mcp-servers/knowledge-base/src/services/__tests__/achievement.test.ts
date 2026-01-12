@@ -22,7 +22,10 @@ describe('Achievement CRUD', () => {
       title: 'Led successful platform migration',
       date: '2023-06-15',
       description: 'Migrated 500+ users to new infrastructure with zero downtime',
-      tags: ['leadership', 'backend']
+      tags: [
+        { name: 'leadership', category: 'soft-skills' },
+        { name: 'backend', category: 'skills' }
+      ]
     });
 
     expect(result).toHaveProperty('id');
@@ -46,7 +49,10 @@ describe('Achievement CRUD', () => {
       title: '100% intern hire rate',
       date: '2022-12-31',
       description: 'Managed 4 interns, all converted to permanent roles',
-      tags: ['leadership', 'hr']
+      tags: [
+        { name: 'leadership', category: 'soft-skills' },
+        { name: 'hr', category: 'soft-skills' }
+      ]
     });
 
     const retrieved = await service.getAchievement(created.id);
@@ -91,7 +97,10 @@ describe('Achievement Search', () => {
       title: 'Platform Migration',
       date: '2023-06-15',
       description: 'Led successful platform migration',
-      tags: ['search-leadership', 'search-backend']
+      tags: [
+        { name: 'search-leadership', category: 'soft-skills' },
+        { name: 'search-backend', category: 'skills' }
+      ]
     });
     ach1Id = ach1.id;
 
@@ -99,7 +108,10 @@ describe('Achievement Search', () => {
       title: 'Team Mentoring',
       date: '2023-12-01',
       description: '100% intern hire rate',
-      tags: ['search-leadership', 'search-migration']
+      tags: [
+        { name: 'search-leadership', category: 'soft-skills' },
+        { name: 'search-migration', category: 'skills' }
+      ]
     });
     ach2Id = ach2.id;
 
@@ -107,7 +119,10 @@ describe('Achievement Search', () => {
       title: 'Database Optimization',
       date: '2024-03-20',
       description: 'Improved query performance 10x',
-      tags: ['search-backend', 'search-migration']
+      tags: [
+        { name: 'search-backend', category: 'skills' },
+        { name: 'search-migration', category: 'skills' }
+      ]
     });
     ach3Id = ach3.id;
   });
@@ -117,7 +132,9 @@ describe('Achievement Search', () => {
   });
 
   it('should search achievements by single tag', async () => {
-    const results = await service.searchAchievements({ tags: ['search-leadership'] });
+    const results = await service.searchAchievements({ 
+      tags: [{ name: 'search-leadership', category: 'soft-skills' }] 
+    });
 
     expect(results).toHaveLength(2);
     expect(results.map(r => r.id)).toContain(ach1Id);
@@ -126,7 +143,10 @@ describe('Achievement Search', () => {
 
   it('should search achievements by multiple tags (AND logic)', async () => {
     const results = await service.searchAchievements({
-      tags: ['search-leadership', 'search-backend']
+      tags: [
+        { name: 'search-leadership', category: 'soft-skills' },
+        { name: 'search-backend', category: 'skills' }
+      ]
     });
 
     expect(results).toHaveLength(1);
@@ -147,7 +167,7 @@ describe('Achievement Search', () => {
 
   it('should combine tag and date range filters', async () => {
     const results = await service.searchAchievements({
-      tags: ['search-backend'],
+      tags: [{ name: 'search-backend', category: 'skills' }],
       dateRange: {
         start: '2024-01-01'
       }
@@ -159,7 +179,7 @@ describe('Achievement Search', () => {
 
   it('should return empty array when no matches', async () => {
     const results = await service.searchAchievements({
-      tags: ['nonexistent-tag']
+      tags: [{ name: 'nonexistent-tag', category: 'skills' }]
     });
 
     expect(results).toHaveLength(0);

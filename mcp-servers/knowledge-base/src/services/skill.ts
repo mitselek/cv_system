@@ -3,12 +3,17 @@
  */
 import { EdgeDBClient } from '../edgedb.js';
 
+export interface TagReference {
+  name: string;
+  category: string;
+}
+
 export interface SkillInput {
   name: string;
   level: number; // 1-10
   description?: string;
   evidenceRefs?: string[];
-  tags: string[];
+  tags: TagReference[];
 }
 
 export interface Skill extends SkillInput {
@@ -17,7 +22,7 @@ export interface Skill extends SkillInput {
 }
 
 export interface SkillSearchFilters {
-  tags?: string[];
+  tags?: TagReference[];
   levelMin?: number;
 }
 
@@ -33,14 +38,18 @@ export class SkillService {
     }
 
     const query = `
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Skill {
           name := <str>$name,
           level := <int16>$level,
           description := <str>$description,
           evidence_refs := <array<str>>$evidence_refs,
-          tags := (
-            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+          tags := DISTINCT (
+            FOR tag_ref IN tag_refs UNION (
+              SELECT Tag 
+              FILTER .name = tag_ref.name AND .category = tag_ref.category
+            )
           )
         }
       ) {
@@ -49,7 +58,7 @@ export class SkillService {
         level,
         description,
         evidence_refs,
-        tags: { name },
+        tags: { name, category },
         created
       }
     `;
@@ -59,7 +68,7 @@ export class SkillService {
       level: input.level,
       description: input.description || '',
       evidence_refs: input.evidenceRefs || [],
-      tags: input.tags
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
     });
 
     if (!data) {
@@ -69,7 +78,7 @@ export class SkillService {
     return {
       ...data,
       created: data.created.toISOString(),
-      tags: data.tags?.map((t: any) => t.name) || []
+      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
     };
   }
 
@@ -88,13 +97,20 @@ export class SkillService {
         level,
         description,
         evidence_refs,
-        tags: { name },
+        tags: { name, category },
         created
       }
       FILTER .id = <uuid>$id
     `;
 
-    return this.client.querySingle<Skill>(query, { id });
+    const result = await this.client.querySingle<any>(query, { id });
+    if (!result) return null;
+
+    return {
+      ...result,
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
+      created: result.created.toISOString()
+    };
   }
 
   /**
@@ -152,7 +168,7 @@ export class SkillService {
         level,
         description,
         evidence_refs,
-        tags: { name },
+        tags: { name, category },
         created
       }
     `;
@@ -165,7 +181,7 @@ export class SkillService {
     return {
       ...result,
       created: result.created.toISOString(),
-      tags: result.tags?.map((t: any) => t.name) || []
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
     };
   }
 
@@ -178,11 +194,17 @@ export class SkillService {
 
     // Filter by tags (AND logic - skill must have ALL specified tags)
     if (filters.tags && filters.tags.length > 0) {
-      params.tags = filters.tags;
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
       conditions.push(`
-        count((FOR tag IN array_unpack(<array<str>>$tags) 
-               UNION (SELECT Tag FILTER .name = tag AND Tag IN Skill.tags)))
-        = len(<array<str>>$tags)
+        count((
+          FOR tag_ref IN tag_refs 
+          UNION (
+            SELECT Tag 
+            FILTER .name = tag_ref.name 
+              AND .category = tag_ref.category 
+              AND Tag IN Skill.tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
     }
 
@@ -196,14 +218,20 @@ export class SkillService {
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
 
+    // Build WITH clause if we have tags
+    const withClause = filters.tags && filters.tags.length > 0
+      ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
+      : '';
+
     const query = `
+      ${withClause}
       SELECT Skill {
         id,
         name,
         level,
         description,
         evidence_refs,
-        tags: { name } ORDER BY .name,
+        tags: { name, category } ORDER BY .name,
         created
       }
       ${whereClause}
@@ -221,7 +249,7 @@ export class SkillService {
       level: r.level,
       description: r.description || '',
       evidenceRefs: r.evidence_refs || [],
-      tags: r.tags?.map((t: any) => t.name) || [],
+      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
       created: r.created.toISOString()
     }));
   }

@@ -5,7 +5,7 @@ import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 import { EdgeDBClient } from './edgedb.js';
-import { ExperienceService } from './services/experience.js';
+import { ExperienceService, type TagReference } from './services/experience.js';
 import { SkillService } from './services/skill.js';
 import { AchievementService } from './services/achievement.js';
 import { TagService } from './services/tag.js';
@@ -39,7 +39,18 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             start_date: { type: 'string', description: 'Start date (YYYY-MM-DD)' },
             end_date: { type: 'string', description: 'End date (YYYY-MM-DD), optional' },
             description: { type: 'string', description: 'Experience description' },
-            tags: { type: 'array', items: { type: 'string' }, description: 'Associated tags' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Associated tags with name and category' 
+            },
             language: { type: 'string', enum: ['en', 'et'], description: 'Language of description' }
           },
           required: ['title', 'organization', 'start_date', 'tags', 'language']
@@ -83,7 +94,17 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             level: { type: 'number', description: 'Skill level 1-10' },
             description: { type: 'string' },
             evidence_refs: { type: 'array', items: { type: 'string' }, description: 'Evidence references' },
-            tags: { type: 'array', items: { type: 'string' } }
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }
+            }
           },
           required: ['name', 'level', 'tags']
         }
@@ -124,7 +145,17 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             title: { type: 'string' },
             date: { type: 'string', description: 'Achievement date (YYYY-MM-DD)' },
             description: { type: 'string' },
-            tags: { type: 'array', items: { type: 'string' } }
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }
+            }
           },
           required: ['title', 'date', 'tags']
         }
@@ -194,7 +225,18 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Filter by tags (AND logic)' 
+            },
             organization: { type: 'string', description: 'Filter by organization name' },
             date_range: {
               type: 'object',
@@ -213,7 +255,18 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Filter by tags (AND logic)' 
+            },
             level_min: { type: 'number', description: 'Minimum skill level (1-10)' }
           }
         }
@@ -224,7 +277,18 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Filter by tags (AND logic)' 
+            },
             date_range: {
               type: 'object',
               properties: {
@@ -408,7 +472,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               type: 'text',
               text: JSON.stringify(
                 await experienceService.searchExperiences({
-                  tags: params.tags as string[] | undefined,
+                  tags: params.tags as TagReference[] | undefined,
                   organization: params.organization as string | undefined,
                   dateRange: params.date_range as { start?: string; end?: string } | undefined
                 }),
@@ -426,7 +490,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               type: 'text',
               text: JSON.stringify(
                 await skillService.searchSkills({
-                  tags: params.tags as string[] | undefined,
+                  tags: params.tags as TagReference[] | undefined,
                   levelMin: params.level_min as number | undefined
                 }),
                 null,
@@ -443,7 +507,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               type: 'text',
               text: JSON.stringify(
                 await achievementService.searchAchievements({
-                  tags: params.tags as string[] | undefined,
+                  tags: params.tags as TagReference[] | undefined,
                   dateRange: params.date_range as { start?: string; end?: string } | undefined
                 }),
                 null,
