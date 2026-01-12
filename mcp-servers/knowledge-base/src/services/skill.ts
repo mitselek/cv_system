@@ -16,6 +16,11 @@ export interface Skill extends SkillInput {
   created: string;
 }
 
+export interface SkillSearchFilters {
+  tags?: string[];
+  levelMin?: number;
+}
+
 export class SkillService {
   constructor(private client: EdgeDBClient) {}
 
@@ -35,7 +40,7 @@ export class SkillService {
           description := <str>$description,
           evidence_refs := <array<str>>$evidence_refs,
           tags := (
-            SELECT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
           )
         }
       ) {
@@ -162,5 +167,62 @@ export class SkillService {
       created: result.created.toISOString(),
       tags: result.tags?.map((t: any) => t.name) || []
     };
+  }
+
+  /**
+   * Search skills with optional filters
+   */
+  async searchSkills(filters: SkillSearchFilters = {}): Promise<Skill[]> {
+    const conditions: string[] = [];
+    const params: Record<string, any> = {};
+
+    // Filter by tags (AND logic - skill must have ALL specified tags)
+    if (filters.tags && filters.tags.length > 0) {
+      params.tags = filters.tags;
+      conditions.push(`
+        count((FOR tag IN array_unpack(<array<str>>$tags) 
+               UNION (SELECT Tag FILTER .name = tag AND Tag IN Skill.tags)))
+        = len(<array<str>>$tags)
+      `);
+    }
+
+    // Filter by minimum level
+    if (filters.levelMin !== undefined) {
+      params.level_min = filters.levelMin;
+      conditions.push('.level >= <int16>$level_min');
+    }
+
+    const whereClause = conditions.length > 0
+      ? `FILTER ${conditions.join(' AND ')}`
+      : '';
+
+    const query = `
+      SELECT Skill {
+        id,
+        name,
+        level,
+        description,
+        evidence_refs,
+        tags: { name } ORDER BY .name,
+        created
+      }
+      ${whereClause}
+      ORDER BY .level DESC THEN .name ASC
+    `;
+
+    // Only pass params if we actually have any
+    const results = Object.keys(params).length > 0
+      ? await this.client.query<any>(query, params)
+      : await this.client.query<any>(query);
+
+    return results.map((r: any) => ({
+      id: r.id,
+      name: r.name,
+      level: r.level,
+      description: r.description || '',
+      evidenceRefs: r.evidence_refs || [],
+      tags: r.tags?.map((t: any) => t.name) || [],
+      created: r.created.toISOString()
+    }));
   }
 }

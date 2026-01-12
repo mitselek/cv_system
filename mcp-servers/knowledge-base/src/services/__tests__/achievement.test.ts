@@ -58,3 +58,110 @@ describe('Achievement CRUD', () => {
     expect(result).toBeNull();
   });
 });
+
+describe('Achievement Search', () => {
+  let client: EdgeDBClient;
+  let service: AchievementService;
+  let ach1Id: string;
+  let ach2Id: string;
+  let ach3Id: string;
+
+  beforeAll(async () => {
+    client = new EdgeDBClient();
+    await client.connect();
+    service = new AchievementService(client);
+
+    console.log('EdgeDB connected:', await client.query('SELECT 1'));
+
+    // Full cleanup for fresh test data
+    await client.query('DELETE Achievement');
+    await client.query('DELETE Skill');
+    await client.query('DELETE Experience');
+    await client.query('DELETE Tag');
+
+    // Create test tags
+    await client.query(`
+      INSERT Tag { name := 'search-leadership', category := 'soft-skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-backend', category := 'skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-migration', category := 'skills' } UNLESS CONFLICT;
+    `);
+
+    // Create test achievements
+    const ach1 = await service.addAchievement({
+      title: 'Platform Migration',
+      date: '2023-06-15',
+      description: 'Led successful platform migration',
+      tags: ['search-leadership', 'search-backend']
+    });
+    ach1Id = ach1.id;
+
+    const ach2 = await service.addAchievement({
+      title: 'Team Mentoring',
+      date: '2023-12-01',
+      description: '100% intern hire rate',
+      tags: ['search-leadership', 'search-migration']
+    });
+    ach2Id = ach2.id;
+
+    const ach3 = await service.addAchievement({
+      title: 'Database Optimization',
+      date: '2024-03-20',
+      description: 'Improved query performance 10x',
+      tags: ['search-backend', 'search-migration']
+    });
+    ach3Id = ach3.id;
+  });
+
+  afterAll(async () => {
+    await client.disconnect();
+  });
+
+  it('should search achievements by single tag', async () => {
+    const results = await service.searchAchievements({ tags: ['search-leadership'] });
+
+    expect(results).toHaveLength(2);
+    expect(results.map(r => r.id)).toContain(ach1Id);
+    expect(results.map(r => r.id)).toContain(ach2Id);
+  });
+
+  it('should search achievements by multiple tags (AND logic)', async () => {
+    const results = await service.searchAchievements({
+      tags: ['search-leadership', 'search-backend']
+    });
+
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(ach1Id);
+  });
+
+  it('should search achievements by date range', async () => {
+    const results = await service.searchAchievements({
+      dateRange: {
+        start: '2023-10-01',
+        end: '2024-01-31'
+      }
+    });
+
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(ach2Id); // 2023-12-01
+  });
+
+  it('should combine tag and date range filters', async () => {
+    const results = await service.searchAchievements({
+      tags: ['search-backend'],
+      dateRange: {
+        start: '2024-01-01'
+      }
+    });
+
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(ach3Id); // Database Optimization, 2024-03-20
+  });
+
+  it('should return empty array when no matches', async () => {
+    const results = await service.searchAchievements({
+      tags: ['nonexistent-tag']
+    });
+
+    expect(results).toHaveLength(0);
+  });
+});

@@ -15,6 +15,14 @@ export interface Achievement extends AchievementInput {
   created: string;
 }
 
+export interface AchievementSearchFilters {
+  tags?: string[];
+  dateRange?: {
+    start?: string;  // ISO date
+    end?: string;    // ISO date
+  };
+}
+
 export class AchievementService {
   constructor(private client: EdgeDBClient) {}
 
@@ -29,7 +37,7 @@ export class AchievementService {
           date := <str>$date,
           description := <str>$description,
           tags := (
-            SELECT Tag FILTER .name IN array_unpack(<array<str>>$tags)
+            SELECT DISTINCT Tag FILTER .name IN array_unpack(<array<str>>$tags)
           )
         }
       ) {
@@ -128,5 +136,66 @@ export class AchievementService {
     }
 
     return result;
+  }
+
+  /**
+   * Search achievements with optional filters
+   */
+  async searchAchievements(filters: AchievementSearchFilters = {}): Promise<Achievement[]> {
+    const conditions: string[] = [];
+    const params: Record<string, any> = {};
+
+    // Filter by tags (AND logic - achievement must have ALL specified tags)
+    if (filters.tags && filters.tags.length > 0) {
+      params.tags = filters.tags;
+      conditions.push(`
+        count((FOR tag IN array_unpack(<array<str>>$tags) 
+               UNION (SELECT Tag FILTER .name = tag AND Tag IN Achievement.tags)))
+        = len(<array<str>>$tags)
+      `);
+    }
+
+    // Filter by date range
+    if (filters.dateRange) {
+      if (filters.dateRange.start) {
+        params.range_start = filters.dateRange.start;
+        conditions.push('.date >= <str>$range_start');
+      }
+      if (filters.dateRange.end) {
+        params.range_end = filters.dateRange.end;
+        conditions.push('.date <= <str>$range_end');
+      }
+    }
+
+    const whereClause = conditions.length > 0
+      ? `FILTER ${conditions.join(' AND ')}`
+      : '';
+
+    const query = `
+      SELECT Achievement {
+        id,
+        title,
+        date,
+        description,
+        tags: { name } ORDER BY .name,
+        created
+      }
+      ${whereClause}
+      ORDER BY .date DESC THEN .title ASC
+    `;
+
+    // Only pass params if we actually have any
+    const results = Object.keys(params).length > 0
+      ? await this.client.query<any>(query, params)
+      : await this.client.query<any>(query);
+
+    return results.map((r: any) => ({
+      id: r.id,
+      title: r.title,
+      date: r.date,
+      description: r.description || '',
+      tags: r.tags?.map((t: any) => t.name) || [],
+      created: r.created.toISOString()
+    }));
   }
 }

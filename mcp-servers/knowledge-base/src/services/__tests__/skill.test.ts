@@ -98,3 +98,109 @@ describe('Skill CRUD', () => {
     ).rejects.toThrow();
   });
 });
+
+describe('Skill Search', () => {
+  let client: EdgeDBClient;
+  let service: SkillService;
+  let skill1Id: string;
+  let skill2Id: string;
+  let skill3Id: string;
+
+  beforeAll(async () => {
+    client = new EdgeDBClient();
+    await client.connect();
+    service = new SkillService(client);
+
+    console.log('EdgeDB connected:', await client.query('SELECT 1'));
+
+    // FULL cleanup - wipe everything for fresh test data
+    await client.query('DELETE Skill');
+    await client.query('DELETE Experience');
+    await client.query('DELETE Achievement');
+    await client.query('DELETE Tag');
+    
+    // Create test tags
+    await client.query(`
+      INSERT Tag { name := 'search-nodejs', category := 'languages' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-python', category := 'languages' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-backend', category := 'skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-advanced', category := 'level' } UNLESS CONFLICT;
+    `);
+
+    // Create test skills
+    const skill1 = await service.addSkill({
+      name: 'Node.js Backend',
+      level: 9,
+      description: 'Expert Node.js',
+      evidenceRefs: ['PÖFF'],
+      tags: ['search-nodejs', 'search-backend']
+    });
+    skill1Id = skill1.id;
+
+    const skill2 = await service.addSkill({
+      name: 'Python Data Processing',
+      level: 7,
+      description: 'Data pipelines',
+      evidenceRefs: ['EKI'],
+      tags: ['search-python', 'search-backend']
+    });
+    skill2Id = skill2.id;
+
+    const skill3 = await service.addSkill({
+      name: 'Full Stack JS',
+      level: 8,
+      description: 'Both frontend and backend',
+      evidenceRefs: ['Multiple projects'],
+      tags: ['search-nodejs', 'search-advanced']
+    });
+    skill3Id = skill3.id;
+  });
+
+  afterAll(async () => {
+    await client.disconnect();
+  });
+
+  it('should search skills by single tag', async () => {
+    const results = await service.searchSkills({ tags: ['search-nodejs'] });
+
+    expect(results).toHaveLength(2);
+    expect(results.map(r => r.id)).toContain(skill1Id);
+    expect(results.map(r => r.id)).toContain(skill3Id);
+  });
+
+  it('should search skills by multiple tags (AND logic)', async () => {
+    const results = await service.searchSkills({
+      tags: ['search-nodejs', 'search-backend']
+    });
+
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(skill1Id);
+  });
+
+  it('should search skills by minimum level', async () => {
+    const results = await service.searchSkills({ levelMin: 8 });
+
+    expect(results.length).toBeGreaterThanOrEqual(2);
+    expect(results.every(s => s.level >= 8)).toBe(true);
+    expect(results.map(r => r.id)).toContain(skill1Id); // level 9
+    expect(results.map(r => r.id)).toContain(skill3Id); // level 8
+  });
+
+  it('should combine tag and level filters', async () => {
+    const results = await service.searchSkills({
+      tags: ['search-backend'],
+      levelMin: 8
+    });
+
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(skill1Id); // Node.js Backend, level 9
+  });
+
+  it('should return empty array when no matches', async () => {
+    const results = await service.searchSkills({
+      tags: ['nonexistent-tag']
+    });
+
+    expect(results).toHaveLength(0);
+  });
+});
