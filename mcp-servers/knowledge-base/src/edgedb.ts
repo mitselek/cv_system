@@ -8,7 +8,7 @@ export class EdgeDBClient {
 
   async connect(): Promise<void> {
     this.client = createClient({
-      dsn: process.env.EDGEDB_DSN || 'edgedb://edgedb@localhost:5656/edgedb',
+      dsn: process.env.EDGEDB_DSN || 'edgedb://edgedb@localhost:5656/main',
       tlsSecurity: (process.env.EDGEDB_TLS_SECURITY as any) || 'insecure'
     });
 

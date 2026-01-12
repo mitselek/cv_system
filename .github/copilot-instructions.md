@@ -2,96 +2,112 @@
 
 ## Project Overview
 
-Multi-component career management system: job monitoring (Python), knowledge base compiler (TypeScript), email monitor (Go), and application tracking. The **job-monitoring** system is production-ready (v1.0.0, 209 tests passing).
+Multi-component career management system with four main subsystems:
+
+| Component | Language | Status | Purpose |
+|-----------|----------|--------|---------|
+| `job-monitoring/` | Python 3.12+ | v1.0.0 (prod) | Job discovery, scoring, CLI |
+| `mcp-servers/knowledge-base/` | TypeScript | Active | MCP server for EdgeDB knowledge base |
+| `email-monitor/` | Go | Phase 2 complete | IMAP email classification |
+| `applications/` | Markdown | Active | Application tracking registry |
 
 ## Architecture
 
 ```
-job-monitoring/           # Python: job discovery & scoring (primary component)
-  src/job_monitor/
-    scrapers/             # Plugin-based scrapers (Duunitori, CV.ee)
-    schemas.py            # Pydantic models (JobPosting, JobStatus, etc.)
-    scorer.py             # Keyword-based job ranking
-knowledge_base/           # Markdown files with YAML frontmatter → compiled by TypeScript
-applications/             # Job application tracking (REGISTRY.md is the index)
-email-monitor/            # Go: IMAP email monitoring for job alerts
+job-monitoring/src/job_monitor/   # Python: scrapers are plugins
+  scrapers/base.py                # BaseScraper ABC - inherit for new portals
+  scrapers/{cvee,duunitori}.py    # Existing implementations
+  schemas.py                      # Pydantic models (JobPosting, ScoredJob, etc.)
+  
+mcp-servers/knowledge-base/       # TypeScript MCP server
+  src/server.ts                   # Tool definitions (add_experience, search_skills, etc.)
+  src/services/                   # EdgeDB service layer
+  src/edgedb.ts                   # EdgeDB client wrapper
+
+dbschema/default.esdl             # EdgeDB schema (Company, Posting, Application, etc.)
+knowledge_base/                   # Markdown+YAML → compiled to _compiled_context.md
+applications/REGISTRY.md          # Central tracking index
 ```
 
 ## Critical Conventions
 
-### Type Safety (Enforced)
-
-- **All Python code requires complete type hints** - code must pass `mypy --strict`
+### Type Safety (Strictly Enforced)
 - **Always check VS Code Problems panel** after edits; fix type errors immediately
-- Use type narrowing when working with Optional types:
 
 ```python
-# Required pattern for Optional types
+# Python: mypy --strict must pass. Use type narrowing for Optional:
 description: Optional[str] = get_description()
-assert description is not None  # Type narrowing for static checkers
+assert description is not None  # Required before using description
+```
+
+```typescript
+// TypeScript: strict mode. EdgeDB queries return typed results:
+const result = await client.query<{ id: string; title: string }>(query);
 ```
 
 ### No Emojis Policy
 
 - **FORBIDDEN**: CVs, cover letters, commit messages, code comments
-- **ALLOWED ONLY**: Runtime CLI output (⚠️ warnings, status indicators)
+- **ALLOWED ONLY**: Runtime CLI output (warnings, status indicators)
 - Use text markers: `[DONE]`, `[TODO]`, `[FAILED]` instead
 
-### Pydantic HttpUrl Usage
+### Pydantic Patterns
 
 ```python
-# Always wrap URLs explicitly
+# Always wrap URLs explicitly (Pydantic v2 requirement)
 job = JobPosting(url=HttpUrl("https://example.com"), ...)
+
+# Schemas auto-generate IDs from URL hash if not provided (see schemas.py model_validator)
 ```
 
 ## Developer Commands
 
 ```bash
-# Job monitoring - primary workflow
-cd job-monitoring
-pip install -e ".[dev]"
-job-monitor scan --config config.yaml           # Quick scan
-job-monitor scan --config config.yaml --full-details  # Detailed (1.5s/job)
+# Job monitoring (Python)
+cd job-monitoring && pip install -e ".[dev]"
+job-monitor scan --config config.yaml              # Quick scan
+pytest tests/ -q && mypy src/ && ruff check src/   # Full validation
 
-# Run tests (required before commits)
-pytest tests/ -q                # All tests
-pytest tests/ --cov=src         # With coverage
+# MCP Knowledge Base (TypeScript)
+cd mcp-servers/knowledge-base
+npm run dev                  # Watch mode with tsx
+npm test                     # Vitest tests
 
-# Type checking
-mypy src/
+# EdgeDB (Docker)
+docker compose up -d edgedb  # Start database (port 5656)
+edgedb migration create      # After schema changes in dbschema/default.esdl
 
-# Linting
-ruff check src/
+# Knowledge Base Compilation
+npm run compile              # Regenerate _compiled_context.md from knowledge_base/
 ```
 
 ## Adding New Job Scrapers
 
-Follow the plugin pattern in [docs/adding-new-scrapers.md](../docs/adding-new-scrapers.md):
+Pattern in [docs/adding-new-scrapers.md](../docs/adding-new-scrapers.md):
 
-1. Create `src/job_monitor/scrapers/{portal}.py` inheriting from `BaseScraper`
-2. Define required class attributes: `SCRAPER_ID`, `DISPLAY_NAME`, `REQUIRES_COOKIES`
-3. Implement `_setup()`, `validate_config()`, and `search()` methods
+1. Create `job-monitoring/src/job_monitor/scrapers/{portal}.py`
+2. Inherit `BaseScraper`, define: `SCRAPER_ID`, `DISPLAY_NAME`, `REQUIRES_COOKIES`
+3. Implement: `_setup()`, `validate_config()`, `search(query: dict) -> list[JobPosting]`
 4. Register in `scrapers/__init__.py`
 5. Add tests in `tests/test_scrapers/`
 
 ## Knowledge Base Integrity
 
-The `knowledge_base/` is the **single source of truth** for all professional information. When generating application materials:
+**Zero fabrication tolerance** - every claim must trace to a source file in `knowledge_base/`.
 
-- **Zero fabrication tolerance** - every claim must trace to a source file
-- Quote exact text from sources; never infer or embellish
-- When uncertain about a detail: **omit it entirely**
-- Run `npm run compile` after knowledge base updates to regenerate `_compiled_context.md`
+- Quote exact text; never infer or embellish
+- When uncertain: **omit entirely**
+- MCP server provides tools: `add_experience`, `search_skills`, `get_tag_usage`, etc.
 
 ## Application Tracking
 
-- [applications/REGISTRY.md](../applications/REGISTRY.md) tracks all applications with status
-- Each application has a subdirectory: `applications/{Company}/{Position}/`
+- [applications/REGISTRY.md](../applications/REGISTRY.md) - central index with status
+- Each application: `applications/{Company}/{Position}/` with README.md, CV, cover letter
 - Status flow: Draft → Ready → Submitted → Interview → Offer/Rejected
 
-## Key Files
+## Key References
 
-- [docs/constitution.md](../docs/constitution.md) - Core principles and rules
-- [docs/development-guide.md](../docs/development-guide.md) - Development workflow
-- [job-monitoring/src/job_monitor/schemas.py](../job-monitoring/src/job_monitor/schemas.py) - Data models
-- [job-monitoring/src/job_monitor/scrapers/](../job-monitoring/src/job_monitor/scrapers/) - Scraper plugins
+- [docs/constitution.md](../docs/constitution.md) - Core principles (MUST READ)
+- [job-monitoring/src/job_monitor/schemas.py](../job-monitoring/src/job_monitor/schemas.py) - All Pydantic models
+- [dbschema/default.esdl](../dbschema/default.esdl) - EdgeDB schema definitions
+- [mcp-servers/knowledge-base/src/server.ts](../mcp-servers/knowledge-base/src/server.ts) - MCP tool definitions
