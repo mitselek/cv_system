@@ -22,8 +22,8 @@ export interface ExperienceSearchFilters {
   tags?: string[];
   organization?: string;
   dateRange?: {
-    start: string;
-    end: string;
+    start?: string;
+    end?: string;
   };
 }
 
@@ -234,13 +234,16 @@ export class ExperienceService {
 
     // Filter by date range (overlap check)
     if (filters.dateRange) {
-      params.range_start = filters.dateRange.start;
-      params.range_end = filters.dateRange.end;
-      // Use ?? to coalesce the OR result, defaulting to checking if end_date doesn't exist
-      conditions.push(`
-        .start_date <= <str>$range_end AND 
-        ((.end_date >= <str>$range_start) ?? (NOT EXISTS .end_date))
-      `);
+      // Handle optional start and end
+      if (filters.dateRange.end) {
+        params.range_end = filters.dateRange.end;
+        conditions.push('.start_date <= <str>$range_end');
+      }
+      if (filters.dateRange.start) {
+        params.range_start = filters.dateRange.start;
+        // Use ?? to coalesce the OR result, defaulting to checking if end_date doesn't exist
+        conditions.push('((.end_date >= <str>$range_start) ?? (NOT EXISTS .end_date))');
+      }
     }
 
     const whereClause = conditions.length > 0 

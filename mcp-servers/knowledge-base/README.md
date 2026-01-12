@@ -91,18 +91,21 @@ npm run test:ui
 - `addExperience(input)` - Create work experience
 - `getExperience(id)` - Retrieve by ID
 - `updateExperience(id, updates)` - Update fields
+- `searchExperiences(filters)` - Search by tags/organization/dateRange
 
 ### SkillService
 
 - `addSkill(input)` - Create skill with level validation (1-10)
 - `getSkill(id)` - Retrieve by ID
 - `updateSkill(id, updates)` - Update fields
+- `searchSkills(filters)` - Search by tags/levelMin
 
 ### AchievementService
 
 - `addAchievement(input)` - Create achievement with date parsing
 - `getAchievement(id)` - Retrieve by ID
 - `updateAchievement(id, updates)` - Update fields
+- `searchAchievements(filters)` - Search by tags/dateRange
 
 ### TagService
 
@@ -126,6 +129,9 @@ All services are exposed as MCP tools:
 - `list_tags` - List tags
 - `add_tag` - Create tag
 - `get_tag_usage` - Get tag statistics
+- `search_experiences` - Search experiences by tags/organization/dateRange
+- `search_skills` - Search skills by tags/levelMin
+- `search_achievements` - Search achievements by tags/dateRange
 
 ## Type Safety
 

@@ -173,6 +173,55 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           },
           required: ['tag']
         }
+      },
+      // Search tools
+      {
+        name: 'search_experiences',
+        description: 'Search experiences by tags, organization, or date range',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            organization: { type: 'string', description: 'Filter by organization name' },
+            date_range: {
+              type: 'object',
+              properties: {
+                start: { type: 'string', description: 'Range start date (YYYY-MM-DD)' },
+                end: { type: 'string', description: 'Range end date (YYYY-MM-DD)' }
+              },
+              description: 'Filter by date range (overlapping)'
+            }
+          }
+        }
+      },
+      {
+        name: 'search_skills',
+        description: 'Search skills by tags and minimum level',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            level_min: { type: 'number', description: 'Minimum skill level (1-10)' }
+          }
+        }
+      },
+      {
+        name: 'search_achievements',
+        description: 'Search achievements by tags and date range',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { type: 'array', items: { type: 'string' }, description: 'Filter by tags (AND logic)' },
+            date_range: {
+              type: 'object',
+              properties: {
+                start: { type: 'string', description: 'Range start date (YYYY-MM-DD)' },
+                end: { type: 'string', description: 'Range end date (YYYY-MM-DD)' }
+              },
+              description: 'Filter by date range'
+            }
+          }
+        }
       }
     ]
   };
@@ -317,6 +366,58 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(await tagService.getTagUsage(params.tag as string), null, 2)
+            }
+          ]
+        };
+
+      case 'search_experiences':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await experienceService.searchExperiences({
+                  tags: params.tags as string[] | undefined,
+                  organization: params.organization as string | undefined,
+                  dateRange: params.date_range as { start?: string; end?: string } | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_skills':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await skillService.searchSkills({
+                  tags: params.tags as string[] | undefined,
+                  levelMin: params.level_min as number | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_achievements':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await achievementService.searchAchievements({
+                  tags: params.tags as string[] | undefined,
+                  dateRange: params.date_range as { start?: string; end?: string } | undefined
+                }),
+                null,
+                2
+              )
             }
           ]
         };
