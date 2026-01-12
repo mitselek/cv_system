@@ -2,6 +2,31 @@
 
 TypeScript + EdgeDB implementation of the Knowledge Base MCP server for the CV System.
 
+## VS Code Installation
+
+Add the server to `~/.config/Code/User/mcp.json`:
+
+```json
+{
+  "servers": {
+    "cv-system-knb": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/path/to/cv_system/mcp-servers/knowledge-base/dist/server.js"
+      ]
+    }
+  }
+}
+```
+
+After adding, reload VS Code (`Ctrl+Shift+P` → "Developer: Reload Window").
+
+**Prerequisites:**
+
+- EdgeDB must be running (`edgedb server start`)
+- Server must be built (`npm run build`)
+
 ## Features
 
 - **Type-Safe CRUD Operations:** Full type safety from database to MCP tools
@@ -90,14 +115,15 @@ All entities use **TagReference objects** for precise tag matching:
 
 ```typescript
 interface TagReference {
-  name: string;      // Tag name (e.g., 'javascript')
-  category: string;  // Tag category (e.g., 'languages')
+  name: string; // Tag name (e.g., 'javascript')
+  category: string; // Tag category (e.g., 'languages')
 }
 ```
 
 ### Why TagReference?
 
 The schema allows multiple tags with the same name in different categories:
+
 - `{name: 'leadership', category: 'soft-skills'}`
 - `{name: 'leadership', category: 'domains'}`
 
@@ -108,21 +134,19 @@ Using TagReference ensures you match the exact tag you intend, avoiding ambiguit
 ```typescript
 // Add experience with tags
 await experienceService.addExperience({
-  title: 'Senior Developer',
-  organization: 'TechCorp',
-  startDate: '2020-01-01',
+  title: "Senior Developer",
+  organization: "TechCorp",
+  startDate: "2020-01-01",
   tags: [
-    { name: 'javascript', category: 'languages' },
-    { name: 'backend', category: 'skills' }
+    { name: "javascript", category: "languages" },
+    { name: "backend", category: "skills" },
   ],
-  language: 'en'
+  language: "en",
 });
 
 // Search by specific tags
 const results = await experienceService.searchExperiences({
-  tags: [
-    { name: 'javascript', category: 'languages' }
-  ]
+  tags: [{ name: "javascript", category: "languages" }],
 });
 ```
 

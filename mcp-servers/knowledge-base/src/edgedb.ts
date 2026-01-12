@@ -1,7 +1,7 @@
 /**
  * EdgeDB Client Configuration and Connection
  */
-import createClient, { type Client } from 'edgedb';
+import { createClient, type Client } from 'edgedb';
 
 export class EdgeDBClient {
   private client: Client | null = null;

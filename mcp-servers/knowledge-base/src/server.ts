@@ -10,10 +10,17 @@ import { SkillService } from './services/skill.js';
 import { AchievementService } from './services/achievement.js';
 import { TagService } from './services/tag.js';
 
-const server = new Server({
-  name: 'cv-system-knb-mcp',
-  version: '0.1.0'
-});
+const server = new Server(
+  {
+    name: 'cv-system-knb-mcp',
+    version: '0.1.0'
+  },
+  {
+    capabilities: {
+      tools: {}
+    }
+  }
+);
 
 let client: EdgeDBClient;
 let experienceService: ExperienceService;
