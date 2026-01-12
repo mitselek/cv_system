@@ -12,12 +12,11 @@ et: Arvutigraafik-kujundaja
 en: Computer Graphic Designer
 location: Estonia
 tags:
-
-- Graphic Design
-- Print Design
-- Tourism:
-    status: verified
-    last_verified: '2025-11-21'
+  - Graphic Design
+  - Print Design
+  - Tourism
+status: verified
+last_verified: '2025-11-21'
 
 ---
 
