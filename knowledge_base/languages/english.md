@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 id: english
 type: language
@@ -21,8 +19,6 @@ evidence:
 
   - ilusa-koodi-instituut-2021-2024
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## et
 
