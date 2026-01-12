@@ -10,6 +10,44 @@ export interface Tag {
   created: string;
 }
 
+export interface TagSuggestion {
+  name: string;
+  category: string;
+  distance: number;
+}
+
+/**
+ * Calculate Levenshtein distance between two strings
+ * Returns the minimum number of single-character edits needed to change one word into another
+ */
+function levenshteinDistance(str1: string, str2: string): number {
+  const len1 = str1.length;
+  const len2 = str2.length;
+
+  // Create a 2D array for dynamic programming
+  const matrix: number[][] = Array(len1 + 1)
+    .fill(null)
+    .map(() => Array(len2 + 1).fill(0));
+
+  // Initialize first row and column
+  for (let i = 0; i <= len1; i++) matrix[i][0] = i;
+  for (let j = 0; j <= len2; j++) matrix[0][j] = j;
+
+  // Fill the matrix
+  for (let i = 1; i <= len1; i++) {
+    for (let j = 1; j <= len2; j++) {
+      const cost = str1[i - 1] === str2[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1, // deletion
+        matrix[i][j - 1] + 1, // insertion
+        matrix[i - 1][j - 1] + cost // substitution
+      );
+    }
+  }
+
+  return matrix[len1][len2];
+}
+
 export class TagService {
   constructor(private client: EdgeDBClient) {}
 
@@ -120,5 +158,33 @@ export class TagService {
       achievements,
       total: experiences + skills + achievements
     };
+  }
+
+  /**
+   * Find tags similar to the input string using Levenshtein distance
+   * @param input - The string to match against
+   * @param maxDistance - Maximum edit distance to consider (default: 3)
+   * @param category - Optional category filter
+   * @returns Array of suggestions sorted by distance (closest first)
+   */
+  async findSimilarTags(
+    input: string,
+    maxDistance: number = 3,
+    category?: string
+  ): Promise<TagSuggestion[]> {
+    // Get all tags (filtered by category if provided)
+    const tags = await this.listTags(category);
+
+    // Calculate distance for each tag
+    const suggestions: TagSuggestion[] = tags
+      .map(tag => ({
+        name: tag.name,
+        category: tag.category,
+        distance: levenshteinDistance(input.toLowerCase(), tag.name.toLowerCase())
+      }))
+      .filter(s => s.distance <= maxDistance && s.distance > 0) // Exclude exact matches
+      .sort((a, b) => a.distance - b.distance); // Sort by distance (closest first)
+
+    return suggestions;
   }
 }

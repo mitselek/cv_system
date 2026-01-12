@@ -112,6 +112,7 @@ npm run test:ui
 - `listTags(category?)` - List all or filtered tags
 - `addTag(name, category)` - Create classifier
 - `getTagUsage(tag)` - Usage statistics
+- `findSimilarTags(input, maxDistance?, category?)` - Fuzzy tag matching with Levenshtein distance
 
 ## MCP Tools
 
@@ -129,6 +130,7 @@ All services are exposed as MCP tools:
 - `list_tags` - List tags
 - `add_tag` - Create tag
 - `get_tag_usage` - Get tag statistics
+- `find_similar_tags` - Find tags similar to input (fuzzy matching)
 - `search_experiences` - Search experiences by tags/organization/dateRange
 - `search_skills` - Search skills by tags/levelMin
 - `search_achievements` - Search achievements by tags/dateRange

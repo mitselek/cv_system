@@ -174,6 +174,19 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           required: ['tag']
         }
       },
+      {
+        name: 'find_similar_tags',
+        description: 'Find tags similar to input string using fuzzy matching (Levenshtein distance)',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            input: { type: 'string', description: 'String to match against tag names' },
+            max_distance: { type: 'number', description: 'Maximum edit distance (default: 3)' },
+            category: { type: 'string', description: 'Filter by category (optional)' }
+          },
+          required: ['input']
+        }
+      },
       // Search tools
       {
         name: 'search_experiences',
@@ -366,6 +379,24 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: JSON.stringify(await tagService.getTagUsage(params.tag as string), null, 2)
+            }
+          ]
+        };
+
+      case 'find_similar_tags':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await tagService.findSimilarTags(
+                  params.input as string,
+                  params.max_distance as number | undefined,
+                  params.category as string | undefined
+                ),
+                null,
+                2
+              )
             }
           ]
         };

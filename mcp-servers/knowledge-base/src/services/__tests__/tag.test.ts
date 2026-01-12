@@ -140,3 +140,69 @@ describe('Tag Usage Statistics', () => {
     await expect(service.getTagUsage('nonexistent-tag')).rejects.toThrow('Tag not found');
   });
 });
+
+describe('Fuzzy Tag Matching', () => {
+  let client: EdgeDBClient;
+  let service: TagService;
+
+  beforeAll(async () => {
+    client = new EdgeDBClient();
+    await client.connect();
+    service = new TagService(client);
+
+    // Clean database - delete entities first, then tags
+    await client.query('DELETE Experience');
+    await client.query('DELETE Skill');
+    await client.query('DELETE Achievement');
+    await client.query('DELETE Tag');
+    
+    // Create test tags
+    await service.addTag('javascript', 'languages');
+    await service.addTag('typescript', 'languages');
+    await service.addTag('python', 'languages');
+    await service.addTag('leadership', 'soft-skills');
+    await service.addTag('communication', 'soft-skills');
+  });
+
+  afterAll(async () => {
+    await client.disconnect();
+  });
+
+  it('should suggest correction for typo', async () => {
+    const suggestions = await service.findSimilarTags('javascrip');
+    
+    expect(suggestions).toHaveLength(1);
+    expect(suggestions[0].name).toBe('javascript');
+    expect(suggestions[0].distance).toBeLessThanOrEqual(2);
+  });
+
+  it('should return multiple suggestions within threshold', async () => {
+    const suggestions = await service.findSimilarTags('typscript', 2);
+    
+    expect(suggestions.length).toBeGreaterThan(0);
+    expect(suggestions[0].name).toBe('typescript');
+  });
+
+  it('should return empty array when no similar tags', async () => {
+    const suggestions = await service.findSimilarTags('golang', 2);
+    
+    expect(suggestions).toHaveLength(0);
+  });
+
+  it('should filter by category when provided', async () => {
+    const suggestions = await service.findSimilarTags('leadrship', 2, 'soft-skills');
+    
+    expect(suggestions).toHaveLength(1);
+    expect(suggestions[0].name).toBe('leadership');
+    expect(suggestions[0].category).toBe('soft-skills');
+  });
+
+  it('should return suggestions sorted by distance', async () => {
+    // 'typscript' is closer to 'typescript' than 'javascript'
+    const suggestions = await service.findSimilarTags('typscript', 3);
+    
+    expect(suggestions.length).toBeGreaterThan(0);
+    // First result should be closest match
+    expect(suggestions[0].distance).toBeLessThanOrEqual(suggestions[suggestions.length - 1].distance);
+  });
+});
