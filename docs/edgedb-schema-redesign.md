@@ -364,20 +364,28 @@ type Tag {
 
 ## Design Decisions
 
-### 1. Multilingual Fields - ✅ DECIDED
+### 1. Multilingual Fields - ✅ DECIDED (Revised Implementation)
 
-**Decision:** Use `scalar type Translation` extending tuple with optional language fields
+**Decision:** Use `scalar type Translation` extending JSON with constraint validation
 
-**Implementation:**
+**Original Plan:** Tuple-based scalar type (proven impossible in EdgeDB)
+
+**Why Tuple Approach Failed:**
+EdgeDB does not support `scalar type` extending `tuple`. Attempted implementation:
+```esdl
+scalar type Translation extending tuple<et: optional str, en: optional str>
+```
+Error: `scalar type 'default::tuple' does not exist`
+
+**Constraint:** Scalar types in EdgeDB can only extend primitive types (`str`, `int64`, `json`, etc.) or enums, not composite types like tuples.
+
+**Final Implementation:**
 
 ```esdl
-scalar type Translation extending tuple<
-    et: optional str,
-    en: optional str
-> {
+scalar type Translation extending json {
     constraint expression on (
-        len(__subject__.et ?? '') > 0 OR
-        len(__subject__.en ?? '') > 0
+        len(<str>__subject__['et'] ?? '') > 0 OR
+        len(<str>__subject__['en'] ?? '') > 0
     ) {
         errmessage := 'At least one language (et or en) must be provided';
     };
@@ -386,35 +394,74 @@ scalar type Translation extending tuple<
 type Experience {
     required property title -> Translation;
     required property company -> Translation;
-    property description -> Translation;
+    property article -> Translation;
 }
+```
+
+**Usage Patterns:**
+
+```esdl
+# Insert with explicit JSON cast
+INSERT Experience {
+    title := <Translation>to_json('{"en": "Senior Developer", "et": "Vanemarendaja"}'),
+    company := <Translation>to_json('{"en": "Tech Corp"}')
+};
+
+# Query with smart fallback
+SELECT Experience {
+    title_en := <str>.title['en'],
+    title_et := <str>.title['et'],
+    display_title := <str>.title['en'] ?? <str>.title['et']
+};
 ```
 
 **Rationale:**
 
-- **Type safety:** Full compile-time type checking, no casting needed
-- **Performance:** Inline storage, O(1) access, indexable (`index on (.title.et)`)
-- **Reusability:** Define once, use across all types (Experience, Skill, Achievement)
-- **Extensibility:** Add new languages by updating single type definition
+- **Type safety with validation:** JSON scalar + constraint enforces structure at DB level
+- **Performance:** Atomic storage, all translations in single row, zero join overhead
+- **Reusability:** Define once, use across all types (Experience, Skill, Achievement, etc.)
 - **Constraint enforcement:** "At least one language" validated at database level
-- **DRY principle:** Constraint and structure defined in one place
+- **Flexibility:** JSON structure supports optional fields naturally
+- **DRY principle:** Constraint and validation defined in one place
 
 **Benefits over alternatives:**
 
-- Better than JSON (type safety, no casting)
-- Better than separate Translation objects (performance, complexity)
-- Better than fixed `_et`/`_en` fields (not extensible)
+- **vs Tuple (impossible):** Tuples can't be extended by scalar types in EdgeDB
+- **vs Separate properties (`_et`/`_en`):** Not extensible, verbose, no cohesion
+- **vs Object type (`type Translation`):** Creates separate entities, performance overhead from joins
+- **vs Unconstrained JSON:** Loses validation, no enforcement of required structure
 
-**Future-proof:** Adding Ukrainian/French requires one-line change:
+**Trade-offs:**
+
+- ⚠️ **Requires casting in queries:** Must use `<str>.field['en']` syntax (acceptable overhead)
+- ⚠️ **TypeScript integration:** Default type is `unknown`, requires explicit interface definition
+- ✅ **Atomic validation:** Empty object `{}` rejected by constraint
+- ✅ **Performance:** Single-row storage, indexable, no joins
+
+**TypeScript Interface (for client library):**
+
+```typescript
+interface Translation {
+  et?: string;
+  en?: string;
+}
+```
+
+**Future-proof:** Adding Ukrainian/French requires updating constraint only:
 
 ```esdl
-scalar type Translation extending tuple<
-    et: optional str,
-    en: optional str,
-    ua: optional str,  # Just add here
-    fr: optional str
->
+constraint expression on (
+    len(<str>__subject__['et'] ?? '') > 0 OR
+    len(<str>__subject__['en'] ?? '') > 0 OR
+    len(<str>__subject__['ua'] ?? '') > 0 OR
+    len(<str>__subject__['fr'] ?? '') > 0
+)
 ```
+
+**Validation Confirmed:** ✅
+- Inserted test data: `{"en": "Python Programming", "et": "Pythoni programmeerimine"}` - Success
+- Query with fallback: `<str>.name['en'] ?? <str>.name['et']` - Works perfectly
+- Empty object `{}` rejected: "JSON index 'et' is out of bounds" - Constraint enforced
 
 ### 2. URL Validation - ✅ DECIDED
 
