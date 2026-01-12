@@ -372,9 +372,11 @@ type Tag {
 
 **Why Tuple Approach Failed:**
 EdgeDB does not support `scalar type` extending `tuple`. Attempted implementation:
+
 ```esdl
 scalar type Translation extending tuple<et: optional str, en: optional str>
 ```
+
 Error: `scalar type 'default::tuple' does not exist`
 
 **Constraint:** Scalar types in EdgeDB can only extend primitive types (`str`, `int64`, `json`, etc.) or enums, not composite types like tuples.
@@ -459,6 +461,7 @@ constraint expression on (
 ```
 
 **Validation Confirmed:** ✅
+
 - Inserted test data: `{"en": "Python Programming", "et": "Pythoni programmeerimine"}` - Success
 - Query with fallback: `<str>.name['en'] ?? <str>.name['et']` - Works perfectly
 - Empty object `{}` rejected: "JSON index 'et' is out of bounds" - Constraint enforced
