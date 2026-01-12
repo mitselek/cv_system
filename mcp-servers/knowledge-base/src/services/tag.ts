@@ -66,6 +66,7 @@ export class TagService {
     achievements: number;
     total: number;
   }> {
+    // Use LIMIT 1 since same name can exist in different categories
     const tagQuery = `
       SELECT Tag {
         id,
@@ -74,6 +75,7 @@ export class TagService {
         created
       }
       FILTER .name = <str>$name
+      LIMIT 1
     `;
 
     const tag = await this.client.querySingle<Tag>(tagQuery, { name: tagName });
@@ -82,27 +84,41 @@ export class TagService {
       throw new Error(`Tag not found: ${tagName}`);
     }
 
-    const expCount = await this.client.querySingle<{ count: number }>(
-      'SELECT count((SELECT Experience FILTER $tag IN .tags))',
-      { tag }
+    // Query uses subselect to filter by tag name
+    const expCount = await this.client.querySingle<number>(
+      `SELECT count((
+        SELECT Experience 
+        FILTER (SELECT Tag FILTER .name = <str>$name) IN .tags
+      ))`,
+      { name: tagName }
     );
 
-    const skillCount = await this.client.querySingle<{ count: number }>(
-      'SELECT count((SELECT Skill FILTER $tag IN .tags))',
-      { tag }
+    const skillCount = await this.client.querySingle<number>(
+      `SELECT count((
+        SELECT Skill 
+        FILTER (SELECT Tag FILTER .name = <str>$name) IN .tags
+      ))`,
+      { name: tagName }
     );
 
-    const achieveCount = await this.client.querySingle<{ count: number }>(
-      'SELECT count((SELECT Achievement FILTER $tag IN .tags))',
-      { tag }
+    const achieveCount = await this.client.querySingle<number>(
+      `SELECT count((
+        SELECT Achievement 
+        FILTER (SELECT Tag FILTER .name = <str>$name) IN .tags
+      ))`,
+      { name: tagName }
     );
+
+    const experiences = expCount || 0;
+    const skills = skillCount || 0;
+    const achievements = achieveCount || 0;
 
     return {
       tag,
-      experiences: expCount?.count || 0,
-      skills: skillCount?.count || 0,
-      achievements: achieveCount?.count || 0,
-      total: (expCount?.count || 0) + (skillCount?.count || 0) + (achieveCount?.count || 0)
+      experiences,
+      skills,
+      achievements,
+      total: experiences + skills + achievements
     };
   }
 }

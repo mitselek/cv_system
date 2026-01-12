@@ -66,3 +66,77 @@ describe('Tag/Classifier CRUD', () => {
     expect(result.category).toBe('tools');
   });
 });
+
+describe('Tag Usage Statistics', () => {
+  let client: EdgeDBClient;
+  let service: TagService;
+
+  beforeAll(async () => {
+    client = new EdgeDBClient();
+    await client.connect();
+    service = new TagService(client);
+
+    // Full cleanup for accurate counts
+    await client.query('DELETE Experience');
+    await client.query('DELETE Skill');
+    await client.query('DELETE Achievement');
+    await client.query('DELETE Tag');
+
+    // Create tags
+    await service.addTag('usage-test-tag', 'test');
+    await service.addTag('unused-tag', 'test');
+
+    // Create entities with the usage-test-tag
+    await client.query(`
+      INSERT Experience {
+        title := 'Test Exp 1',
+        organization := 'Test Org',
+        start_date := '2023-01-01',
+        tags := (SELECT DISTINCT Tag FILTER .name = 'usage-test-tag')
+      }
+    `);
+
+    await client.query(`
+      INSERT Skill {
+        name := 'Test Skill 1',
+        level := 5,
+        description := 'Test',
+        tags := (SELECT DISTINCT Tag FILTER .name = 'usage-test-tag')
+      }
+    `);
+
+    await client.query(`
+      INSERT Skill {
+        name := 'Test Skill 2',
+        level := 7,
+        description := 'Test 2',
+        tags := (SELECT DISTINCT Tag FILTER .name = 'usage-test-tag')
+      }
+    `);
+  });
+
+  afterAll(async () => {
+    await client.disconnect();
+  });
+
+  it('should return usage counts for a tag', async () => {
+    const usage = await service.getTagUsage('usage-test-tag');
+
+    expect(usage.tag.name).toBe('usage-test-tag');
+    expect(usage.experiences).toBe(1);
+    expect(usage.skills).toBe(2);
+    expect(usage.achievements).toBe(0);
+    expect(usage.total).toBe(3);
+  });
+
+  it('should return zero counts for unused tag', async () => {
+    const usage = await service.getTagUsage('unused-tag');
+
+    expect(usage.tag.name).toBe('unused-tag');
+    expect(usage.total).toBe(0);
+  });
+
+  it('should throw for non-existent tag', async () => {
+    await expect(service.getTagUsage('nonexistent-tag')).rejects.toThrow('Tag not found');
+  });
+});
