@@ -99,3 +99,122 @@ describe('Experience CRUD', () => {
     expect(result).toBeNull();
   });
 });
+
+describe('Experience Search', () => {
+  let client: EdgeDBClient;
+  let service: ExperienceService;
+  let exp1Id: string;
+  let exp2Id: string;
+  let exp3Id: string;
+
+  beforeAll(async () => {
+    client = new EdgeDBClient();
+    await client.connect();
+    service = new ExperienceService(client);
+    
+    // Clean up
+    await client.query('DELETE Experience');
+    await client.query(`DELETE Tag FILTER .name IN {'search-nodejs', 'search-python', 'search-teamwork'}`);
+    
+    // Create test tags
+    await client.query(`
+      INSERT Tag { name := 'search-nodejs', category := 'skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-python', category := 'skills' } UNLESS CONFLICT;
+      INSERT Tag { name := 'search-teamwork', category := 'skills' } UNLESS CONFLICT;
+    `);
+    
+    // Create test experiences
+    const exp1 = await service.addExperience({
+      title: 'Node.js Developer',
+      organization: 'TechCorp',
+      startDate: '2020-01-01',
+      endDate: '2021-12-31',
+      description: 'Backend development',
+      tags: ['search-nodejs', 'search-teamwork'],
+      language: 'en'
+    });
+    exp1Id = exp1.id;
+    
+    const exp2 = await service.addExperience({
+      title: 'Python Engineer',
+      organization: 'DataCorp',
+      startDate: '2022-01-01',
+      endDate: '2023-06-30',
+      description: 'Data pipelines',
+      tags: ['search-python'],
+      language: 'en'
+    });
+    exp2Id = exp2.id;
+    
+    const exp3 = await service.addExperience({
+      title: 'Full Stack Developer',
+      organization: 'TechCorp',
+      startDate: '2023-07-01',
+      description: 'Both frontend and backend',
+      tags: ['search-nodejs', 'search-python'],
+      language: 'en'
+    });
+    exp3Id = exp3.id;
+  });
+
+  afterAll(async () => {
+    await client.disconnect();
+  });
+
+  it('should search experiences by single tag', async () => {
+    const results = await service.searchExperiences({ tags: ['search-nodejs'] });
+    
+    expect(results).toHaveLength(2);
+    expect(results.map(r => r.id)).toContain(exp1Id);
+    expect(results.map(r => r.id)).toContain(exp3Id);
+  });
+
+  it('should search experiences by multiple tags (AND logic)', async () => {
+    const results = await service.searchExperiences({ 
+      tags: ['search-nodejs', 'search-python'] 
+    });
+    
+    expect(results).toHaveLength(1);
+    expect(results[0].id).toBe(exp3Id);
+  });
+
+  it('should search experiences by organization', async () => {
+    const results = await service.searchExperiences({ 
+      organization: 'TechCorp' 
+    });
+    
+    expect(results).toHaveLength(2);
+    expect(results.map(r => r.id)).toContain(exp1Id);
+    expect(results.map(r => r.id)).toContain(exp3Id);
+  });
+
+  it('should search experiences by date range', async () => {
+    const results = await service.searchExperiences({ 
+      dateRange: { start: '2022-01-01', end: '2023-12-31' }
+    });
+    
+    // Should include exp2 (started 2022-01-01) and exp3 (started 2023-07-01, no end date)
+    expect(results.length).toBeGreaterThanOrEqual(2);
+    expect(results.map(r => r.id)).toContain(exp2Id);
+    expect(results.map(r => r.id)).toContain(exp3Id);
+  });
+
+  it('should combine multiple search filters', async () => {
+    const results = await service.searchExperiences({ 
+      organization: 'TechCorp',
+      tags: ['search-nodejs']
+    });
+    
+    expect(results).toHaveLength(2);
+    expect(results.map(r => r.id)).toContain(exp1Id);
+    expect(results.map(r => r.id)).toContain(exp3Id);
+  });
+
+  it('should return empty array when no matches', async () => {
+    const results = await service.searchExperiences({ 
+      organization: 'NonexistentCorp' 
+    });
+    
+    expect(results).toHaveLength(0);
+  });
+});

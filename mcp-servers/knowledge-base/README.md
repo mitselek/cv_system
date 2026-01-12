@@ -11,7 +11,7 @@ TypeScript + EdgeDB implementation of the Knowledge Base MCP server for the CV S
 
 ## Architecture
 
-```
+```text
 src/
   edgedb.ts              # EdgeDB client wrapper
   server.ts              # MCP server entry point + tool handlers
@@ -61,21 +61,25 @@ npm start
 Tests are written first (TDD), then implementation follows.
 
 ### Run All Tests
+
 ```bash
 npm test
 ```
 
 ### Watch Mode
+
 ```bash
 npm test -- --watch
 ```
 
 ### Coverage
+
 ```bash
 npm run test:coverage
 ```
 
 ### UI Dashboard
+
 ```bash
 npm run test:ui
 ```
@@ -83,21 +87,25 @@ npm run test:ui
 ## Services
 
 ### ExperienceService
+
 - `addExperience(input)` - Create work experience
 - `getExperience(id)` - Retrieve by ID
 - `updateExperience(id, updates)` - Update fields
 
 ### SkillService
+
 - `addSkill(input)` - Create skill with level validation (1-10)
 - `getSkill(id)` - Retrieve by ID
 - `updateSkill(id, updates)` - Update fields
 
 ### AchievementService
+
 - `addAchievement(input)` - Create achievement with date parsing
 - `getAchievement(id)` - Retrieve by ID
 - `updateAchievement(id, updates)` - Update fields
 
 ### TagService
+
 - `listTags(category?)` - List all or filtered tags
 - `addTag(name, category)` - Create classifier
 - `getTagUsage(tag)` - Usage statistics
@@ -114,6 +122,7 @@ All services are exposed as MCP tools:
 - `update_skill` - Update skill
 - `add_achievement` - Create achievement
 - `get_achievement` - Retrieve achievement
+- `update_achievement` - Update achievement
 - `list_tags` - List tags
 - `add_tag` - Create tag
 - `get_tag_usage` - Get tag statistics
@@ -143,4 +152,3 @@ Environment variables:
 4. Run tests until passing
 5. Add MCP tool handlers in `src/server.ts`
 6. Verify type safety: `npm run type-check`
-

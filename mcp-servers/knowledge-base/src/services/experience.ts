@@ -18,6 +18,15 @@ export interface Experience extends ExperienceInput {
   created: string;
 }
 
+export interface ExperienceSearchFilters {
+  tags?: string[];
+  organization?: string;
+  dateRange?: {
+    start: string;
+    end: string;
+  };
+}
+
 export class ExperienceService {
   constructor(private client: EdgeDBClient) {}
 
@@ -196,5 +205,79 @@ export class ExperienceService {
       language: result.description_en ? 'en' : 'et',
       created: result.created.toISOString()
     };
+  }
+
+  /**
+   * Search experiences with optional filters
+   */
+  async searchExperiences(filters: ExperienceSearchFilters = {}): Promise<Experience[]> {
+    const conditions: string[] = [];
+    const params: Record<string, any> = {};
+
+    // Filter by tags (AND logic - experience must have ALL specified tags)
+    if (filters.tags && filters.tags.length > 0) {
+      params.tags = filters.tags;
+      // Count how many of the requested tags are in this experience's tags
+      // Must equal the number of requested tags (AND logic)
+      conditions.push(`
+        count((FOR tag IN array_unpack(<array<str>>$tags) 
+               UNION (SELECT Tag FILTER .name = tag AND Tag IN Experience.tags)))
+        = len(<array<str>>$tags)
+      `);
+    }
+
+    // Filter by organization
+    if (filters.organization) {
+      params.organization = filters.organization;
+      conditions.push('.organization = <str>$organization');
+    }
+
+    // Filter by date range (overlap check)
+    if (filters.dateRange) {
+      params.range_start = filters.dateRange.start;
+      params.range_end = filters.dateRange.end;
+      // Use ?? to coalesce the OR result, defaulting to checking if end_date doesn't exist
+      conditions.push(`
+        .start_date <= <str>$range_end AND 
+        ((.end_date >= <str>$range_start) ?? (NOT EXISTS .end_date))
+      `);
+    }
+
+    const whereClause = conditions.length > 0 
+      ? `FILTER ${conditions.join(' AND ')}`
+      : '';
+
+    const query = `
+      SELECT Experience {
+        id,
+        title,
+        organization,
+        start_date,
+        end_date,
+        description_en,
+        description_et,
+        tags: { name } ORDER BY .name,
+        created
+      }
+      ${whereClause}
+      ORDER BY .start_date DESC
+    `;
+
+    // Only pass params if we actually have any
+    const results = Object.keys(params).length > 0
+      ? await this.client.query<any>(query, params)
+      : await this.client.query<any>(query);
+
+    return results.map((r: any) => ({
+      id: r.id,
+      title: r.title,
+      organization: r.organization,
+      startDate: r.start_date,
+      endDate: r.end_date,
+      description: r.description_en || r.description_et || '',
+      tags: r.tags?.map((t: any) => t.name) || [],
+      language: r.description_en ? 'en' as const : 'et' as const,
+      created: r.created.toISOString()
+    }));
   }
 }
