@@ -1,113 +1,108 @@
 # CV System - AI Agent Instructions
 
-## Project Overview
+## Architecture Overview
 
-Multi-component career management system with four main subsystems:
+Multi-component career management system:
 
-| Component | Language | Status | Purpose |
-|-----------|----------|--------|---------|
-| `job-monitoring/` | Python 3.12+ | v1.0.0 (prod) | Job discovery, scoring, CLI |
-| `mcp-servers/knowledge-base/` | TypeScript | Active | MCP server for EdgeDB knowledge base |
-| `email-monitor/` | Go | Phase 2 complete | IMAP email classification |
-| `applications/` | Markdown | Active | Application tracking registry |
+| Component | Language | Purpose |
+|-----------|----------|---------|
+| `job-monitoring/` | Python 3.12+ | Job discovery, scoring, CLI (v1.0.0) |
+| `mcp-servers/knowledge-base/` | TypeScript | MCP server for EdgeDB knowledge base |
+| `email-monitor/` | Go | IMAP email classification |
+| `applications/` | Markdown | Application tracking registry |
+| `knowledge_base/` | Markdown+YAML | Source of truth for CV data |
 
-## Architecture
+**Data Flow:** `knowledge_base/*.md` → MCP Server → EdgeDB (`localhost:5656`) ← Job Monitor
 
-```
-job-monitoring/src/job_monitor/   # Python: scrapers are plugins
-  scrapers/base.py                # BaseScraper ABC - inherit for new portals
-  scrapers/{cvee,duunitori}.py    # Existing implementations
-  schemas.py                      # Pydantic models (JobPosting, ScoredJob, etc.)
-  
-mcp-servers/knowledge-base/       # TypeScript MCP server
-  src/server.ts                   # Tool definitions (add_experience, search_skills, etc.)
-  src/services/                   # EdgeDB service layer
-  src/edgedb.ts                   # EdgeDB client wrapper
+## Critical: Database & CLI
 
-dbschema/default.esdl             # EdgeDB schema (Company, Posting, Application, etc.)
-knowledge_base/                   # Markdown+YAML → compiled to _compiled_context.md
-applications/REGISTRY.md          # Central tracking index
+**Docker EdgeDB only** - never create local gel instances:
+
+```bash
+docker compose up -d edgedb          # Start: localhost:5656/main
+gel -H localhost -P 5656 query "..." # Direct queries
+gel migration create                 # After dbschema/default.gel changes
 ```
 
-## Critical Conventions
+MCP server connects via `edgedb://edgedb@localhost:5656/main` (see `mcp-servers/knowledge-base/src/edgedb.ts`).
 
-### Type Safety (Strictly Enforced)
-- **Always check VS Code Problems panel** after edits; fix type errors immediately
+## Strict Policies
+
+### Zero-Fabrication Rule (Constitutional Principle)
+
+**Every claim in generated CVs/cover letters must trace to `knowledge_base/` files.**
+
+- Quote exact source text - no paraphrasing or embellishment
+- When uncertain: **OMIT entirely** (sparse content > fabricated content)
+- Forbidden: inferred skills, "with focus on...", descriptive phrases not in source
+
+### No Emojis
+
+- **Forbidden in:** CVs, cover letters, commits, code comments
+- **Allowed only:** Runtime CLI output (status indicators)
+- Use: `[DONE]`, `[TODO]`, `[FAILED]` instead
+
+### Type Safety
 
 ```python
-# Python: mypy --strict must pass. Use type narrowing for Optional:
-description: Optional[str] = get_description()
-assert description is not None  # Required before using description
+# Python: mypy --strict, type narrowing for Optional
+assert description is not None  # Before using Optional[str]
+job = JobPosting(url=HttpUrl("https://..."))  # Explicit Pydantic v2 wrapping
 ```
 
 ```typescript
-// TypeScript: strict mode. EdgeDB queries return typed results:
+// TypeScript: strict mode, typed EdgeDB queries
 const result = await client.query<{ id: string; title: string }>(query);
 ```
 
-### No Emojis Policy
-
-- **FORBIDDEN**: CVs, cover letters, commit messages, code comments
-- **ALLOWED ONLY**: Runtime CLI output (warnings, status indicators)
-- Use text markers: `[DONE]`, `[TODO]`, `[FAILED]` instead
-
-### Pydantic Patterns
-
-```python
-# Always wrap URLs explicitly (Pydantic v2 requirement)
-job = JobPosting(url=HttpUrl("https://example.com"), ...)
-
-# Schemas auto-generate IDs from URL hash if not provided (see schemas.py model_validator)
-```
+**Always check VS Code Problems panel after edits.**
 
 ## Developer Commands
 
 ```bash
-# Job monitoring (Python)
+# Job monitoring
 cd job-monitoring && pip install -e ".[dev]"
-job-monitor scan --config config.yaml              # Quick scan
-pytest tests/ -q && mypy src/ && ruff check src/   # Full validation
+job-monitor scan --config config.yaml
+pytest tests/ -q && mypy src/ && ruff check src/
 
-# MCP Knowledge Base (TypeScript)
+# MCP Knowledge Base
 cd mcp-servers/knowledge-base
-npm run dev                  # Watch mode with tsx
-npm test                     # Vitest tests
+npm run dev     # tsx watch mode
+npm test        # Vitest
 
-# EdgeDB (Docker)
-docker compose up -d edgedb  # Start database (port 5656)
-edgedb migration create      # After schema changes in dbschema/default.esdl
-
-# Knowledge Base Compilation
-npm run compile              # Regenerate _compiled_context.md from knowledge_base/
+# Email monitor (Go)
+cd email-monitor && go build -o email-monitor ./cmd/
+./email-monitor  # Requires .env with IMAP credentials
 ```
 
-## Adding New Job Scrapers
+## Extending the System
 
-Pattern in [docs/adding-new-scrapers.md](../docs/adding-new-scrapers.md):
+### New Job Scrapers
 
 1. Create `job-monitoring/src/job_monitor/scrapers/{portal}.py`
-2. Inherit `BaseScraper`, define: `SCRAPER_ID`, `DISPLAY_NAME`, `REQUIRES_COOKIES`
-3. Implement: `_setup()`, `validate_config()`, `search(query: dict) -> list[JobPosting]`
-4. Register in `scrapers/__init__.py`
-5. Add tests in `tests/test_scrapers/`
+2. Inherit `BaseScraper` (see `scrapers/base.py` for ABC)
+3. Define: `SCRAPER_ID`, `DISPLAY_NAME`, `REQUIRES_COOKIES`
+4. Implement: `_setup()`, `validate_config()`, `search() -> list[JobPosting]`
+5. Register in `scrapers/__init__.py`, test in `tests/test_scrapers/`
 
-## Knowledge Base Integrity
+### Knowledge Base Entries
 
-**Zero fabrication tolerance** - every claim must trace to a source file in `knowledge_base/`.
+Each file: YAML frontmatter + Markdown body. Relationships via `skills_demonstrated: [skill-id]` in frontmatter.
 
-- Quote exact text; never infer or embellish
-- When uncertain: **omit entirely**
-- MCP server provides tools: `add_experience`, `search_skills`, `get_tag_usage`, etc.
+MCP tools: `add_experience`, `add_skill`, `search_skills`, `get_tag_usage`, etc.
 
-## Application Tracking
+## Application Workflow
 
-- [applications/REGISTRY.md](../applications/REGISTRY.md) - central index with status
-- Each application: `applications/{Company}/{Position}/` with README.md, CV, cover letter
-- Status flow: Draft → Ready → Submitted → Interview → Offer/Rejected
+[applications/REGISTRY.md](../applications/REGISTRY.md) tracks all applications.
 
-## Key References
+Structure: `applications/{Company}/{Position}/README.md` + CV + cover letter
 
-- [docs/constitution.md](../docs/constitution.md) - Core principles (MUST READ)
-- [job-monitoring/src/job_monitor/schemas.py](../job-monitoring/src/job_monitor/schemas.py) - All Pydantic models
-- [dbschema/](../dbschema/) - EdgeDB schema definitions and migrations
+Status flow: `Draft → Ready → Submitted → Interview → Offer/Rejected`
+
+## Key Files
+
+- [docs/constitution.md](../docs/constitution.md) - Governing principles (MUST READ)
+- [job-monitoring/src/job_monitor/schemas.py](../job-monitoring/src/job_monitor/schemas.py) - Pydantic models
+- [dbschema/default.gel](../dbschema/default.gel) - EdgeDB schema
 - [mcp-servers/knowledge-base/src/server.ts](../mcp-servers/knowledge-base/src/server.ts) - MCP tool definitions
+- [knowledge_base/_compiled_context.md](../knowledge_base/_compiled_context.md) - Compiled CV context for LLMs

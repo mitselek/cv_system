@@ -9,7 +9,12 @@ import { ExperienceService } from './services/experience.js';
 import { SkillService } from './services/skill.js';
 import { AchievementService } from './services/achievement.js';
 import { TagService } from './services/tag.js';
-import { type TagReference, SkillCategory, VerificationStatus } from './types.js';
+import { ProjectService } from './services/project.js';
+import { CertificationService } from './services/certification.js';
+import { EducationService } from './services/education.js';
+import { LanguageService } from './services/language.js';
+import { HobbyService } from './services/hobby.js';
+import { type TagReference, SkillCategory, VerificationStatus, ProjectStatus } from './types.js';
 
 const server = new Server(
   {
@@ -28,6 +33,11 @@ let experienceService: ExperienceService;
 let skillService: SkillService;
 let achievementService: AchievementService;
 let tagService: TagService;
+let projectService: ProjectService;
+let certificationService: CertificationService;
+let educationService: EducationService;
+let languageService: LanguageService;
+let hobbyService: HobbyService;
 
 /**
  * List available tools
@@ -179,6 +189,149 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           required: ['id']
         }
       },
+      // Project tools
+      {
+        name: 'add_project',
+        description: 'Create a new project entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            external_id: { type: 'string', description: 'Unique external identifier (e.g., filename stem)' },
+            name: { 
+              type: 'object',
+              properties: {
+                et: { type: 'string', description: 'Estonian name' },
+                en: { type: 'string', description: 'English name' }
+              },
+              description: 'Project name (at least one language required)'
+            },
+            url: { type: 'string', description: 'Project URL (optional)' },
+            repository: { type: 'string', description: 'Git repository URL (optional)' },
+            status: { 
+              type: 'string', 
+              enum: ['active', 'archived', 'planned', 'maintenance'],
+              description: 'Project status (default: active)'
+            },
+            dates: {
+              type: 'object',
+              properties: {
+                start: { type: 'string', description: 'Start date (YYYY-MM-DD)' },
+                end: { type: 'string', description: 'End date (YYYY-MM-DD), optional' }
+              },
+              required: ['start']
+            },
+            technologies: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Technologies used in project'
+            },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              },
+              description: 'Project description (at least one language required)'
+            },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Associated tags with name and category' 
+            },
+            skills_demonstrated: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Array of skill external_ids'
+            }
+          },
+          required: ['external_id', 'name', 'last_verified', 'tags']
+        }
+      },
+      {
+        name: 'get_project',
+        description: 'Retrieve project by ID',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'update_project',
+        description: 'Update a project entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string', description: 'Project ID' },
+            name: { 
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            url: { type: 'string' },
+            repository: { type: 'string' },
+            status: { type: 'string', enum: ['active', 'archived', 'planned', 'maintenance'] },
+            dates: {
+              type: 'object',
+              properties: {
+                start: { type: 'string', description: 'Start date (YYYY-MM-DD)' },
+                end: { type: 'string', description: 'End date (YYYY-MM-DD), optional' }
+              }
+            },
+            technologies: { type: 'array', items: { type: 'string' } },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'search_projects',
+        description: 'Search projects by tags, status, or technologies',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string', description: 'Tag name' },
+                  category: { type: 'string', description: 'Tag category' }
+                },
+                required: ['name', 'category']
+              }, 
+              description: 'Filter by tags (AND logic)' 
+            },
+            status: { 
+              type: 'string', 
+              enum: ['active', 'archived', 'planned', 'maintenance'],
+              description: 'Filter by project status' 
+            },
+            technologies: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Filter by technologies used'
+            }
+          }
+        }
+      },
       // Tag tools
       {
         name: 'list_tags',
@@ -307,6 +460,484 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             }
           }
         }
+      },
+      // Certification tools
+      {
+        name: 'add_certification',
+        description: 'Create a new certification entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            external_id: { type: 'string', description: 'Unique external identifier' },
+            title: { 
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              },
+              description: 'Certification title (at least one language required)'
+            },
+            issuer: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              },
+              description: 'Issuing organization (at least one language required)'
+            },
+            date: { type: 'string', description: 'Issue date (YYYY-MM-DD)' },
+            expiry_date: { type: 'string', description: 'Expiry date (YYYY-MM-DD), optional' },
+            credential_id: { type: 'string', description: 'Credential ID, optional' },
+            credential_url: { type: 'string', description: 'Credential URL, optional' },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              },
+              description: 'Description (optional)'
+            },
+            verification_status: { type: 'string', enum: ['verified', 'draft', 'outdated'] },
+            last_verified: { type: 'string', description: 'Last verification date (YYYY-MM-DD)' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            }
+          },
+          required: ['external_id', 'title', 'issuer', 'date', 'last_verified', 'tags']
+        }
+      },
+      {
+        name: 'get_certification',
+        description: 'Retrieve certification by ID',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'update_certification',
+        description: 'Update a certification entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' },
+            title: { 
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            issuer: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            date: { type: 'string' },
+            expiry_date: { type: 'string' },
+            credential_id: { type: 'string' },
+            credential_url: { type: 'string' },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'search_certifications',
+        description: 'Search certifications by tags, issuer, or date range',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            },
+            issuer: { type: 'string', description: 'Filter by issuer name' },
+            date_range: {
+              type: 'object',
+              properties: {
+                start: { type: 'string' },
+                end: { type: 'string' }
+              }
+            }
+          }
+        }
+      },
+      // Education tools
+      {
+        name: 'add_education',
+        description: 'Create a new education entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            external_id: { type: 'string' },
+            institutions: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  et: { type: 'string' },
+                  en: { type: 'string' }
+                }
+              },
+              description: 'Array of institutions'
+            },
+            fields: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  et: { type: 'string' },
+                  en: { type: 'string' }
+                }
+              },
+              description: 'Fields of study'
+            },
+            dates: {
+              type: 'object',
+              properties: {
+                start: { type: 'string' },
+                end: { type: 'string' }
+              },
+              required: ['start']
+            },
+            degree: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            verification_status: { type: 'string', enum: ['verified', 'draft', 'outdated'] },
+            last_verified: { type: 'string' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            }
+          },
+          required: ['external_id', 'institutions', 'fields', 'dates', 'last_verified', 'tags']
+        }
+      },
+      {
+        name: 'get_education',
+        description: 'Retrieve education by ID',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'update_education',
+        description: 'Update an education entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' },
+            institutions: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  et: { type: 'string' },
+                  en: { type: 'string' }
+                }
+              }
+            },
+            fields: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  et: { type: 'string' },
+                  en: { type: 'string' }
+                }
+              }
+            },
+            dates: {
+              type: 'object',
+              properties: {
+                start: { type: 'string' },
+                end: { type: 'string' }
+              }
+            },
+            degree: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'search_education',
+        description: 'Search education entries by tags, institution, or date range',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            },
+            institution: { type: 'string' },
+            date_range: {
+              type: 'object',
+              properties: {
+                start: { type: 'string' },
+                end: { type: 'string' }
+              }
+            }
+          }
+        }
+      },
+      // Language tools
+      {
+        name: 'add_language',
+        description: 'Create a new language entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            external_id: { type: 'string' },
+            name: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            proficiency: {
+              type: 'object',
+              description: 'Language proficiency levels (JSON object)'
+            },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            verification_status: { type: 'string', enum: ['verified', 'draft', 'outdated'] },
+            last_verified: { type: 'string' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            },
+            evidence: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Experience IDs where language was used'
+            }
+          },
+          required: ['external_id', 'name', 'proficiency', 'last_verified', 'tags']
+        }
+      },
+      {
+        name: 'get_language',
+        description: 'Retrieve language by ID',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'update_language',
+        description: 'Update a language entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' },
+            name: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            proficiency: { type: 'object' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'search_languages',
+        description: 'Search languages by tags or proficiency',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            },
+            min_proficiency: { type: 'string' }
+          }
+        }
+      },
+      // Hobby tools
+      {
+        name: 'add_hobby',
+        description: 'Create a new hobby entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            external_id: { type: 'string' },
+            name: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            tools: {
+              type: 'array',
+              items: { type: 'string' },
+              description: 'Tools/technologies used'
+            },
+            article: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            verification_status: { type: 'string', enum: ['verified', 'draft', 'outdated'] },
+            last_verified: { type: 'string' },
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            }
+          },
+          required: ['external_id', 'name', 'last_verified', 'tags']
+        }
+      },
+      {
+        name: 'get_hobby',
+        description: 'Retrieve hobby by ID',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'update_hobby',
+        description: 'Update a hobby entry',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' },
+            name: {
+              type: 'object',
+              properties: {
+                et: { type: 'string' },
+                en: { type: 'string' }
+              }
+            },
+            tools: {
+              type: 'array',
+              items: { type: 'string' }
+            }
+          },
+          required: ['id']
+        }
+      },
+      {
+        name: 'search_hobbies',
+        description: 'Search hobbies by tags or tools',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            tags: { 
+              type: 'array', 
+              items: { 
+                type: 'object',
+                properties: {
+                  name: { type: 'string' },
+                  category: { type: 'string' }
+                },
+                required: ['name', 'category']
+              }
+            },
+            tool: { type: 'string' }
+          }
+        }
       }
     ]
   };
@@ -425,6 +1056,66 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           ]
         };
 
+      case 'add_project':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await projectService.addProject(params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'get_project':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await projectService.getProject(params.id as string),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'update_project':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await projectService.updateProject(params.id as string, params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_projects':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await projectService.searchProjects({
+                  tags: params.tags as TagReference[] | undefined,
+                  status: params.status as ProjectStatus | undefined,
+                  technologies: params.technologies as string[] | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
       case 'list_tags':
         return {
           content: [
@@ -525,6 +1216,248 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           ]
         };
 
+      // Certification handlers
+      case 'add_certification':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await certificationService.addCertification(params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'get_certification':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await certificationService.getCertification(params.id as string),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'update_certification':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await certificationService.updateCertification(params.id as string, params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_certifications':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await certificationService.searchCertifications({
+                  tags: params.tags as TagReference[] | undefined,
+                  issuer: params.issuer as string | undefined,
+                  dateRange: params.date_range as { start?: string; end?: string } | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      // Education handlers
+      case 'add_education':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await educationService.addEducation(params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'get_education':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await educationService.getEducation(params.id as string),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'update_education':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await educationService.updateEducation(params.id as string, params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_education':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await educationService.searchEducation({
+                  tags: params.tags as TagReference[] | undefined,
+                  institution: params.institution as string | undefined,
+                  dateRange: params.date_range as { start?: string; end?: string } | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      // Language handlers
+      case 'add_language':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await languageService.addLanguage(params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'get_language':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await languageService.getLanguage(params.id as string),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'update_language':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await languageService.updateLanguage(params.id as string, params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_languages':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await languageService.searchLanguages({
+                  tags: params.tags as TagReference[] | undefined,
+                  minProficiency: params.min_proficiency as string | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      // Hobby handlers
+      case 'add_hobby':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await hobbyService.addHobby(params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'get_hobby':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await hobbyService.getHobby(params.id as string),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'update_hobby':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await hobbyService.updateHobby(params.id as string, params as any),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
+      case 'search_hobbies':
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                await hobbyService.searchHobbies({
+                  tags: params.tags as TagReference[] | undefined,
+                  tool: params.tool as string | undefined
+                }),
+                null,
+                2
+              )
+            }
+          ]
+        };
+
       default:
         throw new Error(`Unknown tool: ${name}`);
     }
@@ -554,6 +1487,11 @@ async function main() {
   skillService = new SkillService(client);
   achievementService = new AchievementService(client);
   tagService = new TagService(client);
+  projectService = new ProjectService(client);
+  certificationService = new CertificationService(client);
+  educationService = new EducationService(client);
+  languageService = new LanguageService(client);
+  hobbyService = new HobbyService(client);
 
   console.error('KnB MCP Server initialized');
 

@@ -13,8 +13,9 @@ experience: entusiastid-ou-2010-present
 organization: Entusiastid OÜ
 role: Founder / Lead Developer
 duration: 2010 to present
+deployments: 30+
 
-## deployments: 30+
+---
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 

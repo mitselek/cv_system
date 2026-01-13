@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 title: CV System
 type: project
@@ -11,8 +9,6 @@ last_updated: 2025-11-27
 
 visibility: public
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 # CV System
 

@@ -52,6 +52,7 @@ export enum VerificationStatus {
  */
 export enum ProjectStatus {
   Active = 'active',
-  Completed = 'completed',
-  Archived = 'archived'
+  Archived = 'archived',
+  Planned = 'planned',
+  Maintenance = 'maintenance'
 }

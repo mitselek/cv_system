@@ -280,15 +280,18 @@ def import_projects():
                 last_verified = '2025-12-01'
             
             # Check if project already exists
-            existing = client.query(
-                "SELECT Project { id } FILTER .external_id = <str>$external_id",
-                external_id=external_id
-            )
+            # existing = client.query(
+            #     "SELECT Project { id } FILTER .external_id = <str>$external_id",
+            #     external_id=external_id
+            # )
             
-            if existing:
-                print(f"  ⏭️  Already exists, skipping")
-                skipped += 1
-                continue
+            # if existing:
+            #     print(f"  ⏭️  Already exists, skipping")
+            #     skipped += 1
+            #     continue
+            
+            # Force reimport to fix database state
+            existing = []
             
             # Insert project
             query = """

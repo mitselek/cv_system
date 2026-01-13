@@ -405,15 +405,18 @@ type Experience {
 ```typescript
 // TypeScript/JavaScript (MCP Server, Import Scripts)
 // EdgeDB client auto-serializes JS objects to JSON
-const result = await client.querySingle(`
+const result = await client.querySingle(
+  `
   INSERT Experience {
     title := <Translation>$title,
     company := <Translation>$company
   }
-`, {
-  title: { en: "Senior Developer", et: "Vanemarendaja" },
-  company: { en: "Tech Corp" }
-});
+`,
+  {
+    title: { en: "Senior Developer", et: "Vanemarendaja" },
+    company: { en: "Tech Corp" },
+  }
+);
 ```
 
 ```python
@@ -438,6 +441,7 @@ SELECT Experience {
 ```
 
 **Critical: NO JSON.stringify() or to_json() needed!**
+
 - ❌ WRONG: `JSON.stringify({en: 'text'})` → Double-stringified, violates constraint
 - ❌ WRONG: `to_json('{"en":"text"}')` → Unnecessary, client handles serialization
 - ✅ CORRECT: Pass object directly `{en: 'text'}` → EdgeDB client serializes automatically
@@ -501,12 +505,14 @@ During MCP server implementation and testing, discovered the correct usage patte
 ```typescript
 // ❌ INCORRECT (initial assumption from EdgeQL docs)
 const title = JSON.stringify({ en: "Python" });
-await client.query('INSERT Skill { name := <Translation>to_json($title) }', { title });
+await client.query("INSERT Skill { name := <Translation>to_json($title) }", {
+  title,
+});
 // Result: Double-stringified string violates Translation constraint
 
 // ✅ CORRECT (validated through testing)
 const title = { en: "Python" };
-await client.query('INSERT Skill { name := <Translation>$title }', { title });
+await client.query("INSERT Skill { name := <Translation>$title }", { title });
 // Result: EdgeDB client auto-serializes object to JSON, constraint satisfied
 ```
 
@@ -515,12 +521,14 @@ await client.query('INSERT Skill { name := <Translation>$title }', { title });
 **Potential Enhancements (see issue #48):**
 
 1. **Global utility function** for DRY translation fallback:
+
    ```esdl
    function get_text(t: Translation, lang: str) -> str
      using (<str>t[lang] ?? <str>t['et'] ?? <str>t['en'] ?? '');
    ```
 
 2. **Computed properties** to hide JSON syntax from queries:
+
    ```esdl
    type Skill {
      required property name -> Translation;

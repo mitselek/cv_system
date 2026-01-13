@@ -43,6 +43,16 @@ module default {
         };
     }
 
+    # Translation utility function for consistent fallback logic
+    # 1. Try requested language
+    # 2. Fallback to Estonian (et)
+    # 3. Fallback to English (en)
+    # 4. Return empty string if none exist
+    function get_text(t: Translation, lang: str) -> str
+        using (
+            <str>t[lang] ?? <str>t['et'] ?? <str>t['en'] ?? ''
+        );
+
     scalar type HttpUrl extending str {
         constraint regexp(r'^https?://[^\s]+$') {
             errmessage := 'Invalid HTTP/HTTPS URL format';
@@ -210,6 +220,11 @@ module default {
 
         multi link tags -> Tag;
 
+        # Computed properties for translation access
+        property display_name := get_text(.name, 'en');
+        property name_en := get_text(.name, 'en');
+        property name_et := get_text(.name, 'et');
+
         # Computed backlinks
         multi link demonstrated_in := .<skills_demonstrated[is Experience];
         multi link used_in_projects := .<skills_demonstrated[is Project];
@@ -238,6 +253,11 @@ module default {
 
         multi link tags -> Tag;
         multi link skills_demonstrated -> Skill;
+
+        # Computed properties for translation access
+        property display_name := get_text(.name, 'en');
+        property name_en := get_text(.name, 'en');
+        property name_et := get_text(.name, 'et');
     }
 
     type Experience {
@@ -260,6 +280,12 @@ module default {
         multi link tags -> Tag;
         multi link skills_demonstrated -> Skill;
 
+        # Computed properties for translation access
+        property title_en := get_text(.title, 'en');
+        property title_et := get_text(.title, 'et');
+        property company_en := get_text(.company, 'en');
+        property company_et := get_text(.company, 'et');
+
         # Computed backlink
         multi link achievements := .<parent_experience[is Achievement];
     }
@@ -281,6 +307,10 @@ module default {
 
         multi link tags -> Tag;
         link parent_experience -> Experience;
+
+        # Computed properties for translation access
+        property title_en := get_text(.title, 'en');
+        property title_et := get_text(.title, 'et');
     }
 
     type Certification {
@@ -303,6 +333,12 @@ module default {
         }
 
         multi link tags -> Tag;
+
+        # Computed properties for translation access
+        property title_en := get_text(.title, 'en');
+        property title_et := get_text(.title, 'et');
+        property issuer_en := get_text(.issuer, 'en');
+        property issuer_et := get_text(.issuer, 'et');
     }
 
     type Education {
@@ -342,6 +378,11 @@ module default {
 
         multi link tags -> Tag;
         multi link evidence -> Experience;  # Where this language was used
+
+        # Computed properties for translation access
+        property display_name := get_text(.name, 'en');
+        property name_en := get_text(.name, 'en');
+        property name_et := get_text(.name, 'et');
     }
 
     type Hobby {
@@ -360,5 +401,10 @@ module default {
         }
 
         multi link tags -> Tag;
+
+        # Computed properties for translation access
+        property display_name := get_text(.name, 'en');
+        property name_en := get_text(.name, 'en');
+        property name_et := get_text(.name, 'et');
     }
 }
