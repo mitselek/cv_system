@@ -2,96 +2,105 @@
  * Achievement Service - CRUD operations for Achievement entity
  */
 import { EdgeDBClient } from '../edgedb.js';
-
-export interface TagReference {
-  name: string;
-  category: string;
-}
+import { Translation, TagReference, VerificationStatus } from '../types.js';
 
 export interface AchievementInput {
-  title: string;
-  date: string;
-  description?: string;
+  external_id: string;
+  title: Translation;
+  date: string; // IsoDate format
+  article?: Translation;
+  verification_status?: VerificationStatus;
+  last_verified: string; // IsoDate format
   tags: TagReference[];
+  parent_experience?: string; // Experience external_id
 }
 
-export interface Achievement extends AchievementInput {
+export interface Achievement extends Omit<AchievementInput, 'tags' | 'parent_experience'> {
   id: string;
+  tags: TagReference[];
+  parent_experience?: string;
   created: string;
 }
 
 export interface AchievementSearchFilters {
   tags?: TagReference[];
-  dateRange?: {
-    start?: string;  // ISO date
-    end?: string;    // ISO date
-  };
+  dateRange?: { start?: string; end?: string };
 }
 
 export class AchievementService {
   constructor(private client: EdgeDBClient) {}
 
   /**
-   * Add new achievement with date parsing
+   * Add new achievement
    */
   async addAchievement(input: AchievementInput): Promise<Achievement> {
+    if (!input.title.et && !input.title.en) {
+      throw new Error('Achievement title must have at least one language (et or en)');
+    }
+
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Achievement {
-          title := <str>$title,
-          date := <str>$date,
-          description := <str>$description,
+          external_id := <str>$external_id,
+          title := <Translation>to_json($title),
+          date := <IsoDate>$date,
+          article := <Translation>to_json($article),
+          verification_status := <VerificationStatus>$verification_status,
+          last_verified := <IsoDate>$last_verified,
           tags := DISTINCT (
             FOR tag_ref IN tag_refs UNION (
               SELECT Tag 
               FILTER .name = tag_ref.name AND .category = tag_ref.category
             )
+          ),
+          parent_experience := (
+            SELECT Experience FILTER .external_id = <optional str>$parent_experience_id LIMIT 1
           )
         }
       ) {
         id,
+        external_id,
         title,
         date,
-        description,
-        tags: { name, category },
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
+        parent_experience: { external_id },
         created
       }
     `;
 
-    const data = await this.client.querySingle<any>(query, {
-      title: input.title,
+    const result = await this.client.querySingle<any>(query, {
+      external_id: input.external_id,
+      title: JSON.stringify(input.title),
       date: input.date,
-      description: input.description || '',
-      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
+      article: input.article ? JSON.stringify(input.article) : JSON.stringify({}),
+      verification_status: input.verification_status || VerificationStatus.Draft,
+      last_verified: input.last_verified,
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),
+      parent_experience_id: input.parent_experience || null
     });
 
-    if (!data) {
-      throw new Error('Failed to create achievement');
-    }
-
-    return {
-      ...data,
-      created: data.created.toISOString(),
-      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
-    };
+    return this.formatAchievement(result);
   }
 
   /**
    * Get achievement by ID
    */
   async getAchievement(id: string): Promise<Achievement | null> {
-    // Validate UUID format
-    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
-      return null;
-    }
     const query = `
       SELECT Achievement {
         id,
+        external_id,
         title,
         date,
-        description,
-        tags: { name, category },
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
+        parent_experience: { external_id },
         created
       }
       FILTER .id = <uuid>$id
@@ -100,71 +109,7 @@ export class AchievementService {
     const result = await this.client.querySingle<any>(query, { id });
     if (!result) return null;
 
-    return {
-      ...result,
-      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      created: result.created.toISOString()
-    };
-  }
-
-  /**
-   * Update achievement fields
-   */
-  async updateAchievement(
-    id: string,
-    updates: Partial<Omit<AchievementInput, 'tags'>>
-  ): Promise<Achievement> {
-    const setClauses: string[] = [];
-    const params: Record<string, any> = { id };
-
-    if (updates.title !== undefined) {
-      setClauses.push('title := <str>$title');
-      params.title = updates.title;
-    }
-
-    if (updates.date !== undefined) {
-      setClauses.push('date := <str>$date');
-      params.date = updates.date;
-    }
-
-    if (updates.description !== undefined) {
-      setClauses.push('description := <str>$description');
-      params.description = updates.description;
-    }
-
-    if (setClauses.length === 0) {
-      const current = await this.getAchievement(id);
-      if (!current) throw new Error('Achievement not found');
-      return current;
-    }
-
-    const query = `
-      SELECT (
-        UPDATE Achievement
-        FILTER .id = <uuid>$id
-        SET {
-          ${setClauses.join(',')}
-        }
-      ) {
-        id,
-        title,
-        date,
-        description,
-        tags: { name, category },
-        created
-      }
-    `;
-
-    const result = await this.client.querySingle<any>(query, params);
-    if (!result) {
-      throw new Error('Failed to update achievement');
-    }
-
-    return {
-      ...result,
-      created: result.created.toISOString(),
-      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
-    };
+    return this.formatAchievement(result);
   }
 
   /**
@@ -174,7 +119,7 @@ export class AchievementService {
     const conditions: string[] = [];
     const params: Record<string, any> = {};
 
-    // Filter by tags (AND logic - achievement must have ALL specified tags)
+    // Filter by tags
     if (filters.tags && filters.tags.length > 0) {
       params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
       conditions.push(`
@@ -194,11 +139,11 @@ export class AchievementService {
     if (filters.dateRange) {
       if (filters.dateRange.start) {
         params.range_start = filters.dateRange.start;
-        conditions.push('.date >= <str>$range_start');
+        conditions.push('.date >= <IsoDate>$range_start');
       }
       if (filters.dateRange.end) {
         params.range_end = filters.dateRange.end;
-        conditions.push('.date <= <str>$range_end');
+        conditions.push('.date <= <IsoDate>$range_end');
       }
     }
 
@@ -206,7 +151,6 @@ export class AchievementService {
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
 
-    // Build WITH clause if we have tags
     const withClause = filters.tags && filters.tags.length > 0
       ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
       : '';
@@ -215,28 +159,42 @@ export class AchievementService {
       ${withClause}
       SELECT Achievement {
         id,
+        external_id,
         title,
         date,
-        description,
+        article,
+        verification_status,
+        last_verified,
         tags: { name, category } ORDER BY .name,
+        parent_experience: { external_id },
         created
       }
       ${whereClause}
-      ORDER BY .date DESC THEN .title ASC
+      ORDER BY .date DESC THEN .external_id ASC
     `;
 
-    // Only pass params if we actually have any
     const results = Object.keys(params).length > 0
       ? await this.client.query<any>(query, params)
       : await this.client.query<any>(query);
 
-    return results.map((r: any) => ({
-      id: r.id,
-      title: r.title,
-      date: r.date,
-      description: r.description || '',
-      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      created: r.created.toISOString()
-    }));
+    return results.map(r => this.formatAchievement(r));
+  }
+
+  /**
+   * Format achievement result from EdgeDB
+   */
+  private formatAchievement(result: any): Achievement {
+    return {
+      id: result.id,
+      external_id: result.external_id,
+      title: result.title as Translation,
+      date: result.date,
+      article: result.article as Translation || {},
+      verification_status: result.verification_status,
+      last_verified: result.last_verified,
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
+      parent_experience: result.parent_experience?.external_id,
+      created: result.created.toISOString()
+    };
   }
 }
