@@ -38,13 +38,13 @@ export class AchievementService {
       throw new Error('Achievement title must have at least one language (et or en)');
     }
 
-    const articleClause = input.article ? 'article := <Translation><json>$article,' : '';
+    const articleClause = input.article ? 'article := <Translation>$article,' : '';
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Achievement {
           external_id := <str>$external_id,
-          title := <Translation><json>$title,
+          title := <Translation>$title,
           date := <IsoDate>$date,
           ${articleClause}
           verification_status := <VerificationStatus>$verification_status,
@@ -64,7 +64,7 @@ export class AchievementService {
         external_id,
         title,
         date,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -75,9 +75,9 @@ export class AchievementService {
 
     const result = await this.client.querySingle<any>(query, {
       external_id: input.external_id,
-      title: JSON.stringify(input.title),
+      title: input.title,
       date: input.date,
-      ...(input.article && { article: JSON.stringify(input.article) }),
+      ...(input.article && { article: input.article }),
       verification_status: input.verification_status || VerificationStatus.Draft,
       last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),
@@ -97,7 +97,7 @@ export class AchievementService {
         external_id,
         title,
         date,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -163,7 +163,7 @@ export class AchievementService {
         external_id,
         title,
         date,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,

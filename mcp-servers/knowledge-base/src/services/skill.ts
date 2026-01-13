@@ -44,13 +44,13 @@ export class SkillService {
       throw new Error('Skill name must have at least one language (et or en)');
     }
 
-    const articleClause = input.article ? 'article := <Translation><json>$article,' : '';
+    const articleClause = input.article ? 'article := <Translation>$article,' : '';
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Skill {
           external_id := <str>$external_id,
-          name := <Translation><json>$name,
+          name := <Translation>$name,
           category := <SkillCategory>$category,
           level := <int16>$level,
           level_display := <str>$level_display,
@@ -71,7 +71,7 @@ export class SkillService {
         category,
         level,
         level_display,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -79,17 +79,19 @@ export class SkillService {
       }
     `;
 
-    const result = await this.client.querySingle<any>(query, {
+    const params = {
       external_id: input.external_id,
-      name: JSON.stringify(input.name),
+      name: input.name,
       category: input.category,
       level: input.level,
       level_display: input.level_display || `${input.level}/10`,
-      ...(input.article && { article: JSON.stringify(input.article) }),
+      ...(input.article && { article: input.article }),
       verification_status: input.verification_status || VerificationStatus.Draft,
       last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
-    });
+    };
+
+    const result = await this.client.querySingle<any>(query, params);
 
     return this.formatSkill(result);
   }
@@ -106,7 +108,7 @@ export class SkillService {
         category,
         level,
         level_display,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -142,8 +144,8 @@ export class SkillService {
     const params: Record<string, any> = { id };
 
     if (updates.name !== undefined) {
-      setClauses.push('name := <Translation>to_json($name)');
-      params.name = JSON.stringify(updates.name);
+      setClauses.push('name := <Translation>$name');
+      params.name = updates.name;
     }
 
     if (updates.category !== undefined) {
@@ -162,8 +164,8 @@ export class SkillService {
     }
 
     if (updates.article !== undefined) {
-      setClauses.push('article := <Translation>to_json($article)');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <Translation>$article');
+      params.article = updates.article;
     }
 
     if (updates.verification_status !== undefined) {
@@ -194,7 +196,7 @@ export class SkillService {
         category,
         level,
         level_display,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -259,7 +261,7 @@ export class SkillService {
         category,
         level,
         level_display,
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,

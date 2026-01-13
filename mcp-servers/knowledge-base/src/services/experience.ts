@@ -46,15 +46,15 @@ export class ExperienceService {
       throw new Error('Experience company must have at least one language (et or en)');
     }
 
-    const articleClause = input.article ? 'article := <Translation><json>$article,' : '';
+    const articleClause = input.article ? 'article := <Translation>$article,' : '';
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs),
            skill_ids := array_unpack(<array<str>>$skill_ids)
       SELECT (
         INSERT Experience {
           external_id := <str>$external_id,
-          title := <Translation><json>$title,
-          company := <Translation><json>$company,
+          title := <Translation>$title,
+          company := <Translation>$company,
           url := <optional HttpUrl>$url,
           dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end),
           ${articleClause}
@@ -79,7 +79,7 @@ export class ExperienceService {
         company,
         url,
         dates: { start, end },
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -90,8 +90,8 @@ export class ExperienceService {
 
     const result = await this.client.querySingle<any>(query, {
       external_id: input.external_id,
-      title: JSON.stringify(input.title),
-      company: JSON.stringify(input.company),
+      title: input.title,
+      company: input.company,
       url: input.url || null,
       date_start: input.dates.start,
       date_end: input.dates.end,
@@ -117,7 +117,7 @@ export class ExperienceService {
         company,
         url,
         dates: { start, end },
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -152,13 +152,13 @@ export class ExperienceService {
     const params: Record<string, any> = { id };
 
     if (updates.title !== undefined) {
-      setClauses.push('title := <Translation>to_json($title)');
-      params.title = JSON.stringify(updates.title);
+      setClauses.push('title := <Translation>$title');
+      params.title = updates.title;
     }
 
     if (updates.company !== undefined) {
-      setClauses.push('company := <Translation>to_json($company)');
-      params.company = JSON.stringify(updates.company);
+      setClauses.push('company := <Translation>$company');
+      params.company = updates.company;
     }
 
     if (updates.url !== undefined) {
@@ -173,8 +173,8 @@ export class ExperienceService {
     }
 
     if (updates.article !== undefined) {
-      setClauses.push('article := <Translation>to_json($article)');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <Translation>$article');
+      params.article = updates.article;
     }
 
     if (updates.verification_status !== undefined) {
@@ -205,7 +205,7 @@ export class ExperienceService {
         company,
         url,
         dates: { start, end },
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
@@ -280,7 +280,7 @@ export class ExperienceService {
         company,
         url,
         dates: { start, end },
-        article,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
         tags: { name, category } ORDER BY .name,
