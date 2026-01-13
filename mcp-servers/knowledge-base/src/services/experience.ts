@@ -2,34 +2,33 @@
  * Experience Service - CRUD operations for Experience entity
  */
 import { EdgeDBClient } from '../edgedb.js';
-
-export interface TagReference {
-  name: string;
-  category: string;
-}
+import { Translation, TagReference, VerificationStatus } from '../types.js';
 
 export interface ExperienceInput {
-  title: string;
-  organization: string;
-  startDate: string;
-  endDate?: string;
-  description?: string;
+  external_id: string;
+  title: Translation;
+  company: Translation;
+  url?: string;
+  dates: { start: string; end: string }; // IsoDate format
+  article?: Translation;
+  verification_status?: VerificationStatus;
+  last_verified: string; // IsoDate format
   tags: TagReference[];
-  language: 'en' | 'et';
+  skills_demonstrated?: string[]; // Skill external_ids
 }
 
-export interface Experience extends ExperienceInput {
+export interface Experience extends Omit<ExperienceInput, 'tags' | 'skills_demonstrated'> {
   id: string;
+  tags: TagReference[];
+  skills_demonstrated: string[];
   created: string;
 }
 
 export interface ExperienceSearchFilters {
   tags?: TagReference[];
-  organization?: string;
-  dateRange?: {
-    start?: string;
-    end?: string;
-  };
+  company?: string;
+  organization?: string; // Alias for company
+  dateRange?: { start?: string; end?: string };
 }
 
 export class ExperienceService {
@@ -39,81 +38,89 @@ export class ExperienceService {
    * Add new experience
    */
   async addExperience(input: ExperienceInput): Promise<Experience> {
+    if (!input.title.et && !input.title.en) {
+      throw new Error('Experience title must have at least one language (et or en)');
+    }
+
+    if (!input.company.et && !input.company.en) {
+      throw new Error('Experience company must have at least one language (et or en)');
+    }
+
     const query = `
-      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs),
+           skill_ids := array_unpack(<array<str>>$skill_ids)
       SELECT (
         INSERT Experience {
-          title := <str>$title,
-          organization := <str>$organization,
-          start_date := <str>$start_date,
-          end_date := <OPTIONAL str>$end_date,
-          description_en := <OPTIONAL str>$description_en,
-          description_et := <OPTIONAL str>$description_et,
+          external_id := <str>$external_id,
+          title := <Translation>to_json($title),
+          company := <Translation>to_json($company),
+          url := <optional HttpUrl>$url,
+          dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end),
+          article := <Translation>to_json($article),
+          verification_status := <VerificationStatus>$verification_status,
+          last_verified := <IsoDate>$last_verified,
           tags := DISTINCT (
             FOR tag_ref IN tag_refs UNION (
               SELECT Tag 
               FILTER .name = tag_ref.name AND .category = tag_ref.category
             )
+          ),
+          skills_demonstrated := (
+            FOR skill_id IN skill_ids UNION (
+              SELECT Skill FILTER .external_id = skill_id
+            )
           )
         }
       ) {
         id,
+        external_id,
         title,
-        organization,
-        start_date,
-        end_date,
-        description_en,
-        description_et,
+        company,
+        url,
+        dates: { start, end },
+        article,
+        verification_status,
+        last_verified,
         tags: { name, category } ORDER BY .name,
+        skills_demonstrated: { external_id } ORDER BY .external_id,
         created
       }
     `;
 
-    const data = await this.client.querySingle<any>(query, {
-      title: input.title,
-      organization: input.organization,
-      start_date: input.startDate,
-      end_date: input.endDate || null,
-      description_en: input.language === 'en' ? input.description : null,
-      description_et: input.language === 'et' ? input.description : null,
-      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
+    const result = await this.client.querySingle<any>(query, {
+      external_id: input.external_id,
+      title: JSON.stringify(input.title),
+      company: JSON.stringify(input.company),
+      url: input.url || null,
+      date_start: input.dates.start,
+      date_end: input.dates.end,
+      article: input.article ? JSON.stringify(input.article) : JSON.stringify({}),
+      verification_status: input.verification_status || VerificationStatus.Draft,
+      last_verified: input.last_verified,
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),
+      skill_ids: input.skills_demonstrated || []
     });
 
-    if (!data) {
-      throw new Error('Failed to create experience');
-    }
-
-    return {
-      id: data.id,
-      title: data.title,
-      organization: data.organization,
-      startDate: data.start_date,
-      endDate: data.end_date,
-      description: input.description || '',
-      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      language: input.language,
-      created: data.created.toISOString()
-    };
+    return this.formatExperience(result);
   }
 
   /**
    * Get experience by ID
    */
   async getExperience(id: string): Promise<Experience | null> {
-    // Validate UUID format
-    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
-      return null;
-    }
     const query = `
       SELECT Experience {
         id,
+        external_id,
         title,
-        organization,
-        start_date,
-        end_date,
-        description_en,
-        description_et,
-        tags: { name },
+        company,
+        url,
+        dates: { start, end },
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
+        skills_demonstrated: { external_id } ORDER BY .external_id,
         created
       }
       FILTER .id = <uuid>$id
@@ -122,17 +129,7 @@ export class ExperienceService {
     const result = await this.client.querySingle<any>(query, { id });
     if (!result) return null;
 
-    return {
-      id: result.id,
-      title: result.title,
-      organization: result.organization,
-      startDate: result.start_date,
-      endDate: result.end_date,
-      description: result.description_en || result.description_et || '',
-      tags: result.tags?.map((t: any) => t.name) || [],
-      language: result.description_en ? 'en' : 'et',
-      created: result.created.toISOString()
-    };
+    return this.formatExperience(result);
   }
 
   /**
@@ -140,41 +137,57 @@ export class ExperienceService {
    */
   async updateExperience(
     id: string,
-    updates: Partial<Omit<ExperienceInput, 'tags' | 'language'>>
+    updates: Partial<Omit<ExperienceInput, 'external_id' | 'tags' | 'skills_demonstrated'>>
   ): Promise<Experience> {
+    if (updates.title && !updates.title.et && !updates.title.en) {
+      throw new Error('Experience title must have at least one language (et or en)');
+    }
+
+    if (updates.company && !updates.company.et && !updates.company.en) {
+      throw new Error('Experience company must have at least one language (et or en)');
+    }
+
     const setClauses: string[] = [];
     const params: Record<string, any> = { id };
 
     if (updates.title !== undefined) {
-      setClauses.push('title := <str>$title');
-      params.title = updates.title;
+      setClauses.push('title := <Translation>to_json($title)');
+      params.title = JSON.stringify(updates.title);
     }
 
-    if (updates.organization !== undefined) {
-      setClauses.push('organization := <str>$organization');
-      params.organization = updates.organization;
+    if (updates.company !== undefined) {
+      setClauses.push('company := <Translation>to_json($company)');
+      params.company = JSON.stringify(updates.company);
     }
 
-    if (updates.startDate !== undefined) {
-      setClauses.push('start_date := <str>$start_date');
-      params.start_date = updates.startDate;
+    if (updates.url !== undefined) {
+      setClauses.push('url := <optional HttpUrl>$url');
+      params.url = updates.url || null;
     }
 
-    if (updates.endDate !== undefined) {
-      setClauses.push('end_date := <str>$end_date');
-      params.end_date = updates.endDate;
+    if (updates.dates !== undefined) {
+      setClauses.push('dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end)');
+      params.date_start = updates.dates.start;
+      params.date_end = updates.dates.end;
     }
 
-    if (updates.description !== undefined) {
-      setClauses.push('description_en := <str>$description');
-      params.description = updates.description;
+    if (updates.article !== undefined) {
+      setClauses.push('article := <Translation>to_json($article)');
+      params.article = JSON.stringify(updates.article);
+    }
+
+    if (updates.verification_status !== undefined) {
+      setClauses.push('verification_status := <VerificationStatus>$verification_status');
+      params.verification_status = updates.verification_status;
+    }
+
+    if (updates.last_verified !== undefined) {
+      setClauses.push('last_verified := <IsoDate>$last_verified');
+      params.last_verified = updates.last_verified;
     }
 
     if (setClauses.length === 0) {
-      // No updates, return current
-      const current = await this.getExperience(id);
-      if (!current) throw new Error('Experience not found');
-      return current;
+      throw new Error('No fields to update');
     }
 
     const query = `
@@ -182,38 +195,26 @@ export class ExperienceService {
         UPDATE Experience
         FILTER .id = <uuid>$id
         SET {
-          ${setClauses.join(',')}
+          ${setClauses.join(',\n          ')}
         }
       ) {
         id,
+        external_id,
         title,
-        organization,
-        start_date,
-        end_date,
-        description_en,
-        description_et,
-        tags: { name },
+        company,
+        url,
+        dates: { start, end },
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
+        skills_demonstrated: { external_id } ORDER BY .external_id,
         created
       }
     `;
 
     const result = await this.client.querySingle<any>(query, params);
-    if (!result) {
-      throw new Error('Failed to update experience');
-    }
-
-    // Transform DB response to Experience interface
-    return {
-      id: result.id,
-      title: result.title,
-      organization: result.organization,
-      startDate: result.start_date,
-      endDate: result.end_date,
-      description: result.description_en || result.description_et || '',
-      tags: result.tags?.map((t: any) => t.name) || [],
-      language: result.description_en ? 'en' : 'et',
-      created: result.created.toISOString()
-    };
+    return this.formatExperience(result);
   }
 
   /**
@@ -223,47 +224,48 @@ export class ExperienceService {
     const conditions: string[] = [];
     const params: Record<string, any> = {};
 
-    // Filter by tags (AND logic - experience must have ALL specified tags)
+    // Filter by tags
     if (filters.tags && filters.tags.length > 0) {
       params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
-      // Count how many of the requested tag references match this experience's tags
-      // Must equal the number of requested tags (AND logic)
-      conditions.push(`count((
-        FOR tag_ref IN tag_refs 
-        UNION (
-          SELECT Tag 
-          FILTER .name = tag_ref.name 
-            AND .category = tag_ref.category 
-            AND Tag IN Experience.tags
-        )
-      )) = len(<array<tuple<name: str, category: str>>>$tag_refs)`);
+      conditions.push(`
+        count((
+          FOR tag_ref IN tag_refs 
+          UNION (
+            SELECT Tag 
+            FILTER .name = tag_ref.name 
+              AND .category = tag_ref.category 
+              AND Tag IN Experience.tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
+      `);
     }
 
-    // Filter by organization
-    if (filters.organization) {
-      params.organization = filters.organization;
-      conditions.push('.organization = <str>$organization');
+    // Filter by company (fuzzy match on English or Estonian)
+    const companySearch = filters.company || filters.organization;
+    if (companySearch !== undefined) {
+      params.company_search = companySearch.toLowerCase();
+      conditions.push(`(
+        str_lower(<str>json_get(.company, 'en') ?? '') LIKE '%' ++ <str>$company_search ++ '%'
+        OR str_lower(<str>json_get(.company, 'et') ?? '') LIKE '%' ++ <str>$company_search ++ '%'
+      )`);
     }
 
-    // Filter by date range (overlap check)
+    // Filter by date range (overlapping)
     if (filters.dateRange) {
-      // Handle optional start and end
-      if (filters.dateRange.end) {
-        params.range_end = filters.dateRange.end;
-        conditions.push('.start_date <= <str>$range_end');
-      }
       if (filters.dateRange.start) {
         params.range_start = filters.dateRange.start;
-        // Use ?? to coalesce the OR result, defaulting to checking if end_date doesn't exist
-        conditions.push('((.end_date >= <str>$range_start) ?? (NOT EXISTS .end_date))');
+        conditions.push('.dates.end >= <IsoDate>$range_start');
+      }
+      if (filters.dateRange.end) {
+        params.range_end = filters.dateRange.end;
+        conditions.push('.dates.start <= <IsoDate>$range_end');
       }
     }
 
-    const whereClause = conditions.length > 0 
+    const whereClause = conditions.length > 0
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
 
-    // Build WITH clause if we have tags
     const withClause = filters.tags && filters.tags.length > 0
       ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
       : '';
@@ -272,34 +274,49 @@ export class ExperienceService {
       ${withClause}
       SELECT Experience {
         id,
+        external_id,
         title,
-        organization,
-        start_date,
-        end_date,
-        description_en,
-        description_et,
+        company,
+        url,
+        dates: { start, end },
+        article,
+        verification_status,
+        last_verified,
         tags: { name, category } ORDER BY .name,
+        skills_demonstrated: { external_id } ORDER BY .external_id,
         created
       }
       ${whereClause}
-      ORDER BY .start_date DESC
+      ORDER BY .dates.start DESC THEN .external_id ASC
     `;
 
-    // Only pass params if we actually have any
     const results = Object.keys(params).length > 0
       ? await this.client.query<any>(query, params)
       : await this.client.query<any>(query);
 
-    return results.map((r: any) => ({
-      id: r.id,
-      title: r.title,
-      organization: r.organization,
-      startDate: r.start_date,
-      endDate: r.end_date,
-      description: r.description_en || r.description_et || '',
-      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      language: r.description_en ? 'en' as const : 'et' as const,
-      created: r.created.toISOString()
-    }));
+    return results.map(r => this.formatExperience(r));
+  }
+
+  /**
+   * Format experience result from EdgeDB
+   */
+  private formatExperience(result: any): Experience {
+    return {
+      id: result.id,
+      external_id: result.external_id,
+      title: result.title as Translation,
+      company: result.company as Translation,
+      url: result.url,
+      dates: {
+        start: result.dates.start,
+        end: result.dates.end
+      },
+      article: result.article as Translation || {},
+      verification_status: result.verification_status,
+      last_verified: result.last_verified,
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
+      skills_demonstrated: result.skills_demonstrated?.map((s: any) => s.external_id) || [],
+      created: result.created.toISOString()
+    };
   }
 }
