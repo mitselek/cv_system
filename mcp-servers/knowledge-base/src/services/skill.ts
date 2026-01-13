@@ -2,28 +2,30 @@
  * Skill Service - CRUD operations for Skill entity
  */
 import { EdgeDBClient } from '../edgedb.js';
-
-export interface TagReference {
-  name: string;
-  category: string;
-}
+import { Translation, TagReference, SkillCategory, VerificationStatus } from '../types.js';
 
 export interface SkillInput {
-  name: string;
+  external_id: string;
+  name: Translation;
+  category: SkillCategory;
   level: number; // 1-10
-  description?: string;
-  evidenceRefs?: string[];
+  level_display?: string;
+  article?: Translation;
+  verification_status?: VerificationStatus;
+  last_verified: string; // IsoDate format
   tags: TagReference[];
 }
 
-export interface Skill extends SkillInput {
+export interface Skill extends Omit<SkillInput, 'tags'> {
   id: string;
+  tags: TagReference[];
   created: string;
 }
 
 export interface SkillSearchFilters {
   tags?: TagReference[];
   levelMin?: number;
+  category?: SkillCategory;
 }
 
 export class SkillService {
@@ -37,14 +39,23 @@ export class SkillService {
       throw new Error('Skill level must be between 1 and 10');
     }
 
+    // Validate Translation has at least one language
+    if (!input.name.et && !input.name.en) {
+      throw new Error('Skill name must have at least one language (et or en)');
+    }
+
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Skill {
-          name := <str>$name,
+          external_id := <str>$external_id,
+          name := <Translation>to_json($name),
+          category := <SkillCategory>$category,
           level := <int16>$level,
-          description := <str>$description,
-          evidence_refs := <array<str>>$evidence_refs,
+          level_display := <str>$level_display,
+          article := <Translation>to_json($article),
+          verification_status := <VerificationStatus>$verification_status,
+          last_verified := <IsoDate>$last_verified,
           tags := DISTINCT (
             FOR tag_ref IN tag_refs UNION (
               SELECT Tag 
@@ -54,50 +65,50 @@ export class SkillService {
         }
       ) {
         id,
+        external_id,
         name,
+        category,
         level,
-        description,
-        evidence_refs,
-        tags: { name, category },
+        level_display,
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
         created
       }
     `;
 
-    const data = await this.client.querySingle<any>(query, {
-      name: input.name,
+    const result = await this.client.querySingle<any>(query, {
+      external_id: input.external_id,
+      name: JSON.stringify(input.name),
+      category: input.category,
       level: input.level,
-      description: input.description || '',
-      evidence_refs: input.evidenceRefs || [],
+      level_display: input.level_display || `${input.level}/10`,
+      article: input.article ? JSON.stringify(input.article) : JSON.stringify({}),
+      verification_status: input.verification_status || VerificationStatus.Draft,
+      last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
     });
 
-    if (!data) {
-      throw new Error('Failed to create skill');
-    }
-
-    return {
-      ...data,
-      created: data.created.toISOString(),
-      tags: data.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
-    };
+    return this.formatSkill(result);
   }
 
   /**
    * Get skill by ID
    */
   async getSkill(id: string): Promise<Skill | null> {
-    // Validate UUID format
-    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
-      return null;
-    }
     const query = `
       SELECT Skill {
         id,
+        external_id,
         name,
+        category,
         level,
-        description,
-        evidence_refs,
-        tags: { name, category },
+        level_display,
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
         created
       }
       FILTER .id = <uuid>$id
@@ -106,11 +117,7 @@ export class SkillService {
     const result = await this.client.querySingle<any>(query, { id });
     if (!result) return null;
 
-    return {
-      ...result,
-      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      created: result.created.toISOString()
-    };
+    return this.formatSkill(result);
   }
 
   /**
@@ -118,7 +125,7 @@ export class SkillService {
    */
   async updateSkill(
     id: string,
-    updates: Partial<Omit<SkillInput, 'tags'>>
+    updates: Partial<Omit<SkillInput, 'external_id' | 'tags'>>
   ): Promise<Skill> {
     if (updates.level !== undefined) {
       if (updates.level < 1 || updates.level > 10) {
@@ -126,12 +133,21 @@ export class SkillService {
       }
     }
 
+    if (updates.name && !updates.name.et && !updates.name.en) {
+      throw new Error('Skill name must have at least one language (et or en)');
+    }
+
     const setClauses: string[] = [];
     const params: Record<string, any> = { id };
 
     if (updates.name !== undefined) {
-      setClauses.push('name := <str>$name');
-      params.name = updates.name;
+      setClauses.push('name := <Translation>to_json($name)');
+      params.name = JSON.stringify(updates.name);
+    }
+
+    if (updates.category !== undefined) {
+      setClauses.push('category := <SkillCategory>$category');
+      params.category = updates.category;
     }
 
     if (updates.level !== undefined) {
@@ -139,20 +155,28 @@ export class SkillService {
       params.level = updates.level;
     }
 
-    if (updates.description !== undefined) {
-      setClauses.push('description := <str>$description');
-      params.description = updates.description;
+    if (updates.level_display !== undefined) {
+      setClauses.push('level_display := <str>$level_display');
+      params.level_display = updates.level_display;
     }
 
-    if (updates.evidenceRefs !== undefined) {
-      setClauses.push('evidence_refs := <array<str>>$evidence_refs');
-      params.evidence_refs = updates.evidenceRefs;
+    if (updates.article !== undefined) {
+      setClauses.push('article := <Translation>to_json($article)');
+      params.article = JSON.stringify(updates.article);
+    }
+
+    if (updates.verification_status !== undefined) {
+      setClauses.push('verification_status := <VerificationStatus>$verification_status');
+      params.verification_status = updates.verification_status;
+    }
+
+    if (updates.last_verified !== undefined) {
+      setClauses.push('last_verified := <IsoDate>$last_verified');
+      params.last_verified = updates.last_verified;
     }
 
     if (setClauses.length === 0) {
-      const current = await this.getSkill(id);
-      if (!current) throw new Error('Skill not found');
-      return current;
+      throw new Error('No fields to update');
     }
 
     const query = `
@@ -160,29 +184,25 @@ export class SkillService {
         UPDATE Skill
         FILTER .id = <uuid>$id
         SET {
-          ${setClauses.join(',')}
+          ${setClauses.join(',\n          ')}
         }
       ) {
         id,
+        external_id,
         name,
+        category,
         level,
-        description,
-        evidence_refs,
-        tags: { name, category },
+        level_display,
+        article,
+        verification_status,
+        last_verified,
+        tags: { name, category } ORDER BY .name,
         created
       }
     `;
 
     const result = await this.client.querySingle<any>(query, params);
-    if (!result) {
-      throw new Error('Failed to update skill');
-    }
-
-    return {
-      ...result,
-      created: result.created.toISOString(),
-      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || []
-    };
+    return this.formatSkill(result);
   }
 
   /**
@@ -214,6 +234,12 @@ export class SkillService {
       conditions.push('.level >= <int16>$level_min');
     }
 
+    // Filter by category
+    if (filters.category !== undefined) {
+      params.category = filters.category;
+      conditions.push('.category = <SkillCategory>$category');
+    }
+
     const whereClause = conditions.length > 0
       ? `FILTER ${conditions.join(' AND ')}`
       : '';
@@ -227,15 +253,19 @@ export class SkillService {
       ${withClause}
       SELECT Skill {
         id,
+        external_id,
         name,
+        category,
         level,
-        description,
-        evidence_refs,
+        level_display,
+        article,
+        verification_status,
+        last_verified,
         tags: { name, category } ORDER BY .name,
         created
       }
       ${whereClause}
-      ORDER BY .level DESC THEN .name ASC
+      ORDER BY .level DESC THEN .external_id ASC
     `;
 
     // Only pass params if we actually have any
@@ -243,14 +273,25 @@ export class SkillService {
       ? await this.client.query<any>(query, params)
       : await this.client.query<any>(query);
 
-    return results.map((r: any) => ({
-      id: r.id,
-      name: r.name,
-      level: r.level,
-      description: r.description || '',
-      evidenceRefs: r.evidence_refs || [],
-      tags: r.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
-      created: r.created.toISOString()
-    }));
+    return results.map(r => this.formatSkill(r));
+  }
+
+  /**
+   * Format skill result from EdgeDB
+   */
+  private formatSkill(result: any): Skill {
+    return {
+      id: result.id,
+      external_id: result.external_id,
+      name: result.name as Translation,
+      category: result.category,
+      level: result.level,
+      level_display: result.level_display,
+      article: result.article as Translation || {},
+      verification_status: result.verification_status,
+      last_verified: result.last_verified,
+      tags: result.tags?.map((t: any) => ({ name: t.name, category: t.category })) || [],
+      created: result.created.toISOString()
+    };
   }
 }
