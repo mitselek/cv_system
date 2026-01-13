@@ -1039,7 +1039,42 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return ok(await experienceService.getExperience(params.id as string));
 
       case 'update_experience':
-        return ok(await experienceService.updateExperience(params.id as string, params as any));
+        {
+          const id = String(params.id ?? '').trim();
+          if (!id) throw new Error('id is required');
+
+          const updates: Record<string, unknown> = {};
+
+          if (params.title !== undefined) {
+            const title = String(params.title).trim();
+            if (!title) throw new Error('title cannot be empty');
+            updates.title = { en: title };
+          }
+
+          // Tool schema uses `organization`; service field is `company` (Translation)
+          if (params.organization !== undefined) {
+            const organization = String(params.organization).trim();
+            if (!organization) throw new Error('organization cannot be empty');
+            updates.company = { en: organization };
+          }
+
+          if (params.start_date !== undefined || params.end_date !== undefined) {
+            const startDate = String(params.start_date ?? '').trim();
+            const endDate = String(params.end_date ?? '').trim();
+            if (!startDate) throw new Error('start_date is required when updating dates');
+            if (!endDate) throw new Error('end_date is required when updating dates');
+            updates.dates = { start: startDate, end: endDate };
+          }
+
+          // Tool schema uses `description`; service field is `article` (Translation)
+          if (params.description !== undefined) {
+            const description = String(params.description).trim();
+            if (!description) throw new Error('description cannot be empty');
+            updates.article = { en: description };
+          }
+
+          return ok(await experienceService.updateExperience(id, updates as any));
+        }
 
       case 'add_skill':
         {
@@ -1071,7 +1106,34 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return ok(await skillService.getSkill(params.id as string));
 
       case 'update_skill':
-        return ok(await skillService.updateSkill(params.id as string, params as any));
+        {
+          const id = String(params.id ?? '').trim();
+          if (!id) throw new Error('id is required');
+
+          const updates: Record<string, unknown> = {};
+
+          if (params.name !== undefined) {
+            const name = String(params.name).trim();
+            if (!name) throw new Error('name cannot be empty');
+            updates.name = { en: name };
+          }
+
+          if (params.level !== undefined) {
+            const level = Number(params.level);
+            if (!Number.isFinite(level)) throw new Error('level must be a number');
+            updates.level = level;
+          }
+
+          // Tool schema uses `description`; service field is `article` (Translation)
+          if (params.description !== undefined) {
+            const description = String(params.description).trim();
+            if (!description) throw new Error('description cannot be empty');
+            updates.article = { en: description };
+          }
+
+          // evidence_refs is not currently modeled in the EdgeDB Skill type; ignore safely
+          return ok(await skillService.updateSkill(id, updates as any));
+        }
 
       case 'add_achievement':
         {
