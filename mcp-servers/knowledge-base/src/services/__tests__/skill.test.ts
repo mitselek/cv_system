@@ -2,18 +2,35 @@ import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { EdgeDBClient } from '../../edgedb.js';
 import { SkillService } from '../skill.js';
 import { SkillCategory } from '../../types.js';
+import { TagService } from '../tag.js';
 
 describe('Skill CRUD', () => {
   let client: EdgeDBClient;
   let service: SkillService;
+  let tagService: TagService;
+  const PREFIX = 'vitest-skill-crud';
 
   beforeAll(async () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new SkillService(client);
-    // Delete in correct order to respect referential integrity
-    await client.query('DELETE KnowledgeBaseLanguage');
-    await client.query('DELETE Skill');
+    tagService = new TagService(client);
+
+    // Scoped cleanup (never wipe shared DB state)
+    await client.query(
+      `DELETE Skill FILTER .external_id LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+    await client.query(
+      `DELETE Tag FILTER .name LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+
+    // Seed tags used in this suite
+    await tagService.addTag(`${PREFIX}-languages`, 'languages');
+    await tagService.addTag(`${PREFIX}-backend`, 'skills');
+    await tagService.addTag(`${PREFIX}-frontend`, 'skills');
+    await tagService.addTag(`${PREFIX}-devops`, 'skills');
   });
 
   afterAll(async () => {
@@ -22,15 +39,15 @@ describe('Skill CRUD', () => {
 
   it('should create a skill with level validation', async () => {
     const result = await service.addSkill({
-      external_id: 'test-skill-python',
+      external_id: `${PREFIX}-python`,
       name: { en: 'Python' },
       category: SkillCategory.ProgrammingLanguage,
       level: 9,
       article: { en: 'Expert-level Python programming' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'languages', category: 'languages' },
-        { name: 'backend', category: 'skills' }
+        { name: `${PREFIX}-languages`, category: 'languages' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
 
@@ -44,7 +61,7 @@ describe('Skill CRUD', () => {
   it('should reject invalid level values', async () => {
     await expect(
       service.addSkill({
-        external_id: 'test-skill-invalid',
+        external_id: `${PREFIX}-invalid`,
         name: { en: 'JavaScript' },
         category: SkillCategory.ProgrammingLanguage,
         level: 11, // Invalid
@@ -56,15 +73,15 @@ describe('Skill CRUD', () => {
 
   it('should retrieve skill by ID', async () => {
     const created = await service.addSkill({
-      external_id: 'test-skill-ts',
+      external_id: `${PREFIX}-ts`,
       name: { en: 'TypeScript' },
       category: SkillCategory.ProgrammingLanguage,
       level: 8,
       article: { en: 'Strong TypeScript skills' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'languages', category: 'languages' },
-        { name: 'frontend', category: 'skills' }
+        { name: `${PREFIX}-languages`, category: 'languages' },
+        { name: `${PREFIX}-frontend`, category: 'skills' }
       ]
     });
 
@@ -75,13 +92,13 @@ describe('Skill CRUD', () => {
 
   it('should update skill fields', async () => {
     const created = await service.addSkill({
-      external_id: 'test-skill-docker',
+      external_id: `${PREFIX}-docker`,
       name: { en: 'Docker' },
       category: SkillCategory.DevOps,
       level: 7,
       article: { en: 'Working knowledge' },
       last_verified: '2024-01-01',
-      tags: [{ name: 'devops', category: 'skills' }]
+      tags: [{ name: `${PREFIX}-devops`, category: 'skills' }]
     });
 
     const updated = await service.updateSkill(created.id, {
@@ -93,27 +110,27 @@ describe('Skill CRUD', () => {
     expect(updated.article?.en).toBe('Advanced Docker experience');
   });
 
-  it('should enforce unique skill names', async () => {
+  it('should enforce unique skill external_id', async () => {
     await service.addSkill({
-      external_id: 'test-skill-k8s',
+      external_id: `${PREFIX}-k8s`,
       name: { en: 'Kubernetes' },
       category: SkillCategory.DevOps,
       level: 5,
       article: { en: 'Basic knowledge' },
       last_verified: '2024-01-01',
-      tags: [{ name: 'devops', category: 'skills' }]
+      tags: [{ name: `${PREFIX}-devops`, category: 'skills' }]
     });
 
     // Attempt to create duplicate
     await expect(
       service.addSkill({
-        external_id: 'test-skill-k8s-dup',
-        name: { en: 'Kubernetes' },
+        external_id: `${PREFIX}-k8s`,
+        name: { en: 'Kubernetes (duplicate external_id)' },
         category: SkillCategory.DevOps,
         level: 6,
         article: { en: 'Different description' },
         last_verified: '2024-01-01',
-        tags: [{ name: 'devops', category: 'skills' }]
+        tags: [{ name: `${PREFIX}-devops`, category: 'skills' }]
       })
     ).rejects.toThrow();
   });
@@ -122,71 +139,75 @@ describe('Skill CRUD', () => {
 describe('Skill Search', () => {
   let client: EdgeDBClient;
   let service: SkillService;
+  let tagService: TagService;
   let skill1Id: string;
   let skill2Id: string;
   let skill3Id: string;
+  const PREFIX = 'vitest-skill-search';
 
   beforeAll(async () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new SkillService(client);
+    tagService = new TagService(client);
 
     console.log('EdgeDB connected:', await client.query('SELECT 1'));
 
-    // FULL cleanup - wipe everything for fresh test data in correct order
-    await client.query('DELETE KnowledgeBaseLanguage');
-    await client.query('DELETE Skill');
-    await client.query('DELETE Experience');
-    await client.query('DELETE Achievement');
-    await client.query('DELETE Tag');
-    
+    // Scoped cleanup
+    await client.query(
+      `DELETE Skill FILTER .external_id LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+    await client.query(
+      `DELETE Tag FILTER .name LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+
     // Create test tags
-    await client.query(`
-      INSERT Tag { name := 'search-nodejs', category := 'languages' } UNLESS CONFLICT;
-      INSERT Tag { name := 'search-python', category := 'languages' } UNLESS CONFLICT;
-      INSERT Tag { name := 'search-backend', category := 'skills' } UNLESS CONFLICT;
-      INSERT Tag { name := 'search-advanced', category := 'level' } UNLESS CONFLICT;
-    `);
+    await tagService.addTag(`${PREFIX}-nodejs`, 'languages');
+    await tagService.addTag(`${PREFIX}-python`, 'languages');
+    await tagService.addTag(`${PREFIX}-backend`, 'skills');
+    await tagService.addTag(`${PREFIX}-advanced`, 'level');
 
     // Create test skills
     const skill1 = await service.addSkill({
-      external_id: 'test-skill-nodejs',
+      external_id: `${PREFIX}-nodejs-backend`,
       name: { en: 'Node.js Backend' },
       category: SkillCategory.BackendDevelopment,
       level: 9,
       article: { en: 'Expert Node.js' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-nodejs', category: 'languages' },
-        { name: 'search-backend', category: 'skills' }
+        { name: `${PREFIX}-nodejs`, category: 'languages' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
     skill1Id = skill1.id;
 
     const skill2 = await service.addSkill({
-      external_id: 'test-skill-python',
+      external_id: `${PREFIX}-python-data`,
       name: { en: 'Python Data Processing' },
       category: SkillCategory.BackendDevelopment,
       level: 7,
       article: { en: 'Data pipelines' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-python', category: 'languages' },
-        { name: 'search-backend', category: 'skills' }
+        { name: `${PREFIX}-python`, category: 'languages' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
     skill2Id = skill2.id;
 
     const skill3 = await service.addSkill({
-      external_id: 'test-skill-fullstack',
+      external_id: `${PREFIX}-fullstack`,
       name: { en: 'Full Stack JS' },
       category: SkillCategory.Framework,
       level: 8,
       article: { en: 'Both frontend and backend' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-nodejs', category: 'languages' },
-        { name: 'search-advanced', category: 'level' }
+        { name: `${PREFIX}-nodejs`, category: 'languages' },
+        { name: `${PREFIX}-advanced`, category: 'level' }
       ]
     });
     skill3Id = skill3.id;
@@ -198,7 +219,7 @@ describe('Skill Search', () => {
 
   it('should search skills by single tag', async () => {
     const results = await service.searchSkills({ 
-      tags: [{ name: 'search-nodejs', category: 'languages' }] 
+      tags: [{ name: `${PREFIX}-nodejs`, category: 'languages' }] 
     });
 
     expect(results).toHaveLength(2);
@@ -209,8 +230,8 @@ describe('Skill Search', () => {
   it('should search skills by multiple tags (AND logic)', async () => {
     const results = await service.searchSkills({
       tags: [
-        { name: 'search-nodejs', category: 'languages' },
-        { name: 'search-backend', category: 'skills' }
+        { name: `${PREFIX}-nodejs`, category: 'languages' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
 
@@ -229,7 +250,7 @@ describe('Skill Search', () => {
 
   it('should combine tag and level filters', async () => {
     const results = await service.searchSkills({
-      tags: [{ name: 'search-backend', category: 'skills' }],
+      tags: [{ name: `${PREFIX}-backend`, category: 'skills' }],
       levelMin: 8
     });
 

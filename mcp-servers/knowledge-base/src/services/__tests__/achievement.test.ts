@@ -1,16 +1,32 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { EdgeDBClient } from '../../edgedb.js';
 import { AchievementService } from '../achievement.js';
+import { TagService } from '../tag.js';
 
 describe('Achievement CRUD', () => {
   let client: EdgeDBClient;
   let service: AchievementService;
+  let tagService: TagService;
+  const PREFIX = 'vitest-ach-crud';
 
   beforeAll(async () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new AchievementService(client);
-    await client.query('DELETE Achievement');
+    tagService = new TagService(client);
+
+    await client.query(
+      `DELETE Achievement FILTER .external_id LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+    await client.query(
+      `DELETE Tag FILTER .name LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+
+    await tagService.addTag(`${PREFIX}-leadership`, 'soft-skills');
+    await tagService.addTag(`${PREFIX}-backend`, 'skills');
+    await tagService.addTag(`${PREFIX}-hr`, 'soft-skills');
   });
 
   afterAll(async () => {
@@ -19,14 +35,14 @@ describe('Achievement CRUD', () => {
 
   it('should create achievement with date parsing', async () => {
     const result = await service.addAchievement({
-      external_id: 'test-ach-1',
+      external_id: `${PREFIX}-1`,
       title: { en: 'Led successful platform migration' },
       date: '2023-06-15',
       article: { en: 'Migrated 500+ users to new infrastructure with zero downtime' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'leadership', category: 'soft-skills' },
-        { name: 'backend', category: 'skills' }
+        { name: `${PREFIX}-leadership`, category: 'soft-skills' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
 
@@ -37,7 +53,7 @@ describe('Achievement CRUD', () => {
 
   it('should parse various date formats', async () => {
     const result = await service.addAchievement({
-      external_id: 'test-ach-2',
+      external_id: `${PREFIX}-2`,
       title: { en: 'Achieved milestone' },
       date: '2024-01-09', // ISO format
       article: { en: 'Completed major project' },
@@ -50,14 +66,14 @@ describe('Achievement CRUD', () => {
 
   it('should retrieve achievement by ID', async () => {
     const created = await service.addAchievement({
-      external_id: 'test-ach-3',
+      external_id: `${PREFIX}-3`,
       title: { en: '100% intern hire rate' },
       date: '2022-12-31',
       article: { en: 'Managed 4 interns, all converted to permanent roles' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'leadership', category: 'soft-skills' },
-        { name: 'hr', category: 'soft-skills' }
+        { name: `${PREFIX}-leadership`, category: 'soft-skills' },
+        { name: `${PREFIX}-hr`, category: 'soft-skills' }
       ]
     });
 
@@ -75,67 +91,71 @@ describe('Achievement CRUD', () => {
 describe('Achievement Search', () => {
   let client: EdgeDBClient;
   let service: AchievementService;
+  let tagService: TagService;
   let ach1Id: string;
   let ach2Id: string;
   let ach3Id: string;
+  const PREFIX = 'vitest-ach-search';
 
   beforeAll(async () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new AchievementService(client);
+    tagService = new TagService(client);
 
     console.log('EdgeDB connected:', await client.query('SELECT 1'));
 
-    // Full cleanup for fresh test data - delete in correct order
-    await client.query('DELETE KnowledgeBaseLanguage');
-    await client.query('DELETE Achievement');
-    await client.query('DELETE Skill');
-    await client.query('DELETE Experience');
-    await client.query('DELETE Tag');
+    // Scoped cleanup
+    await client.query(
+      `DELETE Achievement FILTER .external_id LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
+    await client.query(
+      `DELETE Tag FILTER .name LIKE <str>$prefix`,
+      { prefix: `${PREFIX}%` }
+    );
 
     // Create test tags
-    await client.query(`
-      INSERT Tag { name := 'search-leadership', category := 'soft-skills' } UNLESS CONFLICT;
-      INSERT Tag { name := 'search-backend', category := 'skills' } UNLESS CONFLICT;
-      INSERT Tag { name := 'search-migration', category := 'skills' } UNLESS CONFLICT;
-    `);
+    await tagService.addTag(`${PREFIX}-leadership`, 'soft-skills');
+    await tagService.addTag(`${PREFIX}-backend`, 'skills');
+    await tagService.addTag(`${PREFIX}-migration`, 'skills');
 
     // Create test achievements
     const ach1 = await service.addAchievement({
-      external_id: 'test-ach-search-1',
+      external_id: `${PREFIX}-1`,
       title: { en: 'Platform Migration' },
-      date: '2023-06-15',
+      date: '2099-06-15',
       article: { en: 'Led successful platform migration' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-leadership', category: 'soft-skills' },
-        { name: 'search-backend', category: 'skills' }
+        { name: `${PREFIX}-leadership`, category: 'soft-skills' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
     ach1Id = ach1.id;
 
     const ach2 = await service.addAchievement({
-      external_id: 'test-ach-search-2',
+      external_id: `${PREFIX}-2`,
       title: { en: 'Team Mentoring' },
-      date: '2023-12-01',
+      date: '2099-12-01',
       article: { en: '100% intern hire rate' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-leadership', category: 'soft-skills' },
-        { name: 'search-migration', category: 'skills' }
+        { name: `${PREFIX}-leadership`, category: 'soft-skills' },
+        { name: `${PREFIX}-migration`, category: 'skills' }
       ]
     });
     ach2Id = ach2.id;
 
     const ach3 = await service.addAchievement({
-      external_id: 'test-ach-search-3',
+      external_id: `${PREFIX}-3`,
       title: { en: 'Database Optimization' },
-      date: '2024-03-20',
+      date: '2100-03-20',
       article: { en: 'Improved query performance 10x' },
       last_verified: '2024-01-01',
       tags: [
-        { name: 'search-backend', category: 'skills' },
-        { name: 'search-migration', category: 'skills' }
+        { name: `${PREFIX}-backend`, category: 'skills' },
+        { name: `${PREFIX}-migration`, category: 'skills' }
       ]
     });
     ach3Id = ach3.id;
@@ -147,7 +167,7 @@ describe('Achievement Search', () => {
 
   it('should search achievements by single tag', async () => {
     const results = await service.searchAchievements({ 
-      tags: [{ name: 'search-leadership', category: 'soft-skills' }] 
+      tags: [{ name: `${PREFIX}-leadership`, category: 'soft-skills' }] 
     });
 
     expect(results).toHaveLength(2);
@@ -158,8 +178,8 @@ describe('Achievement Search', () => {
   it('should search achievements by multiple tags (AND logic)', async () => {
     const results = await service.searchAchievements({
       tags: [
-        { name: 'search-leadership', category: 'soft-skills' },
-        { name: 'search-backend', category: 'skills' }
+        { name: `${PREFIX}-leadership`, category: 'soft-skills' },
+        { name: `${PREFIX}-backend`, category: 'skills' }
       ]
     });
 
@@ -170,8 +190,8 @@ describe('Achievement Search', () => {
   it('should search achievements by date range', async () => {
     const results = await service.searchAchievements({
       dateRange: {
-        start: '2023-10-01',
-        end: '2024-01-31'
+        start: '2099-10-01',
+        end: '2099-12-31'
       }
     });
 
@@ -181,9 +201,9 @@ describe('Achievement Search', () => {
 
   it('should combine tag and date range filters', async () => {
     const results = await service.searchAchievements({
-      tags: [{ name: 'search-backend', category: 'skills' }],
+      tags: [{ name: `${PREFIX}-backend`, category: 'skills' }],
       dateRange: {
-        start: '2024-01-01'
+        start: '2100-01-01'
       }
     });
 
