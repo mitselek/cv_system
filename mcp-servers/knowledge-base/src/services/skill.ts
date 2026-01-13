@@ -205,6 +205,9 @@ export class SkillService {
     `;
 
     const result = await this.client.querySingle<any>(query, params);
+    if (!result) {
+      throw new Error(`Skill not found: ${id}`);
+    }
     return this.formatSkill(result);
   }
 

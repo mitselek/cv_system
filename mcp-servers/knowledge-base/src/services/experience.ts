@@ -215,6 +215,9 @@ export class ExperienceService {
     `;
 
     const result = await this.client.querySingle<any>(query, params);
+    if (!result) {
+      throw new Error(`Experience not found: ${id}`);
+    }
     return this.formatExperience(result);
   }
 

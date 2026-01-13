@@ -114,32 +114,32 @@ export class CertificationService {
     const params: Record<string, any> = { id };
 
     if (updates.title) {
-      setClauses.push('title := <json>$title');
-      params.title = JSON.stringify(updates.title);
+      setClauses.push('title := <Translation>$title');
+      params.title = updates.title;
     }
     if (updates.issuer) {
-      setClauses.push('issuer := <json>$issuer');
-      params.issuer = JSON.stringify(updates.issuer);
+      setClauses.push('issuer := <Translation>$issuer');
+      params.issuer = updates.issuer;
     }
     if (updates.date) {
       setClauses.push('date := <IsoDate>$date');
       params.date = updates.date;
     }
     if (updates.expiry_date !== undefined) {
-      setClauses.push('expiry_date := <IsoDate>$expiry_date');
-      params.expiry_date = updates.expiry_date;
+      setClauses.push('expiry_date := <optional IsoDate>$expiry_date');
+      params.expiry_date = updates.expiry_date ?? null;
     }
     if (updates.credential_id !== undefined) {
-      setClauses.push('credential_id := <str>$credential_id');
-      params.credential_id = updates.credential_id;
+      setClauses.push('credential_id := <optional str>$credential_id');
+      params.credential_id = updates.credential_id ?? null;
     }
     if (updates.credential_url !== undefined) {
-      setClauses.push('credential_url := <HttpUrl>$credential_url');
-      params.credential_url = updates.credential_url;
+      setClauses.push('credential_url := <optional HttpUrl>$credential_url');
+      params.credential_url = updates.credential_url ?? null;
     }
     if (updates.article !== undefined) {
-      setClauses.push('article := <json>$article');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <optional Translation>$article');
+      params.article = updates.article ?? null;
     }
     if (updates.verification_status) {
       setClauses.push('verification_status := <VerificationStatus>$verification_status');
@@ -148,6 +148,10 @@ export class CertificationService {
     if (updates.last_verified) {
       setClauses.push('last_verified := <IsoDate>$last_verified');
       params.last_verified = updates.last_verified;
+    }
+
+    if (setClauses.length === 0) {
+      throw new Error('No fields to update');
     }
 
     const query = `
