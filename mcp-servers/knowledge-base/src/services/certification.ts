@@ -47,14 +47,14 @@ export class CertificationService {
     const query = `
       INSERT Certification {
         external_id := <str>$external_id,
-        title := <json>$title,
-        issuer := <json>$issuer,
+        title := <Translation>$title,
+        issuer := <Translation>$issuer,
         date := <IsoDate>$date,
-        expiry_date := <IsoDate>$expiry_date IF EXISTS $expiry_date ELSE {},
-        credential_id := <str>$credential_id IF EXISTS $credential_id ELSE {},
-        credential_url := <HttpUrl>$credential_url IF EXISTS $credential_url ELSE {},
-        article := <json>$article IF EXISTS $article ELSE {},
-        verification_status := <VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
+        expiry_date := <optional IsoDate>$expiry_date,
+        credential_id := <optional str>$credential_id,
+        credential_url := <optional HttpUrl>$credential_url,
+        article := <optional Translation>$article,
+        verification_status := <optional VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
         last_verified := <IsoDate>$last_verified,
         tags := (
           SELECT Tag FILTER
@@ -66,20 +66,18 @@ export class CertificationService {
 
     const params: Record<string, any> = {
       external_id: input.external_id,
-      title: JSON.stringify(input.title),
-      issuer: JSON.stringify(input.issuer),
+      title: input.title,
+      issuer: input.issuer,
       date: input.date,
       last_verified: input.last_verified,
       tag_names: input.tags.map(t => t.name),
-      tag_categories: input.tags.map(t => t.category)
+      tag_categories: input.tags.map(t => t.category),
+      expiry_date: input.expiry_date ?? null,
+      credential_id: input.credential_id ?? null,
+      credential_url: input.credential_url ?? null,
+      article: input.article ?? null,
+      verification_status: input.verification_status ?? null
     };
-
-    // Add optional params
-    if (input.expiry_date) params['expiry_date'] = input.expiry_date;
-    if (input.credential_id) params['credential_id'] = input.credential_id;
-    if (input.credential_url) params['credential_url'] = input.credential_url;
-    if (input.article) params['article'] = JSON.stringify(input.article);
-    if (input.verification_status) params['verification_status'] = input.verification_status;
 
     const result = await this.client.querySingle<Certification>(query, params);
     if (!result) throw new Error('Failed to create certification');
@@ -167,16 +165,22 @@ export class CertificationService {
   async searchCertifications(filters: CertificationSearchFilters = {}): Promise<Certification[]> {
     const whereClauses: string[] = [];
     const params: Record<string, any> = {};
+    let withClause = '';
 
     if (filters.tags && filters.tags.length > 0) {
+      withClause = 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)';
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
       whereClauses.push(`
-        ALL (
-          SELECT (tag_name, tag_category) IN enumerate(array_unpack(<array<tuple<str, str>>>$tag_pairs))
-          FOR tag_name IN array_unpack(.tags.name)
-          FOR tag_category IN array_unpack(.tags.category)
-        )
+        count((
+          FOR tag_ref IN tag_refs 
+          UNION (
+            SELECT Tag 
+            FILTER .name = tag_ref.name 
+              AND .category = tag_ref.category 
+              AND Tag IN Certification.tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
-      params.tag_pairs = filters.tags.map(t => [t.name, t.category]);
     }
 
     if (filters.issuer) {
@@ -197,6 +201,7 @@ export class CertificationService {
     const whereClause = whereClauses.length > 0 ? `FILTER ${whereClauses.join(' AND ')}` : '';
 
     const query = `
+      ${withClause}
       SELECT Certification {
         id,
         external_id,

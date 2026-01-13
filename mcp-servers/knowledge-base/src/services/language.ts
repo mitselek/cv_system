@@ -38,40 +38,43 @@ export class LanguageService {
 
   async addLanguage(input: LanguageInput): Promise<Language> {
     const query = `
-      INSERT KnowledgeBaseLanguage {
-        external_id := <str>$external_id,
-        name := <json>$name,
-        proficiency := <json>$proficiency,
-        article := <json>$article IF EXISTS $article ELSE {},
-        verification_status := <VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
-        last_verified := <IsoDate>$last_verified,
-        tags := (
-          SELECT Tag FILTER
-            .name IN array_unpack(<array<str>>$tag_names) AND
-            .category IN array_unpack(<array<str>>$tag_categories)
-        ),
-        evidence := (
-          SELECT Experience FILTER .id IN array_unpack(<array<uuid>>$evidence_ids)
-        ) IF EXISTS $evidence_ids ELSE {}
-      }
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs),
+           evidence_ids := array_unpack(<array<uuid>>$evidence_ids)
+      SELECT (
+        INSERT KnowledgeBaseLanguage {
+          external_id := <str>$external_id,
+          name := <Translation>$name,
+          proficiency := <LanguageProficiency>$proficiency,
+          article := <optional Translation>$article,
+          verification_status := <optional VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
+          last_verified := <IsoDate>$last_verified,
+          tags := DISTINCT (
+            FOR tag_ref IN tag_refs UNION (
+              SELECT Tag FILTER .name = tag_ref.name AND .category = tag_ref.category
+            )
+          ),
+          evidence := DISTINCT (
+            FOR evidence_id IN evidence_ids UNION (
+              SELECT Experience FILTER .id = evidence_id
+            )
+          )
+        }
+      ) { id };
     `;
 
-    const params: Record<string, any> = {
+    const result = await this.client.querySingle<{ id: string }>(query, {
       external_id: input.external_id,
-      name: JSON.stringify(input.name),
-      proficiency: JSON.stringify(input.proficiency),
+      name: input.name,
+      proficiency: input.proficiency,
+      article: input.article ?? null,
+      verification_status: input.verification_status ?? null,
       last_verified: input.last_verified,
-      tag_names: input.tags.map(t => t.name),
-      tag_categories: input.tags.map(t => t.category)
-    };
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),
+      evidence_ids: input.evidence ?? []
+    });
 
-    // Add optional params
-    if (input.article) params['article'] = JSON.stringify(input.article);
-    if (input.verification_status) params['verification_status'] = input.verification_status;
-    if (input.evidence && input.evidence.length > 0) params['evidence_ids'] = input.evidence;
-
-    const result = await this.client.querySingle<Language>(query, params);
     if (!result) throw new Error('Failed to create language');
+
     const created = await this.getLanguage(result.id);
     if (!created) throw new Error('Language not found after creation');
     return created;
@@ -102,16 +105,16 @@ export class LanguageService {
     const params: Record<string, any> = { id };
 
     if (updates.name) {
-      setClauses.push('name := <json>$name');
-      params.name = JSON.stringify(updates.name);
+      setClauses.push('name := <Translation>$name');
+      params.name = updates.name;
     }
     if (updates.proficiency) {
-      setClauses.push('proficiency := <json>$proficiency');
-      params.proficiency = JSON.stringify(updates.proficiency);
+      setClauses.push('proficiency := <LanguageProficiency>$proficiency');
+      params.proficiency = updates.proficiency;
     }
     if (updates.article !== undefined) {
-      setClauses.push('article := <json>$article');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <Translation>$article');
+      params.article = updates.article;
     }
     if (updates.verification_status) {
       setClauses.push('verification_status := <VerificationStatus>$verification_status');
@@ -139,14 +142,17 @@ export class LanguageService {
     const params: Record<string, any> = {};
 
     if (filters.tags && filters.tags.length > 0) {
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
       whereClauses.push(`
-        ALL (
-          SELECT (tag_name, tag_category) IN enumerate(array_unpack(<array<tuple<str, str>>>$tag_pairs))
-          FOR tag_name IN array_unpack(.tags.name)
-          FOR tag_category IN array_unpack(.tags.category)
-        )
+        count((
+          FOR tag_ref IN tag_refs
+          UNION (
+            SELECT .tags
+            FILTER .name = tag_ref.name
+              AND .category = tag_ref.category
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
-      params.tag_pairs = filters.tags.map(t => [t.name, t.category]);
     }
 
     if (filters.minProficiency) {
@@ -156,7 +162,12 @@ export class LanguageService {
 
     const whereClause = whereClauses.length > 0 ? `FILTER ${whereClauses.join(' AND ')}` : '';
 
+    const withClause = filters.tags && filters.tags.length > 0
+      ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
+      : '';
+
     const query = `
+      ${withClause}
       SELECT KnowledgeBaseLanguage {
         id,
         external_id,
@@ -170,7 +181,7 @@ export class LanguageService {
         evidence: { id, external_id }
       }
       ${whereClause}
-      ORDER BY .name
+      ORDER BY .external_id
     `;
 
     return this.client.query<Language>(query, params);

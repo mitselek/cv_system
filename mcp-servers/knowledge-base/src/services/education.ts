@@ -40,18 +40,19 @@ export class EducationService {
   constructor(private client: EdgeDBClient) {}
 
   async addEducation(input: EducationInput): Promise<Education> {
+    if (!input.dates.end) {
+      throw new Error('Education dates.end is required');
+    }
+
     const query = `
       INSERT Education {
         external_id := <str>$external_id,
-        institutions := <array<json>>$institutions,
-        fields := <array<json>>$fields,
-        dates := (
-          \`start\` := <IsoDate>$date_start,
-          \`end\` := <IsoDate>$date_end IF EXISTS $date_end ELSE <IsoDate>{}
-        ),
-        degree := <json>$degree IF EXISTS $degree ELSE {},
-        article := <json>$article IF EXISTS $article ELSE {},
-        verification_status := <VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
+        institutions := <array<Translation>>$institutions,
+        fields := <array<Translation>>$fields,
+        dates := (\`start\` := <IsoDate>$date_start, \`end\` := <IsoDate>$date_end),
+        degree := <optional Translation>$degree,
+        article := <optional Translation>$article,
+        verification_status := <optional VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
         last_verified := <IsoDate>$last_verified,
         tags := (
           SELECT Tag FILTER
@@ -63,19 +64,17 @@ export class EducationService {
 
     const params: Record<string, any> = {
       external_id: input.external_id,
-      institutions: input.institutions.map(i => JSON.stringify(i)),
-      fields: input.fields.map(f => JSON.stringify(f)),
+      institutions: input.institutions,
+      fields: input.fields,
       date_start: input.dates.start,
+      date_end: input.dates.end,
       last_verified: input.last_verified,
       tag_names: input.tags.map(t => t.name),
-      tag_categories: input.tags.map(t => t.category)
+      tag_categories: input.tags.map(t => t.category),
+      degree: input.degree ?? null,
+      article: input.article ?? null,
+      verification_status: input.verification_status ?? null
     };
-
-    // Add optional params
-    if (input.dates.end) params['date_end'] = input.dates.end;
-    if (input.degree) params['degree'] = JSON.stringify(input.degree);
-    if (input.article) params['article'] = JSON.stringify(input.article);
-    if (input.verification_status) params['verification_status'] = input.verification_status;
 
     const result = await this.client.querySingle<Education>(query, params);
     if (!result) throw new Error('Failed to create education');
@@ -110,30 +109,36 @@ export class EducationService {
     const params: Record<string, any> = { id };
 
     if (updates.institutions) {
-      setClauses.push('institutions := <array<json>>$institutions');
-      params.institutions = updates.institutions.map(i => JSON.stringify(i));
+      setClauses.push('institutions := <array<Translation>>$institutions');
+      params.institutions = updates.institutions;
     }
     if (updates.fields) {
-      setClauses.push('fields := <array<json>>$fields');
-      params.fields = updates.fields.map(f => JSON.stringify(f));
+      setClauses.push('fields := <array<Translation>>$fields');
+      params.fields = updates.fields;
     }
     if (updates.dates) {
-      if (updates.dates.end !== undefined) {
+      const hasStart = updates.dates.start !== undefined;
+      const hasEnd = updates.dates.end !== undefined;
+
+      if (hasStart && hasEnd) {
         setClauses.push('dates := (`start` := <IsoDate>$date_start, `end` := <IsoDate>$date_end)');
         params.date_start = updates.dates.start;
         params.date_end = updates.dates.end;
-      } else {
-        setClauses.push('dates.`start` := <IsoDate>$date_start');
+      } else if (hasStart) {
+        setClauses.push('dates := (`start` := <IsoDate>$date_start, `end` := .dates.`end`)');
         params.date_start = updates.dates.start;
+      } else if (hasEnd) {
+        setClauses.push('dates := (`start` := .dates.`start`, `end` := <IsoDate>$date_end)');
+        params.date_end = updates.dates.end;
       }
     }
     if (updates.degree !== undefined) {
-      setClauses.push('degree := <json>$degree');
-      params.degree = JSON.stringify(updates.degree);
+      setClauses.push('degree := <optional Translation>$degree');
+      params.degree = updates.degree ?? null;
     }
     if (updates.article !== undefined) {
-      setClauses.push('article := <json>$article');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <optional Translation>$article');
+      params.article = updates.article ?? null;
     }
     if (updates.verification_status) {
       setClauses.push('verification_status := <VerificationStatus>$verification_status');
@@ -142,6 +147,12 @@ export class EducationService {
     if (updates.last_verified) {
       setClauses.push('last_verified := <IsoDate>$last_verified');
       params.last_verified = updates.last_verified;
+    }
+
+    if (setClauses.length === 0) {
+      const existing = await this.getEducation(id);
+      if (!existing) throw new Error('Education not found');
+      return existing;
     }
 
     const query = `
@@ -162,13 +173,17 @@ export class EducationService {
 
     if (filters.tags && filters.tags.length > 0) {
       whereClauses.push(`
-        ALL (
-          SELECT (tag_name, tag_category) IN enumerate(array_unpack(<array<tuple<str, str>>>$tag_pairs))
-          FOR tag_name IN array_unpack(.tags.name)
-          FOR tag_category IN array_unpack(.tags.category)
-        )
+        count((
+          FOR tag_ref IN tag_refs
+          UNION (
+            SELECT Tag
+            FILTER .name = tag_ref.name
+              AND .category = tag_ref.category
+              AND Tag IN .tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
-      params.tag_pairs = filters.tags.map(t => [t.name, t.category]);
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
     }
 
     if (filters.institution) {
@@ -195,7 +210,12 @@ export class EducationService {
 
     const whereClause = whereClauses.length > 0 ? `FILTER ${whereClauses.join(' AND ')}` : '';
 
+    const withClause = filters.tags && filters.tags.length > 0
+      ? 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)'
+      : '';
+
     const query = `
+      ${withClause}
       SELECT Education {
         id,
         external_id,

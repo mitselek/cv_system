@@ -56,7 +56,7 @@ export class ExperienceService {
           title := <Translation>$title,
           company := <Translation>$company,
           url := <optional HttpUrl>$url,
-          dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end),
+          dates := (\`start\` := <IsoDate>$date_start, \`end\` := <IsoDate>$date_end),
           ${articleClause}
           verification_status := <VerificationStatus>$verification_status,
           last_verified := <IsoDate>$last_verified,
@@ -66,7 +66,7 @@ export class ExperienceService {
               FILTER .name = tag_ref.name AND .category = tag_ref.category
             )
           ),
-          skills_demonstrated := (
+          skills_demonstrated := DISTINCT (
             FOR skill_id IN skill_ids UNION (
               SELECT Skill FILTER .external_id = skill_id
             )
@@ -78,7 +78,7 @@ export class ExperienceService {
         title,
         company,
         url,
-        dates: { start, end },
+        dates,
         article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
@@ -95,7 +95,7 @@ export class ExperienceService {
       url: input.url || null,
       date_start: input.dates.start,
       date_end: input.dates.end,
-      ...(input.article && { article: JSON.stringify(input.article) }),
+      ...(input.article && { article: input.article }),
       verification_status: input.verification_status || VerificationStatus.Draft,
       last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),
@@ -116,7 +116,7 @@ export class ExperienceService {
         title,
         company,
         url,
-        dates: { start, end },
+        dates,
         article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
@@ -167,7 +167,7 @@ export class ExperienceService {
     }
 
     if (updates.dates !== undefined) {
-      setClauses.push('dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end)');
+      setClauses.push('dates := (`start` := <IsoDate>$date_start, `end` := <IsoDate>$date_end)');
       params.date_start = updates.dates.start;
       params.date_end = updates.dates.end;
     }
@@ -204,7 +204,7 @@ export class ExperienceService {
         title,
         company,
         url,
-        dates: { start, end },
+        dates,
         article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
@@ -255,11 +255,11 @@ export class ExperienceService {
     if (filters.dateRange) {
       if (filters.dateRange.start) {
         params.range_start = filters.dateRange.start;
-        conditions.push('.dates.end >= <IsoDate>$range_start');
+        conditions.push('.dates.`end` >= <IsoDate>$range_start');
       }
       if (filters.dateRange.end) {
         params.range_end = filters.dateRange.end;
-        conditions.push('.dates.start <= <IsoDate>$range_end');
+        conditions.push('.dates.`start` <= <IsoDate>$range_end');
       }
     }
 
@@ -279,7 +279,7 @@ export class ExperienceService {
         title,
         company,
         url,
-        dates: { start, end },
+        dates,
         article := (SELECT .article IF EXISTS .article ELSE <json>{}),
         verification_status,
         last_verified,
@@ -288,7 +288,7 @@ export class ExperienceService {
         created
       }
       ${whereClause}
-      ORDER BY .dates.start DESC THEN .external_id ASC
+      ORDER BY .dates.\`start\` DESC THEN .external_id ASC
     `;
 
     const results = Object.keys(params).length > 0

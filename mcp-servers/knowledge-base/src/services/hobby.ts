@@ -36,36 +36,36 @@ export class HobbyService {
 
   async addHobby(input: HobbyInput): Promise<Hobby> {
     const query = `
-      INSERT Hobby {
-        external_id := <str>$external_id,
-        name := <json>$name,
-        tools := <array<str>>$tools IF EXISTS $tools ELSE {},
-        article := <json>$article IF EXISTS $article ELSE {},
-        verification_status := <VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
-        last_verified := <IsoDate>$last_verified,
-        tags := (
-          SELECT Tag FILTER
-            .name IN array_unpack(<array<str>>$tag_names) AND
-            .category IN array_unpack(<array<str>>$tag_categories)
-        )
-      }
+      WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
+      SELECT (
+        INSERT Hobby {
+          external_id := <str>$external_id,
+          name := <Translation>$name,
+          tools := <optional array<str>>$tools,
+          article := <optional Translation>$article,
+          verification_status := <optional VerificationStatus>$verification_status ?? <VerificationStatus>'draft',
+          last_verified := <IsoDate>$last_verified,
+          tags := DISTINCT (
+            FOR tag_ref IN tag_refs UNION (
+              SELECT Tag FILTER .name = tag_ref.name AND .category = tag_ref.category
+            )
+          )
+        }
+      ) { id };
     `;
 
-    const params: Record<string, any> = {
+    const result = await this.client.querySingle<{ id: string }>(query, {
       external_id: input.external_id,
-      name: JSON.stringify(input.name),
+      name: input.name,
+      tools: input.tools ?? null,
+      article: input.article ?? null,
+      verification_status: input.verification_status ?? null,
       last_verified: input.last_verified,
-      tag_names: input.tags.map(t => t.name),
-      tag_categories: input.tags.map(t => t.category)
-    };
+      tag_refs: input.tags.map(t => ({ name: t.name, category: t.category }))
+    });
 
-    // Add optional params
-    if (input.tools && input.tools.length > 0) params['tools'] = input.tools;
-    if (input.article) params['article'] = JSON.stringify(input.article);
-    if (input.verification_status) params['verification_status'] = input.verification_status;
-
-    const result = await this.client.querySingle<Hobby>(query, params);
     if (!result) throw new Error('Failed to create hobby');
+
     const created = await this.getHobby(result.id);
     if (!created) throw new Error('Hobby not found after creation');
     return created;
@@ -95,16 +95,16 @@ export class HobbyService {
     const params: Record<string, any> = { id };
 
     if (updates.name) {
-      setClauses.push('name := <json>$name');
-      params.name = JSON.stringify(updates.name);
+      setClauses.push('name := <Translation>$name');
+      params.name = updates.name;
     }
     if (updates.tools !== undefined) {
       setClauses.push('tools := <array<str>>$tools');
       params.tools = updates.tools;
     }
     if (updates.article !== undefined) {
-      setClauses.push('article := <json>$article');
-      params.article = JSON.stringify(updates.article);
+      setClauses.push('article := <Translation>$article');
+      params.article = updates.article;
     }
     if (updates.verification_status) {
       setClauses.push('verification_status := <VerificationStatus>$verification_status');
@@ -128,28 +128,35 @@ export class HobbyService {
   }
 
   async searchHobbies(filters: HobbySearchFilters = {}): Promise<Hobby[]> {
-    const whereClauses: string[] = [];
+    const conditions: string[] = [];
     const params: Record<string, any> = {};
+    let withClause = '';
 
     if (filters.tags && filters.tags.length > 0) {
-      whereClauses.push(`
-        ALL (
-          SELECT (tag_name, tag_category) IN enumerate(array_unpack(<array<tuple<str, str>>>$tag_pairs))
-          FOR tag_name IN array_unpack(.tags.name)
-          FOR tag_category IN array_unpack(.tags.category)
-        )
+      withClause = 'WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)';
+      params.tag_refs = filters.tags.map(t => ({ name: t.name, category: t.category }));
+      conditions.push(`
+        count((
+          FOR tag_ref IN tag_refs 
+          UNION (
+            SELECT Tag 
+            FILTER .name = tag_ref.name 
+              AND .category = tag_ref.category 
+              AND Tag IN Hobby.tags
+          )
+        )) = len(<array<tuple<name: str, category: str>>>$tag_refs)
       `);
-      params.tag_pairs = filters.tags.map(t => [t.name, t.category]);
     }
 
     if (filters.tool) {
-      whereClauses.push(`<str>$tool IN array_unpack(.tools)`);
+      conditions.push(`<str>$tool IN array_unpack(.tools)`);
       params.tool = filters.tool;
     }
 
-    const whereClause = whereClauses.length > 0 ? `FILTER ${whereClauses.join(' AND ')}` : '';
+    const whereClause = conditions.length > 0 ? `FILTER ${conditions.join(' AND ')}` : '';
 
     const query = `
+      ${withClause}
       SELECT Hobby {
         id,
         external_id,
