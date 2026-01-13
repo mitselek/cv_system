@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { EdgeDBClient } from '../../edgedb.js';
 import { SkillService } from '../skill.js';
+import { SkillCategory } from '../../types.js';
 
 describe('Skill CRUD', () => {
   let client: EdgeDBClient;
@@ -19,10 +20,12 @@ describe('Skill CRUD', () => {
 
   it('should create a skill with level validation', async () => {
     const result = await service.addSkill({
-      name: 'Python',
+      external_id: 'test-skill-python',
+      name: { en: 'Python' },
+      category: SkillCategory.ProgrammingLanguage,
       level: 9,
-      description: 'Expert-level Python programming',
-      evidenceRefs: ['EKI backend systems'],
+      article: { en: 'Expert-level Python programming' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'languages', category: 'languages' },
         { name: 'backend', category: 'skills' }
@@ -30,7 +33,7 @@ describe('Skill CRUD', () => {
     });
 
     expect(result).toHaveProperty('id');
-    expect(result.name).toBe('Python');
+    expect(result.name.en).toBe('Python');
     expect(result.level).toBe(9);
     expect(result.level).toBeGreaterThanOrEqual(1);
     expect(result.level).toBeLessThanOrEqual(10);
@@ -39,10 +42,11 @@ describe('Skill CRUD', () => {
   it('should reject invalid level values', async () => {
     await expect(
       service.addSkill({
-        name: 'JavaScript',
+        external_id: 'test-skill-invalid',
+        name: { en: 'JavaScript' },
+        category: SkillCategory.ProgrammingLanguage,
         level: 11, // Invalid
-        description: '',
-        evidenceRefs: [],
+        last_verified: '2024-01-01',
         tags: []
       })
     ).rejects.toThrow();
@@ -50,10 +54,12 @@ describe('Skill CRUD', () => {
 
   it('should retrieve skill by ID', async () => {
     const created = await service.addSkill({
-      name: 'TypeScript',
+      external_id: 'test-skill-ts',
+      name: { en: 'TypeScript' },
+      category: SkillCategory.ProgrammingLanguage,
       level: 8,
-      description: 'Strong TypeScript skills',
-      evidenceRefs: ['PÖFF system'],
+      article: { en: 'Strong TypeScript skills' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'languages', category: 'languages' },
         { name: 'frontend', category: 'skills' }
@@ -61,44 +67,50 @@ describe('Skill CRUD', () => {
     });
 
     const retrieved = await service.getSkill(created.id);
-    expect(retrieved?.name).toBe('TypeScript');
+    expect(retrieved?.name.en).toBe('TypeScript');
     expect(retrieved?.level).toBe(8);
   });
 
   it('should update skill fields', async () => {
     const created = await service.addSkill({
-      name: 'Docker',
+      external_id: 'test-skill-docker',
+      name: { en: 'Docker' },
+      category: SkillCategory.DevOps,
       level: 7,
-      description: 'Working knowledge',
-      evidenceRefs: [],
+      article: { en: 'Working knowledge' },
+      last_verified: '2024-01-01',
       tags: [{ name: 'devops', category: 'skills' }]
     });
 
     const updated = await service.updateSkill(created.id, {
       level: 8,
-      description: 'Advanced Docker experience'
+      article: { en: 'Advanced Docker experience' }
     });
 
     expect(updated.level).toBe(8);
-    expect(updated.description).toBe('Advanced Docker experience');
+    expect(updated.article?.en).toBe('Advanced Docker experience');
   });
 
   it('should enforce unique skill names', async () => {
     await service.addSkill({
-      name: 'Kubernetes',
+      external_id: 'test-skill-k8s',
+      name: { en: 'Kubernetes' },
+      category: SkillCategory.DevOps,
       level: 5,
-      description: 'Basic knowledge',
-      evidenceRefs: [],
+      article: { en: 'Basic knowledge' },
+      last_verified: '2024-01-01',
       tags: [{ name: 'devops', category: 'skills' }]
     });
 
     // Attempt to create duplicate
     await expect(
       service.addSkill({
-        name: 'Kubernetes',
+        external_id: 'test-skill-k8s-dup',
+        name: { en: 'Kubernetes' },
+        category: SkillCategory.DevOps,
         level: 6,
-        description: 'Different description',
-        evidenceRefs: [],
+        article: { en: 'Different description' },
+        last_verified: '2024-01-01',
         tags: [{ name: 'devops', category: 'skills' }]
       })
     ).rejects.toThrow();
@@ -135,10 +147,12 @@ describe('Skill Search', () => {
 
     // Create test skills
     const skill1 = await service.addSkill({
-      name: 'Node.js Backend',
+      external_id: 'test-skill-nodejs',
+      name: { en: 'Node.js Backend' },
+      category: SkillCategory.BackendDevelopment,
       level: 9,
-      description: 'Expert Node.js',
-      evidenceRefs: ['PÖFF'],
+      article: { en: 'Expert Node.js' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-nodejs', category: 'languages' },
         { name: 'search-backend', category: 'skills' }
@@ -147,10 +161,12 @@ describe('Skill Search', () => {
     skill1Id = skill1.id;
 
     const skill2 = await service.addSkill({
-      name: 'Python Data Processing',
+      external_id: 'test-skill-python',
+      name: { en: 'Python Data Processing' },
+      category: SkillCategory.BackendDevelopment,
       level: 7,
-      description: 'Data pipelines',
-      evidenceRefs: ['EKI'],
+      article: { en: 'Data pipelines' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-python', category: 'languages' },
         { name: 'search-backend', category: 'skills' }
@@ -159,10 +175,12 @@ describe('Skill Search', () => {
     skill2Id = skill2.id;
 
     const skill3 = await service.addSkill({
-      name: 'Full Stack JS',
+      external_id: 'test-skill-fullstack',
+      name: { en: 'Full Stack JS' },
+      category: SkillCategory.Framework,
       level: 8,
-      description: 'Both frontend and backend',
-      evidenceRefs: ['Multiple projects'],
+      article: { en: 'Both frontend and backend' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-nodejs', category: 'languages' },
         { name: 'search-advanced', category: 'level' }

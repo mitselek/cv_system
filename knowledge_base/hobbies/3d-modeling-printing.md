@@ -19,14 +19,16 @@ tags: [hobby, 3d-modeling, prototyping, CAD]
 
 <!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
-## et
+et
+==
 
 - 3D modelleerimine ja printimine (kasutades Onshape ja FeatureScript)
 - Hobi tasemel kogemust
 - Mehaaniliste printsiipide baasmõistmine
 - Tolerantsid, materjalide omadused
 
-## en
+en
+==
 
 - 3D modeling and printing (using Onshape and FeatureScript)
 - Hobby-level experience

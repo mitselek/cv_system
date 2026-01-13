@@ -19,9 +19,11 @@ describe('Achievement CRUD', () => {
 
   it('should create achievement with date parsing', async () => {
     const result = await service.addAchievement({
-      title: 'Led successful platform migration',
+      external_id: 'test-ach-1',
+      title: { en: 'Led successful platform migration' },
       date: '2023-06-15',
-      description: 'Migrated 500+ users to new infrastructure with zero downtime',
+      article: { en: 'Migrated 500+ users to new infrastructure with zero downtime' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'leadership', category: 'soft-skills' },
         { name: 'backend', category: 'skills' }
@@ -29,15 +31,17 @@ describe('Achievement CRUD', () => {
     });
 
     expect(result).toHaveProperty('id');
-    expect(result.title).toBe('Led successful platform migration');
+    expect(result.title.en).toBe('Led successful platform migration');
     expect(result.date).toBe('2023-06-15');
   });
 
   it('should parse various date formats', async () => {
     const result = await service.addAchievement({
-      title: 'Achieved milestone',
+      external_id: 'test-ach-2',
+      title: { en: 'Achieved milestone' },
       date: '2024-01-09', // ISO format
-      description: 'Completed major project',
+      article: { en: 'Completed major project' },
+      last_verified: '2024-01-01',
       tags: []
     });
 
@@ -46,9 +50,11 @@ describe('Achievement CRUD', () => {
 
   it('should retrieve achievement by ID', async () => {
     const created = await service.addAchievement({
-      title: '100% intern hire rate',
+      external_id: 'test-ach-3',
+      title: { en: '100% intern hire rate' },
       date: '2022-12-31',
-      description: 'Managed 4 interns, all converted to permanent roles',
+      article: { en: 'Managed 4 interns, all converted to permanent roles' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'leadership', category: 'soft-skills' },
         { name: 'hr', category: 'soft-skills' }
@@ -56,7 +62,7 @@ describe('Achievement CRUD', () => {
     });
 
     const retrieved = await service.getAchievement(created.id);
-    expect(retrieved?.title).toBe('100% intern hire rate');
+    expect(retrieved?.title.en).toBe('100% intern hire rate');
   });
 
   it('should handle missing achievement gracefully', async () => {
@@ -94,9 +100,11 @@ describe('Achievement Search', () => {
 
     // Create test achievements
     const ach1 = await service.addAchievement({
-      title: 'Platform Migration',
+      external_id: 'test-ach-search-1',
+      title: { en: 'Platform Migration' },
       date: '2023-06-15',
-      description: 'Led successful platform migration',
+      article: { en: 'Led successful platform migration' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-leadership', category: 'soft-skills' },
         { name: 'search-backend', category: 'skills' }
@@ -105,9 +113,11 @@ describe('Achievement Search', () => {
     ach1Id = ach1.id;
 
     const ach2 = await service.addAchievement({
-      title: 'Team Mentoring',
+      external_id: 'test-ach-search-2',
+      title: { en: 'Team Mentoring' },
       date: '2023-12-01',
-      description: '100% intern hire rate',
+      article: { en: '100% intern hire rate' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-leadership', category: 'soft-skills' },
         { name: 'search-migration', category: 'skills' }
@@ -116,9 +126,11 @@ describe('Achievement Search', () => {
     ach2Id = ach2.id;
 
     const ach3 = await service.addAchievement({
-      title: 'Database Optimization',
+      external_id: 'test-ach-search-3',
+      title: { en: 'Database Optimization' },
       date: '2024-03-20',
-      description: 'Improved query performance 10x',
+      article: { en: 'Improved query performance 10x' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-backend', category: 'skills' },
         { name: 'search-migration', category: 'skills' }

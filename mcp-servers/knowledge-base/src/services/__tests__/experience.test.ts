@@ -36,21 +36,21 @@ describe('Experience CRUD', () => {
 
   it('should create an experience and return typed result', async () => {
     const result = await service.addExperience({
-      title: 'Senior Software Engineer',
-      organization: 'TechCorp',
-      startDate: '2020-01-15',
-      endDate: '2023-12-31',
-      description: 'Led backend team',
+      external_id: 'test-exp-1',
+      title: { en: 'Senior Software Engineer' },
+      company: { en: 'TechCorp' },
+      dates: { start: '2020-01-15', end: '2023-12-31' },
+      article: { en: 'Led backend team' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'nodejs', category: 'languages' },
         { name: 'teamwork', category: 'soft-skills' }
-      ],
-      language: 'en'
+      ]
     });
 
     expect(result).toHaveProperty('id');
-    expect(result.title).toBe('Senior Software Engineer');
-    expect(result.organization).toBe('TechCorp');
+    expect(result.title.en).toBe('Senior Software Engineer');
+    expect(result.company.en).toBe('TechCorp');
     expect(result.tags).toHaveLength(2);
     expect(result.tags).toContainEqual({ name: 'nodejs', category: 'languages' });
     expect(result.tags).toContainEqual({ name: 'teamwork', category: 'soft-skills' });
@@ -58,39 +58,40 @@ describe('Experience CRUD', () => {
 
   it('should retrieve experience by ID', async () => {
     const created = await service.addExperience({
-      title: 'Product Manager',
-      organization: 'StartupXYZ',
-      startDate: '2023-01-01',
-      endDate: '2024-06-30',
-      description: 'Managed product strategy',
-      tags: [{ name: 'pm', category: 'skills' }],
-      language: 'en'
+      external_id: 'test-exp-2',
+      title: { en: 'Product Manager' },
+      company: { en: 'StartupXYZ' },
+      dates: { start: '2023-01-01', end: '2024-06-30' },
+      article: { en: 'Managed product strategy' },
+      last_verified: '2024-01-01',
+      tags: [{ name: 'pm', category: 'skills' }]
     });
 
     const retrieved = await service.getExperience(created.id);
     expect(retrieved).toBeDefined();
-    expect(retrieved?.title).toBe('Product Manager');
-    expect(retrieved?.organization).toBe('StartupXYZ');
+    expect(retrieved?.title.en).toBe('Product Manager');
+    expect(retrieved?.company.en).toBe('StartupXYZ');
   });
 
   it('should update experience fields', async () => {
     const created = await service.addExperience({
-      title: 'Junior Developer',
-      organization: 'OldCorp',
-      startDate: '2019-06-01',
-      description: 'Learning role',
-      tags: [{ name: 'junior', category: 'skills' }],
-      language: 'en'
+      external_id: 'test-exp-3',
+      title: { en: 'Junior Developer' },
+      company: { en: 'OldCorp' },
+      dates: { start: '2019-06-01', end: '2020-05-31' },
+      article: { en: 'Learning role' },
+      last_verified: '2024-01-01',
+      tags: [{ name: 'junior', category: 'skills' }]
     });
 
     const updated = await service.updateExperience(created.id, {
-      title: 'Mid-level Developer',
-      description: 'Grew into leadership'
+      title: { en: 'Mid-level Developer' },
+      article: { en: 'Grew into leadership' }
     });
 
-    expect(updated.title).toBe('Mid-level Developer');
-    expect(updated.description).toBe('Grew into leadership');
-    expect(updated.organization).toBe('OldCorp'); // unchanged
+    expect(updated.title.en).toBe('Mid-level Developer');
+    expect(updated.article?.en).toContain('Grew into leadership');
+    expect(updated.company.en).toBe('OldCorp'); // unchanged
   });
 
   it('should handle missing experience gracefully', async () => {
@@ -124,40 +125,41 @@ describe('Experience Search', () => {
     
     // Create test experiences
     const exp1 = await service.addExperience({
-      title: 'Node.js Developer',
-      organization: 'TechCorp',
-      startDate: '2020-01-01',
-      endDate: '2021-12-31',
-      description: 'Backend development',
+      external_id: 'test-exp-search-1',
+      title: { en: 'Node.js Developer' },
+      company: { en: 'TechCorp' },
+      dates: { start: '2020-01-01', end: '2021-12-31' },
+      article: { en: 'Backend development' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-nodejs', category: 'skills' },
         { name: 'search-teamwork', category: 'skills' }
-      ],
-      language: 'en'
+      ]
     });
     exp1Id = exp1.id;
     
     const exp2 = await service.addExperience({
-      title: 'Python Engineer',
-      organization: 'DataCorp',
-      startDate: '2022-01-01',
-      endDate: '2023-06-30',
-      description: 'Data pipelines',
-      tags: [{ name: 'search-python', category: 'skills' }],
-      language: 'en'
+      external_id: 'test-exp-search-2',
+      title: { en: 'Python Engineer' },
+      company: { en: 'DataCorp' },
+      dates: { start: '2022-01-01', end: '2023-06-30' },
+      article: { en: 'Data pipelines' },
+      last_verified: '2024-01-01',
+      tags: [{ name: 'search-python', category: 'skills' }]
     });
     exp2Id = exp2.id;
     
     const exp3 = await service.addExperience({
-      title: 'Full Stack Developer',
-      organization: 'TechCorp',
-      startDate: '2023-07-01',
-      description: 'Both frontend and backend',
+      external_id: 'test-exp-search-3',
+      title: { en: 'Full Stack Developer' },
+      company: { en: 'TechCorp' },
+      dates: { start: '2023-07-01', end: '2024-12-31' },
+      article: { en: 'Both frontend and backend' },
+      last_verified: '2024-01-01',
       tags: [
         { name: 'search-nodejs', category: 'skills' },
         { name: 'search-python', category: 'skills' }
-      ],
-      language: 'en'
+      ]
     });
     exp3Id = exp3.id;
   });

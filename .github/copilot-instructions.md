@@ -109,5 +109,5 @@ Pattern in [docs/adding-new-scrapers.md](../docs/adding-new-scrapers.md):
 
 - [docs/constitution.md](../docs/constitution.md) - Core principles (MUST READ)
 - [job-monitoring/src/job_monitor/schemas.py](../job-monitoring/src/job_monitor/schemas.py) - All Pydantic models
-- [dbschema/default.esdl](../dbschema/default.esdl) - EdgeDB schema definitions
+- [dbschema/](../dbschema/) - EdgeDB schema definitions and migrations
 - [mcp-servers/knowledge-base/src/server.ts](../mcp-servers/knowledge-base/src/server.ts) - MCP tool definitions

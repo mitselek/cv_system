@@ -189,10 +189,18 @@ async def import_skills(client: edgedb.AsyncIOClient, skills_dir: Path) -> None:
             # Build Translation for name
             name_translation = build_translation(skill_name)
             
-            # Parse proficiency
+            # Parse proficiency (with None check)
+            if proficiency is None:
+                print(f"  ⚠️  {skill_file.name}: Missing proficiency_level, skipping")
+                skipped_count += 1
+                continue
             level, level_display = parse_proficiency(proficiency)
             
-            # Map category
+            # Map category (with None check)
+            if category_str is None:
+                print(f"  ⚠️  {skill_file.name}: Missing category, skipping")
+                skipped_count += 1
+                continue
             category_enum = map_category(category_str)
             
             # Map verification status
