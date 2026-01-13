@@ -40,7 +40,9 @@
       "type": "shell",
       "command": "npm",
       "args": ["test", "--", "--run"],
-      "cwd": "${workspaceFolder}/mcp-servers/knowledge-base",
+      "options": {
+        "cwd": "${workspaceFolder}/mcp-servers/knowledge-base"
+      },
       "group": {
         "kind": "test",
         "isDefault": false
@@ -56,7 +58,9 @@
       "type": "shell",
       "command": "npm",
       "args": ["run", "type-check"],
-      "cwd": "${workspaceFolder}/mcp-servers/knowledge-base",
+      "options": {
+        "cwd": "${workspaceFolder}/mcp-servers/knowledge-base"
+      },
       "group": {
         "kind": "test",
         "isDefault": false

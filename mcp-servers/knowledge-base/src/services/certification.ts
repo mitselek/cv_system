@@ -188,7 +188,9 @@ export class CertificationService {
     }
 
     if (filters.issuer) {
-      whereClauses.push(`contains(str_lower(<str>.issuer['et'] ?? <str>.issuer['en']), str_lower(<str>$issuer))`);
+      whereClauses.push(
+        `contains(str_lower(<str>json_get(.issuer, 'et') ?? <str>json_get(.issuer, 'en')), str_lower(<str>$issuer))`
+      );
       params.issuer = filters.issuer;
     }
 

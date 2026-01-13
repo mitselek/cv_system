@@ -191,7 +191,10 @@ export class EducationService {
         EXISTS (
           FOR inst IN array_unpack(.institutions)
           UNION (
-            contains(str_lower(<str>inst['et'] ?? <str>inst['en']), str_lower(<str>$institution))
+            contains(
+              str_lower(<str>json_get(inst, 'et') ?? <str>json_get(inst, 'en')),
+              str_lower(<str>$institution)
+            )
           )
         )
       `);

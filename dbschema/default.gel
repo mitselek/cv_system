@@ -50,7 +50,7 @@ module default {
     # 4. Return empty string if none exist
     function get_text(t: Translation, lang: str) -> str
         using (
-            <str>t[lang] ?? <str>t['et'] ?? <str>t['en'] ?? ''
+            <str>json_get(t, lang) ?? <str>json_get(t, 'et') ?? <str>json_get(t, 'en') ?? ''
         );
 
     scalar type HttpUrl extending str {
