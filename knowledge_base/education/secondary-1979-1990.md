@@ -9,6 +9,8 @@ institutions:
   - Riga Secondary School No. 1
   - Tallinn Secondary School of Science
   - Õismäe Humanities Gymnasium
+fields:
+  - General Education
 degree: Secondary Education
 status: verified
 last_verified: '2025-11-21'
