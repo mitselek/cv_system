@@ -402,13 +402,33 @@ type Experience {
 
 **Usage Patterns:**
 
-```esdl
-# Insert with explicit JSON cast
-INSERT Experience {
-    title := <Translation>to_json('{"en": "Senior Developer", "et": "Vanemarendaja"}'),
-    company := <Translation>to_json('{"en": "Tech Corp"}')
-};
+```typescript
+// TypeScript/JavaScript (MCP Server, Import Scripts)
+// EdgeDB client auto-serializes JS objects to JSON
+const result = await client.querySingle(`
+  INSERT Experience {
+    title := <Translation>$title,
+    company := <Translation>$company
+  }
+`, {
+  title: { en: "Senior Developer", et: "Vanemarendaja" },
+  company: { en: "Tech Corp" }
+});
+```
 
+```python
+# Python (Import Scripts)
+# Pass dict directly, EdgeDB serializes to JSON
+await client.query('''
+    INSERT Experience {
+        title := <Translation>$title,
+        company := <Translation>$company
+    }
+''', title={"en": "Senior Developer", "et": "Vanemarendaja"},
+     company={"en": "Tech Corp"})
+```
+
+```esdl
 # Query with smart fallback
 SELECT Experience {
     title_en := <str>.title['en'],
@@ -416,6 +436,11 @@ SELECT Experience {
     display_title := <str>.title['en'] ?? <str>.title['et']
 };
 ```
+
+**Critical: NO JSON.stringify() or to_json() needed!**
+- ❌ WRONG: `JSON.stringify({en: 'text'})` → Double-stringified, violates constraint
+- ❌ WRONG: `to_json('{"en":"text"}')` → Unnecessary, client handles serialization
+- ✅ CORRECT: Pass object directly `{en: 'text'}` → EdgeDB client serializes automatically
 
 **Rationale:**
 
@@ -435,10 +460,12 @@ SELECT Experience {
 
 **Trade-offs:**
 
-- ⚠️ **Requires casting in queries:** Must use `<str>.field['en']` syntax (acceptable overhead)
+- ⚠️ **Query syntax overhead:** Must use `<str>.field['en']` bracket notation (mitigatable with computed properties)
 - ⚠️ **TypeScript integration:** Default type is `unknown`, requires explicit interface definition
+- ✅ **Clean inserts/updates:** No `JSON.stringify()` or `to_json()` needed - pass objects directly
 - ✅ **Atomic validation:** Empty object `{}` rejected by constraint
 - ✅ **Performance:** Single-row storage, indexable, no joins
+- ✅ **Client auto-serialization:** EdgeDB protocol handles JS/Python object → JSON conversion
 
 **TypeScript Interface (for client library):**
 
@@ -465,6 +492,43 @@ constraint expression on (
 - Inserted test data: `{"en": "Python Programming", "et": "Pythoni programmeerimine"}` - Success
 - Query with fallback: `<str>.name['en'] ?? <str>.name['et']` - Works perfectly
 - Empty object `{}` rejected: "JSON index 'et' is out of bounds" - Constraint enforced
+- **Client serialization validated:** JS/Python objects passed directly, no `JSON.stringify()` needed
+
+**Production Usage Discovery (2025-01):**
+
+During MCP server implementation and testing, discovered the correct usage pattern:
+
+```typescript
+// ❌ INCORRECT (initial assumption from EdgeQL docs)
+const title = JSON.stringify({ en: "Python" });
+await client.query('INSERT Skill { name := <Translation>to_json($title) }', { title });
+// Result: Double-stringified string violates Translation constraint
+
+// ✅ CORRECT (validated through testing)
+const title = { en: "Python" };
+await client.query('INSERT Skill { name := <Translation>$title }', { title });
+// Result: EdgeDB client auto-serializes object to JSON, constraint satisfied
+```
+
+**Key Insight:** The JSON approach is **cleaner than expected** because EdgeDB's protocol handles serialization automatically. The original concern about "messy double-stringification" was based on incorrect usage assumptions.
+
+**Potential Enhancements (see issue #48):**
+
+1. **Global utility function** for DRY translation fallback:
+   ```esdl
+   function get_text(t: Translation, lang: str) -> str
+     using (<str>t[lang] ?? <str>t['et'] ?? <str>t['en'] ?? '');
+   ```
+
+2. **Computed properties** to hide JSON syntax from queries:
+   ```esdl
+   type Skill {
+     required property name -> Translation;
+     property display_name := get_text(.name, 'en');
+   }
+   ```
+
+These would reduce query verbosity while preserving all benefits of JSON storage.
 
 ### 2. URL Validation - ✅ DECIDED
 
