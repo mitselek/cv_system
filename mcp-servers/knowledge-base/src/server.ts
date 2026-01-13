@@ -5,10 +5,11 @@ import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 import { EdgeDBClient } from './edgedb.js';
-import { ExperienceService, type TagReference } from './services/experience.js';
+import { ExperienceService } from './services/experience.js';
 import { SkillService } from './services/skill.js';
 import { AchievementService } from './services/achievement.js';
 import { TagService } from './services/tag.js';
+import { type TagReference, SkillCategory, VerificationStatus } from './types.js';
 
 const server = new Server(
   {
