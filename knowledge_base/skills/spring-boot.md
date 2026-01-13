@@ -1,18 +1,14 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 id: spring-boot
 skill_name:
   et: Spring Boot
   en: Spring Boot
 category: Framework
+proficiency_level: 7/10
 tags: [java, backend, web-framework]
 status: verified
-
 last_verified: '2025-11-26'
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## Experience
 

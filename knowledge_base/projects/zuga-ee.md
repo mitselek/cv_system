@@ -1,4 +1,4 @@
-```yaml
+---
 id: zuga-ee
 type: project
 title:
@@ -21,7 +21,7 @@ skills_demonstrated:
     typescript,
     documentation,
   ]
-```
+---
 
 ## et
 

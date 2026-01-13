@@ -1,7 +1,6 @@
 ---
 id: web-scraping
 skill_name:
-  et: Veebilõimuse (Web Scraping)
   en: Web Scraping
 category: Data Extraction
 proficiency_level: Advanced

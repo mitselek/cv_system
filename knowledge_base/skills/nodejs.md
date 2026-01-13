@@ -1,28 +1,22 @@
 ---
-
 id: nodejs
 skill_name:
-et: Node.js
-en: Node.js
+  et: Node.js
+  en: Node.js
 category: Backend Development
 proficiency_level: 8/10
 tags:
-
-- programming
-- backend
-- javascript
-- server-side
-
+  - programming
+  - backend
+  - javascript
+  - server-side
 status: verified
 last_verified: '2025-11-27'
-
 verified_through:
-
-- Entu platform backend (2010-present, 15 years)
-- PÖFF platform backend with Strapi CMS (2021-2024, 3+ years)
-- API development and REST services
-- Database integration (MongoDB, PostgreSQL)
-
+  - Entu platform backend (2010-present, 15 years)
+  - PÖFF platform backend with Strapi CMS (2021-2024, 3+ years)
+  - API development and REST services
+  - Database integration (MongoDB, PostgreSQL)
 ---
 
 ## Description

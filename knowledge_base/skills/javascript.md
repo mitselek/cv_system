@@ -9,3 +9,7 @@ tags: [programming, frontend, backend, nodejs]
 status: verified
 last_verified: '2025-11-21'
 ---
+
+## en
+
+15+ years of JavaScript experience across frontend and backend development.

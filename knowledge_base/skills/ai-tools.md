@@ -13,8 +13,6 @@ usage_period:
   intensity: active
 ---
 
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
-
 ## Kogemus / Experience
 
 ### et

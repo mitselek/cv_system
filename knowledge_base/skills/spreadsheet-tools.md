@@ -1,14 +1,10 @@
-<!-- markdownlint-disable MD003 MD007 MD022 MD032 -->
-
 ---
 id: spreadsheet-tools
 skill_name:
   et: Tabelarvutus (Excel, Google Sheets)
   en: Spreadsheet Tools (Excel, Google Sheets)
 category: Technical
-proficiency:
-  excel: 8/10
-  google_sheets: 10/10
+proficiency_level: 9/10
 tags: [data-analysis, automation, formulas, database-operations, reporting]
 evidence:
   - eesti-malu-instituut-2017-2024
@@ -17,8 +13,6 @@ status: verified
 
 last_verified: '2025-11-22'
 ---
-
-<!-- markdownlint-enable MD003 MD007 MD022 MD032 -->
 
 ## et
 
