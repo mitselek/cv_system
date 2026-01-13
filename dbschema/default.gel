@@ -36,8 +36,8 @@ module default {
     # Knowledge Base Domain - Scalar Types
     scalar type Translation extending json {
         constraint expression on (
-            len(<str>__subject__['et'] ?? '') > 0 OR
-            len(<str>__subject__['en'] ?? '') > 0
+            len(<str>json_get(__subject__, 'et') ?? '') > 0 OR
+            len(<str>json_get(__subject__, 'en') ?? '') > 0
         ) {
             errmessage := 'At least one language (et or en) must be provided';
         };
