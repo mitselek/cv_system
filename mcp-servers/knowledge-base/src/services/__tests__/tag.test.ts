@@ -10,8 +10,9 @@ describe('Tag/Classifier CRUD', () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new TagService(client);
-    // Delete entities first (they reference tags), ignore errors if they don't exist
+    // Delete entities in correct order (delete KnowledgeBaseLanguage first)
     try {
+      await client.query('DELETE KnowledgeBaseLanguage');
       await client.query('DELETE Experience');
       await client.query('DELETE Skill');
       await client.query('DELETE Achievement');
@@ -76,7 +77,8 @@ describe('Tag Usage Statistics', () => {
     await client.connect();
     service = new TagService(client);
 
-    // Full cleanup for accurate counts
+    // Full cleanup for accurate counts - delete in correct order
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Experience');
     await client.query('DELETE Skill');
     await client.query('DELETE Achievement');
@@ -150,7 +152,8 @@ describe('Fuzzy Tag Matching', () => {
     await client.connect();
     service = new TagService(client);
 
-    // Clean database - delete entities first, then tags
+    // Clean database - delete in correct order
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Experience');
     await client.query('DELETE Skill');
     await client.query('DELETE Achievement');

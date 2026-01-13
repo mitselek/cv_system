@@ -34,6 +34,38 @@
         "panel": "dedicated"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Test MCP Knowledge Base",
+      "type": "shell",
+      "command": "npm",
+      "args": ["test", "--", "--run"],
+      "cwd": "${workspaceFolder}/mcp-servers/knowledge-base",
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Type Check MCP Knowledge Base",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "type-check"],
+      "cwd": "${workspaceFolder}/mcp-servers/knowledge-base",
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
     }
   ]
 }

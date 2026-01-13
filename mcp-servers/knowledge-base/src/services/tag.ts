@@ -69,11 +69,13 @@ export class TagService {
    * Add new tag (with unique constraint per category)
    */
   async addTag(name: string, category: string): Promise<Tag> {
+    const today = new Date().toISOString().split('T')[0];
     const query = `
       SELECT (
         INSERT Tag {
           name := <str>$name,
-          category := <str>$category
+          category := <str>$category,
+          last_verified := <IsoDate>$last_verified
         } UNLESS CONFLICT ON (.name, .category) ELSE (
           SELECT Tag FILTER .name = <str>$name AND .category = <str>$category
         )
@@ -85,7 +87,7 @@ export class TagService {
       }
     `;
 
-    const result = await this.client.querySingle<Tag>(query, { name, category });
+    const result = await this.client.querySingle<Tag>(query, { name, category, last_verified: today });
 
     if (!result) {
       throw new Error('Failed to create tag');

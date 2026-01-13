@@ -10,8 +10,9 @@ describe('Experience CRUD', () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new ExperienceService(client);
-    // Clean up before tests - delete entities first (they reference tags)
+    // Clean up before tests - delete in correct order to respect referential integrity
     try {
+      await client.query('DELETE KnowledgeBaseLanguage');
       await client.query('DELETE Experience');
       await client.query('DELETE Skill');
       await client.query('DELETE Achievement');
@@ -19,7 +20,10 @@ describe('Experience CRUD', () => {
     } catch (e) {
       // Some tags may be referenced by other test suites - that's OK
       // Just clean up what we can
-      await client.query('DELETE Experience');
+      try {
+        await client.query('DELETE KnowledgeBaseLanguage');
+        await client.query('DELETE Experience');
+      } catch {}
     }
     
     // Create tags for testing
@@ -112,7 +116,8 @@ describe('Experience Search', () => {
     await client.connect();
     service = new ExperienceService(client);
     
-    // Clean up
+    // Clean up - delete in correct order
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Experience');
     await client.query(`DELETE Tag FILTER .name IN {'search-nodejs', 'search-python', 'search-teamwork'}`);
     

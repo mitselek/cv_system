@@ -38,14 +38,15 @@ export class AchievementService {
       throw new Error('Achievement title must have at least one language (et or en)');
     }
 
+    const articleClause = input.article ? 'article := <Translation><json>$article,' : '';
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs)
       SELECT (
         INSERT Achievement {
           external_id := <str>$external_id,
-          title := <Translation>to_json($title),
+          title := <Translation><json>$title,
           date := <IsoDate>$date,
-          article := <Translation>to_json($article),
+          ${articleClause}
           verification_status := <VerificationStatus>$verification_status,
           last_verified := <IsoDate>$last_verified,
           tags := DISTINCT (
@@ -76,7 +77,7 @@ export class AchievementService {
       external_id: input.external_id,
       title: JSON.stringify(input.title),
       date: input.date,
-      article: input.article ? JSON.stringify(input.article) : JSON.stringify({}),
+      ...(input.article && { article: JSON.stringify(input.article) }),
       verification_status: input.verification_status || VerificationStatus.Draft,
       last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),

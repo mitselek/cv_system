@@ -11,6 +11,8 @@ describe('Skill CRUD', () => {
     client = new EdgeDBClient();
     await client.connect();
     service = new SkillService(client);
+    // Delete in correct order to respect referential integrity
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Skill');
   });
 
@@ -131,7 +133,8 @@ describe('Skill Search', () => {
 
     console.log('EdgeDB connected:', await client.query('SELECT 1'));
 
-    // FULL cleanup - wipe everything for fresh test data
+    // FULL cleanup - wipe everything for fresh test data in correct order
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Skill');
     await client.query('DELETE Experience');
     await client.query('DELETE Achievement');

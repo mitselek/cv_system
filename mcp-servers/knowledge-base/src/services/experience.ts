@@ -46,17 +46,18 @@ export class ExperienceService {
       throw new Error('Experience company must have at least one language (et or en)');
     }
 
+    const articleClause = input.article ? 'article := <Translation><json>$article,' : '';
     const query = `
       WITH tag_refs := array_unpack(<array<tuple<name: str, category: str>>>$tag_refs),
            skill_ids := array_unpack(<array<str>>$skill_ids)
       SELECT (
         INSERT Experience {
           external_id := <str>$external_id,
-          title := <Translation>to_json($title),
-          company := <Translation>to_json($company),
+          title := <Translation><json>$title,
+          company := <Translation><json>$company,
           url := <optional HttpUrl>$url,
           dates := (start := <IsoDate>$date_start, end := <IsoDate>$date_end),
-          article := <Translation>to_json($article),
+          ${articleClause}
           verification_status := <VerificationStatus>$verification_status,
           last_verified := <IsoDate>$last_verified,
           tags := DISTINCT (
@@ -94,7 +95,7 @@ export class ExperienceService {
       url: input.url || null,
       date_start: input.dates.start,
       date_end: input.dates.end,
-      article: input.article ? JSON.stringify(input.article) : JSON.stringify({}),
+      ...(input.article && { article: JSON.stringify(input.article) }),
       verification_status: input.verification_status || VerificationStatus.Draft,
       last_verified: input.last_verified,
       tag_refs: input.tags.map(t => ({ name: t.name, category: t.category })),

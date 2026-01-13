@@ -66,7 +66,8 @@ describe('Achievement CRUD', () => {
   });
 
   it('should handle missing achievement gracefully', async () => {
-    const result = await service.getAchievement('nonexistent-id');
+    const fakeuuid = '00000000-0000-0000-0000-000000000000';
+    const result = await service.getAchievement(fakeuuid);
     expect(result).toBeNull();
   });
 });
@@ -85,7 +86,8 @@ describe('Achievement Search', () => {
 
     console.log('EdgeDB connected:', await client.query('SELECT 1'));
 
-    // Full cleanup for fresh test data
+    // Full cleanup for fresh test data - delete in correct order
+    await client.query('DELETE KnowledgeBaseLanguage');
     await client.query('DELETE Achievement');
     await client.query('DELETE Skill');
     await client.query('DELETE Experience');
