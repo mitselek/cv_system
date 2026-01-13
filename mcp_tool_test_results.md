@@ -7,15 +7,15 @@
 
 UUIDs obtained from EdgeDB:
 
-- Skill: `915d8bc2-f053-11f0-a267-f35dabef99f0` (project-management)
+- Skill: `a5fd60ba-f0bd-11f0-97d5-67fac7d68b9a` (mcp-test-update-skill-2026-01-13)
 - Certification: `9eefaf3e-f019-11f0-905b-17b36f6dc68e` (mtcna-2025)
 - Education: `c84f012c-f082-11f0-8893-7bf667e66719` (university-studies-1990-2002)
 - Achievement: `9c30734a-f088-11f0-afb1-8f2fc16b1937` (mcp-test-achievement-2026-01-13)
-- Experience: `f420cbca-f053-11f0-a267-5fd1df86972d` (auma-expo-1992-1993)
+- Experience: `d1e4ef62-f0be-11f0-9115-770768980f83` (mcp-test-update-experience-2026-01-13)
 - Project: `cef57094-f017-11f0-8b39-ff1c10170e28` (cv-system)
 - Project (test): `f34b113e-f089-11f0-8055-2b04d2c95a55` (mcp-test-project-2026-01-13)
-- Hobby: `8231942e-f01a-11f0-95bd-cfdeefcf5d26` (3d-modeling-printing)
-- Language: `a9aa1ce6-f089-11f0-8055-5769e50bd137` (mcp-test-language-2026-01-13)
+- Hobby: `8a584568-f0be-11f0-9115-cb5b10a55ad5` (mcp-test-hobby-update-2026-01-13)
+- Language: `77ae83d2-f0be-11f0-abe7-077dc7f7b201` (mcp-test-language-update-2026-01-13)
 - Education (test): `f37701fe-f089-11f0-8055-0b6def026149` (mcp-test-education-2026-01-13)
 
 ---
@@ -52,10 +52,10 @@ UUIDs obtained from EdgeDB:
 | search_languages      | 2026-01-13T14:10:56Z | WORKS       | Tag filter works (mcp-test/test); empty args currently returns []                          |
 | search_projects       | 2026-01-13T14:05:09Z | WORKS       | Status filter works (active)                                                               |
 | search_skills         | 2026-01-13T13:48:20Z | WORKS       | Returns list of skills; supports optional filters                                          |
-| update_certification  |                      | ❌ DISABLED |                                                                                            |
+| update_certification  | 2026-01-13T20:18:07Z | WORKS       | Updated credential_id + article.en on 9eefaf3e-f019-11f0-905b-17b36f6dc68e                 |
 | update_education      | 2026-01-13T14:17:10Z | WORKS       | Updated degree + dates.end on f37701fe-f089-11f0-8055-0b6def026149                         |
-| update_experience     |                      | ❌ DISABLED |                                                                                            |
-| update_hobby          |                      | ❌ DISABLED |                                                                                            |
-| update_language       |                      | ❌ DISABLED |                                                                                            |
+| update_experience     | 2026-01-13T20:33:00Z | WORKS       | Updated title/company/dates/article on d1e4ef62-f0be-11f0-9115-770768980f83                |
+| update_hobby          | 2026-01-13T20:29:29Z | WORKS       | Updated name.en + tools on 8a584568-f0be-11f0-9115-cb5b10a55ad5                            |
+| update_language       | 2026-01-13T20:28:55Z | WORKS       | Updated name.en + proficiency on 77ae83d2-f0be-11f0-abe7-077dc7f7b201                      |
 | update_project        | 2026-01-13T14:14:20Z | WORKS       | Updated article + technologies on f34b113e-f089-11f0-8055-2b04d2c95a55                     |
-| update_skill          |                      | ❌ DISABLED |                                                                                            |
+| update_skill          | 2026-01-13T20:33:01Z | WORKS       | Updated name + level + article on a5fd60ba-f0bd-11f0-97d5-67fac7d68b9a                     |
