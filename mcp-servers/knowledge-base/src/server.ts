@@ -16,6 +16,15 @@ import { LanguageService } from './services/language.js';
 import { HobbyService } from './services/hobby.js';
 import { type TagReference, SkillCategory, VerificationStatus, ProjectStatus } from './types.js';
 
+function slugifyExternalId(input: string): string {
+  return input
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-+/g, '-');
+}
+
 const server = new Server(
   {
     name: 'cv-system-knb-mcp',
@@ -160,12 +169,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         inputSchema: {
           type: 'object',
           properties: {
-            title: { type: 'string' },
+            title: { type: 'string', description: 'Achievement title' },
             date: { type: 'string', description: 'Achievement date (YYYY-MM-DD)' },
-            description: { type: 'string' },
-            tags: { 
-              type: 'array', 
-              items: { 
+            description: { type: 'string', description: 'Achievement description' },
+            tags: {
+              type: 'array',
+              items: {
                 type: 'object',
                 properties: {
                   name: { type: 'string', description: 'Tag name' },
@@ -950,513 +959,279 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   const { name, arguments: args } = request.params;
   const params = (args ?? {}) as Record<string, unknown>;
 
+  const queriedAtUtc = new Date().toISOString();
+
+  const ok = (data: unknown) => {
+    return {
+      content: [
+        {
+          type: 'text' as const,
+          text: JSON.stringify(
+            {
+              meta: {
+                tool: name,
+                queried_at_utc: queriedAtUtc
+              },
+              data
+            },
+            null,
+            2
+          )
+        }
+      ]
+    };
+  };
+
   try {
     switch (name) {
       case 'add_experience':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await experienceService.addExperience(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        {
+          const title = String(params.title ?? '').trim();
+          const organization = String(params.organization ?? '').trim();
+          const startDate = String(params.start_date ?? '').trim();
+          const endDate = String(params.end_date ?? '').trim();
+          const description = (params.description !== undefined ? String(params.description) : '').trim();
+          const language = params.language === 'et' ? 'et' : 'en';
+          const lastVerified = new Date().toISOString().slice(0, 10);
+
+          if (!title) throw new Error('title is required');
+          if (!organization) throw new Error('organization is required');
+          if (!startDate) throw new Error('start_date is required');
+          if (!endDate) throw new Error('end_date is required');
+
+          const titleT: any = { [language]: title };
+          const companyT: any = { [language]: organization };
+          const articleT: any = description ? { [language]: description } : undefined;
+          const externalIdBase = slugifyExternalId(`${organization}-${title}` || 'experience');
+          const external_id = `${externalIdBase}-${startDate}`;
+
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify(
+                  {
+                    meta: {
+                      tool: name,
+                      queried_at_utc: queriedAtUtc
+                    },
+                    data: await experienceService.addExperience({
+                    external_id,
+                    title: titleT,
+                    company: companyT,
+                    dates: { start: startDate, end: endDate },
+                    article: articleT,
+                    verification_status: VerificationStatus.Draft,
+                    last_verified: lastVerified,
+                    tags: (params.tags as TagReference[] | undefined) ?? [],
+                    skills_demonstrated: []
+                  } as any)
+                  },
+                  null,
+                  2
+                )
+              }
+            ]
+          };
+        }
 
       case 'get_experience':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await experienceService.getExperience(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await experienceService.getExperience(params.id as string));
 
       case 'update_experience':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await experienceService.updateExperience(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await experienceService.updateExperience(params.id as string, params as any));
 
       case 'add_skill':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(await skillService.addSkill(params as any), null, 2)
-            }
-          ]
-        };
+        {
+          const name = String(params.name ?? '').trim();
+          const level = Number(params.level);
+          const description = (params.description !== undefined ? String(params.description) : '').trim();
+          const lastVerified = new Date().toISOString().slice(0, 10);
+
+          if (!name) throw new Error('name is required');
+          if (!Number.isFinite(level)) throw new Error('level is required');
+
+          const external_id = slugifyExternalId(name);
+
+          return ok(
+            await skillService.addSkill({
+              external_id,
+              name: { en: name },
+              category: SkillCategory.Other,
+              level,
+              article: description ? { en: description } : undefined,
+              verification_status: VerificationStatus.Draft,
+              last_verified: lastVerified,
+              tags: (params.tags as TagReference[] | undefined) ?? []
+            } as any)
+          );
+        }
 
       case 'get_skill':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(await skillService.getSkill(params.id as string), null, 2)
-            }
-          ]
-        };
+        return ok(await skillService.getSkill(params.id as string));
 
       case 'update_skill':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await skillService.updateSkill(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await skillService.updateSkill(params.id as string, params as any));
 
       case 'add_achievement':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await achievementService.addAchievement(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        {
+          const title = String(params.title ?? '').trim();
+          const date = String(params.date ?? '').trim();
+          const description = (params.description !== undefined ? String(params.description) : '').trim();
+          const lastVerified = new Date().toISOString().slice(0, 10);
+          const externalIdBase = slugifyExternalId(title || 'achievement');
+          const external_id = `${externalIdBase}-${date || lastVerified}`;
+
+          return ok(
+            await achievementService.addAchievement({
+              external_id,
+              title: { en: title },
+              date,
+              article: description ? { en: description } : undefined,
+              verification_status: VerificationStatus.Draft,
+              last_verified: lastVerified,
+              tags: (params.tags as TagReference[] | undefined) ?? []
+            } as any)
+          );
+        }
 
       case 'get_achievement':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await achievementService.getAchievement(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await achievementService.getAchievement(params.id as string));
 
       case 'add_project':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await projectService.addProject(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await projectService.addProject(params as any));
 
       case 'get_project':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await projectService.getProject(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await projectService.getProject(params.id as string));
 
       case 'update_project':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await projectService.updateProject(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await projectService.updateProject(params.id as string, params as any));
 
       case 'search_projects':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await projectService.searchProjects({
-                  tags: params.tags as TagReference[] | undefined,
-                  status: params.status as ProjectStatus | undefined,
-                  technologies: params.technologies as string[] | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await projectService.searchProjects({
+            tags: params.tags as TagReference[] | undefined,
+            status: params.status as ProjectStatus | undefined,
+            technologies: params.technologies as string[] | undefined
+          })
+        );
 
       case 'list_tags':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(await tagService.listTags(params.category as string | undefined), null, 2)
-            }
-          ]
-        };
+        return ok(await tagService.listTags(params.category as string | undefined));
 
       case 'add_tag':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(await tagService.addTag(params.name as string, params.category as string), null, 2)
-            }
-          ]
-        };
+        return ok(await tagService.addTag(params.name as string, params.category as string));
 
       case 'get_tag_usage':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(await tagService.getTagUsage(params.tag as string), null, 2)
-            }
-          ]
-        };
+        return ok(await tagService.getTagUsage(params.tag as string));
 
       case 'find_similar_tags':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await tagService.findSimilarTags(
-                  params.input as string,
-                  params.max_distance as number | undefined,
-                  params.category as string | undefined
-                ),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await tagService.findSimilarTags(
+            params.input as string,
+            params.max_distance as number | undefined,
+            params.category as string | undefined
+          )
+        );
 
       case 'search_experiences':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await experienceService.searchExperiences({
-                  tags: params.tags as TagReference[] | undefined,
-                  organization: params.organization as string | undefined,
-                  dateRange: params.date_range as { start?: string; end?: string } | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await experienceService.searchExperiences({
+            tags: params.tags as TagReference[] | undefined,
+            organization: params.organization as string | undefined,
+            dateRange: params.date_range as { start?: string; end?: string } | undefined
+          })
+        );
 
       case 'search_skills':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await skillService.searchSkills({
-                  tags: params.tags as TagReference[] | undefined,
-                  levelMin: params.level_min as number | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await skillService.searchSkills({
+            tags: params.tags as TagReference[] | undefined,
+            levelMin: params.level_min as number | undefined
+          })
+        );
 
       case 'search_achievements':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await achievementService.searchAchievements({
-                  tags: params.tags as TagReference[] | undefined,
-                  dateRange: params.date_range as { start?: string; end?: string } | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await achievementService.searchAchievements({
+            tags: params.tags as TagReference[] | undefined,
+            dateRange: params.date_range as { start?: string; end?: string } | undefined
+          })
+        );
 
       // Certification handlers
       case 'add_certification':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await certificationService.addCertification(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await certificationService.addCertification(params as any));
 
       case 'get_certification':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await certificationService.getCertification(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await certificationService.getCertification(params.id as string));
 
       case 'update_certification':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await certificationService.updateCertification(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await certificationService.updateCertification(params.id as string, params as any));
 
       case 'search_certifications':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await certificationService.searchCertifications({
-                  tags: params.tags as TagReference[] | undefined,
-                  issuer: params.issuer as string | undefined,
-                  dateRange: params.date_range as { start?: string; end?: string } | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await certificationService.searchCertifications({
+            tags: params.tags as TagReference[] | undefined,
+            issuer: params.issuer as string | undefined,
+            dateRange: params.date_range as { start?: string; end?: string } | undefined
+          })
+        );
 
       // Education handlers
       case 'add_education':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await educationService.addEducation(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await educationService.addEducation(params as any));
 
       case 'get_education':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await educationService.getEducation(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await educationService.getEducation(params.id as string));
 
       case 'update_education':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await educationService.updateEducation(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await educationService.updateEducation(params.id as string, params as any));
 
       case 'search_education':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await educationService.searchEducation({
-                  tags: params.tags as TagReference[] | undefined,
-                  institution: params.institution as string | undefined,
-                  dateRange: params.date_range as { start?: string; end?: string } | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await educationService.searchEducation({
+            tags: params.tags as TagReference[] | undefined,
+            institution: params.institution as string | undefined,
+            dateRange: params.date_range as { start?: string; end?: string } | undefined
+          })
+        );
 
       // Language handlers
       case 'add_language':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await languageService.addLanguage(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await languageService.addLanguage(params as any));
 
       case 'get_language':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await languageService.getLanguage(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await languageService.getLanguage(params.id as string));
 
       case 'update_language':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await languageService.updateLanguage(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await languageService.updateLanguage(params.id as string, params as any));
 
       case 'search_languages':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await languageService.searchLanguages({
-                  tags: params.tags as TagReference[] | undefined,
-                  minProficiency: params.min_proficiency as string | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await languageService.searchLanguages({
+            tags: params.tags as TagReference[] | undefined,
+            minProficiency: params.min_proficiency as string | undefined
+          })
+        );
 
       // Hobby handlers
       case 'add_hobby':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await hobbyService.addHobby(params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await hobbyService.addHobby(params as any));
 
       case 'get_hobby':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await hobbyService.getHobby(params.id as string),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await hobbyService.getHobby(params.id as string));
 
       case 'update_hobby':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await hobbyService.updateHobby(params.id as string, params as any),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(await hobbyService.updateHobby(params.id as string, params as any));
 
       case 'search_hobbies':
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify(
-                await hobbyService.searchHobbies({
-                  tags: params.tags as TagReference[] | undefined,
-                  tool: params.tool as string | undefined
-                }),
-                null,
-                2
-              )
-            }
-          ]
-        };
+        return ok(
+          await hobbyService.searchHobbies({
+            tags: params.tags as TagReference[] | undefined,
+            tool: params.tool as string | undefined
+          })
+        );
 
       default:
         throw new Error(`Unknown tool: ${name}`);
@@ -1466,7 +1241,20 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       content: [
         {
           type: 'text',
-          text: `Error: ${error instanceof Error ? error.message : String(error)}`
+          text: JSON.stringify(
+            {
+              meta: {
+                tool: name,
+                queried_at_utc: queriedAtUtc,
+                is_error: true
+              },
+              error: {
+                message: error instanceof Error ? error.message : String(error)
+              }
+            },
+            null,
+            2
+          )
         }
       ],
       isError: true

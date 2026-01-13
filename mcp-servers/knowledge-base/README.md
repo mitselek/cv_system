@@ -34,6 +34,22 @@ After adding, reload VS Code (`Ctrl+Shift+P` → "Developer: Reload Window").
 - **EdgeDB Integration:** Leverages graph-relational database for complex queries
 - **MCP Protocol:** Compliant Model Context Protocol server for VS Code integration
 
+## Tool Response Envelope
+
+All tool responses are wrapped in a stable JSON envelope:
+
+```json
+{
+  "meta": {
+    "tool": "get_skill",
+    "queried_at_utc": "2026-01-13T13:46:44.123Z"
+  },
+  "data": { }
+}
+```
+
+On errors, `is_error: true` is included in `meta`, and an `error` object is returned.
+
 ## Architecture
 
 ```text
