@@ -65,10 +65,11 @@ interface Certification extends BaseEntity {
 // --- Compiler Logic ---
 
 const CV_SYSTEM_ROOT = path.join(__dirname, '..', '..');
-const KNOWLEDGE_BASE_ROOT = path.join(CV_SYSTEM_ROOT, 'knowledge_base');
-const OUTPUT_FILE = path.join(KNOWLEDGE_BASE_ROOT, '_compiled_context.md');
 
-async function compileKnowledgeBase() {
+export async function compileKnowledgeBase(knowledgeBaseRoot?: string) {
+  const KNOWLEDGE_BASE_ROOT = knowledgeBaseRoot ?? path.join(CV_SYSTEM_ROOT, 'knowledge_base');
+  const OUTPUT_FILE = path.join(KNOWLEDGE_BASE_ROOT, '_compiled_context.md');
+
   let compiledContent = `# Compiled Professional Background\n\n`;
   compiledContent += `This document is automatically generated from the modular knowledge base.\n`;
   compiledContent += `It serves as a consolidated context for LLM interactions.\n\n---\n\n`;
@@ -138,4 +139,6 @@ async function compileKnowledgeBase() {
   console.log(`Knowledge base compiled to ${OUTPUT_FILE}`);
 }
 
-compileKnowledgeBase().catch(console.error);
+if (require.main === module) {
+  compileKnowledgeBase().catch(console.error);
+}

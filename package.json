@@ -7,6 +7,7 @@
     "build": "tsc",
     "start": "node dist/scripts/build_context.js",
     "compile": "npm run build && npm run start",
+    "test": "vitest",
     "run:gemini-watch": "bash ./scripts/gemini_watch_and_convert.sh",
     "job:fetch": "cd job-monitoring && bash -c 'source ../.venv/bin/activate && python -m job_monitor.cli scan --config config.yaml'",
     "job:fetch:force": "cd job-monitoring && bash -c 'source ../.venv/bin/activate && python -m job_monitor.cli scan --config config.yaml --force'",
@@ -18,7 +19,8 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.10.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.2"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

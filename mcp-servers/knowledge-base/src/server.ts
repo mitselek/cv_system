@@ -10,6 +10,7 @@ import { SkillService } from './services/skill.js';
 import { AchievementService } from './services/achievement.js';
 import { TagService } from './services/tag.js';
 import { ProjectService } from './services/project.js';
+import { scheduleAutoCompile } from './compileHook.js';
 import { CertificationService } from './services/certification.js';
 import { EducationService } from './services/education.js';
 import { LanguageService } from './services/language.js';
@@ -1005,6 +1006,25 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           const externalIdBase = slugifyExternalId(`${organization}-${title}` || 'experience');
           const external_id = `${externalIdBase}-${startDate}`;
 
+          const created = await experienceService.addExperience({
+            external_id,
+            title: titleT,
+            company: companyT,
+            dates: { start: startDate, end: endDate },
+            article: articleT,
+            verification_status: VerificationStatus.Draft,
+            last_verified: lastVerified,
+            tags: (params.tags as TagReference[] | undefined) ?? [],
+            skills_demonstrated: []
+          } as any);
+
+          // Trigger auto-compile (debounced)
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
           return {
             content: [
               {
@@ -1015,17 +1035,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                       tool: name,
                       queried_at_utc: queriedAtUtc
                     },
-                    data: await experienceService.addExperience({
-                    external_id,
-                    title: titleT,
-                    company: companyT,
-                    dates: { start: startDate, end: endDate },
-                    article: articleT,
-                    verification_status: VerificationStatus.Draft,
-                    last_verified: lastVerified,
-                    tags: (params.tags as TagReference[] | undefined) ?? [],
-                    skills_demonstrated: []
-                  } as any)
+                    data: created
                   },
                   null,
                   2
@@ -1073,7 +1083,14 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             updates.article = { en: description };
           }
 
-          return ok(await experienceService.updateExperience(id, updates as any));
+          const updated = await experienceService.updateExperience(id, updates as any);
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
+          return ok(updated);
         }
 
       case 'add_skill':
@@ -1088,18 +1105,24 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
           const external_id = slugifyExternalId(name);
 
-          return ok(
-            await skillService.addSkill({
-              external_id,
-              name: { en: name },
-              category: SkillCategory.Other,
-              level,
-              article: description ? { en: description } : undefined,
-              verification_status: VerificationStatus.Draft,
-              last_verified: lastVerified,
-              tags: (params.tags as TagReference[] | undefined) ?? []
-            } as any)
-          );
+          const created = await skillService.addSkill({
+            external_id,
+            name: { en: name },
+            category: SkillCategory.Other,
+            level,
+            article: description ? { en: description } : undefined,
+            verification_status: VerificationStatus.Draft,
+            last_verified: lastVerified,
+            tags: (params.tags as TagReference[] | undefined) ?? []
+          } as any);
+
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
+          return ok(created);
         }
 
       case 'get_skill':
@@ -1132,7 +1155,14 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           }
 
           // evidence_refs is not currently modeled in the EdgeDB Skill type; ignore safely
-          return ok(await skillService.updateSkill(id, updates as any));
+          const updated = await skillService.updateSkill(id, updates as any);
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
+          return ok(updated);
         }
 
       case 'add_achievement':
@@ -1144,17 +1174,23 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           const externalIdBase = slugifyExternalId(title || 'achievement');
           const external_id = `${externalIdBase}-${date || lastVerified}`;
 
-          return ok(
-            await achievementService.addAchievement({
-              external_id,
-              title: { en: title },
-              date,
-              article: description ? { en: description } : undefined,
-              verification_status: VerificationStatus.Draft,
-              last_verified: lastVerified,
-              tags: (params.tags as TagReference[] | undefined) ?? []
-            } as any)
-          );
+          const created = await achievementService.addAchievement({
+            external_id,
+            title: { en: title },
+            date,
+            article: description ? { en: description } : undefined,
+            verification_status: VerificationStatus.Draft,
+            last_verified: lastVerified,
+            tags: (params.tags as TagReference[] | undefined) ?? []
+          } as any);
+
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
+          return ok(created);
         }
 
       case 'get_achievement':
@@ -1182,7 +1218,16 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return ok(await tagService.listTags(params.category as string | undefined));
 
       case 'add_tag':
-        return ok(await tagService.addTag(params.name as string, params.category as string));
+        {
+          const created = await tagService.addTag(params.name as string, params.category as string);
+          try {
+            scheduleAutoCompile();
+          } catch (err) {
+            console.error('Failed to schedule auto-compile:', err);
+          }
+
+          return ok(created);
+        }
 
       case 'get_tag_usage':
         return ok(await tagService.getTagUsage(params.tag as string));

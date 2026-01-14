@@ -262,7 +262,7 @@ multi link achievements := .<parent_experience[is Achievement];
 
 ### Compilation Status
 
-```
+```text
 ✅ No TypeScript errors
 ✅ No type mismatches
 ✅ All enums properly exported
@@ -271,7 +271,7 @@ multi link achievements := .<parent_experience[is Achievement];
 
 ### Schema Validation
 
-```
+```text
 ✅ Translation constraint valid
 ✅ All scalar types properly defined
 ✅ All relationships properly typed
@@ -333,6 +333,7 @@ For applications using the MCP server:
    ```
 
 3. **Filtering:** Use enum types with type safety
+
    ```typescript
    // Now type-safe with VerificationStatus enum
    ```
