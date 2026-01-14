@@ -66,10 +66,72 @@ interface Certification extends BaseEntity {
 
 const CV_SYSTEM_ROOT = path.join(__dirname, '..', '..');
 
-export async function compileKnowledgeBase(knowledgeBaseRoot?: string) {
+export async function compileKnowledgeBase(knowledgeBaseRoot?: string, source: 'filesystem' | 'edgedb' = 'filesystem') {
   const KNOWLEDGE_BASE_ROOT = knowledgeBaseRoot ?? path.join(CV_SYSTEM_ROOT, 'knowledge_base');
   const OUTPUT_FILE = path.join(KNOWLEDGE_BASE_ROOT, '_compiled_context.md');
 
+  if (source === 'edgedb') {
+    // Query EdgeDB for canonical data
+    const { EdgeDBClient } = await import('../mcp-servers/knowledge-base/src/edgedb.js');
+    const client = new EdgeDBClient();
+    await client.connect();
+
+    let compiledContent = `# Compiled Professional Background\n\n`;
+    compiledContent += `This document is automatically generated from the modular knowledge base (EdgeDB).\n`;
+    compiledContent += `It serves as a consolidated context for LLM interactions.\n\n---\n\n`;
+
+    // Experiences
+    const exps: any[] = await client.query(`
+      SELECT Experience {
+        external_id,
+        title,
+        company,
+        dates,
+        article := (SELECT .article IF EXISTS .article ELSE <json>{}),
+        tags: { name, category } ORDER BY .name
+      }
+      ORDER BY .dates.` + "`start` DESC"
+    );
+
+    if (exps.length > 0) {
+      compiledContent += `## Experiences\n\n`;
+      for (const e of exps) {
+        const yamlBlock = yaml.dump({
+          id: e.external_id,
+          type: 'employment',
+          company: e.company,
+          dates: e.dates,
+          title: e.title,
+          status: e.verification_status ?? 'verified',
+          last_verified: e.last_verified ?? new Date().toISOString().slice(0,10),
+          tags: (e.tags || []).map((t: any) => `${t.name}/${t.category}`)
+        });
+        compiledContent += `### ${e.external_id}\n\n`;
+        compiledContent += "```yaml\n" + yamlBlock + "\n```\n\n";
+        if (e.article && Object.keys(e.article).length > 0) {
+          // Keep markdown body if present under 'article.en' or 'article.et'
+          const body = e.article.en ?? e.article.et ?? '';
+          if (body) {
+            compiledContent += `${body}\n\n`;
+          }
+        }
+        compiledContent += `---\n\n`;
+      }
+    }
+
+    // TODO: add Skills, Achievements, Projects, etc. from EdgeDB as needed
+
+    compiledContent = compiledContent.replace(/\n{3,}/g, '\n\n');
+    compiledContent = compiledContent.trimEnd() + '\n';
+
+    fs.writeFileSync(OUTPUT_FILE, compiledContent, 'utf8');
+    console.log(`Knowledge base compiled (EdgeDB) to ${OUTPUT_FILE}`);
+
+    await client.disconnect();
+    return;
+  }
+
+  // Default: filesystem-based compilation (existing behavior)
   let compiledContent = `# Compiled Professional Background\n\n`;
   compiledContent += `This document is automatically generated from the modular knowledge base.\n`;
   compiledContent += `It serves as a consolidated context for LLM interactions.\n\n---\n\n`;
