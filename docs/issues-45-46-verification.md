@@ -18,6 +18,7 @@ Both Issue #45 (EdgeDB Schema Redesign) and Issue #46 (TypeScript Compatibility)
 **Design Goal:** Support `{et: ..., en: ...}` for all multilingual fields
 
 **Implementation:**
+
 ```esdl
 scalar type Translation extending json {
     constraint expression on (
@@ -35,6 +36,7 @@ function get_text(t: Translation, lang: str) -> str
 ```
 
 **Status:** ✅ **MATCHES DESIGN**
+
 - Bilingual constraint enforced
 - Fallback logic implemented (language → et → en → empty)
 - Used in ALL multilingual fields: `name`, `title`, `company`, `issuer`, `institutions`, `fields`, `article`
@@ -46,6 +48,7 @@ function get_text(t: Translation, lang: str) -> str
 **Missing in Old Schema:** `repository`, `technologies`, `project`, `context`, `location`, `url`
 
 **Implementation - Experience Type:**
+
 ```esdl
 type Experience {
     required property external_id -> str;
@@ -56,7 +59,7 @@ type Experience {
     property article -> Translation;             # ✅ Markdown body (was: description)
     required property verification_status -> VerificationStatus;  # ✅ New
     required property last_verified -> IsoDate;  # ✅ New
-    
+
     multi link tags -> Tag;
     multi link skills_demonstrated -> Skill;     # ✅ New relationship
     multi link achievements := .<parent_experience[is Achievement];  # ✅ New computed backlink
@@ -64,6 +67,7 @@ type Experience {
 ```
 
 **Implementation - Project Type:**
+
 ```esdl
 type Project {
     required property external_id -> str;
@@ -76,7 +80,7 @@ type Project {
     property article -> Translation;
     required property verification_status -> VerificationStatus;  # ✅ New
     required property last_verified -> IsoDate;  # ✅ New
-    
+
     multi link tags -> Tag;
     multi link skills_demonstrated -> Skill;     # ✅ New
 }
@@ -105,12 +109,12 @@ type Project {
 
 #### 4. Field Naming Consistency ✅
 
-| Old Name | New Name | Status |
-|----------|----------|--------|
-| `organization` | `company` (Translation) | ✅ Changed |
-| `skill_name` | `name` (Translation) | ✅ Changed |
+| Old Name                           | New Name                | Status     |
+| ---------------------------------- | ----------------------- | ---------- |
+| `organization`                     | `company` (Translation) | ✅ Changed |
+| `skill_name`                       | `name` (Translation)    | ✅ Changed |
 | `description_et`, `description_en` | `article` (Translation) | ✅ Changed |
-| Single `title: str` | `title: Translation` | ✅ Changed |
+| Single `title: str`                | `title: Translation`    | ✅ Changed |
 
 **Status:** ✅ **ALL FIELD NAMES ALIGNED**
 
@@ -120,13 +124,13 @@ type Project {
 
 **Design Required:** Proper type enforcement instead of strings
 
-| Field | Old Format | New Format | Status |
-|-------|-----------|-----------|--------|
-| Dates | `start_date: str` | `dates: tuple<start: IsoDate, end: optional IsoDate>` | ✅ Strong typing |
-| Level | `level: int16` (1-10) | With constraints | ✅ Enforced |
-| URL | `url: str` | `url: HttpUrl` (regexp validated) | ✅ Validated |
-| ISO Date | `string` | `IsoDate` (regexp: `^\d{4}(-\d{2}(-\d{2})?)?$`) | ✅ Validated |
-| Status | `status: str` | `status: VerificationStatus` (enum) | ✅ Enum |
+| Field    | Old Format            | New Format                                            | Status           |
+| -------- | --------------------- | ----------------------------------------------------- | ---------------- |
+| Dates    | `start_date: str`     | `dates: tuple<start: IsoDate, end: optional IsoDate>` | ✅ Strong typing |
+| Level    | `level: int16` (1-10) | With constraints                                      | ✅ Enforced      |
+| URL      | `url: str`            | `url: HttpUrl` (regexp validated)                     | ✅ Validated     |
+| ISO Date | `string`              | `IsoDate` (regexp: `^\d{4}(-\d{2}(-\d{2})?)?$`)       | ✅ Validated     |
+| Status   | `status: str`         | `status: VerificationStatus` (enum)                   | ✅ Enum          |
 
 **Status:** ✅ **TYPE SAFETY IMPROVED THROUGHOUT**
 
@@ -137,6 +141,7 @@ type Project {
 **Design Required:** `status`, `last_verified`, `source`
 
 **Implementation:**
+
 - ✅ All entity types have `verification_status -> VerificationStatus` (enum: `verified`, `draft`, `outdated`)
 - ✅ All entity types have `last_verified -> IsoDate`
 - ✅ `source` can be stored in `article` field if needed
@@ -151,6 +156,7 @@ type Project {
 ### 1. Translation Interface ✅
 
 **TypeScript:**
+
 ```typescript
 export interface Translation {
   et?: string;
@@ -159,6 +165,7 @@ export interface Translation {
 ```
 
 **EdgeDB Schema:**
+
 ```esdl
 scalar type Translation extending json {
     constraint expression on (
@@ -169,6 +176,7 @@ scalar type Translation extending json {
 ```
 
 **Compatibility:** ✅ **PERFECT**
+
 - TS interface maps directly to JSON structure
 - EdgeDB constraint ensures at least one language present
 - No conversion needed
@@ -178,28 +186,30 @@ scalar type Translation extending json {
 ### 2. Enum Types ✅
 
 **TypeScript Enums Implemented:**
+
 ```typescript
 export enum SkillCategory {
-  ProgrammingLanguage = 'programming_language',
-  BackendDevelopment = 'backend_development',
+  ProgrammingLanguage = "programming_language",
+  BackendDevelopment = "backend_development",
   // ... 13 categories total
 }
 
 export enum VerificationStatus {
-  Verified = 'verified',
-  Draft = 'draft',
-  Outdated = 'outdated'
+  Verified = "verified",
+  Draft = "draft",
+  Outdated = "outdated",
 }
 
 export enum ProjectStatus {
-  Active = 'active',
-  Archived = 'archived',
-  Planned = 'planned',
-  Maintenance = 'maintenance'
+  Active = "active",
+  Archived = "archived",
+  Planned = "planned",
+  Maintenance = "maintenance",
 }
 ```
 
 **EdgeDB Enums:**
+
 ```esdl
 scalar type SkillCategory extending enum<...>;
 scalar type VerificationStatus extending enum<...>;
@@ -213,18 +223,21 @@ scalar type ProjectStatus extending enum<...>;
 ### 3. Relationship Links ✅
 
 **TypeScript Expected:**
+
 ```typescript
 skills_demonstrated?: string[];  // IDs
 achievements?: string[];         // IDs
 ```
 
 **EdgeDB Implemented:**
+
 ```esdl
 multi link skills_demonstrated -> Skill;
 multi link achievements := .<parent_experience[is Achievement];
 ```
 
 **Compatibility:** ✅ **IMPROVED OVER DESIGN**
+
 - Proper links instead of string IDs
 - Compiler-safe type checking
 - Computed backlinks for navigation
@@ -233,13 +246,13 @@ multi link achievements := .<parent_experience[is Achievement];
 
 ### 4. Type Safety Analysis ✅
 
-| Aspect | TypeScript | EdgeDB | Status |
-|--------|-----------|--------|--------|
+| Aspect           | TypeScript     | EdgeDB                | Status        |
+| ---------------- | -------------- | --------------------- | ------------- |
 | Bilingual fields | Optional et/en | Required at least one | ✅ Compatible |
-| Enums | String values | Enum constraints | ✅ Compatible |
-| Dates | ISO string | IsoDate validation | ✅ Compatible |
-| URLs | String | HttpUrl validation | ✅ Improved |
-| References | String IDs | Proper links | ✅ Improved |
+| Enums            | String values  | Enum constraints      | ✅ Compatible |
+| Dates            | ISO string     | IsoDate validation    | ✅ Compatible |
+| URLs             | String         | HttpUrl validation    | ✅ Improved   |
+| References       | String IDs     | Proper links          | ✅ Improved   |
 
 **Compatibility Rating:** ✅ **HIGHLY COMPATIBLE + IMPROVEMENTS**
 
@@ -248,6 +261,7 @@ multi link achievements := .<parent_experience[is Achievement];
 ## Code Verification Results
 
 ### Compilation Status
+
 ```
 ✅ No TypeScript errors
 ✅ No type mismatches
@@ -256,6 +270,7 @@ multi link achievements := .<parent_experience[is Achievement];
 ```
 
 ### Schema Validation
+
 ```
 ✅ Translation constraint valid
 ✅ All scalar types properly defined
@@ -301,15 +316,17 @@ multi link achievements := .<parent_experience[is Achievement];
 For applications using the MCP server:
 
 1. **Query Changes:** Use proper links instead of string IDs
+
    ```typescript
    // Old
-   experience.skills_demonstrated.map(id => getSkill(id))
-   
+   experience.skills_demonstrated.map((id) => getSkill(id));
+
    // New (EdgeDB)
-   experience.skills_demonstrated // Already Skill objects
+   experience.skills_demonstrated; // Already Skill objects
    ```
 
 2. **Data Input:** Translation objects instead of separate fields
+
    ```typescript
    // Old: description_et, description_en
    // New: article: { et: "...", en: "..." }
