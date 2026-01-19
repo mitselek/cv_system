@@ -13,6 +13,8 @@ function Meta(m)
     if val then
       -- Convert the value to a string
       local val_str = pandoc.utils.stringify(val)
+      -- Escape special LaTeX characters for footer display
+      val_str = val_str:gsub('_', '\\_')
       -- Create a raw LaTeX block
       -- Use \def instead of \renewcommand to ensure it works whether the macro
       -- is already defined (by header.tex) or not.
