@@ -75,11 +75,11 @@ const { results } = await env.DB.prepare("SELECT * FROM users WHERE id = ?")
 
 **Võrdlus teiste DB'dega:**
 
-| Database | Asukoht | Latency | Use Case |
-|----------|---------|---------|----------|
-| PostgreSQL | Keskne server | Kõrgem | Core business data |
+| Database      | Asukoht       | Latency    | Use Case                        |
+| ------------- | ------------- | ---------- | ------------------------------- |
+| PostgreSQL    | Keskne server | Kõrgem     | Core business data              |
 | Cloudflare D1 | Edge (global) | Väga madal | Session data, cache, user prefs |
-| Oracle | Keskne server | Kõrgem | Legacy enterprise data |
+| Oracle        | Keskne server | Kõrgem     | Legacy enterprise data          |
 
 **Millal kasutada D1:**
 
