@@ -50,11 +50,18 @@ scripts/
 
 ## YAML Frontmatter Schema
 
+### Requirements
+
+1. **Format:** YAML frontmatter (delimited by `---`)
+2. **Location:** Top of markdown file (before any content)
+3. **docID format:** Max 24 characters, use hyphens (not underscores) for word separation
+4. **Date format:** ISO 8601 (YYYY-MM-DD)
+
 ### TypeScript Interface
 
 ```typescript
 interface DocumentMetadata {
-  /** Document identifier (max 24 chars, e.g., "CV-Company-Role") - appears in footer */
+  /** Document identifier (max 24 chars, use hyphens: "cv-company-role") - appears in footer */
   docID: string & { readonly __brand: "MaxLength24" };
 
   /** Semantic version number (e.g., "1.0", "2.1") - appears in footer */
@@ -62,6 +69,7 @@ interface DocumentMetadata {
 
   /** Document date in ISO format (YYYY-MM-DD) - appears in footer */
   date: string & { readonly __brand: "ISODate" };
+
   /** Author name - appears in footer */
   author: string;
 
@@ -91,12 +99,18 @@ All documents **must** include these fields in YAML frontmatter:
 
 ```yaml
 ---
-docID: CV-Company-Role # Required: Document identifier
+docID: cv-company-role # Required: Max 24 chars, use hyphens (not underscores)
 version: 1.0 # Required: Version number
 date: 2025-12-22 # Required: ISO date (YYYY-MM-DD)
 author: Your Name # Required: Author name
 ---
 ```
+
+**Important formatting notes:**
+
+- Use **YAML frontmatter** (delimited by `---`), not HTML comments
+- Use **hyphens** for docID word separation (e.g., `cv-company-role`, not `cv_company_role`)
+- Special characters in metadata (like underscores) are automatically escaped for LaTeX
 
 ### Optional Fields
 
@@ -104,7 +118,7 @@ PDF metadata is **optional** and typically used for ATS optimization:
 
 ```yaml
 ---
-docID: CV-Acme-Dev
+docID: cv-acme-dev
 version: 1.0
 date: 2025-12-22
 author: Jane Doe
@@ -119,18 +133,33 @@ pdf_metadata:
 
 ## Usage
 
+### Script Location
+
+The conversion script is located at: `scripts/convert-to-pdf.sh`
+
+From the **repository root**, you can call it with:
+
+```bash
+scripts/convert-to-pdf.sh [options] [files...]
+```
+
+From any **subdirectory**, use the full path:
+
+```bash
+/path/to/cv_system/scripts/convert-to-pdf.sh document.md
+```
+
 ### Basic Conversion
 
 ```bash
 # From your document directory
-cd path/to/your/documents/
+cd applications/Company/Position/
+
+# Convert specific file using full path
+/home/michelek/Documents/github/cv_system/scripts/convert-to-pdf.sh document.md
 
 # Convert all .md files in current directory
-# (Adjust relative path to scripts/ based on your structure)
-../../scripts/convert-to-pdf.sh
-
-# Convert specific file
-../../scripts/convert-to-pdf.sh document.md
+/home/michelek/Documents/github/cv_system/scripts/convert-to-pdf.sh *.md
 ```
 
 ### Command-Line Options
@@ -315,7 +344,7 @@ function validateDocumentMetadata(data: any): data is DocumentMetadata {
     }
     if (!/^[A-Z0-9-]+$/.test(data.docID)) {
       errors.push(
-        `docID must contain only uppercase letters, numbers, and hyphens: "${data.docID}"`
+        `docID must contain only uppercase letters, numbers, and hyphens: "${data.docID}"`,
       );
     }
   }
