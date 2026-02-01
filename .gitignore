@@ -92,3 +92,13 @@ riigihanked/queue.txt
 knowledge_base/.obsidian/workspace.json
 applications/**/communications/*.mp3
 applications/**/communications/*.zip
+
+# Personal/Sensitive Documents - Employment Contracts
+# Contains: isikukood, home address, salary, bank info
+applications/**/*Mihkel*Putrins*.asice
+applications/**/*Mihkel*Putrins*.pdf
+applications/**/*toopakkumine*.pdf
+applications/**/*ISIKUANDMED*.docx
+applications/**/*contract*.pdf
+applications/**/*leping*.pdf
+applications/**/*leping*.docx
