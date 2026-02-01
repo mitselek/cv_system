@@ -68,6 +68,6 @@ Lisa README, kus on kirjeldatud:
 - võimalikud kitsaskohad
 - ideed edasiseks arenduseks
 
-Kui tekib küsimusi, siis palun pöördu meie tehnoloogiajuhi Valeri Kuzmini poole +37253407716, valeri.kuzmin@evr.ee.
+Kui tekib küsimusi, siis palun pöördu meie tehnoloogiajuhi Valeri Kuzmini poole.
 
 Edu soovides!
