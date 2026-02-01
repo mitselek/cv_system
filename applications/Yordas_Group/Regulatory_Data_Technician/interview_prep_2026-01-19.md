@@ -1,6 +1,6 @@
 ---
 docID: interview-prep-yordas
-version: 1.0
+version: 1.1
 date: 2026-01-19
 author: Mihkel Putrinš
 ---
@@ -25,62 +25,59 @@ author: Mihkel Putrinš
 
 ## Key Talking Points
 
-### Your Strongest Matches (Lead With These)
+### Opening Hook (Pattern Recognition Over Tools)
 
-**Data Processing Excellence:**
+"I'm a generalist who's been solving data problems for 40 years - from writing scripts for fermentation pumps in 1986 to building ETL pipelines for national memorials today. The tools change constantly, but the patterns for data quality, validation, and user-centered design stay remarkably consistent."
 
-- 108,867 museum records processed with Pandas 2.0+
-- 7 years as Data Curator (2017-2024)
-- Production ETL pipelines with comprehensive testing
+### Your Strongest Matches
 
-**Web Scraping Expertise:**
+**1. Systems Thinking for Data Quality**
 
-- 813-line BeautifulSoup production system (PÖFF, 2021-2024)
-- Multi-platform data extraction experience
-- Robust error handling and data validation
+- Built environments where historians validate data without understanding technology
+- Integrated dozens of sources; iterative refinement (Memorial: 22,000+ names, 6 years)
+- Feedback loops ensuring accuracy in high-stakes contexts
 
-**Spreadsheet Mastery:**
+**2. Pattern Recognition Across Domains**
 
-- Google Sheets: 10/10 (Apps Script automation, live DB connections)
-- Excel: 8/10 (VBA macros, complex formulas)
-- Built custom work environments for historians
+- 108,867 museum records - data quality patterns, not tools
+- Domains: historical records, festival logistics, memorial databases, university systems
+- Methodology transfers; specific libraries are interchangeable
 
-**SQL/Database Skills:**
+**3. Learning Velocity**
 
-- PostgreSQL, MySQL, Oracle PL/SQL (8/10)
-- Trained historians to work directly in MySQL
-- 15+ years database design and management
+- 40-year track record: problems appear → discover tools → study-prototype-assess-implement
+- Example: web scraping need → discovered BeautifulSoup → 813-line production system
+- Java → JavaScript → Python → TypeScript → AI tools - all problem-driven
 
-### Address Potential Gaps Proactively
+### Addressing Gaps
 
-**Numpy:** "While I haven't used Numpy extensively, I have strong Pandas experience and the learning curve for Numpy is minimal given the similar ecosystem."
+**Numpy:** "Same patterns as Pandas - data transformation, validation, quality. Learning curve minimal when you understand structures. 40 years of picking up new tools as needed."
 
-**Chemistry Background:** "While my background is in computer science and mathematics, I'm genuinely interested in sustainability and regulations. The technical data work aligns perfectly with my expertise, and I'm eager to learn the domain knowledge."
+**Chemistry:** "I build systems domain experts can use. Historians, festival organizers, administrators - same pattern: collaborate, build validation systems, ensure accuracy."
 
-**Incomplete Degree:** "I have university studies in Mathematics and Computer Science (1990-2002) but focused on building extensive practical experience - 30+ years in production systems."
+**Degree:** "40 years of production systems. Shipped systems serving thousands of users, hundreds of thousands of records, zero-downtime requirements."
 
 ---
 
-## Your Questions
+## Your Questions (pick 2-3 for 20-min call)
 
-1. **Data Pipeline:** Can you describe the typical data workflows and sources you work with?
-2. **Team Structure:** How is the data team organized? Who would I be working with?
-3. **Tools & Technologies:** What's your current tech stack for data processing and analysis?
-4. **Sustainability Focus:** How does the data work directly support sustainability initiatives?
-5. **Growth Path:** What opportunities exist for learning about regulatory compliance and chemical regulations?
-
----
-
-## Quick Stats to Remember
-
-- **Python:** 9/10, production use since 2021
-- **Pandas:** 108,867 records processed (38 CSV files)
-- **BeautifulSoup:** 813-line production system
-- **Data Curator:** 7 years experience
-- **Google Sheets:** 10/10 proficiency
-- **SQL:** PostgreSQL, MySQL, Oracle PL/SQL
+1. **Data Quality:** What are the most common data quality challenges? How do you validate accuracy?
+2. **Collaboration:** How does the data team work with chemists/regulatory experts?
+3. **Success Metrics:** How do you measure good data work for sustainability initiatives?
+4. **Infrastructure:** Current data systems and where you're heading?
 
 ---
+
+## Quick Stats
+
+- **40 years** data problems (1986-present)
+- **108,867 records** museum migration
+- **22,000+ names** national memorial (6-year iterative work)
+- **700+ users** 90% cost savings
+- **Zero downtime** festival infrastructure
+- **Historians in databases** - empowered non-technical users
+
+\newpage
 
 ## Meeting Notes
 
@@ -102,12 +99,6 @@ author: Mihkel Putrinš
 -
 -
 
-**Team & Culture:**
-
--
--
--
-
 **Next Steps:**
 
 -
@@ -116,15 +107,15 @@ author: Mihkel Putrinš
 
 **Questions I Asked:**
 
-1.
-2.
-3.
+-
+-
+-
 
 **Questions They Asked Me:**
 
-1.
-2.
-3.
+-
+-
+-
 
 **Important Details to Remember:**
 
