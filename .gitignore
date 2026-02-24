@@ -90,8 +90,7 @@ temp/
 *.tmp
 riigihanked/queue.txt
 knowledge_base/.obsidian/workspace.json
-applications/**/communications/*.mp3
-applications/**/communications/*.zip
+applications/**/communications/
 
 # Personal/Sensitive Documents - Employment Contracts
 # Contains: isikukood, home address, salary, bank info
